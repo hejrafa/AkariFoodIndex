@@ -1,0 +1,89 @@
+name: Refresh Akari Food Index
+
+on:
+  schedule:
+    - cron: '17 3 * * 0'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: food-index-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 330
+    env:
+      OFF_EXPORT_URL: https://static.openfoodfacts.org/data/openfoodfacts-products.jsonl.gz
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Verify the index builder
+        run: python3 -m unittest test_index.py
+
+      - name: Download the official Open Food Facts export
+        run: |
+          mkdir -p downloads dist
+          curl --fail --location --retry 5 --retry-delay 20 \
+            --output downloads/openfoodfacts-products.jsonl.gz \
+            "$OFF_EXPORT_URL"
+
+      - name: Build country catalogues
+        env:
+          RELEASE_BASE_URL: https://github.com/${{ github.repository }}/releases/latest/download
+        run: |
+          CATALOG_VERSION="$(date -u +'%Y-%m-%dT%H:%M:%SZ')"
+          echo "CATALOG_VERSION=$CATALOG_VERSION" >> "$GITHUB_ENV"
+          python3 build_index.py \
+            --off-jsonl downloads/openfoodfacts-products.jsonl.gz \
+            --market DE=en:germany \
+            --market AT=en:austria \
+            --market CH=en:switzerland \
+            --market US=en:united-states \
+            --market CA=en:canada \
+            --market GB=en:united-kingdom \
+            --market IE=en:ireland \
+            --market AU=en:australia \
+            --market NZ=en:new-zealand \
+            --output-dir dist \
+            --base-url "$RELEASE_BASE_URL" \
+            --catalog-version "$CATALOG_VERSION"
+
+      - name: Verify generated databases
+        run: |
+          python3 - <<'PY'
+          import hashlib, json, pathlib, sqlite3
+          root = pathlib.Path("dist")
+          manifest = json.loads((root / "manifest.json").read_text())
+          assert manifest["schemaVersion"] == 1
+          for market, asset in manifest["markets"].items():
+              path = root / asset["filename"]
+              digest = hashlib.sha256()
+              with path.open("rb") as handle:
+                  while chunk := handle.read(1024 * 1024):
+                      digest.update(chunk)
+              digest = digest.hexdigest()
+              assert digest == asset["sha256"], market
+              database = sqlite3.connect(f"file:{path}?mode=ro", uri=True)
+              assert database.execute("PRAGMA quick_check").fetchone()[0] == "ok"
+              assert database.execute("PRAGMA user_version").fetchone()[0] == 1
+              assert database.execute("SELECT value FROM metadata WHERE key='market'").fetchone()[0] == market
+              database.close()
+          PY
+
+      - name: Publish immutable snapshot and move latest pointer
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          RELEASE_TAG="catalog-$(date -u +'%Y%m%d')-${GITHUB_RUN_NUMBER}"
+          gh release create "$RELEASE_TAG" dist/* \
+            --title "Akari Food Index $CATALOG_VERSION" \
+            --notes "Automated Open Food Facts market snapshot. ODbL 1.0; attribution: Open Food Facts." \
+            --latest
+
+      - name: Remove local source export
+        if: always()
+        run: rm -f downloads/openfoodfacts-products.jsonl.gz
