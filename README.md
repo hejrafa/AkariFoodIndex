@@ -26,11 +26,11 @@ nor hot cache is part of the App Store bundle or iCloud backup.
 
 ## Build
 
-Download the official Open Food Facts JSONL export and run:
+Download the official Open Food Facts tab-separated CSV export and run:
 
 ```sh
 python3 FoodIndex/build_index.py \
-  --off-jsonl openfoodfacts-products.jsonl.gz \
+  --off-export en.openfoodfacts.org.products.csv.gz \
   --market DE=en:germany \
   --market AT=en:austria \
   --market CH=en:switzerland \

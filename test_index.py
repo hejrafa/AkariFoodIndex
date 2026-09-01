@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 from __future__ import annotations
 
+import csv
+import gzip
 import json
 import sqlite3
 import subprocess
@@ -79,6 +81,55 @@ class FoodIndexBuilderTests(unittest.TestCase):
             self.assertEqual(manifest["schemaVersion"], 1)
             self.assertEqual(manifest["markets"]["DE"]["familyCount"], 2)
             self.assertEqual(manifest["markets"]["US"]["skuCount"], 1)
+
+    def test_builder_reads_the_official_tab_separated_csv_shape(self) -> None:
+        value = {
+            "code": "3011360021502",
+            "product_name": "Fol Epi Classic",
+            "brands": "Fol Epi",
+            "countries_tags": "en:france,en:germany",
+            "last_modified_t": "1788256800",
+            "completeness": "0.9",
+            "serving_size": "1 slice (40 g)",
+            "serving_quantity": "40",
+            "image_url": "https://example.com/fol-epi.jpg",
+            "nutriscore_grade": "d",
+            "nova_group": "4",
+            "nutrient_levels_tags": (
+                "en:fat-in-high-quantity,en:sugars-in-low-quantity"
+            ),
+            "energy-kcal_100g": "361",
+            "proteins_100g": "24",
+            "fat_100g": "29",
+            "carbohydrates_100g": "0.5",
+            "calcium_100g": "0.5",
+            "selenium_100g": "0.000012",
+        }
+        with tempfile.TemporaryDirectory() as directory:
+            temporary = Path(directory)
+            source = temporary / "off.csv.gz"
+            with gzip.open(source, "wt", encoding="utf-8", newline="") as handle:
+                writer = csv.DictWriter(
+                    handle, fieldnames=list(value), delimiter="\t")
+                writer.writeheader()
+                writer.writerow(value)
+            output = temporary / "dist"
+            subprocess.run([
+                "python3", str(ROOT / "build_index.py"),
+                "--off-export", str(source),
+                "--market", "DE=en:germany",
+                "--output-dir", str(output),
+                "--catalog-version", "2026-09-01T00:00:00Z",
+            ], check=True)
+
+            database = sqlite3.connect(output / "akari-food-de.sqlite")
+            product = database.execute(
+                """SELECT calories, nutrient_count, micronutrient_count,
+                          nutrient_levels_json
+                   FROM sku""").fetchone()
+            database.close()
+            self.assertEqual(product[:3], (361, 6, 2))
+            self.assertEqual(json.loads(product[3]), {"fat": "high", "sugars": "low"})
 
 
 if __name__ == "__main__":

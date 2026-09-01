@@ -17,7 +17,7 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 330
     env:
-      OFF_EXPORT_URL: https://static.openfoodfacts.org/data/openfoodfacts-products.jsonl.gz
+      OFF_EXPORT_URL: https://static.openfoodfacts.org/data/en.openfoodfacts.org.products.csv.gz
     steps:
       - uses: actions/checkout@v5
 
@@ -28,7 +28,7 @@ jobs:
         run: |
           mkdir -p downloads dist
           curl --fail --location --retry 5 --retry-delay 20 \
-            --output downloads/openfoodfacts-products.jsonl.gz \
+            --output downloads/openfoodfacts-products.csv.gz \
             "$OFF_EXPORT_URL"
 
       - name: Build country catalogues
@@ -38,7 +38,7 @@ jobs:
           CATALOG_VERSION="$(date -u +'%Y-%m-%dT%H:%M:%SZ')"
           echo "CATALOG_VERSION=$CATALOG_VERSION" >> "$GITHUB_ENV"
           python3 build_index.py \
-            --off-jsonl downloads/openfoodfacts-products.jsonl.gz \
+            --off-export downloads/openfoodfacts-products.csv.gz \
             --market DE=en:germany \
             --market AT=en:austria \
             --market CH=en:switzerland \
@@ -86,4 +86,4 @@ jobs:
 
       - name: Remove local source export
         if: always()
-        run: rm -f downloads/openfoodfacts-products.jsonl.gz
+        run: rm -f downloads/openfoodfacts-products.csv.gz

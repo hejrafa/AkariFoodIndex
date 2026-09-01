@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Build market-specific, read-only Akari packaged-food indexes.
 
-The builder streams an unmodified Open Food Facts JSONL/JSONL.GZ export,
+The builder streams an unmodified Open Food Facts CSV or JSONL export,
 normalizes label data, validates barcodes and nutrition, groups duplicate
 product identities, and emits one SQLite database per requested market.
 
@@ -13,6 +13,7 @@ from __future__ import annotations
 
 import argparse
 import contextlib
+import csv
 import datetime as dt
 import gzip
 import hashlib
@@ -180,7 +181,27 @@ def family_identity(name: str, brand: str | None, barcode: str) -> tuple[str, st
 
 
 def source_hash(record: dict[str, Any]) -> str:
-    encoded = json.dumps(record, ensure_ascii=False, sort_keys=True,
+    fields = {
+        "code", "product_name", "product_name_en", "product_name_de", "brands",
+        "last_modified_t", "completeness", "serving_size", "serving_quantity",
+        "serving_quantity_unit", "image_url", "image_small_url",
+        "image_front_url", "image_front_small_url", "nutriscore_grade",
+        "nutrition_grades", "nova_group", "nutrient_levels",
+        "nutrient_levels_tags", "data_quality_errors_tags",
+        "data_quality_warnings_tags", "nutriments",
+        *SUPPORTED_NUTRIENTS.values(),
+    }
+    flattened = set()
+    for value in fields:
+        if isinstance(value, tuple):
+            flattened.update(value)
+        else:
+            flattened.add(value)
+    projection = {
+        key: record[key] for key in flattened
+        if key in record and record[key] not in (None, "", [], {})
+    }
+    encoded = json.dumps(projection, ensure_ascii=False, sort_keys=True,
                          separators=(",", ":")).encode()
     return hashlib.sha256(encoded).hexdigest()
 
@@ -195,6 +216,28 @@ def serving(record: dict[str, Any]) -> tuple[float | None, str | None]:
     if grams is not None and unit and unit not in {"g", "gram", "grams"}:
         grams = None
     return grams, text(record.get("serving_size"))
+
+
+def product_image(record: dict[str, Any]) -> str | None:
+    return text(record.get("image_url") or record.get("image_front_url")
+                or record.get("image_small_url") or record.get("image_front_small_url"))
+
+
+def nutrient_levels(record: dict[str, Any]) -> dict[str, str]:
+    raw = record.get("nutrient_levels")
+    if isinstance(raw, dict):
+        return {str(key): str(value) for key, value in raw.items()}
+    result: dict[str, str] = {}
+    for tag in string_list(record.get("nutrient_levels_tags")):
+        normalized = tag.removeprefix("en:")
+        for nutrient in ("fat", "saturated-fat", "sugars", "salt"):
+            prefix = f"{nutrient}-in-"
+            suffix = "-quantity"
+            if normalized.startswith(prefix) and normalized.endswith(suffix):
+                level = normalized[len(prefix):-len(suffix)]
+                if level in {"low", "moderate", "high"}:
+                    result[nutrient] = level
+    return result
 
 
 @dataclass(frozen=True)
@@ -248,7 +291,7 @@ class Product:
             micro_count * 1_000
             + len(nutrients) * 50
             + round(min(completeness, 1) * 100)
-            + (25 if text(record.get("image_front_url") or record.get("image_front_small_url")) else 0)
+            + (25 if product_image(record) else 0)
             - quality_errors * 500
             - quality_warnings * 25
             - len(validation) * 100
@@ -289,61 +332,50 @@ class IndexWriter:
             self.family_ids[product.family_key] = family_id
 
         grams, serving_label = serving(record)
-        categories = string_list(record.get("categories"))
-        category_tags = string_list(record.get("categories_tags"))
-        levels = record.get("nutrient_levels") if isinstance(record.get("nutrient_levels"), dict) else {}
+        levels = nutrient_levels(record)
         completeness = finite(record.get("completeness"))
         nova = finite(record.get("nova_group"))
         cursor = self.connection.execute(
             """INSERT INTO sku(
-                family_id, barcode, product_name, brand, market, quantity,
-                serving_grams, serving_label, image_url, generic_name,
-                categories_json, category_tags_json, ingredients_text,
-                nutri_score, nova_group, nutrient_levels_json, nutrients_json,
+                family_id, barcode, product_name, brand, market,
+                serving_grams, serving_label, image_url,
+                nutri_score, nova_group, nutrient_levels_json, calories,
                 nutrient_count, micronutrient_count, completeness, quality_score,
-                source_modified_at, source_hash
-            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                source_modified_at, record_hash, validation_json
+            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
             ON CONFLICT(barcode) DO UPDATE SET
                 family_id=excluded.family_id,
                 product_name=excluded.product_name,
                 brand=excluded.brand,
                 market=excluded.market,
-                quantity=excluded.quantity,
                 serving_grams=excluded.serving_grams,
                 serving_label=excluded.serving_label,
                 image_url=excluded.image_url,
-                generic_name=excluded.generic_name,
-                categories_json=excluded.categories_json,
-                category_tags_json=excluded.category_tags_json,
-                ingredients_text=excluded.ingredients_text,
                 nutri_score=excluded.nutri_score,
                 nova_group=excluded.nova_group,
                 nutrient_levels_json=excluded.nutrient_levels_json,
-                nutrients_json=excluded.nutrients_json,
+                calories=excluded.calories,
                 nutrient_count=excluded.nutrient_count,
                 micronutrient_count=excluded.micronutrient_count,
                 completeness=excluded.completeness,
                 quality_score=excluded.quality_score,
                 source_modified_at=excluded.source_modified_at,
-                source_hash=excluded.source_hash
+                record_hash=excluded.record_hash,
+                validation_json=excluded.validation_json
             WHERE excluded.quality_score > sku.quality_score
                OR (excluded.quality_score = sku.quality_score
                    AND COALESCE(excluded.source_modified_at, 0) > COALESCE(sku.source_modified_at, 0))
             RETURNING id""",
             (
                 family_id, product.barcode, product.name, product.brand,
-                self.market.code, text(record.get("quantity")), grams, serving_label,
-                text(record.get("image_front_url") or record.get("image_front_small_url")),
-                text(record.get("generic_name")), json.dumps(categories, ensure_ascii=False),
-                json.dumps(category_tags, ensure_ascii=False), text(record.get("ingredients_text")),
+                self.market.code, grams, serving_label, product_image(record),
                 text(record.get("nutriscore_grade") or record.get("nutrition_grades")),
                 int(nova) if nova is not None else None,
                 json.dumps(levels, ensure_ascii=False, sort_keys=True),
-                json.dumps(product.nutrients, ensure_ascii=False, sort_keys=True,
-                           separators=(",", ":")),
+                product.nutrients["calories"],
                 len(product.nutrients), len(MICRONUTRIENTS.intersection(product.nutrients)),
                 completeness, product.quality_score, product.source_modified_at,
-                product.source_hash,
+                product.source_hash, json.dumps(product.validation),
             ))
         returned = cursor.fetchone()
         if returned is None:
@@ -356,13 +388,6 @@ class IndexWriter:
         else:
             sku_id = int(returned[0])
 
-        self.connection.execute(
-            """INSERT OR IGNORE INTO source_record(
-                sku_id, source, source_id, imported_at, source_modified_at,
-                record_hash, validation_json
-            ) VALUES (?, 'openFoodFacts', ?, ?, ?, ?, ?)""",
-            (sku_id, product.barcode, self.generated_at, product.source_modified_at,
-             product.source_hash, json.dumps(product.validation)))
         self.product_count += 1
         if self.product_count % 25_000 == 0:
             self.connection.commit()
@@ -384,9 +409,8 @@ class IndexWriter:
             """UPDATE family SET variant_count = (
                 SELECT COUNT(*) FROM sku WHERE sku.family_id = family.id)""")
         self.connection.execute(
-            """INSERT INTO family_search(rowid, canonical_name, canonical_brand, aliases)
-                SELECT id, canonical_name, COALESCE(canonical_brand, ''),
-                       TRIM(COALESCE(canonical_brand, '') || ' ' || canonical_name)
+            """INSERT INTO family_search(rowid, searchable)
+                SELECT id, TRIM(COALESCE(canonical_brand, '') || ' ' || canonical_name)
                 FROM family""")
         metadata = {
             "schemaVersion": str(SCHEMA_VERSION),
@@ -417,11 +441,14 @@ class IndexWriter:
         }
 
 
-def open_jsonl(path: Path) -> Iterator[dict[str, Any]]:
+def open_export(path: Path) -> Iterator[dict[str, Any]]:
     handle = (gzip.open(path, "rt", encoding="utf-8", errors="replace")
               if path.suffix == ".gz"
               else path.open("r", encoding="utf-8", errors="replace"))
     with handle:
+        if path.name.endswith(".csv") or path.name.endswith(".csv.gz"):
+            yield from csv.DictReader(handle, delimiter="\t")
+            return
         for line_number, line in enumerate(handle, 1):
             try:
                 value = json.loads(line)
@@ -463,7 +490,8 @@ def write_manifest(output: Path, generated_at: str,
 
 def main() -> None:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--off-jsonl", required=True, type=Path)
+    parser.add_argument("--off-export", "--off-jsonl", dest="off_export",
+                        required=True, type=Path)
     parser.add_argument("--market", action="append", required=True, type=Market.parse)
     parser.add_argument("--output-dir", required=True, type=Path)
     parser.add_argument("--schema", type=Path,
@@ -484,7 +512,7 @@ def main() -> None:
     }
     accepted = 0
     try:
-        for record in open_jsonl(args.off_jsonl):
+        for record in open_export(args.off_export):
             product = Product.from_record(record)
             if product is None:
                 continue

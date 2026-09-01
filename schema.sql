@@ -30,36 +30,20 @@ CREATE TABLE sku (
     product_name TEXT NOT NULL,
     brand TEXT,
     market TEXT NOT NULL,
-    quantity TEXT,
     serving_grams REAL,
     serving_label TEXT,
     image_url TEXT,
-    generic_name TEXT,
-    categories_json TEXT NOT NULL DEFAULT '[]',
-    category_tags_json TEXT NOT NULL DEFAULT '[]',
-    ingredients_text TEXT,
     nutri_score TEXT,
     nova_group INTEGER,
     nutrient_levels_json TEXT NOT NULL DEFAULT '{}',
-    nutrients_json TEXT NOT NULL,
+    calories REAL NOT NULL,
     nutrient_count INTEGER NOT NULL,
     micronutrient_count INTEGER NOT NULL,
     completeness REAL,
     quality_score INTEGER NOT NULL,
     source_modified_at INTEGER,
-    source_hash TEXT NOT NULL
-);
-
-CREATE TABLE source_record (
-    id INTEGER PRIMARY KEY,
-    sku_id INTEGER NOT NULL REFERENCES sku(id) ON DELETE CASCADE,
-    source TEXT NOT NULL,
-    source_id TEXT NOT NULL,
-    imported_at TEXT NOT NULL,
-    source_modified_at INTEGER,
     record_hash TEXT NOT NULL,
-    validation_json TEXT NOT NULL DEFAULT '[]',
-    UNIQUE(source, source_id, record_hash)
+    validation_json TEXT NOT NULL DEFAULT '[]'
 );
 
 CREATE INDEX sku_family_index ON sku(family_id);
@@ -69,9 +53,7 @@ CREATE INDEX sku_quality_index ON sku(family_id, quality_score DESC);
 -- FTS contains one row per canonical family. Search therefore cannot expose
 -- thirty upstream copies of the same named product.
 CREATE VIRTUAL TABLE family_search USING fts5(
-    canonical_name,
-    canonical_brand,
-    aliases,
+    searchable,
+    content = '',
     tokenize = 'unicode61 remove_diacritics 2'
 );
-
