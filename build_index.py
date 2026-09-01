@@ -447,6 +447,10 @@ def open_export(path: Path) -> Iterator[dict[str, Any]]:
               else path.open("r", encoding="utf-8", errors="replace"))
     with handle:
         if path.name.endswith(".csv") or path.name.endswith(".csv.gz"):
+            # Ingredient and packaging fields can exceed Python's conservative
+            # 128 KiB CSV default even though the compact index ignores most
+            # of that text.
+            csv.field_size_limit(16 * 1024 * 1024)
             yield from csv.DictReader(handle, delimiter="\t")
             return
         for line_number, line in enumerate(handle, 1):

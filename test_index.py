@@ -104,6 +104,7 @@ class FoodIndexBuilderTests(unittest.TestCase):
             "carbohydrates_100g": "0.5",
             "calcium_100g": "0.5",
             "selenium_100g": "0.000012",
+            "unused_large_field": "x" * 140_000,
         }
         with tempfile.TemporaryDirectory() as directory:
             temporary = Path(directory)
