@@ -175,6 +175,14 @@ def family_name(name: str) -> str:
 def family_identity(name: str, brand: str | None, barcode: str) -> tuple[str, str, str]:
     normalized_name = normalized_text(family_name(name))
     normalized_brand = normalized_text(brand)
+    # Upstream alternates between names such as "Classic" and "Fol Epi
+    # Classic" while carrying the same Fol Epi brand. A repeated leading brand
+    # is presentation, not a distinct product identity.
+    brand_prefix = f"{normalized_brand} "
+    if normalized_brand and normalized_name.startswith(brand_prefix):
+        without_brand = normalized_name[len(brand_prefix):].strip()
+        if without_brand:
+            normalized_name = without_brand
     # Products without a brand are too ambiguous to merge automatically.
     family_key = f"{normalized_brand}|{normalized_name}" if normalized_brand else f"{barcode}|{normalized_name}"
     return family_key, normalized_name, normalized_brand

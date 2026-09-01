@@ -40,6 +40,7 @@ class FoodIndexBuilderTests(unittest.TestCase):
             record("3011360021502", "Fol Epi Classic", 361, 500, modified=2),
             record("3123930651696", "Fol Epi, Classic", 362, 510, modified=3),
             record("7613035974685", "Fol Epi Classic 150 g", 360, 520, modified=4),
+            record("4056489626633", "Classic", 361, 500, modified=1),
             record("4002468181006", "Fol Epi Light", 280, 600),
             record("0098001463511", "US only", 100, 10,
                    countries=["en:united-states"]),
@@ -64,11 +65,11 @@ class FoodIndexBuilderTests(unittest.TestCase):
 
             database = sqlite3.connect(output / "akari-food-de.sqlite")
             self.assertEqual(database.execute("SELECT COUNT(*) FROM family").fetchone()[0], 2)
-            self.assertEqual(database.execute("SELECT COUNT(*) FROM sku").fetchone()[0], 4)
+            self.assertEqual(database.execute("SELECT COUNT(*) FROM sku").fetchone()[0], 5)
             family = database.execute(
-                "SELECT canonical_name, variant_count FROM family WHERE normalized_name LIKE 'fol epi classic'"
+                "SELECT canonical_name, variant_count FROM family WHERE normalized_name = 'classic'"
             ).fetchone()
-            self.assertEqual(family, ("Fol Epi Classic 150 g", 3))
+            self.assertEqual(family, ("Fol Epi Classic 150 g", 4))
             results = database.execute(
                 """SELECT f.canonical_name FROM family_search s
                    JOIN family f ON f.id = s.rowid
