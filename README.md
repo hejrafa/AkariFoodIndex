@@ -1,8 +1,13 @@
 # AkariFoodIndex
 
-This pipeline turns the Open Food Facts bulk export into small, market-specific
-SQLite search indexes for Akari. It keeps the original ODbL-derived packaged
-product layer separate from Akari's bundled BLS/USDA reference-food overlay.
+This pipeline publishes two deliberately separate kinds of SQLite food data:
+
+- market-specific Open Food Facts product and barcode indexes; and
+- Akari's generic-food reference index built from BLS, USDA FoodData Central,
+  UK CoFID, French Ciqual, and Japan MEXT composition tables.
+
+Keeping the ODbL product layer separate from the national reference tables
+preserves source provenance and keeps each database's licence unambiguous.
 
 Source exports come from the official [Open Food Facts data page](https://world.openfoodfacts.org/data).
 Database and pipeline licensing are documented in `LICENSE.md`.
@@ -42,22 +47,31 @@ python3 FoodIndex/build_index.py \
 metadata for each database. Generated databases and source dumps never belong
 in Git history; publish them as GitHub Release assets or object-storage files.
 
+The release also contains `reference-foods.sqlite` and
+`reference-manifest.json`. The reference database is built and reviewed in the
+Akari application repository, then its hash, schema, source counts, integrity,
+and 103-item curated verification boundary are checked again here before it is
+published. National-table rows do not become verified merely because they have
+many nutrients.
+
 ## Verify
 
 ```sh
 python3 -m unittest FoodIndex/test_index.py
 ```
 
-Open Food Facts data is licensed under ODbL 1.0. Product images have separate
-CC BY-SA terms. Keep attribution visible and review the upstream reuse guidance
-before changing distribution or contribution behavior.
+Open Food Facts data is licensed under ODbL 1.0. Reference-table terms range
+from CC0 to attribution licences and are listed in `LICENSE.md`. Product images
+have separate CC BY-SA terms. Keep attribution visible and review the upstream
+reuse guidance before changing distribution or contribution behavior.
 
 ## Publishing
 
 `.github/workflows/refresh.yml` is the complete distribution workflow. It
 refreshes the core German-speaking and English-speaking markets weekly,
-verifies every database and SHA-256 digest, then publishes immutable GitHub
-Release assets with a stable `latest` URL.
+validates the independent generic-food reference database, verifies every
+SQLite file and SHA-256 digest, then publishes immutable GitHub Release assets
+with a stable `latest` URL.
 
 Published catalogues are available from the
 [`hejrafa/AkariFoodIndex`](https://github.com/hejrafa/AkariFoodIndex) releases.

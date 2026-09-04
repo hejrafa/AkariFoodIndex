@@ -18,6 +18,7 @@ jobs:
     timeout-minutes: 330
     env:
       OFF_EXPORT_URL: https://static.openfoodfacts.org/data/en.openfoodfacts.org.products.csv.gz
+      REFERENCE_INDEX_URL: https://raw.githubusercontent.com/hejrafa/Akari/main/Akari/ReferenceFoods.sqlite
     steps:
       - uses: actions/checkout@v5
 
@@ -52,6 +53,12 @@ jobs:
             --base-url "$RELEASE_BASE_URL" \
             --catalog-version "$CATALOG_VERSION"
 
+      - name: Download Akari's national reference index
+        run: |
+          curl --fail --location --retry 5 --retry-delay 10 \
+            --output dist/reference-foods.sqlite \
+            "$REFERENCE_INDEX_URL"
+
       - name: Verify generated databases
         run: |
           python3 - <<'PY'
@@ -72,6 +79,43 @@ jobs:
               assert database.execute("PRAGMA user_version").fetchone()[0] == 1
               assert database.execute("SELECT value FROM metadata WHERE key='market'").fetchone()[0] == market
               database.close()
+
+          reference_path = root / "reference-foods.sqlite"
+          database = sqlite3.connect(f"file:{reference_path}?mode=ro", uri=True)
+          assert database.execute("PRAGMA quick_check").fetchone()[0] == "ok"
+          assert database.execute("PRAGMA application_id").fetchone()[0] == 1095455302
+          assert database.execute("PRAGMA user_version").fetchone()[0] == 3
+          source_counts = dict(database.execute(
+              "SELECT source, COUNT(*) FROM reference_food GROUP BY source"))
+          assert set(source_counts) == {"bls", "usda", "cofid", "ciqual", "mext"}
+          assert all(count > 0 for count in source_counts.values())
+          verified_counts = dict(database.execute(
+              "SELECT source, COUNT(*) FROM reference_food WHERE is_verified = 1 GROUP BY source"))
+          assert verified_counts == {"bls": 101, "usda": 2}
+          sources = json.loads(database.execute(
+              "SELECT value FROM metadata WHERE key='sources'").fetchone()[0])
+          assert set(sources) == set(source_counts)
+          source_files = json.loads(database.execute(
+              "SELECT value FROM metadata WHERE key='source_files'").fetchone()[0])
+          assert set(source_files) >= {"cofid", "ciqual", "mext"}
+          assert all(item.get("sha256") and item.get("size", 0) > 0
+                     for items in source_files.values() for item in items)
+          database.close()
+
+          digest = hashlib.sha256(reference_path.read_bytes()).hexdigest()
+          reference_manifest = {
+              "schemaVersion": 3,
+              "filename": reference_path.name,
+              "sha256": digest,
+              "size": reference_path.stat().st_size,
+              "foodCount": sum(source_counts.values()),
+              "foodCountBySource": source_counts,
+              "verifiedFoodCount": sum(verified_counts.values()),
+              "sources": sources,
+              "sourceFiles": source_files,
+          }
+          (root / "reference-manifest.json").write_text(
+              json.dumps(reference_manifest, ensure_ascii=False, indent=2) + "\n")
           PY
 
       - name: Publish immutable snapshot and move latest pointer
@@ -81,7 +125,7 @@ jobs:
           RELEASE_TAG="catalog-$(date -u +'%Y%m%d')-${GITHUB_RUN_NUMBER}"
           gh release create "$RELEASE_TAG" dist/* \
             --title "Akari Food Index $CATALOG_VERSION" \
-            --notes "Automated Open Food Facts market snapshot. ODbL 1.0; attribution: Open Food Facts." \
+            --notes "Open Food Facts market snapshots plus Akari's separate BLS, USDA, CoFID, Ciqual, and MEXT generic-food reference index. See LICENSE.md for source-specific terms and attribution." \
             --latest
 
       - name: Remove local source export
