@@ -18,7 +18,6 @@ jobs:
     timeout-minutes: 330
     env:
       OFF_EXPORT_URL: https://static.openfoodfacts.org/data/en.openfoodfacts.org.products.csv.gz
-      REFERENCE_INDEX_URL: https://raw.githubusercontent.com/hejrafa/Akari/main/Akari/ReferenceFoods.sqlite
     steps:
       - uses: actions/checkout@v5
 
@@ -53,11 +52,21 @@ jobs:
             --base-url "$RELEASE_BASE_URL" \
             --catalog-version "$CATALOG_VERSION"
 
-      - name: Download Akari's national reference index
+      - name: Check out Akari's national reference index
+        uses: actions/checkout@v5
+        with:
+          repository: hejrafa/Akari
+          ref: main
+          path: akari-reference
+          sparse-checkout: Akari/ReferenceFoods.sqlite
+          sparse-checkout-cone-mode: false
+          ssh-key: ${{ secrets.AKARI_SOURCE_DEPLOY_KEY }}
+          persist-credentials: false
+
+      - name: Stage Akari's national reference index
         run: |
-          curl --fail --location --retry 5 --retry-delay 10 \
-            --output dist/reference-foods.sqlite \
-            "$REFERENCE_INDEX_URL"
+          cp akari-reference/Akari/ReferenceFoods.sqlite \
+            dist/reference-foods.sqlite
 
       - name: Verify generated databases
         run: |
