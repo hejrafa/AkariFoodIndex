@@ -22,7 +22,7 @@ jobs:
       - uses: actions/checkout@v5
 
       - name: Verify the index builder
-        run: python3 -m unittest test_index.py
+        run: python3 -m unittest discover -p 'test_*.py'
 
       - name: Download the official Open Food Facts export
         run: |
@@ -74,7 +74,7 @@ jobs:
           import hashlib, json, pathlib, sqlite3
           root = pathlib.Path("dist")
           manifest = json.loads((root / "manifest.json").read_text())
-          assert manifest["schemaVersion"] == 1
+          assert manifest["schemaVersion"] == 4
           for market, asset in manifest["markets"].items():
               path = root / asset["filename"]
               digest = hashlib.sha256()
@@ -85,7 +85,7 @@ jobs:
               assert digest == asset["sha256"], market
               database = sqlite3.connect(f"file:{path}?mode=ro", uri=True)
               assert database.execute("PRAGMA quick_check").fetchone()[0] == "ok"
-              assert database.execute("PRAGMA user_version").fetchone()[0] == 1
+              assert database.execute("PRAGMA user_version").fetchone()[0] == 4
               assert database.execute("SELECT value FROM metadata WHERE key='market'").fetchone()[0] == market
               database.close()
 
@@ -93,7 +93,8 @@ jobs:
           database = sqlite3.connect(f"file:{reference_path}?mode=ro", uri=True)
           assert database.execute("PRAGMA quick_check").fetchone()[0] == "ok"
           assert database.execute("PRAGMA application_id").fetchone()[0] == 1095455302
-          assert database.execute("PRAGMA user_version").fetchone()[0] == 3
+          reference_schema = database.execute("PRAGMA user_version").fetchone()[0]
+          assert reference_schema in (3, 4)
           source_counts = dict(database.execute(
               "SELECT source, COUNT(*) FROM reference_food GROUP BY source"))
           assert set(source_counts) == {"bls", "usda", "cofid", "ciqual", "mext"}
@@ -107,13 +108,15 @@ jobs:
           source_files = json.loads(database.execute(
               "SELECT value FROM metadata WHERE key='source_files'").fetchone()[0])
           assert set(source_files) >= {"cofid", "ciqual", "mext"}
+          if reference_schema >= 4:
+              assert "usda" in source_files
           assert all(item.get("sha256") and item.get("size", 0) > 0
                      for items in source_files.values() for item in items)
           database.close()
 
           digest = hashlib.sha256(reference_path.read_bytes()).hexdigest()
           reference_manifest = {
-              "schemaVersion": 3,
+              "schemaVersion": reference_schema,
               "filename": reference_path.name,
               "sha256": digest,
               "size": reference_path.stat().st_size,
@@ -126,6 +129,21 @@ jobs:
           (root / "reference-manifest.json").write_text(
               json.dumps(reference_manifest, ensure_ascii=False, indent=2) + "\n")
           PY
+
+      - name: Audit classification coverage and queue unresolved families
+        run: python3 audit_classification.py dist --output dist/classification-audit.json
+
+      - name: Keep legacy clients on their compatible catalogue
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p previous-release
+          PREVIOUS_TAG="$(gh release view --json tagName --jq .tagName)"
+          gh release download "$PREVIOUS_TAG" --pattern manifest.json --dir previous-release
+          python3 prepare_release.py --directory dist \
+            --previous-manifest previous-release/manifest.json \
+            --previous-tag "$PREVIOUS_TAG" \
+            --base-url "https://github.com/${{ github.repository }}/releases/latest/download"
 
       - name: Publish immutable snapshot and move latest pointer
         env:

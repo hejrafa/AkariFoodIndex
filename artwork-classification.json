@@ -1,0 +1,1968 @@
+{
+  "version": 1,
+  "description": "Akari presentation classification. Exact source categories first; conservative product-line rules only when the entire remaining name is a reviewed qualifier. Never infer nutrients, allergens, alcohol counts or verified status.",
+  "taxonomySource": "https://openfoodfacts.github.io/documentation/docs/Product-Opener/schemas/schemas/product_tags/",
+  "rules": [
+    {
+      "id": "spread",
+      "artworkID": "plate",
+      "priority": 30,
+      "tags": [
+        "en:spreads",
+        "en:sweet-spreads",
+        "en:salted-spreads"
+      ],
+      "terms": [
+        "spread",
+        "aufstrich",
+        "brotaufstrich"
+      ]
+    },
+    {
+      "id": "sweet-spread",
+      "artworkID": "plate",
+      "priority": 100,
+      "tags": [
+        "en:chocolate-spreads",
+        "en:hazelnut-spreads",
+        "en:cocoa-and-hazelnuts-spreads",
+        "en:biscuit-spreads",
+        "en:nut-butters",
+        "en:peanut-butters",
+        "en:jams"
+      ],
+      "terms": [
+        "peanut butter",
+        "nutella",
+        "cookie butter",
+        "biscoff spread",
+        "marmelade",
+        "konfitüre",
+        "jam"
+      ]
+    },
+    {
+      "id": "sauce",
+      "artworkID": "plate",
+      "priority": 100,
+      "tags": [
+        "en:sauces",
+        "en:pasta-sauces",
+        "en:tomato-sauces",
+        "en:pestos",
+        "en:dressings",
+        "en:dips"
+      ],
+      "terms": [
+        "sauce",
+        "sauces",
+        "soße",
+        "sosse",
+        "pastasauce",
+        "dressing",
+        "dip",
+        "pesto"
+      ]
+    },
+    {
+      "id": "flour",
+      "artworkID": "plate",
+      "priority": 100,
+      "tags": [
+        "en:flours",
+        "en:cereal-flours"
+      ],
+      "terms": [
+        "flour",
+        "mehl",
+        "weizenmehl"
+      ]
+    },
+    {
+      "id": "powder",
+      "artworkID": "plate",
+      "priority": 100,
+      "tags": [
+        "en:protein-powders",
+        "en:meal-replacements",
+        "en:food-supplements"
+      ],
+      "terms": [
+        "powder",
+        "pulver",
+        "proteinpulver",
+        "supplement"
+      ]
+    },
+    {
+      "id": "oil",
+      "artworkID": "plate",
+      "priority": 100,
+      "tags": [
+        "en:oils",
+        "en:vegetable-oils",
+        "en:olive-oils"
+      ],
+      "terms": [
+        "oil",
+        "olive oil",
+        "olivenöl",
+        "sonnenblumenöl"
+      ]
+    },
+    {
+      "id": "yogurt",
+      "artworkID": "plate",
+      "priority": 80,
+      "tags": [
+        "en:yogurts",
+        "en:yoghurts",
+        "en:flavoured-yogurts",
+        "en:fruit-yogurts",
+        "en:plant-based-yogurts",
+        "en:fermented-milk-products-desserts"
+      ],
+      "terms": [
+        "yogurt",
+        "yoghurt",
+        "joghurt",
+        "jogurt",
+        "skyr",
+        "quark",
+        "fruchtquark",
+        "joghurtalternative",
+        "soja joghurtalternative"
+      ]
+    },
+    {
+      "id": "cream",
+      "artworkID": "plate",
+      "priority": 70,
+      "tags": [
+        "en:creams",
+        "en:dairy-creams"
+      ],
+      "terms": [
+        "whipping cream",
+        "sahne",
+        "schlagsahne"
+      ]
+    },
+    {
+      "id": "cheese",
+      "artworkID": "cheese",
+      "priority": 60,
+      "tags": [
+        "en:cheeses",
+        "en:sliced-cheeses",
+        "en:cow-cheeses",
+        "en:semi-hard-cheeses",
+        "en:hard-cheeses",
+        "en:soft-cheeses",
+        "en:cream-cheeses",
+        "en:cheese-spreads",
+        "en:processed-cheeses"
+      ],
+      "terms": [
+        "cheese",
+        "cheeses",
+        "käse",
+        "schnittkäse",
+        "frischkäse",
+        "gouda",
+        "emmentaler",
+        "emmental",
+        "cheddar",
+        "mozzarella",
+        "parmesan",
+        "camembert",
+        "brie",
+        "feta",
+        "ricotta",
+        "halloumi",
+        "fromage",
+        "kase"
+      ]
+    },
+    {
+      "id": "plant-cheese",
+      "artworkID": "cheese",
+      "priority": 65,
+      "tags": [
+        "en:plant-based-cheese-alternatives",
+        "en:vegan-cheeses"
+      ],
+      "terms": [
+        "vegan cheese",
+        "käsealternative"
+      ]
+    },
+    {
+      "id": "milk",
+      "artworkID": "milk",
+      "priority": 40,
+      "tags": [
+        "en:milks",
+        "en:cow-milks",
+        "en:plant-milks",
+        "en:plant-based-milks",
+        "en:milk-drinks",
+        "en:plant-based-drinks"
+      ],
+      "terms": [
+        "milk",
+        "milch",
+        "haferdrink",
+        "mandeldrink",
+        "sojadrink",
+        "oat drink",
+        "almond drink",
+        "soy drink",
+        "lait",
+        "magermilch",
+        "vollmilch"
+      ]
+    },
+    {
+      "id": "butter",
+      "artworkID": "butter",
+      "priority": 45,
+      "tags": [
+        "en:butters",
+        "en:salted-butters"
+      ],
+      "terms": [
+        "butter",
+        "beurre"
+      ]
+    },
+    {
+      "id": "ice-cream",
+      "artworkID": "ice-cream",
+      "priority": 90,
+      "tags": [
+        "en:ice-creams",
+        "en:ice-cream-bars",
+        "en:ice-creams-and-sorbets",
+        "en:sorbets"
+      ],
+      "terms": [
+        "ice cream",
+        "icecream",
+        "eiscreme",
+        "eiskrem",
+        "glace",
+        "sorbet",
+        "speiseeis"
+      ]
+    },
+    {
+      "id": "cake",
+      "artworkID": "cake",
+      "priority": 85,
+      "tags": [
+        "en:cakes",
+        "en:cheesecakes"
+      ],
+      "terms": [
+        "cake",
+        "cakes",
+        "cheesecake",
+        "kuchen",
+        "käsekuchen",
+        "gateau",
+        "torte"
+      ]
+    },
+    {
+      "id": "cookie",
+      "artworkID": "cookie",
+      "priority": 70,
+      "tags": [
+        "en:biscuits",
+        "en:cookies",
+        "en:chocolate-biscuits",
+        "en:sandwich-biscuits"
+      ],
+      "terms": [
+        "cookie",
+        "cookies",
+        "biscuit",
+        "biscuits",
+        "keks",
+        "kekse",
+        "speculoos",
+        "spekulatius"
+      ]
+    },
+    {
+      "id": "chocolate",
+      "artworkID": "chocolate",
+      "priority": 55,
+      "tags": [
+        "en:chocolates",
+        "en:chocolate-bars",
+        "en:chocolate-candies"
+      ],
+      "terms": [
+        "chocolate",
+        "schokolade",
+        "schokoriegel",
+        "chocolat"
+      ]
+    },
+    {
+      "id": "candy",
+      "artworkID": "candy",
+      "priority": 65,
+      "tags": [
+        "en:candies",
+        "en:gummi-candies",
+        "en:gummy-candies",
+        "en:liquorice",
+        "en:marshmallows"
+      ],
+      "terms": [
+        "candy",
+        "candies",
+        "gummies",
+        "gummy",
+        "fruchtgummi",
+        "bonbons",
+        "gummibärchen",
+        "lakritz",
+        "bonbon"
+      ]
+    },
+    {
+      "id": "cereal",
+      "artworkID": "cereal",
+      "priority": 80,
+      "tags": [
+        "en:breakfast-cereals",
+        "en:mueslis",
+        "en:granolas",
+        "en:cereal-flakes",
+        "en:oat-flakes"
+      ],
+      "terms": [
+        "cereal",
+        "cereals",
+        "müsli",
+        "muesli",
+        "granola",
+        "porridge",
+        "haferflocken",
+        "oat flakes",
+        "haferbrei",
+        "musli",
+        "oatmeal",
+        "oats",
+        "overnight oats"
+      ]
+    },
+    {
+      "id": "cereal-bar",
+      "artworkID": "plate",
+      "priority": 90,
+      "tags": [
+        "en:cereal-bars",
+        "en:protein-bars",
+        "en:energy-bars"
+      ],
+      "terms": [
+        "cereal bar",
+        "protein bar",
+        "proteinriegel",
+        "müsliriegel",
+        "muesliriegel"
+      ]
+    },
+    {
+      "id": "pasta",
+      "artworkID": "pasta",
+      "priority": 65,
+      "tags": [
+        "en:pastas",
+        "en:dry-pastas",
+        "en:fresh-pastas",
+        "en:egg-pastas"
+      ],
+      "terms": [
+        "pasta",
+        "spaghetti",
+        "tortiglioni",
+        "penne",
+        "rigatoni",
+        "ditalini",
+        "macaroni",
+        "tagliatelle",
+        "nudeln",
+        "farfalle",
+        "fusilli",
+        "eiernudeln",
+        "eierteigwaren",
+        "noodle",
+        "noodles",
+        "nudel",
+        "pates",
+        "rice noodles",
+        "reisnudeln"
+      ]
+    },
+    {
+      "id": "noodles",
+      "artworkID": "noodles",
+      "priority": 70,
+      "tags": [
+        "en:instant-noodles",
+        "en:ramen"
+      ],
+      "terms": [
+        "ramen",
+        "instant noodles",
+        "noodle soup",
+        "soba",
+        "udon"
+      ]
+    },
+    {
+      "id": "pizza",
+      "artworkID": "pizza",
+      "priority": 90,
+      "tags": [
+        "en:pizzas"
+      ],
+      "terms": [
+        "pizza",
+        "pizzas"
+      ]
+    },
+    {
+      "id": "sandwich",
+      "artworkID": "sandwich",
+      "priority": 90,
+      "tags": [
+        "en:sandwiches"
+      ],
+      "terms": [
+        "sandwich",
+        "sandwiches",
+        "belegtes brot",
+        "sandwichs"
+      ]
+    },
+    {
+      "id": "burger",
+      "artworkID": "burger",
+      "priority": 90,
+      "tags": [
+        "en:burgers",
+        "en:hamburgers"
+      ],
+      "terms": [
+        "burger",
+        "hamburger",
+        "cheeseburger",
+        "burgers",
+        "hamburgers"
+      ]
+    },
+    {
+      "id": "burrito",
+      "artworkID": "burrito",
+      "priority": 90,
+      "tags": [
+        "en:burritos"
+      ],
+      "terms": [
+        "burrito",
+        "burritos"
+      ]
+    },
+    {
+      "id": "soup",
+      "artworkID": "soup",
+      "priority": 90,
+      "tags": [
+        "en:soups",
+        "en:instant-soups"
+      ],
+      "terms": [
+        "soup",
+        "soups",
+        "suppe",
+        "suppen",
+        "eintopf",
+        "gemusesuppe",
+        "kartoffelsuppe",
+        "potage",
+        "soupe",
+        "stew",
+        "stews",
+        "tomatensuppe",
+        "chili con carne",
+        "chilli con carne",
+        "chili sin carne"
+      ]
+    },
+    {
+      "id": "prepared-meal",
+      "artworkID": "plate",
+      "priority": 25,
+      "tags": [
+        "en:meals",
+        "en:prepared-meals"
+      ],
+      "terms": [
+        "ready meal",
+        "fertiggericht"
+      ]
+    },
+    {
+      "id": "bread",
+      "artworkID": "bread",
+      "priority": 60,
+      "tags": [
+        "en:breads",
+        "en:sliced-breads"
+      ],
+      "terms": [
+        "bread",
+        "brot",
+        "toastbrot",
+        "vollkornbrot",
+        "mischbrot",
+        "pain",
+        "roggenbrot",
+        "toast",
+        "weissbrot"
+      ]
+    },
+    {
+      "id": "croissant",
+      "artworkID": "croissant",
+      "priority": 75,
+      "tags": [
+        "en:croissants"
+      ],
+      "terms": [
+        "croissant",
+        "croissants"
+      ]
+    },
+    {
+      "id": "bagel",
+      "artworkID": "bagel",
+      "priority": 75,
+      "tags": [
+        "en:bagels"
+      ],
+      "terms": [
+        "bagel",
+        "bagels"
+      ]
+    },
+    {
+      "id": "waffle",
+      "artworkID": "waffle",
+      "priority": 75,
+      "tags": [
+        "en:waffles"
+      ],
+      "terms": [
+        "waffle",
+        "waffles",
+        "waffeln",
+        "gaufre",
+        "gaufres",
+        "waffel"
+      ]
+    },
+    {
+      "id": "popcorn",
+      "artworkID": "popcorn",
+      "priority": 70,
+      "tags": [
+        "en:popcorn"
+      ],
+      "terms": [
+        "popcorn"
+      ]
+    },
+    {
+      "id": "crisps",
+      "artworkID": "plate",
+      "priority": 75,
+      "tags": [
+        "en:crisps",
+        "en:potato-crisps"
+      ],
+      "terms": [
+        "crisps",
+        "potato chips",
+        "kartoffelchips"
+      ]
+    },
+    {
+      "id": "rice",
+      "artworkID": "rice",
+      "priority": 50,
+      "tags": [
+        "en:rices"
+      ],
+      "terms": [
+        "rice",
+        "reis",
+        "basmatireis",
+        "riz",
+        "vollkornreis"
+      ]
+    },
+    {
+      "id": "egg",
+      "artworkID": "egg",
+      "priority": 50,
+      "tags": [
+        "en:eggs",
+        "en:chicken-eggs"
+      ],
+      "terms": [
+        "egg",
+        "eggs",
+        "ei",
+        "eier",
+        "oeuf",
+        "oeufs"
+      ]
+    },
+    {
+      "id": "fried-egg",
+      "artworkID": "fried-egg",
+      "priority": 60,
+      "tags": [
+        "en:fried-eggs"
+      ],
+      "terms": [
+        "fried egg",
+        "spiegelei",
+        "fried eggs",
+        "oeuf au plat",
+        "spiegeleier"
+      ]
+    },
+    {
+      "id": "meat",
+      "artworkID": "meat",
+      "priority": 40,
+      "tags": [
+        "en:meats",
+        "en:beef",
+        "en:pork",
+        "en:lamb"
+      ],
+      "terms": [
+        "beef",
+        "pork",
+        "lamb",
+        "rindfleisch",
+        "schweinefleisch",
+        "agneau",
+        "boeuf",
+        "kalbfleisch",
+        "lammfleisch",
+        "porc",
+        "rindersteak",
+        "steak",
+        "steaks",
+        "veal"
+      ]
+    },
+    {
+      "id": "poultry",
+      "artworkID": "poultry",
+      "priority": 50,
+      "tags": [
+        "en:poultries",
+        "en:chickens",
+        "en:chicken-breasts",
+        "en:turkeys"
+      ],
+      "terms": [
+        "chicken",
+        "turkey",
+        "hähnchen",
+        "hähnchenbrust",
+        "huhn",
+        "putenbrust",
+        "dinde",
+        "hahnchen",
+        "hahnchenbrust",
+        "huhnerfleisch",
+        "poulet",
+        "poultry",
+        "putenfleisch"
+      ]
+    },
+    {
+      "id": "bacon",
+      "artworkID": "bacon",
+      "priority": 60,
+      "tags": [
+        "en:bacons"
+      ],
+      "terms": [
+        "bacon",
+        "speck",
+        "fruhstucksspeck",
+        "lard"
+      ]
+    },
+    {
+      "id": "fish",
+      "artworkID": "fish",
+      "priority": 50,
+      "tags": [
+        "en:fishes",
+        "en:salmons",
+        "en:tunas",
+        "en:canned-fishes"
+      ],
+      "terms": [
+        "fish",
+        "salmon",
+        "tuna",
+        "fisch",
+        "lachs",
+        "thunfisch",
+        "cabillaud",
+        "cod",
+        "forelle",
+        "haddock",
+        "hering",
+        "herring",
+        "kabeljau",
+        "mackerel",
+        "makrele",
+        "poisson",
+        "sardine",
+        "sardines",
+        "saumon",
+        "thon",
+        "trout"
+      ]
+    },
+    {
+      "id": "shrimp",
+      "artworkID": "shrimp",
+      "priority": 55,
+      "tags": [
+        "en:shrimps"
+      ],
+      "terms": [
+        "shrimp",
+        "shrimps",
+        "prawns",
+        "garnelen",
+        "crevette",
+        "crevettes",
+        "garnele",
+        "prawn"
+      ]
+    },
+    {
+      "id": "coffee",
+      "artworkID": "coffee",
+      "priority": 65,
+      "tags": [
+        "en:coffees",
+        "en:coffee-drinks"
+      ],
+      "terms": [
+        "coffee",
+        "kaffee",
+        "espresso",
+        "cappuccino",
+        "cafe",
+        "latte"
+      ]
+    },
+    {
+      "id": "tea",
+      "artworkID": "tea",
+      "priority": 55,
+      "tags": [
+        "en:teas",
+        "en:herbal-teas"
+      ],
+      "terms": [
+        "tea",
+        "tee",
+        "matcha",
+        "earl grey",
+        "gruner tee",
+        "schwarzer tee",
+        "the noir",
+        "the vert"
+      ]
+    },
+    {
+      "id": "iced-tea",
+      "artworkID": "soft-drink",
+      "priority": 70,
+      "tags": [
+        "en:iced-teas"
+      ],
+      "terms": [
+        "iced tea",
+        "ice tea",
+        "eistee"
+      ]
+    },
+    {
+      "id": "juice",
+      "artworkID": "juice",
+      "priority": 65,
+      "tags": [
+        "en:fruit-juices",
+        "en:fruit-nectars",
+        "en:vegetable-juices",
+        "en:smoothies"
+      ],
+      "terms": [
+        "juice",
+        "nectar",
+        "nektar",
+        "saft",
+        "apfelsaft",
+        "orangensaft",
+        "smoothie",
+        "jus"
+      ]
+    },
+    {
+      "id": "soft-drink",
+      "artworkID": "soft-drink",
+      "priority": 65,
+      "tags": [
+        "en:sodas",
+        "en:energy-drinks",
+        "en:carbonated-drinks",
+        "en:soft-drinks"
+      ],
+      "terms": [
+        "soda",
+        "cola",
+        "lemonade",
+        "limonade",
+        "energy drink",
+        "energydrink",
+        "ginger ale",
+        "eistee",
+        "iced tea",
+        "milkshake",
+        "smoothie",
+        "soft drink"
+      ]
+    },
+    {
+      "id": "water",
+      "artworkID": "water",
+      "priority": 55,
+      "tags": [
+        "en:waters",
+        "en:spring-waters",
+        "en:mineral-waters"
+      ],
+      "terms": [
+        "water",
+        "mineralwasser",
+        "wasser",
+        "eau",
+        "leitungswasser"
+      ]
+    },
+    {
+      "id": "beer",
+      "artworkID": "beer",
+      "priority": 65,
+      "tags": [
+        "en:beers",
+        "en:non-alcoholic-beers"
+      ],
+      "terms": [
+        "beer",
+        "bier",
+        "biere",
+        "lager",
+        "pilsner"
+      ]
+    },
+    {
+      "id": "wine",
+      "artworkID": "wine",
+      "priority": 65,
+      "tags": [
+        "en:wines",
+        "en:non-alcoholic-wines"
+      ],
+      "terms": [
+        "wine",
+        "wein",
+        "rotwein",
+        "vin",
+        "weisswein"
+      ]
+    },
+    {
+      "id": "honey",
+      "artworkID": "honey",
+      "priority": 55,
+      "tags": [
+        "en:honeys"
+      ],
+      "terms": [
+        "honey",
+        "honig",
+        "miel"
+      ]
+    },
+    {
+      "id": "salt",
+      "artworkID": "salt",
+      "priority": 55,
+      "tags": [
+        "en:salts"
+      ],
+      "terms": [
+        "salt",
+        "salz",
+        "sel"
+      ]
+    },
+    {
+      "id": "banana",
+      "artworkID": "banana",
+      "priority": 20,
+      "tags": [
+        "en:bananas"
+      ],
+      "terms": [
+        "banana",
+        "bananas",
+        "banane",
+        "bananen"
+      ]
+    },
+    {
+      "id": "apple",
+      "artworkID": "apple",
+      "priority": 20,
+      "tags": [
+        "en:apples"
+      ],
+      "terms": [
+        "apple",
+        "apples",
+        "apfel",
+        "äpfel",
+        "pomme",
+        "pommes"
+      ]
+    },
+    {
+      "id": "strawberry",
+      "artworkID": "strawberry",
+      "priority": 20,
+      "tags": [
+        "en:strawberries"
+      ],
+      "terms": [
+        "strawberry",
+        "strawberries",
+        "erdbeere",
+        "erdbeeren",
+        "fraise",
+        "fraises"
+      ]
+    },
+    {
+      "id": "tomato",
+      "artworkID": "tomato",
+      "priority": 20,
+      "tags": [
+        "en:tomatoes"
+      ],
+      "terms": [
+        "tomato",
+        "tomatoes",
+        "tomate",
+        "tomaten",
+        "tomates"
+      ]
+    },
+    {
+      "id": "potato",
+      "artworkID": "potato",
+      "priority": 20,
+      "tags": [
+        "en:potatoes"
+      ],
+      "terms": [
+        "potato",
+        "potatoes",
+        "kartoffel",
+        "kartoffeln",
+        "pomme de terre",
+        "pommes de terre"
+      ]
+    },
+    {
+      "id": "carrot",
+      "artworkID": "carrot",
+      "priority": 20,
+      "tags": [
+        "en:carrots"
+      ],
+      "terms": [
+        "carrot",
+        "carrots",
+        "karotte",
+        "karotten",
+        "carotte",
+        "carottes",
+        "mohre",
+        "mohren"
+      ]
+    },
+    {
+      "id": "broccoli",
+      "artworkID": "broccoli",
+      "priority": 20,
+      "tags": [
+        "en:broccoli"
+      ],
+      "terms": [
+        "broccoli",
+        "brokkoli",
+        "brocoli"
+      ]
+    },
+    {
+      "id": "beans",
+      "artworkID": "beans",
+      "priority": 20,
+      "tags": [
+        "en:beans",
+        "en:lentils",
+        "en:chickpeas"
+      ],
+      "terms": [
+        "beans",
+        "lentils",
+        "chickpeas",
+        "bohnen",
+        "linsen",
+        "kichererbsen",
+        "bean",
+        "bohne",
+        "haricot",
+        "haricots",
+        "kidneybohnen"
+      ]
+    },
+    {
+      "id": "peanuts",
+      "artworkID": "peanuts",
+      "priority": 20,
+      "tags": [
+        "en:peanuts"
+      ],
+      "terms": [
+        "peanut",
+        "peanuts",
+        "erdnüsse",
+        "cacahuete",
+        "cacahuetes",
+        "erdnuss",
+        "erdnusse"
+      ]
+    },
+    {
+      "id": "nuts",
+      "artworkID": "plate",
+      "priority": 15,
+      "tags": [
+        "en:nuts",
+        "en:almonds",
+        "en:walnuts",
+        "en:cashew-nuts"
+      ],
+      "terms": [
+        "almonds",
+        "walnuts",
+        "cashews",
+        "mandeln",
+        "walnüsse"
+      ]
+    },
+    {
+      "id": "green-apple",
+      "artworkID": "green-apple",
+      "priority": 21,
+      "tags": [],
+      "terms": [
+        "granny smith",
+        "green apple",
+        "green apples",
+        "gruner apfel"
+      ]
+    },
+    {
+      "id": "pear",
+      "artworkID": "pear",
+      "priority": 20,
+      "tags": [],
+      "terms": [
+        "birne",
+        "birnen",
+        "pear",
+        "pears",
+        "poire",
+        "poires"
+      ]
+    },
+    {
+      "id": "orange",
+      "artworkID": "orange",
+      "priority": 20,
+      "tags": [],
+      "terms": [
+        "clementine",
+        "mandarin",
+        "mandarine",
+        "mandarinen",
+        "mandarins",
+        "orange",
+        "oranges",
+        "tangerine"
+      ]
+    },
+    {
+      "id": "lemon",
+      "artworkID": "lemon",
+      "priority": 20,
+      "tags": [],
+      "terms": [
+        "citron",
+        "lemon",
+        "lemons",
+        "zitrone",
+        "zitronen"
+      ]
+    },
+    {
+      "id": "watermelon",
+      "artworkID": "watermelon",
+      "priority": 20,
+      "tags": [],
+      "terms": [
+        "pasteque",
+        "wassermelone",
+        "watermelon",
+        "watermelons"
+      ]
+    },
+    {
+      "id": "grapes",
+      "artworkID": "grapes",
+      "priority": 20,
+      "tags": [],
+      "terms": [
+        "grape",
+        "grapes",
+        "raisins secs",
+        "trauben",
+        "weintraube",
+        "weintrauben"
+      ]
+    },
+    {
+      "id": "blueberries",
+      "artworkID": "blueberries",
+      "priority": 20,
+      "tags": [],
+      "terms": [
+        "blaubeere",
+        "blaubeeren",
+        "blueberries",
+        "blueberry",
+        "heidelbeere",
+        "heidelbeeren",
+        "myrtille",
+        "myrtilles"
+      ]
+    },
+    {
+      "id": "melon",
+      "artworkID": "melon",
+      "priority": 20,
+      "tags": [],
+      "terms": [
+        "cantaloupe",
+        "honigmelone",
+        "melon",
+        "melons"
+      ]
+    },
+    {
+      "id": "cherries",
+      "artworkID": "cherries",
+      "priority": 20,
+      "tags": [],
+      "terms": [
+        "cerise",
+        "cerises",
+        "cherries",
+        "cherry",
+        "kirsche",
+        "kirschen"
+      ]
+    },
+    {
+      "id": "peach",
+      "artworkID": "peach",
+      "priority": 20,
+      "tags": [],
+      "terms": [
+        "peach",
+        "peaches",
+        "peche",
+        "pfirsich",
+        "pfirsiche"
+      ]
+    },
+    {
+      "id": "mango",
+      "artworkID": "mango",
+      "priority": 20,
+      "tags": [],
+      "terms": [
+        "mango",
+        "mangoes",
+        "mangos"
+      ]
+    },
+    {
+      "id": "pineapple",
+      "artworkID": "pineapple",
+      "priority": 20,
+      "tags": [],
+      "terms": [
+        "ananas",
+        "pineapple",
+        "pineapples"
+      ]
+    },
+    {
+      "id": "coconut",
+      "artworkID": "coconut",
+      "priority": 20,
+      "tags": [],
+      "terms": [
+        "coconut",
+        "coconuts",
+        "kokosnuss",
+        "noix de coco"
+      ]
+    },
+    {
+      "id": "kiwi",
+      "artworkID": "kiwi",
+      "priority": 20,
+      "tags": [],
+      "terms": [
+        "kiwi",
+        "kiwifruit",
+        "kiwis"
+      ]
+    },
+    {
+      "id": "avocado",
+      "artworkID": "avocado",
+      "priority": 20,
+      "tags": [],
+      "terms": [
+        "avocado",
+        "avocados",
+        "avocat"
+      ]
+    },
+    {
+      "id": "eggplant",
+      "artworkID": "eggplant",
+      "priority": 20,
+      "tags": [],
+      "terms": [
+        "aubergine",
+        "auberginen",
+        "aubergines",
+        "eggplant",
+        "eggplants"
+      ]
+    },
+    {
+      "id": "corn",
+      "artworkID": "corn",
+      "priority": 20,
+      "tags": [],
+      "terms": [
+        "corn",
+        "mais",
+        "maize",
+        "sweet corn",
+        "sweetcorn"
+      ]
+    },
+    {
+      "id": "chili",
+      "artworkID": "chili",
+      "priority": 20,
+      "tags": [],
+      "terms": [
+        "chili",
+        "chilischote",
+        "chilischoten",
+        "chilli",
+        "piment"
+      ]
+    },
+    {
+      "id": "pepper",
+      "artworkID": "pepper",
+      "priority": 20,
+      "tags": [],
+      "terms": [
+        "bell pepper",
+        "bell peppers",
+        "paprika",
+        "paprikaschote",
+        "poivron",
+        "poivrons",
+        "sweet pepper",
+        "sweet peppers"
+      ]
+    },
+    {
+      "id": "cucumber",
+      "artworkID": "cucumber",
+      "priority": 20,
+      "tags": [],
+      "terms": [
+        "concombre",
+        "cucumber",
+        "cucumbers",
+        "gurke",
+        "gurken",
+        "salatgurke"
+      ]
+    },
+    {
+      "id": "greens",
+      "artworkID": "greens",
+      "priority": 20,
+      "tags": [],
+      "terms": [
+        "chard",
+        "epinard",
+        "epinards",
+        "feldsalat",
+        "grunkohl",
+        "kale",
+        "kopfsalat",
+        "laitue",
+        "lettuce",
+        "mangold",
+        "spinach",
+        "spinat"
+      ]
+    },
+    {
+      "id": "garlic",
+      "artworkID": "garlic",
+      "priority": 20,
+      "tags": [],
+      "terms": [
+        "ail",
+        "garlic",
+        "knoblauch"
+      ]
+    },
+    {
+      "id": "onion",
+      "artworkID": "onion",
+      "priority": 20,
+      "tags": [],
+      "terms": [
+        "oignon",
+        "oignons",
+        "onion",
+        "onions",
+        "zwiebel",
+        "zwiebeln"
+      ]
+    },
+    {
+      "id": "mushroom",
+      "artworkID": "mushroom",
+      "priority": 20,
+      "tags": [],
+      "terms": [
+        "champignon",
+        "champignons",
+        "mushroom",
+        "mushrooms",
+        "pilz",
+        "pilze",
+        "shiitake"
+      ]
+    },
+    {
+      "id": "chestnut",
+      "artworkID": "chestnut",
+      "priority": 20,
+      "tags": [],
+      "terms": [
+        "chataigne",
+        "chestnut",
+        "chestnuts",
+        "kastanie",
+        "kastanien",
+        "marone",
+        "maronen"
+      ]
+    },
+    {
+      "id": "baguette",
+      "artworkID": "baguette",
+      "priority": 70,
+      "tags": [],
+      "terms": [
+        "baguette",
+        "baguettes"
+      ]
+    },
+    {
+      "id": "flatbread",
+      "artworkID": "flatbread",
+      "priority": 70,
+      "tags": [],
+      "terms": [
+        "fladenbrot",
+        "flatbread",
+        "flatbreads",
+        "naan",
+        "pita"
+      ]
+    },
+    {
+      "id": "pretzel",
+      "artworkID": "pretzel",
+      "priority": 70,
+      "tags": [],
+      "terms": [
+        "brezel",
+        "brezeln",
+        "pretzel",
+        "pretzels"
+      ]
+    },
+    {
+      "id": "pancakes",
+      "artworkID": "pancakes",
+      "priority": 80,
+      "tags": [],
+      "terms": [
+        "pancake",
+        "pancakes",
+        "pfannkuchen"
+      ]
+    },
+    {
+      "id": "fries",
+      "artworkID": "fries",
+      "priority": 80,
+      "tags": [],
+      "terms": [
+        "french fries",
+        "fries",
+        "frites",
+        "pommes frites"
+      ]
+    },
+    {
+      "id": "hot-dog",
+      "artworkID": "hot-dog",
+      "priority": 80,
+      "tags": [],
+      "terms": [
+        "hot dog",
+        "hot dogs",
+        "hotdog",
+        "hotdogs"
+      ]
+    },
+    {
+      "id": "taco",
+      "artworkID": "taco",
+      "priority": 80,
+      "tags": [],
+      "terms": [
+        "taco",
+        "tacos"
+      ]
+    },
+    {
+      "id": "falafel",
+      "artworkID": "falafel",
+      "priority": 80,
+      "tags": [],
+      "terms": [
+        "falafel"
+      ]
+    },
+    {
+      "id": "salad",
+      "artworkID": "salad",
+      "priority": 70,
+      "tags": [],
+      "terms": [
+        "salad",
+        "salade",
+        "salades",
+        "salads",
+        "salat"
+      ]
+    },
+    {
+      "id": "curry",
+      "artworkID": "curry",
+      "priority": 70,
+      "tags": [],
+      "terms": [
+        "curry rice",
+        "reis mit curry",
+        "riz au curry"
+      ]
+    },
+    {
+      "id": "sushi",
+      "artworkID": "sushi",
+      "priority": 80,
+      "tags": [],
+      "terms": [
+        "maki",
+        "nigiri",
+        "sushi"
+      ]
+    },
+    {
+      "id": "dumpling",
+      "artworkID": "dumpling",
+      "priority": 70,
+      "tags": [],
+      "terms": [
+        "dumpling",
+        "dumplings",
+        "gyoza",
+        "jiaozi"
+      ]
+    },
+    {
+      "id": "crab",
+      "artworkID": "crab",
+      "priority": 20,
+      "tags": [],
+      "terms": [
+        "crab",
+        "crabe",
+        "crabs",
+        "krabbe",
+        "krabben"
+      ]
+    },
+    {
+      "id": "lobster",
+      "artworkID": "lobster",
+      "priority": 20,
+      "tags": [],
+      "terms": [
+        "homard",
+        "hummer",
+        "lobster"
+      ]
+    },
+    {
+      "id": "oyster",
+      "artworkID": "oyster",
+      "priority": 20,
+      "tags": [],
+      "terms": [
+        "auster",
+        "austern",
+        "huitre",
+        "huitres",
+        "oyster",
+        "oysters"
+      ]
+    },
+    {
+      "id": "squid",
+      "artworkID": "squid",
+      "priority": 20,
+      "tags": [],
+      "terms": [
+        "calamari",
+        "calmar",
+        "squid",
+        "tintenfisch"
+      ]
+    },
+    {
+      "id": "doughnut",
+      "artworkID": "doughnut",
+      "priority": 80,
+      "tags": [],
+      "terms": [
+        "donut",
+        "donuts",
+        "doughnut",
+        "doughnuts"
+      ]
+    },
+    {
+      "id": "cupcake",
+      "artworkID": "cupcake",
+      "priority": 80,
+      "tags": [],
+      "terms": [
+        "cupcake",
+        "cupcakes",
+        "muffin",
+        "muffins"
+      ]
+    },
+    {
+      "id": "pie",
+      "artworkID": "pie",
+      "priority": 80,
+      "tags": [],
+      "terms": [
+        "pie",
+        "pies",
+        "tarte"
+      ]
+    },
+    {
+      "id": "lollipop",
+      "artworkID": "lollipop",
+      "priority": 70,
+      "tags": [],
+      "terms": [
+        "lollipop",
+        "lollipops",
+        "lutscher"
+      ]
+    },
+    {
+      "id": "custard",
+      "artworkID": "custard",
+      "priority": 70,
+      "tags": [],
+      "terms": [
+        "custard",
+        "flan",
+        "pudding"
+      ]
+    },
+    {
+      "id": "bubble-tea",
+      "artworkID": "bubble-tea",
+      "priority": 75,
+      "tags": [],
+      "terms": [
+        "boba",
+        "bubble tea"
+      ]
+    },
+    {
+      "id": "cocktail",
+      "artworkID": "cocktail",
+      "priority": 70,
+      "tags": [],
+      "terms": [
+        "cocktail",
+        "cocktails",
+        "margarita",
+        "martini",
+        "mojito"
+      ]
+    },
+    {
+      "id": "mixed-salad",
+      "artworkID": "plate",
+      "priority": 95,
+      "tags": [
+        "en:potato-salads",
+        "en:pasta-salads",
+        "en:egg-salads"
+      ],
+      "terms": [
+        "egg salad",
+        "potato salad",
+        "pasta salad",
+        "tuna salad",
+        "chicken salad",
+        "eiersalat",
+        "kartoffelsalat",
+        "nudelsalat",
+        "fleischsalat"
+      ]
+    },
+    {
+      "id": "preparation-mix",
+      "artworkID": "plate",
+      "priority": 100,
+      "tags": [
+        "en:cooking-helpers",
+        "en:seasonings"
+      ],
+      "terms": [
+        "mix",
+        "mischung",
+        "extract",
+        "seasoning",
+        "gewürzpulver",
+        "syrup",
+        "sirup"
+      ]
+    }
+  ],
+  "productLines": [
+    {
+      "id": "fol-epi",
+      "category": "cheese",
+      "aliases": [
+        "fol epi"
+      ],
+      "qualifiers": [
+        "classic",
+        "caractere",
+        "caractère",
+        "bio",
+        "light",
+        "legere",
+        "légère",
+        "cremig",
+        "zart",
+        "mild",
+        "würzig",
+        "intensiv",
+        "extra",
+        "fines",
+        "provence",
+        "frisch",
+        "fruchtig",
+        "kürbiskern",
+        "kürbiskerne",
+        "scheiben",
+        "scheibenkäse",
+        "duo",
+        "theke",
+        "graines",
+        "de",
+        "tournesol",
+        "a",
+        "la",
+        "pesto",
+        "original",
+        "käse",
+        "kase",
+        "classic",
+        "et",
+        "und",
+        "poivres",
+        "intense",
+        "romarin",
+        "rosmarin",
+        "hauchfein",
+        "nussig",
+        "vorteilspack",
+        "verführerischer",
+        "pfeffermix",
+        "fett",
+        "i",
+        "tr"
+      ],
+      "sourceURL": "https://ich-liebe-kaese.de/kaesemarken/fol-epi/produkte/fol-epi-scheiben/",
+      "reviewedAt": "2026-09-06",
+      "additionalSourceURLs": [
+        "https://ich-liebe-kaese.de/kaesemarken/fol-epi/produkte/fol-epi-extra-fines/",
+        "https://ich-liebe-kaese.de/kaesemarken/fol-epi/produkte/fol-epi-scheiben/fol-epi-scheiben-classic/"
+      ]
+    },
+    {
+      "id": "babybel",
+      "category": "cheese",
+      "aliases": [
+        "babybel",
+        "mini babybel"
+      ],
+      "qualifiers": [
+        "mini",
+        "original",
+        "light",
+        "bio",
+        "käse",
+        "cheese",
+        "semisoft",
+        "snack",
+        "white",
+        "cheddar",
+        "45",
+        "%"
+      ],
+      "sourceURL": "https://www.belbrandsfoodservice.com/products/",
+      "reviewedAt": "2026-09-06"
+    },
+    {
+      "id": "boursin",
+      "category": "cheese",
+      "aliases": [
+        "boursin"
+      ],
+      "qualifiers": [
+        "echalote",
+        "ciboulette",
+        "garlic",
+        "herbs",
+        "ail",
+        "fines",
+        "herbes",
+        "schalotte",
+        "schnittlauch",
+        "knoblauch",
+        "kräuter",
+        "original",
+        "caramelized",
+        "onion"
+      ],
+      "sourceURL": "https://www.belbrandsfoodservice.com/products/",
+      "reviewedAt": "2026-09-06"
+    },
+    {
+      "id": "leerdammer",
+      "category": "cheese",
+      "aliases": [
+        "leerdammer"
+      ],
+      "qualifiers": [
+        "original",
+        "caractère",
+        "caractere",
+        "léger",
+        "leger",
+        "light",
+        "classic",
+        "scheiben",
+        "käse",
+        "cheese",
+        "gratin",
+        "toast",
+        "sandwichscheiben"
+      ],
+      "sourceURL": "https://www.leerdammer.de/unsere-produkte",
+      "reviewedAt": "2026-09-06"
+    },
+    {
+      "id": "philadelphia-original",
+      "category": "cheese",
+      "aliases": [
+        "philadelphia"
+      ],
+      "qualifiers": [
+        "original",
+        "light",
+        "classic",
+        "laktosefrei",
+        "laktosefreï",
+        "lactose",
+        "free",
+        "cream",
+        "cheese",
+        "doppelrahmstufe",
+        "frischkäse"
+      ],
+      "sourceURL": "https://www.philadelphia.co.uk/products/philadelphia-original?categoryId=18660",
+      "reviewedAt": "2026-09-06"
+    },
+    {
+      "id": "red-bull",
+      "category": "soft-drink",
+      "aliases": [
+        "red bull"
+      ],
+      "qualifiers": [
+        "sugarfree",
+        "sugar",
+        "free",
+        "zero",
+        "original",
+        "energy",
+        "drink",
+        "energydrink",
+        "edition",
+        "summer",
+        "winter",
+        "yellow",
+        "red",
+        "blue",
+        "sea",
+        "green",
+        "pink",
+        "white",
+        "coconut",
+        "apple",
+        "peach",
+        "apricot",
+        "strawberry",
+        "watermelon",
+        "iced",
+        "amber",
+        "organics",
+        "ginger",
+        "ale",
+        "simply",
+        "cola"
+      ],
+      "sourceURL": "https://www.redbull.com/us-en/energydrink",
+      "reviewedAt": "2026-09-06"
+    },
+    {
+      "id": "haribo-goldbears",
+      "category": "candy",
+      "aliases": [
+        "haribo goldbears",
+        "haribo goldbären"
+      ],
+      "qualifiers": [
+        "goldbears",
+        "goldbären",
+        "original",
+        "mini"
+      ],
+      "sourceURL": "https://www.haribo.com/en-ca/products/goldbears",
+      "reviewedAt": "2026-09-06"
+    }
+  ]
+}
