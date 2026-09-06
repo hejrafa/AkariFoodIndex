@@ -28,6 +28,8 @@ from typing import Any, Iterable, Iterator
 
 
 from classify_artwork import classify, VERSION as CLASSIFICATION_VERSION
+from food_taxonomy import search_names
+from normalize_off_nutrition import normalize_record
 
 SCHEMA_VERSION = 4
 SUPPORTED_NUTRIENTS = {
@@ -289,6 +291,7 @@ def searchable_product_terms(record: dict[str, Any]) -> tuple[str, ...]:
         + all_field_values(record, "generic_name")
         + all_categories(record)
         + category_tags
+        + search_names(product_category_tags(record))
     )
     terms = [alias for value in values for alias in search_aliases(value)]
     return tuple(dict.fromkeys(terms))
@@ -342,22 +345,36 @@ def scaled_nutrients(record: dict[str, Any], basis: str) -> dict[str, float]:
                            if (number := finite(raw.get(key))) is not None), None)
         if kilojoules is not None:
             result["calories"] = round(kilojoules / 4.184, 6)
+    if "sodium" not in result:
+        salt_keys = ("salt_100ml", "salt_100g") if basis == "per100Milliliters" else ("salt_100g",)
+        salt = next((v for key in salt_keys if (v := finite(raw.get(key))) is not None), None)
+        if salt is not None:
+            result["sodium"] = round(salt / 2.5 * 1000, 6)
     return result
 
 
-def validation_issues(nutrients: dict[str, float]) -> list[str]:
+def validation_issues(nutrients: dict[str, float], basis: str = "per100Grams") -> list[str]:
     issues: list[str] = []
     calories = nutrients.get("calories")
     if calories is None or calories <= 0 or calories > 1_000:
         issues.append("invalid-energy")
     for key in GRAM_NUTRIENTS:
-        if nutrients.get(key, 0) > 100:
+        if basis == "per100Grams" and nutrients.get(key, 0) > 100:
             issues.append(f"invalid-{key}")
     macros = [nutrients.get(key) for key in ("protein", "fat", "carbs")]
     if calories and all(value is not None for value in macros):
         calculated = nutrients["protein"] * 4 + nutrients["fat"] * 9 + nutrients["carbs"] * 4
         if abs(calculated - calories) > max(80, calories * 0.35):
             issues.append("energy-macro-mismatch")
+    if basis == "per100Grams" and all(value is not None for value in macros) and sum(macros) > 105:
+        issues.append("macro-mass-exceeds-basis")
+    for component, total in (("sugar", "carbs"), ("saturatedFat", "fat"), ("polyunsaturatedFat", "fat")):
+        if component in nutrients and total in nutrients and nutrients[component] > nutrients[total] + 2:
+            issues.append(component + "-exceeds-" + total)
+    for key in MILLIGRAM_NUTRIENTS | MICROGRAM_NUTRIENTS:
+        maximum = 100_000 if key in MILLIGRAM_NUTRIENTS else 100_000_000
+        if basis == "per100Grams" and nutrients.get(key, 0) > maximum:
+            issues.append("invalid-" + key)
     return issues
 
 
@@ -397,7 +414,7 @@ def source_hash(record: dict[str, Any]) -> str:
         "image_front_url", "image_front_small_url", "nutriscore_grade",
         "nutrition_grades", "nova_group", "nutrient_levels",
         "nutrient_levels_tags", "data_quality_errors_tags",
-        "data_quality_warnings_tags", "nutriments",
+        "data_quality_warnings_tags", "nutriments", "nutrition", "_akari_nutrition_provenance",
         *SUPPORTED_NUTRIENTS.values(),
     }
     flattened = set()
@@ -541,13 +558,14 @@ class Product:
 
     @classmethod
     def from_record(cls, record: dict[str, Any]) -> "Product | None":
+        record = normalize_record(record)
         barcode = str(record.get("code") or "").strip()
         name = product_name(record)
         if not valid_gtin(barcode) or not name:
             return None
         basis = nutrition_basis(record)
         nutrients = scaled_nutrients(record, basis)
-        validation = validation_issues(nutrients)
+        validation = validation_issues(nutrients, basis)
         if "invalid-energy" in validation:
             return None
         brand = brand_name(record)
@@ -850,7 +868,10 @@ def main() -> None:
     parser.add_argument("--base-url", default=(
         "https://github.com/hejrafa/AkariFoodIndex/releases/latest/download"))
     parser.add_argument("--catalog-version")
+    parser.add_argument("--allow-legacy-csv-for-audit", action="store_true", help="Audit only: CSV loses reported-versus-estimated provenance")
     args = parser.parse_args()
+    if args.off_export.name.endswith((".csv", ".csv.gz")) and not args.allow_legacy_csv_for_audit:
+        parser.error("Use the official JSONL export. CSV mixes reported and estimated nutrient values without provenance.")
 
     generated_at = args.catalog_version or dt.datetime.now(dt.timezone.utc).replace(
         microsecond=0).isoformat().replace("+00:00", "Z")
@@ -861,9 +882,21 @@ def main() -> None:
             market, generated_at, schema)
         for market in args.market
     }
+    for writer in writers.values():
+        writer.connection.execute("INSERT OR REPLACE INTO metadata(key,value) VALUES('nutrition_provenance',?)",
+            ("unverified-flat-csv" if args.allow_legacy_csv_for_audit else "reported-json-input-sets",))
     accepted = 0
     try:
-        for record in open_export(args.off_export):
+        for scanned, record in enumerate(open_export(args.off_export), 1):
+            if scanned % 100_000 == 0:
+                print(f"Scanned {scanned:,} source records; retained {accepted:,} market products", flush=True)
+            if not args.allow_legacy_csv_for_audit and not (
+                isinstance(record.get("nutrition"), dict) or isinstance(record.get("nutriments"), dict)
+            ):
+                continue
+            tags = market_tags(record)
+            if not any(market.country_tag in tags for market in args.market):
+                continue
             product = Product.from_record(record)
             if product is None:
                 continue

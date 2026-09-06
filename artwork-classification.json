@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "description": "Akari presentation classification. Exact source categories first; conservative product-line rules only when the entire remaining name is a reviewed qualifier. Never infer nutrients, allergens, alcohol counts or verified status.",
   "taxonomySource": "https://openfoodfacts.github.io/documentation/docs/Product-Opener/schemas/schemas/product_tags/",
   "rules": [
@@ -9,7 +9,6 @@
       "priority": 30,
       "tags": [
         "en:spreads",
-        "en:sweet-spreads",
         "en:salted-spreads"
       ],
       "terms": [
@@ -29,7 +28,8 @@
         "en:biscuit-spreads",
         "en:nut-butters",
         "en:peanut-butters",
-        "en:jams"
+        "en:jams",
+        "en:sweet-spreads"
       ],
       "terms": [
         "peanut butter",
@@ -120,7 +120,9 @@
         "en:flavoured-yogurts",
         "en:fruit-yogurts",
         "en:plant-based-yogurts",
-        "en:fermented-milk-products-desserts"
+        "en:fermented-milk-products-desserts",
+        "en:non-dairy-yogurts",
+        "en:soy-milk-yogurts"
       ],
       "terms": [
         "yogurt",
@@ -190,7 +192,8 @@
       "priority": 65,
       "tags": [
         "en:plant-based-cheese-alternatives",
-        "en:vegan-cheeses"
+        "en:vegan-cheeses",
+        "en:cheese-substitutes"
       ],
       "terms": [
         "vegan cheese",
@@ -207,7 +210,11 @@
         "en:plant-milks",
         "en:plant-based-milks",
         "en:milk-drinks",
-        "en:plant-based-drinks"
+        "en:plant-based-drinks",
+        "en:plant-based-milk-alternatives",
+        "en:soy-based-drinks",
+        "en:almond-based-drinks",
+        "en:oat-based-drinks"
       ],
       "terms": [
         "milk",
@@ -1833,10 +1840,35 @@
         "white",
         "cheddar",
         "45",
-        "%"
+        "%",
+        "plus",
+        "probiotic",
+        "probiotics",
+        "probiotique",
+        "vitamins",
+        "vitamin",
+        "vitamines",
+        "a",
+        "b12",
+        "pro",
+        "protein",
+        "proteins",
+        "reduced",
+        "fat",
+        "monterey",
+        "jack",
+        "gouda",
+        "mozzarella",
+        "variety"
       ],
       "sourceURL": "https://www.belbrandsfoodservice.com/products/",
-      "reviewedAt": "2026-09-06"
+      "reviewedAt": "2026-09-06",
+      "additionalSourceURLs": [
+        "https://belbrandsusa.com/news/babybel-launches-the-first-range-of-functional-snacks-in-the-category-babybel-plus/",
+        "https://babybel.com/product/mini-babybel-pro/",
+        "https://babybel.com/en-us/product/"
+      ],
+      "reviewNote": "Plus has distinct probiotic and vitamin-fortified dairy variants. These qualifiers establish artwork only, never a plain-cheese nutrient profile. Plant-based versions require their own category."
     },
     {
       "id": "boursin",

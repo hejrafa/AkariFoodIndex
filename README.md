@@ -9,6 +9,11 @@ This pipeline publishes two deliberately separate kinds of SQLite food data:
 Keeping the ODbL product layer separate from the national reference tables
 preserves source provenance and keeps each database's licence unambiguous.
 
+The app checkout also holds a separate reviewed [café catalog](cafe/README.md)
+with AUSNUT/MEXT ingredient recipes and Starbucks Germany menu facts. It is
+bundled in the app and is not mixed into the ODbL release or used for automatic
+packaged-food nutrient enrichment. Rebuild it with `Scripts/build_cafe_catalog.py`.
+
 Source exports come from the official [Open Food Facts data page](https://world.openfoodfacts.org/data).
 Database and pipeline licensing are documented in `LICENSE.md`.
 
@@ -46,11 +51,11 @@ nor hot cache is part of the App Store bundle or iCloud backup.
 Commands below use the app checkout’s `FoodIndex/` prefix. In the standalone
 AkariFoodIndex repository, omit that prefix.
 
-Download the official Open Food Facts tab-separated CSV export and run:
+Download the official Open Food Facts JSONL export and run:
 
 ```sh
 python3 FoodIndex/build_index.py \
-  --off-export en.openfoodfacts.org.products.csv.gz \
+  --off-export openfoodfacts-products.jsonl.gz \
   --market DE=en:germany \
   --market AT=en:austria \
   --market CH=en:switzerland \
@@ -115,3 +120,35 @@ Run all builder, classification, and compatibility checks:
 ```sh
 python3 -m unittest discover -s FoodIndex -p 'test_*.py'
 ```
+
+## Reported nutrition, source research and release gates
+
+Production builds require the full official JSONL export. The flat CSV cannot
+preserve reported-versus-estimated provenance: the September 2026 source audit
+found recipe-estimated vitamins in its ordinary nutrient columns. It is accepted
+only with `--allow-legacy-csv-for-audit`, and that provenance cannot pass
+`verify_release.py`.
+
+`normalize_off_nutrition.py` reads the current OFF `nutrition.input_sets` model:
+only packaging/manufacturer sets, only as-sold nutrition, explicit units and
+source quantities. It preserves label values over computed values, converts
+reported mass/volume servings independently, rejects unknown units and percent
+daily values, and never imports the aggregated set or `nutriments_estimated`.
+Legacy JSON's separate `nutriments` object remains supported.
+
+`build_food_taxonomy.py` compiles the official category graph, multilingual
+identities, and direct Ciqual links whose French names agree with the current
+ANSES table. Proxy links and unspecified averages are excluded. The app still
+requires compatible product macros/preparation and excludes unreported
+fortification doses; classification artwork alone cannot establish nutrition.
+
+Every refresh audits all retained SKUs and all national reference rows with
+`audit_food_quality.py`. Physically impossible per-100-g nutrient amounts are
+quarantined, with their source values retained in the audit. Cross-field and
+cross-reference disagreements are review flags, not automatic replacements.
+Same-barcode agreement across markets is consistency of one underlying source,
+not independent corroboration.
+
+The release gate checks reported-nutrition provenance, hashes, byte sizes, row
+counts and SQLite integrity. Legacy apps retain their immutable compatible
+manifest while current apps receive schema 4.

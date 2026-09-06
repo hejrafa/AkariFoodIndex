@@ -1,0 +1,61 @@
+{
+  "retrievedOn": "2026-09-06",
+  "scope": "Complete official bulk source import and automated checks for nine markets; targeted manufacturer identity checks. Not independent laboratory verification of every branded product.",
+  "productSource": {
+    "url": "https://static.openfoodfacts.org/data/openfoodfacts-products.jsonl.gz",
+    "bytes": 12823651431,
+    "sha256": "1ae9e95377ef8a926d1902f6fe0f6bf1ff8dd4946c904050c76868d41b628392",
+    "lastModified": "2026-09-06T06:40:35Z",
+    "etag": "ca8c8c48d0e6d3a1fdb7210da4e0584f-765",
+    "versionId": "lZ3IB7uyjy1OhMrgP2FXw6IlXtbU6PBZ"
+  },
+  "evidence": [
+    {
+      "url": "https://belbrandsusa.com/news/babybel-launches-the-first-range-of-functional-snacks-in-the-category-babybel-plus/",
+      "supports": "Babybel Plus product identity and added vitamin/probiotic variants; no exact dose inferred."
+    },
+    {
+      "url": "https://babybel.com/product/mini-babybel-pro/",
+      "supports": "Current PRO cheese identity. Separate from historical Plus; its label values are not copied to Plus."
+    },
+    {
+      "url": "https://babybel.de/product/mini-babybel-original-2/",
+      "supports": "German Original identity and market-specific label. No assumption that Original, Plus and PRO share nutrition."
+    },
+    {
+      "url": "https://www.alpro.com/en-gb/products/drinks/soya-no-sugars",
+      "supports": "Alpro soy drink identity; does not justify classifying all Alpro products as milk."
+    },
+    {
+      "url": "https://www.alpro.com/ie/products?category=plant-based-alternative-to-yogurt",
+      "supports": "Alpro also makes yogurt alternatives."
+    },
+    {
+      "url": "https://www.barilla.com/de-de/produkte/saucen/saucen/basilico",
+      "supports": "Barilla Basilico is sauce; brand alone cannot mean pasta."
+    },
+    {
+      "url": "https://www.lotusbiscoff.com/en-in/products",
+      "supports": "Biscoff includes distinct biscuit and spread products."
+    },
+    {
+      "url": "https://openfoodfacts.github.io/openfoodfacts-server/dev/ref-perl-pod/ProductOpener/Nutrition.html",
+      "supports": "Original nutrient input sets retain source, preparation and basis. Import reported values only."
+    },
+    {
+      "url": "https://world.openfoodfacts.org/api/v2/product/20003159.json?fields=code,product_name,nutriments,nutriments_estimated",
+      "supports": "Paniermehl example: implausible vitamins occur in upstream estimates, not reported nutriments. CSV diagnostic discarded."
+    },
+    {
+      "url": "https://www.fao.org/fileadmin/templates/food_composition/documents/Nutrition_assessment/INFOODSGuidelinesforFoodMatching_version_1_2.pdf",
+      "supports": "Match food identity, preparation, composition and basis; document borrowed values."
+    }
+  ],
+  "nutritionPolicy": "Packaging/manufacturer inputs only. Missing is not zero. App estimates remain attributed to a matching national reference; preserve reported values, reject incompatible macros/preparation, and do not guess unreported fortification.",
+  "limitations": [
+    "Cross-market records with the same barcode share a source and are not independent corroboration.",
+    "Category/name linkage to Ciqual is an identity cross-check, not measured branded nutrient accuracy.",
+    "A plate remains where no specific supported artwork or defensible food identity exists.",
+    "The rejected CSV diagnostic cannot be used as reported micronutrient coverage."
+  ]
+}

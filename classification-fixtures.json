@@ -556,5 +556,145 @@
     "genericName": null,
     "categories": [],
     "expected": "unknown"
+  },
+  {
+    "name": "Plus vitamins",
+    "brand": "Babybel",
+    "categoryTags": [],
+    "genericName": null,
+    "categories": [],
+    "expected": "cheese"
+  },
+  {
+    "name": "Babybel Plus+",
+    "brand": null,
+    "categoryTags": [],
+    "genericName": null,
+    "categories": [],
+    "expected": "cheese"
+  },
+  {
+    "name": "Babybel Plus+ Probiotic",
+    "brand": null,
+    "categoryTags": [],
+    "genericName": null,
+    "categories": [],
+    "expected": "cheese"
+  },
+  {
+    "name": "Mini Babybel PRO",
+    "brand": null,
+    "categoryTags": [],
+    "genericName": null,
+    "categories": [],
+    "expected": "cheese"
+  },
+  {
+    "name": "Babybel Plus sandwich",
+    "brand": null,
+    "categoryTags": [],
+    "genericName": null,
+    "categories": [],
+    "expected": "sandwich"
+  },
+  {
+    "name": "Babybel Plant-Based Original",
+    "brand": "Babybel",
+    "categoryTags": [
+      "en:cheese-substitutes"
+    ],
+    "genericName": null,
+    "categories": [],
+    "expected": "plant-cheese"
+  },
+  {
+    "name": "Secret label",
+    "brand": null,
+    "categoryTags": [
+      "en:edam"
+    ],
+    "genericName": null,
+    "categories": [],
+    "expected": "cheese"
+  },
+  {
+    "name": "Secret label",
+    "brand": null,
+    "categoryTags": [
+      "en:cheese-sauces"
+    ],
+    "genericName": null,
+    "categories": [],
+    "expected": "sauce"
+  },
+  {
+    "name": "Secret label",
+    "brand": null,
+    "categoryTags": [],
+    "genericName": null,
+    "categories": [
+      "Kaassauzen"
+    ],
+    "expected": "sauce"
+  },
+  {
+    "name": "No Sugars",
+    "brand": "Alpro",
+    "categoryTags": [
+      "en:soy-based-drinks"
+    ],
+    "genericName": null,
+    "categories": [],
+    "expected": "milk"
+  },
+  {
+    "name": "Plain No Sugars",
+    "brand": "Alpro",
+    "categoryTags": [
+      "en:soy-milk-yogurts"
+    ],
+    "genericName": null,
+    "categories": [],
+    "expected": "yogurt"
+  },
+  {
+    "name": "Basilico",
+    "brand": "Barilla",
+    "categoryTags": [
+      "en:tomato-sauces"
+    ],
+    "genericName": null,
+    "categories": [],
+    "expected": "sauce"
+  },
+  {
+    "name": "Spaghetti No 5",
+    "brand": "Barilla",
+    "categoryTags": [
+      "en:spaghetti"
+    ],
+    "genericName": null,
+    "categories": [],
+    "expected": "pasta"
+  },
+  {
+    "name": "Original",
+    "brand": "Lotus Biscoff",
+    "categoryTags": [
+      "en:speculoos"
+    ],
+    "genericName": null,
+    "categories": [],
+    "expected": "cookie"
+  },
+  {
+    "name": "Crunchy",
+    "brand": "Lotus Biscoff",
+    "categoryTags": [
+      "en:speculoos-spreads"
+    ],
+    "genericName": null,
+    "categories": [],
+    "expected": "sweet-spread"
   }
 ]

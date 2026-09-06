@@ -5,6 +5,8 @@ OFF tags and manufacturer-reviewed product lines are evidence for decisions.
 """
 from __future__ import annotations
 import json
+import functools
+from food_taxonomy import CATALOG
 import re
 import unicodedata
 from pathlib import Path
@@ -24,7 +26,13 @@ def strings(value):
 
 RULES = [{**r, 'terms': [normalize(t) for t in r['terms']]} for r in MANIFEST['rules']]
 BY_ID = {r['id']: r for r in RULES}
-TAG_RULES = {tag: rule for rule in RULES for tag in rule['tags']}
+TAG_RULES = {tag: BY_ID[category] for tag, category in CATALOG['tags'].items() if category in BY_ID}
+TAG_RULES.update({tag: rule for rule in RULES for tag in rule['tags']})
+LABEL_RULES = {label: BY_ID[category] for label, category in CATALOG['labels'].items() if category in BY_ID}
+for rule in RULES:
+    labels = {normalize(tag.split(':',1)[-1]) for tag in rule['tags']} | set(rule['terms'])
+    if rule['id'] == 'cereal': labels -= {'cereal','cereals'}
+    for label in labels: LABEL_RULES[label] = rule
 LINES = [{**r, 'aliases': [normalize(a) for a in r['aliases']],
           'allowed': set(normalize(' '.join(r['qualifiers'])).split())} for r in MANIFEST['productLines']]
 
@@ -37,9 +45,11 @@ def resolve(matches, source):
     return dict(categoryID=rule['id'], artworkID=rule['artworkID'], source=source,
                 evidence=evidence, version=VERSION)
 
+@functools.lru_cache(maxsize=100000)
 def by_name(name, source):
     subject = normalize(name)
     subject = re.split(r' (?:with|without|in|mit|ohne|avec|sans) ', subject)[0]
+    if rule := LABEL_RULES.get(subject): return resolve([(rule,subject)], source)
     padded = f' {subject} '
     matches = [(r,t) for r in RULES for t in r['terms'] if f' {t} ' in padded]
     # Longer phrases suppress contained aliases (peanut butter, iced tea).
@@ -58,17 +68,16 @@ def classify(name, brand=None, generic_name=None, category_tags=(), categories=(
         if named and BY_ID[named['categoryID']]['priority'] >= 80 and BY_ID[named['categoryID']]['priority'] > BY_ID[category['categoryID']]['priority']:
             return named
         return category
-    if generic_name and (result := by_name(generic_name, 'generic-name')):
+    generic_rule = LABEL_RULES.get(normalize(generic_name)) if generic_name else None
+    generic = resolve([(generic_rule, generic_name)], 'generic-name') if generic_rule else by_name(generic_name or '', 'generic-name')
+    if generic_name and (result := generic):
         if named and BY_ID[named['categoryID']]['priority'] >= 80 and BY_ID[named['categoryID']]['priority'] > BY_ID[result['categoryID']]['priority']:
             return named
         return result
     label_matches = []
     for label in strings(categories):
         normalized = normalize(label)
-        for rule in RULES:
-            labels = {normalize(tag.split(':',1)[-1]) for tag in rule['tags']} | set(rule['terms'])
-            if rule['id'] == 'cereal': labels -= {'cereal','cereals'}
-            if normalized in labels: label_matches.append((rule,label))
+        if rule := LABEL_RULES.get(normalized): label_matches.append((rule,label))
     if label_matches:
         return resolve(label_matches, 'category-label')
     normalized_name = normalize(re.sub(r'\b\d+(?:[.,]\d+)?\s*(?:kg|g|ml|cl|l|oz)\b', '', name, flags=re.I))
