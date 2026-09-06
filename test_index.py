@@ -99,7 +99,7 @@ class FoodIndexBuilderTests(unittest.TestCase):
             classifications = [json.loads(r[0]) for r in database.execute(
                 "SELECT artwork_classification_json FROM sku")]
             self.assertTrue(all(value["categoryID"] == "cheese" for value in classifications))
-            self.assertTrue(all(value["version"] == 1 for value in classifications))
+            self.assertTrue(all(value["version"] == 2 for value in classifications))
             database.close()
 
             manifest = json.loads((output / "manifest.json").read_text())

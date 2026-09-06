@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "description": "Akari presentation classification. Exact source categories first; conservative product-line rules only when the entire remaining name is a reviewed qualifier. Never infer nutrients, allergens, alcohol counts or verified status.",
   "taxonomySource": "https://openfoodfacts.github.io/documentation/docs/Product-Opener/schemas/schemas/product_tags/",
   "rules": [
@@ -1802,14 +1802,17 @@
         "pfeffermix",
         "fett",
         "i",
-        "tr"
+        "tr",
+        "perreault"
       ],
       "sourceURL": "https://ich-liebe-kaese.de/kaesemarken/fol-epi/produkte/fol-epi-scheiben/",
       "reviewedAt": "2026-09-06",
       "additionalSourceURLs": [
         "https://ich-liebe-kaese.de/kaesemarken/fol-epi/produkte/fol-epi-extra-fines/",
-        "https://ich-liebe-kaese.de/kaesemarken/fol-epi/produkte/fol-epi-scheiben/fol-epi-scheiben-classic/"
-      ]
+        "https://ich-liebe-kaese.de/kaesemarken/fol-epi/produkte/fol-epi-scheiben/fol-epi-scheiben-classic/",
+        "https://world.openfoodfacts.org/api/v2/product/3090291120416.json?fields=code,product_name,brands,generic_name,categories,categories_tags,last_modified_t"
+      ],
+      "reviewNote": "Perreault is an identified Fol Epi producer in the reviewed source record. Accept this suffix only within the Fol Epi product-line rule."
     },
     {
       "id": "babybel",
