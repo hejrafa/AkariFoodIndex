@@ -17,19 +17,38 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 330
     env:
-      OFF_EXPORT_URL: https://static.openfoodfacts.org/data/en.openfoodfacts.org.products.csv.gz
+      OFF_EXPORT_URL: https://static.openfoodfacts.org/data/openfoodfacts-products.jsonl.gz
     steps:
       - uses: actions/checkout@v5
 
       - name: Verify the index builder
-        run: python3 -m unittest test_index.py
+        run: python3 -m unittest discover -p 'test_*.py'
+
+      - name: Check out Akari's national reference index
+        uses: actions/checkout@v5
+        with:
+          repository: hejrafa/Akari
+          ref: main
+          path: akari-reference
+          sparse-checkout: Akari/ReferenceFoods.sqlite
+          sparse-checkout-cone-mode: false
+          ssh-key: ${{ secrets.AKARI_SOURCE_DEPLOY_KEY }}
+          persist-credentials: false
 
       - name: Download the official Open Food Facts export
         run: |
           mkdir -p downloads dist
           curl --fail --location --retry 5 --retry-delay 20 \
-            --output downloads/openfoodfacts-products.csv.gz \
+            --output downloads/openfoodfacts-products.jsonl.gz \
             "$OFF_EXPORT_URL"
+
+      - name: Compile current category identities against the national table
+        run: |
+          curl --fail --location --retry 3 --output downloads/categories.json \
+            https://static.openfoodfacts.org/data/taxonomies/categories.json
+          python3 build_food_taxonomy.py --taxonomy downloads/categories.json \
+            --reference-index akari-reference/Akari/ReferenceFoods.sqlite \
+            --output food-category-taxonomy.json --report dist/taxonomy-audit.json
 
       - name: Build country catalogues
         env:
@@ -38,7 +57,7 @@ jobs:
           CATALOG_VERSION="$(date -u +'%Y-%m-%dT%H:%M:%SZ')"
           echo "CATALOG_VERSION=$CATALOG_VERSION" >> "$GITHUB_ENV"
           python3 build_index.py \
-            --off-export downloads/openfoodfacts-products.csv.gz \
+            --off-export downloads/openfoodfacts-products.jsonl.gz \
             --market DE=en:germany \
             --market AT=en:austria \
             --market CH=en:switzerland \
@@ -52,29 +71,24 @@ jobs:
             --base-url "$RELEASE_BASE_URL" \
             --catalog-version "$CATALOG_VERSION"
 
-      - name: Check out Akari's national reference index
-        uses: actions/checkout@v5
-        with:
-          repository: hejrafa/Akari
-          ref: main
-          path: akari-reference
-          sparse-checkout: Akari/ReferenceFoods.sqlite
-          sparse-checkout-cone-mode: false
-          ssh-key: ${{ secrets.AKARI_SOURCE_DEPLOY_KEY }}
-          persist-credentials: false
-
       - name: Stage Akari's national reference index
         run: |
           cp akari-reference/Akari/ReferenceFoods.sqlite \
             dist/reference-foods.sqlite
 
+      - name: Cross-check every SKU and quarantine impossible nutrient values
+        run: |
+          python3 audit_food_quality.py dist --references dist/reference-foods.sqlite \
+            --reclassify --output dist/food-quality-audit.json
+
       - name: Verify generated databases
         run: |
+          python3 verify_release.py dist
           python3 - <<'PY'
           import hashlib, json, pathlib, sqlite3
           root = pathlib.Path("dist")
           manifest = json.loads((root / "manifest.json").read_text())
-          assert manifest["schemaVersion"] == 1
+          assert manifest["schemaVersion"] == 4
           for market, asset in manifest["markets"].items():
               path = root / asset["filename"]
               digest = hashlib.sha256()
@@ -85,7 +99,8 @@ jobs:
               assert digest == asset["sha256"], market
               database = sqlite3.connect(f"file:{path}?mode=ro", uri=True)
               assert database.execute("PRAGMA quick_check").fetchone()[0] == "ok"
-              assert database.execute("PRAGMA user_version").fetchone()[0] == 1
+              assert database.execute("PRAGMA user_version").fetchone()[0] == 4
+              assert database.execute("SELECT value FROM metadata WHERE key='nutrition_provenance'").fetchone()[0] == "reported-json-input-sets"
               assert database.execute("SELECT value FROM metadata WHERE key='market'").fetchone()[0] == market
               database.close()
 
@@ -93,7 +108,8 @@ jobs:
           database = sqlite3.connect(f"file:{reference_path}?mode=ro", uri=True)
           assert database.execute("PRAGMA quick_check").fetchone()[0] == "ok"
           assert database.execute("PRAGMA application_id").fetchone()[0] == 1095455302
-          assert database.execute("PRAGMA user_version").fetchone()[0] == 3
+          reference_schema = database.execute("PRAGMA user_version").fetchone()[0]
+          assert reference_schema in (3, 4)
           source_counts = dict(database.execute(
               "SELECT source, COUNT(*) FROM reference_food GROUP BY source"))
           assert set(source_counts) == {"bls", "usda", "cofid", "ciqual", "mext"}
@@ -107,13 +123,15 @@ jobs:
           source_files = json.loads(database.execute(
               "SELECT value FROM metadata WHERE key='source_files'").fetchone()[0])
           assert set(source_files) >= {"cofid", "ciqual", "mext"}
+          if reference_schema >= 4:
+              assert "usda" in source_files
           assert all(item.get("sha256") and item.get("size", 0) > 0
                      for items in source_files.values() for item in items)
           database.close()
 
           digest = hashlib.sha256(reference_path.read_bytes()).hexdigest()
           reference_manifest = {
-              "schemaVersion": 3,
+              "schemaVersion": reference_schema,
               "filename": reference_path.name,
               "sha256": digest,
               "size": reference_path.stat().st_size,
@@ -127,6 +145,21 @@ jobs:
               json.dumps(reference_manifest, ensure_ascii=False, indent=2) + "\n")
           PY
 
+      - name: Audit classification coverage and queue unresolved families
+        run: python3 audit_classification.py dist --output dist/classification-audit.json
+
+      - name: Keep legacy clients on their compatible catalogue
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p previous-release
+          PREVIOUS_TAG="$(gh release view --json tagName --jq .tagName)"
+          gh release download "$PREVIOUS_TAG" --pattern manifest.json --dir previous-release
+          python3 prepare_release.py --directory dist \
+            --previous-manifest previous-release/manifest.json \
+            --previous-tag "$PREVIOUS_TAG" \
+            --base-url "https://github.com/${{ github.repository }}/releases/latest/download"
+
       - name: Publish immutable snapshot and move latest pointer
         env:
           GH_TOKEN: ${{ github.token }}
@@ -139,4 +172,4 @@ jobs:
 
       - name: Remove local source export
         if: always()
-        run: rm -f downloads/openfoodfacts-products.csv.gz
+        run: rm -f downloads/openfoodfacts-products.jsonl.gz

@@ -1,0 +1,580 @@
+{
+  "taxonomyCategories": 14660,
+  "mappedCategories": 9702,
+  "exactLocalizedLabels": 21317,
+  "crossCheckedReferenceLinks": 1255,
+  "rejectedReferenceLinks": {
+    "reference-name-disagrees": 828,
+    "reference-code-not-in-current-ciqual": 234,
+    "missing-reference-name-cross-check": 489,
+    "unspecified-average-reference": 77
+  },
+  "rejectedExamples": [
+    {
+      "tag": "En:carambola",
+      "referenceCode": "ciqual:13054",
+      "reason": "reference-name-disagrees",
+      "taxonomyName": "Carambole, pulpe, crue",
+      "referenceName": "Carambole, chair et peau, crue"
+    },
+    {
+      "tag": "en:10-red-wine",
+      "referenceCode": "ciqual:5203",
+      "reason": "reference-code-not-in-current-ciqual",
+      "taxonomyName": "Vin rouge 10°",
+      "referenceName": null
+    },
+    {
+      "tag": "en:11-dry-white-wine",
+      "referenceCode": "ciqual:5211",
+      "reason": "reference-code-not-in-current-ciqual",
+      "taxonomyName": "Vin blanc sec 11°",
+      "referenceName": null
+    },
+    {
+      "tag": "en:11-red-wine",
+      "referenceCode": "ciqual:5204",
+      "reason": "reference-code-not-in-current-ciqual",
+      "taxonomyName": "Vin rouge 11°",
+      "referenceName": null
+    },
+    {
+      "tag": "en:11-rose-wine",
+      "referenceCode": "ciqual:5206",
+      "reason": "reference-code-not-in-current-ciqual",
+      "taxonomyName": "Vin rosé 11°",
+      "referenceName": null
+    },
+    {
+      "tag": "en:11-white-wine",
+      "referenceCode": "ciqual:5200",
+      "reason": "reference-code-not-in-current-ciqual",
+      "taxonomyName": "Vin blanc 11°",
+      "referenceName": null
+    },
+    {
+      "tag": "en:12-red-wine",
+      "referenceCode": "ciqual:5205",
+      "reason": "reference-code-not-in-current-ciqual",
+      "taxonomyName": "Vin rouge 12°",
+      "referenceName": null
+    },
+    {
+      "tag": "en:13-red-wine",
+      "referenceCode": "ciqual:5208",
+      "reason": "reference-code-not-in-current-ciqual",
+      "taxonomyName": "Vin rouge 13°",
+      "referenceName": null
+    },
+    {
+      "tag": "en:2-3-fat-petit-suisse-fruits-flavoured-fortified-with-calcium-and-vitamin-d",
+      "referenceCode": "ciqual:19667",
+      "reason": "reference-code-not-in-current-ciqual",
+      "taxonomyName": "Fromage frais type petit suisse, aromatisé aux fruits, 2-3% MG, enrichi en calcium et vitamine D",
+      "referenceName": null
+    },
+    {
+      "tag": "en:2-3-fat-petit-suisse-with-fruits",
+      "referenceCode": "ciqual:19661",
+      "reason": "reference-code-not-in-current-ciqual",
+      "taxonomyName": "Fromage frais type petit suisse, aux fruits, 2-3% MG",
+      "referenceName": null
+    },
+    {
+      "tag": "en:2-3-fat-petit-suisse-with-fruits-fortified-with-calcium-and-vitamin-d",
+      "referenceCode": "ciqual:19662",
+      "reason": "reference-code-not-in-current-ciqual",
+      "taxonomyName": "Fromage frais type petit suisse, aux fruits, 2-3% MG, enrichi en calcium et vitamine D",
+      "referenceName": null
+    },
+    {
+      "tag": "en:30-40-blended-fat-with-vegetable-and-animal-origins",
+      "referenceCode": "ciqual:16745",
+      "reason": "reference-code-not-in-current-ciqual",
+      "taxonomyName": "Matière grasse mélangée -végétale et laitière-, à tartiner, à 30-40% MG",
+      "referenceName": null
+    },
+    {
+      "tag": "en:30-40-fat-lightly-salted-vegetable-fat",
+      "referenceCode": "ciqual:16734",
+      "reason": "reference-code-not-in-current-ciqual",
+      "taxonomyName": "Matière grasse végétale -type margarine-, à tartiner, à 30-40% MG, légère, demi-sel",
+      "referenceName": null
+    },
+    {
+      "tag": "en:30-40-fat-unsalted-vegetable-fat",
+      "referenceCode": "ciqual:16733",
+      "reason": "reference-code-not-in-current-ciqual",
+      "taxonomyName": "Matière grasse végétale -type margarine-, à tartiner, à 30-40% MG, légère, doux",
+      "referenceName": null
+    },
+    {
+      "tag": "en:30-40-fat-unsalted-vegetable-fat-high-in-omega-3",
+      "referenceCode": "ciqual:16736",
+      "reason": "reference-code-not-in-current-ciqual",
+      "taxonomyName": "Matière grasse végétale -type margarine-, à tartiner, à 30-40% MG, légère, doux, riche en oméga 3",
+      "referenceName": null
+    },
+    {
+      "tag": "en:30-40-fat-unsalted-vegetable-fat-with-plant-sterols-esters",
+      "referenceCode": "ciqual:16735",
+      "reason": "reference-code-not-in-current-ciqual",
+      "taxonomyName": "Matière grasse végétale -type margarine-, à tartiner, à 30-40% MG, légère, doux, aux esters de stérol végétal",
+      "referenceName": null
+    },
+    {
+      "tag": "en:30-40-lightly-salted-blended-fat-with-vegetable-and-animal-origins",
+      "referenceCode": "ciqual:16746",
+      "reason": "reference-code-not-in-current-ciqual",
+      "taxonomyName": "Matière grasse mélangée -végétale et laitière-, à tartiner, à 30-40% MG, demi-sel",
+      "referenceName": null
+    },
+    {
+      "tag": "en:30-40-lightly-salted-vegetable-fat-with-plant-sterols-esters",
+      "referenceCode": "ciqual:16742",
+      "reason": "reference-code-not-in-current-ciqual",
+      "taxonomyName": "Matière grasse végétale -type margarine- à 30-40% MG, légère, demi-sel, aux esters de stérol végétal",
+      "referenceName": null
+    },
+    {
+      "tag": "en:50-63-blended-fat-with-vegetable-and-animal-origins",
+      "referenceCode": "ciqual:16743",
+      "reason": "reference-code-not-in-current-ciqual",
+      "taxonomyName": "Matière grasse mélangée -végétale et laitière- à 50-63% MG",
+      "referenceName": null
+    },
+    {
+      "tag": "en:50-63-fat-lightly-salted-vegetable-fat",
+      "referenceCode": "ciqual:16738",
+      "reason": "reference-code-not-in-current-ciqual",
+      "taxonomyName": "Matière grasse végétale -type margarine- à 50-63% MG, allégée, demi-sel",
+      "referenceName": null
+    },
+    {
+      "tag": "en:50-63-lightly-salted-blended-fat-with-vegetable-and-animal-origins",
+      "referenceCode": "ciqual:16744",
+      "reason": "reference-code-not-in-current-ciqual",
+      "taxonomyName": "Matière grasse mélangée -végétale et laitière- à 50-63% MG, demi-sel",
+      "referenceName": null
+    },
+    {
+      "tag": "en:50-63-lightly-salted-vegetable-fat-high-in-omega-3",
+      "referenceCode": "ciqual:16740",
+      "reason": "reference-code-not-in-current-ciqual",
+      "taxonomyName": "Matière grasse végétale -type margarine- à 50-63% MG, allégée, demi-sel, riche en oméga 3",
+      "referenceName": null
+    },
+    {
+      "tag": "en:50-63-unsalted-vegetable-fat",
+      "referenceCode": "ciqual:16741",
+      "reason": "reference-code-not-in-current-ciqual",
+      "taxonomyName": "Matière grasse végétale -type margarine- à 50-63% MG, allégée, doux",
+      "referenceName": null
+    },
+    {
+      "tag": "en:50-63-unsalted-vegetable-fat-high-in-omega-3",
+      "referenceCode": "ciqual:16737",
+      "reason": "reference-code-not-in-current-ciqual",
+      "taxonomyName": "Matière grasse végétale -type margarine- à 50-63% MG, allégée, doux, riche en oméga 3",
+      "referenceName": null
+    },
+    {
+      "tag": "en:50-63-unsalted-vegetable-fat-with-plant-sterols-esters",
+      "referenceCode": "ciqual:16739",
+      "reason": "reference-code-not-in-current-ciqual",
+      "taxonomyName": "Matière grasse végétale -type margarine- à 50-63% MG, allégée, doux, aux esters de stérol végétal",
+      "referenceName": null
+    },
+    {
+      "tag": "en:60-unsalted-vegetable-fat-with-sunflowerseed",
+      "referenceCode": "ciqual:16654",
+      "reason": "reference-code-not-in-current-ciqual",
+      "taxonomyName": "Matière grasse végétale -type margarine- à 60% de MG, allégée, au tournesol, doux",
+      "referenceName": null
+    },
+    {
+      "tag": "en:70-fat-mayonnaise",
+      "referenceCode": "ciqual:11054",
+      "reason": "reference-name-disagrees",
+      "taxonomyName": "Mayonnaise -70% MG min.-",
+      "referenceName": "Mayonnaise (70% MG min.), préemballée"
+    },
+    {
+      "tag": "en:70-unsalted-vegetable-fat",
+      "referenceCode": "ciqual:16616",
+      "reason": "reference-code-not-in-current-ciqual",
+      "taxonomyName": "Matière grasse végétale -type margarine- à 70% MG, doux",
+      "referenceName": null
+    },
+    {
+      "tag": "en:80-salted-vegetable-fat",
+      "referenceCode": "ciqual:16614",
+      "reason": "reference-code-not-in-current-ciqual",
+      "taxonomyName": "Matière grasse végétale -type margarine- à 80% MG, salé",
+      "referenceName": null
+    },
+    {
+      "tag": "en:80-unsalted-vegetable-fat",
+      "referenceCode": "ciqual:16615",
+      "reason": "reference-code-not-in-current-ciqual",
+      "taxonomyName": "Matière grasse végétale ou margarine, 80% MG, doux",
+      "referenceName": null
+    },
+    {
+      "tag": "en:abondance",
+      "referenceCode": "ciqual:12112",
+      "reason": "missing-reference-name-cross-check",
+      "taxonomyName": "",
+      "referenceName": "Abondance"
+    },
+    {
+      "tag": "en:agar-agar",
+      "referenceCode": "ciqual:11084",
+      "reason": "reference-name-disagrees",
+      "taxonomyName": "Agar -algue-, cru",
+      "referenceName": "Agar (algue), frais, cru"
+    },
+    {
+      "tag": "en:agave-syrups",
+      "referenceCode": "ciqual:31089",
+      "reason": "reference-code-not-in-current-ciqual",
+      "taxonomyName": "Sirop d'agave",
+      "referenceName": null
+    },
+    {
+      "tag": "en:albacore",
+      "referenceCode": "ciqual:26076",
+      "reason": "missing-reference-name-cross-check",
+      "taxonomyName": "",
+      "referenceName": "Thon germon ou thon blanc, cru"
+    },
+    {
+      "tag": "en:alcohol-free-cocktails",
+      "referenceCode": "ciqual:2008",
+      "reason": "reference-name-disagrees",
+      "taxonomyName": "Cocktail sans alcool -à base de jus de fruits et de sirop-",
+      "referenceName": "Cocktail ou boisson apéritive sans alcool à base de jus de fruits et de sirop"
+    },
+    {
+      "tag": "en:aligots",
+      "referenceCode": "ciqual:4041",
+      "reason": "reference-name-disagrees",
+      "taxonomyName": "Aligot -purée de pomme de terre à la tomme fraîche-",
+      "referenceName": "Aligot (purée de pomme de terre à la tomme fraîche), préemballé"
+    },
+    {
+      "tag": "en:almond-based-drinks",
+      "referenceCode": "ciqual:18107",
+      "reason": "reference-name-disagrees",
+      "taxonomyName": "Boisson à l'amande",
+      "referenceName": "Boisson à l'amande, nature, sans sucres ajoutés, non enrichie, préemballée"
+    },
+    {
+      "tag": "en:almond-cakes",
+      "referenceCode": "ciqual:24665",
+      "reason": "reference-code-not-in-current-ciqual",
+      "taxonomyName": "",
+      "referenceName": null
+    },
+    {
+      "tag": "en:almond-cookies",
+      "referenceCode": "ciqual:24615",
+      "reason": "reference-name-disagrees",
+      "taxonomyName": "Biscuit sec ou tuile, aux amandes",
+      "referenceName": "Biscuit sec fin ou tuile, aux amandes"
+    },
+    {
+      "tag": "en:almond-milk-yogurts",
+      "referenceCode": "ciqual:18107",
+      "reason": "missing-reference-name-cross-check",
+      "taxonomyName": "",
+      "referenceName": "Boisson à l'amande, nature, sans sucres ajoutés, non enrichie, préemballée"
+    },
+    {
+      "tag": "en:almond-paste",
+      "referenceCode": "ciqual:15201",
+      "reason": "missing-reference-name-cross-check",
+      "taxonomyName": "",
+      "referenceName": "Pâte d'amande, préemballée"
+    },
+    {
+      "tag": "en:almond-peeled-unpeeled-or-blanched",
+      "referenceCode": "ciqual:15041",
+      "reason": "missing-reference-name-cross-check",
+      "taxonomyName": "",
+      "referenceName": "Amande, émondée, sans sel ajouté"
+    },
+    {
+      "tag": "en:anchovy-fillets-rolled-with-capers",
+      "referenceCode": "ciqual:25999",
+      "reason": "reference-name-disagrees",
+      "taxonomyName": "Anchois, filets roulés aux câpres, semi-conserve, égoutté",
+      "referenceName": "Anchois, filets, roulés aux câpres, salés, à l'huile, semi-conserve, égouttés"
+    },
+    {
+      "tag": "en:apple-compotes",
+      "referenceCode": "ciqual:13038",
+      "reason": "reference-name-disagrees",
+      "taxonomyName": "Compote de pomme",
+      "referenceName": "Compote de pomme, préemballée"
+    },
+    {
+      "tag": "en:apple-crumbles",
+      "referenceCode": "ciqual:23493",
+      "reason": "reference-name-disagrees",
+      "taxonomyName": "Crumble aux pommes",
+      "referenceName": "Crumble aux pommes, préemballé"
+    },
+    {
+      "tag": "en:apple-pulp",
+      "referenceCode": "ciqual:13050",
+      "reason": "reference-code-not-in-current-ciqual",
+      "taxonomyName": "Pomme, pulpe, crue",
+      "referenceName": null
+    },
+    {
+      "tag": "en:apple-pulp-and-peel",
+      "referenceCode": "ciqual:13039",
+      "reason": "reference-name-disagrees",
+      "taxonomyName": "Pomme, pulpe et peau, crue",
+      "referenceName": "Pomme, chair et peau, crue"
+    },
+    {
+      "tag": "en:apples",
+      "referenceCode": "ciqual:13039",
+      "reason": "missing-reference-name-cross-check",
+      "taxonomyName": "",
+      "referenceName": "Pomme, chair et peau, crue"
+    },
+    {
+      "tag": "en:apricot-kernel-oil",
+      "referenceCode": "ciqual:17020",
+      "reason": "reference-name-disagrees",
+      "taxonomyName": "Huile d'amandes d'abricot",
+      "referenceName": "Huile de noyaux d'abricot"
+    },
+    {
+      "tag": "en:arctic-char",
+      "referenceCode": "ciqual:26171",
+      "reason": "missing-reference-name-cross-check",
+      "taxonomyName": "",
+      "referenceName": "Omble chevalier, cru"
+    },
+    {
+      "tag": "en:armagnac",
+      "referenceCode": "ciqual:1023",
+      "reason": "reference-name-disagrees",
+      "taxonomyName": "Eau de vie de vin, type armagnac, cognac",
+      "referenceName": "Eau de vie de vin type armagnac ou cognac"
+    },
+    {
+      "tag": "en:artichokes",
+      "referenceCode": "ciqual:20052",
+      "reason": "missing-reference-name-cross-check",
+      "taxonomyName": "",
+      "referenceName": "Artichaut, cru"
+    },
+    {
+      "tag": "en:asiago",
+      "referenceCode": "ciqual:12761",
+      "reason": "missing-reference-name-cross-check",
+      "taxonomyName": "",
+      "referenceName": "Asiago"
+    },
+    {
+      "tag": "en:assortments-of-biscuits",
+      "referenceCode": "ciqual:24011",
+      "reason": "reference-name-disagrees",
+      "taxonomyName": "Biscuit sec, petits fours en assortiment",
+      "referenceName": "Biscuit sec, assortiment"
+    },
+    {
+      "tag": "en:atlantic-bass",
+      "referenceCode": "ciqual:26075",
+      "reason": "reference-name-disagrees",
+      "taxonomyName": "Bar ou loup de l'Atlantique, cru",
+      "referenceName": "Loup de l'Atlantique, cru"
+    },
+    {
+      "tag": "en:atlantic-halibut",
+      "referenceCode": "ciqual:26009",
+      "reason": "reference-name-disagrees",
+      "taxonomyName": "Flétan de l'Atlantique ou flétan blanc, cru",
+      "referenceName": "Flétan de l'Atlantique ou flétan, cru"
+    },
+    {
+      "tag": "en:aubergines",
+      "referenceCode": "ciqual:20053",
+      "reason": "missing-reference-name-cross-check",
+      "taxonomyName": "",
+      "referenceName": "Aubergine, crue"
+    },
+    {
+      "tag": "en:auvergne-blue-cheese-from-cow-s-milk",
+      "referenceCode": "ciqual:12521",
+      "reason": "missing-reference-name-cross-check",
+      "taxonomyName": "",
+      "referenceName": "Fromage bleu d'Auvergne"
+    },
+    {
+      "tag": "en:avocado-pulp",
+      "referenceCode": "ciqual:13004",
+      "reason": "reference-name-disagrees",
+      "taxonomyName": "Avocat, pulpe, cru",
+      "referenceName": "Avocat, chair sans peau, sans noyau, cru"
+    },
+    {
+      "tag": "en:bagel-breads",
+      "referenceCode": "ciqual:7258",
+      "reason": "reference-name-disagrees",
+      "taxonomyName": "Bagel",
+      "referenceName": "Pain bagel"
+    },
+    {
+      "tag": "en:baguette-kebab-with-vegetables",
+      "referenceCode": "ciqual:25429",
+      "reason": "missing-reference-name-cross-check",
+      "taxonomyName": "",
+      "referenceName": "Sandwich grec ou kebab, baguette, crudités"
+    },
+    {
+      "tag": "en:baguette-sandwiches",
+      "referenceCode": "ciqual:25543",
+      "reason": "unspecified-average-reference",
+      "taxonomyName": "Sandwich baguette -aliment moyen-",
+      "referenceName": "Sandwich baguette (aliment moyen)"
+    },
+    {
+      "tag": "en:baguette-sandwiches-with-and-chicken-and-vegetables-and-mayonnaise",
+      "referenceCode": "ciqual:25476",
+      "reason": "reference-name-disagrees",
+      "taxonomyName": "Sandwich baguette, poulet, crudités -tomate, salade-, mayonnaise",
+      "referenceName": "Sandwich baguette, poulet crudités mayonnaise, fait maison"
+    },
+    {
+      "tag": "en:baguette-sandwiches-with-and-turkey-and-vegetables-and-mayonnaise",
+      "referenceCode": "ciqual:25531",
+      "reason": "reference-name-disagrees",
+      "taxonomyName": "Sandwich baguette, dinde, crudités -tomate, salade-, mayonnaise",
+      "referenceName": "Sandwich baguette, dinde crudités mayonnaise"
+    },
+    {
+      "tag": "en:baguette-sandwiches-with-camembert-cheese",
+      "referenceCode": "ciqual:25518",
+      "reason": "reference-name-disagrees",
+      "taxonomyName": "Sandwich baguette, camembert, beurre",
+      "referenceName": "Sandwich baguette, camembert beurre, fait maison"
+    },
+    {
+      "tag": "en:baguette-sandwiches-with-dry-sausage-and-butter",
+      "referenceCode": "ciqual:25520",
+      "reason": "reference-name-disagrees",
+      "taxonomyName": "Sandwich baguette, saucisson, beurre",
+      "referenceName": "Sandwich baguette, saucisson beurre, fait maison"
+    },
+    {
+      "tag": "en:baguette-sandwiches-with-egg-and-vegetables-and-mayonnaise",
+      "referenceCode": "ciqual:25532",
+      "reason": "reference-name-disagrees",
+      "taxonomyName": "Sandwich baguette, oeuf, crudités -tomate, salade-, mayonnaise",
+      "referenceName": "Sandwich baguette, oeuf crudités mayonnaise"
+    },
+    {
+      "tag": "en:baguette-sandwiches-with-ham-and-butter",
+      "referenceCode": "ciqual:25517",
+      "reason": "missing-reference-name-cross-check",
+      "taxonomyName": "",
+      "referenceName": "Sandwich baguette, jambon beurre, fait maison"
+    },
+    {
+      "tag": "en:baguette-sandwiches-with-ham-and-emmental-cheese",
+      "referenceCode": "ciqual:25485",
+      "reason": "missing-reference-name-cross-check",
+      "taxonomyName": "",
+      "referenceName": "Sandwich baguette, jambon emmental, préemballé"
+    },
+    {
+      "tag": "en:baguette-sandwiches-with-ham-emmental-cheese-and-butter",
+      "referenceCode": "ciqual:25521",
+      "reason": "missing-reference-name-cross-check",
+      "taxonomyName": "",
+      "referenceName": "Sandwich baguette, jambon emmental beurre"
+    },
+    {
+      "tag": "en:baguette-sandwiches-with-hard-boiled-egg-and-vegetables-and-butter",
+      "referenceCode": "ciqual:25475",
+      "reason": "reference-name-disagrees",
+      "taxonomyName": "Sandwich baguette, jambon, oeuf dur, crudités -tomate, salade-, beurre",
+      "referenceName": "Sandwich baguette, jambon, oeuf, crudités, beurre"
+    },
+    {
+      "tag": "en:baguette-sandwiches-with-salami-and-butter",
+      "referenceCode": "ciqual:25536",
+      "reason": "missing-reference-name-cross-check",
+      "taxonomyName": "",
+      "referenceName": "Sandwich baguette, salami beurre"
+    },
+    {
+      "tag": "en:baguette-sandwiches-with-tuna-and-sweet-corn-and-vegetables",
+      "referenceCode": "ciqual:25490",
+      "reason": "reference-name-disagrees",
+      "taxonomyName": "Sandwich baguette, thon, maïs, crudités",
+      "referenceName": "Sandwich baguette, thon maïs crudités, préemballé"
+    },
+    {
+      "tag": "en:baguette-sandwiches-with-tuna-and-vegetables-and-mayonnaise",
+      "referenceCode": "ciqual:25431",
+      "reason": "reference-name-disagrees",
+      "taxonomyName": "Sandwich baguette, thon, crudités -tomate, salade-, mayonnaise",
+      "referenceName": "Sandwich baguette, thon crudités mayonnaise, fait maison"
+    },
+    {
+      "tag": "en:baguettes",
+      "referenceCode": "ciqual:7001",
+      "reason": "reference-name-disagrees",
+      "taxonomyName": "Pain, baguette, courante",
+      "referenceName": "Pain blanc (par ex. : baguette, boule…)"
+    },
+    {
+      "tag": "en:baked-capon-meat-and-skin",
+      "referenceCode": "ciqual:36051",
+      "reason": "reference-name-disagrees",
+      "taxonomyName": "Chapon, viande et peau, rôti/cuit au four",
+      "referenceName": "Chapon, viande et peau rôties/cuites au four"
+    },
+    {
+      "tag": "en:baked-peeled-potatoes",
+      "referenceCode": "ciqual:4002",
+      "reason": "reference-name-disagrees",
+      "taxonomyName": "Pomme de terre, sans peau, cuite au four",
+      "referenceName": "Pomme de terre, sans peau, rôtie/cuite au four"
+    },
+    {
+      "tag": "en:baked-shortcrust-pastry-with-vegetable-oil",
+      "referenceCode": "ciqual:23412",
+      "reason": "reference-name-disagrees",
+      "taxonomyName": "Pâte brisée, matière grasse végétale, cuite",
+      "referenceName": "Pâte brisée, matière grasse végétale, préemballée, cuite"
+    },
+    {
+      "tag": "en:baker-s-yeast",
+      "referenceCode": "ciqual:11045",
+      "reason": "missing-reference-name-cross-check",
+      "taxonomyName": "",
+      "referenceName": "Levure de boulanger déshydratée"
+    },
+    {
+      "tag": "en:baker-s-yeast-compressed",
+      "referenceCode": "ciqual:11010",
+      "reason": "missing-reference-name-cross-check",
+      "taxonomyName": "",
+      "referenceName": "Levure de boulanger fraîche"
+    }
+  ],
+  "source": {
+    "url": "https://static.openfoodfacts.org/data/taxonomies/categories.json",
+    "retrievedAt": "2026-09-06",
+    "sha256": "629822806da092029b985bcb2e0e3eeb1e7cc19088975cf8e347bcc58804c9ec",
+    "referenceSHA256": "9c69ce4980c257a9878133f4dc98bfbcf9cd9d89511e6983e844db8896563074"
+  }
+}

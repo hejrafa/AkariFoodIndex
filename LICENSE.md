@@ -58,3 +58,11 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+## Category taxonomy and audit artifacts
+
+`food-category-taxonomy.json` compiles Open Food Facts category identifiers,
+translations and hierarchy (ODbL 1.0). Its direct Ciqual identifiers are checked
+against ANSES Ciqual 2025 food names (Licence Ouverte 2.0). It contains no copied
+nutrient values. Source URLs and SHA-256 hashes are embedded. The report's
+coverage and source-agreement counts do not certify individual product labels.
