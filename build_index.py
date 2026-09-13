@@ -17,10 +17,12 @@ import csv
 import datetime as dt
 import gzip
 import hashlib
+import io
 import json
 import math
 import re
 import sqlite3
+import sys
 import unicodedata
 from dataclasses import dataclass, field, replace
 from pathlib import Path
@@ -806,11 +808,22 @@ class IndexWriter:
         }
 
 
-def open_export(path: Path) -> Iterator[dict[str, Any]]:
-    handle = (gzip.open(path, "rt", encoding="utf-8", errors="replace")
-              if path.suffix == ".gz"
-              else path.open("r", encoding="utf-8", errors="replace"))
-    with handle:
+def open_export(path: Path, *, gzip_input: bool = False,
+                stream: Any = None) -> Iterator[dict[str, Any]]:
+    """Read an export from disk or JSONL from stdin without buffering it."""
+    if path == Path("-"):
+        binary_stream = stream if stream is not None else sys.stdin.buffer
+        handle = (gzip.open(binary_stream, "rt", encoding="utf-8", errors="replace")
+                  if gzip_input
+                  else io.TextIOWrapper(binary_stream, encoding="utf-8",
+                                        errors="replace"))
+        context = contextlib.nullcontext(handle)
+    else:
+        handle = (gzip.open(path, "rt", encoding="utf-8", errors="replace")
+                  if path.suffix == ".gz"
+                  else path.open("r", encoding="utf-8", errors="replace"))
+        context = handle
+    with context:
         if path.name.endswith(".csv") or path.name.endswith(".csv.gz"):
             # Ingredient and packaging fields can exceed Python's conservative
             # 128 KiB CSV default even though the compact index ignores most
@@ -861,6 +874,8 @@ def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--off-export", "--off-jsonl", dest="off_export",
                         required=True, type=Path)
+    parser.add_argument("--off-export-gzip", action="store_true",
+                        help="Decompress a gzip export streamed on stdin")
     parser.add_argument("--market", action="append", required=True, type=Market.parse)
     parser.add_argument("--output-dir", required=True, type=Path)
     parser.add_argument("--schema", type=Path,
@@ -887,7 +902,8 @@ def main() -> None:
             ("unverified-flat-csv" if args.allow_legacy_csv_for_audit else "reported-json-input-sets",))
     accepted = 0
     try:
-        for scanned, record in enumerate(open_export(args.off_export), 1):
+        for scanned, record in enumerate(open_export(
+                args.off_export, gzip_input=args.off_export_gzip), 1):
             if scanned % 100_000 == 0:
                 print(f"Scanned {scanned:,} source records; retained {accepted:,} market products", flush=True)
             if not args.allow_legacy_csv_for_audit and not (

@@ -35,29 +35,24 @@ jobs:
           ssh-key: ${{ secrets.AKARI_SOURCE_DEPLOY_KEY }}
           persist-credentials: false
 
-      - name: Download the official Open Food Facts export
-        run: |
-          mkdir -p downloads dist
-          curl --fail --location --retry 5 --retry-delay 20 \
-            --output downloads/openfoodfacts-products.jsonl.gz \
-            "$OFF_EXPORT_URL"
-
       - name: Compile current category identities against the national table
         run: |
+          mkdir -p downloads dist
           curl --fail --location --retry 3 --output downloads/categories.json \
             https://static.openfoodfacts.org/data/taxonomies/categories.json
           python3 build_food_taxonomy.py --taxonomy downloads/categories.json \
             --reference-index akari-reference/Akari/ReferenceFoods.sqlite \
             --output food-category-taxonomy.json --report dist/taxonomy-audit.json
 
-      - name: Build country catalogues
+      - name: Stream the official export into country catalogues
         env:
           RELEASE_BASE_URL: https://github.com/${{ github.repository }}/releases/latest/download
         run: |
+          set -o pipefail
           CATALOG_VERSION="$(date -u +'%Y-%m-%dT%H:%M:%SZ')"
           echo "CATALOG_VERSION=$CATALOG_VERSION" >> "$GITHUB_ENV"
-          python3 build_index.py \
-            --off-export downloads/openfoodfacts-products.jsonl.gz \
+          curl --fail --location --retry 5 --retry-delay 20 "$OFF_EXPORT_URL" | \
+          python3 build_index.py --off-export - --off-export-gzip \
             --market DE=en:germany \
             --market AT=en:austria \
             --market CH=en:switzerland \
@@ -168,7 +163,3 @@ jobs:
             --title "Akari Food Index $CATALOG_VERSION" \
             --notes "Open Food Facts market snapshots plus Akari's separate BLS, USDA, CoFID, Ciqual, and MEXT generic-food reference index. See LICENSE.md for source-specific terms and attribution." \
             --latest
-
-      - name: Remove local source export
-        if: always()
-        run: rm -f downloads/openfoodfacts-products.jsonl.gz

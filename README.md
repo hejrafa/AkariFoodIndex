@@ -51,11 +51,13 @@ nor hot cache is part of the App Store bundle or iCloud backup.
 Commands below use the app checkout’s `FoodIndex/` prefix. In the standalone
 AkariFoodIndex repository, omit that prefix.
 
-Download the official Open Food Facts JSONL export and run:
+Stream the official compressed Open Food Facts JSONL export directly into the
+builder so the multi-gigabyte source does not consume local disk space:
 
 ```sh
-python3 FoodIndex/build_index.py \
-  --off-export openfoodfacts-products.jsonl.gz \
+curl --fail --location \
+  https://static.openfoodfacts.org/data/openfoodfacts-products.jsonl.gz | \
+python3 FoodIndex/build_index.py --off-export - --off-export-gzip \
   --market DE=en:germany \
   --market AT=en:austria \
   --market CH=en:switzerland \
@@ -70,9 +72,9 @@ in Git history; publish them as GitHub Release assets or object-storage files.
 The release also contains `reference-foods.sqlite` and
 `reference-manifest.json`. The reference database is built and reviewed in the
 Akari application repository, then its hash, schema, source counts, integrity,
-and 103-item curated verification boundary are checked again here before it is
-published. National-table rows do not become verified merely because they have
-many nutrients.
+and curated verification coverage for every national source are checked again
+here before it is published. National-table rows do not become verified merely
+because they have many nutrients.
 
 ## Verify
 
