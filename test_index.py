@@ -284,6 +284,24 @@ class FoodIndexBuilderTests(unittest.TestCase):
             self.assertEqual(json.loads(product[9]), ["en:dairies", "en:cheeses"])
             self.assertEqual(product[10], "unknown")
 
+    def test_builder_streams_a_compressed_jsonl_export_from_stdin(self) -> None:
+        value = record("3011360021502", "Streamed Food", 361, 500)
+        compressed = gzip.compress((json.dumps(value) + "\n").encode())
+        with tempfile.TemporaryDirectory() as directory:
+            output = Path(directory) / "dist"
+            subprocess.run([
+                "python3", str(ROOT / "build_index.py"),
+                "--off-export", "-", "--off-export-gzip",
+                "--market", "DE=en:germany",
+                "--output-dir", str(output),
+                "--catalog-version", "2026-09-13T00:00:00Z",
+            ], input=compressed, check=True)
+
+            database = sqlite3.connect(output / "akari-food-de.sqlite")
+            self.assertEqual(database.execute(
+                "SELECT product_name FROM sku").fetchone(), ("Streamed Food",))
+            database.close()
+
     def test_builder_preserves_volume_basis_and_named_serving(self) -> None:
         value = {
             "code": "3017620422003",
