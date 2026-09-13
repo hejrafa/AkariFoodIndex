@@ -5,6 +5,38 @@ import tempfile
 import unittest
 sys.path.insert(0,str(pathlib.Path(__file__).resolve().parent))
 from prepare_release import prepare
+from verify_release import verify_reference_coverage
+
+
+class ReferenceCoverageTests(unittest.TestCase):
+    def setUp(self):
+        self.source_counts = {
+            "bls": 7106,
+            "ciqual": 3281,
+            "cofid": 2845,
+            "mext": 2526,
+            "usda": 5752,
+        }
+        self.verified_counts = {
+            "bls": 199,
+            "ciqual": 4,
+            "cofid": 18,
+            "mext": 2,
+            "usda": 43,
+        }
+
+    def test_accepts_verified_count_growth_across_all_sources(self):
+        verify_reference_coverage(self.source_counts, self.verified_counts)
+
+    def test_rejects_a_source_without_verified_coverage(self):
+        del self.verified_counts["mext"]
+        with self.assertRaisesRegex(ValueError, "Verified reference coverage differs"):
+            verify_reference_coverage(self.source_counts, self.verified_counts)
+
+    def test_rejects_verified_count_above_source_total(self):
+        self.verified_counts["usda"] = self.source_counts["usda"] + 1
+        with self.assertRaisesRegex(ValueError, "usda=5753/5752"):
+            verify_reference_coverage(self.source_counts, self.verified_counts)
 
 class ReleaseCompatibilityTests(unittest.TestCase):
     def test_old_apps_keep_immutable_catalogue_and_new_apps_get_v4(self):

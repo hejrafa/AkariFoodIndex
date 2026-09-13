@@ -6,6 +6,40 @@ import json
 import sqlite3
 from pathlib import Path
 
+REFERENCE_SOURCES = {"bls", "usda", "cofid", "ciqual", "mext"}
+
+
+def verify_reference_coverage(source_counts, verified_counts):
+    """Reject incomplete reference indexes without pinning normal count growth."""
+    sources = set(source_counts)
+    if sources != REFERENCE_SOURCES:
+        raise ValueError(
+            f"Reference sources differ: expected {sorted(REFERENCE_SOURCES)}, "
+            f"got {sorted(sources)}"
+        )
+    empty_sources = sorted(source for source, count in source_counts.items() if count <= 0)
+    if empty_sources:
+        raise ValueError(f"Empty reference sources: {empty_sources}")
+    verified_sources = set(verified_counts)
+    if verified_sources != sources:
+        raise ValueError(
+            f"Verified reference coverage differs: expected {sorted(sources)}, "
+            f"got {sorted(verified_sources)}"
+        )
+    invalid_counts = {
+        source: (verified_counts[source], source_counts[source])
+        for source in sources
+        if not 0 < verified_counts[source] <= source_counts[source]
+    }
+    if invalid_counts:
+        raise ValueError(
+            "Invalid verified/total reference counts: "
+            + ", ".join(
+                f"{source}={verified}/{total}"
+                for source, (verified, total) in sorted(invalid_counts.items())
+            )
+        )
+
 
 def verify(directory):
     manifest=json.loads((directory/'manifest.json').read_text())
