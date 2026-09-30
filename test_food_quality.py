@@ -10,6 +10,20 @@ from food_taxonomy import CATALOG, most_specific, search_names
 from build_index import scaled_nutrients, validation_issues
 
 class FoodQualityTests(unittest.TestCase):
+    def test_specific_food_seed_beats_higher_priority_ancestor(self):
+        taxonomy = {
+            'en:broad': {'name': {'en': 'Broad ingredient'}},
+            'en:specific': {'name': {'en': 'Specific food'}, 'parents': ['en:broad']},
+            'en:leaf': {'name': {'en': 'Local variety'}, 'parents': ['en:specific']},
+        }
+        rules = {'version': 12, 'rules': [
+            {'id': 'broad', 'tags': ['en:broad'], 'priority': 100},
+            {'id': 'specific', 'tags': ['en:specific'], 'priority': 20},
+        ]}
+        result, _ = compile_taxonomy(taxonomy, rules, {})
+        self.assertEqual(result['tags']['en:specific'], 'specific')
+        self.assertEqual(result['tags']['en:leaf'], 'specific')
+
     def test_taxonomy_rejects_disagreement_proxy_and_ambiguous_name(self):
         taxonomy={
             'en:cheeses':{'name':{'en':'Cheese'},'ciqual_proxy_food_code':{'en':'1'}},
@@ -107,7 +121,7 @@ class ReleaseProvenanceTests(unittest.TestCase):
         from verify_release import verify
         with tempfile.TemporaryDirectory() as tmp:
             root=pathlib.Path(tmp);source=root/'products.jsonl';dist=root/'dist'
-            source.write_text(json.dumps({'code':'4002468181006','product_name':'Test food','countries_tags':['en:germany'],
+            source.write_text(json.dumps({'code':'4002468181006','product_name':'Release fixture food','countries_tags':['en:germany'],
                 'nutriments':{'energy-kcal_100g':170,'proteins_100g':10,'fat_100g':10,'carbohydrates_100g':10}})+'\n')
             subprocess.run([sys.executable,str(ROOT/'build_index.py'),'--off-export',str(source),
                 '--market','DE=en:germany','--output-dir',str(dist)],check=True,capture_output=True)

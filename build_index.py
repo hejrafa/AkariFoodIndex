@@ -32,6 +32,7 @@ from typing import Any, Iterable, Iterator
 from classify_artwork import classify, VERSION as CLASSIFICATION_VERSION
 from food_taxonomy import search_names
 from normalize_off_nutrition import normalize_record
+from serving_validation import accepts as accepts_serving_label
 
 SCHEMA_VERSION = 4
 SUPPORTED_NUTRIENTS = {
@@ -304,12 +305,31 @@ def brand_name(record: dict[str, Any]) -> str | None:
     return brands[0] if brands else None
 
 
+TEST_ENTRY_MARKERS = {
+    "test", "tests", "testing", "testproduct", "testprodukt",
+    "testentry", "testeintrag", "testfood", "testscan", "testbarcode",
+    "testnutriscan",
+}
+
+
+def contains_test_entry_marker(value: str) -> bool:
+    return not set(normalized_text(value).split()).isdisjoint(TEST_ENTRY_MARKERS)
+
+
+def is_test_entry(record: dict[str, Any]) -> bool:
+    name_is_test_entry = any(
+        not set(normalized_text(name).split()).isdisjoint(TEST_ENTRY_MARKERS)
+        for name in all_field_values(record, "product_name")
+    )
+    normalized_brand = normalized_text(brand_name(record) or "")
+    brand_is_test_entry = contains_test_entry_marker(normalized_brand)
+    if not name_is_test_entry and not brand_is_test_entry:
+        return False
+    return not (normalized_brand == "test" and not name_is_test_entry)
+
+
 def nutrition_basis(record: dict[str, Any]) -> str:
     declared = normalized_text(record.get("nutrition_data_per"))
-    if "ml" in declared:
-        return "per100Milliliters"
-    if "g" in declared:
-        return "per100Grams"
     units = {
         normalized_text(record.get("product_quantity_unit")),
         normalized_text(record.get("serving_quantity_unit")),
@@ -318,6 +338,21 @@ def nutrition_basis(record: dict[str, Any]) -> str:
         "ml", "milliliter", "milliliters", "millilitre", "millilitres",
         "l", "liter", "liters", "litre", "litres",
     }
+    if "ml" in declared:
+        return "per100Milliliters"
+    if "g" in declared:
+        identity = " ".join(normalized_text(value) for value in (
+            all_field_values(record, "product_name")
+            + all_field_values(record, "generic_name")
+            + all_categories(record)
+        ))
+        dry_forms = {"powder", "pulver", "concentrate", "konzentrat", "syrup", "sirup"}
+        explicitly_named_drink = re.search(
+            r"\b\w*(?:getrank|schorle|shorle)\b", identity) is not None
+        if (units.intersection(volume_units) and explicitly_named_drink
+                and set(identity.split()).isdisjoint(dry_forms)):
+            return "per100Milliliters"
+        return "per100Grams"
     return "per100Milliliters" if units.intersection(volume_units) else "per100Grams"
 
 
@@ -446,6 +481,9 @@ def market_tags(record: dict[str, Any]) -> set[str]:
 
 def serving(record: dict[str, Any]) -> tuple[
         float | None, str | None, float | None, float | None, str | None]:
+    if not accepts_serving_label(text(record.get("serving_size")), text(record.get("product_name")),
+                   text(record.get("generic_name"))):
+        return None, None, None, None, None
     amount = finite(record.get("serving_quantity"))
     unit = normalized_text(record.get("serving_quantity_unit"))
     grams: float | None = None
@@ -563,7 +601,7 @@ class Product:
         record = normalize_record(record)
         barcode = str(record.get("code") or "").strip()
         name = product_name(record)
-        if not valid_gtin(barcode) or not name:
+        if not valid_gtin(barcode) or not name or is_test_entry(record):
             return None
         basis = nutrition_basis(record)
         nutrients = scaled_nutrients(record, basis)

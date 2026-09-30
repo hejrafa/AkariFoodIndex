@@ -48,8 +48,10 @@ nor hot cache is part of the App Store bundle or iCloud backup.
 
 ## Build
 
-Commands below use the app checkout’s `FoodIndex/` prefix. In the standalone
-AkariFoodIndex repository, omit that prefix.
+The Akari app checkout’s `FoodIndex/` folder is the source of truth and is
+published unchanged as the root of the standalone AkariFoodIndex repository by
+the app’s `Scripts/publish_food_index.py`. Commands below use the app
+checkout’s `FoodIndex/` prefix. In the standalone repository, omit that prefix.
 
 Stream the official compressed Open Food Facts JSONL export directly into the
 builder so the multi-gigabyte source does not consume local disk space:
@@ -89,7 +91,8 @@ reuse guidance before changing distribution or contribution behavior.
 
 ## Publishing
 
-`.github/workflows/refresh.yml` is the complete distribution workflow. It
+`.github/workflows/refresh.yml` (`FoodIndex/.github/workflows/refresh.yml` in
+the app checkout) is the complete distribution workflow. It
 refreshes the core German-speaking and English-speaking markets weekly,
 validates the independent generic-food reference database, verifies every
 SQLite file and SHA-256 digest, then publishes immutable GitHub Release assets
@@ -100,11 +103,24 @@ Published catalogues are available from the
 
 ## Food classification and artwork
 
-`artwork-classification.json` is the owned presentation taxonomy. Copy it verbatim
-to `Akari/FoodArtworkClassification.json` when changing rules; shared regression
-fixtures and CI check that both implementations stay aligned. Source category
+`artwork-classification.json` is the owned presentation taxonomy. After changing
+it, the category taxonomy, serving identities, or classification fixtures, run
+`python3 Scripts/sync_food_index_data.py` from the app checkout to refresh the
+app's copies; shared regression fixtures and CI check that both implementations
+stay aligned. Source category
 IDs are matched exactly. Manufacturer-reviewed product-line rules include URLs,
 review dates, and narrow name qualifiers. Nutrient and alcohol logic is separate.
+
+Rules can declare `ingredientCategories`: when both occur in a food name, the
+finished form owns its ingredient or flavor (for example peanut butter cookies,
+chocolate milk, or protein bars). The same relationship resolves broad category
+and alternate-name hints. Exact food terms before commas retain catalog wording
+such as “Chocolate, milk” when there is a known ingredient relationship; powder
+and other preparation identities are still considered. Shared fixtures cover
+both directions and ambiguous German terms such as Eiweiß.
+
+Generic and explicit chocolate bars use the existing 3D chocolate-bar icon from
+the Microsoft Fluent Emoji set. The artwork manifest and license are unchanged.
 
 `classify_artwork.py` writes each SKU's category, artwork ID, evidence, source, and
 rule version. `audit_classification.py` produces coverage counts and a review

@@ -9,6 +9,16 @@ sys.path.insert(0, str(ROOT))
 from classify_artwork import classify, MANIFEST
 
 class ArtworkClassificationTests(unittest.TestCase):
+    def test_ingredient_relationships_are_valid_and_acyclic(self):
+        rules = {r['id']: r for r in MANIFEST['rules']}
+        def visit(category, ancestors):
+            self.assertNotIn(category, ancestors, 'Food ownership must not suppress itself')
+            for ingredient in rules[category].get('ingredientCategories', []):
+                self.assertIn(ingredient, rules)
+                visit(ingredient, ancestors | {category})
+        for category in rules:
+            visit(category, set())
+
     def test_shared_regressions(self):
         for case in json.loads((ROOT/'classification-fixtures.json').read_text()):
             with self.subTest(case=case):

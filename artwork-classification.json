@@ -1,25 +1,68 @@
 {
-  "version": 3,
-  "description": "Akari presentation classification. Exact source categories first; conservative product-line rules only when the entire remaining name is a reviewed qualifier. Never infer nutrients, allergens, alcohol counts or verified status.",
+  "version": 33,
+  "description": "Akari presentation classification. Unambiguous complete food names can correct contradictory source categories; otherwise exact source categories come first. Product-line rules apply only when the entire remaining name is a reviewed qualifier. Never infer nutrients, allergens, alcohol counts or verified status.",
   "taxonomySource": "https://openfoodfacts.github.io/documentation/docs/Product-Opener/schemas/schemas/product_tags/",
   "rules": [
     {
       "id": "spread",
-      "artworkID": "plate",
+      "artworkID": "jar",
       "priority": 30,
       "tags": [
         "en:spreads",
-        "en:salted-spreads"
+        "en:salted-spreads",
+        "en:hummus",
+        "en:tahini"
       ],
       "terms": [
         "spread",
         "aufstrich",
-        "brotaufstrich"
+        "brotaufstrich",
+        "hummus",
+        "houmous",
+        "tahini",
+        "tahina",
+        "tahin",
+        "tapenade",
+        "brotaufstriche",
+        "aufstriche",
+        "terrine",
+        "terrines",
+        "rillettes",
+        "egg pate",
+        "cheese pate",
+        "ham cheese pate",
+        "pâté de foie",
+        "pâté de campagne",
+        "pâté en croûte",
+        "pâte à tartiner",
+        "pastete",
+        "pate liver",
+        "liver pate",
+        "paste or pate",
+        "pâté breton",
+        "pâté de gibier",
+        "pâté au poivre",
+        "pâté aliment moyen",
+        "type pâté"
+      ],
+      "compoundSuffixes": [
+        "aufstrich",
+        "pastete"
+      ],
+      "ingredientCategories": [
+        "chocolate",
+        "cheese",
+        "butter",
+        "cereal",
+        "egg",
+        "meat",
+        "poultry",
+        "fish"
       ]
     },
     {
       "id": "sweet-spread",
-      "artworkID": "plate",
+      "artworkID": "jar",
       "priority": 100,
       "tags": [
         "en:chocolate-spreads",
@@ -29,7 +72,10 @@
         "en:nut-butters",
         "en:peanut-butters",
         "en:jams",
-        "en:sweet-spreads"
+        "en:sweet-spreads",
+        "en:fruit-preserves",
+        "en:compotes",
+        "en:apple-sauces"
       ],
       "terms": [
         "peanut butter",
@@ -38,12 +84,36 @@
         "biscoff spread",
         "marmelade",
         "konfitüre",
-        "jam"
+        "jam",
+        "jams",
+        "jelly",
+        "jellies",
+        "confiture",
+        "confitures",
+        "marmalade",
+        "fruit compote",
+        "compote",
+        "kompott",
+        "apfelmus",
+        "apfelmark",
+        "apfelkompott",
+        "apple sauce",
+        "applesauce",
+        "nussmus",
+        "mandelmus",
+        "cashewmus",
+        "erdnussmus",
+        "erdnussbutter",
+        "almond butter",
+        "almond spread",
+        "nut butter",
+        "nut spread",
+        "ジャム"
       ]
     },
     {
       "id": "sauce",
-      "artworkID": "plate",
+      "artworkID": "jar",
       "priority": 100,
       "tags": [
         "en:sauces",
@@ -51,7 +121,12 @@
         "en:tomato-sauces",
         "en:pestos",
         "en:dressings",
-        "en:dips"
+        "en:dips",
+        "en:mustards",
+        "en:ketchups",
+        "en:mayonnaises",
+        "en:soy-sauces",
+        "en:miso"
       ],
       "terms": [
         "sauce",
@@ -61,8 +136,88 @@
         "pastasauce",
         "dressing",
         "dip",
-        "pesto"
-      ]
+        "pesto",
+        "bratensauce",
+        "bratensoße",
+        "bratensosse",
+        "fleischsauce",
+        "fleischsoße",
+        "fleischsosse",
+        "gulaschsauce",
+        "gulaschsoße",
+        "gulaschsosse",
+        "steaksauce",
+        "steaksoße",
+        "steaksosse",
+        "sahnesauce",
+        "sahnesoße",
+        "sahnesosse",
+        "sojasauce",
+        "sojasoße",
+        "sojasaus",
+        "soy sauce",
+        "soya sauce",
+        "soja sauce",
+        "shoyu",
+        "tamari",
+        "醤油",
+        "しょうゆ",
+        "ketchup",
+        "mustard",
+        "senf",
+        "moutarde",
+        "mayonnaise",
+        "mayo",
+        "aioli",
+        "sriracha",
+        "salsa",
+        "teriyaki",
+        "hoisin",
+        "gochujang",
+        "doenjang",
+        "fish sauce",
+        "fischsauce",
+        "sauce soja",
+        "sauce de soja",
+        "miso",
+        "miso paste",
+        "みそ類",
+        "tomatenmark",
+        "tomatenpüree",
+        "tomatenpüree bio",
+        "passierte tomaten",
+        "passata",
+        "tomato paste",
+        "tomato puree",
+        "chutney",
+        "chutneys",
+        "remoulade",
+        "marinade",
+        "marinades",
+        "doubanjiang",
+        "chili bean paste",
+        "トウバンジャン",
+        "豆板醤",
+        "pfeffersauce",
+        "pfeffersoße",
+        "pfeffersosse",
+        "bratensaft",
+        "fleischsaft",
+        "dashi no moto",
+        "tonkatsu sauce",
+        "ponzu",
+        "tentsuyu",
+        "tsuyu",
+        "salad cream",
+        "salatcreme"
+      ],
+      "compoundSuffixes": [
+        "sauce",
+        "soße",
+        "sosse",
+        "dressing"
+      ],
+      "compoundExclusions": []
     },
     {
       "id": "flour",
@@ -75,7 +230,19 @@
       "terms": [
         "flour",
         "mehl",
-        "weizenmehl"
+        "weizenmehl",
+        "flours",
+        "farine",
+        "farines",
+        "mehle",
+        "mehltypen",
+        "spelt flour",
+        "dinkelmehl",
+        "roggenmehl",
+        "小麦粉",
+        "bread flour",
+        "cake flour",
+        "pastry flour"
       ]
     },
     {
@@ -84,35 +251,98 @@
       "priority": 100,
       "tags": [
         "en:protein-powders",
-        "en:meal-replacements",
         "en:food-supplements"
       ],
       "terms": [
         "powder",
         "pulver",
         "proteinpulver",
-        "supplement"
+        "supplement",
+        "proteinshakepulver",
+        "eiweißshakepulver",
+        "eiweissshakepulver",
+        "ginger powder",
+        "ingwerpulver",
+        "cocoa powder",
+        "kakaopulver",
+        "chocolate powder",
+        "vollmilchpulver",
+        "magermilchpulver",
+        "erdbeerjoghurtpulver"
+      ]
+    },
+    {
+      "id": "hojicha",
+      "artworkID": "tea",
+      "priority": 110,
+      "tags": [],
+      "terms": [
+        "hojicha",
+        "hōjicha",
+        "houjicha",
+        "ほうじ茶"
+      ]
+    },
+    {
+      "id": "chili-crisp",
+      "artworkID": "chili",
+      "priority": 110,
+      "tags": [
+        "en:chili-oils",
+        "en:chilli-oils"
+      ],
+      "terms": [
+        "chili crisp",
+        "chilli crisp",
+        "chili crunch",
+        "chilli crunch",
+        "crispy chili oil",
+        "crispy chilli oil",
+        "crispy chili",
+        "crispy chilli",
+        "chili oil",
+        "chilli oil"
       ]
     },
     {
       "id": "oil",
-      "artworkID": "plate",
+      "artworkID": "amphora",
       "priority": 100,
       "tags": [
         "en:oils",
-        "en:vegetable-oils",
-        "en:olive-oils"
+        "en:vegetable-oils"
       ],
       "terms": [
         "oil",
         "olive oil",
         "olivenöl",
-        "sonnenblumenöl"
+        "sonnenblumenöl",
+        "rapsöl",
+        "rapsoel",
+        "canola oil",
+        "rapeseed oil",
+        "sunflower oil",
+        "vegetable oil",
+        "huile",
+        "huile de colza",
+        "huile de tournesol",
+        "kokosöl",
+        "coconut oil",
+        "sesamöl",
+        "sesamoel",
+        "sesame oil",
+        "avocado oil",
+        "erdnussöl",
+        "peanut oil",
+        "frittieröl",
+        "pflanzenöl",
+        "脂類",
+        "植物油脂類"
       ]
     },
     {
       "id": "yogurt",
-      "artworkID": "plate",
+      "artworkID": "jar",
       "priority": 80,
       "tags": [
         "en:yogurts",
@@ -122,7 +352,12 @@
         "en:plant-based-yogurts",
         "en:fermented-milk-products-desserts",
         "en:non-dairy-yogurts",
-        "en:soy-milk-yogurts"
+        "en:soy-milk-yogurts",
+        "en:quarks",
+        "en:fromages-blancs",
+        "en:petits-suisses",
+        "en:skyrs",
+        "en:plant-based-yogurt-alternatives"
       ],
       "terms": [
         "yogurt",
@@ -133,12 +368,66 @@
         "quark",
         "fruchtquark",
         "joghurtalternative",
-        "soja joghurtalternative"
+        "soja joghurtalternative",
+        "magerquark",
+        "speisequark",
+        "rahmquark",
+        "fromage blanc",
+        "fromages blancs",
+        "petit suisse",
+        "petits suisses",
+        "joghurterzeugnis",
+        "joghurtzubereitung",
+        "joghurt natur",
+        "ヨーグルト",
+        "yaourt",
+        "yaourts",
+        "yaourt nature",
+        "yaourt grec",
+        "yaourt à la grecque"
+      ],
+      "compoundSuffixes": [
+        "joghurt",
+        "jogurt",
+        "quark",
+        "joghurtzubereitung"
+      ],
+      "compoundExclusions": [],
+      "ingredientCategories": [
+        "chocolate",
+        "candy",
+        "nuts",
+        "peanuts",
+        "coconut",
+        "cereal"
+      ]
+    },
+    {
+      "id": "cottage-cheese",
+      "artworkID": "cheese",
+      "priority": 90,
+      "tags": [
+        "en:cottage-cheeses"
+      ],
+      "terms": [
+        "cottage cheese",
+        "cottage cheeses",
+        "cottage-style cheese",
+        "körniger frischkäse",
+        "körniger frischkaese",
+        "körniger frischkase",
+        "körniger käse",
+        "körniger kaese",
+        "körniger kase",
+        "hüttenkäse",
+        "huettenkaese",
+        "huttenkase",
+        "fromage cottage"
       ]
     },
     {
       "id": "cream",
-      "artworkID": "plate",
+      "artworkID": "milk",
       "priority": 70,
       "tags": [
         "en:creams",
@@ -147,7 +436,20 @@
       "terms": [
         "whipping cream",
         "sahne",
-        "schlagsahne"
+        "schlagsahne",
+        "cream",
+        "creams",
+        "crème",
+        "creme fraiche",
+        "sour cream",
+        "sauerrahm",
+        "saure sahne",
+        "crème épaisse",
+        "crème liquide",
+        "clotted cream",
+        "half and half",
+        "crème fleurette",
+        "クリーム類"
       ]
     },
     {
@@ -183,7 +485,24 @@
         "ricotta",
         "halloumi",
         "fromage",
-        "kase"
+        "kase",
+        "fresh cheese",
+        "cream cheese",
+        "fromages",
+        "edam",
+        "parmigiano",
+        "cheese curds",
+        "チーズ類"
+      ],
+      "compoundSuffixes": [
+        "käse",
+        "kaese"
+      ],
+      "compoundExclusions": [
+        "fleischkäse",
+        "leberkäse",
+        "fleischkaese",
+        "leberkaese"
       ]
     },
     {
@@ -203,7 +522,7 @@
     {
       "id": "milk",
       "artworkID": "milk",
-      "priority": 40,
+      "priority": 45,
       "tags": [
         "en:milks",
         "en:cow-milks",
@@ -214,12 +533,17 @@
         "en:plant-based-milk-alternatives",
         "en:soy-based-drinks",
         "en:almond-based-drinks",
-        "en:oat-based-drinks"
+        "en:oat-based-drinks",
+        "en:fermented-milk-drinks",
+        "en:kefir"
       ],
       "terms": [
         "milk",
         "milch",
         "haferdrink",
+        "barista edition hafer oat",
+        "hafer barista edition",
+        "oatly barista edition",
         "mandeldrink",
         "sojadrink",
         "oat drink",
@@ -227,7 +551,47 @@
         "soy drink",
         "lait",
         "magermilch",
-        "vollmilch"
+        "vollmilch",
+        "full cream milk",
+        "mælk",
+        "maelk",
+        "牛乳",
+        "普通牛乳",
+        "低脂肪加工乳",
+        "練乳類",
+        "加糖練乳",
+        "無糖練乳",
+        "ミルク",
+        "schafmilch",
+        "ziegenmilch",
+        "goat milk",
+        "sheep milk",
+        "ewe milk",
+        "schokomilch",
+        "kakaomilch",
+        "chocolate milk",
+        "hafermilch",
+        "mandelmilch",
+        "sojamilch",
+        "kokosmilch",
+        "oat milk",
+        "almond milk",
+        "soy milk",
+        "coconut milk"
+      ],
+      "compoundSuffixes": [
+        "milch"
+      ],
+      "compoundExclusions": [
+        "scheuermilch",
+        "sonnenmilch"
+      ],
+      "ingredientCategories": [
+        "chocolate",
+        "candy",
+        "nuts",
+        "peanuts",
+        "coconut"
       ]
     },
     {
@@ -240,7 +604,13 @@
       ],
       "terms": [
         "butter",
-        "beurre"
+        "beurre",
+        "margarine",
+        "margarin",
+        "バター類"
+      ],
+      "ingredientCategories": [
+        "oil"
       ]
     },
     {
@@ -258,9 +628,28 @@
         "icecream",
         "eiscreme",
         "eiskrem",
+        "eis",
         "glace",
         "sorbet",
-        "speiseeis"
+        "speiseeis",
+        "frozen yogurt",
+        "frozen yoghurt"
+      ],
+      "compoundSuffixes": [
+        "eiscreme"
+      ],
+      "ingredientCategories": [
+        "egg",
+        "chocolate",
+        "candy",
+        "butter",
+        "cream",
+        "cheese",
+        "milk",
+        "nuts",
+        "peanuts",
+        "cereal",
+        "coconut"
       ]
     },
     {
@@ -269,7 +658,10 @@
       "priority": 85,
       "tags": [
         "en:cakes",
-        "en:cheesecakes"
+        "en:cheesecakes",
+        "en:sweet-pastries",
+        "en:viennoiseries",
+        "en:ice-cream-cakes"
       ],
       "terms": [
         "cake",
@@ -278,7 +670,72 @@
         "kuchen",
         "käsekuchen",
         "gateau",
+        "torte",
+        "käsetorte",
+        "apfelkuchen",
+        "zitronenkuchen",
+        "schokokuchen",
+        "schokoladenkuchen",
+        "kirschkuchen",
+        "streuselkuchen",
+        "marmorkuchen",
+        "brownie",
+        "brownies",
+        "banana cake",
+        "danish pastry",
+        "danish pastries",
+        "danish swirl",
+        "plundergebäck",
+        "zimtschnecke",
+        "zimtschnecken",
+        "cinnamon bun",
+        "cinnamon buns",
+        "cinnamon roll",
+        "cinnamon rolls",
+        "scone",
+        "scones",
+        "éclair",
+        "eclairs",
+        "profiterole",
+        "profiteroles",
+        "panettone",
+        "stollen",
+        "christstollen",
+        "pandoro",
+        "baklava",
+        "ケーキ",
+        "ケーキ ペストリー類",
+        "olive oil cake",
+        "ice cream cake",
+        "quatre quarts",
+        "puff pastry",
+        "pastry puff",
+        "swiss roll",
+        "swiss rolls"
+      ],
+      "compoundSuffixes": [
+        "kuchen",
         "torte"
+      ],
+      "compoundExclusions": [],
+      "ingredientCategories": [
+        "egg",
+        "chocolate",
+        "candy",
+        "butter",
+        "cream",
+        "cheese",
+        "milk",
+        "nuts",
+        "peanuts",
+        "cereal",
+        "coconut",
+        "sweet-spread",
+        "spread",
+        "oil",
+        "olive-oil",
+        "flour",
+        "yogurt"
       ]
     },
     {
@@ -289,7 +746,8 @@
         "en:biscuits",
         "en:cookies",
         "en:chocolate-biscuits",
-        "en:sandwich-biscuits"
+        "en:sandwich-biscuits",
+        "en:gingerbreads"
       ],
       "terms": [
         "cookie",
@@ -299,7 +757,57 @@
         "keks",
         "kekse",
         "speculoos",
-        "spekulatius"
+        "spekulatius",
+        "plätzchen",
+        "lebkuchen",
+        "gingerbread",
+        "gingerbreads",
+        "shortbread",
+        "shortbread cookies",
+        "macaron",
+        "macarons",
+        "madeleine",
+        "madeleines",
+        "ビスケット類",
+        "wafer",
+        "wafers",
+        "waffelschnitte",
+        "waffelschnitten",
+        "waffelröllchen",
+        "oblaten",
+        "wafer biscuit",
+        "biscuit apéritif",
+        "biscuit ou cracker apéritif",
+        "cookie applesauce",
+        "applesauce cookie",
+        "haferkekse",
+        "butterkeks",
+        "butterkekse"
+      ],
+      "compoundSuffixes": [
+        "keks",
+        "kekse",
+        "plätzchen"
+      ],
+      "ingredientCategories": [
+        "egg",
+        "chocolate",
+        "candy",
+        "butter",
+        "cream",
+        "cheese",
+        "milk",
+        "nuts",
+        "peanuts",
+        "cereal",
+        "coconut",
+        "sweet-spread",
+        "spread",
+        "oil",
+        "olive-oil",
+        "flour",
+        "yogurt",
+        "sandwich"
       ]
     },
     {
@@ -308,14 +816,24 @@
       "priority": 55,
       "tags": [
         "en:chocolates",
-        "en:chocolate-bars",
         "en:chocolate-candies"
       ],
       "terms": [
         "chocolate",
         "schokolade",
         "schokoriegel",
-        "chocolat"
+        "chocolat",
+        "milk chocolate",
+        "white chocolate",
+        "dark chocolate",
+        "vollmilchschokolade",
+        "weiße schokolade",
+        "weisse schokolade",
+        "dunkle schokolade",
+        "chocolat au lait"
+      ],
+      "compoundSuffixes": [
+        "schokolade"
       ]
     },
     {
@@ -338,7 +856,16 @@
         "bonbons",
         "gummibärchen",
         "lakritz",
-        "bonbon"
+        "bonbon",
+        "chewing gum",
+        "chewing gums",
+        "kaugummi",
+        "kaugummis",
+        "fruit pastilles",
+        "turkish delight",
+        "nonpareille",
+        "nonpareil",
+        "lokum"
       ]
     },
     {
@@ -350,7 +877,12 @@
         "en:mueslis",
         "en:granolas",
         "en:cereal-flakes",
-        "en:oat-flakes"
+        "en:oat-flakes",
+        "en:cereal-grains",
+        "en:quinoa",
+        "en:bulgur",
+        "en:buckwheat",
+        "en:durum-wheat-semolinas-for-couscous"
       ],
       "terms": [
         "cereal",
@@ -365,12 +897,66 @@
         "musli",
         "oatmeal",
         "oats",
-        "overnight oats"
-      ]
+        "overnight oats",
+        "hafer",
+        "hafergrütze",
+        "oat groats",
+        "haferkleie",
+        "bran",
+        "wheat bran",
+        "wheat flakes",
+        "weizenflocken",
+        "getreideflocken",
+        "kornflocken",
+        "korn flocken",
+        "gerstenflocken",
+        "dinkelflocken",
+        "roggenflocken",
+        "amaranth",
+        "quinoa",
+        "bulgur",
+        "couscous",
+        "cous cous",
+        "buchweizen",
+        "buckwheat",
+        "spelt",
+        "dinkel",
+        "grits",
+        "semolina",
+        "semoule",
+        "hirse",
+        "millet",
+        "grütze",
+        "groats",
+        "farro",
+        "オートミール",
+        "barley",
+        "pearl barley",
+        "gerste",
+        "graupen",
+        "grünkern",
+        "grünkern",
+        "bulghur",
+        "fonio",
+        "einkorn",
+        "polenta",
+        "cornmeal mush",
+        "hominy",
+        "oat bran",
+        "rye grain",
+        "semoule de blé",
+        "milch getreide brei",
+        "breakfast cereal",
+        "wheat biscuits"
+      ],
+      "compoundSuffixes": [
+        "flocken"
+      ],
+      "compoundExclusions": []
     },
     {
       "id": "cereal-bar",
-      "artworkID": "plate",
+      "artworkID": "chocolate",
       "priority": 90,
       "tags": [
         "en:cereal-bars",
@@ -382,7 +968,66 @@
         "protein bar",
         "proteinriegel",
         "müsliriegel",
-        "muesliriegel"
+        "muesliriegel",
+        "riegel",
+        "riegels",
+        "protein riegel",
+        "eiweißriegel",
+        "eiweissriegel",
+        "eiweiß riegel",
+        "eiweiss riegel",
+        "müsli riegel",
+        "rohkostriegel",
+        "rohkost riegel",
+        "fruchtriegel",
+        "nussriegel",
+        "haferriegel",
+        "energieriegel",
+        "energy bar",
+        "energy bars",
+        "protein bars",
+        "cereal bars",
+        "granola bar",
+        "granola bars",
+        "snack bar",
+        "snack bars",
+        "fruit bar",
+        "fruit bars",
+        "nut bar",
+        "nut bars",
+        "oat bar",
+        "oat bars",
+        "barre protéinée",
+        "barres protéinées",
+        "barre de céréales",
+        "barres de céréales",
+        "muesli bar",
+        "muesli bars",
+        "barre céréalière",
+        "barres céréalières"
+      ],
+      "compoundSuffixes": [
+        "riegel"
+      ],
+      "ingredientCategories": [
+        "egg",
+        "chocolate",
+        "candy",
+        "butter",
+        "cream",
+        "cheese",
+        "milk",
+        "nuts",
+        "peanuts",
+        "cereal",
+        "coconut",
+        "sweet-spread",
+        "spread",
+        "oil",
+        "olive-oil",
+        "flour",
+        "yogurt",
+        "custard"
       ]
     },
     {
@@ -393,7 +1038,12 @@
         "en:pastas",
         "en:dry-pastas",
         "en:fresh-pastas",
-        "en:egg-pastas"
+        "en:egg-pastas",
+        "en:pasta-dishes",
+        "en:lasagne",
+        "en:ravioli",
+        "en:tortellini",
+        "en:gnocchi"
       ],
       "terms": [
         "pasta",
@@ -414,7 +1064,44 @@
         "nudel",
         "pates",
         "rice noodles",
-        "reisnudeln"
+        "reisnudeln",
+        "nudelauflauf",
+        "nudelsnack",
+        "instantnudeln",
+        "hartweizengrießnudeln",
+        "fettuccine",
+        "fettucine",
+        "linguine",
+        "lasagna",
+        "lasagne",
+        "ravioli",
+        "tortellini",
+        "tortelloni",
+        "cannelloni",
+        "maultasche",
+        "maultaschen",
+        "schupfnudeln",
+        "spätzle",
+        "spaetzle",
+        "gnocchi",
+        "pasta bake",
+        "lasagnes",
+        "nudelgericht",
+        "pâtes alimentaires",
+        "マカロニ",
+        "スパゲッティ"
+      ],
+      "compoundSuffixes": [
+        "nudeln",
+        "spätzle"
+      ],
+      "compoundExclusions": [],
+      "ingredientCategories": [
+        "egg",
+        "cereal",
+        "cheese",
+        "flour",
+        "fried-egg"
       ]
     },
     {
@@ -430,7 +1117,18 @@
         "instant noodles",
         "noodle soup",
         "soba",
-        "udon"
+        "udon",
+        "somen",
+        "buckwheat noodles",
+        "glasnudeln",
+        "glass noodles",
+        "reisbandnudeln",
+        "rice vermicelli",
+        "vermicelli noodles",
+        "そば",
+        "うどん",
+        "そうめん",
+        "中華めん"
       ]
     },
     {
@@ -442,7 +1140,9 @@
       ],
       "terms": [
         "pizza",
-        "pizzas"
+        "pizzas",
+        "steinofenpizza",
+        "pizzabrot"
       ]
     },
     {
@@ -457,6 +1157,17 @@
         "sandwiches",
         "belegtes brot",
         "sandwichs"
+      ],
+      "ingredientCategories": [
+        "sweet-spread",
+        "spread",
+        "cheese",
+        "butter",
+        "egg",
+        "bread",
+        "bread-roll",
+        "sauce",
+        "yogurt"
       ]
     },
     {
@@ -473,6 +1184,16 @@
         "cheeseburger",
         "burgers",
         "hamburgers"
+      ],
+      "ingredientCategories": [
+        "sweet-spread",
+        "spread",
+        "cheese",
+        "butter",
+        "egg",
+        "bread",
+        "bread-roll",
+        "yogurt"
       ]
     },
     {
@@ -510,8 +1231,42 @@
         "tomatensuppe",
         "chili con carne",
         "chilli con carne",
-        "chili sin carne"
-      ]
+        "chili sin carne",
+        "rinderbrühe",
+        "rinderbouillon",
+        "rindfleischbrühe",
+        "rindfleischbouillon",
+        "fleischbrühe",
+        "fleischbouillon",
+        "hühnerbrühe",
+        "hühnerbouillon",
+        "hühnersuppe",
+        "hühner nudeltopf",
+        "hühnerfrikassee",
+        "geflügelbrühe",
+        "geflügelbouillon",
+        "chicken broth",
+        "beef broth",
+        "beef stock",
+        "chicken stock",
+        "gulaschsuppe",
+        "brühe",
+        "bouillon",
+        "broth",
+        "consommé",
+        "velouté",
+        "linsensuppe",
+        "erbsensuppe",
+        "gemüsebrühe",
+        "potato soup",
+        "スープ"
+      ],
+      "compoundSuffixes": [
+        "suppe",
+        "brühe",
+        "bruehe"
+      ],
+      "compoundExclusions": []
     },
     {
       "id": "prepared-meal",
@@ -543,7 +1298,80 @@
         "pain",
         "roggenbrot",
         "toast",
-        "weissbrot"
+        "weissbrot",
+        "kraftbrot",
+        "eiweissbrot",
+        "proteinbrot",
+        "sauerteigbrot",
+        "weizenbrot",
+        "dinkelbrot",
+        "haferbrot",
+        "mehrkornbrot",
+        "saatenbrot",
+        "sonnenblumenbrot",
+        "schwarzbrot",
+        "bauernbrot",
+        "landbrot",
+        "kastenbrot",
+        "knackebrot",
+        "pumpernickel",
+        "brötchen",
+        "brötchensemmel",
+        "semmel",
+        "semmeln",
+        "bread roll",
+        "bread rolls",
+        "rolls",
+        "wholemeal roll",
+        "rye roll",
+        "white roll",
+        "roggenbrötchen",
+        "vollkornbrötchen",
+        "weizenbrötchen",
+        "körnerbrötchen",
+        "sonnenblumenbrötchen",
+        "mehrkornbrötchen",
+        "baguettebrötchen",
+        "weizenvollkornbrötchen",
+        "rosinenbrot",
+        "zwieback",
+        "rusk",
+        "rusks",
+        "biscotte",
+        "biscottes",
+        "crispbread",
+        "cornbread",
+        "pan dulce",
+        "パン類"
+      ],
+      "compoundSuffixes": [
+        "brot",
+        "brötchen",
+        "broetchen",
+        "semmel"
+      ],
+      "compoundExclusions": [
+        "johannisbrot",
+        "magenbrot"
+      ],
+      "ingredientCategories": [
+        "egg",
+        "chocolate",
+        "candy",
+        "butter",
+        "cream",
+        "cheese",
+        "milk",
+        "nuts",
+        "peanuts",
+        "cereal",
+        "coconut",
+        "sweet-spread",
+        "spread",
+        "oil",
+        "olive-oil",
+        "flour",
+        "yogurt"
       ]
     },
     {
@@ -556,6 +1384,25 @@
       "terms": [
         "croissant",
         "croissants"
+      ],
+      "ingredientCategories": [
+        "egg",
+        "chocolate",
+        "candy",
+        "butter",
+        "cream",
+        "cheese",
+        "milk",
+        "nuts",
+        "peanuts",
+        "cereal",
+        "coconut",
+        "sweet-spread",
+        "spread",
+        "oil",
+        "olive-oil",
+        "flour",
+        "yogurt"
       ]
     },
     {
@@ -584,6 +1431,25 @@
         "gaufre",
         "gaufres",
         "waffel"
+      ],
+      "ingredientCategories": [
+        "egg",
+        "chocolate",
+        "candy",
+        "butter",
+        "cream",
+        "cheese",
+        "milk",
+        "nuts",
+        "peanuts",
+        "cereal",
+        "coconut",
+        "sweet-spread",
+        "spread",
+        "oil",
+        "olive-oil",
+        "flour",
+        "yogurt"
       ]
     },
     {
@@ -602,13 +1468,33 @@
       "artworkID": "plate",
       "priority": 75,
       "tags": [
-        "en:crisps",
+        "en:crisps"
+      ],
+      "terms": [
+        "crisps"
+      ]
+    },
+    {
+      "id": "potato-crisps",
+      "artworkID": "potato",
+      "priority": 76,
+      "tags": [
         "en:potato-crisps"
       ],
       "terms": [
-        "crisps",
+        "potato crisps",
         "potato chips",
         "kartoffelchips"
+      ],
+      "ingredientCategories": [
+        "potato",
+        "cheese",
+        "chili",
+        "pepper",
+        "onion",
+        "garlic",
+        "soup",
+        "sauce"
       ]
     },
     {
@@ -623,13 +1509,25 @@
         "reis",
         "basmatireis",
         "riz",
-        "vollkornreis"
+        "vollkornreis",
+        "reiskorn",
+        "reiskörner",
+        "pilau",
+        "pilaf",
+        "reispilaw",
+        "米飯類",
+        "水稲めし",
+        "水稲五分かゆ",
+        "こめ",
+        "水稲穀粒",
+        "もち米",
+        "精白米"
       ]
     },
     {
       "id": "egg",
       "artworkID": "egg",
-      "priority": 50,
+      "priority": 55,
       "tags": [
         "en:eggs",
         "en:chicken-eggs"
@@ -640,22 +1538,59 @@
         "ei",
         "eier",
         "oeuf",
-        "oeufs"
+        "oeufs",
+        "œuf",
+        "œufs",
+        "eigelb",
+        "eiklar",
+        "eierweiß",
+        "egg white",
+        "egg yolk",
+        "鶏卵",
+        "全卵",
+        "hühnereiweiß",
+        "huehnereiweiss",
+        "hühner eiweiß",
+        "eier eiweiß",
+        "egg whites",
+        "egg yolks"
       ]
     },
     {
       "id": "fried-egg",
       "artworkID": "fried-egg",
-      "priority": 60,
+      "priority": 80,
       "tags": [
-        "en:fried-eggs"
+        "en:fried-eggs",
+        "en:scrambled-eggs"
       ],
       "terms": [
         "fried egg",
         "spiegelei",
         "fried eggs",
         "oeuf au plat",
-        "spiegeleier"
+        "spiegeleier",
+        "egg foo yung",
+        "egg foo young",
+        "scrambled egg",
+        "scrambled eggs",
+        "egg scrambled",
+        "eggs scrambled",
+        "rührei",
+        "rühreier",
+        "ruehrei",
+        "ruehreier",
+        "eggs chicken scrambled",
+        "eggs chicken whole scrambled",
+        "egg whole cooked scrambled",
+        "egg white omelet scrambled",
+        "egg substitute omelet scrambled",
+        "œufs brouillés",
+        "oeufs brouillés",
+        "oeuf brouillé",
+        "huevos revueltos",
+        "uova strapazzate",
+        "スクランブルエッグ"
       ]
     },
     {
@@ -682,7 +1617,248 @@
         "rindersteak",
         "steak",
         "steaks",
-        "veal"
+        "veal",
+        "rind",
+        "rinder",
+        "rinderhack",
+        "rinderhackfleisch",
+        "rindergehacktes",
+        "rinderfilet",
+        "rinderfilets",
+        "rinderhüftsteak",
+        "rinderhüftsteaks",
+        "rinderminutensteaks",
+        "rinderbraten",
+        "rindergulasch",
+        "rindergeschnetzeltes",
+        "rinderroulade",
+        "rinderrouladen",
+        "rindertatar",
+        "rindertartare",
+        "rinderleber",
+        "rinderzunge",
+        "rinderbäckchen",
+        "rinderhüfte",
+        "rinderbug",
+        "rinderbrust",
+        "rinderhals",
+        "rinderschulter",
+        "rinderoberschale",
+        "rinderunterschale",
+        "rindersaftschinken",
+        "tafelspitz",
+        "roastbeef",
+        "rumpsteak",
+        "rumpsteaks",
+        "entrecote",
+        "ribeye",
+        "rib eye",
+        "sirloin",
+        "tenderloin",
+        "brisket",
+        "minced beef",
+        "ground beef",
+        "beef mince",
+        "hackfleisch",
+        "hackfleisch gemischt",
+        "gemischtes hack",
+        "gemischtes hackfleisch",
+        "gehacktes",
+        "hackbraten",
+        "hacksteak",
+        "hacksteaks",
+        "mett",
+        "schweinemett",
+        "schweinehack",
+        "schweinehackfleisch",
+        "schweinefilet",
+        "schweinefilets",
+        "schweinebraten",
+        "schweinegulasch",
+        "schweinegeschnetzeltes",
+        "schweineschnitzel",
+        "schweineschnitzelchen",
+        "schweinenacken",
+        "schweinenackensteak",
+        "schweinenackensteaks",
+        "schweinebauch",
+        "schweinehals",
+        "schweinehüfte",
+        "schweineschulter",
+        "schweinelachs",
+        "schweinekotelett",
+        "schweinekoteletts",
+        "schweinerücken",
+        "schweineleber",
+        "schweinezunge",
+        "schwein",
+        "schweine",
+        "schweinerippchen",
+        "spare ribs",
+        "spareribs",
+        "pulled pork",
+        "kasseler",
+        "kassler",
+        "eisbein",
+        "kalb",
+        "kalbs",
+        "kalbshack",
+        "kalbshackfleisch",
+        "kalbsfilet",
+        "kalbsbraten",
+        "kalbsschnitzel",
+        "kalbsleber",
+        "kalbshaxe",
+        "kalbskotelett",
+        "lamm",
+        "lammhack",
+        "lammhackfleisch",
+        "lammfilet",
+        "lammkeule",
+        "lammkotelett",
+        "lammkoteletts",
+        "lammrücken",
+        "lammkarree",
+        "hirschfleisch",
+        "hirschgulasch",
+        "hirschsteak",
+        "hirschbraten",
+        "rehfleisch",
+        "rehgulasch",
+        "rehkeule",
+        "rehrücken",
+        "wildschweinfleisch",
+        "wildschweingulasch",
+        "kaninchenfleisch",
+        "kaninchen",
+        "rabbit",
+        "venison",
+        "mutton",
+        "schinken",
+        "kochschinken",
+        "roher schinken",
+        "rohschinken",
+        "hinterschinken",
+        "kochhinterschinken",
+        "vorderschinken",
+        "landschinken",
+        "katenschinken",
+        "schinkenspeck",
+        "schinkenwürfel",
+        "schinkenbraten",
+        "lachsschinken",
+        "putenschinken",
+        "truthahnschinken",
+        "prosciutto",
+        "ham",
+        "jambon",
+        "salami",
+        "salamis",
+        "mortadella",
+        "chorizo",
+        "sucuk",
+        "sausage",
+        "sausages",
+        "wurst",
+        "würstchen",
+        "wuerstchen",
+        "bratwurst",
+        "bratwürste",
+        "rostbratwurst",
+        "rostbratwürste",
+        "rindswurst",
+        "rinderwurst",
+        "bockwurst",
+        "weißwurst",
+        "weisswurst",
+        "wiener würstchen",
+        "frankfurter würstchen",
+        "currywurst",
+        "fleischwurst",
+        "geflügelfleischwurst",
+        "schinkenwurst",
+        "bierwurst",
+        "jagdwurst",
+        "lyoner",
+        "cervelatwurst",
+        "cervelat",
+        "salsiccia",
+        "frikadelle",
+        "frikadellen",
+        "bulette",
+        "buletten",
+        "fleischbällchen",
+        "meatballs",
+        "cevapcici",
+        "köfte",
+        "köttbullar",
+        "bœuf",
+        "rinderhueftsteak",
+        "rinderhueftsteaks",
+        "rinderbaeckchen",
+        "rinderhuefte",
+        "schweinehuefte",
+        "schweineruecken",
+        "lammruecken",
+        "rehruecken",
+        "schinkenwuerfel",
+        "bratwuerste",
+        "rostbratwuerste",
+        "wiener wuerstchen",
+        "frankfurter wuerstchen",
+        "gefluegelfleischwurst",
+        "fleischbaellchen",
+        "koefte",
+        "koettbullar",
+        "meat",
+        "fleisch",
+        "viande",
+        "veau",
+        "sheep",
+        "schaf",
+        "schaffleisch",
+        "horse meat",
+        "pferdefleisch",
+        "pferd",
+        "cheval",
+        "goat meat",
+        "ziegenfleisch",
+        "goat",
+        "ziege",
+        "roe deer",
+        "reh",
+        "hirsch",
+        "wildschwein",
+        "boar",
+        "moose",
+        "elk",
+        "lapin",
+        "kalbsfleisch",
+        "fleischkäse",
+        "leberkäse",
+        "geschnetzeltes",
+        "gulasch",
+        "goulash",
+        "meat loaf",
+        "meatloaf",
+        "luncheon meat",
+        "saucisse",
+        "saucisses",
+        "andouille",
+        "andouillette",
+        "jambonneau",
+        "boudin",
+        "畜肉類",
+        "うし",
+        "ぶた",
+        "pig",
+        "pigs",
+        "liver pig",
+        "veal meat",
+        "goat meat",
+        "beef liver",
+        "beef kidney",
+        "meat extract"
       ]
     },
     {
@@ -708,7 +1884,134 @@
         "huhnerfleisch",
         "poulet",
         "poultry",
-        "putenfleisch"
+        "putenfleisch",
+        "hähnchenfilet",
+        "hähnchenbrustfilet",
+        "hähnchenbrustfilets",
+        "hähnchenbrüste",
+        "hähnchenfleisch",
+        "hähnchengeschnetzeltes",
+        "hähnchenhack",
+        "hähnchenhackfleisch",
+        "hähnchenschenkel",
+        "hähnchenkeule",
+        "hähnchenkeulen",
+        "hähnchenoberkeule",
+        "hähnchenunterkeule",
+        "hähnchenflügel",
+        "hähnchenschnitzel",
+        "hähnchenminutenschnitzel",
+        "hähnchensteaks",
+        "hähnchenstücke",
+        "hähnchenstreifen",
+        "hähnchenroulade",
+        "hähncheninnenfilet",
+        "hähncheninnenfilets",
+        "hühnchen",
+        "hühnerbrust",
+        "hühnerbrustfilet",
+        "hühnerfleisch",
+        "hühnerkeule",
+        "hühnerleber",
+        "hühnerherzen",
+        "geflügelfleisch",
+        "pute",
+        "puten",
+        "putenbrustfilet",
+        "putenbrustfilets",
+        "putenfilet",
+        "putenfilets",
+        "putenschnitzel",
+        "putengeschnetzeltes",
+        "putenhack",
+        "putenhackfleisch",
+        "putenhacksteak",
+        "putenhacksteaks",
+        "putensteak",
+        "putensteaks",
+        "putenoberkeule",
+        "putenkeule",
+        "putenleber",
+        "truthahn",
+        "truthahnbrust",
+        "truthahnfleisch",
+        "truthahnstreifen",
+        "duck",
+        "duck breast",
+        "ente",
+        "entenbrust",
+        "entenbrustfilet",
+        "entenkeule",
+        "entenkeulen",
+        "entenfleisch",
+        "gans",
+        "gänsebrust",
+        "gänsekeule",
+        "gänsefleisch",
+        "goose",
+        "wachtel",
+        "quail",
+        "canard",
+        "pouletbrust",
+        "pouletbrustfilet",
+        "pouletfleisch",
+        "chicken breast",
+        "chicken thighs",
+        "chicken wings",
+        "ground turkey",
+        "turkey mince",
+        "haehnchen",
+        "haehnchenbrust",
+        "haehnchenfilet",
+        "haehnchenbrustfilet",
+        "haehnchenbrustfilets",
+        "haehnchenbrueste",
+        "haehnchenfleisch",
+        "haehnchengeschnetzeltes",
+        "haehnchenhack",
+        "haehnchenhackfleisch",
+        "haehnchenschenkel",
+        "haehnchenkeule",
+        "haehnchenkeulen",
+        "haehnchenoberkeule",
+        "haehnchenunterkeule",
+        "haehnchenfluegel",
+        "haehnchenschnitzel",
+        "haehnchenminutenschnitzel",
+        "haehnchensteaks",
+        "haehnchenstuecke",
+        "haehnchenstreifen",
+        "haehnchenroulade",
+        "haehncheninnenfilet",
+        "haehncheninnenfilets",
+        "huehnchen",
+        "huehnerbrust",
+        "huehnerbrustfilet",
+        "huehnerfleisch",
+        "huehnerkeule",
+        "huehnerleber",
+        "huehnerherzen",
+        "gefluegelfleisch",
+        "gaensebrust",
+        "gaensekeule",
+        "gaensefleisch",
+        "chickens",
+        "turkeys",
+        "chicken meat",
+        "geflügel",
+        "hühner",
+        "hühnerfrikassee",
+        "hähnchenfrikassee",
+        "suppenhuhn",
+        "giblets",
+        "volaille",
+        "poulets",
+        "poularde",
+        "oie",
+        "pigeon",
+        "fowl",
+        "鳥肉類",
+        "にわとり"
       ]
     },
     {
@@ -722,7 +2025,15 @@
         "bacon",
         "speck",
         "fruhstucksspeck",
-        "lard"
+        "lard",
+        "bauchspeck",
+        "räucherspeck",
+        "raucherspeck",
+        "baconwürfel",
+        "baconstreifen",
+        "pancetta",
+        "raeucherspeck",
+        "baconwuerfel"
       ]
     },
     {
@@ -733,7 +2044,9 @@
         "en:fishes",
         "en:salmons",
         "en:tunas",
-        "en:canned-fishes"
+        "en:canned-fishes",
+        "en:fish-fingers",
+        "en:breaded-fish"
       ],
       "terms": [
         "fish",
@@ -756,7 +2069,110 @@
         "sardines",
         "saumon",
         "thon",
-        "trout"
+        "trout",
+        "eel",
+        "eels",
+        "aal",
+        "pollock",
+        "pollack",
+        "seelachs",
+        "alaska pollock",
+        "alaska seelachs",
+        "plaice",
+        "scholle",
+        "sole",
+        "seezunge",
+        "perch",
+        "barsch",
+        "pike",
+        "hecht",
+        "carp",
+        "karpfen",
+        "whiting",
+        "wittling",
+        "merlan",
+        "halibut",
+        "heilbutt",
+        "tilapia",
+        "catfish",
+        "wels",
+        "anchovy",
+        "anchovies",
+        "sardelle",
+        "sardellen",
+        "sprat",
+        "sprats",
+        "sprotte",
+        "sprotten",
+        "redfish",
+        "rotbarsch",
+        "coley",
+        "saithe",
+        "köhler",
+        "hake",
+        "merlu",
+        "seabass",
+        "sea bass",
+        "dorade",
+        "seebrasse",
+        "brasse",
+        "garfish",
+        "hornhecht",
+        "monkfish",
+        "seeteufel",
+        "flounder",
+        "flunder",
+        "turbot",
+        "steinbutt",
+        "red snapper",
+        "rouget",
+        "maquereau",
+        "hareng",
+        "anchois",
+        "anchois commun",
+        "fischstäbchen",
+        "fish fingers",
+        "fischfilet",
+        "fischfilets",
+        "lachsfilet",
+        "lachsfilets",
+        "thunfischfilet",
+        "saumon fumé",
+        "魚類",
+        "whitefish",
+        "whitefishes",
+        "felchen",
+        "maräne",
+        "renke",
+        "schnäpel",
+        "scampi",
+        "mahi mahi",
+        "pollackfilet",
+        "coalfish",
+        "anchoveta",
+        "bonito",
+        "skipjack",
+        "hake",
+        "merluza",
+        "merlu",
+        "loup de mer",
+        "bar commun",
+        "lingue",
+        "merou",
+        "mérou",
+        "rouget",
+        "raie",
+        "skate",
+        "limande",
+        "carrelet",
+        "plie",
+        "églefin",
+        "anguille",
+        "tacaud",
+        "rascasse",
+        "sandre",
+        "hilsa",
+        "pangasius"
       ]
     },
     {
@@ -774,13 +2190,17 @@
         "crevette",
         "crevettes",
         "garnele",
-        "prawn"
+        "prawn",
+        "えび類"
       ]
     },
     {
       "id": "coffee",
       "artworkID": "coffee",
       "priority": 65,
+      "ingredientCategories": [
+        "milk"
+      ],
       "tags": [
         "en:coffees",
         "en:coffee-drinks"
@@ -790,8 +2210,12 @@
         "kaffee",
         "espresso",
         "cappuccino",
+        "flat white",
+        "flatwhite",
         "cafe",
-        "latte"
+        "latte",
+        "caffè",
+        "コーヒー"
       ]
     },
     {
@@ -818,12 +2242,16 @@
       "artworkID": "soft-drink",
       "priority": 70,
       "tags": [
-        "en:iced-teas"
+        "en:iced-teas",
+        "en:kombuchas"
       ],
       "terms": [
         "iced tea",
         "ice tea",
-        "eistee"
+        "eistee",
+        "eistees",
+        "kombucha",
+        "コンブチャ"
       ]
     },
     {
@@ -834,7 +2262,7 @@
         "en:fruit-juices",
         "en:fruit-nectars",
         "en:vegetable-juices",
-        "en:smoothies"
+        "en:coconut-waters"
       ],
       "terms": [
         "juice",
@@ -844,13 +2272,31 @@
         "apfelsaft",
         "orangensaft",
         "smoothie",
-        "jus"
+        "jus",
+        "fruit juice",
+        "fruit juices",
+        "fruchtsaft",
+        "obstsaft",
+        "traubensaft",
+        "ananassaft",
+        "kokoswasser",
+        "coconut water",
+        "fruchtsäfte",
+        "ジュース"
+      ],
+      "compoundSuffixes": [
+        "saft"
+      ],
+      "compoundExclusions": [
+        "bratensaft",
+        "fleischsaft",
+        "dicksaft"
       ]
     },
     {
       "id": "soft-drink",
       "artworkID": "soft-drink",
-      "priority": 65,
+      "priority": 66,
       "tags": [
         "en:sodas",
         "en:energy-drinks",
@@ -869,7 +2315,24 @@
         "iced tea",
         "milkshake",
         "smoothie",
-        "soft drink"
+        "soft drink",
+        "club mate",
+        "clubmate",
+        "soft drinks",
+        "lemonades",
+        "limonaden",
+        "alkopop",
+        "alkopops",
+        "alcopop",
+        "alcopops",
+        "nearwater",
+        "flavoured drink",
+        "fruit drink",
+        "fruit drinks",
+        "boisson",
+        "boissons",
+        "refresco",
+        "炭酸飲料類"
       ]
     },
     {
@@ -886,7 +2349,13 @@
         "mineralwasser",
         "wasser",
         "eau",
-        "leitungswasser"
+        "leitungswasser",
+        "mineral water",
+        "mineral waters",
+        "sparkling water",
+        "still water",
+        "tafelwasser",
+        "trinkwasser"
       ]
     },
     {
@@ -902,7 +2371,10 @@
         "bier",
         "biere",
         "lager",
-        "pilsner"
+        "pilsner",
+        "bières",
+        "biermischgetränk",
+        "ビール"
       ]
     },
     {
@@ -911,14 +2383,26 @@
       "priority": 65,
       "tags": [
         "en:wines",
-        "en:non-alcoholic-wines"
+        "en:non-alcoholic-wines",
+        "en:ciders"
       ],
       "terms": [
         "wine",
         "wein",
         "rotwein",
         "vin",
-        "weisswein"
+        "weisswein",
+        "cider",
+        "cidre",
+        "apfelwein",
+        "sherry",
+        "port wine",
+        "portwein",
+        "vermouth",
+        "wermut",
+        "madeira",
+        "marsala",
+        "ワイン"
       ]
     },
     {
@@ -948,6 +2432,99 @@
       ]
     },
     {
+      "id": "black-pepper",
+      "artworkID": "salt",
+      "priority": 56,
+      "tags": [],
+      "terms": [
+        "black pepper",
+        "pepper black",
+        "peppercorn",
+        "peppercorns",
+        "pfeffer",
+        "schwarzer pfeffer",
+        "pfeffer schwarz",
+        "pfefferkörner",
+        "pfefferkorner",
+        "poivre noir"
+      ]
+    },
+    {
+      "id": "spice",
+      "artworkID": "salt",
+      "priority": 57,
+      "tags": [
+        "en:spices"
+      ],
+      "terms": [],
+      "exactTerms": [
+        "white pepper",
+        "white pepper ground",
+        "weißer pfeffer",
+        "weisser pfeffer",
+        "weißer pfeffer gemahlen",
+        "weisser pfeffer gemahlen",
+        "cayenne pepper",
+        "cayenne pepper ground",
+        "cayennepfeffer",
+        "cayennepfeffer gemahlen",
+        "paprika powder",
+        "paprikapulver",
+        "cumin",
+        "cumin seed",
+        "kreuzkümmel",
+        "kreuzkuemmel",
+        "cinnamon",
+        "cinnamon ground",
+        "zimt",
+        "zimt gemahlen",
+        "turmeric",
+        "turmeric powder",
+        "kurkuma",
+        "kurkuma gemahlen",
+        "curry powder",
+        "currypulver",
+        "coriander seed",
+        "koriandersamen",
+        "fennel seed",
+        "fenchelsamen",
+        "garlic powder",
+        "knoblauchpulver",
+        "ground ginger",
+        "ginger ground",
+        "ingwer gemahlen",
+        "nutmeg",
+        "muskatnuss",
+        "cloves",
+        "gewürznelken",
+        "gewurznelken",
+        "cardamom",
+        "cardamom ground",
+        "kardamom",
+        "kardamom gemahlen",
+        "saffron",
+        "safran",
+        "oregano dried",
+        "oregano getrocknet",
+        "basil dried",
+        "basilikum getrocknet",
+        "parsley dried",
+        "petersilie getrocknet",
+        "dill dried",
+        "dill getrocknet",
+        "thyme dried",
+        "thymian getrocknet",
+        "rosemary dried",
+        "rosmarin getrocknet",
+        "sage dried ground",
+        "salbei getrocknet und gemahlen",
+        "marjoram dried",
+        "majoran getrocknet",
+        "bay leaf",
+        "lorbeerblatt"
+      ]
+    },
+    {
       "id": "banana",
       "artworkID": "banana",
       "priority": 20,
@@ -958,7 +2535,8 @@
         "banana",
         "bananas",
         "banane",
-        "bananen"
+        "bananen",
+        "バナナ"
       ]
     },
     {
@@ -974,7 +2552,9 @@
         "apfel",
         "äpfel",
         "pomme",
-        "pommes"
+        "pommes",
+        "aepfel",
+        "りんご"
       ]
     },
     {
@@ -990,7 +2570,9 @@
         "erdbeere",
         "erdbeeren",
         "fraise",
-        "fraises"
+        "fraises",
+        "erdbeer",
+        "いちご"
       ]
     },
     {
@@ -1005,13 +2587,14 @@
         "tomatoes",
         "tomate",
         "tomaten",
-        "tomates"
+        "tomates",
+        "トマト"
       ]
     },
     {
       "id": "potato",
       "artworkID": "potato",
-      "priority": 20,
+      "priority": 21,
       "tags": [
         "en:potatoes"
       ],
@@ -1021,7 +2604,16 @@
         "kartoffel",
         "kartoffeln",
         "pomme de terre",
-        "pommes de terre"
+        "pommes de terre",
+        "kartoffelpüree",
+        "kartoffelbrei",
+        "mashed potato",
+        "mashed potatoes",
+        "purée de pommes de terre",
+        "じゃがいも",
+        "petersilienkartoffeln",
+        "kartoffelkroketten",
+        "potato croquettes"
       ]
     },
     {
@@ -1039,7 +2631,8 @@
         "carotte",
         "carottes",
         "mohre",
-        "mohren"
+        "mohren",
+        "にんじん"
       ]
     },
     {
@@ -1052,7 +2645,10 @@
       "terms": [
         "broccoli",
         "brokkoli",
-        "brocoli"
+        "brocoli",
+        "brokkoliröschen",
+        "broccoli florets",
+        "ブロッコリー"
       ]
     },
     {
@@ -1062,7 +2658,9 @@
       "tags": [
         "en:beans",
         "en:lentils",
-        "en:chickpeas"
+        "en:chickpeas",
+        "en:soy-beans",
+        "en:green-beans"
       ],
       "terms": [
         "beans",
@@ -1075,7 +2673,38 @@
         "bohne",
         "haricot",
         "haricots",
-        "kidneybohnen"
+        "kidneybohnen",
+        "kidney beans",
+        "white beans",
+        "black beans",
+        "baked beans",
+        "sojabohnen",
+        "soybeans",
+        "soya beans",
+        "soy beans",
+        "edamame",
+        "chickpea",
+        "kichererbse",
+        "pois chiche",
+        "pois chiches",
+        "lentil",
+        "linse",
+        "lentille",
+        "lentilles",
+        "green beans",
+        "grüne bohnen",
+        "mung beans",
+        "mungbohnen",
+        "blackeye pea",
+        "black eyed peas",
+        "ひよこまめ",
+        "レンズまめ",
+        "いんげんまめ",
+        "あずき",
+        "だいず",
+        "枝豆",
+        "えだまめ",
+        "そらまめ"
       ]
     },
     {
@@ -1088,36 +2717,121 @@
       "terms": [
         "peanut",
         "peanuts",
+        "groundnut",
+        "groundnuts",
         "erdnüsse",
+        "arachide",
+        "arachides",
         "cacahuete",
         "cacahuetes",
+        "cacahuate",
+        "cacahuates",
+        "arachidi",
         "erdnuss",
         "erdnusse"
       ]
     },
     {
       "id": "nuts",
-      "artworkID": "plate",
+      "artworkID": "peanuts",
       "priority": 15,
       "tags": [
         "en:nuts",
+        "en:mixed-nuts",
         "en:almonds",
         "en:walnuts",
-        "en:cashew-nuts"
+        "en:cashew-nuts",
+        "en:hazelnuts",
+        "en:pecan-nuts",
+        "en:brazil-nuts",
+        "en:pistachios",
+        "en:macadamia-nuts",
+        "en:pine-nuts"
       ],
       "terms": [
+        "nut",
+        "nuts",
+        "tree nut",
+        "tree nuts",
+        "mixed nuts",
+        "nut mix",
+        "nut mixture",
+        "trail mix",
+        "trail mixes",
+        "almond",
         "almonds",
+        "walnut",
         "walnuts",
+        "cashew",
         "cashews",
+        "hazelnut",
+        "hazelnuts",
+        "filbert",
+        "filberts",
+        "pecan",
+        "pecans",
+        "brazil nut",
+        "brazil nuts",
+        "pistachio",
+        "pistachios",
+        "macadamia",
+        "macadamias",
+        "macadamia nut",
+        "macadamia nuts",
+        "pine nut",
+        "pine nuts",
+        "pinon nut",
+        "pinon nuts",
+        "nuss",
+        "nüsse",
+        "nuesse",
+        "nussmix",
+        "nussmischung",
+        "gemischte nüsse",
+        "gemischte nuesse",
+        "studentenfutter",
+        "mandel",
         "mandeln",
-        "walnüsse"
+        "walnuss",
+        "walnüsse",
+        "walnuesse",
+        "cashewnuss",
+        "cashewnüsse",
+        "haselnuss",
+        "haselnüsse",
+        "haselnuesse",
+        "pekannuss",
+        "pekannüsse",
+        "paranuss",
+        "paranüsse",
+        "pistazie",
+        "pistazien",
+        "macadamianuss",
+        "macadamianüsse",
+        "pinienkern",
+        "pinienkerne",
+        "noix",
+        "amande",
+        "amandes",
+        "noisette",
+        "noisettes",
+        "noix de cajou",
+        "noix de pécan",
+        "noix du brésil",
+        "pistache",
+        "pistaches",
+        "noix de macadamia",
+        "pignon",
+        "pignons"
       ]
     },
     {
       "id": "green-apple",
       "artworkID": "green-apple",
       "priority": 21,
-      "tags": [],
+      "tags": [
+        "en:green-apples"
+      ],
       "terms": [
         "granny smith",
         "green apple",
@@ -1129,21 +2843,28 @@
       "id": "pear",
       "artworkID": "pear",
       "priority": 20,
-      "tags": [],
+      "tags": [
+        "en:pears"
+      ],
       "terms": [
         "birne",
         "birnen",
         "pear",
         "pears",
         "poire",
-        "poires"
+        "poires",
+        "なし類",
+        "和なし",
+        "日本なし"
       ]
     },
     {
       "id": "orange",
       "artworkID": "orange",
       "priority": 20,
-      "tags": [],
+      "tags": [
+        "en:oranges"
+      ],
       "terms": [
         "clementine",
         "mandarin",
@@ -1152,53 +2873,74 @@
         "mandarins",
         "orange",
         "oranges",
-        "tangerine"
+        "tangerine",
+        "apfelsine",
+        "apfelsinen",
+        "オレンジ"
       ]
     },
     {
       "id": "lemon",
       "artworkID": "lemon",
       "priority": 20,
-      "tags": [],
+      "tags": [
+        "en:lemons"
+      ],
       "terms": [
         "citron",
         "lemon",
         "lemons",
         "zitrone",
-        "zitronen"
+        "zitronen",
+        "citrons",
+        "レモン"
       ]
     },
     {
       "id": "watermelon",
       "artworkID": "watermelon",
       "priority": 20,
-      "tags": [],
+      "tags": [
+        "en:watermelons"
+      ],
       "terms": [
         "pasteque",
         "wassermelone",
         "watermelon",
-        "watermelons"
+        "watermelons",
+        "すいか"
       ]
     },
     {
       "id": "grapes",
       "artworkID": "grapes",
       "priority": 20,
-      "tags": [],
+      "tags": [
+        "en:grapes",
+        "en:raisins"
+      ],
       "terms": [
         "grape",
         "grapes",
         "raisins secs",
         "trauben",
         "weintraube",
-        "weintrauben"
+        "weintrauben",
+        "raisin",
+        "raisins",
+        "rosine",
+        "rosinen",
+        "traube",
+        "ぶどう"
       ]
     },
     {
       "id": "blueberries",
       "artworkID": "blueberries",
       "priority": 20,
-      "tags": [],
+      "tags": [
+        "en:blueberries"
+      ],
       "terms": [
         "blaubeere",
         "blaubeeren",
@@ -1207,135 +2949,182 @@
         "heidelbeere",
         "heidelbeeren",
         "myrtille",
-        "myrtilles"
+        "myrtilles",
+        "wildheidelbeeren",
+        "wilde heidelbeeren",
+        "wildblaubeeren",
+        "ブルーベリー"
       ]
     },
     {
       "id": "melon",
       "artworkID": "melon",
       "priority": 20,
-      "tags": [],
+      "tags": [
+        "en:melons"
+      ],
       "terms": [
         "cantaloupe",
         "honigmelone",
         "melon",
-        "melons"
+        "melons",
+        "melone",
+        "melonen",
+        "メロン"
       ]
     },
     {
       "id": "cherries",
       "artworkID": "cherries",
       "priority": 20,
-      "tags": [],
+      "tags": [
+        "en:cherries"
+      ],
       "terms": [
         "cerise",
         "cerises",
         "cherries",
         "cherry",
         "kirsche",
-        "kirschen"
+        "kirschen",
+        "さくらんぼ"
       ]
     },
     {
       "id": "peach",
       "artworkID": "peach",
       "priority": 20,
-      "tags": [],
+      "tags": [
+        "en:peaches"
+      ],
       "terms": [
         "peach",
         "peaches",
         "peche",
         "pfirsich",
-        "pfirsiche"
+        "pfirsiche",
+        "pêches",
+        "もも"
       ]
     },
     {
       "id": "mango",
       "artworkID": "mango",
       "priority": 20,
-      "tags": [],
+      "tags": [
+        "en:mangoes"
+      ],
       "terms": [
         "mango",
         "mangoes",
-        "mangos"
+        "mangos",
+        "mangue",
+        "mangues",
+        "mangoschnitze",
+        "マンゴー"
       ]
     },
     {
       "id": "pineapple",
       "artworkID": "pineapple",
       "priority": 20,
-      "tags": [],
+      "tags": [
+        "en:pineapples"
+      ],
       "terms": [
         "ananas",
         "pineapple",
-        "pineapples"
+        "pineapples",
+        "パインアップル"
       ]
     },
     {
       "id": "coconut",
       "artworkID": "coconut",
       "priority": 20,
-      "tags": [],
+      "tags": [
+        "en:coconuts"
+      ],
       "terms": [
         "coconut",
         "coconuts",
         "kokosnuss",
-        "noix de coco"
+        "noix de coco",
+        "coco",
+        "kokosraspel",
+        "ココナッツ"
       ]
     },
     {
       "id": "kiwi",
       "artworkID": "kiwi",
       "priority": 20,
-      "tags": [],
+      "tags": [
+        "en:kiwifruits"
+      ],
       "terms": [
         "kiwi",
         "kiwifruit",
-        "kiwis"
+        "kiwis",
+        "キウイフルーツ"
       ]
     },
     {
       "id": "avocado",
       "artworkID": "avocado",
       "priority": 20,
-      "tags": [],
+      "overridesCategories": [
+        "egg"
+      ],
+      "tags": [
+        "en:avocados"
+      ],
       "terms": [
         "avocado",
         "avocados",
-        "avocat"
+        "avocat",
+        "アボカド"
       ]
     },
     {
       "id": "eggplant",
       "artworkID": "eggplant",
       "priority": 20,
-      "tags": [],
+      "tags": [
+        "en:eggplants"
+      ],
       "terms": [
         "aubergine",
         "auberginen",
         "aubergines",
         "eggplant",
-        "eggplants"
+        "eggplants",
+        "なす"
       ]
     },
     {
       "id": "corn",
       "artworkID": "corn",
       "priority": 20,
-      "tags": [],
+      "tags": [
+        "en:sweet-corn"
+      ],
       "terms": [
         "corn",
         "mais",
         "maize",
         "sweet corn",
-        "sweetcorn"
+        "sweetcorn",
+        "とうもろこし"
       ]
     },
     {
       "id": "chili",
       "artworkID": "chili",
       "priority": 20,
-      "tags": [],
+      "tags": [
+        "en:chili-peppers"
+      ],
       "terms": [
         "chili",
         "chilischote",
@@ -1348,7 +3137,9 @@
       "id": "pepper",
       "artworkID": "pepper",
       "priority": 20,
-      "tags": [],
+      "tags": [
+        "en:bell-peppers"
+      ],
       "terms": [
         "bell pepper",
         "bell peppers",
@@ -1357,28 +3148,47 @@
         "poivron",
         "poivrons",
         "sweet pepper",
-        "sweet peppers"
+        "sweet peppers",
+        "ピーマン類"
       ]
     },
     {
       "id": "cucumber",
       "artworkID": "cucumber",
-      "priority": 20,
-      "tags": [],
+      "priority": 21,
+      "tags": [
+        "en:cucumbers",
+        "en:pickles"
+      ],
       "terms": [
         "concombre",
         "cucumber",
         "cucumbers",
         "gurke",
         "gurken",
-        "salatgurke"
+        "salatgurke",
+        "cornichon",
+        "cornichons",
+        "pickle",
+        "pickles",
+        "pickled cucumber",
+        "gewürzgurke",
+        "gewürzgurken",
+        "きゅうり"
       ]
     },
     {
       "id": "greens",
       "artworkID": "greens",
       "priority": 20,
-      "tags": [],
+      "tags": [
+        "en:leaf-vegetables",
+        "en:spinachs",
+        "en:salads",
+        "en:cabbages",
+        "en:lettuces",
+        "en:herbs"
+      ],
       "terms": [
         "chard",
         "epinard",
@@ -1391,39 +3201,139 @@
         "lettuce",
         "mangold",
         "spinach",
-        "spinat"
+        "spinat",
+        "spinachs",
+        "baby spinach",
+        "blattspinat",
+        "rahmspinat",
+        "blattspinat natur",
+        "cabbage",
+        "cabbages",
+        "kohl",
+        "weißkohl",
+        "rotkohl",
+        "red cabbage",
+        "wirsing",
+        "savoy cabbage",
+        "chou",
+        "choux",
+        "chou chinois",
+        "chou vert",
+        "chou rouge",
+        "romaine",
+        "rucola",
+        "arugula",
+        "rocket",
+        "pak choi",
+        "pak choy",
+        "bok choy",
+        "pakchoi",
+        "chicory",
+        "endive",
+        "endives",
+        "escarole",
+        "watercress",
+        "cress",
+        "brunnenkresse",
+        "sorrel",
+        "oseille",
+        "basil",
+        "basilikum",
+        "basilic",
+        "parsley",
+        "petersilie",
+        "persil",
+        "coriander",
+        "cilantro",
+        "koriander",
+        "coriandre",
+        "mint",
+        "minze",
+        "menthe",
+        "chives",
+        "schnittlauch",
+        "ciboulette",
+        "dill",
+        "aneth",
+        "ほうれんそう",
+        "はくさい",
+        "キャベツ",
+        "レタス",
+        "こまつな",
+        "brennnessel",
+        "stinging nettle",
+        "turnip greens",
+        "beet greens",
+        "radish leaves",
+        "taro leaves",
+        "beet leaves",
+        "seaweed",
+        "nori",
+        "wakame",
+        "kombu",
+        "algae",
+        "algen",
+        "seetang",
+        "algue",
+        "algues",
+        "ao nori",
+        "dulse",
+        "藻類",
+        "あおさ",
+        "あおのり",
+        "わかめ",
+        "こんぶ",
+        "ひじき"
       ]
     },
     {
       "id": "garlic",
       "artworkID": "garlic",
       "priority": 20,
-      "tags": [],
+      "tags": [
+        "en:garlic"
+      ],
       "terms": [
         "ail",
         "garlic",
-        "knoblauch"
+        "knoblauch",
+        "garlic cloves",
+        "knoblauchzehe",
+        "knoblauchzehen",
+        "にんにく"
       ]
     },
     {
       "id": "onion",
       "artworkID": "onion",
       "priority": 20,
-      "tags": [],
+      "tags": [
+        "en:onions",
+        "en:shallots"
+      ],
       "terms": [
         "oignon",
         "oignons",
         "onion",
         "onions",
         "zwiebel",
-        "zwiebeln"
+        "zwiebeln",
+        "schalotte",
+        "schalotten",
+        "shallot",
+        "shallots",
+        "shalot",
+        "echalote",
+        "たまねぎ"
       ]
     },
     {
       "id": "mushroom",
       "artworkID": "mushroom",
       "priority": 20,
-      "tags": [],
+      "tags": [
+        "en:mushrooms"
+      ],
       "terms": [
         "champignon",
         "champignons",
@@ -1431,14 +3341,25 @@
         "mushrooms",
         "pilz",
         "pilze",
-        "shiitake"
+        "shiitake",
+        "funghi",
+        "pfifferling",
+        "pfifferlinge",
+        "chanterelle",
+        "chanterelles",
+        "steinpilz",
+        "steinpilze",
+        "porcini",
+        "きのこ類"
       ]
     },
     {
       "id": "chestnut",
       "artworkID": "chestnut",
       "priority": 20,
-      "tags": [],
+      "tags": [
+        "en:chestnuts"
+      ],
       "terms": [
         "chataigne",
         "chestnut",
@@ -1446,7 +3367,13 @@
         "kastanie",
         "kastanien",
         "marone",
-        "maronen"
+        "maronen",
+        "châtaignes",
+        "marron",
+        "marrons",
+        "くり",
+        "くり類",
+        "日本ぐり"
       ]
     },
     {
@@ -1487,12 +3414,31 @@
     {
       "id": "pancakes",
       "artworkID": "pancakes",
-      "priority": 80,
+      "priority": 85,
       "tags": [],
       "terms": [
         "pancake",
         "pancakes",
         "pfannkuchen"
+      ],
+      "ingredientCategories": [
+        "egg",
+        "chocolate",
+        "candy",
+        "butter",
+        "cream",
+        "cheese",
+        "milk",
+        "nuts",
+        "peanuts",
+        "cereal",
+        "coconut",
+        "sweet-spread",
+        "spread",
+        "oil",
+        "olive-oil",
+        "flour",
+        "yogurt"
       ]
     },
     {
@@ -1504,7 +3450,9 @@
         "french fries",
         "fries",
         "frites",
-        "pommes frites"
+        "pommes frites",
+        "pommes frites",
+        "ofenpommes"
       ]
     },
     {
@@ -1555,11 +3503,25 @@
       "id": "curry",
       "artworkID": "curry",
       "priority": 70,
-      "tags": [],
+      "tags": [
+        "en:curries",
+        "en:butter-chicken"
+      ],
       "terms": [
         "curry rice",
         "reis mit curry",
-        "riz au curry"
+        "riz au curry",
+        "curry",
+        "curried",
+        "butter chicken",
+        "tikka masala",
+        "korma",
+        "jalfrezi",
+        "dal",
+        "dhal",
+        "daal",
+        "chana masala",
+        "カレー"
       ]
     },
     {
@@ -1576,13 +3538,44 @@
     {
       "id": "dumpling",
       "artworkID": "dumpling",
-      "priority": 70,
+      "priority": 85,
       "tags": [],
       "terms": [
         "dumpling",
         "dumplings",
         "gyoza",
-        "jiaozi"
+        "jiaozi",
+        "wonton",
+        "wontons",
+        "wan tan",
+        "pierogi",
+        "pierogies",
+        "pelmeni",
+        "momo",
+        "momos",
+        "dim sum",
+        "har gow",
+        "teigtasche",
+        "teigtaschen",
+        "bao bun",
+        "bao buns",
+        "餃子",
+        "ぎょうざ",
+        "samosa",
+        "samosas",
+        "samossa",
+        "samoussa",
+        "gyozas",
+        "shumai",
+        "siu mai",
+        "シューマイ",
+        "rahmnockerln",
+        "kartoffelkloß",
+        "kartoffelklöße",
+        "spring roll",
+        "spring rolls",
+        "frühlingsrolle",
+        "frühlingsrollen"
       ]
     },
     {
@@ -1620,19 +3613,36 @@
         "huitre",
         "huitres",
         "oyster",
-        "oysters"
+        "oysters",
+        "mussel",
+        "mussels",
+        "muschel",
+        "muscheln",
+        "clam",
+        "clams",
+        "scallop",
+        "scallops",
+        "coquille saint jacques",
+        "貝類"
       ]
     },
     {
       "id": "squid",
       "artworkID": "squid",
-      "priority": 20,
+      "priority": 25,
       "tags": [],
       "terms": [
         "calamari",
         "calmar",
         "squid",
-        "tintenfisch"
+        "tintenfisch",
+        "octopus",
+        "poulpe",
+        "octopus meat",
+        "calamar",
+        "いか たこ類",
+        "calmar",
+        "encornet"
       ]
     },
     {
@@ -1650,13 +3660,32 @@
     {
       "id": "cupcake",
       "artworkID": "cupcake",
-      "priority": 80,
+      "priority": 90,
       "tags": [],
       "terms": [
         "cupcake",
         "cupcakes",
         "muffin",
         "muffins"
+      ],
+      "ingredientCategories": [
+        "egg",
+        "chocolate",
+        "candy",
+        "butter",
+        "cream",
+        "cheese",
+        "milk",
+        "nuts",
+        "peanuts",
+        "cereal",
+        "coconut",
+        "sweet-spread",
+        "spread",
+        "oil",
+        "olive-oil",
+        "flour",
+        "yogurt"
       ]
     },
     {
@@ -1667,7 +3696,17 @@
       "terms": [
         "pie",
         "pies",
-        "tarte"
+        "tarte",
+        "quiche",
+        "quiches",
+        "quiche lorraine",
+        "tart",
+        "tarts",
+        "apfeltasche",
+        "apfeltaschen",
+        "apple turnover",
+        "apple turnovers",
+        "tourte"
       ]
     },
     {
@@ -1685,11 +3724,50 @@
       "id": "custard",
       "artworkID": "custard",
       "priority": 70,
-      "tags": [],
+      "tags": [
+        "en:dairy-desserts",
+        "en:custards",
+        "en:puddings",
+        "en:cream-desserts"
+      ],
       "terms": [
         "custard",
         "flan",
+        "pudding",
+        "puddings",
+        "vanillepudding",
+        "schokopudding",
+        "schokoladenpudding",
+        "grießpudding",
+        "dessertcreme",
+        "dessertcreme schoko",
+        "crème dessert",
+        "crème caramel",
+        "プリン",
+        "dessert au soja",
+        "dessert au lait",
+        "crème au chocolat",
+        "crème vanille",
+        "crème dessert vanille",
+        "crème dessert chocolat",
+        "crema catalana"
+      ],
+      "compoundSuffixes": [
         "pudding"
+      ],
+      "compoundExclusions": [],
+      "ingredientCategories": [
+        "egg",
+        "chocolate",
+        "candy",
+        "butter",
+        "cream",
+        "cheese",
+        "milk",
+        "nuts",
+        "peanuts",
+        "cereal",
+        "coconut"
       ]
     },
     {
@@ -1712,7 +3790,19 @@
         "cocktails",
         "margarita",
         "martini",
-        "mojito"
+        "mojito",
+        "fruit punch",
+        "punch",
+        "rum punch",
+        "liqueur",
+        "liqueurs",
+        "likör",
+        "likoer",
+        "liköre",
+        "tom collins",
+        "aperitif",
+        "bowle",
+        "カクテル"
       ]
     },
     {
@@ -1733,7 +3823,8 @@
         "eiersalat",
         "kartoffelsalat",
         "nudelsalat",
-        "fleischsalat"
+        "fleischsalat",
+        "lauchsalat"
       ]
     },
     {
@@ -1751,7 +3842,915 @@
         "seasoning",
         "gewürzpulver",
         "syrup",
-        "sirup"
+        "sirup",
+        "gewürz",
+        "gewürze",
+        "würzmischung",
+        "gewürzmischung",
+        "brühenpulver",
+        "bouillonpulver",
+        "gewürzsalz",
+        "grillwürzsalz",
+        "würzer",
+        "gewürzzubereitung",
+        "fix",
+        "shake n bake",
+        "shake and bake",
+        "shakepulver",
+        "milkshakepulver",
+        "seasonings",
+        "spice mix",
+        "mixed spices",
+        "backmischung",
+        "cake mix",
+        "instant powder"
+      ]
+    },
+    {
+      "id": "meat-spread",
+      "artworkID": "jar",
+      "priority": 90,
+      "tags": [],
+      "terms": [
+        "leberwurst",
+        "leberpastete",
+        "teewurst",
+        "streichwurst",
+        "frischkäsepastete"
+      ]
+    },
+    {
+      "id": "prepared-rice",
+      "artworkID": "rice",
+      "priority": 85,
+      "tags": [],
+      "terms": [
+        "risotto",
+        "rice pudding",
+        "milchreis",
+        "riz au lait",
+        "congee",
+        "reispudding",
+        "porridge rice",
+        "かゆ"
+      ]
+    },
+    {
+      "id": "meat-alternative",
+      "artworkID": "plate",
+      "priority": 41,
+      "tags": [
+        "en:meat-alternatives",
+        "en:meat-analogues",
+        "en:vegetarian-sausages",
+        "en:vegan-sausages"
+      ],
+      "terms": [
+        "soja geschnetzeltes",
+        "sojageschnetzeltes",
+        "soja granulat",
+        "sojagranulat",
+        "textured soy protein",
+        "textured vegetable protein",
+        "texturiertes sojaprotein",
+        "tofu",
+        "tofu natur",
+        "räuchertofu",
+        "smoked tofu"
+      ]
+    },
+    {
+      "id": "shake",
+      "artworkID": "soft-drink",
+      "priority": 95,
+      "tags": [
+        "en:milkshakes",
+        "en:protein-shakes",
+        "en:meal-replacement-drinks",
+        "en:smoothies"
+      ],
+      "terms": [
+        "shake",
+        "shakes",
+        "milkshake",
+        "milkshakes",
+        "milk shake",
+        "milchshake",
+        "milchshakes",
+        "proteinshake",
+        "proteinshakes",
+        "protein shake",
+        "protein shakes",
+        "eiweißshake",
+        "eiweißshakes",
+        "eiweissshake",
+        "eiweissshakes",
+        "eiweiß shake",
+        "eiweiss shake",
+        "smoothie",
+        "smoothies",
+        "fruchtshake",
+        "fruchtshakes"
+      ],
+      "ingredientCategories": [
+        "chocolate",
+        "candy",
+        "nuts",
+        "peanuts",
+        "coconut",
+        "cereal"
+      ]
+    },
+    {
+      "id": "olive",
+      "artworkID": "olive",
+      "priority": 45,
+      "tags": [
+        "en:olives"
+      ],
+      "terms": [
+        "olive",
+        "olives",
+        "oliven",
+        "aceituna",
+        "aceitunas",
+        "azeitona",
+        "azeitonas",
+        "オリーブ"
+      ]
+    },
+    {
+      "id": "lime",
+      "artworkID": "lime",
+      "priority": 21,
+      "tags": [
+        "en:limes"
+      ],
+      "terms": [
+        "lime",
+        "limes",
+        "limette",
+        "limetten",
+        "citron vert"
+      ]
+    },
+    {
+      "id": "ginger",
+      "artworkID": "ginger",
+      "priority": 21,
+      "tags": [
+        "en:ginger"
+      ],
+      "terms": [
+        "ginger",
+        "ginger root",
+        "ingwer",
+        "gingembre",
+        "しょうが"
+      ]
+    },
+    {
+      "id": "peas",
+      "artworkID": "peas",
+      "priority": 21,
+      "tags": [
+        "en:peas",
+        "en:green-peas"
+      ],
+      "terms": [
+        "peas",
+        "green peas",
+        "erbsen",
+        "zuckererbsen",
+        "zuckerschoten",
+        "sugar snap peas",
+        "pea pod",
+        "petits pois",
+        "pois cassés",
+        "split peas",
+        "えんどう",
+        "グリンピース",
+        "pigeon peas",
+        "pigeon pea"
+      ]
+    },
+    {
+      "id": "brown-mushroom",
+      "artworkID": "brown-mushroom",
+      "priority": 22,
+      "tags": [
+        "en:shiitake-mushrooms",
+        "en:portobello-mushrooms"
+      ],
+      "terms": [
+        "brown mushroom",
+        "brown mushrooms",
+        "braune champignons",
+        "cremini",
+        "portobello",
+        "shiitake",
+        "shiitake mushrooms",
+        "しいたけ"
+      ]
+    },
+    {
+      "id": "meat-on-bone",
+      "artworkID": "meat-on-bone",
+      "priority": 45,
+      "tags": [
+        "en:lamb-shanks"
+      ],
+      "terms": [
+        "meat on bone",
+        "lamb shank",
+        "lamb shanks",
+        "lammhaxe",
+        "lammhaxen",
+        "schweinshaxe",
+        "pork knuckle"
+      ]
+    },
+    {
+      "id": "tamale",
+      "artworkID": "tamale",
+      "priority": 90,
+      "tags": [
+        "en:tamales"
+      ],
+      "terms": [
+        "tamale",
+        "tamales"
+      ]
+    },
+    {
+      "id": "stuffed-flatbread",
+      "artworkID": "stuffed-flatbread",
+      "priority": 90,
+      "tags": [
+        "en:doner-kebabs"
+      ],
+      "terms": [
+        "stuffed flatbread",
+        "stuffed pita",
+        "gefülltes fladenbrot",
+        "doner kebab",
+        "döner kebab",
+        "döner",
+        "doner",
+        "shawarma",
+        "gyros pita"
+      ]
+    },
+    {
+      "id": "paella",
+      "artworkID": "paella",
+      "priority": 90,
+      "tags": [
+        "en:paellas"
+      ],
+      "terms": [
+        "paella",
+        "seafood paella"
+      ]
+    },
+    {
+      "id": "fondue",
+      "artworkID": "fondue",
+      "priority": 95,
+      "tags": [
+        "en:fondues"
+      ],
+      "terms": [
+        "fondue",
+        "käsefondue",
+        "cheese fondue",
+        "chocolate fondue",
+        "schokoladenfondue"
+      ]
+    },
+    {
+      "id": "canned-food",
+      "artworkID": "canned-food",
+      "priority": 15,
+      "tags": [
+        "en:canned-foods"
+      ],
+      "terms": [
+        "canned food",
+        "tinned food",
+        "konserve",
+        "konserven"
+      ]
+    },
+    {
+      "id": "bento",
+      "artworkID": "bento",
+      "priority": 95,
+      "tags": [
+        "en:bento"
+      ],
+      "terms": [
+        "bento",
+        "bento box",
+        "bentobox"
+      ]
+    },
+    {
+      "id": "rice-cracker",
+      "artworkID": "rice-cracker",
+      "priority": 80,
+      "tags": [
+        "en:rice-crackers",
+        "en:puffed-rice-cakes",
+        "en:puffed-corn-cakes"
+      ],
+      "terms": [
+        "rice cracker",
+        "rice crackers",
+        "reiskräcker",
+        "reiskraeker",
+        "senbei",
+        "reiswaffel",
+        "reiswaffeln",
+        "puffed rice cake",
+        "puffed rice cakes",
+        "rice cake",
+        "rice cakes",
+        "maisgalette",
+        "maisgaletten",
+        "corn cakes"
+      ]
+    },
+    {
+      "id": "rice-ball",
+      "artworkID": "rice-ball",
+      "priority": 90,
+      "tags": [
+        "en:onigiri"
+      ],
+      "terms": [
+        "rice ball",
+        "rice balls",
+        "onigiri",
+        "omusubi",
+        "reisbällchen"
+      ]
+    },
+    {
+      "id": "sweet-potato",
+      "artworkID": "sweet-potato",
+      "priority": 55,
+      "tags": [
+        "en:sweet-potatoes"
+      ],
+      "terms": [
+        "sweet potato",
+        "sweet potatoes",
+        "süßkartoffel",
+        "süßkartoffeln",
+        "suesskartoffel",
+        "patate douce",
+        "boniato",
+        "さつまいも"
+      ]
+    },
+    {
+      "id": "oden",
+      "artworkID": "oden",
+      "priority": 95,
+      "tags": [
+        "en:oden"
+      ],
+      "terms": [
+        "oden"
+      ]
+    },
+    {
+      "id": "fried-shrimp",
+      "artworkID": "fried-shrimp",
+      "priority": 90,
+      "tags": [
+        "en:breaded-shrimps"
+      ],
+      "terms": [
+        "fried shrimp",
+        "breaded shrimp",
+        "shrimp tempura",
+        "ebi tempura",
+        "tempura garnelen",
+        "panierte garnelen"
+      ]
+    },
+    {
+      "id": "fish-cake",
+      "artworkID": "fish-cake",
+      "priority": 80,
+      "tags": [
+        "en:fish-cakes"
+      ],
+      "terms": [
+        "fish cake",
+        "fish cakes",
+        "narutomaki",
+        "kamaboko"
+      ]
+    },
+    {
+      "id": "moon-cake",
+      "artworkID": "moon-cake",
+      "priority": 90,
+      "tags": [
+        "en:mooncakes"
+      ],
+      "terms": [
+        "moon cake",
+        "mooncake",
+        "mooncakes",
+        "mondkuchen"
+      ]
+    },
+    {
+      "id": "dango",
+      "artworkID": "dango",
+      "priority": 85,
+      "tags": [
+        "en:dango"
+      ],
+      "terms": [
+        "dango",
+        "hanami dango",
+        "mitarashi dango"
+      ]
+    },
+    {
+      "id": "fortune-cookie",
+      "artworkID": "fortune-cookie",
+      "priority": 80,
+      "tags": [
+        "en:fortune-cookies"
+      ],
+      "terms": [
+        "fortune cookie",
+        "fortune cookies",
+        "glückskeks",
+        "glückskekse"
+      ]
+    },
+    {
+      "id": "takeout",
+      "artworkID": "takeout",
+      "priority": 15,
+      "tags": [],
+      "terms": [
+        "takeout",
+        "takeaway meal",
+        "takeout meal"
+      ]
+    },
+    {
+      "id": "soft-ice-cream",
+      "artworkID": "soft-ice-cream",
+      "priority": 95,
+      "tags": [
+        "en:soft-serve-ice-creams"
+      ],
+      "terms": [
+        "soft serve",
+        "soft serve ice cream",
+        "soft ice cream",
+        "softeis"
+      ]
+    },
+    {
+      "id": "shaved-ice",
+      "artworkID": "shaved-ice",
+      "priority": 95,
+      "tags": [
+        "en:shaved-ice"
+      ],
+      "terms": [
+        "shaved ice",
+        "kakigori",
+        "bingsu",
+        "patbingsu",
+        "snow cone",
+        "schnee eis"
+      ]
+    },
+    {
+      "id": "birthday-cake",
+      "artworkID": "birthday-cake",
+      "priority": 90,
+      "tags": [
+        "en:birthday-cakes"
+      ],
+      "terms": [
+        "birthday cake",
+        "geburtstagskuchen",
+        "geburtstagstorte"
+      ]
+    },
+    {
+      "id": "baby-bottle",
+      "artworkID": "baby-bottle",
+      "priority": 80,
+      "tags": [
+        "en:infant-formulas"
+      ],
+      "terms": [
+        "infant formula",
+        "baby formula",
+        "säuglingsmilch",
+        "säuglingsnahrung",
+        "anfangsmilch",
+        "folgemilch"
+      ]
+    },
+    {
+      "id": "teapot",
+      "artworkID": "teapot",
+      "priority": 60,
+      "tags": [],
+      "terms": [
+        "pot of tea",
+        "teapot",
+        "kanne tee"
+      ]
+    },
+    {
+      "id": "sake",
+      "artworkID": "sake",
+      "priority": 80,
+      "tags": [
+        "en:sakes"
+      ],
+      "terms": [
+        "sake",
+        "saké",
+        "nihonshu",
+        "reissake"
+      ]
+    },
+    {
+      "id": "sparkling-wine",
+      "artworkID": "sparkling-wine",
+      "priority": 80,
+      "tags": [
+        "en:sparkling-wines",
+        "en:champagnes",
+        "en:prosecco"
+      ],
+      "terms": [
+        "champagne",
+        "champagner",
+        "prosecco",
+        "sekt",
+        "cava",
+        "sparkling wine",
+        "schaumwein"
+      ]
+    },
+    {
+      "id": "tropical-drink",
+      "artworkID": "tropical-drink",
+      "priority": 80,
+      "tags": [],
+      "terms": [
+        "pina colada",
+        "piña colada",
+        "mai tai",
+        "bahama mama",
+        "tropical cocktail"
+      ]
+    },
+    {
+      "id": "beer-mugs",
+      "artworkID": "beer-mugs",
+      "priority": 70,
+      "tags": [],
+      "terms": [
+        "beer flight",
+        "bierprobe",
+        "beer tasting"
+      ]
+    },
+    {
+      "id": "clinking-glasses",
+      "artworkID": "clinking-glasses",
+      "priority": 70,
+      "tags": [],
+      "terms": [
+        "champagne toast",
+        "champagner toast"
+      ]
+    },
+    {
+      "id": "spirits",
+      "artworkID": "spirits",
+      "priority": 80,
+      "tags": [
+        "en:spirits",
+        "en:vodka",
+        "en:flavored-vodka"
+      ],
+      "terms": [
+        "whiskey",
+        "whisky",
+        "bourbon",
+        "scotch",
+        "cognac",
+        "brandy",
+        "rum",
+        "rhum",
+        "tequila",
+        "vodka",
+        "wodka"
+      ]
+    },
+    {
+      "id": "pouring-water",
+      "artworkID": "pouring-water",
+      "priority": 60,
+      "tags": [],
+      "terms": [
+        "poured water",
+        "water refill",
+        "wasser nachfüllen"
+      ]
+    },
+    {
+      "id": "mate",
+      "artworkID": "mate",
+      "priority": 60,
+      "tags": [
+        "en:mate",
+        "en:yerba-mate"
+      ],
+      "terms": [
+        "mate",
+        "yerba mate",
+        "matetee",
+        "mate tea",
+        "mate tee"
+      ]
+    },
+    {
+      "id": "ice",
+      "artworkID": "ice",
+      "priority": 25,
+      "tags": [
+        "en:ice-cubes"
+      ],
+      "terms": [
+        "ice",
+        "ice cubes",
+        "eiswürfel",
+        "eiswuerfel",
+        "glaçons"
+      ]
+    },
+    {
+      "id": "chopsticks",
+      "artworkID": "chopsticks",
+      "priority": 5,
+      "tags": [],
+      "terms": [
+        "chopsticks",
+        "essstäbchen"
+      ]
+    },
+    {
+      "id": "cutlery",
+      "artworkID": "cutlery",
+      "priority": 5,
+      "tags": [],
+      "terms": [
+        "cutlery",
+        "fork and knife",
+        "besteck"
+      ]
+    },
+    {
+      "id": "spoon",
+      "artworkID": "spoon",
+      "priority": 5,
+      "tags": [],
+      "terms": [
+        "spoon",
+        "löffel"
+      ]
+    },
+    {
+      "id": "kitchen-knife",
+      "artworkID": "kitchen-knife",
+      "priority": 5,
+      "tags": [],
+      "terms": [
+        "kitchen knife",
+        "küchenmesser"
+      ]
+    },
+    {
+      "id": "jar",
+      "artworkID": "jar",
+      "priority": 5,
+      "tags": [],
+      "terms": [
+        "jar",
+        "einmachglas"
+      ]
+    },
+    {
+      "id": "amphora",
+      "artworkID": "amphora",
+      "priority": 5,
+      "tags": [],
+      "terms": [
+        "amphora",
+        "amphore"
+      ]
+    },
+    {
+      "id": "olive-oil",
+      "artworkID": "amphora",
+      "priority": 101,
+      "tags": [
+        "en:olive-oils"
+      ],
+      "terms": [
+        "olive oil",
+        "olivenöl",
+        "olivenoel",
+        "huile d olive",
+        "aceite de oliva",
+        "olio di oliva",
+        "azeite de oliva",
+        "olijfolie"
+      ]
+    },
+    {
+      "id": "yogurt-drink",
+      "artworkID": "milk",
+      "priority": 96,
+      "tags": [
+        "en:yogurt-drinks",
+        "en:lassi"
+      ],
+      "terms": [
+        "kefir",
+        "lassi",
+        "ayran",
+        "drink yogurt",
+        "drinking yogurt",
+        "yogurt drink",
+        "trinkjoghurt",
+        "joghurtdrink",
+        "buttermilk",
+        "buttermilch"
+      ],
+      "ingredientCategories": [
+        "chocolate",
+        "candy",
+        "nuts",
+        "peanuts",
+        "coconut",
+        "cereal"
+      ]
+    },
+    {
+      "id": "syrup",
+      "artworkID": "jar",
+      "priority": 100,
+      "tags": [
+        "en:syrups",
+        "en:maple-syrups",
+        "en:agave-syrups"
+      ],
+      "terms": [
+        "syrup",
+        "sirup",
+        "maple syrup",
+        "ahornsirup",
+        "agavendicksaft",
+        "agave syrup",
+        "sirop",
+        "apfeldicksaft"
+      ]
+    },
+    {
+      "id": "chocolate-bar",
+      "artworkID": "chocolate",
+      "priority": 99,
+      "tags": [
+        "en:candy-chocolate-bars",
+        "en:chocolate-bars"
+      ],
+      "terms": [
+        "chocolate bar",
+        "chocolate bars",
+        "schokoriegel",
+        "schokoladenriegel",
+        "chocolate coated bar",
+        "riegel chocolate",
+        "schoko riegel",
+        "schokolade riegel",
+        "schokoladen riegel"
+      ],
+      "ingredientCategories": [
+        "egg",
+        "chocolate",
+        "candy",
+        "butter",
+        "cream",
+        "cheese",
+        "milk",
+        "nuts",
+        "peanuts",
+        "cereal",
+        "coconut",
+        "sweet-spread",
+        "spread",
+        "oil",
+        "olive-oil",
+        "flour",
+        "yogurt",
+        "custard"
+      ]
+    },
+    {
+      "id": "bread-roll",
+      "artworkID": "bread",
+      "priority": 85,
+      "tags": [
+        "en:bread-rolls",
+        "en:english-muffins"
+      ],
+      "terms": [
+        "rolls",
+        "bread roll",
+        "bread rolls",
+        "brötchen",
+        "semmel",
+        "english muffin",
+        "english muffins",
+        "muffin english"
+      ],
+      "ingredientCategories": [
+        "egg",
+        "chocolate",
+        "candy",
+        "butter",
+        "cream",
+        "cheese",
+        "milk",
+        "nuts",
+        "peanuts",
+        "cereal",
+        "coconut",
+        "sweet-spread",
+        "spread",
+        "oil",
+        "olive-oil",
+        "flour",
+        "yogurt"
+      ]
+    },
+    {
+      "id": "cracker",
+      "artworkID": "cookie",
+      "priority": 76,
+      "tags": [
+        "en:crackers"
+      ],
+      "terms": [
+        "cracker",
+        "crackers",
+        "saltine",
+        "saltines"
+      ],
+      "ingredientCategories": [
+        "sandwich",
+        "sweet-spread"
+      ]
+    },
+    {
+      "id": "mixed-vegetables",
+      "artworkID": "broccoli",
+      "priority": 19,
+      "tags": [
+        "en:mixed-vegetables",
+        "en:frozen-mixed-vegetables"
+      ],
+      "terms": [
+        "mixed vegetables",
+        "frozen vegetables",
+        "vegetable mix",
+        "gemüsemischung",
+        "mischgemüse",
+        "tiefkühlgemüse",
+        "tk gemüse",
+        "gemüse tiefgefroren",
+        "mélange de légumes"
       ]
     }
   ],
@@ -1999,5 +4998,64 @@
       "sourceURL": "https://www.haribo.com/en-ca/products/goldbears",
       "reviewedAt": "2026-09-06"
     }
+  ],
+  "meatAlternativeMarkers": [
+    "vegan",
+    "vegane",
+    "veganer",
+    "veganes",
+    "veganen",
+    "vegetarisch",
+    "vegetarische",
+    "vegetarischer",
+    "vegetarisches",
+    "vegetarischen",
+    "vegetarian",
+    "veggie",
+    "vegetal",
+    "vegetalien",
+    "vegetalienne",
+    "vegetarien",
+    "vegetarienne",
+    "plant based",
+    "plantbased",
+    "plant protein",
+    "pflanzlich",
+    "pflanzliche",
+    "pflanzlicher",
+    "pflanzliches",
+    "pflanzlichen",
+    "fleischlos",
+    "fleischlose",
+    "fleischloses",
+    "meat free",
+    "meatless",
+    "meat alternative",
+    "meat substitute",
+    "meat replacement",
+    "fleischersatz",
+    "tofu",
+    "seitan",
+    "soy mince",
+    "soya mince",
+    "sojahack",
+    "erbsenhack",
+    "sonnenblumenhack",
+    "jackfruit",
+    "soja",
+    "soy",
+    "soya",
+    "veggiemix",
+    "veggimix",
+    "vegetarios",
+    "veganee",
+    "keine currywurst",
+    "gemüse frikadellen"
+  ],
+  "meatAlternativeTags": [
+    "en:meat-alternatives",
+    "en:meat-analogues",
+    "en:vegetarian-sausages",
+    "en:vegan-sausages"
   ]
 }

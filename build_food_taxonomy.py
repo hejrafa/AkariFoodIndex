@@ -41,7 +41,11 @@ def compile_taxonomy(taxonomy, manifest, references):
     rejected = collections.Counter()
     rejected_examples = []
     for tag, entry in sorted(taxonomy.items()):
-        matches = {seeds[a] for a in ancestors(tag) if a in seeds}
+        # An explicit child food (oat flakes, cream cheese) owns its identity;
+        # a higher-priority broad ancestor must not turn it into flour or milk.
+        seed_tags = {a for a in ancestors(tag) if a in seeds}
+        inherited_seeds = set().union(*(ancestors(a) - {a} for a in seed_tags)) if seed_tags else set()
+        matches = {seeds[a] for a in seed_tags - inherited_seeds}
         if matches:
             priority = max(rules[c]['priority'] for c in matches)
             best = {c for c in matches if rules[c]['priority'] == priority}

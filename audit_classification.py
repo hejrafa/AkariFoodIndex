@@ -49,14 +49,42 @@ def audit(path):
                 counts=dict(counts),categories=dict(categories.most_common()),
                 unclassifiedBrands=dict(brands.most_common(30)),folEpi=fol,reviewQueue=examples)
 
+def audit_references(path):
+    """Use the same primary/alternate identity fields as reference FoodProducts."""
+    database = sqlite3.connect(f'file:{path}?mode=ro', uri=True)
+    counts = collections.Counter()
+    sources = collections.defaultdict(collections.Counter)
+    categories = collections.Counter()
+    examples = []
+    for code, source, name, alternate in database.execute(
+            'SELECT id, source, name, alternate_name FROM reference_food ORDER BY id'):
+        result = classify(name, generic_name=alternate)
+        outcome = 'specificArtwork' if result and result['artworkID'] != 'plate' else 'fallback'
+        counts['records'] += 1
+        counts[outcome] += 1
+        sources[source]['records'] += 1
+        sources[source][outcome] += 1
+        if outcome == 'fallback':
+            categories[result['categoryID'] if result else 'unknown'] += 1
+            if len(examples) < 200:
+                examples.append(dict(code=code, name=name, alternateName=alternate, classification=result))
+    database.close()
+    return dict(file=path.name, ruleVersion=VERSION, counts=dict(counts),
+                bySource={key: dict(value) for key, value in sources.items()},
+                fallbackCategories=dict(categories.most_common()), reviewQueue=examples)
+
 def main():
     parser=argparse.ArgumentParser(description=__doc__)
     parser.add_argument('directory',type=Path)
     parser.add_argument('--output',required=True,type=Path)
+    parser.add_argument('--references', type=Path, help='Also audit the bundled reference-food SQLite database')
     args=parser.parse_args()
     results=[]
     for path in sorted(args.directory.glob('akari-food-*.sqlite')):
         result=audit(path);results.append(result)
         print(path.name,result['counts'],flush=True)
-    args.output.write_text(json.dumps(dict(ruleVersion=VERSION,scope='All retained SKU records, counted per market; the same barcode can occur in multiple markets. Classification coverage is not measured accuracy.',markets=results),ensure_ascii=False,indent=2)+'\n')
+    report = dict(ruleVersion=VERSION,scope='All retained SKU records, counted per market; the same barcode can occur in multiple markets. Classification coverage is not measured accuracy.',markets=results)
+    if args.references:
+        report['references'] = audit_references(args.references)
+    args.output.write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
 if __name__=='__main__': main()

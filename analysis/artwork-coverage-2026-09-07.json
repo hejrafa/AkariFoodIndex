@@ -1,0 +1,1321 @@
+{
+  "date": "2026-09-07",
+  "baselineRulesVersion": 11,
+  "auditedRulesVersion": 12,
+  "installedRulesVersion": 13,
+  "semanticRulesSHA256": "e78f0b43943fb470a92e7e1f0ab8f59193a2051436c39a67b4823ba92acb4e9b",
+  "scope": "All 21,510 bundled national reference records and all 1,452,796 retained SKU rows in nine downloaded market catalogs. Market totals include the same barcode in multiple countries. Counts measure artwork coverage, not independently verified classification accuracy.",
+  "versionNote": "The installed classification version is advanced once beyond the preview to invalidate earlier simulator caches. Semantic rule content is identical to the final audited pass, verified by SHA-256 with only the version field excluded.",
+  "marketSummary": {
+    "records": 1452796,
+    "beforeSpecific": 832560,
+    "afterSpecific": 1052043,
+    "beforeFallback": 620236,
+    "afterFallback": 400753,
+    "additionalSpecificArtwork": 219483
+  },
+  "markets": [
+    {
+      "file": "akari-food-at-v4.sqlite",
+      "records": 18234,
+      "beforeSpecific": 8960,
+      "afterSpecific": 12110,
+      "beforeFallback": 9274,
+      "afterFallback": 6124,
+      "withCategoryTags": 9703
+    },
+    {
+      "file": "akari-food-au-v4.sqlite",
+      "records": 64920,
+      "beforeSpecific": 37964,
+      "afterSpecific": 46722,
+      "beforeFallback": 26956,
+      "afterFallback": 18198,
+      "withCategoryTags": 14818
+    },
+    {
+      "file": "akari-food-ca-v4.sqlite",
+      "records": 104125,
+      "beforeSpecific": 59718,
+      "afterSpecific": 74469,
+      "beforeFallback": 44407,
+      "afterFallback": 29656,
+      "withCategoryTags": 27705
+    },
+    {
+      "file": "akari-food-ch-v4.sqlite",
+      "records": 84747,
+      "beforeSpecific": 43578,
+      "afterSpecific": 59665,
+      "beforeFallback": 41169,
+      "afterFallback": 25082,
+      "withCategoryTags": 47928
+    },
+    {
+      "file": "akari-food-de-v4.sqlite",
+      "records": 230620,
+      "beforeSpecific": 116821,
+      "afterSpecific": 161168,
+      "beforeFallback": 113799,
+      "afterFallback": 69452,
+      "withCategoryTags": 138364
+    },
+    {
+      "file": "akari-food-gb-v4.sqlite",
+      "records": 144933,
+      "beforeSpecific": 88080,
+      "afterSpecific": 108559,
+      "beforeFallback": 56853,
+      "afterFallback": 36374,
+      "withCategoryTags": 60910
+    },
+    {
+      "file": "akari-food-ie-v4.sqlite",
+      "records": 64147,
+      "beforeSpecific": 33162,
+      "afterSpecific": 40784,
+      "beforeFallback": 30985,
+      "afterFallback": 23363,
+      "withCategoryTags": 12295
+    },
+    {
+      "file": "akari-food-nz-v4.sqlite",
+      "records": 12644,
+      "beforeSpecific": 7593,
+      "afterSpecific": 9518,
+      "beforeFallback": 5051,
+      "afterFallback": 3126,
+      "withCategoryTags": 4614
+    },
+    {
+      "file": "akari-food-us-v4.sqlite",
+      "records": 728426,
+      "beforeSpecific": 436684,
+      "afterSpecific": 539048,
+      "beforeFallback": 291742,
+      "afterFallback": 189378,
+      "withCategoryTags": 342016
+    }
+  ],
+  "references": {
+    "ruleVersion": 12,
+    "sourceSHA256": "d27282101007163b9982848915de078a8b30aa2c72614d108c37dc7b6df8f37f",
+    "before": {
+      "records": 21510,
+      "specificArtwork": 12354,
+      "fallback": 9156
+    },
+    "after": {
+      "records": 21510,
+      "specificArtwork": 16988,
+      "fallback": 4522
+    },
+    "bySource": {
+      "bls": {
+        "records": 7106,
+        "specificArtwork": 6116,
+        "fallback": 990
+      },
+      "ciqual": {
+        "records": 3281,
+        "fallback": 655,
+        "specificArtwork": 2626
+      },
+      "cofid": {
+        "records": 2845,
+        "fallback": 717,
+        "specificArtwork": 2128
+      },
+      "mext": {
+        "records": 2526,
+        "specificArtwork": 1383,
+        "fallback": 1143
+      },
+      "usda": {
+        "records": 5752,
+        "fallback": 1017,
+        "specificArtwork": 4735
+      }
+    },
+    "newlyResolved": 4646,
+    "newlyNeutral": 12,
+    "fallbackCategories": {
+      "unknown": 3886,
+      "preparation-mix": 103,
+      "powder": 127,
+      "flour": 142,
+      "prepared-meal": 37,
+      "mixed-salad": 87,
+      "meat-alternative": 47,
+      "crisps": 51,
+      "nuts": 35,
+      "cereal-bar": 7
+    },
+    "resolvedExamples": [
+      {
+        "id": "bls:T041182",
+        "name": "Aal gebraten ohne Fett (Pfanne)",
+        "artwork": "fish",
+        "category": "fish"
+      },
+      {
+        "id": "bls:T041152",
+        "name": "Aal gedünstet",
+        "artwork": "fish",
+        "category": "fish"
+      },
+      {
+        "id": "bls:T041600",
+        "name": "Aal geräuchert (Räucheraal)",
+        "artwork": "fish",
+        "category": "fish"
+      },
+      {
+        "id": "bls:T041142",
+        "name": "Aal geschmort ohne Fett",
+        "artwork": "fish",
+        "category": "fish"
+      },
+      {
+        "id": "bls:Y670113",
+        "name": "Aal grün (Aal pochiert, in Kräutersauce)",
+        "artwork": "fish",
+        "category": "fish"
+      },
+      {
+        "id": "bls:Y670042",
+        "name": "Aal in Rotwein mariniert, pochiert",
+        "artwork": "fish",
+        "category": "fish"
+      },
+      {
+        "id": "bls:Y670533",
+        "name": "Aal in Tomatensauce (aus Tomaten Konserve), überbacken",
+        "artwork": "fish",
+        "category": "fish"
+      },
+      {
+        "id": "bls:Y670632",
+        "name": "Aal mit Speck gebacken",
+        "artwork": "fish",
+        "category": "fish"
+      },
+      {
+        "id": "bls:T041100",
+        "name": "Aal roh",
+        "artwork": "fish",
+        "category": "fish"
+      },
+      {
+        "id": "bls:S151100",
+        "name": "Ahornsirup",
+        "artwork": "jar",
+        "category": "syrup"
+      },
+      {
+        "id": "bls:X344260",
+        "name": "Aioli",
+        "artwork": "jar",
+        "category": "sauce"
+      },
+      {
+        "id": "bls:T213162",
+        "name": "Alaska-Pollack/Alaska-Seelachs, gebraten ohne Fett (Ofen)",
+        "artwork": "fish",
+        "category": "fish"
+      },
+      {
+        "id": "bls:T213182",
+        "name": "Alaska-Pollack/Alaska-Seelachs, gebraten ohne Fett (Pfanne)",
+        "artwork": "fish",
+        "category": "fish"
+      },
+      {
+        "id": "bls:T213152",
+        "name": "Alaska-Pollack/Alaska-Seelachs, gedünstet",
+        "artwork": "fish",
+        "category": "fish"
+      },
+      {
+        "id": "bls:T213172",
+        "name": "Alaska-Pollack/Alaska-Seelachs, gegrillt",
+        "artwork": "fish",
+        "category": "fish"
+      },
+      {
+        "id": "bls:T213132",
+        "name": "Alaska-Pollack/Alaska-Seelachs, pochiert",
+        "artwork": "fish",
+        "category": "fish"
+      },
+      {
+        "id": "bls:T213100",
+        "name": "Alaska-Pollack/Alaska-Seelachs, roh",
+        "artwork": "fish",
+        "category": "fish"
+      },
+      {
+        "id": "bls:T213200",
+        "name": "Alaska-Pollack/Alaska-Seelachs, tiefgefroren",
+        "artwork": "fish",
+        "category": "fish"
+      },
+      {
+        "id": "bls:T213262",
+        "name": "Alaska-Pollack/Alaska-Seelachs, tiefgefroren, gebraten ohne Fett (Ofen)",
+        "artwork": "fish",
+        "category": "fish"
+      },
+      {
+        "id": "bls:T213282",
+        "name": "Alaska-Pollack/Alaska-Seelachs, tiefgefroren, gebraten ohne Fett (Pfanne)",
+        "artwork": "fish",
+        "category": "fish"
+      },
+      {
+        "id": "bls:T213252",
+        "name": "Alaska-Pollack/Alaska-Seelachs, tiefgefroren, gedünstet",
+        "artwork": "fish",
+        "category": "fish"
+      },
+      {
+        "id": "bls:T213272",
+        "name": "Alaska-Pollack/Alaska-Seelachs, tiefgefroren, gegrillt",
+        "artwork": "fish",
+        "category": "fish"
+      },
+      {
+        "id": "bls:T213232",
+        "name": "Alaska-Pollack/Alaska-Seelachs, tiefgefroren, pochiert",
+        "artwork": "fish",
+        "category": "fish"
+      },
+      {
+        "id": "bls:T934200",
+        "name": "Alaska-Seelachs paniert, tiefgefroren",
+        "artwork": "fish",
+        "category": "fish"
+      },
+      {
+        "id": "bls:T934292",
+        "name": "Alaska-Seelachs paniert, tiefgefroren, frittiert",
+        "artwork": "fish",
+        "category": "fish"
+      },
+      {
+        "id": "bls:T934262",
+        "name": "Alaska-Seelachs paniert, tiefgefroren, gebraten ohne Fett (Ofen)",
+        "artwork": "fish",
+        "category": "fish"
+      },
+      {
+        "id": "bls:T934282",
+        "name": "Alaska-Seelachs paniert, tiefgefroren, gebraten ohne Fett (Pfanne)",
+        "artwork": "fish",
+        "category": "fish"
+      },
+      {
+        "id": "bls:P8A2000",
+        "name": "Alkopops",
+        "artwork": "soft-drink",
+        "category": "soft-drink"
+      },
+      {
+        "id": "bls:P194000",
+        "name": "Altbierbowle",
+        "artwork": "cocktail",
+        "category": "cocktail"
+      },
+      {
+        "id": "bls:C335032",
+        "name": "Amaranth gekocht",
+        "artwork": "cereal",
+        "category": "cereal"
+      },
+      {
+        "id": "bls:C530100",
+        "name": "Amaranth gepufft, ungesüßt",
+        "artwork": "cereal",
+        "category": "cereal"
+      },
+      {
+        "id": "bls:C335000",
+        "name": "Amaranth roh",
+        "artwork": "cereal",
+        "category": "cereal"
+      },
+      {
+        "id": "bls:Y875140",
+        "name": "Ambrosiacreme (Saure-Sahne-Creme mit Rum)",
+        "artwork": "milk",
+        "category": "cream"
+      },
+      {
+        "id": "bls:R9A2000",
+        "name": "Ananas-Joghurtsahne für Gebäck/Torten",
+        "artwork": "jar",
+        "category": "yogurt"
+      },
+      {
+        "id": "bls:N003000",
+        "name": "Aperitif alkoholfrei",
+        "artwork": "cocktail",
+        "category": "cocktail"
+      },
+      {
+        "id": "bls:Y814210",
+        "name": "Apfel-Bananen-Birnenmus roh",
+        "artwork": "jar",
+        "category": "sauce"
+      },
+      {
+        "id": "bls:Y8A3000",
+        "name": "Apfel-Bananen-Birnenmus ungesüßt",
+        "artwork": "jar",
+        "category": "sauce"
+      },
+      {
+        "id": "bls:Y814010",
+        "name": "Apfel-Bananenmus (roh) mit Rosinen",
+        "artwork": "jar",
+        "category": "sauce"
+      },
+      {
+        "id": "bls:Y8A3010",
+        "name": "Apfel-Mangomus ungesüßt",
+        "artwork": "jar",
+        "category": "sauce"
+      },
+      {
+        "id": "bls:S155000",
+        "name": "Apfeldicksaft",
+        "artwork": "jar",
+        "category": "syrup"
+      },
+      {
+        "id": "bls:F923900",
+        "name": "Apfelkompott/Apfelmark, ungesüßt, Konserve",
+        "artwork": "jar",
+        "category": "sweet-spread"
+      },
+      {
+        "id": "bls:F921900",
+        "name": "Apfelkompott/Apfelmus, gezuckert, Konserve",
+        "artwork": "jar",
+        "category": "sweet-spread"
+      },
+      {
+        "id": "bls:F928900",
+        "name": "Apfelkompott/Apfelmus, mit Süßungsmitteln, Konserve",
+        "artwork": "jar",
+        "category": "sweet-spread"
+      },
+      {
+        "id": "bls:D1A3000",
+        "name": "Apfelkuchen (Quark-Öl-Teig)",
+        "artwork": "cake",
+        "category": "cake"
+      },
+      {
+        "id": "bls:Y843143",
+        "name": "Apfelmus",
+        "artwork": "jar",
+        "category": "sweet-spread"
+      },
+      {
+        "id": "bls:Y863112",
+        "name": "Apfelmus mit Süßstoff",
+        "artwork": "jar",
+        "category": "sweet-spread"
+      },
+      {
+        "id": "bls:Y843243",
+        "name": "Apfelmus mit Zimt",
+        "artwork": "jar",
+        "category": "sweet-spread"
+      },
+      {
+        "id": "bls:Y864112",
+        "name": "Apfelmus ungesüßt",
+        "artwork": "jar",
+        "category": "sweet-spread"
+      },
+      {
+        "id": "bls:D7A7800",
+        "name": "Apfeltasche (Blätterteig)",
+        "artwork": "cake",
+        "category": "cake"
+      },
+      {
+        "id": "bls:D7A5000",
+        "name": "Apfeltaschen (Hefeteig)",
+        "artwork": "cake",
+        "category": "cake"
+      },
+      {
+        "id": "bls:P353100",
+        "name": "Apfelwein",
+        "artwork": "wine",
+        "category": "wine"
+      },
+      {
+        "id": "bls:Y859663",
+        "name": "Aprikosencreme",
+        "artwork": "milk",
+        "category": "cream"
+      },
+      {
+        "id": "bls:Y841443",
+        "name": "Aprikosenkompott",
+        "artwork": "jar",
+        "category": "sweet-spread"
+      },
+      {
+        "id": "bls:Y842412",
+        "name": "Aprikosenkompott mit Süßstoff",
+        "artwork": "jar",
+        "category": "sweet-spread"
+      },
+      {
+        "id": "bls:Y841412",
+        "name": "Aprikosenkompott ungesüßt",
+        "artwork": "jar",
+        "category": "sweet-spread"
+      },
+      {
+        "id": "bls:X365563",
+        "name": "Aprikosensauce von frischen Früchten",
+        "artwork": "jar",
+        "category": "sauce"
+      },
+      {
+        "id": "bls:X365543",
+        "name": "Aprikosensauce von getrockneten Früchten",
+        "artwork": "jar",
+        "category": "sauce"
+      },
+      {
+        "id": "bls:D771200",
+        "name": "Aprikosenteilchen (Blätterteig)",
+        "artwork": "cake",
+        "category": "cake"
+      },
+      {
+        "id": "bls:X359640",
+        "name": "Asia-Dressing",
+        "artwork": "jar",
+        "category": "sauce"
+      },
+      {
+        "id": "bls:X389000",
+        "name": "Avocadocreme (Guacamole)",
+        "artwork": "jar",
+        "category": "sauce"
+      }
+    ],
+    "newlyNeutralExamples": [
+      {
+        "id": "bls:X1A3040",
+        "name": "Reissalat mit Gemüse, Früchten, Curry und Zitronenmarinade",
+        "classification": null
+      },
+      {
+        "id": "bls:G950900",
+        "name": "Vegetarisches Gulasch, Konserve",
+        "classification": {
+          "categoryID": "meat-alternative",
+          "artworkID": "plate",
+          "source": "product-name",
+          "evidence": "Vegetarisches Gulasch, Konserve",
+          "version": 12
+        }
+      },
+      {
+        "id": "ciqual:25551",
+        "name": "Beignet de viande, volaille ou poisson, fait maison, cuit",
+        "classification": null
+      },
+      {
+        "id": "ciqual:38406",
+        "name": "Cacahuète enrobée d'un biscuit salé ou aromatisé, pour apéritif",
+        "classification": null
+      },
+      {
+        "id": "ciqual:9570",
+        "name": "Farine de châtaigne",
+        "classification": {
+          "categoryID": "flour",
+          "artworkID": "plate",
+          "source": "product-name",
+          "evidence": "farine",
+          "version": 12
+        }
+      },
+      {
+        "id": "ciqual:9545",
+        "name": "Farine de maïs",
+        "classification": {
+          "categoryID": "flour",
+          "artworkID": "plate",
+          "source": "product-name",
+          "evidence": "farine",
+          "version": 12
+        }
+      },
+      {
+        "id": "ciqual:20812",
+        "name": "Farine de pulpe de patate douce, prélevée à la Martinique",
+        "classification": {
+          "categoryID": "flour",
+          "artworkID": "plate",
+          "source": "product-name",
+          "evidence": "farine",
+          "version": 12
+        }
+      },
+      {
+        "id": "ciqual:9520",
+        "name": "Farine de riz",
+        "classification": {
+          "categoryID": "flour",
+          "artworkID": "plate",
+          "source": "product-name",
+          "evidence": "farine",
+          "version": 12
+        }
+      },
+      {
+        "id": "cofid:14-882",
+        "name": "Peanuts and raisins",
+        "classification": null
+      },
+      {
+        "id": "cofid:13-570",
+        "name": "Tofu, soya bean, steamed",
+        "classification": {
+          "categoryID": "meat-alternative",
+          "artworkID": "plate",
+          "source": "product-name",
+          "evidence": "tofu",
+          "version": 12
+        }
+      },
+      {
+        "id": "cofid:13-571",
+        "name": "Tofu, soya bean, steamed, fried",
+        "classification": {
+          "categoryID": "meat-alternative",
+          "artworkID": "plate",
+          "source": "product-name",
+          "evidence": "tofu",
+          "version": 12
+        }
+      },
+      {
+        "id": "usda:2709641",
+        "name": "Bitter melon, horseradish, jute, or radish leaves, cooked",
+        "classification": null
+      }
+    ],
+    "remainingExamples": [
+      {
+        "id": "bls:F511100",
+        "name": "Acerola roh",
+        "classification": null
+      },
+      {
+        "id": "bls:H640100",
+        "name": "Alfalfasprossen/Alfalfakeimlinge, roh",
+        "classification": null
+      },
+      {
+        "id": "bls:W368000",
+        "name": "Anspacher Leberpresssack/Leberpresssack",
+        "classification": null
+      },
+      {
+        "id": "bls:X572212",
+        "name": "Antipasti-Teller (Gemüse und Pilze gegart, mit Thunfisch und Parmaschinken)",
+        "classification": {
+          "categoryID": "preparation-mix",
+          "artworkID": "plate",
+          "source": "generic-name",
+          "evidence": "mix",
+          "version": 12
+        }
+      },
+      {
+        "id": "bls:F201152",
+        "name": "Aprikose gedünstet",
+        "classification": null
+      },
+      {
+        "id": "bls:F201400",
+        "name": "Aprikose getrocknet",
+        "classification": null
+      },
+      {
+        "id": "bls:F2A1902",
+        "name": "Aprikose in Fruchtsaft, Konserve, abgetropft",
+        "classification": null
+      },
+      {
+        "id": "bls:F2B1902",
+        "name": "Aprikose mit Süßungsmitteln, Konserve, abgetropft",
+        "classification": null
+      },
+      {
+        "id": "bls:F201100",
+        "name": "Aprikose roh",
+        "classification": null
+      },
+      {
+        "id": "bls:D705200",
+        "name": "Aprikosen im Ausbackteig frittiert",
+        "classification": null
+      },
+      {
+        "id": "bls:R9A5000",
+        "name": "Aprikosenglasur/Aprikotur, für Gebäck/Torten",
+        "classification": null
+      },
+      {
+        "id": "bls:P742000",
+        "name": "Arrak",
+        "classification": null
+      },
+      {
+        "id": "bls:G410132",
+        "name": "Artischocke gekocht",
+        "classification": null
+      },
+      {
+        "id": "bls:G410702",
+        "name": "Artischocke in Öl, Konserve, abgetropft",
+        "classification": null
+      },
+      {
+        "id": "bls:G410732",
+        "name": "Artischocke in Öl, Konserve, abgetropft gekocht",
+        "classification": null
+      },
+      {
+        "id": "bls:G410100",
+        "name": "Artischocke roh",
+        "classification": null
+      },
+      {
+        "id": "bls:X5A6000",
+        "name": "Artischocken gedünstet mit Orangensaft",
+        "classification": null
+      },
+      {
+        "id": "bls:X5A6010",
+        "name": "Artischocken gekocht",
+        "classification": null
+      },
+      {
+        "id": "bls:X5A6020",
+        "name": "Artischocken gekocht, mit Butter",
+        "classification": null
+      },
+      {
+        "id": "bls:X541463",
+        "name": "Artischockenböden mit Fleischfüllung",
+        "classification": null
+      },
+      {
+        "id": "bls:X541263",
+        "name": "Artischockenviertel gebraten mit Steinpilzen und Speck",
+        "classification": null
+      },
+      {
+        "id": "bls:H702100",
+        "name": "Augenbohne reif",
+        "classification": null
+      },
+      {
+        "id": "bls:H702132",
+        "name": "Augenbohne reif, gekocht",
+        "classification": null
+      },
+      {
+        "id": "bls:D076000",
+        "name": "Ausbackteig (mit Bier) ungesüßt, roh",
+        "classification": null
+      },
+      {
+        "id": "bls:D071000",
+        "name": "Ausbackteig (mit Milch) gesüßt, roh",
+        "classification": null
+      },
+      {
+        "id": "bls:K740182",
+        "name": "Austernpilz gebraten ohne Fett (Pfanne)",
+        "classification": null
+      },
+      {
+        "id": "bls:K740152",
+        "name": "Austernpilz gedünstet",
+        "classification": null
+      },
+      {
+        "id": "bls:K740400",
+        "name": "Austernpilz getrocknet",
+        "classification": null
+      },
+      {
+        "id": "bls:K740432",
+        "name": "Austernpilz getrocknet, gekocht",
+        "classification": null
+      },
+      {
+        "id": "bls:K740100",
+        "name": "Austernpilz roh",
+        "classification": null
+      },
+      {
+        "id": "bls:R459000",
+        "name": "Backhefe frisch (Frischbackhefe)",
+        "classification": null
+      },
+      {
+        "id": "bls:R458000",
+        "name": "Backhefe getrocknet (Trockenbackhefe)",
+        "classification": null
+      },
+      {
+        "id": "bls:R421100",
+        "name": "Backpulver",
+        "classification": {
+          "categoryID": "powder",
+          "artworkID": "plate",
+          "source": "generic-name",
+          "evidence": "powder",
+          "version": 12
+        }
+      },
+      {
+        "id": "bls:Y8A8000",
+        "name": "Backteig gesüßt, mit Milch 3,5 % Fett, roh",
+        "classification": null
+      },
+      {
+        "id": "bls:X9A6000",
+        "name": "Backteig ungesüßt, mit Bier, roh",
+        "classification": null
+      },
+      {
+        "id": "bls:X9A6010",
+        "name": "Backteig ungesüßt, mit Milch 3,5 % Fett, roh",
+        "classification": null
+      },
+      {
+        "id": "bls:D610200",
+        "name": "Baiser",
+        "classification": null
+      },
+      {
+        "id": "bls:D610800",
+        "name": "Baiser mit Schoko-Nougatfüllung",
+        "classification": null
+      },
+      {
+        "id": "bls:R125000",
+        "name": "Balsamicoessig",
+        "classification": null
+      },
+      {
+        "id": "bls:H610182",
+        "name": "Bambussprossen gebraten ohne Fett (Pfanne)",
+        "classification": null
+      },
+      {
+        "id": "bls:X574012",
+        "name": "Bambussprossen gedünstet (mit Fett und Salz)",
+        "classification": null
+      },
+      {
+        "id": "bls:H610132",
+        "name": "Bambussprossen gekocht",
+        "classification": null
+      },
+      {
+        "id": "bls:H610100",
+        "name": "Bambussprossen roh",
+        "classification": null
+      },
+      {
+        "id": "bls:X651112",
+        "name": "Bauernfrühstück mit Speck und Kochschinken, gebraten",
+        "classification": null
+      },
+      {
+        "id": "bls:F092152",
+        "name": "Beerenmischung mit Sauerkirschen, ungesüßt, gedünstet",
+        "classification": {
+          "categoryID": "preparation-mix",
+          "artworkID": "plate",
+          "source": "generic-name",
+          "evidence": "mix",
+          "version": 12
+        }
+      },
+      {
+        "id": "bls:F092100",
+        "name": "Beerenmischung mit Sauerkirschen, ungesüßt, roh",
+        "classification": {
+          "categoryID": "preparation-mix",
+          "artworkID": "plate",
+          "source": "generic-name",
+          "evidence": "mix",
+          "version": 12
+        }
+      },
+      {
+        "id": "bls:K704182",
+        "name": "Birkenpilz gebraten ohne Fett (Pfanne)",
+        "classification": null
+      },
+      {
+        "id": "bls:K704152",
+        "name": "Birkenpilz gedünstet",
+        "classification": null
+      },
+      {
+        "id": "bls:K704100",
+        "name": "Birkenpilz roh",
+        "classification": null
+      },
+      {
+        "id": "bls:S156000",
+        "name": "Birnendicksaft",
+        "classification": null
+      },
+      {
+        "id": "bls:G220162",
+        "name": "Bleichsellerie gebacken",
+        "classification": null
+      },
+      {
+        "id": "bls:G221182",
+        "name": "Bleichsellerie gebraten ohne Fett (Pfanne)",
+        "classification": null
+      },
+      {
+        "id": "bls:G220152",
+        "name": "Bleichsellerie gedünstet",
+        "classification": null
+      },
+      {
+        "id": "bls:G220132",
+        "name": "Bleichsellerie gekocht",
+        "classification": null
+      },
+      {
+        "id": "bls:X573212",
+        "name": "Bleichsellerie gekocht (mit Fett und Salz)",
+        "classification": null
+      },
+      {
+        "id": "bls:G220142",
+        "name": "Bleichsellerie geschmort ohne Fett",
+        "classification": null
+      },
+      {
+        "id": "bls:G220100",
+        "name": "Bleichsellerie roh",
+        "classification": null
+      },
+      {
+        "id": "bls:G311162",
+        "name": "Blumenkohl gebacken",
+        "classification": null
+      },
+      {
+        "id": "bls:G311182",
+        "name": "Blumenkohl gebraten ohne Fett (Pfanne)",
+        "classification": null
+      },
+      {
+        "id": "bls:G311142",
+        "name": "Blumenkohl gedämpft",
+        "classification": null
+      },
+      {
+        "id": "bls:G311152",
+        "name": "Blumenkohl gedünstet",
+        "classification": null
+      },
+      {
+        "id": "bls:X531612",
+        "name": "Blumenkohl gedünstet (mit Fett und Salz)",
+        "classification": null
+      },
+      {
+        "id": "bls:X531263",
+        "name": "Blumenkohl gedünstet, mit Bechamelsauce",
+        "classification": null
+      },
+      {
+        "id": "bls:X531042",
+        "name": "Blumenkohl gedünstet, mit Semmelbröseln",
+        "classification": null
+      },
+      {
+        "id": "bls:G311132",
+        "name": "Blumenkohl gekocht",
+        "classification": null
+      },
+      {
+        "id": "bls:X531053",
+        "name": "Blumenkohl gekocht, mit Grundsauce hell/weiß",
+        "classification": null
+      },
+      {
+        "id": "bls:G311802",
+        "name": "Blumenkohl gesäuert, abgetropft",
+        "classification": null
+      },
+      {
+        "id": "bls:X531413",
+        "name": "Blumenkohl gratiniert",
+        "classification": null
+      },
+      {
+        "id": "bls:G311100",
+        "name": "Blumenkohl roh",
+        "classification": null
+      },
+      {
+        "id": "bls:G311200",
+        "name": "Blumenkohl tiefgefroren",
+        "classification": null
+      },
+      {
+        "id": "bls:G311262",
+        "name": "Blumenkohl tiefgefroren, gebacken",
+        "classification": null
+      },
+      {
+        "id": "bls:G311282",
+        "name": "Blumenkohl tiefgefroren, gebraten ohne Fett (Pfanne)",
+        "classification": null
+      },
+      {
+        "id": "bls:G311242",
+        "name": "Blumenkohl tiefgefroren, gedämpft",
+        "classification": null
+      },
+      {
+        "id": "bls:G311252",
+        "name": "Blumenkohl tiefgefroren, gedünstet",
+        "classification": null
+      },
+      {
+        "id": "bls:G311232",
+        "name": "Blumenkohl tiefgefroren, gekocht",
+        "classification": null
+      },
+      {
+        "id": "bls:X531433",
+        "name": "Blumenkohlauflauf",
+        "classification": null
+      },
+      {
+        "id": "bls:W348000",
+        "name": "Blutpresssack",
+        "classification": null
+      },
+      {
+        "id": "bls:S533000",
+        "name": "Blätterkrokant überzogen mit Vollmilchschokolade",
+        "classification": null
+      },
+      {
+        "id": "bls:F307100",
+        "name": "Boysenbeere roh",
+        "classification": null
+      },
+      {
+        "id": "bls:P740000",
+        "name": "Brand aus Zuckerrohr (Cachaca)",
+        "classification": null
+      },
+      {
+        "id": "bls:R122000",
+        "name": "Branntweinessig",
+        "classification": null
+      },
+      {
+        "id": "bls:R910032",
+        "name": "Bratensoße aus Instantpulver, zubereitet mit Wasser",
+        "classification": {
+          "categoryID": "preparation-mix",
+          "artworkID": "plate",
+          "source": "generic-name",
+          "evidence": "instant powder",
+          "version": 12
+        }
+      },
+      {
+        "id": "bls:R910000",
+        "name": "Bratensoße Instantpulver",
+        "classification": {
+          "categoryID": "preparation-mix",
+          "artworkID": "plate",
+          "source": "generic-name",
+          "evidence": "instant powder",
+          "version": 12
+        }
+      },
+      {
+        "id": "bls:C433100",
+        "name": "Braunhirse Mehl",
+        "classification": {
+          "categoryID": "flour",
+          "artworkID": "plate",
+          "source": "generic-name",
+          "evidence": "flour",
+          "version": 12
+        }
+      },
+      {
+        "id": "bls:N323000",
+        "name": "Brause",
+        "classification": null
+      },
+      {
+        "id": "bls:N321000",
+        "name": "Brause mit Zucker und Süßungsmitteln",
+        "classification": null
+      },
+      {
+        "id": "bls:F303152",
+        "name": "Brombeere gedünstet",
+        "classification": null
+      },
+      {
+        "id": "bls:F303400",
+        "name": "Brombeere getrocknet",
+        "classification": null
+      },
+      {
+        "id": "bls:F303100",
+        "name": "Brombeere roh",
+        "classification": null
+      },
+      {
+        "id": "bls:T201182",
+        "name": "Brosme/Lumb, gebraten ohne Fett (Pfanne)",
+        "classification": null
+      },
+      {
+        "id": "bls:T201152",
+        "name": "Brosme/Lumb, gedünstet",
+        "classification": null
+      },
+      {
+        "id": "bls:T201100",
+        "name": "Brosme/Lumb, roh",
+        "classification": null
+      },
+      {
+        "id": "bls:F523100",
+        "name": "Brotfrucht roh",
+        "classification": null
+      },
+      {
+        "id": "bls:D741400",
+        "name": "Buchteln (Hefeteig)",
+        "classification": null
+      },
+      {
+        "id": "bls:C424000",
+        "name": "Buchweizen Mehl",
+        "classification": {
+          "categoryID": "flour",
+          "artworkID": "plate",
+          "source": "generic-name",
+          "evidence": "flour",
+          "version": 12
+        }
+      },
+      {
+        "id": "bls:C421000",
+        "name": "Buchweizen Vollkornmehl",
+        "classification": {
+          "categoryID": "flour",
+          "artworkID": "plate",
+          "source": "generic-name",
+          "evidence": "flour",
+          "version": 12
+        }
+      },
+      {
+        "id": "bls:X930512",
+        "name": "Buchweizenpfannkuchen ungesüßt, gebraten",
+        "classification": {
+          "categoryID": "flour",
+          "artworkID": "plate",
+          "source": "generic-name",
+          "evidence": "flour",
+          "version": 12
+        }
+      },
+      {
+        "id": "bls:D312600",
+        "name": "Buchweizentorte (Wasserbiskuit) mit Heidelbeersahnecreme",
+        "classification": {
+          "categoryID": "flour",
+          "artworkID": "plate",
+          "source": "generic-name",
+          "evidence": "flour",
+          "version": 12
+        }
+      },
+      {
+        "id": "bls:M886000",
+        "name": "Buttermilchpulver",
+        "classification": {
+          "categoryID": "powder",
+          "artworkID": "plate",
+          "source": "generic-name",
+          "evidence": "powder",
+          "version": 12
+        }
+      },
+      {
+        "id": "bls:K706182",
+        "name": "Butterpilz gebraten ohne Fett (Pfanne)",
+        "classification": null
+      },
+      {
+        "id": "bls:K706152",
+        "name": "Butterpilz gedünstet",
+        "classification": null
+      },
+      {
+        "id": "bls:K706400",
+        "name": "Butterpilz getrocknet",
+        "classification": null
+      },
+      {
+        "id": "bls:K706432",
+        "name": "Butterpilz getrocknet, gekocht",
+        "classification": null
+      },
+      {
+        "id": "bls:K706100",
+        "name": "Butterpilz roh",
+        "classification": null
+      },
+      {
+        "id": "bls:P640000",
+        "name": "Calvados",
+        "classification": null
+      },
+      {
+        "id": "bls:N412900",
+        "name": "Cappuccino (Getränk) aus gesüßtem Instantpulver",
+        "classification": {
+          "categoryID": "preparation-mix",
+          "artworkID": "plate",
+          "source": "generic-name",
+          "evidence": "instant powder",
+          "version": 12
+        }
+      },
+      {
+        "id": "bls:N503900",
+        "name": "Cappuccino Instantpulver, gesüßt",
+        "classification": {
+          "categoryID": "preparation-mix",
+          "artworkID": "plate",
+          "source": "generic-name",
+          "evidence": "instant powder",
+          "version": 12
+        }
+      },
+      {
+        "id": "bls:H170100",
+        "name": "Cashewkern",
+        "classification": null
+      },
+      {
+        "id": "bls:H170600",
+        "name": "Cashewkern geröstet mit Fett",
+        "classification": null
+      },
+      {
+        "id": "bls:H170700",
+        "name": "Cashewkern geröstet mit Fett, gesalzen",
+        "classification": null
+      },
+      {
+        "id": "bls:H170610",
+        "name": "Cashewkern geröstet ohne Fett",
+        "classification": null
+      },
+      {
+        "id": "bls:G583182",
+        "name": "Chayote gebraten ohne Fett (Pfanne)",
+        "classification": null
+      },
+      {
+        "id": "bls:G583132",
+        "name": "Chayote gekocht",
+        "classification": null
+      },
+      {
+        "id": "bls:G583100",
+        "name": "Chayote roh",
+        "classification": null
+      },
+      {
+        "id": "bls:F524100",
+        "name": "Cherimoya roh",
+        "classification": null
+      },
+      {
+        "id": "bls:H480100",
+        "name": "Chia-Samen",
+        "classification": null
+      },
+      {
+        "id": "bls:R552000",
+        "name": "Citronensäure/Zitronensäure (E 330)",
+        "classification": null
+      },
+      {
+        "id": "bls:X2A1030",
+        "name": "Coleslaw (Weißkrautsalat amerikanisch) mit Saure-Sahne-Dressing",
+        "classification": {
+          "categoryID": "prepared-meal",
+          "artworkID": "plate",
+          "source": "generic-name",
+          "evidence": "coleslaw",
+          "version": 12
+        }
+      },
+      {
+        "id": "bls:C515000",
+        "name": "Cornflakes gesüßt",
+        "classification": null
+      },
+      {
+        "id": "bls:C515100",
+        "name": "Cornflakes gesüßt, angereichert mit Vitaminen",
+        "classification": null
+      }
+    ]
+  },
+  "validation": {
+    "swiftTests": 108,
+    "pythonTests": 25,
+    "sharedRegressionFixtures": 334,
+    "all138BundledAssetsChecked": true,
+    "sourceNamesAndNutrientReferenceLinksUnchanged": true
+  },
+  "remaining": "Some source rows do not identify the food, and Fluent has no fitting artwork for some identified foods (for example almonds, flour, and plain tofu). Those remain neutral instead of receiving an unrelated ingredient icon."
+}

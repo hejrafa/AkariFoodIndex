@@ -35,6 +35,34 @@ def record(code: str, name: str, calories: float, calcium: float,
 
 
 class FoodIndexBuilderTests(unittest.TestCase):
+    def test_builder_drops_test_entries_but_keeps_real_test_brand_and_words(self) -> None:
+        values = [
+            record("3011360021502", "Test nutriscan", 55, 10, brand=""),
+            record("3123930651696", "Testing", 55, 10, brand=""),
+            record("7613035974685", "Test", 55, 10, brand="Real Brand"),
+            record("4056489626633", "Testaroli", 55, 10, brand=""),
+            record("5901234123457", "Chocolate bar", 55, 10, brand="Test"),
+            record("4006381333931", "Fromage cottage", 55, 10, brand="Seal test"),
+        ]
+        with tempfile.TemporaryDirectory() as directory:
+            temporary = Path(directory)
+            source = temporary / "off.jsonl"
+            source.write_text("".join(json.dumps(value) + "\n" for value in values),
+                              encoding="utf-8")
+            output = temporary / "dist"
+            subprocess.run([
+                "python3", str(ROOT / "build_index.py"),
+                "--off-jsonl", str(source),
+                "--market", "DE=en:germany",
+                "--output-dir", str(output),
+                "--catalog-version", "2026-09-13T00:00:00Z",
+            ], check=True)
+
+            database = sqlite3.connect(output / "akari-food-de.sqlite")
+            names = {row[0] for row in database.execute("SELECT product_name FROM sku")}
+            database.close()
+            self.assertEqual(names, {"Chocolate bar", "Testaroli"})
+
     def test_builder_collapses_search_families_but_keeps_barcode_skus(self) -> None:
         values = [
             record("3011360021502", "Fol Epi Classic", 361, 500, modified=2),
@@ -99,7 +127,8 @@ class FoodIndexBuilderTests(unittest.TestCase):
             classifications = [json.loads(r[0]) for r in database.execute(
                 "SELECT artwork_classification_json FROM sku")]
             self.assertTrue(all(value["categoryID"] == "cheese" for value in classifications))
-            self.assertTrue(all(value["version"] == 3 for value in classifications))
+            rule_version = json.loads((ROOT / "artwork-classification.json").read_text())["version"]
+            self.assertTrue(all(value["version"] == rule_version for value in classifications))
             database.close()
 
             manifest = json.loads((output / "manifest.json").read_text())
@@ -341,6 +370,42 @@ class FoodIndexBuilderTests(unittest.TestCase):
                 "per100Milliliters", 330, "ml", None, 330,
                 "1 bottle (330 ml)", 42,
             ))
+
+    def test_builder_corrects_explicit_drink_with_conflicting_mass_basis(self) -> None:
+        value = {
+            "code": "4043533000211",
+            "product_name": "Rhabarbergetränk",
+            "brands": "Oppacher",
+            "countries_tags": ["en:germany"],
+            "nutrition_data_per": "100g",
+            "serving_size": "500 ml",
+            "serving_quantity": 500,
+            "serving_quantity_unit": "ml",
+            "nutriments": {
+                "energy-kcal_100g": 28,
+                "carbohydrates_100g": 6.2,
+                "sugars_100g": 6.1,
+            },
+        }
+        with tempfile.TemporaryDirectory() as directory:
+            temporary = Path(directory)
+            source = temporary / "off.jsonl"
+            source.write_text(json.dumps(value) + "\n", encoding="utf-8")
+            output = temporary / "dist"
+            subprocess.run([
+                "python3", str(ROOT / "build_index.py"),
+                "--off-jsonl", str(source),
+                "--market", "DE=en:germany",
+                "--output-dir", str(output),
+                "--catalog-version", "2026-09-10T00:00:00Z",
+            ], check=True)
+
+            database = sqlite3.connect(output / "akari-food-de.sqlite")
+            product = database.execute(
+                "SELECT nutrition_basis, serving_unit, serving_milliliters, calories FROM sku"
+            ).fetchone()
+            database.close()
+            self.assertEqual(product, ("per100Milliliters", "ml", 500, 28))
 
     def test_builder_persists_authoritative_alcohol_classification(self) -> None:
         cocktail = record("3017620422003", "Sex on the Beach", 120, 0,
