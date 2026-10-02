@@ -1,0 +1,1045 @@
+{
+ "batch": 3,
+ "drafted": "2026-10-01",
+ "drafter": "Claude in the Akari Claude Code session",
+ "entries": [
+  {
+   "key": "baked beans",
+   "unit": "can",
+   "gramsPerUnit": 400,
+   "typical": 0.5,
+   "reason": "half a standard 400 g can, as on toast"
+  },
+  {
+   "key": "refried beans",
+   "unit": "portion",
+   "gramsPerUnit": 125,
+   "typical": 1,
+   "reason": "about half a cup as a side or filling"
+  },
+  {
+   "key": "edamame",
+   "unit": "portion",
+   "gramsPerUnit": 80,
+   "typical": 1,
+   "reason": "shelled beans from a snack bowl of pods"
+  },
+  {
+   "key": "sourdough bread",
+   "unit": "slice",
+   "gramsPerUnit": 45,
+   "typical": 2,
+   "reason": "a slice cut from a mixed wheat-rye loaf"
+  },
+  {
+   "key": "baguette",
+   "unit": "slice",
+   "gramsPerUnit": 20,
+   "typical": 3,
+   "reason": "a 2 cm round cut from a baguette"
+  },
+  {
+   "key": "ciabatta",
+   "unit": "piece",
+   "gramsPerUnit": 80,
+   "typical": 1,
+   "reason": "a ciabatta roll or hand-length piece of the loaf"
+  },
+  {
+   "key": "burger bun",
+   "unit": "piece",
+   "gramsPerUnit": 55,
+   "typical": 1,
+   "reason": "a regular white hamburger bun"
+  },
+  {
+   "key": "hot dog bun",
+   "unit": "piece",
+   "gramsPerUnit": 45,
+   "typical": 1,
+   "reason": "a regular hot dog bun"
+  },
+  {
+   "key": "sub roll",
+   "unit": "piece",
+   "gramsPerUnit": 100,
+   "typical": 1,
+   "reason": "a medium 20 cm submarine roll"
+  },
+  {
+   "key": "brioche",
+   "unit": "piece",
+   "gramsPerUnit": 70,
+   "typical": 1,
+   "reason": "a brioche bun"
+  },
+  {
+   "key": "flatbread",
+   "unit": "portion",
+   "gramsPerUnit": 100,
+   "typical": 1,
+   "reason": "a quarter wedge of a round Turkish Fladenbrot"
+  },
+  {
+   "key": "naan",
+   "unit": "piece",
+   "gramsPerUnit": 44,
+   "typical": 2,
+   "reason": "source piece is a quarter of a 10-inch naan; two make a typical serving"
+  },
+  {
+   "key": "chapati",
+   "unit": "piece",
+   "gramsPerUnit": 40,
+   "typical": 2,
+   "reason": "a medium chapati or roti"
+  },
+  {
+   "key": "corn tortilla",
+   "unit": "piece",
+   "gramsPerUnit": 28,
+   "typical": 2,
+   "reason": "a medium corn tortilla"
+  },
+  {
+   "key": "tortilla chips",
+   "unit": "portion",
+   "gramsPerUnit": 40,
+   "typical": 1,
+   "reason": "a snack bowl of chips"
+  },
+  {
+   "key": "breadcrumbs",
+   "skip": "a coating and binding ingredient used inside dishes"
+  },
+  {
+   "key": "croutons",
+   "unit": "portion",
+   "gramsPerUnit": 15,
+   "typical": 1,
+   "reason": "a sprinkle over a salad or soup"
+  },
+  {
+   "key": "pizza dough",
+   "unit": "portion",
+   "gramsPerUnit": 250,
+   "typical": 1,
+   "reason": "one dough ball for a single pizza"
+  },
+  {
+   "key": "puff pastry",
+   "skip": "raw pastry used inside baked dishes"
+  },
+  {
+   "key": "filo pastry",
+   "skip": "raw pastry used inside baked dishes"
+  },
+  {
+   "key": "chickpea flour",
+   "skip": "a flour used inside batters and doughs"
+  },
+  {
+   "key": "granola",
+   "unit": "portion",
+   "gramsPerUnit": 50,
+   "typical": 1,
+   "reason": "a bowl with yogurt or milk"
+  },
+  {
+   "key": "grilled chicken breast",
+   "unit": "piece",
+   "gramsPerUnit": 140,
+   "typical": 1,
+   "reason": "one grilled skinless breast fillet"
+  },
+  {
+   "key": "pan fried chicken breast",
+   "unit": "piece",
+   "gramsPerUnit": 140,
+   "typical": 1,
+   "reason": "one pan-fried breast fillet"
+  },
+  {
+   "key": "cooked chicken thigh",
+   "unit": "piece",
+   "gramsPerUnit": 70,
+   "typical": 2,
+   "reason": "a medium boneless cooked thigh"
+  },
+  {
+   "key": "roast chicken",
+   "unit": "portion",
+   "gramsPerUnit": 200,
+   "typical": 1,
+   "reason": "meat from a quarter chicken without bones"
+  },
+  {
+   "key": "breaded chicken breast",
+   "unit": "piece",
+   "gramsPerUnit": 150,
+   "typical": 1,
+   "reason": "one breaded fried chicken breast schnitzel"
+  },
+  {
+   "key": "chicken nuggets",
+   "unit": "piece",
+   "gramsPerUnit": 17,
+   "typical": 6,
+   "reason": "a standard nugget; six as a meal"
+  },
+  {
+   "key": "chicken doner meat",
+   "unit": "portion",
+   "gramsPerUnit": 120,
+   "typical": 1,
+   "reason": "the meat in one doner kebab"
+  },
+  {
+   "key": "turkey deli slices",
+   "unit": "slice",
+   "gramsPerUnit": 20,
+   "typical": 2,
+   "reason": "a deli slice of turkey breast"
+  },
+  {
+   "key": "roast duck",
+   "unit": "portion",
+   "gramsPerUnit": 150,
+   "typical": 1,
+   "reason": "a main course of duck meat"
+  },
+  {
+   "key": "beef steak pan fried",
+   "unit": "piece",
+   "gramsPerUnit": 180,
+   "typical": 1,
+   "reason": "a 250 g raw steak after cooking"
+  },
+  {
+   "key": "thinly sliced beef",
+   "unit": "portion",
+   "gramsPerUnit": 120,
+   "typical": 1,
+   "reason": "raw shaved beef for one person"
+  },
+  {
+   "key": "raw ground beef",
+   "unit": "portion",
+   "gramsPerUnit": 125,
+   "typical": 1,
+   "reason": "raw mince for one person"
+  },
+  {
+   "key": "beef patty",
+   "unit": "piece",
+   "gramsPerUnit": 90,
+   "typical": 1,
+   "reason": "a quarter-pound patty after grilling"
+  },
+  {
+   "key": "meatballs",
+   "unit": "piece",
+   "gramsPerUnit": 30,
+   "typical": 5,
+   "reason": "a medium meatball; five as a meal"
+  },
+  {
+   "key": "roast beef",
+   "unit": "slice",
+   "gramsPerUnit": 30,
+   "typical": 4,
+   "reason": "a carved slice of roast beef"
+  },
+  {
+   "key": "braised beef",
+   "unit": "portion",
+   "gramsPerUnit": 150,
+   "typical": 1,
+   "reason": "a main course of braised beef"
+  },
+  {
+   "key": "roast pork",
+   "unit": "portion",
+   "gramsPerUnit": 150,
+   "typical": 1,
+   "reason": "a main course of sliced roast pork"
+  },
+  {
+   "key": "cooked pork belly",
+   "unit": "portion",
+   "gramsPerUnit": 120,
+   "typical": 1,
+   "reason": "a main course of cooked pork belly"
+  },
+  {
+   "key": "pork chop",
+   "unit": "piece",
+   "gramsPerUnit": 140,
+   "typical": 1,
+   "reason": "the edible meat of one fried chop"
+  },
+  {
+   "key": "breaded pork schnitzel",
+   "unit": "piece",
+   "gramsPerUnit": 160,
+   "typical": 1,
+   "reason": "one breaded fried pork schnitzel"
+  },
+  {
+   "key": "wiener schnitzel",
+   "unit": "piece",
+   "gramsPerUnit": 140,
+   "typical": 1,
+   "reason": "one breaded fried veal schnitzel"
+  },
+  {
+   "key": "pork gyros",
+   "unit": "portion",
+   "gramsPerUnit": 150,
+   "typical": 1,
+   "reason": "a gyros plate"
+  },
+  {
+   "key": "cooked bacon",
+   "unit": "slice",
+   "gramsPerUnit": 8,
+   "typical": 3,
+   "reason": "a medium cooked strip"
+  },
+  {
+   "key": "grilled back bacon",
+   "unit": "slice",
+   "gramsPerUnit": 23,
+   "typical": 2,
+   "reason": "a grilled back bacon rasher"
+  },
+  {
+   "key": "smoked streaky bacon",
+   "unit": "portion",
+   "gramsPerUnit": 30,
+   "typical": 1,
+   "reason": "a handful of lardons or a few slices in a dish"
+  },
+  {
+   "key": "cooked ham",
+   "unit": "slice",
+   "gramsPerUnit": 20,
+   "typical": 2,
+   "reason": "a deli slice of cooked ham"
+  },
+  {
+   "key": "prosciutto",
+   "unit": "slice",
+   "gramsPerUnit": 10,
+   "typical": 3,
+   "reason": "a thin slice of cured ham"
+  },
+  {
+   "key": "salami",
+   "unit": "slice",
+   "gramsPerUnit": 6,
+   "typical": 4,
+   "reason": "a thin deli slice of salami"
+  },
+  {
+   "key": "pepperoni",
+   "unit": "slice",
+   "gramsPerUnit": 2,
+   "typical": 15,
+   "reason": "a thin pepperoni slice"
+  },
+  {
+   "key": "chorizo",
+   "unit": "portion",
+   "gramsPerUnit": 50,
+   "typical": 1,
+   "reason": "sliced or crumbled chorizo in a dish"
+  },
+  {
+   "key": "bratwurst",
+   "unit": "piece",
+   "gramsPerUnit": 110,
+   "typical": 1,
+   "reason": "one fried bratwurst"
+  },
+  {
+   "key": "frankfurter",
+   "unit": "piece",
+   "gramsPerUnit": 50,
+   "typical": 2,
+   "reason": "one Wiener sausage"
+  },
+  {
+   "key": "pork sausages",
+   "unit": "piece",
+   "gramsPerUnit": 45,
+   "typical": 2,
+   "reason": "one grilled pork sausage"
+  },
+  {
+   "key": "italian sausage",
+   "unit": "portion",
+   "gramsPerUnit": 85,
+   "typical": 1,
+   "reason": "one cooked link or its crumbled meat"
+  },
+  {
+   "key": "curry sausage",
+   "unit": "piece",
+   "gramsPerUnit": 110,
+   "typical": 1,
+   "reason": "one currywurst sausage"
+  },
+  {
+   "key": "leberkase",
+   "unit": "slice",
+   "gramsPerUnit": 120,
+   "typical": 1,
+   "reason": "a thick slice as served in a roll or with potato salad"
+  },
+  {
+   "key": "roast lamb",
+   "unit": "portion",
+   "gramsPerUnit": 150,
+   "typical": 1,
+   "reason": "a main course of roast lamb"
+  },
+  {
+   "key": "roast lamb shoulder",
+   "unit": "portion",
+   "gramsPerUnit": 150,
+   "typical": 1,
+   "reason": "a main course of lamb shoulder"
+  },
+  {
+   "key": "grilled lamb chops",
+   "unit": "piece",
+   "gramsPerUnit": 50,
+   "typical": 3,
+   "reason": "edible meat of one grilled loin chop"
+  },
+  {
+   "key": "raw salmon",
+   "unit": "piece",
+   "gramsPerUnit": 125,
+   "typical": 1,
+   "reason": "a single raw salmon fillet"
+  },
+  {
+   "key": "smoked salmon",
+   "unit": "slice",
+   "gramsPerUnit": 20,
+   "typical": 3,
+   "reason": "a slice of smoked salmon"
+  },
+  {
+   "key": "canned tuna in oil",
+   "unit": "can",
+   "gramsPerUnit": 140,
+   "typical": 0.5,
+   "reason": "drained contents of a standard can"
+  },
+  {
+   "key": "raw tuna",
+   "unit": "portion",
+   "gramsPerUnit": 100,
+   "typical": 1,
+   "reason": "a sashimi plate or small tuna steak"
+  },
+  {
+   "key": "battered fish",
+   "unit": "piece",
+   "gramsPerUnit": 160,
+   "typical": 1,
+   "reason": "one battered fish fillet"
+  },
+  {
+   "key": "fish fingers",
+   "unit": "piece",
+   "gramsPerUnit": 28,
+   "typical": 5,
+   "reason": "one oven-baked fish finger"
+  },
+  {
+   "key": "cooked squid",
+   "unit": "portion",
+   "gramsPerUnit": 120,
+   "typical": 1,
+   "reason": "a starter of cooked squid rings"
+  },
+  {
+   "key": "fried calamari",
+   "unit": "portion",
+   "gramsPerUnit": 120,
+   "typical": 1,
+   "reason": "a starter of fried calamari"
+  },
+  {
+   "key": "cooked mussels",
+   "unit": "portion",
+   "gramsPerUnit": 150,
+   "typical": 1,
+   "reason": "mussel meat from a main-course pot"
+  },
+  {
+   "key": "crab meat",
+   "unit": "portion",
+   "gramsPerUnit": 85,
+   "typical": 1,
+   "reason": "a common serving of crab meat"
+  },
+  {
+   "key": "anchovies in oil",
+   "unit": "piece",
+   "gramsPerUnit": 3,
+   "typical": 3,
+   "reason": "one drained anchovy fillet"
+  },
+  {
+   "key": "sardines in oil",
+   "unit": "piece",
+   "gramsPerUnit": 22,
+   "typical": 4,
+   "reason": "one drained canned sardine"
+  },
+  {
+   "key": "boiled egg",
+   "unit": "egg",
+   "gramsPerUnit": 50,
+   "typical": 1,
+   "reason": "a medium egg without shell"
+  },
+  {
+   "key": "fried egg",
+   "unit": "egg",
+   "gramsPerUnit": 50,
+   "typical": 2,
+   "reason": "one fried medium egg"
+  },
+  {
+   "key": "scrambled eggs",
+   "unit": "egg",
+   "gramsPerUnit": 60,
+   "typical": 2,
+   "reason": "one egg scrambled with a little butter and milk"
+  },
+  {
+   "key": "firm tofu",
+   "unit": "portion",
+   "gramsPerUnit": 100,
+   "typical": 1,
+   "reason": "half a 200 g block"
+  },
+  {
+   "key": "fried tofu",
+   "unit": "portion",
+   "gramsPerUnit": 100,
+   "typical": 1,
+   "reason": "a main-course helping of fried tofu"
+  },
+  {
+   "key": "tempeh",
+   "unit": "portion",
+   "gramsPerUnit": 100,
+   "typical": 1,
+   "reason": "half a 200 g block"
+  },
+  {
+   "key": "falafel",
+   "unit": "piece",
+   "gramsPerUnit": 17,
+   "typical": 4,
+   "reason": "one small chickpea ball"
+  },
+  {
+   "key": "veggie burger patty",
+   "unit": "piece",
+   "gramsPerUnit": 90,
+   "typical": 1,
+   "reason": "one veggie burger patty"
+  },
+  {
+   "key": "low fat milk",
+   "unit": "glass",
+   "milliliters": 250,
+   "typical": 1,
+   "reason": "a regular drinking glass"
+  },
+  {
+   "key": "buttermilk",
+   "unit": "glass",
+   "milliliters": 250,
+   "typical": 1,
+   "reason": "a regular drinking glass"
+  },
+  {
+   "key": "whipped cream",
+   "unit": "portion",
+   "gramsPerUnit": 30,
+   "typical": 1,
+   "reason": "a dollop on cake or dessert"
+  },
+  {
+   "key": "light cream",
+   "unit": "tablespoon",
+   "gramsPerUnit": 15,
+   "typical": 1,
+   "reason": "a splash in coffee or a sauce"
+  },
+  {
+   "key": "creme fraiche",
+   "unit": "tablespoon",
+   "gramsPerUnit": 15,
+   "typical": 2,
+   "reason": "a dollop on a dish"
+  },
+  {
+   "key": "ghee",
+   "unit": "tablespoon",
+   "gramsPerUnit": 14,
+   "typical": 1,
+   "reason": "one tablespoon for cooking"
+  },
+  {
+   "key": "mascarpone",
+   "unit": "tablespoon",
+   "gramsPerUnit": 15,
+   "typical": 2,
+   "reason": "a spoonful"
+  },
+  {
+   "key": "ricotta",
+   "unit": "tablespoon",
+   "gramsPerUnit": 15,
+   "typical": 3,
+   "reason": "a spoonful on toast or pasta"
+  },
+  {
+   "key": "mozzarella",
+   "unit": "slice",
+   "gramsPerUnit": 21,
+   "typical": 2,
+   "reason": "a slice or a small handful shredded"
+  },
+  {
+   "key": "fresh mozzarella",
+   "unit": "piece",
+   "gramsPerUnit": 125,
+   "typical": 0.5,
+   "reason": "a standard 125 g ball, half for one person"
+  },
+  {
+   "key": "parmesan",
+   "unit": "tablespoon",
+   "gramsPerUnit": 5,
+   "typical": 2,
+   "reason": "a tablespoon grated over pasta"
+  },
+  {
+   "key": "pecorino",
+   "unit": "tablespoon",
+   "gramsPerUnit": 5,
+   "typical": 2,
+   "reason": "a tablespoon grated over pasta"
+  },
+  {
+   "key": "cheddar",
+   "unit": "slice",
+   "gramsPerUnit": 20,
+   "typical": 2,
+   "reason": "a slice of cheddar"
+  },
+  {
+   "key": "monterey jack",
+   "unit": "slice",
+   "gramsPerUnit": 21,
+   "typical": 2,
+   "reason": "a slice of Monterey Jack"
+  },
+  {
+   "key": "queso fresco",
+   "unit": "portion",
+   "gramsPerUnit": 30,
+   "typical": 1,
+   "reason": "crumbled over a dish"
+  },
+  {
+   "key": "feta",
+   "unit": "portion",
+   "gramsPerUnit": 40,
+   "typical": 1,
+   "reason": "crumbled or cubed in a salad"
+  },
+  {
+   "key": "gouda",
+   "unit": "slice",
+   "gramsPerUnit": 20,
+   "typical": 2,
+   "reason": "a deli slice of gouda"
+  },
+  {
+   "key": "emmental",
+   "unit": "slice",
+   "gramsPerUnit": 20,
+   "typical": 2,
+   "reason": "a deli slice of emmental"
+  },
+  {
+   "key": "gruyere",
+   "unit": "slice",
+   "gramsPerUnit": 20,
+   "typical": 2,
+   "reason": "a slice of gruyere"
+  },
+  {
+   "key": "alpine cheese",
+   "unit": "slice",
+   "gramsPerUnit": 20,
+   "typical": 2,
+   "reason": "a slice of alpine cheese"
+  },
+  {
+   "key": "brie",
+   "unit": "slice",
+   "gramsPerUnit": 25,
+   "typical": 2,
+   "reason": "a wedge slice of brie"
+  },
+  {
+   "key": "camembert",
+   "unit": "slice",
+   "gramsPerUnit": 30,
+   "typical": 1.5,
+   "reason": "an eighth of a 250 g camembert"
+  },
+  {
+   "key": "blue cheese",
+   "unit": "slice",
+   "gramsPerUnit": 21,
+   "typical": 1.5,
+   "reason": "a slice or a crumbled spoonful"
+  },
+  {
+   "key": "goat cheese",
+   "unit": "slice",
+   "gramsPerUnit": 20,
+   "typical": 2,
+   "reason": "a slice from a goat cheese log"
+  },
+  {
+   "key": "halloumi",
+   "unit": "slice",
+   "gramsPerUnit": 30,
+   "typical": 3,
+   "reason": "a grilled slice from a 250 g block"
+  },
+  {
+   "key": "paneer",
+   "unit": "portion",
+   "gramsPerUnit": 100,
+   "typical": 1,
+   "reason": "paneer in one curry serving"
+  },
+  {
+   "key": "processed cheese slice",
+   "unit": "slice",
+   "gramsPerUnit": 20,
+   "typical": 1,
+   "reason": "one individually wrapped slice"
+  },
+  {
+   "key": "cheese sauce",
+   "unit": "tablespoon",
+   "gramsPerUnit": 16,
+   "typical": 3,
+   "reason": "a spoonful over nachos or vegetables"
+  },
+  {
+   "key": "sweetened condensed milk",
+   "unit": "tablespoon",
+   "gramsPerUnit": 20,
+   "typical": 1,
+   "reason": "a spoonful in coffee or dessert"
+  },
+  {
+   "key": "vanilla ice cream",
+   "unit": "portion",
+   "gramsPerUnit": 100,
+   "typical": 1,
+   "reason": "two scoops in a bowl"
+  },
+  {
+   "key": "vanilla sauce",
+   "unit": "portion",
+   "gramsPerUnit": 80,
+   "typical": 1,
+   "reason": "poured over a dessert"
+  },
+  {
+   "key": "sauteed onion",
+   "unit": "portion",
+   "gramsPerUnit": 50,
+   "typical": 1,
+   "reason": "about half an onion, cooked"
+  },
+  {
+   "key": "crispy fried onions",
+   "unit": "tablespoon",
+   "gramsPerUnit": 5,
+   "typical": 2,
+   "reason": "a sprinkle on a hot dog or salad"
+  },
+  {
+   "key": "shallot",
+   "unit": "piece",
+   "gramsPerUnit": 25,
+   "typical": 1,
+   "reason": "a medium peeled shallot"
+  },
+  {
+   "key": "canned tomatoes",
+   "unit": "can",
+   "gramsPerUnit": 400,
+   "typical": 0.5,
+   "reason": "half a standard 400 g can in a sauce for one"
+  },
+  {
+   "key": "passata",
+   "unit": "portion",
+   "gramsPerUnit": 125,
+   "typical": 1,
+   "reason": "one person's share of a pasta sauce"
+  },
+  {
+   "key": "sun dried tomatoes",
+   "unit": "piece",
+   "gramsPerUnit": 6,
+   "typical": 3,
+   "reason": "one drained sun-dried tomato half"
+  },
+  {
+   "key": "roasted red pepper",
+   "unit": "portion",
+   "gramsPerUnit": 80,
+   "typical": 1,
+   "reason": "about half a roasted pepper"
+  },
+  {
+   "key": "red chili",
+   "unit": "piece",
+   "gramsPerUnit": 10,
+   "typical": 1,
+   "reason": "one medium fresh red chilli"
+  },
+  {
+   "key": "green chili",
+   "unit": "piece",
+   "gramsPerUnit": 10,
+   "typical": 1,
+   "reason": "one medium fresh green chilli"
+  },
+  {
+   "key": "jalapeno",
+   "unit": "slice",
+   "gramsPerUnit": 2,
+   "typical": 8,
+   "reason": "a pickled or fresh jalapeno ring"
+  },
+  {
+   "key": "cooked carrot",
+   "unit": "portion",
+   "gramsPerUnit": 150,
+   "typical": 1,
+   "reason": "a vegetable side"
+  },
+  {
+   "key": "celery",
+   "unit": "piece",
+   "gramsPerUnit": 40,
+   "typical": 2,
+   "reason": "one medium celery stalk"
+  },
+  {
+   "key": "celeriac",
+   "unit": "portion",
+   "gramsPerUnit": 150,
+   "typical": 1,
+   "reason": "a vegetable side by raw weight"
+  },
+  {
+   "key": "sauerkraut",
+   "unit": "portion",
+   "gramsPerUnit": 150,
+   "typical": 1,
+   "reason": "a side of sauerkraut"
+  },
+  {
+   "key": "kimchi",
+   "unit": "portion",
+   "gramsPerUnit": 50,
+   "typical": 1,
+   "reason": "a side dish of kimchi"
+  },
+  {
+   "key": "cooked spinach",
+   "unit": "portion",
+   "gramsPerUnit": 150,
+   "typical": 1,
+   "reason": "a vegetable side"
+  },
+  {
+   "key": "iceberg lettuce",
+   "unit": "portion",
+   "gramsPerUnit": 50,
+   "typical": 1,
+   "reason": "a small side salad"
+  },
+  {
+   "key": "romaine lettuce",
+   "unit": "portion",
+   "gramsPerUnit": 50,
+   "typical": 1,
+   "reason": "a small side salad"
+  },
+  {
+   "key": "rocket",
+   "unit": "portion",
+   "gramsPerUnit": 30,
+   "typical": 1,
+   "reason": "a handful in a salad or on pizza"
+  },
+  {
+   "key": "cooked aubergine",
+   "unit": "portion",
+   "gramsPerUnit": 150,
+   "typical": 1,
+   "reason": "a vegetable side"
+  },
+  {
+   "key": "cooked mushrooms",
+   "unit": "portion",
+   "gramsPerUnit": 100,
+   "typical": 1,
+   "reason": "a side of cooked mushrooms"
+  },
+  {
+   "key": "shiitake mushrooms",
+   "unit": "piece",
+   "gramsPerUnit": 15,
+   "typical": 4,
+   "reason": "one medium shiitake cap"
+  },
+  {
+   "key": "cooked broccoli",
+   "unit": "portion",
+   "gramsPerUnit": 150,
+   "typical": 1,
+   "reason": "a vegetable side"
+  },
+  {
+   "key": "cooked cauliflower",
+   "unit": "portion",
+   "gramsPerUnit": 150,
+   "typical": 1,
+   "reason": "a vegetable side"
+  },
+  {
+   "key": "sugar snap peas",
+   "unit": "portion",
+   "gramsPerUnit": 100,
+   "typical": 1,
+   "reason": "a vegetable side or snack"
+  },
+  {
+   "key": "sweetcorn",
+   "unit": "portion",
+   "gramsPerUnit": 75,
+   "typical": 1,
+   "reason": "corn kernels in a salad or bowl"
+  },
+  {
+   "key": "cooked corn",
+   "unit": "portion",
+   "gramsPerUnit": 100,
+   "typical": 1,
+   "reason": "kernels from one cob or a side of canned corn"
+  },
+  {
+   "key": "cooked asparagus",
+   "unit": "portion",
+   "gramsPerUnit": 200,
+   "typical": 1,
+   "reason": "a side of asparagus spears"
+  },
+  {
+   "key": "cooked beetroot",
+   "unit": "portion",
+   "gramsPerUnit": 100,
+   "typical": 1,
+   "reason": "one medium cooked beetroot"
+  },
+  {
+   "key": "pumpkin",
+   "unit": "portion",
+   "gramsPerUnit": 150,
+   "typical": 1,
+   "reason": "a vegetable side by raw weight"
+  },
+  {
+   "key": "cooked butternut squash",
+   "unit": "portion",
+   "gramsPerUnit": 150,
+   "typical": 1,
+   "reason": "a vegetable side"
+  },
+  {
+   "key": "cooked parsnip",
+   "unit": "portion",
+   "gramsPerUnit": 120,
+   "typical": 1,
+   "reason": "a vegetable side"
+  },
+  {
+   "key": "radish",
+   "unit": "piece",
+   "gramsPerUnit": 10,
+   "typical": 4,
+   "reason": "one red radish"
+  },
+  {
+   "key": "daikon",
+   "unit": "portion",
+   "gramsPerUnit": 100,
+   "typical": 1,
+   "reason": "a side of sliced or grated radish"
+  },
+  {
+   "key": "artichoke",
+   "unit": "piece",
+   "gramsPerUnit": 100,
+   "typical": 1,
+   "reason": "edible part of a medium globe artichoke"
+  },
+  {
+   "key": "cooked artichoke hearts",
+   "unit": "piece",
+   "gramsPerUnit": 30,
+   "typical": 3,
+   "reason": "one artichoke heart"
+  },
+  {
+   "key": "okra",
+   "unit": "portion",
+   "gramsPerUnit": 100,
+   "typical": 1,
+   "reason": "a vegetable side"
+  },
+  {
+   "key": "bean sprouts",
+   "unit": "portion",
+   "gramsPerUnit": 50,
+   "typical": 1,
+   "reason": "a handful in a stir-fry or bowl"
+  }
+ ]
+}

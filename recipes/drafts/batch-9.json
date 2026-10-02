@@ -1,0 +1,4529 @@
+{
+ "batch": 9,
+ "drafted": "2026-10-01",
+ "drafter": "Claude in the Akari Claude Code session",
+ "dishes": [
+  {
+   "key": "red cabbage with apple",
+   "skip": "a single food the vocabulary covers (braised red cabbage with apple)"
+  },
+  {
+   "key": "white cabbage with white wine and apple",
+   "names": {
+    "en": "Wine-braised cabbage with apple",
+    "de": "Weinkraut mit Apfel"
+   },
+   "serving": {
+    "label": {
+     "en": "1 side portion",
+     "de": "1 Beilagenportion"
+    },
+    "count": 1
+   },
+   "artworkID": "greens",
+   "aliases": {
+    "en": [
+     "white cabbage with white wine and apple",
+     "wine sauerkraut with apple",
+     "braised cabbage with wine and apple"
+    ],
+    "de": [
+     "weinkraut",
+     "weinkraut mit äpfeln",
+     "weißkraut mit weißwein und apfel",
+     "weinkraut mit apfel gedünstet"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "white cabbage",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:G342100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "apple",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:F110100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "white wine",
+     "grams": 30,
+     "resolved": {
+      "id": "usda:2710689",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 4,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "savoy cabbage with cream",
+   "names": {
+    "en": "Creamed savoy cabbage",
+    "de": "Rahmwirsing"
+   },
+   "serving": {
+    "label": {
+     "en": "1 side portion",
+     "de": "1 Beilagenportion"
+    },
+    "count": 1
+   },
+   "artworkID": "greens",
+   "aliases": {
+    "en": [
+     "savoy cabbage with cream",
+     "creamy savoy cabbage",
+     "savoy cabbage in cream"
+    ],
+    "de": [
+     "wirsing mit sahne",
+     "sahnewirsing",
+     "wirsing in sahne",
+     "wirsinggemüse mit sahne",
+     "rahm wirsing"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "savoy cabbage, boiled",
+     "grams": 200,
+     "reference": "bls:G343132"
+    },
+    {
+     "name": "heavy cream",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:M173800",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 6,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "artichoke quarters with porcini mushrooms and bacon",
+   "names": {
+    "en": "Artichokes with porcini and bacon",
+    "de": "Artischocken mit Steinpilzen und Speck"
+   },
+   "serving": {
+    "label": {
+     "en": "1 side portion",
+     "de": "1 Beilagenportion"
+    },
+    "count": 1
+   },
+   "artworkID": "neutral",
+   "aliases": {
+    "en": [
+     "artichoke quarters with porcini and bacon",
+     "fried artichokes with porcini",
+     "artichoke hearts with mushrooms and bacon"
+    ],
+    "de": [
+     "artischockenviertel mit steinpilzen",
+     "artischocken mit steinpilzen",
+     "artischockenviertel gebraten mit steinpilzen und speck",
+     "artischocken-steinpilz-pfanne"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked artichoke hearts",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:G410132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "porcini, stewed",
+     "grams": 60,
+     "reference": "bls:K718152"
+    },
+    {
+     "name": "smoked streaky bacon",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:W411300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "olive oil",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:Q120000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "puree from artichoke bottoms",
+   "names": {
+    "en": "Artichoke puree",
+    "de": "Artischockenpüree"
+   },
+   "serving": {
+    "label": {
+     "en": "1 side portion",
+     "de": "1 Beilagenportion"
+    },
+    "count": 1
+   },
+   "artworkID": "neutral",
+   "aliases": {
+    "en": [
+     "artichoke bottom puree",
+     "puree of artichoke hearts",
+     "artichoke mash"
+    ],
+    "de": [
+     "püree von artischockenböden",
+     "artischockenbodenpüree",
+     "artischocken püree",
+     "artischockencreme"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked artichoke hearts",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:G410132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "heavy cream",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:M173800",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "fennel",
+   "skip": "a single food with a cooking method (stewed fennel)"
+  },
+  {
+   "key": "fennel breaded",
+   "names": {
+    "en": "Breaded fennel",
+    "de": "Fenchel paniert"
+   },
+   "serving": {
+    "label": {
+     "en": "1 side portion",
+     "de": "1 Beilagenportion"
+    },
+    "count": 1
+   },
+   "artworkID": "neutral",
+   "aliases": {
+    "en": [
+     "breaded fennel",
+     "fried breaded fennel",
+     "fennel schnitzel",
+     "fennel in breadcrumbs"
+    ],
+    "de": [
+     "panierter fenchel",
+     "fenchelschnitzel",
+     "fenchel paniert gebraten",
+     "gebackener fenchel"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "fennel",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:G430100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 25,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "breadcrumbs",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:B821000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "wheat flour",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "asparagus casserole",
+   "names": {
+    "en": "Asparagus casserole",
+    "de": "Spargelauflauf"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "neutral",
+   "aliases": {
+    "en": [
+     "asparagus bake",
+     "baked asparagus casserole",
+     "asparagus gratin with eggs"
+    ],
+    "de": [
+     "spargel-auflauf",
+     "spargelgratin",
+     "spargel überbacken",
+     "auflauf mit spargel"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked asparagus",
+     "grams": 220,
+     "resolved": {
+      "id": "bls:G450132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 50,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "heavy cream",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:M173800",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "gouda",
+     "grams": 35,
+     "resolved": {
+      "id": "bls:M402600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked ham",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:W424000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "onions",
+   "skip": "a single food the vocabulary covers (sautéed onion)"
+  },
+  {
+   "key": "onions with sour cream",
+   "names": {
+    "en": "Onions in sour cream",
+    "de": "Zwiebelgemüse mit saurer Sahne"
+   },
+   "serving": {
+    "label": {
+     "en": "1 side portion",
+     "de": "1 Beilagenportion"
+    },
+    "count": 1
+   },
+   "artworkID": "onion",
+   "aliases": {
+    "en": [
+     "onions with sour cream",
+     "braised onions in sour cream",
+     "creamed onions"
+    ],
+    "de": [
+     "zwiebeln mit saurer sahne",
+     "zwiebelgemüse mit sauerrahm",
+     "rahmzwiebeln",
+     "gedünstete zwiebeln mit saurer sahne"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "onion",
+     "grams": 180,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sour cream",
+     "grams": 40,
+     "resolved": {
+      "id": "usda:2705614",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "onions with bacon",
+   "names": {
+    "en": "Onions with bacon",
+    "de": "Zwiebelgemüse mit Speck"
+   },
+   "serving": {
+    "label": {
+     "en": "1 side portion",
+     "de": "1 Beilagenportion"
+    },
+    "count": 1
+   },
+   "artworkID": "onion",
+   "aliases": {
+    "en": [
+     "onions with bacon",
+     "braised onions with bacon",
+     "bacon and onions"
+    ],
+    "de": [
+     "zwiebeln mit speck",
+     "speckzwiebeln",
+     "gedünstete zwiebeln mit speck",
+     "zwiebel-speck-gemüse"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "onion",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "smoked streaky bacon",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:W411300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 3,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "aubergine slices",
+   "skip": "a single food with a cooking method (fried aubergine slices)"
+  },
+  {
+   "key": "aubergines with tomatoes",
+   "names": {
+    "en": "Aubergines with tomatoes",
+    "de": "Auberginen mit Tomaten"
+   },
+   "serving": {
+    "label": {
+     "en": "1 side portion",
+     "de": "1 Beilagenportion"
+    },
+    "count": 1
+   },
+   "artworkID": "eggplant",
+   "aliases": {
+    "en": [
+     "eggplant with tomatoes",
+     "stewed aubergine and tomato",
+     "braised eggplant with tomato"
+    ],
+    "de": [
+     "auberginen-tomaten-gemüse",
+     "auberginengemüse mit tomaten",
+     "aubergine mit tomate",
+     "gedünstete auberginen mit tomaten"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "aubergine",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:G510100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:G561100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "olive oil",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:Q120000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "garlic",
+     "grams": 3,
+     "resolved": {
+      "id": "bls:G490100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "aubergines filled with lamb rice and tomatoes",
+   "names": {
+    "en": "Stuffed aubergines with lamb and rice",
+    "de": "Gefüllte Auberginen mit Lammfleisch und Reis"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "eggplant",
+   "aliases": {
+    "en": [
+     "stuffed eggplant with lamb",
+     "aubergines stuffed with lamb and rice",
+     "lamb stuffed eggplant",
+     "baked stuffed aubergines"
+    ],
+    "de": [
+     "auberginen gefüllt mit lammfleisch",
+     "gefüllte auberginen",
+     "auberginen mit lammhack gefüllt",
+     "gefüllte aubergine überbacken"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "aubergine",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:G510100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "ground lamb",
+     "grams": 80,
+     "resolved": {
+      "id": "usda:2705907",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked white rice",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:C352032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "canned tomatoes",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:G568900",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "feta",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2705714",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "olive oil",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:Q120000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "aubergines with tomatoes and sweet peppers",
+   "names": {
+    "en": "Braised aubergine, tomato and pepper",
+    "de": "Auberginen-Tomaten-Paprika-Gemüse"
+   },
+   "serving": {
+    "label": {
+     "en": "1 side portion",
+     "de": "1 Beilagenportion"
+    },
+    "count": 1
+   },
+   "artworkID": "eggplant",
+   "aliases": {
+    "en": [
+     "aubergine tomato pepper stew",
+     "eggplant pepper tomato stew",
+     "braised mediterranean vegetables"
+    ],
+    "de": [
+     "auberginen tomaten paprika gemüse",
+     "geschmortes auberginengemüse",
+     "auberginen mit paprika und tomaten",
+     "auberginen-paprika-pfanne"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "aubergine",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:G510100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:G561100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "red bell pepper",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:G543100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "olive oil",
+     "grams": 35,
+     "resolved": {
+      "id": "bls:Q120000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "garlic",
+     "grams": 3,
+     "resolved": {
+      "id": "bls:G490100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "cucumbers",
+   "names": {
+    "en": "Braised cucumbers",
+    "de": "Schmorgurken"
+   },
+   "serving": {
+    "label": {
+     "en": "1 side portion",
+     "de": "1 Beilagenportion"
+    },
+    "count": 1
+   },
+   "artworkID": "cucumber",
+   "aliases": {
+    "en": [
+     "braised cucumbers",
+     "stewed cucumbers",
+     "cooked cucumbers with dill"
+    ],
+    "de": [
+     "gedünstete gurken",
+     "schmorgurken mit dill",
+     "gurkengemüse",
+     "geschmorte gurken"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cucumber",
+     "grams": 250,
+     "resolved": {
+      "id": "bls:G520100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "dill",
+     "grams": 3,
+     "resolved": {
+      "id": "ciqual:11093",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sour cream",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2705614",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "sweet peppers and tomatoes",
+   "names": {
+    "en": "Stewed peppers and tomatoes",
+    "de": "Paprika-Tomaten-Gemüse"
+   },
+   "serving": {
+    "label": {
+     "en": "1 side portion",
+     "de": "1 Beilagenportion"
+    },
+    "count": 1
+   },
+   "artworkID": "pepper",
+   "aliases": {
+    "en": [
+     "pepper and tomato vegetables",
+     "peppers with tomatoes",
+     "stewed sweet peppers and tomatoes"
+    ],
+    "de": [
+     "paprikagemüse mit tomaten",
+     "paprika tomaten gemüse",
+     "paprika mit tomaten",
+     "tomaten-paprika-gemüse"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "red bell pepper",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:G543100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:G561100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "olive oil",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:Q120000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "sweet peppers and cucumbers",
+   "names": {
+    "en": "Stewed peppers and cucumbers",
+    "de": "Paprika-Gurken-Gemüse"
+   },
+   "serving": {
+    "label": {
+     "en": "1 side portion",
+     "de": "1 Beilagenportion"
+    },
+    "count": 1
+   },
+   "artworkID": "pepper",
+   "aliases": {
+    "en": [
+     "pepper and cucumber vegetables",
+     "peppers with cucumber",
+     "stewed sweet peppers and cucumbers"
+    ],
+    "de": [
+     "paprika-gurkengemüse",
+     "paprika gurken gemüse",
+     "gurken-paprika-gemüse",
+     "paprika mit gurken"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "red bell pepper",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:G543100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cucumber",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:G520100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 6,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "whole tomatoes with cream",
+   "names": {
+    "en": "Tomatoes in cream",
+    "de": "Rahmtomaten"
+   },
+   "serving": {
+    "label": {
+     "en": "1 side portion",
+     "de": "1 Beilagenportion"
+    },
+    "count": 1
+   },
+   "artworkID": "tomato",
+   "aliases": {
+    "en": [
+     "whole tomatoes with cream",
+     "stewed tomatoes with cream",
+     "creamed tomatoes"
+    ],
+    "de": [
+     "ganze tomaten mit sahne",
+     "tomaten mit sahne",
+     "sahnetomaten",
+     "gedünstete tomaten mit sahne"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "tomato",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:G561100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "heavy cream",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:M173800",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "tomatoes with rosemary and sage",
+   "names": {
+    "en": "Stewed tomatoes with rosemary",
+    "de": "Tomatengemüse mit Rosmarin und Salbei"
+   },
+   "serving": {
+    "label": {
+     "en": "1 side portion",
+     "de": "1 Beilagenportion"
+    },
+    "count": 1
+   },
+   "artworkID": "tomato",
+   "aliases": {
+    "en": [
+     "tomatoes with rosemary and sage",
+     "stewed tomatoes with herbs",
+     "herbed tomatoes"
+    ],
+    "de": [
+     "tomatengemüse",
+     "tomaten mit rosmarin",
+     "gedünstete tomaten mit kräutern",
+     "tomatengemüse mit rosmarin"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "tomato",
+     "grams": 250,
+     "resolved": {
+      "id": "bls:G561100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "olive oil",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:Q120000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "rosemary",
+     "grams": 1,
+     "resolved": {
+      "id": "cofid:13-892",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "tomatoes provencal style",
+   "names": {
+    "en": "Tomatoes Provençal",
+    "de": "Tomaten provenzalisch"
+   },
+   "serving": {
+    "label": {
+     "en": "1 side portion",
+     "de": "1 Beilagenportion"
+    },
+    "count": 1
+   },
+   "artworkID": "tomato",
+   "aliases": {
+    "en": [
+     "tomatoes provencal",
+     "tomates provençales",
+     "baked tomatoes provencal style",
+     "provencal tomatoes"
+    ],
+    "de": [
+     "tomaten provenzalische art",
+     "provenzalische tomaten",
+     "gebackene tomaten provenzalisch",
+     "tomaten provençale"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "tomato",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:G561100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "olive oil",
+     "grams": 12,
+     "resolved": {
+      "id": "bls:Q120000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "breadcrumbs",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:B821000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "garlic",
+     "grams": 3,
+     "resolved": {
+      "id": "bls:G490100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "parsley",
+     "grams": 3,
+     "resolved": {
+      "id": "usda:2709796",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "tomatoes filled with olives and sheep s milk cheese",
+   "names": {
+    "en": "Tomatoes stuffed with olives and feta",
+    "de": "Tomaten gefüllt mit Oliven und Schafskäse"
+   },
+   "serving": {
+    "label": {
+     "en": "1 side portion",
+     "de": "1 Beilagenportion"
+    },
+    "count": 1
+   },
+   "artworkID": "tomato",
+   "aliases": {
+    "en": [
+     "stuffed tomatoes with feta",
+     "tomatoes stuffed with olives and feta",
+     "baked feta stuffed tomatoes"
+    ],
+    "de": [
+     "gefüllte tomaten mit schafskäse",
+     "tomaten mit feta gefüllt",
+     "überbackene tomaten mit schafskäse",
+     "gefüllte tomaten mit oliven und feta"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "tomato",
+     "grams": 140,
+     "resolved": {
+      "id": "bls:G561100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "feta",
+     "grams": 90,
+     "resolved": {
+      "id": "usda:2705714",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "black olives",
+     "grams": 30,
+     "resolved": {
+      "id": "usda:2710090",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "olive oil",
+     "grams": 12,
+     "resolved": {
+      "id": "bls:Q120000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "tomatoes filled with herb bread parmesan mix",
+   "names": {
+    "en": "Tomatoes stuffed with herb crumbs and parmesan",
+    "de": "Tomaten gefüllt mit Kräuter-Parmesan-Bröseln"
+   },
+   "serving": {
+    "label": {
+     "en": "1 side portion",
+     "de": "1 Beilagenportion"
+    },
+    "count": 1
+   },
+   "artworkID": "tomato",
+   "aliases": {
+    "en": [
+     "tomatoes stuffed with breadcrumbs and parmesan",
+     "grilled stuffed tomatoes",
+     "herb crusted tomatoes"
+    ],
+    "de": [
+     "tomaten gefüllt mit kräuter-brot-parmesan-mischung",
+     "gefüllte tomaten mit parmesan",
+     "gratinierte tomaten mit bröseln",
+     "tomaten mit kräuterkruste"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "tomato",
+     "grams": 170,
+     "resolved": {
+      "id": "bls:G561100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "breadcrumbs",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:B821000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "parmesan",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:M306400",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "olive oil",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:Q120000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "parsley",
+     "grams": 4,
+     "resolved": {
+      "id": "usda:2709796",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "garlic",
+     "grams": 3,
+     "resolved": {
+      "id": "bls:G490100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "courgette slices breaded",
+   "names": {
+    "en": "Breaded courgette slices",
+    "de": "Panierte Zucchinischeiben"
+   },
+   "serving": {
+    "label": {
+     "en": "1 side portion",
+     "de": "1 Beilagenportion"
+    },
+    "count": 1
+   },
+   "artworkID": "neutral",
+   "aliases": {
+    "en": [
+     "breaded zucchini",
+     "fried breaded courgette",
+     "zucchini schnitzel",
+     "breaded zucchini slices"
+    ],
+    "de": [
+     "zucchinischeiben paniert",
+     "panierte zucchini",
+     "zucchinischnitzel",
+     "gebackene zucchini"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "zucchini",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:G582100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 25,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "breadcrumbs",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:B821000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "wheat flour",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "courgette pancakes",
+   "names": {
+    "en": "Courgette fritters",
+    "de": "Zucchinipuffer"
+   },
+   "serving": {
+    "label": {
+     "en": "3 fritters",
+     "de": "3 Puffer"
+    },
+    "count": 3
+   },
+   "artworkID": "pancakes",
+   "aliases": {
+    "en": [
+     "zucchini fritters",
+     "zucchini pancakes",
+     "courgette fritters"
+    ],
+    "de": [
+     "zucchini-puffer",
+     "zucchinipfannkuchen",
+     "zucchinireibekuchen",
+     "zucchini puffer"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "zucchini",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:G582100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 40,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "wheat flour",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 7,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "carrots",
+   "skip": "a single food with a cooking method (fried carrots)"
+  },
+  {
+   "key": "carrots tossed in butter",
+   "names": {
+    "en": "Buttered carrots",
+    "de": "Buttermöhren"
+   },
+   "serving": {
+    "label": {
+     "en": "1 side portion",
+     "de": "1 Beilagenportion"
+    },
+    "count": 1
+   },
+   "artworkID": "carrot",
+   "aliases": {
+    "en": [
+     "carrots tossed in butter",
+     "butter glazed carrots",
+     "carrots with butter"
+    ],
+    "de": [
+     "karotten in butter",
+     "butterkarotten",
+     "möhren in butter geschwenkt",
+     "buttermöhrchen"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked carrot",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:G620132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "carrots and leek",
+   "names": {
+    "en": "Carrots and leek",
+    "de": "Karotten-Lauch-Gemüse"
+   },
+   "serving": {
+    "label": {
+     "en": "1 side portion",
+     "de": "1 Beilagenportion"
+    },
+    "count": 1
+   },
+   "artworkID": "carrot",
+   "aliases": {
+    "en": [
+     "carrot and leek vegetables",
+     "stewed carrots and leeks",
+     "carrots with leek"
+    ],
+    "de": [
+     "karotten und lauch",
+     "möhren-lauch-gemüse",
+     "karotten mit lauch",
+     "lauch-möhren-gemüse"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked carrot",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:G620132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "leek",
+     "grams": 100,
+     "resolved": {
+      "id": "ciqual:20039",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "carrots puree",
+   "names": {
+    "en": "Carrot puree",
+    "de": "Karottenpüree"
+   },
+   "serving": {
+    "label": {
+     "en": "1 side portion",
+     "de": "1 Beilagenportion"
+    },
+    "count": 1
+   },
+   "artworkID": "carrot",
+   "aliases": {
+    "en": [
+     "carrot mash",
+     "mashed carrots",
+     "puree of carrots"
+    ],
+    "de": [
+     "möhrenpüree",
+     "karotten-püree",
+     "möhrenbrei",
+     "karottenmus"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked carrot",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:G620132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "black salsify",
+   "skip": "a single food with a cooking method (boiled black salsify)"
+  },
+  {
+   "key": "celeriac puree",
+   "names": {
+    "en": "Celeriac puree",
+    "de": "Selleriepüree"
+   },
+   "serving": {
+    "label": {
+     "en": "1 side portion",
+     "de": "1 Beilagenportion"
+    },
+    "count": 1
+   },
+   "artworkID": "neutral",
+   "aliases": {
+    "en": [
+     "celery root puree",
+     "mashed celeriac",
+     "celeriac mash"
+    ],
+    "de": [
+     "sellerie püree",
+     "knollenselleriepüree",
+     "selleriemus",
+     "selleriepüree mit milch"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "celeriac",
+     "grams": 180,
+     "resolved": {
+      "id": "bls:G660100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable stock",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:X416243",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "celeriac with cream",
+   "names": {
+    "en": "Celeriac in cream",
+    "de": "Sellerie in Sahne"
+   },
+   "serving": {
+    "label": {
+     "en": "1 side portion",
+     "de": "1 Beilagenportion"
+    },
+    "count": 1
+   },
+   "artworkID": "neutral",
+   "aliases": {
+    "en": [
+     "celeriac with cream",
+     "creamed celery root",
+     "celery root with cream"
+    ],
+    "de": [
+     "sellerie mit sahne",
+     "rahmsellerie",
+     "selleriegemüse mit sahne",
+     "knollensellerie mit sahne"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "celeriac",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:G660100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "light cream",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:M171500",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "beetroot sweet and sour",
+   "names": {
+    "en": "Sweet and sour beetroot",
+    "de": "Rote Bete süß-sauer"
+   },
+   "serving": {
+    "label": {
+     "en": "1 side portion",
+     "de": "1 Beilagenportion"
+    },
+    "count": 1
+   },
+   "artworkID": "neutral",
+   "aliases": {
+    "en": [
+     "sweet and sour beets",
+     "sweet-sour beetroot",
+     "braised beetroot sweet and sour"
+    ],
+    "de": [
+     "rote-bete-gemüse süß-sauer",
+     "rote beete süßsauer",
+     "rote bete gemüse süß sauer",
+     "süßsaure rote bete"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked beetroot",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:G613132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "white vinegar",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:R122000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 3,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 4,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "beetroot with sour cream",
+   "names": {
+    "en": "Beetroot with sour cream",
+    "de": "Rote Bete mit saurer Sahne"
+   },
+   "serving": {
+    "label": {
+     "en": "1 side portion",
+     "de": "1 Beilagenportion"
+    },
+    "count": 1
+   },
+   "artworkID": "neutral",
+   "aliases": {
+    "en": [
+     "beets with sour cream",
+     "creamed beetroot",
+     "beetroot in sour cream"
+    ],
+    "de": [
+     "rote-bete-gemüse mit saurer sahne",
+     "rote beete mit saurer sahne",
+     "rote bete mit schmand",
+     "rote bete in sauerrahm"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked beetroot",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:G613132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sour cream",
+     "grams": 30,
+     "resolved": {
+      "id": "usda:2705614",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "turnips teltower rubchen with cream",
+   "names": {
+    "en": "Teltow turnips with cream",
+    "de": "Teltower Rübchen mit Sahne"
+   },
+   "serving": {
+    "label": {
+     "en": "1 side portion",
+     "de": "1 Beilagenportion"
+    },
+    "count": 1
+   },
+   "artworkID": "neutral",
+   "aliases": {
+    "en": [
+     "teltower rübchen",
+     "teltow turnips",
+     "creamed turnips",
+     "glazed turnips with cream"
+    ],
+    "de": [
+     "teltower rübchen",
+     "teltower rübchen in sahne",
+     "teltower ruebchen",
+     "rübchen mit sahne"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "turnip, stewed",
+     "grams": 200,
+     "reference": "bls:G614152"
+    },
+    {
+     "name": "heavy cream",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:M173800",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 5,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "green peas",
+   "skip": "a single food the vocabulary covers (cooked green peas)"
+  },
+  {
+   "key": "pea puree from dried peas",
+   "names": {
+    "en": "Pease pudding",
+    "de": "Erbspüree"
+   },
+   "serving": {
+    "label": {
+     "en": "1 side portion",
+     "de": "1 Beilagenportion"
+    },
+    "count": 1
+   },
+   "artworkID": "peas",
+   "aliases": {
+    "en": [
+     "pea puree",
+     "split pea puree",
+     "mushy dried peas",
+     "pease pudding"
+    ],
+    "de": [
+     "erbsenpüree",
+     "erbspüree von trockenerbsen",
+     "erbsbrei",
+     "erbsenbrei"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "dried peas, boiled",
+     "grams": 200,
+     "reference": "bls:G760432"
+    },
+    {
+     "name": "vegetable stock",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:X416243",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "pea puree from fresh peas",
+   "names": {
+    "en": "Green pea puree",
+    "de": "Grünes Erbsenpüree"
+   },
+   "serving": {
+    "label": {
+     "en": "1 side portion",
+     "de": "1 Beilagenportion"
+    },
+    "count": 1
+   },
+   "artworkID": "peas",
+   "aliases": {
+    "en": [
+     "green pea puree",
+     "mushy peas",
+     "minted pea puree",
+     "puree of green peas"
+    ],
+    "de": [
+     "erbsenpüree von grünen erbsen",
+     "erbsenpüree",
+     "püree von grünen erbsen",
+     "erbsen püree"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "green peas",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:G760132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "heavy cream",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:M173800",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "green peas and sweetcorn",
+   "names": {
+    "en": "Peas and sweetcorn",
+    "de": "Erbsen-Mais-Gemüse"
+   },
+   "serving": {
+    "label": {
+     "en": "1 side portion",
+     "de": "1 Beilagenportion"
+    },
+    "count": 1
+   },
+   "artworkID": "peas",
+   "aliases": {
+    "en": [
+     "peas and corn",
+     "buttered peas and sweetcorn",
+     "pea and corn vegetables"
+    ],
+    "de": [
+     "erbsen und mais",
+     "erbsen mit mais",
+     "mais-erbsen-gemüse",
+     "erbsen mais gemüse"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "green peas",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:G760132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked corn",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:G570132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "sugar peas tossed in butter",
+   "names": {
+    "en": "Buttered sugar snap peas",
+    "de": "Zuckerschoten in Butter"
+   },
+   "serving": {
+    "label": {
+     "en": "1 side portion",
+     "de": "1 Beilagenportion"
+    },
+    "count": 1
+   },
+   "artworkID": "peas",
+   "aliases": {
+    "en": [
+     "sugar snap peas with butter",
+     "buttered mangetout",
+     "snow peas in butter"
+    ],
+    "de": [
+     "zuckererbsen in butter",
+     "zuckerschoten in butter geschwenkt",
+     "butter-zuckerschoten",
+     "kaiserschoten in butter"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "sugar snap peas",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:G761100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "green beans",
+   "skip": "a single food the vocabulary covers (cooked green beans)"
+  },
+  {
+   "key": "green beans tossed in butter",
+   "names": {
+    "en": "Buttered green beans",
+    "de": "Butterbohnen"
+   },
+   "serving": {
+    "label": {
+     "en": "1 side portion",
+     "de": "1 Beilagenportion"
+    },
+    "count": 1
+   },
+   "artworkID": "beans",
+   "aliases": {
+    "en": [
+     "green beans with butter",
+     "buttered string beans",
+     "green beans tossed in butter"
+    ],
+    "de": [
+     "grüne bohnen in butter",
+     "bohnen in butter geschwenkt",
+     "grüne bohnen mit butter",
+     "buschbohnen in butter"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "green beans",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:G710132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "lentils with mirepoix and bacon",
+   "names": {
+    "en": "Lentils with vegetables and bacon",
+    "de": "Linsengemüse mit Speck"
+   },
+   "serving": {
+    "label": {
+     "en": "1 side portion",
+     "de": "1 Beilagenportion"
+    },
+    "count": 1
+   },
+   "artworkID": "beans",
+   "aliases": {
+    "en": [
+     "lentils with bacon",
+     "braised lentils with bacon",
+     "german lentils with bacon"
+    ],
+    "de": [
+     "linsen mit speck",
+     "linsengemüse mit suppengrün und speck",
+     "linsen mit speck und suppengrün",
+     "saure linsen mit speck"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked lentils",
+     "grams": 180,
+     "resolved": {
+      "id": "usda:2707425",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "carrot",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "celeriac",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G660100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "leek",
+     "grams": 20,
+     "resolved": {
+      "id": "ciqual:20039",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "smoked streaky bacon",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:W411300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable stock",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:X416243",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "wine vinegar",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:R121000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "lentils with mirepoix",
+   "names": {
+    "en": "Braised lentils with vegetables",
+    "de": "Linsengemüse"
+   },
+   "serving": {
+    "label": {
+     "en": "1 side portion",
+     "de": "1 Beilagenportion"
+    },
+    "count": 1
+   },
+   "artworkID": "beans",
+   "aliases": {
+    "en": [
+     "lentils with vegetables",
+     "braised lentils",
+     "lentils with mirepoix",
+     "german style lentils"
+    ],
+    "de": [
+     "linsen mit suppengemüse",
+     "linsen mit suppengrün",
+     "saure linsen",
+     "linsengemüse gekocht"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked lentils",
+     "grams": 170,
+     "resolved": {
+      "id": "usda:2707425",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "carrot",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "celeriac",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G660100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "leek",
+     "grams": 20,
+     "resolved": {
+      "id": "ciqual:20039",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable stock",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:X416243",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "wine vinegar",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:R121000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "antipasti mix with tuna and parma ham",
+   "names": {
+    "en": "Antipasti plate with tuna and Parma ham",
+    "de": "Antipasti-Teller mit Thunfisch und Parmaschinken"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "olive",
+   "aliases": {
+    "en": [
+     "antipasti plate",
+     "antipasto platter",
+     "antipasti with tuna and prosciutto",
+     "italian antipasti"
+    ],
+    "de": [
+     "antipasti-teller",
+     "antipastiteller",
+     "antipasti mit thunfisch",
+     "antipasti platte",
+     "antipasti mit parmaschinken"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked aubergine",
+     "grams": 60,
+     "resolved": {
+      "id": "ciqual:20002",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "zucchini",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:G582100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "roasted red pepper",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:G543162",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked mushrooms",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:K701172",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "canned tuna",
+     "grams": 50,
+     "resolved": {
+      "id": "usda:2706311",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "prosciutto",
+     "grams": 30,
+     "resolved": {
+      "id": "usda:2705879",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "olive oil",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:Q120000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "vegetable patties vegan",
+   "names": {
+    "en": "Vegan vegetable patties",
+    "de": "Vegane Gemüsebratlinge"
+   },
+   "serving": {
+    "label": {
+     "en": "2 patties",
+     "de": "2 Bratlinge"
+    },
+    "count": 2
+   },
+   "artworkID": "falafel",
+   "aliases": {
+    "en": [
+     "vegan veggie patties",
+     "vegetable fritters vegan",
+     "vegan vegetable burgers"
+    ],
+    "de": [
+     "gemüsebratlinge vegan",
+     "gemüsefrikadellen vegan",
+     "vegane gemüsepuffer",
+     "gemüse bratlinge"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "carrot",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "zucchini",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:G582100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "rolled oats",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:C133000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "wheat flour",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "vegetable wafers savoury",
+   "names": {
+    "en": "Savoury vegetable waffles",
+    "de": "Pikante Gemüsewaffeln"
+   },
+   "serving": {
+    "label": {
+     "en": "2 waffles",
+     "de": "2 Waffeln"
+    },
+    "count": 2
+   },
+   "artworkID": "waffle",
+   "aliases": {
+    "en": [
+     "vegetable waffles",
+     "savory veggie waffles",
+     "zucchini carrot waffles"
+    ],
+    "de": [
+     "gemüsewaffeln pikant",
+     "gemüsewaffeln",
+     "herzhafte gemüsewaffeln",
+     "pikante waffeln mit gemüse"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "wheat flour",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 40,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "zucchini",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G582100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "carrot",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "gouda",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:M402600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "chickpea patties",
+   "names": {
+    "en": "Chickpea patties",
+    "de": "Kichererbsenbratlinge"
+   },
+   "serving": {
+    "label": {
+     "en": "2 patties",
+     "de": "2 Bratlinge"
+    },
+    "count": 2
+   },
+   "artworkID": "falafel",
+   "aliases": {
+    "en": [
+     "chickpea fritters",
+     "chickpea burgers",
+     "chick pea patties"
+    ],
+    "de": [
+     "kichererbsen-bratlinge",
+     "kichererbsenfrikadellen",
+     "kichererbsenpuffer",
+     "kichererbsen bratlinge"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked chickpeas",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:G770432",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "breadcrumbs",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:B821000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 25,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 12,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "chickpea snack",
+   "skip": "a single food with a cooking method (roasted chickpeas)"
+  },
+  {
+   "key": "lentil patties",
+   "names": {
+    "en": "Lentil patties",
+    "de": "Linsenbratlinge"
+   },
+   "serving": {
+    "label": {
+     "en": "2 patties",
+     "de": "2 Bratlinge"
+    },
+    "count": 2
+   },
+   "artworkID": "falafel",
+   "aliases": {
+    "en": [
+     "lentil fritters",
+     "lentil burgers",
+     "lentil cakes"
+    ],
+    "de": [
+     "linsen-bratlinge",
+     "linsenfrikadellen",
+     "linsenpuffer",
+     "linsen bratlinge"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked lentils",
+     "grams": 120,
+     "resolved": {
+      "id": "usda:2707425",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "breadcrumbs",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:B821000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 25,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "carrot",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 12,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "lentil patties vegan",
+   "names": {
+    "en": "Vegan lentil patties",
+    "de": "Vegane Linsenbratlinge"
+   },
+   "serving": {
+    "label": {
+     "en": "2 patties",
+     "de": "2 Bratlinge"
+    },
+    "count": 2
+   },
+   "artworkID": "falafel",
+   "aliases": {
+    "en": [
+     "vegan lentil burgers",
+     "vegan lentil fritters",
+     "lentil patties without egg"
+    ],
+    "de": [
+     "linsenbratlinge vegan",
+     "vegane linsenfrikadellen",
+     "vegane linsenpuffer",
+     "linsen bratlinge vegan"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked lentils",
+     "grams": 130,
+     "resolved": {
+      "id": "usda:2707425",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "rolled oats",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:C133000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "breadcrumbs",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:B821000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "carrot",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 8,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "button mushrooms in vinegar pickled in rapeseed oil",
+   "skip": "a preserve (pickled mushrooms)"
+  },
+  {
+   "key": "chicory with bacon",
+   "names": {
+    "en": "Braised chicory with bacon",
+    "de": "Chicorée mit Speck"
+   },
+   "serving": {
+    "label": {
+     "en": "1 side portion",
+     "de": "1 Beilagenportion"
+    },
+    "count": 1
+   },
+   "artworkID": "greens",
+   "aliases": {
+    "en": [
+     "chicory with bacon",
+     "braised endive with bacon",
+     "belgian endive with bacon"
+    ],
+    "de": [
+     "chicoree mit speck",
+     "geschmorter chicorée mit speck",
+     "chicorée mit speck geschmort",
+     "chicoree speck"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "chicory, stewed",
+     "grams": 200,
+     "reference": "bls:G101152"
+    },
+    {
+     "name": "smoked streaky bacon",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:W411300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 3,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "spinach casserole spinach pudding",
+   "names": {
+    "en": "Spinach pudding",
+    "de": "Spinatauflauf"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "greens",
+   "aliases": {
+    "en": [
+     "spinach casserole",
+     "spinach bake",
+     "baked spinach pudding"
+    ],
+    "de": [
+     "spinatpudding",
+     "spinat-auflauf",
+     "spinat auflauf mit ei",
+     "spinatauflauf mit brötchen"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked spinach",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:G210132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "bread roll",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:B511000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 50,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "gouda",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:M402600",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "cabbage roulade vegan filled with millet tomatoes and tofu",
+   "names": {
+    "en": "Vegan cabbage rolls with millet and tofu",
+    "de": "Vegane Kohlrouladen mit Hirse und Tofu"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "greens",
+   "aliases": {
+    "en": [
+     "vegan cabbage rolls",
+     "vegan stuffed cabbage",
+     "cabbage rolls with millet and tofu"
+    ],
+    "de": [
+     "kohlroulade vegan",
+     "vegane kohlroulade",
+     "kohlrouladen mit hirse und tofu",
+     "vegane krautwickel"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "white cabbage",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:G342100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "millet, boiled",
+     "grams": 60,
+     "reference": "bls:C334032"
+    },
+    {
+     "name": "firm tofu",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:H861000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "canned tomatoes",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:G568900",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 3,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "cabbage roulade vegetarian filled with millet tomatoes and sheep s milk cheese",
+   "names": {
+    "en": "Vegetarian cabbage rolls with millet and feta",
+    "de": "Vegetarische Kohlrouladen mit Hirse und Schafskäse"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "greens",
+   "aliases": {
+    "en": [
+     "vegetarian cabbage rolls",
+     "vegetarian stuffed cabbage",
+     "cabbage rolls with millet and feta"
+    ],
+    "de": [
+     "kohlroulade vegetarisch",
+     "vegetarische kohlroulade",
+     "kohlrouladen mit hirse und feta",
+     "vegetarische krautwickel"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "white cabbage",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:G342100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "millet, boiled",
+     "grams": 60,
+     "reference": "bls:C334032"
+    },
+    {
+     "name": "feta",
+     "grams": 25,
+     "resolved": {
+      "id": "usda:2705714",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "canned tomatoes",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:G568900",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 3,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "artichokes with orange juice",
+   "names": {
+    "en": "Artichokes with orange",
+    "de": "Artischocken mit Orangensaft"
+   },
+   "serving": {
+    "label": {
+     "en": "1 side portion",
+     "de": "1 Beilagenportion"
+    },
+    "count": 1
+   },
+   "artworkID": "neutral",
+   "aliases": {
+    "en": [
+     "braised artichokes with orange juice",
+     "artichoke hearts with orange",
+     "orange braised artichokes"
+    ],
+    "de": [
+     "artischocken in orangensaft",
+     "artischocken gedünstet mit orangensaft",
+     "artischockenherzen mit orange",
+     "orangen-artischocken"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked artichoke hearts",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:G410132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "orange juice",
+     "grams": 40,
+     "resolved": {
+      "id": "usda:2709186",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "olive oil",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:Q120000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "artichokes",
+   "skip": "a single food with a cooking method (boiled artichokes)"
+  },
+  {
+   "key": "artichokes with butter",
+   "names": {
+    "en": "Artichokes with melted butter",
+    "de": "Artischocken mit Butter"
+   },
+   "serving": {
+    "label": {
+     "en": "1 side portion",
+     "de": "1 Beilagenportion"
+    },
+    "count": 1
+   },
+   "artworkID": "neutral",
+   "aliases": {
+    "en": [
+     "artichoke with butter",
+     "boiled artichoke with melted butter",
+     "artichokes with butter sauce"
+    ],
+    "de": [
+     "artischocke mit butter",
+     "artischocken mit zerlassener butter",
+     "gekochte artischocken mit butter",
+     "artischocken butter"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked artichoke hearts",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:G410132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 12,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "leek with butter and cheese",
+   "names": {
+    "en": "Leeks with butter and cheese",
+    "de": "Lauch mit Butter und Käse"
+   },
+   "serving": {
+    "label": {
+     "en": "1 side portion",
+     "de": "1 Beilagenportion"
+    },
+    "count": 1
+   },
+   "artworkID": "greens",
+   "aliases": {
+    "en": [
+     "leeks with cheese",
+     "buttered leeks with cheese",
+     "braised leek with cheese"
+    ],
+    "de": [
+     "lauchgemüse mit käse",
+     "porree mit käse",
+     "lauch mit käse überbacken",
+     "lauch mit butter und käse gedünstet"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "leek",
+     "grams": 200,
+     "resolved": {
+      "id": "ciqual:20039",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "emmental",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:M304600",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "asparagus ham rolls with cheese",
+   "names": {
+    "en": "Asparagus and ham rolls with cheese",
+    "de": "Spargel-Schinken-Röllchen mit Käse"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "neutral",
+   "aliases": {
+    "en": [
+     "asparagus wrapped in ham with cheese",
+     "baked asparagus ham rolls",
+     "ham and asparagus rolls au gratin"
+    ],
+    "de": [
+     "spargelschinkenröllchen mit käse",
+     "spargel im schinkenmantel überbacken",
+     "spargelröllchen mit schinken und käse",
+     "überbackene spargelröllchen"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked asparagus",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:G450132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked ham",
+     "grams": 70,
+     "resolved": {
+      "id": "bls:W424000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "gouda",
+     "grams": 45,
+     "resolved": {
+      "id": "bls:M402600",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "onions filled with button mushrooms and minced meat",
+   "names": {
+    "en": "Onions stuffed with mushrooms and mince",
+    "de": "Gefüllte Zwiebeln mit Champignons und Hackfleisch"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "onion",
+   "aliases": {
+    "en": [
+     "stuffed onions",
+     "onions stuffed with minced meat",
+     "braised stuffed onions"
+    ],
+    "de": [
+     "zwiebeln gefüllt mit hackfleisch",
+     "gefüllte zwiebeln",
+     "gefüllte zwiebeln mit hack",
+     "gefüllte gemüsezwiebeln"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "onion",
+     "grams": 130,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked mixed mince",
+     "grams": 90,
+     "resolved": {
+      "id": "bls:U050132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "mushrooms",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:K701100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "heavy cream",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:M173800",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "breadcrumbs",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:B821000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 12,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "antipasti of sweet pepper",
+   "names": {
+    "en": "Marinated grilled peppers",
+    "de": "Antipasti von gegrillter Paprika"
+   },
+   "serving": {
+    "label": {
+     "en": "1 side portion",
+     "de": "1 Beilagenportion"
+    },
+    "count": 1
+   },
+   "artworkID": "pepper",
+   "aliases": {
+    "en": [
+     "grilled pepper antipasti",
+     "marinated roasted peppers",
+     "peperoni antipasti"
+    ],
+    "de": [
+     "gegrillte paprika antipasti",
+     "marinierte paprika",
+     "paprika antipasti",
+     "eingelegte gegrillte paprika"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "roasted red pepper",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:G543162",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "olive oil",
+     "grams": 12,
+     "resolved": {
+      "id": "bls:Q120000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "garlic",
+     "grams": 3,
+     "resolved": {
+      "id": "bls:G490100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "pumpkin",
+   "skip": "a single food with a cooking method (baked pumpkin)"
+  },
+  {
+   "key": "pumpkin rosti",
+   "names": {
+    "en": "Pumpkin rösti",
+    "de": "Kürbisrösti"
+   },
+   "serving": {
+    "label": {
+     "en": "2 patties",
+     "de": "2 Rösti"
+    },
+    "count": 2
+   },
+   "artworkID": "pancakes",
+   "aliases": {
+    "en": [
+     "pumpkin rosti",
+     "pumpkin fritters",
+     "pumpkin potato rösti"
+    ],
+    "de": [
+     "kürbis-rösti",
+     "kuerbisroesti",
+     "kürbispuffer",
+     "kürbisrösti gebacken"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "pumpkin",
+     "grams": 140,
+     "resolved": {
+      "id": "bls:G581100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "boiled potatoes",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 25,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "wheat flour",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 25,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "green peas in cream",
+   "names": {
+    "en": "Creamed peas",
+    "de": "Rahmerbsen"
+   },
+   "serving": {
+    "label": {
+     "en": "1 side portion",
+     "de": "1 Beilagenportion"
+    },
+    "count": 1
+   },
+   "artworkID": "peas",
+   "aliases": {
+    "en": [
+     "green peas in cream",
+     "peas in cream sauce",
+     "creamy peas"
+    ],
+    "de": [
+     "grüne erbsen in sahne",
+     "erbsen in sahne",
+     "sahneerbsen",
+     "erbsen mit sahne"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "green peas",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:G760132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "heavy cream",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:M173800",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "kidney beans",
+   "skip": "a single food the vocabulary covers (kidney beans)"
+  },
+  {
+   "key": "lentils with vegetables",
+   "skip": "duplicate of the braised lentils with vegetables in this batch"
+  },
+  {
+   "key": "cheese alternative mozzarella style vegan",
+   "skip": "a single product, not a dish"
+  },
+  {
+   "key": "tofu vegan breaded",
+   "names": {
+    "en": "Breaded tofu",
+    "de": "Tofu paniert"
+   },
+   "serving": {
+    "label": {
+     "en": "1 side portion",
+     "de": "1 Beilagenportion"
+    },
+    "count": 1
+   },
+   "artworkID": "neutral",
+   "aliases": {
+    "en": [
+     "breaded tofu",
+     "tofu schnitzel",
+     "crispy breaded tofu",
+     "vegan tofu cutlet"
+    ],
+    "de": [
+     "panierter tofu",
+     "tofuschnitzel",
+     "tofu schnitzel vegan",
+     "tofu paniert gebraten"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "firm tofu",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:H861000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "breadcrumbs",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:B821000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "wheat flour",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "soy milk",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2705405",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 12,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "kohlrabi vegetarian filled with cream cheese and peas",
+   "names": {
+    "en": "Kohlrabi stuffed with cream cheese and peas",
+    "de": "Gefüllter Kohlrabi mit Frischkäse und Erbsen"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "greens",
+   "aliases": {
+    "en": [
+     "vegetarian stuffed kohlrabi",
+     "kohlrabi with cream cheese filling",
+     "stuffed kohlrabi with peas"
+    ],
+    "de": [
+     "kohlrabi gefüllt vegetarisch",
+     "kohlrabi mit frischkäsefüllung",
+     "gefüllte kohlrabi mit erbsen",
+     "vegetarischer gefüllter kohlrabi"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "kohlrabi, boiled",
+     "grams": 220,
+     "reference": "bls:G331132"
+    },
+    {
+     "name": "cream cheese",
+     "grams": 40,
+     "resolved": {
+      "id": "usda:2705760",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "green peas",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G760132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "swede with bacon",
+   "names": {
+    "en": "Swede with bacon",
+    "de": "Steckrüben mit Speck"
+   },
+   "serving": {
+    "label": {
+     "en": "1 side portion",
+     "de": "1 Beilagenportion"
+    },
+    "count": 1
+   },
+   "artworkID": "neutral",
+   "aliases": {
+    "en": [
+     "rutabaga with bacon",
+     "stewed swede with bacon",
+     "swede and bacon"
+    ],
+    "de": [
+     "kohlrüben mit speck",
+     "steckrübengemüse mit speck",
+     "steckrueben mit speck",
+     "wruken mit speck"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "swede, stewed",
+     "grams": 220,
+     "reference": "bls:G611152"
+    },
+    {
+     "name": "smoked streaky bacon",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:W411300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "beetroot",
+   "skip": "a single food with a cooking method (stewed beetroot)"
+  },
+  {
+   "key": "celeriac",
+   "skip": "a single food with a cooking method (boiled celeriac)"
+  },
+  {
+   "key": "vegetable potato fish purree with carrots and salmon",
+   "skip": "baby food (salt-free puree for infants)"
+  },
+  {
+   "key": "vegetable potato poultry purree with carrots and chicken",
+   "skip": "baby food (salt-free puree for infants)"
+  },
+  {
+   "key": "vegetable potato meat purree with carrots and beef",
+   "skip": "baby food (salt-free puree for infants)"
+  },
+  {
+   "key": "vegetable potato meat purree with carrots and pork",
+   "skip": "baby food (salt-free puree for infants)"
+  },
+  {
+   "key": "vegetable potato purree with fennel",
+   "skip": "baby food (salt-free puree for infants)"
+  },
+  {
+   "key": "vegetable potato purree with carrot and pumpkin",
+   "skip": "baby food (salt-free puree for infants)"
+  },
+  {
+   "key": "vegetable potato purree with carrot and parsnip",
+   "skip": "baby food (salt-free puree for infants)"
+  },
+  {
+   "key": "vegetable potato purree with spinach",
+   "skip": "baby food (salt-free puree for infants)"
+  },
+  {
+   "key": "vegetable potato purree with courgette",
+   "skip": "baby food (salt-free puree for infants)"
+  },
+  {
+   "key": "vegetable potato cereal purree with carrot and oat flakes",
+   "skip": "baby food (salt-free puree for infants)"
+  },
+  {
+   "key": "vegetable sweet potato purree with carrot and parsnip",
+   "skip": "baby food (salt-free puree for infants)"
+  },
+  {
+   "key": "cream potatoes niedernauer",
+   "names": {
+    "en": "Cream potatoes",
+    "de": "Rahmkartoffeln"
+   },
+   "serving": {
+    "label": {
+     "en": "1 side portion",
+     "de": "1 Beilagenportion"
+    },
+    "count": 1
+   },
+   "artworkID": "potato",
+   "aliases": {
+    "en": [
+     "creamed potatoes",
+     "niedernau potatoes",
+     "potatoes in cream",
+     "cream potatoes niedernauer"
+    ],
+    "de": [
+     "niedernauer kartoffeln",
+     "sahnekartoffeln",
+     "rahmkartoffeln gebraten",
+     "kartoffeln in sahne"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "boiled potatoes",
+     "grams": 230,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "heavy cream",
+     "grams": 45,
+     "resolved": {
+      "id": "bls:M173800",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "potatoes with vegetable stock and vegetables",
+   "names": {
+    "en": "Potatoes in vegetable broth",
+    "de": "Brühkartoffeln mit Gemüse"
+   },
+   "serving": {
+    "label": {
+     "en": "1 side portion",
+     "de": "1 Beilagenportion"
+    },
+    "count": 1
+   },
+   "artworkID": "potato",
+   "aliases": {
+    "en": [
+     "broth potatoes with vegetables",
+     "potatoes cooked in stock with vegetables",
+     "stock potatoes"
+    ],
+    "de": [
+     "brühkartoffeln",
+     "brühkartoffeln mit gemüsebrühe",
+     "bruehkartoffeln",
+     "kartoffeln in brühe mit gemüse"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "boiled potatoes",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable stock",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:X416243",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "carrot",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "celeriac",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G660100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "leek",
+     "grams": 20,
+     "resolved": {
+      "id": "ciqual:20039",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 4,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "bouillon potatoes",
+   "names": {
+    "en": "Bouillon potatoes",
+    "de": "Bouillonkartoffeln"
+   },
+   "serving": {
+    "label": {
+     "en": "1 side portion",
+     "de": "1 Beilagenportion"
+    },
+    "count": 1
+   },
+   "artworkID": "potato",
+   "aliases": {
+    "en": [
+     "potatoes in beef broth",
+     "broth potatoes",
+     "pommes de terre au bouillon"
+    ],
+    "de": [
+     "bouillon kartoffeln",
+     "brühkartoffeln mit fleischbrühe",
+     "kartoffeln in fleischbrühe",
+     "bouillonkartoffeln mit petersilie"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "boiled potatoes",
+     "grams": 220,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "beef stock",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:Y183013",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "parsley",
+     "grams": 3,
+     "resolved": {
+      "id": "usda:2709796",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "parsley potatoes",
+   "names": {
+    "en": "Parsley potatoes",
+    "de": "Petersilienkartoffeln"
+   },
+   "serving": {
+    "label": {
+     "en": "1 side portion",
+     "de": "1 Beilagenportion"
+    },
+    "count": 1
+   },
+   "artworkID": "potato",
+   "aliases": {
+    "en": [
+     "boiled potatoes with parsley",
+     "parsleyed potatoes",
+     "parsley new potatoes"
+    ],
+    "de": [
+     "petersilien kartoffeln",
+     "salzkartoffeln mit petersilie",
+     "petersilienkartoffeln mit butter",
+     "petersilkartoffeln"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "boiled potatoes",
+     "grams": 250,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "parsley",
+     "grams": 5,
+     "resolved": {
+      "id": "usda:2709796",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "bechamel potatoes",
+   "names": {
+    "en": "Potatoes in béchamel",
+    "de": "Béchamelkartoffeln"
+   },
+   "serving": {
+    "label": {
+     "en": "1 side portion",
+     "de": "1 Beilagenportion"
+    },
+    "count": 1
+   },
+   "artworkID": "potato",
+   "aliases": {
+    "en": [
+     "bechamel potatoes",
+     "potatoes in white sauce",
+     "creamed potatoes in bechamel"
+    ],
+    "de": [
+     "bechamelkartoffeln",
+     "kartoffeln in béchamelsauce",
+     "béchamel-kartoffeln",
+     "kartoffeln in heller sauce"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "boiled potatoes",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "béchamel",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:X320243",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "potato goulash",
+   "names": {
+    "en": "Potato goulash",
+    "de": "Kartoffelgulasch"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "curry",
+   "aliases": {
+    "en": [
+     "vegetarian potato goulash",
+     "potato paprika stew",
+     "hungarian potato stew"
+    ],
+    "de": [
+     "kartoffel-gulasch",
+     "kartoffelgulasch vegetarisch",
+     "krumpli paprikás",
+     "kartoffelgulasch ohne wurst"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "boiled potatoes",
+     "grams": 220,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "red bell pepper",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:G543100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato paste",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:R160000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "paprika",
+     "grams": 4,
+     "resolved": {
+      "id": "ciqual:11049",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable stock",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:X416243",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "potato layer dish with sauerkraut and ham",
+   "names": {
+    "en": "Potato and sauerkraut bake with ham",
+    "de": "Kartoffel-Sauerkraut-Auflauf mit Schinken"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "potato",
+   "aliases": {
+    "en": [
+     "potato sauerkraut casserole",
+     "sauerkraut potato bake with ham",
+     "layered potatoes with sauerkraut"
+    ],
+    "de": [
+     "kartoffelschichtspeise mit sauerkraut",
+     "sauerkraut-kartoffel-auflauf",
+     "kartoffelauflauf mit sauerkraut und schinken",
+     "schichtkartoffeln mit sauerkraut"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "boiled potatoes",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sauerkraut",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:G346100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked ham",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:W424000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sour cream",
+     "grams": 30,
+     "resolved": {
+      "id": "usda:2705614",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "gouda",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:M402600",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "potatoes mashed",
+   "skip": "a single food (riced boiled potatoes)"
+  },
+  {
+   "key": "potato puree with milk 3 5 fat",
+   "skip": "a single food the vocabulary covers (mashed potatoes)"
+  },
+  {
+   "key": "potato mash with milk 3 5 fat",
+   "skip": "a single food the vocabulary covers (mashed potatoes)"
+  },
+  {
+   "key": "puree of potatoes and carrots with milk 3 5 fat",
+   "names": {
+    "en": "Potato and carrot mash",
+    "de": "Kartoffel-Karotten-Püree"
+   },
+   "serving": {
+    "label": {
+     "en": "1 side portion",
+     "de": "1 Beilagenportion"
+    },
+    "count": 1
+   },
+   "artworkID": "potato",
+   "aliases": {
+    "en": [
+     "potato carrot puree",
+     "carrot and potato mash",
+     "mashed potatoes with carrots"
+    ],
+    "de": [
+     "kartoffel-möhren-püree",
+     "kartoffel-karottenpüree",
+     "möhrenstampf",
+     "kartoffel möhren stampf"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "boiled potatoes",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked carrot",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:G620132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "puree of potatoes and brussels sprouts with milk 3 5 fat",
+   "names": {
+    "en": "Potato and Brussels sprouts mash",
+    "de": "Kartoffel-Rosenkohl-Püree"
+   },
+   "serving": {
+    "label": {
+     "en": "1 side portion",
+     "de": "1 Beilagenportion"
+    },
+    "count": 1
+   },
+   "artworkID": "potato",
+   "aliases": {
+    "en": [
+     "potato brussels sprouts puree",
+     "brussels sprout mash",
+     "mashed potatoes with brussels sprouts"
+    ],
+    "de": [
+     "kartoffel-rosenkohlpüree",
+     "rosenkohlpüree",
+     "rosenkohl-kartoffel-stampf",
+     "kartoffel rosenkohl püree"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "boiled potatoes",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "brussels sprouts",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:G332132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "potato puree with milk 1 5 fat",
+   "skip": "a single food the vocabulary covers (mashed potatoes)"
+  },
+  {
+   "key": "potato casserole",
+   "names": {
+    "en": "Potato casserole",
+    "de": "Kartoffelauflauf"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "potato",
+   "aliases": {
+    "en": [
+     "potato bake",
+     "potato ring",
+     "baked potato casserole"
+    ],
+    "de": [
+     "kartoffelring",
+     "kartoffel-auflauf",
+     "kartoffelauflauf mit käse",
+     "kartoffel auflauf"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "boiled potatoes",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 50,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "heavy cream",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:M173800",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "gouda",
+     "grams": 35,
+     "resolved": {
+      "id": "bls:M402600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "duchesse potatoes",
+   "names": {
+    "en": "Duchesse potatoes",
+    "de": "Herzoginkartoffeln"
+   },
+   "serving": {
+    "label": {
+     "en": "4 pieces",
+     "de": "4 Stück"
+    },
+    "count": 4
+   },
+   "artworkID": "potato",
+   "aliases": {
+    "en": [
+     "pommes duchesse",
+     "duchess potatoes",
+     "piped potato rosettes"
+    ],
+    "de": [
+     "herzogin kartoffeln",
+     "pommes duchesse",
+     "herzoginkartoffeln gebacken",
+     "kartoffelrosetten"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "boiled potatoes",
+     "grams": 180,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg yolk",
+     "grams": 25,
+     "resolved": {
+      "id": "usda:2707172",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,10414 @@
+{
+ "batch": 2,
+ "drafted": "2026-10-01",
+ "drafter": "Claude in the Akari Claude Code session",
+ "dishes": [
+  {
+   "key": "korean seafood pancake",
+   "names": {
+    "en": "Korean seafood pancake",
+    "de": "Koreanischer Meeresfrüchte-Pfannkuchen"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "pancakes",
+   "aliases": {
+    "en": [
+     "haemul pajeon",
+     "seafood pajeon",
+     "pajeon",
+     "korean pancake with seafood",
+     "haemul jeon",
+     "seafood scallion pancake"
+    ],
+    "de": [
+     "haemul pajeon",
+     "pajeon",
+     "koreanischer pfannkuchen",
+     "meeresfrüchte pfannkuchen",
+     "koreanischer meeresfrüchtepfannkuchen"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "spring onion",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:G482100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "water",
+     "grams": 70,
+     "resolved": {
+      "id": "usda:2710706",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "wheat flour",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked shrimp",
+     "grams": 35,
+     "resolved": {
+      "id": "bls:T753132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked squid",
+     "grams": 35,
+     "resolved": {
+      "id": "usda:2706333",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 25,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "soy sauce",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:R143000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "jjajangmyeon",
+   "names": {
+    "en": "Jjajangmyeon",
+    "de": "Jjajangmyeon"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "noodles",
+   "aliases": {
+    "en": [
+     "jajangmyeon",
+     "jajangmyun",
+     "jjajangmyun",
+     "black bean noodles",
+     "korean black bean noodles",
+     "zhajiangmian korean"
+    ],
+    "de": [
+     "jajangmyeon",
+     "jajangmyun",
+     "koreanische schwarze bohnen nudeln",
+     "nudeln mit schwarzer bohnensauce",
+     "jjajang nudeln"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked ramen noodles",
+     "grams": 250,
+     "resolved": {
+      "id": "mext:01048",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "black bean sauce",
+     "grams": 50,
+     "resolved": {
+      "id": "usda:2707404",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked pork belly",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:U57A172",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "zucchini",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G582100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "boiled potatoes",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cucumber",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G520100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 12,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 4,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cornstarch",
+     "grams": 4,
+     "resolved": {
+      "id": "bls:C446000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "pad thai",
+   "names": {
+    "en": "Pad Thai",
+    "de": "Pad Thai"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "noodles",
+   "aliases": {
+    "en": [
+     "phad thai",
+     "pad thai noodles",
+     "pad thai with shrimp",
+     "pad thai goong",
+     "padthai",
+     "thai fried noodles"
+    ],
+    "de": [
+     "padthai",
+     "phad thai",
+     "pad thai mit garnelen",
+     "gebratene reisnudeln thai",
+     "pad thai nudeln"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked rice noodles",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:C559032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked shrimp",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:T753132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 50,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "firm tofu",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:H861000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "bean sprouts",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:H650100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "peanuts",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:H110600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "fish sauce",
+     "grams": 12,
+     "resolved": {
+      "id": "usda:2706457",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tamarind",
+     "grams": 10,
+     "reference": "usda:2709269"
+    },
+    {
+     "name": "brown sugar",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2710260",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "spring onion",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:G482100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lime",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:F602100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "thai green curry with chicken",
+   "names": {
+    "en": "Thai green curry with chicken",
+    "de": "Grünes Thai-Curry mit Hähnchen"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "curry",
+   "aliases": {
+    "en": [
+     "green curry chicken",
+     "thai green chicken curry",
+     "gaeng keow wan gai",
+     "kaeng khiao wan",
+     "green thai curry",
+     "chicken green curry"
+    ],
+    "de": [
+     "grünes curry mit hähnchen",
+     "grünes thai curry",
+     "thai curry grün mit huhn",
+     "green curry hähnchen",
+     "grünes hühnchen curry"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "coconut milk",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:H154000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked chicken thigh",
+     "grams": 130,
+     "resolved": {
+      "id": "usda:2706044",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "aubergine",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:G510100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "chicken stock",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:X411243",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "bamboo shoots",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:H610902",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "curry paste",
+     "grams": 20,
+     "resolved": {
+      "id": "cofid:17-720",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "fish sauce",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2706457",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 5,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "brown sugar",
+     "grams": 5,
+     "resolved": {
+      "id": "usda:2710260",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "basil",
+     "grams": 3,
+     "resolved": {
+      "id": "bls:G061000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "thai red curry with chicken",
+   "names": {
+    "en": "Thai red curry with chicken",
+    "de": "Rotes Thai-Curry mit Hähnchen"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "curry",
+   "aliases": {
+    "en": [
+     "red curry chicken",
+     "thai red chicken curry",
+     "gaeng phed gai",
+     "kaeng phet",
+     "red thai curry",
+     "chicken red curry"
+    ],
+    "de": [
+     "rotes curry mit hähnchen",
+     "rotes thai curry",
+     "thai curry rot mit huhn",
+     "red curry hähnchen",
+     "rotes hühnchen curry"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "coconut milk",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:H154000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked chicken thigh",
+     "grams": 130,
+     "resolved": {
+      "id": "usda:2706044",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "red bell pepper",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G543100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "bamboo shoots",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:H610902",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "chicken stock",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:X411243",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "curry paste",
+     "grams": 20,
+     "resolved": {
+      "id": "cofid:17-720",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "fish sauce",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2706457",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 5,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "brown sugar",
+     "grams": 5,
+     "resolved": {
+      "id": "usda:2710260",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "basil",
+     "grams": 3,
+     "resolved": {
+      "id": "bls:G061000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "beef massaman curry",
+   "names": {
+    "en": "Beef massaman curry",
+    "de": "Massaman-Curry mit Rind"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "curry",
+   "aliases": {
+    "en": [
+     "massaman curry",
+     "massaman beef",
+     "matsaman curry",
+     "massamam curry",
+     "beef massaman",
+     "gaeng massaman"
+    ],
+    "de": [
+     "massaman curry",
+     "massaman curry rind",
+     "massaman rindfleisch",
+     "massamam curry",
+     "rindfleisch massaman curry"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "braised beef",
+     "grams": 140,
+     "resolved": {
+      "id": "bls:U281142",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "coconut milk",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:H154000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "boiled potatoes",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "chicken stock",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:X411243",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "curry paste",
+     "grams": 20,
+     "resolved": {
+      "id": "cofid:17-720",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "peanuts",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:H110600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "fish sauce",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2706457",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "brown sugar",
+     "grams": 8,
+     "resolved": {
+      "id": "usda:2710260",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tamarind",
+     "grams": 5,
+     "reference": "usda:2709269"
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 5,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "panang curry",
+   "names": {
+    "en": "Panang curry",
+    "de": "Panang-Curry"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "curry",
+   "aliases": {
+    "en": [
+     "phanaeng curry",
+     "penang curry",
+     "panang chicken curry",
+     "chicken panang",
+     "panaeng curry",
+     "phanang curry"
+    ],
+    "de": [
+     "panang curry",
+     "penang curry",
+     "panang curry mit hähnchen",
+     "phanaeng curry",
+     "panaeng curry"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked chicken thigh",
+     "grams": 140,
+     "resolved": {
+      "id": "usda:2706044",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "coconut milk",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:H154000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "red bell pepper",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G543100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "curry paste",
+     "grams": 20,
+     "resolved": {
+      "id": "cofid:17-720",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "peanuts",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:H110600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "fish sauce",
+     "grams": 8,
+     "resolved": {
+      "id": "usda:2706457",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "brown sugar",
+     "grams": 6,
+     "resolved": {
+      "id": "usda:2710260",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 5,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "basil",
+     "grams": 3,
+     "resolved": {
+      "id": "bls:G061000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "tom yum soup",
+   "names": {
+    "en": "Tom yum soup",
+    "de": "Tom-Yum-Suppe"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "soup",
+   "aliases": {
+    "en": [
+     "tom yum",
+     "tom yam",
+     "tom yum goong",
+     "tom yum kung",
+     "thai hot and sour soup",
+     "tom yam soup"
+    ],
+    "de": [
+     "tom yum",
+     "tom yam",
+     "tom yum gung",
+     "tom yum suppe mit garnelen",
+     "thailändische scharf saure suppe",
+     "tom yam suppe"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "chicken stock",
+     "grams": 300,
+     "resolved": {
+      "id": "bls:X411243",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked shrimp",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:T753132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "mushrooms",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:K701100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G561100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lime juice",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:F602600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "fish sauce",
+     "grams": 12,
+     "resolved": {
+      "id": "usda:2706457",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "chili sauce",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:R146100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 3,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cilantro",
+     "grams": 3,
+     "resolved": {
+      "id": "usda:2709782",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "red chili",
+     "grams": 3,
+     "resolved": {
+      "id": "bls:G554100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "tom kha gai",
+   "names": {
+    "en": "Tom kha gai",
+    "de": "Tom Kha Gai"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "soup",
+   "aliases": {
+    "en": [
+     "tom kha kai",
+     "tom ka gai",
+     "thai coconut chicken soup",
+     "tom kha",
+     "chicken coconut soup thai",
+     "tom khaa gai"
+    ],
+    "de": [
+     "tom kha kai",
+     "tom ka gai",
+     "thai kokossuppe mit huhn",
+     "tom kha",
+     "kokos hühnersuppe",
+     "thailändische kokossuppe"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "coconut milk",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:H154000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "chicken stock",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:X411243",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked chicken breast",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:V416132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "mushrooms",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:K701100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lime juice",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:F602600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "fish sauce",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2706457",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 3,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cilantro",
+     "grams": 3,
+     "resolved": {
+      "id": "usda:2709782",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "red chili",
+     "grams": 2,
+     "resolved": {
+      "id": "bls:G554100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "pad see ew",
+   "names": {
+    "en": "Pad see ew",
+    "de": "Pad See Ew"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "noodles",
+   "aliases": {
+    "en": [
+     "pad see eew",
+     "pad si ew",
+     "phat si io",
+     "pad see you",
+     "thai soy sauce noodles",
+     "pad see ew chicken"
+    ],
+    "de": [
+     "pad see eew",
+     "pad si ew",
+     "pad see you",
+     "breite reisnudeln mit sojasauce",
+     "pad see ew mit hähnchen"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked rice noodles",
+     "grams": 220,
+     "resolved": {
+      "id": "bls:C559032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked chicken thigh",
+     "grams": 90,
+     "resolved": {
+      "id": "usda:2706044",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked broccoli",
+     "grams": 70,
+     "resolved": {
+      "id": "bls:G312132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 40,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "soy sauce",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:R143000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "oyster sauce",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2707150",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 5,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "garlic",
+     "grams": 4,
+     "resolved": {
+      "id": "bls:G490100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "pad kra pao",
+   "names": {
+    "en": "Pad kra pao",
+    "de": "Pad Kra Pao"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "rice",
+   "aliases": {
+    "en": [
+     "pad krapow",
+     "pad kaprao",
+     "pad gaprao",
+     "thai basil pork",
+     "thai holy basil stir fry",
+     "khao pad kra pao",
+     "pad krapao moo"
+    ],
+    "de": [
+     "pad krapow",
+     "pad kaprao",
+     "pad gaprao",
+     "thai basilikum schwein",
+     "gebratenes hackfleisch mit thai basilikum",
+     "pad krapao mit reis"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked white rice",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:C352032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked ground pork",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:U020182",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "fried egg",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:Y710142",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "green beans",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G710132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 12,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "basil",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:G061000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "oyster sauce",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2707150",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "soy sauce",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:R143000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "garlic",
+     "grams": 6,
+     "resolved": {
+      "id": "bls:G490100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "fish sauce",
+     "grams": 5,
+     "resolved": {
+      "id": "usda:2706457",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "red chili",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:G554100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 4,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "khao pad",
+   "names": {
+    "en": "Khao pad",
+    "de": "Khao Pad"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "rice",
+   "aliases": {
+    "en": [
+     "khao phat",
+     "thai fried rice",
+     "kao pad",
+     "khao pad gai",
+     "thai chicken fried rice",
+     "khao pat"
+    ],
+    "de": [
+     "khao phat",
+     "thailändischer gebratener reis",
+     "kao pad",
+     "thai gebratener reis",
+     "khao pad gai",
+     "khao pat"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked white rice",
+     "grams": 250,
+     "resolved": {
+      "id": "bls:C352032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked chicken breast",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:V416132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 50,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G561100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cucumber",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G520100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "spring onion",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:G482100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lime",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:F602100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "fish sauce",
+     "grams": 8,
+     "resolved": {
+      "id": "usda:2706457",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "soy sauce",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:R143000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "som tam",
+   "names": {
+    "en": "Som tam",
+    "de": "Som Tam"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "salad",
+   "aliases": {
+    "en": [
+     "green papaya salad",
+     "papaya salad",
+     "som tum",
+     "thai papaya salad",
+     "som tam thai",
+     "tam mak hung"
+    ],
+    "de": [
+     "grüner papayasalat",
+     "papayasalat",
+     "som tum",
+     "thai papaya salat",
+     "som tam thai",
+     "papaya salat"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "green papaya, raw",
+     "grams": 150,
+     "reference": "cofid:13-311"
+    },
+    {
+     "name": "tomato",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G561100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "green beans",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G710132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "peanuts",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:H110600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lime juice",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:F602600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "fish sauce",
+     "grams": 12,
+     "resolved": {
+      "id": "usda:2706457",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "brown sugar",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2710260",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "garlic",
+     "grams": 4,
+     "resolved": {
+      "id": "bls:G490100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "red chili",
+     "grams": 4,
+     "resolved": {
+      "id": "bls:G554100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "thai beef salad",
+   "names": {
+    "en": "Thai beef salad",
+    "de": "Thailändischer Rindfleischsalat"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "salad",
+   "aliases": {
+    "en": [
+     "yum nua",
+     "yam nuea",
+     "thai steak salad",
+     "spicy beef salad",
+     "nam tok beef salad",
+     "thai grilled beef salad"
+    ],
+    "de": [
+     "yum nua",
+     "yam nuea",
+     "thai rindfleischsalat",
+     "thai beef salat",
+     "scharfer rindfleischsalat",
+     "rindfleischsalat thai art"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "beef steak, pan-fried",
+     "grams": 130,
+     "resolved": {
+      "id": "bls:U131182",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cucumber",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:G520100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G561100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lettuce",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G105100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "shallot",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:G485100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lime juice",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:F602600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "fish sauce",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2706457",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "mint",
+     "grams": 4,
+     "resolved": {
+      "id": "ciqual:11027",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cilantro",
+     "grams": 4,
+     "resolved": {
+      "id": "usda:2709782",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 4,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "red chili",
+     "grams": 3,
+     "resolved": {
+      "id": "bls:G554100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "pho bo",
+   "names": {
+    "en": "Pho bo",
+    "de": "Pho Bo"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "noodles",
+   "aliases": {
+    "en": [
+     "beef pho",
+     "pho",
+     "pho beef noodle soup",
+     "vietnamese beef noodle soup",
+     "pho tai",
+     "pho bo vien"
+    ],
+    "de": [
+     "pho",
+     "pho mit rind",
+     "pho rind",
+     "vietnamesische nudelsuppe mit rind",
+     "rindfleisch pho",
+     "pho bo suppe"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "beef stock",
+     "grams": 350,
+     "resolved": {
+      "id": "bls:Y183013",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked rice noodles",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:C559032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "thinly sliced beef",
+     "grams": 70,
+     "resolved": {
+      "id": "bls:U131100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "braised beef",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:U281142",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "bean sprouts",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:H650100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lime",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:F602100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "hoisin sauce",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2707441",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "fish sauce",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2706457",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "spring onion",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:G482100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "basil",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:G061000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cilantro",
+     "grams": 3,
+     "resolved": {
+      "id": "usda:2709782",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "pho ga",
+   "names": {
+    "en": "Pho ga",
+    "de": "Pho Ga"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "noodles",
+   "aliases": {
+    "en": [
+     "chicken pho",
+     "pho chicken",
+     "pho ga noodle soup",
+     "vietnamese chicken noodle soup",
+     "pho gà",
+     "chicken pho soup"
+    ],
+    "de": [
+     "pho mit huhn",
+     "pho mit hähnchen",
+     "hühner pho",
+     "vietnamesische hühnernudelsuppe",
+     "pho gà",
+     "pho ga suppe"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "chicken stock",
+     "grams": 350,
+     "resolved": {
+      "id": "bls:X411243",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked rice noodles",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:C559032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked chicken breast",
+     "grams": 90,
+     "resolved": {
+      "id": "bls:V416132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "bean sprouts",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:H650100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lime",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:F602100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "fish sauce",
+     "grams": 8,
+     "resolved": {
+      "id": "usda:2706457",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "hoisin sauce",
+     "grams": 5,
+     "resolved": {
+      "id": "usda:2707441",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "spring onion",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:G482100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cilantro",
+     "grams": 3,
+     "resolved": {
+      "id": "usda:2709782",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "basil",
+     "grams": 3,
+     "resolved": {
+      "id": "bls:G061000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "bun bo hue",
+   "names": {
+    "en": "Bun bo Hue",
+    "de": "Bun Bo Hue"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "noodles",
+   "aliases": {
+    "en": [
+     "bun bo hue soup",
+     "spicy beef noodle soup",
+     "hue beef noodle soup",
+     "bún bò huế",
+     "bun bo",
+     "bun bo hue noodles"
+    ],
+    "de": [
+     "bun bo hue suppe",
+     "scharfe rindfleisch nudelsuppe",
+     "bún bò huế",
+     "bun bo",
+     "vietnamesische scharfe nudelsuppe"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "beef stock",
+     "grams": 350,
+     "resolved": {
+      "id": "bls:Y183013",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked rice noodles",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:C559032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "braised beef",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:U281142",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "roast pork",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:Y352212",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "bean sprouts",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:H650100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lime",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:F602100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "fish sauce",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2706457",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 8,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "spring onion",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:G482100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 3,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "chili powder",
+     "grams": 2,
+     "resolved": {
+      "id": "ciqual:11088",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "bun cha",
+   "names": {
+    "en": "Bun cha",
+    "de": "Bun Cha"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "noodles",
+   "aliases": {
+    "en": [
+     "bun cha hanoi",
+     "vietnamese grilled pork with noodles",
+     "bún chả",
+     "bun cha noodles",
+     "hanoi grilled pork noodles",
+     "bun cha gio"
+    ],
+    "de": [
+     "bun cha hanoi",
+     "bún chả",
+     "gegrilltes schwein mit reisnudeln",
+     "vietnamesisches grillfleisch mit nudeln",
+     "bun cha nudeln"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked rice noodles",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:C559032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked ground pork",
+     "grams": 70,
+     "resolved": {
+      "id": "bls:U020182",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked pork belly",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:U57A172",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "water",
+     "grams": 60,
+     "resolved": {
+      "id": "usda:2710706",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lettuce",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G105100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "carrot",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "fish sauce",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2706457",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 12,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lime juice",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:F602600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "mint",
+     "grams": 4,
+     "resolved": {
+      "id": "ciqual:11027",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "garlic",
+     "grams": 3,
+     "resolved": {
+      "id": "bls:G490100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "red chili",
+     "grams": 2,
+     "resolved": {
+      "id": "bls:G554100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "banh mi",
+   "names": {
+    "en": "Banh mi",
+    "de": "Banh Mi"
+   },
+   "serving": {
+    "label": {
+     "en": "1 sandwich",
+     "de": "1 Sandwich"
+    },
+    "count": 1
+   },
+   "artworkID": "sandwich",
+   "aliases": {
+    "en": [
+     "bánh mì",
+     "banh mi sandwich",
+     "vietnamese sandwich",
+     "banh mi thit",
+     "vietnamese baguette",
+     "bahn mi",
+     "banhmi"
+    ],
+    "de": [
+     "bánh mì",
+     "banh mi sandwich",
+     "vietnamesisches sandwich",
+     "vietnamesisches baguette",
+     "bahn mi",
+     "banhmi"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "baguette",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:B781200",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "roast pork",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:Y352212",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "liver pate",
+     "grams": 20,
+     "reference": "bls:W395000"
+    },
+    {
+     "name": "pickled carrot",
+     "grams": 20,
+     "reference": "bls:G620802"
+    },
+    {
+     "name": "daikon",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G680100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cucumber",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G520100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "mayonnaise",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2710204",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "jalapeño",
+     "grams": 5,
+     "resolved": {
+      "id": "usda:2710096",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "soy sauce",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:R143000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cilantro",
+     "grams": 3,
+     "resolved": {
+      "id": "usda:2709782",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "summer rolls",
+   "names": {
+    "en": "Summer rolls",
+    "de": "Sommerrollen"
+   },
+   "serving": {
+    "label": {
+     "en": "2 rolls",
+     "de": "2 Rollen"
+    },
+    "count": 2
+   },
+   "artworkID": "neutral",
+   "aliases": {
+    "en": [
+     "vietnamese summer rolls",
+     "fresh spring rolls",
+     "goi cuon",
+     "rice paper rolls",
+     "shrimp summer rolls",
+     "summer roll",
+     "gỏi cuốn"
+    ],
+    "de": [
+     "sommerrolle",
+     "vietnamesische sommerrollen",
+     "reispapierrollen",
+     "goi cuon",
+     "frische frühlingsrollen",
+     "sommerrollen mit garnelen"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked rice noodles",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:C559032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked shrimp",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:T753132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lettuce",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G105100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "peanut sauce",
+     "grams": 30,
+     "resolved": {
+      "id": "usda:2707546",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "rice paper",
+     "grams": 20,
+     "reference": "usda:2708166"
+    },
+    {
+     "name": "cucumber",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G520100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "mint",
+     "grams": 3,
+     "resolved": {
+      "id": "ciqual:11027",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "basil",
+     "grams": 2,
+     "resolved": {
+      "id": "bls:G061000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "vietnamese fried spring rolls",
+   "names": {
+    "en": "Vietnamese fried spring rolls",
+    "de": "Vietnamesische Frühlingsrollen"
+   },
+   "serving": {
+    "label": {
+     "en": "4 rolls",
+     "de": "4 Rollen"
+    },
+    "count": 4
+   },
+   "artworkID": "neutral",
+   "aliases": {
+    "en": [
+     "cha gio",
+     "nem ran",
+     "chả giò",
+     "vietnamese spring rolls",
+     "fried spring rolls with pork",
+     "nem rán",
+     "imperial rolls"
+    ],
+    "de": [
+     "cha gio",
+     "nem ran",
+     "chả giò",
+     "vietnamesische frühlingsrolle",
+     "frittierte frühlingsrollen mit schweinefleisch",
+     "nem"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked ground pork",
+     "grams": 70,
+     "resolved": {
+      "id": "bls:U020182",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "water",
+     "grams": 25,
+     "resolved": {
+      "id": "usda:2710706",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "rice paper",
+     "grams": 25,
+     "reference": "usda:2708166"
+    },
+    {
+     "name": "lettuce",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G105100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked glass noodles",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:H030432",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "carrot",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "fish sauce",
+     "grams": 8,
+     "resolved": {
+      "id": "usda:2706457",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 6,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lime juice",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:F602600",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "com tam",
+   "names": {
+    "en": "Com tam",
+    "de": "Com Tam"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "rice",
+   "aliases": {
+    "en": [
+     "cơm tấm",
+     "broken rice with grilled pork",
+     "com tam suon",
+     "vietnamese broken rice",
+     "com tam suon nuong",
+     "broken rice pork chop"
+    ],
+    "de": [
+     "cơm tấm",
+     "bruchreis mit gegrilltem schwein",
+     "com tam suon",
+     "vietnamesischer bruchreis",
+     "bruchreis mit schweinekotelett"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked white rice",
+     "grams": 220,
+     "resolved": {
+      "id": "bls:C352032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "pork chop",
+     "grams": 130,
+     "resolved": {
+      "id": "bls:Y321222",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "fried egg",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:Y710142",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cucumber",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G520100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G561100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "water",
+     "grams": 25,
+     "resolved": {
+      "id": "usda:2710706",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "carrot",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "fish sauce",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2706457",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 8,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "spring onion",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:G482100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 5,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lime juice",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:F602600",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "banh xeo",
+   "names": {
+    "en": "Banh xeo",
+    "de": "Banh Xeo"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "pancakes",
+   "aliases": {
+    "en": [
+     "bánh xèo",
+     "vietnamese crepe",
+     "vietnamese pancake",
+     "sizzling crepe",
+     "banh xeo crepe",
+     "banh xeo pancake"
+    ],
+    "de": [
+     "bánh xèo",
+     "vietnamesischer pfannkuchen",
+     "vietnamesische crepe",
+     "banh xeo crepe",
+     "knuspriger reispfannkuchen"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "water",
+     "grams": 70,
+     "resolved": {
+      "id": "usda:2710706",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "bean sprouts",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:H650100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "rice flour",
+     "grams": 40,
+     "reference": "bls:C453000"
+    },
+    {
+     "name": "cooked shrimp",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:T753132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked pork belly",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:U57A172",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lettuce",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G105100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "coconut milk",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:H154000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "fish sauce",
+     "grams": 8,
+     "resolved": {
+      "id": "usda:2706457",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 6,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "mint",
+     "grams": 3,
+     "resolved": {
+      "id": "ciqual:11027",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "chicken tikka masala",
+   "names": {
+    "en": "Chicken tikka masala",
+    "de": "Chicken Tikka Masala"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "curry",
+   "aliases": {
+    "en": [
+     "tikka masala",
+     "chicken tikka masala curry",
+     "chicken tikka massala",
+     "chicken tika masala",
+     "ctm",
+     "tikka masala chicken"
+    ],
+    "de": [
+     "tikka masala",
+     "hähnchen tikka masala",
+     "chicken tikka massala",
+     "chicken tika masala",
+     "huhn tikka masala",
+     "tikka masala hähnchen"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "grilled chicken breast",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:V4A6172",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "passata",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:R161200",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "heavy cream",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:M173800",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "plain yoghurt",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:M141300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato paste",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:R160000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 8,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "garlic",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:G490100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "ginger",
+     "grams": 5,
+     "resolved": {
+      "id": "cofid:13-890",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "paprika",
+     "grams": 3,
+     "resolved": {
+      "id": "ciqual:11049",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "curry powder",
+     "grams": 3,
+     "resolved": {
+      "id": "ciqual:11005",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "butter chicken",
+   "names": {
+    "en": "Butter chicken",
+    "de": "Butter Chicken"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "curry",
+   "aliases": {
+    "en": [
+     "murgh makhani",
+     "chicken makhani",
+     "butter chicken curry",
+     "murg makhani",
+     "makhani chicken",
+     "buttered chicken curry"
+    ],
+    "de": [
+     "murgh makhani",
+     "butterhuhn",
+     "butter hähnchen",
+     "chicken makhani",
+     "butter chicken curry",
+     "butterhähnchen"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked chicken thigh",
+     "grams": 150,
+     "resolved": {
+      "id": "usda:2706044",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "passata",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:R161200",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "heavy cream",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:M173800",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "plain yoghurt",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:M141300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cashews",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:H170610",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "garlic",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:G490100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "ginger",
+     "grams": 5,
+     "resolved": {
+      "id": "cofid:13-890",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 4,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "curry powder",
+     "grams": 3,
+     "resolved": {
+      "id": "ciqual:11005",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "chili powder",
+     "grams": 2,
+     "resolved": {
+      "id": "ciqual:11088",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "chicken korma",
+   "names": {
+    "en": "Chicken korma",
+    "de": "Chicken Korma"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "curry",
+   "aliases": {
+    "en": [
+     "korma",
+     "chicken korma curry",
+     "murgh korma",
+     "chicken kurma",
+     "korma chicken",
+     "creamy korma"
+    ],
+    "de": [
+     "korma",
+     "hähnchen korma",
+     "huhn korma",
+     "chicken korma curry",
+     "chicken kurma",
+     "korma mit hähnchen"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked chicken thigh",
+     "grams": 150,
+     "resolved": {
+      "id": "usda:2706044",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 70,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "heavy cream",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:M173800",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "plain yoghurt",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:M141300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "almonds",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:H210100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "ghee",
+     "grams": 12,
+     "resolved": {
+      "id": "usda:2710168",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "desiccated coconut",
+     "grams": 8,
+     "resolved": {
+      "id": "cofid:14-873",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "garlic",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:G490100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "ginger",
+     "grams": 5,
+     "resolved": {
+      "id": "cofid:13-890",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 4,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "curry powder",
+     "grams": 3,
+     "resolved": {
+      "id": "ciqual:11005",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "chicken curry",
+   "skip": "one food the table already covers: \"chicken curry\" is a generic search phrase for the USDA chicken curry row"
+  },
+  {
+   "key": "chicken vindaloo",
+   "names": {
+    "en": "Chicken vindaloo",
+    "de": "Chicken Vindaloo"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "curry",
+   "aliases": {
+    "en": [
+     "vindaloo",
+     "chicken vindaloo curry",
+     "chicken vindalho",
+     "vindaloo chicken",
+     "goan vindaloo",
+     "chicken vindalu"
+    ],
+    "de": [
+     "vindaloo",
+     "hähnchen vindaloo",
+     "huhn vindaloo",
+     "chicken vindaloo curry",
+     "vindaloo mit hähnchen"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked chicken thigh",
+     "grams": 150,
+     "resolved": {
+      "id": "usda:2706044",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "canned tomatoes",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:G568900",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 70,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "boiled potatoes",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "wine vinegar",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:R121000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "garlic",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:G490100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "ginger",
+     "grams": 6,
+     "resolved": {
+      "id": "cofid:13-890",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "chili powder",
+     "grams": 4,
+     "resolved": {
+      "id": "ciqual:11088",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "paprika",
+     "grams": 3,
+     "resolved": {
+      "id": "ciqual:11049",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 3,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cumin",
+     "grams": 2,
+     "resolved": {
+      "id": "ciqual:11042",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "chicken jalfrezi",
+   "names": {
+    "en": "Chicken jalfrezi",
+    "de": "Chicken Jalfrezi"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "curry",
+   "aliases": {
+    "en": [
+     "jalfrezi",
+     "chicken jalfrezi curry",
+     "chicken jalfrazi",
+     "jalfrezi chicken",
+     "chicken jhalfrezi",
+     "chicken jalfreezi"
+    ],
+    "de": [
+     "jalfrezi",
+     "hähnchen jalfrezi",
+     "huhn jalfrezi",
+     "chicken jalfrezi curry",
+     "jalfrezi mit hähnchen"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "grilled chicken breast",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:V4A6172",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "canned tomatoes",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:G568900",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 70,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "green bell pepper",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:G541100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "green chili",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:G553100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "garlic",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:G490100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "ginger",
+     "grams": 5,
+     "resolved": {
+      "id": "cofid:13-890",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "curry powder",
+     "grams": 4,
+     "resolved": {
+      "id": "ciqual:11005",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cilantro",
+     "grams": 3,
+     "resolved": {
+      "id": "usda:2709782",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cumin",
+     "grams": 2,
+     "resolved": {
+      "id": "ciqual:11042",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "lamb rogan josh",
+   "names": {
+    "en": "Lamb rogan josh",
+    "de": "Lamm Rogan Josh"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "curry",
+   "aliases": {
+    "en": [
+     "rogan josh",
+     "lamb roganjosh",
+     "rogan gosht",
+     "lamb rogan josh curry",
+     "roghan josh",
+     "rogan josh lamb"
+    ],
+    "de": [
+     "rogan josh",
+     "lamm rogan josh",
+     "lammcurry rogan josh",
+     "rogan josh mit lamm",
+     "roghan josh",
+     "rogan gosht"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "roast lamb shoulder",
+     "grams": 160,
+     "resolved": {
+      "id": "cofid:18-179",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 70,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "canned tomatoes",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:G568900",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "plain yoghurt",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:M141300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "ghee",
+     "grams": 12,
+     "resolved": {
+      "id": "usda:2710168",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "garlic",
+     "grams": 6,
+     "resolved": {
+      "id": "bls:G490100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "ginger",
+     "grams": 6,
+     "resolved": {
+      "id": "cofid:13-890",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "chili powder",
+     "grams": 3,
+     "resolved": {
+      "id": "ciqual:11088",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "paprika",
+     "grams": 3,
+     "resolved": {
+      "id": "ciqual:11049",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "goan fish curry",
+   "names": {
+    "en": "Goan fish curry",
+    "de": "Goa-Fischcurry"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "curry",
+   "aliases": {
+    "en": [
+     "goan fish curry",
+     "goa fish curry",
+     "xitt kodi",
+     "fish curry goan style",
+     "goan coconut fish curry",
+     "ambot tik"
+    ],
+    "de": [
+     "goa fischcurry",
+     "fischcurry goa",
+     "goanisches fischcurry",
+     "fischcurry mit kokos",
+     "goa fisch curry"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked cod",
+     "grams": 160,
+     "resolved": {
+      "id": "bls:T204172",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "coconut milk",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:H154000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G561100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tamarind",
+     "grams": 8,
+     "reference": "usda:2709269"
+    },
+    {
+     "name": "green chili",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:G553100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "garlic",
+     "grams": 4,
+     "resolved": {
+      "id": "bls:G490100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "ginger",
+     "grams": 4,
+     "resolved": {
+      "id": "cofid:13-890",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "chili powder",
+     "grams": 3,
+     "resolved": {
+      "id": "ciqual:11088",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "turmeric",
+     "grams": 2,
+     "resolved": {
+      "id": "ciqual:11089",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "palak paneer",
+   "names": {
+    "en": "Palak paneer",
+    "de": "Palak Paneer"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "curry",
+   "aliases": {
+    "en": [
+     "saag paneer",
+     "spinach paneer",
+     "palak panir",
+     "paneer palak",
+     "spinach and paneer curry",
+     "sag paneer"
+    ],
+    "de": [
+     "saag paneer",
+     "spinat paneer",
+     "palak panir",
+     "paneer mit spinat",
+     "spinat mit indischem käse",
+     "sag paneer"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked spinach",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:G210132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "paneer",
+     "grams": 100,
+     "resolved": {
+      "id": "cofid:12-495",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G561100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "heavy cream",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:M173800",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "ghee",
+     "grams": 12,
+     "resolved": {
+      "id": "usda:2710168",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "garlic",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:G490100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "ginger",
+     "grams": 5,
+     "resolved": {
+      "id": "cofid:13-890",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "green chili",
+     "grams": 4,
+     "resolved": {
+      "id": "bls:G553100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cumin",
+     "grams": 2,
+     "resolved": {
+      "id": "ciqual:11042",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "paneer tikka masala",
+   "names": {
+    "en": "Paneer tikka masala",
+    "de": "Paneer Tikka Masala"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "curry",
+   "aliases": {
+    "en": [
+     "paneer tikka masala curry",
+     "paneer masala",
+     "paneer tikka massala",
+     "tikka masala paneer",
+     "panir tikka masala"
+    ],
+    "de": [
+     "paneer tikka massala",
+     "paneer masala",
+     "tikka masala mit paneer",
+     "panir tikka masala",
+     "paneer tikka masala curry"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "paneer",
+     "grams": 130,
+     "resolved": {
+      "id": "cofid:12-495",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "passata",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:R161200",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "red bell pepper",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G543100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "heavy cream",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:M173800",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "plain yoghurt",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:M141300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "garlic",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:G490100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "ginger",
+     "grams": 5,
+     "resolved": {
+      "id": "cofid:13-890",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "paprika",
+     "grams": 3,
+     "resolved": {
+      "id": "ciqual:11049",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "curry powder",
+     "grams": 3,
+     "resolved": {
+      "id": "ciqual:11005",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "matar paneer",
+   "names": {
+    "en": "Matar paneer",
+    "de": "Matar Paneer"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "curry",
+   "aliases": {
+    "en": [
+     "mutter paneer",
+     "mattar paneer",
+     "peas and paneer",
+     "paneer peas curry",
+     "matar panir",
+     "mutter panir"
+    ],
+    "de": [
+     "mutter paneer",
+     "mattar paneer",
+     "erbsen paneer",
+     "paneer mit erbsen",
+     "matar panir",
+     "erbsen mit paneer"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "paneer",
+     "grams": 100,
+     "resolved": {
+      "id": "cofid:12-495",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "green peas",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:G760132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "canned tomatoes",
+     "grams": 90,
+     "resolved": {
+      "id": "bls:G568900",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 12,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "heavy cream",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:M173800",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "garlic",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:G490100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "ginger",
+     "grams": 5,
+     "resolved": {
+      "id": "cofid:13-890",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cumin",
+     "grams": 2,
+     "resolved": {
+      "id": "ciqual:11042",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "turmeric",
+     "grams": 2,
+     "resolved": {
+      "id": "ciqual:11089",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "chili powder",
+     "grams": 2,
+     "resolved": {
+      "id": "ciqual:11088",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "malai kofta",
+   "names": {
+    "en": "Malai kofta",
+    "de": "Malai Kofta"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "curry",
+   "aliases": {
+    "en": [
+     "malai kofta curry",
+     "malai kofte",
+     "paneer kofta",
+     "vegetable kofta curry",
+     "kofta curry",
+     "malai koftas"
+    ],
+    "de": [
+     "malai kofta curry",
+     "malai kofte",
+     "paneer kofta",
+     "gemüsebällchen in sahnesauce",
+     "kofta curry"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "boiled potatoes",
+     "grams": 90,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "canned tomatoes",
+     "grams": 70,
+     "resolved": {
+      "id": "bls:G568900",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "paneer",
+     "grams": 50,
+     "resolved": {
+      "id": "cofid:12-495",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "heavy cream",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:M173800",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 18,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cashews",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:H170610",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cornstarch",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:C446000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "garlic",
+     "grams": 4,
+     "resolved": {
+      "id": "bls:G490100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "ginger",
+     "grams": 4,
+     "resolved": {
+      "id": "cofid:13-890",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 3,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "chana masala",
+   "names": {
+    "en": "Chana masala",
+    "de": "Chana Masala"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "curry",
+   "aliases": {
+    "en": [
+     "chole",
+     "chickpea curry",
+     "channa masala",
+     "chana masala curry",
+     "chole masala",
+     "chickpea masala"
+    ],
+    "de": [
+     "kichererbsencurry",
+     "chole",
+     "channa masala",
+     "kichererbsen curry",
+     "chana masala curry",
+     "chole masala"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked chickpeas",
+     "grams": 220,
+     "resolved": {
+      "id": "bls:G770432",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "canned tomatoes",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:G568900",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 70,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 12,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "garlic",
+     "grams": 6,
+     "resolved": {
+      "id": "bls:G490100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "ginger",
+     "grams": 6,
+     "resolved": {
+      "id": "cofid:13-890",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lemon juice",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:F601600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "green chili",
+     "grams": 4,
+     "resolved": {
+      "id": "bls:G553100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cilantro",
+     "grams": 3,
+     "resolved": {
+      "id": "usda:2709782",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cumin",
+     "grams": 2,
+     "resolved": {
+      "id": "ciqual:11042",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "chili powder",
+     "grams": 2,
+     "resolved": {
+      "id": "ciqual:11088",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "dal makhani",
+   "names": {
+    "en": "Dal makhani",
+    "de": "Dal Makhani"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "curry",
+   "aliases": {
+    "en": [
+     "daal makhani",
+     "dal makhni",
+     "maa ki dal",
+     "black dal",
+     "black lentil dal",
+     "dhal makhani"
+    ],
+    "de": [
+     "daal makhani",
+     "dal makhni",
+     "schwarze linsen dal",
+     "dal makhani curry",
+     "dhal makhani"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "black gram, boiled",
+     "grams": 180,
+     "reference": "cofid:13-057"
+    },
+    {
+     "name": "canned tomatoes",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:G568900",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "kidney beans",
+     "grams": 40,
+     "resolved": {
+      "id": "usda:2707383",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "heavy cream",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:M173800",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "garlic",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:G490100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "ginger",
+     "grams": 5,
+     "resolved": {
+      "id": "cofid:13-890",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "chili powder",
+     "grams": 2,
+     "resolved": {
+      "id": "ciqual:11088",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "dal tadka",
+   "names": {
+    "en": "Dal tadka",
+    "de": "Dal Tadka"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "curry",
+   "aliases": {
+    "en": [
+     "dal tarka",
+     "dhal tadka",
+     "daal tadka",
+     "yellow dal",
+     "tadka dal",
+     "dal fry",
+     "toor dal tadka"
+    ],
+    "de": [
+     "dal tarka",
+     "dhal tadka",
+     "daal tadka",
+     "gelbes dal",
+     "linsen dal",
+     "dal fry"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked lentils",
+     "grams": 280,
+     "resolved": {
+      "id": "usda:2707425",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G561100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "ghee",
+     "grams": 12,
+     "resolved": {
+      "id": "usda:2710168",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "garlic",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:G490100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "ginger",
+     "grams": 4,
+     "resolved": {
+      "id": "cofid:13-890",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "green chili",
+     "grams": 3,
+     "resolved": {
+      "id": "bls:G553100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cilantro",
+     "grams": 3,
+     "resolved": {
+      "id": "usda:2709782",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cumin",
+     "grams": 2,
+     "resolved": {
+      "id": "ciqual:11042",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "turmeric",
+     "grams": 2,
+     "resolved": {
+      "id": "ciqual:11089",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "aloo gobi",
+   "names": {
+    "en": "Aloo gobi",
+    "de": "Aloo Gobi"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "curry",
+   "aliases": {
+    "en": [
+     "aloo gobhi",
+     "alu gobi",
+     "potato cauliflower curry",
+     "cauliflower and potato curry",
+     "gobi aloo",
+     "aloo gobi sabzi"
+    ],
+    "de": [
+     "aloo gobhi",
+     "alu gobi",
+     "kartoffel blumenkohl curry",
+     "blumenkohl kartoffel curry",
+     "gobi aloo"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "boiled potatoes",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked cauliflower",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:G311132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:G561100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "ginger",
+     "grams": 5,
+     "resolved": {
+      "id": "cofid:13-890",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "garlic",
+     "grams": 4,
+     "resolved": {
+      "id": "bls:G490100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cilantro",
+     "grams": 3,
+     "resolved": {
+      "id": "usda:2709782",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cumin",
+     "grams": 2,
+     "resolved": {
+      "id": "ciqual:11042",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "turmeric",
+     "grams": 2,
+     "resolved": {
+      "id": "ciqual:11089",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "saag aloo",
+   "names": {
+    "en": "Saag aloo",
+    "de": "Saag Aloo"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "curry",
+   "aliases": {
+    "en": [
+     "sag aloo",
+     "aloo palak",
+     "spinach and potato curry",
+     "saag alu",
+     "palak aloo",
+     "potato spinach curry"
+    ],
+    "de": [
+     "sag aloo",
+     "aloo palak",
+     "spinat kartoffel curry",
+     "kartoffeln mit spinat indisch",
+     "palak aloo"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "boiled potatoes",
+     "grams": 180,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked spinach",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:G210132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "garlic",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:G490100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "ginger",
+     "grams": 5,
+     "resolved": {
+      "id": "cofid:13-890",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "green chili",
+     "grams": 3,
+     "resolved": {
+      "id": "bls:G553100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cumin",
+     "grams": 2,
+     "resolved": {
+      "id": "ciqual:11042",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "chicken biryani",
+   "names": {
+    "en": "Chicken biryani",
+    "de": "Hähnchen-Biryani"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "rice",
+   "aliases": {
+    "en": [
+     "biryani",
+     "chicken biriyani",
+     "chicken briyani",
+     "murgh biryani",
+     "hyderabadi chicken biryani",
+     "chicken biriani"
+    ],
+    "de": [
+     "biryani",
+     "hähnchen biryani",
+     "chicken biryani",
+     "huhn biryani",
+     "biryani mit hähnchen",
+     "chicken biriyani"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked white rice",
+     "grams": 250,
+     "resolved": {
+      "id": "bls:C352032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked chicken thigh",
+     "grams": 130,
+     "resolved": {
+      "id": "usda:2706044",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "plain yoghurt",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:M141300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G561100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "crispy fried onions",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:X5A9030",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "ghee",
+     "grams": 12,
+     "resolved": {
+      "id": "usda:2710168",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "garlic",
+     "grams": 4,
+     "resolved": {
+      "id": "bls:G490100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "ginger",
+     "grams": 4,
+     "resolved": {
+      "id": "cofid:13-890",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "mint",
+     "grams": 3,
+     "resolved": {
+      "id": "ciqual:11027",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cilantro",
+     "grams": 3,
+     "resolved": {
+      "id": "usda:2709782",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "curry powder",
+     "grams": 3,
+     "resolved": {
+      "id": "ciqual:11005",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "vegetable biryani",
+   "names": {
+    "en": "Vegetable biryani",
+    "de": "Gemüse-Biryani"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "rice",
+   "aliases": {
+    "en": [
+     "veg biryani",
+     "veggie biryani",
+     "vegetable biriyani",
+     "veg biriyani",
+     "vegetarian biryani",
+     "subz biryani"
+    ],
+    "de": [
+     "gemüse biryani",
+     "vegetarisches biryani",
+     "veg biryani",
+     "biryani mit gemüse",
+     "gemüsebiryani"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked white rice",
+     "grams": 250,
+     "resolved": {
+      "id": "bls:C352032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked mixed vegetables",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:G090132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "green peas",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G760132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "plain yoghurt",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:M141300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "crispy fried onions",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:X5A9030",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "ghee",
+     "grams": 12,
+     "resolved": {
+      "id": "usda:2710168",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cashews",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:H170610",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "ginger",
+     "grams": 4,
+     "resolved": {
+      "id": "cofid:13-890",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "mint",
+     "grams": 3,
+     "resolved": {
+      "id": "ciqual:11027",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cilantro",
+     "grams": 3,
+     "resolved": {
+      "id": "usda:2709782",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "curry powder",
+     "grams": 3,
+     "resolved": {
+      "id": "ciqual:11005",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "tandoori chicken",
+   "names": {
+    "en": "Tandoori chicken",
+    "de": "Tandoori-Hähnchen"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "poultry",
+   "aliases": {
+    "en": [
+     "tandoori chicken legs",
+     "chicken tandoori",
+     "tandoori murgh",
+     "tandoori chicken leg",
+     "tandoori",
+     "tandori chicken"
+    ],
+    "de": [
+     "tandoori hähnchen",
+     "tandoori huhn",
+     "chicken tandoori",
+     "tandoori hühnchen",
+     "tandoori chicken",
+     "tandori hähnchen"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked chicken thigh",
+     "grams": 220,
+     "resolved": {
+      "id": "usda:2706044",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "plain yoghurt",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:M141300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lemon juice",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:F601600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 5,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "garlic",
+     "grams": 4,
+     "resolved": {
+      "id": "bls:G490100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "ginger",
+     "grams": 4,
+     "resolved": {
+      "id": "cofid:13-890",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "chili powder",
+     "grams": 3,
+     "resolved": {
+      "id": "ciqual:11088",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "paprika",
+     "grams": 3,
+     "resolved": {
+      "id": "ciqual:11049",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "chicken tikka",
+   "names": {
+    "en": "Chicken tikka",
+    "de": "Chicken Tikka"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "poultry",
+   "aliases": {
+    "en": [
+     "chicken tikka kebab",
+     "murgh tikka",
+     "chicken tikka starter",
+     "chicken tikka skewers",
+     "tikka chicken",
+     "chicken tika"
+    ],
+    "de": [
+     "hähnchen tikka",
+     "chicken tikka spieße",
+     "huhn tikka",
+     "murgh tikka",
+     "chicken tika"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "grilled chicken breast",
+     "grams": 180,
+     "resolved": {
+      "id": "bls:V4A6172",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "green bell pepper",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G541100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "plain yoghurt",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:M141300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 5,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lemon juice",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:F601600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "garlic",
+     "grams": 4,
+     "resolved": {
+      "id": "bls:G490100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "ginger",
+     "grams": 4,
+     "resolved": {
+      "id": "cofid:13-890",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "paprika",
+     "grams": 3,
+     "resolved": {
+      "id": "ciqual:11049",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "chili powder",
+     "grams": 2,
+     "resolved": {
+      "id": "ciqual:11088",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "seekh kebab",
+   "names": {
+    "en": "Seekh kebab",
+    "de": "Seekh Kebab"
+   },
+   "serving": {
+    "label": {
+     "en": "2 kebabs",
+     "de": "2 Kebabs"
+    },
+    "count": 2
+   },
+   "artworkID": "meat",
+   "aliases": {
+    "en": [
+     "seekh kebabs",
+     "sheek kebab",
+     "shish kebab indian",
+     "lamb seekh kebab",
+     "seek kebab",
+     "seekh kabab"
+    ],
+    "de": [
+     "seekh kebabs",
+     "sheek kebab",
+     "lamm seekh kebab",
+     "indischer hackfleischspieß",
+     "seek kebab",
+     "seekh kabab"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "ground lamb",
+     "grams": 160,
+     "resolved": {
+      "id": "usda:2705907",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cilantro",
+     "grams": 4,
+     "resolved": {
+      "id": "usda:2709782",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "green chili",
+     "grams": 4,
+     "resolved": {
+      "id": "bls:G553100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "garlic",
+     "grams": 4,
+     "resolved": {
+      "id": "bls:G490100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "ginger",
+     "grams": 4,
+     "resolved": {
+      "id": "cofid:13-890",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "mint",
+     "grams": 3,
+     "resolved": {
+      "id": "ciqual:11027",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cumin",
+     "grams": 2,
+     "resolved": {
+      "id": "ciqual:11042",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "chili powder",
+     "grams": 2,
+     "resolved": {
+      "id": "ciqual:11088",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "vegetable samosas",
+   "names": {
+    "en": "Vegetable samosas",
+    "de": "Gemüse-Samosas"
+   },
+   "serving": {
+    "label": {
+     "en": "2 samosas",
+     "de": "2 Samosas"
+    },
+    "count": 2
+   },
+   "artworkID": "neutral",
+   "aliases": {
+    "en": [
+     "veg samosa",
+     "vegetable samosa",
+     "samosas",
+     "potato samosa",
+     "aloo samosa",
+     "samosa",
+     "veggie samosas"
+    ],
+    "de": [
+     "gemüse samosa",
+     "samosa",
+     "samosas",
+     "kartoffel samosa",
+     "vegetarische samosas",
+     "gemüsesamosas"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "boiled potatoes",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "wheat flour",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "green peas",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:G760132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 22,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "water",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2710706",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "green chili",
+     "grams": 3,
+     "resolved": {
+      "id": "bls:G553100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cilantro",
+     "grams": 2,
+     "resolved": {
+      "id": "usda:2709782",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cumin",
+     "grams": 2,
+     "resolved": {
+      "id": "ciqual:11042",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "onion bhaji",
+   "names": {
+    "en": "Onion bhaji",
+    "de": "Onion Bhaji"
+   },
+   "serving": {
+    "label": {
+     "en": "3 bhajis",
+     "de": "3 Bhajis"
+    },
+    "count": 3
+   },
+   "artworkID": "neutral",
+   "aliases": {
+    "en": [
+     "onion bhajis",
+     "onion bhajee",
+     "onion pakora",
+     "kanda bhaji",
+     "onion bajji",
+     "onion fritters indian"
+    ],
+    "de": [
+     "zwiebel bhaji",
+     "onion bhajis",
+     "zwiebelbhaji",
+     "zwiebel pakora",
+     "indische zwiebelpuffer",
+     "onion bhajee"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "onion",
+     "grams": 90,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "chickpea flour",
+     "grams": 35,
+     "resolved": {
+      "id": "bls:H720400",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "water",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2710706",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cilantro",
+     "grams": 3,
+     "resolved": {
+      "id": "usda:2709782",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cumin",
+     "grams": 2,
+     "resolved": {
+      "id": "ciqual:11042",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "chili powder",
+     "grams": 2,
+     "resolved": {
+      "id": "ciqual:11088",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "vegetable pakoras",
+   "names": {
+    "en": "Vegetable pakoras",
+    "de": "Gemüse-Pakoras"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "neutral",
+   "aliases": {
+    "en": [
+     "veg pakora",
+     "vegetable pakora",
+     "pakoras",
+     "mixed pakora",
+     "bhajia",
+     "vegetable fritters indian",
+     "pakora"
+    ],
+    "de": [
+     "gemüse pakora",
+     "pakoras",
+     "pakora",
+     "gemüsepakoras",
+     "indische gemüsepuffer",
+     "gemischte pakora"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "onion",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "boiled potatoes",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cauliflower",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G311100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "chickpea flour",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:H720400",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "water",
+     "grams": 30,
+     "resolved": {
+      "id": "usda:2710706",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "spinach",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G211100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 18,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cumin",
+     "grams": 2,
+     "resolved": {
+      "id": "ciqual:11042",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "chili powder",
+     "grams": 2,
+     "resolved": {
+      "id": "ciqual:11088",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "masala dosa",
+   "names": {
+    "en": "Masala dosa",
+    "de": "Masala Dosa"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "pancakes",
+   "aliases": {
+    "en": [
+     "masala dose",
+     "masala dosai",
+     "potato dosa",
+     "dosa masala",
+     "mysore masala dosa",
+     "masala dhosa"
+    ],
+    "de": [
+     "masala dose",
+     "masala dosai",
+     "dosa mit kartoffelfüllung",
+     "dosa masala",
+     "masala dhosa"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "boiled potatoes",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "dosa",
+     "grams": 100,
+     "reference": "usda:2708347"
+    },
+    {
+     "name": "sambar",
+     "grams": 100,
+     "reference": "cofid:12-467"
+    },
+    {
+     "name": "onion",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "green chili",
+     "grams": 3,
+     "resolved": {
+      "id": "bls:G553100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "idli sambar",
+   "names": {
+    "en": "Idli sambar",
+    "de": "Idli mit Sambar"
+   },
+   "serving": {
+    "label": {
+     "en": "3 idli with sambar",
+     "de": "3 Idli mit Sambar"
+    },
+    "count": 1
+   },
+   "artworkID": "neutral",
+   "aliases": {
+    "en": [
+     "idli with sambar",
+     "idly sambar",
+     "idli sambhar",
+     "sambar idli",
+     "idlis with sambar",
+     "idli and sambar"
+    ],
+    "de": [
+     "idli sambar",
+     "idly sambar",
+     "idli mit sambhar",
+     "sambar idli",
+     "reisküchlein mit sambar"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "sambar",
+     "grams": 200,
+     "reference": "cofid:12-467"
+    },
+    {
+     "name": "idli",
+     "grams": 120,
+     "reference": "usda:2708346"
+    }
+   ]
+  },
+  {
+   "key": "chole bhature",
+   "names": {
+    "en": "Chole bhature",
+    "de": "Chole Bhature"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "curry",
+   "aliases": {
+    "en": [
+     "chole bature",
+     "chana bhatura",
+     "chole bhatura",
+     "chhole bhature",
+     "chickpea curry with fried bread",
+     "chole bhaturey"
+    ],
+    "de": [
+     "chole bature",
+     "chana bhatura",
+     "chole bhatura",
+     "kichererbsencurry mit frittiertem brot",
+     "chhole bhature"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked chickpeas",
+     "grams": 180,
+     "resolved": {
+      "id": "bls:G770432",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "wheat flour",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "canned tomatoes",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:G568900",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 35,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "water",
+     "grams": 30,
+     "resolved": {
+      "id": "usda:2710706",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "plain yoghurt",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:M141300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "garlic",
+     "grams": 4,
+     "resolved": {
+      "id": "bls:G490100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "ginger",
+     "grams": 4,
+     "resolved": {
+      "id": "cofid:13-890",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "chili powder",
+     "grams": 2,
+     "resolved": {
+      "id": "ciqual:11088",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "pav bhaji",
+   "names": {
+    "en": "Pav bhaji",
+    "de": "Pav Bhaji"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "curry",
+   "aliases": {
+    "en": [
+     "pao bhaji",
+     "pav bhaaji",
+     "mumbai pav bhaji",
+     "bhaji pav",
+     "pav bhaji with buns",
+     "paav bhaji"
+    ],
+    "de": [
+     "pao bhaji",
+     "pav bhaaji",
+     "mumbai pav bhaji",
+     "gemüsecurry mit brötchen",
+     "paav bhaji"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "boiled potatoes",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "bread roll",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:B511000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato",
+     "grams": 70,
+     "resolved": {
+      "id": "bls:G561100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked cauliflower",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G311132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "green peas",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G760132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "green bell pepper",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G541100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lemon juice",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:F601600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cilantro",
+     "grams": 3,
+     "resolved": {
+      "id": "usda:2709782",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "chili powder",
+     "grams": 3,
+     "resolved": {
+      "id": "ciqual:11088",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "aloo paratha",
+   "names": {
+    "en": "Aloo paratha",
+    "de": "Aloo Paratha"
+   },
+   "serving": {
+    "label": {
+     "en": "2 parathas",
+     "de": "2 Parathas"
+    },
+    "count": 2
+   },
+   "artworkID": "flatbread",
+   "aliases": {
+    "en": [
+     "aloo parantha",
+     "alu paratha",
+     "potato paratha",
+     "stuffed paratha",
+     "aloo prantha",
+     "potato stuffed flatbread"
+    ],
+    "de": [
+     "alu paratha",
+     "kartoffel paratha",
+     "aloo parantha",
+     "gefülltes fladenbrot mit kartoffeln",
+     "indisches kartoffelbrot"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "boiled potatoes",
+     "grams": 160,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "wholemeal flour",
+     "grams": 120,
+     "resolved": {
+      "id": "cofid:11-889",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "water",
+     "grams": 70,
+     "resolved": {
+      "id": "usda:2710706",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "ghee",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2710168",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "green chili",
+     "grams": 4,
+     "resolved": {
+      "id": "bls:G553100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cilantro",
+     "grams": 4,
+     "resolved": {
+      "id": "usda:2709782",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "chili con carne",
+   "names": {
+    "en": "Chili con carne",
+    "de": "Chili con Carne"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "soup",
+   "aliases": {
+    "en": [
+     "chilli con carne",
+     "chili",
+     "beef chili",
+     "chile con carne",
+     "chilli",
+     "chili with beans",
+     "chili con carne with beans"
+    ],
+    "de": [
+     "chilli con carne",
+     "chili",
+     "chilli",
+     "chile con carne",
+     "chili mit bohnen",
+     "chili con carne mit hackfleisch"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked ground beef",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:U010182",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "canned tomatoes",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:G568900",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "kidney beans",
+     "grams": 100,
+     "resolved": {
+      "id": "usda:2707383",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "red bell pepper",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G543100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato paste",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:R160000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 8,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "garlic",
+     "grams": 4,
+     "resolved": {
+      "id": "bls:G490100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "chili powder",
+     "grams": 3,
+     "resolved": {
+      "id": "ciqual:11088",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cumin",
+     "grams": 2,
+     "resolved": {
+      "id": "ciqual:11042",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "vegetarian chili",
+   "names": {
+    "en": "Vegetarian chili",
+    "de": "Chili sin Carne"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "soup",
+   "aliases": {
+    "en": [
+     "veggie chili",
+     "vegetable chili",
+     "chili sin carne",
+     "bean chili",
+     "vegan chili",
+     "vegetarian chilli",
+     "three bean chili"
+    ],
+    "de": [
+     "vegetarisches chili",
+     "veganes chili",
+     "chili sin carne",
+     "gemüsechili",
+     "bohnenchili",
+     "chilli sin carne"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "canned tomatoes",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:G568900",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "kidney beans",
+     "grams": 100,
+     "resolved": {
+      "id": "usda:2707383",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "black beans",
+     "grams": 70,
+     "resolved": {
+      "id": "usda:2707363",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "red bell pepper",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:G543100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "zucchini",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:G582100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sweetcorn",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G570100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato paste",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:R160000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "olive oil",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:Q120000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "garlic",
+     "grams": 4,
+     "resolved": {
+      "id": "bls:G490100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "chili powder",
+     "grams": 2,
+     "resolved": {
+      "id": "ciqual:11088",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cumin",
+     "grams": 2,
+     "resolved": {
+      "id": "ciqual:11042",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "beef tacos",
+   "names": {
+    "en": "Beef tacos",
+    "de": "Rindfleisch-Tacos"
+   },
+   "serving": {
+    "label": {
+     "en": "3 tacos",
+     "de": "3 Tacos"
+    },
+    "count": 3
+   },
+   "artworkID": "taco",
+   "aliases": {
+    "en": [
+     "ground beef tacos",
+     "taco beef",
+     "hard shell tacos",
+     "beef taco",
+     "crunchy beef tacos",
+     "tacos with beef",
+     "tacos de carne"
+    ],
+    "de": [
+     "tacos mit rindfleisch",
+     "tacos mit hackfleisch",
+     "hackfleisch tacos",
+     "rinder tacos",
+     "beef tacos",
+     "taco mit rinderhack"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked ground beef",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:U010182",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "taco shells, corn",
+     "grams": 40,
+     "reference": "usda:2707826"
+    },
+    {
+     "name": "iceberg lettuce",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G103100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G561100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cheddar",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:M303600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sour cream",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2705614",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato salsa",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2709739",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "chicken tacos",
+   "names": {
+    "en": "Chicken tacos",
+    "de": "Hähnchen-Tacos"
+   },
+   "serving": {
+    "label": {
+     "en": "3 tacos",
+     "de": "3 Tacos"
+    },
+    "count": 3
+   },
+   "artworkID": "taco",
+   "aliases": {
+    "en": [
+     "chicken taco",
+     "tacos de pollo",
+     "soft chicken tacos",
+     "grilled chicken tacos",
+     "shredded chicken tacos",
+     "tacos with chicken"
+    ],
+    "de": [
+     "tacos mit hähnchen",
+     "hähnchen taco",
+     "chicken tacos",
+     "hühnchen tacos",
+     "tacos de pollo"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked chicken thigh",
+     "grams": 100,
+     "resolved": {
+      "id": "usda:2706044",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "corn tortilla",
+     "grams": 78,
+     "resolved": {
+      "id": "usda:2707823",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "pico de gallo",
+     "grams": 40,
+     "resolved": {
+      "id": "usda:2709737",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "guacamole",
+     "grams": 25,
+     "resolved": {
+      "id": "usda:2709307",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lime juice",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:F602600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cilantro",
+     "grams": 4,
+     "resolved": {
+      "id": "usda:2709782",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "fish tacos",
+   "names": {
+    "en": "Fish tacos",
+    "de": "Fisch-Tacos"
+   },
+   "serving": {
+    "label": {
+     "en": "3 tacos",
+     "de": "3 Tacos"
+    },
+    "count": 3
+   },
+   "artworkID": "taco",
+   "aliases": {
+    "en": [
+     "fish taco",
+     "baja fish tacos",
+     "tacos de pescado",
+     "battered fish tacos",
+     "baja tacos",
+     "crispy fish tacos"
+    ],
+    "de": [
+     "fisch tacos",
+     "tacos mit fisch",
+     "baja fisch tacos",
+     "fischtaco",
+     "tacos de pescado"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "battered fish",
+     "grams": 100,
+     "resolved": {
+      "id": "cofid:16-369",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "corn tortilla",
+     "grams": 78,
+     "resolved": {
+      "id": "usda:2707823",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "white cabbage",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G342100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "pico de gallo",
+     "grams": 30,
+     "resolved": {
+      "id": "usda:2709737",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sour cream",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2705614",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "mayonnaise",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2710204",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lime juice",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:F602600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cilantro",
+     "grams": 3,
+     "resolved": {
+      "id": "usda:2709782",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "tacos al pastor",
+   "names": {
+    "en": "Tacos al pastor",
+    "de": "Tacos al Pastor"
+   },
+   "serving": {
+    "label": {
+     "en": "3 tacos",
+     "de": "3 Tacos"
+    },
+    "count": 3
+   },
+   "artworkID": "taco",
+   "aliases": {
+    "en": [
+     "al pastor tacos",
+     "taco al pastor",
+     "pastor tacos",
+     "tacos pastor",
+     "pork al pastor tacos",
+     "tacos al pastor with pineapple"
+    ],
+    "de": [
+     "al pastor tacos",
+     "taco al pastor",
+     "tacos pastor",
+     "tacos mit schweinefleisch und ananas",
+     "pastor tacos"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "roast pork",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:Y352212",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "corn tortilla",
+     "grams": 78,
+     "resolved": {
+      "id": "usda:2707823",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "pineapple",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:F501100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato salsa",
+     "grams": 25,
+     "resolved": {
+      "id": "usda:2709739",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lime juice",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:F602600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cilantro",
+     "grams": 4,
+     "resolved": {
+      "id": "usda:2709782",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "carnitas tacos",
+   "names": {
+    "en": "Carnitas tacos",
+    "de": "Carnitas-Tacos"
+   },
+   "serving": {
+    "label": {
+     "en": "3 tacos",
+     "de": "3 Tacos"
+    },
+    "count": 3
+   },
+   "artworkID": "taco",
+   "aliases": {
+    "en": [
+     "carnitas",
+     "taco carnitas",
+     "tacos de carnitas",
+     "pulled pork tacos",
+     "carnitas taco",
+     "pork carnitas tacos"
+    ],
+    "de": [
+     "carnitas",
+     "tacos mit carnitas",
+     "tacos de carnitas",
+     "pulled pork tacos",
+     "carnitas taco"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "roast pork",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:Y352212",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "corn tortilla",
+     "grams": 78,
+     "resolved": {
+      "id": "usda:2707823",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato salsa",
+     "grams": 25,
+     "resolved": {
+      "id": "usda:2709739",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lard",
+     "grams": 5,
+     "reference": "usda:2710166"
+    },
+    {
+     "name": "lime juice",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:F602600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cilantro",
+     "grams": 4,
+     "resolved": {
+      "id": "usda:2709782",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "birria tacos",
+   "names": {
+    "en": "Birria tacos",
+    "de": "Birria-Tacos"
+   },
+   "serving": {
+    "label": {
+     "en": "3 tacos",
+     "de": "3 Tacos"
+    },
+    "count": 3
+   },
+   "artworkID": "taco",
+   "aliases": {
+    "en": [
+     "birria",
+     "quesabirria",
+     "birria taco",
+     "quesabirria tacos",
+     "beef birria tacos",
+     "tacos de birria"
+    ],
+    "de": [
+     "birria",
+     "quesabirria",
+     "birria taco",
+     "tacos de birria",
+     "birria tacos mit consommé"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "beef stock",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:Y183013",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "braised beef",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:U281142",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "corn tortilla",
+     "grams": 78,
+     "resolved": {
+      "id": "usda:2707823",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "mozzarella",
+     "grams": 30,
+     "resolved": {
+      "id": "usda:2705722",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "enchilada sauce",
+     "grams": 30,
+     "resolved": {
+      "id": "usda:2709741",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 8,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lime juice",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:F602600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cilantro",
+     "grams": 4,
+     "resolved": {
+      "id": "usda:2709782",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "chicken burrito",
+   "names": {
+    "en": "Chicken burrito",
+    "de": "Hähnchen-Burrito"
+   },
+   "serving": {
+    "label": {
+     "en": "1 burrito",
+     "de": "1 Burrito"
+    },
+    "count": 1
+   },
+   "artworkID": "burrito",
+   "aliases": {
+    "en": [
+     "burrito with chicken",
+     "grilled chicken burrito",
+     "burrito de pollo",
+     "chicken burito",
+     "chicken burritto",
+     "chicken and rice burrito"
+    ],
+    "de": [
+     "burrito mit hähnchen",
+     "hähnchenburrito",
+     "hühnchen burrito",
+     "chicken burrito",
+     "chicken burito"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked white rice",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:C352032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "grilled chicken breast",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:V4A6172",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "flour tortilla",
+     "grams": 75,
+     "resolved": {
+      "id": "usda:2707824",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "black beans",
+     "grams": 60,
+     "resolved": {
+      "id": "usda:2707363",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "pico de gallo",
+     "grams": 40,
+     "resolved": {
+      "id": "usda:2709737",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cheddar",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:M303600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sour cream",
+     "grams": 25,
+     "resolved": {
+      "id": "usda:2705614",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lettuce",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G105100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "beef burrito",
+   "names": {
+    "en": "Beef burrito",
+    "de": "Rindfleisch-Burrito"
+   },
+   "serving": {
+    "label": {
+     "en": "1 burrito",
+     "de": "1 Burrito"
+    },
+    "count": 1
+   },
+   "artworkID": "burrito",
+   "aliases": {
+    "en": [
+     "burrito with beef",
+     "ground beef burrito",
+     "burrito de carne",
+     "beef burito",
+     "beef burritto",
+     "mince burrito"
+    ],
+    "de": [
+     "burrito mit rindfleisch",
+     "burrito mit hackfleisch",
+     "hackfleisch burrito",
+     "rinder burrito",
+     "beef burrito"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked white rice",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:C352032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked ground beef",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:U010182",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "flour tortilla",
+     "grams": 75,
+     "resolved": {
+      "id": "usda:2707824",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "pinto beans",
+     "grams": 60,
+     "resolved": {
+      "id": "usda:2707375",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato salsa",
+     "grams": 40,
+     "resolved": {
+      "id": "usda:2709739",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cheddar",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:M303600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sour cream",
+     "grams": 25,
+     "resolved": {
+      "id": "usda:2705614",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lettuce",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G105100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "bean burrito",
+   "names": {
+    "en": "Bean burrito",
+    "de": "Bohnen-Burrito"
+   },
+   "serving": {
+    "label": {
+     "en": "1 burrito",
+     "de": "1 Burrito"
+    },
+    "count": 1
+   },
+   "artworkID": "burrito",
+   "aliases": {
+    "en": [
+     "burrito with beans",
+     "vegetarian burrito",
+     "refried bean burrito",
+     "bean and cheese burrito",
+     "bean burito",
+     "veggie bean burrito"
+    ],
+    "de": [
+     "burrito mit bohnen",
+     "vegetarischer burrito",
+     "bohnenburrito",
+     "bohnen käse burrito",
+     "veggie burrito mit bohnen"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "refried beans",
+     "grams": 150,
+     "resolved": {
+      "id": "usda:2707396",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "flour tortilla",
+     "grams": 75,
+     "resolved": {
+      "id": "usda:2707824",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked white rice",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:C352032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cheddar",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:M303600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato salsa",
+     "grams": 30,
+     "resolved": {
+      "id": "usda:2709739",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "chicken quesadilla",
+   "names": {
+    "en": "Chicken quesadilla",
+    "de": "Hähnchen-Quesadilla"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "flatbread",
+   "aliases": {
+    "en": [
+     "quesadilla with chicken",
+     "chicken quesadillas",
+     "quesadilla de pollo",
+     "chicken cheese quesadilla",
+     "chicken quesedilla",
+     "grilled chicken quesadilla"
+    ],
+    "de": [
+     "quesadilla mit hähnchen",
+     "hähnchen quesadillas",
+     "chicken quesadilla",
+     "quesadilla mit huhn",
+     "chicken quesedilla"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked chicken breast",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:V416132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "flour tortilla",
+     "grams": 70,
+     "resolved": {
+      "id": "usda:2707824",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "monterey jack",
+     "grams": 50,
+     "resolved": {
+      "id": "usda:2705720",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato salsa",
+     "grams": 30,
+     "resolved": {
+      "id": "usda:2709739",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "red bell pepper",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:G543100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sour cream",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2705614",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 5,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "cheese quesadilla",
+   "names": {
+    "en": "Cheese quesadilla",
+    "de": "Käse-Quesadilla"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "flatbread",
+   "aliases": {
+    "en": [
+     "quesadilla",
+     "cheese quesadillas",
+     "quesadilla de queso",
+     "plain quesadilla",
+     "cheese quesedilla",
+     "kids quesadilla"
+    ],
+    "de": [
+     "quesadilla",
+     "quesadilla mit käse",
+     "käsequesadilla",
+     "käse quesadillas",
+     "quesadilla de queso"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "flour tortilla",
+     "grams": 70,
+     "resolved": {
+      "id": "usda:2707824",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "monterey jack",
+     "grams": 60,
+     "resolved": {
+      "id": "usda:2705720",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato salsa",
+     "grams": 30,
+     "resolved": {
+      "id": "usda:2709739",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 5,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "chicken fajitas",
+   "names": {
+    "en": "Chicken fajitas",
+    "de": "Hähnchen-Fajitas"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "flatbread",
+   "aliases": {
+    "en": [
+     "fajitas",
+     "chicken fajita",
+     "fajitas de pollo",
+     "sizzling chicken fajitas",
+     "chicken fajita wraps",
+     "fahitas"
+    ],
+    "de": [
+     "fajitas",
+     "hähnchen fajitas",
+     "fajitas mit hähnchen",
+     "chicken fajitas",
+     "fajita mit huhn",
+     "fahitas"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "grilled chicken breast",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:V4A6172",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "flour tortilla",
+     "grams": 90,
+     "resolved": {
+      "id": "usda:2707824",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "red bell pepper",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:G543100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "green bell pepper",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G541100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "pico de gallo",
+     "grams": 40,
+     "resolved": {
+      "id": "usda:2709737",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "guacamole",
+     "grams": 30,
+     "resolved": {
+      "id": "usda:2709307",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sour cream",
+     "grams": 25,
+     "resolved": {
+      "id": "usda:2705614",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cheddar",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:M303600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "chicken enchiladas",
+   "names": {
+    "en": "Chicken enchiladas",
+    "de": "Hähnchen-Enchiladas"
+   },
+   "serving": {
+    "label": {
+     "en": "2 enchiladas",
+     "de": "2 Enchiladas"
+    },
+    "count": 2
+   },
+   "artworkID": "burrito",
+   "aliases": {
+    "en": [
+     "enchiladas",
+     "chicken enchilada",
+     "enchiladas de pollo",
+     "red chicken enchiladas",
+     "chicken enchilladas",
+     "enchiladas with chicken"
+    ],
+    "de": [
+     "enchiladas",
+     "enchiladas mit hähnchen",
+     "hähnchen enchilada",
+     "chicken enchiladas",
+     "enchiladas de pollo"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "enchilada sauce",
+     "grams": 120,
+     "resolved": {
+      "id": "usda:2709741",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked chicken breast",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:V416132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "corn tortilla",
+     "grams": 60,
+     "resolved": {
+      "id": "usda:2707823",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "monterey jack",
+     "grams": 50,
+     "resolved": {
+      "id": "usda:2705720",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sour cream",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2705614",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "cheese enchiladas",
+   "names": {
+    "en": "Cheese enchiladas",
+    "de": "Käse-Enchiladas"
+   },
+   "serving": {
+    "label": {
+     "en": "2 enchiladas",
+     "de": "2 Enchiladas"
+    },
+    "count": 2
+   },
+   "artworkID": "burrito",
+   "aliases": {
+    "en": [
+     "cheese enchilada",
+     "enchiladas de queso",
+     "enchiladas with cheese",
+     "vegetarian enchiladas",
+     "cheesy enchiladas"
+    ],
+    "de": [
+     "käse enchilada",
+     "enchiladas mit käse",
+     "vegetarische enchiladas",
+     "enchiladas de queso",
+     "käseenchiladas"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "enchilada sauce",
+     "grams": 120,
+     "resolved": {
+      "id": "usda:2709741",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "monterey jack",
+     "grams": 80,
+     "resolved": {
+      "id": "usda:2705720",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "corn tortilla",
+     "grams": 60,
+     "resolved": {
+      "id": "usda:2707823",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 5,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "nachos with cheese",
+   "names": {
+    "en": "Nachos with cheese",
+    "de": "Nachos mit Käse"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "corn",
+   "aliases": {
+    "en": [
+     "cheese nachos",
+     "nachos cheese",
+     "nachos and cheese",
+     "nachos with cheese sauce",
+     "nacho cheese",
+     "nachos con queso"
+    ],
+    "de": [
+     "käse nachos",
+     "nachos mit käsesauce",
+     "nachos käse",
+     "nachos überbacken",
+     "nachos con queso"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "tortilla chips",
+     "grams": 80,
+     "resolved": {
+      "id": "usda:2708202",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cheese sauce",
+     "grams": 60,
+     "resolved": {
+      "id": "usda:2705808",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "jalapeño",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2710096",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "loaded nachos",
+   "names": {
+    "en": "Loaded nachos",
+    "de": "Loaded Nachos"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "corn",
+   "aliases": {
+    "en": [
+     "nachos supreme",
+     "nachos grande",
+     "beef nachos",
+     "loaded beef nachos",
+     "nachos with everything",
+     "fully loaded nachos"
+    ],
+    "de": [
+     "nachos supreme",
+     "überbackene nachos",
+     "nachos mit hackfleisch",
+     "nachos grande",
+     "beladene nachos"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "tortilla chips",
+     "grams": 90,
+     "resolved": {
+      "id": "usda:2708202",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked ground beef",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:U010182",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cheddar",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:M303600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "black beans",
+     "grams": 50,
+     "resolved": {
+      "id": "usda:2707363",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "guacamole",
+     "grams": 40,
+     "resolved": {
+      "id": "usda:2709307",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "pico de gallo",
+     "grams": 40,
+     "resolved": {
+      "id": "usda:2709737",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sour cream",
+     "grams": 30,
+     "resolved": {
+      "id": "usda:2705614",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "jalapeño",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2710096",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "chimichanga",
+   "names": {
+    "en": "Chimichanga",
+    "de": "Chimichanga"
+   },
+   "serving": {
+    "label": {
+     "en": "1 burrito",
+     "de": "1 Burrito"
+    },
+    "count": 1
+   },
+   "artworkID": "burrito",
+   "aliases": {
+    "en": [
+     "chimichangas",
+     "fried burrito",
+     "deep fried burrito",
+     "beef chimichanga",
+     "chimi",
+     "chimichonga"
+    ],
+    "de": [
+     "chimichangas",
+     "frittierter burrito",
+     "gebratener burrito",
+     "chimi",
+     "chimichanga mit rind"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "braised beef",
+     "grams": 90,
+     "resolved": {
+      "id": "bls:U281142",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "flour tortilla",
+     "grams": 90,
+     "resolved": {
+      "id": "usda:2707824",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "refried beans",
+     "grams": 50,
+     "resolved": {
+      "id": "usda:2707396",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 25,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cheddar",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:M303600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "chicken tostadas",
+   "names": {
+    "en": "Chicken tostadas",
+    "de": "Hähnchen-Tostadas"
+   },
+   "serving": {
+    "label": {
+     "en": "2 tostadas",
+     "de": "2 Tostadas"
+    },
+    "count": 2
+   },
+   "artworkID": "taco",
+   "aliases": {
+    "en": [
+     "tostadas",
+     "chicken tostada",
+     "tostadas de pollo",
+     "tostadas de tinga",
+     "tinga tostadas",
+     "tostada with chicken"
+    ],
+    "de": [
+     "tostadas",
+     "tostadas mit hähnchen",
+     "hähnchen tostada",
+     "tostadas de pollo",
+     "tostadas de tinga"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked chicken breast",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:V416132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "refried beans",
+     "grams": 60,
+     "resolved": {
+      "id": "usda:2707396",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tostada shells",
+     "grams": 30,
+     "reference": "usda:2707826"
+    },
+    {
+     "name": "tomato",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G561100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "iceberg lettuce",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:G103100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "queso fresco",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2705745",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sour cream",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2705614",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato salsa",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2709739",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "taco salad",
+   "names": {
+    "en": "Taco salad",
+    "de": "Taco-Salat"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "salad",
+   "aliases": {
+    "en": [
+     "taco salad bowl",
+     "mexican taco salad",
+     "beef taco salad",
+     "tex mex salad",
+     "taco salat",
+     "nacho salad"
+    ],
+    "de": [
+     "taco salat",
+     "tacosalat",
+     "mexikanischer salat mit hackfleisch",
+     "tex mex salat",
+     "taco salat mit hackfleisch"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "iceberg lettuce",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:G103100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked ground beef",
+     "grams": 90,
+     "resolved": {
+      "id": "bls:U010182",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:G561100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "kidney beans",
+     "grams": 40,
+     "resolved": {
+      "id": "usda:2707383",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cheddar",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:M303600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tortilla chips",
+     "grams": 30,
+     "resolved": {
+      "id": "usda:2708202",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato salsa",
+     "grams": 30,
+     "resolved": {
+      "id": "usda:2709739",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sour cream",
+     "grams": 25,
+     "resolved": {
+      "id": "usda:2705614",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "chilaquiles",
+   "names": {
+    "en": "Chilaquiles",
+    "de": "Chilaquiles"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "neutral",
+   "aliases": {
+    "en": [
+     "chilaquiles rojos",
+     "chilaquiles verdes",
+     "chilaquiles with egg",
+     "chilaquiles con pollo",
+     "red chilaquiles",
+     "chilaquilles"
+    ],
+    "de": [
+     "chilaquiles rojos",
+     "chilaquiles verdes",
+     "chilaquiles mit ei",
+     "mexikanisches frühstück chilaquiles",
+     "chilaquilles"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "tomato salsa",
+     "grams": 120,
+     "resolved": {
+      "id": "usda:2709739",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tortilla chips",
+     "grams": 60,
+     "resolved": {
+      "id": "usda:2708202",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "fried egg",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:Y710142",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked chicken breast",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:V416132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "queso fresco",
+     "grams": 25,
+     "resolved": {
+      "id": "usda:2705745",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sour cream",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2705614",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cilantro",
+     "grams": 3,
+     "resolved": {
+      "id": "usda:2709782",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "huevos rancheros",
+   "names": {
+    "en": "Huevos rancheros",
+    "de": "Huevos Rancheros"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "fried-egg",
+   "aliases": {
+    "en": [
+     "ranch style eggs",
+     "huevos ranchero",
+     "mexican breakfast eggs",
+     "eggs rancheros",
+     "uevos rancheros",
+     "huevos rancheros breakfast"
+    ],
+    "de": [
+     "huevos ranchero",
+     "mexikanische spiegeleier",
+     "spiegeleier mit salsa",
+     "eier ranchero art",
+     "uevos rancheros"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "fried egg",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:Y710142",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato salsa",
+     "grams": 100,
+     "resolved": {
+      "id": "usda:2709739",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "refried beans",
+     "grams": 60,
+     "resolved": {
+      "id": "usda:2707396",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "corn tortilla",
+     "grams": 50,
+     "resolved": {
+      "id": "usda:2707823",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "avocado",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:F502100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "queso fresco",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2705745",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cilantro",
+     "grams": 3,
+     "resolved": {
+      "id": "usda:2709782",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "pork tamales",
+   "names": {
+    "en": "Pork tamales",
+    "de": "Tamales mit Schweinefleisch"
+   },
+   "serving": {
+    "label": {
+     "en": "2 tamales",
+     "de": "2 Tamales"
+    },
+    "count": 2
+   },
+   "artworkID": "tamale",
+   "aliases": {
+    "en": [
+     "tamales",
+     "pork tamale",
+     "tamales de puerco",
+     "red pork tamales",
+     "tamales rojos",
+     "tamal de cerdo"
+    ],
+    "de": [
+     "tamales",
+     "schweinefleisch tamales",
+     "tamale mit schwein",
+     "tamales de puerco",
+     "tamal"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "masa, cooked",
+     "grams": 150,
+     "reference": "usda:2708376"
+    },
+    {
+     "name": "roast pork",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:Y352212",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "enchilada sauce",
+     "grams": 30,
+     "resolved": {
+      "id": "usda:2709741",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lard",
+     "grams": 15,
+     "reference": "usda:2710166"
+    }
+   ]
+  },
+  {
+   "key": "chicken mole",
+   "names": {
+    "en": "Chicken mole",
+    "de": "Hähnchen in Mole"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "poultry",
+   "aliases": {
+    "en": [
+     "mole poblano",
+     "pollo en mole",
+     "chicken mole poblano",
+     "mole de pollo",
+     "chicken in mole sauce",
+     "mole chicken"
+    ],
+    "de": [
+     "mole poblano",
+     "hähnchen mole",
+     "pollo en mole",
+     "huhn in mole sauce",
+     "hähnchen mit mole",
+     "mole de pollo"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked chicken thigh",
+     "grams": 160,
+     "resolved": {
+      "id": "usda:2706044",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "mole sauce",
+     "grams": 120,
+     "reference": "usda:2707151"
+    },
+    {
+     "name": "sesame seeds",
+     "grams": 3,
+     "resolved": {
+      "id": "usda:2707586",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "tortilla soup",
+   "names": {
+    "en": "Tortilla soup",
+    "de": "Tortilla-Suppe"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "soup",
+   "aliases": {
+    "en": [
+     "sopa de tortilla",
+     "chicken tortilla soup",
+     "mexican tortilla soup",
+     "tortilla soup with chicken",
+     "sopa azteca"
+    ],
+    "de": [
+     "tortillasuppe",
+     "sopa de tortilla",
+     "mexikanische tortillasuppe",
+     "hähnchen tortilla suppe",
+     "sopa azteca"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "chicken stock",
+     "grams": 300,
+     "resolved": {
+      "id": "bls:X411243",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "canned tomatoes",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:G568900",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked chicken breast",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:V416132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "avocado",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:F502100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tortilla chips",
+     "grams": 25,
+     "resolved": {
+      "id": "usda:2708202",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "queso fresco",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2705745",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sour cream",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2705614",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 5,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lime juice",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:F602600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cilantro",
+     "grams": 3,
+     "resolved": {
+      "id": "usda:2709782",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "elote",
+   "names": {
+    "en": "Elote",
+    "de": "Elote"
+   },
+   "serving": {
+    "label": {
+     "en": "1 cob",
+     "de": "1 Kolben"
+    },
+    "count": 1
+   },
+   "artworkID": "corn",
+   "aliases": {
+    "en": [
+     "mexican street corn",
+     "elotes",
+     "elote corn",
+     "grilled mexican corn",
+     "street corn",
+     "esquites"
+    ],
+    "de": [
+     "mexikanischer maiskolben",
+     "elotes",
+     "mexican street corn",
+     "gegrillter mais mexikanisch",
+     "esquites"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked corn",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:G570132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "mayonnaise",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2710204",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cotija",
+     "grams": 15,
+     "reference": "usda:2705746"
+    },
+    {
+     "name": "lime juice",
+     "grams": 3,
+     "resolved": {
+      "id": "bls:F602600",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "falafel wrap",
+   "names": {
+    "en": "Falafel wrap",
+    "de": "Falafel-Wrap"
+   },
+   "serving": {
+    "label": {
+     "en": "1 wrap",
+     "de": "1 Wrap"
+    },
+    "count": 1
+   },
+   "artworkID": "falafel",
+   "aliases": {
+    "en": [
+     "falafel sandwich",
+     "falafel roll",
+     "falafel durum",
+     "falafel dürüm",
+     "falafel pita wrap",
+     "falafel wraps"
+    ],
+    "de": [
+     "falafel wrap",
+     "falafel dürüm",
+     "falafel rolle",
+     "falafel im fladenbrot",
+     "falafelwrap",
+     "falafel yufka"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "falafel",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:Y9A1050",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "flour tortilla",
+     "grams": 70,
+     "resolved": {
+      "id": "usda:2707824",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "hummus",
+     "grams": 30,
+     "resolved": {
+      "id": "usda:2707402",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G561100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lettuce",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G105100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cucumber",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G520100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tahini",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2707587",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "red cabbage",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G341100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "pickles",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2710078",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "falafel plate",
+   "names": {
+    "en": "Falafel plate",
+    "de": "Falafel-Teller"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "falafel",
+   "aliases": {
+    "en": [
+     "falafel platter",
+     "falafel with hummus",
+     "falafel dinner plate",
+     "falafel meze plate",
+     "falafel teller",
+     "falafel salad plate"
+    ],
+    "de": [
+     "falafelteller",
+     "falafel teller",
+     "falafel mit hummus",
+     "falafel platte",
+     "falafel mit salat"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "falafel",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:Y9A1050",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "hummus",
+     "grams": 80,
+     "resolved": {
+      "id": "usda:2707402",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "pita bread",
+     "grams": 60,
+     "resolved": {
+      "id": "usda:2707616",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:G561100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cucumber",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:G520100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lettuce",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G105100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tahini",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2707587",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "pickles",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2710078",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "chicken shawarma wrap",
+   "names": {
+    "en": "Chicken shawarma wrap",
+    "de": "Chicken-Shawarma-Wrap"
+   },
+   "serving": {
+    "label": {
+     "en": "1 wrap",
+     "de": "1 Wrap"
+    },
+    "count": 1
+   },
+   "artworkID": "stuffed-flatbread",
+   "aliases": {
+    "en": [
+     "shawarma wrap",
+     "chicken shawarma",
+     "chicken shawerma",
+     "shawarma sandwich",
+     "chicken shwarma",
+     "chicken shawarma roll"
+    ],
+    "de": [
+     "shawarma wrap",
+     "hähnchen shawarma",
+     "chicken shawarma",
+     "shawarma im fladenbrot",
+     "chicken shawerma",
+     "chicken shwarma"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "chicken doner meat",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:V422072",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "pita bread",
+     "grams": 80,
+     "resolved": {
+      "id": "usda:2707616",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G561100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "garlic sauce",
+     "grams": 20,
+     "reference": "usda:2710169"
+    },
+    {
+     "name": "lettuce",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G105100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "pickles",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2710078",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "shakshuka",
+   "names": {
+    "en": "Shakshuka",
+    "de": "Shakshuka"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "egg",
+   "aliases": {
+    "en": [
+     "shakshouka",
+     "shakshuka eggs",
+     "eggs in tomato sauce",
+     "chakchouka",
+     "shak shuka",
+     "eggs in purgatory"
+    ],
+    "de": [
+     "shakshouka",
+     "schakschuka",
+     "eier in tomatensauce",
+     "shak shuka",
+     "chakchouka",
+     "shakshuka mit ei"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "canned tomatoes",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:G568900",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 100,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "red bell pepper",
+     "grams": 70,
+     "resolved": {
+      "id": "bls:G543100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "olive oil",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:Q120000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "feta",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2705714",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "garlic",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:G490100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "parsley",
+     "grams": 3,
+     "resolved": {
+      "id": "usda:2709796",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cumin",
+     "grams": 2,
+     "resolved": {
+      "id": "ciqual:11042",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "paprika",
+     "grams": 2,
+     "resolved": {
+      "id": "ciqual:11049",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "tabbouleh",
+   "names": {
+    "en": "Tabbouleh",
+    "de": "Taboulé"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "salad",
+   "aliases": {
+    "en": [
+     "tabouleh",
+     "tabouli",
+     "taboule",
+     "tabbouli",
+     "parsley bulgur salad",
+     "tabbouleh salad"
+    ],
+    "de": [
+     "tabouleh",
+     "tabouli",
+     "taboule",
+     "bulgursalat mit petersilie",
+     "petersiliensalat",
+     "tabbouleh"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "parsley",
+     "grams": 60,
+     "resolved": {
+      "id": "usda:2709796",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:G561100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked bulgur",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:C119132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "olive oil",
+     "grams": 18,
+     "resolved": {
+      "id": "bls:Q120000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lemon juice",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:F601600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "spring onion",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:G482100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "mint",
+     "grams": 5,
+     "resolved": {
+      "id": "ciqual:11027",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "fattoush",
+   "names": {
+    "en": "Fattoush",
+    "de": "Fattoush"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "salad",
+   "aliases": {
+    "en": [
+     "fattoush salad",
+     "fatoush",
+     "fattush",
+     "lebanese bread salad",
+     "fatush",
+     "fattoosh"
+    ],
+    "de": [
+     "fattoush salat",
+     "fatoush",
+     "fattush",
+     "libanesischer brotsalat",
+     "fatush"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "romaine lettuce",
+     "grams": 80,
+     "resolved": {
+      "id": "usda:2709590",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:G561100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cucumber",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:G520100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "pita bread",
+     "grams": 25,
+     "resolved": {
+      "id": "usda:2707616",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "radish",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G691100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "olive oil",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:Q120000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lemon juice",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:F601600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "parsley",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2709796",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "spring onion",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:G482100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "mint",
+     "grams": 3,
+     "resolved": {
+      "id": "ciqual:11027",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "mujaddara",
+   "names": {
+    "en": "Mujaddara",
+    "de": "Mujaddara"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "rice",
+   "aliases": {
+    "en": [
+     "mujadara",
+     "mejadra",
+     "mujadarra",
+     "lentils and rice",
+     "mudardara",
+     "lentil rice with crispy onions"
+    ],
+    "de": [
+     "mujadara",
+     "mejadra",
+     "linsen mit reis",
+     "linsenreis mit röstzwiebeln",
+     "mudardara"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked white rice",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:C352032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked lentils",
+     "grams": 150,
+     "resolved": {
+      "id": "usda:2707425",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "crispy fried onions",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:X5A9030",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "olive oil",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:Q120000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cumin",
+     "grams": 2,
+     "resolved": {
+      "id": "ciqual:11042",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "maqluba",
+   "names": {
+    "en": "Maqluba",
+    "de": "Makluba"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "rice",
+   "aliases": {
+    "en": [
+     "maqlooba",
+     "makluba",
+     "upside down rice",
+     "maqloubeh",
+     "maklouba",
+     "maqluba chicken"
+    ],
+    "de": [
+     "maqluba",
+     "maqlooba",
+     "umgedrehter reis",
+     "maqloubeh",
+     "maklouba",
+     "makloube"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked white rice",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:C352032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked chicken thigh",
+     "grams": 100,
+     "resolved": {
+      "id": "usda:2706044",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked aubergine",
+     "grams": 80,
+     "resolved": {
+      "id": "ciqual:20002",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked cauliflower",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:G311132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G561100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "almonds",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:H210100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "koshari",
+   "names": {
+    "en": "Koshari",
+    "de": "Koshari"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "rice",
+   "aliases": {
+    "en": [
+     "kushari",
+     "koshary",
+     "kosheri",
+     "egyptian koshari",
+     "koshari rice lentils pasta",
+     "kushary"
+    ],
+    "de": [
+     "kushari",
+     "koshary",
+     "kosheri",
+     "ägyptisches koshari",
+     "reis mit linsen und nudeln"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked white rice",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:C352032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato sauce",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:X331353",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked lentils",
+     "grams": 80,
+     "resolved": {
+      "id": "usda:2707425",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked spaghetti",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:E401032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked chickpeas",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G770432",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "crispy fried onions",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:X5A9030",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 8,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "white vinegar",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:R122000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "garlic",
+     "grams": 3,
+     "resolved": {
+      "id": "bls:G490100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "chicken tagine",
+   "names": {
+    "en": "Chicken tagine",
+    "de": "Hähnchen-Tajine"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "poultry",
+   "aliases": {
+    "en": [
+     "chicken tajine",
+     "moroccan chicken tagine",
+     "chicken tagine with olives",
+     "chicken tagine with lemon",
+     "djaj mqualli",
+     "tagine chicken"
+    ],
+    "de": [
+     "hähnchen tagine",
+     "tajine mit hähnchen",
+     "marokkanische hähnchen tajine",
+     "hühnchen tajine",
+     "tajine huhn"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked chicken thigh",
+     "grams": 180,
+     "resolved": {
+      "id": "usda:2706044",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "chicken stock",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:X411243",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "green olives",
+     "grams": 25,
+     "resolved": {
+      "id": "usda:2710089",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "olive oil",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:Q120000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lemon",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2709168",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "garlic",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:G490100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "ginger",
+     "grams": 4,
+     "resolved": {
+      "id": "cofid:13-890",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cilantro",
+     "grams": 3,
+     "resolved": {
+      "id": "usda:2709782",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "turmeric",
+     "grams": 2,
+     "resolved": {
+      "id": "ciqual:11089",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "lamb tagine",
+   "names": {
+    "en": "Lamb tagine",
+    "de": "Lamm-Tajine"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "meat",
+   "aliases": {
+    "en": [
+     "lamb tajine",
+     "moroccan lamb tagine",
+     "lamb tagine with apricots",
+     "lamb and apricot tagine",
+     "tagine lamb",
+     "lamb tagine with prunes"
+    ],
+    "de": [
+     "lamm tagine",
+     "tajine mit lamm",
+     "marokkanische lamm tajine",
+     "lammtajine",
+     "tajine lamm mit aprikosen"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "roast lamb shoulder",
+     "grams": 160,
+     "resolved": {
+      "id": "cofid:18-179",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "canned tomatoes",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:G568900",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked chickpeas",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:G770432",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "dried apricots",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:F201400",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "olive oil",
+     "grams": 12,
+     "resolved": {
+      "id": "bls:Q120000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "almonds",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:H210100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "honey",
+     "grams": 5,
+     "resolved": {
+      "id": "usda:2710281",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "garlic",
+     "grams": 4,
+     "resolved": {
+      "id": "bls:G490100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cumin",
+     "grams": 2,
+     "resolved": {
+      "id": "ciqual:11042",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cinnamon",
+     "grams": 2,
+     "resolved": {
+      "id": "ciqual:11025",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "vegetable couscous",
+   "names": {
+    "en": "Vegetable couscous",
+    "de": "Gemüse-Couscous"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "neutral",
+   "aliases": {
+    "en": [
+     "couscous with vegetables",
+     "moroccan vegetable couscous",
+     "veggie couscous",
+     "couscous aux legumes",
+     "seven vegetable couscous",
+     "vegetarian couscous"
+    ],
+    "de": [
+     "couscous mit gemüse",
+     "gemüsecouscous",
+     "marokkanischer gemüsecouscous",
+     "vegetarischer couscous",
+     "couscous aux légumes"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked couscous",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:C119232",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable stock",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:X416243",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "zucchini",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:G582100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked carrot",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:G620132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked chickpeas",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:G770432",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked butternut squash",
+     "grams": 50,
+     "resolved": {
+      "id": "ciqual:20141",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "canned tomatoes",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:G568900",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "olive oil",
+     "grams": 12,
+     "resolved": {
+      "id": "bls:Q120000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "raisins",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2709212",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "harissa",
+     "grams": 5,
+     "resolved": {
+      "id": "ciqual:11112",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "doner kebab",
+   "names": {
+    "en": "Döner kebab",
+    "de": "Döner Kebab"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "stuffed-flatbread",
+   "aliases": {
+    "en": [
+     "doner kebab",
+     "döner",
+     "doner",
+     "kebab",
+     "doner kebap",
+     "kebab sandwich",
+     "donner kebab"
+    ],
+    "de": [
+     "döner",
+     "doner kebab",
+     "döner kebap",
+     "kebab",
+     "döner im fladenbrot",
+     "dönerkebab",
+     "kebap"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "flatbread",
+     "grams": 110,
+     "resolved": {
+      "id": "bls:B782100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "doner meat, veal and beef",
+     "grams": 120,
+     "reference": "bls:U030172"
+    },
+    {
+     "name": "tzatziki",
+     "grams": 40,
+     "resolved": {
+      "id": "cofid:12-547",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "white cabbage",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G342100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:G561100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "red cabbage",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G341100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lettuce",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G105100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "chicken doner",
+   "names": {
+    "en": "Chicken döner",
+    "de": "Hähnchen-Döner"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "stuffed-flatbread",
+   "aliases": {
+    "en": [
+     "chicken doner",
+     "chicken kebab",
+     "chicken döner kebab",
+     "chicken doner kebab",
+     "chicken kebap",
+     "poultry doner"
+    ],
+    "de": [
+     "hähnchendöner",
+     "hähnchen döner",
+     "chicken döner",
+     "geflügeldöner",
+     "hühnerdöner",
+     "döner mit hähnchen"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "flatbread",
+     "grams": 110,
+     "resolved": {
+      "id": "bls:B782100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "chicken doner meat",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:V422072",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tzatziki",
+     "grams": 40,
+     "resolved": {
+      "id": "cofid:12-547",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "white cabbage",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G342100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:G561100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "red cabbage",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G341100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lettuce",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G105100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "durum kebab",
+   "names": {
+    "en": "Dürüm kebab",
+    "de": "Dürüm"
+   },
+   "serving": {
+    "label": {
+     "en": "1 wrap",
+     "de": "1 Wrap"
+    },
+    "count": 1
+   },
+   "artworkID": "stuffed-flatbread",
+   "aliases": {
+    "en": [
+     "durum",
+     "dürüm",
+     "durum doner",
+     "dürüm döner",
+     "doner wrap",
+     "kebab wrap",
+     "durum kebap"
+    ],
+    "de": [
+     "dürüm döner",
+     "durum",
+     "dürüm kebab",
+     "döner wrap",
+     "dürüm yufka",
+     "dürum"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "doner meat, veal and beef",
+     "grams": 130,
+     "reference": "bls:U030172"
+    },
+    {
+     "name": "flour tortilla",
+     "grams": 80,
+     "resolved": {
+      "id": "usda:2707824",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tzatziki",
+     "grams": 40,
+     "resolved": {
+      "id": "cofid:12-547",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "white cabbage",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:G342100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:G561100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lettuce",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G105100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "red cabbage",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G341100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "doner plate",
+   "names": {
+    "en": "Döner plate",
+    "de": "Dönerteller"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "meat",
+   "aliases": {
+    "en": [
+     "doner plate",
+     "kebab plate",
+     "doner platter",
+     "doner with fries",
+     "doner kebab plate",
+     "döner plate with salad"
+    ],
+    "de": [
+     "dönerteller",
+     "döner teller",
+     "dönerteller mit pommes",
+     "kebab teller",
+     "döner mit pommes und salat"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "doner meat, veal and beef",
+     "grams": 180,
+     "reference": "bls:U030172"
+    },
+    {
+     "name": "french fries",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:X654042",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tzatziki",
+     "grams": 50,
+     "resolved": {
+      "id": "cofid:12-547",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lettuce",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G105100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G561100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cucumber",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G520100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "red cabbage",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G341100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "doner box",
+   "names": {
+    "en": "Döner box",
+    "de": "Dönerbox"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "takeout",
+   "aliases": {
+    "en": [
+     "doner box",
+     "kebab box",
+     "doner kebab box",
+     "döner box with fries",
+     "donner box",
+     "kebab and chips box"
+    ],
+    "de": [
+     "dönerbox",
+     "döner box",
+     "döner box mit pommes",
+     "kebab box",
+     "pommes döner"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "french fries",
+     "grams": 180,
+     "resolved": {
+      "id": "bls:X654042",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "doner meat, veal and beef",
+     "grams": 120,
+     "reference": "bls:U030172"
+    },
+    {
+     "name": "tzatziki",
+     "grams": 40,
+     "resolved": {
+      "id": "cofid:12-547",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "white cabbage",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G342100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G561100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "lahmacun",
+   "names": {
+    "en": "Lahmacun",
+    "de": "Lahmacun"
+   },
+   "serving": {
+    "label": {
+     "en": "1 piece",
+     "de": "1 Stück"
+    },
+    "count": 1
+   },
+   "artworkID": "flatbread",
+   "aliases": {
+    "en": [
+     "lahmajoun",
+     "turkish pizza",
+     "lahmajun",
+     "lahmacun turkish pizza",
+     "lamadschun",
+     "lahmacun with salad"
+    ],
+    "de": [
+     "türkische pizza",
+     "lahmacun mit salat",
+     "lahmajoun",
+     "lamadschun",
+     "lahmacun rolle"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "pizza dough",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:X9A6030",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked ground beef",
+     "grams": 45,
+     "resolved": {
+      "id": "bls:U010182",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lettuce",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G105100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G561100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "red bell pepper",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G543100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lemon juice",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:F601600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato paste",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:R160000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "parsley",
+     "grams": 5,
+     "resolved": {
+      "id": "usda:2709796",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "pide with minced meat",
+   "names": {
+    "en": "Pide with minced meat",
+    "de": "Pide mit Hackfleisch"
+   },
+   "serving": {
+    "label": {
+     "en": "1 pide",
+     "de": "1 Pide"
+    },
+    "count": 1
+   },
+   "artworkID": "flatbread",
+   "aliases": {
+    "en": [
+     "kiymali pide",
+     "turkish pide",
+     "minced meat pide",
+     "pide with ground beef",
+     "kıymalı pide",
+     "beef pide"
+    ],
+    "de": [
+     "kiymali pide",
+     "türkische pide",
+     "hackfleisch pide",
+     "pide hackfleisch",
+     "kıymalı pide",
+     "pide mit hack"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "pizza dough",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:X9A6030",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked ground beef",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:U010182",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G561100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "green bell pepper",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G541100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato paste",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:R160000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "parsley",
+     "grams": 3,
+     "resolved": {
+      "id": "usda:2709796",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "kofte",
+   "names": {
+    "en": "Köfte",
+    "de": "Köfte"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "meat",
+   "aliases": {
+    "en": [
+     "kofta",
+     "turkish meatballs",
+     "kofte kebab",
+     "izgara kofte",
+     "kofta kebab",
+     "grilled kofte",
+     "köfte"
+    ],
+    "de": [
+     "kofte",
+     "türkische frikadellen",
+     "köfte vom grill",
+     "izgara köfte",
+     "köftespieß",
+     "türkische hackfleischröllchen"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked ground beef",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:U010182",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G561100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "green chili",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G553100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "breadcrumbs",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:B821000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "parsley",
+     "grams": 5,
+     "resolved": {
+      "id": "usda:2709796",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cumin",
+     "grams": 2,
+     "resolved": {
+      "id": "ciqual:11042",
+      "via": "lexicon"
+     }
+    }
+   ]
+  }
+ ]
+}

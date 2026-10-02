@@ -1,0 +1,7136 @@
+{
+ "batch": 7,
+ "drafted": "2026-10-01",
+ "drafter": "Claude in the Akari Claude Code session",
+ "dishes": [
+  {
+   "key": "tomato soup thickened",
+   "skip": "duplicate of the reviewed recipe Tomato soup"
+  },
+  {
+   "key": "cream of asparagus soup",
+   "names": {
+    "en": "Cream of asparagus soup",
+    "de": "Spargelcremesuppe"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "soup",
+   "aliases": {
+    "en": [
+     "asparagus cream soup",
+     "creamy asparagus soup",
+     "asparagus veloute"
+    ],
+    "de": [
+     "spargelcreme suppe",
+     "spargelrahmsuppe",
+     "cremige spargelsuppe",
+     "weiße spargelcremesuppe"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "asparagus",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:G450100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable stock",
+     "grams": 180,
+     "resolved": {
+      "id": "bls:X416243",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "heavy cream",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:M173800",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "wheat flour",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "cream of cucumber soup",
+   "names": {
+    "en": "Cream of cucumber soup",
+    "de": "Gurkencremesuppe"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "soup",
+   "aliases": {
+    "en": [
+     "cucumber soup",
+     "creamy cucumber soup",
+     "cucumber dill soup",
+     "cucumber cream soup"
+    ],
+    "de": [
+     "gurkensuppe",
+     "gurken cremesuppe",
+     "gurkensuppe mit dill",
+     "cremige gurkensuppe"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cucumber",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:G520100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable stock",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:X416243",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "heavy cream",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:M173800",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "dill",
+     "grams": 2,
+     "resolved": {
+      "id": "ciqual:11093",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "cream of broccoli soup",
+   "names": {
+    "en": "Cream of broccoli soup",
+    "de": "Brokkolicremesuppe"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "soup",
+   "aliases": {
+    "en": [
+     "broccoli soup",
+     "creamy broccoli soup",
+     "broccoli cream soup",
+     "brocoli soup"
+    ],
+    "de": [
+     "broccolicremesuppe",
+     "brokkolisuppe",
+     "broccolisuppe",
+     "brokkoli cremesuppe",
+     "cremige brokkolisuppe"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "broccoli",
+     "grams": 130,
+     "resolved": {
+      "id": "bls:G312100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable stock",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:X416243",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "heavy cream",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:M173800",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 3,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "boiled potatoes",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "asparagus soup",
+   "names": {
+    "en": "Asparagus soup",
+    "de": "Spargelsuppe"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "soup",
+   "aliases": {
+    "en": [
+     "white asparagus soup",
+     "light asparagus soup",
+     "asparagus broth soup",
+     "spargel soup"
+    ],
+    "de": [
+     "spargel suppe",
+     "klare spargelsuppe",
+     "weiße spargelsuppe",
+     "spargelsuppe gebunden"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "asparagus",
+     "grams": 90,
+     "resolved": {
+      "id": "bls:G450100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable stock",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:X416243",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 6,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "wheat flour",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "light cream",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:M171500",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "tomato soup thickened with rice",
+   "names": {
+    "en": "Tomato soup with rice",
+    "de": "Tomatensuppe mit Reis"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "soup",
+   "aliases": {
+    "en": [
+     "tomato rice soup",
+     "cream of tomato soup with rice",
+     "tomato soup and rice",
+     "tomatoe rice soup"
+    ],
+    "de": [
+     "tomatenreissuppe",
+     "tomatensuppe reis",
+     "tomatencremesuppe mit reis",
+     "tomatensuppe gebunden mit reis"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "passata",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:R161200",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable stock",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:X416243",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "heavy cream",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:M173800",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 3,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "wheat flour",
+     "grams": 6,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 3,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked white rice",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:C352032",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "velvety spinach soup",
+   "names": {
+    "en": "Cream of spinach soup",
+    "de": "Spinatsamtsuppe"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "soup",
+   "aliases": {
+    "en": [
+     "spinach soup",
+     "creamy spinach soup",
+     "spinach velouté",
+     "spinach cream soup"
+    ],
+    "de": [
+     "spinatcremesuppe",
+     "spinatsuppe",
+     "spinat samtsuppe",
+     "cremige spinatsuppe"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "spinach",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:G211100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable stock",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:X416243",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "heavy cream",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:M173800",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "cream of celeriac soup",
+   "names": {
+    "en": "Cream of celeriac soup",
+    "de": "Selleriecremesuppe"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "soup",
+   "aliases": {
+    "en": [
+     "celeriac soup",
+     "celery root soup",
+     "creamy celeriac soup",
+     "cream of celery root soup"
+    ],
+    "de": [
+     "selleriesuppe",
+     "knollenselleriesuppe",
+     "sellerie cremesuppe",
+     "cremige selleriesuppe",
+     "selleriesuppe püriert"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "celeriac",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:G660100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable stock",
+     "grams": 170,
+     "resolved": {
+      "id": "bls:X416243",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "heavy cream",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:M173800",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "cream of celeriac leek soup",
+   "names": {
+    "en": "Cream of celeriac and leek soup",
+    "de": "Sellerie-Lauchcremesuppe"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "soup",
+   "aliases": {
+    "en": [
+     "celeriac leek soup",
+     "celery root and leek soup",
+     "leek and celeriac soup",
+     "creamy celeriac leek soup"
+    ],
+    "de": [
+     "sellerie lauch suppe",
+     "lauch sellerie suppe",
+     "sellerie-lauch-suppe",
+     "sellerie porree cremesuppe"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "celeriac",
+     "grams": 70,
+     "resolved": {
+      "id": "bls:G660100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "leek",
+     "grams": 60,
+     "resolved": {
+      "id": "ciqual:20039",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable stock",
+     "grams": 180,
+     "resolved": {
+      "id": "bls:X416243",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "heavy cream",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:M173800",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 3,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "cream of avocado soup",
+   "names": {
+    "en": "Cream of avocado soup",
+    "de": "Avocadocremesuppe"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "soup",
+   "aliases": {
+    "en": [
+     "avocado soup",
+     "creamy avocado soup",
+     "chilled avocado soup",
+     "avocado cream soup"
+    ],
+    "de": [
+     "avocadosuppe",
+     "avocado cremesuppe",
+     "kalte avocadosuppe",
+     "cremige avocadosuppe"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "avocado",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:F502100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable stock",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:X416243",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "heavy cream",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:M173800",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lime juice",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:F602600",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "cream of pumpkin soup",
+   "names": {
+    "en": "Pumpkin soup",
+    "de": "Kürbiscremesuppe"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "soup",
+   "aliases": {
+    "en": [
+     "cream of pumpkin soup",
+     "creamy pumpkin soup",
+     "pumkin soup",
+     "hokkaido pumpkin soup",
+     "squash soup"
+    ],
+    "de": [
+     "kürbissuppe",
+     "kuerbissuppe",
+     "kürbis cremesuppe",
+     "hokkaido suppe",
+     "cremige kürbissuppe"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "pumpkin",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:G581100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable stock",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:X416243",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "heavy cream",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:M173800",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "cream of carrot soup",
+   "names": {
+    "en": "Carrot soup",
+    "de": "Karottencremesuppe"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "soup",
+   "aliases": {
+    "en": [
+     "cream of carrot soup",
+     "creamy carrot soup",
+     "carrot cream soup",
+     "carot soup"
+    ],
+    "de": [
+     "karottensuppe",
+     "möhrensuppe",
+     "möhrencremesuppe",
+     "karotten cremesuppe",
+     "rüblisuppe"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "carrot",
+     "grams": 130,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable stock",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:X416243",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "light cream",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:M171500",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 3,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "carrot soup",
+   "skip": "duplicate of carrot soup (cream of carrot soup)"
+  },
+  {
+   "key": "leek soup thickened",
+   "names": {
+    "en": "Leek soup",
+    "de": "Lauchsuppe"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "soup",
+   "aliases": {
+    "en": [
+     "thickened leek soup",
+     "leek soup with roux",
+     "light leek soup",
+     "porree soup"
+    ],
+    "de": [
+     "lauchsuppe gebunden",
+     "porreesuppe",
+     "lauch suppe",
+     "gebundene lauchsuppe"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "leek",
+     "grams": 100,
+     "resolved": {
+      "id": "ciqual:20039",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable stock",
+     "grams": 180,
+     "resolved": {
+      "id": "bls:X416243",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "wheat flour",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "light cream",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:M171500",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "beetroot soup with apple and horseradish",
+   "names": {
+    "en": "Beetroot soup with apple and horseradish",
+    "de": "Rote-Bete-Suppe mit Apfel und Meerrettich"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "soup",
+   "aliases": {
+    "en": [
+     "beet soup with apple",
+     "beetroot apple soup",
+     "beetroot horseradish soup",
+     "red beet soup"
+    ],
+    "de": [
+     "rote bete suppe",
+     "rote-bete-suppe",
+     "randensuppe",
+     "rote bete suppe mit meerrettich",
+     "rote beete suppe"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked beetroot",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:G613132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "apple",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:F110100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "horseradish",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:G630100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable stock",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:X416243",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sour cream",
+     "grams": 5,
+     "resolved": {
+      "id": "usda:2705614",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "sauerkraut soup with sweet pepper and potatoes",
+   "names": {
+    "en": "Sauerkraut soup with peppers and potatoes",
+    "de": "Sauerkrautsuppe mit Paprika und Kartoffeln"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "soup",
+   "aliases": {
+    "en": [
+     "sauerkraut soup",
+     "sour cabbage soup",
+     "krautsuppe",
+     "sauerkraut potato soup"
+    ],
+    "de": [
+     "sauerkrautsuppe",
+     "krautsuppe",
+     "sauerkraut suppe mit kartoffeln",
+     "sauerkrautsuppe mit paprika"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "sauerkraut",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:G346100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "red bell pepper",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G543100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "boiled potatoes",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable stock",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:X416243",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 4,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sour cream",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2705614",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "celeriac soup",
+   "skip": "duplicate of cream of celeriac soup"
+  },
+  {
+   "key": "tomato soup of tomato paste vegetable stock and pasta egg free",
+   "names": {
+    "en": "Tomato soup with noodles",
+    "de": "Tomatensuppe mit Nudeln"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "soup",
+   "aliases": {
+    "en": [
+     "tomato noodle soup",
+     "tomato soup with pasta",
+     "tomato pasta soup",
+     "tomatoe noodle soup"
+    ],
+    "de": [
+     "tomatennudelsuppe",
+     "tomatensuppe mit teigwaren",
+     "tomaten nudel suppe",
+     "tomatensuppe nudeln"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "tomato paste",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:R160000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable stock",
+     "grams": 250,
+     "resolved": {
+      "id": "bls:X416243",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked spaghetti",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:E401032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 5,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 3,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "tomato soup of fresh tomatoes vegetable stock and pasta egg free",
+   "skip": "duplicate of tomato soup with noodles (only the tomatoes differ)"
+  },
+  {
+   "key": "button mushroom soup of fresh button mushrooms",
+   "skip": "duplicate of mushroom soup (made with button mushrooms)"
+  },
+  {
+   "key": "porcini mushroom soup",
+   "names": {
+    "en": "Porcini soup",
+    "de": "Steinpilzsuppe"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "soup",
+   "aliases": {
+    "en": [
+     "porcini mushroom soup",
+     "cep soup",
+     "cream of porcini soup",
+     "boletus soup"
+    ],
+    "de": [
+     "steinpilz suppe",
+     "steinpilzcremesuppe",
+     "pilzsuppe mit steinpilzen",
+     "steinpilzrahmsuppe"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "porcini, stewed",
+     "grams": 80,
+     "reference": "bls:K718152"
+    },
+    {
+     "name": "mushrooms",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:K701100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable stock",
+     "grams": 180,
+     "resolved": {
+      "id": "bls:X416243",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "light cream",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:M171500",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "mushroom soup",
+   "names": {
+    "en": "Mushroom soup",
+    "de": "Pilzsuppe"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "soup",
+   "aliases": {
+    "en": [
+     "cream of mushroom soup",
+     "button mushroom soup",
+     "creamy mushroom soup",
+     "mushroom cream soup",
+     "mushrom soup"
+    ],
+    "de": [
+     "champignonsuppe",
+     "pilzcremesuppe",
+     "champignoncremesuppe",
+     "pilzrahmsuppe",
+     "champignon suppe"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "mushrooms",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:K701100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable stock",
+     "grams": 180,
+     "resolved": {
+      "id": "bls:X416243",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "light cream",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:M171500",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "wheat flour",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "potato soup with vegetable stock thickened",
+   "names": {
+    "en": "Potato soup",
+    "de": "Kartoffelsuppe"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "soup",
+   "aliases": {
+    "en": [
+     "german potato soup",
+     "potatoe soup",
+     "creamy potato soup",
+     "potato vegetable soup"
+    ],
+    "de": [
+     "kartoffel suppe",
+     "kartoffelsuppe gebunden",
+     "kartoffelsuppe mit gemüsebrühe",
+     "deutsche kartoffelsuppe",
+     "erdäpfelsuppe"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "boiled potatoes",
+     "grams": 180,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable stock",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:X416243",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "carrot",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "leek",
+     "grams": 20,
+     "resolved": {
+      "id": "ciqual:20039",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "celeriac",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G660100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "wheat flour",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "light cream",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:M171500",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "cream of potato vegetable soup",
+   "names": {
+    "en": "Cream of potato and vegetable soup",
+    "de": "Kartoffel-Gemüsecremesuppe"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "soup",
+   "aliases": {
+    "en": [
+     "potato vegetable cream soup",
+     "creamy potato vegetable soup",
+     "blended potato vegetable soup",
+     "potato and veg soup"
+    ],
+    "de": [
+     "kartoffel gemüse cremesuppe",
+     "kartoffel-gemüse-suppe",
+     "kartoffelcremesuppe mit gemüse",
+     "gemüse kartoffel cremesuppe"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "boiled potatoes",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "carrot",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "leek",
+     "grams": 30,
+     "resolved": {
+      "id": "ciqual:20039",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "celeriac",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G660100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable stock",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:X416243",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "light cream",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:M171500",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 3,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "cream of potato leek soup with bacon",
+   "names": {
+    "en": "Potato and leek soup with bacon",
+    "de": "Kartoffel-Lauchcremesuppe mit Speck"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "soup",
+   "aliases": {
+    "en": [
+     "potato leek soup with bacon",
+     "leek and potato soup with bacon",
+     "creamy potato leek bacon soup",
+     "bacon potato leek soup"
+    ],
+    "de": [
+     "kartoffel lauch suppe mit speck",
+     "kartoffel-lauch-suppe mit speck",
+     "lauch kartoffelsuppe speck",
+     "kartoffellauchsuppe mit speck"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "boiled potatoes",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "leek",
+     "grams": 80,
+     "resolved": {
+      "id": "ciqual:20039",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable stock",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:X416243",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "heavy cream",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:M173800",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked bacon",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2705889",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "potato soup with vegetable stock and scalded sausage",
+   "names": {
+    "en": "Potato soup with sausage",
+    "de": "Kartoffelsuppe mit Würstchen"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "soup",
+   "aliases": {
+    "en": [
+     "potato soup with frankfurters",
+     "potato soup with wiener",
+     "german potato soup with sausage",
+     "potato sausage soup"
+    ],
+    "de": [
+     "kartoffelsuppe mit wiener",
+     "kartoffelsuppe mit brühwurst",
+     "kartoffelsuppe mit wurst",
+     "kartoffelsuppe würstchen",
+     "kartoffelsuppe mit wienern"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "boiled potatoes",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable stock",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:X416243",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "carrot",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "leek",
+     "grams": 20,
+     "resolved": {
+      "id": "ciqual:20039",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "celeriac",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G660100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "wheat flour",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "frankfurter",
+     "grams": 70,
+     "resolved": {
+      "id": "bls:W211200",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "potato soup sour thickened",
+   "names": {
+    "en": "Sour potato soup",
+    "de": "Saure Kartoffelsuppe"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "soup",
+   "aliases": {
+    "en": [
+     "sour potato soup",
+     "potato soup with vinegar",
+     "tangy potato soup",
+     "saure kartoffelsuppe"
+    ],
+    "de": [
+     "kartoffelsuppe sauer",
+     "saure kartoffelsupp",
+     "kartoffelsuppe mit essig",
+     "saure erdäpfelsuppe"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "boiled potatoes",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable stock",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:X416243",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "wine vinegar",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:R121000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "wheat flour",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sour cream",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2705614",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "potato soup sour with blood and liver sausage",
+   "names": {
+    "en": "Sour potato soup with blood and liver sausage",
+    "de": "Saure Kartoffelsuppe mit Blut- und Leberwurst"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "soup",
+   "aliases": {
+    "en": [
+     "sour potato soup with black pudding",
+     "potato soup with blood sausage",
+     "sour potato soup with sausage",
+     "schlachtsuppe with potatoes"
+    ],
+    "de": [
+     "saure kartoffelsuppe mit blutwurst",
+     "kartoffelsuppe mit blut- und leberwurst",
+     "saure kartoffelsuppe mit wurst",
+     "kartoffelsuppe blutwurst leberwurst"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "boiled potatoes",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable stock",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:X416243",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "wine vinegar",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:R121000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "wheat flour",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "blood sausage",
+     "grams": 40,
+     "reference": "usda:2706173"
+    },
+    {
+     "name": "liver sausage",
+     "grams": 40,
+     "reference": "cofid:19-106"
+    }
+   ]
+  },
+  {
+   "key": "creamy cheese soup paris",
+   "names": {
+    "en": "Cream cheese and leek soup",
+    "de": "Pariser Käsecremesuppe"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "cheese",
+   "aliases": {
+    "en": [
+     "cheese leek soup",
+     "creamy cheese soup",
+     "processed cheese soup",
+     "paris cheese soup"
+    ],
+    "de": [
+     "käsecremesuppe",
+     "käse lauch suppe",
+     "käsesuppe",
+     "pariser käsesuppe",
+     "schmelzkäsesuppe"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "processed cheese",
+     "grams": 50,
+     "resolved": {
+      "id": "cofid:12-527",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable stock",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:X416243",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "leek",
+     "grams": 50,
+     "resolved": {
+      "id": "ciqual:20039",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "heavy cream",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:M173800",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "cheese soup allgauer with croutons",
+   "names": {
+    "en": "Allgäu cheese soup with croutons",
+    "de": "Allgäuer Käsesuppe mit Croutons"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "cheese",
+   "aliases": {
+    "en": [
+     "allgau cheese soup",
+     "alpine cheese soup",
+     "cheese soup with croutons",
+     "bavarian cheese soup"
+    ],
+    "de": [
+     "allgäuer käsesuppe",
+     "käsesuppe mit croutons",
+     "bergkäsesuppe",
+     "allgaeuer kaesesuppe"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "alpine cheese",
+     "grams": 35,
+     "resolved": {
+      "id": "bls:M302600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable stock",
+     "grams": 220,
+     "resolved": {
+      "id": "bls:X416243",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "light cream",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:M171500",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "wheat flour",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "croutons",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2707697",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "stew of pasta egg free with minced meat",
+   "names": {
+    "en": "Noodle stew with minced meat",
+    "de": "Nudeleintopf mit Hackfleisch"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "soup",
+   "aliases": {
+    "en": [
+     "pasta stew with mince",
+     "noodle and mince stew",
+     "ground beef noodle stew",
+     "minced meat noodle soup"
+    ],
+    "de": [
+     "nudeleintopf mit hack",
+     "hackfleisch nudeleintopf",
+     "nudelsuppe mit hackfleisch",
+     "eintopf mit nudeln und hackfleisch"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked spaghetti",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:E401032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked mixed mince",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:U050132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "carrot",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "leek",
+     "grams": 30,
+     "resolved": {
+      "id": "ciqual:20039",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "canned tomatoes",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:G568900",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "beef stock",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:Y183013",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 5,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "stew of pasta egg free with vegetables and chicken",
+   "names": {
+    "en": "Noodle stew with vegetables and chicken",
+    "de": "Nudeleintopf mit Gemüse und Hähnchen"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "soup",
+   "aliases": {
+    "en": [
+     "chicken noodle stew",
+     "chicken vegetable noodle stew",
+     "pasta stew with chicken",
+     "hearty chicken noodle soup"
+    ],
+    "de": [
+     "hühnernudeleintopf",
+     "nudeleintopf mit huhn",
+     "nudeleintopf mit hähnchen",
+     "hühner nudel eintopf"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked spaghetti",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:E401032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked chicken breast",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:V416132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "carrot",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "leek",
+     "grams": 30,
+     "resolved": {
+      "id": "ciqual:20039",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "celeriac",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G660100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "green peas",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G760132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "chicken stock",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:X411243",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "soup of egg pasta with chicken",
+   "names": {
+    "en": "Chicken noodle soup with chicken meat",
+    "de": "Nudelsuppe mit Hühnerfleisch"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "soup",
+   "aliases": {
+    "en": [
+     "chicken noodle soup with chicken",
+     "homemade chicken noodle soup",
+     "chicken soup with noodles and meat",
+     "chicken egg noodle soup"
+    ],
+    "de": [
+     "hühnersuppe mit nudeln und fleisch",
+     "hühnernudelsuppe mit fleisch",
+     "hühnersuppe",
+     "nudelsuppe mit huhn"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "chicken stock",
+     "grams": 250,
+     "resolved": {
+      "id": "bls:X411243",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked egg noodles",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:E432032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked chicken thigh",
+     "grams": 50,
+     "resolved": {
+      "id": "usda:2706044",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "carrot",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "leek",
+     "grams": 15,
+     "resolved": {
+      "id": "ciqual:20039",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 3,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "rice with chicken",
+   "names": {
+    "en": "Rice cooked in broth with chicken",
+    "de": "Brühreis mit Hühnerfleisch"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "rice",
+   "aliases": {
+    "en": [
+     "chicken and rice",
+     "broth rice with chicken",
+     "chicken rice pot",
+     "bruhreis with chicken"
+    ],
+    "de": [
+     "brühreis",
+     "brühreis mit huhn",
+     "reis mit hühnerfleisch",
+     "hühnerreis",
+     "brühreis mit hähnchen"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked white rice",
+     "grams": 220,
+     "resolved": {
+      "id": "bls:C352032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked chicken thigh",
+     "grams": 80,
+     "resolved": {
+      "id": "usda:2706044",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "chicken stock",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:X411243",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "carrot",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "green peas",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G760132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "rice soup with meat stock and vegetables",
+   "skip": "duplicate of beef broth with vegetables and rice (batch 6)"
+  },
+  {
+   "key": "rice with beef",
+   "names": {
+    "en": "Rice cooked in broth with beef",
+    "de": "Brühreis mit Rindfleisch"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "rice",
+   "aliases": {
+    "en": [
+     "beef and rice",
+     "broth rice with beef",
+     "beef rice pot",
+     "bruhreis with beef"
+    ],
+    "de": [
+     "brühreis mit rind",
+     "reis mit rindfleisch",
+     "rindfleisch brühreis",
+     "brühreis rindfleisch"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked white rice",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:C352032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "braised beef",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:U281142",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "beef stock",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:Y183013",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "carrot",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "leek",
+     "grams": 15,
+     "resolved": {
+      "id": "ciqual:20039",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "semolina soup roasted thickened with egg yolk",
+   "names": {
+    "en": "Roasted semolina soup with egg yolk",
+    "de": "Geröstete Grießsuppe mit Eigelb"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "soup",
+   "aliases": {
+    "en": [
+     "toasted semolina soup",
+     "roasted semolina soup",
+     "semolina soup with egg yolk",
+     "semolina soup with roux"
+    ],
+    "de": [
+     "grießsuppe geröstet",
+     "geröstete grießsuppe",
+     "grießsuppe mit eigelb",
+     "griessuppe geröstet",
+     "grießsuppe legiert"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "beef stock",
+     "grams": 300,
+     "resolved": {
+      "id": "bls:Y183013",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "semolina",
+     "grams": 20,
+     "resolved": {
+      "id": "cofid:11-903",
+      "via": "verified"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg yolk",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2707172",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "chives",
+     "grams": 2,
+     "resolved": {
+      "id": "bls:G081100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "semolina soup roasted",
+   "skip": "duplicate of roasted semolina soup with egg yolk"
+  },
+  {
+   "key": "semolina soup",
+   "names": {
+    "en": "Semolina soup",
+    "de": "Grießsuppe"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "soup",
+   "aliases": {
+    "en": [
+     "semolina broth",
+     "clear semolina soup",
+     "beef broth with semolina",
+     "griess soup"
+    ],
+    "de": [
+     "eingestreute grießsuppe",
+     "griessuppe",
+     "grießsuppe klar",
+     "brühe mit grieß"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "beef stock",
+     "grams": 300,
+     "resolved": {
+      "id": "bls:Y183013",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "semolina",
+     "grams": 12,
+     "resolved": {
+      "id": "cofid:11-903",
+      "via": "verified"
+     }
+    }
+   ]
+  },
+  {
+   "key": "green spelt flour soup",
+   "names": {
+    "en": "Green spelt soup",
+    "de": "Grünkernsuppe"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "soup",
+   "aliases": {
+    "en": [
+     "gruenkern soup",
+     "green spelt flour soup",
+     "unripe spelt soup",
+     "green spelt cream soup"
+    ],
+    "de": [
+     "grünkernmehlsuppe",
+     "grünkern suppe",
+     "gruenkernsuppe",
+     "grünkernsuppe geröstet",
+     "badische grünkernsuppe"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "green spelt flour",
+     "grams": 20,
+     "reference": "bls:C413000"
+    },
+    {
+     "name": "vegetable stock",
+     "grams": 250,
+     "resolved": {
+      "id": "bls:X416243",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "light cream",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:M171500",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "green spelt soup roasted",
+   "skip": "duplicate of green spelt soup"
+  },
+  {
+   "key": "oat gruel",
+   "names": {
+    "en": "Oat gruel",
+    "de": "Haferschleim"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "cereal",
+   "aliases": {
+    "en": [
+     "oatmeal gruel",
+     "thin oat porridge",
+     "oat slime soup",
+     "oat water"
+    ],
+    "de": [
+     "haferschleimsuppe",
+     "hafer schleim",
+     "haferschleim mit wasser",
+     "schonkost haferschleim"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "rolled oats",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:C133000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "water",
+     "grams": 250,
+     "resolved": {
+      "id": "usda:2710706",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "pearl barley soup mecklenburg",
+   "names": {
+    "en": "Mecklenburg barley soup with duck and prunes",
+    "de": "Graupensuppe Mecklenburger Art"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "soup",
+   "aliases": {
+    "en": [
+     "mecklenburg barley soup",
+     "pearl barley soup with duck",
+     "barley soup with prunes",
+     "graupensuppe"
+    ],
+    "de": [
+     "graupensuppe mecklenburg",
+     "mecklenburger graupensuppe",
+     "graupensuppe mit ente",
+     "graupensuppe mit backpflaumen"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "vegetable stock",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:X416243",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "pearl barley, boiled",
+     "grams": 80,
+     "reference": "bls:C148032"
+    },
+    {
+     "name": "prunes",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2709211",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "roast duck",
+     "grams": 50,
+     "resolved": {
+      "id": "cofid:18-372",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "carrot",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "leek",
+     "grams": 15,
+     "resolved": {
+      "id": "ciqual:20039",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "celeriac",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G660100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "barley soup bundner style with bacon smoked beef and pork",
+   "names": {
+    "en": "Grisons barley soup",
+    "de": "Bündner Gerstensuppe"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "soup",
+   "aliases": {
+    "en": [
+     "bundner barley soup",
+     "swiss barley soup",
+     "graubunden barley soup",
+     "barley soup with bacon and dried beef"
+    ],
+    "de": [
+     "bündner gerstensuppe",
+     "gerstensuppe",
+     "bündner gerschtasuppa",
+     "gerstensuppe nach bündner art",
+     "graubündner gerstensuppe"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "pearl barley, boiled",
+     "grams": 60,
+     "reference": "bls:C148032"
+    },
+    {
+     "name": "smoked streaky bacon",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:W411300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "dried beef",
+     "grams": 20,
+     "reference": "bls:U101400"
+    },
+    {
+     "name": "smoked pork neck",
+     "grams": 30,
+     "reference": "bls:W511000"
+    },
+    {
+     "name": "carrot",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "leek",
+     "grams": 30,
+     "resolved": {
+      "id": "ciqual:20039",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "celeriac",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G660100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "beef stock",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:Y183013",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "heavy cream",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:M173800",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "bread soup with vegetable stock tomatoes button mushruooms and cheese",
+   "names": {
+    "en": "Bread soup with tomatoes, mushrooms and cheese",
+    "de": "Brotsuppe mit Tomaten, Champignons und Käse"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "soup",
+   "aliases": {
+    "en": [
+     "tomato bread soup with cheese",
+     "bread soup with mushrooms",
+     "bread and tomato soup with cheese",
+     "baked bread soup"
+    ],
+    "de": [
+     "brotsuppe mit käse",
+     "brotsuppe mit tomaten",
+     "weißbrotsuppe mit champignons",
+     "brotsuppe überbacken"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "white bread",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:B311000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable stock",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:X416243",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "canned tomatoes",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:G568900",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "mushrooms",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:K701100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "gouda",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:M402600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "bread soup with meat stock vegetables and bacon",
+   "names": {
+    "en": "Rye bread soup with vegetables and bacon",
+    "de": "Brotsuppe mit Fleischbrühe, Gemüse und Speck"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "soup",
+   "aliases": {
+    "en": [
+     "rye bread soup",
+     "bread soup with bacon",
+     "black bread soup",
+     "hearty bread soup"
+    ],
+    "de": [
+     "schwarzbrotsuppe",
+     "brotsuppe mit speck",
+     "brotsuppe deftig",
+     "tiroler brotsuppe",
+     "brotsuppe mit fleischbrühe"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "rye bread",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:B221000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "beef stock",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:Y183013",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "carrot",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "leek",
+     "grams": 20,
+     "resolved": {
+      "id": "ciqual:20039",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "smoked streaky bacon",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:W411300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "bread soup with raisins apple and sour cream",
+   "names": {
+    "en": "Sweet rye bread soup with raisins and apple",
+    "de": "Süße Brotsuppe mit Rosinen und Apfel"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "soup",
+   "aliases": {
+    "en": [
+     "sweet bread soup",
+     "rye bread soup with raisins",
+     "leipäkeitto",
+     "bread soup with apple and sour cream"
+    ],
+    "de": [
+     "brotsuppe süß",
+     "süße brotsuppe",
+     "schwarzbrotsuppe mit rosinen",
+     "brotsuppe mit apfel und rosinen"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "rye bread",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:B221000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "water",
+     "grams": 200,
+     "resolved": {
+      "id": "usda:2710706",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "raisins",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2709212",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "apple",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:F110100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sour cream",
+     "grams": 30,
+     "resolved": {
+      "id": "usda:2705614",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 8,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "goulash soup with beef meat stock and red wine",
+   "names": {
+    "en": "Goulash soup",
+    "de": "Gulaschsuppe"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "soup",
+   "aliases": {
+    "en": [
+     "goulash soup with beef",
+     "beef goulash soup",
+     "gulasch soup",
+     "gulyas soup"
+    ],
+    "de": [
+     "gulasch suppe",
+     "rindergulaschsuppe",
+     "gulaschsuppe mit rindfleisch",
+     "gulaschsuppe mit rotwein",
+     "gulyassuppe"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "braised beef",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:U281142",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "beef stock",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:Y183013",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "red bell pepper",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G543100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato paste",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:R160000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "red wine",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2710688",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "paprika",
+     "grams": 3,
+     "resolved": {
+      "id": "ciqual:11049",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "soup with roe deer meat bacon and red wine",
+   "names": {
+    "en": "Venison soup",
+    "de": "Wildsuppe mit Reh"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "meat",
+   "aliases": {
+    "en": [
+     "game soup",
+     "roe deer soup",
+     "venison soup with red wine",
+     "wild game soup"
+    ],
+    "de": [
+     "wildsuppe",
+     "rehsuppe",
+     "wildsuppe mit rehfleisch",
+     "wildsuppe mit rotwein"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "roe deer, braised",
+     "grams": 70,
+     "reference": "bls:V221142"
+    },
+    {
+     "name": "smoked streaky bacon",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:W411300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "beef stock",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:Y183013",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "red wine",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2710688",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "carrot",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "celeriac",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G660100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "heavy cream",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:M173800",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "goulash soup hungarian with beef meat stock tomatoes and potatoes",
+   "names": {
+    "en": "Hungarian goulash soup with potatoes",
+    "de": "Ungarische Gulaschsuppe mit Kartoffeln"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "soup",
+   "aliases": {
+    "en": [
+     "gulyas with potatoes",
+     "hungarian goulash soup",
+     "gulyasleves",
+     "goulash soup with potatoes"
+    ],
+    "de": [
+     "ungarische gulaschsuppe",
+     "gulaschsuppe mit kartoffeln",
+     "gulyásleves",
+     "gulaschsuppe ungarisch"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "braised beef",
+     "grams": 70,
+     "resolved": {
+      "id": "bls:U281142",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "boiled potatoes",
+     "grams": 70,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "canned tomatoes",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:G568900",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "red bell pepper",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G543100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "beef stock",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:Y183013",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "paprika",
+     "grams": 3,
+     "resolved": {
+      "id": "ciqual:11049",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 8,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "goulash soup with beef onions and sweet pepper",
+   "skip": "duplicate of goulash soup (beef, onions and peppers)"
+  },
+  {
+   "key": "minced meat soup",
+   "names": {
+    "en": "Minced meat soup",
+    "de": "Hascheesuppe"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "soup",
+   "aliases": {
+    "en": [
+     "ground beef soup",
+     "mince soup",
+     "hamburger soup",
+     "minced meat and pepper soup"
+    ],
+    "de": [
+     "hackfleischsuppe",
+     "haschee suppe",
+     "hacksuppe",
+     "hackfleisch suppe mit paprika"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked mixed mince",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:U050132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "beef stock",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:Y183013",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "red bell pepper",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G543100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "canned tomatoes",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G568900",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 3,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato paste",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:R160000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "oxtail soup thickened",
+   "names": {
+    "en": "Thick oxtail soup",
+    "de": "Gebundene Ochsenschwanzsuppe"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "soup",
+   "aliases": {
+    "en": [
+     "thick oxtail soup",
+     "cream of oxtail soup",
+     "ox tail soup thickened",
+     "oxtail soup with roux"
+    ],
+    "de": [
+     "ochsenschwanzsuppe gebunden",
+     "ochsenschwanz suppe gebunden",
+     "gebundene ochsenschwanz suppe",
+     "dicke ochsenschwanzsuppe"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "oxtail, braised",
+     "grams": 150,
+     "reference": "bls:Y184312"
+    },
+    {
+     "name": "beef stock",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:Y183013",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "wheat flour",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "carrot",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "celeriac",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G660100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "red wine",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2710688",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "cream of chicken soup",
+   "names": {
+    "en": "Cream of chicken soup",
+    "de": "Geflügelcremesuppe"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "soup",
+   "aliases": {
+    "en": [
+     "creamy chicken soup",
+     "chicken cream soup",
+     "chicken veloute",
+     "cream of chicken"
+    ],
+    "de": [
+     "hühnercremesuppe",
+     "hühnerrahmsuppe",
+     "geflügelrahmsuppe",
+     "cremige hühnersuppe",
+     "hähnchencremesuppe"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked chicken breast",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:V416132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "chicken stock",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:X411243",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "heavy cream",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:M173800",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg yolk",
+     "grams": 5,
+     "resolved": {
+      "id": "usda:2707172",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "eel soup hamburg style with dried fruit",
+   "names": {
+    "en": "Hamburg eel soup",
+    "de": "Hamburger Aalsuppe"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "soup",
+   "aliases": {
+    "en": [
+     "hamburg eel soup",
+     "eel soup with dried fruit",
+     "aalsuppe",
+     "eel soup"
+    ],
+    "de": [
+     "aalsuppe",
+     "hamburger aalsuppe mit backobst",
+     "aalsuppe hamburger art",
+     "aal suppe"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "beef stock",
+     "grams": 250,
+     "resolved": {
+      "id": "bls:Y183013",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "eel",
+     "grams": 40,
+     "reference": "bls:T041100"
+    },
+    {
+     "name": "prunes",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2709211",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "dried apricots",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:F201400",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "pear",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:F130100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "carrot",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "green peas",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G760132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "celeriac",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G660100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked ham",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:W424000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "semolina",
+     "grams": 10,
+     "resolved": {
+      "id": "cofid:11-903",
+      "via": "verified"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 5,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "lobster soup with whipped cream white wine and celery",
+   "names": {
+    "en": "Lobster bisque",
+    "de": "Hummersuppe"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "lobster",
+   "aliases": {
+    "en": [
+     "lobster soup",
+     "lobster bisque",
+     "cream of lobster soup",
+     "bisque de homard"
+    ],
+    "de": [
+     "hummercremesuppe",
+     "hummer suppe",
+     "hummerbisque",
+     "hummersuppe mit sahne"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "lobster",
+     "grams": 40,
+     "reference": "usda:2706349"
+    },
+    {
+     "name": "vegetable stock",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:X416243",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "heavy cream",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:M173800",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "white wine",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2710689",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "celery",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G220100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato paste",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:R160000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "crayfish soup",
+   "names": {
+    "en": "Crayfish soup",
+    "de": "Krebssuppe"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "lobster",
+   "aliases": {
+    "en": [
+     "crawfish soup",
+     "crayfish bisque",
+     "crayfish broth",
+     "freshwater crayfish soup"
+    ],
+    "de": [
+     "flusskrebssuppe",
+     "krebssuppe klar",
+     "krebs suppe",
+     "flußkrebssuppe"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "crayfish",
+     "grams": 100,
+     "reference": "bls:T710100"
+    },
+    {
+     "name": "vegetable stock",
+     "grams": 250,
+     "resolved": {
+      "id": "bls:X416243",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "celery",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G220100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "carrot",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato paste",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:R160000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "light cream",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:M171500",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "fish vegetable stew pichelsteiner with saithe",
+   "names": {
+    "en": "Fish and vegetable stew with saithe",
+    "de": "Fisch-Pichelsteiner mit Seelachs"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "fish",
+   "aliases": {
+    "en": [
+     "fish pichelsteiner",
+     "saithe stew",
+     "fish and vegetable hotpot",
+     "pollock vegetable stew"
+    ],
+    "de": [
+     "fisch pichelsteiner",
+     "seelachs eintopf",
+     "fischeintopf mit seelachs",
+     "fisch-gemüse-eintopf"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "saithe, stewed",
+     "grams": 120,
+     "reference": "bls:T207152"
+    },
+    {
+     "name": "boiled potatoes",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "carrot",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "leek",
+     "grams": 40,
+     "resolved": {
+      "id": "ciqual:20039",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "celeriac",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G660100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable stock",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:X416243",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "carrot stew with pork belly",
+   "names": {
+    "en": "Carrot stew with pork belly",
+    "de": "Möhreneintopf mit Schweinebauch"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "soup",
+   "aliases": {
+    "en": [
+     "carrot and potato stew with pork belly",
+     "carrot hotpot",
+     "pork belly carrot stew",
+     "german carrot stew"
+    ],
+    "de": [
+     "karotteneintopf mit schweinebauch",
+     "möhreneintopf",
+     "karotteneintopf",
+     "möhren untereinander mit bauchfleisch",
+     "wurzeleintopf"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "carrot",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "boiled potatoes",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked pork belly",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:U57A172",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable stock",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:X416243",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "parsley",
+     "grams": 3,
+     "resolved": {
+      "id": "usda:2709796",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "turnip stew with cured smoked pork neck and potatoes",
+   "names": {
+    "en": "Swede stew with smoked pork and potatoes",
+    "de": "Steckrübeneintopf mit Kasseler und Kartoffeln"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "soup",
+   "aliases": {
+    "en": [
+     "swede stew",
+     "rutabaga stew with smoked pork",
+     "turnip stew with kasseler",
+     "swede and potato stew"
+    ],
+    "de": [
+     "steckrübeneintopf",
+     "kohlrübeneintopf",
+     "kohlrüben-eintopf mit kasseler",
+     "steckrübeneintopf mit kasseler",
+     "wruken eintopf"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "swede",
+     "grams": 150,
+     "reference": "bls:G611100"
+    },
+    {
+     "name": "boiled potatoes",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "smoked pork neck",
+     "grams": 120,
+     "reference": "bls:W511000"
+    },
+    {
+     "name": "vegetable stock",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:X416243",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "leek stew with cured pork neck and potatoes",
+   "names": {
+    "en": "Leek stew with cured pork and potatoes",
+    "de": "Lauch-Eintopf mit Kasseler und Kartoffeln"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "soup",
+   "aliases": {
+    "en": [
+     "leek and potato stew",
+     "leek stew with smoked pork",
+     "leek hotpot",
+     "porree stew with pork neck"
+    ],
+    "de": [
+     "lauch eintopf",
+     "porree eintopf",
+     "lauch-eintopf mit pökelnacken",
+     "lauch kartoffel eintopf",
+     "porreeeintopf mit kasseler"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "leek",
+     "grams": 150,
+     "resolved": {
+      "id": "ciqual:20039",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "boiled potatoes",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "smoked pork neck",
+     "grams": 100,
+     "reference": "bls:W511000"
+    },
+    {
+     "name": "vegetable stock",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:X416243",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "lentil stew with vegetables potatoes and vienna sausages",
+   "names": {
+    "en": "Lentil stew with potatoes and frankfurters",
+    "de": "Linseneintopf mit Kartoffeln und Wiener Würstchen"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "soup",
+   "aliases": {
+    "en": [
+     "lentil soup with sausages",
+     "lentil stew with frankfurters",
+     "german lentil stew with wiener",
+     "lentil sausage stew"
+    ],
+    "de": [
+     "linseneintopf mit würstchen",
+     "linsensuppe mit wiener",
+     "linseneintopf mit wienern",
+     "linsen mit würstchen",
+     "linsen eintopf mit wurst"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked lentils",
+     "grams": 200,
+     "resolved": {
+      "id": "usda:2707425",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "boiled potatoes",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "frankfurter",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:W211200",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "carrot",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "leek",
+     "grams": 20,
+     "resolved": {
+      "id": "ciqual:20039",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "celeriac",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G660100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable stock",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:X416243",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 5,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "wine vinegar",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:R121000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "lentil stew with vegetables",
+   "skip": "duplicate of the reviewed recipe Lentil soup (which lists linseneintopf as an alias)"
+  },
+  {
+   "key": "lentil stew with vegetables and potatoes",
+   "names": {
+    "en": "Lentil stew with vegetables and potatoes",
+    "de": "Linseneintopf mit Gemüse und Kartoffeln"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "soup",
+   "aliases": {
+    "en": [
+     "lentil potato stew",
+     "lentil and potato soup",
+     "vegetable lentil stew with potatoes",
+     "lentil stew with potatoes"
+    ],
+    "de": [
+     "linseneintopf mit kartoffeln",
+     "linsen kartoffel eintopf",
+     "linsensuppe mit kartoffeln",
+     "linseneintopf vegetarisch"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked lentils",
+     "grams": 220,
+     "resolved": {
+      "id": "usda:2707425",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "boiled potatoes",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "carrot",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "leek",
+     "grams": 30,
+     "resolved": {
+      "id": "ciqual:20039",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "celeriac",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G660100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 8,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "wine vinegar",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:R121000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "vegetable stew pichelsteiner with beef and pork",
+   "names": {
+    "en": "Pichelsteiner stew",
+    "de": "Pichelsteiner Eintopf"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "soup",
+   "aliases": {
+    "en": [
+     "pichelsteiner",
+     "bavarian meat and vegetable stew",
+     "pichelsteiner hotpot",
+     "beef pork vegetable stew"
+    ],
+    "de": [
+     "pichelsteiner",
+     "pichelsteiner topf",
+     "gemüsepichelsteiner",
+     "gemüse-eintopf mit rind- und schweinefleisch",
+     "pichelsteiner fleisch"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "braised beef",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:U281142",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "roast pork",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:Y352212",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "boiled potatoes",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "carrot",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "leek",
+     "grams": 30,
+     "resolved": {
+      "id": "ciqual:20039",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "celeriac",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G660100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "white cabbage",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G342100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "beef stock",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:Y183013",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 8,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "vegetable soup with potatoes and beef",
+   "names": {
+    "en": "Vegetable soup with potatoes and beef",
+    "de": "Gemüsesuppe mit Kartoffeln und Rindfleisch"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "soup",
+   "aliases": {
+    "en": [
+     "beef vegetable soup",
+     "vegetable beef soup with potatoes",
+     "beef and potato soup",
+     "hearty beef vegetable soup"
+    ],
+    "de": [
+     "gemüsesuppe mit rindfleisch",
+     "rindfleischsuppe mit gemüse",
+     "gemüsesuppe mit kartoffeln",
+     "rindfleisch gemüsesuppe"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "beef stock",
+     "grams": 250,
+     "resolved": {
+      "id": "bls:Y183013",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "braised beef",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:U281142",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "boiled potatoes",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "carrot",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "leek",
+     "grams": 20,
+     "resolved": {
+      "id": "ciqual:20039",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "celeriac",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G660100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "green beans",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G710132",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "vegetable soup thickened",
+   "names": {
+    "en": "Thickened vegetable soup",
+    "de": "Gebundene Gemüsesuppe"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "soup",
+   "aliases": {
+    "en": [
+     "vegetable soup with roux",
+     "thick vegetable soup",
+     "thickened veggie soup"
+    ],
+    "de": [
+     "gemüsesuppe gebunden",
+     "gebundene gemüse suppe",
+     "dicke gemüsesuppe",
+     "gemüsesuppe mit mehlschwitze"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "vegetable stock",
+     "grams": 250,
+     "resolved": {
+      "id": "bls:X416243",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "carrot",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "leek",
+     "grams": 20,
+     "resolved": {
+      "id": "ciqual:20039",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "celeriac",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G660100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "boiled potatoes",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "green peas",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G760132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 6,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "wheat flour",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "vegetable stew with mutton",
+   "names": {
+    "en": "Vegetable stew with mutton",
+    "de": "Gemüse-Eintopf mit Hammelfleisch"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "soup",
+   "aliases": {
+    "en": [
+     "mutton stew",
+     "lamb and vegetable stew",
+     "mutton vegetable hotpot",
+     "mutton stew with vegetables"
+    ],
+    "de": [
+     "hammeleintopf",
+     "gemüseeintopf mit hammel",
+     "hammelfleisch eintopf",
+     "lammeintopf mit gemüse"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "mutton, braised",
+     "grams": 100,
+     "reference": "bls:U886142"
+    },
+    {
+     "name": "boiled potatoes",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "white cabbage",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:G342100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "carrot",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "green beans",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G710132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "beef stock",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:Y183013",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "vegetable stew with beef",
+   "skip": "duplicate of vegetable and beef stew (batch 6)"
+  },
+  {
+   "key": "lentil stew with bacon",
+   "names": {
+    "en": "Lentil stew with bacon",
+    "de": "Linseneintopf mit Speck"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "soup",
+   "aliases": {
+    "en": [
+     "lentil soup with bacon",
+     "bacon lentil stew",
+     "lentils with bacon",
+     "german lentil stew with bacon"
+    ],
+    "de": [
+     "linsensuppe mit speck",
+     "linsen mit speck",
+     "linseneintopf speck",
+     "linsen eintopf mit speck"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked lentils",
+     "grams": 250,
+     "resolved": {
+      "id": "usda:2707425",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "smoked streaky bacon",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:W411300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "boiled potatoes",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "carrot",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "leek",
+     "grams": 20,
+     "resolved": {
+      "id": "ciqual:20039",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 5,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "wine vinegar",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:R121000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "bavarian vegetable stew with white cabbage",
+   "names": {
+    "en": "Bavarian cabbage and vegetable stew",
+    "de": "Bayerischer Gemüsetopf mit Weißkraut"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "soup",
+   "aliases": {
+    "en": [
+     "bavarian cabbage stew",
+     "white cabbage stew",
+     "cabbage potato stew",
+     "vegetarian cabbage stew"
+    ],
+    "de": [
+     "weißkrauteintopf",
+     "krauteintopf",
+     "weißkohleintopf",
+     "bayerischer krauttopf",
+     "gemüsetopf mit weißkohl"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "white cabbage",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:G342100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "boiled potatoes",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "carrot",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable stock",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:X416243",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 8,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "lentil soup with vegetables",
+   "skip": "duplicate of the reviewed recipe Lentil soup"
+  },
+  {
+   "key": "vegetable soup with pearl barley",
+   "names": {
+    "en": "Vegetable soup with pearl barley",
+    "de": "Gemüsesuppe mit Graupen"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "soup",
+   "aliases": {
+    "en": [
+     "barley vegetable soup",
+     "vegetable barley soup",
+     "pearl barley soup",
+     "vegetable and barley broth"
+    ],
+    "de": [
+     "graupensuppe mit gemüse",
+     "gemüse graupensuppe",
+     "gemüsesuppe graupen",
+     "graupen gemüsesuppe"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "vegetable stock",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:X416243",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "pearl barley, boiled",
+     "grams": 50,
+     "reference": "bls:C148032"
+    },
+    {
+     "name": "carrot",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "leek",
+     "grams": 20,
+     "resolved": {
+      "id": "ciqual:20039",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "celeriac",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G660100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "boiled potatoes",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 3,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "stew kothen style with potatoes pork neck and pears in oven",
+   "names": {
+    "en": "Köthen-style potato, pork and pear bake",
+    "de": "Schusterpfanne Köthener Art"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "potato",
+   "aliases": {
+    "en": [
+     "schusterpfanne",
+     "pork neck with potatoes and pears",
+     "kothen style potato bake",
+     "cobbler pan with pears"
+    ],
+    "de": [
+     "schusterpfanne",
+     "schusterpfanne mit birnen",
+     "köthener schusterpfanne",
+     "kartoffeln mit schweinekamm und birnen"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "boiled potatoes",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "pork neck, grilled",
+     "grams": 100,
+     "reference": "bls:U632172"
+    },
+    {
+     "name": "pear",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:F130100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable stock",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:X416243",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 5,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "lentil stew with sausage and fresh egg pasta spaetzle",
+   "names": {
+    "en": "Lentils with spaetzle and frankfurters",
+    "de": "Linsen mit Spätzle und Saitenwürstle"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "soup",
+   "aliases": {
+    "en": [
+     "swabian lentils with spaetzle",
+     "lentils and spatzle",
+     "linsen mit spatzle",
+     "lentil stew with spaetzle and sausages"
+    ],
+    "de": [
+     "linsen mit spätzle",
+     "linsen spätzle saitenwürstle",
+     "linsen mit spätzle und wienerle",
+     "schwäbische linsen",
+     "linsen und spätzle"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked lentils",
+     "grams": 200,
+     "resolved": {
+      "id": "usda:2707425",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked fresh egg pasta",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:E438032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "frankfurter",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:W211200",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "smoked streaky bacon",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:W411300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "carrot",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "wine vinegar",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:R121000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable stock",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:X416243",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "lentil soup with vegetables and cured pork",
+   "names": {
+    "en": "Lentil soup with smoked pork",
+    "de": "Linsensuppe mit Kasseler"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "soup",
+   "aliases": {
+    "en": [
+     "lentil soup with ham",
+     "lentil soup with cured pork",
+     "lentil soup with kasseler",
+     "smoked pork lentil soup"
+    ],
+    "de": [
+     "linsensuppe mit gepökeltem schweinefleisch",
+     "linsensuppe mit kasseler",
+     "linsensuppe mit rauchfleisch",
+     "linsensuppe mit fleisch"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked lentils",
+     "grams": 200,
+     "resolved": {
+      "id": "usda:2707425",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "smoked pork neck",
+     "grams": 80,
+     "reference": "bls:W511000"
+    },
+    {
+     "name": "smoked streaky bacon",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:W411300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable stock",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:X416243",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "carrot",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "leek",
+     "grams": 20,
+     "resolved": {
+      "id": "ciqual:20039",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "celeriac",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G660100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "lentil stew with prunes and blood sausage",
+   "names": {
+    "en": "Lentil stew with prunes and blood sausage",
+    "de": "Linseneintopf mit Backpflaumen und Blutwurst"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "soup",
+   "aliases": {
+    "en": [
+     "lentils with black pudding",
+     "lentil stew with blood sausage",
+     "lentil stew with prunes",
+     "blood sausage lentil stew"
+    ],
+    "de": [
+     "linsen mit blutwurst",
+     "linseneintopf mit blutwurst",
+     "linsen mit backpflaumen",
+     "linseneintopf mit pflaumen und blutwurst"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked lentils",
+     "grams": 200,
+     "resolved": {
+      "id": "usda:2707425",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "blood sausage",
+     "grams": 60,
+     "reference": "usda:2706173"
+    },
+    {
+     "name": "prunes",
+     "grams": 30,
+     "resolved": {
+      "id": "usda:2709211",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "boiled potatoes",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "carrot",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable stock",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:X416243",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "wine vinegar",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:R121000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "pea soup with vegetable stock mirepoix bacon and vienna sausages",
+   "names": {
+    "en": "Pea soup with bacon and frankfurters",
+    "de": "Erbsensuppe mit Speck und Wiener Würstchen"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "soup",
+   "aliases": {
+    "en": [
+     "split pea soup with sausages",
+     "pea soup with frankfurters",
+     "german pea soup with wiener",
+     "erbsensuppe with sausage"
+    ],
+    "de": [
+     "erbsensuppe mit würstchen",
+     "erbseneintopf mit wiener",
+     "erbsensuppe mit wienern",
+     "erbseneintopf mit würstchen",
+     "erbsensuppe mit speck und wurst"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "split peas, cooked",
+     "grams": 180,
+     "reference": "usda:2707420"
+    },
+    {
+     "name": "frankfurter",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:W211200",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "smoked streaky bacon",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:W411300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "carrot",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "leek",
+     "grams": 20,
+     "resolved": {
+      "id": "ciqual:20039",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "celeriac",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G660100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "boiled potatoes",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable stock",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:X416243",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "green pea soup with small semolina dumplings",
+   "names": {
+    "en": "Green pea soup with semolina dumplings",
+    "de": "Grüne Erbsensuppe mit Grießklößchen"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "soup",
+   "aliases": {
+    "en": [
+     "green pea soup",
+     "fresh pea soup with dumplings",
+     "pea soup with semolina dumplings",
+     "cream of green pea soup"
+    ],
+    "de": [
+     "grüne erbsensuppe",
+     "erbsensuppe mit grießklößchen",
+     "grüne erbsencremesuppe",
+     "erbsensuppe mit grießnockerl"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "green peas",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:G760132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable stock",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:X416243",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "semolina",
+     "grams": 15,
+     "resolved": {
+      "id": "cofid:11-903",
+      "via": "verified"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 7,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 12,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "light cream",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:M171500",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "pea soup with vegetable stock mirepoix and bacon thickened",
+   "names": {
+    "en": "Pea soup with bacon",
+    "de": "Erbsensuppe mit Speck"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "soup",
+   "aliases": {
+    "en": [
+     "split pea soup with bacon",
+     "pea and bacon soup",
+     "german pea soup",
+     "yellow pea soup with bacon"
+    ],
+    "de": [
+     "erbsensuppe",
+     "erbseneintopf mit speck",
+     "erbsensuppe gebunden",
+     "gelbe erbsensuppe",
+     "erbsensuppe mit suppengrün und speck"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "split peas, cooked",
+     "grams": 150,
+     "reference": "usda:2707420"
+    },
+    {
+     "name": "smoked streaky bacon",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:W411300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "carrot",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "leek",
+     "grams": 20,
+     "resolved": {
+      "id": "ciqual:20039",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "celeriac",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G660100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "boiled potatoes",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable stock",
+     "grams": 180,
+     "resolved": {
+      "id": "bls:X416243",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "wheat flour",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "pea soup with vegetable stock mirepoix and bacon",
+   "skip": "duplicate of pea soup with bacon (only the thickening differs)"
+  },
+  {
+   "key": "pea soup with vegetable stock vegetables small mettwurst sausages and pork belly",
+   "names": {
+    "en": "Pea soup with mettwurst and pork belly",
+    "de": "Erbsensuppe mit Mettwürstchen und Schweinebauch"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "soup",
+   "aliases": {
+    "en": [
+     "pea soup with smoked sausage",
+     "split pea soup with pork belly",
+     "pea stew with mettwurst",
+     "hearty pea soup with sausage"
+    ],
+    "de": [
+     "erbsensuppe mit mettwurst",
+     "erbseneintopf mit mettenden",
+     "erbsensuppe mit bauchfleisch",
+     "erbseneintopf mit schweinebauch"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "split peas, cooked",
+     "grams": 160,
+     "reference": "usda:2707420"
+    },
+    {
+     "name": "mettwurst",
+     "grams": 50,
+     "reference": "bls:W151000"
+    },
+    {
+     "name": "cooked pork belly",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:U57A172",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "carrot",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "leek",
+     "grams": 20,
+     "resolved": {
+      "id": "ciqual:20039",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "celeriac",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G660100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "boiled potatoes",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable stock",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:X416243",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "chickpea tomato stew",
+   "names": {
+    "en": "Chickpea and tomato stew",
+    "de": "Kichererbsen-Tomaten-Eintopf"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "soup",
+   "aliases": {
+    "en": [
+     "chickpea stew",
+     "chickpea tomato curry-free stew",
+     "tomato chickpea stew",
+     "garbanzo tomato stew"
+    ],
+    "de": [
+     "kichererbseneintopf",
+     "kichererbsen eintopf mit tomaten",
+     "tomaten kichererbsen eintopf",
+     "kichererbsen-tomaten-topf"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked chickpeas",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:G770432",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "canned tomatoes",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:G568900",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "red bell pepper",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:G543100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "olive oil",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:Q120000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "garlic",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:G490100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cumin",
+     "grams": 2,
+     "resolved": {
+      "id": "ciqual:11042",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable stock",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:X416243",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "haricot bean soup with smoked pork",
+   "names": {
+    "en": "White bean soup with smoked pork",
+    "de": "Weiße-Bohnen-Suppe mit Rauchfleisch"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "soup",
+   "aliases": {
+    "en": [
+     "white bean soup with smoked pork",
+     "haricot bean soup with ham",
+     "bean soup with kasseler",
+     "smoked pork bean soup"
+    ],
+    "de": [
+     "bohnensuppe mit rauchfleisch",
+     "weiße bohnensuppe mit kasseler",
+     "bohnensuppe mit geräuchertem",
+     "weisse bohnen suppe mit fleisch"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "white beans",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:H740132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "smoked pork neck",
+     "grams": 80,
+     "reference": "bls:W511000"
+    },
+    {
+     "name": "smoked streaky bacon",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:W411300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "carrot",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "leek",
+     "grams": 20,
+     "resolved": {
+      "id": "ciqual:20039",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "celeriac",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G660100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "boiled potatoes",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "beef stock",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:Y183013",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato paste",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:R160000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "haricot bean stew with beef",
+   "names": {
+    "en": "White bean stew with beef",
+    "de": "Weiße-Bohnen-Eintopf mit Rindfleisch"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "soup",
+   "aliases": {
+    "en": [
+     "bean and beef stew",
+     "white bean beef stew",
+     "haricot bean beef stew",
+     "beef and bean hotpot"
+    ],
+    "de": [
+     "bohneneintopf mit rindfleisch",
+     "weißer bohneneintopf mit rind",
+     "bohnen rindfleisch eintopf",
+     "weisse bohnen eintopf"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "white beans",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:H740132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "braised beef",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:U281142",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "boiled potatoes",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "carrot",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "canned tomatoes",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:G568900",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "beef stock",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:Y183013",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "haricot bean soup with bacon",
+   "names": {
+    "en": "White bean soup with bacon",
+    "de": "Weiße-Bohnen-Suppe mit Speck"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "soup",
+   "aliases": {
+    "en": [
+     "white bean soup",
+     "bean and bacon soup",
+     "haricot bean soup",
+     "navy bean soup with bacon"
+    ],
+    "de": [
+     "bohnensuppe mit speck",
+     "weiße bohnensuppe",
+     "weisse bohnensuppe",
+     "bohnensuppe"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "white beans",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:H740132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "smoked streaky bacon",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:W411300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "carrot",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "leek",
+     "grams": 20,
+     "resolved": {
+      "id": "ciqual:20039",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "celeriac",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G660100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "boiled potatoes",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable stock",
+     "grams": 180,
+     "resolved": {
+      "id": "bls:X416243",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato paste",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:R160000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "tomato stew with bacon broad beans and vegetables",
+   "names": {
+    "en": "Tomato stew with broad beans and bacon",
+    "de": "Tomaten-Eintopf mit Speck und dicken Bohnen"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "soup",
+   "aliases": {
+    "en": [
+     "broad bean tomato stew",
+     "fava bean stew with bacon",
+     "tomato and broad bean stew",
+     "bacon broad bean stew"
+    ],
+    "de": [
+     "tomateneintopf",
+     "dicke bohnen eintopf mit tomaten",
+     "tomaten eintopf mit speck",
+     "eintopf mit dicken bohnen"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "canned tomatoes",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:G568900",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "broad beans, boiled",
+     "grams": 100,
+     "reference": "cofid:13-648"
+    },
+    {
+     "name": "smoked streaky bacon",
+     "grams": 35,
+     "resolved": {
+      "id": "bls:W411300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 5,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "carrot",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "leek",
+     "grams": 20,
+     "resolved": {
+      "id": "ciqual:20039",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "celeriac",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G660100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "boiled potatoes",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable stock",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:X416243",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "green bean soup with vegetable stock and potatoes",
+   "names": {
+    "en": "Green bean soup with potatoes",
+    "de": "Grüne-Bohnen-Suppe mit Kartoffeln"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "soup",
+   "aliases": {
+    "en": [
+     "green bean soup",
+     "string bean soup",
+     "bean and potato soup",
+     "green bean potato soup"
+    ],
+    "de": [
+     "bohnensuppe grün",
+     "grüne bohnensuppe",
+     "grüne bohnen suppe",
+     "bohnensuppe mit kartoffeln"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "green beans",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:G710132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "boiled potatoes",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable stock",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:X416243",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 3,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "green bean stew with vegetable stock potatoes beef and bacon",
+   "names": {
+    "en": "Green bean stew with beef and bacon",
+    "de": "Grüne-Bohnen-Eintopf mit Rindfleisch und Speck"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "soup",
+   "aliases": {
+    "en": [
+     "green bean stew with beef",
+     "string bean stew with bacon",
+     "bean and beef hotpot",
+     "green bean beef stew"
+    ],
+    "de": [
+     "grüner bohneneintopf mit speck",
+     "bohneneintopf mit fleisch",
+     "grüne bohnen eintopf rind",
+     "grüne bohnen mit rindfleisch und speck"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "green beans",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:G710132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "boiled potatoes",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "braised beef",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:U281142",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "smoked streaky bacon",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:W411300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable stock",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:X416243",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "green bean stew with vegetable stock potatoes and mutton",
+   "names": {
+    "en": "Green bean stew with mutton",
+    "de": "Grüne-Bohnen-Eintopf mit Hammelfleisch"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "soup",
+   "aliases": {
+    "en": [
+     "green bean mutton stew",
+     "lamb and green bean stew",
+     "string bean stew with lamb",
+     "mutton bean hotpot"
+    ],
+    "de": [
+     "bohneneintopf mit hammel",
+     "grüne bohnen mit hammelfleisch",
+     "hammelfleisch mit bohnen",
+     "bohneneintopf mit lamm"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "green beans",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:G710132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "boiled potatoes",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "mutton, braised",
+     "grams": 80,
+     "reference": "bls:U886142"
+    },
+    {
+     "name": "vegetable stock",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:X416243",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "green bean stew with vegetable stock and potatoes",
+   "names": {
+    "en": "Green bean stew with potatoes",
+    "de": "Grüne-Bohnen-Eintopf mit Kartoffeln"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "soup",
+   "aliases": {
+    "en": [
+     "green bean stew",
+     "vegetarian bean stew",
+     "string bean potato stew",
+     "green bean hotpot"
+    ],
+    "de": [
+     "bohneneintopf",
+     "grüner bohneneintopf",
+     "bohneneintopf vegetarisch",
+     "grüne bohnen eintopf"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "green beans",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:G710132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "boiled potatoes",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable stock",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:X416243",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "green bean stew with vegetable stock potatoes pears and bacon",
+   "names": {
+    "en": "Pears, beans and bacon",
+    "de": "Birnen, Bohnen und Speck"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "soup",
+   "aliases": {
+    "en": [
+     "beans pears and bacon",
+     "birnen bohnen speck",
+     "green bean stew with pears and bacon",
+     "hamburg beans and pears"
+    ],
+    "de": [
+     "birnen bohnen und speck",
+     "bohnen birnen speck",
+     "grüner bohneneintopf mit birne und speck",
+     "birnen bohnen speck eintopf"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "green beans",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:G710132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "pear",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:F130100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "boiled potatoes",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "smoked streaky bacon",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:W411300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable stock",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:X416243",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "haricot bean soup with bologna",
+   "names": {
+    "en": "White bean soup with sausage",
+    "de": "Weiße-Bohnen-Suppe mit Fleischwurst"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "soup",
+   "aliases": {
+    "en": [
+     "bean soup with bologna",
+     "white bean sausage soup",
+     "haricot bean soup with sausage",
+     "bean soup with fleischwurst"
+    ],
+    "de": [
+     "bohnensuppe mit fleischwurst",
+     "bohnensuppe mit wurst",
+     "weiße bohnensuppe mit wurst",
+     "bohneneintopf mit fleischwurst"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "white beans",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:H740132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "fleischwurst",
+     "grams": 60,
+     "reference": "bls:W234000"
+    },
+    {
+     "name": "carrot",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "leek",
+     "grams": 20,
+     "resolved": {
+      "id": "ciqual:20039",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "celeriac",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G660100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "boiled potatoes",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable stock",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:X416243",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "haricot bean soup with carrots",
+   "names": {
+    "en": "White bean soup with carrots",
+    "de": "Weiße-Bohnen-Suppe mit Karotten"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "soup",
+   "aliases": {
+    "en": [
+     "white bean carrot soup",
+     "vegetarian bean soup",
+     "haricot and carrot soup",
+     "bean soup with carrots"
+    ],
+    "de": [
+     "bohnensuppe mit karotten",
+     "weiße bohnensuppe vegetarisch",
+     "bohnen möhren suppe",
+     "weisse bohnensuppe mit möhren"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "white beans",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:H740132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "carrot",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable stock",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:X416243",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 5,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "savoy cabbage stew with potatoes carrots and bacon",
+   "names": {
+    "en": "Savoy cabbage stew with bacon",
+    "de": "Wirsingeintopf mit Speck"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "soup",
+   "aliases": {
+    "en": [
+     "savoy cabbage stew",
+     "cabbage potato stew with bacon",
+     "savoy stew",
+     "savoy cabbage and bacon hotpot"
+    ],
+    "de": [
+     "wirsingeintopf",
+     "wirsing eintopf mit speck",
+     "wirsingeintopf mit kartoffeln",
+     "wirsing kartoffel eintopf"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "savoy cabbage",
+     "grams": 150,
+     "reference": "bls:G343100"
+    },
+    {
+     "name": "boiled potatoes",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "carrot",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "smoked streaky bacon",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:W411300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable stock",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:X416243",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "savoy cabbage stew with small meatballs potatoes and carrots",
+   "names": {
+    "en": "Savoy cabbage stew with meatballs",
+    "de": "Wirsingeintopf mit Fleischklößchen"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "soup",
+   "aliases": {
+    "en": [
+     "savoy cabbage stew with meatballs",
+     "cabbage meatball stew",
+     "savoy and meatball hotpot",
+     "meatball cabbage soup"
+    ],
+    "de": [
+     "wirsingeintopf mit hackbällchen",
+     "wirsing eintopf mit klößchen",
+     "wirsingeintopf mit fleischbällchen",
+     "wirsingsuppe mit fleischklößchen"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "savoy cabbage",
+     "grams": 150,
+     "reference": "bls:G343100"
+    },
+    {
+     "name": "boiled potatoes",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "carrot",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "meatballs",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:Y036122",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable stock",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:X416243",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "savoy cabbage stew with beef potatoes and carrots",
+   "names": {
+    "en": "Savoy cabbage stew with beef",
+    "de": "Wirsingeintopf mit Rindfleisch"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "soup",
+   "aliases": {
+    "en": [
+     "savoy cabbage beef stew",
+     "beef and cabbage stew",
+     "savoy beef hotpot",
+     "cabbage stew with beef"
+    ],
+    "de": [
+     "wirsing eintopf mit rindfleisch",
+     "wirsingeintopf rind",
+     "rindfleisch wirsing eintopf",
+     "wirsingtopf mit rindfleisch"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "savoy cabbage",
+     "grams": 150,
+     "reference": "bls:G343100"
+    },
+    {
+     "name": "boiled potatoes",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "carrot",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "braised beef",
+     "grams": 70,
+     "resolved": {
+      "id": "bls:U281142",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "beef stock",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:Y183013",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "white cabbage stew with mutton",
+   "names": {
+    "en": "White cabbage stew with mutton",
+    "de": "Weißkraut-Eintopf mit Hammelfleisch"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "soup",
+   "aliases": {
+    "en": [
+     "cabbage and mutton stew",
+     "lamb and cabbage stew",
+     "irish style cabbage stew",
+     "mutton cabbage hotpot"
+    ],
+    "de": [
+     "weißkohleintopf mit hammel",
+     "hammel kohl eintopf",
+     "weißkraut mit hammelfleisch",
+     "weißkohl eintopf mit lamm"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "white cabbage",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:G342100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "mutton, braised",
+     "grams": 100,
+     "reference": "bls:U886142"
+    },
+    {
+     "name": "boiled potatoes",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "beef stock",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:Y183013",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 5,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "curly kale stew with potatoes and pork belly",
+   "names": {
+    "en": "Kale stew with potatoes and pork belly",
+    "de": "Grünkohleintopf mit Kartoffeln und Schweinebauch"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "soup",
+   "aliases": {
+    "en": [
+     "kale stew",
+     "curly kale with pork belly",
+     "german kale stew",
+     "grunkohl stew"
+    ],
+    "de": [
+     "grünkohleintopf",
+     "grünkohl mit bauchfleisch",
+     "grünkohl eintopf",
+     "grünkohl mit kartoffeln",
+     "gruenkohl eintopf"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "kale, cooked",
+     "grams": 150,
+     "reference": "usda:2709600"
+    },
+    {
+     "name": "boiled potatoes",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked pork belly",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:U57A172",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable stock",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:X416243",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "curly kale stew with potatoes and sausage",
+   "names": {
+    "en": "Kale stew with potatoes and Pinkel sausage",
+    "de": "Grünkohleintopf mit Kartoffeln und Kochwurst"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "soup",
+   "aliases": {
+    "en": [
+     "kale with pinkel",
+     "grunkohl with sausage",
+     "curly kale stew with sausage",
+     "kale and sausage stew"
+    ],
+    "de": [
+     "grünkohl mit pinkel",
+     "grünkohl mit kochwurst",
+     "grünkohleintopf mit wurst",
+     "grünkohl und pinkel",
+     "grünkohl mit kohlwurst"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "kale, cooked",
+     "grams": 150,
+     "reference": "usda:2709600"
+    },
+    {
+     "name": "boiled potatoes",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "pinkel sausage",
+     "grams": 80,
+     "reference": "bls:W383700"
+    },
+    {
+     "name": "onion",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable stock",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:X416243",
+      "via": "lexicon"
+     }
+    }
+   ]
+  }
+ ]
+}

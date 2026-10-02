@@ -1,0 +1,7578 @@
+{
+ "batch": 4,
+ "drafted": "2026-10-01",
+ "drafter": "Claude in the Akari Claude Code session",
+ "dishes": [
+  {
+   "key": "gambas al ajillo",
+   "names": {
+    "en": "Gambas al ajillo",
+    "de": "Gambas al Ajillo"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "shrimp",
+   "aliases": {
+    "en": [
+     "garlic prawns",
+     "garlic shrimp",
+     "gambas pil pil",
+     "spanish garlic prawns",
+     "gambas ajillo",
+     "prawns in garlic oil"
+    ],
+    "de": [
+     "knoblauchgarnelen",
+     "garnelen in knoblauchöl",
+     "gambas in knoblauch",
+     "gambas ajillo",
+     "gambas pil pil"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked shrimp",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:T753132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "olive oil",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:Q120000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "garlic",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:G490100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "parsley",
+     "grams": 3,
+     "resolved": {
+      "id": "usda:2709796",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "red chili",
+     "grams": 2,
+     "resolved": {
+      "id": "bls:G554100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "albondigas",
+   "names": {
+    "en": "Albóndigas",
+    "de": "Albóndigas"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "meat",
+   "aliases": {
+    "en": [
+     "albondigas",
+     "spanish meatballs",
+     "meatballs in tomato sauce",
+     "albondigas en salsa",
+     "albóndigas tapas",
+     "tapas meatballs"
+    ],
+    "de": [
+     "albondigas",
+     "spanische hackbällchen",
+     "fleischbällchen in tomatensauce",
+     "albóndigas in tomatensoße",
+     "tapas fleischbällchen"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "meatballs",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:Y036122",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato sauce",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:X331353",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "olive oil",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:Q120000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "croquetas de jamon",
+   "names": {
+    "en": "Croquetas de jamón",
+    "de": "Croquetas de Jamón"
+   },
+   "serving": {
+    "label": {
+     "en": "4 croquetas",
+     "de": "4 Croquetas"
+    },
+    "count": 4
+   },
+   "artworkID": "neutral",
+   "aliases": {
+    "en": [
+     "ham croquettes",
+     "croquetas",
+     "spanish ham croquettes",
+     "croquetas de jamon iberico",
+     "jamon croquetas",
+     "croquettes with ham"
+    ],
+    "de": [
+     "schinkenkroketten",
+     "croquetas",
+     "spanische schinkenkroketten",
+     "kroketten mit schinken",
+     "croquetas jamon"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "whole milk",
+     "grams": 70,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "prosciutto",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2705879",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "wheat flour",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "breadcrumbs",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:B821000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 12,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "pimientos de padron",
+   "names": {
+    "en": "Pimientos de Padrón",
+    "de": "Pimientos de Padrón"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "pepper",
+   "aliases": {
+    "en": [
+     "padron peppers",
+     "pimientos de padron",
+     "blistered padron peppers",
+     "fried padron peppers",
+     "padrón peppers"
+    ],
+    "de": [
+     "padron paprika",
+     "pimientos de padron",
+     "gebratene padron paprika",
+     "bratpaprika",
+     "padrón paprika"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "green bell pepper",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:G541100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "olive oil",
+     "grams": 12,
+     "resolved": {
+      "id": "bls:Q120000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "calamares a la romana",
+   "names": {
+    "en": "Calamares a la romana",
+    "de": "Calamares a la Romana"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "squid",
+   "aliases": {
+    "en": [
+     "calamari a la romana",
+     "calamares fritos",
+     "spanish fried calamari",
+     "calamares romana",
+     "fried squid rings with aioli"
+    ],
+    "de": [
+     "calamares romana",
+     "frittierte tintenfischringe",
+     "calamari mit aioli",
+     "calamares fritos",
+     "gebackene calamari"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "fried calamari",
+     "grams": 150,
+     "resolved": {
+      "id": "usda:2706334",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "mayonnaise",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2710204",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lemon",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2709168",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "pulpo a la gallega",
+   "names": {
+    "en": "Pulpo a la gallega",
+    "de": "Pulpo a la Gallega"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "squid",
+   "aliases": {
+    "en": [
+     "galician octopus",
+     "pulpo gallego",
+     "octopus with paprika",
+     "pulpo a feira",
+     "spanish octopus with potatoes"
+    ],
+    "de": [
+     "pulpo gallega",
+     "oktopus galicische art",
+     "krake mit paprika",
+     "pulpo a feira",
+     "pulpo mit kartoffeln"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "octopus, cooked",
+     "grams": 150,
+     "reference": "usda:2706331"
+    },
+    {
+     "name": "boiled potatoes",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "olive oil",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:Q120000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "paprika",
+     "grams": 2,
+     "resolved": {
+      "id": "ciqual:11049",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "pan con tomate",
+   "names": {
+    "en": "Pan con tomate",
+    "de": "Pan con Tomate"
+   },
+   "serving": {
+    "label": {
+     "en": "2 slices",
+     "de": "2 Scheiben"
+    },
+    "count": 2
+   },
+   "artworkID": "baguette",
+   "aliases": {
+    "en": [
+     "pa amb tomaquet",
+     "pan tumaca",
+     "tomato bread",
+     "spanish tomato toast",
+     "pan con tomate y aceite",
+     "pa amb tomàquet"
+    ],
+    "de": [
+     "pan tumaca",
+     "tomatenbrot",
+     "brot mit tomate",
+     "pa amb tomaquet",
+     "spanisches tomatenbrot"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "baguette",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:B781200",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:G561100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "olive oil",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:Q120000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "garlic",
+     "grams": 3,
+     "resolved": {
+      "id": "bls:G490100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "huevos rotos",
+   "names": {
+    "en": "Huevos rotos",
+    "de": "Huevos Rotos"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "fried-egg",
+   "aliases": {
+    "en": [
+     "broken eggs",
+     "huevos estrellados",
+     "huevos rotos con jamon",
+     "eggs over fried potatoes",
+     "huevos rotos with ham"
+    ],
+    "de": [
+     "huevos estrellados",
+     "spiegeleier auf kartoffeln",
+     "huevos rotos mit schinken",
+     "kartoffeln mit ei und schinken",
+     "zerbrochene eier"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "fried potatoes",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:X651013",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "fried egg",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:Y710142",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "prosciutto",
+     "grams": 30,
+     "resolved": {
+      "id": "usda:2705879",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "fabada asturiana",
+   "names": {
+    "en": "Fabada asturiana",
+    "de": "Fabada Asturiana"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "beans",
+   "aliases": {
+    "en": [
+     "fabada",
+     "asturian bean stew",
+     "fabes",
+     "spanish bean stew",
+     "fabada asturiana with chorizo"
+    ],
+    "de": [
+     "fabada",
+     "asturischer bohneneintopf",
+     "spanischer bohneneintopf",
+     "weiße bohnen mit chorizo",
+     "fabes"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "white beans",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:H740132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "broth",
+     "grams": 100,
+     "resolved": {
+      "id": "usda:2707132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "chorizo",
+     "grams": 40,
+     "resolved": {
+      "id": "usda:2706179",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "blood sausage",
+     "grams": 40,
+     "reference": "usda:2706173"
+    },
+    {
+     "name": "smoked streaky bacon",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:W411300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "bratwurst with sauerkraut",
+   "names": {
+    "en": "Bratwurst with sauerkraut",
+    "de": "Bratwurst mit Sauerkraut"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "hot-dog",
+   "aliases": {
+    "en": [
+     "bratwurst and sauerkraut",
+     "sausage with sauerkraut",
+     "bratwurst sauerkraut",
+     "german sausage with sauerkraut",
+     "brats and kraut"
+    ],
+    "de": [
+     "bratwurst sauerkraut",
+     "bratwürste mit sauerkraut",
+     "rostbratwurst mit sauerkraut",
+     "nürnberger mit kraut",
+     "bratwurst mit kraut"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "bratwurst",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:Y021312",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sauerkraut, stewed",
+     "grams": 150,
+     "reference": "bls:G345152"
+    },
+    {
+     "name": "mustard",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2710085",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "pork schnitzel with fries",
+   "names": {
+    "en": "Pork schnitzel with fries",
+    "de": "Schweineschnitzel mit Pommes"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "meat",
+   "aliases": {
+    "en": [
+     "schnitzel with fries",
+     "schnitzel and chips",
+     "schnitzel with french fries",
+     "breaded pork cutlet with fries",
+     "schnitzel pommes"
+    ],
+    "de": [
+     "schnitzel mit pommes",
+     "schnitzel pommes",
+     "paniertes schnitzel mit pommes",
+     "schnitzel wiener art mit pommes",
+     "schweineschnitzel pommes"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "french fries",
+     "grams": 180,
+     "resolved": {
+      "id": "bls:X654042",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "breaded pork schnitzel",
+     "grams": 180,
+     "resolved": {
+      "id": "bls:Y332132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "ketchup",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:R141100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lemon",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2709168",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "hunter s schnitzel",
+   "names": {
+    "en": "Hunter's schnitzel",
+    "de": "Jägerschnitzel"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "meat",
+   "aliases": {
+    "en": [
+     "jaegerschnitzel",
+     "jägerschnitzel",
+     "schnitzel with mushroom sauce",
+     "hunter schnitzel",
+     "jager schnitzel",
+     "schnitzel in mushroom gravy"
+    ],
+    "de": [
+     "jaegerschnitzel",
+     "schnitzel mit pilzsauce",
+     "schnitzel mit champignonsoße",
+     "jäger schnitzel",
+     "schnitzel jäger art"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "breaded pork schnitzel",
+     "grams": 180,
+     "resolved": {
+      "id": "bls:Y332132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked mushrooms",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:K701172",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "gravy",
+     "grams": 60,
+     "resolved": {
+      "id": "usda:2707149",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "heavy cream",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:M173800",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "schnitzel with paprika sauce",
+   "names": {
+    "en": "Schnitzel with paprika sauce",
+    "de": "Paprikaschnitzel"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "meat",
+   "aliases": {
+    "en": [
+     "paprika schnitzel",
+     "schnitzel with pepper sauce",
+     "zigeunerschnitzel",
+     "gypsy schnitzel",
+     "schnitzel in paprika sauce"
+    ],
+    "de": [
+     "paprikaschnitzel",
+     "schnitzel mit paprikasoße",
+     "zigeunerschnitzel",
+     "schnitzel mit paprikasauce",
+     "paprika rahmschnitzel"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "breaded pork schnitzel",
+     "grams": 180,
+     "resolved": {
+      "id": "bls:Y332132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "passata",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:R161200",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "red bell pepper",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:G543100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "green bell pepper",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G541100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 5,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "paprika",
+     "grams": 2,
+     "resolved": {
+      "id": "ciqual:11049",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "chicken schnitzel",
+   "skip": "a single food: \"chicken schnitzel\" is a vocabulary alias of breaded chicken breast"
+  },
+  {
+   "key": "cordon bleu",
+   "names": {
+    "en": "Cordon bleu",
+    "de": "Cordon bleu"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "meat",
+   "aliases": {
+    "en": [
+     "schnitzel cordon bleu",
+     "pork cordon bleu",
+     "cordon blue",
+     "cordon bleu schnitzel",
+     "veal cordon bleu"
+    ],
+    "de": [
+     "schnitzel cordon bleu",
+     "cordon blue",
+     "schweine cordon bleu",
+     "gefülltes schnitzel mit schinken und käse",
+     "cordon bleu vom schwein"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "breaded pork schnitzel",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:Y332132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "emmental",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:M304600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked ham",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:W424000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lemon",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2709168",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "beef goulash",
+   "names": {
+    "en": "Beef goulash",
+    "de": "Rindergulasch"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "meat",
+   "aliases": {
+    "en": [
+     "goulash",
+     "beef gulasch",
+     "hungarian goulash",
+     "beef stew goulash",
+     "gulash",
+     "beef gulash"
+    ],
+    "de": [
+     "gulasch",
+     "rindergulasch",
+     "rindsgulasch",
+     "gulasch vom rind",
+     "ungarisches gulasch",
+     "gulash"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "braised beef",
+     "grams": 160,
+     "resolved": {
+      "id": "bls:U281142",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "beef stock",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:Y183013",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato paste",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:R160000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "paprika",
+     "grams": 5,
+     "resolved": {
+      "id": "ciqual:11049",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "wheat flour",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "goulash soup",
+   "names": {
+    "en": "Goulash soup",
+    "de": "Gulaschsuppe"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "soup",
+   "aliases": {
+    "en": [
+     "gulasch soup",
+     "hungarian goulash soup",
+     "gulyas soup",
+     "beef goulash soup",
+     "gulyásleves"
+    ],
+    "de": [
+     "gulaschsuppe",
+     "ungarische gulaschsuppe",
+     "gulasch suppe",
+     "gulyas suppe",
+     "rindergulaschsuppe"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "beef stock",
+     "grams": 250,
+     "resolved": {
+      "id": "bls:Y183013",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "braised beef",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:U281142",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "boiled potatoes",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "red bell pepper",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G543100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato paste",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:R160000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 8,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "paprika",
+     "grams": 4,
+     "resolved": {
+      "id": "ciqual:11049",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "beef rouladen",
+   "names": {
+    "en": "Beef rouladen",
+    "de": "Rinderrouladen"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "meat",
+   "aliases": {
+    "en": [
+     "rouladen",
+     "beef roulade",
+     "german beef rolls",
+     "rinderroulade",
+     "beef olives german",
+     "rouladen with gravy"
+    ],
+    "de": [
+     "rinderroulade",
+     "rouladen",
+     "rindsrouladen",
+     "roulade vom rind",
+     "rinderrouladen mit soße"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "braised beef",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:U281142",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "gravy",
+     "grams": 100,
+     "resolved": {
+      "id": "usda:2707149",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "smoked streaky bacon",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:W411300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "pickles",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2710078",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "mustard",
+     "grams": 8,
+     "resolved": {
+      "id": "usda:2710085",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "sauerbraten",
+   "names": {
+    "en": "Sauerbraten",
+    "de": "Sauerbraten"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "meat",
+   "aliases": {
+    "en": [
+     "german pot roast",
+     "sour roast beef",
+     "rhenish sauerbraten",
+     "sauerbraten with gravy",
+     "sauer braten"
+    ],
+    "de": [
+     "rheinischer sauerbraten",
+     "sauerbraten mit soße",
+     "sauer braten",
+     "sauerbraten vom rind",
+     "sauerbratensoße mit fleisch"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "braised beef",
+     "grams": 160,
+     "resolved": {
+      "id": "bls:U281142",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "gravy",
+     "grams": 100,
+     "resolved": {
+      "id": "usda:2707149",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "raisins",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2709212",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "roast pork with dumplings",
+   "names": {
+    "en": "Roast pork with dumplings",
+    "de": "Schweinebraten mit Knödeln"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "meat",
+   "aliases": {
+    "en": [
+     "schweinebraten",
+     "bavarian roast pork",
+     "roast pork and dumplings",
+     "schweinebraten with knodel",
+     "pork roast with potato dumplings"
+    ],
+    "de": [
+     "schweinebraten mit knödel",
+     "schweinsbraten mit knödel",
+     "schweinebraten mit klößen",
+     "bayerischer schweinebraten",
+     "schweinsbraten"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "potato dumplings",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:X673042",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "roast pork",
+     "grams": 180,
+     "resolved": {
+      "id": "bls:Y352212",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "gravy",
+     "grams": 100,
+     "resolved": {
+      "id": "usda:2707149",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "pork knuckle",
+   "names": {
+    "en": "Pork knuckle",
+    "de": "Schweinshaxe"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "meat-on-bone",
+   "aliases": {
+    "en": [
+     "schweinshaxe",
+     "roast pork knuckle",
+     "pork hock",
+     "crispy pork knuckle",
+     "bavarian pork knuckle",
+     "haxe"
+    ],
+    "de": [
+     "schweinshaxe",
+     "haxe",
+     "grillhaxe",
+     "schweinehaxe",
+     "knusprige schweinshaxe",
+     "schweinshax"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "pork hock, roasted",
+     "grams": 280,
+     "reference": "bls:U693172"
+    },
+    {
+     "name": "gravy",
+     "grams": 80,
+     "resolved": {
+      "id": "usda:2707149",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "half roast chicken",
+   "skip": "a single food: \"half chicken\" is a vocabulary alias of roast chicken"
+  },
+  {
+   "key": "leberkase",
+   "skip": "a single food: Leberkäse is a vocabulary food and the table row is that food"
+  },
+  {
+   "key": "weisswurst with pretzel",
+   "names": {
+    "en": "Weisswurst with pretzel",
+    "de": "Weißwurst mit Brezel"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "hot-dog",
+   "aliases": {
+    "en": [
+     "weisswurst",
+     "white sausage with pretzel",
+     "bavarian veal sausage with pretzel",
+     "weißwurstfrühstück",
+     "weisswurst breakfast"
+    ],
+    "de": [
+     "weißwurstfrühstück",
+     "weisswurst mit brezn",
+     "weißwürste mit breze",
+     "weißwurst mit süßem senf",
+     "weisswurst brezel"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "white sausage, poached",
+     "grams": 160,
+     "reference": "bls:W224032"
+    },
+    {
+     "name": "pretzel",
+     "grams": 80,
+     "reference": "bls:B723000"
+    },
+    {
+     "name": "sweet mustard",
+     "grams": 20,
+     "reference": "bls:R135000"
+    }
+   ]
+  },
+  {
+   "key": "flammkuchen",
+   "names": {
+    "en": "Flammkuchen",
+    "de": "Flammkuchen"
+   },
+   "serving": {
+    "label": {
+     "en": "1 tarte flambée",
+     "de": "1 Flammkuchen"
+    },
+    "count": 1
+   },
+   "artworkID": "pizza",
+   "aliases": {
+    "en": [
+     "tarte flambee",
+     "tarte flambée",
+     "flammekueche",
+     "alsatian flatbread",
+     "flammkuchen elsässer art",
+     "flamkuchen"
+    ],
+    "de": [
+     "elsässer flammkuchen",
+     "tarte flambée",
+     "flammkuchen klassisch",
+     "flammekueche",
+     "flamkuchen",
+     "flammkuchen mit speck und zwiebeln"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "wheat flour",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "crème fraîche",
+     "grams": 80,
+     "resolved": {
+      "id": "cofid:12-335",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "water",
+     "grams": 55,
+     "resolved": {
+      "id": "usda:2710706",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "smoked streaky bacon",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:W411300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "maultaschen",
+   "names": {
+    "en": "Maultaschen",
+    "de": "Maultaschen"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "dumpling",
+   "aliases": {
+    "en": [
+     "swabian ravioli",
+     "maultaschen in broth",
+     "swabian dumplings",
+     "maultaschen soup",
+     "german ravioli",
+     "maultasche"
+    ],
+    "de": [
+     "maultaschen in brühe",
+     "schwäbische maultaschen",
+     "maultasche",
+     "maultaschensuppe",
+     "herrgottsbscheißerle"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "beef stock",
+     "grams": 250,
+     "resolved": {
+      "id": "bls:Y183013",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked fresh egg pasta",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:E438032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked mixed mince",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:U050132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked spinach",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G210132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "white bread",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:B311000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "lentils with spatzle",
+   "names": {
+    "en": "Lentils with spätzle",
+    "de": "Linsen mit Spätzle"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "pasta",
+   "aliases": {
+    "en": [
+     "linsen mit spatzle",
+     "linsen und spätzle",
+     "swabian lentils with spaetzle",
+     "lentils and spaetzle",
+     "lentils with spaetzle"
+    ],
+    "de": [
+     "linsen mit spätzle",
+     "linsen und spätzle",
+     "linsen spätzle",
+     "schwäbische linsen mit spätzle",
+     "linsen mit spaetzle"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked lentils",
+     "grams": 200,
+     "resolved": {
+      "id": "usda:2707425",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked fresh egg pasta",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:E438032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable stock",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:X416243",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "carrot",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "smoked streaky bacon",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:W411300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "wine vinegar",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:R121000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "wheat flour",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "potato salad with sausages",
+   "names": {
+    "en": "Potato salad with sausages",
+    "de": "Kartoffelsalat mit Würstchen"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "potato",
+   "aliases": {
+    "en": [
+     "potato salad and frankfurters",
+     "potato salad with frankfurters",
+     "kartoffelsalat with wurstchen",
+     "german potato salad with sausages",
+     "sausages with potato salad"
+    ],
+    "de": [
+     "kartoffelsalat mit wiener",
+     "würstchen mit kartoffelsalat",
+     "kartoffelsalat und würstchen",
+     "wiener mit kartoffelsalat",
+     "kartoffelsalat mit wienern"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "boiled potatoes",
+     "grams": 250,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "frankfurter",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:W211200",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable stock",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:X416243",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 12,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "wine vinegar",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:R121000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "mustard",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2710085",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "chives",
+     "grams": 3,
+     "resolved": {
+      "id": "bls:G081100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "fried potatoes with fried egg",
+   "names": {
+    "en": "Fried potatoes with fried egg",
+    "de": "Bratkartoffeln mit Spiegelei"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "fried-egg",
+   "aliases": {
+    "en": [
+     "fried potatoes and eggs",
+     "bratkartoffeln with fried egg",
+     "home fries with fried egg",
+     "pan fried potatoes with egg",
+     "sauteed potatoes with fried egg"
+    ],
+    "de": [
+     "bratkartoffeln mit spiegeleiern",
+     "bratkartoffeln mit ei",
+     "spiegelei mit bratkartoffeln",
+     "bratkartoffeln und spiegelei",
+     "bratkartoffel mit spiegelei"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "fried potatoes",
+     "grams": 250,
+     "resolved": {
+      "id": "bls:X651013",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "fried egg",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:Y710142",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "smoked streaky bacon",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:W411300",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "farmer s breakfast",
+   "names": {
+    "en": "Farmer's breakfast",
+    "de": "Bauernfrühstück"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "potato",
+   "aliases": {
+    "en": [
+     "bauernfruhstuck",
+     "bauernfrühstück",
+     "german farmers breakfast",
+     "potato and egg hash",
+     "farmers breakfast"
+    ],
+    "de": [
+     "bauernfruehstueck",
+     "bauern frühstück",
+     "bratkartoffeln mit rührei und speck",
+     "bauernfrühstück mit gurke",
+     "kartoffel ei pfanne"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "fried potatoes",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:X651013",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 100,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "pickles",
+     "grams": 30,
+     "resolved": {
+      "id": "usda:2710078",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "smoked streaky bacon",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:W411300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "strammer max",
+   "names": {
+    "en": "Strammer Max",
+    "de": "Strammer Max"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "fried-egg",
+   "aliases": {
+    "en": [
+     "stramm max",
+     "strammer max sandwich",
+     "ham and fried egg on bread",
+     "german open sandwich with egg",
+     "strammer maximilian"
+    ],
+    "de": [
+     "stramme max",
+     "strammer max brot",
+     "brot mit schinken und spiegelei",
+     "strammer maximilian",
+     "schinkenbrot mit spiegelei"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "sourdough bread",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:B251000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "fried egg",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:Y710142",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked ham",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:W424000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "pickles",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2710078",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "toast hawaii",
+   "names": {
+    "en": "Toast Hawaii",
+    "de": "Toast Hawaii"
+   },
+   "serving": {
+    "label": {
+     "en": "2 toasts",
+     "de": "2 Toasts"
+    },
+    "count": 2
+   },
+   "artworkID": "pineapple",
+   "aliases": {
+    "en": [
+     "hawaii toast",
+     "ham pineapple cheese toast",
+     "toast hawai",
+     "hawaiian toast",
+     "toast hawaii with cheese"
+    ],
+    "de": [
+     "hawaii toast",
+     "toast hawai",
+     "schinken ananas toast",
+     "überbackener ananastoast",
+     "hawaiitoast"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "white toast bread",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:B314000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "pineapple",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:F501100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked ham",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:W424000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "gouda",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:M402600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "potato pancakes with apple sauce",
+   "names": {
+    "en": "Potato pancakes with apple sauce",
+    "de": "Kartoffelpuffer mit Apfelmus"
+   },
+   "serving": {
+    "label": {
+     "en": "3 pancakes",
+     "de": "3 Puffer"
+    },
+    "count": 3
+   },
+   "artworkID": "pancakes",
+   "aliases": {
+    "en": [
+     "potato pancakes with applesauce",
+     "kartoffelpuffer",
+     "reibekuchen",
+     "latkes with applesauce",
+     "potato fritters with apple sauce"
+    ],
+    "de": [
+     "kartoffelpuffer",
+     "reibekuchen mit apfelmus",
+     "reibekuchen",
+     "reiberdatschi",
+     "kartoffelpfannkuchen mit apfelmus",
+     "kartoffelpuffer apfelmus"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "raw potato",
+     "grams": 200,
+     "reference": "bls:K110100"
+    },
+    {
+     "name": "applesauce",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:Y864112",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 25,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 25,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "wheat flour",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "potatoes with herb quark",
+   "names": {
+    "en": "Potatoes with herb quark",
+    "de": "Pellkartoffeln mit Kräuterquark"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "potato",
+   "aliases": {
+    "en": [
+     "jacket potatoes with herb quark",
+     "potatoes with quark",
+     "pellkartoffeln mit quark",
+     "boiled potatoes with herb curd",
+     "potatoes and herb quark"
+    ],
+    "de": [
+     "pellkartoffeln mit quark",
+     "kartoffeln mit kräuterquark",
+     "quark mit pellkartoffeln",
+     "pellkartoffeln kräuterquark",
+     "kartoffeln mit quark"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "boiled potatoes in their skins",
+     "grams": 300,
+     "resolved": {
+      "id": "bls:K120134",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "quark, 40 % fat",
+     "grams": 150,
+     "reference": "bls:M713500"
+    },
+    {
+     "name": "whole milk",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "chives",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:G081100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "parsley",
+     "grams": 3,
+     "resolved": {
+      "id": "usda:2709796",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "frikadellen",
+   "skip": "a single food: Frikadellen is a vocabulary alias of meatballs and the table row is that food"
+  },
+  {
+   "key": "konigsberger klopse",
+   "names": {
+    "en": "Königsberger Klopse",
+    "de": "Königsberger Klopse"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "meat",
+   "aliases": {
+    "en": [
+     "konigsberger klopse",
+     "koenigsberger klopse",
+     "meatballs in caper sauce",
+     "königsberg meatballs",
+     "klopse in white sauce"
+    ],
+    "de": [
+     "königsberger klopse",
+     "koenigsberger klopse",
+     "klopse in kapernsoße",
+     "fleischklößchen in kapernsauce",
+     "königsberger klops"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked mixed mince",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:U050132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "béchamel",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:X320243",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "heavy cream",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:M173800",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "bread roll",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:B511000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "capers",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:G012902",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lemon juice",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:F601600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "anchovies in oil",
+     "grams": 3,
+     "resolved": {
+      "id": "bls:T104702",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "chicken fricassee",
+   "names": {
+    "en": "Chicken fricassee",
+    "de": "Hühnerfrikassee"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "poultry",
+   "aliases": {
+    "en": [
+     "chicken fricasse",
+     "hühnerfrikassee",
+     "chicken in white sauce",
+     "creamy chicken fricassee",
+     "chicken fricasee"
+    ],
+    "de": [
+     "hühnerfrikassee",
+     "hühnchenfrikassee",
+     "frikassee",
+     "hühnerfrikasse",
+     "hähnchenfrikassee",
+     "geflügelfrikassee"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked chicken breast",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:V416132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "béchamel",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:X320243",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked mushrooms",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:K701172",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "green peas",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G760132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked asparagus",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G450132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "heavy cream",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:M173800",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked carrot",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G620132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lemon juice",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:F601600",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "stuffed cabbage rolls",
+   "names": {
+    "en": "Stuffed cabbage rolls",
+    "de": "Kohlrouladen"
+   },
+   "serving": {
+    "label": {
+     "en": "2 rolls",
+     "de": "2 Rouladen"
+    },
+    "count": 2
+   },
+   "artworkID": "meat",
+   "aliases": {
+    "en": [
+     "cabbage rolls",
+     "kohlrouladen",
+     "stuffed cabbage",
+     "golubtsi",
+     "cabbage rolls with mince",
+     "krautwickel"
+    ],
+    "de": [
+     "krautwickel",
+     "kohlroulade",
+     "gefüllter kohl",
+     "krautrouladen",
+     "kohlrouladen mit soße",
+     "wirsingrouladen"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "white cabbage, boiled",
+     "grams": 120,
+     "reference": "bls:G342132"
+    },
+    {
+     "name": "cooked mixed mince",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:U050132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "gravy",
+     "grams": 100,
+     "resolved": {
+      "id": "usda:2707149",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "bread roll",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:B511000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "smoked streaky bacon",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:W411300",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "kale with pinkel sausage",
+   "names": {
+    "en": "Kale with Pinkel sausage",
+    "de": "Grünkohl mit Pinkel"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "greens",
+   "aliases": {
+    "en": [
+     "grünkohl mit pinkel",
+     "kohl und pinkel",
+     "kale and pinkel",
+     "bremen kale with sausage",
+     "kale with sausage",
+     "gruenkohl mit pinkel"
+    ],
+    "de": [
+     "grünkohl und pinkel",
+     "grünkohl mit pinkelwurst",
+     "grünkohlessen",
+     "grünkohl mit kasseler und pinkel",
+     "gruenkohl mit pinkel",
+     "braunkohl mit pinkel"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "curly kale, stewed",
+     "grams": 250,
+     "reference": "bls:G322152"
+    },
+    {
+     "name": "pinkel sausage",
+     "grams": 120,
+     "reference": "bls:W383700"
+    },
+    {
+     "name": "kasseler",
+     "grams": 80,
+     "reference": "bls:W511000"
+    },
+    {
+     "name": "onion",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lard",
+     "grams": 10,
+     "reference": "usda:2710166"
+    }
+   ]
+  },
+  {
+   "key": "white asparagus with hollandaise",
+   "names": {
+    "en": "White asparagus with hollandaise",
+    "de": "Spargel mit Sauce Hollandaise"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "neutral",
+   "aliases": {
+    "en": [
+     "asparagus with hollandaise",
+     "white asparagus hollandaise",
+     "spargel with hollandaise",
+     "asparagus with hollandaise and potatoes",
+     "german white asparagus"
+    ],
+    "de": [
+     "spargel hollandaise",
+     "spargel mit hollandaise",
+     "weißer spargel mit sauce hollandaise",
+     "spargel mit kartoffeln und hollandaise",
+     "stangenspargel mit hollandaise"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked asparagus",
+     "grams": 300,
+     "resolved": {
+      "id": "bls:G450132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "boiled potatoes",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "hollandaise",
+     "grams": 60,
+     "resolved": {
+      "id": "usda:2710171",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "german potato soup",
+   "names": {
+    "en": "German potato soup",
+    "de": "Kartoffelsuppe"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "soup",
+   "aliases": {
+    "en": [
+     "potato soup",
+     "kartoffelsuppe",
+     "creamy potato soup",
+     "potato soup german style",
+     "german potato and vegetable soup"
+    ],
+    "de": [
+     "kartoffelsuppe",
+     "deutsche kartoffelsuppe",
+     "kartoffelcremesuppe",
+     "kartoffelsuppe mit speck",
+     "kartoffel suppe"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "vegetable stock",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:X416243",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "boiled potatoes",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "carrot",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "celeriac",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G660100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "leek",
+     "grams": 30,
+     "resolved": {
+      "id": "ciqual:20039",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "heavy cream",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:M173800",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "smoked streaky bacon",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:W411300",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "german pea soup",
+   "names": {
+    "en": "German pea soup",
+    "de": "Erbsensuppe"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "soup",
+   "aliases": {
+    "en": [
+     "pea soup",
+     "split pea soup",
+     "erbsensuppe",
+     "german split pea soup",
+     "yellow pea soup",
+     "erbseneintopf"
+    ],
+    "de": [
+     "erbsensuppe",
+     "erbseneintopf",
+     "deutsche erbsensuppe",
+     "gelbe erbsensuppe",
+     "erbsen eintopf"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "broth",
+     "grams": 200,
+     "resolved": {
+      "id": "usda:2707132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "split peas, cooked",
+     "grams": 150,
+     "reference": "usda:2707420"
+    },
+    {
+     "name": "boiled potatoes",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "carrot",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "celeriac",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G660100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "leek",
+     "grams": 20,
+     "resolved": {
+      "id": "ciqual:20039",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "smoked streaky bacon",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:W411300",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "german pasta salad",
+   "names": {
+    "en": "German pasta salad",
+    "de": "Nudelsalat"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "pasta",
+   "aliases": {
+    "en": [
+     "nudelsalat",
+     "pasta salad with mayo",
+     "german macaroni salad",
+     "pasta salad with sausage",
+     "creamy pasta salad"
+    ],
+    "de": [
+     "nudelsalat",
+     "nudelsalat mit mayo",
+     "nudelsalat mit fleischwurst",
+     "deutscher nudelsalat",
+     "nudel salat"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked spaghetti",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:E401032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "mayonnaise",
+     "grams": 40,
+     "resolved": {
+      "id": "usda:2710204",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lyoner sausage",
+     "grams": 40,
+     "reference": "bls:W231100"
+    },
+    {
+     "name": "green peas",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G760132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "pickles",
+     "grams": 30,
+     "resolved": {
+      "id": "usda:2710078",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "plain yoghurt",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:M141300",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "wiener schnitzel",
+   "names": {
+    "en": "Wiener Schnitzel",
+    "de": "Wiener Schnitzel"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "meat",
+   "aliases": {
+    "en": [
+     "viennese schnitzel",
+     "veal schnitzel",
+     "wienerschnitzel",
+     "wiener schnitzel with potatoes",
+     "schnitzel viennese",
+     "weiner schnitzel"
+    ],
+    "de": [
+     "wienerschnitzel",
+     "kalbsschnitzel paniert",
+     "wiener schnitzel vom kalb",
+     "wiener schnitzel mit petersilkartoffeln",
+     "weiner schnitzel"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "wiener schnitzel",
+     "grams": 180,
+     "resolved": {
+      "id": "bls:Y231322",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "boiled potatoes",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lemon",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2709168",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "parsley",
+     "grams": 3,
+     "resolved": {
+      "id": "usda:2709796",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "tafelspitz",
+   "names": {
+    "en": "Tafelspitz",
+    "de": "Tafelspitz"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "meat",
+   "aliases": {
+    "en": [
+     "viennese boiled beef",
+     "boiled beef",
+     "tafelspitz with horseradish",
+     "austrian boiled beef",
+     "tafelspitz with apple horseradish"
+    ],
+    "de": [
+     "wiener tafelspitz",
+     "gekochtes rindfleisch",
+     "tafelspitz mit apfelkren",
+     "tafelspitz mit meerrettich",
+     "gesottenes rindfleisch"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "beef rump, boiled",
+     "grams": 180,
+     "reference": "bls:U284132"
+    },
+    {
+     "name": "beef stock",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:Y183013",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked carrot",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G620132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "applesauce",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:Y864112",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "leek",
+     "grams": 20,
+     "resolved": {
+      "id": "ciqual:20039",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "horseradish",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:G630100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "chives",
+     "grams": 3,
+     "resolved": {
+      "id": "bls:G081100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "backhendl",
+   "names": {
+    "en": "Backhendl",
+    "de": "Backhendl"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "poultry",
+   "aliases": {
+    "en": [
+     "wiener backhendl",
+     "viennese fried chicken",
+     "austrian fried chicken",
+     "backhuhn",
+     "breaded fried chicken austrian"
+    ],
+    "de": [
+     "wiener backhendl",
+     "backhuhn",
+     "gebackenes hendl",
+     "paniertes hähnchen österreichisch",
+     "backhähnchen"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "fried chicken, coated",
+     "grams": 250,
+     "reference": "usda:2705949"
+    },
+    {
+     "name": "lemon",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2709168",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "tiroler grostl",
+   "names": {
+    "en": "Tiroler Gröstl",
+    "de": "Tiroler Gröstl"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "potato",
+   "aliases": {
+    "en": [
+     "tyrolean groestl",
+     "groestl",
+     "gröstl",
+     "tiroler groestl",
+     "tyrolean potato hash",
+     "grostl"
+    ],
+    "de": [
+     "gröstl",
+     "tiroler gröstl mit spiegelei",
+     "tiroler groestl",
+     "groestl",
+     "bauerngröstl"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "fried potatoes",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:X651013",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "roast pork",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:Y352212",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "fried egg",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:Y710142",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "kaspressknodel",
+   "names": {
+    "en": "Kaspressknödel",
+    "de": "Kaspressknödel"
+   },
+   "serving": {
+    "label": {
+     "en": "2 dumplings",
+     "de": "2 Knödel"
+    },
+    "count": 2
+   },
+   "artworkID": "dumpling",
+   "aliases": {
+    "en": [
+     "kaspressknoedel",
+     "cheese dumplings tyrolean",
+     "kasknödel",
+     "kaspress knodel",
+     "tyrolean cheese dumplings"
+    ],
+    "de": [
+     "kaspressknoedel",
+     "kaspressknödel",
+     "kasknödel",
+     "käseknödel",
+     "kaspress knödel",
+     "käsepressknödel"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "white bread",
+     "grams": 70,
+     "resolved": {
+      "id": "bls:B311000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "alpine cheese",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:M302600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 25,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "parsley",
+     "grams": 3,
+     "resolved": {
+      "id": "usda:2709796",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "frittatensuppe",
+   "names": {
+    "en": "Frittatensuppe",
+    "de": "Frittatensuppe"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "soup",
+   "aliases": {
+    "en": [
+     "pancake soup",
+     "austrian pancake strip soup",
+     "frittaten soup",
+     "celestine soup",
+     "flädlesuppe"
+    ],
+    "de": [
+     "flädlesuppe",
+     "pfannkuchensuppe",
+     "frittaten suppe",
+     "flädle suppe",
+     "pfannkuchenstreifen in brühe"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "beef stock",
+     "grams": 300,
+     "resolved": {
+      "id": "bls:Y183013",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "wheat flour",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "chives",
+     "grams": 3,
+     "resolved": {
+      "id": "bls:G081100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "kaiserschmarrn",
+   "names": {
+    "en": "Kaiserschmarrn",
+    "de": "Kaiserschmarrn"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "pancakes",
+   "aliases": {
+    "en": [
+     "kaiserschmarren",
+     "shredded pancake",
+     "emperors mess",
+     "kaiser schmarrn",
+     "kaiserschmarrn with compote",
+     "scrambled pancake"
+    ],
+    "de": [
+     "kaiserschmarren",
+     "kaiser schmarrn",
+     "kaiserschmarrn mit apfelmus",
+     "schmarrn",
+     "kaiserschmarn"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "whole milk",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "applesauce",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:Y864112",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 75,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "wheat flour",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "raisins",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2709212",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "powdered sugar",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2710259",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "apple strudel",
+   "names": {
+    "en": "Apple strudel",
+    "de": "Apfelstrudel"
+   },
+   "serving": {
+    "label": {
+     "en": "1 slice",
+     "de": "1 Stück"
+    },
+    "count": 1
+   },
+   "artworkID": "pie",
+   "aliases": {
+    "en": [
+     "apfelstrudel",
+     "viennese apple strudel",
+     "apple strudle",
+     "strudel",
+     "apple strudel slice"
+    ],
+    "de": [
+     "apfelstrudel",
+     "wiener apfelstrudel",
+     "apfel strudel",
+     "strudel mit apfel",
+     "apfelstrudl"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "apple",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:F110100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "filo pastry",
+     "grams": 40,
+     "resolved": {
+      "id": "ciqual:23445",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "breadcrumbs",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:B821000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "raisins",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2709212",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "germknodel",
+   "names": {
+    "en": "Germknödel",
+    "de": "Germknödel"
+   },
+   "serving": {
+    "label": {
+     "en": "1 dumpling",
+     "de": "1 Knödel"
+    },
+    "count": 1
+   },
+   "artworkID": "dumpling",
+   "aliases": {
+    "en": [
+     "germknoedel",
+     "yeast dumpling",
+     "austrian yeast dumpling",
+     "germknodel with poppy seeds",
+     "dampfnudel"
+    ],
+    "de": [
+     "germknoedel",
+     "germknödel mit mohn",
+     "hefeknödel",
+     "germknödel mit vanillesauce",
+     "germ knödel"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "wheat flour",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "jam",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:S132000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 23,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "poppy seeds",
+     "grams": 10,
+     "reference": "bls:H450400"
+    },
+    {
+     "name": "powdered sugar",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2710259",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 8,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "yeast",
+     "grams": 3,
+     "resolved": {
+      "id": "usda:2710005",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "apricot dumplings",
+   "names": {
+    "en": "Apricot dumplings",
+    "de": "Marillenknödel"
+   },
+   "serving": {
+    "label": {
+     "en": "2 dumplings",
+     "de": "2 Knödel"
+    },
+    "count": 2
+   },
+   "artworkID": "dumpling",
+   "aliases": {
+    "en": [
+     "marillenknodel",
+     "marillenknödel",
+     "austrian apricot dumplings",
+     "apricot dumpling",
+     "topfen apricot dumplings"
+    ],
+    "de": [
+     "marillenknödel",
+     "aprikosenknödel",
+     "topfenknödel mit marille",
+     "marillen knödel",
+     "marillenknoedel"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "apricot",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:F201100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "quark, 20 % fat",
+     "grams": 60,
+     "reference": "bls:M713300"
+    },
+    {
+     "name": "wheat flour",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "breadcrumbs",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:B821000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "powdered sugar",
+     "grams": 5,
+     "resolved": {
+      "id": "usda:2710259",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "palatschinken",
+   "names": {
+    "en": "Palatschinken",
+    "de": "Palatschinken"
+   },
+   "serving": {
+    "label": {
+     "en": "2 pancakes",
+     "de": "2 Palatschinken"
+    },
+    "count": 2
+   },
+   "artworkID": "pancakes",
+   "aliases": {
+    "en": [
+     "austrian crepes",
+     "palatschinke",
+     "palacinke",
+     "crepes with apricot jam",
+     "palatschinken with jam"
+    ],
+    "de": [
+     "palatschinke",
+     "palatschinken mit marmelade",
+     "marmeladepalatschinken",
+     "österreichische pfannkuchen",
+     "palacinke"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "whole milk",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "wheat flour",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 40,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "jam",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:S132000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "powdered sugar",
+     "grams": 5,
+     "resolved": {
+      "id": "usda:2710259",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "sachertorte",
+   "names": {
+    "en": "Sachertorte",
+    "de": "Sachertorte"
+   },
+   "serving": {
+    "label": {
+     "en": "1 slice",
+     "de": "1 Stück"
+    },
+    "count": 1
+   },
+   "artworkID": "cake",
+   "aliases": {
+    "en": [
+     "sacher torte",
+     "sacher cake",
+     "viennese chocolate cake",
+     "sachertorte slice",
+     "sacher-torte"
+    ],
+    "de": [
+     "sacher torte",
+     "sacher-torte",
+     "sachertorte mit schlagobers",
+     "wiener schokoladentorte",
+     "sachertorte stück"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "whipped cream",
+     "grams": 30,
+     "resolved": {
+      "id": "usda:2705598",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "dark chocolate",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:S560000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 25,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 22,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "wheat flour",
+     "grams": 12,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "jam",
+     "grams": 12,
+     "resolved": {
+      "id": "bls:S132000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "full english breakfast",
+   "names": {
+    "en": "Full English breakfast",
+    "de": "Full English Breakfast"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "bacon",
+   "aliases": {
+    "en": [
+     "full english",
+     "english breakfast",
+     "fry up",
+     "full breakfast",
+     "traditional english breakfast",
+     "full monty breakfast"
+    ],
+    "de": [
+     "englisches frühstück",
+     "full english",
+     "english breakfast",
+     "britisches frühstück",
+     "fry up"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "pork sausages",
+     "grams": 100,
+     "resolved": {
+      "id": "cofid:19-509",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "baked beans",
+     "grams": 100,
+     "resolved": {
+      "id": "cofid:13-532",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:G561100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked mushrooms",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:K701172",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "fried egg",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:Y710142",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "grilled back bacon",
+     "grams": 50,
+     "resolved": {
+      "id": "cofid:19-500",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "black pudding",
+     "grams": 40,
+     "reference": "cofid:19-114"
+    },
+    {
+     "name": "toasted white bread",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:B314072",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "eggs benedict",
+   "names": {
+    "en": "Eggs Benedict",
+    "de": "Eggs Benedict"
+   },
+   "serving": {
+    "label": {
+     "en": "2 halves",
+     "de": "2 Hälften"
+    },
+    "count": 2
+   },
+   "artworkID": "egg",
+   "aliases": {
+    "en": [
+     "egg benedict",
+     "eggs benny",
+     "eggs benedict with ham",
+     "poached eggs with hollandaise",
+     "benedict eggs"
+    ],
+    "de": [
+     "eier benedict",
+     "egg benedict",
+     "pochierte eier mit sauce hollandaise",
+     "eggs benny",
+     "eier benedikt"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "boiled egg",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:E111132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "english muffin",
+     "grams": 60,
+     "reference": "bls:D400700"
+    },
+    {
+     "name": "hollandaise",
+     "grams": 50,
+     "resolved": {
+      "id": "usda:2710171",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked ham",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:W424000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "bacon and eggs",
+   "names": {
+    "en": "Bacon and eggs",
+    "de": "Eier mit Speck"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "bacon",
+   "aliases": {
+    "en": [
+     "eggs and bacon",
+     "bacon & eggs",
+     "fried eggs with bacon",
+     "bacon with eggs",
+     "ham and eggs"
+    ],
+    "de": [
+     "spiegeleier mit speck",
+     "speck mit ei",
+     "bacon and eggs",
+     "eier mit bacon",
+     "spiegelei mit speck"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "fried egg",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:Y710142",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked bacon",
+     "grams": 40,
+     "resolved": {
+      "id": "usda:2705889",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "cheese omelette",
+   "names": {
+    "en": "Cheese omelette",
+    "de": "Käse-Omelett"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "egg",
+   "aliases": {
+    "en": [
+     "cheese omelet",
+     "omelette with cheese",
+     "omelet with cheese",
+     "cheesy omelette",
+     "cheese omlette"
+    ],
+    "de": [
+     "käseomelett",
+     "omelett mit käse",
+     "käse omelette",
+     "omelette mit käse",
+     "käse omlette"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "egg",
+     "grams": 150,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "gouda",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:M402600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "spinach and feta omelette",
+   "names": {
+    "en": "Spinach and feta omelette",
+    "de": "Omelett mit Spinat und Feta"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "egg",
+   "aliases": {
+    "en": [
+     "spinach feta omelette",
+     "spinach and feta omelet",
+     "feta spinach omelette",
+     "greek omelette",
+     "spinach omelette with feta"
+    ],
+    "de": [
+     "spinat feta omelett",
+     "omelette mit spinat und feta",
+     "spinatomelett mit schafskäse",
+     "feta spinat omelett",
+     "griechisches omelett"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "egg",
+     "grams": 150,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked spinach",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:G210132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "feta",
+     "grams": 40,
+     "resolved": {
+      "id": "usda:2705714",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "pancakes with maple syrup",
+   "names": {
+    "en": "Pancakes with maple syrup",
+    "de": "Pancakes mit Ahornsirup"
+   },
+   "serving": {
+    "label": {
+     "en": "3 pancakes",
+     "de": "3 Pancakes"
+    },
+    "count": 3
+   },
+   "artworkID": "pancakes",
+   "aliases": {
+    "en": [
+     "american pancakes",
+     "pancakes and syrup",
+     "buttermilk pancakes with maple syrup",
+     "pancake stack",
+     "fluffy pancakes with syrup"
+    ],
+    "de": [
+     "amerikanische pancakes",
+     "pancakes mit sirup",
+     "pfannkuchen mit ahornsirup",
+     "pancakes ahornsirup",
+     "fluffige pancakes"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "whole milk",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "wheat flour",
+     "grams": 75,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "maple syrup",
+     "grams": 40,
+     "resolved": {
+      "id": "ciqual:31034",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 30,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 8,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "blueberry pancakes",
+   "names": {
+    "en": "Blueberry pancakes",
+    "de": "Blaubeer-Pancakes"
+   },
+   "serving": {
+    "label": {
+     "en": "3 pancakes",
+     "de": "3 Pancakes"
+    },
+    "count": 3
+   },
+   "artworkID": "pancakes",
+   "aliases": {
+    "en": [
+     "blueberry pancake",
+     "pancakes with blueberries",
+     "blueberry buttermilk pancakes",
+     "blue berry pancakes",
+     "american blueberry pancakes"
+    ],
+    "de": [
+     "blaubeerpancakes",
+     "heidelbeer pancakes",
+     "pancakes mit blaubeeren",
+     "heidelbeerpfannkuchen",
+     "blaubeer pfannkuchen"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "whole milk",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "wheat flour",
+     "grams": 75,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "blueberries",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:F304100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 30,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "maple syrup",
+     "grams": 30,
+     "resolved": {
+      "id": "ciqual:31034",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 8,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "french toast",
+   "names": {
+    "en": "French toast",
+    "de": "Arme Ritter"
+   },
+   "serving": {
+    "label": {
+     "en": "2 slices",
+     "de": "2 Scheiben"
+    },
+    "count": 2
+   },
+   "artworkID": "bread",
+   "aliases": {
+    "en": [
+     "eggy bread",
+     "pain perdu",
+     "french toast with syrup",
+     "cinnamon french toast",
+     "frenchtoast"
+    ],
+    "de": [
+     "arme ritter",
+     "french toast",
+     "armer ritter",
+     "pain perdu",
+     "versoffene jungfern"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "white toast bread",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:B314000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 50,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "maple syrup",
+     "grams": 20,
+     "resolved": {
+      "id": "ciqual:31034",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 12,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 5,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "waffles with berries",
+   "names": {
+    "en": "Waffles with berries",
+    "de": "Waffeln mit Beeren"
+   },
+   "serving": {
+    "label": {
+     "en": "2 waffles",
+     "de": "2 Waffeln"
+    },
+    "count": 2
+   },
+   "artworkID": "waffle",
+   "aliases": {
+    "en": [
+     "waffles and berries",
+     "berry waffles",
+     "waffles with fruit",
+     "belgian waffles with berries",
+     "waffles with berries and cream"
+    ],
+    "de": [
+     "waffeln mit früchten",
+     "waffeln mit beeren und sahne",
+     "beerenwaffeln",
+     "waffel mit beeren",
+     "belgische waffeln mit beeren"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "waffles",
+     "grams": 150,
+     "reference": "cofid:11-1130"
+    },
+    {
+     "name": "mixed berries",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:F092100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whipped cream",
+     "grams": 30,
+     "resolved": {
+      "id": "usda:2705598",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "powdered sugar",
+     "grams": 5,
+     "resolved": {
+      "id": "usda:2710259",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "porridge with banana",
+   "names": {
+    "en": "Porridge with banana",
+    "de": "Porridge mit Banane"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "cereal",
+   "aliases": {
+    "en": [
+     "banana porridge",
+     "oatmeal with banana",
+     "banana oatmeal",
+     "oats with banana",
+     "porridge with banana and honey"
+    ],
+    "de": [
+     "bananen porridge",
+     "haferbrei mit banane",
+     "haferflocken mit banane",
+     "porridge banane",
+     "oatmeal mit banane"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "whole milk",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "banana",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:F503100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "rolled oats",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:C133000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "honey",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2710281",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "bircher muesli",
+   "names": {
+    "en": "Bircher muesli",
+    "de": "Bircher Müsli"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "cereal",
+   "aliases": {
+    "en": [
+     "bircher muesli",
+     "birchermuesli",
+     "swiss bircher muesli",
+     "soaked oats with apple",
+     "bircher musli",
+     "bircher"
+    ],
+    "de": [
+     "birchermüsli",
+     "bircher müesli",
+     "bircher muesli",
+     "bircher-müsli",
+     "schweizer müsli mit apfel"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "plain yoghurt",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:M141300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "apple",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:F110100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "rolled oats",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:C133000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "hazelnuts",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:H130400",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "honey",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2710281",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lemon juice",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:F601600",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "muesli with milk",
+   "names": {
+    "en": "Muesli with milk",
+    "de": "Müsli mit Milch"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "cereal",
+   "aliases": {
+    "en": [
+     "muesli and milk",
+     "musli with milk",
+     "cereal muesli with milk",
+     "muesli bowl with milk",
+     "swiss muesli with milk"
+    ],
+    "de": [
+     "müsli mit milch",
+     "muesli mit milch",
+     "musli mit milch",
+     "müsli und milch",
+     "schüssel müsli mit milch"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "whole milk",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "muesli",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:C512300",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "yogurt with granola",
+   "names": {
+    "en": "Yogurt with granola",
+    "de": "Joghurt mit Granola"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "cereal",
+   "aliases": {
+    "en": [
+     "yoghurt with granola",
+     "granola with yogurt",
+     "yogurt granola bowl",
+     "granola and yoghurt",
+     "yogurt and granola"
+    ],
+    "de": [
+     "joghurt mit granola",
+     "granola mit joghurt",
+     "joghurt mit knuspermüsli",
+     "joghurt granola",
+     "jogurt mit granola"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "plain yoghurt",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:M141300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "granola",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:X0A3000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "quark with berries",
+   "names": {
+    "en": "Quark with berries",
+    "de": "Quark mit Beeren"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "blueberries",
+   "aliases": {
+    "en": [
+     "quark and berries",
+     "berry quark",
+     "low fat quark with berries",
+     "quark with fruit",
+     "quark berry bowl"
+    ],
+    "de": [
+     "quark mit früchten",
+     "magerquark mit beeren",
+     "beerenquark",
+     "quark mit beeren und honig",
+     "quark beeren"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "low-fat quark",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:M713100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "mixed berries",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:F092100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "honey",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2710281",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "chia pudding",
+   "names": {
+    "en": "Chia pudding",
+    "de": "Chia-Pudding"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "custard",
+   "aliases": {
+    "en": [
+     "chia seed pudding",
+     "chia pudding with berries",
+     "overnight chia pudding",
+     "chia seeds pudding",
+     "chiapudding"
+    ],
+    "de": [
+     "chiapudding",
+     "chia samen pudding",
+     "chia pudding mit beeren",
+     "chiasamenpudding",
+     "chia-pudding mit milch"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "whole milk",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "mixed berries",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:F092100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "chia seeds",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:H480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "maple syrup",
+     "grams": 10,
+     "resolved": {
+      "id": "ciqual:31034",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "breakfast burrito",
+   "names": {
+    "en": "Breakfast burrito",
+    "de": "Frühstücks-Burrito"
+   },
+   "serving": {
+    "label": {
+     "en": "1 burrito",
+     "de": "1 Burrito"
+    },
+    "count": 1
+   },
+   "artworkID": "burrito",
+   "aliases": {
+    "en": [
+     "breakfast burito",
+     "egg burrito",
+     "breakfast wrap",
+     "bacon egg burrito",
+     "egg and cheese burrito",
+     "brekkie burrito"
+    ],
+    "de": [
+     "frühstücksburrito",
+     "breakfast burrito",
+     "burrito mit rührei",
+     "frühstückswrap",
+     "eier burrito"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "scrambled eggs",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:Y720163",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "flour tortilla",
+     "grams": 75,
+     "resolved": {
+      "id": "usda:2707824",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "fried potatoes",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:X651013",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato salsa",
+     "grams": 30,
+     "resolved": {
+      "id": "usda:2709739",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cheddar",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:M303600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked bacon",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2705889",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "biscuits and gravy",
+   "names": {
+    "en": "Biscuits and gravy",
+    "de": "Biscuits and Gravy"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "neutral",
+   "aliases": {
+    "en": [
+     "biscuits & gravy",
+     "biscuits with sausage gravy",
+     "biscuits n gravy",
+     "southern biscuits and gravy",
+     "biscuit and gravy"
+    ],
+    "de": [
+     "biscuits & gravy",
+     "biscuits mit sausage gravy",
+     "amerikanische biscuits mit soße",
+     "biscuits mit wurstsoße",
+     "biscuits and gravy frühstück"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "sausage gravy",
+     "grams": 150,
+     "reference": "usda:2706406"
+    },
+    {
+     "name": "biscuits",
+     "grams": 120,
+     "reference": "usda:2707804"
+    }
+   ]
+  },
+  {
+   "key": "bagel with cream cheese",
+   "names": {
+    "en": "Bagel with cream cheese",
+    "de": "Bagel mit Frischkäse"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bagel",
+     "de": "1 Bagel"
+    },
+    "count": 1
+   },
+   "artworkID": "bagel",
+   "aliases": {
+    "en": [
+     "bagel and cream cheese",
+     "bagel with schmear",
+     "cream cheese bagel",
+     "plain bagel with cream cheese",
+     "bagel cream cheese"
+    ],
+    "de": [
+     "bagel frischkäse",
+     "frischkäse bagel",
+     "bagel mit philadelphia",
+     "bagel mit frischkaese",
+     "bagel und frischkäse"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "bagel",
+     "grams": 100,
+     "resolved": {
+      "id": "usda:2707684",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cream cheese",
+     "grams": 40,
+     "resolved": {
+      "id": "usda:2705760",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "bagel with cream cheese and salmon",
+   "names": {
+    "en": "Bagel with cream cheese and salmon",
+    "de": "Bagel mit Frischkäse und Lachs"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bagel",
+     "de": "1 Bagel"
+    },
+    "count": 1
+   },
+   "artworkID": "bagel",
+   "aliases": {
+    "en": [
+     "salmon bagel",
+     "lox bagel",
+     "bagel with lox",
+     "smoked salmon bagel",
+     "bagel and lox",
+     "salmon cream cheese bagel"
+    ],
+    "de": [
+     "lachs bagel",
+     "bagel mit räucherlachs",
+     "räucherlachs bagel",
+     "bagel mit lachs und frischkäse",
+     "lachsbagel"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "bagel",
+     "grams": 100,
+     "resolved": {
+      "id": "usda:2707684",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "smoked salmon",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:T410600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cream cheese",
+     "grams": 40,
+     "resolved": {
+      "id": "usda:2705760",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "capers",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:G012902",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "bread roll with butter and jam",
+   "names": {
+    "en": "Bread roll with butter and jam",
+    "de": "Brötchen mit Butter und Marmelade"
+   },
+   "serving": {
+    "label": {
+     "en": "1 roll",
+     "de": "1 Brötchen"
+    },
+    "count": 1
+   },
+   "artworkID": "bread",
+   "aliases": {
+    "en": [
+     "roll with butter and jam",
+     "bread roll with jam",
+     "brotchen mit marmelade",
+     "roll butter jam",
+     "breakfast roll with jam"
+    ],
+    "de": [
+     "marmeladenbrötchen",
+     "brötchen mit marmelade",
+     "semmel mit butter und marmelade",
+     "butterbrötchen mit marmelade",
+     "brötchen mit konfitüre"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "bread roll",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:B511000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "jam",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:S132000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "turkish breakfast",
+   "names": {
+    "en": "Turkish breakfast",
+    "de": "Türkisches Frühstück"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "cheese",
+   "aliases": {
+    "en": [
+     "kahvalti",
+     "kahvaltı",
+     "turkish breakfast plate",
+     "turkish breakfast platter",
+     "serpme kahvalti"
+    ],
+    "de": [
+     "kahvalti",
+     "kahvaltı",
+     "türkischer frühstücksteller",
+     "türkisches frühstück teller",
+     "serpme kahvaltı"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "white bread",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:B311000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:G561100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cucumber",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:G520100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "boiled egg",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:E111132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "feta",
+     "grams": 40,
+     "resolved": {
+      "id": "usda:2705714",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "gouda",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:M402600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "black olives",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2710090",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "honey",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2710281",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "jam",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:S132000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "cobb salad",
+   "names": {
+    "en": "Cobb salad",
+    "de": "Cobb Salad"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "salad",
+   "aliases": {
+    "en": [
+     "cobb",
+     "chicken cobb salad",
+     "cobb salad with chicken",
+     "american cobb salad",
+     "cob salad"
+    ],
+    "de": [
+     "cobb salat",
+     "cobb salad mit hähnchen",
+     "amerikanischer cobb salat",
+     "cob salad",
+     "cobbsalat"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "romaine lettuce",
+     "grams": 100,
+     "resolved": {
+      "id": "usda:2709590",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked chicken breast",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:V416132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "boiled egg",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:E111132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "avocado",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:F502100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:G561100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "blue cheese",
+     "grams": 25,
+     "resolved": {
+      "id": "usda:2705705",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vinaigrette",
+     "grams": 25,
+     "resolved": {
+      "id": "ciqual:11108",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked bacon",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2705889",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "chef s salad",
+   "names": {
+    "en": "Chef's salad",
+    "de": "Chefsalat"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "salad",
+   "aliases": {
+    "en": [
+     "chefs salad",
+     "chef salad",
+     "chef’s salad",
+     "chef salad with ham and turkey",
+     "chefs salat"
+    ],
+    "de": [
+     "chefsalat",
+     "chef salat",
+     "chefsalat mit schinken und käse",
+     "chefsalat mit ei",
+     "chef’s salad"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "iceberg lettuce",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:G103100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "boiled egg",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:E111132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked ham",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:W424000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "turkey deli slices",
+     "grams": 40,
+     "resolved": {
+      "id": "usda:2706215",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G561100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "emmental",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:M304600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cucumber",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G520100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "thousand island dressing",
+     "grams": 30,
+     "resolved": {
+      "id": "usda:2710213",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "waldorf salad",
+   "names": {
+    "en": "Waldorf salad",
+    "de": "Waldorfsalat"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "salad",
+   "aliases": {
+    "en": [
+     "waldorf",
+     "waldorf salad with walnuts",
+     "apple celery walnut salad",
+     "classic waldorf salad",
+     "waldorfsalad"
+    ],
+    "de": [
+     "waldorf salat",
+     "waldorfsalat mit walnüssen",
+     "sellerie apfel salat",
+     "selleriesalat mit apfel und walnuss",
+     "waldorf"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "celeriac",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:G660100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "apple",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:F110100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "mayonnaise",
+     "grams": 30,
+     "resolved": {
+      "id": "usda:2710204",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "walnuts",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:H120400",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "plain yoghurt",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:M141300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lemon juice",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:F601600",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "salad with chicken strips",
+   "names": {
+    "en": "Salad with chicken strips",
+    "de": "Salat mit Hähnchenstreifen"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "salad",
+   "aliases": {
+    "en": [
+     "chicken salad",
+     "mixed salad with chicken",
+     "green salad with chicken breast",
+     "salad with grilled chicken strips",
+     "chicken strips salad"
+    ],
+    "de": [
+     "salat mit hähnchen",
+     "gemischter salat mit hähnchenbruststreifen",
+     "hähnchensalat",
+     "salat mit putenstreifen",
+     "bunter salat mit hähnchen"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "pan-fried chicken breast",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:Y562032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lettuce",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:G105100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:G561100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cucumber",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:G520100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "red bell pepper",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G543100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vinaigrette",
+     "grams": 30,
+     "resolved": {
+      "id": "ciqual:11108",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "croutons",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2707697",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "salad with warm goat s cheese",
+   "names": {
+    "en": "Salad with warm goat's cheese",
+    "de": "Salat mit gebackenem Ziegenkäse"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "salad",
+   "aliases": {
+    "en": [
+     "warm goat cheese salad",
+     "goats cheese salad",
+     "salade de chevre chaud",
+     "grilled goat cheese salad",
+     "goat cheese salad with honey"
+    ],
+    "de": [
+     "ziegenkäse salat",
+     "salat mit ziegenkäse",
+     "gratinierter ziegenkäse auf salat",
+     "salat mit ziegenkäse und honig",
+     "chèvre chaud salat"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "lettuce",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:G105100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "goat cheese",
+     "grams": 80,
+     "resolved": {
+      "id": "usda:2705716",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G561100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "baguette",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:B781200",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vinaigrette",
+     "grams": 25,
+     "resolved": {
+      "id": "ciqual:11108",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "walnuts",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:H120400",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "honey",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2710281",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "halloumi salad",
+   "names": {
+    "en": "Halloumi salad",
+    "de": "Halloumi-Salat"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "salad",
+   "aliases": {
+    "en": [
+     "grilled halloumi salad",
+     "halloumi salat",
+     "salad with halloumi",
+     "halloumi cheese salad",
+     "haloumi salad"
+    ],
+    "de": [
+     "halloumi salat",
+     "salat mit halloumi",
+     "gegrillter halloumi auf salat",
+     "grillkäse salat",
+     "haloumi salat"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "halloumi",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:M524500",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lettuce",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:G105100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:G561100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cucumber",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:G520100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "olive oil",
+     "grams": 12,
+     "resolved": {
+      "id": "bls:Q120000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lemon juice",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:F601600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "mint",
+     "grams": 3,
+     "resolved": {
+      "id": "ciqual:11027",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "burrata with tomatoes",
+   "names": {
+    "en": "Burrata with tomatoes",
+    "de": "Burrata mit Tomaten"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "cheese",
+   "aliases": {
+    "en": [
+     "burrata and tomatoes",
+     "burrata salad",
+     "burrata with cherry tomatoes",
+     "burrata caprese",
+     "burrata tomato salad"
+    ],
+    "de": [
+     "burrata tomaten",
+     "burrata mit kirschtomaten",
+     "burrata salat",
+     "burrata caprese",
+     "burrata mit tomatensalat"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "tomato",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:G561100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "burrata",
+     "grams": 125,
+     "resolved": {
+      "id": "ciqual:12072",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "olive oil",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:Q120000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "basil",
+     "grams": 3,
+     "resolved": {
+      "id": "bls:G061000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "beetroot and feta salad",
+   "names": {
+    "en": "Beetroot and feta salad",
+    "de": "Rote-Bete-Salat mit Feta"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "salad",
+   "aliases": {
+    "en": [
+     "beet and feta salad",
+     "beetroot feta salad",
+     "beet salad with feta",
+     "roasted beet and feta salad",
+     "beetroot salad with feta"
+    ],
+    "de": [
+     "rote bete salat mit feta",
+     "rote bete feta salat",
+     "rote beete salat mit feta",
+     "randensalat mit feta",
+     "rote rüben salat mit feta"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked beetroot",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:G613132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "feta",
+     "grams": 50,
+     "resolved": {
+      "id": "usda:2705714",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "rocket",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G130100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "walnuts",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:H120400",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "olive oil",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:Q120000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "prawn and avocado salad",
+   "names": {
+    "en": "Prawn and avocado salad",
+    "de": "Garnelen-Avocado-Salat"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "salad",
+   "aliases": {
+    "en": [
+     "shrimp and avocado salad",
+     "prawn avocado salad",
+     "avocado and prawn salad",
+     "shrimp avocado salad",
+     "prawn salad with avocado"
+    ],
+    "de": [
+     "garnelen avocado salat",
+     "avocado garnelen salat",
+     "shrimps avocado salat",
+     "salat mit garnelen und avocado",
+     "krabben avocado salat"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked shrimp",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:T753132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "avocado",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:F502100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lettuce",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:G105100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G561100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cucumber",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G520100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "olive oil",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:Q120000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lime juice",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:F602600",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "tuna salad",
+   "names": {
+    "en": "Tuna salad",
+    "de": "Thunfischsalat"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "fish",
+   "aliases": {
+    "en": [
+     "tuna mayo",
+     "tuna mayonnaise salad",
+     "tuna salad with mayo",
+     "classic tuna salad",
+     "tunasalad",
+     "tuna mayo salad"
+    ],
+    "de": [
+     "thunfisch salat",
+     "thunfischsalat mit mayonnaise",
+     "thunfisch mayo",
+     "thunfischcreme",
+     "thunfisch mit mayo"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "canned tuna",
+     "grams": 100,
+     "resolved": {
+      "id": "usda:2706311",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "mayonnaise",
+     "grams": 35,
+     "resolved": {
+      "id": "usda:2710204",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "celery",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G220100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "pickles",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2710078",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lemon juice",
+     "grams": 3,
+     "resolved": {
+      "id": "bls:F601600",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "quinoa salad",
+   "names": {
+    "en": "Quinoa salad",
+    "de": "Quinoasalat"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "salad",
+   "aliases": {
+    "en": [
+     "quinoa salad with feta",
+     "mediterranean quinoa salad",
+     "quinoa bowl salad",
+     "quinoa vegetable salad",
+     "quinoa salat"
+    ],
+    "de": [
+     "quinoa salat",
+     "quinoasalat mit feta",
+     "quinoa gemüsesalat",
+     "mediterraner quinoasalat",
+     "quinoa-salat"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked quinoa",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:C118032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cucumber",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:G520100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:G561100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "red bell pepper",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G543100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "feta",
+     "grams": 30,
+     "resolved": {
+      "id": "usda:2705714",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "olive oil",
+     "grams": 12,
+     "resolved": {
+      "id": "bls:Q120000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lemon juice",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:F601600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "parsley",
+     "grams": 5,
+     "resolved": {
+      "id": "usda:2709796",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "couscous salad",
+   "names": {
+    "en": "Couscous salad",
+    "de": "Couscous-Salat"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "salad",
+   "aliases": {
+    "en": [
+     "couscous salad with vegetables",
+     "cous cous salad",
+     "moroccan couscous salad",
+     "couscous tabbouleh",
+     "couscous salat"
+    ],
+    "de": [
+     "couscoussalat",
+     "cous cous salat",
+     "couscous salat mit gemüse",
+     "orientalischer couscoussalat",
+     "couscous-salat mit minze"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked couscous",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:C119232",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cucumber",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:G520100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:G561100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "red bell pepper",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G543100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "spring onion",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G482100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "olive oil",
+     "grams": 12,
+     "resolved": {
+      "id": "bls:Q120000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lemon juice",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:F601600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "parsley",
+     "grams": 8,
+     "resolved": {
+      "id": "usda:2709796",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "mint",
+     "grams": 3,
+     "resolved": {
+      "id": "ciqual:11027",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "lentil salad",
+   "names": {
+    "en": "Lentil salad",
+    "de": "Linsensalat"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "salad",
+   "aliases": {
+    "en": [
+     "lentil salad with feta",
+     "cold lentil salad",
+     "green lentil salad",
+     "lentil vegetable salad",
+     "lentil salat"
+    ],
+    "de": [
+     "linsensalat mit feta",
+     "linsen salat",
+     "kalter linsensalat",
+     "beluga linsensalat",
+     "linsensalat mit gemüse"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked lentils",
+     "grams": 180,
+     "resolved": {
+      "id": "usda:2707425",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:G561100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "red bell pepper",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G543100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "feta",
+     "grams": 30,
+     "resolved": {
+      "id": "usda:2705714",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "olive oil",
+     "grams": 12,
+     "resolved": {
+      "id": "bls:Q120000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "parsley",
+     "grams": 8,
+     "resolved": {
+      "id": "usda:2709796",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "wine vinegar",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:R121000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "salmon poke bowl",
+   "names": {
+    "en": "Salmon poke bowl",
+    "de": "Poke Bowl mit Lachs"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "sushi",
+   "aliases": {
+    "en": [
+     "salmon poke",
+     "poke bowl salmon",
+     "salmon poké bowl",
+     "hawaiian salmon poke",
+     "poke bowl with salmon",
+     "salmon poki bowl"
+    ],
+    "de": [
+     "lachs poke bowl",
+     "poke bowl lachs",
+     "poké bowl mit lachs",
+     "lachs poke",
+     "poke mit lachs"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "sushi rice",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:X8A1100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "raw salmon",
+     "grams": 100,
+     "resolved": {
+      "id": "cofid:16-356",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "avocado",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:F502100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "edamame",
+     "grams": 40,
+     "resolved": {
+      "id": "usda:2707436",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cucumber",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G520100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "carrot",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "soy sauce",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:R143000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "mayonnaise",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2710204",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "spring onion",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:G482100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sesame oil",
+     "grams": 5,
+     "resolved": {
+      "id": "usda:2710190",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sesame seeds",
+     "grams": 3,
+     "resolved": {
+      "id": "usda:2707586",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "tuna poke bowl",
+   "names": {
+    "en": "Tuna poke bowl",
+    "de": "Poke Bowl mit Thunfisch"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "sushi",
+   "aliases": {
+    "en": [
+     "tuna poke",
+     "ahi poke bowl",
+     "poke bowl tuna",
+     "ahi tuna poke",
+     "poke bowl with tuna",
+     "tuna poki bowl"
+    ],
+    "de": [
+     "thunfisch poke bowl",
+     "poke bowl thunfisch",
+     "poké bowl mit thunfisch",
+     "thunfisch poke",
+     "ahi poke bowl"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "sushi rice",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:X8A1100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "raw tuna",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:T121100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "avocado",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:F502100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "edamame",
+     "grams": 40,
+     "resolved": {
+      "id": "usda:2707436",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cucumber",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G520100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "carrot",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "soy sauce",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:R143000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "mayonnaise",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2710204",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "spring onion",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:G482100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sesame oil",
+     "grams": 5,
+     "resolved": {
+      "id": "usda:2710190",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sesame seeds",
+     "grams": 3,
+     "resolved": {
+      "id": "usda:2707586",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "buddha bowl",
+   "names": {
+    "en": "Buddha bowl",
+    "de": "Buddha Bowl"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "salad",
+   "aliases": {
+    "en": [
+     "buddha bowl vegan",
+     "grain bowl",
+     "nourish bowl",
+     "veggie buddha bowl",
+     "budda bowl",
+     "quinoa buddha bowl"
+    ],
+    "de": [
+     "buddha bowl vegan",
+     "buddhabowl",
+     "veggie bowl",
+     "budda bowl",
+     "quinoa buddha bowl"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked quinoa",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:C118032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked sweet potato",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:K420132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked chickpeas",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:G770432",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "avocado",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:F502100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "kale",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G322100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "red cabbage",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G341100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "carrot",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "hummus",
+     "grams": 30,
+     "resolved": {
+      "id": "usda:2707402",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tahini",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2707587",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "teriyaki chicken bowl",
+   "names": {
+    "en": "Teriyaki chicken bowl",
+    "de": "Teriyaki-Bowl mit Hähnchen"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "rice",
+   "aliases": {
+    "en": [
+     "chicken teriyaki bowl",
+     "teriyaki bowl",
+     "teriyaki chicken rice bowl",
+     "chicken teriyaki rice bowl",
+     "teriyaki chicken donburi"
+    ],
+    "de": [
+     "teriyaki bowl",
+     "hähnchen teriyaki bowl",
+     "teriyaki hähnchen mit reis",
+     "chicken teriyaki bowl",
+     "teriyaki reis bowl"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked white rice",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:C352032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked chicken thigh",
+     "grams": 130,
+     "resolved": {
+      "id": "usda:2706044",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked broccoli",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:G312132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "teriyaki sauce",
+     "grams": 30,
+     "resolved": {
+      "id": "usda:2707445",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "edamame",
+     "grams": 30,
+     "resolved": {
+      "id": "usda:2707436",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "carrot",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "spring onion",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:G482100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sesame seeds",
+     "grams": 3,
+     "resolved": {
+      "id": "usda:2707586",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "falafel bowl",
+   "names": {
+    "en": "Falafel bowl",
+    "de": "Falafel-Bowl"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "falafel",
+   "aliases": {
+    "en": [
+     "falafel buddha bowl",
+     "falafel salad bowl",
+     "falafel hummus bowl",
+     "falafel grain bowl",
+     "falafel rice bowl"
+    ],
+    "de": [
+     "falafel bowl",
+     "falafelbowl",
+     "falafel mit hummus bowl",
+     "falafel salat bowl",
+     "bowl mit falafel"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked bulgur",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:C119132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "falafel",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:Y9A1050",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "hummus",
+     "grams": 50,
+     "resolved": {
+      "id": "usda:2707402",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cucumber",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:G520100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:G561100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lettuce",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G105100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "red cabbage",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G341100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tahini",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2707587",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "acai bowl",
+   "names": {
+    "en": "Açaí bowl",
+    "de": "Açaí Bowl"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "blueberries",
+   "aliases": {
+    "en": [
+     "acai bowl",
+     "açai bowl",
+     "acai smoothie bowl",
+     "assai bowl",
+     "acai berry bowl"
+    ],
+    "de": [
+     "acai bowl",
+     "açai bowl",
+     "acai smoothie bowl",
+     "assai bowl",
+     "acai beeren bowl"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "frozen acai pulp",
+     "grams": 100,
+     "unresolvable": "no table row matches the name"
+    },
+    {
+     "name": "banana",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:F503100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "mixed berries",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:F092100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "almond milk",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:H800000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "granola",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:X0A3000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "honey",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2710281",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "tiramisu",
+   "names": {
+    "en": "Tiramisu",
+    "de": "Tiramisu"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "cake",
+   "aliases": {
+    "en": [
+     "tiramisù",
+     "tiramisu dessert",
+     "classic tiramisu",
+     "tiramisu slice",
+     "tiramissu",
+     "tiramisu with mascarpone"
+    ],
+    "de": [
+     "tiramisù",
+     "tiramisu dessert",
+     "tiramisu stück",
+     "tiramisu mit mascarpone",
+     "tiramissu"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "mascarpone",
+     "grams": 60,
+     "resolved": {
+      "id": "cofid:12-490",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "espresso",
+     "grams": 40,
+     "resolved": {
+      "id": "usda:2710378",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "ladyfingers",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:D710200",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 25,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cocoa powder",
+     "grams": 3,
+     "resolved": {
+      "id": "bls:S711000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "panna cotta",
+   "names": {
+    "en": "Panna cotta",
+    "de": "Panna Cotta"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "custard",
+   "aliases": {
+    "en": [
+     "pannacotta",
+     "panna cotta with berries",
+     "vanilla panna cotta",
+     "pana cotta",
+     "panna cotta dessert"
+    ],
+    "de": [
+     "pannacotta",
+     "panna cotta mit beeren",
+     "panna cotta mit himbeersauce",
+     "pana cotta",
+     "vanille panna cotta"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "heavy cream",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:M173800",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "mixed berries",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:F092100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 17,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "gelatine",
+     "grams": 2,
+     "resolved": {
+      "id": "bls:R468000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "apple crumble",
+   "names": {
+    "en": "Apple crumble",
+    "de": "Apple Crumble"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "pie",
+   "aliases": {
+    "en": [
+     "apple crisp",
+     "apple crumble dessert",
+     "baked apple crumble",
+     "apple crumble pie",
+     "apple crumbel"
+    ],
+    "de": [
+     "apfelcrumble",
+     "apfel crumble",
+     "apfelstreusel aus der form",
+     "apfel streusel auflauf",
+     "apple crumble mit streuseln"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "apple",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:F110100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "wheat flour",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "brown sugar",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2710260",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "rolled oats",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:C133000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "apple pie",
+   "names": {
+    "en": "Apple pie",
+    "de": "Apple Pie"
+   },
+   "serving": {
+    "label": {
+     "en": "1 slice",
+     "de": "1 Stück"
+    },
+    "count": 1
+   },
+   "artworkID": "pie",
+   "aliases": {
+    "en": [
+     "apple pie slice",
+     "american apple pie",
+     "apple tart",
+     "classic apple pie",
+     "aple pie"
+    ],
+    "de": [
+     "amerikanischer apfelkuchen",
+     "apple pie stück",
+     "gedeckter apfelkuchen amerikanisch",
+     "apfel pie",
+     "aple pie"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "apple",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:F110100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "shortcrust pastry",
+     "grams": 60,
+     "resolved": {
+      "id": "cofid:11-1052",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cornstarch",
+     "grams": 3,
+     "resolved": {
+      "id": "bls:C446000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "german apple cake",
+   "names": {
+    "en": "German apple cake",
+    "de": "Apfelkuchen"
+   },
+   "serving": {
+    "label": {
+     "en": "1 slice",
+     "de": "1 Stück"
+    },
+    "count": 1
+   },
+   "artworkID": "cake",
+   "aliases": {
+    "en": [
+     "apfelkuchen",
+     "german apple cake slice",
+     "sunken apple cake",
+     "versunkener apfelkuchen",
+     "apple sponge cake"
+    ],
+    "de": [
+     "apfelkuchen",
+     "versunkener apfelkuchen",
+     "apfelkuchen stück",
+     "rührkuchen mit äpfeln",
+     "apfel kuchen"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "apple",
+     "grams": 70,
+     "resolved": {
+      "id": "bls:F110100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "wheat flour",
+     "grams": 35,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    }
+   ]
+  }
+ ]
+}

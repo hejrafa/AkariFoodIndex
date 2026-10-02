@@ -1,0 +1,5820 @@
+{
+ "batch": 14,
+ "drafted": "2026-10-01",
+ "drafter": "Claude in the Akari Claude Code session",
+ "dishes": [
+  {
+   "key": "trout breaded",
+   "names": {
+    "en": "Breaded trout",
+    "de": "Forelle paniert"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "fish",
+   "aliases": {
+    "en": [
+     "breaded trout",
+     "trout in breadcrumbs",
+     "fried breaded trout",
+     "trout schnitzel",
+     "breaded trout fillet"
+    ],
+    "de": [
+     "panierte forelle",
+     "forelle paniert gebraten",
+     "forellenfilet paniert",
+     "gebackene forelle",
+     "forelle panniert"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "trout, pan-fried",
+     "grams": 160,
+     "reference": "bls:T420182"
+    },
+    {
+     "name": "egg",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "breadcrumbs",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:B821000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "wheat flour",
+     "grams": 6,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 14,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "trout fillet",
+   "skip": "a plain fried fillet, the table row covers it"
+  },
+  {
+   "key": "trout floured",
+   "names": {
+    "en": "Trout meunière",
+    "de": "Forelle Müllerin Art"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "fish",
+   "aliases": {
+    "en": [
+     "trout meuniere",
+     "trout miller style",
+     "floured fried trout",
+     "trout a la meuniere",
+     "trout in brown butter"
+    ],
+    "de": [
+     "forelle müllerinart",
+     "forelle muellerin art",
+     "forelle nach müllerin art",
+     "forelle müllerin",
+     "forelle mehliert gebraten"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "trout, pan-fried",
+     "grams": 200,
+     "reference": "bls:T420182"
+    },
+    {
+     "name": "wheat flour",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lemon juice",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:F601600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "parsley",
+     "grams": 3,
+     "resolved": {
+      "id": "usda:2709796",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "whitefish fillet in almond crust",
+   "names": {
+    "en": "Whitefish fillet in almond crust",
+    "de": "Felchenfilet in Mandelkruste"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "fish",
+   "aliases": {
+    "en": [
+     "whitefish in almond crust",
+     "almond crusted whitefish",
+     "whitefish almondine",
+     "almond crust whitefish fillet"
+    ],
+    "de": [
+     "felchen in mandelkruste",
+     "renkenfilet in mandelkruste",
+     "felchenfilet mit mandelkruste",
+     "renke mit mandeln",
+     "felchenfilet mandelkruste"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "whitefish, pan-fried",
+     "grams": 160,
+     "reference": "bls:T406182"
+    },
+    {
+     "name": "almonds",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:H210100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lemon juice",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:F601600",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "carp breaded",
+   "names": {
+    "en": "Breaded carp",
+    "de": "Karpfen paniert"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "fish",
+   "aliases": {
+    "en": [
+     "fried breaded carp",
+     "carp in breadcrumbs",
+     "christmas carp",
+     "deep-fried carp",
+     "breaded carp fillet"
+    ],
+    "de": [
+     "gebackener karpfen",
+     "karpfen gebacken",
+     "panierter karpfen",
+     "karpfenfilet paniert",
+     "karpfen paniert frittiert"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "carp, pan-fried",
+     "grams": 160,
+     "reference": "bls:T501182"
+    },
+    {
+     "name": "egg",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "breadcrumbs",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:B821000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "wheat flour",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 18,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "carp in root vegetable stock",
+   "names": {
+    "en": "Carp in root vegetable stock",
+    "de": "Karpfen im Wurzelsud"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "fish",
+   "aliases": {
+    "en": [
+     "poached carp in vegetable stock",
+     "carp in court bouillon",
+     "carp poached with root vegetables"
+    ],
+    "de": [
+     "karpfen pochiert im wurzelsud",
+     "karpfen im gemüsesud",
+     "karpfen in wurzelsud",
+     "karpfen mit wurzelgemüse"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "carp, poached",
+     "grams": 200,
+     "reference": "bls:T501132"
+    },
+    {
+     "name": "carrot",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "celeriac",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G660100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "leek",
+     "grams": 30,
+     "resolved": {
+      "id": "ciqual:20039",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable stock",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:X416243",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "carp in stock with vinegar",
+   "names": {
+    "en": "Carp au bleu",
+    "de": "Karpfen blau"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "fish",
+   "aliases": {
+    "en": [
+     "blue carp",
+     "carp blue",
+     "carp poached in vinegar stock",
+     "karpfen blau"
+    ],
+    "de": [
+     "karpfen blau gekocht",
+     "karpfen im essigsud",
+     "blauer karpfen",
+     "karpfen blau mit meerrettich"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "carp, poached",
+     "grams": 250,
+     "reference": "bls:T501132"
+    },
+    {
+     "name": "horseradish",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:G630100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "carp polish style",
+   "names": {
+    "en": "Carp Polish style",
+    "de": "Karpfen polnische Art"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "fish",
+   "aliases": {
+    "en": [
+     "carp polonaise",
+     "carp a la polonaise",
+     "polish style carp",
+     "poached carp polish style"
+    ],
+    "de": [
+     "karpfen polnisch",
+     "karpfen auf polnische art",
+     "karpfen polnischer art",
+     "karpfen pochiert polnische art"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "carp, poached",
+     "grams": 200,
+     "reference": "bls:T501132"
+    },
+    {
+     "name": "vegetable stock",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:X416243",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "breadcrumbs",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:B821000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "boiled egg",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:E111132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "parsley",
+     "grams": 3,
+     "resolved": {
+      "id": "usda:2709796",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "carp marinated",
+   "names": {
+    "en": "Marinated grilled carp",
+    "de": "Karpfen mariniert"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "fish",
+   "aliases": {
+    "en": [
+     "grilled marinated carp",
+     "carp marinated and grilled",
+     "marinated carp",
+     "grilled carp"
+    ],
+    "de": [
+     "marinierter karpfen",
+     "karpfen mariniert gegrillt",
+     "gegrillter karpfen",
+     "karpfen vom grill"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "carp, oven-baked",
+     "grams": 200,
+     "reference": "bls:T501162"
+    },
+    {
+     "name": "olive oil",
+     "grams": 6,
+     "resolved": {
+      "id": "bls:Q120000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lemon juice",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:F601600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "garlic",
+     "grams": 3,
+     "resolved": {
+      "id": "bls:G490100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "tench in root vegetable stock",
+   "names": {
+    "en": "Tench in root vegetable stock",
+    "de": "Schleie im Wurzelsud"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "fish",
+   "aliases": {
+    "en": [
+     "poached tench",
+     "tench in vegetable stock",
+     "tench poached with root vegetables"
+    ],
+    "de": [
+     "schleie pochiert im wurzelsud",
+     "schleie im gemüsesud",
+     "schleie in wurzelsud",
+     "pochierte schleie"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "tench, raw",
+     "grams": 200,
+     "reference": "bls:T512100"
+    },
+    {
+     "name": "carrot",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "celeriac",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G660100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "leek",
+     "grams": 20,
+     "resolved": {
+      "id": "ciqual:20039",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable stock",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:X416243",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "tench breaded",
+   "names": {
+    "en": "Breaded tench",
+    "de": "Schleie paniert"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "fish",
+   "aliases": {
+    "en": [
+     "fried breaded tench",
+     "tench in breadcrumbs",
+     "deep-fried tench"
+    ],
+    "de": [
+     "panierte schleie",
+     "schleie paniert frittiert",
+     "gebackene schleie",
+     "schleie gebacken"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "tench, pan-fried",
+     "grams": 150,
+     "reference": "bls:T512182"
+    },
+    {
+     "name": "egg",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "breadcrumbs",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:B821000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "wheat flour",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 12,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "redfish breaded",
+   "names": {
+    "en": "Breaded redfish",
+    "de": "Rotbarsch paniert"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "fish",
+   "aliases": {
+    "en": [
+     "breaded ocean perch",
+     "redfish in breadcrumbs",
+     "fried breaded redfish",
+     "breaded redfish fillet"
+    ],
+    "de": [
+     "panierter rotbarsch",
+     "rotbarschfilet paniert",
+     "rotbarsch paniert gebraten",
+     "goldbarsch paniert",
+     "gebackener rotbarsch"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "ocean perch, pan-fried",
+     "grams": 160,
+     "reference": "bls:T615182"
+    },
+    {
+     "name": "egg",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "breadcrumbs",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:B821000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "wheat flour",
+     "grams": 6,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 14,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "perch floured",
+   "names": {
+    "en": "Perch meunière",
+    "de": "Barsch Müllerin Art"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "fish",
+   "aliases": {
+    "en": [
+     "perch meuniere",
+     "floured fried perch",
+     "perch miller style",
+     "pan-fried perch fillet"
+    ],
+    "de": [
+     "barsch müllerinart",
+     "flussbarsch müllerin art",
+     "barsch mehliert gebraten",
+     "egli müllerin",
+     "barschfilet müllerin art"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "european perch, pan-fried",
+     "grams": 200,
+     "reference": "bls:T601182"
+    },
+    {
+     "name": "wheat flour",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "rapeseed oil",
+     "grams": 3,
+     "resolved": {
+      "id": "usda:2710188",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lemon juice",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:F601600",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "redfish polish style",
+   "names": {
+    "en": "Redfish Polish style",
+    "de": "Rotbarsch polnische Art"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "fish",
+   "aliases": {
+    "en": [
+     "redfish polonaise",
+     "ocean perch polish style",
+     "poached redfish polish style"
+    ],
+    "de": [
+     "rotbarsch polnisch",
+     "rotbarsch auf polnische art",
+     "rotbarschfilet polnische art",
+     "goldbarsch polnische art"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "ocean perch, stewed",
+     "grams": 180,
+     "reference": "bls:T615152"
+    },
+    {
+     "name": "vegetable stock",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:X416243",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "breadcrumbs",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:B821000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "boiled egg",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:E111132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "parsley",
+     "grams": 3,
+     "resolved": {
+      "id": "usda:2709796",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "swordfish roulades",
+   "names": {
+    "en": "Swordfish roulades",
+    "de": "Schwertfisch-Rouladen"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "fish",
+   "aliases": {
+    "en": [
+     "swordfish rolls",
+     "swordfish involtini",
+     "stuffed swordfish rolls",
+     "involtini di pesce spada"
+    ],
+    "de": [
+     "schwertfischrouladen",
+     "schwertfisch rouladen",
+     "schwertfischröllchen",
+     "involtini vom schwertfisch"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "swordfish, pan-fried",
+     "grams": 180,
+     "reference": "bls:T612182"
+    },
+    {
+     "name": "cooked ham",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:W424000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "parmesan",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:M306400",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "olive oil",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:Q120000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "parsley",
+     "grams": 3,
+     "resolved": {
+      "id": "usda:2709796",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "garlic",
+     "grams": 3,
+     "resolved": {
+      "id": "bls:G490100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "swordfish with sweet peppers tomatoes and cucumbers",
+   "names": {
+    "en": "Swordfish with peppers, tomatoes and cucumber",
+    "de": "Schwertfisch mit Paprika-Tomaten-Gurkengemüse"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "fish",
+   "aliases": {
+    "en": [
+     "swordfish with stewed vegetables",
+     "fried swordfish with peppers and tomatoes",
+     "swordfish with pepper and tomato"
+    ],
+    "de": [
+     "schwertfisch mit paprika und tomaten",
+     "schwertfisch mit gurkengemüse",
+     "schwertfisch mit gemüse",
+     "gebratener schwertfisch mit paprikagemüse"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "swordfish, pan-fried",
+     "grams": 150,
+     "reference": "bls:T612182"
+    },
+    {
+     "name": "red bell pepper",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:G543100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:G561100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cucumber",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:G520100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "olive oil",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:Q120000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "pike perch fillet breaded",
+   "names": {
+    "en": "Breaded pike-perch fillet",
+    "de": "Zanderfilet paniert"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "fish",
+   "aliases": {
+    "en": [
+     "breaded zander",
+     "breaded pikeperch",
+     "zander in breadcrumbs",
+     "fried breaded zander fillet"
+    ],
+    "de": [
+     "zander paniert",
+     "panierter zander",
+     "zanderfilet paniert gebraten",
+     "gebackener zander"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "pike-perch, pan-fried",
+     "grams": 160,
+     "reference": "bls:T603182"
+    },
+    {
+     "name": "egg",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "breadcrumbs",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:B821000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "wheat flour",
+     "grams": 6,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 12,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "pike perch fillet floured",
+   "names": {
+    "en": "Pike-perch meunière",
+    "de": "Zanderfilet Müllerin Art"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "fish",
+   "aliases": {
+    "en": [
+     "zander meuniere",
+     "pikeperch meuniere",
+     "floured fried zander",
+     "zander fillet miller style"
+    ],
+    "de": [
+     "zander müllerinart",
+     "zander müllerin art",
+     "zanderfilet mehliert gebraten",
+     "zanderfilet müllerinart",
+     "zander nach müllerin art"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "pike-perch, pan-fried",
+     "grams": 180,
+     "reference": "bls:T603182"
+    },
+    {
+     "name": "wheat flour",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "rapeseed oil",
+     "grams": 3,
+     "resolved": {
+      "id": "usda:2710188",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lemon juice",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:F601600",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "eel in red wine marinated",
+   "names": {
+    "en": "Eel in red wine",
+    "de": "Aal in Rotwein"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "fish",
+   "aliases": {
+    "en": [
+     "eel marinated in red wine",
+     "eel poached in red wine",
+     "eel in red wine sauce"
+    ],
+    "de": [
+     "aal in rotwein mariniert",
+     "aal in rotweinsud",
+     "aal rotwein",
+     "pochierter aal in rotwein"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "eel, stewed",
+     "grams": 180,
+     "reference": "bls:T041152"
+    },
+    {
+     "name": "red wine",
+     "grams": 30,
+     "resolved": {
+      "id": "usda:2710688",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "carrot",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "eel with bacon",
+   "names": {
+    "en": "Eel with bacon",
+    "de": "Aal mit Speck"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "fish",
+   "aliases": {
+    "en": [
+     "baked eel with bacon",
+     "eel wrapped in bacon",
+     "bacon wrapped eel"
+    ],
+    "de": [
+     "aal mit speck gebacken",
+     "aal im speckmantel",
+     "gebackener aal mit speck",
+     "aal in speck"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "eel, pan-fried",
+     "grams": 180,
+     "reference": "bls:T041182"
+    },
+    {
+     "name": "cooked bacon",
+     "grams": 25,
+     "resolved": {
+      "id": "usda:2705889",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "pike breaded",
+   "names": {
+    "en": "Breaded pike",
+    "de": "Hecht paniert"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "fish",
+   "aliases": {
+    "en": [
+     "breaded pike fillet",
+     "fried breaded pike",
+     "pike in breadcrumbs"
+    ],
+    "de": [
+     "panierter hecht",
+     "hechtfilet paniert",
+     "hecht paniert gebraten",
+     "gebackener hecht"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "pike, pan-fried",
+     "grams": 160,
+     "reference": "bls:T060182"
+    },
+    {
+     "name": "egg",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "breadcrumbs",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:B821000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "wheat flour",
+     "grams": 6,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 12,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "pike in oven baden style",
+   "names": {
+    "en": "Baked pike Baden style",
+    "de": "Hecht badische Art"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "fish",
+   "aliases": {
+    "en": [
+     "pike baden style",
+     "oven baked pike with sour cream",
+     "baden style pike"
+    ],
+    "de": [
+     "hecht im ofen badische art",
+     "hecht nach badischer art",
+     "badischer hecht",
+     "hecht aus dem ofen badisch"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "pike, pan-fried",
+     "grams": 180,
+     "reference": "bls:T060182"
+    },
+    {
+     "name": "sour cream",
+     "grams": 40,
+     "resolved": {
+      "id": "usda:2705614",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "smoked streaky bacon",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:W411300",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "pike filled",
+   "names": {
+    "en": "Stuffed pike",
+    "de": "Gefüllter Hecht"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "fish",
+   "aliases": {
+    "en": [
+     "baked stuffed pike",
+     "pike filled and baked",
+     "stuffed baked pike"
+    ],
+    "de": [
+     "hecht gefüllt",
+     "hecht gefüllt gebacken",
+     "gefüllter hecht aus dem ofen",
+     "hecht mit füllung"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "pike, pan-fried",
+     "grams": 220,
+     "reference": "bls:T060182"
+    },
+    {
+     "name": "bread roll",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:B511000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "parsley",
+     "grams": 5,
+     "resolved": {
+      "id": "usda:2709796",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 4,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "mussels steamed in white wine stock",
+   "names": {
+    "en": "Mussels in white wine",
+    "de": "Muscheln in Weißwein"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "oyster",
+   "aliases": {
+    "en": [
+     "moules marinieres",
+     "mussels in white wine sauce",
+     "steamed mussels in white wine",
+     "moules mariniere"
+    ],
+    "de": [
+     "miesmuscheln in weißwein",
+     "muscheln im weißweinsud",
+     "miesmuscheln im weißweinsud",
+     "muscheln gedämpft in weißwein",
+     "muscheln rheinische art"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked mussels",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:T792132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "white wine",
+     "grams": 40,
+     "resolved": {
+      "id": "usda:2710689",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 14,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "garlic",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:G490100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "parsley",
+     "grams": 5,
+     "resolved": {
+      "id": "usda:2709796",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "scallops provencal style",
+   "names": {
+    "en": "Scallops Provençal",
+    "de": "Jakobsmuscheln provenzalische Art"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "oyster",
+   "aliases": {
+    "en": [
+     "scallops provencale",
+     "scallops with tomato and garlic",
+     "pan-fried scallops provencal"
+    ],
+    "de": [
+     "jakobsmuscheln provenzalisch",
+     "jakobsmuscheln mit tomaten und knoblauch",
+     "jakobsmuscheln gebraten provenzalisch",
+     "jacobsmuscheln provenzalische art"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "scallops, pan-fried",
+     "grams": 120,
+     "reference": "bls:T793182"
+    },
+    {
+     "name": "tomato",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:G561100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "olive oil",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:Q120000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "garlic",
+     "grams": 4,
+     "resolved": {
+      "id": "bls:G490100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "white wine",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2710689",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "parsley",
+     "grams": 3,
+     "resolved": {
+      "id": "usda:2709796",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "cuttlefish floured",
+   "names": {
+    "en": "Floured fried cuttlefish",
+    "de": "Tintenfisch mehliert"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "squid",
+   "aliases": {
+    "en": [
+     "fried floured cuttlefish",
+     "pan-fried cuttlefish",
+     "cuttlefish dusted in flour"
+    ],
+    "de": [
+     "tintenfische mehliert gebraten",
+     "gebratener tintenfisch",
+     "tintenfisch in mehl gebraten",
+     "sepia mehliert"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cuttlefish, pan-fried",
+     "grams": 200,
+     "reference": "bls:T020182"
+    },
+    {
+     "name": "wheat flour",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "olive oil",
+     "grams": 4,
+     "resolved": {
+      "id": "bls:Q120000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lemon juice",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:F601600",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "cuttlefish tubes filled",
+   "names": {
+    "en": "Stuffed cuttlefish",
+    "de": "Gefüllte Tintenfischtuben"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "squid",
+   "aliases": {
+    "en": [
+     "stuffed cuttlefish tubes",
+     "grilled stuffed cuttlefish",
+     "stuffed squid tubes",
+     "filled cuttlefish tubes"
+    ],
+    "de": [
+     "tintenfischtuben gefüllt",
+     "gefüllter tintenfisch",
+     "gefüllte calamari",
+     "tintenfisch gefüllt gegrillt"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cuttlefish, grilled",
+     "grams": 160,
+     "reference": "bls:T020172"
+    },
+    {
+     "name": "breadcrumbs",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:B821000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "parmesan",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:M306400",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "olive oil",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:Q120000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "garlic",
+     "grams": 3,
+     "resolved": {
+      "id": "bls:G490100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "parsley",
+     "grams": 5,
+     "resolved": {
+      "id": "usda:2709796",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G561100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "snails in stock",
+   "skip": "plain boiled snails, the table row covers them"
+  },
+  {
+   "key": "snails burgundy style",
+   "names": {
+    "en": "Escargots Burgundy style",
+    "de": "Schnecken Burgunder Art"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "plate",
+   "aliases": {
+    "en": [
+     "escargots de bourgogne",
+     "snails in garlic butter",
+     "escargots in garlic butter",
+     "burgundy snails"
+    ],
+    "de": [
+     "schnecken in kräuterbutter",
+     "weinbergschnecken in knoblauchbutter",
+     "escargots",
+     "schnecken mit kräuterbutter",
+     "burgunder schnecken"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "snails, boiled",
+     "grams": 60,
+     "reference": "bls:V050132"
+    },
+    {
+     "name": "butter",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "garlic",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:G490100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "parsley",
+     "grams": 5,
+     "resolved": {
+      "id": "usda:2709796",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "shallot",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:G485100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "king prawns marinated",
+   "names": {
+    "en": "Grilled marinated king prawns",
+    "de": "Riesengarnelen mariniert"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "shrimp",
+   "aliases": {
+    "en": [
+     "marinated king prawns",
+     "grilled king prawns",
+     "grilled garlic prawns",
+     "marinated grilled prawns"
+    ],
+    "de": [
+     "marinierte riesengarnelen",
+     "gegrillte riesengarnelen",
+     "riesengarnelen gegrillt",
+     "garnelen mariniert gegrillt",
+     "king prawns vom grill"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked shrimp",
+     "grams": 180,
+     "resolved": {
+      "id": "bls:T753132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "olive oil",
+     "grams": 16,
+     "resolved": {
+      "id": "bls:Q120000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "garlic",
+     "grams": 4,
+     "resolved": {
+      "id": "bls:G490100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lemon juice",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:F601600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "parsley",
+     "grams": 3,
+     "resolved": {
+      "id": "usda:2709796",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "redfish casserole",
+   "names": {
+    "en": "Redfish bake",
+    "de": "Rotbarschauflauf"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "plate",
+   "aliases": {
+    "en": [
+     "redfish casserole",
+     "ocean perch bake",
+     "baked redfish with cheese",
+     "fish bake with redfish"
+    ],
+    "de": [
+     "rotbarsch auflauf",
+     "fischauflauf mit rotbarsch",
+     "überbackener rotbarsch",
+     "rotbarsch überbacken"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "ocean perch, stewed",
+     "grams": 120,
+     "reference": "bls:T615152"
+    },
+    {
+     "name": "boiled potatoes",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "heavy cream",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:M173800",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "gouda",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:M402600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "redfish casserole with vegetables",
+   "names": {
+    "en": "Redfish and vegetable bake",
+    "de": "Rotbarschauflauf mit Gemüse"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "plate",
+   "aliases": {
+    "en": [
+     "redfish casserole with vegetables",
+     "fish and vegetable bake",
+     "redfish bake with vegetables"
+    ],
+    "de": [
+     "rotbarsch-gemüse-auflauf",
+     "fischauflauf mit gemüse",
+     "rotbarsch mit gemüse überbacken",
+     "gemüseauflauf mit rotbarsch"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "ocean perch, stewed",
+     "grams": 140,
+     "reference": "bls:T615152"
+    },
+    {
+     "name": "cooked mixed vegetables",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:G090132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "light cream",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:M171500",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "gouda",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:M402600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "redfish ragout",
+   "names": {
+    "en": "Redfish ragout",
+    "de": "Rotbarschragout"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "fish",
+   "aliases": {
+    "en": [
+     "ocean perch ragout",
+     "redfish stew",
+     "fish ragout with redfish"
+    ],
+    "de": [
+     "rotbarsch ragout",
+     "fischragout mit rotbarsch",
+     "ragout vom rotbarsch",
+     "goldbarschragout"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "ocean perch, stewed",
+     "grams": 200,
+     "reference": "bls:T615152"
+    },
+    {
+     "name": "white basic sauce",
+     "grams": 80,
+     "reference": "bls:X320053"
+    },
+    {
+     "name": "mushrooms",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:K701100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "heavy cream",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:M173800",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lemon juice",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:F601600",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "fishcakes with saithe",
+   "names": {
+    "en": "Saithe fishcakes",
+    "de": "Fischfrikadellen mit Seelachs"
+   },
+   "serving": {
+    "label": {
+     "en": "2 fishcakes",
+     "de": "2 Frikadellen"
+    },
+    "count": 2
+   },
+   "artworkID": "fish-cake",
+   "aliases": {
+    "en": [
+     "fish cakes with saithe",
+     "pollock fishcakes",
+     "saithe fish patties",
+     "coley fishcakes"
+    ],
+    "de": [
+     "fischfrikadellen",
+     "seelachsfrikadellen",
+     "fischbuletten",
+     "fischpflanzerl",
+     "fischfrikadelle mit seelachs"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "saithe, pan-fried",
+     "grams": 120,
+     "reference": "bls:T207182"
+    },
+    {
+     "name": "bread roll",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:B511000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "parsley",
+     "grams": 3,
+     "resolved": {
+      "id": "usda:2709796",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "rapeseed oil",
+     "grams": 4,
+     "resolved": {
+      "id": "usda:2710188",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "hake fricassee",
+   "names": {
+    "en": "Hake fricassee",
+    "de": "Seehechtfrikassee"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "fish",
+   "aliases": {
+    "en": [
+     "fricassee of hake",
+     "hake in cream sauce",
+     "fish fricassee with hake"
+    ],
+    "de": [
+     "seehecht frikassee",
+     "fischfrikassee",
+     "frikassee vom seehecht",
+     "seehecht-frikassee"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "hake, stewed",
+     "grams": 200,
+     "reference": "bls:T209152"
+    },
+    {
+     "name": "white basic sauce",
+     "grams": 80,
+     "reference": "bls:X320053"
+    },
+    {
+     "name": "mushrooms",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:K701100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "heavy cream",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:M173800",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 6,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg yolk",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2707172",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lemon juice",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:F601600",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "small fishcakes with redfish",
+   "names": {
+    "en": "Redfish dumplings",
+    "de": "Fischklößchen mit Rotbarsch"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "fish",
+   "aliases": {
+    "en": [
+     "fish dumplings",
+     "redfish quenelles",
+     "poached fish balls with redfish",
+     "fish balls"
+    ],
+    "de": [
+     "fischklößchen",
+     "fischklösschen",
+     "rotbarschklößchen",
+     "fischnocken",
+     "fischklöße"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "ocean perch, stewed",
+     "grams": 150,
+     "reference": "bls:T615152"
+    },
+    {
+     "name": "bread roll",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:B511000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "light cream",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:M171500",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "fish curry with saithe and peanuts",
+   "names": {
+    "en": "Saithe curry with peanuts",
+    "de": "Fischcurry mit Seelachs und Erdnüssen"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "curry",
+   "aliases": {
+    "en": [
+     "fish curry with peanuts",
+     "saithe peanut curry",
+     "pollock curry with peanuts"
+    ],
+    "de": [
+     "fisch-curry mit seelachs",
+     "seelachs-curry",
+     "fischcurry mit erdnüssen",
+     "seelachscurry mit erdnüssen"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "saithe, stewed",
+     "grams": 150,
+     "reference": "bls:T207152"
+    },
+    {
+     "name": "peanuts",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:H110600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "canned tomatoes",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:G568900",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "red bell pepper",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:G543100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 6,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "curry powder",
+     "grams": 3,
+     "resolved": {
+      "id": "ciqual:11005",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "fish goulash with saithe and sweet peppers",
+   "names": {
+    "en": "Saithe goulash with peppers",
+    "de": "Fischgulasch mit Seelachs und Paprika"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "soup",
+   "aliases": {
+    "en": [
+     "fish goulash with peppers",
+     "saithe goulash",
+     "pollock goulash with peppers"
+    ],
+    "de": [
+     "fischgulasch",
+     "seelachsgulasch",
+     "fischgulasch mit paprika",
+     "fisch gulasch mit seelachs"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "saithe, stewed",
+     "grams": 150,
+     "reference": "bls:T207152"
+    },
+    {
+     "name": "red bell pepper",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:G543100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato paste",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:R160000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sour cream",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2705614",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "paprika",
+     "grams": 3,
+     "resolved": {
+      "id": "ciqual:11049",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "fish goulash with saithe hungarian style",
+   "names": {
+    "en": "Hungarian fish goulash",
+    "de": "Fischgulasch ungarische Art"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "soup",
+   "aliases": {
+    "en": [
+     "hungarian style fish goulash",
+     "halaszle",
+     "saithe goulash hungarian style"
+    ],
+    "de": [
+     "fischgulasch ungarisch",
+     "ungarisches fischgulasch",
+     "fischgulasch mit seelachs ungarische art",
+     "halászlé"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "saithe, stewed",
+     "grams": 140,
+     "reference": "bls:T207152"
+    },
+    {
+     "name": "onion",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "red bell pepper",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:G543100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "boiled potatoes",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato paste",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:R160000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 8,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "broth",
+     "grams": 50,
+     "resolved": {
+      "id": "usda:2707132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "paprika",
+     "grams": 4,
+     "resolved": {
+      "id": "ciqual:11049",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "ragout fin with redfish",
+   "names": {
+    "en": "Ragoût fin with redfish",
+    "de": "Ragout fin mit Rotbarsch"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "fish",
+   "aliases": {
+    "en": [
+     "ragout fin",
+     "ragout fin with fish",
+     "redfish ragout fin"
+    ],
+    "de": [
+     "ragout fin",
+     "ragoût fin mit rotbarsch",
+     "fisch ragout fin",
+     "ragufeng mit fisch"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "ocean perch, stewed",
+     "grams": 140,
+     "reference": "bls:T615152"
+    },
+    {
+     "name": "white basic sauce",
+     "grams": 80,
+     "reference": "bls:X320053"
+    },
+    {
+     "name": "mushrooms",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:K701100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "heavy cream",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:M173800",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg yolk",
+     "grams": 8,
+     "resolved": {
+      "id": "usda:2707172",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lemon juice",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:F601600",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "sole in butter with mixed vegetables and potatoes",
+   "names": {
+    "en": "Sole in butter with vegetables and potatoes",
+    "de": "Seezunge in Butter mit Kaisergemüse und Salzkartoffeln"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "fish",
+   "aliases": {
+    "en": [
+     "sole with vegetables and potatoes",
+     "pan-fried sole with boiled potatoes",
+     "sole meuniere with vegetables"
+    ],
+    "de": [
+     "seezunge mit kaisergemüse",
+     "seezunge mit salzkartoffeln",
+     "seezunge in butter mit gemüse und kartoffeln",
+     "seezunge mit gemüse und kartoffeln"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "sole, pan-fried",
+     "grams": 150,
+     "reference": "bls:T309182"
+    },
+    {
+     "name": "butter",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked mixed vegetables",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:G090132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "boiled potatoes",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "sole in butter",
+   "names": {
+    "en": "Sole fried in butter",
+    "de": "Seezunge in Butter"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "fish",
+   "aliases": {
+    "en": [
+     "sole in butter",
+     "butter fried sole",
+     "pan-fried sole",
+     "sole meuniere"
+    ],
+    "de": [
+     "seezunge in butter gebraten",
+     "gebratene seezunge",
+     "seezunge müllerin",
+     "seezunge müllerinart",
+     "seezungenfilet in butter"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "sole, pan-fried",
+     "grams": 200,
+     "reference": "bls:T309182"
+    },
+    {
+     "name": "butter",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lemon juice",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:F601600",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "redfish fillet",
+   "skip": "a plain grilled fillet, the table row covers it"
+  },
+  {
+   "key": "fish fingers",
+   "skip": "a single food the vocabulary already covers (fish fingers)"
+  },
+  {
+   "key": "fish slices of saithe",
+   "skip": "a plain grilled fillet, the table row covers it"
+  },
+  {
+   "key": "hamburg fish",
+   "names": {
+    "en": "Hamburg pan fish",
+    "de": "Hamburger Pannfisch"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "fish",
+   "aliases": {
+    "en": [
+     "pannfisch",
+     "hamburg style pan fish",
+     "fish with fried potatoes and mustard sauce"
+    ],
+    "de": [
+     "pannfisch",
+     "hamburger pannfisch mit rotbarsch",
+     "pannfisch mit senfsauce",
+     "pannfisch mit bratkartoffeln"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "ocean perch, pan-fried",
+     "grams": 120,
+     "reference": "bls:T615182"
+    },
+    {
+     "name": "butter",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "fried potatoes",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:X651013",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "mustard sauce",
+     "grams": 100,
+     "reference": "bls:X326453"
+    }
+   ]
+  },
+  {
+   "key": "fish croquettes with saithe",
+   "names": {
+    "en": "Saithe croquettes",
+    "de": "Fischkroketten mit Seelachs"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "fish-cake",
+   "aliases": {
+    "en": [
+     "fish croquettes",
+     "pollock croquettes",
+     "deep-fried fish croquettes"
+    ],
+    "de": [
+     "fischkroketten",
+     "seelachskroketten",
+     "fischkroketten frittiert",
+     "fisch-kroketten"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "saithe, stewed",
+     "grams": 80,
+     "reference": "bls:T207152"
+    },
+    {
+     "name": "mashed potatoes",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:X634012",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "breadcrumbs",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:B821000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "wheat flour",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 25,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "herring fillet floured",
+   "names": {
+    "en": "Fried floured herring",
+    "de": "Heringsfilet mehliert"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "fish",
+   "aliases": {
+    "en": [
+     "fried herring",
+     "pan-fried herring fillet",
+     "floured herring fillet",
+     "fried herring fillets"
+    ],
+    "de": [
+     "gebratener hering",
+     "brathering frisch",
+     "heringsfilet gebraten",
+     "grüne heringe gebraten",
+     "heringsfilet mehliert gebraten"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "herring, pan-fried",
+     "grams": 180,
+     "reference": "bls:T102182"
+    },
+    {
+     "name": "wheat flour",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "rapeseed oil",
+     "grams": 8,
+     "resolved": {
+      "id": "usda:2710188",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "tuna steak with ham",
+   "names": {
+    "en": "Tuna steak with ham",
+    "de": "Thunfischsteak mit Schinken"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "fish",
+   "aliases": {
+    "en": [
+     "tuna with ham",
+     "pan-fried tuna steak with ham",
+     "tuna steak wrapped in ham"
+    ],
+    "de": [
+     "thunfisch mit schinken",
+     "thunfischsteak gebraten mit schinken",
+     "thunfischsteak im schinkenmantel",
+     "thunfisch steak mit schinken"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "tuna, pan-fried",
+     "grams": 160,
+     "reference": "bls:T121182"
+    },
+    {
+     "name": "prosciutto",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2705879",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "olive oil",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:Q120000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:G561100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "salmon spinach casserole",
+   "names": {
+    "en": "Salmon and spinach bake",
+    "de": "Lachs-Spinat-Auflauf"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "plate",
+   "aliases": {
+    "en": [
+     "salmon spinach bake",
+     "salmon and spinach casserole",
+     "baked salmon with spinach"
+    ],
+    "de": [
+     "lachs spinat auflauf",
+     "lachsauflauf mit spinat",
+     "spinat-lachs-auflauf",
+     "lachs mit spinat überbacken"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked salmon",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:T410072",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked spinach",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:G210132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "heavy cream",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:M173800",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "gouda",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:M402600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "garlic",
+     "grams": 3,
+     "resolved": {
+      "id": "bls:G490100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "redfish casserole with potatoes and spinach",
+   "names": {
+    "en": "Redfish bake with potatoes and spinach",
+    "de": "Rotbarschauflauf mit Kartoffeln und Spinat"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "plate",
+   "aliases": {
+    "en": [
+     "fish bake with potatoes and spinach",
+     "redfish potato spinach casserole",
+     "redfish casserole with spinach"
+    ],
+    "de": [
+     "rotbarsch-kartoffel-spinat-auflauf",
+     "fischauflauf mit kartoffeln und spinat",
+     "rotbarsch mit spinat und kartoffeln überbacken",
+     "rotbarschauflauf mit spinat"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "ocean perch, stewed",
+     "grams": 130,
+     "reference": "bls:T615152"
+    },
+    {
+     "name": "boiled potatoes",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked spinach",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:G210132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "heavy cream",
+     "grams": 70,
+     "resolved": {
+      "id": "bls:M173800",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "gouda",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:M402600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "egg",
+   "skip": "a single fried egg; the vocabulary covers it (fried egg)"
+  },
+  {
+   "key": "egg in butter",
+   "skip": "a fried egg in butter, a cooking variant of a single food"
+  },
+  {
+   "key": "egg on spinach with tomatoes",
+   "names": {
+    "en": "Fried eggs on spinach with tomatoes",
+    "de": "Spiegelei auf Spinat mit Tomaten"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "fried-egg",
+   "aliases": {
+    "en": [
+     "eggs on spinach",
+     "fried egg with spinach and tomatoes",
+     "eggs florentine style with tomatoes"
+    ],
+    "de": [
+     "spiegeleier auf spinat",
+     "spiegelei mit spinat und tomaten",
+     "spinat mit spiegelei",
+     "spiegelei auf blattspinat"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "fried egg",
+     "grams": 110,
+     "resolved": {
+      "id": "bls:Y710142",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked spinach",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:G210132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:G561100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "heavy cream",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:M173800",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "egg with ham",
+   "names": {
+    "en": "Fried eggs with ham",
+    "de": "Spiegelei mit Schinken"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "fried-egg",
+   "aliases": {
+    "en": [
+     "ham and eggs",
+     "fried egg with ham",
+     "eggs with ham"
+    ],
+    "de": [
+     "spiegelei mit kochschinken",
+     "spiegeleier mit schinken",
+     "schinken mit spiegelei",
+     "ham and eggs"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "fried egg",
+     "grams": 110,
+     "resolved": {
+      "id": "bls:Y710142",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked ham",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:W424000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "egg with bacon",
+   "names": {
+    "en": "Fried eggs with bacon",
+    "de": "Spiegelei mit Speck"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "fried-egg",
+   "aliases": {
+    "en": [
+     "bacon and eggs",
+     "fried egg with bacon",
+     "eggs and bacon"
+    ],
+    "de": [
+     "spiegelei mit schinkenspeck",
+     "spiegeleier mit speck",
+     "speck mit spiegelei",
+     "bacon and eggs"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "fried egg",
+     "grams": 110,
+     "resolved": {
+      "id": "bls:Y710142",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "grilled back bacon",
+     "grams": 35,
+     "resolved": {
+      "id": "cofid:19-500",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "eggs with cheese",
+   "names": {
+    "en": "Eggs au gratin",
+    "de": "Eier mit Käse überbacken"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "egg",
+   "aliases": {
+    "en": [
+     "baked eggs with cheese",
+     "eggs gratinated with cheese",
+     "cheesy baked eggs"
+    ],
+    "de": [
+     "überbackene eier",
+     "eier überbacken",
+     "eier mit käse",
+     "käse-eier überbacken"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "boiled egg",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:E111132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "béchamel",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:X320243",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "gouda",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:M402600",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "scrambled eggs in butter",
+   "skip": "duplicate of the catalogue dish Scrambled eggs (Rührei)"
+  },
+  {
+   "key": "scrambled eggs with chanterelles",
+   "names": {
+    "en": "Scrambled eggs with chanterelles",
+    "de": "Rührei mit Pfifferlingen"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "fried-egg",
+   "aliases": {
+    "en": [
+     "scrambled egg with chanterelles",
+     "chanterelle scrambled eggs",
+     "scrambled eggs with girolles"
+    ],
+    "de": [
+     "rührei mit pfifferlingen",
+     "pfifferlinge mit rührei",
+     "pfifferlingsrührei",
+     "ruehrei mit pfifferlingen"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "egg",
+     "grams": 110,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "chanterelles, pan-fried",
+     "grams": 60,
+     "reference": "bls:K713182"
+    },
+    {
+     "name": "chives",
+     "grams": 3,
+     "resolved": {
+      "id": "bls:G081100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "scrambled eggs with chanterelles and bacon",
+   "names": {
+    "en": "Scrambled eggs with chanterelles and bacon",
+    "de": "Rührei mit Pfifferlingen und Speck"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "fried-egg",
+   "aliases": {
+    "en": [
+     "scrambled eggs with chanterelles and bacon",
+     "chanterelle and bacon scrambled eggs",
+     "scrambled eggs with girolles and bacon"
+    ],
+    "de": [
+     "pfifferlinge mit rührei und speck",
+     "rührei mit speck und pfifferlingen",
+     "ruehrei mit pfifferlingen und speck"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "egg",
+     "grams": 110,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "chanterelles, pan-fried",
+     "grams": 50,
+     "reference": "bls:K713182"
+    },
+    {
+     "name": "cooked bacon",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2705889",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "scrambled eggs with chanterelles and ham",
+   "names": {
+    "en": "Scrambled eggs with chanterelles and ham",
+    "de": "Rührei mit Pfifferlingen und Schinken"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "fried-egg",
+   "aliases": {
+    "en": [
+     "scrambled eggs with chanterelles and ham",
+     "chanterelle and ham scrambled eggs",
+     "scrambled eggs with girolles and ham"
+    ],
+    "de": [
+     "rührei mit pfifferlingen und kochschinken",
+     "rührei mit schinken und pfifferlingen",
+     "ruehrei mit pfifferlingen und schinken"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "egg",
+     "grams": 110,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "chanterelles, pan-fried",
+     "grams": 50,
+     "reference": "bls:K713182"
+    },
+    {
+     "name": "cooked ham",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:W424000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "scrambled eggs with bacon",
+   "names": {
+    "en": "Scrambled eggs with bacon",
+    "de": "Rührei mit Speck"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "fried-egg",
+   "aliases": {
+    "en": [
+     "scrambled egg with bacon",
+     "bacon scrambled eggs",
+     "scrambled eggs and bacon"
+    ],
+    "de": [
+     "rührei mit speck",
+     "speckrührei",
+     "ruehrei mit speck",
+     "rühreier mit speck",
+     "rührei mit bacon"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "egg",
+     "grams": 110,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked bacon",
+     "grams": 45,
+     "resolved": {
+      "id": "usda:2705889",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "scrambled eggs with button mushrooms",
+   "names": {
+    "en": "Scrambled eggs with mushrooms",
+    "de": "Rührei mit Champignons"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "fried-egg",
+   "aliases": {
+    "en": [
+     "scrambled egg with mushrooms",
+     "mushroom scrambled eggs",
+     "scrambled eggs with button mushrooms"
+    ],
+    "de": [
+     "rührei mit pilzen",
+     "champignonrührei",
+     "ruehrei mit champignons",
+     "rührei mit champions"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "egg",
+     "grams": 110,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 12,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked mushrooms",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:K701172",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "scrambled eggs with cheese and ham",
+   "names": {
+    "en": "Scrambled eggs with cheese and ham",
+    "de": "Rührei mit Käse und Schinken"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "fried-egg",
+   "aliases": {
+    "en": [
+     "ham and cheese scrambled eggs",
+     "scrambled egg with ham and cheese",
+     "scrambled eggs with ham and cheese"
+    ],
+    "de": [
+     "rührei mit schinken und käse",
+     "rührei mit käse und kochschinken",
+     "ruehrei mit kaese und schinken"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "egg",
+     "grams": 110,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked ham",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:W424000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "gouda",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:M402600",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "scrambled eggs with tomatoes",
+   "names": {
+    "en": "Scrambled eggs with tomatoes",
+    "de": "Rührei mit Tomaten"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "fried-egg",
+   "aliases": {
+    "en": [
+     "scrambled egg with tomato",
+     "tomato scrambled eggs",
+     "scrambled eggs and tomatoes"
+    ],
+    "de": [
+     "rührei mit tomate",
+     "tomatenrührei",
+     "ruehrei mit tomaten",
+     "rühreier mit tomaten"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "egg",
+     "grams": 110,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 16,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:G561100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "scrambled eggs with sweet peppers",
+   "names": {
+    "en": "Scrambled eggs with peppers",
+    "de": "Rührei mit Paprika"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "fried-egg",
+   "aliases": {
+    "en": [
+     "scrambled egg with bell pepper",
+     "pepper scrambled eggs",
+     "scrambled eggs with sweet peppers"
+    ],
+    "de": [
+     "paprikarührei",
+     "rührei mit paprikaschoten",
+     "ruehrei mit paprika",
+     "rühreier mit paprika"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "egg",
+     "grams": 110,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 16,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "red bell pepper",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:G543100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "scrambled eggs with leberkaese sausage",
+   "names": {
+    "en": "Scrambled eggs with Leberkäse",
+    "de": "Rührei mit Leberkäse"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "fried-egg",
+   "aliases": {
+    "en": [
+     "scrambled eggs with leberkase",
+     "leberkaese scrambled eggs",
+     "scrambled eggs with bavarian meatloaf"
+    ],
+    "de": [
+     "rührei mit fleischkäse",
+     "leberkäse mit rührei",
+     "ruehrei mit leberkaese",
+     "rührei mit leberkäs"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "egg",
+     "grams": 110,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "leberkäse",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:W256100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "scrambled eggs with bologna and onions",
+   "names": {
+    "en": "Scrambled eggs with bologna and onions",
+    "de": "Rührei mit Fleischwurst und Zwiebeln"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "fried-egg",
+   "aliases": {
+    "en": [
+     "scrambled eggs with sausage and onions",
+     "bologna scrambled eggs",
+     "scrambled eggs with bologna sausage"
+    ],
+    "de": [
+     "rührei mit fleischwurst",
+     "fleischwurst mit rührei und zwiebeln",
+     "ruehrei mit fleischwurst",
+     "rührei mit lyoner und zwiebeln"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "egg",
+     "grams": 110,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "bologna sausage, fried",
+     "grams": 50,
+     "reference": "bls:W234082"
+    },
+    {
+     "name": "onion",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "scrambled eggs with smoked salmon",
+   "names": {
+    "en": "Scrambled eggs with smoked salmon",
+    "de": "Rührei mit Räucherlachs"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "fried-egg",
+   "aliases": {
+    "en": [
+     "scrambled egg with smoked salmon",
+     "smoked salmon scrambled eggs",
+     "scrambled eggs and lox",
+     "scrambled eggs with salmon"
+    ],
+    "de": [
+     "rührei mit lachs",
+     "räucherlachs mit rührei",
+     "ruehrei mit raeucherlachs",
+     "rührei mit geräuchertem lachs"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "egg",
+     "grams": 110,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 12,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "smoked salmon",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:T410600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "chives",
+     "grams": 3,
+     "resolved": {
+      "id": "bls:G081100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "scrambled eggs with ham",
+   "names": {
+    "en": "Scrambled eggs with ham",
+    "de": "Rührei mit Schinken"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "fried-egg",
+   "aliases": {
+    "en": [
+     "scrambled egg with ham",
+     "ham scrambled eggs",
+     "scrambled eggs and ham"
+    ],
+    "de": [
+     "rührei mit kochschinken",
+     "schinkenrührei",
+     "ruehrei mit schinken",
+     "rühreier mit schinken"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "egg",
+     "grams": 110,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 14,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked ham",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:W424000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "scrambled eggs with herbs",
+   "names": {
+    "en": "Scrambled eggs with herbs",
+    "de": "Rührei mit Kräutern"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "fried-egg",
+   "aliases": {
+    "en": [
+     "herb scrambled eggs",
+     "scrambled egg with herbs",
+     "scrambled eggs with chives"
+    ],
+    "de": [
+     "kräuterrührei",
+     "rührei mit schnittlauch",
+     "ruehrei mit kraeutern",
+     "rühreier mit kräutern"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "egg",
+     "grams": 110,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 12,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "chives",
+     "grams": 4,
+     "resolved": {
+      "id": "bls:G081100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "parsley",
+     "grams": 4,
+     "resolved": {
+      "id": "usda:2709796",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "scrambled eggs with onions",
+   "names": {
+    "en": "Scrambled eggs with onions",
+    "de": "Rührei mit Zwiebeln"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "fried-egg",
+   "aliases": {
+    "en": [
+     "onion scrambled eggs",
+     "scrambled egg with onion",
+     "scrambled eggs and onions"
+    ],
+    "de": [
+     "zwiebelrührei",
+     "rührei mit zwiebel",
+     "ruehrei mit zwiebeln",
+     "rühreier mit zwiebeln"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "egg",
+     "grams": 110,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 16,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "omelette with cheese",
+   "names": {
+    "en": "Cheese omelette",
+    "de": "Käseomelett"
+   },
+   "serving": {
+    "label": {
+     "en": "1 omelette",
+     "de": "1 Omelett"
+    },
+    "count": 1
+   },
+   "artworkID": "fried-egg",
+   "aliases": {
+    "en": [
+     "omelette with cheese",
+     "cheese omelet",
+     "omelet with cheese"
+    ],
+    "de": [
+     "omelett mit käse",
+     "käse omelett",
+     "omelette mit käse",
+     "kaeseomelett"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "egg",
+     "grams": 165,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 12,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "emmental",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:M304600",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "omelette with herbs",
+   "names": {
+    "en": "Herb omelette",
+    "de": "Kräuteromelett"
+   },
+   "serving": {
+    "label": {
+     "en": "1 omelette",
+     "de": "1 Omelett"
+    },
+    "count": 1
+   },
+   "artworkID": "fried-egg",
+   "aliases": {
+    "en": [
+     "omelette with herbs",
+     "herb omelet",
+     "omelette aux fines herbes"
+    ],
+    "de": [
+     "omelett mit kräutern",
+     "kräuter omelett",
+     "omelette mit kräutern",
+     "kraeuteromelett"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "egg",
+     "grams": 165,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 12,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "chives",
+     "grams": 4,
+     "resolved": {
+      "id": "bls:G081100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "parsley",
+     "grams": 4,
+     "resolved": {
+      "id": "usda:2709796",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "omelette filled with blanched vegetables and ham",
+   "names": {
+    "en": "Omelette with vegetables and ham",
+    "de": "Omelett mit Gemüse und Schinken"
+   },
+   "serving": {
+    "label": {
+     "en": "1 omelette",
+     "de": "1 Omelett"
+    },
+    "count": 1
+   },
+   "artworkID": "fried-egg",
+   "aliases": {
+    "en": [
+     "ham and vegetable omelette",
+     "vegetable omelette with ham",
+     "omelet with vegetables and ham"
+    ],
+    "de": [
+     "omelett gefüllt mit gemüse und schinken",
+     "gemüseomelett mit schinken",
+     "schinken-gemüse-omelett",
+     "omelette mit gemüse und kochschinken"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "egg",
+     "grams": 165,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 12,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked mixed vegetables",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:G090132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked ham",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:W424000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "omelette with tomatoes",
+   "names": {
+    "en": "Tomato omelette",
+    "de": "Tomatenomelett"
+   },
+   "serving": {
+    "label": {
+     "en": "1 omelette",
+     "de": "1 Omelett"
+    },
+    "count": 1
+   },
+   "artworkID": "fried-egg",
+   "aliases": {
+    "en": [
+     "omelette with tomatoes",
+     "tomato omelet",
+     "omelet with tomato"
+    ],
+    "de": [
+     "omelett mit tomaten",
+     "tomaten omelett",
+     "omelette mit tomate",
+     "omelett mit tomate"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "egg",
+     "grams": 165,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 12,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:G561100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "omelette filled with button mushrooms",
+   "names": {
+    "en": "Mushroom omelette",
+    "de": "Champignonomelett"
+   },
+   "serving": {
+    "label": {
+     "en": "1 omelette",
+     "de": "1 Omelett"
+    },
+    "count": 1
+   },
+   "artworkID": "fried-egg",
+   "aliases": {
+    "en": [
+     "omelette with mushrooms",
+     "mushroom omelet",
+     "omelette filled with mushrooms"
+    ],
+    "de": [
+     "omelett mit champignons",
+     "pilzomelett",
+     "champignon omelett",
+     "omelett gefüllt mit champignons"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "egg",
+     "grams": 165,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 14,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked mushrooms",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:K701172",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "herb omelette with chanterelles",
+   "names": {
+    "en": "Herb omelette with chanterelles",
+    "de": "Kräuteromelett mit Pfifferlingen"
+   },
+   "serving": {
+    "label": {
+     "en": "1 omelette",
+     "de": "1 Omelett"
+    },
+    "count": 1
+   },
+   "artworkID": "fried-egg",
+   "aliases": {
+    "en": [
+     "chanterelle omelette",
+     "omelette with chanterelles",
+     "herb omelet with girolles"
+    ],
+    "de": [
+     "pfifferlingomelett",
+     "omelett mit pfifferlingen",
+     "kräuteromelett mit pfifferling",
+     "pfifferling-omelett"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "egg",
+     "grams": 165,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 14,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "chanterelles, pan-fried",
+     "grams": 70,
+     "reference": "bls:K713182"
+    },
+    {
+     "name": "chives",
+     "grams": 3,
+     "resolved": {
+      "id": "bls:G081100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "parsley",
+     "grams": 3,
+     "resolved": {
+      "id": "usda:2709796",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "omelette souffle sweetened drizzled with lemon juice",
+   "names": {
+    "en": "Sweet soufflé omelette with lemon",
+    "de": "Schaumomelett mit Zitrone"
+   },
+   "serving": {
+    "label": {
+     "en": "1 omelette",
+     "de": "1 Omelett"
+    },
+    "count": 1
+   },
+   "artworkID": "fried-egg",
+   "aliases": {
+    "en": [
+     "souffle omelette",
+     "sweet souffle omelette",
+     "fluffy sweet omelette with lemon",
+     "omelette souffle"
+    ],
+    "de": [
+     "schaumomelett",
+     "schaumomelette gesüßt",
+     "süßes schaumomelett",
+     "schaumeierkuchen",
+     "omelette soufflée",
+     "souffle omelett"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "egg",
+     "grams": 120,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 12,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lemon juice",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:F601600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "powdered sugar",
+     "grams": 5,
+     "resolved": {
+      "id": "usda:2710259",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "omelette souffle with vegetables",
+   "names": {
+    "en": "Soufflé omelette with vegetables",
+    "de": "Schaumomelett mit Gemüse"
+   },
+   "serving": {
+    "label": {
+     "en": "1 omelette",
+     "de": "1 Omelett"
+    },
+    "count": 1
+   },
+   "artworkID": "fried-egg",
+   "aliases": {
+    "en": [
+     "vegetable souffle omelette",
+     "souffle omelette with vegetables",
+     "fluffy vegetable omelette"
+    ],
+    "de": [
+     "schaumomelette mit gemüse",
+     "gemüse-schaumomelett",
+     "schaumomelett gemüse",
+     "luftiges gemüseomelett"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "egg",
+     "grams": 120,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 16,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked mixed vegetables",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:G090132",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "omelette with potatoes and ham",
+   "names": {
+    "en": "Omelette with potatoes and ham",
+    "de": "Omelett mit Kartoffeln und Schinken"
+   },
+   "serving": {
+    "label": {
+     "en": "1 omelette",
+     "de": "1 Omelett"
+    },
+    "count": 1
+   },
+   "artworkID": "fried-egg",
+   "aliases": {
+    "en": [
+     "potato and ham omelette",
+     "ham and potato omelet",
+     "farmer omelette"
+    ],
+    "de": [
+     "bauernomelett",
+     "kartoffelomelett mit schinken",
+     "omelett mit kartoffeln und kochschinken",
+     "schinken-kartoffel-omelett"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "egg",
+     "grams": 110,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "boiled potatoes",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked ham",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:W424000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 5,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "eggs",
+   "skip": "plain boiled eggs, a single food (boiled egg)"
+  },
+  {
+   "key": "eggs salted",
+   "skip": "plain boiled eggs, a single food (boiled egg)"
+  },
+  {
+   "key": "russian eggs",
+   "names": {
+    "en": "Russian eggs",
+    "de": "Russische Eier"
+   },
+   "serving": {
+    "label": {
+     "en": "2 eggs",
+     "de": "2 Eier"
+    },
+    "count": 2
+   },
+   "artworkID": "egg",
+   "aliases": {
+    "en": [
+     "oeufs a la russe",
+     "eggs russian style",
+     "russian style eggs with mayonnaise"
+    ],
+    "de": [
+     "eier russisch",
+     "russische eier mit mayonnaise",
+     "eier auf russische art",
+     "russiche eier"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "boiled egg",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:E111132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "mayonnaise",
+     "grams": 30,
+     "resolved": {
+      "id": "usda:2710204",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "pickles",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2710078",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "capers",
+     "grams": 3,
+     "resolved": {
+      "id": "bls:G012902",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "egg custard with herbs diced",
+   "skip": "a soup garnish (Eierstich), not logged as a dish"
+  },
+  {
+   "key": "quark dumplings",
+   "names": {
+    "en": "Quark dumplings with cinnamon sugar",
+    "de": "Quarkklöße mit Zimt und Zucker"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "dumpling",
+   "aliases": {
+    "en": [
+     "quark dumplings",
+     "sweet quark dumplings",
+     "topfenknoedel",
+     "curd cheese dumplings"
+    ],
+    "de": [
+     "quarkklöße",
+     "topfenknödel",
+     "quarkknödel",
+     "quarkkloesse",
+     "quarkklösse mit zimt und zucker"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "low-fat quark",
+     "grams": 125,
+     "resolved": {
+      "id": "bls:M713100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 25,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "semolina",
+     "grams": 25,
+     "resolved": {
+      "id": "cofid:11-903",
+      "via": "verified"
+     }
+    },
+    {
+     "name": "wheat flour",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "breadcrumbs",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:B821000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "quark min 40 fat in dry matter with chives",
+   "skip": "a quark dip/spread on its own"
+  },
+  {
+   "key": "potatoes with herb quark and butter",
+   "names": {
+    "en": "Potatoes with herb quark",
+    "de": "Pellkartoffeln mit Kräuterquark"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "potato",
+   "aliases": {
+    "en": [
+     "jacket potatoes with herb quark",
+     "boiled potatoes with quark and butter",
+     "potatoes with quark"
+    ],
+    "de": [
+     "kartoffeln mit quark",
+     "pellkartoffeln mit quark",
+     "kartoffeln mit kräuterquark und butter",
+     "quark mit pellkartoffeln",
+     "kartoffeln mit quark und leinöl"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "boiled potatoes in their skins",
+     "grams": 250,
+     "resolved": {
+      "id": "bls:K120134",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "low-fat quark",
+     "grams": 125,
+     "resolved": {
+      "id": "bls:M713100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "chives",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:G081100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "quark 10 fat in dry matter with herbs",
+   "skip": "a quark dip/spread on its own"
+  },
+  {
+   "key": "rolls with tilsit cheese and sour cream",
+   "names": {
+    "en": "Cheese-topped rolls with Tilsit",
+    "de": "Überbackene Brötchen mit Tilsiter"
+   },
+   "serving": {
+    "label": {
+     "en": "1 roll",
+     "de": "1 Brötchen"
+    },
+    "count": 1
+   },
+   "artworkID": "bread",
+   "aliases": {
+    "en": [
+     "cheese gratinated rolls",
+     "baked rolls with tilsit cheese",
+     "tilsit cheese rolls"
+    ],
+    "de": [
+     "brötchen mit tilsiter überbacken",
+     "überbackene brötchen",
+     "käsebrötchen überbacken",
+     "tilsiter brötchen mit saurer sahne"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "bread roll",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:B511000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tilsit cheese",
+     "grams": 40,
+     "reference": "bls:M403600"
+    },
+    {
+     "name": "sour cream",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2705614",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "cheese slices breaded",
+   "names": {
+    "en": "Breaded cheese schnitzel",
+    "de": "Käseschnitzel paniert"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "cheese",
+   "aliases": {
+    "en": [
+     "breaded cheese slices",
+     "fried breaded cheese",
+     "cheese schnitzel"
+    ],
+    "de": [
+     "käsescheiben paniert",
+     "käseschnitzel",
+     "panierter käse",
+     "gebackener käse",
+     "emmentaler paniert"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "emmental",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:M304600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "breadcrumbs",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:B821000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "wheat flour",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 12,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "cheese pudding in bain marie",
+   "names": {
+    "en": "Cheese pudding",
+    "de": "Käsepudding"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "cheese",
+   "aliases": {
+    "en": [
+     "steamed cheese pudding",
+     "cheese pudding in water bath",
+     "savoury cheese pudding"
+    ],
+    "de": [
+     "käsepudding im wasserbad",
+     "käse pudding",
+     "kaesepudding",
+     "herzhafter käsepudding"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "bread roll",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:B511000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 50,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "gouda",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:M402600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "wheat flour",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "camembert cheese breaded",
+   "names": {
+    "en": "Fried breaded Camembert",
+    "de": "Gebackener Camembert"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "cheese",
+   "aliases": {
+    "en": [
+     "breaded camembert",
+     "baked camembert",
+     "deep-fried camembert",
+     "fried camembert"
+    ],
+    "de": [
+     "camembert paniert",
+     "panierter camembert",
+     "camembert gebacken",
+     "backcamembert",
+     "camenbert paniert"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "camembert",
+     "grams": 100,
+     "resolved": {
+      "id": "usda:2705707",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "breadcrumbs",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:B821000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "wheat flour",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "mozzarella cheese breaded",
+   "names": {
+    "en": "Fried breaded mozzarella",
+    "de": "Mozzarella paniert"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "cheese",
+   "aliases": {
+    "en": [
+     "breaded mozzarella",
+     "mozzarella in carrozza",
+     "deep-fried mozzarella",
+     "fried mozzarella"
+    ],
+    "de": [
+     "panierter mozzarella",
+     "gebackener mozzarella",
+     "mozzarella frittiert",
+     "mozarella paniert"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "fresh mozzarella",
+     "grams": 125,
+     "resolved": {
+      "id": "ciqual:19590",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "breadcrumbs",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:B821000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "wheat flour",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "olive oil",
+     "grams": 12,
+     "resolved": {
+      "id": "bls:Q120000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "cheese souffle",
+   "names": {
+    "en": "Cheese soufflé",
+    "de": "Käsesoufflé"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "cheese",
+   "aliases": {
+    "en": [
+     "cheese souffle",
+     "souffle au fromage",
+     "baked cheese souffle"
+    ],
+    "de": [
+     "käsesoufflee",
+     "käse soufflé",
+     "kaesesouffle",
+     "käseauflauf soufflé"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "butter",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "wheat flour",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "heavy cream",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:M173800",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 100,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "gruyère",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:M305700",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "cheese white bread casserole",
+   "names": {
+    "en": "Cheese and bread bake",
+    "de": "Käse-Weißbrot-Auflauf"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "cheese",
+   "aliases": {
+    "en": [
+     "cheese bread casserole",
+     "cheese strata",
+     "bread and cheese bake"
+    ],
+    "de": [
+     "käse weißbrot auflauf",
+     "brotauflauf mit käse",
+     "käse-brot-auflauf",
+     "weißbrotauflauf mit käse"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "white bread",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:B311000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "gouda",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:M402600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 50,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "herb butter",
+   "skip": "a seasoned butter on its own, not a dish"
+  },
+  {
+   "key": "horseradish butter",
+   "skip": "a seasoned butter on its own, not a dish"
+  },
+  {
+   "key": "mustard butter",
+   "skip": "a seasoned butter on its own, not a dish"
+  },
+  {
+   "key": "souffle with smoked trout",
+   "names": {
+    "en": "Smoked trout soufflé",
+    "de": "Soufflé mit Räucherforelle"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "fish",
+   "aliases": {
+    "en": [
+     "smoked trout souffle",
+     "trout souffle",
+     "souffle with smoked trout"
+    ],
+    "de": [
+     "räucherforellen-soufflé",
+     "souffle mit räucherforelle",
+     "forellensoufflé",
+     "raeucherforelle souffle"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "smoked trout",
+     "grams": 60,
+     "reference": "bls:T422600"
+    },
+    {
+     "name": "egg",
+     "grams": 80,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "heavy cream",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:M173800",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "wheat flour",
+     "grams": 12,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    }
+   ]
+  }
+ ]
+}

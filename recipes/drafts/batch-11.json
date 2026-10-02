@@ -1,0 +1,6195 @@
+{
+ "batch": 11,
+ "drafted": "2026-10-01",
+ "drafter": "Claude in the Akari Claude Code session",
+ "dishes": [
+  {
+   "key": "rice with onions",
+   "names": {
+    "en": "Rice with fried onions",
+    "de": "Reis mit gebratenen Zwiebeln"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "rice",
+   "aliases": {
+    "en": [
+     "rice with onions",
+     "onion rice",
+     "fried onion rice",
+     "rice with fried onion"
+    ],
+    "de": [
+     "zwiebelreis",
+     "reis mit zwiebeln",
+     "reis mit röstzwiebeln",
+     "reis mit gebratener zwiebel"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked white rice",
+     "grams": 220,
+     "resolved": {
+      "id": "bls:C352032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 70,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 4,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "rice with vegetables and ham",
+   "names": {
+    "en": "Rice with vegetables and ham",
+    "de": "Reis mit Gemüse und Kochschinken"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "rice",
+   "aliases": {
+    "en": [
+     "ham and vegetable rice",
+     "rice with ham and vegetables",
+     "vegetable rice with ham"
+    ],
+    "de": [
+     "reis mit gemüse und schinken",
+     "gemüsereis mit schinken",
+     "schinkenreis mit gemüse",
+     "reis mit kochschinken und gemüse"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked white rice",
+     "grams": 220,
+     "resolved": {
+      "id": "bls:C352032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked mixed vegetables",
+     "grams": 130,
+     "resolved": {
+      "id": "bls:G090132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked ham",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:W424000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "risi pisi",
+   "names": {
+    "en": "Risi e bisi",
+    "de": "Risi-Pisi"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "rice",
+   "aliases": {
+    "en": [
+     "risi pisi",
+     "risi bisi",
+     "rice and peas",
+     "rice with peas"
+    ],
+    "de": [
+     "risi bisi",
+     "risipisi",
+     "reis mit erbsen",
+     "erbsenreis",
+     "risi e bisi"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked white rice",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:C352032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "green peas",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:G760132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "green spelt risotto with button mushrooms",
+   "names": {
+    "en": "Green spelt risotto with mushrooms",
+    "de": "Grünkernrisotto mit Champignons"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "mushroom",
+   "aliases": {
+    "en": [
+     "green spelt risotto",
+     "spelt risotto with mushrooms",
+     "grünkern risotto",
+     "mushroom green spelt risotto"
+    ],
+    "de": [
+     "grünkernrisotto",
+     "grünkern risotto mit pilzen",
+     "grünkernrisotto mit pilzen",
+     "gruenkernrisotto",
+     "dinkelrisotto mit champignons"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "green spelt whole grain, boiled",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:C311032",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "cooked mushrooms",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:K701172",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "parmesan",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:M306400",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable stock",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:X416243",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "risotto with butter and parmesan cheese",
+   "names": {
+    "en": "Risotto with butter and Parmesan",
+    "de": "Risotto mit Butter und Parmesan"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "rice",
+   "aliases": {
+    "en": [
+     "parmesan risotto",
+     "risotto bianco",
+     "risotto alla parmigiana",
+     "plain risotto",
+     "cheese risotto"
+    ],
+    "de": [
+     "parmesanrisotto",
+     "parmesan risotto",
+     "risotto bianco",
+     "risotto mit parmesan",
+     "käserisotto"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked white rice",
+     "grams": 260,
+     "resolved": {
+      "id": "bls:C352032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "parmesan",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:M306400",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "white wine",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2710689",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable stock",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:X416243",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "risotto with vegetables",
+   "names": {
+    "en": "Vegetable risotto",
+    "de": "Gemüserisotto"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "rice",
+   "aliases": {
+    "en": [
+     "risotto with vegetables",
+     "veggie risotto",
+     "risotto primavera",
+     "vegetable risoto"
+    ],
+    "de": [
+     "risotto mit gemüse",
+     "gemüse risotto",
+     "risotto primavera",
+     "gemüserisoto",
+     "vegetarisches risotto"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked white rice",
+     "grams": 230,
+     "resolved": {
+      "id": "bls:C352032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "zucchini",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:G582100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "carrot",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "green peas",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G760132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "parmesan",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:M306400",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable stock",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:X416243",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "risotto with ham",
+   "names": {
+    "en": "Ham risotto",
+    "de": "Schinkenrisotto"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "rice",
+   "aliases": {
+    "en": [
+     "risotto with ham",
+     "ham and pea risotto",
+     "risotto al prosciutto cotto",
+     "ham risoto"
+    ],
+    "de": [
+     "risotto mit schinken",
+     "schinken risotto",
+     "risotto mit kochschinken",
+     "schinkenrisoto"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked white rice",
+     "grams": 230,
+     "resolved": {
+      "id": "bls:C352032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked ham",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:W424000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "green peas",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G760132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "parmesan",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:M306400",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable stock",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:X416243",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "reisrand",
+   "skip": "a moulded ring of buttered rice, a single food"
+  },
+  {
+   "key": "rice croquettes with parmesan cheese",
+   "names": {
+    "en": "Rice croquettes with Parmesan",
+    "de": "Reiskroketten mit Parmesan"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "rice-ball",
+   "aliases": {
+    "en": [
+     "rice croquettes",
+     "parmesan rice croquettes",
+     "fried rice balls",
+     "rice cakes with parmesan"
+    ],
+    "de": [
+     "reiskroketten",
+     "reis kroketten",
+     "reisbällchen mit parmesan",
+     "parmesan reiskroketten",
+     "reiskrokette"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked white rice",
+     "grams": 130,
+     "resolved": {
+      "id": "bls:C352032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 25,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "parmesan",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:M306400",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "breadcrumbs",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:B821000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "rice casserole with carrots peas and mushrooms",
+   "names": {
+    "en": "Rice bake with carrots, peas and mushrooms",
+    "de": "Reisauflauf mit Karotten, Erbsen und Pilzen"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "rice",
+   "aliases": {
+    "en": [
+     "vegetable rice bake",
+     "rice casserole with vegetables",
+     "rice bake with mushrooms",
+     "rice casserole with carrots peas and mushrooms"
+    ],
+    "de": [
+     "gemüse reisauflauf",
+     "reisauflauf mit gemüse",
+     "reisauflauf mit pilzen",
+     "reisauflauf mit möhren und erbsen",
+     "reisauflauf herzhaft"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked white rice",
+     "grams": 180,
+     "resolved": {
+      "id": "bls:C352032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked carrot",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:G620132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "green peas",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:G760132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked mushrooms",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:K701172",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 50,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "gouda",
+     "grams": 35,
+     "resolved": {
+      "id": "bls:M402600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "rice casserole sweetened with apple",
+   "names": {
+    "en": "Sweet rice bake with apple",
+    "de": "Süßer Reisauflauf mit Apfel"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "rice",
+   "aliases": {
+    "en": [
+     "apple rice bake",
+     "rice pudding bake with apple",
+     "sweet rice casserole with apple",
+     "baked rice pudding with apple"
+    ],
+    "de": [
+     "reisauflauf mit apfel",
+     "apfel reisauflauf",
+     "milchreisauflauf mit äpfeln",
+     "süßer reisauflauf mit äpfeln",
+     "reisauflauf süß mit apfel"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "whole milk",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "white rice raw",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:C352000",
+      "via": "verified"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 50,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "apple",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:F110100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "rice casserole sweetened",
+   "names": {
+    "en": "Sweet rice bake",
+    "de": "Süßer Reisauflauf"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "rice",
+   "aliases": {
+    "en": [
+     "sweet rice casserole",
+     "baked rice pudding",
+     "rice pudding bake",
+     "sweet rice bake with raisins"
+    ],
+    "de": [
+     "reisauflauf süß",
+     "milchreisauflauf",
+     "süsser reisauflauf",
+     "reisauflauf mit rosinen",
+     "gebackener milchreis"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "whole milk",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "white rice raw",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:C352000",
+      "via": "verified"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 50,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "raisins",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2709212",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "rice casserole with ham and cheese",
+   "names": {
+    "en": "Rice bake with ham and cheese",
+    "de": "Reisauflauf mit Schinken und Käse"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "rice",
+   "aliases": {
+    "en": [
+     "ham and cheese rice bake",
+     "rice casserole with ham and cheese",
+     "cheesy ham rice bake"
+    ],
+    "de": [
+     "reisauflauf mit kochschinken und käse",
+     "schinken käse reisauflauf",
+     "reisauflauf mit schinken",
+     "überbackener reis mit schinken"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked white rice",
+     "grams": 180,
+     "resolved": {
+      "id": "bls:C352032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked ham",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:W424000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "gouda",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:M402600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 50,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "rice with chanterelles",
+   "names": {
+    "en": "Rice with chanterelles",
+    "de": "Reis mit Pfifferlingen"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "mushroom",
+   "aliases": {
+    "en": [
+     "chanterelle rice",
+     "rice with chanterelle mushrooms",
+     "chanterelle risotto rice"
+    ],
+    "de": [
+     "pfifferlingreis",
+     "reis mit pfifferlingen und zwiebeln",
+     "pfifferling reis",
+     "reis mit pfiffis"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked white rice",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:C352032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "chanterelle stewed",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:K713152",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "parsley",
+     "grams": 5,
+     "resolved": {
+      "id": "usda:2709796",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "rice with root vegetables and cheese",
+   "names": {
+    "en": "Vegetable rice with root vegetables and cheese",
+    "de": "Gemüsereis mit Wurzelgemüse und Käse"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "rice",
+   "aliases": {
+    "en": [
+     "root vegetable rice with cheese",
+     "rice with root vegetables and cheese",
+     "cheesy vegetable rice"
+    ],
+    "de": [
+     "gemüsereis mit käse",
+     "reis mit wurzelgemüse und käse",
+     "wurzelgemüsereis",
+     "gemüsereis mit wurzelgemüse"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked white rice",
+     "grams": 180,
+     "resolved": {
+      "id": "bls:C352032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked carrot",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:G620132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked parsnip",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G640132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "celeriac",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G660100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "leek",
+     "grams": 30,
+     "resolved": {
+      "id": "ciqual:20039",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "gouda",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:M402600",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "curried rice with almonds",
+   "names": {
+    "en": "Curried rice with almonds",
+    "de": "Curryreis mit Mandeln"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "curry",
+   "aliases": {
+    "en": [
+     "curry rice with almonds",
+     "almond curry rice",
+     "curried rice with nuts"
+    ],
+    "de": [
+     "curry reis mit mandeln",
+     "mandel curryreis",
+     "currryreis mit mandeln",
+     "reis mit curry und mandeln"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked white rice",
+     "grams": 220,
+     "resolved": {
+      "id": "bls:C352032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "curry powder",
+     "grams": 3,
+     "resolved": {
+      "id": "ciqual:11005",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "almonds",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:H210100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "curried rice",
+   "names": {
+    "en": "Curried rice",
+    "de": "Curryreis"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "curry",
+   "aliases": {
+    "en": [
+     "curry rice side",
+     "rice with curry powder",
+     "yellow curry rice",
+     "curried rice side"
+    ],
+    "de": [
+     "curry reis",
+     "reis mit curry",
+     "gelber curryreis",
+     "currryreis"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked white rice",
+     "grams": 230,
+     "resolved": {
+      "id": "bls:C352032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "curry powder",
+     "grams": 3,
+     "resolved": {
+      "id": "ciqual:11005",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "risi pisi with shrimps",
+   "names": {
+    "en": "Risi e bisi with fried shrimp",
+    "de": "Risi-Pisi mit gebratenen Shrimps"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "shrimp",
+   "aliases": {
+    "en": [
+     "rice and peas with shrimp",
+     "risi pisi with prawns",
+     "shrimp risi bisi",
+     "rice with peas and shrimp"
+    ],
+    "de": [
+     "risi pisi mit garnelen",
+     "reis mit erbsen und shrimps",
+     "risi bisi mit shrimps",
+     "erbsenreis mit garnelen"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked white rice",
+     "grams": 180,
+     "resolved": {
+      "id": "bls:C352032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "green peas",
+     "grams": 70,
+     "resolved": {
+      "id": "bls:G760132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked shrimp",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:T753132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 8,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "cheese pilaf",
+   "names": {
+    "en": "Cheese pilaf",
+    "de": "Käsepilaw"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "rice",
+   "aliases": {
+    "en": [
+     "cheese pilau",
+     "rice pilaf with cheese",
+     "cheesy pilaf",
+     "cheese pilav"
+    ],
+    "de": [
+     "käse pilaw",
+     "pilaw mit käse",
+     "käsepilau",
+     "reis mit zwiebeln und käse"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked white rice",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:C352032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "emmental",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:M304600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "beef stock",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:Y183013",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "pilaf",
+   "names": {
+    "en": "Rice pilaf",
+    "de": "Pilaw"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "rice",
+   "aliases": {
+    "en": [
+     "pilaf",
+     "pilau rice",
+     "pilav",
+     "rice pilaf with onion and butter",
+     "pulao"
+    ],
+    "de": [
+     "pilaw reis",
+     "pilau",
+     "pilav",
+     "reispilaw",
+     "pilafreis"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked white rice",
+     "grams": 220,
+     "resolved": {
+      "id": "bls:C352032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable stock",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:X416243",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "pilaf serbian with meat",
+   "names": {
+    "en": "Serbian rice with pork",
+    "de": "Serbisches Reisfleisch"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "rice",
+   "aliases": {
+    "en": [
+     "serbian reisfleisch",
+     "serbian pilaf with meat",
+     "rice with pork and paprika",
+     "reisfleisch"
+    ],
+    "de": [
+     "reisfleisch",
+     "serbisches reisfleisch mit schweinefleisch",
+     "pilaw serbisches reisfleisch",
+     "reis fleisch",
+     "srpski pilav"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked white rice",
+     "grams": 180,
+     "resolved": {
+      "id": "bls:C352032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "roast pork",
+     "grams": 90,
+     "resolved": {
+      "id": "bls:Y352212",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked pork belly",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:U57A172",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "red bell pepper",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:G543100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato paste",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:R160000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "paprika",
+     "grams": 3,
+     "resolved": {
+      "id": "ciqual:11049",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "paella",
+   "names": {
+    "en": "Seafood and chicken paella",
+    "de": "Paella mit Meeresfrüchten und Huhn"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "paella",
+   "aliases": {
+    "en": [
+     "paella",
+     "paella mixta",
+     "mixed paella",
+     "paella valenciana",
+     "spanish paella",
+     "paela"
+    ],
+    "de": [
+     "paella",
+     "paella mixta",
+     "spanische paella",
+     "paella mit huhn und meeresfrüchten",
+     "paela"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked white rice",
+     "grams": 170,
+     "resolved": {
+      "id": "bls:C352032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked chicken thigh",
+     "grams": 60,
+     "resolved": {
+      "id": "usda:2706044",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked shrimp",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:T753132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked mussels",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:T792132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked squid",
+     "grams": 40,
+     "resolved": {
+      "id": "usda:2706333",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "green peas",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G760132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "red bell pepper",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G543100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G561100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "olive oil",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:Q120000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "bami goreng",
+   "names": {
+    "en": "Bami goreng",
+    "de": "Bami Goreng"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "noodles",
+   "aliases": {
+    "en": [
+     "bakmi goreng",
+     "indonesian fried noodles",
+     "bami goreng with chicken",
+     "bahmi goreng"
+    ],
+    "de": [
+     "bahmi goreng",
+     "bami goreng mit huhn",
+     "indonesische gebratene nudeln",
+     "bakmi goreng",
+     "bami goreng mit hähnchen"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked egg noodles",
+     "grams": 220,
+     "resolved": {
+      "id": "bls:E432032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "pan-fried chicken breast",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:Y562032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "napa cabbage",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:G321100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "carrot",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "bean sprouts",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:H650100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "spring onion",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G482100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "soy sauce",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:R143000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "rice flakes porridge unsweetened with water apple juice and rapeseed oil",
+   "skip": "baby food (a weaning porridge)"
+  },
+  {
+   "key": "liver risotto",
+   "names": {
+    "en": "Liver risotto",
+    "de": "Leberrisotto"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "rice",
+   "aliases": {
+    "en": [
+     "liver rice",
+     "risotto with liver",
+     "rice with liver",
+     "pork liver risotto"
+    ],
+    "de": [
+     "leberreis",
+     "leberrisotto mit schweineleber",
+     "risotto mit leber",
+     "reis mit leber",
+     "leber risotto"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked white rice",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:C352032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "pork liver, fried without fat (pan)",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:V533182",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "parmesan",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:M306400",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "rice pudding sweetened with rice drink",
+   "names": {
+    "en": "Rice pudding with rice milk",
+    "de": "Milchreis mit Reisdrink"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "rice",
+   "aliases": {
+    "en": [
+     "vegan rice pudding with rice milk",
+     "rice pudding with rice drink",
+     "dairy-free rice pudding"
+    ],
+    "de": [
+     "milchreis mit reismilch",
+     "veganer milchreis mit reisdrink",
+     "reispudding mit reisdrink",
+     "milchreis vegan reisdrink"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "white rice raw",
+     "grams": 70,
+     "resolved": {
+      "id": "bls:C352000",
+      "via": "verified"
+     }
+    },
+    {
+     "name": "rice drink unsweetened",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:C650000",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "rice pudding sweetened with soya drink",
+   "names": {
+    "en": "Rice pudding with soy milk",
+    "de": "Milchreis mit Sojadrink"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "rice",
+   "aliases": {
+    "en": [
+     "vegan rice pudding with soy milk",
+     "rice pudding with soya drink",
+     "soy milk rice pudding"
+    ],
+    "de": [
+     "milchreis mit sojamilch",
+     "veganer milchreis mit sojadrink",
+     "milchreis mit soja",
+     "milchreis vegan sojadrink"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "white rice raw",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:C352000",
+      "via": "verified"
+     }
+    },
+    {
+     "name": "soy milk",
+     "grams": 250,
+     "resolved": {
+      "id": "usda:2705405",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "rice pudding sweetened with almond drink",
+   "names": {
+    "en": "Rice pudding with almond milk",
+    "de": "Milchreis mit Mandeldrink"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "rice",
+   "aliases": {
+    "en": [
+     "vegan rice pudding with almond milk",
+     "rice pudding with almond drink",
+     "almond milk rice pudding"
+    ],
+    "de": [
+     "milchreis mit mandelmilch",
+     "veganer milchreis mit mandeldrink",
+     "mandelmilch milchreis",
+     "milchreis vegan mandeldrink"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "white rice raw",
+     "grams": 70,
+     "resolved": {
+      "id": "bls:C352000",
+      "via": "verified"
+     }
+    },
+    {
+     "name": "almond milk",
+     "grams": 220,
+     "resolved": {
+      "id": "bls:H800000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "rice casserole with asparagus and cheese",
+   "names": {
+    "en": "Rice bake with asparagus and cheese",
+    "de": "Reisauflauf mit Spargel und Käse"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "rice",
+   "aliases": {
+    "en": [
+     "asparagus rice bake",
+     "rice casserole with asparagus",
+     "cheesy asparagus rice bake"
+    ],
+    "de": [
+     "spargel reisauflauf",
+     "reisauflauf mit spargel",
+     "spargelreisauflauf mit käse",
+     "überbackener reis mit spargel"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked white rice",
+     "grams": 180,
+     "resolved": {
+      "id": "bls:C352032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked asparagus",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:G450132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "gouda",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:M402600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 50,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "asparagus risotto",
+   "names": {
+    "en": "Asparagus risotto",
+    "de": "Spargelrisotto"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "rice",
+   "aliases": {
+    "en": [
+     "risotto with asparagus",
+     "risotto agli asparagi",
+     "green asparagus risotto",
+     "asparagus risoto"
+    ],
+    "de": [
+     "risotto mit spargel",
+     "grüner spargel risotto",
+     "spargel risotto",
+     "spargelrisoto"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked white rice",
+     "grams": 230,
+     "resolved": {
+      "id": "bls:C352032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked asparagus",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:G450132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "parmesan",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:M306400",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "white wine",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2710689",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable stock",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:X416243",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "sushi vegan filled with vegetables",
+   "names": {
+    "en": "Vegan vegetable sushi",
+    "de": "Veganes Gemüse-Sushi"
+   },
+   "serving": {
+    "label": {
+     "en": "8 pieces",
+     "de": "8 Stück"
+    },
+    "count": 8
+   },
+   "artworkID": "sushi",
+   "aliases": {
+    "en": [
+     "vegan sushi",
+     "vegetable sushi",
+     "veggie sushi",
+     "vegetable maki",
+     "avocado cucumber maki"
+    ],
+    "de": [
+     "veganes sushi",
+     "gemüse sushi",
+     "vegetarisches sushi",
+     "sushi vegan mit gemüse",
+     "gemüse maki"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "sushi rice",
+     "grams": 180,
+     "resolved": {
+      "id": "bls:X8A1100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "nori",
+     "grams": 3,
+     "resolved": {
+      "id": "bls:G995000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cucumber",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G520100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "avocado",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:F502100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "carrot",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "soy sauce",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:R143000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "pickled ginger",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:R912000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "sushi rice",
+   "skip": "a single food (seasoned sushi rice is already an ingredient)"
+  },
+  {
+   "key": "onion cake swabian with bacon",
+   "names": {
+    "en": "Swabian onion tart with bacon",
+    "de": "Schwäbischer Zwiebelkuchen mit Speck"
+   },
+   "serving": {
+    "label": {
+     "en": "1 slice",
+     "de": "1 Stück"
+    },
+    "count": 1
+   },
+   "artworkID": "pie",
+   "aliases": {
+    "en": [
+     "onion tart with bacon",
+     "zwiebelkuchen",
+     "german onion cake",
+     "swabian onion cake",
+     "onion pie with bacon"
+    ],
+    "de": [
+     "zwiebelkuchen mit speck",
+     "zwiebelkuchen schwäbisch",
+     "schwäbischer zwiebelkuchen",
+     "zwiebelkuchen",
+     "zwiebelkuche"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "pizza dough",
+     "grams": 90,
+     "resolved": {
+      "id": "bls:X9A6030",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "smoked streaky bacon",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:W411300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sour cream",
+     "grams": 50,
+     "resolved": {
+      "id": "usda:2705614",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 30,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "puff pastry pockets filled with spinach sheep s milk cheese and pine nuts",
+   "names": {
+    "en": "Puff pastry pockets with spinach, feta and pine nuts",
+    "de": "Blätterteigtaschen mit Spinat, Schafskäse und Pinienkernen"
+   },
+   "serving": {
+    "label": {
+     "en": "2 pockets",
+     "de": "2 Taschen"
+    },
+    "count": 2
+   },
+   "artworkID": "pie",
+   "aliases": {
+    "en": [
+     "spinach feta puff pastry",
+     "spinach and feta parcels",
+     "spinach puff pastry pockets",
+     "spanakopita style pockets",
+     "spinach feta turnovers"
+    ],
+    "de": [
+     "blätterteigtaschen mit spinat und feta",
+     "spinat feta taschen",
+     "blätterteigtaschen spinat schafskäse",
+     "spinattaschen",
+     "blätterteig mit spinat und schafskäse"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "puff pastry",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:D072000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked spinach",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:G210132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "feta",
+     "grams": 30,
+     "resolved": {
+      "id": "usda:2705714",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "pine nuts",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:H320100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "spring rolls filled with vegetables and pork",
+   "names": {
+    "en": "Pork spring rolls",
+    "de": "Frühlingsrollen mit Schweinefleisch"
+   },
+   "serving": {
+    "label": {
+     "en": "3 spring rolls",
+     "de": "3 Frühlingsrollen"
+    },
+    "count": 3
+   },
+   "artworkID": "dumpling",
+   "aliases": {
+    "en": [
+     "spring rolls with pork",
+     "pork and vegetable spring rolls",
+     "fried spring rolls with pork",
+     "egg rolls with pork"
+    ],
+    "de": [
+     "frühlingsrollen mit gemüse und schweinefleisch",
+     "frühlingsrolle mit fleisch",
+     "fruehlingsrollen schwein",
+     "frühlingsrollen mit hackfleisch"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "spring roll wrappers, fried",
+     "grams": 60,
+     "resolved": {
+      "id": "mext:01180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "white cabbage",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:G342100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "carrot",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "bean sprouts",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:H650100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked ground pork",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:U020182",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked glass noodles",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:H030432",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 4,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "soy sauce",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:R143000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "spring rolls filled with vegetables pork and shrimps",
+   "names": {
+    "en": "Spring rolls with pork and shrimp",
+    "de": "Frühlingsrollen mit Schweinefleisch und Garnelen"
+   },
+   "serving": {
+    "label": {
+     "en": "3 spring rolls",
+     "de": "3 Frühlingsrollen"
+    },
+    "count": 3
+   },
+   "artworkID": "dumpling",
+   "aliases": {
+    "en": [
+     "pork and shrimp spring rolls",
+     "spring rolls with pork and prawns",
+     "shrimp spring rolls",
+     "fried spring rolls with shrimp"
+    ],
+    "de": [
+     "frühlingsrollen mit krabben",
+     "frühlingsrollen mit gemüse schweinefleisch und krabben",
+     "frühlingsrollen mit garnelen",
+     "fruehlingsrollen mit shrimps"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "spring roll wrappers, fried",
+     "grams": 60,
+     "resolved": {
+      "id": "mext:01180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "white cabbage",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G342100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "carrot",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "bean sprouts",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:H650100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked ground pork",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:U020182",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked shrimp",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:T753132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked glass noodles",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:H030432",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 6,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "soy sauce",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:R143000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "pancakes unsweetened with milk 1 5 fat",
+   "skip": "duplicate of the German pancake (Pfannkuchen) recipe already in the catalogue"
+  },
+  {
+   "key": "onion cake without bacon",
+   "names": {
+    "en": "Onion tart without bacon",
+    "de": "Zwiebelkuchen ohne Speck"
+   },
+   "serving": {
+    "label": {
+     "en": "1 slice",
+     "de": "1 Stück"
+    },
+    "count": 1
+   },
+   "artworkID": "pie",
+   "aliases": {
+    "en": [
+     "vegetarian onion tart",
+     "onion cake without bacon",
+     "vegetarian zwiebelkuchen",
+     "meatless onion pie"
+    ],
+    "de": [
+     "vegetarischer zwiebelkuchen",
+     "zwiebelkuchen vegetarisch",
+     "zwiebelkuchen ohne fleisch",
+     "zwiebelkuche ohne speck"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "pizza dough",
+     "grams": 90,
+     "resolved": {
+      "id": "bls:X9A6030",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 160,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sour cream",
+     "grams": 50,
+     "resolved": {
+      "id": "usda:2705614",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 30,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "wholemeal pancakes unsweetened with milk 3 5 fat",
+   "names": {
+    "en": "Wholemeal pancakes",
+    "de": "Vollkornpfannkuchen"
+   },
+   "serving": {
+    "label": {
+     "en": "2 pancakes",
+     "de": "2 Pfannkuchen"
+    },
+    "count": 2
+   },
+   "artworkID": "pancakes",
+   "aliases": {
+    "en": [
+     "whole wheat pancakes",
+     "wholegrain pancakes",
+     "wholemeal crepes",
+     "whole wheat crepes"
+    ],
+    "de": [
+     "vollkorn pfannkuchen",
+     "vollkorneierkuchen",
+     "dinkel vollkorn pfannkuchen",
+     "vollkornpfannkuchen ungesüßt",
+     "vollkorn eierkuchen"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "wholemeal flour",
+     "grams": 60,
+     "resolved": {
+      "id": "cofid:11-889",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 50,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 14,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "pancakes unsweetened with milk 3 5 fat",
+   "skip": "duplicate of the German pancake (Pfannkuchen) recipe already in the catalogue"
+  },
+  {
+   "key": "quark pancakes unsweetened",
+   "names": {
+    "en": "Quark pancakes",
+    "de": "Quarkpfannkuchen"
+   },
+   "serving": {
+    "label": {
+     "en": "2 pancakes",
+     "de": "2 Pfannkuchen"
+    },
+    "count": 2
+   },
+   "artworkID": "pancakes",
+   "aliases": {
+    "en": [
+     "curd cheese pancakes",
+     "quark pancakes unsweetened",
+     "savoury quark pancakes",
+     "cottage cheese pancakes"
+    ],
+    "de": [
+     "quark pfannkuchen",
+     "quarkeierkuchen",
+     "quarkplinsen",
+     "pfannkuchen mit quark",
+     "quarkpfannkuchen ungesüßt"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "low-fat quark",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:M713100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "wheat flour",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 50,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 12,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "bacon pancakes",
+   "names": {
+    "en": "Bacon pancakes",
+    "de": "Speckpfannkuchen"
+   },
+   "serving": {
+    "label": {
+     "en": "2 pancakes",
+     "de": "2 Pfannkuchen"
+    },
+    "count": 2
+   },
+   "artworkID": "pancakes",
+   "aliases": {
+    "en": [
+     "pancakes with bacon",
+     "german bacon pancake",
+     "bacon crepes",
+     "speckpfannkuchen"
+    ],
+    "de": [
+     "speck pfannkuchen",
+     "pfannkuchen mit speck",
+     "speckeierkuchen",
+     "eierkuchen mit speck",
+     "pannekoeken met spek"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "wheat flour",
+     "grams": 70,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 60,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked bacon",
+     "grams": 35,
+     "resolved": {
+      "id": "usda:2705889",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "pancakes made from buckwheat flour unsweetened",
+   "names": {
+    "en": "Buckwheat pancakes",
+    "de": "Buchweizenpfannkuchen"
+   },
+   "serving": {
+    "label": {
+     "en": "2 pancakes",
+     "de": "2 Pfannkuchen"
+    },
+    "count": 2
+   },
+   "artworkID": "pancakes",
+   "aliases": {
+    "en": [
+     "buckwheat crepes",
+     "galettes",
+     "buckwheat galettes",
+     "buckweat pancakes"
+    ],
+    "de": [
+     "buchweizen pfannkuchen",
+     "buchweizencrêpes",
+     "buchweizen galettes",
+     "buchweizenpfannkuchen ungesüßt",
+     "buchweizeneierkuchen"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "buckwheat flour",
+     "grams": 60,
+     "reference": "bls:C424000"
+    },
+    {
+     "name": "whole milk",
+     "grams": 90,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 50,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 12,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "pancakes filled with mushrooms and sour cream",
+   "names": {
+    "en": "Pancakes filled with mushrooms and sour cream",
+    "de": "Pfannkuchen mit Pilzen und saurer Sahne"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "pancakes",
+   "aliases": {
+    "en": [
+     "mushroom pancakes",
+     "mushroom crepes",
+     "pancakes with mushroom filling",
+     "savoury mushroom pancakes"
+    ],
+    "de": [
+     "pilzpfannkuchen",
+     "pfannkuchen mit pilzfüllung",
+     "eierkuchen mit pilzen",
+     "champignon pfannkuchen",
+     "pfannkuchen gefüllt mit pilzen"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "wheat flour",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 50,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked mushrooms",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:K701172",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sour cream",
+     "grams": 40,
+     "resolved": {
+      "id": "usda:2705614",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "pancakes filled with cream spinach",
+   "names": {
+    "en": "Pancakes filled with creamed spinach",
+    "de": "Pfannkuchen mit Rahmspinat"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "pancakes",
+   "aliases": {
+    "en": [
+     "spinach pancakes",
+     "spinach crepes",
+     "pancakes with creamed spinach",
+     "savoury spinach pancakes"
+    ],
+    "de": [
+     "spinatpfannkuchen",
+     "pfannkuchen mit spinat",
+     "eierkuchen mit rahmspinat",
+     "pfannkuchen gefüllt mit spinat",
+     "spinat eierkuchen"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "wheat flour",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 50,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked spinach",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:G210132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "heavy cream",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:M173800",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "pancakes filled with mixed vegetables",
+   "names": {
+    "en": "Pancakes filled with vegetables",
+    "de": "Pfannkuchen mit Gemüsefüllung"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "pancakes",
+   "aliases": {
+    "en": [
+     "vegetable pancakes",
+     "vegetable crepes",
+     "pancakes with mixed vegetables",
+     "savoury vegetable pancakes"
+    ],
+    "de": [
+     "gemüsepfannkuchen",
+     "pfannkuchen mit gemüse",
+     "eierkuchen mit gemüse",
+     "pfannkuchen gefüllt mit mischgemüse",
+     "gemüse eierkuchen"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "wheat flour",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 50,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked mixed vegetables",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:G090132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "tarte flambee alsatian style",
+   "names": {
+    "en": "Alsatian tarte flambée",
+    "de": "Flammkuchen Elsässer Art"
+   },
+   "serving": {
+    "label": {
+     "en": "1 tart",
+     "de": "1 Flammkuchen"
+    },
+    "count": 1
+   },
+   "artworkID": "pizza",
+   "aliases": {
+    "en": [
+     "tarte flambee",
+     "flammkuchen",
+     "flammekueche",
+     "alsatian flatbread with bacon",
+     "tarte flambée with bacon"
+    ],
+    "de": [
+     "flammkuchen",
+     "elsässer flammkuchen",
+     "flammkuchen klassisch",
+     "flammkuchen mit speck",
+     "flammekueche",
+     "flammenkuchen"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "pizza dough",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:X9A6030",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "crème fraîche",
+     "grams": 40,
+     "resolved": {
+      "id": "cofid:12-335",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "low-fat quark",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:M713100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "smoked streaky bacon",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:W411300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "semolina pudding salted with cheese and parsley",
+   "names": {
+    "en": "Savoury semolina with cheese and parsley",
+    "de": "Herzhafter Grießpudding mit Käse und Petersilie"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "custard",
+   "aliases": {
+    "en": [
+     "savory semolina pudding",
+     "cheese semolina",
+     "semolina with cheese",
+     "savoury semolina pudding with cheese"
+    ],
+    "de": [
+     "grießpudding salzig",
+     "käsegrieß",
+     "grießpudding mit käse",
+     "herzhafter grießbrei mit käse",
+     "griesspudding mit käse"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "soft wheat semolina",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:C218000",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 30,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "emmental",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:M304600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "parsley",
+     "grams": 5,
+     "resolved": {
+      "id": "usda:2709796",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "banana milk with milk 3 5 fat",
+   "names": {
+    "en": "Banana milk",
+    "de": "Bananenmilch"
+   },
+   "serving": {
+    "label": {
+     "en": "1 glass",
+     "de": "1 Glas"
+    },
+    "count": 1
+   },
+   "artworkID": "milk",
+   "aliases": {
+    "en": [
+     "banana milkshake",
+     "banana shake",
+     "banana smoothie with milk",
+     "bananamilk"
+    ],
+    "de": [
+     "bananenmilch mit vollmilch",
+     "bananenshake",
+     "bananen milchshake",
+     "bananen milch",
+     "bananenmilchshake"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "whole milk",
+     "grams": 250,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "banana",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:F503100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "strawberry milk with milk 1 5 fat",
+   "names": {
+    "en": "Strawberry milk",
+    "de": "Erdbeermilch"
+   },
+   "serving": {
+    "label": {
+     "en": "1 glass",
+     "de": "1 Glas"
+    },
+    "count": 1
+   },
+   "artworkID": "milk",
+   "aliases": {
+    "en": [
+     "strawberry milkshake",
+     "strawberry shake",
+     "homemade strawberry milk",
+     "strawberrymilk"
+    ],
+    "de": [
+     "erdbeer milch",
+     "erdbeershake",
+     "erdbeer milchshake",
+     "erdbeermilch selbstgemacht",
+     "erdbeermilchshake"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "low-fat milk",
+     "grams": 250,
+     "resolved": {
+      "id": "bls:M111200",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "strawberries",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:F301100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 8,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "mehlschmarren",
+   "names": {
+    "en": "Mehlschmarren",
+    "de": "Mehlschmarren"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "pancakes",
+   "aliases": {
+    "en": [
+     "flour schmarren",
+     "shredded pancake",
+     "torn pancake",
+     "mehlschmarrn"
+    ],
+    "de": [
+     "mehlschmarrn",
+     "schmarren",
+     "eierschmarren",
+     "mehl schmarren",
+     "schmarrn ohne rosinen"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "wheat flour",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 60,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "powdered sugar",
+     "grams": 5,
+     "resolved": {
+      "id": "usda:2710259",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "mehlpufferchen",
+   "names": {
+    "en": "Flour fritters",
+    "de": "Mehlpüfferchen"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "pancakes",
+   "aliases": {
+    "en": [
+     "small flour pancakes",
+     "mehlpüfferchen",
+     "flour puffers",
+     "mini pancakes"
+    ],
+    "de": [
+     "mehlpuffer",
+     "mehlpüffchen",
+     "mehlpufferchen",
+     "kleine pfannkuchen",
+     "mehlplinsen"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "wheat flour",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 50,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "franconian flour dumplings",
+   "names": {
+    "en": "Franconian flour dumplings",
+    "de": "Fränkische Mehlklöße"
+   },
+   "serving": {
+    "label": {
+     "en": "2 dumplings",
+     "de": "2 Klöße"
+    },
+    "count": 2
+   },
+   "artworkID": "dumpling",
+   "aliases": {
+    "en": [
+     "flour dumplings",
+     "mehlklöße",
+     "franconian dumplings",
+     "flour dumpling"
+    ],
+    "de": [
+     "mehlklöße",
+     "mehlknödel",
+     "fränkische mehlknödel",
+     "mehlkloß",
+     "mehlkloesse"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "wheat flour",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 50,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "semolina porridge sweetened",
+   "names": {
+    "en": "Sweet semolina porridge",
+    "de": "Grießbrei"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "custard",
+   "aliases": {
+    "en": [
+     "semolina pudding",
+     "cream of wheat",
+     "semolina porridge with milk",
+     "sweet semolina"
+    ],
+    "de": [
+     "griessbrei",
+     "grießbrei gesüßt",
+     "grießbrei mit milch",
+     "milchgrieß",
+     "griesbrei"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "whole milk",
+     "grams": 250,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "soft wheat semolina",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:C218000",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 12,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "semolina porridge sweetened with butter and egg",
+   "names": {
+    "en": "Semolina porridge with butter and egg",
+    "de": "Grießbrei mit Butter und Ei"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "custard",
+   "aliases": {
+    "en": [
+     "rich semolina porridge",
+     "semolina pudding with egg",
+     "semolina porridge with egg",
+     "sweet semolina with butter and egg"
+    ],
+    "de": [
+     "grießbrei mit ei",
+     "griessbrei mit butter und ei",
+     "grießbrei gesüßt mit butter und ei",
+     "grießbrei mit butter"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "whole milk",
+     "grams": 250,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "soft wheat semolina",
+     "grams": 35,
+     "resolved": {
+      "id": "bls:C218000",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 25,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "semolina casserole with cheese",
+   "names": {
+    "en": "Semolina bake with cheese",
+    "de": "Grießauflauf mit Käse"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "cheese",
+   "aliases": {
+    "en": [
+     "cheese semolina bake",
+     "semolina casserole with cheese",
+     "savoury semolina bake"
+    ],
+    "de": [
+     "käse grießauflauf",
+     "grießauflauf herzhaft",
+     "griessauflauf mit käse",
+     "grießauflauf mit käse überbacken"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "soft wheat semolina",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:C218000",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 50,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "gouda",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:M402600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "porridge sweetened with butter and egg",
+   "names": {
+    "en": "Oat porridge with butter and egg",
+    "de": "Haferflockenbrei mit Butter und Ei"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "cereal",
+   "aliases": {
+    "en": [
+     "oatmeal with butter and egg",
+     "porridge with egg",
+     "rich oat porridge",
+     "sweet porridge with butter and egg"
+    ],
+    "de": [
+     "haferbrei mit butter und ei",
+     "haferflockenbrei mit ei",
+     "haferflockenbrei gesüßt",
+     "haferschleim mit ei",
+     "porridge mit ei"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "rolled oats",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:C133000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 250,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 25,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "spinach dumplings",
+   "names": {
+    "en": "Spinach dumplings",
+    "de": "Spinatnocken"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "dumpling",
+   "aliases": {
+    "en": [
+     "spinach gnocchi",
+     "spinach knödel",
+     "spinach dumplings with parmesan",
+     "spinatnockerl"
+    ],
+    "de": [
+     "spinatnockerl",
+     "spinatknödel",
+     "spinatnocken mit parmesan",
+     "spinat nocken",
+     "spinatklößchen"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked spinach",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:G210132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "bread roll",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:B511000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 40,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "parmesan",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:M306400",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "butter dumplings",
+   "names": {
+    "en": "Butter dumplings",
+    "de": "Butternockerln"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "dumpling",
+   "aliases": {
+    "en": [
+     "butter dumplings for soup",
+     "butternockerl",
+     "austrian butter dumplings",
+     "soup dumplings"
+    ],
+    "de": [
+     "butternockerl",
+     "butternocken",
+     "butternockerln für suppe",
+     "nockerl",
+     "butterklößchen"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "butter",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 50,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "wheat flour",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "white bread dumplings",
+   "names": {
+    "en": "Bread dumplings",
+    "de": "Semmelknödel"
+   },
+   "serving": {
+    "label": {
+     "en": "2 dumplings",
+     "de": "2 Knödel"
+    },
+    "count": 2
+   },
+   "artworkID": "dumpling",
+   "aliases": {
+    "en": [
+     "bread dumpling",
+     "semmelknödel",
+     "bavarian bread dumplings",
+     "semmel knödel",
+     "semmelknoedel"
+    ],
+    "de": [
+     "semmelknödel",
+     "semmelknoedel",
+     "brezenknödel",
+     "semmel knödel",
+     "semmelklöße"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "bread roll",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:B511000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 50,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "parsley",
+     "grams": 5,
+     "resolved": {
+      "id": "usda:2709796",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "white bread dumpling roll",
+   "names": {
+    "en": "Napkin dumpling",
+    "de": "Serviettenknödel"
+   },
+   "serving": {
+    "label": {
+     "en": "2 slices",
+     "de": "2 Scheiben"
+    },
+    "count": 2
+   },
+   "artworkID": "dumpling",
+   "aliases": {
+    "en": [
+     "serviettenknödel",
+     "bread dumpling roll",
+     "sliced bread dumpling",
+     "napkin dumplings"
+    ],
+    "de": [
+     "serviettenknoedel",
+     "serviettenkloß",
+     "servietten knödel",
+     "semmelknödel aus der serviette"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "bread roll",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:B511000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 60,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "parsley",
+     "grams": 5,
+     "resolved": {
+      "id": "usda:2709796",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "tyrolean bacon dumplings",
+   "names": {
+    "en": "Tyrolean bacon dumplings",
+    "de": "Tiroler Speckknödel"
+   },
+   "serving": {
+    "label": {
+     "en": "2 dumplings",
+     "de": "2 Knödel"
+    },
+    "count": 2
+   },
+   "artworkID": "dumpling",
+   "aliases": {
+    "en": [
+     "speckknödel",
+     "bacon dumplings",
+     "tyrolean dumplings",
+     "canederli"
+    ],
+    "de": [
+     "speckknödel",
+     "speckknoedel",
+     "tiroler knödel",
+     "speckknödel tiroler art",
+     "canederli"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "bread roll",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:B511000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 90,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 50,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "smoked streaky bacon",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:W411300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "parsley",
+     "grams": 5,
+     "resolved": {
+      "id": "usda:2709796",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "ham dumplings",
+   "names": {
+    "en": "Ham dumplings",
+    "de": "Schinkenknödel"
+   },
+   "serving": {
+    "label": {
+     "en": "2 dumplings",
+     "de": "2 Knödel"
+    },
+    "count": 2
+   },
+   "artworkID": "dumpling",
+   "aliases": {
+    "en": [
+     "bread dumplings with ham",
+     "ham knödel",
+     "schinkenknödel",
+     "ham bread dumplings"
+    ],
+    "de": [
+     "schinkenknoedel",
+     "knödel mit schinken",
+     "semmelknödel mit schinken",
+     "schinken knödel"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "bread roll",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:B511000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 90,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 50,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked ham",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:W424000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "bohemian dumplings",
+   "names": {
+    "en": "Bohemian dumplings",
+    "de": "Böhmische Knödel"
+   },
+   "serving": {
+    "label": {
+     "en": "3 slices",
+     "de": "3 Scheiben"
+    },
+    "count": 3
+   },
+   "artworkID": "dumpling",
+   "aliases": {
+    "en": [
+     "knedliky",
+     "czech bread dumplings",
+     "houskové knedlíky",
+     "bohemian bread dumplings"
+    ],
+    "de": [
+     "böhmische knödel",
+     "knedliky",
+     "böhmische serviettenknödel",
+     "hefeknödel",
+     "boehmische knoedel"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "wheat flour",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 25,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "yeast",
+     "grams": 3,
+     "resolved": {
+      "id": "usda:2710005",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "bread roll",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:B511000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 12,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "semolina dumplings",
+   "names": {
+    "en": "Semolina dumplings",
+    "de": "Grießklöße"
+   },
+   "serving": {
+    "label": {
+     "en": "2 dumplings",
+     "de": "2 Klöße"
+    },
+    "count": 2
+   },
+   "artworkID": "dumpling",
+   "aliases": {
+    "en": [
+     "semolina dumpling",
+     "griessnockerl",
+     "semolina gnocchi dumplings",
+     "semolina knödel"
+    ],
+    "de": [
+     "grießklößchen",
+     "grießnockerl",
+     "griessklösse",
+     "grießknödel",
+     "griesklöße"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "soft wheat semolina",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:C218000",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 50,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "polenta",
+   "skip": "a single food (polenta is already an ingredient)"
+  },
+  {
+   "key": "pizza baguette with ham and cheese",
+   "names": {
+    "en": "Pizza baguette with ham and cheese",
+    "de": "Pizzabaguette mit Schinken und Käse"
+   },
+   "serving": {
+    "label": {
+     "en": "1 piece",
+     "de": "1 Stück"
+    },
+    "count": 1
+   },
+   "artworkID": "pizza",
+   "aliases": {
+    "en": [
+     "ham and cheese pizza baguette",
+     "french bread pizza with ham",
+     "pizza baguette ham",
+     "baguette pizza with ham and cheese"
+    ],
+    "de": [
+     "pizzabaguette schinken",
+     "baguette mit schinken und käse überbacken",
+     "pizza baguette mit kochschinken",
+     "überbackenes baguette mit schinken"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "baguette",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:B781200",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato sauce",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:X331353",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked ham",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:W424000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "gouda",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:M402600",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "pizza baguette with vegetables and sheep s milk cheese",
+   "names": {
+    "en": "Pizza baguette with vegetables and feta",
+    "de": "Pizzabaguette mit Gemüse und Schafskäse"
+   },
+   "serving": {
+    "label": {
+     "en": "1 piece",
+     "de": "1 Stück"
+    },
+    "count": 1
+   },
+   "artworkID": "pizza",
+   "aliases": {
+    "en": [
+     "vegetable pizza baguette",
+     "pizza baguette with feta",
+     "french bread pizza with vegetables",
+     "veggie pizza baguette"
+    ],
+    "de": [
+     "pizzabaguette mit feta",
+     "gemüse pizzabaguette",
+     "pizzabaguette vegetarisch",
+     "baguette mit gemüse und schafskäse überbacken"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "baguette",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:B781200",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato sauce",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:X331353",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "red bell pepper",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G543100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "zucchini",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G582100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "feta",
+     "grams": 50,
+     "resolved": {
+      "id": "usda:2705714",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "olive oil",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:Q120000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "pizza baguette with tomatoes and cheese",
+   "names": {
+    "en": "Pizza baguette with tomato and cheese",
+    "de": "Pizzabaguette mit Tomaten und Käse"
+   },
+   "serving": {
+    "label": {
+     "en": "1 piece",
+     "de": "1 Stück"
+    },
+    "count": 1
+   },
+   "artworkID": "pizza",
+   "aliases": {
+    "en": [
+     "tomato cheese pizza baguette",
+     "french bread pizza",
+     "cheese pizza baguette",
+     "baguette pizza margherita"
+    ],
+    "de": [
+     "pizzabaguette tomate käse",
+     "pizza baguette margherita",
+     "käse pizzabaguette",
+     "baguette mit tomaten und käse überbacken"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "baguette",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:B781200",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato sauce",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:X331353",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G561100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "gouda",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:M402600",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "pearl barley prepared like risotto",
+   "names": {
+    "en": "Pearl barley risotto",
+    "de": "Graupenrisotto"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "rice",
+   "aliases": {
+    "en": [
+     "barley risotto",
+     "orzotto",
+     "pearl barley risotto",
+     "barley risoto"
+    ],
+    "de": [
+     "graupen nach risottoart",
+     "gerstenrisotto",
+     "orzotto",
+     "graupen risotto",
+     "perlgraupenrisotto"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "pearl barley, boiled",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:C148032",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "carrot",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "parmesan",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:M306400",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable stock",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:X416243",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "couscous with butter",
+   "skip": "a single food (buttered couscous)"
+  },
+  {
+   "key": "couscous with vegetables",
+   "names": {
+    "en": "Couscous with vegetables",
+    "de": "Gemüsecouscous"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "salad",
+   "aliases": {
+    "en": [
+     "vegetable couscous",
+     "fried couscous with vegetables",
+     "couscous with veggies",
+     "cous cous with vegetables"
+    ],
+    "de": [
+     "couscous mit gemüse",
+     "gebratener couscous mit gemüse",
+     "gemüse couscous",
+     "cous cous mit gemüse"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked couscous",
+     "grams": 180,
+     "resolved": {
+      "id": "bls:C119232",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "zucchini",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:G582100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "red bell pepper",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:G543100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G561100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "olive oil",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:Q120000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "oat patties vegan",
+   "names": {
+    "en": "Vegan oat patties",
+    "de": "Vegane Haferbratlinge"
+   },
+   "serving": {
+    "label": {
+     "en": "3 patties",
+     "de": "3 Bratlinge"
+    },
+    "count": 3
+   },
+   "artworkID": "falafel",
+   "aliases": {
+    "en": [
+     "oat patties",
+     "oat burgers",
+     "oatmeal patties",
+     "vegan oat fritters"
+    ],
+    "de": [
+     "haferbratlinge",
+     "haferflockenbratlinge",
+     "haferflocken frikadellen",
+     "haferbratlinge vegan",
+     "haferflockenküchle"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "rolled oats",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:C133000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "carrot",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable stock",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:X416243",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "parsley",
+     "grams": 3,
+     "resolved": {
+      "id": "usda:2709796",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "cereal patties",
+   "names": {
+    "en": "Grain patties",
+    "de": "Getreidebratlinge"
+   },
+   "serving": {
+    "label": {
+     "en": "3 patties",
+     "de": "3 Bratlinge"
+    },
+    "count": 3
+   },
+   "artworkID": "falafel",
+   "aliases": {
+    "en": [
+     "grain burgers",
+     "cereal patties",
+     "vegetarian grain patties",
+     "whole grain patties"
+    ],
+    "de": [
+     "getreidebratling",
+     "körnerbratlinge",
+     "getreide frikadellen",
+     "vegetarische bratlinge",
+     "getreidelaibchen"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked bulgur",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:C119132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "rolled oats",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:C133000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 40,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "parsley",
+     "grams": 3,
+     "resolved": {
+      "id": "usda:2709796",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "green spelt patties",
+   "names": {
+    "en": "Green spelt patties",
+    "de": "Grünkernbratlinge"
+   },
+   "serving": {
+    "label": {
+     "en": "3 patties",
+     "de": "3 Bratlinge"
+    },
+    "count": 3
+   },
+   "artworkID": "falafel",
+   "aliases": {
+    "en": [
+     "green spelt burgers",
+     "grünkern patties",
+     "spelt patties",
+     "green spelt fritters"
+    ],
+    "de": [
+     "grünkernbratling",
+     "grünkern bratlinge",
+     "gruenkernbratlinge",
+     "grünkernfrikadellen",
+     "grünkernküchle"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "green spelt groats",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:C317000",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "vegetable stock",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:X416243",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 40,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "breadcrumbs",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:B821000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "green spelt patties with carrots and nuts vegan",
+   "names": {
+    "en": "Vegan green spelt patties with carrots and nuts",
+    "de": "Vegane Grünkernbratlinge mit Karotten und Nüssen"
+   },
+   "serving": {
+    "label": {
+     "en": "3 patties",
+     "de": "3 Bratlinge"
+    },
+    "count": 3
+   },
+   "artworkID": "falafel",
+   "aliases": {
+    "en": [
+     "vegan green spelt patties",
+     "green spelt carrot patties",
+     "spelt nut patties",
+     "vegan grünkern patties"
+    ],
+    "de": [
+     "grünkernbratlinge vegan",
+     "grünkernbratlinge mit möhren und nüssen",
+     "vegane grünkernbratlinge",
+     "grünkern karotten bratlinge"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "green spelt groats",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:C317000",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "vegetable stock",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:X416243",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "carrot",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "hazelnuts",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:H130400",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 5,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "millet patties",
+   "names": {
+    "en": "Millet patties",
+    "de": "Hirsebratlinge"
+   },
+   "serving": {
+    "label": {
+     "en": "3 patties",
+     "de": "3 Bratlinge"
+    },
+    "count": 3
+   },
+   "artworkID": "falafel",
+   "aliases": {
+    "en": [
+     "millet burgers",
+     "millet fritters",
+     "millet cakes",
+     "millet patty"
+    ],
+    "de": [
+     "hirse bratlinge",
+     "hirsebratling",
+     "hirsefrikadellen",
+     "hirseküchle",
+     "hirselaibchen"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "millet boiled",
+     "grams": 130,
+     "resolved": {
+      "id": "bls:C334032",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 40,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "gouda",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:M402600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "millet vegetable patties",
+   "names": {
+    "en": "Millet and vegetable patties",
+    "de": "Hirse-Gemüse-Bratlinge"
+   },
+   "serving": {
+    "label": {
+     "en": "3 patties",
+     "de": "3 Bratlinge"
+    },
+    "count": 3
+   },
+   "artworkID": "falafel",
+   "aliases": {
+    "en": [
+     "millet veggie patties",
+     "vegetable millet patties",
+     "millet vegetable fritters",
+     "millet and vegetable burgers"
+    ],
+    "de": [
+     "hirse gemüse bratlinge",
+     "gemüse hirsebratlinge",
+     "hirsebratlinge mit gemüse",
+     "hirse gemüse frikadellen"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "millet boiled",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:C334032",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "carrot",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "zucchini",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:G582100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 40,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 8,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "millet porridge sweetened with milk 3 5 fat",
+   "skip": "duplicate: the sweetened variant of millet porridge with milk"
+  },
+  {
+   "key": "millet porridge unsweetened with milk 3 5 fat",
+   "names": {
+    "en": "Millet porridge with milk",
+    "de": "Hirsebrei mit Milch"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "cereal",
+   "aliases": {
+    "en": [
+     "millet porridge",
+     "millet pudding",
+     "millet with milk",
+     "millet breakfast porridge"
+    ],
+    "de": [
+     "hirsebrei",
+     "hirse mit milch",
+     "hirsebrei ungesüßt",
+     "hirse porridge",
+     "hirsemilchbrei"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "millet raw",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:C332000",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 250,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "millet porridge unsweetened with almond drink",
+   "names": {
+    "en": "Millet porridge with almond milk",
+    "de": "Hirsebrei mit Mandeldrink"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "cereal",
+   "aliases": {
+    "en": [
+     "vegan millet porridge",
+     "millet porridge with almond drink",
+     "millet with almond milk"
+    ],
+    "de": [
+     "hirsebrei mit mandelmilch",
+     "veganer hirsebrei",
+     "hirse mit mandeldrink",
+     "hirsebrei vegan"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "millet raw",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:C332000",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "almond milk",
+     "grams": 250,
+     "resolved": {
+      "id": "bls:H800000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "cereal fruit puree with unsweetened apple sauce and oat flakes",
+   "skip": "baby food (weaning porridge)"
+  },
+  {
+   "key": "milk cereal puree with oat flakes and apple juice",
+   "skip": "baby food (weaning porridge)"
+  },
+  {
+   "key": "porridge sweetened with milk 3 5 fat",
+   "skip": "duplicate: the sweetened variant of porridge with milk"
+  },
+  {
+   "key": "porridge sweetened with soya drink",
+   "skip": "duplicate: the sweetened variant of porridge with soy milk"
+  },
+  {
+   "key": "porridge sweetened with water",
+   "skip": "a single food (porridge with water is already an ingredient) plus sugar"
+  },
+  {
+   "key": "porridge unsweetened with milk 3 5 fat",
+   "names": {
+    "en": "Porridge with milk",
+    "de": "Porridge mit Milch"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "cereal",
+   "aliases": {
+    "en": [
+     "oatmeal with milk",
+     "porridge made with milk",
+     "oats cooked in milk",
+     "milk porridge"
+    ],
+    "de": [
+     "haferbrei mit milch",
+     "haferflockenbrei mit milch",
+     "haferflocken mit milch gekocht",
+     "porridge mit vollmilch",
+     "milchporridge"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "rolled oats",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:C133000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 250,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "porridge unsweetened with soya drink",
+   "names": {
+    "en": "Porridge with soy milk",
+    "de": "Porridge mit Sojadrink"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "cereal",
+   "aliases": {
+    "en": [
+     "oatmeal with soy milk",
+     "vegan porridge",
+     "porridge with soya milk",
+     "oats cooked in soy milk"
+    ],
+    "de": [
+     "porridge mit sojamilch",
+     "haferbrei mit sojadrink",
+     "veganer porridge",
+     "haferflockenbrei mit sojamilch"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "rolled oats",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:C133000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "soy milk",
+     "grams": 250,
+     "resolved": {
+      "id": "usda:2705405",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "porridge unsweetened with water",
+   "skip": "a single food (porridge with water is already an ingredient)"
+  },
+  {
+   "key": "puff pastry pockets filled with leaf spinach and sheep s milk cheese",
+   "skip": "duplicate of the spinach, feta and pine nut puff pastry pockets in this batch"
+  },
+  {
+   "key": "puff pastry pockets filled with cheese and ham",
+   "names": {
+    "en": "Ham and cheese puff pastry pockets",
+    "de": "Blätterteigtaschen mit Schinken und Käse"
+   },
+   "serving": {
+    "label": {
+     "en": "2 pockets",
+     "de": "2 Taschen"
+    },
+    "count": 2
+   },
+   "artworkID": "pie",
+   "aliases": {
+    "en": [
+     "ham and cheese turnovers",
+     "ham and cheese puff pastry",
+     "ham cheese pockets",
+     "ham and cheese parcels"
+    ],
+    "de": [
+     "schinken käse taschen",
+     "blätterteigtaschen mit käse und kochschinken",
+     "schinkenkäsetaschen",
+     "blätterteig mit schinken und käse"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "puff pastry",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:D072000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked ham",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:W424000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "gouda",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:M402600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "spring rolls vegetarian filled with vegetables",
+   "skip": "duplicate of the vegetable spring rolls recipe already in the catalogue"
+  },
+  {
+   "key": "vegetable muffins savoury",
+   "names": {
+    "en": "Savoury vegetable muffins",
+    "de": "Herzhafte Gemüsemuffins"
+   },
+   "serving": {
+    "label": {
+     "en": "2 muffins",
+     "de": "2 Muffins"
+    },
+    "count": 2
+   },
+   "artworkID": "cupcake",
+   "aliases": {
+    "en": [
+     "vegetable muffins",
+     "savory muffins",
+     "veggie muffins",
+     "cheese and vegetable muffins"
+    ],
+    "de": [
+     "gemüsemuffins",
+     "herzhafte muffins",
+     "gemüse muffins",
+     "pikante muffins",
+     "käse gemüse muffins"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "wheat flour",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 50,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 5,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "zucchini",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G582100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "carrot",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "gouda",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:M402600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "baking powder",
+     "grams": 3,
+     "resolved": {
+      "id": "bls:R421100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "grissini",
+   "skip": "a single food (breadsticks)"
+  },
+  {
+   "key": "burrito filled with vegetables beef mince and cheese",
+   "names": {
+    "en": "Beef burrito",
+    "de": "Burrito mit Rinderhack"
+   },
+   "serving": {
+    "label": {
+     "en": "1 burrito",
+     "de": "1 Burrito"
+    },
+    "count": 1
+   },
+   "artworkID": "burrito",
+   "aliases": {
+    "en": [
+     "beef burrito",
+     "ground beef burrito",
+     "burrito with beef and cheese",
+     "mince burrito"
+    ],
+    "de": [
+     "burrito mit hackfleisch",
+     "rindfleisch burrito",
+     "burrito mit rinderhackfleisch und käse",
+     "hackfleisch burrito",
+     "burrito rind"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "flour tortilla",
+     "grams": 90,
+     "resolved": {
+      "id": "usda:2707824",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked ground beef",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:U010182",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "kidney beans",
+     "grams": 40,
+     "resolved": {
+      "id": "usda:2707383",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked white rice",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:C352032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "red bell pepper",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G543100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sweetcorn",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G570100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cheddar",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:M303600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato salsa",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2709739",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sour cream",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2705614",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "burrito filled with vegetables mushrooms and cheese",
+   "names": {
+    "en": "Vegetarian mushroom burrito",
+    "de": "Vegetarischer Burrito mit Pilzen"
+   },
+   "serving": {
+    "label": {
+     "en": "1 burrito",
+     "de": "1 Burrito"
+    },
+    "count": 1
+   },
+   "artworkID": "burrito",
+   "aliases": {
+    "en": [
+     "vegetarian burrito",
+     "mushroom burrito",
+     "veggie burrito",
+     "burrito with vegetables and cheese"
+    ],
+    "de": [
+     "vegetarischer burrito",
+     "burrito mit pilzen",
+     "gemüse burrito",
+     "burrito mit gemüse pilzen und käse",
+     "veggie burrito"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "flour tortilla",
+     "grams": 90,
+     "resolved": {
+      "id": "usda:2707824",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked mushrooms",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:K701172",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "red bell pepper",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G543100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sweetcorn",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G570100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "black beans",
+     "grams": 40,
+     "resolved": {
+      "id": "usda:2707363",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked white rice",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:C352032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cheddar",
+     "grams": 35,
+     "resolved": {
+      "id": "bls:M303600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato salsa",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2709739",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sour cream",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2705614",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "pancakes unsweetened with milk 3 5 fat in butter",
+   "skip": "duplicate of the German pancake (Pfannkuchen) recipe already in the catalogue"
+  },
+  {
+   "key": "pankcake casserole with spinach",
+   "names": {
+    "en": "Pancake bake with spinach",
+    "de": "Pfannkuchenauflauf mit Spinat"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "pancakes",
+   "aliases": {
+    "en": [
+     "spinach pancake casserole",
+     "pancake casserole with spinach",
+     "baked spinach crepes",
+     "spinach crepe bake"
+    ],
+    "de": [
+     "pfannkuchen auflauf mit spinat",
+     "pfannkuchen-auflauf mit spinatgemüse",
+     "spinat pfannkuchenauflauf",
+     "eierkuchenauflauf mit spinat"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "wheat flour",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 60,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 8,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked spinach",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:G210132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "heavy cream",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:M173800",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "gouda",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:M402600",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "tarte flambee vegetarian",
+   "names": {
+    "en": "Vegetarian tarte flambée",
+    "de": "Vegetarischer Flammkuchen"
+   },
+   "serving": {
+    "label": {
+     "en": "1 tart",
+     "de": "1 Flammkuchen"
+    },
+    "count": 1
+   },
+   "artworkID": "pizza",
+   "aliases": {
+    "en": [
+     "vegetarian flammkuchen",
+     "tarte flambée without bacon",
+     "veggie tarte flambee",
+     "flammkuchen with leek"
+    ],
+    "de": [
+     "flammkuchen vegetarisch",
+     "flammkuchen ohne speck",
+     "veggie flammkuchen",
+     "flammkuchen mit lauch",
+     "vegetarischer flammenkuchen"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "pizza dough",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:X9A6030",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "crème fraîche",
+     "grams": 45,
+     "resolved": {
+      "id": "cofid:12-335",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "low-fat quark",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:M713100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "leek",
+     "grams": 30,
+     "resolved": {
+      "id": "ciqual:20039",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "pork belly with warm blood and pork liver sausage and sauerkraut",
+   "names": {
+    "en": "Schlachtplatte with sauerkraut",
+    "de": "Schlachtplatte mit Sauerkraut"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "meat",
+   "aliases": {
+    "en": [
+     "schlachtplatte",
+     "butcher's platter",
+     "pork belly with blood sausage and liver sausage",
+     "schlachtschüssel"
+    ],
+    "de": [
+     "schlachtplatte",
+     "schlachtschüssel",
+     "schweinebauch mit blutwurst und leberwurst",
+     "kesselfleisch mit sauerkraut",
+     "schlachtplatte mit kraut"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "pork belly boiled",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:Y381352",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "blood sausages heated",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:Y024113",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "liver sausages heated",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:Y023113",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "sauerkraut stewed",
+     "grams": 300,
+     "resolved": {
+      "id": "bls:X530353",
+      "via": "exact"
+     }
+    }
+   ]
+  }
+ ]
+}

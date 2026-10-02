@@ -1,0 +1,4816 @@
+{
+ "batch": 17,
+ "drafted": "2026-10-01",
+ "drafter": "Claude in the Akari Claude Code session",
+ "dishes": [
+  {
+   "key": "meringue ice cream cake",
+   "names": {
+    "en": "Meringue ice cream cake",
+    "de": "Baiser-Eistorte"
+   },
+   "serving": {
+    "label": {
+     "en": "1 slice",
+     "de": "1 Stück"
+    },
+    "count": 1
+   },
+   "artworkID": "cake",
+   "aliases": {
+    "en": [
+     "meringue ice-cream cake",
+     "ice cream meringue cake",
+     "frozen meringue cake",
+     "meringue ice cream gateau",
+     "merengue ice cream cake"
+    ],
+    "de": [
+     "baisereistorte",
+     "eistorte mit baiser",
+     "baiser eistorte",
+     "eistorte baiser",
+     "baiser-eis-torte"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "meringue",
+     "grams": 35,
+     "reference": "bls:D610200"
+    },
+    {
+     "name": "vanilla ice cream",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:S241000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whipped cream",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2705598",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "raspberries",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2709281",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "fish burger with saithe",
+   "names": {
+    "en": "Fish burger with saithe",
+    "de": "Fischburger mit Seelachs"
+   },
+   "serving": {
+    "label": {
+     "en": "1 burger",
+     "de": "1 Burger"
+    },
+    "count": 1
+   },
+   "artworkID": "burger",
+   "aliases": {
+    "en": [
+     "fish burger",
+     "fishburger",
+     "saithe burger",
+     "pollock burger",
+     "breaded fish burger",
+     "fish fillet burger"
+    ],
+    "de": [
+     "fischburger",
+     "seelachsburger",
+     "seelachs burger",
+     "fisch burger",
+     "fischbrötchen burger"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "burger bun",
+     "grams": 75,
+     "resolved": {
+      "id": "usda:2707657",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "breaded saithe, deep-fried",
+     "grams": 100,
+     "reference": "bls:T931292"
+    },
+    {
+     "name": "lettuce",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G105100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:G561100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tartar sauce",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2710173",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "gyros burger",
+   "names": {
+    "en": "Gyros burger",
+    "de": "Gyrosburger"
+   },
+   "serving": {
+    "label": {
+     "en": "1 burger",
+     "de": "1 Burger"
+    },
+    "count": 1
+   },
+   "artworkID": "burger",
+   "aliases": {
+    "en": [
+     "gyrosburger",
+     "gyro burger",
+     "gyros bun",
+     "pork gyros burger",
+     "giros burger"
+    ],
+    "de": [
+     "gyros burger",
+     "gyros-burger",
+     "giros burger",
+     "gyrosbrötchen",
+     "gyros im brötchen"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "burger bun",
+     "grams": 75,
+     "resolved": {
+      "id": "usda:2707657",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "pork gyros",
+     "grams": 90,
+     "resolved": {
+      "id": "bls:Y384112",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tzatziki",
+     "grams": 40,
+     "resolved": {
+      "id": "cofid:12-547",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:G561100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lettuce",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G105100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "tofu burger vegan",
+   "names": {
+    "en": "Vegan tofu burger",
+    "de": "Veganer Tofu-Burger"
+   },
+   "serving": {
+    "label": {
+     "en": "1 burger",
+     "de": "1 Burger"
+    },
+    "count": 1
+   },
+   "artworkID": "burger",
+   "aliases": {
+    "en": [
+     "tofu burger",
+     "tofuburger",
+     "vegan tofu burger",
+     "tofu patty burger",
+     "vegan burger with tofu"
+    ],
+    "de": [
+     "tofuburger",
+     "tofu burger",
+     "tofu-burger vegan",
+     "veganer burger mit tofu",
+     "tofubratling burger"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "burger bun",
+     "grams": 75,
+     "resolved": {
+      "id": "usda:2707657",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tofu burger patty, fried",
+     "grams": 90,
+     "reference": "bls:H910200"
+    },
+    {
+     "name": "lettuce",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G105100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:G561100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "ketchup",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:R141100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "falafel",
+   "skip": "a single food: falafel is already in the vocabulary and the table"
+  },
+  {
+   "key": "falafel in flatbread vegetarian filled",
+   "names": {
+    "en": "Falafel in flatbread",
+    "de": "Falafel im Fladenbrot"
+   },
+   "serving": {
+    "label": {
+     "en": "1 piece",
+     "de": "1 Stück"
+    },
+    "count": 1
+   },
+   "artworkID": "stuffed-flatbread",
+   "aliases": {
+    "en": [
+     "falafel sandwich",
+     "falafel pita",
+     "falafel in pita",
+     "falafel flatbread",
+     "falafel kebab",
+     "falafal in flatbread"
+    ],
+    "de": [
+     "falafel im brot",
+     "falafel sandwich",
+     "falafel tasche",
+     "falafel in fladenbrot",
+     "falafel döner",
+     "falafelbrot"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "flatbread",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:B782100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "falafel",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:Y9A1050",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lettuce",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G105100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G561100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cucumber",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:G520100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tzatziki",
+     "grams": 30,
+     "resolved": {
+      "id": "cofid:12-547",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tahini",
+     "grams": 8,
+     "resolved": {
+      "id": "usda:2707587",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "lahmacun unfilled",
+   "skip": "duplicate of the lahmacun candidate in batch 2"
+  },
+  {
+   "key": "apricot ice cream",
+   "skip": "a single food: one ice cream flavour the table covers"
+  },
+  {
+   "key": "raspberry ice cream",
+   "skip": "a single food: one ice cream flavour the table covers"
+  },
+  {
+   "key": "hazelnut ice cream",
+   "skip": "a single food: one ice cream flavour the table covers"
+  },
+  {
+   "key": "tartufo di pizzo",
+   "names": {
+    "en": "Tartufo di Pizzo",
+    "de": "Tartufo di Pizzo"
+   },
+   "serving": {
+    "label": {
+     "en": "1 piece",
+     "de": "1 Stück"
+    },
+    "count": 1
+   },
+   "artworkID": "ice-cream",
+   "aliases": {
+    "en": [
+     "tartufo",
+     "tartufo pizzo",
+     "tartufo nero",
+     "chocolate hazelnut tartufo",
+     "tartufo ice cream"
+    ],
+    "de": [
+     "tartufo",
+     "tartufo eis",
+     "tartufo nero",
+     "tartufo di pizzo eis",
+     "trüffeleis"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "hazelnut ice cream",
+     "grams": 60,
+     "reference": "bls:Y9A2020"
+    },
+    {
+     "name": "chocolate ice cream",
+     "grams": 55,
+     "reference": "bls:S242000"
+    },
+    {
+     "name": "dark chocolate",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:S560000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cocoa powder",
+     "grams": 3,
+     "resolved": {
+      "id": "bls:S711000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "tartufo vanilla ice cream in chocolate coating",
+   "names": {
+    "en": "Vanilla tartufo",
+    "de": "Tartufo mit Vanilleeis"
+   },
+   "serving": {
+    "label": {
+     "en": "1 piece",
+     "de": "1 Stück"
+    },
+    "count": 1
+   },
+   "artworkID": "ice-cream",
+   "aliases": {
+    "en": [
+     "tartufo bianco",
+     "vanilla ice cream tartufo",
+     "white tartufo",
+     "tartufo with chocolate coating",
+     "vanilla tartuffo"
+    ],
+    "de": [
+     "tartufo bianco",
+     "vanilleeis im schokomantel",
+     "tartufo vanille",
+     "tartufo mit schokoladenmantel",
+     "vanille tartufo"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "vanilla ice cream",
+     "grams": 90,
+     "resolved": {
+      "id": "bls:S241000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "dark chocolate",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:S560000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "hazelnuts",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:H130400",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "vanilla ice cream with whipped cream and fresh strawberries",
+   "names": {
+    "en": "Strawberry sundae",
+    "de": "Erdbeerbecher"
+   },
+   "serving": {
+    "label": {
+     "en": "1 cup",
+     "de": "1 Becher"
+    },
+    "count": 1
+   },
+   "artworkID": "ice-cream",
+   "aliases": {
+    "en": [
+     "strawberries with ice cream and cream",
+     "vanilla ice cream with strawberries",
+     "strawberry cup",
+     "strawberries and ice cream",
+     "strawberry sundae with cream"
+    ],
+    "de": [
+     "erdbeerbecher mit sahne",
+     "vanilleeis mit erdbeeren",
+     "eis mit erdbeeren und sahne",
+     "erdbeeren mit vanilleeis",
+     "erdbeer becher",
+     "erdbeereisbecher"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "vanilla ice cream",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:S241000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whipped cream",
+     "grams": 40,
+     "resolved": {
+      "id": "usda:2705598",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "strawberries",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:F301100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "smoothie",
+   "names": {
+    "en": "Fruit smoothie",
+    "de": "Frucht-Smoothie"
+   },
+   "serving": {
+    "label": {
+     "en": "1 glass",
+     "de": "1 Glas"
+    },
+    "count": 1
+   },
+   "artworkID": "tropical-drink",
+   "aliases": {
+    "en": [
+     "mixed fruit smoothie",
+     "banana strawberry orange smoothie",
+     "fruit smoothy",
+     "fruity smoothie",
+     "homemade fruit smoothie"
+    ],
+    "de": [
+     "fruchtsmoothie",
+     "obst smoothie",
+     "obstsmoothie",
+     "frucht smoothie",
+     "früchte smoothie"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "banana",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:F503100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "strawberries",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:F301100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "orange juice",
+     "grams": 100,
+     "resolved": {
+      "id": "usda:2709186",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "apple juice",
+     "grams": 50,
+     "resolved": {
+      "id": "usda:2709320",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "souffle au fromage",
+   "skip": "duplicate of the cheese soufflé candidate in batch 14"
+  },
+  {
+   "key": "couscous au mouton",
+   "names": {
+    "en": "Couscous with lamb",
+    "de": "Couscous mit Lammfleisch"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "meat",
+   "aliases": {
+    "en": [
+     "lamb couscous",
+     "couscous au mouton",
+     "couscous with mutton",
+     "moroccan lamb couscous",
+     "cous cous with lamb"
+    ],
+    "de": [
+     "lammcouscous",
+     "couscous mit lamm",
+     "couscous mit hammelfleisch",
+     "couscous lamm",
+     "cous cous mit lamm"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked couscous",
+     "grams": 180,
+     "resolved": {
+      "id": "bls:C119232",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "roast lamb shoulder",
+     "grams": 100,
+     "resolved": {
+      "id": "cofid:18-179",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked chickpeas",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G770432",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked carrot",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:G620132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "zucchini",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:G582100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "canned tomatoes",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G568900",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "olive oil",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:Q120000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "broth",
+     "grams": 80,
+     "resolved": {
+      "id": "usda:2707132",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "potee auvergnate chou et porc",
+   "names": {
+    "en": "Potée auvergnate",
+    "de": "Potée auvergnate"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "soup",
+   "aliases": {
+    "en": [
+     "potee auvergnate",
+     "auvergne cabbage and pork stew",
+     "french cabbage and pork stew",
+     "potée",
+     "pork and cabbage potée"
+    ],
+    "de": [
+     "potee auvergnate",
+     "kohleintopf mit schweinefleisch",
+     "französischer kohleintopf",
+     "weißkohleintopf auvergne",
+     "potée mit schweinefleisch"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "white cabbage",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:G342100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "boiled potatoes",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked carrot",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:G620132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "leek",
+     "grams": 30,
+     "resolved": {
+      "id": "ciqual:20039",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cured pork hock, boiled",
+     "grams": 80,
+     "reference": "bls:Y301122"
+    },
+    {
+     "name": "pork sausages",
+     "grams": 60,
+     "resolved": {
+      "id": "cofid:19-509",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "smoked streaky bacon",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:W411300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "broth",
+     "grams": 60,
+     "resolved": {
+      "id": "usda:2707132",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "couscous au poisson",
+   "names": {
+    "en": "Fish couscous",
+    "de": "Couscous mit Fisch"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "fish",
+   "aliases": {
+    "en": [
+     "couscous with fish",
+     "couscous au poisson",
+     "fish cous cous",
+     "tunisian fish couscous",
+     "couscous fish stew"
+    ],
+    "de": [
+     "fischcouscous",
+     "couscous mit fisch",
+     "fisch couscous",
+     "cous cous mit fisch",
+     "tunesisches fischcouscous"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked couscous",
+     "grams": 180,
+     "resolved": {
+      "id": "bls:C119232",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked cod",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:T204172",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked carrot",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:G620132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "zucchini",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:G582100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked chickpeas",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G770432",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "canned tomatoes",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G568900",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "olive oil",
+     "grams": 6,
+     "resolved": {
+      "id": "bls:Q120000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "broth",
+     "grams": 100,
+     "resolved": {
+      "id": "usda:2707132",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "ravioli chinois a la vapeur a la crevette",
+   "skip": "already in the catalogue as Har gow"
+  },
+  {
+   "key": "navarin d agneau aux legumes",
+   "names": {
+    "en": "Navarin of lamb",
+    "de": "Lammragout mit Gemüse"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "meat",
+   "aliases": {
+    "en": [
+     "navarin d'agneau",
+     "lamb navarin",
+     "lamb stew with vegetables",
+     "navarin lamb stew",
+     "french lamb stew"
+    ],
+    "de": [
+     "navarin",
+     "navarin vom lamm",
+     "lammeintopf mit gemüse",
+     "lamm ragout mit gemüse",
+     "französisches lammragout"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "lamb, braised",
+     "grams": 130,
+     "reference": "cofid:18-127"
+    },
+    {
+     "name": "boiled potatoes",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked carrot",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:G620132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "green peas",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G760132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "canned tomatoes",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G568900",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "gravy",
+     "grams": 60,
+     "resolved": {
+      "id": "usda:2707149",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "paupiette de veau",
+   "names": {
+    "en": "Veal paupiette",
+    "de": "Kalbsroulade (Paupiette)"
+   },
+   "serving": {
+    "label": {
+     "en": "1 piece",
+     "de": "1 Stück"
+    },
+    "count": 1
+   },
+   "artworkID": "meat",
+   "aliases": {
+    "en": [
+     "paupiette de veau",
+     "veal roulade",
+     "stuffed veal roll",
+     "veal paupiettes",
+     "veal olive"
+    ],
+    "de": [
+     "kalbsroulade",
+     "paupiette vom kalb",
+     "gefüllte kalbsroulade",
+     "kalbsröllchen",
+     "kalbs roulade"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "veal schnitzel, pan-fried",
+     "grams": 80,
+     "reference": "bls:U342182"
+    },
+    {
+     "name": "cooked ground pork",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:U020182",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "smoked streaky bacon",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:W411300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "gravy",
+     "grams": 50,
+     "resolved": {
+      "id": "usda:2707149",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "paupiette de volaille",
+   "names": {
+    "en": "Turkey paupiette",
+    "de": "Putenroulade (Paupiette)"
+   },
+   "serving": {
+    "label": {
+     "en": "1 piece",
+     "de": "1 Stück"
+    },
+    "count": 1
+   },
+   "artworkID": "poultry",
+   "aliases": {
+    "en": [
+     "paupiette de volaille",
+     "turkey roulade",
+     "stuffed turkey roll",
+     "chicken paupiette",
+     "poultry paupiette"
+    ],
+    "de": [
+     "putenroulade",
+     "geflügelroulade",
+     "paupiette von der pute",
+     "gefüllte putenroulade",
+     "puten roulade"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "turkey breast, braised",
+     "grams": 90,
+     "reference": "bls:V486142"
+    },
+    {
+     "name": "ground turkey",
+     "grams": 40,
+     "resolved": {
+      "id": "usda:2706133",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "breadcrumbs",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:B821000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "gravy",
+     "grams": 50,
+     "resolved": {
+      "id": "usda:2707149",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "couscous au poulet",
+   "names": {
+    "en": "Chicken couscous",
+    "de": "Couscous mit Hähnchen"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "poultry",
+   "aliases": {
+    "en": [
+     "couscous with chicken",
+     "couscous au poulet",
+     "moroccan chicken couscous",
+     "chicken cous cous",
+     "couscous chicken stew"
+    ],
+    "de": [
+     "hähnchencouscous",
+     "couscous mit huhn",
+     "hühnchen couscous",
+     "couscous mit hühnerfleisch",
+     "cous cous mit hähnchen"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked couscous",
+     "grams": 180,
+     "resolved": {
+      "id": "bls:C119232",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked chicken thigh",
+     "grams": 120,
+     "resolved": {
+      "id": "usda:2706044",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked chickpeas",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G770432",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked carrot",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:G620132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "zucchini",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:G582100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "canned tomatoes",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G568900",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "olive oil",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:Q120000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "broth",
+     "grams": 80,
+     "resolved": {
+      "id": "usda:2707132",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "boulettes au boeuf",
+   "skip": "a single food: cooked beef meatballs (meatballs are in the vocabulary)"
+  },
+  {
+   "key": "osso buco de veau a la milanaise jarret de porc",
+   "skip": "duplicate of the ossobuco alla milanese candidate in batch 12"
+  },
+  {
+   "key": "meloukhia",
+   "names": {
+    "en": "Mulukhiyah with beef",
+    "de": "Muluchija mit Rindfleisch"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "curry",
+   "aliases": {
+    "en": [
+     "meloukhia",
+     "mloukhia",
+     "molokhia",
+     "mulukhiyah",
+     "jute leaf stew with beef",
+     "molokhia with beef"
+    ],
+    "de": [
+     "meloukhia",
+     "mloukhia",
+     "molokhia",
+     "muluchija",
+     "mulukhiya mit rind",
+     "jutemalven eintopf"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "braised beef",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:U281142",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "jute leaves, cooked",
+     "grams": 120,
+     "reference": "usda:2709641"
+    },
+    {
+     "name": "olive oil",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:Q120000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "garlic",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:G490100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "choucroute cuisinee aux lardons",
+   "skip": "a single food: sauerkraut cooked with bacon, without its garnish"
+  },
+  {
+   "key": "gratin de legumes",
+   "names": {
+    "en": "Vegetable gratin",
+    "de": "Gemüsegratin"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "broccoli",
+   "aliases": {
+    "en": [
+     "gratin de legumes",
+     "baked vegetable gratin",
+     "vegetables au gratin",
+     "vegetable bake with cheese",
+     "cauliflower broccoli gratin"
+    ],
+    "de": [
+     "gemüse gratin",
+     "überbackenes gemüse",
+     "gemüseauflauf mit käse",
+     "gratiniertes gemüse",
+     "gemuesegratin"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked cauliflower",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:G311132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked broccoli",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:G312132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "zucchini",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:G582100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "béchamel",
+     "grams": 90,
+     "resolved": {
+      "id": "bls:X320243",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "gruyère",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:M305700",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "paella poulet fruit de mer",
+   "skip": "duplicate of the paella candidate in batch 11"
+  },
+  {
+   "key": "nouilles asiatiques instantanees",
+   "skip": "a single food: one packaged instant noodle product"
+  },
+  {
+   "key": "bouchee a la reine",
+   "names": {
+    "en": "Vol-au-vent with chicken",
+    "de": "Königinpastete"
+   },
+   "serving": {
+    "label": {
+     "en": "2 pastries",
+     "de": "2 Pasteten"
+    },
+    "count": 2
+   },
+   "artworkID": "pie",
+   "aliases": {
+    "en": [
+     "bouchée à la reine",
+     "bouchee a la reine",
+     "chicken vol au vent",
+     "vol au vent",
+     "chicken puff pastry shell",
+     "vol-au-vent"
+    ],
+    "de": [
+     "königinpastete mit hühnerragout",
+     "koeniginpastete",
+     "königin pastete",
+     "pastete mit ragout fin",
+     "blätterteigpastete mit hühnerfrikassee",
+     "vol au vent"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "puff pastry, baked",
+     "grams": 60,
+     "reference": "bls:D072062"
+    },
+    {
+     "name": "cooked chicken breast",
+     "grams": 70,
+     "resolved": {
+      "id": "bls:V416132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked mushrooms",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:K701172",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "béchamel",
+     "grams": 90,
+     "resolved": {
+      "id": "bls:X320243",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "heavy cream",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:M173800",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lemon juice",
+     "grams": 3,
+     "resolved": {
+      "id": "bls:F601600",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "burger au poisson",
+   "skip": "duplicate of the fish burger with saithe in this batch"
+  },
+  {
+   "key": "croissant au jambon fromage",
+   "names": {
+    "en": "Ham and cheese croissant",
+    "de": "Schinken-Käse-Croissant"
+   },
+   "serving": {
+    "label": {
+     "en": "1 piece",
+     "de": "1 Stück"
+    },
+    "count": 1
+   },
+   "artworkID": "croissant",
+   "aliases": {
+    "en": [
+     "croissant jambon fromage",
+     "ham cheese croissant",
+     "croissant with ham and cheese",
+     "ham & cheese croissant",
+     "baked ham and cheese croissant"
+    ],
+    "de": [
+     "schinken käse croissant",
+     "croissant mit schinken und käse",
+     "schinkencroissant",
+     "käse schinken croissant",
+     "croissant schinken käse"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "croissant",
+     "grams": 65,
+     "resolved": {
+      "id": "usda:2707678",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked ham",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:W424000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "béchamel",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:X320243",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "emmental",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:M304600",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "rouleau de printemps",
+   "names": {
+    "en": "Fresh spring rolls",
+    "de": "Sommerrollen"
+   },
+   "serving": {
+    "label": {
+     "en": "2 rolls",
+     "de": "2 Rollen"
+    },
+    "count": 2
+   },
+   "artworkID": "plate",
+   "aliases": {
+    "en": [
+     "summer rolls",
+     "rice paper rolls",
+     "vietnamese summer rolls",
+     "goi cuon",
+     "rouleaux de printemps",
+     "fresh shrimp rolls"
+    ],
+    "de": [
+     "sommerrolle",
+     "reispapierrollen",
+     "vietnamesische sommerrollen",
+     "goi cuon",
+     "frische frühlingsrollen",
+     "sommer rollen"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "rice paper",
+     "grams": 20,
+     "reference": "usda:2708166"
+    },
+    {
+     "name": "cooked rice noodles",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:C559032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked shrimp",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:T753132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lettuce",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:G105100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "carrot",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cucumber",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G520100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "mint",
+     "grams": 3,
+     "resolved": {
+      "id": "ciqual:11027",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "sandwich grec ou kebab",
+   "skip": "duplicate of the doner kebab candidate in batch 2"
+  },
+  {
+   "key": "sandwich baguette",
+   "names": {
+    "en": "Tuna baguette",
+    "de": "Thunfisch-Baguette"
+   },
+   "serving": {
+    "label": {
+     "en": "1 sandwich",
+     "de": "1 Sandwich"
+    },
+    "count": 1
+   },
+   "artworkID": "baguette",
+   "aliases": {
+    "en": [
+     "tuna baguette sandwich",
+     "tuna mayo baguette",
+     "tuna salad baguette",
+     "baguette with tuna",
+     "tuna sandwich baguette"
+    ],
+    "de": [
+     "thunfischbaguette",
+     "baguette mit thunfisch",
+     "thunfisch sandwich baguette",
+     "belegtes baguette mit thunfisch",
+     "thunfisch baguette mit ei"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "baguette",
+     "grams": 130,
+     "resolved": {
+      "id": "bls:B781200",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "canned tuna",
+     "grams": 50,
+     "resolved": {
+      "id": "usda:2706311",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "mayonnaise",
+     "grams": 25,
+     "resolved": {
+      "id": "usda:2710204",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lettuce",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:G105100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G561100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "boiled egg",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:E111132",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "sandwich panini",
+   "names": {
+    "en": "Prosciutto mozzarella panini",
+    "de": "Panini mit Rohschinken und Mozzarella"
+   },
+   "serving": {
+    "label": {
+     "en": "1 sandwich",
+     "de": "1 Sandwich"
+    },
+    "count": 1
+   },
+   "artworkID": "sandwich",
+   "aliases": {
+    "en": [
+     "panini",
+     "prosciutto panini",
+     "ham mozzarella panini",
+     "panini with prosciutto mozzarella and tomato",
+     "pannini prosciutto"
+    ],
+    "de": [
+     "panini",
+     "panini mit parmaschinken",
+     "panini schinken mozzarella",
+     "panini tomate mozzarella schinken",
+     "pannini mit rohschinken"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "ciabatta",
+     "grams": 110,
+     "resolved": {
+      "id": "cofid:11-969",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "prosciutto",
+     "grams": 30,
+     "resolved": {
+      "id": "usda:2705879",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "mozzarella",
+     "grams": 40,
+     "resolved": {
+      "id": "usda:2705722",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G561100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "olive oil",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:Q120000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "basil",
+     "grams": 2,
+     "resolved": {
+      "id": "bls:G061000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "gougere",
+   "names": {
+    "en": "Gougères",
+    "de": "Gougères (Käsewindbeutel)"
+   },
+   "serving": {
+    "label": {
+     "en": "3 pieces",
+     "de": "3 Stück"
+    },
+    "count": 3
+   },
+   "artworkID": "cheese",
+   "aliases": {
+    "en": [
+     "gougere",
+     "gougeres",
+     "cheese puffs",
+     "french cheese puffs",
+     "gruyere choux puffs"
+    ],
+    "de": [
+     "gougere",
+     "käsewindbeutel",
+     "käse windbeutel",
+     "brandteig käsebällchen",
+     "gougeres"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "wheat flour",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 12,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 25,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "gruyère",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:M305700",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "samoussa ou samossa ou brick garni",
+   "skip": "duplicate of the beef samosa and brick candidates in this batch"
+  },
+  {
+   "key": "sushi ou maki aux produits de la mer",
+   "skip": "duplicate of the sushi candidate in batch 20 and the catalogue sushi"
+  },
+  {
+   "key": "burritos au boeuf",
+   "skip": "duplicate of the beef burrito candidate in batch 2"
+  },
+  {
+   "key": "fajita au poulet",
+   "skip": "duplicate of the chicken fajitas candidate in batch 2"
+  },
+  {
+   "key": "burger au poulet",
+   "skip": "duplicate of the chicken burger candidate in batch 3"
+  },
+  {
+   "key": "brochette mixte de viande",
+   "skip": "duplicate of the meat skewer candidate in batch 12"
+  },
+  {
+   "key": "feuillete ou friand jambon fromage",
+   "names": {
+    "en": "Ham and cheese puff pastry",
+    "de": "Schinken-Käse-Blätterteigtasche"
+   },
+   "serving": {
+    "label": {
+     "en": "1 piece",
+     "de": "1 Stück"
+    },
+    "count": 1
+   },
+   "artworkID": "croissant",
+   "aliases": {
+    "en": [
+     "ham and cheese turnover",
+     "friand jambon fromage",
+     "feuilleté jambon fromage",
+     "ham cheese puff",
+     "ham and cheese pastry"
+    ],
+    "de": [
+     "schinken käse tasche",
+     "blätterteigtasche mit schinken und käse",
+     "schinken-käse-tasche",
+     "schinkenkäse blätterteig",
+     "blätterteig schinken käse"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "puff pastry",
+     "grams": 70,
+     "resolved": {
+      "id": "bls:D072000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked ham",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:W424000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "emmental",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:M304600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "béchamel",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:X320243",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "gnocchi a la pomme de terre",
+   "skip": "a single food: plain cooked potato gnocchi"
+  },
+  {
+   "key": "legumes farcis sauf tomate",
+   "names": {
+    "en": "Stuffed vegetables",
+    "de": "Gefülltes Gemüse"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "pepper",
+   "aliases": {
+    "en": [
+     "légumes farcis",
+     "stuffed zucchini and peppers",
+     "provencal stuffed vegetables",
+     "petits farcis",
+     "meat stuffed vegetables"
+    ],
+    "de": [
+     "gefüllte zucchini und paprika",
+     "gemüse gefüllt mit hackfleisch",
+     "petits farcis",
+     "gefülltes gemuese",
+     "provenzalisches gefülltes gemüse"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "zucchini",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:G582100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "red bell pepper",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:G543100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked mixed mince",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:U050132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked white rice",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:C352032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "breadcrumbs",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:B821000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "olive oil",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:Q120000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "parmesan",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:M306400",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "pan bagnat",
+   "names": {
+    "en": "Pan bagnat",
+    "de": "Pan Bagnat"
+   },
+   "serving": {
+    "label": {
+     "en": "1 sandwich",
+     "de": "1 Sandwich"
+    },
+    "count": 1
+   },
+   "artworkID": "sandwich",
+   "aliases": {
+    "en": [
+     "pan bagna",
+     "nicoise sandwich",
+     "niçoise sandwich",
+     "pain bagnat",
+     "tuna nicoise roll"
+    ],
+    "de": [
+     "pan bagna",
+     "nizza sandwich",
+     "thunfisch nicoise brötchen",
+     "pain bagnat",
+     "sandwich niçoise"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "bread roll",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:B511000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "canned tuna in oil",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:T121702",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "boiled egg",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:E111132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:G561100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "black olives",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2710090",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "anchovies in oil",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:T104702",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lettuce",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:G105100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "green bell pepper",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G541100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "olive oil",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:Q120000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "tomate a la provencale",
+   "names": {
+    "en": "Tomatoes provençale",
+    "de": "Tomaten auf provenzalische Art"
+   },
+   "serving": {
+    "label": {
+     "en": "1 side portion",
+     "de": "1 Beilage"
+    },
+    "count": 1
+   },
+   "artworkID": "tomato",
+   "aliases": {
+    "en": [
+     "tomates provençales",
+     "provencal tomatoes",
+     "baked tomatoes with breadcrumbs and garlic",
+     "tomato provencale",
+     "tomatoes provencal"
+    ],
+    "de": [
+     "provenzalische tomaten",
+     "tomaten provenzalisch",
+     "überbackene tomaten mit kräutern",
+     "tomates provençales",
+     "gebackene knoblauchtomaten"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "tomato",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:G561100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "breadcrumbs",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:B821000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "olive oil",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:Q120000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "garlic",
+     "grams": 3,
+     "resolved": {
+      "id": "bls:G490100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "parsley",
+     "grams": 4,
+     "resolved": {
+      "id": "usda:2709796",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "carpaccio de saumon avec marinade",
+   "names": {
+    "en": "Salmon carpaccio",
+    "de": "Lachscarpaccio"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "fish",
+   "aliases": {
+    "en": [
+     "carpaccio de saumon",
+     "marinated salmon carpaccio",
+     "salmon carpacio",
+     "raw salmon carpaccio",
+     "carpaccio of salmon"
+    ],
+    "de": [
+     "lachs carpaccio",
+     "carpaccio vom lachs",
+     "mariniertes lachscarpaccio",
+     "lachs-carpaccio",
+     "lachscarpacio"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "raw salmon",
+     "grams": 100,
+     "resolved": {
+      "id": "cofid:16-356",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "olive oil",
+     "grams": 12,
+     "resolved": {
+      "id": "bls:Q120000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lemon juice",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:F601600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "capers",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:G012902",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "rocket",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:G130100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "dill",
+     "grams": 2,
+     "resolved": {
+      "id": "ciqual:11093",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "carpaccio de boeuf",
+   "names": {
+    "en": "Beef carpaccio",
+    "de": "Rindercarpaccio"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "meat",
+   "aliases": {
+    "en": [
+     "carpaccio",
+     "carpaccio de boeuf",
+     "beef carpacio",
+     "carpaccio with parmesan and rocket",
+     "raw beef carpaccio"
+    ],
+    "de": [
+     "carpaccio vom rind",
+     "rinder carpaccio",
+     "rindfleisch carpaccio",
+     "carpaccio mit parmesan und rucola",
+     "rindercarpacio"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "beef fillet, raw",
+     "grams": 100,
+     "reference": "bls:U211100"
+    },
+    {
+     "name": "olive oil",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:Q120000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "parmesan",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:M306400",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "rocket",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G130100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lemon juice",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:F601600",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "brochette de poisson",
+   "names": {
+    "en": "Fish skewers",
+    "de": "Fischspieße"
+   },
+   "serving": {
+    "label": {
+     "en": "2 skewers",
+     "de": "2 Spieße"
+    },
+    "count": 2
+   },
+   "artworkID": "fish",
+   "aliases": {
+    "en": [
+     "fish kebabs",
+     "brochette de poisson",
+     "grilled fish skewers",
+     "fish brochettes",
+     "salmon and cod skewers"
+    ],
+    "de": [
+     "fischspiess",
+     "fischspieß",
+     "gegrillte fischspieße",
+     "fisch schaschlik",
+     "grillspieße mit fisch"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked cod",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:T204172",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked salmon",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:T410072",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "red bell pepper",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G543100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "olive oil",
+     "grams": 6,
+     "resolved": {
+      "id": "bls:Q120000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lemon juice",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:F601600",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "brochette de crevettes",
+   "names": {
+    "en": "Shrimp skewers",
+    "de": "Garnelenspieße"
+   },
+   "serving": {
+    "label": {
+     "en": "2 skewers",
+     "de": "2 Spieße"
+    },
+    "count": 2
+   },
+   "artworkID": "shrimp",
+   "aliases": {
+    "en": [
+     "prawn skewers",
+     "shrimp kebabs",
+     "grilled shrimp skewers",
+     "brochette de crevettes",
+     "garlic prawn skewers"
+    ],
+    "de": [
+     "garnelenspiess",
+     "garnelenspieß",
+     "gegrillte garnelenspieße",
+     "shrimpsspieße",
+     "scampispieße"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked shrimp",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:T753132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "red bell pepper",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G543100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "olive oil",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:Q120000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "garlic",
+     "grams": 3,
+     "resolved": {
+      "id": "bls:G490100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lemon juice",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:F601600",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "brochette d agneau",
+   "skip": "duplicate of the lamb skewer with vegetables candidate in batch 13"
+  },
+  {
+   "key": "beignet de viande",
+   "skip": "a category of battered fried meat, poultry or fish, not one dish"
+  },
+  {
+   "key": "beignet de legumes",
+   "names": {
+    "en": "Vegetable fritters",
+    "de": "Gemüse im Backteig"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "plate",
+   "aliases": {
+    "en": [
+     "beignets de légumes",
+     "battered vegetables",
+     "fried vegetable fritters",
+     "vegetable beignets",
+     "deep fried battered vegetables"
+    ],
+    "de": [
+     "gemüse in backteig",
+     "frittiertes gemüse im teig",
+     "gemüsebeignets",
+     "gemüse beignets",
+     "ausgebackenes gemüse"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "zucchini",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:G582100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "aubergine",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G510100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cauliflower",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G311100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tempura batter, fried",
+     "grams": 35,
+     "resolved": {
+      "id": "mext:01172",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "brick a l oeuf",
+   "names": {
+    "en": "Brik with egg",
+    "de": "Brik mit Ei"
+   },
+   "serving": {
+    "label": {
+     "en": "1 piece",
+     "de": "1 Stück"
+    },
+    "count": 1
+   },
+   "artworkID": "stuffed-flatbread",
+   "aliases": {
+    "en": [
+     "brik",
+     "brick à l'oeuf",
+     "tunisian brik",
+     "brik a l'oeuf",
+     "egg brik with tuna",
+     "brik pastry with egg"
+    ],
+    "de": [
+     "brik",
+     "tunesische brik",
+     "brick mit ei",
+     "brik mit ei und thunfisch",
+     "brik teigtasche mit ei"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "filo pastry",
+     "grams": 25,
+     "resolved": {
+      "id": "ciqual:23445",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 55,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "canned tuna",
+     "grams": 25,
+     "resolved": {
+      "id": "usda:2706311",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 12,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "parsley",
+     "grams": 3,
+     "resolved": {
+      "id": "usda:2709796",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "capers",
+     "grams": 3,
+     "resolved": {
+      "id": "bls:G012902",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "samossa ou samoussa ou brick au boeuf",
+   "names": {
+    "en": "Beef samosas",
+    "de": "Samosas mit Rindfleisch"
+   },
+   "serving": {
+    "label": {
+     "en": "3 pieces",
+     "de": "3 Stück"
+    },
+    "count": 3
+   },
+   "artworkID": "dumpling",
+   "aliases": {
+    "en": [
+     "beef samosa",
+     "samoussa au boeuf",
+     "meat samosas",
+     "samosa with beef",
+     "beef samoosa",
+     "beef samoussas"
+    ],
+    "de": [
+     "rindfleisch samosas",
+     "samosa mit rindfleisch",
+     "samosas mit hackfleisch",
+     "fleisch samosas",
+     "samosa rind"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "filo pastry",
+     "grams": 45,
+     "resolved": {
+      "id": "ciqual:23445",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked ground beef",
+     "grams": 45,
+     "resolved": {
+      "id": "bls:U010182",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "green peas",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:G760132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 12,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "curry powder",
+     "grams": 2,
+     "resolved": {
+      "id": "ciqual:11005",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "brick a la pomme de terre",
+   "names": {
+    "en": "Potato brik",
+    "de": "Brik mit Kartoffeln"
+   },
+   "serving": {
+    "label": {
+     "en": "1 piece",
+     "de": "1 Stück"
+    },
+    "count": 1
+   },
+   "artworkID": "stuffed-flatbread",
+   "aliases": {
+    "en": [
+     "brick à la pomme de terre",
+     "potato brick",
+     "tunisian potato brik",
+     "brik with potato",
+     "potato filo parcel"
+    ],
+    "de": [
+     "kartoffel brik",
+     "brik mit kartoffelfüllung",
+     "brick mit kartoffeln",
+     "tunesische kartoffel brik",
+     "kartoffelbrik"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "filo pastry",
+     "grams": 25,
+     "resolved": {
+      "id": "ciqual:23445",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "boiled potatoes",
+     "grams": 70,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "parsley",
+     "grams": 3,
+     "resolved": {
+      "id": "usda:2709796",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 12,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "brochette de porc",
+   "names": {
+    "en": "Pork skewers",
+    "de": "Schweinefleischspieße"
+   },
+   "serving": {
+    "label": {
+     "en": "2 skewers",
+     "de": "2 Spieße"
+    },
+    "count": 2
+   },
+   "artworkID": "meat",
+   "aliases": {
+    "en": [
+     "pork kebabs",
+     "grilled pork skewers",
+     "brochette de porc",
+     "pork brochettes",
+     "pork shish kebab"
+    ],
+    "de": [
+     "schweinespieße",
+     "schweinefleischspiess",
+     "schweinespieß",
+     "schaschlik vom schwein",
+     "gegrillte schweinespieße"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "grilled pork tenderloin",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:U611172",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "red bell pepper",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:G543100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "olive oil",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:Q120000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "brochette de boeuf",
+   "skip": "duplicate of the beef skewer candidate in batch 12"
+  },
+  {
+   "key": "brochette de volaille",
+   "names": {
+    "en": "Chicken skewers",
+    "de": "Hähnchenspieße"
+   },
+   "serving": {
+    "label": {
+     "en": "2 skewers",
+     "de": "2 Spieße"
+    },
+    "count": 2
+   },
+   "artworkID": "poultry",
+   "aliases": {
+    "en": [
+     "chicken kebabs",
+     "grilled chicken skewers",
+     "brochette de volaille",
+     "chicken brochettes",
+     "chicken shish kebab"
+    ],
+    "de": [
+     "hähnchenspiess",
+     "hähnchenspieß",
+     "hühnerspieße",
+     "geflügelspieße",
+     "haehnchenspiesse",
+     "gegrillte hähnchenspieße"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "grilled chicken breast",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:V4A6172",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "red bell pepper",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:G543100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "olive oil",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:Q120000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "salade verte",
+   "skip": "a single food: plain undressed lettuce"
+  },
+  {
+   "key": "salade de pommes de terre",
+   "names": {
+    "en": "Potato salad with vinaigrette",
+    "de": "Kartoffelsalat mit Vinaigrette"
+   },
+   "serving": {
+    "label": {
+     "en": "1 side portion",
+     "de": "1 Beilage"
+    },
+    "count": 1
+   },
+   "artworkID": "potato",
+   "aliases": {
+    "en": [
+     "french potato salad",
+     "salade de pommes de terre",
+     "potato salad with french dressing",
+     "vinaigrette potato salad",
+     "potato salad with shallots"
+    ],
+    "de": [
+     "französischer kartoffelsalat",
+     "kartoffelsalat mit essig und öl",
+     "kartoffelsalat französische art",
+     "kartoffelsalat mit schalotten",
+     "kartoffelsalat vinaigrette"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "boiled potatoes",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vinaigrette",
+     "grams": 25,
+     "resolved": {
+      "id": "ciqual:11108",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "shallot",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G485100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "parsley",
+     "grams": 3,
+     "resolved": {
+      "id": "usda:2709796",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "wrap vegetarien fromage crudites",
+   "names": {
+    "en": "Cheese and salad wrap",
+    "de": "Käse-Rohkost-Wrap"
+   },
+   "serving": {
+    "label": {
+     "en": "1 wrap",
+     "de": "1 Wrap"
+    },
+    "count": 1
+   },
+   "artworkID": "burrito",
+   "aliases": {
+    "en": [
+     "vegetarian cheese wrap",
+     "cheese salad wrap",
+     "veggie cheese wrap",
+     "wrap with cheese and raw vegetables",
+     "cheese and veg wrap"
+    ],
+    "de": [
+     "vegetarischer wrap mit käse",
+     "käse wrap",
+     "käsewrap mit rohkost",
+     "wrap mit käse und gemüse",
+     "veggie wrap mit käse"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "flour tortilla",
+     "grams": 65,
+     "resolved": {
+      "id": "usda:2707824",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cheddar",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:M303600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cream cheese",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2705760",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lettuce",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G105100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G561100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cucumber",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G520100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "carrot",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "wrap poulet crudites",
+   "skip": "duplicate of the chicken breast wrap candidate in batch 13"
+  },
+  {
+   "key": "wrap jambon crudites",
+   "skip": "duplicate of the ham sandwich wrap candidate in batch 19"
+  },
+  {
+   "key": "soupe chorba frik",
+   "names": {
+    "en": "Chorba frik",
+    "de": "Chorba Frik"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "soup",
+   "aliases": {
+    "en": [
+     "chorba",
+     "shorba frik",
+     "algerian chorba",
+     "chorba frik soup",
+     "lamb and freekeh soup",
+     "chorba frike"
+    ],
+    "de": [
+     "chorba",
+     "schorba frik",
+     "algerische chorba",
+     "chorba suppe",
+     "lammsuppe mit grünweizen",
+     "chorba frike"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "broth",
+     "grams": 220,
+     "resolved": {
+      "id": "usda:2707132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "roast lamb shoulder",
+     "grams": 40,
+     "resolved": {
+      "id": "cofid:18-179",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked bulgur",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:C119132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked chickpeas",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:G770432",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "canned tomatoes",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G568900",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato paste",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:R160000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "olive oil",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:Q120000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cilantro",
+     "grams": 3,
+     "resolved": {
+      "id": "usda:2709782",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "mahi mahi",
+   "skip": "a single food: cooked mahi-mahi"
+  },
+  {
+   "key": "saumon fume",
+   "skip": "a single food: smoked salmon"
+  },
+  {
+   "key": "hareng fume",
+   "skip": "a single food: smoked herring"
+  },
+  {
+   "key": "anchois",
+   "skip": "a single food: anchovy fillets in oil"
+  },
+  {
+   "key": "scotch pancakes",
+   "names": {
+    "en": "Scotch pancakes",
+    "de": "Schottische Pfannkuchen"
+   },
+   "serving": {
+    "label": {
+     "en": "3 pancakes",
+     "de": "3 Pfannkuchen"
+    },
+    "count": 3
+   },
+   "artworkID": "pancakes",
+   "aliases": {
+    "en": [
+     "drop scones",
+     "scotch pancake",
+     "dropped scones",
+     "griddle scones",
+     "scottish pancakes"
+    ],
+    "de": [
+     "scotch pancakes",
+     "schottische pancakes",
+     "kleine dicke pfannkuchen",
+     "drop scones",
+     "schottische eierkuchen"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "wheat flour",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 8,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "nut croquettes fried in sunflower oil",
+   "names": {
+    "en": "Nut croquettes",
+    "de": "Nusskroketten"
+   },
+   "serving": {
+    "label": {
+     "en": "3 pieces",
+     "de": "3 Stück"
+    },
+    "count": 3
+   },
+   "artworkID": "falafel",
+   "aliases": {
+    "en": [
+     "nut croquette",
+     "fried nut croquettes",
+     "vegetarian nut croquettes",
+     "nut cutlets",
+     "nut rissoles"
+    ],
+    "de": [
+     "nusskrokette",
+     "nuss kroketten",
+     "gebratene nusskroketten",
+     "nussbratlinge",
+     "nuss-bratlinge"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "walnuts",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:H120400",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cashews",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:H170610",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "breadcrumbs",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:B821000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sunflower oil",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2710192",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "nut croquettes fried in vegetable oil",
+   "skip": "duplicate of the nut croquettes fried in sunflower oil in this batch"
+  },
+  {
+   "key": "beef stroganoff",
+   "names": {
+    "en": "Beef Stroganoff",
+    "de": "Bœuf Stroganoff"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "meat",
+   "aliases": {
+    "en": [
+     "beef stroganov",
+     "boeuf stroganoff",
+     "stroganoff",
+     "beef strogonoff",
+     "beef stroganoff without rice"
+    ],
+    "de": [
+     "boeuf stroganoff",
+     "rindergeschnetzeltes stroganoff",
+     "bœuf stroganow",
+     "stroganoff",
+     "boef stroganoff",
+     "rind stroganoff"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "beef steak, pan-fried",
+     "grams": 140,
+     "resolved": {
+      "id": "bls:U131182",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked mushrooms",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:K701172",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sour cream",
+     "grams": 60,
+     "resolved": {
+      "id": "usda:2705614",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "paprika",
+     "grams": 2,
+     "resolved": {
+      "id": "ciqual:11049",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "lamb s heart casserole",
+   "names": {
+    "en": "Lamb's heart casserole",
+    "de": "Geschmortes Lammherz"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "meat-on-bone",
+   "aliases": {
+    "en": [
+     "lambs heart casserole",
+     "braised lamb hearts",
+     "lamb heart stew",
+     "stewed lamb hearts",
+     "lamb's heart stew"
+    ],
+    "de": [
+     "lammherz geschmort",
+     "lammherzen geschmort",
+     "lammherz ragout",
+     "geschmorte lammherzen",
+     "lammherz eintopf"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "lamb heart, braised",
+     "grams": 140,
+     "reference": "bls:V515142"
+    },
+    {
+     "name": "onion",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked carrot",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G620132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "boiled potatoes",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "gravy",
+     "grams": 60,
+     "resolved": {
+      "id": "usda:2707149",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "chow mein pork and chicken",
+   "names": {
+    "en": "Pork and chicken chow mein",
+    "de": "Gebratene Nudeln mit Schweinefleisch und Hähnchen"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "noodles",
+   "aliases": {
+    "en": [
+     "pork and chicken chowmein",
+     "chow mein with pork and chicken",
+     "combination chow mein",
+     "special chow mein",
+     "mixed meat chow mein"
+    ],
+    "de": [
+     "gebratene nudeln mit schwein und huhn",
+     "chow mein mit schweinefleisch und hähnchen",
+     "gebratene nudeln gemischt",
+     "bratnudeln mit schwein und hähnchen",
+     "chow mein gemischt"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked egg noodles",
+     "grams": 180,
+     "resolved": {
+      "id": "bls:E432032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "roast pork",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:Y352212",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked chicken breast",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:V416132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "bean sprouts",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:H650100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "napa cabbage",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G321100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "soy sauce",
+     "grams": 12,
+     "resolved": {
+      "id": "bls:R143000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 8,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "shish kebabs with onions and peppers",
+   "skip": "duplicate of the lamb skewer with vegetables candidate in batch 13"
+  },
+  {
+   "key": "ヒーフカレー",
+   "skip": "already in the catalogue as Japanese curry rice (Japanese beef curry)"
+  },
+  {
+   "key": "きょうさ",
+   "skip": "already in the catalogue as Gyoza"
+  },
+  {
+   "key": "えひクラタン",
+   "names": {
+    "en": "Shrimp macaroni gratin",
+    "de": "Garnelen-Makkaroni-Gratin"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "shrimp",
+   "aliases": {
+    "en": [
+     "ebi gratin",
+     "shrimp gratin",
+     "prawn macaroni gratin",
+     "japanese shrimp gratin",
+     "shrimp mac gratin"
+    ],
+    "de": [
+     "ebi gratin",
+     "garnelengratin",
+     "makkaronigratin mit garnelen",
+     "garnelen gratin",
+     "nudelgratin mit garnelen"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked macaroni",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:E401032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked shrimp",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:T753132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "béchamel",
+     "grams": 130,
+     "resolved": {
+      "id": "bls:X320243",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked mushrooms",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:K701172",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "gouda",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:M402600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "breadcrumbs",
+     "grams": 3,
+     "resolved": {
+      "id": "bls:B821000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "粉末タイフ",
+   "skip": "an instant soup powder, not a dish"
+  },
+  {
+   "key": "コーンクリームスーフ",
+   "names": {
+    "en": "Cream of corn soup",
+    "de": "Maiscremesuppe"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "corn",
+   "aliases": {
+    "en": [
+     "corn cream soup",
+     "creamed corn soup",
+     "corn potage",
+     "japanese corn soup",
+     "cream corn soup"
+    ],
+    "de": [
+     "mais cremesuppe",
+     "maissuppe",
+     "cremige maissuppe",
+     "maiscreme suppe",
+     "japanische maissuppe"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked corn",
+     "grams": 70,
+     "resolved": {
+      "id": "bls:G570132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "broth",
+     "grams": 80,
+     "resolved": {
+      "id": "usda:2707132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "wheat flour",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "heavy cream",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:M173800",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "冷凍",
+   "skip": "a frozen cream croquette before frying; cream croquettes are drafted in batch 18"
+  },
+  {
+   "key": "ヒーフシチュー",
+   "names": {
+    "en": "Japanese beef stew",
+    "de": "Japanischer Rindfleischeintopf"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "curry",
+   "aliases": {
+    "en": [
+     "beef stew japanese style",
+     "bifu shichu",
+     "japanese demi glace beef stew",
+     "beef stew with demi-glace",
+     "japanese style beef stew"
+    ],
+    "de": [
+     "rindfleischeintopf japanische art",
+     "japanisches beef stew",
+     "rinderschmortopf mit demi-glace",
+     "japanisches rinderragout",
+     "bifu shichu"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "beef brisket, braised",
+     "grams": 100,
+     "reference": "bls:U255142"
+    },
+    {
+     "name": "boiled potatoes",
+     "grams": 70,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked carrot",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G620132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "gravy",
+     "grams": 100,
+     "resolved": {
+      "id": "usda:2707149",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "red wine",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2710688",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "wheat flour",
+     "grams": 6,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "しゅうまい",
+   "skip": "already in the catalogue as Siu mai"
+  },
+  {
+   "key": "えひヒラフ",
+   "names": {
+    "en": "Shrimp pilaf",
+    "de": "Garnelen-Pilaw"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "rice",
+   "aliases": {
+    "en": [
+     "ebi pilaf",
+     "shrimp pilau",
+     "prawn pilaf",
+     "japanese shrimp pilaf",
+     "shrimp pilaff"
+    ],
+    "de": [
+     "garnelenpilaw",
+     "garnelen pilaf",
+     "reispfanne mit garnelen",
+     "ebi pilaf",
+     "garnelenreis mit gemüse"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked white rice",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:C352032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked shrimp",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:T753132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "green peas",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G760132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "carrot",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sweetcorn",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G570100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "ミートホール",
+   "skip": "a single food: fried meatballs (meatballs are in the vocabulary)"
+  },
+  {
+   "key": "ホテトコロッケ",
+   "names": {
+    "en": "Japanese potato croquettes",
+    "de": "Japanische Kartoffelkroketten (Korokke)"
+   },
+   "serving": {
+    "label": {
+     "en": "2 croquettes",
+     "de": "2 Kroketten"
+    },
+    "count": 2
+   },
+   "artworkID": "potato",
+   "aliases": {
+    "en": [
+     "korokke",
+     "potato korokke",
+     "japanese croquette",
+     "potato croquette with beef",
+     "korroke"
+    ],
+    "de": [
+     "korokke",
+     "kartoffel korokke",
+     "japanische krokette",
+     "kartoffelkrokette mit hackfleisch",
+     "japanische kroketten"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "boiled potatoes",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked ground beef",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:U010182",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "breadcrumbs",
+     "grams": 12,
+     "resolved": {
+      "id": "bls:B821000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "wheat flour",
+     "grams": 4,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 8,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 16,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "いかフライ",
+   "skip": "a single food: breaded fried squid (fried calamari is in the vocabulary)"
+  },
+  {
+   "key": "えひフライ",
+   "names": {
+    "en": "Ebi fry",
+    "de": "Ebi Furai (panierte Garnelen)"
+   },
+   "serving": {
+    "label": {
+     "en": "3 shrimp",
+     "de": "3 Garnelen"
+    },
+    "count": 3
+   },
+   "artworkID": "fried-shrimp",
+   "aliases": {
+    "en": [
+     "ebi furai",
+     "breaded fried shrimp",
+     "japanese fried prawns",
+     "panko shrimp",
+     "fried shrimp japanese style"
+    ],
+    "de": [
+     "ebi fry",
+     "ebi furai",
+     "panierte garnelen",
+     "frittierte garnelen in panko",
+     "garnelen in panko"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked shrimp",
+     "grams": 75,
+     "resolved": {
+      "id": "bls:T753132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "breadcrumbs",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:B821000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "wheat flour",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 12,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "白身フライ",
+   "skip": "a single food: breaded fried white fish (battered fish is in the vocabulary)"
+  },
+  {
+   "key": "メンチカツ",
+   "names": {
+    "en": "Menchi katsu",
+    "de": "Menchi Katsu"
+   },
+   "serving": {
+    "label": {
+     "en": "1 piece",
+     "de": "1 Stück"
+    },
+    "count": 1
+   },
+   "artworkID": "meat",
+   "aliases": {
+    "en": [
+     "menchikatsu",
+     "minchi katsu",
+     "breaded minced meat cutlet",
+     "japanese ground meat cutlet",
+     "mince katsu"
+    ],
+    "de": [
+     "menchikatsu",
+     "panierte hackfleischfrikadelle",
+     "japanisches hackschnitzel",
+     "paniertes hacksteak",
+     "minchi katsu"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked mixed mince",
+     "grams": 75,
+     "resolved": {
+      "id": "bls:U050132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "breadcrumbs",
+     "grams": 18,
+     "resolved": {
+      "id": "bls:B821000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "wheat flour",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 11,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "しょうゆ漬",
+   "skip": "a preserve: matsumae-zuke soy pickle"
+  },
+  {
+   "key": "青菜の白和え",
+   "names": {
+    "en": "Spinach shiraae",
+    "de": "Shiraae mit Spinat"
+   },
+   "serving": {
+    "label": {
+     "en": "1 side portion",
+     "de": "1 Beilage"
+    },
+    "count": 1
+   },
+   "artworkID": "greens",
+   "aliases": {
+    "en": [
+     "shira ae",
+     "shiraae",
+     "spinach with tofu dressing",
+     "greens with mashed tofu",
+     "spinach shira-ae"
+    ],
+    "de": [
+     "shira ae",
+     "shiraae",
+     "spinat mit tofu dressing",
+     "spinat in tofusauce",
+     "blattgemüse mit tofu"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked spinach",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:G210132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "firm tofu",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:H861000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked carrot",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G620132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sesame seeds",
+     "grams": 5,
+     "resolved": {
+      "id": "usda:2707586",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 4,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "soy sauce",
+     "grams": 4,
+     "resolved": {
+      "id": "bls:R143000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "いんけんのこま和え",
+   "names": {
+    "en": "Green beans goma-ae",
+    "de": "Grüne Bohnen Goma-ae"
+   },
+   "serving": {
+    "label": {
+     "en": "1 side portion",
+     "de": "1 Beilage"
+    },
+    "count": 1
+   },
+   "artworkID": "greens",
+   "aliases": {
+    "en": [
+     "green beans with sesame dressing",
+     "ingen no goma ae",
+     "gomaae green beans",
+     "sesame green beans",
+     "goma ae"
+    ],
+    "de": [
+     "grüne bohnen mit sesam",
+     "bohnen mit sesamdressing",
+     "goma ae",
+     "gomaae bohnen",
+     "sesambohnen"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "green beans",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:G710132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sesame seeds",
+     "grams": 6,
+     "resolved": {
+      "id": "usda:2707586",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 4,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "soy sauce",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:R143000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "わかめとねきの酢みそ和え",
+   "names": {
+    "en": "Wakame and spring onion nuta",
+    "de": "Wakame mit Frühlingszwiebeln in Essig-Miso"
+   },
+   "serving": {
+    "label": {
+     "en": "1 side portion",
+     "de": "1 Beilage"
+    },
+    "count": 1
+   },
+   "artworkID": "greens",
+   "aliases": {
+    "en": [
+     "nuta",
+     "wakame nuta",
+     "wakame with vinegar miso",
+     "wakame and scallion with sumiso",
+     "negi wakame nuta"
+    ],
+    "de": [
+     "nuta",
+     "wakame nuta",
+     "wakame mit miso dressing",
+     "frühlingszwiebeln mit essig miso",
+     "wakame salat mit miso"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "wakame",
+     "grams": 30,
+     "resolved": {
+      "id": "mext:09039",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "spring onion",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G482100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "miso",
+     "grams": 12,
+     "resolved": {
+      "id": "ciqual:20916",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "rice vinegar",
+     "grams": 8,
+     "resolved": {
+      "id": "mext:17016",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 5,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "紅白なます",
+   "names": {
+    "en": "Kohaku namasu",
+    "de": "Kohaku Namasu"
+   },
+   "serving": {
+    "label": {
+     "en": "1 side portion",
+     "de": "1 Beilage"
+    },
+    "count": 1
+   },
+   "artworkID": "carrot",
+   "aliases": {
+    "en": [
+     "namasu",
+     "daikon and carrot namasu",
+     "pickled daikon and carrot salad",
+     "kouhaku namasu",
+     "red and white namasu"
+    ],
+    "de": [
+     "namasu",
+     "rettich karotten salat",
+     "eingelegter rettich mit karotte",
+     "japanischer rettichsalat",
+     "kohaku namasu salat"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "daikon",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:G680100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "carrot",
+     "grams": 12,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "rice vinegar",
+     "grams": 12,
+     "resolved": {
+      "id": "mext:17016",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 4,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "とん汁",
+   "names": {
+    "en": "Tonjiru",
+    "de": "Tonjiru"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "soup",
+   "aliases": {
+    "en": [
+     "butajiru",
+     "pork miso soup",
+     "pork and vegetable miso soup",
+     "ton jiru"
+    ],
+    "de": [
+     "butajiru",
+     "miso suppe mit schweinefleisch",
+     "schweinefleisch miso suppe",
+     "ton jiru",
+     "misosuppe mit schwein und gemüse"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "dashi",
+     "grams": 250,
+     "resolved": {
+      "id": "mext:17021",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked pork belly",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:U57A172",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "daikon",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G680100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "carrot",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "burdock, cooked",
+     "grams": 10,
+     "reference": "usda:2709886"
+    },
+    {
+     "name": "firm tofu",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:H861000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "miso",
+     "grams": 12,
+     "resolved": {
+      "id": "ciqual:20916",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "spring onion",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:G482100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  }
+ ]
+}

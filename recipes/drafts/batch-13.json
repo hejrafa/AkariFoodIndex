@@ -1,0 +1,4502 @@
+{
+ "batch": 13,
+ "drafted": "2026-10-01",
+ "drafter": "Claude in the Akari Claude Code session",
+ "dishes": [
+  {
+   "key": "pork ragout",
+   "names": {
+    "en": "Pork ragout",
+    "de": "Schweineragout"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "curry",
+   "aliases": {
+    "en": [
+     "pork stew",
+     "braised pork ragout",
+     "pork ragù"
+    ],
+    "de": [
+     "schweinefleischragout",
+     "ragout vom schwein",
+     "schweinsragout",
+     "schweine ragout"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "pork breast tip, braised without fat",
+     "grams": 170,
+     "resolved": {
+      "id": "bls:U651142",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "carrot",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "gravy",
+     "grams": 60,
+     "resolved": {
+      "id": "usda:2707149",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "pork ragout with vegetables",
+   "names": {
+    "en": "Pork ragout with vegetables",
+    "de": "Schweineragout mit Gemüse"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "curry",
+   "aliases": {
+    "en": [
+     "pork stew with vegetables",
+     "pork and vegetable ragout",
+     "pork ragout with carrots and peas"
+    ],
+    "de": [
+     "schweinefleischragout mit gemüse",
+     "gemüse schweineragout",
+     "schweineragout mit karotten und erbsen",
+     "schweinsragout mit gemüse"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "pork breast tip, braised without fat",
+     "grams": 140,
+     "resolved": {
+      "id": "bls:U651142",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "carrot",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "green peas",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G760132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "gravy",
+     "grams": 60,
+     "resolved": {
+      "id": "usda:2707149",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "schweinepfeffer savoury pork goulash",
+   "names": {
+    "en": "Peppered pork stew",
+    "de": "Schweinepfeffer"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "curry",
+   "aliases": {
+    "en": [
+     "schweinepfeffer",
+     "pork pepper stew",
+     "pork in red wine pepper sauce",
+     "savoury pork goulash"
+    ],
+    "de": [
+     "schweinspfeffer",
+     "pfeffer vom schwein",
+     "schweinepfeffer mit rotwein",
+     "schweine pfeffer"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "pork goulash (shoulder strips) braised without fat",
+     "grams": 160,
+     "resolved": {
+      "id": "bls:U554142",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "red wine",
+     "grams": 40,
+     "resolved": {
+      "id": "usda:2710688",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "smoked streaky bacon",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:W411300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "gravy",
+     "grams": 60,
+     "resolved": {
+      "id": "usda:2707149",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 8,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "pork heart ragout",
+   "names": {
+    "en": "Pork heart ragout",
+    "de": "Schweineherzragout"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "curry",
+   "aliases": {
+    "en": [
+     "pork heart stew",
+     "braised pork heart",
+     "heart ragout"
+    ],
+    "de": [
+     "schweineherz ragout",
+     "herzragout vom schwein",
+     "geschmortes schweineherz",
+     "schweinsherzragout"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "pork heart, braised without fat",
+     "grams": 160,
+     "resolved": {
+      "id": "bls:V513142",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "carrot",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "gravy",
+     "grams": 80,
+     "resolved": {
+      "id": "usda:2707149",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 8,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "pork brain with egg",
+   "names": {
+    "en": "Pork brain with egg",
+    "de": "Schweinehirn mit Ei"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "egg",
+   "aliases": {
+    "en": [
+     "pork brains and eggs",
+     "brain with scrambled egg",
+     "pork brain with scrambled eggs"
+    ],
+    "de": [
+     "hirn mit ei vom schwein",
+     "schweinehirn mit rührei",
+     "gebratenes schweinehirn mit ei",
+     "schweinshirn mit ei"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "pork brain, boiled",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:V523132",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 100,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "pork liver floured",
+   "skip": "a cooking-method variant of fried pork liver"
+  },
+  {
+   "key": "palatine pork liver dumplings",
+   "names": {
+    "en": "Palatinate liver dumplings",
+    "de": "Pfälzer Leberknödel"
+   },
+   "serving": {
+    "label": {
+     "en": "2 dumplings",
+     "de": "2 Knödel"
+    },
+    "count": 2
+   },
+   "artworkID": "dumpling",
+   "aliases": {
+    "en": [
+     "liver dumplings",
+     "leberknödel",
+     "pork liver dumplings",
+     "palatine liver dumplings"
+    ],
+    "de": [
+     "leberknödel",
+     "leberknoedel",
+     "pfälzer lewwerknepp",
+     "leberklöße",
+     "leberknödel pfälzer art"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "pork liver, raw",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:V533100",
+      "via": "verified"
+     }
+    },
+    {
+     "name": "cooked ground pork",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:U020182",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "bread roll",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:B511000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 25,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "parsley",
+     "grams": 3,
+     "resolved": {
+      "id": "usda:2709796",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "pork stomach stuffed",
+   "names": {
+    "en": "Palatinate stuffed pork stomach",
+    "de": "Pfälzer Saumagen"
+   },
+   "serving": {
+    "label": {
+     "en": "2 slices",
+     "de": "2 Scheiben"
+    },
+    "count": 2
+   },
+   "artworkID": "meat",
+   "aliases": {
+    "en": [
+     "saumagen",
+     "stuffed pig stomach",
+     "palatinate saumagen",
+     "stuffed pork stomach"
+    ],
+    "de": [
+     "saumagen",
+     "gefüllter saumagen",
+     "saumagen gefüllt",
+     "pfälzer saumage",
+     "saumaache"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "roast pork",
+     "grams": 90,
+     "resolved": {
+      "id": "bls:Y352212",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "boiled potatoes",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "pork sausages",
+     "grams": 60,
+     "resolved": {
+      "id": "cofid:19-509",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "carrot",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "pork belly with sauerkraut with apple",
+   "names": {
+    "en": "Boiled pork belly with apple sauerkraut",
+    "de": "Schweinebauch mit Apfelsauerkraut"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "meat",
+   "aliases": {
+    "en": [
+     "pork belly with sauerkraut",
+     "wellfleisch with sauerkraut",
+     "boiled pork belly and sauerkraut"
+    ],
+    "de": [
+     "schweinebauch mit sauerkraut",
+     "wellfleisch mit sauerkraut",
+     "kesselfleisch mit sauerkraut",
+     "schweinebauch mit sauerkraut und apfel"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "pork belly boiled",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:Y381352",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "sauerkraut stewed",
+     "grams": 180,
+     "resolved": {
+      "id": "bls:X530353",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "apple",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:F110100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "pork belly",
+   "skip": "a single food the table already covers (boiled pork belly)"
+  },
+  {
+   "key": "gyros",
+   "skip": "a single food the table already covers (pork gyros is already an ingredient)"
+  },
+  {
+   "key": "pork spare ribs",
+   "skip": "a single food the table already covers (boiled pork ribs)"
+  },
+  {
+   "key": "pork belly filled in oven",
+   "names": {
+    "en": "Stuffed roast pork belly",
+    "de": "Gefüllter Schweinebauch"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "meat",
+   "aliases": {
+    "en": [
+     "stuffed pork belly",
+     "roast stuffed pork belly",
+     "pork belly with bread stuffing"
+    ],
+    "de": [
+     "schweinebauch gefüllt",
+     "gefüllter schweinebauch aus dem ofen",
+     "gefüllte schweinebrust",
+     "schweinebauch mit füllung"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "pork belly (untrimmed) fried in the oven without fat",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:U642162",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "bread roll",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:B511000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "parsley",
+     "grams": 3,
+     "resolved": {
+      "id": "usda:2709796",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "pork meatballs",
+   "skip": "a single food the table already covers (pork meatballs are already an ingredient)"
+  },
+  {
+   "key": "pork steak with carrots and peas",
+   "names": {
+    "en": "Pork steak with carrots and peas",
+    "de": "Schweinesteak mit Karotten und Erbsen"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "meat",
+   "aliases": {
+    "en": [
+     "pork steak with peas and carrots",
+     "pork chop with carrots and peas",
+     "pork steak with vegetables"
+    ],
+    "de": [
+     "schweinesteak mit möhren und erbsen",
+     "schweinesteak mit erbsen und karotten",
+     "schweinesteak mit gemüse",
+     "schweinesteak mit leipziger allerlei"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "pork steak (loin) fried without fat (pan)",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:U533182",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "cooked carrot",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:G620132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "green peas",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:G760132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "mutton fillet",
+   "skip": "a plain fillet the table already covers"
+  },
+  {
+   "key": "lamb fillet",
+   "skip": "a plain fillet the table already covers"
+  },
+  {
+   "key": "mutton chop",
+   "skip": "a plain chop the table already covers"
+  },
+  {
+   "key": "lamb chops marinated",
+   "skip": "a single food the table already covers (grilled lamb chops are already an ingredient)"
+  },
+  {
+   "key": "lamb chop",
+   "skip": "a plain chop the table already covers"
+  },
+  {
+   "key": "mutton steak",
+   "skip": "a plain steak the table already covers"
+  },
+  {
+   "key": "lamb skewer with vegetables",
+   "names": {
+    "en": "Lamb skewers with vegetables",
+    "de": "Lammspieße mit Gemüse"
+   },
+   "serving": {
+    "label": {
+     "en": "2 skewers",
+     "de": "2 Spieße"
+    },
+    "count": 2
+   },
+   "artworkID": "meat",
+   "aliases": {
+    "en": [
+     "lamb kebabs with vegetables",
+     "grilled lamb skewers",
+     "lamb shish kebab"
+    ],
+    "de": [
+     "lammfleischspieße mit gemüse",
+     "lammspiesse",
+     "gegrillte lammspieße",
+     "lamm schaschlik"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "roast lamb shoulder",
+     "grams": 130,
+     "resolved": {
+      "id": "cofid:18-179",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "red bell pepper",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G543100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "zucchini",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G582100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "olive oil",
+     "grams": 12,
+     "resolved": {
+      "id": "bls:Q120000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "mutton goulash",
+   "names": {
+    "en": "Mutton goulash",
+    "de": "Hammelgulasch"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "curry",
+   "aliases": {
+    "en": [
+     "mutton stew",
+     "goulash with mutton",
+     "mutton paprika stew"
+    ],
+    "de": [
+     "hammel gulasch",
+     "gulasch vom hammel",
+     "hammelfleischgulasch",
+     "schaffleischgulasch"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "mutton shoulder, braised without fat",
+     "grams": 160,
+     "resolved": {
+      "id": "bls:U866142",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato paste",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:R160000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "paprika",
+     "grams": 4,
+     "resolved": {
+      "id": "ciqual:11049",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "beef stock",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:Y183013",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "lamb ragout oriental style",
+   "names": {
+    "en": "Oriental lamb ragout",
+    "de": "Lammragout orientalisch"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "curry",
+   "aliases": {
+    "en": [
+     "oriental lamb stew",
+     "lamb stew with chickpeas and apricots",
+     "moroccan style lamb ragout"
+    ],
+    "de": [
+     "lammragout orientalische art",
+     "orientalisches lammragout",
+     "lammeintopf orientalisch",
+     "lammragout mit kichererbsen"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "roast lamb shoulder",
+     "grams": 150,
+     "resolved": {
+      "id": "cofid:18-179",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "canned tomatoes",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:G568900",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked chickpeas",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G770432",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "dried apricots",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:F201400",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cumin",
+     "grams": 2,
+     "resolved": {
+      "id": "ciqual:11042",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "olive oil",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:Q120000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "lamb ragout with carrots",
+   "names": {
+    "en": "Lamb ragout with carrots",
+    "de": "Lammragout mit Karotten"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "curry",
+   "aliases": {
+    "en": [
+     "lamb stew with carrots",
+     "lamb and carrot ragout",
+     "braised lamb with carrots"
+    ],
+    "de": [
+     "lammragout mit möhren",
+     "lammragout mit karotten",
+     "lammeintopf mit möhren",
+     "lamm mit karotten"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "roast lamb shoulder",
+     "grams": 150,
+     "resolved": {
+      "id": "cofid:18-179",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "carrot",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "gravy",
+     "grams": 50,
+     "resolved": {
+      "id": "usda:2707149",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 14,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "mutton ragout with green beans",
+   "names": {
+    "en": "Mutton ragout with green beans",
+    "de": "Hammelragout mit grünen Bohnen"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "curry",
+   "aliases": {
+    "en": [
+     "mutton stew with green beans",
+     "mutton and bean ragout",
+     "lamb ragout with green beans"
+    ],
+    "de": [
+     "hammelragout mit bohnen",
+     "hammelfleisch mit grünen bohnen",
+     "bohnen mit hammelfleisch",
+     "hammelragout mit brechbohnen"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "mutton shoulder, braised without fat",
+     "grams": 140,
+     "resolved": {
+      "id": "bls:U866142",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "green beans",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:G710132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato paste",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:R160000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 8,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "beef stock",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:Y183013",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "lamb curry",
+   "names": {
+    "en": "Lamb curry",
+    "de": "Lammcurry"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "curry",
+   "aliases": {
+    "en": [
+     "lamb curry indian style",
+     "curried lamb",
+     "lamb korma style curry"
+    ],
+    "de": [
+     "lamm curry",
+     "curry mit lammfleisch",
+     "indisches lammcurry",
+     "lammcurry indisch"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "roast lamb shoulder",
+     "grams": 160,
+     "resolved": {
+      "id": "cofid:18-179",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "canned tomatoes",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:G568900",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "plain yoghurt",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:M141300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "ghee",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2710168",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "garam masala",
+     "grams": 3,
+     "resolved": {
+      "id": "cofid:13-829",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "ginger",
+     "grams": 5,
+     "resolved": {
+      "id": "cofid:13-890",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "garlic",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:G490100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "mutton with white cabbage",
+   "names": {
+    "en": "Irish stew",
+    "de": "Irish Stew (Hammelfleisch mit Weißkraut)"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "soup",
+   "aliases": {
+    "en": [
+     "irish stew",
+     "mutton stew with cabbage",
+     "mutton and cabbage stew",
+     "lamb stew with cabbage"
+    ],
+    "de": [
+     "irish stew",
+     "hammelfleisch mit weißkraut",
+     "hammeleintopf mit weißkohl",
+     "hammelfleisch mit weißkohl",
+     "irischer eintopf"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "mutton shoulder, braised without fat",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:U866142",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "white cabbage",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:G342100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "boiled potatoes",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "carrot",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "beef stock",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:Y183013",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "small lamb meatballs",
+   "names": {
+    "en": "Lamb meatballs",
+    "de": "Lammfleischklößchen"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "meat",
+   "aliases": {
+    "en": [
+     "small lamb meatballs",
+     "lamb balls",
+     "poached lamb meatballs"
+    ],
+    "de": [
+     "lammklößchen",
+     "lammbällchen",
+     "lammhackbällchen",
+     "lammfleischbällchen"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "ground lamb",
+     "grams": 100,
+     "resolved": {
+      "id": "usda:2705907",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "bread roll",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:B511000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "parsley",
+     "grams": 3,
+     "resolved": {
+      "id": "usda:2709796",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "roe deer schnitzel breaded",
+   "names": {
+    "en": "Breaded venison schnitzel",
+    "de": "Rehschnitzel paniert"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "meat",
+   "aliases": {
+    "en": [
+     "breaded roe deer schnitzel",
+     "venison schnitzel",
+     "breaded deer cutlet"
+    ],
+    "de": [
+     "rehschnitzel",
+     "paniertes rehschnitzel",
+     "wildschnitzel paniert",
+     "rehschnitzel wiener art"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "roe deer leg, fried without fat (oven)",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:V221162",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "breadcrumbs",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:B821000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "wheat flour",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "game meatballs",
+   "names": {
+    "en": "Venison patties",
+    "de": "Wildfrikadellen"
+   },
+   "serving": {
+    "label": {
+     "en": "2 patties",
+     "de": "2 Frikadellen"
+    },
+    "count": 2
+   },
+   "artworkID": "meat",
+   "aliases": {
+    "en": [
+     "game patties",
+     "venison burgers",
+     "game meatballs",
+     "venison frikadellen"
+    ],
+    "de": [
+     "wildfrikadelle",
+     "wildbuletten",
+     "hirschfrikadellen",
+     "wildfleischpflanzerl",
+     "wild frikadellen"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "venison meat, fried without fat (pan)",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:V212182",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "bread roll",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:B511000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 2,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "roe deer ragout",
+   "names": {
+    "en": "Venison ragout",
+    "de": "Rehragout"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "curry",
+   "aliases": {
+    "en": [
+     "roe deer ragout",
+     "venison stew",
+     "deer ragout"
+    ],
+    "de": [
+     "reh ragout",
+     "rehgulasch",
+     "wildragout vom reh",
+     "rehgeschnetzeltes"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "roe deer leg, braised without fat",
+     "grams": 160,
+     "resolved": {
+      "id": "bls:V221142",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "carrot",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "red wine",
+     "grams": 30,
+     "resolved": {
+      "id": "usda:2710688",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "gravy",
+     "grams": 80,
+     "resolved": {
+      "id": "usda:2707149",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 6,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "rehpfeffer savory roe deer goulash",
+   "names": {
+    "en": "Venison pepper stew",
+    "de": "Rehpfeffer"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "curry",
+   "aliases": {
+    "en": [
+     "rehpfeffer",
+     "roe deer pepper stew",
+     "venison stew with red wine and bacon"
+    ],
+    "de": [
+     "reh pfeffer",
+     "wildpfeffer",
+     "rehpfeffer mit rotwein",
+     "pfeffer vom reh"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "roe deer leg, braised without fat",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:V221142",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "red wine",
+     "grams": 50,
+     "resolved": {
+      "id": "usda:2710688",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "smoked streaky bacon",
+     "grams": 35,
+     "resolved": {
+      "id": "bls:W411300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "gravy",
+     "grams": 60,
+     "resolved": {
+      "id": "usda:2707149",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "hare ragout",
+   "names": {
+    "en": "Hare ragout",
+    "de": "Hasenragout"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "curry",
+   "aliases": {
+    "en": [
+     "hare stew",
+     "jugged hare",
+     "hasenpfeffer"
+    ],
+    "de": [
+     "hasenpfeffer",
+     "hasen ragout",
+     "hasenragù",
+     "geschmorter hase"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "hare meat, braised without fat",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:V232142",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "smoked streaky bacon",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:W411300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "red wine",
+     "grams": 40,
+     "resolved": {
+      "id": "usda:2710688",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "gravy",
+     "grams": 60,
+     "resolved": {
+      "id": "usda:2707149",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sour cream",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2705614",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 8,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "chicken",
+   "skip": "a single food the table already covers (roast chicken is already an ingredient)"
+  },
+  {
+   "key": "chicken in oven",
+   "skip": "a single food the table already covers (roast chicken is already an ingredient)"
+  },
+  {
+   "key": "chicken breast fillet",
+   "skip": "a plain fillet the table already covers"
+  },
+  {
+   "key": "chicken breast fillet with mixed vegetables",
+   "names": {
+    "en": "Chicken breast with mixed vegetables",
+    "de": "Hähnchenbrust mit Kaisergemüse"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "poultry",
+   "aliases": {
+    "en": [
+     "chicken breast with vegetables",
+     "chicken fillet with mixed vegetables",
+     "chicken with steamed vegetables"
+    ],
+    "de": [
+     "hähnchenbrustfilet mit kaisergemüse",
+     "hähnchenbrust mit gemüse",
+     "hühnerbrust mit kaisergemüse",
+     "hähnchenbrust mit buttergemüse"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "pan-fried chicken breast",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:Y562032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked mixed vegetables",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:G090132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "chicken breast fillet with cucumbers",
+   "names": {
+    "en": "Chicken breast with braised cucumbers",
+    "de": "Hähnchenbrust mit Schmorgurken"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "poultry",
+   "aliases": {
+    "en": [
+     "chicken with braised cucumbers",
+     "chicken breast with stewed cucumber",
+     "chicken and cucumber in dill cream"
+    ],
+    "de": [
+     "hähnchenbrustfilet mit schmorgurken",
+     "schmorgurken mit hähnchen",
+     "hähnchen mit schmorgurken",
+     "hühnerbrust mit schmorgurken"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "pan-fried chicken breast",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:Y562032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cucumbers braised",
+     "grams": 180,
+     "resolved": {
+      "id": "bls:X552153",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "dill",
+     "grams": 3,
+     "resolved": {
+      "id": "ciqual:11093",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "chicken cordon bleu",
+   "names": {
+    "en": "Chicken cordon bleu",
+    "de": "Hähnchen-Cordon-bleu"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "poultry",
+   "aliases": {
+    "en": [
+     "cordon bleu chicken",
+     "chicken breast cordon bleu",
+     "chicken cordon blue"
+    ],
+    "de": [
+     "cordon bleu vom hähnchen",
+     "hähnchen cordon bleu",
+     "hühner cordon bleu",
+     "chicken cordon bleu"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "chicken breast fillet, fried without fat (pan)",
+     "grams": 140,
+     "resolved": {
+      "id": "bls:V416182",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "cooked ham",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:W424000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "emmental",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:M304600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "breadcrumbs",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:B821000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "wheat flour",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "turkey cordon bleu",
+   "names": {
+    "en": "Turkey cordon bleu",
+    "de": "Puten-Cordon-bleu"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "poultry",
+   "aliases": {
+    "en": [
+     "cordon bleu turkey",
+     "turkey breast cordon bleu",
+     "turkey cordon blue"
+    ],
+    "de": [
+     "cordon bleu von der pute",
+     "puten cordon bleu",
+     "putencordon bleu",
+     "truthahn cordon bleu"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "turkey breast, without skin, fried without fat (pan)",
+     "grams": 140,
+     "resolved": {
+      "id": "bls:V486182",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "cooked ham",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:W424000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "emmental",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:M304600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "breadcrumbs",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:B821000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "wheat flour",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "chicken fricassee with button mushrooms",
+   "names": {
+    "en": "Chicken fricassee with mushrooms",
+    "de": "Hühnerfrikassee mit Champignons"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "poultry",
+   "aliases": {
+    "en": [
+     "chicken fricassee",
+     "chicken in white sauce with mushrooms",
+     "creamy chicken with mushrooms"
+    ],
+    "de": [
+     "hühnerfrikassee",
+     "hühnerfrikasse mit pilzen",
+     "hühnerfrikassee mit champignon",
+     "hühnchenfrikassee",
+     "frikassee mit huhn"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked chicken breast",
+     "grams": 130,
+     "resolved": {
+      "id": "bls:V416132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked mushrooms",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:K701172",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "béchamel",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:X320243",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "heavy cream",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:M173800",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lemon juice",
+     "grams": 3,
+     "resolved": {
+      "id": "bls:F601600",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "chicken fricassee with white wine",
+   "names": {
+    "en": "Chicken fricassee with white wine",
+    "de": "Hühnerfrikassee mit Weißwein"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "poultry",
+   "aliases": {
+    "en": [
+     "chicken fricassee in white wine sauce",
+     "white wine chicken fricassee",
+     "chicken fricassee with asparagus"
+    ],
+    "de": [
+     "hühnerfrikassee weißwein",
+     "frikassee mit weißwein",
+     "hühnerfrikassee mit spargel und weißwein",
+     "hühnchenfrikassee mit wein"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked chicken breast",
+     "grams": 130,
+     "resolved": {
+      "id": "bls:V416132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "béchamel",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:X320243",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "white wine",
+     "grams": 30,
+     "resolved": {
+      "id": "usda:2710689",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "heavy cream",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:M173800",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked asparagus",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G450132",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "chicken ragout with vegetables",
+   "names": {
+    "en": "Chicken ragout with vegetables",
+    "de": "Hühnerragout mit Gemüse"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "poultry",
+   "aliases": {
+    "en": [
+     "chicken stew with vegetables",
+     "chicken and vegetable ragout",
+     "chicken ragù with vegetables"
+    ],
+    "de": [
+     "hähnchenragout mit gemüse",
+     "hühnerragout",
+     "geflügelragout mit gemüse",
+     "hühnchenragout mit gemüse"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked chicken breast",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:V416132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "carrot",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "green peas",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G760132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "leek",
+     "grams": 30,
+     "resolved": {
+      "id": "ciqual:20039",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "chicken stock",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:X411243",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "béchamel",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:X320243",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "chicken thigh in oven",
+   "skip": "a single food the table already covers (roast chicken leg is already an ingredient)"
+  },
+  {
+   "key": "turkey schnitzel",
+   "skip": "a plain escalope the table already covers"
+  },
+  {
+   "key": "turkey schnitzel breaded",
+   "names": {
+    "en": "Breaded turkey schnitzel",
+    "de": "Putenschnitzel paniert"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "poultry",
+   "aliases": {
+    "en": [
+     "turkey schnitzel",
+     "breaded turkey cutlet",
+     "turkey escalope breaded"
+    ],
+    "de": [
+     "putenschnitzel",
+     "paniertes putenschnitzel",
+     "putenschnitzel wiener art",
+     "truthahnschnitzel paniert"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "turkey breast, without skin, fried without fat (pan)",
+     "grams": 130,
+     "resolved": {
+      "id": "bls:V486182",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "breadcrumbs",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:B821000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "wheat flour",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "turkey ragout with sweet pepper and sour cream",
+   "names": {
+    "en": "Turkey ragout with peppers and sour cream",
+    "de": "Putenragout mit Paprika und saurer Sahne"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "poultry",
+   "aliases": {
+    "en": [
+     "turkey stew with peppers",
+     "turkey paprika ragout",
+     "creamy turkey with peppers"
+    ],
+    "de": [
+     "putenragout mit paprika",
+     "puten paprika ragout",
+     "putengeschnetzeltes mit paprika",
+     "putenragout mit paprika und schmand"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "turkey breast, without skin, fried without fat (pan)",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:V486182",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "red bell pepper",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:G543100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sour cream",
+     "grams": 40,
+     "resolved": {
+      "id": "usda:2705614",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "paprika",
+     "grams": 3,
+     "resolved": {
+      "id": "ciqual:11049",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 8,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "turkey ragout with tomatoes and button mushrooms",
+   "names": {
+    "en": "Turkey ragout with tomatoes and mushrooms",
+    "de": "Putenragout mit Tomaten und Champignons"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "poultry",
+   "aliases": {
+    "en": [
+     "turkey stew with tomatoes and mushrooms",
+     "turkey mushroom tomato ragout",
+     "turkey cacciatore style"
+    ],
+    "de": [
+     "putenragout mit tomaten und pilzen",
+     "puten tomaten ragout",
+     "putenragout mit champignons",
+     "putengulasch mit tomaten"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "turkey breast, without skin, fried without fat (pan)",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:V486182",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "canned tomatoes",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:G568900",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "mushrooms",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:K701100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "olive oil",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:Q120000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "turkey ragout with white wine and sour cream",
+   "names": {
+    "en": "Sliced turkey in white wine and sour cream sauce",
+    "de": "Putengeschnetzeltes mit Weißwein und saurer Sahne"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "poultry",
+   "aliases": {
+    "en": [
+     "turkey geschnetzeltes",
+     "sliced turkey in cream sauce",
+     "turkey strips in white wine sauce"
+    ],
+    "de": [
+     "putengeschnetzeltes",
+     "puten geschnetzeltes mit sahnesauce",
+     "putengeschnetzeltes in weißweinsauce",
+     "geschnetzeltes von der pute"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "turkey breast, without skin, fried without fat (pan)",
+     "grams": 160,
+     "resolved": {
+      "id": "bls:V486182",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "white wine",
+     "grams": 30,
+     "resolved": {
+      "id": "usda:2710689",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sour cream",
+     "grams": 50,
+     "resolved": {
+      "id": "usda:2705614",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 8,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "chicken breast fillet breaded",
+   "skip": "a single food the table already covers (breaded chicken breast is already an ingredient)"
+  },
+  {
+   "key": "wrap filled with salad and chicken breast fillet",
+   "names": {
+    "en": "Chicken salad wrap",
+    "de": "Hähnchen-Wrap mit Salat"
+   },
+   "serving": {
+    "label": {
+     "en": "1 wrap",
+     "de": "1 Wrap"
+    },
+    "count": 1
+   },
+   "artworkID": "burrito",
+   "aliases": {
+    "en": [
+     "chicken wrap",
+     "grilled chicken wrap",
+     "chicken and salad wrap",
+     "chicken tortilla wrap"
+    ],
+    "de": [
+     "hähnchenwrap",
+     "wrap mit hähnchen",
+     "chicken wrap",
+     "wrap mit salat und hähnchenbrust",
+     "hähnchen wrap"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "flour tortilla",
+     "grams": 70,
+     "resolved": {
+      "id": "usda:2707824",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "pan-fried chicken breast",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:Y562032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lettuce",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G105100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G561100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cucumber",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G520100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "plain yoghurt",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:M141300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "mayonnaise",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2710204",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "chicken breast fillet with cornflakes breading",
+   "names": {
+    "en": "Cornflake-crusted chicken breast",
+    "de": "Hähnchenbrust in Cornflakes-Panade"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "poultry",
+   "aliases": {
+    "en": [
+     "cornflake chicken",
+     "cornflake crusted chicken",
+     "chicken breast with cornflake coating"
+    ],
+    "de": [
+     "cornflakes hähnchen",
+     "hähnchenbrustfilet mit cornflakes paniert",
+     "hähnchen in cornflakespanade",
+     "cornflakes schnitzel"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "chicken breast fillet, fried without fat (pan)",
+     "grams": 140,
+     "resolved": {
+      "id": "bls:V416182",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "cornflakes unsweetened",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:C515400",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "wheat flour",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 12,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "chicken meatballs with button mushrooms",
+   "names": {
+    "en": "Chicken patties with mushrooms",
+    "de": "Hähnchenfrikadellen mit Champignons"
+   },
+   "serving": {
+    "label": {
+     "en": "2 patties",
+     "de": "2 Frikadellen"
+    },
+    "count": 2
+   },
+   "artworkID": "poultry",
+   "aliases": {
+    "en": [
+     "chicken frikadellen",
+     "chicken burgers with mushrooms",
+     "chicken mushroom patties"
+    ],
+    "de": [
+     "hähnchen frikadellen",
+     "hühnerfrikadellen mit pilzen",
+     "hähnchenbuletten",
+     "hähnchen-frikadellen mit champignons"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "chicken meat, without skin, fried without fat (pan)",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:V413182",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "mushrooms",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:K701100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "bread roll",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:B511000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "chicken liver",
+   "skip": "a single food the table already covers (fried chicken liver)"
+  },
+  {
+   "key": "chicken ragout fin",
+   "names": {
+    "en": "Chicken ragout fin",
+    "de": "Ragout fin vom Huhn"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "poultry",
+   "aliases": {
+    "en": [
+     "chicken ragoût fin",
+     "chicken vol-au-vent filling",
+     "fine chicken ragout"
+    ],
+    "de": [
+     "hühnerragout fin",
+     "ragout fin aus hühnerfleisch",
+     "geflügel ragout fin",
+     "ragout fin huhn"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked chicken breast",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:V416132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked mushrooms",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:K701172",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "béchamel",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:X320243",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "heavy cream",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:M173800",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 12,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "white wine",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2710689",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lemon juice",
+     "grams": 3,
+     "resolved": {
+      "id": "bls:F601600",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "herring fillet breaded",
+   "skip": "a cooking-method variant of a single fish fillet"
+  },
+  {
+   "key": "herring fillet",
+   "skip": "a plain fillet the table already covers"
+  },
+  {
+   "key": "matjes herring roll",
+   "names": {
+    "en": "Matjes herring roll",
+    "de": "Matjesbrötchen"
+   },
+   "serving": {
+    "label": {
+     "en": "1 roll",
+     "de": "1 Brötchen"
+    },
+    "count": 1
+   },
+   "artworkID": "sandwich",
+   "aliases": {
+    "en": [
+     "matjes sandwich",
+     "herring roll",
+     "matjes bun",
+     "pickled herring roll"
+    ],
+    "de": [
+     "matjes brötchen",
+     "matjesbrötchen mit zwiebeln",
+     "heringsbrötchen",
+     "fischbrötchen matjes",
+     "matjessemmel"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "bread roll",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:B511000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "matjes herring mild salted",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:T103100",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lettuce",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G105100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "matjes herring with onions",
+   "names": {
+    "en": "Matjes herring with onions",
+    "de": "Matjes mit Zwiebeln"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "fish",
+   "aliases": {
+    "en": [
+     "matjes with onions",
+     "young herring with onions",
+     "herring fillets with onion rings"
+    ],
+    "de": [
+     "matjesfilet mit zwiebeln",
+     "matjes mit zwiebelringen",
+     "matjeshering mit zwiebeln",
+     "matjes zwiebel"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "matjes herring mild salted",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:T103100",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "fish roll with cod",
+   "names": {
+    "en": "Fried fish roll",
+    "de": "Backfischbrötchen"
+   },
+   "serving": {
+    "label": {
+     "en": "1 roll",
+     "de": "1 Brötchen"
+    },
+    "count": 1
+   },
+   "artworkID": "sandwich",
+   "aliases": {
+    "en": [
+     "fried fish sandwich",
+     "battered fish roll",
+     "backfisch roll",
+     "fish bun with cod"
+    ],
+    "de": [
+     "backfisch brötchen",
+     "backfisch-brötchen mit kabeljau",
+     "fischbrötchen mit backfisch",
+     "backfischsemmel"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "bread roll",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:B511000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "battered fish",
+     "grams": 90,
+     "resolved": {
+      "id": "cofid:16-369",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tartar sauce",
+     "grams": 30,
+     "resolved": {
+      "id": "usda:2710173",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lettuce",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:G105100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "pickled herring fillet in sauce heringsstip",
+   "names": {
+    "en": "Herring in cream sauce",
+    "de": "Heringsstipp"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "fish",
+   "aliases": {
+    "en": [
+     "heringsstipp",
+     "herring in sour cream sauce",
+     "pickled herring with apple and onion",
+     "herring salad in cream"
+    ],
+    "de": [
+     "heringsstip",
+     "hering in sahnesoße",
+     "heringsstipp mit äpfeln und zwiebeln",
+     "hering in rahmsoße"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "herring pickled, semi-preserved, drained",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:T820802",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "sour cream",
+     "grams": 50,
+     "resolved": {
+      "id": "usda:2705614",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "mayonnaise",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2710204",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "apple",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:F110100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "pickles",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2710078",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "matjes herring fillet homemade",
+   "names": {
+    "en": "Matjes herring in sour cream sauce",
+    "de": "Matjes nach Hausfrauenart"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "fish",
+   "aliases": {
+    "en": [
+     "matjes housewife style",
+     "matjes with apples and onions in cream",
+     "matjes hausfrauenart"
+    ],
+    "de": [
+     "matjesfilet nach hausfrauenart",
+     "matjes hausfrauen art",
+     "matjes in sahnesoße",
+     "matjes mit apfel und zwiebeln"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "matjes herring mild salted",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:T103100",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "sour cream",
+     "grams": 60,
+     "resolved": {
+      "id": "usda:2705614",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "apple",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:F110100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "pickles",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2710078",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "pickled herring fillet in cream sauce",
+   "skip": "duplicate of the herring in cream sauce (Heringsstipp) in this batch"
+  },
+  {
+   "key": "herring marinated drained",
+   "skip": "a single food the table already covers (a jarred fried herring)"
+  },
+  {
+   "key": "pickled herring fillet filled rolled drained",
+   "skip": "a single food the table already covers (a jarred rollmops)"
+  },
+  {
+   "key": "mackerel savory style",
+   "names": {
+    "en": "Savoury braised mackerel",
+    "de": "Makrele pikant"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "fish",
+   "aliases": {
+    "en": [
+     "spicy mackerel",
+     "mackerel in spicy sauce",
+     "savoury mackerel"
+    ],
+    "de": [
+     "makrele pikante art",
+     "gedünstete makrele pikant",
+     "pikante makrele",
+     "makrele in pikanter soße"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "mackerel raw",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:T107100",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "red bell pepper",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G543100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato paste",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:R160000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "mustard",
+     "grams": 5,
+     "resolved": {
+      "id": "usda:2710085",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "olive oil",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:Q120000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "tuna steak marinated",
+   "skip": "a plain fillet the table already covers"
+  },
+  {
+   "key": "sardines in white wine",
+   "names": {
+    "en": "Sardines baked in white wine",
+    "de": "Sardinen in Weißwein"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "fish",
+   "aliases": {
+    "en": [
+     "baked sardines with white wine",
+     "sardines in wine",
+     "oven sardines with white wine"
+    ],
+    "de": [
+     "sardinen in weißwein gebacken",
+     "gebackene sardinen",
+     "sardinen mit weißwein",
+     "sardinen aus dem ofen"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "sardine raw",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:T105100",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "white wine",
+     "grams": 40,
+     "resolved": {
+      "id": "usda:2710689",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "olive oil",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:Q120000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "garlic",
+     "grams": 3,
+     "resolved": {
+      "id": "bls:G490100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lemon juice",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:F601600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "parsley",
+     "grams": 3,
+     "resolved": {
+      "id": "usda:2709796",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "sardines with fennel seeds",
+   "names": {
+    "en": "Sardines with fennel",
+    "de": "Sardinen mit Fenchel"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "fish",
+   "aliases": {
+    "en": [
+     "sardines with fennel seeds",
+     "braised sardines with fennel",
+     "sardines and fennel"
+    ],
+    "de": [
+     "sardinen mit fenchelsamen",
+     "gedünstete sardinen mit fenchel",
+     "sardinen fenchel",
+     "sardinen mit fenchelgemüse"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "sardine raw",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:T105100",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "fennel",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:G430100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "olive oil",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:Q120000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lemon juice",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:F601600",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "cod on asian vegetables",
+   "names": {
+    "en": "Cod on Asian vegetables",
+    "de": "Kabeljau auf asiatischem Gemüse"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "fish",
+   "aliases": {
+    "en": [
+     "steamed cod with asian vegetables",
+     "cod with stir-fried vegetables",
+     "asian style cod"
+    ],
+    "de": [
+     "kabeljau mit asiatischem gemüse",
+     "kabeljau asiatisch",
+     "dorsch auf asia gemüse",
+     "kabeljau mit wokgemüse"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked cod",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:T204172",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "bok choy",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:G324100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "carrot",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "bean sprouts",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:H650100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar snap peas",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G761100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "soy sauce",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:R143000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sesame oil",
+     "grams": 5,
+     "resolved": {
+      "id": "usda:2710190",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 5,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "ginger",
+     "grams": 3,
+     "resolved": {
+      "id": "cofid:13-890",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "cod with sweet peppers and tomatoes",
+   "names": {
+    "en": "Cod with peppers and tomatoes",
+    "de": "Kabeljau mit Paprika-Tomaten-Gemüse"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "fish",
+   "aliases": {
+    "en": [
+     "cod with pepper and tomato",
+     "fried cod with stewed peppers",
+     "cod with tomato and pepper sauce"
+    ],
+    "de": [
+     "kabeljau mit paprika und tomaten",
+     "kabeljau mit paprikagemüse",
+     "dorsch mit paprika tomaten",
+     "kabeljau mediterran"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked cod",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:T204172",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "red bell pepper",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:G543100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:G561100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "olive oil",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:Q120000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "cod fillet breaded",
+   "skip": "a cooking-method variant of a single fish fillet"
+  },
+  {
+   "key": "potatoes and fish pan with cod fillet",
+   "names": {
+    "en": "Fried potato and cod pan",
+    "de": "Bratkartoffel-Fischpfanne"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "fish",
+   "aliases": {
+    "en": [
+     "fish and fried potato pan",
+     "cod with fried potatoes",
+     "fried potatoes with fish"
+    ],
+    "de": [
+     "bratkartoffel fischpfanne mit kabeljau",
+     "fischpfanne mit bratkartoffeln",
+     "bratkartoffeln mit fisch",
+     "kabeljau mit bratkartoffeln"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "fried potatoes",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:X651013",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked cod",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:T204172",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "parsley",
+     "grams": 3,
+     "resolved": {
+      "id": "usda:2709796",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "cod fillet with vegetables in foil",
+   "names": {
+    "en": "Cod fillet baked in foil with vegetables",
+    "de": "Kabeljau mit Gemüse in Folie"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "fish",
+   "aliases": {
+    "en": [
+     "cod en papillote",
+     "cod in foil with vegetables",
+     "foil-baked cod"
+    ],
+    "de": [
+     "kabeljaufilet in folie",
+     "kabeljau aus der folie",
+     "fisch in alufolie mit gemüse",
+     "kabeljau im päckchen"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked cod",
+     "grams": 160,
+     "resolved": {
+      "id": "bls:T204172",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "carrot",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "zucchini",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:G582100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "leek",
+     "grams": 30,
+     "resolved": {
+      "id": "ciqual:20039",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lemon juice",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:F601600",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "saithe fillet with white wine",
+   "names": {
+    "en": "Pollock fillet in white wine",
+    "de": "Seelachsfilet in Weißwein"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "fish",
+   "aliases": {
+    "en": [
+     "saithe in white wine",
+     "pollock poached in white wine",
+     "coley with white wine"
+    ],
+    "de": [
+     "seelachsfilet mit weißwein",
+     "seelachs in weißwein gedünstet",
+     "seelachs weißwein",
+     "köhler in weißwein"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "saithe/pollack, stewed",
+     "grams": 160,
+     "resolved": {
+      "id": "bls:T207152",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "white wine",
+     "grams": 30,
+     "resolved": {
+      "id": "usda:2710689",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "saithe fillet breaded",
+   "skip": "a cooking-method variant of a single fish fillet"
+  },
+  {
+   "key": "saithe risotto",
+   "names": {
+    "en": "Pollock risotto",
+    "de": "Seelachs-Risotto"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "rice",
+   "aliases": {
+    "en": [
+     "saithe risotto",
+     "fish risotto with pollock",
+     "coley risotto"
+    ],
+    "de": [
+     "seelachsrisotto",
+     "risotto mit seelachs",
+     "fischrisotto mit seelachs",
+     "seelachs risoto"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked white rice",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:C352032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "saithe/pollack, stewed",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:T207152",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "green peas",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G760132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "parmesan",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:M306400",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "saithe fillet floured",
+   "names": {
+    "en": "Pollock meunière",
+    "de": "Seelachsfilet Müllerin Art"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "fish",
+   "aliases": {
+    "en": [
+     "saithe meuniere",
+     "pollock fillet meunière",
+     "floured fried pollock with butter"
+    ],
+    "de": [
+     "seelachs müllerin art",
+     "seelachsfilet müllerinart",
+     "seelachs nach müllerin art",
+     "seelachsfilet mehliert gebraten"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "saithe/pollack, fried without fat (pan)",
+     "grams": 160,
+     "resolved": {
+      "id": "bls:T207182",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "wheat flour",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 4,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lemon juice",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:F601600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "parsley",
+     "grams": 3,
+     "resolved": {
+      "id": "usda:2709796",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "ling breaded",
+   "skip": "a cooking-method variant of a single fish fillet"
+  },
+  {
+   "key": "sushi with salmon",
+   "skip": "duplicate of the salmon nigiri and salmon maki recipes already in the catalogue"
+  },
+  {
+   "key": "plaice fillet floured",
+   "skip": "a cooking-method variant of a single fish fillet"
+  },
+  {
+   "key": "plaice fillet with parsley breaded",
+   "skip": "a cooking-method variant of a single fish fillet"
+  },
+  {
+   "key": "plaice with bacon",
+   "names": {
+    "en": "Hamburg-style plaice with bacon",
+    "de": "Hamburger Speckscholle"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "fish",
+   "aliases": {
+    "en": [
+     "plaice with bacon",
+     "speckscholle",
+     "fried plaice with bacon"
+    ],
+    "de": [
+     "speckscholle",
+     "scholle mit speck",
+     "scholle hamburger art",
+     "gebratene scholle mit speck"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "plaice fried without fat (pan)",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:T305182",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "smoked streaky bacon",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:W411300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "wheat flour",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "sole fillet",
+   "skip": "a plain fillet the table already covers"
+  },
+  {
+   "key": "sole floured",
+   "names": {
+    "en": "Sole meunière",
+    "de": "Seezunge Müllerin Art"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "fish",
+   "aliases": {
+    "en": [
+     "sole meuniere",
+     "sole a la meuniere",
+     "floured fried sole with butter"
+    ],
+    "de": [
+     "seezunge müllerinart",
+     "seezunge nach müllerin art",
+     "sole meunière",
+     "seezunge in butter"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "sole fried without fat (pan)",
+     "grams": 180,
+     "resolved": {
+      "id": "bls:T309182",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "wheat flour",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 6,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lemon juice",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:F601600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "parsley",
+     "grams": 3,
+     "resolved": {
+      "id": "usda:2709796",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "flounder breaded",
+   "skip": "a cooking-method variant of a single fish fillet"
+  },
+  {
+   "key": "flounder floured",
+   "skip": "a cooking-method variant of a single fish fillet"
+  },
+  {
+   "key": "halibut breaded",
+   "skip": "a cooking-method variant of a single fish fillet"
+  },
+  {
+   "key": "halibut fillet",
+   "skip": "a plain fillet the table already covers"
+  },
+  {
+   "key": "halibut american style",
+   "names": {
+    "en": "Halibut à l'américaine",
+    "de": "Heilbutt amerikanische Art"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "fish",
+   "aliases": {
+    "en": [
+     "halibut american style",
+     "halibut with american sauce",
+     "halibut with shrimp tomato sauce"
+    ],
+    "de": [
+     "heilbutt nach amerikanischer art",
+     "heilbutt mit amerikanischer soße",
+     "heilbutt americaine",
+     "gebratener heilbutt amerikanisch"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "halibut/white halibut, fried without fat (pan)",
+     "grams": 160,
+     "resolved": {
+      "id": "bls:T306182",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "cooked shrimp",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:T753132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato paste",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:R160000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "heavy cream",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:M173800",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "white wine",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2710689",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "halibut floured",
+   "skip": "a cooking-method variant of a single fish fillet"
+  },
+  {
+   "key": "turbot breaded",
+   "skip": "a cooking-method variant of a single fish fillet"
+  },
+  {
+   "key": "turbot floured",
+   "skip": "a cooking-method variant of a single fish fillet"
+  },
+  {
+   "key": "witch breaded",
+   "skip": "a cooking-method variant of a single fish fillet"
+  },
+  {
+   "key": "witch floured",
+   "skip": "a cooking-method variant of a single fish fillet"
+  },
+  {
+   "key": "salmon on vegetables",
+   "names": {
+    "en": "Salmon on vegetables",
+    "de": "Lachs auf Gemüse"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "fish",
+   "aliases": {
+    "en": [
+     "steamed salmon on vegetables",
+     "salmon with vegetables",
+     "salmon on a bed of vegetables"
+    ],
+    "de": [
+     "lachs auf gemüsebett",
+     "gedünsteter lachs auf gemüse",
+     "lachs mit gemüse",
+     "lachsfilet auf gemüse"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "salmon stewed",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:T410052",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "zucchini",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:G582100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "carrot",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "leek",
+     "grams": 40,
+     "resolved": {
+      "id": "ciqual:20039",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "salmon steaks",
+   "skip": "a single food the table already covers (cooked salmon is already an ingredient)"
+  },
+  {
+   "key": "salmon steamed with yogurt rosemary dip",
+   "names": {
+    "en": "Steamed salmon with yoghurt rosemary dip",
+    "de": "Lachs mit Joghurt-Rosmarin-Dip"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "fish",
+   "aliases": {
+    "en": [
+     "salmon with yogurt dip",
+     "steamed salmon with yoghurt sauce",
+     "salmon with rosemary yogurt"
+    ],
+    "de": [
+     "lachs gedämpft mit joghurt-dip",
+     "lachs mit joghurtdip",
+     "gedämpfter lachs mit joghurtsoße",
+     "lachs mit rosmarin joghurt"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "salmon stewed",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:T410052",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "plain yoghurt",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:M141300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lemon juice",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:F601600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "garlic",
+     "grams": 2,
+     "resolved": {
+      "id": "bls:G490100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "trout in stock with vinegar",
+   "names": {
+    "en": "Trout au bleu",
+    "de": "Forelle blau"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "fish",
+   "aliases": {
+    "en": [
+     "blue trout",
+     "truite au bleu",
+     "poached trout",
+     "forelle blau"
+    ],
+    "de": [
+     "forelle blau mit butter",
+     "blaue forelle",
+     "pochierte forelle",
+     "forelle im essigsud"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "trout poached",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:T420132",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  }
+ ]
+}

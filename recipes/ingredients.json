@@ -1,0 +1,5886 @@
+{
+ "version": 1,
+ "about": "Generic recipe ingredient names mapped to one bundled reference row each. Keys are lowercase English as a recipe writer would say them; aliases are other spellings of the same thing.",
+ "ingredients": {
+  "cooked spaghetti": {
+   "reference": "bls:E401032",
+   "aliases": [
+    "spaghetti, cooked",
+    "boiled spaghetti",
+    "cooked pasta",
+    "pasta",
+    "spaghetti",
+    "penne",
+    "fusilli",
+    "rigatoni",
+    "macaroni",
+    "linguine",
+    "farfalle",
+    "cooked penne",
+    "cooked macaroni",
+    "lasagne sheets, cooked",
+    "lasagna noodles, cooked",
+    "boiled pasta"
+   ],
+   "names": {
+    "en": "Spaghetti, cooked",
+    "de": "Spaghetti, gekocht"
+   }
+  },
+  "cooked egg noodles": {
+   "reference": "bls:E432032",
+   "aliases": [
+    "egg noodles",
+    "egg pasta, cooked",
+    "tagliatelle",
+    "fettuccine",
+    "pappardelle",
+    "bandnudeln",
+    "lo mein noodles",
+    "boiled egg noodles"
+   ],
+   "names": {
+    "en": "Egg noodles, cooked",
+    "de": "Eiernudeln, gekocht"
+   }
+  },
+  "cooked fresh egg pasta": {
+   "reference": "bls:E438032",
+   "aliases": [
+    "spätzle",
+    "spaetzle",
+    "cooked spätzle",
+    "fresh pasta",
+    "fresh egg pasta",
+    "fresh tagliatelle"
+   ],
+   "names": {
+    "en": "Fresh egg pasta, cooked",
+    "de": "Frische Eiernudeln, gekocht"
+   }
+  },
+  "cooked wholewheat pasta": {
+   "reference": "bls:E500032",
+   "aliases": [
+    "whole wheat pasta",
+    "wholemeal pasta",
+    "whole grain pasta",
+    "brown pasta"
+   ],
+   "names": {
+    "en": "Wholewheat pasta, cooked",
+    "de": "Vollkornnudeln, gekocht"
+   }
+  },
+  "cooked rice noodles": {
+   "reference": "bls:C559032",
+   "aliases": [
+    "rice noodles",
+    "rice vermicelli",
+    "pad thai noodles",
+    "pho noodles",
+    "bun noodles",
+    "rice sticks",
+    "cooked rice vermicelli"
+   ],
+   "names": {
+    "en": "Rice noodles, cooked",
+    "de": "Reisnudeln, gekocht"
+   }
+  },
+  "cooked glass noodles": {
+   "reference": "bls:H030432",
+   "aliases": [
+    "glass noodles",
+    "cellophane noodles",
+    "mung bean noodles",
+    "bean thread noodles",
+    "japchae noodles",
+    "dangmyeon"
+   ],
+   "names": {
+    "en": "Glass noodles, cooked",
+    "de": "Glasnudeln, gekocht"
+   }
+  },
+  "cooked udon": {
+   "reference": "mext:01039",
+   "aliases": [
+    "udon",
+    "udon noodles",
+    "boiled udon"
+   ],
+   "note": "missing sugar, saturated fat",
+   "names": {
+    "en": "Udon noodles, cooked",
+    "de": "Udon-Nudeln, gekocht"
+   }
+  },
+  "cooked ramen noodles": {
+   "reference": "mext:01048",
+   "aliases": [
+    "ramen noodles",
+    "chinese wheat noodles",
+    "chuka soba",
+    "fresh ramen noodles"
+   ],
+   "note": "missing sugar, saturated fat",
+   "names": {
+    "en": "Ramen noodles, cooked",
+    "de": "Ramen-Nudeln, gekocht"
+   }
+  },
+  "cooked soba": {
+   "reference": "mext:01128",
+   "aliases": [
+    "soba",
+    "soba noodles",
+    "buckwheat noodles"
+   ],
+   "note": "missing sugar, saturated fat",
+   "names": {
+    "en": "Soba noodles, cooked",
+    "de": "Soba-Nudeln, gekocht"
+   }
+  },
+  "cooked white rice": {
+   "reference": "bls:C352032",
+   "aliases": [
+    "white rice",
+    "rice",
+    "steamed rice",
+    "boiled rice",
+    "cooked rice",
+    "plain rice",
+    "basmati rice",
+    "cooked basmati rice",
+    "jasmine rice",
+    "cooked jasmine rice",
+    "long grain rice",
+    "arborio rice, cooked",
+    "paella rice, cooked"
+   ],
+   "names": {
+    "en": "White rice, cooked",
+    "de": "Weißer Reis, gekocht"
+   }
+  },
+  "cooked brown rice": {
+   "reference": "bls:C351032",
+   "aliases": [
+    "brown rice",
+    "wholegrain rice",
+    "whole grain rice"
+   ],
+   "names": {
+    "en": "Brown rice, cooked",
+    "de": "Naturreis, gekocht"
+   }
+  },
+  "sushi rice": {
+   "reference": "bls:X8A1100",
+   "aliases": [
+    "seasoned sushi rice",
+    "sushi rice, cooked",
+    "vinegared rice"
+   ],
+   "names": {
+    "en": "Sushi rice",
+    "de": "Sushireis"
+   }
+  },
+  "cooked sticky rice": {
+   "reference": "usda:2708422",
+   "aliases": [
+    "sticky rice",
+    "glutinous rice",
+    "sweet rice"
+   ],
+   "names": {
+    "en": "Sticky rice, cooked",
+    "de": "Klebreis, gekocht"
+   }
+  },
+  "boiled potatoes": {
+   "reference": "bls:K110132",
+   "aliases": [
+    "boiled potato",
+    "potatoes",
+    "potato",
+    "cooked potatoes",
+    "peeled boiled potatoes",
+    "salt potatoes",
+    "salzkartoffeln"
+   ],
+   "names": {
+    "en": "Potatoes, boiled",
+    "de": "Kartoffeln, gekocht"
+   }
+  },
+  "boiled potatoes in their skins": {
+   "reference": "bls:K120134",
+   "aliases": [
+    "unpeeled boiled potatoes",
+    "new potatoes",
+    "baby potatoes",
+    "pellkartoffeln",
+    "potatoes in skins"
+   ],
+   "names": {
+    "en": "Potatoes in their skins, boiled",
+    "de": "Pellkartoffeln"
+   }
+  },
+  "baked potato": {
+   "reference": "usda:2709524",
+   "aliases": [
+    "jacket potato",
+    "baked potatoes",
+    "potato baked in skin"
+   ],
+   "names": {
+    "en": "Baked potato",
+    "de": "Ofenkartoffel"
+   }
+  },
+  "mashed potatoes": {
+   "reference": "bls:X634012",
+   "aliases": [
+    "mashed potato",
+    "mash",
+    "potato puree",
+    "kartoffelpüree",
+    "creamy mashed potatoes"
+   ],
+   "names": {
+    "en": "Mashed potatoes",
+    "de": "Kartoffelpüree"
+   }
+  },
+  "french fries": {
+   "reference": "bls:X654042",
+   "aliases": [
+    "fries",
+    "chips",
+    "pommes frites",
+    "pommes",
+    "deep-fried potatoes",
+    "skinny fries"
+   ],
+   "names": {
+    "en": "French fries",
+    "de": "Pommes frites"
+   }
+  },
+  "roast potatoes": {
+   "reference": "cofid:13-534",
+   "aliases": [
+    "roasted potatoes",
+    "roasties",
+    "oven roasted potatoes"
+   ],
+   "names": {
+    "en": "Roast potatoes",
+    "de": "Kartoffeln, im Ofen geröstet"
+   }
+  },
+  "fried potatoes": {
+   "reference": "bls:X651013",
+   "aliases": [
+    "bratkartoffeln",
+    "pan-fried potatoes",
+    "home fries",
+    "sautéed potatoes",
+    "sauteed potatoes"
+   ],
+   "names": {
+    "en": "Fried potatoes",
+    "de": "Bratkartoffeln"
+   }
+  },
+  "hash browns": {
+   "reference": "usda:2709483",
+   "aliases": [
+    "hash brown",
+    "hashbrowns",
+    "rösti",
+    "rosti"
+   ],
+   "names": {
+    "en": "Hash browns",
+    "de": "Kartoffelrösti"
+   }
+  },
+  "potato dumplings": {
+   "reference": "bls:X673042",
+   "aliases": [
+    "knödel",
+    "kartoffelknödel",
+    "klöße",
+    "potato dumpling"
+   ],
+   "names": {
+    "en": "Potato dumplings",
+    "de": "Kartoffelklöße"
+   }
+  },
+  "cooked gnocchi": {
+   "reference": "bls:K270032",
+   "aliases": [
+    "gnocchi",
+    "potato gnocchi"
+   ],
+   "names": {
+    "en": "Gnocchi, cooked",
+    "de": "Gnocchi, gekocht"
+   }
+  },
+  "cooked sweet potato": {
+   "reference": "bls:K420132",
+   "aliases": [
+    "sweet potato",
+    "sweet potatoes",
+    "boiled sweet potato",
+    "yam (sweet potato)"
+   ],
+   "names": {
+    "en": "Sweet potato, cooked",
+    "de": "Süßkartoffel, gekocht"
+   }
+  },
+  "cooked couscous": {
+   "reference": "bls:C119232",
+   "aliases": [
+    "couscous",
+    "steamed couscous"
+   ],
+   "names": {
+    "en": "Couscous, cooked",
+    "de": "Couscous, gekocht"
+   }
+  },
+  "cooked bulgur": {
+   "reference": "bls:C119132",
+   "aliases": [
+    "bulgur",
+    "bulgur wheat",
+    "bulghur",
+    "cracked wheat, cooked"
+   ],
+   "names": {
+    "en": "Bulgur, cooked",
+    "de": "Bulgur, gekocht"
+   }
+  },
+  "cooked quinoa": {
+   "reference": "bls:C118032",
+   "aliases": [
+    "quinoa"
+   ],
+   "names": {
+    "en": "Quinoa, cooked",
+    "de": "Quinoa, gekocht"
+   }
+  },
+  "polenta": {
+   "reference": "bls:C526000",
+   "aliases": [
+    "cooked polenta",
+    "soft polenta",
+    "grits"
+   ],
+   "names": {
+    "en": "Polenta",
+    "de": "Polenta"
+   }
+  },
+  "cooked lentils": {
+   "reference": "usda:2707425",
+   "aliases": [
+    "lentils",
+    "red lentils, cooked",
+    "green lentils",
+    "brown lentils",
+    "boiled lentils",
+    "dal lentils",
+    "cooked red lentils"
+   ],
+   "names": {
+    "en": "Lentils, cooked",
+    "de": "Linsen, gekocht"
+   }
+  },
+  "cooked chickpeas": {
+   "reference": "bls:G770432",
+   "aliases": [
+    "chickpeas",
+    "garbanzo beans",
+    "canned chickpeas",
+    "chick peas",
+    "chana"
+   ],
+   "names": {
+    "en": "Chickpeas, cooked",
+    "de": "Kichererbsen, gekocht"
+   }
+  },
+  "kidney beans": {
+   "reference": "usda:2707383",
+   "aliases": [
+    "red kidney beans",
+    "canned kidney beans",
+    "cooked kidney beans",
+    "rajma"
+   ],
+   "names": {
+    "en": "Kidney beans, canned",
+    "de": "Kidneybohnen, aus der Dose"
+   }
+  },
+  "black beans": {
+   "reference": "usda:2707363",
+   "aliases": [
+    "canned black beans",
+    "cooked black beans",
+    "black turtle beans"
+   ],
+   "names": {
+    "en": "Black beans, canned",
+    "de": "Schwarze Bohnen, aus der Dose"
+   }
+  },
+  "pinto beans": {
+   "reference": "usda:2707375",
+   "aliases": [
+    "canned pinto beans",
+    "cooked pinto beans"
+   ],
+   "names": {
+    "en": "Pinto beans, canned",
+    "de": "Pintobohnen, aus der Dose"
+   }
+  },
+  "white beans": {
+   "reference": "bls:H740132",
+   "aliases": [
+    "cannellini beans",
+    "haricot beans",
+    "navy beans",
+    "great northern beans",
+    "cooked white beans"
+   ],
+   "names": {
+    "en": "White beans, cooked",
+    "de": "Weiße Bohnen, gekocht"
+   }
+  },
+  "baked beans": {
+   "reference": "cofid:13-532",
+   "aliases": [
+    "beans in tomato sauce",
+    "canned baked beans"
+   ],
+   "names": {
+    "en": "Baked beans",
+    "de": "Weiße Bohnen in Tomatensauce"
+   }
+  },
+  "refried beans": {
+   "reference": "usda:2707396",
+   "aliases": [
+    "frijoles refritos"
+   ],
+   "names": {
+    "en": "Refried beans",
+    "de": "Refried Beans"
+   }
+  },
+  "edamame": {
+   "reference": "usda:2707436",
+   "aliases": [
+    "cooked edamame",
+    "soybeans in pods",
+    "green soybeans"
+   ],
+   "names": {
+    "en": "Edamame, cooked",
+    "de": "Edamame, gekocht"
+   }
+  },
+  "white bread": {
+   "reference": "bls:B311000",
+   "aliases": [
+    "wheat bread",
+    "weißbrot",
+    "white loaf",
+    "italian bread",
+    "farmhouse white bread"
+   ],
+   "names": {
+    "en": "White bread",
+    "de": "Weißbrot"
+   }
+  },
+  "white toast bread": {
+   "reference": "bls:B314000",
+   "aliases": [
+    "toast bread",
+    "toastbrot",
+    "sliced white bread",
+    "sandwich bread",
+    "white sandwich bread"
+   ],
+   "names": {
+    "en": "White toast bread",
+    "de": "Toastbrot"
+   }
+  },
+  "toasted white bread": {
+   "reference": "bls:B314072",
+   "aliases": [
+    "toast",
+    "white toast",
+    "toasted bread",
+    "buttered toast bread"
+   ],
+   "names": {
+    "en": "White toast bread, toasted",
+    "de": "Toastbrot, getoastet"
+   }
+  },
+  "wholemeal bread": {
+   "reference": "bls:B101000",
+   "aliases": [
+    "whole wheat bread",
+    "wholegrain bread",
+    "whole grain bread",
+    "vollkornbrot",
+    "brown bread"
+   ],
+   "names": {
+    "en": "Wholemeal bread",
+    "de": "Vollkornbrot"
+   }
+  },
+  "sourdough bread": {
+   "reference": "bls:B251000",
+   "aliases": [
+    "sourdough",
+    "wheat-rye bread",
+    "weizenmischbrot",
+    "country bread",
+    "mixed wheat bread"
+   ],
+   "names": {
+    "en": "Wheat-rye bread",
+    "de": "Weizenmischbrot"
+   }
+  },
+  "rye bread": {
+   "reference": "bls:B221000",
+   "aliases": [
+    "roggenbrot",
+    "dark rye bread"
+   ],
+   "names": {
+    "en": "Rye bread",
+    "de": "Roggenbrot"
+   }
+  },
+  "baguette": {
+   "reference": "bls:B781200",
+   "aliases": [
+    "french bread",
+    "french baguette",
+    "baguette bread"
+   ],
+   "names": {
+    "en": "Baguette",
+    "de": "Baguette"
+   }
+  },
+  "ciabatta": {
+   "reference": "cofid:11-969",
+   "aliases": [
+    "ciabatta bread",
+    "ciabatta roll"
+   ],
+   "names": {
+    "en": "Ciabatta",
+    "de": "Ciabatta"
+   }
+  },
+  "bread roll": {
+   "reference": "bls:B511000",
+   "aliases": [
+    "roll",
+    "white roll",
+    "brötchen",
+    "semmel",
+    "kaiser roll",
+    "crusty roll"
+   ],
+   "names": {
+    "en": "Bread roll",
+    "de": "Brötchen"
+   }
+  },
+  "burger bun": {
+   "reference": "usda:2707657",
+   "aliases": [
+    "hamburger bun",
+    "burger buns",
+    "hamburger roll",
+    "slider bun"
+   ],
+   "names": {
+    "en": "Burger bun",
+    "de": "Burgerbrötchen"
+   }
+  },
+  "hot dog bun": {
+   "reference": "usda:2707656",
+   "aliases": [
+    "hot dog roll",
+    "hot dog buns",
+    "frankfurter roll"
+   ],
+   "names": {
+    "en": "Hot dog bun",
+    "de": "Hotdog-Brötchen"
+   }
+  },
+  "sub roll": {
+   "reference": "usda:2707663",
+   "aliases": [
+    "hoagie roll",
+    "submarine roll",
+    "sandwich roll",
+    "hero roll"
+   ],
+   "names": {
+    "en": "Sub roll",
+    "de": "Sub-Brötchen"
+   }
+  },
+  "brioche": {
+   "reference": "usda:2707682",
+   "aliases": [
+    "brioche bun",
+    "brioche bread"
+   ],
+   "names": {
+    "en": "Brioche",
+    "de": "Brioche"
+   }
+  },
+  "pita bread": {
+   "reference": "usda:2707616",
+   "aliases": [
+    "pita",
+    "pitta",
+    "pitta bread",
+    "pocket bread"
+   ],
+   "names": {
+    "en": "Pita bread",
+    "de": "Pitabrot"
+   }
+  },
+  "flatbread": {
+   "reference": "bls:B782100",
+   "aliases": [
+    "turkish flatbread",
+    "fladenbrot",
+    "pide",
+    "turkish bread"
+   ],
+   "names": {
+    "en": "Flatbread",
+    "de": "Fladenbrot"
+   }
+  },
+  "naan": {
+   "reference": "usda:2707613",
+   "aliases": [
+    "naan bread",
+    "nan bread",
+    "garlic naan"
+   ],
+   "names": {
+    "en": "Naan",
+    "de": "Naan-Brot"
+   }
+  },
+  "chapati": {
+   "reference": "cofid:11-459",
+   "aliases": [
+    "roti",
+    "chapatti",
+    "phulka"
+   ],
+   "note": "missing fiber",
+   "names": {
+    "en": "Chapati",
+    "de": "Chapati"
+   }
+  },
+  "flour tortilla": {
+   "reference": "usda:2707824",
+   "aliases": [
+    "tortilla",
+    "wheat tortilla",
+    "wrap",
+    "tortilla wrap",
+    "burrito tortilla",
+    "flour tortillas"
+   ],
+   "names": {
+    "en": "Flour tortilla",
+    "de": "Weizentortilla"
+   }
+  },
+  "corn tortilla": {
+   "reference": "usda:2707823",
+   "aliases": [
+    "corn tortillas",
+    "maize tortilla",
+    "soft taco tortilla"
+   ],
+   "names": {
+    "en": "Corn tortilla",
+    "de": "Maistortilla"
+   }
+  },
+  "tortilla chips": {
+   "reference": "usda:2708202",
+   "aliases": [
+    "nacho chips",
+    "totopos"
+   ],
+   "names": {
+    "en": "Tortilla chips",
+    "de": "Tortillachips"
+   }
+  },
+  "croissant": {
+   "reference": "usda:2707678",
+   "aliases": [
+    "croissants",
+    "butter croissant"
+   ],
+   "names": {
+    "en": "Croissant",
+    "de": "Croissant"
+   }
+  },
+  "bagel": {
+   "reference": "usda:2707684",
+   "aliases": [
+    "plain bagel",
+    "bagels"
+   ],
+   "names": {
+    "en": "Bagel",
+    "de": "Bagel"
+   }
+  },
+  "breadcrumbs": {
+   "reference": "bls:B821000",
+   "aliases": [
+    "bread crumbs",
+    "dried breadcrumbs",
+    "panko",
+    "panko breadcrumbs",
+    "semmelbrösel",
+    "paniermehl"
+   ],
+   "names": {
+    "en": "Breadcrumbs",
+    "de": "Semmelbrösel"
+   }
+  },
+  "croutons": {
+   "reference": "usda:2707697",
+   "aliases": [
+    "crouton",
+    "bread croutons"
+   ],
+   "names": {
+    "en": "Croutons",
+    "de": "Croutons"
+   }
+  },
+  "pizza dough": {
+   "reference": "bls:X9A6030",
+   "aliases": [
+    "pizza base",
+    "raw pizza dough",
+    "pizzateig",
+    "pizza crust dough"
+   ],
+   "names": {
+    "en": "Pizza dough",
+    "de": "Pizzateig"
+   }
+  },
+  "puff pastry": {
+   "reference": "bls:D072000",
+   "aliases": [
+    "blätterteig",
+    "puff pastry sheet",
+    "rough puff pastry"
+   ],
+   "names": {
+    "en": "Puff pastry",
+    "de": "Blätterteig"
+   }
+  },
+  "filo pastry": {
+   "reference": "ciqual:23445",
+   "aliases": [
+    "phyllo",
+    "phyllo dough",
+    "filo",
+    "yufka",
+    "strudel dough"
+   ],
+   "names": {
+    "en": "Filo pastry",
+    "de": "Filoteig"
+   }
+  },
+  "wheat flour": {
+   "reference": "bls:C214100",
+   "aliases": [
+    "flour",
+    "all-purpose flour",
+    "plain flour",
+    "white flour",
+    "type 405 flour",
+    "cake flour"
+   ],
+   "names": {
+    "en": "Wheat flour",
+    "de": "Weizenmehl"
+   }
+  },
+  "wholemeal flour": {
+   "reference": "cofid:11-889",
+   "aliases": [
+    "whole wheat flour",
+    "wholewheat flour",
+    "whole grain flour",
+    "atta"
+   ],
+   "names": {
+    "en": "Wholemeal flour",
+    "de": "Weizenvollkornmehl"
+   }
+  },
+  "cornstarch": {
+   "reference": "bls:C446000",
+   "aliases": [
+    "corn starch",
+    "cornflour",
+    "maize starch",
+    "speisestärke"
+   ],
+   "names": {
+    "en": "Cornstarch",
+    "de": "Maisstärke"
+   }
+  },
+  "chickpea flour": {
+   "reference": "bls:H720400",
+   "aliases": [
+    "gram flour",
+    "besan"
+   ],
+   "names": {
+    "en": "Chickpea flour",
+    "de": "Kichererbsenmehl"
+   }
+  },
+  "rolled oats": {
+   "reference": "bls:C133000",
+   "aliases": [
+    "oats",
+    "oat flakes",
+    "porridge oats",
+    "oatmeal (dry)",
+    "haferflocken",
+    "old-fashioned oats"
+   ],
+   "names": {
+    "en": "Rolled oats",
+    "de": "Haferflocken"
+   }
+  },
+  "porridge": {
+   "reference": "bls:X9A2120",
+   "aliases": [
+    "cooked oats",
+    "oatmeal, cooked",
+    "oat porridge"
+   ],
+   "names": {
+    "en": "Porridge, made with water",
+    "de": "Haferbrei, mit Wasser"
+   }
+  },
+  "muesli": {
+   "reference": "bls:C512300",
+   "aliases": [
+    "müsli",
+    "swiss muesli",
+    "bircher muesli mix"
+   ],
+   "names": {
+    "en": "Muesli",
+    "de": "Müsli"
+   }
+  },
+  "granola": {
+   "reference": "bls:X0A3000",
+   "aliases": [
+    "crunchy granola",
+    "knuspermüsli",
+    "crunchy muesli"
+   ],
+   "names": {
+    "en": "Granola",
+    "de": "Knuspermüsli"
+   }
+  },
+  "cooked chicken breast": {
+   "reference": "bls:V416132",
+   "aliases": [
+    "chicken breast",
+    "poached chicken breast",
+    "shredded chicken",
+    "cooked chicken",
+    "boiled chicken breast",
+    "chicken",
+    "diced chicken"
+   ],
+   "names": {
+    "en": "Chicken breast, cooked",
+    "de": "Hähnchenbrust, gekocht"
+   }
+  },
+  "grilled chicken breast": {
+   "reference": "bls:V4A6172",
+   "aliases": [
+    "grilled chicken",
+    "chargrilled chicken breast",
+    "bbq chicken breast"
+   ],
+   "names": {
+    "en": "Chicken breast, grilled",
+    "de": "Hähnchenbrust, gegrillt"
+   }
+  },
+  "pan-fried chicken breast": {
+   "reference": "bls:Y562032",
+   "aliases": [
+    "fried chicken breast",
+    "sautéed chicken breast",
+    "seared chicken breast",
+    "chicken breast fillet, fried"
+   ],
+   "names": {
+    "en": "Chicken breast, pan-fried",
+    "de": "Hähnchenbrust, gebraten"
+   }
+  },
+  "cooked chicken thigh": {
+   "reference": "usda:2706044",
+   "aliases": [
+    "chicken thighs",
+    "chicken thigh",
+    "boneless chicken thigh",
+    "skinless chicken thigh",
+    "chicken thigh fillet"
+   ],
+   "names": {
+    "en": "Chicken thigh, cooked",
+    "de": "Hähnchenschenkel, gegart"
+   }
+  },
+  "roast chicken": {
+   "reference": "bls:Y560322",
+   "aliases": [
+    "roasted chicken",
+    "rotisserie chicken",
+    "whole roast chicken",
+    "brathähnchen",
+    "half chicken"
+   ],
+   "names": {
+    "en": "Roast chicken",
+    "de": "Brathähnchen"
+   }
+  },
+  "roast chicken drumstick": {
+   "reference": "usda:2706008",
+   "aliases": [
+    "chicken drumsticks",
+    "chicken drumstick",
+    "chicken legs",
+    "chicken leg"
+   ],
+   "names": {
+    "en": "Chicken drumstick, roasted",
+    "de": "Hähnchenunterschenkel, gebraten"
+   }
+  },
+  "grilled chicken wings": {
+   "reference": "bls:V417172",
+   "aliases": [
+    "chicken wings",
+    "wings",
+    "baked chicken wings"
+   ],
+   "names": {
+    "en": "Chicken wings, grilled",
+    "de": "Hähnchenflügel, gegrillt"
+   }
+  },
+  "breaded chicken breast": {
+   "reference": "bls:Y591112",
+   "aliases": [
+    "chicken schnitzel",
+    "chicken katsu",
+    "crispy chicken",
+    "breaded chicken",
+    "chicken cutlet, breaded",
+    "fried chicken",
+    "chicken tenders"
+   ],
+   "names": {
+    "en": "Chicken breast, breaded",
+    "de": "Hähnchenbrust, paniert"
+   }
+  },
+  "chicken nuggets": {
+   "reference": "usda:2706096",
+   "aliases": [
+    "nuggets",
+    "chicken nugget"
+   ],
+   "names": {
+    "en": "Chicken nuggets",
+    "de": "Chicken Nuggets"
+   }
+  },
+  "chicken doner meat": {
+   "reference": "bls:V422072",
+   "aliases": [
+    "doner meat",
+    "döner",
+    "kebab meat",
+    "doner kebab meat",
+    "chicken shawarma",
+    "shawarma meat"
+   ],
+   "names": {
+    "en": "Chicken doner meat",
+    "de": "Hähnchen-Dönerfleisch"
+   }
+  },
+  "cooked turkey breast": {
+   "reference": "bls:V486132",
+   "aliases": [
+    "turkey breast",
+    "turkey",
+    "roast turkey",
+    "roast turkey breast"
+   ],
+   "names": {
+    "en": "Turkey breast, cooked",
+    "de": "Putenbrust, gekocht"
+   }
+  },
+  "turkey deli slices": {
+   "reference": "usda:2706215",
+   "aliases": [
+    "sliced turkey",
+    "turkey cold cuts",
+    "deli turkey"
+   ],
+   "names": {
+    "en": "Turkey slices",
+    "de": "Putenaufschnitt"
+   }
+  },
+  "ground turkey": {
+   "reference": "usda:2706133",
+   "aliases": [
+    "turkey mince",
+    "minced turkey"
+   ],
+   "names": {
+    "en": "Ground turkey",
+    "de": "Putenhackfleisch"
+   }
+  },
+  "duck breast": {
+   "reference": "bls:V466172",
+   "aliases": [
+    "grilled duck breast",
+    "pan-seared duck breast",
+    "magret"
+   ],
+   "names": {
+    "en": "Duck breast, grilled",
+    "de": "Entenbrust, gegrillt"
+   }
+  },
+  "roast duck": {
+   "reference": "cofid:18-372",
+   "aliases": [
+    "roasted duck",
+    "peking duck",
+    "crispy duck",
+    "duck meat"
+   ],
+   "names": {
+    "en": "Roast duck, meat only",
+    "de": "Entenbraten, ohne Haut"
+   }
+  },
+  "beef steak, pan-fried": {
+   "reference": "bls:U131182",
+   "aliases": [
+    "steak",
+    "beef steak",
+    "sirloin steak",
+    "rib-eye steak",
+    "ribeye",
+    "cooked steak",
+    "pan-fried steak",
+    "strip steak",
+    "rump steak",
+    "grilled steak",
+    "chargrilled steak",
+    "grilled beef steak"
+   ],
+   "names": {
+    "en": "Beef steak, pan-fried",
+    "de": "Rindersteak, gebraten"
+   }
+  },
+  "thinly sliced beef": {
+   "reference": "bls:U131100",
+   "aliases": [
+    "shaved beef",
+    "beef strips, raw",
+    "bulgogi beef",
+    "sukiyaki beef",
+    "raw beef"
+   ],
+   "names": {
+    "en": "Thinly sliced beef, raw",
+    "de": "Rindfleisch, dünn geschnitten, roh"
+   }
+  },
+  "cooked ground beef": {
+   "reference": "bls:U010182",
+   "aliases": [
+    "ground beef",
+    "beef mince",
+    "minced beef",
+    "browned ground beef",
+    "cooked beef mince",
+    "hamburger meat"
+   ],
+   "names": {
+    "en": "Ground beef, cooked",
+    "de": "Rinderhackfleisch, gebraten"
+   }
+  },
+  "raw ground beef": {
+   "reference": "bls:U010100",
+   "aliases": [
+    "raw beef mince",
+    "uncooked ground beef",
+    "raw minced beef"
+   ],
+   "names": {
+    "en": "Ground beef, raw",
+    "de": "Rinderhackfleisch, roh"
+   }
+  },
+  "cooked mixed mince": {
+   "reference": "bls:U050132",
+   "aliases": [
+    "beef and pork mince",
+    "mixed ground meat",
+    "hackfleisch gemischt",
+    "mixed mince"
+   ],
+   "names": {
+    "en": "Mixed mince, cooked",
+    "de": "Gemischtes Hackfleisch, gekocht"
+   }
+  },
+  "cooked ground pork": {
+   "reference": "bls:U020182",
+   "aliases": [
+    "ground pork",
+    "pork mince",
+    "minced pork"
+   ],
+   "names": {
+    "en": "Ground pork, cooked",
+    "de": "Schweinehackfleisch, gebraten"
+   }
+  },
+  "ground lamb": {
+   "reference": "usda:2705907",
+   "aliases": [
+    "lamb mince",
+    "minced lamb",
+    "cooked lamb mince"
+   ],
+   "names": {
+    "en": "Ground lamb",
+    "de": "Lammhackfleisch"
+   }
+  },
+  "beef patty": {
+   "reference": "bls:U013172",
+   "aliases": [
+    "burger patty",
+    "hamburger patty",
+    "beef burger patty",
+    "grilled burger patty",
+    "smash patty"
+   ],
+   "names": {
+    "en": "Beef patty, grilled",
+    "de": "Rindfleisch-Patty, gegrillt"
+   }
+  },
+  "meatballs": {
+   "reference": "bls:Y036122",
+   "aliases": [
+    "meatball",
+    "fried meatballs",
+    "frikadellen",
+    "frikadelle",
+    "beef meatballs",
+    "pork meatballs"
+   ],
+   "names": {
+    "en": "Meatballs, fried",
+    "de": "Fleischbällchen, gebraten"
+   }
+  },
+  "roast beef": {
+   "reference": "bls:Y131132",
+   "aliases": [
+    "roast beef slices",
+    "sliced roast beef",
+    "roastbeef"
+   ],
+   "names": {
+    "en": "Roast beef",
+    "de": "Roastbeef"
+   }
+  },
+  "braised beef": {
+   "reference": "bls:U281142",
+   "aliases": [
+    "stewing beef",
+    "beef stew meat",
+    "beef chuck, braised",
+    "pot roast",
+    "beef for goulash",
+    "beef brisket, braised",
+    "beef cubes, cooked"
+   ],
+   "names": {
+    "en": "Beef, braised",
+    "de": "Rindfleisch, geschmort"
+   }
+  },
+  "roast pork": {
+   "reference": "bls:Y352212",
+   "aliases": [
+    "pork roast",
+    "schweinebraten",
+    "roasted pork shoulder",
+    "pulled pork",
+    "roast pork loin"
+   ],
+   "names": {
+    "en": "Roast pork",
+    "de": "Schweinebraten"
+   }
+  },
+  "cooked pork belly": {
+   "reference": "bls:U57A172",
+   "aliases": [
+    "pork belly",
+    "roast pork belly",
+    "crispy pork belly",
+    "grilled pork belly",
+    "samgyeopsal"
+   ],
+   "names": {
+    "en": "Pork belly, cooked",
+    "de": "Schweinebauch, gegart"
+   }
+  },
+  "pork chop": {
+   "reference": "bls:Y321222",
+   "aliases": [
+    "pork chops",
+    "pan-fried pork chop",
+    "fried pork chop",
+    "pork cutlet"
+   ],
+   "names": {
+    "en": "Pork chop, fried",
+    "de": "Schweinekotelett, gebraten"
+   }
+  },
+  "grilled pork tenderloin": {
+   "reference": "bls:U611172",
+   "aliases": [
+    "pork tenderloin",
+    "pork fillet",
+    "pork medallions",
+    "pork loin, cooked",
+    "pork strips, cooked"
+   ],
+   "names": {
+    "en": "Pork tenderloin, grilled",
+    "de": "Schweinefilet, gegrillt"
+   }
+  },
+  "breaded pork schnitzel": {
+   "reference": "bls:Y332132",
+   "aliases": [
+    "schnitzel",
+    "pork schnitzel",
+    "tonkatsu",
+    "breaded pork cutlet",
+    "schnitzel wiener art"
+   ],
+   "names": {
+    "en": "Pork schnitzel, breaded",
+    "de": "Schweineschnitzel, paniert"
+   }
+  },
+  "wiener schnitzel": {
+   "reference": "bls:Y231322",
+   "aliases": [
+    "veal schnitzel",
+    "breaded veal cutlet",
+    "viennese schnitzel"
+   ],
+   "names": {
+    "en": "Wiener schnitzel",
+    "de": "Wiener Schnitzel"
+   }
+  },
+  "pork gyros": {
+   "reference": "bls:Y384112",
+   "aliases": [
+    "gyros",
+    "gyro meat",
+    "gyros meat"
+   ],
+   "names": {
+    "en": "Pork gyros",
+    "de": "Gyros vom Schwein"
+   }
+  },
+  "cooked bacon": {
+   "reference": "usda:2705889",
+   "aliases": [
+    "bacon",
+    "crispy bacon",
+    "bacon strips",
+    "streaky bacon, cooked",
+    "fried bacon"
+   ],
+   "names": {
+    "en": "Bacon, cooked",
+    "de": "Bacon, gebraten"
+   }
+  },
+  "grilled back bacon": {
+   "reference": "cofid:19-500",
+   "aliases": [
+    "back bacon",
+    "bacon rashers",
+    "rashers",
+    "irish bacon"
+   ],
+   "names": {
+    "en": "Back bacon, grilled",
+    "de": "Bacon aus dem Rücken, gegrillt"
+   }
+  },
+  "smoked streaky bacon": {
+   "reference": "bls:W411300",
+   "aliases": [
+    "speck",
+    "bauchspeck",
+    "pancetta",
+    "lardons",
+    "bacon bits (raw)",
+    "smoked bacon",
+    "diced bacon"
+   ],
+   "names": {
+    "en": "Smoked streaky bacon",
+    "de": "Bauchspeck, geräuchert"
+   }
+  },
+  "cooked ham": {
+   "reference": "bls:W424000",
+   "aliases": [
+    "ham",
+    "boiled ham",
+    "sliced ham",
+    "kochschinken",
+    "deli ham",
+    "ham slices"
+   ],
+   "names": {
+    "en": "Cooked ham",
+    "de": "Kochschinken"
+   }
+  },
+  "prosciutto": {
+   "reference": "usda:2705879",
+   "aliases": [
+    "parma ham",
+    "serrano ham",
+    "jamón serrano",
+    "cured ham",
+    "rohschinken",
+    "air-dried ham",
+    "black forest ham"
+   ],
+   "names": {
+    "en": "Prosciutto",
+    "de": "Prosciutto"
+   }
+  },
+  "salami": {
+   "reference": "bls:W140000",
+   "aliases": [
+    "salame",
+    "genoa salami",
+    "milano salami"
+   ],
+   "names": {
+    "en": "Salami",
+    "de": "Salami"
+   }
+  },
+  "pepperoni": {
+   "reference": "usda:2706185",
+   "aliases": [
+    "pepperoni slices"
+   ],
+   "names": {
+    "en": "Pepperoni",
+    "de": "Pepperoni-Salami"
+   }
+  },
+  "chorizo": {
+   "reference": "usda:2706179",
+   "aliases": [
+    "chorizo sausage",
+    "spanish chorizo",
+    "mexican chorizo"
+   ],
+   "names": {
+    "en": "Chorizo",
+    "de": "Chorizo"
+   }
+  },
+  "bratwurst": {
+   "reference": "bls:Y021312",
+   "aliases": [
+    "grilled bratwurst",
+    "fried bratwurst",
+    "brats",
+    "bratwurst, cooked",
+    "rostbratwurst"
+   ],
+   "names": {
+    "en": "Bratwurst, fried",
+    "de": "Bratwurst, gebraten"
+   }
+  },
+  "frankfurter": {
+   "reference": "bls:W211200",
+   "aliases": [
+    "frankfurters",
+    "wiener",
+    "wieners",
+    "vienna sausage",
+    "hot dog sausage",
+    "hot dogs",
+    "wiener würstchen",
+    "frank"
+   ],
+   "names": {
+    "en": "Frankfurter",
+    "de": "Wiener Würstchen"
+   }
+  },
+  "pork sausages": {
+   "reference": "cofid:19-509",
+   "aliases": [
+    "pork sausage",
+    "sausages",
+    "bangers",
+    "breakfast sausages",
+    "grilled sausages",
+    "sausage"
+   ],
+   "names": {
+    "en": "Pork sausages, grilled",
+    "de": "Schweinswürstchen, gegrillt"
+   }
+  },
+  "italian sausage": {
+   "reference": "usda:2706189",
+   "aliases": [
+    "salsiccia",
+    "italian sausages"
+   ],
+   "names": {
+    "en": "Italian sausage",
+    "de": "Salsiccia"
+   }
+  },
+  "curry sausage": {
+   "reference": "bls:W221300",
+   "aliases": [
+    "currywurst sausage",
+    "currybratwurst"
+   ],
+   "names": {
+    "en": "Curry sausage",
+    "de": "Currybratwurst"
+   }
+  },
+  "leberkäse": {
+   "reference": "bls:W256100",
+   "aliases": [
+    "leberkaese",
+    "fleischkäse",
+    "bavarian meatloaf"
+   ],
+   "names": {
+    "en": "Leberkäse",
+    "de": "Leberkäse"
+   }
+  },
+  "roast lamb": {
+   "reference": "cofid:18-131",
+   "aliases": [
+    "roast leg of lamb",
+    "leg of lamb",
+    "lamb leg, roasted",
+    "lamb roast"
+   ],
+   "names": {
+    "en": "Roast lamb",
+    "de": "Lammbraten"
+   }
+  },
+  "roast lamb shoulder": {
+   "reference": "cofid:18-179",
+   "aliases": [
+    "lamb shoulder",
+    "slow-roasted lamb shoulder",
+    "lamb for curry",
+    "lamb stew meat",
+    "lamb kebab meat"
+   ],
+   "names": {
+    "en": "Lamb shoulder, roasted",
+    "de": "Lammschulter, gebraten"
+   }
+  },
+  "grilled lamb chops": {
+   "reference": "bls:U727172",
+   "aliases": [
+    "lamb chops",
+    "lamb chop",
+    "lamb cutlets"
+   ],
+   "names": {
+    "en": "Lamb chops, grilled",
+    "de": "Lammkoteletts, gegrillt"
+   }
+  },
+  "cooked salmon": {
+   "reference": "bls:T410072",
+   "aliases": [
+    "salmon",
+    "grilled salmon",
+    "baked salmon",
+    "salmon fillet",
+    "pan-fried salmon",
+    "roast salmon"
+   ],
+   "names": {
+    "en": "Salmon, cooked",
+    "de": "Lachs, gegart"
+   }
+  },
+  "raw salmon": {
+   "reference": "cofid:16-356",
+   "aliases": [
+    "salmon sashimi",
+    "sushi salmon",
+    "raw salmon fillet",
+    "sashimi-grade salmon"
+   ],
+   "names": {
+    "en": "Salmon, raw",
+    "de": "Lachs, roh"
+   }
+  },
+  "smoked salmon": {
+   "reference": "bls:T410600",
+   "aliases": [
+    "lox",
+    "räucherlachs",
+    "cold-smoked salmon"
+   ],
+   "names": {
+    "en": "Smoked salmon",
+    "de": "Räucherlachs"
+   }
+  },
+  "canned tuna": {
+   "reference": "usda:2706311",
+   "aliases": [
+    "tuna",
+    "tinned tuna",
+    "tuna in water",
+    "tuna in brine",
+    "canned tuna in water"
+   ],
+   "names": {
+    "en": "Tuna, canned",
+    "de": "Thunfisch, aus der Dose"
+   }
+  },
+  "canned tuna in oil": {
+   "reference": "bls:T121702",
+   "aliases": [
+    "tuna in oil",
+    "tinned tuna in oil",
+    "tuna in olive oil"
+   ],
+   "names": {
+    "en": "Tuna in oil, canned",
+    "de": "Thunfisch in Öl, aus der Dose"
+   }
+  },
+  "raw tuna": {
+   "reference": "bls:T121100",
+   "aliases": [
+    "tuna sashimi",
+    "sushi tuna",
+    "ahi tuna",
+    "raw tuna steak"
+   ],
+   "names": {
+    "en": "Tuna, raw",
+    "de": "Thunfisch, roh"
+   }
+  },
+  "cooked cod": {
+   "reference": "bls:T204172",
+   "aliases": [
+    "cod",
+    "baked cod",
+    "grilled cod",
+    "white fish",
+    "cod fillet",
+    "cooked white fish"
+   ],
+   "names": {
+    "en": "Cod, cooked",
+    "de": "Kabeljau, gegart"
+   }
+  },
+  "battered fish": {
+   "reference": "cofid:16-369",
+   "aliases": [
+    "battered cod",
+    "fish in batter",
+    "fried fish",
+    "beer-battered fish"
+   ],
+   "names": {
+    "en": "Battered cod",
+    "de": "Kabeljau im Backteig"
+   }
+  },
+  "fish fingers": {
+   "reference": "bls:T930162",
+   "aliases": [
+    "fish sticks",
+    "fischstäbchen"
+   ],
+   "names": {
+    "en": "Fish fingers",
+    "de": "Fischstäbchen"
+   }
+  },
+  "grilled trout": {
+   "reference": "bls:T420172",
+   "aliases": [
+    "trout",
+    "trout fillet",
+    "cooked trout"
+   ],
+   "names": {
+    "en": "Trout, grilled",
+    "de": "Forelle, gegrillt"
+   }
+  },
+  "cooked shrimp": {
+   "reference": "bls:T753132",
+   "aliases": [
+    "shrimp",
+    "prawns",
+    "cooked prawns",
+    "boiled shrimp",
+    "shrimps",
+    "king prawns, cooked"
+   ],
+   "names": {
+    "en": "Shrimp, cooked",
+    "de": "Garnelen, gekocht"
+   }
+  },
+  "cooked squid": {
+   "reference": "usda:2706333",
+   "aliases": [
+    "squid",
+    "calamari",
+    "squid rings",
+    "cooked calamari"
+   ],
+   "names": {
+    "en": "Squid, cooked",
+    "de": "Tintenfisch, gegart"
+   }
+  },
+  "fried calamari": {
+   "reference": "usda:2706334",
+   "aliases": [
+    "calamari fritti",
+    "breaded squid rings",
+    "fried squid"
+   ],
+   "names": {
+    "en": "Calamari, fried",
+    "de": "Calamari, frittiert"
+   }
+  },
+  "cooked mussels": {
+   "reference": "bls:T792132",
+   "aliases": [
+    "mussels",
+    "steamed mussels",
+    "moules"
+   ],
+   "names": {
+    "en": "Mussels, cooked",
+    "de": "Miesmuscheln, gekocht"
+   }
+  },
+  "crab meat": {
+   "reference": "usda:2706344",
+   "aliases": [
+    "crab",
+    "crabmeat",
+    "cooked crab"
+   ],
+   "names": {
+    "en": "Crab meat",
+    "de": "Krabbenfleisch"
+   }
+  },
+  "anchovies in oil": {
+   "reference": "bls:T104702",
+   "aliases": [
+    "anchovies",
+    "anchovy fillets",
+    "canned anchovies",
+    "anchovy"
+   ],
+   "names": {
+    "en": "Anchovies in oil",
+    "de": "Sardellen in Öl"
+   }
+  },
+  "sardines in oil": {
+   "reference": "bls:T105702",
+   "aliases": [
+    "sardines",
+    "canned sardines",
+    "tinned sardines"
+   ],
+   "names": {
+    "en": "Sardines in oil",
+    "de": "Sardinen in Öl"
+   }
+  },
+  "egg": {
+   "reference": "usda:2707152",
+   "aliases": [
+    "eggs",
+    "whole egg",
+    "raw egg",
+    "large egg",
+    "medium egg",
+    "beaten egg"
+   ],
+   "names": {
+    "en": "Egg",
+    "de": "Ei"
+   }
+  },
+  "boiled egg": {
+   "reference": "bls:E111132",
+   "aliases": [
+    "hard-boiled egg",
+    "hard boiled egg",
+    "soft-boiled egg",
+    "boiled eggs",
+    "ramen egg",
+    "egg, boiled",
+    "poached egg",
+    "poached eggs"
+   ],
+   "names": {
+    "en": "Egg, boiled",
+    "de": "Ei, gekocht"
+   }
+  },
+  "fried egg": {
+   "reference": "bls:Y710142",
+   "aliases": [
+    "fried eggs",
+    "sunny side up egg",
+    "egg, fried",
+    "spiegelei"
+   ],
+   "names": {
+    "en": "Fried egg",
+    "de": "Spiegelei"
+   }
+  },
+  "scrambled eggs": {
+   "reference": "bls:Y720163",
+   "aliases": [
+    "scrambled egg",
+    "rührei"
+   ],
+   "names": {
+    "en": "Scrambled eggs",
+    "de": "Rührei"
+   }
+  },
+  "egg white": {
+   "reference": "usda:2707168",
+   "aliases": [
+    "egg whites",
+    "albumen"
+   ],
+   "names": {
+    "en": "Egg white",
+    "de": "Eiweiß"
+   }
+  },
+  "egg yolk": {
+   "reference": "usda:2707172",
+   "aliases": [
+    "egg yolks",
+    "yolk"
+   ],
+   "names": {
+    "en": "Egg yolk",
+    "de": "Eigelb"
+   }
+  },
+  "firm tofu": {
+   "reference": "bls:H861000",
+   "aliases": [
+    "tofu",
+    "plain tofu",
+    "extra firm tofu",
+    "bean curd"
+   ],
+   "names": {
+    "en": "Firm tofu",
+    "de": "Tofu"
+   }
+  },
+  "silken tofu": {
+   "reference": "bls:H861100",
+   "aliases": [
+    "soft tofu",
+    "seidentofu"
+   ],
+   "names": {
+    "en": "Silken tofu",
+    "de": "Seidentofu"
+   }
+  },
+  "fried tofu": {
+   "reference": "bls:H861062",
+   "aliases": [
+    "baked tofu",
+    "crispy tofu",
+    "tofu puffs"
+   ],
+   "names": {
+    "en": "Tofu, fried",
+    "de": "Tofu, gebraten"
+   }
+  },
+  "tempeh": {
+   "reference": "ciqual:20917",
+   "aliases": [
+    "tempe"
+   ],
+   "names": {
+    "en": "Tempeh",
+    "de": "Tempeh"
+   }
+  },
+  "falafel": {
+   "reference": "bls:Y9A1050",
+   "aliases": [
+    "falafels",
+    "chickpea fritters"
+   ],
+   "names": {
+    "en": "Falafel",
+    "de": "Falafel"
+   }
+  },
+  "veggie burger patty": {
+   "reference": "usda:2707473",
+   "aliases": [
+    "vegetarian burger patty",
+    "veggie patty",
+    "plant-based patty"
+   ],
+   "names": {
+    "en": "Veggie burger patty",
+    "de": "Vegetarisches Burger-Patty"
+   }
+  },
+  "whole milk": {
+   "reference": "bls:M111300",
+   "aliases": [
+    "milk",
+    "full-fat milk",
+    "full fat milk",
+    "3.5% milk",
+    "vollmilch"
+   ],
+   "names": {
+    "en": "Whole milk",
+    "de": "Vollmilch"
+   }
+  },
+  "low-fat milk": {
+   "reference": "bls:M111200",
+   "aliases": [
+    "semi-skimmed milk",
+    "1.5% milk",
+    "reduced-fat milk",
+    "2% milk",
+    "low fat milk",
+    "lowfat milk"
+   ],
+   "names": {
+    "en": "Low-fat milk",
+    "de": "Fettarme Milch"
+   }
+  },
+  "skim milk": {
+   "reference": "usda:2705388",
+   "aliases": [
+    "skimmed milk",
+    "nonfat milk",
+    "fat-free milk",
+    "skimmed milk 0.1%"
+   ],
+   "names": {
+    "en": "Skim milk",
+    "de": "Magermilch"
+   }
+  },
+  "buttermilk": {
+   "reference": "bls:M150000",
+   "aliases": [
+    "cultured buttermilk",
+    "buttermilch"
+   ],
+   "names": {
+    "en": "Buttermilk",
+    "de": "Buttermilch"
+   }
+  },
+  "heavy cream": {
+   "reference": "bls:M173800",
+   "aliases": [
+    "cream",
+    "whipping cream",
+    "double cream",
+    "heavy whipping cream",
+    "sahne",
+    "schlagsahne"
+   ],
+   "names": {
+    "en": "Heavy cream",
+    "de": "Schlagsahne"
+   }
+  },
+  "whipped cream": {
+   "reference": "usda:2705598",
+   "aliases": [
+    "whipped topping (cream)",
+    "chantilly cream"
+   ],
+   "names": {
+    "en": "Whipped cream",
+    "de": "Geschlagene Sahne"
+   }
+  },
+  "light cream": {
+   "reference": "bls:M171500",
+   "aliases": [
+    "single cream",
+    "half and half",
+    "coffee cream",
+    "cooking cream",
+    "kaffeesahne"
+   ],
+   "names": {
+    "en": "Light cream",
+    "de": "Kaffeesahne"
+   }
+  },
+  "sour cream": {
+   "reference": "usda:2705614",
+   "aliases": [
+    "soured cream",
+    "saure sahne"
+   ],
+   "names": {
+    "en": "Sour cream",
+    "de": "Saure Sahne"
+   }
+  },
+  "crème fraîche": {
+   "reference": "cofid:12-335",
+   "aliases": [
+    "creme fraiche",
+    "crème fraiche",
+    "creme fraîche"
+   ],
+   "names": {
+    "en": "Crème fraîche",
+    "de": "Crème fraîche"
+   }
+  },
+  "butter": {
+   "reference": "bls:Q611000",
+   "aliases": [
+    "unsalted butter",
+    "salted butter",
+    "melted butter",
+    "sweet cream butter"
+   ],
+   "names": {
+    "en": "Butter",
+    "de": "Butter"
+   }
+  },
+  "ghee": {
+   "reference": "usda:2710168",
+   "aliases": [
+    "clarified butter",
+    "butterschmalz",
+    "desi ghee"
+   ],
+   "names": {
+    "en": "Ghee",
+    "de": "Ghee"
+   }
+  },
+  "plain yoghurt": {
+   "reference": "bls:M141300",
+   "aliases": [
+    "yoghurt",
+    "yogurt",
+    "plain yogurt",
+    "natural yoghurt",
+    "natural yogurt",
+    "whole milk yoghurt",
+    "joghurt",
+    "curd (dahi)",
+    "dahi"
+   ],
+   "names": {
+    "en": "Plain yoghurt",
+    "de": "Naturjoghurt"
+   }
+  },
+  "greek yoghurt": {
+   "reference": "usda:2705422",
+   "aliases": [
+    "greek yogurt",
+    "greek-style yoghurt",
+    "greek style yogurt",
+    "strained yogurt"
+   ],
+   "names": {
+    "en": "Greek yoghurt",
+    "de": "Griechischer Joghurt"
+   }
+  },
+  "low-fat quark": {
+   "reference": "bls:M713100",
+   "aliases": [
+    "quark",
+    "magerquark",
+    "fat-free quark"
+   ],
+   "names": {
+    "en": "Low-fat quark",
+    "de": "Magerquark"
+   }
+  },
+  "cottage cheese": {
+   "reference": "bls:M711100",
+   "aliases": [
+    "körniger frischkäse",
+    "cottage"
+   ],
+   "names": {
+    "en": "Cottage cheese",
+    "de": "Hüttenkäse"
+   }
+  },
+  "cream cheese": {
+   "reference": "usda:2705760",
+   "aliases": [
+    "soft cheese",
+    "frischkäse",
+    "full-fat cream cheese"
+   ],
+   "names": {
+    "en": "Cream cheese",
+    "de": "Frischkäse"
+   }
+  },
+  "mascarpone": {
+   "reference": "cofid:12-490",
+   "aliases": [
+    "mascarpone cheese"
+   ],
+   "names": {
+    "en": "Mascarpone",
+    "de": "Mascarpone"
+   }
+  },
+  "ricotta": {
+   "reference": "cofid:12-176",
+   "aliases": [
+    "ricotta cheese"
+   ],
+   "names": {
+    "en": "Ricotta",
+    "de": "Ricotta"
+   }
+  },
+  "mozzarella": {
+   "reference": "usda:2705722",
+   "aliases": [
+    "shredded mozzarella",
+    "grated mozzarella",
+    "pizza cheese",
+    "low-moisture mozzarella",
+    "mozzarella cheese"
+   ],
+   "names": {
+    "en": "Mozzarella",
+    "de": "Mozzarella"
+   }
+  },
+  "fresh mozzarella": {
+   "reference": "ciqual:19590",
+   "aliases": [
+    "mozzarella ball",
+    "buffalo mozzarella",
+    "fior di latte",
+    "mozzarella di bufala"
+   ],
+   "names": {
+    "en": "Fresh mozzarella",
+    "de": "Frischer Mozzarella"
+   }
+  },
+  "parmesan": {
+   "reference": "bls:M306400",
+   "aliases": [
+    "parmigiano reggiano",
+    "parmigiano",
+    "grated parmesan",
+    "parmesan cheese",
+    "grana padano",
+    "parmigiano-reggiano"
+   ],
+   "names": {
+    "en": "Parmesan",
+    "de": "Parmesan"
+   }
+  },
+  "pecorino": {
+   "reference": "ciqual:12122",
+   "aliases": [
+    "pecorino romano",
+    "pecorino cheese"
+   ],
+   "note": "missing sugar",
+   "names": {
+    "en": "Pecorino",
+    "de": "Pecorino"
+   }
+  },
+  "cheddar": {
+   "reference": "bls:M303600",
+   "aliases": [
+    "cheddar cheese",
+    "grated cheddar",
+    "shredded cheddar",
+    "mature cheddar",
+    "sharp cheddar"
+   ],
+   "names": {
+    "en": "Cheddar",
+    "de": "Cheddar"
+   }
+  },
+  "monterey jack": {
+   "reference": "usda:2705720",
+   "aliases": [
+    "jack cheese",
+    "pepper jack",
+    "monterey jack cheese"
+   ],
+   "names": {
+    "en": "Monterey Jack",
+    "de": "Monterey Jack"
+   }
+  },
+  "queso fresco": {
+   "reference": "usda:2705745",
+   "aliases": [
+    "fresh mexican cheese",
+    "queso blanco"
+   ],
+   "names": {
+    "en": "Queso fresco",
+    "de": "Queso fresco"
+   }
+  },
+  "feta": {
+   "reference": "usda:2705714",
+   "aliases": [
+    "feta cheese",
+    "sheep cheese",
+    "white cheese (feta)",
+    "greek feta",
+    "schafskäse"
+   ],
+   "names": {
+    "en": "Feta",
+    "de": "Feta"
+   }
+  },
+  "gouda": {
+   "reference": "bls:M402600",
+   "aliases": [
+    "gouda cheese",
+    "young gouda",
+    "gouda slices"
+   ],
+   "names": {
+    "en": "Gouda",
+    "de": "Gouda"
+   }
+  },
+  "emmental": {
+   "reference": "bls:M304600",
+   "aliases": [
+    "emmentaler",
+    "swiss cheese",
+    "emmenthal"
+   ],
+   "names": {
+    "en": "Emmental",
+    "de": "Emmentaler"
+   }
+  },
+  "gruyère": {
+   "reference": "bls:M305700",
+   "aliases": [
+    "gruyere",
+    "greyerzer",
+    "gruyere cheese"
+   ],
+   "names": {
+    "en": "Gruyère",
+    "de": "Gruyère"
+   }
+  },
+  "alpine cheese": {
+   "reference": "bls:M302600",
+   "aliases": [
+    "bergkäse",
+    "mountain cheese",
+    "comté",
+    "comte"
+   ],
+   "names": {
+    "en": "Alpine cheese",
+    "de": "Bergkäse"
+   }
+  },
+  "brie": {
+   "reference": "usda:2705708",
+   "aliases": [
+    "brie cheese"
+   ],
+   "names": {
+    "en": "Brie",
+    "de": "Brie"
+   }
+  },
+  "camembert": {
+   "reference": "usda:2705707",
+   "aliases": [
+    "camembert cheese"
+   ],
+   "names": {
+    "en": "Camembert",
+    "de": "Camembert"
+   }
+  },
+  "blue cheese": {
+   "reference": "usda:2705705",
+   "aliases": [
+    "gorgonzola",
+    "roquefort",
+    "stilton",
+    "danish blue"
+   ],
+   "names": {
+    "en": "Blue cheese",
+    "de": "Blauschimmelkäse"
+   }
+  },
+  "goat cheese": {
+   "reference": "usda:2705716",
+   "aliases": [
+    "chèvre",
+    "chevre",
+    "goats cheese",
+    "goat's cheese",
+    "goat's milk cheese"
+   ],
+   "names": {
+    "en": "Goat cheese",
+    "de": "Ziegenkäse"
+   }
+  },
+  "halloumi": {
+   "reference": "bls:M524500",
+   "aliases": [
+    "halloumi cheese",
+    "grilling cheese",
+    "grillkäse"
+   ],
+   "names": {
+    "en": "Halloumi",
+    "de": "Halloumi"
+   }
+  },
+  "paneer": {
+   "reference": "cofid:12-495",
+   "aliases": [
+    "paneer cheese",
+    "indian cottage cheese"
+   ],
+   "names": {
+    "en": "Paneer",
+    "de": "Paneer"
+   }
+  },
+  "processed cheese slice": {
+   "reference": "cofid:12-527",
+   "aliases": [
+    "american cheese",
+    "cheese slice",
+    "processed cheese",
+    "burger cheese",
+    "cheese singles"
+   ],
+   "names": {
+    "en": "Processed cheese slice",
+    "de": "Schmelzkäsescheibe"
+   }
+  },
+  "cheese sauce": {
+   "reference": "usda:2705808",
+   "aliases": [
+    "nacho cheese sauce",
+    "cheddar cheese sauce",
+    "mornay sauce"
+   ],
+   "names": {
+    "en": "Cheese sauce",
+    "de": "Käsesauce"
+   }
+  },
+  "sweetened condensed milk": {
+   "reference": "bls:M181400",
+   "aliases": [
+    "condensed milk",
+    "kondensmilch gezuckert"
+   ],
+   "names": {
+    "en": "Sweetened condensed milk",
+    "de": "Gezuckerte Kondensmilch"
+   }
+  },
+  "vanilla ice cream": {
+   "reference": "bls:S241000",
+   "aliases": [
+    "ice cream",
+    "vanilla gelato",
+    "vanilleeis"
+   ],
+   "names": {
+    "en": "Vanilla ice cream",
+    "de": "Vanilleeis"
+   }
+  },
+  "vanilla sauce": {
+   "reference": "bls:X361163",
+   "aliases": [
+    "custard sauce",
+    "crème anglaise",
+    "creme anglaise",
+    "vanillesauce",
+    "pouring custard"
+   ],
+   "names": {
+    "en": "Vanilla sauce",
+    "de": "Vanillesauce"
+   }
+  },
+  "onion": {
+   "reference": "bls:G480100",
+   "aliases": [
+    "onions",
+    "raw onion",
+    "yellow onion",
+    "red onion",
+    "white onion",
+    "brown onion",
+    "chopped onion",
+    "diced onion"
+   ],
+   "names": {
+    "en": "Onion",
+    "de": "Zwiebel"
+   }
+  },
+  "sautéed onion": {
+   "reference": "bls:G480152",
+   "aliases": [
+    "sauteed onion",
+    "softened onion",
+    "sweated onion",
+    "fried onion (soft)",
+    "caramelised onion",
+    "caramelized onions"
+   ],
+   "names": {
+    "en": "Onion, sautéed",
+    "de": "Zwiebel, gedünstet"
+   }
+  },
+  "crispy fried onions": {
+   "reference": "bls:X5A9030",
+   "aliases": [
+    "fried onions",
+    "röstzwiebeln",
+    "fried shallots",
+    "crispy onions",
+    "onion crisps"
+   ],
+   "names": {
+    "en": "Crispy fried onions",
+    "de": "Röstzwiebeln"
+   }
+  },
+  "shallot": {
+   "reference": "bls:G485100",
+   "aliases": [
+    "shallots",
+    "echalion"
+   ],
+   "names": {
+    "en": "Shallot",
+    "de": "Schalotte"
+   }
+  },
+  "spring onion": {
+   "reference": "bls:G482100",
+   "aliases": [
+    "scallion",
+    "scallions",
+    "green onion",
+    "green onions",
+    "spring onions",
+    "salad onion"
+   ],
+   "names": {
+    "en": "Spring onion",
+    "de": "Frühlingszwiebel"
+   }
+  },
+  "garlic": {
+   "reference": "bls:G490100",
+   "aliases": [
+    "garlic cloves",
+    "garlic clove",
+    "fresh garlic",
+    "minced garlic",
+    "crushed garlic"
+   ],
+   "names": {
+    "en": "Garlic",
+    "de": "Knoblauch"
+   }
+  },
+  "chives": {
+   "reference": "bls:G081100",
+   "aliases": [
+    "fresh chives",
+    "schnittlauch"
+   ],
+   "names": {
+    "en": "Chives",
+    "de": "Schnittlauch"
+   }
+  },
+  "leek": {
+   "reference": "ciqual:20039",
+   "aliases": [
+    "leeks",
+    "raw leek",
+    "porree",
+    "lauch"
+   ],
+   "names": {
+    "en": "Leek",
+    "de": "Lauch"
+   }
+  },
+  "tomato": {
+   "reference": "bls:G561100",
+   "aliases": [
+    "tomatoes",
+    "fresh tomato",
+    "cherry tomatoes",
+    "cherry tomato",
+    "plum tomato",
+    "plum tomatoes",
+    "roma tomatoes",
+    "vine tomatoes",
+    "beef tomato",
+    "diced fresh tomato"
+   ],
+   "names": {
+    "en": "Tomato",
+    "de": "Tomate"
+   }
+  },
+  "canned tomatoes": {
+   "reference": "bls:G568900",
+   "aliases": [
+    "chopped tomatoes",
+    "diced tomatoes",
+    "tinned tomatoes",
+    "canned chopped tomatoes",
+    "whole peeled tomatoes",
+    "peeled tomatoes",
+    "san marzano tomatoes"
+   ],
+   "names": {
+    "en": "Tomatoes, canned",
+    "de": "Tomaten, aus der Dose"
+   }
+  },
+  "passata": {
+   "reference": "bls:R161200",
+   "aliases": [
+    "tomato passata",
+    "strained tomatoes",
+    "sieved tomatoes",
+    "crushed tomatoes",
+    "tomatoes, puréed"
+   ],
+   "names": {
+    "en": "Passata",
+    "de": "Passierte Tomaten"
+   }
+  },
+  "tomato paste": {
+   "reference": "bls:R160000",
+   "aliases": [
+    "tomato concentrate",
+    "double concentrate tomato paste",
+    "tomatenmark"
+   ],
+   "names": {
+    "en": "Tomato paste",
+    "de": "Tomatenmark"
+   }
+  },
+  "sun-dried tomatoes": {
+   "reference": "bls:G567702",
+   "aliases": [
+    "sundried tomatoes",
+    "sun dried tomatoes in oil",
+    "dried tomatoes"
+   ],
+   "names": {
+    "en": "Sun-dried tomatoes in oil",
+    "de": "Getrocknete Tomaten in Öl"
+   }
+  },
+  "red bell pepper": {
+   "reference": "bls:G543100",
+   "aliases": [
+    "red pepper",
+    "bell pepper",
+    "bell peppers",
+    "sweet pepper",
+    "capsicum",
+    "peppers",
+    "red capsicum",
+    "paprika (vegetable)"
+   ],
+   "names": {
+    "en": "Red bell pepper",
+    "de": "Rote Paprika"
+   }
+  },
+  "green bell pepper": {
+   "reference": "bls:G541100",
+   "aliases": [
+    "green pepper",
+    "green capsicum",
+    "green peppers"
+   ],
+   "names": {
+    "en": "Green bell pepper",
+    "de": "Grüne Paprika"
+   }
+  },
+  "yellow bell pepper": {
+   "reference": "bls:G542100",
+   "aliases": [
+    "yellow pepper",
+    "yellow capsicum",
+    "orange bell pepper"
+   ],
+   "names": {
+    "en": "Yellow bell pepper",
+    "de": "Gelbe Paprika"
+   }
+  },
+  "roasted red pepper": {
+   "reference": "bls:G543162",
+   "aliases": [
+    "roasted peppers",
+    "roasted red peppers",
+    "grilled peppers",
+    "baked peppers"
+   ],
+   "names": {
+    "en": "Red bell pepper, roasted",
+    "de": "Rote Paprika, geröstet"
+   }
+  },
+  "red chili": {
+   "reference": "bls:G554100",
+   "aliases": [
+    "chili",
+    "chilli",
+    "chile",
+    "fresh chili",
+    "chili pepper",
+    "red chilli",
+    "bird's eye chili",
+    "thai chili",
+    "hot pepper"
+   ],
+   "names": {
+    "en": "Red chili",
+    "de": "Rote Chilischote"
+   }
+  },
+  "green chili": {
+   "reference": "bls:G553100",
+   "aliases": [
+    "green chilli",
+    "green chilies",
+    "serrano chili",
+    "green chile"
+   ],
+   "names": {
+    "en": "Green chili",
+    "de": "Grüne Chilischote"
+   }
+  },
+  "jalapeño": {
+   "reference": "usda:2710096",
+   "aliases": [
+    "jalapeno",
+    "jalapeños",
+    "jalapenos",
+    "pickled jalapeños",
+    "sliced jalapeños"
+   ],
+   "names": {
+    "en": "Jalapeño",
+    "de": "Jalapeño"
+   }
+  },
+  "carrot": {
+   "reference": "bls:G620100",
+   "aliases": [
+    "carrots",
+    "raw carrot",
+    "grated carrot",
+    "shredded carrot"
+   ],
+   "names": {
+    "en": "Carrot",
+    "de": "Karotte"
+   }
+  },
+  "cooked carrot": {
+   "reference": "bls:G620132",
+   "aliases": [
+    "boiled carrots",
+    "steamed carrots",
+    "cooked carrots",
+    "glazed carrots"
+   ],
+   "names": {
+    "en": "Carrot, cooked",
+    "de": "Karotte, gekocht"
+   }
+  },
+  "celery": {
+   "reference": "bls:G220100",
+   "aliases": [
+    "celery stalk",
+    "celery sticks",
+    "celery stalks",
+    "stalk celery",
+    "celery ribs"
+   ],
+   "names": {
+    "en": "Celery",
+    "de": "Staudensellerie"
+   }
+  },
+  "celeriac": {
+   "reference": "bls:G660100",
+   "aliases": [
+    "celery root",
+    "knollensellerie"
+   ],
+   "names": {
+    "en": "Celeriac",
+    "de": "Knollensellerie"
+   }
+  },
+  "white cabbage": {
+   "reference": "bls:G342100",
+   "aliases": [
+    "cabbage",
+    "green cabbage",
+    "weißkohl",
+    "shredded cabbage"
+   ],
+   "names": {
+    "en": "White cabbage",
+    "de": "Weißkohl"
+   }
+  },
+  "red cabbage": {
+   "reference": "bls:G341100",
+   "aliases": [
+    "raw red cabbage",
+    "purple cabbage",
+    "shredded red cabbage"
+   ],
+   "names": {
+    "en": "Red cabbage",
+    "de": "Rotkohl"
+   }
+  },
+  "braised red cabbage": {
+   "reference": "bls:G341152",
+   "aliases": [
+    "rotkohl",
+    "red cabbage, cooked",
+    "blaukraut",
+    "rotkraut",
+    "apfelrotkohl",
+    "cooked red cabbage"
+   ],
+   "names": {
+    "en": "Red cabbage, braised",
+    "de": "Rotkohl, gedünstet"
+   }
+  },
+  "napa cabbage": {
+   "reference": "bls:G321100",
+   "aliases": [
+    "chinese cabbage",
+    "napa",
+    "wombok",
+    "chinakohl"
+   ],
+   "names": {
+    "en": "Napa cabbage",
+    "de": "Chinakohl"
+   }
+  },
+  "bok choy": {
+   "reference": "bls:G324100",
+   "aliases": [
+    "pak choi",
+    "pak choy",
+    "bok choi",
+    "baby bok choy"
+   ],
+   "names": {
+    "en": "Bok choy",
+    "de": "Pak Choi"
+   }
+  },
+  "sauerkraut": {
+   "reference": "bls:G346100",
+   "aliases": [
+    "raw sauerkraut",
+    "fermented cabbage"
+   ],
+   "names": {
+    "en": "Sauerkraut",
+    "de": "Sauerkraut"
+   }
+  },
+  "kimchi": {
+   "reference": "usda:2710077",
+   "aliases": [
+    "napa cabbage kimchi",
+    "kimchee"
+   ],
+   "names": {
+    "en": "Kimchi",
+    "de": "Kimchi"
+   }
+  },
+  "spinach": {
+   "reference": "bls:G211100",
+   "aliases": [
+    "baby spinach",
+    "fresh spinach",
+    "spinach leaves",
+    "raw spinach"
+   ],
+   "names": {
+    "en": "Spinach",
+    "de": "Spinat"
+   }
+  },
+  "cooked spinach": {
+   "reference": "bls:G210132",
+   "aliases": [
+    "wilted spinach",
+    "boiled spinach",
+    "frozen spinach, cooked",
+    "steamed spinach"
+   ],
+   "names": {
+    "en": "Spinach, cooked",
+    "de": "Spinat, gekocht"
+   }
+  },
+  "kale": {
+   "reference": "bls:G322100",
+   "aliases": [
+    "curly kale",
+    "raw kale",
+    "cavolo nero",
+    "lacinato kale"
+   ],
+   "names": {
+    "en": "Kale",
+    "de": "Grünkohl"
+   }
+  },
+  "lettuce": {
+   "reference": "bls:G105100",
+   "aliases": [
+    "butter lettuce",
+    "butterhead lettuce",
+    "salad leaves",
+    "green salad leaves",
+    "mixed salad greens",
+    "mixed leaves",
+    "green salad",
+    "kopfsalat",
+    "leaf lettuce"
+   ],
+   "names": {
+    "en": "Lettuce",
+    "de": "Kopfsalat"
+   }
+  },
+  "iceberg lettuce": {
+   "reference": "bls:G103100",
+   "aliases": [
+    "iceberg",
+    "eisbergsalat",
+    "shredded lettuce"
+   ],
+   "names": {
+    "en": "Iceberg lettuce",
+    "de": "Eisbergsalat"
+   }
+  },
+  "romaine lettuce": {
+   "reference": "usda:2709590",
+   "aliases": [
+    "romaine",
+    "cos lettuce",
+    "little gem"
+   ],
+   "names": {
+    "en": "Romaine lettuce",
+    "de": "Römersalat"
+   }
+  },
+  "rocket": {
+   "reference": "bls:G130100",
+   "aliases": [
+    "arugula",
+    "rucola",
+    "roquette"
+   ],
+   "names": {
+    "en": "Rocket",
+    "de": "Rucola"
+   }
+  },
+  "cucumber": {
+   "reference": "bls:G520100",
+   "aliases": [
+    "cucumbers",
+    "english cucumber",
+    "mini cucumber",
+    "salad cucumber"
+   ],
+   "names": {
+    "en": "Cucumber",
+    "de": "Gurke"
+   }
+  },
+  "zucchini": {
+   "reference": "bls:G582100",
+   "aliases": [
+    "courgette",
+    "courgettes",
+    "zucchinis"
+   ],
+   "names": {
+    "en": "Zucchini",
+    "de": "Zucchini"
+   }
+  },
+  "aubergine": {
+   "reference": "bls:G510100",
+   "aliases": [
+    "eggplant",
+    "eggplants",
+    "aubergines",
+    "raw eggplant"
+   ],
+   "names": {
+    "en": "Aubergine",
+    "de": "Aubergine"
+   }
+  },
+  "cooked aubergine": {
+   "reference": "ciqual:20002",
+   "aliases": [
+    "roasted eggplant",
+    "cooked eggplant",
+    "grilled aubergine",
+    "grilled eggplant",
+    "roasted aubergine"
+   ],
+   "names": {
+    "en": "Aubergine, cooked",
+    "de": "Aubergine, gegart"
+   }
+  },
+  "mushrooms": {
+   "reference": "bls:K701100",
+   "aliases": [
+    "button mushrooms",
+    "white mushrooms",
+    "champignons",
+    "mushroom",
+    "cremini mushrooms",
+    "chestnut mushrooms",
+    "brown mushrooms",
+    "sliced mushrooms"
+   ],
+   "names": {
+    "en": "Mushrooms",
+    "de": "Champignons"
+   }
+  },
+  "cooked mushrooms": {
+   "reference": "bls:K701172",
+   "aliases": [
+    "sautéed mushrooms",
+    "sauteed mushrooms",
+    "pan-fried mushrooms",
+    "grilled mushrooms",
+    "roasted mushrooms"
+   ],
+   "names": {
+    "en": "Mushrooms, cooked",
+    "de": "Champignons, gegart"
+   }
+  },
+  "shiitake mushrooms": {
+   "reference": "bls:K724100",
+   "aliases": [
+    "shiitake",
+    "fresh shiitake"
+   ],
+   "names": {
+    "en": "Shiitake mushrooms",
+    "de": "Shiitake-Pilze"
+   }
+  },
+  "broccoli": {
+   "reference": "bls:G312100",
+   "aliases": [
+    "raw broccoli",
+    "broccoli florets"
+   ],
+   "names": {
+    "en": "Broccoli",
+    "de": "Brokkoli"
+   }
+  },
+  "cooked broccoli": {
+   "reference": "bls:G312132",
+   "aliases": [
+    "steamed broccoli",
+    "boiled broccoli",
+    "roasted broccoli",
+    "tenderstem broccoli"
+   ],
+   "names": {
+    "en": "Broccoli, cooked",
+    "de": "Brokkoli, gekocht"
+   }
+  },
+  "cauliflower": {
+   "reference": "bls:G311100",
+   "aliases": [
+    "raw cauliflower",
+    "cauliflower florets"
+   ],
+   "names": {
+    "en": "Cauliflower",
+    "de": "Blumenkohl"
+   }
+  },
+  "cooked cauliflower": {
+   "reference": "bls:G311132",
+   "aliases": [
+    "steamed cauliflower",
+    "boiled cauliflower",
+    "roasted cauliflower"
+   ],
+   "names": {
+    "en": "Cauliflower, cooked",
+    "de": "Blumenkohl, gekocht"
+   }
+  },
+  "green peas": {
+   "reference": "bls:G760132",
+   "aliases": [
+    "peas",
+    "garden peas",
+    "frozen peas",
+    "petits pois",
+    "cooked peas",
+    "boiled peas"
+   ],
+   "names": {
+    "en": "Green peas, cooked",
+    "de": "Erbsen, gekocht"
+   }
+  },
+  "sugar snap peas": {
+   "reference": "bls:G761100",
+   "aliases": [
+    "snow peas",
+    "mangetout",
+    "sugar snaps",
+    "snap peas"
+   ],
+   "names": {
+    "en": "Sugar snap peas",
+    "de": "Zuckerschoten"
+   }
+  },
+  "sweetcorn": {
+   "reference": "bls:G570100",
+   "aliases": [
+    "corn",
+    "corn kernels",
+    "maize kernels",
+    "sweet corn"
+   ],
+   "names": {
+    "en": "Sweetcorn",
+    "de": "Zuckermais"
+   }
+  },
+  "cooked corn": {
+   "reference": "bls:G570132",
+   "aliases": [
+    "corn on the cob",
+    "boiled corn",
+    "canned corn",
+    "grilled corn",
+    "elote corn"
+   ],
+   "names": {
+    "en": "Sweetcorn, cooked",
+    "de": "Zuckermais, gekocht"
+   }
+  },
+  "green beans": {
+   "reference": "bls:G710132",
+   "aliases": [
+    "string beans",
+    "french beans",
+    "cooked green beans",
+    "haricots verts",
+    "runner beans"
+   ],
+   "names": {
+    "en": "Green beans, cooked",
+    "de": "Grüne Bohnen, gekocht"
+   }
+  },
+  "asparagus": {
+   "reference": "bls:G450100",
+   "aliases": [
+    "raw asparagus",
+    "green asparagus",
+    "white asparagus"
+   ],
+   "names": {
+    "en": "Asparagus",
+    "de": "Spargel"
+   }
+  },
+  "cooked asparagus": {
+   "reference": "bls:G450132",
+   "aliases": [
+    "boiled asparagus",
+    "steamed asparagus",
+    "grilled asparagus"
+   ],
+   "names": {
+    "en": "Asparagus, cooked",
+    "de": "Spargel, gekocht"
+   }
+  },
+  "brussels sprouts": {
+   "reference": "bls:G332132",
+   "aliases": [
+    "cooked brussels sprouts",
+    "rosenkohl",
+    "brussel sprouts"
+   ],
+   "names": {
+    "en": "Brussels sprouts, cooked",
+    "de": "Rosenkohl, gekocht"
+   }
+  },
+  "cooked beetroot": {
+   "reference": "bls:G613132",
+   "aliases": [
+    "beets",
+    "cooked beets",
+    "boiled beetroot",
+    "roasted beetroot"
+   ],
+   "names": {
+    "en": "Beetroot, cooked",
+    "de": "Rote Bete, gekocht"
+   }
+  },
+  "pumpkin": {
+   "reference": "bls:G581100",
+   "aliases": [
+    "raw pumpkin",
+    "hokkaido pumpkin"
+   ],
+   "names": {
+    "en": "Pumpkin",
+    "de": "Kürbis"
+   }
+  },
+  "cooked butternut squash": {
+   "reference": "ciqual:20141",
+   "aliases": [
+    "roasted butternut squash",
+    "cooked pumpkin",
+    "roasted pumpkin",
+    "cooked squash"
+   ],
+   "names": {
+    "en": "Butternut squash, cooked",
+    "de": "Butternutkürbis, gekocht"
+   }
+  },
+  "cooked parsnip": {
+   "reference": "bls:G640132",
+   "aliases": [
+    "roasted parsnips",
+    "boiled parsnips"
+   ],
+   "names": {
+    "en": "Parsnip, cooked",
+    "de": "Pastinake, gekocht"
+   }
+  },
+  "radish": {
+   "reference": "bls:G691100",
+   "aliases": [
+    "radishes",
+    "red radish",
+    "radieschen"
+   ],
+   "names": {
+    "en": "Radish",
+    "de": "Radieschen"
+   }
+  },
+  "daikon": {
+   "reference": "bls:G680100",
+   "aliases": [
+    "white radish",
+    "mooli",
+    "rettich",
+    "daikon radish"
+   ],
+   "names": {
+    "en": "Daikon",
+    "de": "Rettich"
+   }
+  },
+  "fennel": {
+   "reference": "bls:G430100",
+   "aliases": [
+    "fennel bulb",
+    "fenchel"
+   ],
+   "names": {
+    "en": "Fennel",
+    "de": "Fenchel"
+   }
+  },
+  "artichoke": {
+   "reference": "bls:G410100",
+   "aliases": [
+    "artichokes",
+    "globe artichoke"
+   ],
+   "names": {
+    "en": "Artichoke",
+    "de": "Artischocke"
+   }
+  },
+  "cooked artichoke hearts": {
+   "reference": "bls:G410132",
+   "aliases": [
+    "artichoke hearts",
+    "artichoke bottoms"
+   ],
+   "names": {
+    "en": "Artichoke hearts, cooked",
+    "de": "Artischockenherzen, gekocht"
+   }
+  },
+  "okra": {
+   "reference": "bls:G530100",
+   "aliases": [
+    "ladies' fingers",
+    "bhindi",
+    "gumbo okra"
+   ],
+   "names": {
+    "en": "Okra",
+    "de": "Okra"
+   }
+  },
+  "bean sprouts": {
+   "reference": "bls:H650100",
+   "aliases": [
+    "mung bean sprouts",
+    "beansprouts"
+   ],
+   "names": {
+    "en": "Bean sprouts",
+    "de": "Mungbohnensprossen"
+   }
+  },
+  "bamboo shoots": {
+   "reference": "bls:H610902",
+   "aliases": [
+    "canned bamboo shoots",
+    "bamboo shoot"
+   ],
+   "names": {
+    "en": "Bamboo shoots, canned",
+    "de": "Bambussprossen, aus der Dose"
+   }
+  },
+  "avocado": {
+   "reference": "bls:F502100",
+   "aliases": [
+    "avocados",
+    "ripe avocado",
+    "hass avocado"
+   ],
+   "names": {
+    "en": "Avocado",
+    "de": "Avocado"
+   }
+  },
+  "ginger": {
+   "reference": "cofid:13-890",
+   "aliases": [
+    "fresh ginger",
+    "ginger root",
+    "grated ginger",
+    "minced ginger"
+   ],
+   "names": {
+    "en": "Ginger",
+    "de": "Ingwer"
+   }
+  },
+  "black olives": {
+   "reference": "usda:2710090",
+   "aliases": [
+    "olives",
+    "kalamata olives",
+    "ripe olives",
+    "pitted black olives"
+   ],
+   "names": {
+    "en": "Black olives",
+    "de": "Schwarze Oliven"
+   }
+  },
+  "green olives": {
+   "reference": "usda:2710089",
+   "aliases": [
+    "pitted green olives",
+    "manzanilla olives"
+   ],
+   "names": {
+    "en": "Green olives",
+    "de": "Grüne Oliven"
+   }
+  },
+  "capers": {
+   "reference": "bls:G012902",
+   "aliases": [
+    "caper",
+    "capers in brine"
+   ],
+   "names": {
+    "en": "Capers",
+    "de": "Kapern"
+   }
+  },
+  "pickles": {
+   "reference": "usda:2710078",
+   "aliases": [
+    "dill pickles",
+    "gherkins",
+    "pickled cucumber",
+    "cornichons",
+    "pickle",
+    "gewürzgurken",
+    "dill pickle"
+   ],
+   "names": {
+    "en": "Pickles",
+    "de": "Gewürzgurken"
+   }
+  },
+  "pickled ginger": {
+   "reference": "bls:R912000",
+   "aliases": [
+    "gari",
+    "sushi ginger"
+   ],
+   "names": {
+    "en": "Pickled ginger",
+    "de": "Eingelegter Ingwer"
+   }
+  },
+  "cooked mixed vegetables": {
+   "reference": "bls:G090132",
+   "aliases": [
+    "mixed vegetables",
+    "frozen mixed vegetables",
+    "steamed vegetables",
+    "kaisergemüse"
+   ],
+   "names": {
+    "en": "Mixed vegetables, cooked",
+    "de": "Gemüsemischung, gekocht"
+   }
+  },
+  "nori": {
+   "reference": "bls:G995000",
+   "aliases": [
+    "nori sheets",
+    "sushi nori",
+    "seaweed sheets",
+    "roasted seaweed",
+    "laver"
+   ],
+   "names": {
+    "en": "Nori",
+    "de": "Nori"
+   }
+  },
+  "wakame": {
+   "reference": "mext:09039",
+   "aliases": [
+    "wakame seaweed",
+    "seaweed (wakame)"
+   ],
+   "note": "missing sugar, saturated fat",
+   "names": {
+    "en": "Wakame",
+    "de": "Wakame"
+   }
+  },
+  "horseradish": {
+   "reference": "bls:G630100",
+   "aliases": [
+    "fresh horseradish",
+    "grated horseradish",
+    "meerrettich"
+   ],
+   "names": {
+    "en": "Horseradish",
+    "de": "Meerrettich"
+   }
+  },
+  "wasabi": {
+   "reference": "bls:G693100",
+   "aliases": [
+    "wasabi root",
+    "fresh wasabi"
+   ],
+   "names": {
+    "en": "Wasabi",
+    "de": "Wasabi"
+   }
+  },
+  "basil": {
+   "reference": "bls:G061000",
+   "aliases": [
+    "fresh basil",
+    "basil leaves",
+    "thai basil",
+    "sweet basil"
+   ],
+   "names": {
+    "en": "Basil",
+    "de": "Basilikum"
+   }
+  },
+  "parsley": {
+   "reference": "usda:2709796",
+   "aliases": [
+    "fresh parsley",
+    "flat-leaf parsley",
+    "italian parsley",
+    "curly parsley",
+    "chopped parsley",
+    "petersilie"
+   ],
+   "names": {
+    "en": "Parsley",
+    "de": "Petersilie"
+   }
+  },
+  "cilantro": {
+   "reference": "usda:2709782",
+   "aliases": [
+    "fresh coriander",
+    "coriander leaves",
+    "coriander leaf",
+    "fresh cilantro",
+    "chinese parsley"
+   ],
+   "names": {
+    "en": "Cilantro",
+    "de": "Koriandergrün"
+   }
+  },
+  "mint": {
+   "reference": "ciqual:11027",
+   "aliases": [
+    "fresh mint",
+    "mint leaves",
+    "peppermint leaves",
+    "spearmint"
+   ],
+   "names": {
+    "en": "Mint",
+    "de": "Minze"
+   }
+  },
+  "dill": {
+   "reference": "ciqual:11093",
+   "aliases": [
+    "fresh dill",
+    "dill weed",
+    "dill fronds"
+   ],
+   "names": {
+    "en": "Dill",
+    "de": "Dill"
+   }
+  },
+  "thyme": {
+   "reference": "cofid:13-893",
+   "aliases": [
+    "fresh thyme",
+    "thyme leaves",
+    "thyme sprigs"
+   ],
+   "names": {
+    "en": "Thyme",
+    "de": "Thymian"
+   }
+  },
+  "rosemary": {
+   "reference": "cofid:13-892",
+   "aliases": [
+    "fresh rosemary",
+    "rosemary sprigs",
+    "rosemary leaves"
+   ],
+   "note": "missing sugar",
+   "names": {
+    "en": "Rosemary",
+    "de": "Rosmarin"
+   }
+  },
+  "dried oregano": {
+   "reference": "ciqual:11035",
+   "aliases": [
+    "oregano",
+    "dried oregano leaves"
+   ],
+   "names": {
+    "en": "Oregano, dried",
+    "de": "Oregano, getrocknet"
+   }
+  },
+  "dried thyme": {
+   "reference": "ciqual:11038",
+   "aliases": [
+    "thyme, dried"
+   ],
+   "names": {
+    "en": "Thyme, dried",
+    "de": "Thymian, getrocknet"
+   }
+  },
+  "bay leaf": {
+   "reference": "ciqual:11053",
+   "aliases": [
+    "bay leaves",
+    "laurel leaf"
+   ],
+   "names": {
+    "en": "Bay leaf",
+    "de": "Lorbeerblatt"
+   }
+  },
+  "black pepper": {
+   "reference": "bls:R258100",
+   "aliases": [
+    "pepper",
+    "ground black pepper",
+    "freshly ground pepper",
+    "cracked black pepper",
+    "peppercorns"
+   ],
+   "names": {
+    "en": "Black pepper",
+    "de": "Schwarzer Pfeffer"
+   }
+  },
+  "chili powder": {
+   "reference": "ciqual:11088",
+   "aliases": [
+    "chilli powder",
+    "cayenne pepper",
+    "cayenne",
+    "chili flakes",
+    "chilli flakes",
+    "red pepper flakes",
+    "crushed red pepper",
+    "gochugaru",
+    "kashmiri chili powder"
+   ],
+   "names": {
+    "en": "Chili powder",
+    "de": "Chilipulver"
+   }
+  },
+  "paprika": {
+   "reference": "ciqual:11049",
+   "aliases": [
+    "sweet paprika",
+    "smoked paprika",
+    "paprika powder",
+    "pimentón",
+    "hot paprika"
+   ],
+   "names": {
+    "en": "Paprika",
+    "de": "Paprikapulver"
+   }
+  },
+  "cumin": {
+   "reference": "ciqual:11042",
+   "aliases": [
+    "ground cumin",
+    "cumin seeds",
+    "cumin powder",
+    "jeera"
+   ],
+   "names": {
+    "en": "Cumin",
+    "de": "Kreuzkümmel"
+   }
+  },
+  "turmeric": {
+   "reference": "ciqual:11089",
+   "aliases": [
+    "ground turmeric",
+    "turmeric powder",
+    "haldi"
+   ],
+   "names": {
+    "en": "Turmeric",
+    "de": "Kurkuma"
+   }
+  },
+  "cinnamon": {
+   "reference": "ciqual:11025",
+   "aliases": [
+    "ground cinnamon",
+    "cinnamon stick",
+    "cinnamon powder"
+   ],
+   "names": {
+    "en": "Cinnamon",
+    "de": "Zimt"
+   }
+  },
+  "nutmeg": {
+   "reference": "ciqual:11048",
+   "aliases": [
+    "ground nutmeg",
+    "grated nutmeg"
+   ],
+   "names": {
+    "en": "Nutmeg",
+    "de": "Muskatnuss"
+   }
+  },
+  "cloves": {
+   "reference": "ciqual:11052",
+   "aliases": [
+    "ground cloves",
+    "whole cloves",
+    "clove"
+   ],
+   "names": {
+    "en": "Cloves",
+    "de": "Gewürznelken"
+   }
+  },
+  "cardamom": {
+   "reference": "ciqual:11075",
+   "aliases": [
+    "ground cardamom",
+    "cardamom pods",
+    "green cardamom"
+   ],
+   "note": "missing sugar, saturated fat",
+   "names": {
+    "en": "Cardamom",
+    "de": "Kardamom"
+   }
+  },
+  "saffron": {
+   "reference": "ciqual:11039",
+   "aliases": [
+    "saffron threads"
+   ],
+   "names": {
+    "en": "Saffron",
+    "de": "Safran"
+   }
+  },
+  "ground coriander": {
+   "reference": "ciqual:11026",
+   "aliases": [
+    "coriander seeds",
+    "coriander powder",
+    "dhania powder"
+   ],
+   "note": "missing sugar",
+   "names": {
+    "en": "Ground coriander",
+    "de": "Gemahlener Koriander"
+   }
+  },
+  "ground ginger": {
+   "reference": "ciqual:11006",
+   "aliases": [
+    "ginger powder",
+    "dried ginger"
+   ],
+   "names": {
+    "en": "Ground ginger",
+    "de": "Ingwerpulver"
+   }
+  },
+  "garlic powder": {
+   "reference": "bls:G490500",
+   "aliases": [
+    "granulated garlic",
+    "garlic granules"
+   ],
+   "names": {
+    "en": "Garlic powder",
+    "de": "Knoblauchpulver"
+   }
+  },
+  "onion powder": {
+   "reference": "bls:G480500",
+   "aliases": [
+    "granulated onion",
+    "onion granules"
+   ],
+   "names": {
+    "en": "Onion powder",
+    "de": "Zwiebelpulver"
+   }
+  },
+  "curry powder": {
+   "reference": "ciqual:11005",
+   "aliases": [
+    "madras curry powder",
+    "currypulver",
+    "japanese curry powder"
+   ],
+   "names": {
+    "en": "Curry powder",
+    "de": "Currypulver"
+   }
+  },
+  "garam masala": {
+   "reference": "cofid:13-829",
+   "aliases": [
+    "garam masala powder"
+   ],
+   "note": "missing sugar, fiber, saturated fat",
+   "names": {
+    "en": "Garam masala",
+    "de": "Garam Masala"
+   }
+  },
+  "vanilla sugar": {
+   "reference": "bls:S114000",
+   "aliases": [
+    "vanillin sugar",
+    "vanillezucker"
+   ],
+   "note": "used for small amounts of vanilla flavouring",
+   "names": {
+    "en": "Vanilla sugar",
+    "de": "Vanillezucker"
+   }
+  },
+  "baking powder": {
+   "reference": "bls:R421100",
+   "aliases": [
+    "backpulver"
+   ],
+   "note": "missing saturated fat",
+   "names": {
+    "en": "Baking powder",
+    "de": "Backpulver"
+   }
+  },
+  "baking soda": {
+   "reference": "ciqual:11507",
+   "aliases": [
+    "bicarbonate of soda",
+    "bicarb",
+    "sodium bicarbonate"
+   ],
+   "names": {
+    "en": "Baking soda",
+    "de": "Natron"
+   }
+  },
+  "yeast": {
+   "reference": "usda:2710005",
+   "aliases": [
+    "dry yeast",
+    "active dry yeast",
+    "instant yeast",
+    "fresh yeast",
+    "hefe"
+   ],
+   "names": {
+    "en": "Yeast",
+    "de": "Hefe"
+   }
+  },
+  "gelatine": {
+   "reference": "bls:R468000",
+   "aliases": [
+    "gelatin",
+    "gelatine sheets",
+    "gelatin powder"
+   ],
+   "names": {
+    "en": "Gelatine",
+    "de": "Gelatine"
+   }
+  },
+  "olive oil": {
+   "reference": "bls:Q120000",
+   "aliases": [
+    "extra virgin olive oil",
+    "evoo",
+    "light olive oil",
+    "olivenöl"
+   ],
+   "names": {
+    "en": "Olive oil",
+    "de": "Olivenöl"
+   }
+  },
+  "vegetable oil": {
+   "reference": "usda:2710180",
+   "aliases": [
+    "cooking oil",
+    "neutral oil",
+    "oil",
+    "frying oil",
+    "salad oil"
+   ],
+   "names": {
+    "en": "Vegetable oil",
+    "de": "Pflanzenöl"
+   }
+  },
+  "sunflower oil": {
+   "reference": "usda:2710192",
+   "aliases": [
+    "sonnenblumenöl"
+   ],
+   "names": {
+    "en": "Sunflower oil",
+    "de": "Sonnenblumenöl"
+   }
+  },
+  "rapeseed oil": {
+   "reference": "usda:2710188",
+   "aliases": [
+    "canola oil",
+    "rapsöl"
+   ],
+   "names": {
+    "en": "Rapeseed oil",
+    "de": "Rapsöl"
+   }
+  },
+  "sesame oil": {
+   "reference": "usda:2710190",
+   "aliases": [
+    "toasted sesame oil",
+    "sesamöl"
+   ],
+   "names": {
+    "en": "Sesame oil",
+    "de": "Sesamöl"
+   }
+  },
+  "coconut oil": {
+   "reference": "usda:2710182",
+   "aliases": [
+    "virgin coconut oil",
+    "kokosöl"
+   ],
+   "names": {
+    "en": "Coconut oil",
+    "de": "Kokosöl"
+   }
+  },
+  "margarine": {
+   "reference": "usda:2710158",
+   "aliases": [
+    "vegan butter",
+    "plant butter",
+    "spread (margarine)"
+   ],
+   "names": {
+    "en": "Margarine",
+    "de": "Margarine"
+   }
+  },
+  "mayonnaise": {
+   "reference": "usda:2710204",
+   "aliases": [
+    "mayo",
+    "japanese mayonnaise",
+    "aioli"
+   ],
+   "names": {
+    "en": "Mayonnaise",
+    "de": "Mayonnaise"
+   }
+  },
+  "ketchup": {
+   "reference": "bls:R141100",
+   "aliases": [
+    "tomato ketchup",
+    "catsup"
+   ],
+   "names": {
+    "en": "Ketchup",
+    "de": "Ketchup"
+   }
+  },
+  "curry ketchup": {
+   "reference": "bls:R141200",
+   "aliases": [
+    "curry-gewürzketchup",
+    "currywurst sauce"
+   ],
+   "names": {
+    "en": "Curry ketchup",
+    "de": "Curryketchup"
+   }
+  },
+  "mustard": {
+   "reference": "usda:2710085",
+   "aliases": [
+    "yellow mustard",
+    "dijon mustard",
+    "dijon",
+    "prepared mustard",
+    "medium mustard",
+    "senf",
+    "english mustard",
+    "wholegrain mustard"
+   ],
+   "names": {
+    "en": "Mustard",
+    "de": "Senf"
+   }
+  },
+  "soy sauce": {
+   "reference": "bls:R143000",
+   "aliases": [
+    "light soy sauce",
+    "dark soy sauce",
+    "shoyu",
+    "soya sauce",
+    "tamari",
+    "sojasauce"
+   ],
+   "names": {
+    "en": "Soy sauce",
+    "de": "Sojasauce"
+   }
+  },
+  "fish sauce": {
+   "reference": "usda:2706457",
+   "aliases": [
+    "nam pla",
+    "nuoc mam",
+    "fischsauce"
+   ],
+   "names": {
+    "en": "Fish sauce",
+    "de": "Fischsauce"
+   }
+  },
+  "oyster sauce": {
+   "reference": "usda:2707150",
+   "aliases": [
+    "austernsauce"
+   ],
+   "names": {
+    "en": "Oyster sauce",
+    "de": "Austernsauce"
+   }
+  },
+  "hoisin sauce": {
+   "reference": "usda:2707441",
+   "aliases": [
+    "hoisin"
+   ],
+   "names": {
+    "en": "Hoisin sauce",
+    "de": "Hoisin-Sauce"
+   }
+  },
+  "teriyaki sauce": {
+   "reference": "usda:2707445",
+   "aliases": [
+    "teriyaki",
+    "teriyaki glaze"
+   ],
+   "names": {
+    "en": "Teriyaki sauce",
+    "de": "Teriyaki-Sauce"
+   }
+  },
+  "worcestershire sauce": {
+   "reference": "usda:2707447",
+   "aliases": [
+    "worcester sauce",
+    "worcestershire"
+   ],
+   "names": {
+    "en": "Worcestershire sauce",
+    "de": "Worcestershiresauce"
+   }
+  },
+  "barbecue sauce": {
+   "reference": "usda:2709750",
+   "aliases": [
+    "bbq sauce",
+    "barbeque sauce",
+    "grillsauce"
+   ],
+   "names": {
+    "en": "Barbecue sauce",
+    "de": "Barbecue-Sauce"
+   }
+  },
+  "sweet and sour sauce": {
+   "reference": "usda:2710296",
+   "aliases": [
+    "sweet & sour sauce",
+    "süß-sauer-sauce"
+   ],
+   "names": {
+    "en": "Sweet and sour sauce",
+    "de": "Süßsauer-Sauce"
+   }
+  },
+  "chili sauce": {
+   "reference": "bls:R146100",
+   "aliases": [
+    "sambal oelek",
+    "sambal",
+    "chili paste",
+    "chilli paste",
+    "hot sauce",
+    "chili garlic sauce"
+   ],
+   "note": "chili paste row; sriracha and hot sauce are close but not identical",
+   "names": {
+    "en": "Chili paste",
+    "de": "Chilipaste"
+   }
+  },
+  "harissa": {
+   "reference": "ciqual:11112",
+   "aliases": [
+    "harissa paste"
+   ],
+   "names": {
+    "en": "Harissa",
+    "de": "Harissa"
+   }
+  },
+  "miso": {
+   "reference": "ciqual:20916",
+   "aliases": [
+    "miso paste",
+    "white miso",
+    "red miso",
+    "shiro miso",
+    "doenjang"
+   ],
+   "names": {
+    "en": "Miso",
+    "de": "Miso"
+   }
+  },
+  "curry paste": {
+   "reference": "cofid:17-720",
+   "aliases": [
+    "thai curry paste",
+    "red curry paste",
+    "green curry paste",
+    "yellow curry paste",
+    "massaman curry paste"
+   ],
+   "note": "missing saturated fat",
+   "names": {
+    "en": "Curry paste",
+    "de": "Currypaste"
+   }
+  },
+  "tahini": {
+   "reference": "usda:2707587",
+   "aliases": [
+    "tahina",
+    "sesame paste",
+    "tahin"
+   ],
+   "names": {
+    "en": "Tahini",
+    "de": "Tahin"
+   }
+  },
+  "hummus": {
+   "reference": "usda:2707402",
+   "aliases": [
+    "houmous",
+    "humus",
+    "hummus dip"
+   ],
+   "names": {
+    "en": "Hummus",
+    "de": "Hummus"
+   }
+  },
+  "peanut butter": {
+   "reference": "usda:2707537",
+   "aliases": [
+    "smooth peanut butter",
+    "crunchy peanut butter"
+   ],
+   "names": {
+    "en": "Peanut butter",
+    "de": "Erdnussbutter"
+   }
+  },
+  "peanut sauce": {
+   "reference": "usda:2707546",
+   "aliases": [
+    "satay sauce",
+    "peanut satay sauce"
+   ],
+   "names": {
+    "en": "Peanut sauce",
+    "de": "Erdnusssauce"
+   }
+  },
+  "pesto": {
+   "reference": "bls:X372012",
+   "aliases": [
+    "basil pesto",
+    "pesto genovese",
+    "green pesto",
+    "pesto verde"
+   ],
+   "names": {
+    "en": "Pesto",
+    "de": "Pesto"
+   }
+  },
+  "tomato salsa": {
+   "reference": "usda:2709739",
+   "aliases": [
+    "salsa",
+    "salsa roja",
+    "red salsa",
+    "taco sauce"
+   ],
+   "names": {
+    "en": "Tomato salsa",
+    "de": "Tomatensalsa"
+   }
+  },
+  "pico de gallo": {
+   "reference": "usda:2709737",
+   "aliases": [
+    "salsa fresca",
+    "fresh salsa"
+   ],
+   "names": {
+    "en": "Pico de gallo",
+    "de": "Pico de Gallo"
+   }
+  },
+  "guacamole": {
+   "reference": "usda:2709307",
+   "aliases": [
+    "guac",
+    "avocado dip"
+   ],
+   "names": {
+    "en": "Guacamole",
+    "de": "Guacamole"
+   }
+  },
+  "tzatziki": {
+   "reference": "cofid:12-547",
+   "aliases": [
+    "tsatsiki",
+    "zaziki",
+    "cacik"
+   ],
+   "names": {
+    "en": "Tzatziki",
+    "de": "Tzatziki"
+   }
+  },
+  "tomato sauce": {
+   "reference": "bls:X331353",
+   "aliases": [
+    "marinara sauce",
+    "marinara",
+    "pasta sauce",
+    "napoli sauce",
+    "sugo",
+    "tomato pasta sauce",
+    "pizza sauce",
+    "arrabbiata sauce"
+   ],
+   "names": {
+    "en": "Tomato sauce",
+    "de": "Tomatensauce"
+   }
+  },
+  "enchilada sauce": {
+   "reference": "usda:2709741",
+   "aliases": [
+    "red enchilada sauce"
+   ],
+   "names": {
+    "en": "Enchilada sauce",
+    "de": "Enchiladasauce"
+   }
+  },
+  "gravy": {
+   "reference": "usda:2707149",
+   "aliases": [
+    "brown gravy",
+    "beef gravy",
+    "roast gravy",
+    "bratensauce",
+    "bratensoße",
+    "jus",
+    "onion gravy"
+   ],
+   "names": {
+    "en": "Gravy",
+    "de": "Bratensauce"
+   }
+  },
+  "béchamel": {
+   "reference": "bls:X320243",
+   "aliases": [
+    "bechamel",
+    "white sauce",
+    "bechamel sauce",
+    "besciamella",
+    "béchamel sauce"
+   ],
+   "names": {
+    "en": "Béchamel sauce",
+    "de": "Béchamelsauce"
+   }
+  },
+  "hollandaise": {
+   "reference": "usda:2710171",
+   "aliases": [
+    "hollandaise sauce",
+    "sauce hollandaise"
+   ],
+   "names": {
+    "en": "Hollandaise sauce",
+    "de": "Sauce hollandaise"
+   }
+  },
+  "vinaigrette": {
+   "reference": "ciqual:11108",
+   "aliases": [
+    "french dressing",
+    "oil and vinegar dressing",
+    "salad dressing",
+    "balsamic vinaigrette",
+    "olive oil vinaigrette",
+    "house dressing"
+   ],
+   "names": {
+    "en": "Vinaigrette",
+    "de": "Vinaigrette"
+   }
+  },
+  "caesar dressing": {
+   "reference": "usda:2710199",
+   "aliases": [
+    "caesar salad dressing"
+   ],
+   "names": {
+    "en": "Caesar dressing",
+    "de": "Caesar-Dressing"
+   }
+  },
+  "ranch dressing": {
+   "reference": "usda:2710212",
+   "aliases": [
+    "ranch"
+   ],
+   "names": {
+    "en": "Ranch dressing",
+    "de": "Ranch-Dressing"
+   }
+  },
+  "thousand island dressing": {
+   "reference": "usda:2710213",
+   "aliases": [
+    "thousand island",
+    "burger sauce"
+   ],
+   "names": {
+    "en": "Thousand Island dressing",
+    "de": "Thousand-Island-Dressing"
+   }
+  },
+  "tartar sauce": {
+   "reference": "usda:2710173",
+   "aliases": [
+    "tartare sauce"
+   ],
+   "names": {
+    "en": "Tartar sauce",
+    "de": "Tatarensauce"
+   }
+  },
+  "coconut milk": {
+   "reference": "bls:H154000",
+   "aliases": [
+    "canned coconut milk",
+    "full-fat coconut milk",
+    "kokosmilch"
+   ],
+   "names": {
+    "en": "Coconut milk",
+    "de": "Kokosmilch"
+   }
+  },
+  "broth": {
+   "reference": "usda:2707132",
+   "aliases": [
+    "stock",
+    "bouillon",
+    "soup broth",
+    "clear broth"
+   ],
+   "names": {
+    "en": "Broth",
+    "de": "Brühe"
+   }
+  },
+  "chicken stock": {
+   "reference": "bls:X411243",
+   "aliases": [
+    "chicken broth",
+    "chicken bouillon",
+    "hühnerbrühe"
+   ],
+   "names": {
+    "en": "Chicken stock",
+    "de": "Hühnerbrühe"
+   }
+  },
+  "beef stock": {
+   "reference": "bls:Y183013",
+   "aliases": [
+    "beef broth",
+    "beef bouillon",
+    "fleischbrühe",
+    "bone broth"
+   ],
+   "names": {
+    "en": "Beef stock",
+    "de": "Rinderbrühe"
+   }
+  },
+  "vegetable stock": {
+   "reference": "bls:X416243",
+   "aliases": [
+    "vegetable broth",
+    "veggie stock",
+    "gemüsebrühe",
+    "vegetable bouillon"
+   ],
+   "names": {
+    "en": "Vegetable stock",
+    "de": "Gemüsebrühe"
+   }
+  },
+  "dashi": {
+   "reference": "mext:17021",
+   "aliases": [
+    "dashi stock",
+    "japanese soup stock",
+    "bonito stock",
+    "katsuo dashi"
+   ],
+   "note": "missing fat, sugar, fiber, saturated fat",
+   "names": {
+    "en": "Dashi",
+    "de": "Dashi"
+   }
+  },
+  "white vinegar": {
+   "reference": "bls:R122000",
+   "aliases": [
+    "vinegar",
+    "distilled vinegar",
+    "spirit vinegar",
+    "branntweinessig"
+   ],
+   "names": {
+    "en": "White vinegar",
+    "de": "Branntweinessig"
+   }
+  },
+  "wine vinegar": {
+   "reference": "bls:R121000",
+   "aliases": [
+    "red wine vinegar",
+    "white wine vinegar",
+    "sherry vinegar",
+    "weinessig"
+   ],
+   "names": {
+    "en": "Wine vinegar",
+    "de": "Weinessig"
+   }
+  },
+  "apple cider vinegar": {
+   "reference": "bls:R123100",
+   "aliases": [
+    "cider vinegar",
+    "apfelessig"
+   ],
+   "names": {
+    "en": "Apple cider vinegar",
+    "de": "Apfelessig"
+   }
+  },
+  "balsamic vinegar": {
+   "reference": "bls:R125000",
+   "aliases": [
+    "balsamic",
+    "balsamico",
+    "aceto balsamico"
+   ],
+   "note": "missing fat, fiber",
+   "names": {
+    "en": "Balsamic vinegar",
+    "de": "Balsamico-Essig"
+   }
+  },
+  "rice vinegar": {
+   "reference": "mext:17016",
+   "aliases": [
+    "rice wine vinegar",
+    "japanese rice vinegar",
+    "seasoned rice vinegar"
+   ],
+   "note": "missing sugar, saturated fat",
+   "names": {
+    "en": "Rice vinegar",
+    "de": "Reisessig"
+   }
+  },
+  "mirin": {
+   "reference": "mext:17054",
+   "aliases": [
+    "sweet rice wine seasoning",
+    "aji-mirin"
+   ],
+   "note": "missing sugar, saturated fat",
+   "names": {
+    "en": "Mirin seasoning",
+    "de": "Mirin-Würze"
+   }
+  },
+  "lemon juice": {
+   "reference": "bls:F601600",
+   "aliases": [
+    "juice of a lemon",
+    "fresh lemon juice",
+    "zitronensaft"
+   ],
+   "names": {
+    "en": "Lemon juice",
+    "de": "Zitronensaft"
+   }
+  },
+  "lime juice": {
+   "reference": "bls:F602600",
+   "aliases": [
+    "juice of a lime",
+    "fresh lime juice",
+    "limettensaft"
+   ],
+   "names": {
+    "en": "Lime juice",
+    "de": "Limettensaft"
+   }
+  },
+  "chutney": {
+   "reference": "bls:R144100",
+   "aliases": [
+    "mango chutney",
+    "fruit chutney"
+   ],
+   "names": {
+    "en": "Fruit chutney",
+    "de": "Fruchtchutney"
+   }
+  },
+  "caramel sauce": {
+   "reference": "bls:X363143",
+   "aliases": [
+    "caramel",
+    "salted caramel sauce",
+    "karamellsauce"
+   ],
+   "names": {
+    "en": "Caramel sauce",
+    "de": "Karamellsauce"
+   }
+  },
+  "sugar": {
+   "reference": "usda:2710258",
+   "aliases": [
+    "white sugar",
+    "granulated sugar",
+    "caster sugar",
+    "table sugar",
+    "superfine sugar",
+    "zucker"
+   ],
+   "names": {
+    "en": "Sugar",
+    "de": "Zucker"
+   }
+  },
+  "brown sugar": {
+   "reference": "usda:2710260",
+   "aliases": [
+    "light brown sugar",
+    "dark brown sugar",
+    "muscovado sugar",
+    "demerara sugar",
+    "palm sugar",
+    "coconut sugar"
+   ],
+   "names": {
+    "en": "Brown sugar",
+    "de": "Brauner Zucker"
+   }
+  },
+  "powdered sugar": {
+   "reference": "usda:2710259",
+   "aliases": [
+    "icing sugar",
+    "confectioners' sugar",
+    "confectioners sugar",
+    "puderzucker"
+   ],
+   "names": {
+    "en": "Powdered sugar",
+    "de": "Puderzucker"
+   }
+  },
+  "honey": {
+   "reference": "usda:2710281",
+   "aliases": [
+    "runny honey",
+    "liquid honey",
+    "honig"
+   ],
+   "names": {
+    "en": "Honey",
+    "de": "Honig"
+   }
+  },
+  "maple syrup": {
+   "reference": "ciqual:31034",
+   "aliases": [
+    "pure maple syrup",
+    "ahornsirup"
+   ],
+   "names": {
+    "en": "Maple syrup",
+    "de": "Ahornsirup"
+   }
+  },
+  "simple syrup": {
+   "reference": "usda:2710278",
+   "aliases": [
+    "sugar syrup",
+    "syrup"
+   ],
+   "names": {
+    "en": "Simple syrup",
+    "de": "Zuckersirup"
+   }
+  },
+  "jam": {
+   "reference": "bls:S132000",
+   "aliases": [
+    "fruit jam",
+    "strawberry jam",
+    "raspberry jam",
+    "apricot jam",
+    "preserves",
+    "konfitüre",
+    "marmalade"
+   ],
+   "names": {
+    "en": "Jam",
+    "de": "Konfitüre"
+   }
+  },
+  "chocolate hazelnut spread": {
+   "reference": "bls:S145000",
+   "aliases": [
+    "hazelnut spread",
+    "nut nougat cream",
+    "nuss-nougat-creme",
+    "chocolate spread"
+   ],
+   "names": {
+    "en": "Chocolate hazelnut spread",
+    "de": "Nuss-Nougat-Creme"
+   }
+  },
+  "dark chocolate": {
+   "reference": "bls:S560000",
+   "aliases": [
+    "semisweet chocolate",
+    "bittersweet chocolate",
+    "plain chocolate",
+    "zartbitterschokolade",
+    "cooking chocolate"
+   ],
+   "names": {
+    "en": "Dark chocolate",
+    "de": "Zartbitterschokolade"
+   }
+  },
+  "milk chocolate": {
+   "reference": "bls:S530000",
+   "aliases": [
+    "vollmilchschokolade",
+    "chocolate"
+   ],
+   "names": {
+    "en": "Milk chocolate",
+    "de": "Vollmilchschokolade"
+   }
+  },
+  "white chocolate": {
+   "reference": "bls:S580000",
+   "aliases": [
+    "weiße schokolade"
+   ],
+   "names": {
+    "en": "White chocolate",
+    "de": "Weiße Schokolade"
+   }
+  },
+  "chocolate chips": {
+   "reference": "usda:2710333",
+   "aliases": [
+    "chocolate chunks",
+    "choc chips",
+    "semi-sweet chocolate chips"
+   ],
+   "names": {
+    "en": "Chocolate chips",
+    "de": "Schokotropfen"
+   }
+  },
+  "cocoa powder": {
+   "reference": "bls:S711000",
+   "aliases": [
+    "unsweetened cocoa",
+    "cocoa",
+    "baking cocoa",
+    "kakaopulver",
+    "unsweetened cocoa powder"
+   ],
+   "names": {
+    "en": "Cocoa powder",
+    "de": "Kakaopulver"
+   }
+  },
+  "hot chocolate powder": {
+   "reference": "bls:S723000",
+   "aliases": [
+    "drinking chocolate",
+    "cocoa drink powder",
+    "instant cocoa",
+    "chocolate milk powder"
+   ],
+   "names": {
+    "en": "Hot chocolate powder",
+    "de": "Kakaogetränkepulver"
+   }
+  },
+  "ladyfingers": {
+   "reference": "bls:D710200",
+   "aliases": [
+    "savoiardi",
+    "sponge fingers",
+    "löffelbiskuits"
+   ],
+   "names": {
+    "en": "Ladyfingers",
+    "de": "Löffelbiskuits"
+   }
+  },
+  "digestive biscuits": {
+   "reference": "cofid:11-799",
+   "aliases": [
+    "digestives",
+    "biscuit crumbs",
+    "biscuit base"
+   ],
+   "names": {
+    "en": "Digestive biscuits",
+    "de": "Digestive-Kekse"
+   }
+  },
+  "almonds": {
+   "reference": "bls:H210100",
+   "aliases": [
+    "almond",
+    "whole almonds",
+    "ground almonds",
+    "almond flour",
+    "flaked almonds",
+    "sliced almonds",
+    "slivered almonds"
+   ],
+   "names": {
+    "en": "Almonds",
+    "de": "Mandeln"
+   }
+  },
+  "hazelnuts": {
+   "reference": "bls:H130400",
+   "aliases": [
+    "hazelnut",
+    "ground hazelnuts",
+    "filberts"
+   ],
+   "names": {
+    "en": "Hazelnuts",
+    "de": "Haselnüsse"
+   }
+  },
+  "walnuts": {
+   "reference": "bls:H120400",
+   "aliases": [
+    "walnut",
+    "walnut halves",
+    "chopped walnuts"
+   ],
+   "names": {
+    "en": "Walnuts",
+    "de": "Walnüsse"
+   }
+  },
+  "cashews": {
+   "reference": "bls:H170610",
+   "aliases": [
+    "cashew",
+    "cashew nuts",
+    "roasted cashews"
+   ],
+   "names": {
+    "en": "Cashews",
+    "de": "Cashewkerne"
+   }
+  },
+  "peanuts": {
+   "reference": "bls:H110600",
+   "aliases": [
+    "peanut",
+    "roasted peanuts",
+    "chopped peanuts",
+    "groundnuts"
+   ],
+   "names": {
+    "en": "Peanuts, roasted",
+    "de": "Erdnüsse, geröstet"
+   }
+  },
+  "pecans": {
+   "reference": "bls:H160100",
+   "aliases": [
+    "pecan",
+    "pecan nuts",
+    "pecan halves"
+   ],
+   "names": {
+    "en": "Pecans",
+    "de": "Pekannüsse"
+   }
+  },
+  "pistachios": {
+   "reference": "bls:H250100",
+   "aliases": [
+    "pistachio",
+    "pistachio nuts",
+    "shelled pistachios"
+   ],
+   "names": {
+    "en": "Pistachios",
+    "de": "Pistazien"
+   }
+  },
+  "pine nuts": {
+   "reference": "bls:H320100",
+   "aliases": [
+    "pine kernels",
+    "pignoli",
+    "pinienkerne"
+   ],
+   "names": {
+    "en": "Pine nuts",
+    "de": "Pinienkerne"
+   }
+  },
+  "desiccated coconut": {
+   "reference": "cofid:14-873",
+   "aliases": [
+    "shredded coconut",
+    "coconut flakes",
+    "grated coconut",
+    "dried coconut",
+    "kokosraspel"
+   ],
+   "names": {
+    "en": "Desiccated coconut",
+    "de": "Kokosraspeln"
+   }
+  },
+  "sesame seeds": {
+   "reference": "usda:2707586",
+   "aliases": [
+    "sesame",
+    "toasted sesame seeds",
+    "white sesame seeds",
+    "black sesame seeds"
+   ],
+   "names": {
+    "en": "Sesame seeds",
+    "de": "Sesam"
+   }
+  },
+  "sunflower seeds": {
+   "reference": "bls:H430610",
+   "aliases": [
+    "sunflower kernels",
+    "sonnenblumenkerne"
+   ],
+   "names": {
+    "en": "Sunflower seeds",
+    "de": "Sonnenblumenkerne"
+   }
+  },
+  "pumpkin seeds": {
+   "reference": "bls:H310100",
+   "aliases": [
+    "pepitas",
+    "kürbiskerne"
+   ],
+   "names": {
+    "en": "Pumpkin seeds",
+    "de": "Kürbiskerne"
+   }
+  },
+  "chia seeds": {
+   "reference": "bls:H480100",
+   "aliases": [
+    "chia"
+   ],
+   "names": {
+    "en": "Chia seeds",
+    "de": "Chiasamen"
+   }
+  },
+  "flaxseed": {
+   "reference": "bls:H410400",
+   "aliases": [
+    "linseed",
+    "ground flaxseed",
+    "flax seeds",
+    "leinsamen"
+   ],
+   "names": {
+    "en": "Flaxseed",
+    "de": "Leinsamen"
+   }
+  },
+  "apple": {
+   "reference": "bls:F110100",
+   "aliases": [
+    "apples",
+    "green apple",
+    "red apple",
+    "grated apple",
+    "diced apple"
+   ],
+   "names": {
+    "en": "Apple",
+    "de": "Apfel"
+   }
+  },
+  "banana": {
+   "reference": "bls:F503100",
+   "aliases": [
+    "bananas",
+    "ripe banana",
+    "frozen banana"
+   ],
+   "names": {
+    "en": "Banana",
+    "de": "Banane"
+   }
+  },
+  "pear": {
+   "reference": "bls:F130100",
+   "aliases": [
+    "pears"
+   ],
+   "names": {
+    "en": "Pear",
+    "de": "Birne"
+   }
+  },
+  "orange": {
+   "reference": "bls:F603100",
+   "aliases": [
+    "oranges",
+    "orange segments",
+    "navel orange"
+   ],
+   "names": {
+    "en": "Orange",
+    "de": "Orange"
+   }
+  },
+  "mandarin": {
+   "reference": "bls:F606100",
+   "aliases": [
+    "mandarins",
+    "tangerine",
+    "satsuma",
+    "mandarin oranges",
+    "clementine",
+    "clementines"
+   ],
+   "names": {
+    "en": "Mandarin",
+    "de": "Mandarine"
+   }
+  },
+  "lemon": {
+   "reference": "usda:2709168",
+   "aliases": [
+    "lemons",
+    "lemon slices",
+    "lemon wedge",
+    "lemon zest"
+   ],
+   "names": {
+    "en": "Lemon",
+    "de": "Zitrone"
+   }
+  },
+  "lime": {
+   "reference": "bls:F602100",
+   "aliases": [
+    "limes",
+    "lime wedge",
+    "lime zest",
+    "lime slices"
+   ],
+   "names": {
+    "en": "Lime",
+    "de": "Limette"
+   }
+  },
+  "grapefruit": {
+   "reference": "bls:F604100",
+   "aliases": [
+    "pink grapefruit"
+   ],
+   "names": {
+    "en": "Grapefruit",
+    "de": "Grapefruit"
+   }
+  },
+  "grapes": {
+   "reference": "bls:F310100",
+   "aliases": [
+    "grape",
+    "red grapes",
+    "green grapes",
+    "seedless grapes"
+   ],
+   "names": {
+    "en": "Grapes",
+    "de": "Weintrauben"
+   }
+  },
+  "strawberries": {
+   "reference": "bls:F301100",
+   "aliases": [
+    "strawberry",
+    "fresh strawberries",
+    "sliced strawberries"
+   ],
+   "names": {
+    "en": "Strawberries",
+    "de": "Erdbeeren"
+   }
+  },
+  "raspberries": {
+   "reference": "usda:2709281",
+   "aliases": [
+    "raspberry",
+    "fresh raspberries",
+    "frozen raspberries"
+   ],
+   "names": {
+    "en": "Raspberries",
+    "de": "Himbeeren"
+   }
+  },
+  "blueberries": {
+   "reference": "bls:F304100",
+   "aliases": [
+    "blueberry",
+    "bilberries",
+    "frozen blueberries"
+   ],
+   "names": {
+    "en": "Blueberries",
+    "de": "Heidelbeeren"
+   }
+  },
+  "blackberries": {
+   "reference": "bls:F303100",
+   "aliases": [
+    "blackberry",
+    "brambles"
+   ],
+   "names": {
+    "en": "Blackberries",
+    "de": "Brombeeren"
+   }
+  },
+  "mixed berries": {
+   "reference": "bls:F092100",
+   "aliases": [
+    "frozen berries",
+    "berry mix",
+    "frozen mixed berries",
+    "forest fruits",
+    "summer berries"
+   ],
+   "names": {
+    "en": "Mixed berries",
+    "de": "Beerenmischung"
+   }
+  },
+  "cherries": {
+   "reference": "bls:F211100",
+   "aliases": [
+    "cherry",
+    "sweet cherries",
+    "fresh cherries"
+   ],
+   "names": {
+    "en": "Cherries",
+    "de": "Kirschen"
+   }
+  },
+  "peach": {
+   "reference": "bls:F203100",
+   "aliases": [
+    "peaches",
+    "fresh peach"
+   ],
+   "names": {
+    "en": "Peach",
+    "de": "Pfirsich"
+   }
+  },
+  "nectarine": {
+   "reference": "bls:F202100",
+   "aliases": [
+    "nectarines"
+   ],
+   "names": {
+    "en": "Nectarine",
+    "de": "Nektarine"
+   }
+  },
+  "apricot": {
+   "reference": "bls:F201100",
+   "aliases": [
+    "apricots",
+    "fresh apricots"
+   ],
+   "names": {
+    "en": "Apricot",
+    "de": "Aprikose"
+   }
+  },
+  "plum": {
+   "reference": "bls:F220100",
+   "aliases": [
+    "plums",
+    "damson"
+   ],
+   "names": {
+    "en": "Plum",
+    "de": "Pflaume"
+   }
+  },
+  "mango": {
+   "reference": "bls:F516100",
+   "aliases": [
+    "mangoes",
+    "mangos",
+    "ripe mango",
+    "frozen mango"
+   ],
+   "names": {
+    "en": "Mango",
+    "de": "Mango"
+   }
+  },
+  "pineapple": {
+   "reference": "bls:F501100",
+   "aliases": [
+    "fresh pineapple",
+    "pineapple chunks",
+    "ananas"
+   ],
+   "names": {
+    "en": "Pineapple",
+    "de": "Ananas"
+   }
+  },
+  "kiwi": {
+   "reference": "bls:F514100",
+   "aliases": [
+    "kiwis",
+    "kiwifruit",
+    "kiwi fruit"
+   ],
+   "names": {
+    "en": "Kiwi",
+    "de": "Kiwi"
+   }
+  },
+  "papaya": {
+   "reference": "bls:F517100",
+   "aliases": [
+    "pawpaw",
+    "papayas"
+   ],
+   "names": {
+    "en": "Papaya",
+    "de": "Papaya"
+   }
+  },
+  "passion fruit": {
+   "reference": "bls:F508100",
+   "aliases": [
+    "passionfruit",
+    "maracuja"
+   ],
+   "names": {
+    "en": "Passion fruit",
+    "de": "Maracuja"
+   }
+  },
+  "pomegranate seeds": {
+   "reference": "bls:F506100",
+   "aliases": [
+    "pomegranate",
+    "pomegranate arils"
+   ],
+   "names": {
+    "en": "Pomegranate seeds",
+    "de": "Granatapfelkerne"
+   }
+  },
+  "watermelon": {
+   "reference": "bls:F535100",
+   "aliases": [
+    "water melon"
+   ],
+   "names": {
+    "en": "Watermelon",
+    "de": "Wassermelone"
+   }
+  },
+  "cantaloupe": {
+   "reference": "bls:F532100",
+   "aliases": [
+    "melon",
+    "musk melon",
+    "rockmelon"
+   ],
+   "names": {
+    "en": "Cantaloupe",
+    "de": "Cantaloupe-Melone"
+   }
+  },
+  "fig": {
+   "reference": "bls:F505100",
+   "aliases": [
+    "figs",
+    "fresh figs"
+   ],
+   "names": {
+    "en": "Fig",
+    "de": "Feige"
+   }
+  },
+  "dates": {
+   "reference": "bls:F504400",
+   "aliases": [
+    "dried dates",
+    "medjool dates",
+    "date",
+    "pitted dates"
+   ],
+   "names": {
+    "en": "Dates, dried",
+    "de": "Datteln, getrocknet"
+   }
+  },
+  "rhubarb": {
+   "reference": "bls:F081100",
+   "aliases": [
+    "rhubarb stalks",
+    "rhabarber"
+   ],
+   "names": {
+    "en": "Rhubarb",
+    "de": "Rhabarber"
+   }
+  },
+  "raisins": {
+   "reference": "usda:2709212",
+   "aliases": [
+    "sultanas",
+    "currants (dried)",
+    "golden raisins",
+    "rosinen"
+   ],
+   "names": {
+    "en": "Raisins",
+    "de": "Rosinen"
+   }
+  },
+  "dried cranberries": {
+   "reference": "usda:2709202",
+   "aliases": [
+    "craisins",
+    "sweetened dried cranberries"
+   ],
+   "names": {
+    "en": "Cranberries, dried",
+    "de": "Cranberrys, getrocknet"
+   }
+  },
+  "dried apricots": {
+   "reference": "bls:F201400",
+   "aliases": [
+    "dried apricot"
+   ],
+   "names": {
+    "en": "Apricots, dried",
+    "de": "Aprikosen, getrocknet"
+   }
+  },
+  "prunes": {
+   "reference": "usda:2709211",
+   "aliases": [
+    "dried plums",
+    "prune"
+   ],
+   "names": {
+    "en": "Prunes",
+    "de": "Backpflaumen"
+   }
+  },
+  "applesauce": {
+   "reference": "bls:Y864112",
+   "aliases": [
+    "apple sauce",
+    "apple puree",
+    "unsweetened applesauce",
+    "apfelmus"
+   ],
+   "names": {
+    "en": "Applesauce",
+    "de": "Apfelmus"
+   }
+  },
+  "water": {
+   "reference": "usda:2710706",
+   "aliases": [
+    "tap water",
+    "ice",
+    "ice cubes",
+    "hot water",
+    "cold water",
+    "crushed ice"
+   ],
+   "names": {
+    "en": "Water",
+    "de": "Wasser"
+   }
+  },
+  "sparkling water": {
+   "reference": "usda:2710539",
+   "aliases": [
+    "soda water",
+    "club soda",
+    "carbonated water",
+    "mineral water"
+   ],
+   "names": {
+    "en": "Sparkling water",
+    "de": "Sprudelwasser"
+   }
+  },
+  "coffee": {
+   "reference": "usda:2710375",
+   "aliases": [
+    "brewed coffee",
+    "black coffee",
+    "filter coffee",
+    "drip coffee",
+    "cold brew",
+    "cold brew coffee"
+   ],
+   "names": {
+    "en": "Coffee",
+    "de": "Kaffee"
+   }
+  },
+  "espresso": {
+   "reference": "usda:2710378",
+   "aliases": [
+    "espresso shot",
+    "shot of espresso",
+    "strong coffee"
+   ],
+   "names": {
+    "en": "Espresso",
+    "de": "Espresso"
+   }
+  },
+  "black tea": {
+   "reference": "usda:2710488",
+   "aliases": [
+    "tea",
+    "brewed tea",
+    "english breakfast tea",
+    "assam tea",
+    "chai tea (brewed)"
+   ],
+   "names": {
+    "en": "Black tea",
+    "de": "Schwarzer Tee"
+   }
+  },
+  "green tea": {
+   "reference": "usda:2710490",
+   "aliases": [
+    "brewed green tea",
+    "jasmine tea"
+   ],
+   "names": {
+    "en": "Green tea",
+    "de": "Grüner Tee"
+   }
+  },
+  "herbal tea": {
+   "reference": "usda:2710502",
+   "aliases": [
+    "peppermint tea",
+    "chamomile tea",
+    "fruit tea",
+    "rooibos"
+   ],
+   "names": {
+    "en": "Herbal tea",
+    "de": "Kräutertee"
+   }
+  },
+  "matcha": {
+   "reference": "mext:16035",
+   "aliases": [
+    "matcha powder",
+    "green tea powder"
+   ],
+   "note": "missing sugar, saturated fat",
+   "names": {
+    "en": "Matcha powder",
+    "de": "Matchapulver"
+   }
+  },
+  "orange juice": {
+   "reference": "usda:2709186",
+   "aliases": [
+    "oj",
+    "fresh orange juice",
+    "orange juice, 100%"
+   ],
+   "names": {
+    "en": "Orange juice",
+    "de": "Orangensaft"
+   }
+  },
+  "apple juice": {
+   "reference": "usda:2709320",
+   "aliases": [
+    "apple juice, 100%",
+    "cloudy apple juice"
+   ],
+   "names": {
+    "en": "Apple juice",
+    "de": "Apfelsaft"
+   }
+  },
+  "pineapple juice": {
+   "reference": "bls:F501600",
+   "aliases": [
+    "pineapple juice, 100%"
+   ],
+   "names": {
+    "en": "Pineapple juice",
+    "de": "Ananassaft"
+   }
+  },
+  "tomato juice": {
+   "reference": "usda:2709728",
+   "aliases": [
+    "tomato juice, 100%"
+   ],
+   "names": {
+    "en": "Tomato juice",
+    "de": "Tomatensaft"
+   }
+  },
+  "coconut water": {
+   "reference": "usda:2707572",
+   "aliases": [
+    "unsweetened coconut water"
+   ],
+   "names": {
+    "en": "Coconut water",
+    "de": "Kokoswasser"
+   }
+  },
+  "oat milk": {
+   "reference": "bls:C660000",
+   "aliases": [
+    "oat drink",
+    "oatmilk",
+    "haferdrink"
+   ],
+   "names": {
+    "en": "Oat milk",
+    "de": "Haferdrink"
+   }
+  },
+  "soy milk": {
+   "reference": "usda:2705405",
+   "aliases": [
+    "soy drink",
+    "soya milk",
+    "soya drink",
+    "soymilk"
+   ],
+   "names": {
+    "en": "Soy milk",
+    "de": "Sojadrink"
+   }
+  },
+  "almond milk": {
+   "reference": "bls:H800000",
+   "aliases": [
+    "almond drink",
+    "mandeldrink"
+   ],
+   "names": {
+    "en": "Almond milk",
+    "de": "Mandeldrink"
+   }
+  },
+  "red wine": {
+   "reference": "usda:2710688",
+   "aliases": [
+    "dry red wine",
+    "rotwein",
+    "cooking red wine"
+   ],
+   "names": {
+    "en": "Red wine",
+    "de": "Rotwein"
+   }
+  },
+  "white wine": {
+   "reference": "usda:2710689",
+   "aliases": [
+    "dry white wine",
+    "weißwein",
+    "cooking white wine"
+   ],
+   "names": {
+    "en": "White wine",
+    "de": "Weißwein"
+   }
+  },
+  "rice wine": {
+   "reference": "usda:2710691",
+   "aliases": [
+    "shaoxing wine",
+    "sake",
+    "cooking sake",
+    "chinese cooking wine"
+   ],
+   "names": {
+    "en": "Rice wine",
+    "de": "Reiswein"
+   }
+  },
+  "beer": {
+   "reference": "usda:2710616",
+   "aliases": [
+    "lager",
+    "pilsner",
+    "ale",
+    "bier"
+   ],
+   "names": {
+    "en": "Beer",
+    "de": "Bier"
+   }
+  },
+  "gyoza wrappers": {
+   "reference": "mext:01074",
+   "aliases": [],
+   "names": {
+    "en": "Gyoza wrappers",
+    "de": "Gyoza-Teigblätter"
+   }
+  },
+  "shumai wrappers": {
+   "reference": "mext:01075",
+   "aliases": [],
+   "names": {
+    "en": "Shumai wrappers",
+    "de": "Shumai-Teigblätter"
+   }
+  },
+  "tempura batter, fried": {
+   "reference": "mext:01172",
+   "aliases": [],
+   "names": {
+    "en": "Tempura batter, fried",
+    "de": "Tempurateig, frittiert"
+   }
+  },
+  "spring roll wrappers, fried": {
+   "reference": "mext:01180",
+   "aliases": [],
+   "names": {
+    "en": "Spring roll wrappers, fried",
+    "de": "Frühlingsrollenteig, frittiert"
+   }
+  },
+  "shirataki noodles": {
+   "reference": "mext:02005",
+   "aliases": [],
+   "names": {
+    "en": "Shirataki noodles",
+    "de": "Shirataki-Nudeln"
+   }
+  },
+  "takuan": {
+   "reference": "mext:06138",
+   "aliases": [],
+   "names": {
+    "en": "Takuan (pickled daikon)",
+    "de": "Takuan (eingelegter Rettich)"
+   }
+  },
+  "lard": {
+   "reference": "mext:14016",
+   "aliases": [],
+   "names": {
+    "en": "Lard",
+    "de": "Schweineschmalz"
+   }
+  },
+  "chuno sauce": {
+   "reference": "mext:17002",
+   "aliases": [],
+   "names": {
+    "en": "Chuno sauce",
+    "de": "Chuno-Sauce"
+   }
+  },
+  "tonkatsu sauce": {
+   "reference": "mext:17003",
+   "aliases": [],
+   "names": {
+    "en": "Tonkatsu sauce",
+    "de": "Tonkatsu-Sauce"
+   }
+  },
+  "doubanjiang": {
+   "reference": "mext:17004",
+   "aliases": [],
+   "names": {
+    "en": "Doubanjiang",
+    "de": "Doubanjiang"
+   }
+  },
+  "japanese curry roux": {
+   "reference": "mext:17051",
+   "aliases": [],
+   "names": {
+    "en": "Japanese curry roux",
+    "de": "Japanische Currywürfel"
+   }
+  },
+  "okonomiyaki sauce": {
+   "reference": "mext:17085",
+   "aliases": [],
+   "names": {
+    "en": "Okonomiyaki sauce",
+    "de": "Okonomiyaki-Sauce"
+   }
+  },
+  "imitation crab": {
+   "reference": "usda:2706568",
+   "aliases": [],
+   "names": {
+    "en": "Imitation crab",
+    "de": "Surimi"
+   }
+  },
+  "black bean sauce": {
+   "reference": "usda:2707404",
+   "aliases": [],
+   "names": {
+    "en": "Black bean sauce",
+    "de": "Schwarze-Bohnen-Sauce"
+   }
+  },
+  "chinese pancake": {
+   "reference": "usda:2708343",
+   "aliases": [],
+   "names": {
+    "en": "Chinese pancake",
+    "de": "Chinesischer Pfannkuchen"
+   }
+  },
+  "shortcrust pastry": {
+   "reference": "cofid:11-1052",
+   "aliases": [
+    "pie crust",
+    "pastry dough",
+    "mürbeteig",
+    "tart pastry",
+    "shortcrust pastry, cooked"
+   ],
+   "note": "baked, unsweetened; missing vitaminC",
+   "names": {
+    "en": "Shortcrust pastry, baked",
+    "de": "Mürbeteig, gebacken"
+   }
+  },
+  "sweet shortcrust pastry": {
+   "reference": "bls:Y8A8030",
+   "aliases": [
+    "süßer mürbeteig"
+   ],
+   "names": {
+    "en": "Sweet shortcrust pastry",
+    "de": "Süßer Mürbeteig"
+   }
+  },
+  "okara": {
+   "reference": "mext:04051",
+   "aliases": [
+    "soy pulp"
+   ],
+   "names": {
+    "en": "Okara (soy pulp)",
+    "de": "Okara (Sojatrester)"
+   }
+  },
+  "dried daikon strips, boiled": {
+   "reference": "mext:06334",
+   "aliases": [
+    "kiriboshi daikon"
+   ],
+   "names": {
+    "en": "Dried daikon strips, boiled",
+    "de": "Getrocknete Rettichstreifen, gekocht"
+   }
+  },
+  "zenmai fern, boiled": {
+   "reference": "mext:06123",
+   "aliases": [
+    "zenmai"
+   ],
+   "names": {
+    "en": "Zenmai fern, boiled",
+    "de": "Zenmai-Farn, gekocht"
+   }
+  },
+  "hijiki, boiled": {
+   "reference": "mext:09051",
+   "aliases": [
+    "hijiki"
+   ],
+   "names": {
+    "en": "Hijiki seaweed, boiled",
+    "de": "Hijiki-Alge, gekocht"
+   }
+  },
+  "reblochon": {
+   "reference": "ciqual:12045",
+   "aliases": [],
+   "names": {
+    "en": "Reblochon",
+    "de": "Reblochon"
+   }
+  },
+  "burrata": {
+   "reference": "ciqual:12072",
+   "aliases": [],
+   "names": {
+    "en": "Burrata",
+    "de": "Burrata"
+   }
+  }
+ }
+}

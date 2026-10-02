@@ -1,0 +1,3008 @@
+{
+ "batch": 6,
+ "identities": [
+  {
+   "key": "berlin knacker sausage raw small firm",
+   "names": [
+    "berlin knacker sausage raw small firm",
+    "berliner knacker berliner knackwurst"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:W182000",
+     "name": "Berlin Knacker sausage raw, small, firm"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "bockwurst",
+   "names": [
+    "bockwurst"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:W211100",
+     "name": "Bockwurst"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "rostbratwurst sausage fried without fat pan",
+   "names": [
+    "rostbratwurst sausage fried without fat pan",
+    "rostbratwurst gebraten ohne fett pfanne"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:W222682",
+     "name": "Rostbratwurst sausage fried without fat (pan)"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "bavarian white sausage poached",
+   "names": [
+    "bavarian white sausage poached",
+    "munchner weißwurst gargezogen"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:W224032",
+     "name": "Bavarian white sausage poached"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "lyon sausage",
+   "names": [
+    "lyon sausage",
+    "lyoner lyoner wurst"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:W231100",
+     "name": "Lyon sausage"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "bologna",
+   "names": [
+    "bologna",
+    "fleischwurst"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:W234000",
+     "name": "Bologna"
+    },
+    {
+     "id": "usda:2706176",
+     "name": "Bologna"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2706176",
+     "label": "1 slice, NFS",
+     "grams": 28
+    },
+    {
+     "reference": "usda:2706176",
+     "label": "1 cup, pieces",
+     "grams": 140
+    }
+   ]
+  },
+  {
+   "key": "bologna boiled",
+   "names": [
+    "bologna boiled",
+    "fleischwurst gekocht"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:W234032",
+     "name": "Bologna boiled"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "bologna fried without fat pan",
+   "names": [
+    "bologna fried without fat pan",
+    "fleischwurst gebraten ohne fett pfanne"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:W234082",
+     "name": "Bologna fried without fat (pan)"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "luncheon meat",
+   "names": [
+    "luncheon meat",
+    "fruhstucksfleisch"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:W255600",
+     "name": "Luncheon meat"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "mettwurst sausage cooked",
+   "names": [
+    "mettwurst sausage cooked",
+    "mettwurst gekocht"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:W331000",
+     "name": "Mettwurst sausage cooked"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "bremer pinkel pork sausage with oat groats",
+   "names": [
+    "bremer pinkel pork sausage with oat groats",
+    "bremer pinkel grutzwurst"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:W383700",
+     "name": "Bremer Pinkel pork sausage with oat groats"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "liver pate",
+   "names": [
+    "liver pate",
+    "leberpastete"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:W395000",
+     "name": "Liver pate"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "pork loin lean rolled raw cured smoked",
+   "names": [
+    "pork loin lean rolled raw cured smoked",
+    "lachsschinken rohpokelware gerauchert"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:W443000",
+     "name": "Pork loin lean rolled, raw cured, smoked"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "pork neck cooked cured smoked",
+   "names": [
+    "pork neck cooked cured smoked",
+    "kasseler kamm kochpokelware gerauchert"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:W511000",
+     "name": "Pork neck, cooked cured, smoked"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "pork loin spare ribs cooked cured smoked",
+   "names": [
+    "pork loin spare ribs cooked cured smoked",
+    "kasseler rippenspeer kochpokelware gerauchert"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:W512000",
+     "name": "Pork loin spare ribs, cooked cured, smoked"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "pork loin chop raw cured smoked boiled",
+   "names": [
+    "pork loin chop raw cured smoked boiled",
+    "kasseler rohpokelware gerauchert gekocht"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:W514032",
+     "name": "Pork loin chop raw cured, smoked, boiled"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "corned beef",
+   "names": [
+    "corned beef"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:W520000",
+     "name": "Corned beef"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "corned beef boiled",
+   "names": [
+    "corned beef boiled",
+    "corned beef gekocht"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:W520032",
+     "name": "Corned beef boiled"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "potato salad with mayonnaise",
+   "names": [
+    "potato salad with mayonnaise",
+    "kartoffelsalat mit mayonnaise"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:X1A2020",
+     "name": "Potato salad with mayonnaise"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "basic sauce white",
+   "names": [
+    "basic sauce white",
+    "grundsauce hell weiß"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:X320053",
+     "name": "Basic sauce white"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "mustard sauce from white basic sauce",
+   "names": [
+    "mustard sauce from white basic sauce",
+    "senfsauce von heller weißer grundsauce"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:X326453",
+     "name": "Mustard sauce from white basic sauce"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "chocolate sauce",
+   "names": [
+    "chocolate sauce",
+    "schokoladensauce"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:X362143",
+     "name": "Chocolate sauce"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "veal stock",
+   "names": [
+    "veal stock",
+    "kalbsbruhe"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:X411563",
+     "name": "Veal stock"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "liver spaetzle",
+   "names": [
+    "liver spaetzle",
+    "leberspatzle leberreis"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:X437143",
+     "name": "Liver spaetzle"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "small liver dumplings",
+   "names": [
+    "small liver dumplings",
+    "leberkloßchen"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:X437363",
+     "name": "Small liver dumplings"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "small marrow dumplings",
+   "names": [
+    "small marrow dumplings",
+    "markkloßchen"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:X438163",
+     "name": "Small marrow dumplings"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "liver dumpling as soup garnish",
+   "names": [
+    "liver dumpling as soup garnish",
+    "leberknodel suppeneinlage"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:X4B3000",
+     "name": "Liver dumpling as soup garnish"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "sauerkraut stewed",
+   "names": [
+    "sauerkraut stewed",
+    "sauerkraut gedunstet"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:X530353",
+     "name": "Sauerkraut stewed"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "cucumbers braised",
+   "names": [
+    "cucumbers braised",
+    "schmorgurken"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:X552153",
+     "name": "Cucumbers braised"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "potato dough from boiled potatoes raw",
+   "names": [
+    "potato dough from boiled potatoes raw",
+    "kartoffelteig aus gekochten kartoffeln roh"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:X6A5000",
+     "name": "Potato dough (from boiled potatoes) raw"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "rice pudding sweetened with milk 3 5 fat",
+   "names": [
+    "rice pudding sweetened with milk 3 5 fat",
+    "milchreis gesußt mit milch 3 5 fett"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:X810033",
+     "name": "Rice pudding sweetened, with milk 3.5 % fat"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "liver sausages heated",
+   "names": [
+    "liver sausages heated",
+    "leberwurste erwarmt"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:Y023113",
+     "name": "Liver sausages heated"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "blood sausages heated",
+   "names": [
+    "blood sausages heated",
+    "blutwurste erwarmt"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:Y024113",
+     "name": "Blood sausages heated"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "bolognese sauce with beef mince",
+   "names": [
+    "bolognese sauce with beef mince",
+    "bologneser sauce mit rinderhackfleisch"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:Y038213",
+     "name": "Bolognese sauce with beef mince"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "beef boiled",
+   "names": [
+    "beef boiled",
+    "rindfleisch gekocht"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:Y180512",
+     "name": "Beef boiled"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "ox tail braised with fat and salt",
+   "names": [
+    "ox tail braised with fat and salt",
+    "ochsenschwanz geschmort mit fett und salz"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:Y184312",
+     "name": "Ox tail braised (with fat and salt)"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "veal schnitzel floured fried",
+   "names": [
+    "veal schnitzel floured fried",
+    "kalbsschnitzel mehliert gebraten"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:Y231022",
+     "name": "Veal schnitzel floured, fried"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "pork foreshank hock eisbein cured boiled",
+   "names": [
+    "pork foreshank hock eisbein cured boiled",
+    "eisbein gepokelt gekocht"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:Y301122",
+     "name": "Pork foreshank (hock) \"Eisbein\" cured, boiled"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "shashlik with pork grilled",
+   "names": [
+    "shashlik with pork grilled",
+    "schaschlik mit schweinefleisch gegrillt"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:Y336022",
+     "name": "Shashlik with pork grilled"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "pork belly boiled",
+   "names": [
+    "pork belly boiled",
+    "schweinebauch gekocht wellfleisch"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:Y381352",
+     "name": "Pork belly boiled"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "herb butter",
+   "names": [
+    "herb butter",
+    "krauterbutter"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:Y790160",
+     "name": "Herb butter"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "lingonberry compote",
+   "names": [
+    "lingonberry compote",
+    "preiselbeerkompott"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:Y840563",
+     "name": "Lingonberry compote"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "sour cherry compote",
+   "names": [
+    "sour cherry compote",
+    "sauerkirschkompott"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:Y841363",
+     "name": "Sour cherry compote"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "red fruit jelly",
+   "names": [
+    "red fruit jelly",
+    "rote grutze"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:Y855053",
+     "name": "Red fruit jelly"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "almond brittle",
+   "names": [
+    "almond brittle",
+    "mandelkrokant"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:Y8A2000",
+     "name": "Almond brittle"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "strawberry ice cream",
+   "names": [
+    "strawberry ice cream",
+    "erdbeereis"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:Y996510",
+     "name": "Strawberry ice cream"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "hazelnut ice cream with egg",
+   "names": [
+    "hazelnut ice cream with egg",
+    "haselnusscremeeis"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:Y9A2020",
+     "name": "Hazelnut ice cream (with egg)"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "tapioca raw",
+   "names": [
+    "tapioca raw"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "cofid:11-027",
+     "name": "Tapioca, raw"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "pastry shortcrust uncooked homemade",
+   "names": [
+    "pastry shortcrust uncooked homemade"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "cofid:11-1017",
+     "name": "Pastry, shortcrust, uncooked, homemade"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "waffles homemade",
+   "names": [
+    "waffles homemade"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "cofid:11-1130",
+     "name": "Waffles, homemade"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "yorkshire pudding made with whole milk",
+   "names": [
+    "yorkshire pudding made with whole milk"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "cofid:11-1146",
+     "name": "Yorkshire pudding, made with whole milk"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "semolina raw",
+   "names": [
+    "semolina raw",
+    "grieß roh"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "cofid:11-903",
+     "name": "Semolina, raw"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "sambar homemade",
+   "names": [
+    "sambar homemade"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "cofid:12-467",
+     "name": "Sambar, homemade"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "pudding rice homemade with whole milk",
+   "names": [
+    "pudding rice homemade with whole milk"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "cofid:12-608",
+     "name": "Pudding, rice, homemade, with whole milk"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "black gram urad gram whole dried boiled in unsalted water",
+   "names": [
+    "black gram urad gram whole dried boiled in unsalted water"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "cofid:13-057",
+     "name": "Black gram, urad gram, whole, dried, boiled in unsalted water"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "endive raw",
+   "names": [
+    "endive raw"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "cofid:13-240",
+     "name": "Endive, raw"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "papaya unripe green flesh raw",
+   "names": [
+    "papaya unripe green flesh raw"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "cofid:13-311",
+     "name": "Papaya, unripe, green flesh, raw"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "taro boiled in unsalted water",
+   "names": [
+    "taro boiled in unsalted water"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "cofid:13-378",
+     "name": "Taro, boiled in unsalted water"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "beans broad whole boiled in unsalted water",
+   "names": [
+    "beans broad whole boiled in unsalted water"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "cofid:13-648",
+     "name": "Beans, broad, whole, boiled in unsalted water"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "currants",
+   "names": [
+    "currants"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "cofid:14-074",
+     "name": "Currants"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "bass sea flesh only raw",
+   "names": [
+    "bass sea flesh only raw"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "cofid:16-385",
+     "name": "Bass, sea, flesh only, raw"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "haddock flesh only smoked poached",
+   "names": [
+    "haddock flesh only smoked poached"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "cofid:16-402",
+     "name": "Haddock, flesh only, smoked, poached"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "suet shredded",
+   "names": [
+    "suet shredded"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "cofid:17-011",
+     "name": "Suet, shredded"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "lamb leg half fillet braised lean and fat",
+   "names": [
+    "lamb leg half fillet braised lean and fat"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "cofid:18-127",
+     "name": "Lamb, leg, half fillet, braised, lean and fat"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "kidney ox stewed",
+   "names": [
+    "kidney ox stewed"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "cofid:18-405",
+     "name": "Kidney, ox, stewed"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "duck crispy chinese style meat and skin",
+   "names": [
+    "duck crispy chinese style meat and skin"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "cofid:18-490",
+     "name": "Duck, crispy, chinese style, meat and skin"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "pork diced kebabs grilled lean and fat",
+   "names": [
+    "pork diced kebabs grilled lean and fat"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "cofid:18-541",
+     "name": "Pork, diced, kebabs, grilled, lean and fat"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "pork shoulder chops collar braised lean and fat",
+   "names": [
+    "pork shoulder chops collar braised lean and fat"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "cofid:18-543",
+     "name": "Pork, shoulder chops (collar), braised, lean and fat"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "liver sausage",
+   "names": [
+    "liver sausage"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "cofid:19-106",
+     "name": "Liver sausage"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "black pudding dry fried",
+   "names": [
+    "black pudding dry fried"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "cofid:19-114",
+     "name": "Black pudding, dry-fried"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "haggis boiled",
+   "names": [
+    "haggis boiled"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "cofid:19-132",
+     "name": "Haggis, boiled"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "pork spare ribs barbecue style homemade",
+   "names": [
+    "pork spare ribs barbecue style homemade"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "cofid:19-670",
+     "name": "Pork, spare ribs, 'barbecue style', homemade"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "aburaage fried tofu blanched",
+   "names": [
+    "aburaage fried tofu blanched"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "mext:04084",
+     "name": "Aburaage, fried tofu, blanched"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "mung bean sprouts cooked",
+   "names": [
+    "mung bean sprouts cooked"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "mext:06292",
+     "name": "Mung bean sprouts, cooked"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "rice milk",
+   "names": [
+    "rice milk"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2705411",
+     "name": "Rice milk"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2705411",
+     "label": "1 cup",
+     "grams": 244
+    },
+    {
+     "reference": "usda:2705411",
+     "label": "1 fl oz",
+     "grams": 30.5
+    }
+   ]
+  },
+  {
+   "key": "yogurt whole milk plain",
+   "names": [
+    "yogurt whole milk plain"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2705418",
+     "name": "Yogurt, whole milk, plain"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2705418",
+     "label": "1 4 oz container",
+     "grams": 113
+    },
+    {
+     "reference": "usda:2705418",
+     "label": "1 6 oz container",
+     "grams": 170
+    },
+    {
+     "reference": "usda:2705418",
+     "label": "1 container, NFS",
+     "grams": 170
+    },
+    {
+     "reference": "usda:2705418",
+     "label": "1 cup",
+     "grams": 245
+    }
+   ]
+  },
+  {
+   "key": "dulce de leche",
+   "names": [
+    "dulce de leche"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2705699",
+     "name": "Dulce de leche"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2705699",
+     "label": "1 cup",
+     "grams": 300
+    }
+   ]
+  },
+  {
+   "key": "cheese provolone",
+   "names": [
+    "cheese provolone"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2705733",
+     "name": "Cheese, Provolone"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2705733",
+     "label": "1 cracker-size slice",
+     "grams": 9
+    },
+    {
+     "reference": "usda:2705733",
+     "label": "1 slice",
+     "grams": 21
+    },
+    {
+     "reference": "usda:2705733",
+     "label": "1 cup, diced",
+     "grams": 132
+    },
+    {
+     "reference": "usda:2705733",
+     "label": "1 cubic inch",
+     "grams": 17
+    }
+   ]
+  },
+  {
+   "key": "queso cotija",
+   "names": [
+    "queso cotija"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2705746",
+     "name": "Queso cotija"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2705746",
+     "label": "1 cup",
+     "grams": 100
+    },
+    {
+     "reference": "usda:2705746",
+     "label": "1 tablespoon",
+     "grams": 6.2
+    }
+   ]
+  },
+  {
+   "key": "beef dried chipped cooked in fat",
+   "names": [
+    "beef dried chipped cooked in fat"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2705859",
+     "name": "Beef, dried, chipped, cooked in fat"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2705859",
+     "label": "1 oz, cooked",
+     "grams": 28.35
+    },
+    {
+     "reference": "usda:2705859",
+     "label": "1 cup, diced",
+     "grams": 128
+    },
+    {
+     "reference": "usda:2705859",
+     "label": "1 oz, yield after cooking",
+     "grams": 27
+    }
+   ]
+  },
+  {
+   "key": "pork ribs",
+   "names": [
+    "pork ribs"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2705894",
+     "name": "Pork, ribs"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2705894",
+     "label": "1 rib (yield after cooking, bone removed)",
+     "grams": 35
+    },
+    {
+     "reference": "usda:2705894",
+     "label": "1 oz yields",
+     "grams": 20
+    },
+    {
+     "reference": "usda:2705894",
+     "label": "1 cup",
+     "grams": 135
+    }
+   ]
+  },
+  {
+   "key": "pork pig s feet",
+   "names": [
+    "pork pig s feet"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2705898",
+     "name": "Pork, pig's feet"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2705898",
+     "label": "1 item",
+     "grams": 85
+    },
+    {
+     "reference": "usda:2705898",
+     "label": "1 cup",
+     "grams": 80
+    }
+   ]
+  },
+  {
+   "key": "goat",
+   "names": [
+    "goat"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2705908",
+     "name": "Goat"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2705908",
+     "label": "1 cubic inch",
+     "grams": 17
+    },
+    {
+     "reference": "usda:2705908",
+     "label": "1 cup",
+     "grams": 135
+    }
+   ]
+  },
+  {
+   "key": "rabbit",
+   "names": [
+    "rabbit"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2705912",
+     "name": "Rabbit"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2705912",
+     "label": "1 cup",
+     "grams": 135
+    }
+   ]
+  },
+  {
+   "key": "chicken ns as to part fried coated skin coating eaten",
+   "names": [
+    "chicken ns as to part fried coated skin coating eaten"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2705949",
+     "name": "Chicken, NS as to part, fried, coated, skin / coating eaten"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2705949",
+     "label": "1 cup, cooked, diced",
+     "grams": 135
+    },
+    {
+     "reference": "usda:2705949",
+     "label": "1 piece",
+     "grams": 85
+    },
+    {
+     "reference": "usda:2705949",
+     "label": "1 slice",
+     "grams": 60
+    },
+    {
+     "reference": "usda:2705949",
+     "label": "1 oz, cooked",
+     "grams": 28.35
+    },
+    {
+     "reference": "usda:2705949",
+     "label": "1/2 chicken (yield after cooking, bone removed)",
+     "grams": 465
+    }
+   ]
+  },
+  {
+   "key": "chitterlings",
+   "names": [
+    "chitterlings"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2706163",
+     "name": "Chitterlings"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2706163",
+     "label": "1 cup",
+     "grams": 125
+    },
+    {
+     "reference": "usda:2706163",
+     "label": "1 oz yields",
+     "grams": 20
+    }
+   ]
+  },
+  {
+   "key": "gizzard",
+   "names": [
+    "gizzard"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2706165",
+     "name": "Gizzard"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2706165",
+     "label": "1 gizzard",
+     "grams": 22
+    },
+    {
+     "reference": "usda:2706165",
+     "label": "1 cup",
+     "grams": 145
+    },
+    {
+     "reference": "usda:2706165",
+     "label": "1 oz yields",
+     "grams": 20
+    }
+   ]
+  },
+  {
+   "key": "blood sausage",
+   "names": [
+    "blood sausage"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2706173",
+     "name": "Blood sausage"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2706173",
+     "label": "1 slice, round (2-1/4\" dia x 1/8\" thick)",
+     "grams": 8
+    },
+    {
+     "reference": "usda:2706173",
+     "label": "1 slice, loaf shape (5\" x 4-5/8\" x 1/16\")",
+     "grams": 25
+    },
+    {
+     "reference": "usda:2706173",
+     "label": "1 cubic inch",
+     "grams": 18
+    },
+    {
+     "reference": "usda:2706173",
+     "label": "1 cup, NFS",
+     "grams": 138
+    },
+    {
+     "reference": "usda:2706173",
+     "label": "1 slice, NFS",
+     "grams": 25
+    }
+   ]
+  },
+  {
+   "key": "pastrami nfs",
+   "names": [
+    "pastrami nfs"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2706183",
+     "name": "Pastrami, NFS"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2706183",
+     "label": "1 slice, NFS",
+     "grams": 28
+    },
+    {
+     "reference": "usda:2706183",
+     "label": "1 cup, pieces",
+     "grams": 140
+    }
+   ]
+  },
+  {
+   "key": "polish sausage",
+   "names": [
+    "polish sausage"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2706188",
+     "name": "Polish sausage"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2706188",
+     "label": "1 patty",
+     "grams": 35
+    },
+    {
+     "reference": "usda:2706188",
+     "label": "1 cocktail or miniature link",
+     "grams": 10
+    },
+    {
+     "reference": "usda:2706188",
+     "label": "1 breakfast size link",
+     "grams": 20
+    },
+    {
+     "reference": "usda:2706188",
+     "label": "1 bun-size or griller link",
+     "grams": 75
+    },
+    {
+     "reference": "usda:2706188",
+     "label": "1 sausage (10\" long x 1-1/4\" dia)",
+     "grams": 227
+    },
+    {
+     "reference": "usda:2706188",
+     "label": "1 slice",
+     "grams": 15
+    },
+    {
+     "reference": "usda:2706188",
+     "label": "1 piece",
+     "grams": 75
+    },
+    {
+     "reference": "usda:2706188",
+     "label": "1 cup, NFS",
+     "grams": 138
+    },
+    {
+     "reference": "usda:2706188",
+     "label": "1 oz, cooked",
+     "grams": 28.35
+    },
+    {
+     "reference": "usda:2706188",
+     "label": "1 cubic inch",
+     "grams": 21
+    }
+   ]
+  },
+  {
+   "key": "octopus",
+   "names": [
+    "octopus"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2706331",
+     "name": "Octopus"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2706331",
+     "label": "1 cup",
+     "grams": 135
+    }
+   ]
+  },
+  {
+   "key": "clams steamed or boiled",
+   "names": [
+    "clams steamed or boiled"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2706342",
+     "name": "Clams, steamed or boiled"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2706342",
+     "label": "1 clam",
+     "grams": 15
+    },
+    {
+     "reference": "usda:2706342",
+     "label": "1 cup",
+     "grams": 135
+    }
+   ]
+  },
+  {
+   "key": "lobster",
+   "names": [
+    "lobster"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2706349",
+     "name": "Lobster"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2706349",
+     "label": "1 lobster",
+     "grams": 200
+    },
+    {
+     "reference": "usda:2706349",
+     "label": "1 tail",
+     "grams": 100
+    },
+    {
+     "reference": "usda:2706349",
+     "label": "1 claw",
+     "grams": 50
+    },
+    {
+     "reference": "usda:2706349",
+     "label": "1 cup",
+     "grams": 135
+    }
+   ]
+  },
+  {
+   "key": "shrimp fried",
+   "names": [
+    "shrimp fried"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2706364",
+     "name": "Shrimp, fried"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2706364",
+     "label": "1 tiny shrimp",
+     "grams": 5
+    },
+    {
+     "reference": "usda:2706364",
+     "label": "1 small/medium shrimp",
+     "grams": 10
+    },
+    {
+     "reference": "usda:2706364",
+     "label": "1 large/jumbo shrimp",
+     "grams": 15
+    },
+    {
+     "reference": "usda:2706364",
+     "label": "1 prawn",
+     "grams": 20
+    },
+    {
+     "reference": "usda:2706364",
+     "label": "1 cup",
+     "grams": 135
+    }
+   ]
+  },
+  {
+   "key": "chili with meat",
+   "names": [
+    "chili with meat"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2706377",
+     "name": "Chili with meat"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2706377",
+     "label": "1 cup",
+     "grams": 255
+    }
+   ]
+  },
+  {
+   "key": "sausage gravy",
+   "names": [
+    "sausage gravy"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2706406",
+     "name": "Sausage gravy"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2706406",
+     "label": "1 cup",
+     "grams": 240
+    }
+   ]
+  },
+  {
+   "key": "meat loaf made with beef",
+   "names": [
+    "meat loaf made with beef"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2706499",
+     "name": "Meat loaf made with beef"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2706499",
+     "label": "1 small or thin slice",
+     "grams": 86
+    },
+    {
+     "reference": "usda:2706499",
+     "label": "1 medium slice",
+     "grams": 108
+    },
+    {
+     "reference": "usda:2706499",
+     "label": "1 large slice",
+     "grams": 144
+    },
+    {
+     "reference": "usda:2706499",
+     "label": "1 cocktail meatball",
+     "grams": 7
+    },
+    {
+     "reference": "usda:2706499",
+     "label": "1 small meatball",
+     "grams": 14
+    },
+    {
+     "reference": "usda:2706499",
+     "label": "1 medium meatball",
+     "grams": 28
+    },
+    {
+     "reference": "usda:2706499",
+     "label": "1 large meatball",
+     "grams": 42
+    },
+    {
+     "reference": "usda:2706499",
+     "label": "1 small patty",
+     "grams": 81
+    },
+    {
+     "reference": "usda:2706499",
+     "label": "1 medium patty",
+     "grams": 101
+    },
+    {
+     "reference": "usda:2706499",
+     "label": "1 large patty",
+     "grams": 134
+    },
+    {
+     "reference": "usda:2706499",
+     "label": "1 cup",
+     "grams": 140
+    },
+    {
+     "reference": "usda:2706499",
+     "label": "1 cubic inch",
+     "grams": 19
+    },
+    {
+     "reference": "usda:2706499",
+     "label": "1 oz",
+     "grams": 28.35
+    },
+    {
+     "reference": "usda:2706499",
+     "label": "1 oz, raw (yield after cooking)",
+     "grams": 22
+    }
+   ]
+  },
+  {
+   "key": "crab cake",
+   "names": [
+    "crab cake"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2706549",
+     "name": "Crab, cake"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2706549",
+     "label": "1 cake or patty",
+     "grams": 85
+    }
+   ]
+  },
+  {
+   "key": "fish salmon cake or patty",
+   "names": [
+    "fish salmon cake or patty"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2706552",
+     "name": "Fish, salmon cake or patty"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2706552",
+     "label": "1 ball",
+     "grams": 85
+    },
+    {
+     "reference": "usda:2706552",
+     "label": "1 cake or patty",
+     "grams": 85
+    },
+    {
+     "reference": "usda:2706552",
+     "label": "1 croquette",
+     "grams": 85
+    },
+    {
+     "reference": "usda:2706552",
+     "label": "1 cubic inch",
+     "grams": 17
+    }
+   ]
+  },
+  {
+   "key": "mole sauce",
+   "names": [
+    "mole sauce"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2707151",
+     "name": "Mole sauce"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2707151",
+     "label": "1 tablespoon",
+     "grams": 16
+    }
+   ]
+  },
+  {
+   "key": "split peas from dried no added fat",
+   "names": [
+    "split peas from dried no added fat"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2707420",
+     "name": "Split peas, from dried, no added fat"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2707420",
+     "label": "1 cup",
+     "grams": 180
+    },
+    {
+     "reference": "usda:2707420",
+     "label": "1 oz dry, yield after cooking",
+     "grams": 70
+    }
+   ]
+  },
+  {
+   "key": "muffin english",
+   "names": [
+    "muffin english"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2707698",
+     "name": "Muffin, English"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2707698",
+     "label": "1 muffin",
+     "grams": 58
+    },
+    {
+     "reference": "usda:2707698",
+     "label": "1 sandwich size muffin",
+     "grams": 92
+    },
+    {
+     "reference": "usda:2707698",
+     "label": "1 crumpet",
+     "grams": 45
+    }
+   ]
+  },
+  {
+   "key": "biscuit home recipe",
+   "names": [
+    "biscuit home recipe"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2707804",
+     "name": "Biscuit, home recipe"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2707804",
+     "label": "1 biscuit",
+     "grams": 45
+    },
+    {
+     "reference": "usda:2707804",
+     "label": "1 cubic inch",
+     "grams": 8.5
+    }
+   ]
+  },
+  {
+   "key": "cornbread made from home recipe",
+   "names": [
+    "cornbread made from home recipe"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2707811",
+     "name": "Cornbread, made from home recipe"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2707811",
+     "label": "1 surface inch",
+     "grams": 11
+    },
+    {
+     "reference": "usda:2707811",
+     "label": "1 cup, crumbled",
+     "grams": 89
+    },
+    {
+     "reference": "usda:2707811",
+     "label": "1 round cornbread (8\" pan)",
+     "grams": 627
+    },
+    {
+     "reference": "usda:2707811",
+     "label": "1 round cornbread (9\" pan)",
+     "grams": 621
+    },
+    {
+     "reference": "usda:2707811",
+     "label": "1 square cornbread (8\" pan)",
+     "grams": 646
+    },
+    {
+     "reference": "usda:2707811",
+     "label": "1 square cornbread (9\" pan)",
+     "grams": 634
+    },
+    {
+     "reference": "usda:2707811",
+     "label": "1 piece",
+     "grams": 65
+    }
+   ]
+  },
+  {
+   "key": "taco shell corn",
+   "names": [
+    "taco shell corn"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2707826",
+     "name": "Taco shell, corn"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2707826",
+     "label": "1 miniature",
+     "grams": 7
+    },
+    {
+     "reference": "usda:2707826",
+     "label": "1 small",
+     "grams": 18
+    },
+    {
+     "reference": "usda:2707826",
+     "label": "1 medium",
+     "grams": 28
+    }
+   ]
+  },
+  {
+   "key": "cookie brownie without icing",
+   "names": [
+    "cookie brownie without icing"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2707904",
+     "name": "Cookie, brownie, without icing"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2707904",
+     "label": "1 small or bite size",
+     "grams": 30
+    },
+    {
+     "reference": "usda:2707904",
+     "label": "1 medium",
+     "grams": 50
+    },
+    {
+     "reference": "usda:2707904",
+     "label": "1 large",
+     "grams": 90
+    }
+   ]
+  },
+  {
+   "key": "cookie butter or sugar",
+   "names": [
+    "cookie butter or sugar"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2707970",
+     "name": "Cookie, butter or sugar"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2707970",
+     "label": "1 miniature/bite size",
+     "grams": 5
+    },
+    {
+     "reference": "usda:2707970",
+     "label": "1 small",
+     "grams": 20
+    },
+    {
+     "reference": "usda:2707970",
+     "label": "1 medium",
+     "grams": 30
+    },
+    {
+     "reference": "usda:2707970",
+     "label": "1 large",
+     "grams": 45
+    },
+    {
+     "reference": "usda:2707970",
+     "label": "1 Lemon Cooler",
+     "grams": 6
+    },
+    {
+     "reference": "usda:2707970",
+     "label": "1 2-1/4\" dia (include Snickerdoodles)",
+     "grams": 10
+    },
+    {
+     "reference": "usda:2707970",
+     "label": "1 cup, crushed",
+     "grams": 85
+    }
+   ]
+  },
+  {
+   "key": "churros",
+   "names": [
+    "churros"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2708070",
+     "name": "Churros"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2708070",
+     "label": "1 regular",
+     "grams": 45
+    },
+    {
+     "reference": "usda:2708070",
+     "label": "1 miniature",
+     "grams": 15
+    }
+   ]
+  },
+  {
+   "key": "graham crackers",
+   "names": [
+    "graham crackers"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2708133",
+     "name": "Graham crackers"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2708133",
+     "label": "1 large rectangular piece or 2 squares or 4 small rectangular pieces",
+     "grams": 15
+    },
+    {
+     "reference": "usda:2708133",
+     "label": "1 miniature/bite size",
+     "grams": 3
+    },
+    {
+     "reference": "usda:2708133",
+     "label": "1 stick",
+     "grams": 3
+    },
+    {
+     "reference": "usda:2708133",
+     "label": "1 small or medium single serving bag",
+     "grams": 45
+    },
+    {
+     "reference": "usda:2708133",
+     "label": "1 large single serving bag",
+     "grams": 85
+    },
+    {
+     "reference": "usda:2708133",
+     "label": "1 100 calorie package",
+     "grams": 21
+    },
+    {
+     "reference": "usda:2708133",
+     "label": "1 cup, crushed",
+     "grams": 85
+    }
+   ]
+  },
+  {
+   "key": "pancakes plain",
+   "names": [
+    "pancakes plain"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2708304",
+     "name": "Pancakes, plain"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2708304",
+     "label": "1 miniature/bite size pancake",
+     "grams": 10
+    },
+    {
+     "reference": "usda:2708304",
+     "label": "1 silver dollar pancake",
+     "grams": 20
+    },
+    {
+     "reference": "usda:2708304",
+     "label": "1 small pancake",
+     "grams": 20
+    },
+    {
+     "reference": "usda:2708304",
+     "label": "1 medium pancake",
+     "grams": 50
+    },
+    {
+     "reference": "usda:2708304",
+     "label": "1 large pancake",
+     "grams": 90
+    },
+    {
+     "reference": "usda:2708304",
+     "label": "1 extra large pancake",
+     "grams": 150
+    },
+    {
+     "reference": "usda:2708304",
+     "label": "1 surface inch",
+     "grams": 1.9
+    }
+   ]
+  },
+  {
+   "key": "crepe plain",
+   "names": [
+    "crepe plain"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2708342",
+     "name": "Crepe, plain"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2708342",
+     "label": "1 crepe, any size",
+     "grams": 65
+    },
+    {
+     "reference": "usda:2708342",
+     "label": "1 surface inch",
+     "grams": 1.3
+    }
+   ]
+  },
+  {
+   "key": "idli",
+   "names": [
+    "idli"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2708346",
+     "name": "Idli"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2708346",
+     "label": "1 item",
+     "grams": 38
+    },
+    {
+     "reference": "usda:2708346",
+     "label": "1 surface inch",
+     "grams": 9.8
+    }
+   ]
+  },
+  {
+   "key": "dosa plain",
+   "names": [
+    "dosa plain"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2708347",
+     "name": "Dosa, plain"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2708347",
+     "label": "1 small",
+     "grams": 35
+    },
+    {
+     "reference": "usda:2708347",
+     "label": "1 medium",
+     "grams": 80
+    },
+    {
+     "reference": "usda:2708347",
+     "label": "1 large",
+     "grams": 155
+    },
+    {
+     "reference": "usda:2708347",
+     "label": "1 surface inch",
+     "grams": 1
+    }
+   ]
+  },
+  {
+   "key": "masa harina cooked",
+   "names": [
+    "masa harina cooked"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2708376",
+     "name": "Masa harina, cooked"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2708376",
+     "label": "1 cup, cooked",
+     "grams": 240
+    }
+   ]
+  },
+  {
+   "key": "tortellini meat filled no sauce",
+   "names": [
+    "tortellini meat filled no sauce"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2708790",
+     "name": "Tortellini, meat-filled, no sauce"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2708790",
+     "label": "1 cup",
+     "grams": 190
+    }
+   ]
+  },
+  {
+   "key": "cherries canned",
+   "names": [
+    "cherries canned"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2709232",
+     "name": "Cherries, canned"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2709232",
+     "label": "1 cherry",
+     "grams": 7
+    },
+    {
+     "reference": "usda:2709232",
+     "label": "1 cup",
+     "grams": 250
+    }
+   ]
+  },
+  {
+   "key": "tamarind",
+   "names": [
+    "tamarind"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2709269",
+     "name": "Tamarind"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2709269",
+     "label": "1 tamarind",
+     "grams": 2
+    }
+   ]
+  },
+  {
+   "key": "cress raw",
+   "names": [
+    "cress raw"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2709586",
+     "name": "Cress, raw"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2709586",
+     "label": "1 cup",
+     "grams": 50
+    },
+    {
+     "reference": "usda:2709586",
+     "label": "1 sprig",
+     "grams": 1
+    }
+   ]
+  },
+  {
+   "key": "kale fresh cooked no added fat",
+   "names": [
+    "kale fresh cooked no added fat"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2709600",
+     "name": "Kale, fresh, cooked, no added fat"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2709600",
+     "label": "1 cup",
+     "grams": 130
+    }
+   ]
+  },
+  {
+   "key": "bitter melon horseradish jute or radish leaves cooked",
+   "names": [
+    "bitter melon horseradish jute or radish leaves cooked"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2709641",
+     "name": "Bitter melon, horseradish, jute, or radish leaves, cooked"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2709641",
+     "label": "1 cup",
+     "grams": 128
+    }
+   ]
+  },
+  {
+   "key": "burdock cooked",
+   "names": [
+    "burdock cooked"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2709886",
+     "name": "Burdock, cooked"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2709886",
+     "label": "1 cup",
+     "grams": 130
+    }
+   ]
+  },
+  {
+   "key": "lotus root cooked",
+   "names": [
+    "lotus root cooked"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2709936",
+     "name": "Lotus root, cooked"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2709936",
+     "label": "1 cup",
+     "grams": 125
+    },
+    {
+     "reference": "usda:2709936",
+     "label": "1 slice",
+     "grams": 10
+    }
+   ]
+  },
+  {
+   "key": "soup cream of mushroom",
+   "names": [
+    "soup cream of mushroom"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2710107",
+     "name": "Soup, cream of mushroom"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2710107",
+     "label": "1 cup",
+     "grams": 255
+    },
+    {
+     "reference": "usda:2710107",
+     "label": "1 can",
+     "grams": 525
+    },
+    {
+     "reference": "usda:2710107",
+     "label": "1 individual container",
+     "grams": 440
+    }
+   ]
+  },
+  {
+   "key": "garlic sauce",
+   "names": [
+    "garlic sauce"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2710169",
+     "name": "Garlic sauce"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2710169",
+     "label": "1 tablespoon",
+     "grams": 16
+    },
+    {
+     "reference": "usda:2710169",
+     "label": "1 dipping-size container",
+     "grams": 28
+    }
+   ]
+  },
+  {
+   "key": "gelatin dessert",
+   "names": [
+    "gelatin dessert"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2710310",
+     "name": "Gelatin dessert"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2710310",
+     "label": "1 cup",
+     "grams": 240
+    },
+    {
+     "reference": "usda:2710310",
+     "label": "1 snack size container",
+     "grams": 95
+    },
+    {
+     "reference": "usda:2710310",
+     "label": "1 cubic inch",
+     "grams": 17
+    },
+    {
+     "reference": "usda:2710310",
+     "label": "1 jiggler",
+     "grams": 17
+    },
+    {
+     "reference": "usda:2710310",
+     "label": "1 package (3 oz) yields",
+     "grams": 540
+    }
+   ]
+  },
+  {
+   "key": "wine dessert sweet",
+   "names": [
+    "wine dessert sweet"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2710692",
+     "name": "Wine, dessert, sweet"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2710692",
+     "label": "1 fl oz",
+     "grams": 30
+    },
+    {
+     "reference": "usda:2710692",
+     "label": "1 glass",
+     "grams": 105
+    }
+   ]
+  },
+  {
+   "key": "rum",
+   "names": [
+    "rum"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2710703",
+     "name": "Rum"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2710703",
+     "label": "1 fl oz (no ice)",
+     "grams": 28
+    },
+    {
+     "reference": "usda:2710703",
+     "label": "1 shot",
+     "grams": 42
+    },
+    {
+     "reference": "usda:2710703",
+     "label": "1 jigger",
+     "grams": 42
+    },
+    {
+     "reference": "usda:2710703",
+     "label": "1 drink",
+     "grams": 63
+    }
+   ]
+  },
+  {
+   "key": "nutritional powder mix whey based nfs",
+   "names": [
+    "nutritional powder mix whey based nfs"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2710742",
+     "name": "Nutritional powder mix, whey based, NFS"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2710742",
+     "label": "1 scoop, NFS",
+     "grams": 26
+    },
+    {
+     "reference": "usda:2710742",
+     "label": "1 scoop Gold Standard",
+     "grams": 20.5
+    },
+    {
+     "reference": "usda:2710742",
+     "label": "1 scoop NOW Foods",
+     "grams": 32
+    },
+    {
+     "reference": "usda:2710742",
+     "label": "1 tablespoon",
+     "grams": 13
+    }
+   ]
+  }
+ ]
+}

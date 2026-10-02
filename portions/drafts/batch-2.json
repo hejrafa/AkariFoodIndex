@@ -1,0 +1,1051 @@
+{
+ "batch": 2,
+ "drafted": "2026-10-01",
+ "drafter": "Claude in the Akari Claude Code session",
+ "entries": [
+  {
+   "key": "egg yolk",
+   "unit": "egg",
+   "gramsPerUnit": 17,
+   "typical": 1,
+   "reason": "the yolk of a large egg"
+  },
+  {
+   "key": "whole milk",
+   "unit": "glass",
+   "milliliters": 250,
+   "typical": 1,
+   "reason": "a regular drinking glass"
+  },
+  {
+   "key": "skim milk",
+   "unit": "glass",
+   "milliliters": 250,
+   "typical": 1,
+   "reason": "a regular drinking glass"
+  },
+  {
+   "key": "heavy cream",
+   "unit": "tablespoon",
+   "gramsPerUnit": 15,
+   "typical": 2,
+   "reason": "two tablespoons of cream in a sauce or on dessert"
+  },
+  {
+   "key": "sour cream",
+   "unit": "tablespoon",
+   "gramsPerUnit": 15,
+   "typical": 2,
+   "reason": "two tablespoons of sour cream as a topping"
+  },
+  {
+   "key": "greek yoghurt",
+   "unit": "portion",
+   "gramsPerUnit": 150,
+   "typical": 1,
+   "reason": "a small bowl or single pot of Greek yoghurt"
+  },
+  {
+   "key": "cottage cheese",
+   "unit": "portion",
+   "gramsPerUnit": 150,
+   "typical": 1,
+   "reason": "a serving of cottage cheese, most of a 200 g tub"
+  },
+  {
+   "key": "spring onion",
+   "unit": "piece",
+   "gramsPerUnit": 15,
+   "typical": 1,
+   "reason": "a medium spring onion, trimmed"
+  },
+  {
+   "key": "garlic",
+   "unit": "piece",
+   "gramsPerUnit": 4,
+   "typical": 1,
+   "reason": "a medium garlic clove, peeled"
+  },
+  {
+   "key": "chives",
+   "unit": "tablespoon",
+   "gramsPerUnit": 3,
+   "typical": 1,
+   "reason": "a tablespoon of chopped chives"
+  },
+  {
+   "key": "leek",
+   "unit": "piece",
+   "gramsPerUnit": 180,
+   "typical": 0.5,
+   "reason": "a medium leek, trimmed"
+  },
+  {
+   "key": "white cabbage",
+   "unit": "portion",
+   "gramsPerUnit": 150,
+   "typical": 1,
+   "reason": "a vegetable side or slaw of white cabbage"
+  },
+  {
+   "key": "red cabbage",
+   "unit": "portion",
+   "gramsPerUnit": 150,
+   "typical": 1,
+   "reason": "braised red cabbage as a side",
+   "excludeReferences": [
+    "bls:G341100"
+   ]
+  },
+  {
+   "key": "napa cabbage",
+   "unit": "portion",
+   "gramsPerUnit": 150,
+   "typical": 1,
+   "reason": "a vegetable side of napa cabbage"
+  },
+  {
+   "key": "bok choy",
+   "unit": "portion",
+   "gramsPerUnit": 150,
+   "typical": 1,
+   "reason": "a vegetable side of bok choy, about two baby heads"
+  },
+  {
+   "key": "spinach",
+   "unit": "portion",
+   "gramsPerUnit": 100,
+   "typical": 1,
+   "reason": "fresh spinach for a side or a large salad"
+  },
+  {
+   "key": "kale",
+   "unit": "portion",
+   "gramsPerUnit": 100,
+   "typical": 1,
+   "reason": "fresh kale for a side or salad"
+  },
+  {
+   "key": "cauliflower",
+   "unit": "portion",
+   "gramsPerUnit": 150,
+   "typical": 1,
+   "reason": "a vegetable side of cauliflower florets"
+  },
+  {
+   "key": "green peas",
+   "unit": "portion",
+   "gramsPerUnit": 100,
+   "typical": 1,
+   "reason": "a vegetable side of peas"
+  },
+  {
+   "key": "green beans",
+   "unit": "portion",
+   "gramsPerUnit": 150,
+   "typical": 1,
+   "reason": "a vegetable side of green beans"
+  },
+  {
+   "key": "asparagus",
+   "unit": "portion",
+   "gramsPerUnit": 200,
+   "typical": 1,
+   "reason": "a side of asparagus spears; white asparagus as a main is more"
+  },
+  {
+   "key": "brussels sprouts",
+   "unit": "portion",
+   "gramsPerUnit": 150,
+   "typical": 1,
+   "reason": "a vegetable side of Brussels sprouts"
+  },
+  {
+   "key": "fennel",
+   "unit": "piece",
+   "gramsPerUnit": 250,
+   "typical": 0.5,
+   "reason": "a trimmed fennel bulb"
+  },
+  {
+   "key": "ginger",
+   "unit": "teaspoon",
+   "gramsPerUnit": 2,
+   "typical": 1,
+   "reason": "a teaspoon of grated fresh ginger"
+  },
+  {
+   "key": "basil",
+   "unit": "tablespoon",
+   "gramsPerUnit": 2.5,
+   "typical": 2,
+   "reason": "a tablespoon of chopped basil leaves"
+  },
+  {
+   "key": "parsley",
+   "unit": "tablespoon",
+   "gramsPerUnit": 4,
+   "typical": 1,
+   "reason": "a tablespoon of chopped parsley"
+  },
+  {
+   "key": "dill",
+   "unit": "tablespoon",
+   "gramsPerUnit": 2,
+   "typical": 1,
+   "reason": "a tablespoon of chopped dill"
+  },
+  {
+   "key": "thyme",
+   "unit": "teaspoon",
+   "gramsPerUnit": 0.8,
+   "typical": 1,
+   "reason": "a teaspoon of fresh thyme leaves"
+  },
+  {
+   "key": "rosemary",
+   "unit": "teaspoon",
+   "gramsPerUnit": 0.7,
+   "typical": 1,
+   "reason": "a teaspoon of chopped fresh rosemary"
+  },
+  {
+   "key": "bay leaf",
+   "skip": "removed before eating, not eaten on its own"
+  },
+  {
+   "key": "chili powder",
+   "unit": "teaspoon",
+   "gramsPerUnit": 2.5,
+   "typical": 0.25,
+   "reason": "a level teaspoon of chili powder; a seasoning is a pinch"
+  },
+  {
+   "key": "cinnamon",
+   "unit": "teaspoon",
+   "gramsPerUnit": 2.6,
+   "typical": 0.5,
+   "reason": "a level teaspoon of ground cinnamon"
+  },
+  {
+   "key": "nutmeg",
+   "unit": "teaspoon",
+   "gramsPerUnit": 2.2,
+   "typical": 0.25,
+   "reason": "a level teaspoon of ground nutmeg; a seasoning is a pinch"
+  },
+  {
+   "key": "cloves",
+   "unit": "teaspoon",
+   "gramsPerUnit": 2.1,
+   "typical": 0.25,
+   "reason": "a level teaspoon of ground cloves; a seasoning is a pinch"
+  },
+  {
+   "key": "cardamom",
+   "unit": "teaspoon",
+   "gramsPerUnit": 2,
+   "typical": 0.25,
+   "reason": "a level teaspoon of ground cardamom"
+  },
+  {
+   "key": "saffron",
+   "unit": "teaspoon",
+   "gramsPerUnit": 0.7,
+   "typical": 0.1,
+   "reason": "a teaspoon of saffron threads; a dish uses a pinch"
+  },
+  {
+   "key": "ground coriander",
+   "unit": "teaspoon",
+   "gramsPerUnit": 1.8,
+   "typical": 0.5,
+   "reason": "a level teaspoon of ground coriander"
+  },
+  {
+   "key": "ground ginger",
+   "unit": "teaspoon",
+   "gramsPerUnit": 1.8,
+   "typical": 0.5,
+   "reason": "a level teaspoon of ground ginger"
+  },
+  {
+   "key": "garlic powder",
+   "unit": "teaspoon",
+   "gramsPerUnit": 3,
+   "typical": 0.5,
+   "reason": "a level teaspoon of garlic powder"
+  },
+  {
+   "key": "baking powder",
+   "skip": "a leavening agent only used inside baked goods"
+  },
+  {
+   "key": "baking soda",
+   "skip": "a leavening agent only used inside baked goods"
+  },
+  {
+   "key": "olive oil",
+   "unit": "tablespoon",
+   "gramsPerUnit": 14,
+   "typical": 1,
+   "reason": "a tablespoon of oil"
+  },
+  {
+   "key": "sunflower oil",
+   "unit": "tablespoon",
+   "gramsPerUnit": 14,
+   "typical": 1,
+   "reason": "a tablespoon of oil"
+  },
+  {
+   "key": "rapeseed oil",
+   "unit": "tablespoon",
+   "gramsPerUnit": 14,
+   "typical": 1,
+   "reason": "a tablespoon of oil"
+  },
+  {
+   "key": "coconut oil",
+   "unit": "tablespoon",
+   "gramsPerUnit": 14,
+   "typical": 1,
+   "reason": "a tablespoon of oil"
+  },
+  {
+   "key": "mustard",
+   "unit": "tablespoon",
+   "gramsPerUnit": 15,
+   "typical": 1,
+   "reason": "a tablespoon of mustard with a sausage or in a dressing"
+  },
+  {
+   "key": "tahini",
+   "unit": "tablespoon",
+   "gramsPerUnit": 15,
+   "typical": 1,
+   "reason": "a tablespoon of tahini"
+  },
+  {
+   "key": "coconut milk",
+   "unit": "portion",
+   "gramsPerUnit": 100,
+   "typical": 1,
+   "reason": "a quarter of a 400 ml can, one person's share in a curry"
+  },
+  {
+   "key": "apple cider vinegar",
+   "unit": "tablespoon",
+   "gramsPerUnit": 15,
+   "typical": 1,
+   "reason": "a tablespoon of vinegar"
+  },
+  {
+   "key": "maple syrup",
+   "unit": "tablespoon",
+   "gramsPerUnit": 20,
+   "typical": 1,
+   "reason": "a tablespoon of maple syrup"
+  },
+  {
+   "key": "dark chocolate",
+   "unit": "piece",
+   "gramsPerUnit": 10,
+   "typical": 2,
+   "reason": "a square of a 100 g bar"
+  },
+  {
+   "key": "cocoa powder",
+   "unit": "teaspoon",
+   "gramsPerUnit": 2.5,
+   "typical": 2,
+   "reason": "two teaspoons of cocoa for a hot drink or porridge"
+  },
+  {
+   "key": "sesame seeds",
+   "unit": "tablespoon",
+   "gramsPerUnit": 9,
+   "typical": 1,
+   "reason": "a tablespoon of sesame seeds"
+  },
+  {
+   "key": "sunflower seeds",
+   "unit": "tablespoon",
+   "gramsPerUnit": 9,
+   "typical": 2,
+   "reason": "two tablespoons sprinkled over a salad or muesli"
+  },
+  {
+   "key": "pumpkin seeds",
+   "unit": "tablespoon",
+   "gramsPerUnit": 9,
+   "typical": 2,
+   "reason": "two tablespoons sprinkled over a salad or muesli"
+  },
+  {
+   "key": "flaxseed",
+   "unit": "tablespoon",
+   "gramsPerUnit": 7,
+   "typical": 1,
+   "reason": "a tablespoon of ground flaxseed"
+  },
+  {
+   "key": "coffee",
+   "unit": "cup",
+   "milliliters": 200,
+   "typical": 1,
+   "reason": "a regular coffee cup"
+  },
+  {
+   "key": "black tea",
+   "unit": "cup",
+   "milliliters": 250,
+   "typical": 1,
+   "reason": "a mug of tea"
+  },
+  {
+   "key": "green tea",
+   "unit": "cup",
+   "milliliters": 200,
+   "typical": 1,
+   "reason": "a teacup or small mug"
+  },
+  {
+   "key": "apple juice",
+   "unit": "glass",
+   "milliliters": 200,
+   "typical": 1,
+   "reason": "a juice glass"
+  },
+  {
+   "key": "pineapple juice",
+   "unit": "glass",
+   "milliliters": 200,
+   "typical": 1,
+   "reason": "a juice glass"
+  },
+  {
+   "key": "almond milk",
+   "unit": "glass",
+   "milliliters": 250,
+   "typical": 1,
+   "reason": "a regular drinking glass, as for milk"
+  },
+  {
+   "key": "rice flour",
+   "unit": "tablespoon",
+   "gramsPerUnit": 10,
+   "typical": 1,
+   "reason": "a level tablespoon of rice flour"
+  },
+  {
+   "key": "chicken ground",
+   "unit": "portion",
+   "gramsPerUnit": 100,
+   "typical": 1,
+   "reason": "cooked mince from about 125 g raw"
+  },
+  {
+   "key": "chicken deli meat",
+   "unit": "slice",
+   "gramsPerUnit": 20,
+   "typical": 2,
+   "reason": "a deli slice of chicken; German pre-packed slices are thinner"
+  },
+  {
+   "key": "almond butter",
+   "unit": "tablespoon",
+   "gramsPerUnit": 16,
+   "typical": 1,
+   "reason": "a tablespoon of almond butter"
+  },
+  {
+   "key": "rindfleisch",
+   "unit": "portion",
+   "gramsPerUnit": 150,
+   "typical": 1,
+   "reason": "raw beef for one person"
+  },
+  {
+   "key": "schweinefleisch",
+   "unit": "portion",
+   "gramsPerUnit": 150,
+   "typical": 1,
+   "reason": "raw pork for one person"
+  },
+  {
+   "key": "lammfleisch",
+   "unit": "portion",
+   "gramsPerUnit": 150,
+   "typical": 1,
+   "reason": "raw lamb for one person"
+  },
+  {
+   "key": "kalbfleisch",
+   "unit": "portion",
+   "gramsPerUnit": 150,
+   "typical": 1,
+   "reason": "raw veal for one person"
+  },
+  {
+   "key": "hahnchenfleisch",
+   "unit": "portion",
+   "gramsPerUnit": 150,
+   "typical": 1,
+   "reason": "raw chicken meat for one person"
+  },
+  {
+   "key": "hahnchen curry",
+   "unit": "portion",
+   "gramsPerUnit": 300,
+   "typical": 1,
+   "reason": "one plate of chicken curry without rice"
+  },
+  {
+   "key": "buchweizen",
+   "unit": "portion",
+   "gramsPerUnit": 60,
+   "typical": 1,
+   "reason": "dry buckwheat for one serving"
+  },
+  {
+   "key": "hirse",
+   "unit": "portion",
+   "gramsPerUnit": 60,
+   "typical": 1,
+   "reason": "dry millet for one serving"
+  },
+  {
+   "key": "grieß",
+   "unit": "portion",
+   "gramsPerUnit": 40,
+   "typical": 1,
+   "reason": "dry semolina for one bowl of semolina pudding"
+  },
+  {
+   "key": "rote linsen",
+   "unit": "portion",
+   "gramsPerUnit": 60,
+   "typical": 1,
+   "reason": "dry red lentils for one serving of dal"
+  },
+  {
+   "key": "sojagranulat",
+   "unit": "portion",
+   "gramsPerUnit": 35,
+   "typical": 1,
+   "reason": "dry soy mince that soaks up to about 100 g"
+  },
+  {
+   "key": "rote bete",
+   "unit": "piece",
+   "gramsPerUnit": 130,
+   "typical": 1,
+   "reason": "a medium beetroot, peeled"
+  },
+  {
+   "key": "rinderfilet",
+   "unit": "portion",
+   "gramsPerUnit": 180,
+   "typical": 1,
+   "reason": "raw fillet steak for one person"
+  },
+  {
+   "key": "rinderzunge",
+   "unit": "portion",
+   "gramsPerUnit": 125,
+   "typical": 1,
+   "reason": "raw beef tongue for one person"
+  },
+  {
+   "key": "rinderherz",
+   "unit": "portion",
+   "gramsPerUnit": 125,
+   "typical": 1,
+   "reason": "raw beef heart for one person"
+  },
+  {
+   "key": "rinderniere",
+   "unit": "portion",
+   "gramsPerUnit": 125,
+   "typical": 1,
+   "reason": "raw beef kidney for one person"
+  },
+  {
+   "key": "rinderschulter",
+   "unit": "portion",
+   "gramsPerUnit": 180,
+   "typical": 1,
+   "reason": "raw beef shoulder for braising for one person"
+  },
+  {
+   "key": "rinderbrust",
+   "unit": "portion",
+   "gramsPerUnit": 180,
+   "typical": 1,
+   "reason": "raw beef brisket for one person"
+  },
+  {
+   "key": "rinderrucken",
+   "unit": "portion",
+   "gramsPerUnit": 200,
+   "typical": 1,
+   "reason": "raw beef loin steak for one person"
+  },
+  {
+   "key": "rinderkeule",
+   "unit": "portion",
+   "gramsPerUnit": 180,
+   "typical": 1,
+   "reason": "raw beef round for one person"
+  },
+  {
+   "key": "rinderkotelett",
+   "unit": "piece",
+   "gramsPerUnit": 250,
+   "typical": 1,
+   "reason": "edible meat of a raw beef chop without the bone"
+  },
+  {
+   "key": "rinderhufte",
+   "unit": "portion",
+   "gramsPerUnit": 200,
+   "typical": 1,
+   "reason": "raw rump steak for one person"
+  },
+  {
+   "key": "schweineleber",
+   "unit": "portion",
+   "gramsPerUnit": 125,
+   "typical": 1,
+   "reason": "raw pork liver for one person"
+  },
+  {
+   "key": "schweinezunge",
+   "unit": "portion",
+   "gramsPerUnit": 125,
+   "typical": 1,
+   "reason": "raw pork tongue for one person"
+  },
+  {
+   "key": "schweineherz",
+   "unit": "portion",
+   "gramsPerUnit": 125,
+   "typical": 1,
+   "reason": "raw pork heart for one person"
+  },
+  {
+   "key": "schweineniere",
+   "unit": "portion",
+   "gramsPerUnit": 125,
+   "typical": 1,
+   "reason": "raw pork kidney for one person"
+  },
+  {
+   "key": "schweineschulter",
+   "unit": "portion",
+   "gramsPerUnit": 180,
+   "typical": 1,
+   "reason": "raw pork shoulder for one person"
+  },
+  {
+   "key": "schweinebrust",
+   "unit": "portion",
+   "gramsPerUnit": 180,
+   "typical": 1,
+   "reason": "raw pork breast for one person"
+  },
+  {
+   "key": "schweinerucken",
+   "unit": "portion",
+   "gramsPerUnit": 160,
+   "typical": 1,
+   "reason": "raw pork loin for one person"
+  },
+  {
+   "key": "schweinebauch",
+   "unit": "portion",
+   "gramsPerUnit": 150,
+   "typical": 1,
+   "reason": "raw pork belly for one person"
+  },
+  {
+   "key": "schweinekeule",
+   "unit": "portion",
+   "gramsPerUnit": 180,
+   "typical": 1,
+   "reason": "raw pork leg for one person"
+  },
+  {
+   "key": "schweinekotelett",
+   "unit": "piece",
+   "gramsPerUnit": 160,
+   "typical": 1,
+   "reason": "edible meat of a raw pork chop without the bone"
+  },
+  {
+   "key": "schweinehufte",
+   "unit": "portion",
+   "gramsPerUnit": 160,
+   "typical": 1,
+   "reason": "raw pork rump for one person"
+  },
+  {
+   "key": "kalbsfilet",
+   "unit": "portion",
+   "gramsPerUnit": 150,
+   "typical": 1,
+   "reason": "raw veal fillet for one person"
+  },
+  {
+   "key": "kalbsleber",
+   "unit": "portion",
+   "gramsPerUnit": 125,
+   "typical": 1,
+   "reason": "raw veal liver for one person"
+  },
+  {
+   "key": "kalbszunge",
+   "unit": "portion",
+   "gramsPerUnit": 125,
+   "typical": 1,
+   "reason": "raw veal tongue for one person"
+  },
+  {
+   "key": "kalbsherz",
+   "unit": "portion",
+   "gramsPerUnit": 125,
+   "typical": 1,
+   "reason": "raw veal heart for one person"
+  },
+  {
+   "key": "kalbsniere",
+   "unit": "portion",
+   "gramsPerUnit": 125,
+   "typical": 1,
+   "reason": "raw veal kidney for one person"
+  },
+  {
+   "key": "kalbsschulter",
+   "unit": "portion",
+   "gramsPerUnit": 180,
+   "typical": 1,
+   "reason": "raw veal shoulder for one person"
+  },
+  {
+   "key": "kalbsbrust",
+   "unit": "portion",
+   "gramsPerUnit": 180,
+   "typical": 1,
+   "reason": "raw veal breast for one person"
+  },
+  {
+   "key": "kalbsrucken",
+   "unit": "portion",
+   "gramsPerUnit": 160,
+   "typical": 1,
+   "reason": "raw veal loin for one person"
+  },
+  {
+   "key": "kalbskeule",
+   "unit": "portion",
+   "gramsPerUnit": 160,
+   "typical": 1,
+   "reason": "raw veal round, as for a schnitzel for one person"
+  },
+  {
+   "key": "kalbskotelett",
+   "unit": "piece",
+   "gramsPerUnit": 220,
+   "typical": 1,
+   "reason": "edible meat of a raw veal chop without the bone"
+  },
+  {
+   "key": "lammfilet",
+   "unit": "portion",
+   "gramsPerUnit": 150,
+   "typical": 1,
+   "reason": "raw lamb fillet for one person"
+  },
+  {
+   "key": "lammleber",
+   "unit": "portion",
+   "gramsPerUnit": 125,
+   "typical": 1,
+   "reason": "raw lamb liver for one person"
+  },
+  {
+   "key": "lammzunge",
+   "unit": "portion",
+   "gramsPerUnit": 125,
+   "typical": 1,
+   "reason": "raw lamb tongue for one person"
+  },
+  {
+   "key": "lammherz",
+   "unit": "portion",
+   "gramsPerUnit": 125,
+   "typical": 1,
+   "reason": "raw lamb heart for one person"
+  },
+  {
+   "key": "lammniere",
+   "unit": "portion",
+   "gramsPerUnit": 125,
+   "typical": 1,
+   "reason": "raw lamb kidney for one person"
+  },
+  {
+   "key": "lammschulter",
+   "unit": "portion",
+   "gramsPerUnit": 180,
+   "typical": 1,
+   "reason": "raw lamb shoulder for one person"
+  },
+  {
+   "key": "lammbrust",
+   "unit": "portion",
+   "gramsPerUnit": 180,
+   "typical": 1,
+   "reason": "raw lamb breast for one person"
+  },
+  {
+   "key": "lammrucken",
+   "unit": "portion",
+   "gramsPerUnit": 160,
+   "typical": 1,
+   "reason": "raw lamb loin for one person"
+  },
+  {
+   "key": "lammkeule",
+   "unit": "portion",
+   "gramsPerUnit": 250,
+   "typical": 1,
+   "reason": "raw leg of lamb for one person, weighed with bone as the row is"
+  },
+  {
+   "key": "lammkotelett",
+   "unit": "piece",
+   "gramsPerUnit": 60,
+   "typical": 3,
+   "reason": "edible meat of a raw lamb loin chop"
+  },
+  {
+   "key": "hahnchenleber",
+   "unit": "portion",
+   "gramsPerUnit": 125,
+   "typical": 1,
+   "reason": "raw chicken livers for one person"
+  },
+  {
+   "key": "hahnchenherz",
+   "unit": "portion",
+   "gramsPerUnit": 100,
+   "typical": 1,
+   "reason": "raw chicken hearts for one person"
+  },
+  {
+   "key": "putenkeule",
+   "unit": "portion",
+   "gramsPerUnit": 200,
+   "typical": 1,
+   "reason": "raw turkey leg meat for one person"
+  },
+  {
+   "key": "putenflugel",
+   "unit": "piece",
+   "gramsPerUnit": 250,
+   "typical": 1,
+   "reason": "edible meat and skin of a raw turkey wing"
+  },
+  {
+   "key": "entenkeule",
+   "unit": "piece",
+   "gramsPerUnit": 200,
+   "typical": 1,
+   "reason": "edible meat and skin of a raw duck leg"
+  },
+  {
+   "key": "entenleber",
+   "unit": "portion",
+   "gramsPerUnit": 100,
+   "typical": 1,
+   "reason": "raw duck liver for one person"
+  },
+  {
+   "key": "gansekeule",
+   "unit": "piece",
+   "gramsPerUnit": 300,
+   "typical": 1,
+   "reason": "edible meat and skin of a raw goose leg"
+  },
+  {
+   "key": "ganseleber",
+   "unit": "portion",
+   "gramsPerUnit": 100,
+   "typical": 1,
+   "reason": "raw goose liver for one person"
+  },
+  {
+   "key": "traubensaft",
+   "unit": "glass",
+   "milliliters": 200,
+   "typical": 1,
+   "reason": "a juice glass"
+  },
+  {
+   "key": "grapefruitsaft",
+   "unit": "glass",
+   "milliliters": 200,
+   "typical": 1,
+   "reason": "a juice glass"
+  },
+  {
+   "key": "weißer pfeffer",
+   "unit": "teaspoon",
+   "gramsPerUnit": 2.4,
+   "typical": 0.25,
+   "reason": "a level teaspoon of ground white pepper; a seasoning is a pinch"
+  },
+  {
+   "key": "fenchelsamen",
+   "unit": "teaspoon",
+   "gramsPerUnit": 2,
+   "typical": 0.5,
+   "reason": "a level teaspoon of fennel seeds"
+  },
+  {
+   "key": "majoran",
+   "unit": "teaspoon",
+   "gramsPerUnit": 0.6,
+   "typical": 0.5,
+   "reason": "a level teaspoon of dried marjoram"
+  },
+  {
+   "key": "cooked egg noodles",
+   "unit": "portion",
+   "gramsPerUnit": 220,
+   "typical": 1,
+   "reason": "about 85 g dry egg pasta, boiled"
+  },
+  {
+   "key": "cooked fresh egg pasta",
+   "unit": "portion",
+   "gramsPerUnit": 220,
+   "typical": 1,
+   "reason": "a plate of boiled fresh pasta or spaetzle"
+  },
+  {
+   "key": "cooked ramen noodles",
+   "unit": "portion",
+   "gramsPerUnit": 230,
+   "typical": 1,
+   "reason": "one serving of fresh ramen noodles, boiled"
+  },
+  {
+   "key": "sushi rice",
+   "unit": "portion",
+   "gramsPerUnit": 160,
+   "typical": 1,
+   "reason": "seasoned rice for a sushi meal or poke bowl"
+  },
+  {
+   "key": "cooked sticky rice",
+   "unit": "portion",
+   "gramsPerUnit": 180,
+   "typical": 1,
+   "reason": "cooked sticky rice as a side"
+  },
+  {
+   "key": "boiled potatoes in their skins",
+   "unit": "piece",
+   "gramsPerUnit": 80,
+   "typical": 3,
+   "reason": "a small to medium potato boiled in its skin"
+  },
+  {
+   "key": "baked potato",
+   "unit": "piece",
+   "gramsPerUnit": 250,
+   "typical": 1,
+   "reason": "a medium baked potato with skin"
+  },
+  {
+   "key": "mashed potatoes",
+   "unit": "portion",
+   "gramsPerUnit": 200,
+   "typical": 1,
+   "reason": "mashed potatoes as a side"
+  },
+  {
+   "key": "french fries",
+   "unit": "portion",
+   "gramsPerUnit": 150,
+   "typical": 1,
+   "reason": "a medium portion of fries"
+  },
+  {
+   "key": "roast potatoes",
+   "unit": "portion",
+   "gramsPerUnit": 200,
+   "typical": 1,
+   "reason": "roast potatoes as a side"
+  },
+  {
+   "key": "fried potatoes",
+   "unit": "portion",
+   "gramsPerUnit": 200,
+   "typical": 1,
+   "reason": "fried potatoes as a side"
+  },
+  {
+   "key": "hash browns",
+   "unit": "piece",
+   "gramsPerUnit": 70,
+   "typical": 2,
+   "reason": "a hash brown or small rosti patty"
+  },
+  {
+   "key": "potato dumplings",
+   "unit": "piece",
+   "gramsPerUnit": 90,
+   "typical": 2,
+   "reason": "a potato dumpling"
+  },
+  {
+   "key": "cooked gnocchi",
+   "unit": "portion",
+   "gramsPerUnit": 200,
+   "typical": 1,
+   "reason": "a plate of boiled gnocchi, half a 400 g pack"
+  },
+  {
+   "key": "cooked bulgur",
+   "unit": "portion",
+   "gramsPerUnit": 180,
+   "typical": 1,
+   "reason": "cooked bulgur as a side, from about 65 g dry"
+  },
+  {
+   "key": "cooked quinoa",
+   "unit": "portion",
+   "gramsPerUnit": 180,
+   "typical": 1,
+   "reason": "cooked quinoa as a side, from about 65 g dry"
+  },
+  {
+   "key": "polenta",
+   "unit": "portion",
+   "gramsPerUnit": 200,
+   "typical": 1,
+   "reason": "soft polenta as a side"
+  },
+  {
+   "key": "pinto beans",
+   "unit": "portion",
+   "gramsPerUnit": 125,
+   "typical": 1,
+   "reason": "half a drained 400 g can of pinto beans"
+  }
+ ]
+}

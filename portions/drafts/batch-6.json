@@ -1,0 +1,885 @@
+{
+ "batch": 6,
+ "drafted": "2026-10-01",
+ "drafter": "Claude in the Akari Claude Code session",
+ "entries": [
+  {
+   "key": "berlin knacker sausage raw small firm",
+   "unit": "piece",
+   "typical": 2,
+   "gramsPerUnit": 50,
+   "reason": "one small Knacker sausage"
+  },
+  {
+   "key": "bockwurst",
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 100,
+   "reason": "one standard Bockwurst"
+  },
+  {
+   "key": "rostbratwurst sausage fried without fat pan",
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 90,
+   "reason": "one Thuringian-style fried sausage"
+  },
+  {
+   "key": "bavarian white sausage poached",
+   "unit": "piece",
+   "typical": 2,
+   "gramsPerUnit": 75,
+   "reason": "one Weißwurst"
+  },
+  {
+   "key": "lyon sausage",
+   "unit": "slice",
+   "typical": 3,
+   "gramsPerUnit": 12,
+   "reason": "one cold-cut slice"
+  },
+  {
+   "key": "bologna",
+   "unit": "slice",
+   "typical": 2,
+   "gramsPerUnit": 25,
+   "reason": "one cold-cut slice"
+  },
+  {
+   "key": "bologna boiled",
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 100,
+   "reason": "a 100 g chunk of heated Fleischwurst"
+  },
+  {
+   "key": "bologna fried without fat pan",
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 100,
+   "reason": "fried slices for one"
+  },
+  {
+   "key": "luncheon meat",
+   "unit": "slice",
+   "typical": 2,
+   "gramsPerUnit": 25,
+   "reason": "one slice from the tin"
+  },
+  {
+   "key": "mettwurst sausage cooked",
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 100,
+   "reason": "one cooking Mettwurst, as with kale"
+  },
+  {
+   "key": "bremer pinkel pork sausage with oat groats",
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 100,
+   "reason": "one Pinkel sausage served with kale"
+  },
+  {
+   "key": "liver pate",
+   "unit": "slice",
+   "typical": 2,
+   "gramsPerUnit": 20,
+   "reason": "one slice on bread"
+  },
+  {
+   "key": "pork loin lean rolled raw cured smoked",
+   "unit": "slice",
+   "typical": 3,
+   "gramsPerUnit": 10,
+   "reason": "one thin cold-cut slice"
+  },
+  {
+   "key": "pork neck cooked cured smoked",
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 150,
+   "reason": "a thick Kasseler slice as a main"
+  },
+  {
+   "key": "pork loin spare ribs cooked cured smoked",
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 150,
+   "reason": "Kasseler for one as a main"
+  },
+  {
+   "key": "pork loin chop raw cured smoked boiled",
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 150,
+   "reason": "one Kasseler chop"
+  },
+  {
+   "key": "corned beef",
+   "unit": "slice",
+   "typical": 2,
+   "gramsPerUnit": 25,
+   "reason": "one slice of tinned corned beef"
+  },
+  {
+   "key": "corned beef boiled",
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 150,
+   "reason": "a main course serving of boiled corned beef"
+  },
+  {
+   "key": "potato salad with mayonnaise",
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 200,
+   "reason": "a common side serving"
+  },
+  {
+   "key": "basic sauce white",
+   "unit": "tablespoon",
+   "typical": 4,
+   "gramsPerUnit": 15,
+   "reason": "a ladle of sauce over vegetables"
+  },
+  {
+   "key": "mustard sauce from white basic sauce",
+   "unit": "tablespoon",
+   "typical": 4,
+   "gramsPerUnit": 15,
+   "reason": "a ladle of sauce with eggs or fish"
+  },
+  {
+   "key": "chocolate sauce",
+   "unit": "tablespoon",
+   "typical": 2,
+   "gramsPerUnit": 20,
+   "reason": "a tablespoon over dessert"
+  },
+  {
+   "key": "veal stock",
+   "skip": "a stock used inside soups and sauces, like dashi"
+  },
+  {
+   "key": "liver spaetzle",
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 80,
+   "reason": "a soup garnish serving"
+  },
+  {
+   "key": "small liver dumplings",
+   "unit": "piece",
+   "typical": 5,
+   "gramsPerUnit": 15,
+   "reason": "one small dumpling; a few per bowl of soup"
+  },
+  {
+   "key": "small marrow dumplings",
+   "unit": "piece",
+   "typical": 5,
+   "gramsPerUnit": 10,
+   "reason": "one small dumpling; a few per bowl of soup"
+  },
+  {
+   "key": "liver dumpling as soup garnish",
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 80,
+   "reason": "one dumpling in a bowl of soup"
+  },
+  {
+   "key": "sauerkraut stewed",
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 150,
+   "reason": "a common sauerkraut side"
+  },
+  {
+   "key": "cucumbers braised",
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 150,
+   "reason": "a common vegetable side"
+  },
+  {
+   "key": "potato dough from boiled potatoes raw",
+   "skip": "a raw dough; the cooked dumplings are what gets logged"
+  },
+  {
+   "key": "rice pudding sweetened with milk 3 5 fat",
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 200,
+   "reason": "a bowl of rice pudding"
+  },
+  {
+   "key": "liver sausages heated",
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 100,
+   "reason": "one hot liver sausage, as on a Schlachtplatte"
+  },
+  {
+   "key": "blood sausages heated",
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 100,
+   "reason": "one hot blood sausage, as on a Schlachtplatte"
+  },
+  {
+   "key": "bolognese sauce with beef mince",
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 150,
+   "reason": "a ladle of sauce over pasta"
+  },
+  {
+   "key": "beef boiled",
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 150,
+   "reason": "a main course meat serving"
+  },
+  {
+   "key": "ox tail braised with fat and salt",
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 200,
+   "reason": "a main course serving of braised oxtail"
+  },
+  {
+   "key": "veal schnitzel floured fried",
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 130,
+   "reason": "one schnitzel"
+  },
+  {
+   "key": "pork foreshank hock eisbein cured boiled",
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 350,
+   "reason": "meat, fat and rind of one Eisbein"
+  },
+  {
+   "key": "shashlik with pork grilled",
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 150,
+   "reason": "one skewer with meat and vegetables"
+  },
+  {
+   "key": "pork belly boiled",
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 150,
+   "reason": "a main course serving of Wellfleisch"
+  },
+  {
+   "key": "herb butter",
+   "unit": "tablespoon",
+   "typical": 1,
+   "gramsPerUnit": 14,
+   "reason": "a tablespoon or slice on steak or bread"
+  },
+  {
+   "key": "lingonberry compote",
+   "unit": "tablespoon",
+   "typical": 2,
+   "gramsPerUnit": 20,
+   "reason": "a spoonful beside schnitzel or game"
+  },
+  {
+   "key": "sour cherry compote",
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 125,
+   "reason": "a dessert serving of compote"
+  },
+  {
+   "key": "red fruit jelly",
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 150,
+   "reason": "a dessert bowl"
+  },
+  {
+   "key": "almond brittle",
+   "unit": "piece",
+   "typical": 3,
+   "gramsPerUnit": 10,
+   "reason": "one small piece of brittle"
+  },
+  {
+   "key": "strawberry ice cream",
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 100,
+   "reason": "two scoops in a bowl"
+  },
+  {
+   "key": "hazelnut ice cream with egg",
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 100,
+   "reason": "two scoops in a bowl"
+  },
+  {
+   "key": "tapioca raw",
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 40,
+   "reason": "dry pearls for one pudding serving"
+  },
+  {
+   "key": "pastry shortcrust uncooked homemade",
+   "skip": "a raw dough; the baked tart or pie is what gets logged"
+  },
+  {
+   "key": "waffles homemade",
+   "unit": "piece",
+   "typical": 2,
+   "gramsPerUnit": 70,
+   "reason": "one round homemade waffle"
+  },
+  {
+   "key": "yorkshire pudding made with whole milk",
+   "unit": "piece",
+   "typical": 2,
+   "gramsPerUnit": 35,
+   "reason": "one individual Yorkshire pudding"
+  },
+  {
+   "key": "semolina raw",
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 40,
+   "reason": "dry semolina for one bowl of porridge"
+  },
+  {
+   "key": "sambar homemade",
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 180,
+   "reason": "a bowl served with rice or idli"
+  },
+  {
+   "key": "pudding rice homemade with whole milk",
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 200,
+   "reason": "a bowl of rice pudding"
+  },
+  {
+   "key": "black gram urad gram whole dried boiled in unsalted water",
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 150,
+   "reason": "a side of cooked dal"
+  },
+  {
+   "key": "endive raw",
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 60,
+   "reason": "a side salad of leaves"
+  },
+  {
+   "key": "papaya unripe green flesh raw",
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 100,
+   "reason": "shredded green papaya for one salad"
+  },
+  {
+   "key": "taro boiled in unsalted water",
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 150,
+   "reason": "a starchy side serving"
+  },
+  {
+   "key": "beans broad whole boiled in unsalted water",
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 120,
+   "reason": "a vegetable side"
+  },
+  {
+   "key": "currants",
+   "unit": "tablespoon",
+   "typical": 2,
+   "gramsPerUnit": 10,
+   "reason": "a tablespoon of dried currants"
+  },
+  {
+   "key": "bass sea flesh only raw",
+   "unit": "piece",
+   "typical": 2,
+   "gramsPerUnit": 100,
+   "reason": "one sea bass fillet; two make one fish"
+  },
+  {
+   "key": "haddock flesh only smoked poached",
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 150,
+   "reason": "one smoked haddock fillet"
+  },
+  {
+   "key": "suet shredded",
+   "skip": "a baking and dumpling ingredient, not eaten on its own"
+  },
+  {
+   "key": "lamb leg half fillet braised lean and fat",
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 150,
+   "reason": "a main course meat serving"
+  },
+  {
+   "key": "kidney ox stewed",
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 120,
+   "reason": "a main course offal serving"
+  },
+  {
+   "key": "duck crispy chinese style meat and skin",
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 125,
+   "reason": "a quarter crispy duck, meat and skin"
+  },
+  {
+   "key": "pork diced kebabs grilled lean and fat",
+   "unit": "piece",
+   "typical": 2,
+   "gramsPerUnit": 80,
+   "reason": "meat of one kebab skewer"
+  },
+  {
+   "key": "pork shoulder chops collar braised lean and fat",
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 150,
+   "reason": "one chop, meat without bone"
+  },
+  {
+   "key": "liver sausage",
+   "unit": "slice",
+   "typical": 2,
+   "gramsPerUnit": 15,
+   "reason": "one slice on bread"
+  },
+  {
+   "key": "black pudding dry fried",
+   "unit": "slice",
+   "typical": 2,
+   "gramsPerUnit": 30,
+   "reason": "one slice, as in a cooked breakfast"
+  },
+  {
+   "key": "haggis boiled",
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 150,
+   "reason": "a main course serving with neeps and tatties"
+  },
+  {
+   "key": "pork spare ribs barbecue style homemade",
+   "unit": "piece",
+   "typical": 6,
+   "gramsPerUnit": 40,
+   "reason": "one rib, meat and sauce without bone"
+  },
+  {
+   "key": "aburaage fried tofu blanched",
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 20,
+   "reason": "one sheet of fried tofu"
+  },
+  {
+   "key": "mung bean sprouts cooked",
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 80,
+   "reason": "a vegetable side"
+  },
+  {
+   "key": "rice milk",
+   "unit": "glass",
+   "typical": 1,
+   "milliliters": 250,
+   "reason": "a regular drinking glass"
+  },
+  {
+   "key": "yogurt whole milk plain",
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 150,
+   "reason": "a standard yogurt pot"
+  },
+  {
+   "key": "dulce de leche",
+   "unit": "tablespoon",
+   "typical": 1,
+   "gramsPerUnit": 19,
+   "reason": "one tablespoon (a cup is 300 g)"
+  },
+  {
+   "key": "cheese provolone",
+   "unit": "slice",
+   "typical": 2,
+   "gramsPerUnit": 21,
+   "reason": "a regular cheese slice"
+  },
+  {
+   "key": "queso cotija",
+   "unit": "tablespoon",
+   "typical": 2,
+   "gramsPerUnit": 6.2,
+   "reason": "crumbled cheese sprinkled on a dish"
+  },
+  {
+   "key": "beef dried chipped cooked in fat",
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 60,
+   "reason": "about 2 oz, as in creamed chipped beef"
+  },
+  {
+   "key": "pork ribs",
+   "unit": "piece",
+   "typical": 6,
+   "gramsPerUnit": 35,
+   "reason": "one rib, meat without bone"
+  },
+  {
+   "key": "pork pig s feet",
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 85,
+   "reason": "edible part of one pig’s foot"
+  },
+  {
+   "key": "goat",
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 150,
+   "reason": "a main course meat serving"
+  },
+  {
+   "key": "rabbit",
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 150,
+   "reason": "meat for one, without bone"
+  },
+  {
+   "key": "chicken ns as to part fried coated skin coating eaten",
+   "unit": "piece",
+   "typical": 2,
+   "gramsPerUnit": 85,
+   "reason": "one fried chicken piece, without bone"
+  },
+  {
+   "key": "chitterlings",
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 125,
+   "reason": "about a cup as a main"
+  },
+  {
+   "key": "gizzard",
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 100,
+   "reason": "a plate of about five gizzards"
+  },
+  {
+   "key": "blood sausage",
+   "unit": "slice",
+   "typical": 2,
+   "gramsPerUnit": 25,
+   "reason": "one regular slice"
+  },
+  {
+   "key": "pastrami nfs",
+   "unit": "slice",
+   "typical": 3,
+   "gramsPerUnit": 28,
+   "reason": "deli slices for one sandwich"
+  },
+  {
+   "key": "polish sausage",
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 75,
+   "reason": "one bun-size link"
+  },
+  {
+   "key": "octopus",
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 120,
+   "reason": "a main course seafood serving"
+  },
+  {
+   "key": "clams steamed or boiled",
+   "unit": "piece",
+   "typical": 8,
+   "gramsPerUnit": 15,
+   "reason": "one clam; a plate of steamed clams"
+  },
+  {
+   "key": "lobster",
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 150,
+   "reason": "meat of one whole lobster"
+  },
+  {
+   "key": "shrimp fried",
+   "unit": "piece",
+   "typical": 10,
+   "gramsPerUnit": 12,
+   "reason": "one medium fried shrimp"
+  },
+  {
+   "key": "chili with meat",
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 250,
+   "reason": "a bowl, about one cup"
+  },
+  {
+   "key": "sausage gravy",
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 125,
+   "reason": "about half a cup over biscuits"
+  },
+  {
+   "key": "meat loaf made with beef",
+   "unit": "slice",
+   "typical": 1,
+   "gramsPerUnit": 110,
+   "reason": "one medium slice"
+  },
+  {
+   "key": "crab cake",
+   "unit": "piece",
+   "typical": 2,
+   "gramsPerUnit": 85,
+   "reason": "one crab cake; two as a main"
+  },
+  {
+   "key": "fish salmon cake or patty",
+   "unit": "piece",
+   "typical": 2,
+   "gramsPerUnit": 85,
+   "reason": "one salmon patty; two as a main"
+  },
+  {
+   "key": "mole sauce",
+   "unit": "tablespoon",
+   "typical": 4,
+   "gramsPerUnit": 16,
+   "reason": "sauce poured over one plate"
+  },
+  {
+   "key": "split peas from dried no added fat",
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 150,
+   "reason": "a side of cooked split peas"
+  },
+  {
+   "key": "muffin english",
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 58,
+   "reason": "one English muffin"
+  },
+  {
+   "key": "biscuit home recipe",
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 50,
+   "reason": "one homemade biscuit"
+  },
+  {
+   "key": "cornbread made from home recipe",
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 65,
+   "reason": "one square piece"
+  },
+  {
+   "key": "taco shell corn",
+   "unit": "piece",
+   "typical": 3,
+   "gramsPerUnit": 12,
+   "reason": "one standard hard taco shell"
+  },
+  {
+   "key": "cookie brownie without icing",
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 50,
+   "reason": "one medium brownie"
+  },
+  {
+   "key": "cookie butter or sugar",
+   "unit": "cookie",
+   "typical": 2,
+   "gramsPerUnit": 20,
+   "reason": "one ordinary butter or sugar cookie"
+  },
+  {
+   "key": "churros",
+   "unit": "piece",
+   "typical": 3,
+   "gramsPerUnit": 45,
+   "reason": "one regular churro"
+  },
+  {
+   "key": "graham crackers",
+   "unit": "cookie",
+   "typical": 2,
+   "gramsPerUnit": 15,
+   "reason": "one full cracker sheet (two squares)"
+  },
+  {
+   "key": "pancakes plain",
+   "unit": "piece",
+   "typical": 3,
+   "gramsPerUnit": 50,
+   "reason": "one medium pancake; a stack of three"
+  },
+  {
+   "key": "crepe plain",
+   "unit": "piece",
+   "typical": 2,
+   "gramsPerUnit": 60,
+   "reason": "one plain crepe"
+  },
+  {
+   "key": "idli",
+   "unit": "piece",
+   "typical": 3,
+   "gramsPerUnit": 38,
+   "reason": "one idli"
+  },
+  {
+   "key": "dosa plain",
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 80,
+   "reason": "one medium dosa"
+  },
+  {
+   "key": "masa harina cooked",
+   "skip": "a dough base used inside tamales and tortillas, not logged on its own"
+  },
+  {
+   "key": "tortellini meat filled no sauce",
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 200,
+   "reason": "a main course serving, about one cup"
+  },
+  {
+   "key": "cherries canned",
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 125,
+   "reason": "about half a cup as dessert"
+  },
+  {
+   "key": "tamarind",
+   "unit": "piece",
+   "typical": 5,
+   "gramsPerUnit": 3,
+   "reason": "pulp of one small pod"
+  },
+  {
+   "key": "cress raw",
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 20,
+   "reason": "a handful on bread or salad"
+  },
+  {
+   "key": "kale fresh cooked no added fat",
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 130,
+   "reason": "a vegetable side, about one cup"
+  },
+  {
+   "key": "bitter melon horseradish jute or radish leaves cooked",
+   "skip": "a mixed category of four different vegetables, not one food"
+  },
+  {
+   "key": "burdock cooked",
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 80,
+   "reason": "a small side as in kinpira"
+  },
+  {
+   "key": "lotus root cooked",
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 80,
+   "reason": "a small vegetable side"
+  },
+  {
+   "key": "soup cream of mushroom",
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 250,
+   "reason": "a bowl of soup"
+  },
+  {
+   "key": "garlic sauce",
+   "unit": "tablespoon",
+   "typical": 2,
+   "gramsPerUnit": 16,
+   "reason": "a dip or kebab serving"
+  },
+  {
+   "key": "gelatin dessert",
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 120,
+   "reason": "about half a cup"
+  },
+  {
+   "key": "wine dessert sweet",
+   "unit": "glass",
+   "typical": 1,
+   "milliliters": 100,
+   "reason": "a dessert wine glass"
+  },
+  {
+   "key": "rum",
+   "unit": "glass",
+   "typical": 1,
+   "milliliters": 40,
+   "reason": "a 4 cl shot"
+  },
+  {
+   "key": "nutritional powder mix whey based nfs",
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 30,
+   "reason": "one scoop of powder"
+  }
+ ]
+}

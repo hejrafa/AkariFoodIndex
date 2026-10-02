@@ -1,0 +1,977 @@
+{
+ "batch": 20,
+ "candidates": [
+  {
+   "key": "mexican pizza",
+   "en": "Mexican pizza",
+   "sourceName": "Mexican pizza",
+   "tableRow": "usda:2708507",
+   "hint": {
+    "kcalPer100g": 249,
+    "proteinShare": 0.25,
+    "fatShare": 0.5,
+    "carbsShare": 0.25
+   }
+  },
+  {
+   "key": "taco or tostada salad",
+   "en": "Taco or tostada salad",
+   "sourceName": "Taco or tostada salad, meatless",
+   "tableRow": "usda:2708510",
+   "hint": {
+    "kcalPer100g": 163,
+    "proteinShare": 0.13,
+    "fatShare": 0.4,
+    "carbsShare": 0.47
+   }
+  },
+  {
+   "key": "taco",
+   "en": "Taco",
+   "sourceName": "Taco, NFS",
+   "tableRow": "usda:2708514",
+   "hint": {
+    "kcalPer100g": 246,
+    "proteinShare": 0.25,
+    "fatShare": 0.5,
+    "carbsShare": 0.25
+   }
+  },
+  {
+   "key": "burrito",
+   "en": "Burrito",
+   "sourceName": "Burrito, NFS",
+   "tableRow": "usda:2708534",
+   "hint": {
+    "kcalPer100g": 219,
+    "proteinShare": 0.2,
+    "fatShare": 0.35,
+    "carbsShare": 0.44
+   }
+  },
+  {
+   "key": "enchilada",
+   "en": "Enchilada",
+   "sourceName": "Enchilada, NFS",
+   "tableRow": "usda:2708565",
+   "hint": {
+    "kcalPer100g": 178,
+    "proteinShare": 0.22,
+    "fatShare": 0.45,
+    "carbsShare": 0.33
+   }
+  },
+  {
+   "key": "tamale casserole with meat",
+   "en": "Tamale casserole with meat",
+   "sourceName": "Tamale casserole with meat",
+   "tableRow": "usda:2708575",
+   "hint": {
+    "kcalPer100g": 174,
+    "proteinShare": 0.17,
+    "fatShare": 0.47,
+    "carbsShare": 0.36
+   }
+  },
+  {
+   "key": "nachos",
+   "en": "Nachos",
+   "sourceName": "Nachos, NFS",
+   "tableRow": "usda:2708576",
+   "hint": {
+    "kcalPer100g": 265,
+    "proteinShare": 0.11,
+    "fatShare": 0.53,
+    "carbsShare": 0.36
+   }
+  },
+  {
+   "key": "quesadilla",
+   "en": "Quesadilla",
+   "sourceName": "Quesadilla, NFS",
+   "tableRow": "usda:2708590",
+   "hint": {
+    "kcalPer100g": 316,
+    "proteinShare": 0.17,
+    "fatShare": 0.46,
+    "carbsShare": 0.36
+   }
+  },
+  {
+   "key": "fajita",
+   "en": "Fajita",
+   "sourceName": "Fajita, NFS",
+   "tableRow": "usda:2708603",
+   "hint": {
+    "kcalPer100g": 219,
+    "proteinShare": 0.21,
+    "fatShare": 0.45,
+    "carbsShare": 0.33
+   }
+  },
+  {
+   "key": "pizza",
+   "en": "Pizza",
+   "sourceName": "Pizza, cheese, from restaurant or fast food, thin crust",
+   "tableRow": "usda:2708615",
+   "hint": {
+    "kcalPer100g": 266,
+    "proteinShare": 0.17,
+    "fatShare": 0.33,
+    "carbsShare": 0.5
+   }
+  },
+  {
+   "key": "pizza with pepperoni",
+   "en": "Pizza with pepperoni",
+   "sourceName": "Pizza with pepperoni, from restaurant or fast food, thin crust",
+   "tableRow": "usda:2708639",
+   "hint": {
+    "kcalPer100g": 282,
+    "proteinShare": 0.17,
+    "fatShare": 0.38,
+    "carbsShare": 0.45
+   }
+  },
+  {
+   "key": "pizza with extra meat",
+   "en": "Pizza with extra meat",
+   "sourceName": "Pizza with extra meat, thin crust",
+   "tableRow": "usda:2708657",
+   "hint": {
+    "kcalPer100g": 277,
+    "proteinShare": 0.21,
+    "fatShare": 0.44,
+    "carbsShare": 0.35
+   }
+  },
+  {
+   "key": "pizza with meat and vegetables",
+   "en": "Pizza with meat and vegetables",
+   "sourceName": "Pizza with meat and vegetables, from restaurant or fast food, thin crust",
+   "tableRow": "usda:2708663",
+   "hint": {
+    "kcalPer100g": 241,
+    "proteinShare": 0.19,
+    "fatShare": 0.37,
+    "carbsShare": 0.44
+   }
+  },
+  {
+   "key": "pizza with meat and fruit",
+   "en": "Pizza with meat and fruit",
+   "sourceName": "Pizza with meat and fruit, thin crust",
+   "tableRow": "usda:2708669",
+   "hint": {
+    "kcalPer100g": 227,
+    "proteinShare": 0.19,
+    "fatShare": 0.33,
+    "carbsShare": 0.48
+   }
+  },
+  {
+   "key": "pizza with beans and vegetables",
+   "en": "Pizza with beans and vegetables",
+   "sourceName": "Pizza with beans and vegetables, thin crust",
+   "tableRow": "usda:2708672",
+   "hint": {
+    "kcalPer100g": 203,
+    "proteinShare": 0.18,
+    "fatShare": 0.29,
+    "carbsShare": 0.53
+   }
+  },
+  {
+   "key": "white pizza",
+   "en": "White pizza",
+   "sourceName": "White pizza, cheese, thin crust",
+   "tableRow": "usda:2708676",
+   "hint": {
+    "kcalPer100g": 285,
+    "proteinShare": 0.18,
+    "fatShare": 0.44,
+    "carbsShare": 0.39
+   }
+  },
+  {
+   "key": "pizza rolls",
+   "en": "Pizza rolls",
+   "sourceName": "Pizza rolls",
+   "tableRow": "usda:2708686",
+   "hint": {
+    "kcalPer100g": 345,
+    "proteinShare": 0.11,
+    "fatShare": 0.27,
+    "carbsShare": 0.62
+   }
+  },
+  {
+   "key": "breakfast pizza with egg",
+   "en": "Breakfast pizza with egg",
+   "sourceName": "Breakfast pizza with egg",
+   "tableRow": "usda:2708699",
+   "hint": {
+    "kcalPer100g": 292,
+    "proteinShare": 0.19,
+    "fatShare": 0.45,
+    "carbsShare": 0.35
+   }
+  },
+  {
+   "key": "egg roll",
+   "en": "Egg roll",
+   "sourceName": "Egg roll, meatless",
+   "tableRow": "usda:2708700",
+   "hint": {
+    "kcalPer100g": 270,
+    "proteinShare": 0.08,
+    "fatShare": 0.47,
+    "carbsShare": 0.45
+   }
+  },
+  {
+   "key": "gnocchi",
+   "en": "Gnocchi",
+   "sourceName": "Gnocchi, cheese",
+   "tableRow": "usda:2708721",
+   "hint": {
+    "kcalPer100g": 178,
+    "proteinShare": 0.19,
+    "fatShare": 0.6,
+    "carbsShare": 0.21
+   }
+  },
+  {
+   "key": "samosa",
+   "en": "Samosa",
+   "sourceName": "Samosa",
+   "tableRow": "usda:2708730",
+   "hint": {
+    "kcalPer100g": 310,
+    "proteinShare": 0.07,
+    "fatShare": 0.51,
+    "carbsShare": 0.43
+   }
+  },
+  {
+   "key": "quiche with meat",
+   "en": "Quiche with meat",
+   "sourceName": "Quiche with meat, poultry or fish",
+   "tableRow": "usda:2708731",
+   "hint": {
+    "kcalPer100g": 387,
+    "proteinShare": 0.16,
+    "fatShare": 0.71,
+    "carbsShare": 0.13
+   }
+  },
+  {
+   "key": "spinach quiche",
+   "en": "Spinach quiche",
+   "sourceName": "Spinach quiche, meatless",
+   "tableRow": "usda:2708732",
+   "hint": {
+    "kcalPer100g": 299,
+    "proteinShare": 0.14,
+    "fatShare": 0.71,
+    "carbsShare": 0.16
+   }
+  },
+  {
+   "key": "cheese quiche",
+   "en": "Cheese quiche",
+   "sourceName": "Cheese quiche, meatless",
+   "tableRow": "usda:2708733",
+   "hint": {
+    "kcalPer100g": 365,
+    "proteinShare": 0.13,
+    "fatShare": 0.72,
+    "carbsShare": 0.15
+   }
+  },
+  {
+   "key": "lasagna with meat",
+   "en": "Lasagna with meat",
+   "sourceName": "Lasagna with meat",
+   "tableRow": "usda:2708750",
+   "hint": {
+    "kcalPer100g": 139,
+    "proteinShare": 0.21,
+    "fatShare": 0.32,
+    "carbsShare": 0.47
+   }
+  },
+  {
+   "key": "lasagna with meat and spinach",
+   "en": "Lasagna with meat and spinach",
+   "sourceName": "Lasagna with meat and spinach",
+   "tableRow": "usda:2708755",
+   "hint": {
+    "kcalPer100g": 207,
+    "proteinShare": 0.26,
+    "fatShare": 0.47,
+    "carbsShare": 0.27
+   }
+  },
+  {
+   "key": "lasagna with chicken or turkey",
+   "en": "Lasagna with chicken or turkey",
+   "sourceName": "Lasagna with chicken or turkey",
+   "tableRow": "usda:2708756",
+   "hint": {
+    "kcalPer100g": 205,
+    "proteinShare": 0.27,
+    "fatShare": 0.46,
+    "carbsShare": 0.27
+   }
+  },
+  {
+   "key": "lasagna",
+   "en": "Lasagna",
+   "sourceName": "Lasagna, with chicken or turkey, and spinach",
+   "tableRow": "usda:2708757",
+   "hint": {
+    "kcalPer100g": 201,
+    "proteinShare": 0.27,
+    "fatShare": 0.45,
+    "carbsShare": 0.28
+   }
+  },
+  {
+   "key": "ravioli",
+   "en": "Ravioli",
+   "sourceName": "Ravioli, meat-filled, no sauce",
+   "tableRow": "usda:2708763",
+   "hint": {
+    "kcalPer100g": 190,
+    "proteinShare": 0.27,
+    "fatShare": 0.36,
+    "carbsShare": 0.38
+   }
+  },
+  {
+   "key": "tortellini",
+   "en": "Tortellini",
+   "sourceName": "Tortellini, meat-filled, with tomato sauce",
+   "tableRow": "usda:2708785",
+   "hint": {
+    "kcalPer100g": 134,
+    "proteinShare": 0.2,
+    "fatShare": 0.33,
+    "carbsShare": 0.47
+   }
+  },
+  {
+   "key": "lo mein",
+   "en": "Lo mein",
+   "sourceName": "Lo mein, NFS",
+   "tableRow": "usda:2708798",
+   "hint": {
+    "kcalPer100g": 121,
+    "proteinShare": 0.16,
+    "fatShare": 0.17,
+    "carbsShare": 0.67
+   }
+  },
+  {
+   "key": "pad thai with chicken",
+   "en": "Pad Thai with chicken",
+   "sourceName": "Pad Thai with chicken",
+   "tableRow": "usda:2708806",
+   "hint": {
+    "kcalPer100g": 154,
+    "proteinShare": 0.21,
+    "fatShare": 0.43,
+    "carbsShare": 0.37
+   }
+  },
+  {
+   "key": "pad thai with seafood",
+   "en": "Pad Thai with seafood",
+   "sourceName": "Pad Thai with seafood",
+   "tableRow": "usda:2708807",
+   "hint": {
+    "kcalPer100g": 147,
+    "proteinShare": 0.18,
+    "fatShare": 0.41,
+    "carbsShare": 0.4
+   }
+  },
+  {
+   "key": "pad thai with meat",
+   "en": "Pad Thai with meat",
+   "sourceName": "Pad Thai with meat",
+   "tableRow": "usda:2708808",
+   "hint": {
+    "kcalPer100g": 160,
+    "proteinShare": 0.2,
+    "fatShare": 0.44,
+    "carbsShare": 0.36
+   }
+  },
+  {
+   "key": "macaroni or pasta salad",
+   "en": "Macaroni or pasta salad",
+   "sourceName": "Macaroni or pasta salad, made with mayonnaise",
+   "tableRow": "usda:2708932",
+   "hint": {
+    "kcalPer100g": 221,
+    "proteinShare": 0.08,
+    "fatShare": 0.47,
+    "carbsShare": 0.45
+   }
+  },
+  {
+   "key": "sushi",
+   "en": "Sushi",
+   "sourceName": "Sushi, NFS",
+   "tableRow": "usda:2708959",
+   "hint": {
+    "kcalPer100g": 94,
+    "proteinShare": 0.13,
+    "fatShare": 0.07,
+    "carbsShare": 0.81
+   }
+  },
+  {
+   "key": "sushi roll",
+   "en": "Sushi roll",
+   "sourceName": "Sushi roll, avocado",
+   "tableRow": "usda:2708960",
+   "hint": {
+    "kcalPer100g": 93,
+    "proteinShare": 0.08,
+    "fatShare": 0.15,
+    "carbsShare": 0.78
+   }
+  },
+  {
+   "key": "sushi roll tuna",
+   "en": "Sushi roll tuna",
+   "sourceName": "Sushi roll tuna",
+   "tableRow": "usda:2708965",
+   "hint": {
+    "kcalPer100g": 97,
+    "proteinShare": 0.32,
+    "fatShare": 0.03,
+    "carbsShare": 0.66
+   }
+  },
+  {
+   "key": "soupy rice with chicken",
+   "en": "Soupy rice with chicken",
+   "sourceName": "Soupy rice with chicken, Puerto Rican style",
+   "tableRow": "usda:2708974",
+   "hint": {
+    "kcalPer100g": 151,
+    "proteinShare": 0.32,
+    "fatShare": 0.24,
+    "carbsShare": 0.44
+   }
+  },
+  {
+   "key": "stewed rice",
+   "en": "Stewed rice",
+   "sourceName": "Stewed rice, Puerto Rican style",
+   "tableRow": "usda:2708976",
+   "hint": {
+    "kcalPer100g": 224,
+    "proteinShare": 0.07,
+    "fatShare": 0.32,
+    "carbsShare": 0.61
+   }
+  },
+  {
+   "key": "rice with stewed beans",
+   "en": "Rice with stewed beans",
+   "sourceName": "Rice with stewed beans, Puerto Rican style",
+   "tableRow": "usda:2708980",
+   "hint": {
+    "kcalPer100g": 138,
+    "proteinShare": 0.11,
+    "fatShare": 0.21,
+    "carbsShare": 0.68
+   }
+  },
+  {
+   "key": "biryani with vegetables",
+   "en": "Biryani with vegetables",
+   "sourceName": "Biryani with vegetables",
+   "tableRow": "usda:2708985",
+   "hint": {
+    "kcalPer100g": 109,
+    "proteinShare": 0.07,
+    "fatShare": 0.27,
+    "carbsShare": 0.66
+   }
+  },
+  {
+   "key": "rice croquette",
+   "en": "Rice croquette",
+   "sourceName": "Rice croquette",
+   "tableRow": "usda:2709071",
+   "hint": {
+    "kcalPer100g": 154,
+    "proteinShare": 0.09,
+    "fatShare": 0.39,
+    "carbsShare": 0.53
+   }
+  },
+  {
+   "key": "vegetable sandwich",
+   "en": "Vegetable sandwich",
+   "sourceName": "Vegetable sandwich on white",
+   "tableRow": "usda:2709132",
+   "hint": {
+    "kcalPer100g": 120,
+    "proteinShare": 0.13,
+    "fatShare": 0.16,
+    "carbsShare": 0.71
+   }
+  },
+  {
+   "key": "vegetable sandwich wrap",
+   "en": "Vegetable sandwich wrap",
+   "sourceName": "Vegetable sandwich wrap",
+   "tableRow": "usda:2709136",
+   "hint": {
+    "kcalPer100g": 160,
+    "proteinShare": 0.14,
+    "fatShare": 0.37,
+    "carbsShare": 0.49
+   }
+  },
+  {
+   "key": "jelly sandwich",
+   "en": "Jelly sandwich",
+   "sourceName": "Jelly sandwich, NFS",
+   "tableRow": "usda:2709137",
+   "hint": {
+    "kcalPer100g": 267,
+    "proteinShare": 0.08,
+    "fatShare": 0.07,
+    "carbsShare": 0.84
+   }
+  },
+  {
+   "key": "ramen bowl",
+   "en": "Ramen bowl",
+   "sourceName": "Ramen bowl, NFS",
+   "tableRow": "usda:2709153",
+   "hint": {
+    "kcalPer100g": 127,
+    "proteinShare": 0.23,
+    "fatShare": 0.33,
+    "carbsShare": 0.45
+   }
+  },
+  {
+   "key": "ramen bowl with beef",
+   "en": "Ramen bowl with beef",
+   "sourceName": "Ramen bowl with beef",
+   "tableRow": "usda:2709154",
+   "hint": {
+    "kcalPer100g": 137,
+    "proteinShare": 0.2,
+    "fatShare": 0.34,
+    "carbsShare": 0.45
+   }
+  },
+  {
+   "key": "ramen bowl with chicken",
+   "en": "Ramen bowl with chicken",
+   "sourceName": "Ramen bowl with chicken",
+   "tableRow": "usda:2709155",
+   "hint": {
+    "kcalPer100g": 126,
+    "proteinShare": 0.23,
+    "fatShare": 0.28,
+    "carbsShare": 0.49
+   }
+  },
+  {
+   "key": "ramen bowl with fish",
+   "en": "Ramen bowl with fish",
+   "sourceName": "Ramen bowl with fish",
+   "tableRow": "usda:2709156",
+   "hint": {
+    "kcalPer100g": 112,
+    "proteinShare": 0.21,
+    "fatShare": 0.23,
+    "carbsShare": 0.56
+   }
+  },
+  {
+   "key": "stewed potatoes",
+   "en": "Stewed potatoes",
+   "sourceName": "Stewed potatoes, Puerto Rican style",
+   "tableRow": "usda:2709416",
+   "hint": {
+    "kcalPer100g": 115,
+    "proteinShare": 0.07,
+    "fatShare": 0.29,
+    "carbsShare": 0.64
+   }
+  },
+  {
+   "key": "potato salad with egg",
+   "en": "Potato salad with egg",
+   "sourceName": "Potato salad with egg, from restaurant",
+   "tableRow": "usda:2709531",
+   "hint": {
+    "kcalPer100g": 175,
+    "proteinShare": 0.07,
+    "fatShare": 0.58,
+    "carbsShare": 0.35
+   }
+  },
+  {
+   "key": "potato pancake",
+   "en": "Potato pancake",
+   "sourceName": "Potato pancake",
+   "tableRow": "usda:2709552",
+   "hint": {
+    "kcalPer100g": 196,
+    "proteinShare": 0.09,
+    "fatShare": 0.49,
+    "carbsShare": 0.42
+   }
+  },
+  {
+   "key": "stewed potatoes with tomatoes",
+   "en": "Stewed potatoes with tomatoes",
+   "sourceName": "Stewed potatoes with tomatoes",
+   "tableRow": "usda:2709555",
+   "hint": {
+    "kcalPer100g": 87,
+    "proteinShare": 0.08,
+    "fatShare": 0.34,
+    "carbsShare": 0.59
+   }
+  },
+  {
+   "key": "spinach and cheese casserole",
+   "en": "Spinach and cheese casserole",
+   "sourceName": "Spinach and cheese casserole",
+   "tableRow": "usda:2709630",
+   "hint": {
+    "kcalPer100g": 130,
+    "proteinShare": 0.21,
+    "fatShare": 0.5,
+    "carbsShare": 0.29
+   }
+  },
+  {
+   "key": "broccoli casserole with noodles",
+   "en": "Broccoli casserole with noodles",
+   "sourceName": "Broccoli casserole with noodles",
+   "tableRow": "usda:2709654",
+   "hint": {
+    "kcalPer100g": 112,
+    "proteinShare": 0.13,
+    "fatShare": 0.3,
+    "carbsShare": 0.57
+   }
+  },
+  {
+   "key": "broccoli casserole with rice",
+   "en": "Broccoli casserole with rice",
+   "sourceName": "Broccoli casserole with rice",
+   "tableRow": "usda:2709655",
+   "hint": {
+    "kcalPer100g": 107,
+    "proteinShare": 0.15,
+    "fatShare": 0.3,
+    "carbsShare": 0.55
+   }
+  },
+  {
+   "key": "taco sauce",
+   "en": "Taco sauce",
+   "sourceName": "Taco sauce",
+   "tableRow": "usda:2709740",
+   "hint": {
+    "kcalPer100g": 11,
+    "proteinShare": 0.34,
+    "fatShare": 0.45,
+    "carbsShare": 0.21
+   }
+  },
+  {
+   "key": "enchilada sauce",
+   "en": "Enchilada sauce",
+   "sourceName": "Enchilada sauce, red",
+   "tableRow": "usda:2709741",
+   "hint": {
+    "kcalPer100g": 30,
+    "proteinShare": 0.08,
+    "fatShare": 0.27,
+    "carbsShare": 0.65
+   }
+  },
+  {
+   "key": "spaghetti sauce",
+   "en": "Spaghetti sauce",
+   "sourceName": "Spaghetti sauce",
+   "tableRow": "usda:2709745",
+   "hint": {
+    "kcalPer100g": 51,
+    "proteinShare": 0.11,
+    "fatShare": 0.26,
+    "carbsShare": 0.63
+   }
+  },
+  {
+   "key": "spaghetti sauce with added vegetables",
+   "en": "Spaghetti sauce with added vegetables",
+   "sourceName": "Spaghetti sauce with added vegetables",
+   "tableRow": "usda:2709746",
+   "hint": {
+    "kcalPer100g": 46,
+    "proteinShare": 0.13,
+    "fatShare": 0.23,
+    "carbsShare": 0.64
+   }
+  },
+  {
+   "key": "tomato sandwich",
+   "en": "Tomato sandwich",
+   "sourceName": "Tomato sandwich on white",
+   "tableRow": "usda:2709761",
+   "hint": {
+    "kcalPer100g": 201,
+    "proteinShare": 0.17,
+    "fatShare": 0.3,
+    "carbsShare": 0.53
+   }
+  },
+  {
+   "key": "mixed salad greens",
+   "en": "Mixed salad greens",
+   "sourceName": "Mixed salad greens, raw",
+   "tableRow": "usda:2709792",
+   "hint": {
+    "kcalPer100g": 21,
+    "proteinShare": 0.25,
+    "fatShare": 0.09,
+    "carbsShare": 0.66
+   }
+  },
+  {
+   "key": "broccoli slaw salad",
+   "en": "Broccoli slaw salad",
+   "sourceName": "Broccoli slaw salad",
+   "tableRow": "usda:2709813",
+   "hint": {
+    "kcalPer100g": 123,
+    "proteinShare": 0.06,
+    "fatShare": 0.6,
+    "carbsShare": 0.34
+   }
+  },
+  {
+   "key": "cabbage salad",
+   "en": "Cabbage salad",
+   "sourceName": "Cabbage salad, NFS",
+   "tableRow": "usda:2709816",
+   "hint": {
+    "kcalPer100g": 45,
+    "proteinShare": 0.07,
+    "fatShare": 0.16,
+    "carbsShare": 0.78
+   }
+  },
+  {
+   "key": "seven layer salad",
+   "en": "Seven-layer salad",
+   "sourceName": "Seven-layer salad, lettuce salad made with a combination of onion, celery, green pepper, peas, mayonnaise, cheese, eggs, and/or bacon",
+   "tableRow": "usda:2709829",
+   "hint": {
+    "kcalPer100g": 229,
+    "proteinShare": 0.08,
+    "fatShare": 0.82,
+    "carbsShare": 0.1
+   }
+  },
+  {
+   "key": "spaghetti squash",
+   "en": "Spaghetti squash",
+   "sourceName": "Spaghetti squash, cooked",
+   "tableRow": "usda:2710001",
+   "hint": {
+    "kcalPer100g": 49,
+    "proteinShare": 0.05,
+    "fatShare": 0.48,
+    "carbsShare": 0.47
+   }
+  },
+  {
+   "key": "bean salad",
+   "en": "Bean salad",
+   "sourceName": "Bean salad, yellow and/or green string beans",
+   "tableRow": "usda:2710009",
+   "hint": {
+    "kcalPer100g": 109,
+    "proteinShare": 0.13,
+    "fatShare": 0.41,
+    "carbsShare": 0.47
+   }
+  },
+  {
+   "key": "asian stir fry vegetables",
+   "en": "Asian stir fry vegetables",
+   "sourceName": "Asian stir fry vegetables, cooked, no added fat",
+   "tableRow": "usda:2710035",
+   "hint": {
+    "kcalPer100g": 50,
+    "proteinShare": 0.16,
+    "fatShare": 0.05,
+    "carbsShare": 0.78
+   }
+  },
+  {
+   "key": "green bean casserole",
+   "en": "Green bean casserole",
+   "sourceName": "Green bean casserole",
+   "tableRow": "usda:2710040",
+   "hint": {
+    "kcalPer100g": 56,
+    "proteinShare": 0.14,
+    "fatShare": 0.36,
+    "carbsShare": 0.5
+   }
+  },
+  {
+   "key": "eggplant parmesan casserole",
+   "en": "Eggplant parmesan casserole",
+   "sourceName": "Eggplant parmesan casserole, regular",
+   "tableRow": "usda:2710050",
+   "hint": {
+    "kcalPer100g": 155,
+    "proteinShare": 0.18,
+    "fatShare": 0.6,
+    "carbsShare": 0.23
+   }
+  },
+  {
+   "key": "pea salad",
+   "en": "Pea salad",
+   "sourceName": "Pea salad",
+   "tableRow": "usda:2710056",
+   "hint": {
+    "kcalPer100g": 180,
+    "proteinShare": 0.07,
+    "fatShare": 0.7,
+    "carbsShare": 0.24
+   }
+  },
+  {
+   "key": "pea salad with cheese",
+   "en": "Pea salad with cheese",
+   "sourceName": "Pea salad with cheese",
+   "tableRow": "usda:2710057",
+   "hint": {
+    "kcalPer100g": 203,
+    "proteinShare": 0.1,
+    "fatShare": 0.71,
+    "carbsShare": 0.19
+   }
+  },
+  {
+   "key": "vegetable tempura",
+   "en": "Vegetable tempura",
+   "sourceName": "Vegetable tempura",
+   "tableRow": "usda:2710065",
+   "hint": {
+    "kcalPer100g": 239,
+    "proteinShare": 0.06,
+    "fatShare": 0.59,
+    "carbsShare": 0.34
+   }
+  },
+  {
+   "key": "vegetable curry",
+   "en": "Vegetable curry",
+   "sourceName": "Vegetable curry",
+   "tableRow": "usda:2710067",
+   "hint": {
+    "kcalPer100g": 86,
+    "proteinShare": 0.07,
+    "fatShare": 0.53,
+    "carbsShare": 0.4
+   }
+  },
+  {
+   "key": "vegetable curry with rice",
+   "en": "Vegetable curry with rice",
+   "sourceName": "Vegetable curry with rice",
+   "tableRow": "usda:2710068",
+   "hint": {
+    "kcalPer100g": 103,
+    "proteinShare": 0.08,
+    "fatShare": 0.28,
+    "carbsShare": 0.64
+   }
+  },
+  {
+   "key": "eggplant and meat casserole",
+   "en": "Eggplant and meat casserole",
+   "sourceName": "Eggplant and meat casserole",
+   "tableRow": "usda:2710144",
+   "hint": {
+    "kcalPer100g": 96,
+    "proteinShare": 0.29,
+    "fatShare": 0.51,
+    "carbsShare": 0.19
+   }
+  },
+  {
+   "key": "curry sauce",
+   "en": "Curry sauce",
+   "sourceName": "Curry sauce",
+   "tableRow": "usda:2710178",
+   "hint": {
+    "kcalPer100g": 95,
+    "proteinShare": 0.06,
+    "fatShare": 0.74,
+    "carbsShare": 0.2
+   }
+  },
+  {
+   "key": "pancake syrup",
+   "en": "Pancake syrup",
+   "sourceName": "Pancake syrup",
+   "tableRow": "usda:2710273",
+   "hint": {
+    "kcalPer100g": 265,
+    "proteinShare": 0.0,
+    "fatShare": 0.0,
+    "carbsShare": 1.0
+   }
+  },
+  {
+   "key": "sweet and sour sauce",
+   "en": "Sweet and sour sauce",
+   "sourceName": "Sweet and sour sauce",
+   "tableRow": "usda:2710296",
+   "hint": {
+    "kcalPer100g": 154,
+    "proteinShare": 0.01,
+    "fatShare": 0.0,
+    "carbsShare": 0.99
+   }
+  },
+  {
+   "key": "gelatin salad with vegetables",
+   "en": "Gelatin salad with vegetables",
+   "sourceName": "Gelatin salad with vegetables",
+   "tableRow": "usda:2710312",
+   "hint": {
+    "kcalPer100g": 61,
+    "proteinShare": 0.09,
+    "fatShare": 0.0,
+    "carbsShare": 0.9
+   }
+  }
+ ]
+}

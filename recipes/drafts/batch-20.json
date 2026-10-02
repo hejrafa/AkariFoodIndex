@@ -1,0 +1,4410 @@
+{
+ "batch": 20,
+ "drafted": "2026-10-01",
+ "drafter": "Claude in the Akari Claude Code session",
+ "dishes": [
+  {
+   "key": "mexican pizza",
+   "names": {
+    "en": "Mexican pizza",
+    "de": "Mexikanische Pizza"
+   },
+   "serving": {
+    "label": {
+     "en": "1 piece",
+     "de": "1 Stück"
+    },
+    "count": 1
+   },
+   "artworkID": "pizza",
+   "aliases": {
+    "en": [
+     "mexican tortilla pizza",
+     "tostada pizza",
+     "taco pizza",
+     "mexi pizza",
+     "beef and bean tortilla pizza"
+    ],
+    "de": [
+     "mexikanische tortilla pizza",
+     "tortilla pizza mit hackfleisch und bohnen",
+     "taco pizza",
+     "mexi pizza"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "flour tortilla",
+     "grams": 60,
+     "resolved": {
+      "id": "usda:2707824",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 8,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "refried beans",
+     "grams": 50,
+     "resolved": {
+      "id": "usda:2707396",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked ground beef",
+     "grams": 45,
+     "resolved": {
+      "id": "bls:U010182",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "enchilada sauce",
+     "grams": 25,
+     "resolved": {
+      "id": "usda:2709741",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cheddar",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:M303600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G561100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "spring onion",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:G482100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "taco or tostada salad",
+   "names": {
+    "en": "Vegetarian taco salad",
+    "de": "Vegetarischer Taco-Salat"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "salad",
+   "aliases": {
+    "en": [
+     "meatless taco salad",
+     "vegetarian tostada salad",
+     "veggie taco salad",
+     "bean taco salad",
+     "taco salad without meat"
+    ],
+    "de": [
+     "taco salat vegetarisch",
+     "vegetarischer tacosalat",
+     "veggie taco salat",
+     "taco salat ohne fleisch",
+     "tostada salat vegetarisch"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "tortilla chips",
+     "grams": 40,
+     "resolved": {
+      "id": "usda:2708202",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "iceberg lettuce",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:G103100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "pinto beans",
+     "grams": 80,
+     "resolved": {
+      "id": "usda:2707375",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cheddar",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:M303600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G561100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sour cream",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2705614",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato salsa",
+     "grams": 30,
+     "resolved": {
+      "id": "usda:2709739",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "taco",
+   "skip": "not further specified; duplicate of the specific tacos ('beef tacos', 'chicken tacos', ...) in another batch"
+  },
+  {
+   "key": "burrito",
+   "skip": "not further specified; duplicate of 'beef burrito', 'chicken burrito' and 'bean burrito' in another batch"
+  },
+  {
+   "key": "enchilada",
+   "skip": "not further specified; duplicate of 'chicken enchiladas' and 'cheese enchiladas' in another batch"
+  },
+  {
+   "key": "tamale casserole with meat",
+   "names": {
+    "en": "Tamale pie",
+    "de": "Tamale-Auflauf"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "tamale",
+   "aliases": {
+    "en": [
+     "tamale casserole",
+     "tamale pie with beef",
+     "tamale bake",
+     "cornbread tamale pie",
+     "tamale casserole with meat"
+    ],
+    "de": [
+     "tamale auflauf mit hackfleisch",
+     "maisbrot hackfleisch auflauf",
+     "tamale-auflauf mit fleisch"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cornbread",
+     "grams": 80,
+     "reference": "usda:2707811"
+    },
+    {
+     "name": "cooked ground beef",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:U010182",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato sauce",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:X331353",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sweetcorn",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G570100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cheddar",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:M303600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "chili powder",
+     "grams": 2,
+     "resolved": {
+      "id": "ciqual:11088",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "nachos",
+   "skip": "not further specified; duplicate of 'nachos with cheese' and 'loaded nachos' in another batch"
+  },
+  {
+   "key": "quesadilla",
+   "skip": "not further specified; duplicate of 'cheese quesadilla' and 'chicken quesadilla' in another batch"
+  },
+  {
+   "key": "fajita",
+   "skip": "not further specified; duplicate of 'chicken fajitas' in another batch"
+  },
+  {
+   "key": "pizza",
+   "names": {
+    "en": "Cheese pizza",
+    "de": "Käsepizza"
+   },
+   "serving": {
+    "label": {
+     "en": "2 slices",
+     "de": "2 Stück"
+    },
+    "count": 2
+   },
+   "artworkID": "pizza",
+   "aliases": {
+    "en": [
+     "thin crust cheese pizza",
+     "plain cheese pizza",
+     "cheese pizza slices",
+     "pizza slice cheese",
+     "cheese pizza thin crust"
+    ],
+    "de": [
+     "pizza mit käse",
+     "käse pizza",
+     "pizza nur mit käse",
+     "dünne käsepizza"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "pizza dough",
+     "grams": 110,
+     "resolved": {
+      "id": "bls:X9A6030",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "passata",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:R161200",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "mozzarella",
+     "grams": 60,
+     "resolved": {
+      "id": "usda:2705722",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "olive oil",
+     "grams": 3,
+     "resolved": {
+      "id": "bls:Q120000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "pizza with pepperoni",
+   "names": {
+    "en": "Pepperoni pizza",
+    "de": "Peperoni-Pizza"
+   },
+   "serving": {
+    "label": {
+     "en": "2 slices",
+     "de": "2 Stück"
+    },
+    "count": 2
+   },
+   "artworkID": "pizza",
+   "aliases": {
+    "en": [
+     "pizza with pepperoni",
+     "pepperoni pizza slices",
+     "thin crust pepperoni pizza",
+     "pizza pepperoni"
+    ],
+    "de": [
+     "pizza peperoni",
+     "pizza mit peperoni-salami",
+     "pizza pepperoni",
+     "peperonipizza"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "pizza dough",
+     "grams": 110,
+     "resolved": {
+      "id": "bls:X9A6030",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "passata",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:R161200",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "mozzarella",
+     "grams": 55,
+     "resolved": {
+      "id": "usda:2705722",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "pepperoni",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2706185",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "pizza with extra meat",
+   "names": {
+    "en": "Meat lovers pizza",
+    "de": "Pizza mit viel Fleisch"
+   },
+   "serving": {
+    "label": {
+     "en": "2 slices",
+     "de": "2 Stück"
+    },
+    "count": 2
+   },
+   "artworkID": "pizza",
+   "aliases": {
+    "en": [
+     "meat lover's pizza",
+     "meat feast pizza",
+     "pizza with extra meat",
+     "meat lovers",
+     "all meat pizza"
+    ],
+    "de": [
+     "fleischpizza",
+     "pizza mit extra fleisch",
+     "pizza meat feast",
+     "pizza mit salami schinken und speck"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "pizza dough",
+     "grams": 110,
+     "resolved": {
+      "id": "bls:X9A6030",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "passata",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:R161200",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "mozzarella",
+     "grams": 50,
+     "resolved": {
+      "id": "usda:2705722",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "pepperoni",
+     "grams": 12,
+     "resolved": {
+      "id": "usda:2706185",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "italian sausage",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2706189",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked ham",
+     "grams": 12,
+     "resolved": {
+      "id": "bls:W424000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked bacon",
+     "grams": 8,
+     "resolved": {
+      "id": "usda:2705889",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "pizza with meat and vegetables",
+   "names": {
+    "en": "Supreme pizza",
+    "de": "Supreme-Pizza"
+   },
+   "serving": {
+    "label": {
+     "en": "2 slices",
+     "de": "2 Stück"
+    },
+    "count": 2
+   },
+   "artworkID": "pizza",
+   "aliases": {
+    "en": [
+     "pizza supreme",
+     "deluxe pizza",
+     "pizza with meat and vegetables",
+     "combination pizza",
+     "supreme pizza slices"
+    ],
+    "de": [
+     "pizza supreme",
+     "pizza mit fleisch und gemüse",
+     "pizza deluxe",
+     "pizza speciale"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "pizza dough",
+     "grams": 110,
+     "resolved": {
+      "id": "bls:X9A6030",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "passata",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:R161200",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "mozzarella",
+     "grams": 45,
+     "resolved": {
+      "id": "usda:2705722",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "pepperoni",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2706185",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "italian sausage",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2706189",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "green bell pepper",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G541100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "mushrooms",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:K701100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "black olives",
+     "grams": 8,
+     "resolved": {
+      "id": "usda:2710090",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "pizza with meat and fruit",
+   "skip": "duplicate of the existing Pizza Hawaii recipe"
+  },
+  {
+   "key": "pizza with beans and vegetables",
+   "names": {
+    "en": "Bean and vegetable pizza",
+    "de": "Pizza mit Bohnen und Gemüse"
+   },
+   "serving": {
+    "label": {
+     "en": "2 slices",
+     "de": "2 Stück"
+    },
+    "count": 2
+   },
+   "artworkID": "pizza",
+   "aliases": {
+    "en": [
+     "pizza with beans and vegetables",
+     "bean pizza",
+     "veggie bean pizza",
+     "vegetable pizza with beans",
+     "black bean pizza"
+    ],
+    "de": [
+     "bohnenpizza",
+     "pizza mit bohnen",
+     "gemüsepizza mit bohnen",
+     "vegetarische pizza mit bohnen",
+     "bean pizza"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "pizza dough",
+     "grams": 110,
+     "resolved": {
+      "id": "bls:X9A6030",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "passata",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:R161200",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "mozzarella",
+     "grams": 40,
+     "resolved": {
+      "id": "usda:2705722",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "kidney beans",
+     "grams": 40,
+     "resolved": {
+      "id": "usda:2707383",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "red bell pepper",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G543100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sweetcorn",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G570100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "white pizza",
+   "names": {
+    "en": "White pizza",
+    "de": "Pizza Bianca"
+   },
+   "serving": {
+    "label": {
+     "en": "2 slices",
+     "de": "2 Stück"
+    },
+    "count": 2
+   },
+   "artworkID": "pizza",
+   "aliases": {
+    "en": [
+     "white cheese pizza",
+     "ricotta pizza",
+     "white pizza with ricotta",
+     "pizza without tomato sauce"
+    ],
+    "de": [
+     "weiße pizza",
+     "pizza ohne tomatensoße",
+     "pizza mit ricotta",
+     "pizza bianca mit ricotta"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "pizza dough",
+     "grams": 110,
+     "resolved": {
+      "id": "bls:X9A6030",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "mozzarella",
+     "grams": 50,
+     "resolved": {
+      "id": "usda:2705722",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "ricotta",
+     "grams": 40,
+     "resolved": {
+      "id": "cofid:12-176",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "parmesan",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:M306400",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "olive oil",
+     "grams": 6,
+     "resolved": {
+      "id": "bls:Q120000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "garlic",
+     "grams": 3,
+     "resolved": {
+      "id": "bls:G490100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "pizza rolls",
+   "names": {
+    "en": "Pizza rolls",
+    "de": "Pizza-Rolls"
+   },
+   "serving": {
+    "label": {
+     "en": "6 pieces",
+     "de": "6 Stück"
+    },
+    "count": 6
+   },
+   "artworkID": "pizza",
+   "aliases": {
+    "en": [
+     "pizza bites",
+     "pizza roll snacks",
+     "mini pizza rolls",
+     "pepperoni pizza rolls",
+     "pizza pockets bites"
+    ],
+    "de": [
+     "pizzarollen",
+     "pizza snacks",
+     "mini pizzarollen",
+     "pizza bites"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "pizza dough",
+     "grams": 55,
+     "resolved": {
+      "id": "bls:X9A6030",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "mozzarella",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2705722",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "passata",
+     "grams": 12,
+     "resolved": {
+      "id": "bls:R161200",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "pepperoni",
+     "grams": 6,
+     "resolved": {
+      "id": "usda:2706185",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 3,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "breakfast pizza with egg",
+   "names": {
+    "en": "Breakfast pizza",
+    "de": "Frühstückspizza"
+   },
+   "serving": {
+    "label": {
+     "en": "2 slices",
+     "de": "2 Stück"
+    },
+    "count": 2
+   },
+   "artworkID": "pizza",
+   "aliases": {
+    "en": [
+     "breakfast pizza with egg",
+     "egg breakfast pizza",
+     "sausage and egg pizza",
+     "breakfast pizza with sausage",
+     "egg and cheese pizza"
+    ],
+    "de": [
+     "frühstückspizza mit ei",
+     "pizza mit rührei",
+     "pizza mit ei und wurst",
+     "frühstücks pizza"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "pizza dough",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:X9A6030",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "scrambled eggs",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:Y720163",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "pork sausages",
+     "grams": 25,
+     "resolved": {
+      "id": "cofid:19-509",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cheddar",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:M303600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cheese sauce",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2705808",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "egg roll",
+   "names": {
+    "en": "Vegetable egg roll",
+    "de": "Gemüse-Eggroll"
+   },
+   "serving": {
+    "label": {
+     "en": "1 egg roll",
+     "de": "1 Eggroll"
+    },
+    "count": 1
+   },
+   "artworkID": "dumpling",
+   "aliases": {
+    "en": [
+     "veggie egg roll",
+     "vegetable egg rolls",
+     "meatless egg roll",
+     "chinese egg roll",
+     "egg roll vegetable"
+    ],
+    "de": [
+     "gemüse egg roll",
+     "eggroll mit gemüse",
+     "vegetarische egg roll",
+     "frittierte gemüserolle",
+     "egg roll gemüse"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "spring roll wrappers, fried",
+     "grams": 35,
+     "resolved": {
+      "id": "mext:01180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "white cabbage",
+     "grams": 35,
+     "resolved": {
+      "id": "bls:G342100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "carrot",
+     "grams": 12,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "celery",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:G220100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "bean sprouts",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:H650100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 5,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "gnocchi",
+   "names": {
+    "en": "Gnocchi with cheese sauce",
+    "de": "Gnocchi in Käsesoße"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "pasta",
+   "aliases": {
+    "en": [
+     "cheese gnocchi",
+     "gnocchi in cheese sauce",
+     "gnocchi ai formaggi",
+     "creamy cheese gnocchi",
+     "gnocchi quattro formaggi"
+    ],
+    "de": [
+     "käse gnocchi",
+     "gnocchi mit käsesoße",
+     "gnocchi in käsesauce",
+     "gnocchi ai formaggi",
+     "gnocchi vier käse"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked gnocchi",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:K270032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "heavy cream",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:M173800",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "parmesan",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:M306400",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "blue cheese",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2705705",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "samosa",
+   "skip": "duplicate of 'vegetable samosas' in another batch"
+  },
+  {
+   "key": "quiche with meat",
+   "skip": "duplicate of 'quiche lorraine' in another batch"
+  },
+  {
+   "key": "spinach quiche",
+   "names": {
+    "en": "Spinach quiche",
+    "de": "Spinatquiche"
+   },
+   "serving": {
+    "label": {
+     "en": "1 slice",
+     "de": "1 Stück"
+    },
+    "count": 1
+   },
+   "artworkID": "pie",
+   "aliases": {
+    "en": [
+     "quiche with spinach",
+     "spinach and cheese quiche",
+     "quiche florentine",
+     "spinach quiche slice",
+     "spinach tart"
+    ],
+    "de": [
+     "spinat quiche",
+     "quiche mit spinat",
+     "spinatkuchen",
+     "spinat-käse-quiche"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "shortcrust pastry",
+     "grams": 50,
+     "resolved": {
+      "id": "cofid:11-1052",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 45,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "heavy cream",
+     "grams": 35,
+     "resolved": {
+      "id": "bls:M173800",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked spinach",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G210132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "gruyère",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:M305700",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "cheese quiche",
+   "names": {
+    "en": "Cheese quiche",
+    "de": "Käsequiche"
+   },
+   "serving": {
+    "label": {
+     "en": "1 slice",
+     "de": "1 Stück"
+    },
+    "count": 1
+   },
+   "artworkID": "pie",
+   "aliases": {
+    "en": [
+     "quiche with cheese",
+     "cheese and onion quiche",
+     "three cheese quiche",
+     "cheese quiche slice",
+     "cheese tart"
+    ],
+    "de": [
+     "käse quiche",
+     "quiche mit käse",
+     "käsekuchen herzhaft",
+     "käse-zwiebel-quiche"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "shortcrust pastry",
+     "grams": 50,
+     "resolved": {
+      "id": "cofid:11-1052",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 50,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "heavy cream",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:M173800",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "gruyère",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:M305700",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "lasagna with meat",
+   "skip": "duplicate of the existing Lasagne recipe"
+  },
+  {
+   "key": "lasagna with meat and spinach",
+   "names": {
+    "en": "Lasagne with meat and spinach",
+    "de": "Lasagne mit Hackfleisch und Spinat"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "pasta",
+   "aliases": {
+    "en": [
+     "meat and spinach lasagna",
+     "spinach lasagna with meat",
+     "lasagna with meat and spinach",
+     "beef and spinach lasagne",
+     "lasagne florentine"
+    ],
+    "de": [
+     "spinatlasagne mit hackfleisch",
+     "lasagne mit spinat und hack",
+     "hackfleisch spinat lasagne",
+     "lasagne mit spinat",
+     "spinat lasagne mit fleisch"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked spaghetti",
+     "grams": 90,
+     "resolved": {
+      "id": "bls:E401032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "bolognese sauce",
+     "grams": 150,
+     "reference": "bls:Y038213"
+    },
+    {
+     "name": "cooked spinach",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:G210132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "ricotta",
+     "grams": 40,
+     "resolved": {
+      "id": "cofid:12-176",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "mozzarella",
+     "grams": 40,
+     "resolved": {
+      "id": "usda:2705722",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "parmesan",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:M306400",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "lasagna with chicken or turkey",
+   "names": {
+    "en": "Chicken lasagne",
+    "de": "Hähnchen-Lasagne"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "pasta",
+   "aliases": {
+    "en": [
+     "chicken lasagna",
+     "turkey lasagna",
+     "turkey lasagne",
+     "lasagna with chicken",
+     "lasagne with turkey"
+    ],
+    "de": [
+     "hähnchenlasagne",
+     "puten lasagne",
+     "putenlasagne",
+     "lasagne mit hähnchen",
+     "lasagne mit putenhack"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked spaghetti",
+     "grams": 90,
+     "resolved": {
+      "id": "bls:E401032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "ground turkey",
+     "grams": 90,
+     "resolved": {
+      "id": "usda:2706133",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato sauce",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:X331353",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "ricotta",
+     "grams": 40,
+     "resolved": {
+      "id": "cofid:12-176",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "mozzarella",
+     "grams": 45,
+     "resolved": {
+      "id": "usda:2705722",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "parmesan",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:M306400",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "lasagna",
+   "skip": "near-duplicate of the chicken lasagne and the lasagne with meat and spinach in this batch"
+  },
+  {
+   "key": "ravioli",
+   "skip": "duplicate of 'fresh egg pasta ravioli filled with beef mince' in another batch"
+  },
+  {
+   "key": "tortellini",
+   "names": {
+    "en": "Tortellini with tomato sauce",
+    "de": "Tortellini in Tomatensoße"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "pasta",
+   "aliases": {
+    "en": [
+     "meat tortellini with tomato sauce",
+     "tortellini al pomodoro",
+     "tortellini in tomato sauce",
+     "tortellini marinara",
+     "tortellini with marinara"
+    ],
+    "de": [
+     "tortellini mit tomatensoße",
+     "tortellini in tomatensauce",
+     "tortellini al pomodoro",
+     "tortellini mit fleischfüllung und tomatensoße",
+     "tortellini tomate"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "meat tortellini, cooked",
+     "grams": 200,
+     "reference": "usda:2708790"
+    },
+    {
+     "name": "tomato sauce",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:X331353",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "parmesan",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:M306400",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "lo mein",
+   "names": {
+    "en": "Lo mein",
+    "de": "Lo Mein"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "noodles",
+   "aliases": {
+    "en": [
+     "chicken lo mein",
+     "lo mein noodles",
+     "lomein",
+     "low mein",
+     "stir fried lo mein"
+    ],
+    "de": [
+     "lo mein nudeln",
+     "chinesische gebratene eiernudeln",
+     "lomein",
+     "lo mein mit hähnchen",
+     "low mein"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked egg noodles",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:E432032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked chicken breast",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:V416132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "napa cabbage",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G321100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "carrot",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "bean sprouts",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:H650100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "spring onion",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:G482100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "soy sauce",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:R143000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "oyster sauce",
+     "grams": 8,
+     "resolved": {
+      "id": "usda:2707150",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sesame oil",
+     "grams": 4,
+     "resolved": {
+      "id": "usda:2710190",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 4,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "pad thai with chicken",
+   "names": {
+    "en": "Pad Thai with chicken",
+    "de": "Pad Thai mit Hähnchen"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "noodles",
+   "aliases": {
+    "en": [
+     "chicken pad thai",
+     "pad thai chicken",
+     "phad thai with chicken",
+     "pad thai gai",
+     "chicken phad thai"
+    ],
+    "de": [
+     "pad thai mit huhn",
+     "pad thai hähnchen",
+     "chicken pad thai",
+     "pad thai gai",
+     "gebratene reisnudeln mit hähnchen"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "pan-fried chicken breast",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:Y562032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked rice noodles",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:C559032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 40,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "bean sprouts",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:H650100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "peanuts",
+     "grams": 12,
+     "resolved": {
+      "id": "bls:H110600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "spring onion",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:G482100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "fish sauce",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2706457",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tamarind",
+     "grams": 10,
+     "reference": "usda:2709269"
+    },
+    {
+     "name": "sugar",
+     "grams": 8,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 12,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lime",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:F602100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "pad thai with seafood",
+   "names": {
+    "en": "Pad Thai with shrimp",
+    "de": "Pad Thai mit Garnelen"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "noodles",
+   "aliases": {
+    "en": [
+     "shrimp pad thai",
+     "prawn pad thai",
+     "seafood pad thai",
+     "pad thai goong",
+     "pad thai with prawns"
+    ],
+    "de": [
+     "pad thai garnelen",
+     "pad thai mit meeresfrüchten",
+     "shrimp pad thai",
+     "pad thai goong",
+     "gebratene reisnudeln mit garnelen"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked shrimp",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:T753132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked rice noodles",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:C559032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 40,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "bean sprouts",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:H650100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "peanuts",
+     "grams": 12,
+     "resolved": {
+      "id": "bls:H110600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "spring onion",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:G482100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "fish sauce",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2706457",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tamarind",
+     "grams": 10,
+     "reference": "usda:2709269"
+    },
+    {
+     "name": "sugar",
+     "grams": 8,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 12,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lime",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:F602100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "pad thai with meat",
+   "names": {
+    "en": "Pad Thai with beef",
+    "de": "Pad Thai mit Rindfleisch"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "noodles",
+   "aliases": {
+    "en": [
+     "beef pad thai",
+     "pad thai beef",
+     "pad thai with meat",
+     "pad thai neua",
+     "pork pad thai"
+    ],
+    "de": [
+     "pad thai rind",
+     "pad thai mit rind",
+     "beef pad thai",
+     "gebratene reisnudeln mit rindfleisch",
+     "pad thai mit fleisch"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "beef steak, pan-fried",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:U131182",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked rice noodles",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:C559032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 40,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "bean sprouts",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:H650100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "peanuts",
+     "grams": 12,
+     "resolved": {
+      "id": "bls:H110600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "spring onion",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:G482100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "fish sauce",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2706457",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tamarind",
+     "grams": 10,
+     "reference": "usda:2709269"
+    },
+    {
+     "name": "sugar",
+     "grams": 8,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 12,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lime",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:F602100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "macaroni or pasta salad",
+   "names": {
+    "en": "Macaroni salad",
+    "de": "Makkaronisalat"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "salad",
+   "aliases": {
+    "en": [
+     "macaroni salad with mayo",
+     "american macaroni salad",
+     "mac salad",
+     "pasta salad with mayonnaise",
+     "creamy macaroni salad"
+    ],
+    "de": [
+     "makkaroni salat",
+     "nudelsalat mit mayonnaise",
+     "amerikanischer nudelsalat",
+     "macaroni salat",
+     "makkaronisalat mit mayo"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked macaroni",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:E401032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "mayonnaise",
+     "grams": 35,
+     "resolved": {
+      "id": "usda:2710204",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "celery",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G220100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "red bell pepper",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:G543100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "pickles",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2710078",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "mustard",
+     "grams": 3,
+     "resolved": {
+      "id": "usda:2710085",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "sushi",
+   "skip": "not further specified; the specific sushi (nigiri, maki, California roll) are separate recipes"
+  },
+  {
+   "key": "sushi roll",
+   "names": {
+    "en": "Avocado maki",
+    "de": "Avocado-Maki"
+   },
+   "serving": {
+    "label": {
+     "en": "6 pieces",
+     "de": "6 Stück"
+    },
+    "count": 6
+   },
+   "artworkID": "sushi",
+   "aliases": {
+    "en": [
+     "avocado roll",
+     "avocado sushi roll",
+     "avocado maki roll",
+     "avocado sushi",
+     "vegetarian avocado roll"
+    ],
+    "de": [
+     "avocado sushi",
+     "maki mit avocado",
+     "avocado rolle",
+     "vegetarische maki mit avocado"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "sushi rice",
+     "grams": 110,
+     "resolved": {
+      "id": "bls:X8A1100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "avocado",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:F502100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "nori",
+     "grams": 3,
+     "resolved": {
+      "id": "bls:G995000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "sushi roll tuna",
+   "skip": "duplicate of the existing Tuna maki recipe"
+  },
+  {
+   "key": "soupy rice with chicken",
+   "names": {
+    "en": "Asopao de pollo",
+    "de": "Asopao de Pollo"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "soup",
+   "aliases": {
+    "en": [
+     "asopao",
+     "puerto rican chicken and rice soup",
+     "soupy rice with chicken",
+     "chicken asopao",
+     "asopao de pollo puerto rico"
+    ],
+    "de": [
+     "asopao",
+     "hühnerreissuppe puerto rico",
+     "reiseintopf mit hähnchen",
+     "asopao mit huhn",
+     "puerto-ricanischer reiseintopf"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked chicken thigh",
+     "grams": 100,
+     "resolved": {
+      "id": "usda:2706044",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked white rice",
+     "grams": 170,
+     "resolved": {
+      "id": "bls:C352032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "chicken stock",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:X411243",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato sauce",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:X331353",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "green bell pepper",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G541100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "green peas",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G760132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "green olives",
+     "grams": 8,
+     "resolved": {
+      "id": "usda:2710089",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "olive oil",
+     "grams": 6,
+     "resolved": {
+      "id": "bls:Q120000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "stewed rice",
+   "names": {
+    "en": "Arroz guisado",
+    "de": "Arroz Guisado"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "rice",
+   "aliases": {
+    "en": [
+     "puerto rican stewed rice",
+     "stewed rice",
+     "rice with sofrito",
+     "arroz guisado puerto rico",
+     "seasoned stewed rice"
+    ],
+    "de": [
+     "geschmorter reis puerto rico",
+     "reis mit sofrito",
+     "puerto-ricanischer reis",
+     "geschmorter tomatenreis"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked white rice",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:C352032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato sauce",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:X331353",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "green bell pepper",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G541100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "green olives",
+     "grams": 8,
+     "resolved": {
+      "id": "usda:2710089",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked ham",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:W424000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "olive oil",
+     "grams": 16,
+     "resolved": {
+      "id": "bls:Q120000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "rice with stewed beans",
+   "names": {
+    "en": "Rice with stewed beans",
+    "de": "Reis mit geschmorten Bohnen"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "rice",
+   "aliases": {
+    "en": [
+     "arroz con habichuelas",
+     "rice and beans puerto rican",
+     "habichuelas guisadas with rice",
+     "rice and stewed beans",
+     "puerto rican rice and beans"
+    ],
+    "de": [
+     "arroz con habichuelas",
+     "reis mit bohnen puerto rico",
+     "reis und bohnen",
+     "reis mit bohneneintopf",
+     "puerto-ricanischer reis mit bohnen"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked white rice",
+     "grams": 180,
+     "resolved": {
+      "id": "bls:C352032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "kidney beans",
+     "grams": 120,
+     "resolved": {
+      "id": "usda:2707383",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato sauce",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:X331353",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "green bell pepper",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:G541100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "boiled potatoes",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "olive oil",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:Q120000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cilantro",
+     "grams": 3,
+     "resolved": {
+      "id": "usda:2709782",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "biryani with vegetables",
+   "skip": "duplicate of 'vegetable biryani' in another batch"
+  },
+  {
+   "key": "rice croquette",
+   "names": {
+    "en": "Rice croquettes",
+    "de": "Reiskroketten"
+   },
+   "serving": {
+    "label": {
+     "en": "2 croquettes",
+     "de": "2 Kroketten"
+    },
+    "count": 2
+   },
+   "artworkID": "rice-ball",
+   "aliases": {
+    "en": [
+     "rice croquette",
+     "croquetas de arroz",
+     "fried rice balls",
+     "rice fritters",
+     "cheesy rice croquettes"
+    ],
+    "de": [
+     "reiskrokette",
+     "reisbällchen frittiert",
+     "reis kroketten",
+     "croquetas de arroz",
+     "frittierte reisbällchen"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked white rice",
+     "grams": 90,
+     "resolved": {
+      "id": "bls:C352032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "parmesan",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:M306400",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "breadcrumbs",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:B821000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 4,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "vegetable sandwich",
+   "names": {
+    "en": "Vegetable sandwich",
+    "de": "Gemüse-Sandwich"
+   },
+   "serving": {
+    "label": {
+     "en": "1 sandwich",
+     "de": "1 Sandwich"
+    },
+    "count": 1
+   },
+   "artworkID": "sandwich",
+   "aliases": {
+    "en": [
+     "veggie sandwich",
+     "vegetable sandwich on white",
+     "salad sandwich",
+     "tomato cucumber sandwich",
+     "vegetarian sandwich"
+    ],
+    "de": [
+     "gemüsesandwich",
+     "veggie sandwich",
+     "vegetarisches sandwich",
+     "sandwich mit gemüse",
+     "salat sandwich"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "white toast bread",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:B314000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G561100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cucumber",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G520100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lettuce",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G105100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "mustard",
+     "grams": 5,
+     "resolved": {
+      "id": "usda:2710085",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "vegetable sandwich wrap",
+   "skip": "duplicate of the vegetable and cheese wrap candidate in another batch ('wrap vegetarien fromage crudites')"
+  },
+  {
+   "key": "jelly sandwich",
+   "names": {
+    "en": "Jam sandwich",
+    "de": "Marmeladen-Sandwich"
+   },
+   "serving": {
+    "label": {
+     "en": "1 sandwich",
+     "de": "1 Sandwich"
+    },
+    "count": 1
+   },
+   "artworkID": "sandwich",
+   "aliases": {
+    "en": [
+     "jelly sandwich",
+     "jam on bread",
+     "jelly on bread",
+     "jam sandwhich",
+     "plain jam sandwich"
+    ],
+    "de": [
+     "marmeladenbrot",
+     "marmeladentoast",
+     "toast mit marmelade",
+     "brot mit marmelade",
+     "jelly sandwich"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "white toast bread",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:B314000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "jam",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:S132000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "ramen bowl",
+   "skip": "not further specified; duplicate of the existing Ramen recipe"
+  },
+  {
+   "key": "ramen bowl with beef",
+   "names": {
+    "en": "Beef ramen",
+    "de": "Ramen mit Rindfleisch"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "noodles",
+   "aliases": {
+    "en": [
+     "ramen with beef",
+     "beef ramen bowl",
+     "beef noodle ramen",
+     "gyu ramen",
+     "beef shoyu ramen"
+    ],
+    "de": [
+     "rindfleisch ramen",
+     "ramen rind",
+     "ramen mit rind",
+     "ramen bowl mit rindfleisch"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked ramen noodles",
+     "grams": 200,
+     "resolved": {
+      "id": "mext:01048",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "beef stock",
+     "grams": 250,
+     "resolved": {
+      "id": "bls:Y183013",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "braised beef",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:U281142",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "boiled egg",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:E111132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "bean sprouts",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:H650100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "spring onion",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:G482100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "soy sauce",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:R143000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sesame oil",
+     "grams": 3,
+     "resolved": {
+      "id": "usda:2710190",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "ramen bowl with chicken",
+   "names": {
+    "en": "Chicken ramen",
+    "de": "Ramen mit Hähnchen"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "noodles",
+   "aliases": {
+    "en": [
+     "ramen with chicken",
+     "chicken ramen bowl",
+     "chicken shoyu ramen",
+     "tori ramen",
+     "chicken noodle ramen"
+    ],
+    "de": [
+     "hähnchen ramen",
+     "ramen huhn",
+     "ramen mit huhn",
+     "ramen bowl mit hähnchen"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked ramen noodles",
+     "grams": 200,
+     "resolved": {
+      "id": "mext:01048",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "chicken stock",
+     "grams": 250,
+     "resolved": {
+      "id": "bls:X411243",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked chicken breast",
+     "grams": 70,
+     "resolved": {
+      "id": "bls:V416132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "boiled egg",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:E111132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "bean sprouts",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:H650100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "spring onion",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:G482100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "soy sauce",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:R143000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sesame oil",
+     "grams": 3,
+     "resolved": {
+      "id": "usda:2710190",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "ramen bowl with fish",
+   "names": {
+    "en": "Fish ramen",
+    "de": "Ramen mit Fisch"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "noodles",
+   "aliases": {
+    "en": [
+     "ramen with fish",
+     "seafood ramen",
+     "fish ramen bowl",
+     "white fish ramen",
+     "fish broth ramen"
+    ],
+    "de": [
+     "fisch ramen",
+     "ramen fisch",
+     "meeresfrüchte ramen",
+     "ramen bowl mit fisch"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked ramen noodles",
+     "grams": 200,
+     "resolved": {
+      "id": "mext:01048",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "dashi",
+     "grams": 250,
+     "resolved": {
+      "id": "mext:17021",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked cod",
+     "grams": 70,
+     "resolved": {
+      "id": "bls:T204172",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "boiled egg",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:E111132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "spring onion",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:G482100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "wakame",
+     "grams": 10,
+     "resolved": {
+      "id": "mext:09039",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "soy sauce",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:R143000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sesame oil",
+     "grams": 3,
+     "resolved": {
+      "id": "usda:2710190",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "stewed potatoes",
+   "names": {
+    "en": "Papas guisadas",
+    "de": "Papas Guisadas"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "potato",
+   "aliases": {
+    "en": [
+     "puerto rican stewed potatoes",
+     "stewed potatoes",
+     "potato stew puerto rican style",
+     "papas guisadas puerto rico",
+     "stewed potatoes with sofrito"
+    ],
+    "de": [
+     "geschmorte kartoffeln puerto rico",
+     "kartoffeleintopf puerto rico",
+     "geschmorte kartoffeln mit sofrito",
+     "puerto-ricanische kartoffeln"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "boiled potatoes",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato sauce",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:X331353",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "green bell pepper",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G541100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "green olives",
+     "grams": 8,
+     "resolved": {
+      "id": "usda:2710089",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "olive oil",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:Q120000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "garlic",
+     "grams": 3,
+     "resolved": {
+      "id": "bls:G490100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "potato salad with egg",
+   "names": {
+    "en": "American potato salad",
+    "de": "Amerikanischer Kartoffelsalat"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "salad",
+   "aliases": {
+    "en": [
+     "potato salad with egg",
+     "potato and egg salad",
+     "creamy potato salad",
+     "southern potato salad",
+     "potato salad with mayo and egg"
+    ],
+    "de": [
+     "kartoffelsalat mit ei",
+     "kartoffelsalat mit mayonnaise und ei",
+     "amerikanischer kartoffelsalat mit ei",
+     "kartoffel-ei-salat"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "boiled potatoes",
+     "grams": 130,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "boiled egg",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:E111132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "mayonnaise",
+     "grams": 30,
+     "resolved": {
+      "id": "usda:2710204",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "celery",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G220100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "pickles",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2710078",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "mustard",
+     "grams": 5,
+     "resolved": {
+      "id": "usda:2710085",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "potato pancake",
+   "skip": "duplicate of 'potato pancakes' in another batch"
+  },
+  {
+   "key": "stewed potatoes with tomatoes",
+   "names": {
+    "en": "Stewed potatoes with tomatoes",
+    "de": "Geschmorte Kartoffeln mit Tomaten"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "potato",
+   "aliases": {
+    "en": [
+     "potatoes stewed with tomatoes",
+     "tomato potatoes",
+     "potato and tomato stew",
+     "braised potatoes with tomatoes",
+     "potatoes in tomato sauce"
+    ],
+    "de": [
+     "kartoffeln in tomatensoße",
+     "tomatenkartoffeln",
+     "kartoffel tomaten eintopf",
+     "geschmorte tomatenkartoffeln",
+     "kartoffeln mit tomaten geschmort"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "boiled potatoes",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "canned tomatoes",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:G568900",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "olive oil",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:Q120000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "garlic",
+     "grams": 3,
+     "resolved": {
+      "id": "bls:G490100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "spinach and cheese casserole",
+   "skip": "duplicate of 'spinach casserole with cheese' in another batch"
+  },
+  {
+   "key": "broccoli casserole with noodles",
+   "names": {
+    "en": "Broccoli noodle casserole",
+    "de": "Brokkoli-Nudel-Auflauf"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "broccoli",
+   "aliases": {
+    "en": [
+     "broccoli casserole with noodles",
+     "broccoli and noodle bake",
+     "cheesy broccoli noodle casserole",
+     "broccoli pasta casserole",
+     "broccoli noodle bake"
+    ],
+    "de": [
+     "nudelauflauf mit brokkoli",
+     "brokkoli nudelauflauf",
+     "brokkoli-nudel-gratin",
+     "nudel-brokkoli-auflauf"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked broccoli",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:G312132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked egg noodles",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:E432032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cream of mushroom soup",
+     "grams": 60,
+     "reference": "usda:2710107"
+    },
+    {
+     "name": "cheddar",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:M303600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "broccoli casserole with rice",
+   "names": {
+    "en": "Broccoli rice casserole",
+    "de": "Brokkoli-Reis-Auflauf"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "broccoli",
+   "aliases": {
+    "en": [
+     "broccoli casserole with rice",
+     "broccoli cheese rice casserole",
+     "cheesy broccoli rice",
+     "broccoli and rice bake",
+     "broccoli rice bake"
+    ],
+    "de": [
+     "reisauflauf mit brokkoli",
+     "brokkoli reisauflauf",
+     "brokkoli-reis-gratin",
+     "käse brokkoli reis"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked broccoli",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:G312132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked white rice",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:C352032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cream of mushroom soup",
+     "grams": 60,
+     "reference": "usda:2710107"
+    },
+    {
+     "name": "cheddar",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:M303600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "taco sauce",
+   "skip": "a sauce on its own"
+  },
+  {
+   "key": "enchilada sauce",
+   "skip": "a sauce on its own"
+  },
+  {
+   "key": "spaghetti sauce",
+   "skip": "a sauce on its own"
+  },
+  {
+   "key": "spaghetti sauce with added vegetables",
+   "skip": "a sauce on its own"
+  },
+  {
+   "key": "tomato sandwich",
+   "names": {
+    "en": "Tomato sandwich",
+    "de": "Tomaten-Sandwich"
+   },
+   "serving": {
+    "label": {
+     "en": "1 sandwich",
+     "de": "1 Sandwich"
+    },
+    "count": 1
+   },
+   "artworkID": "sandwich",
+   "aliases": {
+    "en": [
+     "tomato sandwich on white",
+     "tomato mayo sandwich",
+     "tomato sandwhich",
+     "southern tomato sandwich",
+     "tomato and mayonnaise sandwich"
+    ],
+    "de": [
+     "tomatenbrot",
+     "tomatensandwich",
+     "tomaten toast",
+     "brot mit tomaten",
+     "tomate mayo sandwich"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "white toast bread",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:B314000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:G561100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "mayonnaise",
+     "grams": 12,
+     "resolved": {
+      "id": "usda:2710204",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "mixed salad greens",
+   "skip": "a single food (raw salad leaves)"
+  },
+  {
+   "key": "broccoli slaw salad",
+   "names": {
+    "en": "Broccoli slaw",
+    "de": "Brokkoli-Krautsalat"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "salad",
+   "aliases": {
+    "en": [
+     "broccoli slaw salad",
+     "broccoli coleslaw",
+     "broccoli stem slaw",
+     "creamy broccoli slaw",
+     "broccoli cole slaw"
+    ],
+    "de": [
+     "brokkoli slaw",
+     "brokkoli coleslaw",
+     "brokkolisalat mit mayonnaise"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "broccoli",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:G312100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "carrot",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "red cabbage",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G341100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "mayonnaise",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2710204",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 5,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "apple cider vinegar",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:R123100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "cabbage salad",
+   "names": {
+    "en": "Cabbage salad",
+    "de": "Krautsalat"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "salad",
+   "aliases": {
+    "en": [
+     "vinegar coleslaw",
+     "cabbage slaw",
+     "vinegar slaw",
+     "shredded cabbage salad",
+     "white cabbage salad"
+    ],
+    "de": [
+     "kraut salat",
+     "weißkohlsalat",
+     "weisskrautsalat",
+     "krautsalat mit essig",
+     "bayerischer krautsalat"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "white cabbage",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:G342100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "carrot",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "white vinegar",
+     "grams": 12,
+     "resolved": {
+      "id": "bls:R122000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 6,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 2,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "seven layer salad",
+   "names": {
+    "en": "Seven-layer salad",
+    "de": "Schichtsalat"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "salad",
+   "aliases": {
+    "en": [
+     "7 layer salad",
+     "layered salad",
+     "7-layer salad",
+     "layered lettuce salad"
+    ],
+    "de": [
+     "schicht salat",
+     "7-schichten-salat",
+     "sieben schichten salat",
+     "partysalat in schichten"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "iceberg lettuce",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:G103100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "green peas",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G760132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "celery",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G220100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "mayonnaise",
+     "grams": 30,
+     "resolved": {
+      "id": "usda:2710204",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cheddar",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:M303600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "boiled egg",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:E111132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked bacon",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2705889",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 3,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "spaghetti squash",
+   "skip": "a single food (cooked spaghetti squash)"
+  },
+  {
+   "key": "bean salad",
+   "names": {
+    "en": "String bean salad",
+    "de": "Grüner Bohnensalat"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "salad",
+   "aliases": {
+    "en": [
+     "green bean salad",
+     "string bean salad with vinaigrette",
+     "wax bean salad",
+     "yellow and green bean salad",
+     "marinated green bean salad"
+    ],
+    "de": [
+     "bohnensalat mit grünen bohnen",
+     "grüne bohnen salat",
+     "brechbohnensalat",
+     "wachsbohnensalat",
+     "fisolensalat"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "green beans",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:G710132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "wine vinegar",
+     "grams": 12,
+     "resolved": {
+      "id": "bls:R121000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 6,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "asian stir fry vegetables",
+   "skip": "a single food (a mixed vegetable blend, cooked without fat)"
+  },
+  {
+   "key": "green bean casserole",
+   "names": {
+    "en": "Green bean casserole",
+    "de": "Grüne-Bohnen-Auflauf"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "beans",
+   "aliases": {
+    "en": [
+     "green bean bake",
+     "thanksgiving green bean casserole",
+     "green beans with fried onions",
+     "string bean casserole",
+     "green bean casserole with crispy onions"
+    ],
+    "de": [
+     "bohnenauflauf",
+     "auflauf mit grünen bohnen und röstzwiebeln",
+     "bohnen-pilz-auflauf"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "green beans",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:G710132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cream of mushroom soup",
+     "grams": 50,
+     "reference": "usda:2710107"
+    },
+    {
+     "name": "whole milk",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "crispy fried onions",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:X5A9030",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "soy sauce",
+     "grams": 3,
+     "resolved": {
+      "id": "bls:R143000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "eggplant parmesan casserole",
+   "skip": "duplicate of the existing Eggplant parmigiana recipe"
+  },
+  {
+   "key": "pea salad",
+   "names": {
+    "en": "Pea salad",
+    "de": "Erbsensalat"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "peas",
+   "aliases": {
+    "en": [
+     "creamy pea salad",
+     "green pea salad",
+     "pea salad with bacon",
+     "southern pea salad",
+     "english pea salad"
+    ],
+    "de": [
+     "erbsen salat",
+     "erbsensalat mit mayonnaise",
+     "erbsensalat mit speck",
+     "cremiger erbsensalat"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "green peas",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:G760132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "mayonnaise",
+     "grams": 25,
+     "resolved": {
+      "id": "usda:2710204",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked bacon",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2705889",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "pea salad with cheese",
+   "names": {
+    "en": "Pea salad with cheese",
+    "de": "Erbsensalat mit Käse"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "peas",
+   "aliases": {
+    "en": [
+     "pea and cheese salad",
+     "pea salad with cheddar",
+     "cheesy pea salad",
+     "creamy pea salad with cheese",
+     "pea cheddar salad"
+    ],
+    "de": [
+     "erbsensalat mit cheddar",
+     "erbsen-käse-salat",
+     "erbsensalat mit käse und speck",
+     "käse erbsen salat"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "green peas",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:G760132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "mayonnaise",
+     "grams": 25,
+     "resolved": {
+      "id": "usda:2710204",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cheddar",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:M303600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked bacon",
+     "grams": 8,
+     "resolved": {
+      "id": "usda:2705889",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "vegetable tempura",
+   "names": {
+    "en": "Vegetable tempura",
+    "de": "Gemüse-Tempura"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "fried-shrimp",
+   "aliases": {
+    "en": [
+     "veggie tempura",
+     "yasai tempura",
+     "tempura vegetables",
+     "vegetable tempura plate",
+     "japanese vegetable tempura"
+    ],
+    "de": [
+     "gemüsetempura",
+     "tempura gemüse",
+     "yasai tempura",
+     "frittiertes gemüse tempura"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "tempura batter, fried",
+     "grams": 50,
+     "resolved": {
+      "id": "mext:01172",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked sweet potato",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:K420132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "zucchini",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G582100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "mushrooms",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:K701100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "red bell pepper",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G543100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "aubergine",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G510100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "vegetable curry",
+   "names": {
+    "en": "Vegetable curry",
+    "de": "Gemüsecurry"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "curry",
+   "aliases": {
+    "en": [
+     "veg curry",
+     "veggie curry",
+     "mixed vegetable curry",
+     "vegetable curry without rice",
+     "sabzi curry"
+    ],
+    "de": [
+     "gemüse curry",
+     "veggie curry",
+     "indisches gemüsecurry",
+     "gemüsecurry mit kokosmilch"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "boiled potatoes",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked cauliflower",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:G311132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked carrot",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G620132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "green peas",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G760132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "canned tomatoes",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:G568900",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "coconut milk",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:H154000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "curry powder",
+     "grams": 4,
+     "resolved": {
+      "id": "ciqual:11005",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "garlic",
+     "grams": 3,
+     "resolved": {
+      "id": "bls:G490100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "ginger",
+     "grams": 3,
+     "resolved": {
+      "id": "cofid:13-890",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "vegetable curry with rice",
+   "names": {
+    "en": "Vegetable curry with rice",
+    "de": "Gemüsecurry mit Reis"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "curry",
+   "aliases": {
+    "en": [
+     "veg curry with rice",
+     "veggie curry and rice",
+     "vegetable curry and rice",
+     "mixed vegetable curry with rice",
+     "curry rice vegetable"
+    ],
+    "de": [
+     "gemüse curry mit reis",
+     "gemüsecurry und reis",
+     "veggie curry mit reis",
+     "curry mit gemüse und reis"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked white rice",
+     "grams": 180,
+     "resolved": {
+      "id": "bls:C352032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "boiled potatoes",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked cauliflower",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:G311132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked carrot",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G620132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "green peas",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:G760132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "canned tomatoes",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:G568900",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "coconut milk",
+     "grams": 35,
+     "resolved": {
+      "id": "bls:H154000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 8,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "curry powder",
+     "grams": 3,
+     "resolved": {
+      "id": "ciqual:11005",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "garlic",
+     "grams": 3,
+     "resolved": {
+      "id": "bls:G490100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "eggplant and meat casserole",
+   "names": {
+    "en": "Eggplant and meat casserole",
+    "de": "Auberginen-Hackfleisch-Auflauf"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "eggplant",
+   "aliases": {
+    "en": [
+     "eggplant casserole with meat",
+     "aubergine and mince bake",
+     "eggplant beef casserole",
+     "eggplant ground beef bake",
+     "eggplant meat bake"
+    ],
+    "de": [
+     "auberginenauflauf mit hackfleisch",
+     "auberginen hack auflauf",
+     "hackfleisch auberginen auflauf",
+     "auberginen-auflauf mit fleisch",
+     "melanzani auflauf mit faschiertem"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked aubergine",
+     "grams": 150,
+     "resolved": {
+      "id": "ciqual:20002",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked ground beef",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:U010182",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato sauce",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:X331353",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "parmesan",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:M306400",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "olive oil",
+     "grams": 4,
+     "resolved": {
+      "id": "bls:Q120000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "curry sauce",
+   "skip": "a sauce on its own"
+  },
+  {
+   "key": "pancake syrup",
+   "skip": "a single food (a syrup)"
+  },
+  {
+   "key": "sweet and sour sauce",
+   "skip": "a sauce on its own"
+  },
+  {
+   "key": "gelatin salad with vegetables",
+   "names": {
+    "en": "Gelatin salad with vegetables",
+    "de": "Gemüse in Götterspeise"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "neutral",
+   "aliases": {
+    "en": [
+     "jello salad",
+     "jello salad with vegetables",
+     "vegetable gelatin salad",
+     "congealed salad",
+     "jelly salad with vegetables"
+    ],
+    "de": [
+     "götterspeise mit gemüse",
+     "wackelpudding salat",
+     "gelatinesalat mit gemüse",
+     "jello salat",
+     "gemüse-aspik süß"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "gelatin dessert",
+     "grams": 120,
+     "reference": "usda:2710310"
+    },
+    {
+     "name": "carrot",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "celery",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G220100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "white cabbage",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G342100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,5729 @@
+{
+ "batch": 15,
+ "drafted": "2026-10-01",
+ "drafter": "Claude in the Akari Claude Code session",
+ "dishes": [
+  {
+   "key": "dip made from sheep s milk cheese",
+   "skip": "a dip on its own"
+  },
+  {
+   "key": "koch kaese homemade",
+   "skip": "a cheese spread (Kochkäse), a single food"
+  },
+  {
+   "key": "sheep s milk camembert cheese breaded",
+   "names": {
+    "en": "Fried breaded sheep's cheese",
+    "de": "Schafskäse-Camembert paniert"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "cheese",
+   "aliases": {
+    "en": [
+     "breaded sheep's milk camembert",
+     "fried sheep's camembert",
+     "deep-fried sheep cheese"
+    ],
+    "de": [
+     "schafmilch-camembert paniert",
+     "gebackener schafskäse-camembert",
+     "schafcamembert paniert",
+     "panierter schafskäse"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "sheep's milk soft cheese",
+     "grams": 100,
+     "reference": "bls:M6A5700"
+    },
+    {
+     "name": "egg",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "breadcrumbs",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:B821000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "wheat flour",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "salmon cream cheese with dill weed",
+   "skip": "a spread on its own"
+  },
+  {
+   "key": "oven cheese with garlic and thyme",
+   "names": {
+    "en": "Baked cheese with garlic and thyme",
+    "de": "Ofenkäse mit Knoblauch und Thymian"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "cheese",
+   "aliases": {
+    "en": [
+     "oven baked camembert",
+     "baked camembert with garlic",
+     "baking cheese with thyme",
+     "oven cheese"
+    ],
+    "de": [
+     "ofenkäse",
+     "ofencamembert",
+     "ofenkäse mit knoblauch",
+     "camembert aus dem ofen",
+     "ofenkaese mit thymian"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "camembert",
+     "grams": 125,
+     "resolved": {
+      "id": "usda:2705707",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "garlic",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:G490100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "thyme",
+     "grams": 2,
+     "resolved": {
+      "id": "cofid:13-893",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "sheep s milk cheese with tomatoes and olives",
+   "names": {
+    "en": "Baked feta with tomatoes and olives",
+    "de": "Schafskäse mit Tomaten und Oliven"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "cheese",
+   "aliases": {
+    "en": [
+     "baked feta",
+     "feta al forno",
+     "oven baked feta with tomatoes",
+     "feta with tomatoes and olives"
+    ],
+    "de": [
+     "überbackener schafskäse",
+     "schafskäse aus dem ofen",
+     "feta mit tomaten und oliven",
+     "gebackener feta",
+     "schafskäse überbacken mit tomaten"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "feta",
+     "grams": 150,
+     "resolved": {
+      "id": "usda:2705714",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:G561100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "black olives",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2710090",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "olive oil",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:Q120000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "basil butter",
+   "skip": "a seasoned butter on its own, not a dish"
+  },
+  {
+   "key": "lemon butter",
+   "skip": "a seasoned butter on its own, not a dish"
+  },
+  {
+   "key": "apple dumplings",
+   "names": {
+    "en": "Apple dumplings",
+    "de": "Apfelklöße"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "dumpling",
+   "aliases": {
+    "en": [
+     "sweet apple dumplings",
+     "german apple dumplings",
+     "apple quark dumplings"
+    ],
+    "de": [
+     "apfelknödel",
+     "apfelkloesse",
+     "apfelklösse",
+     "süße apfelklöße"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "wheat flour",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "low-fat quark",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:M713100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 25,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "apple",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:F110100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "breadcrumbs",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:B821000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "semolina slices with sugar and cinnamon",
+   "names": {
+    "en": "Fried semolina slices with cinnamon sugar",
+    "de": "Grießschnitten mit Zimt und Zucker"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "pancakes",
+   "aliases": {
+    "en": [
+     "semolina slices",
+     "fried semolina slices",
+     "semolina fritters with cinnamon sugar"
+    ],
+    "de": [
+     "grießschnitten",
+     "griesschnitten",
+     "grießschnitten gebraten",
+     "gebackene grießschnitten",
+     "grießschnitte mit zimtzucker"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "whole milk",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "semolina",
+     "grams": 30,
+     "resolved": {
+      "id": "cofid:11-903",
+      "via": "verified"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "breadcrumbs",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:B821000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "karthauser dumplings with sugar and cinnamon",
+   "names": {
+    "en": "Carthusian dumplings with cinnamon sugar",
+    "de": "Karthäuser Klöße"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "bread",
+   "aliases": {
+    "en": [
+     "carthusian dumplings",
+     "karthaeuser kloesse",
+     "fried soaked bread rolls with cinnamon sugar"
+    ],
+    "de": [
+     "karthäuserklöße",
+     "karthäuser klösse",
+     "kartäuser klöße",
+     "karthaeuser kloesse",
+     "karthäuser klöße mit zimt und zucker"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "bread roll",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:B511000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 30,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "french toast with sugar and cinnamon",
+   "names": {
+    "en": "French toast with cinnamon sugar",
+    "de": "Arme Ritter"
+   },
+   "serving": {
+    "label": {
+     "en": "2 slices",
+     "de": "2 Scheiben"
+    },
+    "count": 2
+   },
+   "artworkID": "bread",
+   "aliases": {
+    "en": [
+     "poor knights",
+     "eggy bread",
+     "french toast with cinnamon",
+     "cinnamon french toast"
+    ],
+    "de": [
+     "arme ritter mit zimt und zucker",
+     "armer ritter",
+     "pofesen",
+     "french toast",
+     "arme-ritter"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "white bread",
+     "grams": 90,
+     "resolved": {
+      "id": "bls:B311000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 30,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 18,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "savarin",
+   "names": {
+    "en": "Savarin",
+    "de": "Savarin"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "cake",
+   "aliases": {
+    "en": [
+     "savarin cake",
+     "savarin soaked in wine syrup",
+     "yeast ring cake soaked in syrup"
+    ],
+    "de": [
+     "savarin mit weißwein",
+     "savarin getränkt",
+     "savarinkuchen",
+     "savarin-ring"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "wheat flour",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "white wine",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2710689",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "yeast",
+     "grams": 2,
+     "resolved": {
+      "id": "usda:2710005",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "baba",
+   "names": {
+    "en": "Rum baba",
+    "de": "Baba mit Rum"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "cake",
+   "aliases": {
+    "en": [
+     "baba au rhum",
+     "rum baba cake",
+     "baba with rum",
+     "savarin with rum"
+    ],
+    "de": [
+     "rumbaba",
+     "baba au rhum",
+     "baba mit rum getränkt",
+     "rum-baba"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "wheat flour",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 12,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 25,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "raisins",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2709212",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "rum",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2710703",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "dampfnudeln yeast dumplings sweetened",
+   "names": {
+    "en": "Sweet Dampfnudeln",
+    "de": "Dampfnudeln süß"
+   },
+   "serving": {
+    "label": {
+     "en": "2 dumplings",
+     "de": "2 Dampfnudeln"
+    },
+    "count": 2
+   },
+   "artworkID": "dumpling",
+   "aliases": {
+    "en": [
+     "dampfnudeln",
+     "sweet steamed yeast dumplings",
+     "german steamed buns",
+     "dampfnudel"
+    ],
+    "de": [
+     "dampfnudeln",
+     "süße dampfnudeln",
+     "dampfnudel",
+     "dampfnudeln mit zuckerkruste",
+     "dampfnudle"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "wheat flour",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "yeast",
+     "grams": 3,
+     "resolved": {
+      "id": "usda:2710005",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "dampfnudeln yeast dumplings salted",
+   "names": {
+    "en": "Savoury Dampfnudeln",
+    "de": "Dampfnudeln salzig"
+   },
+   "serving": {
+    "label": {
+     "en": "2 dumplings",
+     "de": "2 Dampfnudeln"
+    },
+    "count": 2
+   },
+   "artworkID": "dumpling",
+   "aliases": {
+    "en": [
+     "salted dampfnudeln",
+     "savoury steamed yeast dumplings",
+     "dampfnudeln with salt crust"
+    ],
+    "de": [
+     "salzige dampfnudeln",
+     "dampfnudeln mit salzkruste",
+     "pfälzer dampfnudeln",
+     "dampfnudeln herzhaft"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "wheat flour",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "yeast",
+     "grams": 3,
+     "resolved": {
+      "id": "usda:2710005",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "small yeast pancakes",
+   "names": {
+    "en": "Yeast pancakes",
+    "de": "Hefeplinsen"
+   },
+   "serving": {
+    "label": {
+     "en": "3 pancakes",
+     "de": "3 Plinsen"
+    },
+    "count": 3
+   },
+   "artworkID": "pancakes",
+   "aliases": {
+    "en": [
+     "plinsen",
+     "yeast plinsen",
+     "small yeast pancakes",
+     "yeasted pancakes"
+    ],
+    "de": [
+     "plinsen",
+     "hefeplinse",
+     "hefepfannkuchen",
+     "hefeplinzen",
+     "kleine hefepfannkuchen"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "wheat flour",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "yeast",
+     "grams": 2,
+     "resolved": {
+      "id": "usda:2710005",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "rohrnudeln sweet yeast dumplings",
+   "names": {
+    "en": "Rohrnudeln",
+    "de": "Rohrnudeln"
+   },
+   "serving": {
+    "label": {
+     "en": "2 buns",
+     "de": "2 Rohrnudeln"
+    },
+    "count": 2
+   },
+   "artworkID": "bread",
+   "aliases": {
+    "en": [
+     "rohrnudeln",
+     "bavarian baked yeast buns",
+     "sweet baked yeast dumplings",
+     "buchteln"
+    ],
+    "de": [
+     "rohrnudel",
+     "buchteln",
+     "ofennudeln",
+     "wuchteln",
+     "rohrnudeln gebacken"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "wheat flour",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "yeast",
+     "grams": 3,
+     "resolved": {
+      "id": "usda:2710005",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "small buckwheat pancakes",
+   "names": {
+    "en": "Buckwheat pancakes",
+    "de": "Buchweizenplinsen"
+   },
+   "serving": {
+    "label": {
+     "en": "3 pancakes",
+     "de": "3 Plinsen"
+    },
+    "count": 3
+   },
+   "artworkID": "pancakes",
+   "aliases": {
+    "en": [
+     "buckwheat plinsen",
+     "buckwheat blini",
+     "small buckwheat pancakes"
+    ],
+    "de": [
+     "buchweizenpfannkuchen",
+     "buchweizen plinsen",
+     "buchweizenplinzen",
+     "buchweizenpuffer",
+     "buchweizenblinis"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "buckwheat flour",
+     "grams": 50,
+     "reference": "bls:C424000"
+    },
+    {
+     "name": "wheat flour",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 25,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 5,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 22,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "apple banana pear salad sweetened with honey",
+   "names": {
+    "en": "Apple, banana and pear salad with honey",
+    "de": "Apfel-Bananen-Birnen-Salat mit Honig"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schale"
+    },
+    "count": 1
+   },
+   "artworkID": "apple",
+   "aliases": {
+    "en": [
+     "apple banana pear fruit salad",
+     "fruit salad with honey",
+     "apple pear banana salad"
+    ],
+    "de": [
+     "apfel-bananen-birnensalat",
+     "obstsalat mit apfel banane und birne",
+     "obstsalat mit honig",
+     "apfel banane birne salat"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "apple",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:F110100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "banana",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:F503100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "pear",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:F130100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "honey",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2710281",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lemon juice",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:F601600",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "apple banana salad sweetened with honey",
+   "names": {
+    "en": "Apple and banana salad with honey",
+    "de": "Apfel-Bananen-Salat mit Honig"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schale"
+    },
+    "count": 1
+   },
+   "artworkID": "banana",
+   "aliases": {
+    "en": [
+     "apple banana fruit salad",
+     "apple and banana salad",
+     "banana apple salad with honey"
+    ],
+    "de": [
+     "apfel-bananensalat",
+     "apfel bananen salat",
+     "obstsalat mit apfel und banane",
+     "bananen-apfel-salat"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "apple",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:F110100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "banana",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:F503100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "honey",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2710281",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lemon juice",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:F601600",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "cream dumplings",
+   "names": {
+    "en": "Cream dumplings",
+    "de": "Rahmnockerln"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "dumpling",
+   "aliases": {
+    "en": [
+     "cream gnocchi",
+     "rahmnockerl",
+     "sweet cream dumplings"
+    ],
+    "de": [
+     "rahmnockerl",
+     "rahmnocken",
+     "sahnenockerln",
+     "rahmnockerln gebraten"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "light cream",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:M171500",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "wheat flour",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 40,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 5,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "pancakes with milk 3 5 fat filled with jam",
+   "names": {
+    "en": "Pancake with jam",
+    "de": "Pfannkuchen mit Marmelade"
+   },
+   "serving": {
+    "label": {
+     "en": "1 pancake",
+     "de": "1 Pfannkuchen"
+    },
+    "count": 1
+   },
+   "artworkID": "pancakes",
+   "aliases": {
+    "en": [
+     "pancake filled with jam",
+     "jam pancake",
+     "german pancake with jam",
+     "crepe with jam"
+    ],
+    "de": [
+     "eierkuchen mit marmelade",
+     "pfannkuchen mit konfitüre",
+     "pfannkuchen gefüllt mit marmelade",
+     "marmeladenpfannkuchen",
+     "palatschinken mit marmelade"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "wheat flour",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 50,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "jam",
+     "grams": 35,
+     "resolved": {
+      "id": "bls:S132000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "small quark pancakes",
+   "names": {
+    "en": "Quark pancakes",
+    "de": "Quarkplinsen"
+   },
+   "serving": {
+    "label": {
+     "en": "3 pancakes",
+     "de": "3 Plinsen"
+    },
+    "count": 3
+   },
+   "artworkID": "pancakes",
+   "aliases": {
+    "en": [
+     "quark plinsen",
+     "curd cheese pancakes",
+     "quarkkeulchen",
+     "syrniki"
+    ],
+    "de": [
+     "quarkkeulchen",
+     "quarkplinsen gebraten",
+     "quarkpfannkuchen",
+     "quarkplinzen",
+     "quarkpuffer"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "low-fat quark",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:M713100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "wheat flour",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 30,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "small yeast pancakes with apple",
+   "names": {
+    "en": "Yeast pancakes with apple",
+    "de": "Hefeplinsen mit Apfel"
+   },
+   "serving": {
+    "label": {
+     "en": "3 pancakes",
+     "de": "3 Plinsen"
+    },
+    "count": 3
+   },
+   "artworkID": "pancakes",
+   "aliases": {
+    "en": [
+     "apple plinsen",
+     "yeast pancakes with apple",
+     "apple yeast pancakes"
+    ],
+    "de": [
+     "apfelplinsen",
+     "hefeplinsen mit äpfeln",
+     "apfelpfannküchlein",
+     "hefepfannkuchen mit apfel"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "wheat flour",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "yeast",
+     "grams": 2,
+     "resolved": {
+      "id": "usda:2710005",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "apple",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:F110100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "semolina casserole with raisins",
+   "names": {
+    "en": "Semolina bake with raisins",
+    "de": "Grießauflauf mit Rosinen"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "custard",
+   "aliases": {
+    "en": [
+     "semolina pudding bake with raisins",
+     "baked semolina with raisins",
+     "semolina casserole"
+    ],
+    "de": [
+     "grießauflauf",
+     "griesauflauf mit rosinen",
+     "grießauflauf rosinen",
+     "grieß-auflauf mit rosinen"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "whole milk",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "semolina",
+     "grams": 30,
+     "resolved": {
+      "id": "cofid:11-903",
+      "via": "verified"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 40,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "raisins",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2709212",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "semolina casserole with apple",
+   "names": {
+    "en": "Semolina bake with apple",
+    "de": "Grießauflauf mit Apfel"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "custard",
+   "aliases": {
+    "en": [
+     "apple semolina bake",
+     "baked semolina with apples",
+     "semolina apple casserole"
+    ],
+    "de": [
+     "apfel-grießauflauf",
+     "griesauflauf mit apfel",
+     "grießauflauf mit äpfeln",
+     "grieß-apfel-auflauf"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "whole milk",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "semolina",
+     "grams": 30,
+     "resolved": {
+      "id": "cofid:11-903",
+      "via": "verified"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 40,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "apple",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:F110100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "oat flakes casserole with cocoa",
+   "names": {
+    "en": "Oat bake with cocoa",
+    "de": "Haferflockenauflauf mit Kakao"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "custard",
+   "aliases": {
+    "en": [
+     "chocolate oat bake",
+     "baked oats with cocoa",
+     "oat casserole with cocoa"
+    ],
+    "de": [
+     "haferflockenauflauf",
+     "schoko-haferflockenauflauf",
+     "haferauflauf mit kakao",
+     "haferflocken auflauf mit kakao"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "rolled oats",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:C133000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 40,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cocoa powder",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:S711000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "wheat roll casserole",
+   "names": {
+    "en": "Bread roll bake",
+    "de": "Semmelauflauf"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "bread",
+   "aliases": {
+    "en": [
+     "bread pudding",
+     "bread roll pudding",
+     "semmel casserole"
+    ],
+    "de": [
+     "semmelschmarrn auflauf",
+     "brötchenauflauf",
+     "süßer semmelauflauf",
+     "semmel-auflauf",
+     "brotauflauf süß"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "bread roll",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:B511000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 50,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "raisins",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2709212",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "souffle with rolls apple and raisins",
+   "names": {
+    "en": "Scheiterhaufen",
+    "de": "Scheiterhaufen"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "bread",
+   "aliases": {
+    "en": [
+     "apple bread pudding",
+     "bread pudding with apples and raisins",
+     "scheiterhaufen"
+    ],
+    "de": [
+     "scheiterhaufen mit äpfeln",
+     "semmelauflauf mit äpfeln",
+     "apfel-semmel-auflauf",
+     "scheiterhaufen auflauf"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "bread roll",
+     "grams": 70,
+     "resolved": {
+      "id": "bls:B511000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "apple",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:F110100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "raisins",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2709212",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 40,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "cherry souffle",
+   "names": {
+    "en": "Kirschenmichel",
+    "de": "Kirschenmichel"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "cherries",
+   "aliases": {
+    "en": [
+     "cherry bread pudding",
+     "cherry michel",
+     "baked cherry bread pudding"
+    ],
+    "de": [
+     "kirschmichel",
+     "kirschenplotzer",
+     "kirschauflauf",
+     "kerschemichel",
+     "kirschenmichel gebacken"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "bread roll",
+     "grams": 70,
+     "resolved": {
+      "id": "bls:B511000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sour cherries, stewed",
+     "grams": 100,
+     "reference": "bls:F212152"
+    },
+    {
+     "name": "whole milk",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 40,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "almonds",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:H210100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "chocolate casserole",
+   "names": {
+    "en": "Chocolate pudding bake",
+    "de": "Schokoladenauflauf"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "chocolate",
+   "aliases": {
+    "en": [
+     "chocolate souffle bake",
+     "baked chocolate pudding",
+     "chocolate casserole"
+    ],
+    "de": [
+     "schokoauflauf",
+     "schokoladen-auflauf",
+     "schokoladensoufflé",
+     "schokoladen auflauf"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "dark chocolate",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:S560000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 60,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 25,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "wheat flour",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "apple casserole",
+   "names": {
+    "en": "Apple bake",
+    "de": "Apfelauflauf"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "apple",
+   "aliases": {
+    "en": [
+     "baked apple pudding",
+     "apple casserole",
+     "apple batter bake"
+    ],
+    "de": [
+     "apfel auflauf",
+     "äpfelauflauf",
+     "süßer apfelauflauf",
+     "apfelauflauf mit teig"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "apple",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:F110100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "wheat flour",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 40,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 25,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "quark casserole with apple",
+   "names": {
+    "en": "Quark bake with apple",
+    "de": "Quarkauflauf mit Apfel"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "custard",
+   "aliases": {
+    "en": [
+     "apple cheesecake bake",
+     "quark apple casserole",
+     "curd cheese bake with apples"
+    ],
+    "de": [
+     "apfel-quarkauflauf",
+     "quarkauflauf mit äpfeln",
+     "topfenauflauf mit apfel",
+     "quark-apfel-auflauf"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "quark, 20% fat",
+     "grams": 150,
+     "reference": "bls:M713300"
+    },
+    {
+     "name": "egg",
+     "grams": 40,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "semolina",
+     "grams": 20,
+     "resolved": {
+      "id": "cofid:11-903",
+      "via": "verified"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 12,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "apple",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:F110100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "souffle with mixed fruit",
+   "names": {
+    "en": "Fruit bread pudding",
+    "de": "Fruchtmichel"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "bread",
+   "aliases": {
+    "en": [
+     "fruit michel",
+     "bread pudding with mixed fruit",
+     "baked fruit bread pudding"
+    ],
+    "de": [
+     "fruchtmichel mit früchten",
+     "obstmichel",
+     "früchteauflauf mit brötchen",
+     "fruchtmichel gebacken"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "bread roll",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:B511000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "mixed berries",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:F092100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 40,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 25,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "rusk pudding with apple",
+   "names": {
+    "en": "Rusk bake with apple",
+    "de": "Zwiebackauflauf mit Apfel"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "apple",
+   "aliases": {
+    "en": [
+     "rusk and apple bake",
+     "zwieback apple casserole",
+     "rusk pudding with apples"
+    ],
+    "de": [
+     "zwiebackauflauf",
+     "zwieback-apfel-auflauf",
+     "zwiebackauflauf mit äpfeln",
+     "apfel-zwieback-auflauf"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "rusk",
+     "grams": 40,
+     "reference": "bls:D036000"
+    },
+    {
+     "name": "apple",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:F110100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 40,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "brown bread casserole with chocolate",
+   "names": {
+    "en": "Rye bread pudding with chocolate",
+    "de": "Schwarzbrotauflauf mit Schokolade"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "chocolate",
+   "aliases": {
+    "en": [
+     "black bread pudding with chocolate",
+     "chocolate rye bread bake",
+     "pumpernickel chocolate pudding"
+    ],
+    "de": [
+     "schwarzbrotauflauf",
+     "schwarzbrotpudding mit schokolade",
+     "schokoladen-schwarzbrot-auflauf",
+     "brotauflauf mit schokolade"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "pumpernickel",
+     "grams": 50,
+     "reference": "bls:B780500"
+    },
+    {
+     "name": "dark chocolate",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:S560000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 60,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 30,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "almonds",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:H210100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "rice pudding with almonds and sultanas",
+   "names": {
+    "en": "Rice pudding with almonds and sultanas",
+    "de": "Milchreispudding mit Mandeln und Sultaninen"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schale"
+    },
+    "count": 1
+   },
+   "artworkID": "custard",
+   "aliases": {
+    "en": [
+     "baked rice pudding with almonds and raisins",
+     "rice pudding with raisins and almonds",
+     "almond sultana rice pudding"
+    ],
+    "de": [
+     "milchreis mit mandeln und rosinen",
+     "reispudding mit mandeln",
+     "milchreispudding mit rosinen",
+     "milchreisauflauf mit mandeln"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "rice pudding with milk",
+     "grams": 200,
+     "reference": "bls:X810033"
+    },
+    {
+     "name": "almonds",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:H210100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "raisins",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2709212",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 25,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "nut pudding",
+   "names": {
+    "en": "Hazelnut pudding (steamed)",
+    "de": "Nusspudding"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "custard",
+   "aliases": {
+    "en": [
+     "steamed nut pudding",
+     "hazelnut steamed pudding",
+     "nut sponge pudding"
+    ],
+    "de": [
+     "nußpudding",
+     "haselnusspudding gedämpft",
+     "nusspudding im wasserbad",
+     "nuss-pudding"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "hazelnuts",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:H130400",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 60,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 30,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "breadcrumbs",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:B821000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "plum pudding",
+   "names": {
+    "en": "Christmas pudding",
+    "de": "Plumpudding"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "cake",
+   "aliases": {
+    "en": [
+     "plum pudding",
+     "christmas pudding",
+     "figgy pudding",
+     "xmas pudding"
+    ],
+    "de": [
+     "plum pudding",
+     "weihnachtspudding",
+     "englischer weihnachtspudding",
+     "plumpuding"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "suet",
+     "grams": 15,
+     "reference": "cofid:17-011"
+    },
+    {
+     "name": "raisins",
+     "grams": 40,
+     "resolved": {
+      "id": "usda:2709212",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "currants",
+     "grams": 15,
+     "resolved": {
+      "id": "cofid:14-074",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "breadcrumbs",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:B821000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "wheat flour",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "brown sugar",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2710260",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "candied lemon peel",
+     "grams": 10,
+     "reference": "bls:R381200"
+    },
+    {
+     "name": "whole milk",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "pudding english style",
+   "names": {
+    "en": "English steamed sponge pudding",
+    "de": "Pudding englische Art"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "cake",
+   "aliases": {
+    "en": [
+     "steamed sponge pudding",
+     "english sponge pudding",
+     "english style pudding"
+    ],
+    "de": [
+     "englischer pudding",
+     "gedämpfter rührteigpudding",
+     "pudding nach englischer art",
+     "englischer dampfpudding"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "wheat flour",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 25,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 50,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "frankfurt pudding",
+   "names": {
+    "en": "Frankfurt pudding with red wine sauce",
+    "de": "Frankfurter Pudding"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "custard",
+   "aliases": {
+    "en": [
+     "frankfurter pudding",
+     "steamed almond pudding with wine sauce",
+     "frankfurt style pudding"
+    ],
+    "de": [
+     "frankfurter pudding mit rotweinsauce",
+     "frankfurter mandelpudding",
+     "frankfurter dampfpudding",
+     "frankfurter puding"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "bread roll",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:B511000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "almonds",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:H210100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 25,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "red wine",
+     "grams": 60,
+     "resolved": {
+      "id": "usda:2710688",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "red grape juice",
+     "grams": 150,
+     "reference": "bls:F311600"
+    },
+    {
+     "name": "cornstarch",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:C446000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "buckwheat groats",
+   "names": {
+    "en": "Buckwheat porridge with milk",
+    "de": "Buchweizengrütze mit Milch"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schale"
+    },
+    "count": 1
+   },
+   "artworkID": "cereal",
+   "aliases": {
+    "en": [
+     "buckwheat groats with milk",
+     "buckwheat milk porridge",
+     "buckwheat kasha with milk"
+    ],
+    "de": [
+     "buchweizengrütze",
+     "buchweizenbrei",
+     "buchweizen milchbrei",
+     "buchweizengrütze mit milch"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "buckwheat groats",
+     "grams": 50,
+     "reference": "bls:C327000"
+    },
+    {
+     "name": "whole milk",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "pears",
+   "skip": "pears poached in syrup, a compote on its own"
+  },
+  {
+   "key": "apple sauce",
+   "skip": "applesauce, a single food"
+  },
+  {
+   "key": "apple sauce with cinnamon",
+   "skip": "applesauce, a single food"
+  },
+  {
+   "key": "apple filled",
+   "names": {
+    "en": "Stuffed baked apple",
+    "de": "Bratapfel gefüllt"
+   },
+   "serving": {
+    "label": {
+     "en": "1 apple",
+     "de": "1 Apfel"
+    },
+    "count": 1
+   },
+   "artworkID": "apple",
+   "aliases": {
+    "en": [
+     "baked apple with filling",
+     "stuffed baked apple",
+     "baked apple with marzipan and raisins"
+    ],
+    "de": [
+     "gefüllter bratapfel",
+     "bratapfel mit füllung",
+     "bratapfel mit marzipan",
+     "bratäpfel gefüllt",
+     "bratapfel mit nüssen und rosinen"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "apple",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:F110100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "marzipan",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:S420000",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "raisins",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2709212",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "almonds",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:H210100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 5,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "apple unfilled",
+   "names": {
+    "en": "Baked apple",
+    "de": "Bratapfel"
+   },
+   "serving": {
+    "label": {
+     "en": "1 apple",
+     "de": "1 Apfel"
+    },
+    "count": 1
+   },
+   "artworkID": "apple",
+   "aliases": {
+    "en": [
+     "baked apple",
+     "roasted apple",
+     "oven baked apple"
+    ],
+    "de": [
+     "bratapfel ungefüllt",
+     "gebackener apfel",
+     "bratäpfel",
+     "bratapfel ohne füllung"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "apple",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:F110100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "apfelschmarren",
+   "names": {
+    "en": "Apple Schmarren",
+    "de": "Apfelschmarren"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "pancakes",
+   "aliases": {
+    "en": [
+     "apple kaiserschmarrn",
+     "shredded apple pancake",
+     "apfelschmarrn"
+    ],
+    "de": [
+     "apfelschmarrn",
+     "apfel-kaiserschmarrn",
+     "apfelschmaren",
+     "schmarren mit äpfeln"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "wheat flour",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 60,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "apple",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:F110100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "raisins",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2709212",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "powdered sugar",
+     "grams": 5,
+     "resolved": {
+      "id": "usda:2710259",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "apple froth with rum",
+   "names": {
+    "en": "Apple snow with rum",
+    "de": "Apfelschnee mit Rum"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schale"
+    },
+    "count": 1
+   },
+   "artworkID": "apple",
+   "aliases": {
+    "en": [
+     "apple snow",
+     "apple foam with rum",
+     "apple froth"
+    ],
+    "de": [
+     "apfelschnee",
+     "apfelschaum mit rum",
+     "apfelschnee rum",
+     "apfel-eischnee"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "applesauce",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:Y864112",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg white",
+     "grams": 30,
+     "resolved": {
+      "id": "usda:2707168",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "rum",
+     "grams": 5,
+     "resolved": {
+      "id": "usda:2710703",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "lemon juice",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:F601600",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "apple compote with vanilla cream",
+   "names": {
+    "en": "Stewed apples with vanilla sauce",
+    "de": "Vanilleäpfel"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schale"
+    },
+    "count": 1
+   },
+   "artworkID": "apple",
+   "aliases": {
+    "en": [
+     "vanilla apples",
+     "apples with vanilla sauce",
+     "apple compote with custard"
+    ],
+    "de": [
+     "vanille-äpfel",
+     "äpfel mit vanillesoße",
+     "apfelkompott mit vanillesauce",
+     "vanilleaepfel"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "apple, stewed",
+     "grams": 150,
+     "reference": "bls:F110152"
+    },
+    {
+     "name": "vanilla sauce",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:X361163",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "heavy cream",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:M173800",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 5,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "strawberry mousse",
+   "names": {
+    "en": "Strawberry mousse",
+    "de": "Erdbeerschaum"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schale"
+    },
+    "count": 1
+   },
+   "artworkID": "strawberry",
+   "aliases": {
+    "en": [
+     "strawberry foam",
+     "strawberry cream mousse",
+     "strawberry fool"
+    ],
+    "de": [
+     "erdbeermousse",
+     "erdbeerschaum mit sahne",
+     "erdbeer-mousse",
+     "erdbeerschaumspeise"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "strawberries",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:F301100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "heavy cream",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:M173800",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg white",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2707168",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "gelatine",
+     "grams": 2,
+     "resolved": {
+      "id": "bls:R468000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "layered sponge cake cream dish with fruits",
+   "names": {
+    "en": "Tutti frutti trifle",
+    "de": "Tutti-Frutti"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schale"
+    },
+    "count": 1
+   },
+   "artworkID": "custard",
+   "aliases": {
+    "en": [
+     "tutti frutti dessert",
+     "fruit trifle",
+     "layered fruit and custard dessert"
+    ],
+    "de": [
+     "tutti frutti",
+     "tuttifrutti",
+     "tutti-frutti-dessert",
+     "schichtdessert mit früchten",
+     "früchte-trifle"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "ladyfingers",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:D710200",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vanilla pudding",
+     "grams": 80,
+     "reference": "bls:R481132"
+    },
+    {
+     "name": "canned fruit cocktail",
+     "grams": 80,
+     "reference": "bls:F091902"
+    },
+    {
+     "name": "whipped cream",
+     "grams": 40,
+     "resolved": {
+      "id": "usda:2705598",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "orange cream with white wine",
+   "names": {
+    "en": "Orange cream with white wine",
+    "de": "Orangencreme mit Weißwein"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schale"
+    },
+    "count": 1
+   },
+   "artworkID": "orange",
+   "aliases": {
+    "en": [
+     "orange mousse with wine",
+     "orange wine cream",
+     "whipped orange cream"
+    ],
+    "de": [
+     "orangencreme",
+     "orangen-weincreme",
+     "orangencreme abgeschlagen",
+     "orangencreme mit wein"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "orange juice",
+     "grams": 60,
+     "resolved": {
+      "id": "usda:2709186",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "white wine",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2710689",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 40,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 25,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "heavy cream",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:M173800",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "gelatine",
+     "grams": 3,
+     "resolved": {
+      "id": "bls:R468000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "strawberries sugared",
+   "skip": "sugared berries, essentially a single food"
+  },
+  {
+   "key": "blueberries sugared",
+   "skip": "sugared berries, essentially a single food"
+  },
+  {
+   "key": "raspberries sugared",
+   "skip": "sugared berries, essentially a single food"
+  },
+  {
+   "key": "red currants sugared",
+   "skip": "sugared berries, essentially a single food"
+  },
+  {
+   "key": "fruit preserved in rum with sugar",
+   "skip": "an alcoholic fruit preserve (Rumtopf)"
+  },
+  {
+   "key": "rhubarb cream",
+   "names": {
+    "en": "Rhubarb cream",
+    "de": "Rhabarbercreme"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schale"
+    },
+    "count": 1
+   },
+   "artworkID": "custard",
+   "aliases": {
+    "en": [
+     "rhubarb pudding",
+     "creamy rhubarb dessert",
+     "rhubarb custard"
+    ],
+    "de": [
+     "rhabarbercreme einfach",
+     "rhabarberpudding",
+     "rhabarber-creme",
+     "rhabarbercreme mit milch"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "rhubarb",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:F081100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 25,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cornstarch",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:C446000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "grapefruit sugared",
+   "skip": "sugared fruit, essentially a single food"
+  },
+  {
+   "key": "sponge cake cream dish",
+   "names": {
+    "en": "Charlotte russe",
+    "de": "Charlotte russische Art"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "cake",
+   "aliases": {
+    "en": [
+     "charlotte russe",
+     "charlotte with bavarian cream",
+     "ladyfinger charlotte"
+    ],
+    "de": [
+     "charlotte russe",
+     "charlotte mit bayerischer creme",
+     "russische charlotte",
+     "charlotte russisch"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "ladyfingers",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:D710200",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg yolk",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2707172",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "heavy cream",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:M173800",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "gelatine",
+     "grams": 3,
+     "resolved": {
+      "id": "bls:R468000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "fruit aspic",
+   "names": {
+    "en": "Fruit in wine jelly",
+    "de": "Fruchtsulze"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schale"
+    },
+    "count": 1
+   },
+   "artworkID": "grapes",
+   "aliases": {
+    "en": [
+     "fruit jelly with white wine",
+     "fruit aspic",
+     "wine jelly with fruit"
+    ],
+    "de": [
+     "fruchtsülze",
+     "früchtesulze",
+     "obstsulze mit weißwein",
+     "fruchtsulze mit weißwein"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "canned fruit cocktail",
+     "grams": 100,
+     "reference": "bls:F091902"
+    },
+    {
+     "name": "white wine",
+     "grams": 50,
+     "resolved": {
+      "id": "usda:2710689",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "water",
+     "grams": 50,
+     "resolved": {
+      "id": "usda:2710706",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 8,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "gelatine",
+     "grams": 4,
+     "resolved": {
+      "id": "bls:R468000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "fruit jelly sugar reduced",
+   "skip": "a sugar-reduced variant of Rote Grütze in this batch"
+  },
+  {
+   "key": "fruit jelly",
+   "skip": "duplicate of Rote Grütze in this batch (alias added there)"
+  },
+  {
+   "key": "red fruit jelly with artificial sweetener",
+   "skip": "a sweetener variant of Rote Grütze in this batch"
+  },
+  {
+   "key": "red fruit jelly of fruit juice",
+   "skip": "a variant of Rote Grütze in this batch"
+  },
+  {
+   "key": "red fruit jelly",
+   "names": {
+    "en": "Rote Grütze",
+    "de": "Rote Grütze"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schale"
+    },
+    "count": 1
+   },
+   "artworkID": "cherries",
+   "aliases": {
+    "en": [
+     "red berry pudding",
+     "red fruit pudding",
+     "rote gruetze",
+     "danish red berry pudding"
+    ],
+    "de": [
+     "rote grütze",
+     "rote gruetze",
+     "fruchtgrütze",
+     "rote grütze aus beeren",
+     "rotegrütze"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "mixed berries",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:F092100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "red currant juice",
+     "grams": 60,
+     "reference": "bls:F321600"
+    },
+    {
+     "name": "sugar",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cornstarch",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:C446000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "apple jelly",
+   "names": {
+    "en": "Apple Grütze",
+    "de": "Apfelgrütze"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schale"
+    },
+    "count": 1
+   },
+   "artworkID": "apple",
+   "aliases": {
+    "en": [
+     "apple fruit pudding",
+     "apple gruetze",
+     "thickened apple dessert"
+    ],
+    "de": [
+     "apfel-grütze",
+     "apfelgruetze",
+     "grütze aus äpfeln",
+     "apfelgrütze mit apfelsaft"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "apple",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:F110100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "apple juice",
+     "grams": 80,
+     "resolved": {
+      "id": "usda:2709320",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 12,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cornstarch",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:C446000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "gooseberry jelly with whipped cream",
+   "names": {
+    "en": "Gooseberry Grütze with whipped cream",
+    "de": "Stachelbeergrütze mit Sahne"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schale"
+    },
+    "count": 1
+   },
+   "artworkID": "grapes",
+   "aliases": {
+    "en": [
+     "gooseberry pudding with cream",
+     "gooseberry fruit jelly with cream",
+     "gooseberry gruetze"
+    ],
+    "de": [
+     "stachelbeergrütze",
+     "stachelbeergrütze mit schlagsahne",
+     "stachelbeer-grütze mit sahne",
+     "stachelbeergruetze"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "gooseberries",
+     "grams": 120,
+     "reference": "bls:F305100"
+    },
+    {
+     "name": "apple juice",
+     "grams": 50,
+     "resolved": {
+      "id": "usda:2709320",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cornstarch",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:C446000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whipped cream",
+     "grams": 30,
+     "resolved": {
+      "id": "usda:2705598",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "red fruit jelly unsweetened",
+   "skip": "an unsweetened variant of Rote Grütze in this batch"
+  },
+  {
+   "key": "cherry jelly",
+   "names": {
+    "en": "Cherry Grütze",
+    "de": "Kirschgrütze"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schale"
+    },
+    "count": 1
+   },
+   "artworkID": "cherries",
+   "aliases": {
+    "en": [
+     "sour cherry pudding",
+     "cherry fruit jelly",
+     "cherry gruetze"
+    ],
+    "de": [
+     "kirsch-grütze",
+     "sauerkirschgrütze",
+     "kirschgruetze",
+     "grütze aus kirschen"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "sour cherries",
+     "grams": 120,
+     "reference": "bls:F212100"
+    },
+    {
+     "name": "sour cherry juice",
+     "grams": 60,
+     "reference": "bls:F212600"
+    },
+    {
+     "name": "sugar",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cornstarch",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:C446000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "rhubarb jelly",
+   "names": {
+    "en": "Rhubarb Grütze",
+    "de": "Rhabarbergrütze"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schale"
+    },
+    "count": 1
+   },
+   "artworkID": "neutral",
+   "aliases": {
+    "en": [
+     "rhubarb fruit pudding",
+     "rhubarb gruetze",
+     "thickened rhubarb dessert"
+    ],
+    "de": [
+     "rhabarber-grütze",
+     "rhabarbergruetze",
+     "grütze aus rhabarber",
+     "rhabarberkompott gebunden"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "rhubarb",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:F081100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "apple juice",
+     "grams": 50,
+     "resolved": {
+      "id": "usda:2709320",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 25,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cornstarch",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:C446000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "red fruit jelly sugar reduced",
+   "skip": "a sugar-reduced variant of Rote Grütze in this batch"
+  },
+  {
+   "key": "strawberry froth",
+   "names": {
+    "en": "Strawberry snow",
+    "de": "Erdbeerschnee"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schale"
+    },
+    "count": 1
+   },
+   "artworkID": "strawberry",
+   "aliases": {
+    "en": [
+     "strawberry snow",
+     "strawberry meringue foam",
+     "strawberry whip"
+    ],
+    "de": [
+     "erdbeer-schnee",
+     "erdbeerschaum mit eischnee",
+     "erdbeereischnee",
+     "erdbeerschnee dessert"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "strawberries",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:F301100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg white",
+     "grams": 30,
+     "resolved": {
+      "id": "usda:2707168",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 30,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lemon juice",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:F601600",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "orange cream",
+   "names": {
+    "en": "Orange cream pudding",
+    "de": "Orangencreme einfach"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schale"
+    },
+    "count": 1
+   },
+   "artworkID": "orange",
+   "aliases": {
+    "en": [
+     "orange custard",
+     "orange pudding",
+     "simple orange cream"
+    ],
+    "de": [
+     "orangenpudding",
+     "orangen-creme",
+     "orangencreme mit stärke",
+     "orangenflammeri"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "orange juice",
+     "grams": 100,
+     "resolved": {
+      "id": "usda:2709186",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cornstarch",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:C446000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 25,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "russian cream with whipped cream",
+   "names": {
+    "en": "Russian cream",
+    "de": "Russische Creme"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schale"
+    },
+    "count": 1
+   },
+   "artworkID": "custard",
+   "aliases": {
+    "en": [
+     "russian cream with rum",
+     "russian cream dessert",
+     "creme russe"
+    ],
+    "de": [
+     "russische creme mit schlagsahne",
+     "russische creme mit rum",
+     "russischcreme",
+     "russische krem"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "egg",
+     "grams": 50,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 30,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "heavy cream",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:M173800",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "gelatine",
+     "grams": 3,
+     "resolved": {
+      "id": "bls:R468000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "rum",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2710703",
+      "via": "exact"
+     }
+    }
+   ]
+  },
+  {
+   "key": "lemon jelly",
+   "names": {
+    "en": "Lemon jelly",
+    "de": "Zitronenwackelpudding"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schale"
+    },
+    "count": 1
+   },
+   "artworkID": "lemon",
+   "aliases": {
+    "en": [
+     "lemon jello",
+     "lemon jelly dessert",
+     "wobbly lemon jelly"
+    ],
+    "de": [
+     "wackelpudding zitrone",
+     "zitronen-wackelpudding",
+     "zitronengötterspeise",
+     "götterspeise zitrone",
+     "wackelpeter zitrone"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "water",
+     "grams": 150,
+     "resolved": {
+      "id": "usda:2710706",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lemon juice",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:F601600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 30,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "gelatine",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:R468000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "caramel pudding",
+   "names": {
+    "en": "Caramel cream",
+    "de": "Karamellcreme"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schale"
+    },
+    "count": 1
+   },
+   "artworkID": "custard",
+   "aliases": {
+    "en": [
+     "caramel custard",
+     "caramel pudding",
+     "creme caramel"
+    ],
+    "de": [
+     "karamellcreme gestürzt",
+     "karamellpudding",
+     "karamelcreme",
+     "caramelcreme",
+     "karamell-creme"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "whole milk",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 30,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cornstarch",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:C446000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg yolk",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2707172",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "semolina pudding with egg",
+   "names": {
+    "en": "Semolina pudding",
+    "de": "Grießpudding"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schale"
+    },
+    "count": 1
+   },
+   "artworkID": "custard",
+   "aliases": {
+    "en": [
+     "semolina flummery",
+     "semolina pudding with egg",
+     "semolina milk pudding"
+    ],
+    "de": [
+     "grießflammeri",
+     "griespudding",
+     "grießflammeri mit ei",
+     "grießpudding mit ei",
+     "grieß pudding"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "whole milk",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "semolina",
+     "grams": 25,
+     "resolved": {
+      "id": "cofid:11-903",
+      "via": "verified"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 30,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "butter cream filling",
+   "skip": "a cake filling on its own"
+  },
+  {
+   "key": "almond cream",
+   "names": {
+    "en": "Bavarian cream with almond brittle",
+    "de": "Mandelcreme"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schale"
+    },
+    "count": 1
+   },
+   "artworkID": "custard",
+   "aliases": {
+    "en": [
+     "almond bavarian cream",
+     "almond brittle cream",
+     "bavarian cream with almonds"
+    ],
+    "de": [
+     "mandelcreme mit krokant",
+     "bayerische creme mit mandelkrokant",
+     "mandelkrokantcreme",
+     "mandel-creme"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "whole milk",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg yolk",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2707172",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "heavy cream",
+     "grams": 70,
+     "resolved": {
+      "id": "bls:M173800",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "gelatine",
+     "grams": 3,
+     "resolved": {
+      "id": "bls:R468000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "almond brittle",
+     "grams": 20,
+     "reference": "bls:Y8A2000"
+    }
+   ]
+  },
+  {
+   "key": "vanilla pudding with egg yolk",
+   "names": {
+    "en": "Vanilla pudding",
+    "de": "Vanillepudding"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schale"
+    },
+    "count": 1
+   },
+   "artworkID": "custard",
+   "aliases": {
+    "en": [
+     "homemade vanilla pudding",
+     "vanilla flummery",
+     "vanilla custard pudding"
+    ],
+    "de": [
+     "vanilleflammeri",
+     "vanillepudding mit eigelb",
+     "vanille pudding",
+     "selbstgemachter vanillepudding",
+     "vanilepudding"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "whole milk",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cornstarch",
+     "grams": 18,
+     "resolved": {
+      "id": "bls:C446000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg yolk",
+     "grams": 18,
+     "resolved": {
+      "id": "usda:2707172",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "chocolate semolina pudding",
+   "names": {
+    "en": "Chocolate semolina pudding",
+    "de": "Schokoladen-Grießpudding"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schale"
+    },
+    "count": 1
+   },
+   "artworkID": "chocolate",
+   "aliases": {
+    "en": [
+     "chocolate semolina flummery",
+     "cocoa semolina pudding",
+     "chocolate semolina"
+    ],
+    "de": [
+     "schoko-grießpudding",
+     "schokoladengrießpudding",
+     "schokoladen-grießflammeri",
+     "kakao-grießpudding"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "whole milk",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "semolina",
+     "grams": 25,
+     "resolved": {
+      "id": "cofid:11-903",
+      "via": "verified"
+     }
+    },
+    {
+     "name": "cocoa powder",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:S711000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 25,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "hazelnut pudding",
+   "names": {
+    "en": "Hazelnut pudding",
+    "de": "Haselnusspudding"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schale"
+    },
+    "count": 1
+   },
+   "artworkID": "custard",
+   "aliases": {
+    "en": [
+     "hazelnut flummery",
+     "nut pudding with hazelnuts",
+     "hazelnut custard"
+    ],
+    "de": [
+     "haselnussflammeri",
+     "haselnuss-pudding",
+     "haselnußpudding",
+     "nusspudding mit haselnüssen"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "whole milk",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cornstarch",
+     "grams": 18,
+     "resolved": {
+      "id": "bls:C446000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "hazelnuts",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:H130400",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg yolk",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2707172",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "semolina pudding with egg and cherry juice",
+   "names": {
+    "en": "Semolina pudding with cherry juice",
+    "de": "Grießpudding mit Kirschsaft"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schale"
+    },
+    "count": 1
+   },
+   "artworkID": "cherries",
+   "aliases": {
+    "en": [
+     "cherry semolina pudding",
+     "semolina flummery with cherry juice",
+     "semolina pudding with cherries"
+    ],
+    "de": [
+     "grießflammeri mit kirschsaft",
+     "kirsch-grießpudding",
+     "griespudding mit kirschsaft",
+     "grießpudding mit ei und kirschsaft"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "whole milk",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sour cherry juice",
+     "grams": 60,
+     "reference": "bls:F212600"
+    },
+    {
+     "name": "semolina",
+     "grams": 25,
+     "resolved": {
+      "id": "cofid:11-903",
+      "via": "verified"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 25,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "semolina pudding with egg and almonds",
+   "names": {
+    "en": "Semolina pudding with almonds",
+    "de": "Grießpudding mit Mandeln"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schale"
+    },
+    "count": 1
+   },
+   "artworkID": "custard",
+   "aliases": {
+    "en": [
+     "almond semolina pudding",
+     "semolina flummery with almonds",
+     "semolina pudding with egg and almonds"
+    ],
+    "de": [
+     "grießflammeri mit mandeln",
+     "mandel-grießpudding",
+     "griespudding mit mandeln",
+     "grießpudding mit ei und mandeln"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "whole milk",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "semolina",
+     "grams": 25,
+     "resolved": {
+      "id": "cofid:11-903",
+      "via": "verified"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 30,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "almonds",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:H210100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "apple sauce with artificial sweetener",
+   "skip": "applesauce, a single food"
+  },
+  {
+   "key": "apple sauce unsweetened",
+   "skip": "applesauce, a single food"
+  },
+  {
+   "key": "welfencreme",
+   "names": {
+    "en": "Welfen cream",
+    "de": "Welfencreme"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schale"
+    },
+    "count": 1
+   },
+   "artworkID": "custard",
+   "aliases": {
+    "en": [
+     "welfen pudding",
+     "vanilla pudding with wine foam",
+     "guelph cream"
+    ],
+    "de": [
+     "welfenspeise",
+     "welfenpudding",
+     "welfen-creme",
+     "vanillepudding mit weinschaum"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "whole milk",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cornstarch",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:C446000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 30,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg yolk",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2707172",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg white",
+     "grams": 30,
+     "resolved": {
+      "id": "usda:2707168",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "white wine",
+     "grams": 50,
+     "resolved": {
+      "id": "usda:2710689",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "strawberry carpaccio",
+   "names": {
+    "en": "Strawberry carpaccio",
+    "de": "Erdbeer-Carpaccio"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "strawberry",
+   "aliases": {
+    "en": [
+     "strawberry carpaccio with white wine",
+     "sliced strawberries with wine",
+     "strawberries carpaccio"
+    ],
+    "de": [
+     "erdbeercarpaccio",
+     "erdbeer carpaccio mit weißwein",
+     "carpaccio von erdbeeren",
+     "erdbeer-carpacio"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "strawberries",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:F301100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "white wine",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2710689",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 5,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "mint",
+     "grams": 2,
+     "resolved": {
+      "id": "ciqual:11027",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "buttermilk aspic",
+   "names": {
+    "en": "Buttermilk jelly",
+    "de": "Buttermilchsulze"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schale"
+    },
+    "count": 1
+   },
+   "artworkID": "milk",
+   "aliases": {
+    "en": [
+     "buttermilk jelly",
+     "buttermilk pudding",
+     "set buttermilk dessert"
+    ],
+    "de": [
+     "buttermilchgelee",
+     "buttermilch-sulze",
+     "buttermilchcreme mit gelatine",
+     "buttermilchspeise"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "buttermilk",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:M150000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "gelatine",
+     "grams": 4,
+     "resolved": {
+      "id": "bls:R468000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lemon juice",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:F601600",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "yeast pudding",
+   "names": {
+    "en": "Yeast pudding",
+    "de": "Hefepudding"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "cake",
+   "aliases": {
+    "en": [
+     "steamed yeast pudding",
+     "yeast dough pudding",
+     "yeast pudding with raisins"
+    ],
+    "de": [
+     "hefe-pudding",
+     "hefeteigpudding",
+     "dampfpudding mit hefe",
+     "hefepudding mit rosinen"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "wheat flour",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 25,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 30,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "yeast",
+     "grams": 3,
+     "resolved": {
+      "id": "usda:2710005",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "raisins",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2709212",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "vanilla cream",
+   "names": {
+    "en": "Vanilla cream",
+    "de": "Vanillecreme"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schale"
+    },
+    "count": 1
+   },
+   "artworkID": "custard",
+   "aliases": {
+    "en": [
+     "vanilla custard cream",
+     "simple vanilla cream",
+     "vanilla creme dessert"
+    ],
+    "de": [
+     "vanillecreme einfach",
+     "vanille-creme",
+     "vanillekrem",
+     "vanillecreme mit sahne"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "whole milk",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg yolk",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2707172",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cornstarch",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:C446000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "heavy cream",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:M173800",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "chocolate cream with rum",
+   "names": {
+    "en": "Chocolate cream with rum",
+    "de": "Schokoladencreme mit Rum"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schale"
+    },
+    "count": 1
+   },
+   "artworkID": "chocolate",
+   "aliases": {
+    "en": [
+     "chocolate rum cream",
+     "chocolate mousse with rum and gelatine",
+     "whipped chocolate cream"
+    ],
+    "de": [
+     "schokocreme mit rum",
+     "schokoladencreme abgeschlagen",
+     "schokoladen-rum-creme",
+     "schokoladencreme"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "dark chocolate",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:S560000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 40,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "heavy cream",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:M173800",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "gelatine",
+     "grams": 2,
+     "resolved": {
+      "id": "bls:R468000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "rum",
+     "grams": 8,
+     "resolved": {
+      "id": "usda:2710703",
+      "via": "exact"
+     }
+    }
+   ]
+  },
+  {
+   "key": "hazelnut cream",
+   "names": {
+    "en": "Hazelnut cream",
+    "de": "Haselnusscreme"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schale"
+    },
+    "count": 1
+   },
+   "artworkID": "custard",
+   "aliases": {
+    "en": [
+     "hazelnut custard cream",
+     "stirred hazelnut cream",
+     "hazelnut dessert cream"
+    ],
+    "de": [
+     "haselnusscreme eingerührt",
+     "haselnuss-creme",
+     "nusscreme dessert",
+     "haselnußcreme"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "whole milk",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "hazelnuts",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:H130400",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cornstarch",
+     "grams": 12,
+     "resolved": {
+      "id": "bls:C446000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "heavy cream",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:M173800",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "mocha cream",
+   "names": {
+    "en": "Mocha cream",
+    "de": "Mokkacreme"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schale"
+    },
+    "count": 1
+   },
+   "artworkID": "coffee",
+   "aliases": {
+    "en": [
+     "mocha mousse",
+     "coffee cream with gelatine",
+     "whipped mocha cream"
+    ],
+    "de": [
+     "mokkacreme abgeschlagen",
+     "mokka-creme",
+     "mokkakrem",
+     "mokkaspeise"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "espresso",
+     "grams": 40,
+     "resolved": {
+      "id": "usda:2710378",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 40,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 25,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "heavy cream",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:M173800",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "gelatine",
+     "grams": 3,
+     "resolved": {
+      "id": "bls:R468000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "coffee cream",
+   "names": {
+    "en": "Coffee pudding",
+    "de": "Kaffeecreme"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schale"
+    },
+    "count": 1
+   },
+   "artworkID": "coffee",
+   "aliases": {
+    "en": [
+     "coffee custard",
+     "coffee cream pudding",
+     "simple coffee cream"
+    ],
+    "de": [
+     "kaffeecreme einfach",
+     "kaffeepudding",
+     "kaffee-creme",
+     "kaffeeflammeri"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "whole milk",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "coffee",
+     "grams": 30,
+     "resolved": {
+      "id": "usda:2710375",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cornstarch",
+     "grams": 12,
+     "resolved": {
+      "id": "bls:C446000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg yolk",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2707172",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "heavy cream",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:M173800",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "white wine cream",
+   "names": {
+    "en": "White wine cream",
+    "de": "Weißweincreme"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schale"
+    },
+    "count": 1
+   },
+   "artworkID": "custard",
+   "aliases": {
+    "en": [
+     "white wine mousse",
+     "wine cream dessert",
+     "whipped white wine cream"
+    ],
+    "de": [
+     "weißweincreme abgeschlagen",
+     "weincreme",
+     "weisweincreme",
+     "weißwein-creme"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "white wine",
+     "grams": 80,
+     "resolved": {
+      "id": "usda:2710689",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "water",
+     "grams": 40,
+     "resolved": {
+      "id": "usda:2710706",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 50,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 25,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "gelatine",
+     "grams": 4,
+     "resolved": {
+      "id": "bls:R468000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lemon juice",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:F601600",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "red wine cream",
+   "names": {
+    "en": "Red wine cream",
+    "de": "Rotweincreme"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schale"
+    },
+    "count": 1
+   },
+   "artworkID": "custard",
+   "aliases": {
+    "en": [
+     "red wine mousse",
+     "red wine dessert cream",
+     "whipped red wine cream"
+    ],
+    "de": [
+     "rotweincreme abgeschlagen",
+     "rotwein-creme",
+     "rotweinkrem",
+     "rotweinspeise"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "red wine",
+     "grams": 80,
+     "resolved": {
+      "id": "usda:2710688",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "water",
+     "grams": 40,
+     "resolved": {
+      "id": "usda:2710706",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 50,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 25,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "gelatine",
+     "grams": 4,
+     "resolved": {
+      "id": "bls:R468000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lemon juice",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:F601600",
+      "via": "lexicon"
+     }
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,4652 @@
+{
+ "batch": 12,
+ "drafted": "2026-10-01",
+ "drafter": "Claude in the Akari Claude Code session",
+ "dishes": [
+  {
+   "key": "pork foreshank eisbein cured in aspic",
+   "names": {
+    "en": "Pork knuckle in aspic",
+    "de": "Tellersülze mit Eisbein"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "meat",
+   "aliases": {
+    "en": [
+     "eisbein in aspic",
+     "pork in aspic",
+     "souse with pork knuckle",
+     "sülze"
+    ],
+    "de": [
+     "sülze",
+     "eisbeinsülze",
+     "schweinesülze",
+     "sülze vom eisbein",
+     "tellersülze",
+     "sulz"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cured pork knuckle, boiled",
+     "grams": 70,
+     "reference": "bls:Y301122"
+    },
+    {
+     "name": "water",
+     "grams": 170,
+     "resolved": {
+      "id": "usda:2710706",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "gelatine",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:R468000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "white vinegar",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:R122000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "pickles",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2710078",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "carrot",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "bratwurst",
+   "skip": "a single food the table already covers (a fried bratwurst)"
+  },
+  {
+   "key": "beer ham",
+   "skip": "a single food the table already covers (a fried slice of Bierschinken sausage)"
+  },
+  {
+   "key": "berner wurstel",
+   "names": {
+    "en": "Berner sausages",
+    "de": "Berner Würstel"
+   },
+   "serving": {
+    "label": {
+     "en": "2 sausages",
+     "de": "2 Würstel"
+    },
+    "count": 2
+   },
+   "artworkID": "hot-dog",
+   "aliases": {
+    "en": [
+     "berner wuerstel",
+     "cheese-filled sausages wrapped in bacon",
+     "bacon-wrapped cheese sausages",
+     "berner würstchen"
+    ],
+    "de": [
+     "berner würstchen",
+     "bernerwürstel",
+     "würstel mit käse im speckmantel",
+     "käsewürstel im speckmantel",
+     "berner wuerstel"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "frankfurter",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:W211200",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "emmental",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:M304600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "smoked streaky bacon",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:W411300",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "liver sausages heated",
+   "skip": "a single food the table already covers (heated liver sausage)"
+  },
+  {
+   "key": "blood sausages heated",
+   "skip": "a single food the table already covers (heated blood sausage)"
+  },
+  {
+   "key": "fleischkaese",
+   "skip": "a single food the table already covers (fried Leberkäse is already an ingredient)"
+  },
+  {
+   "key": "students schnitzel",
+   "names": {
+    "en": "Leberkäse with fried egg",
+    "de": "Leberkäse mit Spiegelei"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "fried-egg",
+   "aliases": {
+    "en": [
+     "studentenschnitzel",
+     "leberkaese with fried egg",
+     "bavarian meatloaf with fried egg",
+     "fleischkäse with egg"
+    ],
+    "de": [
+     "studentenschnitzel",
+     "fleischkäse mit spiegelei",
+     "leberkäs mit ei",
+     "leberkäse mit ei",
+     "leberkaese mit spiegelei"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "leberkäse",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:W256100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "fried egg",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:Y710142",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "german beefsteak",
+   "names": {
+    "en": "German beefsteak",
+    "de": "Deutsches Beefsteak"
+   },
+   "serving": {
+    "label": {
+     "en": "1 patty",
+     "de": "1 Stück"
+    },
+    "count": 1
+   },
+   "artworkID": "meat",
+   "aliases": {
+    "en": [
+     "deutsches beefsteak",
+     "german beef patty",
+     "german-style beefsteak",
+     "german beef steak patty"
+    ],
+    "de": [
+     "deutsches beefsteak gebraten",
+     "beefsteak deutsche art",
+     "deutsches beafsteak",
+     "beefsteak vom rind",
+     "deutsches bifsteak"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked ground beef",
+     "grams": 110,
+     "resolved": {
+      "id": "bls:U010182",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "bread roll",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:B511000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 8,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "mustard",
+     "grams": 3,
+     "resolved": {
+      "id": "usda:2710085",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "hamburg beefsteak",
+   "names": {
+    "en": "Hamburg-style minced steak with onions",
+    "de": "Hamburger Hacksteak"
+   },
+   "serving": {
+    "label": {
+     "en": "1 patty",
+     "de": "1 Stück"
+    },
+    "count": 1
+   },
+   "artworkID": "meat",
+   "aliases": {
+    "en": [
+     "hamburger hacksteak",
+     "hamburg steak",
+     "minced beef steak with onions",
+     "hamburger hackbeefsteak"
+    ],
+    "de": [
+     "hamburger hackbeefsteak",
+     "hacksteak mit zwiebeln",
+     "hacksteak",
+     "hamburger hacksteak mit zwiebeln",
+     "hackbeefsteak"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked ground beef",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:U010182",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sautéed onion",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:G480152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 5,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "meatballs of turkey",
+   "names": {
+    "en": "Turkey patties",
+    "de": "Putenfrikadellen"
+   },
+   "serving": {
+    "label": {
+     "en": "2 patties",
+     "de": "2 Frikadellen"
+    },
+    "count": 2
+   },
+   "artworkID": "meat",
+   "aliases": {
+    "en": [
+     "turkey frikadellen",
+     "turkey burgers",
+     "turkey meatballs",
+     "turkey rissoles"
+    ],
+    "de": [
+     "frikadellen aus putenfleisch",
+     "puten frikadellen",
+     "putenbuletten",
+     "putenfleischpflanzerl",
+     "puten hackbällchen"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "ground turkey",
+     "grams": 110,
+     "resolved": {
+      "id": "usda:2706133",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "bread roll",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:B511000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 4,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "meatballs filled with sheep s milk cheese",
+   "names": {
+    "en": "Patties filled with feta",
+    "de": "Frikadellen mit Schafskäsefüllung"
+   },
+   "serving": {
+    "label": {
+     "en": "2 patties",
+     "de": "2 Frikadellen"
+    },
+    "count": 2
+   },
+   "artworkID": "meat",
+   "aliases": {
+    "en": [
+     "feta stuffed patties",
+     "meatballs stuffed with feta",
+     "feta frikadellen",
+     "cheese-filled meat patties"
+    ],
+    "de": [
+     "frikadellen gefüllt mit schafskäse",
+     "frikadellen mit feta",
+     "schafskäse frikadellen",
+     "buletten mit schafskäse",
+     "gefüllte frikadellen"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked mixed mince",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:U050132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "feta",
+     "grams": 30,
+     "resolved": {
+      "id": "usda:2705714",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "bread roll",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:B511000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 8,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "meatballs with tomatoes",
+   "names": {
+    "en": "Patties with stewed tomatoes",
+    "de": "Frikadellen mit Schmortomaten"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "meat",
+   "aliases": {
+    "en": [
+     "meatballs with tomatoes",
+     "frikadellen with tomatoes",
+     "patties with tomato",
+     "meat patties with stewed tomatoes"
+    ],
+    "de": [
+     "frikadellen mit tomaten",
+     "frikadellen mit gedünsteten tomaten",
+     "buletten mit tomaten",
+     "fleischpflanzerl mit tomaten"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "meatballs",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:Y036122",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:G561100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "olive oil",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:Q120000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "beef meatballs",
+   "skip": "a single food the table already covers (beef meatballs are already an ingredient)"
+  },
+  {
+   "key": "small veal meatballs in oven",
+   "names": {
+    "en": "Baked veal meatballs",
+    "de": "Kalbfleischklößchen aus dem Ofen"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "meat",
+   "aliases": {
+    "en": [
+     "veal meatballs baked",
+     "small veal meatballs",
+     "oven-baked veal meatballs",
+     "veal balls"
+    ],
+    "de": [
+     "kalbfleischklößchen",
+     "kalbsklößchen",
+     "kalbfleischbällchen",
+     "kalbshackbällchen",
+     "kalbfleischklösschen"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "veal mince, fried without fat (oven)",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:U030162",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "bread roll",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:B511000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "parsley",
+     "grams": 3,
+     "resolved": {
+      "id": "usda:2709796",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 5,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "bolognese sauce with beef mince",
+   "skip": "a sauce on its own"
+  },
+  {
+   "key": "liver pate liver pudding",
+   "skip": "a liver pâté, a single food"
+  },
+  {
+   "key": "goose liver pate",
+   "skip": "a liver pâté, a single food"
+  },
+  {
+   "key": "pork in aspic",
+   "skip": "duplicate of the pork knuckle in aspic (Tellersülze) in this batch"
+  },
+  {
+   "key": "puff pastry pockets filled with beef mince and cheese",
+   "names": {
+    "en": "Puff pastry pockets with minced beef and cheese",
+    "de": "Blätterteigtaschen mit Hackfleisch und Käse"
+   },
+   "serving": {
+    "label": {
+     "en": "2 pockets",
+     "de": "2 Taschen"
+    },
+    "count": 2
+   },
+   "artworkID": "pie",
+   "aliases": {
+    "en": [
+     "beef and cheese puff pastry",
+     "minced beef turnovers",
+     "mince and cheese parcels",
+     "beef puff pastry pockets"
+    ],
+    "de": [
+     "blätterteigtaschen mit rinderhackfleisch und käse",
+     "hackfleisch blätterteigtaschen",
+     "hackfleischtaschen",
+     "blätterteig mit hackfleisch"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "puff pastry",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:D072000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked ground beef",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:U010182",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "gouda",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:M402600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "minced meat cabbage pudding",
+   "names": {
+    "en": "Minced meat and cabbage pudding",
+    "de": "Hackfleisch-Kohlpudding"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "meat",
+   "aliases": {
+    "en": [
+     "cabbage and mince pudding",
+     "kohlpudding",
+     "minced meat cabbage bake",
+     "cabbage meat loaf"
+    ],
+    "de": [
+     "kohlpudding",
+     "hackfleisch kohlpudding",
+     "wirsingpudding mit hackfleisch",
+     "kohlauflauf mit hackfleisch",
+     "hamburger kohlpudding"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked mixed mince",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:U050132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "savoy cabbage boiled",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:G343132",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "bread roll",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:B511000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 30,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "liver pudding with minced meat",
+   "skip": "a baked liver loaf, a pâté-like single food"
+  },
+  {
+   "key": "beef fillet marinated in oven",
+   "skip": "a plain fillet the table already covers"
+  },
+  {
+   "key": "beef fillet medaillons with vegetables",
+   "names": {
+    "en": "Beef fillet medallions with roasted vegetables",
+    "de": "Rinderfiletmedaillons mit Röstgemüse"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "meat",
+   "aliases": {
+    "en": [
+     "beef medallions with vegetables",
+     "fillet medallions with roast vegetables",
+     "beef tenderloin medallions"
+    ],
+    "de": [
+     "rinderfilet medaillons mit gemüse",
+     "rindermedaillons mit röstgemüse",
+     "filetmedaillons mit ofengemüse",
+     "rinderfiletmedaillons"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "beef tenderloin steak fried without fat (pan)",
+     "grams": 160,
+     "resolved": {
+      "id": "bls:U216182",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "zucchini",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:G582100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "red bell pepper",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:G543100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "olive oil",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:Q120000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "beef fillet steak with herb butter",
+   "names": {
+    "en": "Beef fillet steak with herb butter",
+    "de": "Rinderfiletsteak mit Kräuterbutter"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "meat",
+   "aliases": {
+    "en": [
+     "fillet steak with herb butter",
+     "filet mignon with herb butter",
+     "tenderloin steak with garlic butter"
+    ],
+    "de": [
+     "filetsteak mit kräuterbutter",
+     "rinderfilet mit kräuterbutter",
+     "rinderfiletsteak mit kräuterbutter",
+     "filet mit kräuterbutter"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "beef tenderloin steak fried without fat (pan)",
+     "grams": 180,
+     "resolved": {
+      "id": "bls:U216182",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "herb butter",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:Y790160",
+      "via": "exact"
+     }
+    }
+   ]
+  },
+  {
+   "key": "beef fillet steak",
+   "skip": "a plain steak the table already covers"
+  },
+  {
+   "key": "beef chop",
+   "skip": "a plain steak the table already covers"
+  },
+  {
+   "key": "roast beef in oven with vegetables",
+   "names": {
+    "en": "Roast beef with roasted vegetables",
+    "de": "Roastbeef mit Röstgemüse"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "meat",
+   "aliases": {
+    "en": [
+     "roast beef with vegetables",
+     "roast beef and roasted vegetables",
+     "oven roast beef with veg"
+    ],
+    "de": [
+     "roastbeef mit gemüse",
+     "roastbeef aus dem ofen mit röstgemüse",
+     "roastbeef mit ofengemüse",
+     "rostbeef mit gemüse"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "roast beef",
+     "grams": 160,
+     "resolved": {
+      "id": "bls:Y131132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "carrot",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "zucchini",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G582100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "red bell pepper",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G543100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "olive oil",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:Q120000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "beef rump steak with onions",
+   "names": {
+    "en": "Rump steak with fried onions",
+    "de": "Rumpsteak mit Zwiebeln"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "meat",
+   "aliases": {
+    "en": [
+     "rump steak with onions",
+     "steak with fried onions",
+     "sirloin with onions"
+    ],
+    "de": [
+     "rumpsteak mit gebratenen zwiebeln",
+     "rinderrumpsteak mit zwiebeln",
+     "steak mit röstzwiebeln",
+     "rumpsteak mit röstzwiebeln"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "beef steak (loin) fried without fat (pan)",
+     "grams": 180,
+     "resolved": {
+      "id": "bls:U131182",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "sautéed onion",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:G480152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 5,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "beef rump steak",
+   "skip": "a plain steak the table already covers"
+  },
+  {
+   "key": "beef steak with herb butter",
+   "names": {
+    "en": "Steak with herb butter",
+    "de": "Steak mit Kräuterbutter"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "meat",
+   "aliases": {
+    "en": [
+     "beef steak with herb butter",
+     "steak with garlic butter",
+     "grilled steak with herb butter"
+    ],
+    "de": [
+     "rindersteak mit kräuterbutter",
+     "steak mit knoblauchbutter",
+     "rumpsteak mit kräuterbutter",
+     "gegrilltes steak mit kräuterbutter"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "beef steak, pan-fried",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:U131182",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "herb butter",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:Y790160",
+      "via": "exact"
+     }
+    }
+   ]
+  },
+  {
+   "key": "beef steak",
+   "skip": "a plain steak the table already covers"
+  },
+  {
+   "key": "beef goulash hungarian",
+   "names": {
+    "en": "Hungarian beef goulash",
+    "de": "Ungarisches Rindergulasch"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "curry",
+   "aliases": {
+    "en": [
+     "hungarian goulash",
+     "beef goulash",
+     "goulash hungarian style",
+     "gulyas"
+    ],
+    "de": [
+     "rindergulasch ungarisch",
+     "ungarisches gulasch",
+     "rindergulasch",
+     "gulasch ungarische art",
+     "rindsgulasch"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "braised beef",
+     "grams": 180,
+     "resolved": {
+      "id": "bls:U281142",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "red bell pepper",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G543100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato paste",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:R160000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "paprika",
+     "grams": 5,
+     "resolved": {
+      "id": "ciqual:11049",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 12,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "beef stock",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:Y183013",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "beef goulash with cream",
+   "names": {
+    "en": "Beef goulash with cream",
+    "de": "Rinderrahmgulasch"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "curry",
+   "aliases": {
+    "en": [
+     "creamy beef goulash",
+     "beef goulash with sour cream",
+     "cream goulash"
+    ],
+    "de": [
+     "rahmgulasch",
+     "rindergulasch mit sahne",
+     "rinderrahmgulasch mit sahne",
+     "sahnegulasch vom rind"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "braised beef",
+     "grams": 180,
+     "resolved": {
+      "id": "bls:U281142",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "heavy cream",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:M173800",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato paste",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:R160000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "paprika",
+     "grams": 4,
+     "resolved": {
+      "id": "ciqual:11049",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "beef stock",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:Y183013",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "beef goulash esterhazy",
+   "names": {
+    "en": "Esterházy goulash",
+    "de": "Gulasch Esterhazy"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "curry",
+   "aliases": {
+    "en": [
+     "esterhazy goulash",
+     "beef goulash with root vegetables",
+     "esterhazy beef"
+    ],
+    "de": [
+     "esterhazygulasch",
+     "gulasch esterházy",
+     "rindergulasch esterhazy",
+     "esterhazy rostbraten gulasch"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "braised beef",
+     "grams": 160,
+     "resolved": {
+      "id": "bls:U281142",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "carrot",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "celeriac",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G660100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked parsnip",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G640132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sour cream",
+     "grams": 30,
+     "resolved": {
+      "id": "usda:2705614",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "beef stock",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:Y183013",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "beef goulash with white cabbage",
+   "names": {
+    "en": "Beef and cabbage goulash",
+    "de": "Krautgulasch"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "curry",
+   "aliases": {
+    "en": [
+     "cabbage goulash",
+     "goulash with cabbage",
+     "beef goulash with white cabbage"
+    ],
+    "de": [
+     "kraut gulasch",
+     "weißkrautgulasch",
+     "rindergulasch mit weißkohl",
+     "krautgulasch mit rindfleisch"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "braised beef",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:U281142",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "white cabbage",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:G342100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato paste",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:R160000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "paprika",
+     "grams": 4,
+     "resolved": {
+      "id": "ciqual:11049",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 12,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "beef stock",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:Y183013",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "beef goulash with vegetables",
+   "names": {
+    "en": "Beef goulash with vegetables",
+    "de": "Rindergulasch mit Gemüse"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "curry",
+   "aliases": {
+    "en": [
+     "vegetable beef goulash",
+     "goulash with vegetables",
+     "beef goulash with potatoes and carrots"
+    ],
+    "de": [
+     "gemüsegulasch mit rindfleisch",
+     "gulasch mit gemüse",
+     "rindsgulasch mit gemüse",
+     "rindergulasch mit kartoffeln und gemüse"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "braised beef",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:U281142",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "boiled potatoes",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "carrot",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "red bell pepper",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:G543100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 8,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "beef stock",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:Y183013",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "beef skewer",
+   "names": {
+    "en": "Beef skewers",
+    "de": "Rindfleischspieße"
+   },
+   "serving": {
+    "label": {
+     "en": "2 skewers",
+     "de": "2 Spieße"
+    },
+    "count": 2
+   },
+   "artworkID": "meat",
+   "aliases": {
+    "en": [
+     "beef kebabs",
+     "grilled beef skewers",
+     "beef shish kebab",
+     "beef brochettes"
+    ],
+    "de": [
+     "rinderspieße",
+     "rindfleischspiesse",
+     "gegrillte rindfleischspieße",
+     "rindfleisch spieß",
+     "rinderspiesse"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "beef steak (loin) fried without fat (pan)",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:U131182",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "smoked streaky bacon",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:W411300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "red bell pepper",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G543100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 8,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "beef ragout with mushrooms",
+   "names": {
+    "en": "Beef ragout with mushrooms",
+    "de": "Rinderragout mit Pilzen"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "curry",
+   "aliases": {
+    "en": [
+     "beef stew with mushrooms",
+     "mushroom beef ragout",
+     "beef and mushroom stew"
+    ],
+    "de": [
+     "rinderragout mit champignons",
+     "rindfleischragout mit pilzen",
+     "rindergeschmortes mit pilzen",
+     "pilz rinderragout"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "braised beef",
+     "grams": 160,
+     "resolved": {
+      "id": "bls:U281142",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "mushrooms",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:K701100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "gravy",
+     "grams": 60,
+     "resolved": {
+      "id": "usda:2707149",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 12,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "beef ragout with sweet pepper",
+   "names": {
+    "en": "Beef ragout with peppers",
+    "de": "Rinderragout mit Paprika"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "curry",
+   "aliases": {
+    "en": [
+     "beef stew with peppers",
+     "beef and pepper ragout",
+     "beef ragout with bell peppers"
+    ],
+    "de": [
+     "rindfleischragout mit paprika",
+     "paprika rinderragout",
+     "rinderragout mit paprikaschoten",
+     "rindergeschmortes mit paprika"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "braised beef",
+     "grams": 160,
+     "resolved": {
+      "id": "bls:U281142",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "red bell pepper",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:G543100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "gravy",
+     "grams": 60,
+     "resolved": {
+      "id": "usda:2707149",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 12,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "beef ragout",
+   "names": {
+    "en": "Beef ragout",
+    "de": "Rinderragout"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "curry",
+   "aliases": {
+    "en": [
+     "beef stew",
+     "braised beef ragout",
+     "beef ragù",
+     "beef ragout in red wine"
+    ],
+    "de": [
+     "rindfleischragout",
+     "rinderragù",
+     "rindsragout",
+     "rinderschmorfleisch",
+     "ragout vom rind"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "braised beef",
+     "grams": 180,
+     "resolved": {
+      "id": "bls:U281142",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "carrot",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "gravy",
+     "grams": 70,
+     "resolved": {
+      "id": "usda:2707149",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "red wine",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2710688",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 12,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "beef ragout with white wine",
+   "names": {
+    "en": "Sliced beef in white wine cream sauce",
+    "de": "Rindergeschnetzeltes"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "meat",
+   "aliases": {
+    "en": [
+     "beef geschnetzeltes",
+     "sliced beef in cream sauce",
+     "beef strips in white wine sauce",
+     "beef stroganoff style strips"
+    ],
+    "de": [
+     "geschnetzeltes vom rind",
+     "rindergeschnetzeltes mit weißwein",
+     "rindfleisch geschnetzeltes",
+     "rindsgeschnetzeltes",
+     "geschnetzeltes rind"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "beef steak (loin) fried without fat (pan)",
+     "grams": 170,
+     "resolved": {
+      "id": "bls:U131182",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "white wine",
+     "grams": 30,
+     "resolved": {
+      "id": "usda:2710689",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "light cream",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:M171500",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 5,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "beef heart ragout with button mushrooms",
+   "names": {
+    "en": "Beef heart ragout with mushrooms",
+    "de": "Rinderherzragout mit Champignons"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "curry",
+   "aliases": {
+    "en": [
+     "beef heart stew with mushrooms",
+     "heart ragout with mushrooms",
+     "ox heart ragout"
+    ],
+    "de": [
+     "rinderherz ragout mit pilzen",
+     "herzragout mit champignons",
+     "rinderherzragout mit pilzen",
+     "ochsenherzragout"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "beef heart, braised without fat",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:V511142",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "mushrooms",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:K701100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "gravy",
+     "grams": 80,
+     "resolved": {
+      "id": "usda:2707149",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 8,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "beef heart ragout",
+   "names": {
+    "en": "Beef heart ragout",
+    "de": "Rinderherzragout"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "curry",
+   "aliases": {
+    "en": [
+     "beef heart stew",
+     "braised beef heart",
+     "ox heart stew"
+    ],
+    "de": [
+     "rinderherz ragout",
+     "herzragout",
+     "geschmortes rinderherz",
+     "rinderherzgulasch"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "beef heart, braised without fat",
+     "grams": 160,
+     "resolved": {
+      "id": "bls:V511142",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "carrot",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "gravy",
+     "grams": 100,
+     "resolved": {
+      "id": "usda:2707149",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 8,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "veal brain",
+   "skip": "a single food (fried veal brain) the table already covers"
+  },
+  {
+   "key": "beef liver berlin style",
+   "names": {
+    "en": "Beef liver Berlin style",
+    "de": "Rinderleber Berliner Art"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "meat",
+   "aliases": {
+    "en": [
+     "liver berlin style",
+     "beef liver with apples and onions",
+     "berliner leber"
+    ],
+    "de": [
+     "leber berliner art",
+     "rinderleber mit äpfeln und zwiebeln",
+     "berliner leber",
+     "leber mit apfel und zwiebeln"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "beef liver, fried without fat (pan)",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:V531182",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "apple",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:F110100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sautéed onion",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:G480152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "beef liver",
+   "skip": "a single food (fried beef liver) the table already covers"
+  },
+  {
+   "key": "beef tripe with egg",
+   "names": {
+    "en": "Fried tripe with egg, Bologna style",
+    "de": "Gebratene Kutteln mit Ei nach Bologneser Art"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "meat",
+   "aliases": {
+    "en": [
+     "trippa alla bolognese",
+     "tripe bologna style",
+     "fried tripe with egg",
+     "beef tripe with egg"
+    ],
+    "de": [
+     "trippa alla bolognese",
+     "kutteln mit ei",
+     "gebratene rinderkutteln mit ei",
+     "kutteln bologneser art",
+     "kaldaunen mit ei"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "beef stomach/tripe, boiled",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:V551132",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 50,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "parmesan",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:M306400",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "beef tongue",
+   "skip": "a single food (boiled beef tongue) the table already covers"
+  },
+  {
+   "key": "ox tongue breaded",
+   "skip": "a cooking-method variant of beef tongue"
+  },
+  {
+   "key": "beef tongue ragout with button mushrooms",
+   "names": {
+    "en": "Beef tongue ragout with mushrooms",
+    "de": "Rinderzungenragout mit Champignons"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "meat",
+   "aliases": {
+    "en": [
+     "tongue ragout",
+     "ox tongue with mushrooms",
+     "beef tongue stew with mushrooms"
+    ],
+    "de": [
+     "zungenragout",
+     "rinderzunge mit champignons",
+     "ochsenzungenragout",
+     "zungenragout mit pilzen"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "beef tongue, boiled",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:V591132",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "mushrooms",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:K701100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "gravy",
+     "grams": 80,
+     "resolved": {
+      "id": "usda:2707149",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "beef with vegetables",
+   "names": {
+    "en": "Boiled beef with soup vegetables",
+    "de": "Gekochtes Rindfleisch mit Suppengemüse"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "soup",
+   "aliases": {
+    "en": [
+     "boiled beef with vegetables",
+     "tafelspitz with vegetables",
+     "pot-au-feu",
+     "beef with root vegetables"
+    ],
+    "de": [
+     "rindfleisch mit suppengemüse",
+     "suppenfleisch mit gemüse",
+     "tafelspitz mit wurzelgemüse",
+     "siedfleisch mit gemüse",
+     "gekochtes rindfleisch"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "beef boiled",
+     "grams": 170,
+     "resolved": {
+      "id": "bls:Y180512",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "cooked carrot",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:G620132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "celeriac",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:G660100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "leek",
+     "grams": 25,
+     "resolved": {
+      "id": "ciqual:20039",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "saxon zwiebelfleisch",
+   "names": {
+    "en": "Saxon beef with onions",
+    "de": "Sächsisches Zwiebelfleisch"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "onion",
+   "aliases": {
+    "en": [
+     "saxon onion beef",
+     "zwiebelfleisch",
+     "beef in onion sauce",
+     "saxon zwiebelfleisch"
+    ],
+    "de": [
+     "zwiebelfleisch",
+     "sächsisches zwiebelfleisch vom rind",
+     "rindfleisch in zwiebelsoße",
+     "zwiebelfleisch sächsische art"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "beef boiled",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:Y180512",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "beef stock",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:Y183013",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "wheat flour",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "beef",
+   "skip": "a single food (boiled beef) the table already covers"
+  },
+  {
+   "key": "beef with creamed apple horseradish",
+   "names": {
+    "en": "Boiled beef with apple horseradish cream",
+    "de": "Tafelspitz mit Apfelkren"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "meat",
+   "aliases": {
+    "en": [
+     "tafelspitz with apple horseradish",
+     "boiled beef with horseradish cream",
+     "beef with apple horseradish"
+    ],
+    "de": [
+     "rindfleisch mit apfelsahnemeerrettich",
+     "tafelspitz mit apfelmeerrettich",
+     "rindfleisch mit apfelkren",
+     "tafelspitz mit apfelkren und sahne",
+     "siedfleisch mit meerrettich"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "beef boiled",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:Y180512",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "apple",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:F110100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "horseradish",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G630100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whipped cream",
+     "grams": 30,
+     "resolved": {
+      "id": "usda:2705598",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "beef stock",
+   "skip": "a single food (beef stock is already an ingredient)"
+  },
+  {
+   "key": "sour beef kidneys",
+   "names": {
+    "en": "Sour kidneys",
+    "de": "Saure Nieren"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "meat",
+   "aliases": {
+    "en": [
+     "kidneys in sour sauce",
+     "sour beef kidneys",
+     "beef kidneys in vinegar sauce"
+    ],
+    "de": [
+     "saure nierchen",
+     "saure nieren vom rind",
+     "nieren sauer",
+     "saure rindernieren",
+     "nierchen sauer"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "beef kidney, raw",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:V571100",
+      "via": "verified"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "wheat flour",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "white vinegar",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:R122000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "beef stock",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:Y183013",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "veal fillet in oven",
+   "skip": "a plain fillet the table already covers"
+  },
+  {
+   "key": "veal chop with button mushrooms",
+   "names": {
+    "en": "Veal chop with mushrooms",
+    "de": "Kalbskotelett mit Champignons"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "meat",
+   "aliases": {
+    "en": [
+     "veal cutlet with mushrooms",
+     "veal chop with fried mushrooms",
+     "veal chop and mushrooms"
+    ],
+    "de": [
+     "kalbskotelett mit pilzen",
+     "kalbskotelett mit gebratenen champignons",
+     "kalbskotelett mit champignon",
+     "kalbskotlett mit pilzen"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "veal chop (loin) fried without fat (pan)",
+     "grams": 180,
+     "resolved": {
+      "id": "bls:U323182",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "cooked mushrooms",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:K701172",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "veal chop breaded",
+   "skip": "a cooking-method variant of a veal chop"
+  },
+  {
+   "key": "veal chop",
+   "skip": "a plain chop the table already covers"
+  },
+  {
+   "key": "veal schnitzel floured",
+   "skip": "a cooking-method variant of a veal escalope"
+  },
+  {
+   "key": "veal schnitzel with ham and cheese",
+   "names": {
+    "en": "Veal escalope with ham and cheese",
+    "de": "Kalbsschnitzel mit Schinken und Käse überbacken"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "meat",
+   "aliases": {
+    "en": [
+     "veal schnitzel with ham and cheese",
+     "gratinated veal escalope",
+     "veal cutlet with ham and cheese"
+    ],
+    "de": [
+     "kalbsschnitzel mit kochschinken und käse",
+     "überbackenes kalbsschnitzel",
+     "kalbsschnitzel überbacken",
+     "kalbschnitzel mit schinken und käse"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "veal schnitzel (round) fried without fat (pan)",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:U342182",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "cooked ham",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:W424000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "emmental",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:M304600",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "veal cordon bleu",
+   "names": {
+    "en": "Veal cordon bleu",
+    "de": "Kalbs-Cordon-bleu"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "meat",
+   "aliases": {
+    "en": [
+     "cordon bleu",
+     "veal cordon blue",
+     "cordon bleu of veal",
+     "veal schnitzel cordon bleu"
+    ],
+    "de": [
+     "cordon bleu vom kalb",
+     "kalbscordon bleu",
+     "cordon bleu kalb",
+     "cordon bleu",
+     "kordon bleu"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "veal schnitzel (round) fried without fat (pan)",
+     "grams": 140,
+     "resolved": {
+      "id": "bls:U342182",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "cooked ham",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:W424000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "emmental",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:M304600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "breadcrumbs",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:B821000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "wheat flour",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "veal chop with basil butter",
+   "names": {
+    "en": "Veal chop with basil butter",
+    "de": "Kalbskotelett mit Basilikumbutter"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "meat",
+   "aliases": {
+    "en": [
+     "grilled veal chop with basil butter",
+     "veal cutlet with basil butter",
+     "veal chop with herb butter"
+    ],
+    "de": [
+     "kalbskotelett gegrillt mit basilikumbutter",
+     "kalbskotelett mit kräuterbutter",
+     "kalbskotlett mit basilikumbutter"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "veal chop (loin) fried without fat (pan)",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:U323182",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "basil",
+     "grams": 3,
+     "resolved": {
+      "id": "bls:G061000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "veal loin in oven",
+   "skip": "a plain roast the table already covers"
+  },
+  {
+   "key": "veal meatballs",
+   "names": {
+    "en": "Veal patties",
+    "de": "Kalbsfrikadellen"
+   },
+   "serving": {
+    "label": {
+     "en": "2 patties",
+     "de": "2 Frikadellen"
+    },
+    "count": 2
+   },
+   "artworkID": "meat",
+   "aliases": {
+    "en": [
+     "veal frikadellen",
+     "veal burgers",
+     "veal meat patties",
+     "veal rissoles"
+    ],
+    "de": [
+     "frikadellen aus kalbfleisch",
+     "kalbfleischfrikadellen",
+     "kalbsbuletten",
+     "kalbsfleischpflanzerl",
+     "kalbsfrikadelle"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "veal mince, fried without fat (pan)",
+     "grams": 110,
+     "resolved": {
+      "id": "bls:U030182",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "bread roll",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:B511000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "veal goulash",
+   "names": {
+    "en": "Veal goulash",
+    "de": "Kalbsgulasch"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "curry",
+   "aliases": {
+    "en": [
+     "veal stew",
+     "veal paprika goulash",
+     "goulash with veal"
+    ],
+    "de": [
+     "kalbfleischgulasch",
+     "gulasch vom kalb",
+     "kalbsgulasch mit paprika",
+     "kalbs gulasch"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "veal goulash (shoulder) braised without fat",
+     "grams": 180,
+     "resolved": {
+      "id": "bls:U351142",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato paste",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:R160000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "paprika",
+     "grams": 4,
+     "resolved": {
+      "id": "ciqual:11049",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 8,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "veal stock",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:X411563",
+      "via": "exact"
+     }
+    }
+   ]
+  },
+  {
+   "key": "veal ragout zurich style",
+   "names": {
+    "en": "Zurich-style sliced veal",
+    "de": "Zürcher Geschnetzeltes"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "meat",
+   "aliases": {
+    "en": [
+     "zürcher geschnetzeltes",
+     "zurich veal",
+     "sliced veal in cream sauce",
+     "zuercher geschnetzeltes",
+     "veal zurich style"
+    ],
+    "de": [
+     "geschnetzeltes zürcher art",
+     "kalbsgeschnetzeltes",
+     "zürcher kalbsgeschnetzeltes",
+     "zuercher geschnetzeltes",
+     "züricher geschnetzeltes"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "veal schnitzel (round) fried without fat (pan)",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:U342182",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "mushrooms",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:K701100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "white wine",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2710689",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "heavy cream",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:M173800",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "veal stock",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:X411563",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "veal skewer",
+   "names": {
+    "en": "Veal skewers",
+    "de": "Kalbfleischspieße"
+   },
+   "serving": {
+    "label": {
+     "en": "2 skewers",
+     "de": "2 Spieße"
+    },
+    "count": 2
+   },
+   "artworkID": "meat",
+   "aliases": {
+    "en": [
+     "grilled veal skewers",
+     "veal kebabs",
+     "veal brochettes"
+    ],
+    "de": [
+     "kalbsspieße",
+     "kalbfleischspiesse",
+     "gegrillte kalbfleischspieße",
+     "kalbsspiesse"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "veal steak (loin) fried without fat (pan)",
+     "grams": 130,
+     "resolved": {
+      "id": "bls:U331182",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "red bell pepper",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G543100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "zucchini",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G582100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 8,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "veal ragout",
+   "names": {
+    "en": "Ragout fin",
+    "de": "Ragout fin"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "meat",
+   "aliases": {
+    "en": [
+     "ragoût fin",
+     "veal ragout fin",
+     "fine veal ragout",
+     "ragout fin of veal"
+    ],
+    "de": [
+     "ragoût fin",
+     "kalbsragout fein",
+     "ragout fin vom kalb",
+     "ragufeng",
+     "ragu fin"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "veal shoulder, braised without fat",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:U461142",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "cooked mushrooms",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:K701172",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "béchamel",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:X320243",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "heavy cream",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:M173800",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "white wine",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2710689",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lemon juice",
+     "grams": 3,
+     "resolved": {
+      "id": "bls:F601600",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "veal fricassee",
+   "names": {
+    "en": "Veal fricassee",
+    "de": "Kalbsfrikassee"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "meat",
+   "aliases": {
+    "en": [
+     "veal fricasse",
+     "veal in white sauce",
+     "fricassee of veal"
+    ],
+    "de": [
+     "kalbsfrikasse",
+     "frikassee vom kalb",
+     "kalbfleischfrikassee",
+     "kalbsfrikasee"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "veal shoulder, braised without fat",
+     "grams": 130,
+     "resolved": {
+      "id": "bls:U461142",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "cooked mushrooms",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:K701172",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked asparagus",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G450132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "béchamel",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:X320243",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "heavy cream",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:M173800",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "veal stock",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:X411563",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "lemon juice",
+     "grams": 3,
+     "resolved": {
+      "id": "bls:F601600",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "veal goulash with cream",
+   "names": {
+    "en": "Veal goulash with cream",
+    "de": "Kalbsrahmgulasch"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "curry",
+   "aliases": {
+    "en": [
+     "creamy veal goulash",
+     "veal goulash with sour cream",
+     "veal paprikash"
+    ],
+    "de": [
+     "kalbsgulasch mit sahne",
+     "rahmgulasch vom kalb",
+     "kalbs rahmgulasch",
+     "kalbspaprikasch"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "veal goulash (shoulder) braised without fat",
+     "grams": 160,
+     "resolved": {
+      "id": "bls:U351142",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "heavy cream",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:M173800",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "paprika",
+     "grams": 4,
+     "resolved": {
+      "id": "ciqual:11049",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 8,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "veal stock",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:X411563",
+      "via": "exact"
+     }
+    }
+   ]
+  },
+  {
+   "key": "veal brain with egg",
+   "names": {
+    "en": "Veal brain with egg",
+    "de": "Kalbshirn mit Ei"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "egg",
+   "aliases": {
+    "en": [
+     "brain with eggs",
+     "calf brain with scrambled egg",
+     "veal brains and eggs"
+    ],
+    "de": [
+     "hirn mit ei",
+     "kalbshirn mit rührei",
+     "gebratenes kalbshirn mit ei",
+     "hirnmitei"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "veal brain, boiled",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:V522132",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 100,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "parsley",
+     "grams": 3,
+     "resolved": {
+      "id": "usda:2709796",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "veal liver with onions",
+   "names": {
+    "en": "Calf liver with fried onions",
+    "de": "Kalbsleber mit Zwiebeln"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "meat",
+   "aliases": {
+    "en": [
+     "veal liver with onions",
+     "liver and onions",
+     "calf liver with onions"
+    ],
+    "de": [
+     "kalbsleber mit gebratenen zwiebeln",
+     "leber mit zwiebeln",
+     "kalbsleber mit röstzwiebeln",
+     "kalbsleber zwiebeln"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "veal liver, fried without fat (pan)",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:V532182",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "sautéed onion",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:G480152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "wheat flour",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "veal liver floured",
+   "skip": "a cooking-method variant of fried veal liver"
+  },
+  {
+   "key": "veal liver berlin style",
+   "names": {
+    "en": "Calf liver Berlin style",
+    "de": "Kalbsleber Berliner Art"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "meat",
+   "aliases": {
+    "en": [
+     "veal liver berlin style",
+     "calf liver with apples and onions",
+     "berlin style liver with veal"
+    ],
+    "de": [
+     "kalbsleber mit äpfeln und zwiebeln",
+     "kalbsleber berliner",
+     "berliner kalbsleber",
+     "kalbsleber mit apfel"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "veal liver, fried without fat (pan)",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:V532182",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "apple",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:F110100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sautéed onion",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:G480152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "veal liver skewer",
+   "names": {
+    "en": "Calf liver skewers",
+    "de": "Kalbsleberspießchen"
+   },
+   "serving": {
+    "label": {
+     "en": "2 skewers",
+     "de": "2 Spieße"
+    },
+    "count": 2
+   },
+   "artworkID": "meat",
+   "aliases": {
+    "en": [
+     "veal liver skewers",
+     "liver skewers with bacon",
+     "grilled liver kebabs"
+    ],
+    "de": [
+     "kalbsleberspieße",
+     "leberspießchen",
+     "leberspieße mit speck",
+     "kalbsleber spiesse"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "veal liver, fried without fat (pan)",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:V532182",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "smoked streaky bacon",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:W411300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "apple",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:F110100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 8,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "ossobuco alla milanese",
+   "names": {
+    "en": "Ossobuco alla milanese",
+    "de": "Ossobuco alla milanese"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "meat-on-bone",
+   "aliases": {
+    "en": [
+     "ossobuco",
+     "osso buco",
+     "braised veal shanks",
+     "osso bucco"
+    ],
+    "de": [
+     "ossobuco",
+     "osso buco",
+     "geschmorte kalbsbeinscheiben",
+     "kalbshaxenscheiben geschmort",
+     "osso bucco"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "veal shank, braised without fat",
+     "grams": 220,
+     "resolved": {
+      "id": "bls:U471142",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "canned tomatoes",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:G568900",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "carrot",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "celery",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G220100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "white wine",
+     "grams": 30,
+     "resolved": {
+      "id": "usda:2710689",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "olive oil",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:Q120000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "wheat flour",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "parsley",
+     "grams": 3,
+     "resolved": {
+      "id": "usda:2709796",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "veal pudding with ham and button mushrooms",
+   "names": {
+    "en": "Veal pudding with cured ham and mushrooms",
+    "de": "Kalbfleischpudding mit Lachsschinken und Champignons"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "meat",
+   "aliases": {
+    "en": [
+     "veal mousse with ham",
+     "veal terrine with mushrooms",
+     "veal pudding"
+    ],
+    "de": [
+     "kalbfleischpudding",
+     "kalbspudding mit schinken",
+     "kalbfleischpudding mit champignons",
+     "kalbsterrine mit lachsschinken"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "veal mince, boiled",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:U030132",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "pork loin lean rolled, raw cured, smoked",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:W443000",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "mushrooms",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:K701100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "heavy cream",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:M173800",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 30,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "bread roll",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:B511000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "pork foreshank eisbein cured",
+   "skip": "a single food (boiled cured pork knuckle) the table already covers"
+  },
+  {
+   "key": "pork loin spare ribs cured with sauerkraut",
+   "names": {
+    "en": "Kassler with sauerkraut",
+    "de": "Kasseler mit Sauerkraut"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "meat",
+   "aliases": {
+    "en": [
+     "kasseler with sauerkraut",
+     "smoked pork loin with sauerkraut",
+     "cured pork ribs with sauerkraut"
+    ],
+    "de": [
+     "kasseler rippenspeer mit sauerkraut",
+     "kassler mit sauerkraut",
+     "kasseler mit kraut",
+     "rippenspeer mit sauerkraut"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "pork loin spare ribs, cooked cured, smoked",
+     "grams": 130,
+     "resolved": {
+      "id": "bls:W512000",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "sauerkraut stewed",
+     "grams": 250,
+     "resolved": {
+      "id": "bls:X530353",
+      "via": "exact"
+     }
+    }
+   ]
+  },
+  {
+   "key": "pork loin chop cured breaded",
+   "skip": "a cooking-method variant of a cured pork chop"
+  },
+  {
+   "key": "pork loin chop cured",
+   "skip": "a plain chop the table already covers"
+  },
+  {
+   "key": "pork fillet marinated with orange",
+   "names": {
+    "en": "Pork fillet with orange marinade",
+    "de": "Schweinefilet in Orangenmarinade"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "meat",
+   "aliases": {
+    "en": [
+     "orange pork tenderloin",
+     "grilled pork fillet with orange",
+     "pork tenderloin with orange"
+    ],
+    "de": [
+     "schweinefilet mariniert mit orange",
+     "schweinefilet mit orange",
+     "orangen schweinefilet",
+     "gegrilltes schweinefilet mit orange"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "pork fillet medaillon, fried without fat (pan)",
+     "grams": 160,
+     "resolved": {
+      "id": "bls:U511182",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "orange juice",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2709186",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "olive oil",
+     "grams": 4,
+     "resolved": {
+      "id": "bls:Q120000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "pork tenderloin wrapped in savoy cabbage in oven",
+   "names": {
+    "en": "Pork tenderloin wrapped in savoy cabbage",
+    "de": "Schweinelende im Wirsingmantel"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "meat",
+   "aliases": {
+    "en": [
+     "pork fillet in savoy cabbage",
+     "savoy-wrapped pork tenderloin",
+     "pork loin in cabbage leaves"
+    ],
+    "de": [
+     "schweinefilet im wirsingmantel",
+     "schweinelende in wirsing",
+     "filet im wirsingmantel",
+     "schweinelende im wirsing"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "pork fillet medaillon, fried without fat (pan)",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:U511182",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "savoy cabbage boiled",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:G343132",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "smoked streaky bacon",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:W411300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 5,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "pork fillet",
+   "skip": "a plain fillet the table already covers"
+  },
+  {
+   "key": "pork medaillon",
+   "skip": "a plain fillet the table already covers"
+  },
+  {
+   "key": "pork chop breaded",
+   "skip": "a cooking-method variant of a pork chop"
+  },
+  {
+   "key": "pork chop",
+   "skip": "a plain chop the table already covers"
+  },
+  {
+   "key": "pork schnitzel breaded",
+   "skip": "a single food the table already covers (breaded pork schnitzel is already an ingredient)"
+  },
+  {
+   "key": "pork schnitzel",
+   "skip": "a plain escalope the table already covers"
+  },
+  {
+   "key": "pork cordon bleu",
+   "names": {
+    "en": "Pork cordon bleu",
+    "de": "Schweine-Cordon-bleu"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "meat",
+   "aliases": {
+    "en": [
+     "cordon bleu pork",
+     "pork schnitzel cordon bleu",
+     "cordon bleu of pork"
+    ],
+    "de": [
+     "cordon bleu vom schwein",
+     "schweinecordon bleu",
+     "cordon bleu schwein",
+     "schnitzel cordon bleu"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "pork schnitzel (topside) fried without fat (pan)",
+     "grams": 140,
+     "resolved": {
+      "id": "bls:U541082",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "cooked ham",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:W424000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "emmental",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:M304600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "breadcrumbs",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:B821000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "wheat flour",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "pork steak",
+   "skip": "a plain steak the table already covers"
+  },
+  {
+   "key": "shashlik with pork",
+   "names": {
+    "en": "Pork shashlik",
+    "de": "Schaschlik"
+   },
+   "serving": {
+    "label": {
+     "en": "2 skewers",
+     "de": "2 Spieße"
+    },
+    "count": 2
+   },
+   "artworkID": "meat",
+   "aliases": {
+    "en": [
+     "shashlik",
+     "shashlyk",
+     "pork shashlik skewers",
+     "schaschlik"
+    ],
+    "de": [
+     "schaschlik spieße",
+     "schaschlikspieß",
+     "schaschlik mit schweinefleisch",
+     "schaschlick",
+     "zigeunerspieß"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "pork goulash (shoulder strips) fried without fat (pan)",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:U554182",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "smoked streaky bacon",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:W411300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "red bell pepper",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G543100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 8,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "ketchup",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:R141100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "meat skewer",
+   "names": {
+    "en": "Pork and veal skewers",
+    "de": "Fleischspieße"
+   },
+   "serving": {
+    "label": {
+     "en": "2 skewers",
+     "de": "2 Spieße"
+    },
+    "count": 2
+   },
+   "artworkID": "meat",
+   "aliases": {
+    "en": [
+     "meat skewers",
+     "mixed meat kebabs",
+     "grilled meat skewers"
+    ],
+    "de": [
+     "fleischspiesse",
+     "grillspieße",
+     "fleischspieß",
+     "gemischte fleischspieße",
+     "grillspiesse"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "veal steak (loin) fried without fat (pan)",
+     "grams": 70,
+     "resolved": {
+      "id": "bls:U331182",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "pork steak (loin) fried without fat (pan)",
+     "grams": 70,
+     "resolved": {
+      "id": "bls:U533182",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "red bell pepper",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G543100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 8,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "pork goulash with tomatoes and onions",
+   "names": {
+    "en": "Pork goulash with tomatoes and onions",
+    "de": "Schweinegulasch mit Tomaten und Zwiebeln"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "curry",
+   "aliases": {
+    "en": [
+     "pork goulash with tomatoes",
+     "pork and tomato goulash",
+     "pork stew with tomatoes and onions"
+    ],
+    "de": [
+     "schweinegulasch mit tomaten",
+     "gulasch mit tomaten und zwiebeln",
+     "tomatengulasch",
+     "schweinegulasch tomate zwiebel"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "pork goulash (shoulder strips) braised without fat",
+     "grams": 160,
+     "resolved": {
+      "id": "bls:U554142",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "canned tomatoes",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:G568900",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 70,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "paprika",
+     "grams": 4,
+     "resolved": {
+      "id": "ciqual:11049",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 8,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "beef stock",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:Y183013",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "pork goulash",
+   "names": {
+    "en": "Pork goulash",
+    "de": "Schweinegulasch"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "curry",
+   "aliases": {
+    "en": [
+     "goulash with pork",
+     "pork paprika stew",
+     "pork goulash stew"
+    ],
+    "de": [
+     "gulasch",
+     "gulasch vom schwein",
+     "schweinegulasch mit paprika",
+     "schweinsgulasch",
+     "schweine gulasch"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "pork goulash (shoulder strips) braised without fat",
+     "grams": 180,
+     "resolved": {
+      "id": "bls:U554142",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato paste",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:R160000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "paprika",
+     "grams": 5,
+     "resolved": {
+      "id": "ciqual:11049",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 14,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "beef stock",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:Y183013",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "szegediner pork goulash",
+   "names": {
+    "en": "Szeged goulash",
+    "de": "Szegediner Gulasch"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "curry",
+   "aliases": {
+    "en": [
+     "szegediner goulash",
+     "szekely goulash",
+     "pork and sauerkraut goulash",
+     "székely gulyás"
+    ],
+    "de": [
+     "szegediner",
+     "krautgulasch mit schweinefleisch",
+     "székely gulasch",
+     "segediner gulasch",
+     "sauerkrautgulasch"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "pork goulash (shoulder strips) braised without fat",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:U554142",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "sauerkraut stewed",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:X530353",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sour cream",
+     "grams": 30,
+     "resolved": {
+      "id": "usda:2705614",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "paprika",
+     "grams": 4,
+     "resolved": {
+      "id": "ciqual:11049",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 8,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "beef stock",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:Y183013",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "debreziner bean goulash with pork",
+   "names": {
+    "en": "Debrecen bean goulash with pork",
+    "de": "Debreziner Bohnengulasch"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "curry",
+   "aliases": {
+    "en": [
+     "bean goulash",
+     "pork and bean goulash",
+     "debreziner goulash"
+    ],
+    "de": [
+     "bohnengulasch",
+     "bohnengulasch mit schweinefleisch",
+     "debrecziner bohnengulasch",
+     "bohnen gulasch"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "pork goulash (shoulder strips) braised without fat",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:U554142",
+      "via": "exact"
+     }
+    },
+    {
+     "name": "green beans",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:G710132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "red bell pepper",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G543100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato paste",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:R160000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "paprika",
+     "grams": 3,
+     "resolved": {
+      "id": "ciqual:11049",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 8,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "beef stock",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:Y183013",
+      "via": "lexicon"
+     }
+    }
+   ]
+  }
+ ]
+}

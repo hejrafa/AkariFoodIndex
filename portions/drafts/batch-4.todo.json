@@ -1,0 +1,3460 @@
+{
+ "batch": 4,
+ "identities": [
+  {
+   "key": "bamboo shoots",
+   "names": [
+    "bamboo shoots",
+    "canned bamboo shoots",
+    "bamboo shoot",
+    "bamboo shoots canned",
+    "bambussprossen aus der dose"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:H610902",
+     "name": "Bamboo shoots canned, drained"
+    },
+    {
+     "id": "mext:06151",
+     "name": "Bamboo shoots, canned"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "avocado",
+   "names": [
+    "avocado",
+    "avocados",
+    "ripe avocado",
+    "hass avocado"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:F502100",
+     "name": "Avocado raw"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "black olives",
+   "names": [
+    "black olives",
+    "olives",
+    "kalamata olives",
+    "ripe olives",
+    "pitted black olives",
+    "schwarze oliven"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2710090",
+     "name": "Olives, black"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2710090",
+     "label": "1 olive",
+     "grams": 5
+    },
+    {
+     "reference": "usda:2710090",
+     "label": "1 cup",
+     "grams": 135
+    }
+   ]
+  },
+  {
+   "key": "green olives",
+   "names": [
+    "green olives",
+    "pitted green olives",
+    "manzanilla olives",
+    "grune oliven"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2710089",
+     "name": "Olives, green"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2710089",
+     "label": "1 olive",
+     "grams": 4
+    },
+    {
+     "reference": "usda:2710089",
+     "label": "1 cup",
+     "grams": 135
+    }
+   ]
+  },
+  {
+   "key": "capers",
+   "names": [
+    "capers",
+    "caper",
+    "capers in brine",
+    "kapern"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:G012902",
+     "name": "Capers pickled, canned, drained"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "pickles",
+   "names": [
+    "pickles",
+    "dill pickles",
+    "gherkins",
+    "pickled cucumber",
+    "cornichons",
+    "pickle",
+    "gewurzgurken",
+    "dill pickle"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2710078",
+     "name": "Pickles, dill"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2710078",
+     "label": "1 regular",
+     "grams": 80
+    },
+    {
+     "reference": "usda:2710078",
+     "label": "1 miniature",
+     "grams": 30
+    },
+    {
+     "reference": "usda:2710078",
+     "label": "1 half",
+     "grams": 40
+    },
+    {
+     "reference": "usda:2710078",
+     "label": "1 slice",
+     "grams": 7
+    },
+    {
+     "reference": "usda:2710078",
+     "label": "1 spear",
+     "grams": 40
+    },
+    {
+     "reference": "usda:2710078",
+     "label": "1 stacker",
+     "grams": 21
+    },
+    {
+     "reference": "usda:2710078",
+     "label": "1 cup",
+     "grams": 155
+    }
+   ]
+  },
+  {
+   "key": "pickled ginger",
+   "names": [
+    "pickled ginger",
+    "gari",
+    "sushi ginger",
+    "eingelegter ingwer"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:R912000",
+     "name": "Sushi ginger (Gari) canned"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "cooked mixed vegetables",
+   "names": [
+    "cooked mixed vegetables",
+    "mixed vegetables",
+    "frozen mixed vegetables",
+    "steamed vegetables",
+    "kaisergemuse",
+    "mixed vegetables cooked",
+    "gemusemischung gekocht"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:G090132",
+     "name": "Mixed vegetables (carrots, cauliflower and broccoli florets) boiled"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "nori",
+   "names": [
+    "nori",
+    "nori sheets",
+    "sushi nori",
+    "seaweed sheets",
+    "roasted seaweed",
+    "laver"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:G995000",
+     "name": "Sushi nori (toasted)"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "horseradish",
+   "names": [
+    "horseradish",
+    "fresh horseradish",
+    "grated horseradish",
+    "meerrettich"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:G630100",
+     "name": "Horseradish raw"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "wasabi",
+   "names": [
+    "wasabi",
+    "wasabi root",
+    "fresh wasabi"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:G693100",
+     "name": "Japanese horseradish/wasabi root, raw"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "cilantro",
+   "names": [
+    "cilantro",
+    "fresh coriander",
+    "coriander leaves",
+    "coriander leaf",
+    "fresh cilantro",
+    "chinese parsley",
+    "koriandergrun"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2709782",
+     "name": "Cilantro, raw"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2709782",
+     "label": "1 cup",
+     "grams": 16
+    },
+    {
+     "reference": "usda:2709782",
+     "label": "1 sprig",
+     "grams": 1
+    },
+    {
+     "reference": "usda:2709782",
+     "label": "1 guideline amount per item",
+     "grams": 0.3
+    }
+   ]
+  },
+  {
+   "key": "mint",
+   "names": [
+    "mint",
+    "fresh mint",
+    "mint leaves",
+    "peppermint leaves",
+    "spearmint",
+    "minze"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "ciqual:11027",
+     "name": "Menthe, fraîche"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "dried thyme",
+   "names": [
+    "dried thyme",
+    "thyme dried",
+    "thymian getrocknet"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "ciqual:11038",
+     "name": "Thym, séché"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "onion powder",
+   "names": [
+    "onion powder",
+    "granulated onion",
+    "onion granules",
+    "zwiebelpulver"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:G480500",
+     "name": "Onion powder"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "garam masala",
+   "names": [
+    "garam masala",
+    "garam masala powder"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "cofid:13-829",
+     "name": "Garam masala"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "vanilla sugar",
+   "names": [
+    "vanilla sugar",
+    "vanillin sugar",
+    "vanillezucker"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:S114000",
+     "name": "Vanilla sugar"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "yeast",
+   "names": [
+    "yeast",
+    "dry yeast",
+    "active dry yeast",
+    "instant yeast",
+    "fresh yeast",
+    "hefe"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2710005",
+     "name": "Yeast"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2710005",
+     "label": "1 tablespoon",
+     "grams": 12
+    }
+   ]
+  },
+  {
+   "key": "gelatine",
+   "names": [
+    "gelatine",
+    "gelatin",
+    "gelatine sheets",
+    "gelatin powder"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:R468000",
+     "name": "Gelatine"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "vegetable oil",
+   "names": [
+    "vegetable oil",
+    "cooking oil",
+    "neutral oil",
+    "oil",
+    "frying oil",
+    "salad oil",
+    "pflanzenol"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2710180",
+     "name": "Vegetable oil, NFS"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2710180",
+     "label": "1 cup",
+     "grams": 224
+    },
+    {
+     "reference": "usda:2710180",
+     "label": "1 tablespoon",
+     "grams": 14
+    }
+   ]
+  },
+  {
+   "key": "sesame oil",
+   "names": [
+    "sesame oil",
+    "toasted sesame oil",
+    "sesamol"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2710190",
+     "name": "Sesame oil"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2710190",
+     "label": "1 cup",
+     "grams": 224
+    },
+    {
+     "reference": "usda:2710190",
+     "label": "1 tablespoon",
+     "grams": 14
+    }
+   ]
+  },
+  {
+   "key": "margarine",
+   "names": [
+    "margarine",
+    "vegan butter",
+    "plant butter",
+    "spread margarine"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2710158",
+     "name": "Margarine, NFS"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2710158",
+     "label": "1 cup",
+     "grams": 224
+    },
+    {
+     "reference": "usda:2710158",
+     "label": "1 tablespoon",
+     "grams": 14
+    },
+    {
+     "reference": "usda:2710158",
+     "label": "1 pat",
+     "grams": 7
+    },
+    {
+     "reference": "usda:2710158",
+     "label": "1 individual container",
+     "grams": 5
+    }
+   ]
+  },
+  {
+   "key": "mayonnaise",
+   "names": [
+    "mayonnaise",
+    "mayo",
+    "japanese mayonnaise",
+    "aioli"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2710204",
+     "name": "Mayonnaise, regular"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2710204",
+     "label": "1 cup",
+     "grams": 220
+    },
+    {
+     "reference": "usda:2710204",
+     "label": "1 tablespoon",
+     "grams": 13.8
+    },
+    {
+     "reference": "usda:2710204",
+     "label": "1 packet",
+     "grams": 12
+    },
+    {
+     "reference": "usda:2710204",
+     "label": "1 dipping-size container",
+     "grams": 28
+    }
+   ]
+  },
+  {
+   "key": "ketchup",
+   "names": [
+    "ketchup",
+    "tomato ketchup",
+    "catsup"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:R141100",
+     "name": "Tomato ketchup"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "curry ketchup",
+   "names": [
+    "curry ketchup",
+    "curry gewurzketchup",
+    "currywurst sauce",
+    "curryketchup"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:R141200",
+     "name": "Curry ketchup"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "fish sauce",
+   "names": [
+    "fish sauce",
+    "nam pla",
+    "nuoc mam",
+    "fischsauce"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2706457",
+     "name": "Fish sauce"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2706457",
+     "label": "1 tablespoon",
+     "grams": 16
+    }
+   ]
+  },
+  {
+   "key": "oyster sauce",
+   "names": [
+    "oyster sauce",
+    "austernsauce"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2707150",
+     "name": "Oyster sauce"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2707150",
+     "label": "1 tablespoon",
+     "grams": 16
+    }
+   ]
+  },
+  {
+   "key": "hoisin sauce",
+   "names": [
+    "hoisin sauce",
+    "hoisin"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2707441",
+     "name": "Hoisin sauce"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2707441",
+     "label": "1 tablespoon",
+     "grams": 16
+    }
+   ]
+  },
+  {
+   "key": "teriyaki sauce",
+   "names": [
+    "teriyaki sauce",
+    "teriyaki",
+    "teriyaki glaze"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2707445",
+     "name": "Teriyaki sauce"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2707445",
+     "label": "1 tablespoon",
+     "grams": 16
+    },
+    {
+     "reference": "usda:2707445",
+     "label": "1 individual packet",
+     "grams": 9
+    }
+   ]
+  },
+  {
+   "key": "worcestershire sauce",
+   "names": [
+    "worcestershire sauce",
+    "worcester sauce",
+    "worcestershire",
+    "worcestershiresauce"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2707447",
+     "name": "Worcestershire sauce"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2707447",
+     "label": "1 tablespoon",
+     "grams": 16
+    }
+   ]
+  },
+  {
+   "key": "barbecue sauce",
+   "names": [
+    "barbecue sauce",
+    "bbq sauce",
+    "barbeque sauce",
+    "grillsauce"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2709750",
+     "name": "Barbecue sauce"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2709750",
+     "label": "1 tablespoon",
+     "grams": 17
+    },
+    {
+     "reference": "usda:2709750",
+     "label": "1 cup",
+     "grams": 272
+    },
+    {
+     "reference": "usda:2709750",
+     "label": "1 packet",
+     "grams": 9
+    },
+    {
+     "reference": "usda:2709750",
+     "label": "1 dipping-size container",
+     "grams": 28
+    }
+   ]
+  },
+  {
+   "key": "sweet and sour sauce",
+   "names": [
+    "sweet and sour sauce",
+    "sweet sour sauce",
+    "suß sauer sauce",
+    "sußsauer sauce"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2710296",
+     "name": "Sweet and sour sauce"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2710296",
+     "label": "1 tablespoon",
+     "grams": 16
+    },
+    {
+     "reference": "usda:2710296",
+     "label": "1 packet",
+     "grams": 9
+    },
+    {
+     "reference": "usda:2710296",
+     "label": "1 dipping-size container",
+     "grams": 28
+    }
+   ]
+  },
+  {
+   "key": "chili sauce",
+   "names": [
+    "chili sauce",
+    "sambal oelek",
+    "sambal",
+    "chili paste",
+    "chilli paste",
+    "hot sauce",
+    "chili garlic sauce",
+    "chilipaste"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:R146100",
+     "name": "Chilli sauce (Sambal Oelek)"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "harissa",
+   "names": [
+    "harissa",
+    "harissa paste"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "ciqual:11112",
+     "name": "Harissa (sauce au piment), préemballée"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "miso",
+   "names": [
+    "miso",
+    "miso paste",
+    "white miso",
+    "red miso",
+    "shiro miso",
+    "doenjang"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "ciqual:20916",
+     "name": "Miso"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "curry paste",
+   "names": [
+    "curry paste",
+    "thai curry paste",
+    "red curry paste",
+    "green curry paste",
+    "yellow curry paste",
+    "massaman curry paste",
+    "currypaste"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "cofid:17-720",
+     "name": "Curry paste"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "peanut sauce",
+   "names": [
+    "peanut sauce",
+    "satay sauce",
+    "peanut satay sauce",
+    "erdnusssauce"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2707546",
+     "name": "Peanut sauce"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2707546",
+     "label": "1 tablespoon",
+     "grams": 16
+    }
+   ]
+  },
+  {
+   "key": "pesto",
+   "names": [
+    "pesto",
+    "basil pesto",
+    "pesto genovese",
+    "green pesto",
+    "pesto verde"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:X372012",
+     "name": "Pesto verde"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "tomato salsa",
+   "names": [
+    "tomato salsa",
+    "salsa",
+    "salsa roja",
+    "red salsa",
+    "taco sauce",
+    "tomatensalsa"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2709739",
+     "name": "Salsa, red, homemade"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2709739",
+     "label": "1 cup",
+     "grams": 234
+    }
+   ]
+  },
+  {
+   "key": "pico de gallo",
+   "names": [
+    "pico de gallo",
+    "salsa fresca",
+    "fresh salsa"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2709737",
+     "name": "Salsa, pico de gallo"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2709737",
+     "label": "1 cup",
+     "grams": 240
+    }
+   ]
+  },
+  {
+   "key": "guacamole",
+   "names": [
+    "guacamole",
+    "guac",
+    "avocado dip"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2709307",
+     "name": "Guacamole, NFS"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2709307",
+     "label": "1 tablespoon",
+     "grams": 15
+    },
+    {
+     "reference": "usda:2709307",
+     "label": "1 individual container",
+     "grams": 70
+    }
+   ]
+  },
+  {
+   "key": "tzatziki",
+   "names": [
+    "tzatziki",
+    "tsatsiki",
+    "zaziki",
+    "cacik"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "cofid:12-547",
+     "name": "Tzatziki"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "tomato sauce",
+   "names": [
+    "tomato sauce",
+    "marinara sauce",
+    "marinara",
+    "pasta sauce",
+    "napoli sauce",
+    "sugo",
+    "tomato pasta sauce",
+    "pizza sauce",
+    "arrabbiata sauce",
+    "tomatensauce"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:X331353",
+     "name": "Tomato sauce Italian style"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "enchilada sauce",
+   "names": [
+    "enchilada sauce",
+    "red enchilada sauce",
+    "enchiladasauce"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2709741",
+     "name": "Enchilada sauce, red"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2709741",
+     "label": "1 tablespoon",
+     "grams": 16
+    }
+   ]
+  },
+  {
+   "key": "gravy",
+   "names": [
+    "gravy",
+    "brown gravy",
+    "beef gravy",
+    "roast gravy",
+    "bratensauce",
+    "bratensoße",
+    "jus",
+    "onion gravy"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2707149",
+     "name": "Gravy, NFS"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2707149",
+     "label": "1 cup",
+     "grams": 240
+    }
+   ]
+  },
+  {
+   "key": "bechamel",
+   "names": [
+    "bechamel",
+    "white sauce",
+    "bechamel sauce",
+    "besciamella",
+    "bechamelsauce"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:X320243",
+     "name": "Bechamel sauce"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "hollandaise",
+   "names": [
+    "hollandaise",
+    "hollandaise sauce",
+    "sauce hollandaise"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2710171",
+     "name": "Hollandaise sauce"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2710171",
+     "label": "1 tablespoon",
+     "grams": 16
+    }
+   ]
+  },
+  {
+   "key": "vinaigrette",
+   "names": [
+    "vinaigrette",
+    "french dressing",
+    "oil and vinegar dressing",
+    "salad dressing",
+    "balsamic vinaigrette",
+    "olive oil vinaigrette",
+    "house dressing"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "ciqual:11108",
+     "name": "Sauce vinaigrette à l'huile d'olive (50 à 75% d'huile), préemballée"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "caesar dressing",
+   "names": [
+    "caesar dressing",
+    "caesar salad dressing"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2710199",
+     "name": "Caesar dressing"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2710199",
+     "label": "1 cup",
+     "grams": 235
+    },
+    {
+     "reference": "usda:2710199",
+     "label": "1 tablespoon",
+     "grams": 14.7
+    },
+    {
+     "reference": "usda:2710199",
+     "label": "1 packet",
+     "grams": 44
+    },
+    {
+     "reference": "usda:2710199",
+     "label": "1 dipping-size container",
+     "grams": 57
+    }
+   ]
+  },
+  {
+   "key": "ranch dressing",
+   "names": [
+    "ranch dressing",
+    "ranch"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2710212",
+     "name": "Ranch dressing"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2710212",
+     "label": "1 tablespoon",
+     "grams": 15
+    },
+    {
+     "reference": "usda:2710212",
+     "label": "1 cup",
+     "grams": 240
+    },
+    {
+     "reference": "usda:2710212",
+     "label": "1 packet",
+     "grams": 44
+    },
+    {
+     "reference": "usda:2710212",
+     "label": "1 dipping-size container",
+     "grams": 70
+    }
+   ]
+  },
+  {
+   "key": "thousand island dressing",
+   "names": [
+    "thousand island dressing",
+    "thousand island",
+    "burger sauce"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2710213",
+     "name": "Thousand Island dressing"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2710213",
+     "label": "1 cup",
+     "grams": 250
+    },
+    {
+     "reference": "usda:2710213",
+     "label": "1 tablespoon",
+     "grams": 15.6
+    },
+    {
+     "reference": "usda:2710213",
+     "label": "1 packet",
+     "grams": 44
+    },
+    {
+     "reference": "usda:2710213",
+     "label": "1 dipping-size container",
+     "grams": 57
+    }
+   ]
+  },
+  {
+   "key": "tartar sauce",
+   "names": [
+    "tartar sauce",
+    "tartare sauce",
+    "tatarensauce"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2710173",
+     "name": "Tartar sauce"
+    },
+    {
+     "id": "bls:X344360",
+     "name": "Tatar sauce"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2710173",
+     "label": "1 tablespoon",
+     "grams": 14
+    },
+    {
+     "reference": "usda:2710173",
+     "label": "1 packet",
+     "grams": 12
+    },
+    {
+     "reference": "usda:2710173",
+     "label": "1 dipping-size container",
+     "grams": 28
+    }
+   ]
+  },
+  {
+   "key": "broth",
+   "names": [
+    "broth",
+    "stock",
+    "bouillon",
+    "soup broth",
+    "clear broth",
+    "bruhe"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2707132",
+     "name": "Soup, broth"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2707132",
+     "label": "1 cup",
+     "grams": 240
+    },
+    {
+     "reference": "usda:2707132",
+     "label": "1 can",
+     "grams": 525
+    },
+    {
+     "reference": "usda:2707132",
+     "label": "1 carton",
+     "grams": 910
+    },
+    {
+     "reference": "usda:2707132",
+     "label": "1 individual container",
+     "grams": 440
+    }
+   ]
+  },
+  {
+   "key": "chicken stock",
+   "names": [
+    "chicken stock",
+    "chicken broth",
+    "chicken bouillon",
+    "huhnerbruhe"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:X411243",
+     "name": "Chicken stock"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "beef stock",
+   "names": [
+    "beef stock",
+    "beef broth",
+    "beef bouillon",
+    "fleischbruhe",
+    "bone broth",
+    "rinderbruhe"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:Y183013",
+     "name": "Beef stock"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "vegetable stock",
+   "names": [
+    "vegetable stock",
+    "vegetable broth",
+    "veggie stock",
+    "gemusebruhe",
+    "vegetable bouillon"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:X416243",
+     "name": "Vegetable stock"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "white vinegar",
+   "names": [
+    "white vinegar",
+    "vinegar",
+    "distilled vinegar",
+    "spirit vinegar",
+    "branntweinessig"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:R122000",
+     "name": "Distilled vinegar"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "wine vinegar",
+   "names": [
+    "wine vinegar",
+    "red wine vinegar",
+    "white wine vinegar",
+    "sherry vinegar",
+    "weinessig"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:R121000",
+     "name": "Wine vinegar"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "balsamic vinegar",
+   "names": [
+    "balsamic vinegar",
+    "balsamic",
+    "balsamico",
+    "aceto balsamico",
+    "balsamico essig"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:R125000",
+     "name": "Balsamic vinegar"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "rice vinegar",
+   "names": [
+    "rice vinegar",
+    "rice wine vinegar",
+    "japanese rice vinegar",
+    "seasoned rice vinegar",
+    "reisessig"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "mext:17016",
+     "name": "Rice vinegar"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "lemon juice",
+   "names": [
+    "lemon juice",
+    "juice of a lemon",
+    "fresh lemon juice",
+    "zitronensaft"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:F601600",
+     "name": "Lemon juice"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "lime juice",
+   "names": [
+    "lime juice",
+    "juice of a lime",
+    "fresh lime juice",
+    "limettensaft"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:F602600",
+     "name": "Lime juice"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "chutney",
+   "names": [
+    "chutney",
+    "mango chutney",
+    "fruit chutney",
+    "fruchtchutney"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:R144100",
+     "name": "Fruit chutney"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "caramel sauce",
+   "names": [
+    "caramel sauce",
+    "caramel",
+    "salted caramel sauce",
+    "karamellsauce"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:X363143",
+     "name": "Caramel sauce"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "sugar",
+   "names": [
+    "sugar",
+    "white sugar",
+    "granulated sugar",
+    "caster sugar",
+    "table sugar",
+    "superfine sugar",
+    "zucker"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2710258",
+     "name": "Sugar, white, granulated or lump"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2710258",
+     "label": "1 cup",
+     "grams": 200
+    },
+    {
+     "reference": "usda:2710258",
+     "label": "1 teaspoon",
+     "grams": 4.2
+    },
+    {
+     "reference": "usda:2710258",
+     "label": "1 individual packet",
+     "grams": 3.5
+    },
+    {
+     "reference": "usda:2710258",
+     "label": "1 cube",
+     "grams": 2.3
+    }
+   ]
+  },
+  {
+   "key": "brown sugar",
+   "names": [
+    "brown sugar",
+    "light brown sugar",
+    "dark brown sugar",
+    "muscovado sugar",
+    "demerara sugar",
+    "palm sugar",
+    "coconut sugar",
+    "brauner zucker"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2710260",
+     "name": "Sugar, brown"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2710260",
+     "label": "1 cup, NFS",
+     "grams": 220
+    },
+    {
+     "reference": "usda:2710260",
+     "label": "1 teaspoon, NFS",
+     "grams": 4.6
+    }
+   ]
+  },
+  {
+   "key": "powdered sugar",
+   "names": [
+    "powdered sugar",
+    "icing sugar",
+    "confectioners sugar",
+    "puderzucker"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2710259",
+     "name": "Sugar, white, confectioner's, powdered"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2710259",
+     "label": "1 cup",
+     "grams": 120
+    },
+    {
+     "reference": "usda:2710259",
+     "label": "1 teaspoon",
+     "grams": 2.5
+    }
+   ]
+  },
+  {
+   "key": "simple syrup",
+   "names": [
+    "simple syrup",
+    "sugar syrup",
+    "syrup",
+    "zuckersirup"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2710278",
+     "name": "Simple syrup"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2710278",
+     "label": "1 cup",
+     "grams": 320
+    },
+    {
+     "reference": "usda:2710278",
+     "label": "1 tablespoon",
+     "grams": 20
+    }
+   ]
+  },
+  {
+   "key": "chocolate hazelnut spread",
+   "names": [
+    "chocolate hazelnut spread",
+    "hazelnut spread",
+    "nut nougat cream",
+    "nuss nougat creme",
+    "chocolate spread"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:S145000",
+     "name": "Nut nougat cream (spread)"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "milk chocolate",
+   "names": [
+    "milk chocolate",
+    "vollmilchschokolade",
+    "chocolate"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:S530000",
+     "name": "Milk chocolate"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "white chocolate",
+   "names": [
+    "white chocolate",
+    "weiße schokolade"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:S580000",
+     "name": "Chocolate white"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "chocolate chips",
+   "names": [
+    "chocolate chips",
+    "chocolate chunks",
+    "choc chips",
+    "semi sweet chocolate chips",
+    "schokotropfen"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2710333",
+     "name": "Chocolate chips"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2710333",
+     "label": "1 piece",
+     "grams": 1
+    },
+    {
+     "reference": "usda:2710333",
+     "label": "1 cup",
+     "grams": 225
+    }
+   ]
+  },
+  {
+   "key": "hot chocolate powder",
+   "names": [
+    "hot chocolate powder",
+    "drinking chocolate",
+    "cocoa drink powder",
+    "instant cocoa",
+    "chocolate milk powder",
+    "kakaogetrankepulver"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:S723000",
+     "name": "Beverage powder containing cocoa"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "ladyfingers",
+   "names": [
+    "ladyfingers",
+    "savoiardi",
+    "sponge fingers",
+    "loffelbiskuits"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:D710200",
+     "name": "Sponge fingers"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "digestive biscuits",
+   "names": [
+    "digestive biscuits",
+    "digestives",
+    "biscuit crumbs",
+    "biscuit base",
+    "digestive kekse"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "cofid:11-799",
+     "name": "Biscuits, digestive, plain"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "cashews",
+   "names": [
+    "cashews",
+    "cashew",
+    "cashew nuts",
+    "roasted cashews",
+    "cashewkerne"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:H170610",
+     "name": "Cashew nut roasted without fat"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "pecans",
+   "names": [
+    "pecans",
+    "pecan",
+    "pecan nuts",
+    "pecan halves",
+    "pekannusse"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:H160100",
+     "name": "Pecan"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "pistachios",
+   "names": [
+    "pistachios",
+    "pistachio",
+    "pistachio nuts",
+    "shelled pistachios",
+    "pistazien"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:H250100",
+     "name": "Pistachio nut"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "pine nuts",
+   "names": [
+    "pine nuts",
+    "pine kernels",
+    "pignoli",
+    "pinienkerne"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:H320100",
+     "name": "Pine nut"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "desiccated coconut",
+   "names": [
+    "desiccated coconut",
+    "shredded coconut",
+    "coconut flakes",
+    "grated coconut",
+    "dried coconut",
+    "kokosraspel",
+    "kokosraspeln"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "cofid:14-873",
+     "name": "Coconut, desiccated"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "mandarin",
+   "names": [
+    "mandarin",
+    "mandarins",
+    "tangerine",
+    "satsuma",
+    "mandarin oranges",
+    "clementine",
+    "clementines",
+    "mandarine"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:F606100",
+     "name": "Mandarin raw"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "lime",
+   "names": [
+    "lime",
+    "limes",
+    "lime wedge",
+    "lime zest",
+    "lime slices",
+    "limette"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:F602100",
+     "name": "Lime raw"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "grapefruit",
+   "names": [
+    "grapefruit",
+    "pink grapefruit"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:F604100",
+     "name": "Grapefruit raw"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "mixed berries",
+   "names": [
+    "mixed berries",
+    "frozen berries",
+    "berry mix",
+    "frozen mixed berries",
+    "forest fruits",
+    "summer berries",
+    "beerenmischung"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:F092100",
+     "name": "Berry mix with sour cherries, unsweetened, raw"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "cherries",
+   "names": [
+    "cherries",
+    "cherry",
+    "sweet cherries",
+    "fresh cherries",
+    "kirschen"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:F211100",
+     "name": "Sweet cherry raw"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "mango",
+   "names": [
+    "mango",
+    "mangoes",
+    "mangos",
+    "ripe mango",
+    "frozen mango"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:F516100",
+     "name": "Mango raw"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "kiwi",
+   "names": [
+    "kiwi",
+    "kiwis",
+    "kiwifruit",
+    "kiwi fruit"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:F514100",
+     "name": "Kiwi fruit raw"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "papaya",
+   "names": [
+    "papaya",
+    "pawpaw",
+    "papayas"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:F517100",
+     "name": "Papaya raw"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "passion fruit",
+   "names": [
+    "passion fruit",
+    "passionfruit",
+    "maracuja"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:F508100",
+     "name": "Passion fruit raw"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "cantaloupe",
+   "names": [
+    "cantaloupe",
+    "melon",
+    "musk melon",
+    "rockmelon",
+    "cantaloupe melone"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:F532100",
+     "name": "Musk melon/cantaloup, raw"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "fig",
+   "names": [
+    "fig",
+    "figs",
+    "fresh figs",
+    "feige"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:F505100",
+     "name": "Fig raw"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "rhubarb",
+   "names": [
+    "rhubarb",
+    "rhubarb stalks",
+    "rhabarber"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:F081100",
+     "name": "Rhubarb raw"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "dried cranberries",
+   "names": [
+    "dried cranberries",
+    "craisins",
+    "sweetened dried cranberries",
+    "cranberries dried",
+    "cranberrys getrocknet"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2709202",
+     "name": "Cranberries, dried"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2709202",
+     "label": "1 berry",
+     "grams": 0.5
+    },
+    {
+     "reference": "usda:2709202",
+     "label": "1 cup",
+     "grams": 160
+    }
+   ]
+  },
+  {
+   "key": "dried apricots",
+   "names": [
+    "dried apricots",
+    "dried apricot",
+    "apricots dried",
+    "aprikosen getrocknet"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:F201400",
+     "name": "Apricot dried"
+    },
+    {
+     "id": "cofid:14-031",
+     "name": "Apricots, dried"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "prunes",
+   "names": [
+    "prunes",
+    "dried plums",
+    "prune",
+    "backpflaumen"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2709211",
+     "name": "Prune, dried"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2709211",
+     "label": "1 prune",
+     "grams": 8
+    },
+    {
+     "reference": "usda:2709211",
+     "label": "1 cup",
+     "grams": 160
+    }
+   ]
+  },
+  {
+   "key": "applesauce",
+   "names": [
+    "applesauce",
+    "apple sauce",
+    "apple puree",
+    "unsweetened applesauce",
+    "apfelmus"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:Y864112",
+     "name": "Apple sauce unsweetened"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "espresso",
+   "names": [
+    "espresso",
+    "espresso shot",
+    "shot of espresso",
+    "strong coffee"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2710378",
+     "name": "Coffee, espresso"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2710378",
+     "label": "1 fl oz",
+     "grams": 30
+    },
+    {
+     "reference": "usda:2710378",
+     "label": "1 espresso cup (2 fl oz)",
+     "grams": 60
+    }
+   ]
+  },
+  {
+   "key": "herbal tea",
+   "names": [
+    "herbal tea",
+    "peppermint tea",
+    "chamomile tea",
+    "fruit tea",
+    "rooibos",
+    "krautertee"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2710502",
+     "name": "Tea, hot, herbal"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2710502",
+     "label": "1 fl oz",
+     "grams": 30
+    },
+    {
+     "reference": "usda:2710502",
+     "label": "1 cup",
+     "grams": 240
+    },
+    {
+     "reference": "usda:2710502",
+     "label": "1 small",
+     "grams": 360
+    },
+    {
+     "reference": "usda:2710502",
+     "label": "1 medium",
+     "grams": 480
+    },
+    {
+     "reference": "usda:2710502",
+     "label": "1 large",
+     "grams": 600
+    }
+   ]
+  },
+  {
+   "key": "matcha",
+   "names": [
+    "matcha",
+    "matcha powder",
+    "green tea powder",
+    "matchapulver"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "mext:16035",
+     "name": "Matcha green tea powder"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "tomato juice",
+   "names": [
+    "tomato juice",
+    "tomato juice 100",
+    "tomatensaft"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2709728",
+     "name": "Tomato juice, 100%"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2709728",
+     "label": "1 fl oz (no ice)",
+     "grams": 31
+    },
+    {
+     "reference": "usda:2709728",
+     "label": "1 fl oz (with ice)",
+     "grams": 23
+    },
+    {
+     "reference": "usda:2709728",
+     "label": "1 fl oz (NFS)",
+     "grams": 31
+    }
+   ]
+  },
+  {
+   "key": "coconut water",
+   "names": [
+    "coconut water",
+    "unsweetened coconut water",
+    "kokoswasser"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2707572",
+     "name": "Coconut water, unsweetened"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2707572",
+     "label": "1 fl oz (no ice)",
+     "grams": 30
+    },
+    {
+     "reference": "usda:2707572",
+     "label": "1 fl oz (with ice)",
+     "grams": 23
+    },
+    {
+     "reference": "usda:2707572",
+     "label": "1 fl oz (NFS)",
+     "grams": 30
+    },
+    {
+     "reference": "usda:2707572",
+     "label": "1 coconut yields",
+     "grams": 206
+    }
+   ]
+  },
+  {
+   "key": "red wine",
+   "names": [
+    "red wine",
+    "dry red wine",
+    "rotwein",
+    "cooking red wine"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2710688",
+     "name": "Wine, red"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2710688",
+     "label": "1 fl oz",
+     "grams": 30
+    },
+    {
+     "reference": "usda:2710688",
+     "label": "1 glass",
+     "grams": 180
+    },
+    {
+     "reference": "usda:2710688",
+     "label": "1/2 bottle",
+     "grams": 375
+    }
+   ]
+  },
+  {
+   "key": "white wine",
+   "names": [
+    "white wine",
+    "dry white wine",
+    "weißwein",
+    "cooking white wine"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2710689",
+     "name": "Wine, white"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2710689",
+     "label": "1 fl oz",
+     "grams": 30
+    },
+    {
+     "reference": "usda:2710689",
+     "label": "1 glass",
+     "grams": 180
+    },
+    {
+     "reference": "usda:2710689",
+     "label": "1/2 bottle",
+     "grams": 375
+    }
+   ]
+  },
+  {
+   "key": "rice wine",
+   "names": [
+    "rice wine",
+    "shaoxing wine",
+    "sake",
+    "cooking sake",
+    "chinese cooking wine",
+    "reiswein"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2710691",
+     "name": "Wine, rice"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2710691",
+     "label": "1 fl oz",
+     "grams": 30
+    }
+   ]
+  },
+  {
+   "key": "beer",
+   "names": [
+    "beer",
+    "lager",
+    "pilsner",
+    "ale",
+    "bier"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2710616",
+     "name": "Beer"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2710616",
+     "label": "1 fl oz",
+     "grams": 30
+    },
+    {
+     "reference": "usda:2710616",
+     "label": "1 can or bottle (12 fl oz)",
+     "grams": 360
+    },
+    {
+     "reference": "usda:2710616",
+     "label": "1 can or bottle (16 fl oz)",
+     "grams": 480
+    },
+    {
+     "reference": "usda:2710616",
+     "label": "1 bottle (40 fl oz)",
+     "grams": 1200
+    }
+   ]
+  },
+  {
+   "key": "gyoza wrappers",
+   "names": [
+    "gyoza wrappers",
+    "gyoza teigblatter"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "mext:01074",
+     "name": "Gyoza wrappers, raw"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "shumai wrappers",
+   "names": [
+    "shumai wrappers",
+    "shumai teigblatter"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "mext:01075",
+     "name": "Shumai wrappers, raw"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "tempura batter fried",
+   "names": [
+    "tempura batter fried",
+    "tempurateig frittiert"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "mext:01172",
+     "name": "こむぎ ［小麦粉］ プレミックス粉 天ぷら用 バッター 揚げ"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "spring roll wrappers fried",
+   "names": [
+    "spring roll wrappers fried",
+    "fruhlingsrollenteig frittiert"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "mext:01180",
+     "name": "こむぎ ［その他］ 春巻きの皮 揚げ"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "shirataki noodles",
+   "names": [
+    "shirataki noodles",
+    "shirataki nudeln"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "mext:02005",
+     "name": "＜いも類＞ こんにゃく しらたき"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "takuan",
+   "names": [
+    "takuan",
+    "takuan pickled daikon",
+    "takuan eingelegter rettich"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "mext:06138",
+     "name": "（だいこん類） 漬物 たくあん漬 塩押しだいこん漬"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "lard",
+   "names": [
+    "lard",
+    "schweineschmalz"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "mext:14016",
+     "name": "（動物油脂類） ラード"
+    },
+    {
+     "id": "usda:2710166",
+     "name": "Lard"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2710166",
+     "label": "1 cup",
+     "grams": 192
+    },
+    {
+     "reference": "usda:2710166",
+     "label": "1 tablespoon",
+     "grams": 12
+    }
+   ]
+  },
+  {
+   "key": "chuno sauce",
+   "names": [
+    "chuno sauce"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "mext:17002",
+     "name": "＜調味料類＞ （ウスターソース類） 中濃ソース"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "tonkatsu sauce",
+   "names": [
+    "tonkatsu sauce"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "mext:17003",
+     "name": "＜調味料類＞ （ウスターソース類） 濃厚ソース"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "japanese curry roux",
+   "names": [
+    "japanese curry roux",
+    "japanische currywurfel"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "mext:17051",
+     "name": "＜調味料類＞ （ルウ類） カレールウ"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "okonomiyaki sauce",
+   "names": [
+    "okonomiyaki sauce"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "mext:17085",
+     "name": "＜調味料類＞ （ウスターソース類） お好み焼きソース"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "imitation crab",
+   "names": [
+    "imitation crab",
+    "surimi"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2706568",
+     "name": "Imitation crab meat"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2706568",
+     "label": "1 cup",
+     "grams": 135
+    }
+   ]
+  },
+  {
+   "key": "black bean sauce",
+   "names": [
+    "black bean sauce",
+    "schwarze bohnen sauce"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2707404",
+     "name": "Black bean sauce"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2707404",
+     "label": "1 tablespoon",
+     "grams": 16
+    }
+   ]
+  },
+  {
+   "key": "chinese pancake",
+   "names": [
+    "chinese pancake",
+    "chinesischer pfannkuchen"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2708343",
+     "name": "Chinese pancake"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2708343",
+     "label": "1 pancake",
+     "grams": 28
+    }
+   ]
+  },
+  {
+   "key": "shortcrust pastry",
+   "names": [
+    "shortcrust pastry",
+    "pie crust",
+    "pastry dough",
+    "murbeteig",
+    "tart pastry",
+    "shortcrust pastry cooked",
+    "shortcrust pastry baked",
+    "murbeteig gebacken"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "cofid:11-1052",
+     "name": "Pastry, shortcrust, cooked, homemade"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "sweet shortcrust pastry",
+   "names": [
+    "sweet shortcrust pastry",
+    "sußer murbeteig"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:Y8A8030",
+     "name": "Shortcrust pastry sweetened, raw"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "okara",
+   "names": [
+    "okara",
+    "soy pulp",
+    "okara soy pulp",
+    "okara sojatrester"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "mext:04051",
+     "name": "だいず ［その他］ おから 生"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "dried daikon strips boiled",
+   "names": [
+    "dried daikon strips boiled",
+    "kiriboshi daikon",
+    "getrocknete rettichstreifen gekocht"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "mext:06334",
+     "name": "（だいこん類） 切干しだいこん ゆで"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "zenmai fern boiled",
+   "names": [
+    "zenmai fern boiled",
+    "zenmai",
+    "zenmai farn gekocht"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "mext:06123",
+     "name": "ぜんまい 干しぜんまい 干し若芽 ゆで"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "hijiki boiled",
+   "names": [
+    "hijiki boiled",
+    "hijiki",
+    "hijiki seaweed boiled",
+    "hijiki alge gekocht"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "mext:09051",
+     "name": "ひじき ほしひじき ステンレス釜 ゆで"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "reblochon",
+   "names": [
+    "reblochon"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "ciqual:12045",
+     "name": "Reblochon"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "burrata",
+   "names": [
+    "burrata"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "ciqual:12072",
+     "name": "Burrata"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "pretzel salted",
+   "names": [
+    "pretzel salted",
+    "laugengeback mit hagelsalz"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:B723000",
+     "name": "Pretzel salted"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "pumpernickel",
+   "names": [
+    "pumpernickel"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:B780500",
+     "name": "Pumpernickel"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "pearl barley boiled",
+   "names": [
+    "pearl barley boiled",
+    "gerste graupen gekocht"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:C148032",
+     "name": "Pearl barley, boiled"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "wheat starch",
+   "names": [
+    "wheat starch",
+    "weizen starke"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:C216000",
+     "name": "Wheat starch"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "soft wheat semolina",
+   "names": [
+    "soft wheat semolina",
+    "weichweizen grieß"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:C218000",
+     "name": "Soft wheat semolina"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "green spelt whole grain boiled",
+   "names": [
+    "green spelt whole grain boiled",
+    "grunkern ganzes korn gekocht"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:C311032",
+     "name": "Green spelt whole grain, boiled"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "green spelt groats",
+   "names": [
+    "green spelt groats",
+    "grunkern grutze"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:C317000",
+     "name": "Green spelt groats"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "buckwheat groats",
+   "names": [
+    "buckwheat groats",
+    "buchweizen grutze"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:C327000",
+     "name": "Buckwheat groats"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "millet raw",
+   "names": [
+    "millet raw",
+    "hirse roh"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:C332000",
+     "name": "Millet raw"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "millet boiled",
+   "names": [
+    "millet boiled",
+    "hirse gekocht"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:C334032",
+     "name": "Millet boiled"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "white rice raw",
+   "names": [
+    "white rice raw",
+    "reis poliert roh"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:C352000",
+     "name": "White rice raw"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "green spelt flour",
+   "names": [
+    "green spelt flour",
+    "grunkern vollkornmehl"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:C413000",
+     "name": "Green spelt flour"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "buckwheat flour",
+   "names": [
+    "buckwheat flour",
+    "buchweizen mehl"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:C424000",
+     "name": "Buckwheat flour"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "cornflakes unsweetened",
+   "names": [
+    "cornflakes unsweetened",
+    "cornflakes ungesußt"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:C515400",
+     "name": "Cornflakes unsweetened"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "rice drink unsweetened",
+   "names": [
+    "rice drink unsweetened",
+    "reisdrink ungesußt"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:C650000",
+     "name": "Rice drink unsweetened"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "butter rusk",
+   "names": [
+    "butter rusk",
+    "butterzwieback"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:D036000",
+     "name": "Butter rusk"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "puff pastry egg free baked",
+   "names": [
+    "puff pastry egg free baked",
+    "blatterteig eifrei gebacken"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:D072062",
+     "name": "Puff pastry egg-free, baked"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "chocolate sponge cake base",
+   "names": [
+    "chocolate sponge cake base",
+    "schokobiskuitboden"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:D087000",
+     "name": "Chocolate sponge cake base"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "yeast dough simple baked",
+   "names": [
+    "yeast dough simple baked",
+    "hefeteig einfacher gebacken"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:D0A5000",
+     "name": "Yeast dough (simple) baked"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "english muffins toasties yeast dough fried without fat pan",
+   "names": [
+    "english muffins toasties yeast dough fried without fat pan",
+    "englische muffins toasties hefeteig gebraten ohne fett pfanne"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:D400700",
+     "name": "English muffins/toasties (yeast dough) fried without fat (pan)"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "meringue",
+   "names": [
+    "meringue",
+    "baiser"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:D610200",
+     "name": "Meringue"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "semolina dumplings boiled",
+   "names": [
+    "semolina dumplings boiled",
+    "grießkloßchen gekocht"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:E607032",
+     "name": "Semolina dumplings boiled"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "egg pasta tortellini meat filling dried boiled",
+   "names": [
+    "egg pasta tortellini meat filling dried boiled",
+    "eierteigwaren tortellini fleischfullung getrocknet gekocht"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:E609232",
+     "name": "Egg pasta Tortellini (meat filling) dried, boiled"
+    }
+   ],
+   "measures": []
+  }
+ ]
+}

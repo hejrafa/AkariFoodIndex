@@ -1,0 +1,1000 @@
+{
+ "batch": 4,
+ "drafted": "2026-10-01",
+ "drafter": "Claude in the Akari Claude Code session",
+ "entries": [
+  {
+   "key": "bamboo shoots",
+   "unit": "portion",
+   "gramsPerUnit": 50,
+   "typical": 1,
+   "reason": "drained shoots in a stir-fry for one"
+  },
+  {
+   "key": "avocado",
+   "unit": "piece",
+   "gramsPerUnit": 140,
+   "typical": 0.5,
+   "reason": "edible flesh of a medium Hass avocado"
+  },
+  {
+   "key": "black olives",
+   "unit": "piece",
+   "gramsPerUnit": 4,
+   "typical": 6,
+   "reason": "one pitted black olive"
+  },
+  {
+   "key": "green olives",
+   "unit": "piece",
+   "gramsPerUnit": 4,
+   "typical": 6,
+   "reason": "one pitted green olive"
+  },
+  {
+   "key": "capers",
+   "unit": "tablespoon",
+   "gramsPerUnit": 9,
+   "typical": 1,
+   "reason": "a tablespoon of drained capers"
+  },
+  {
+   "key": "pickles",
+   "unit": "piece",
+   "gramsPerUnit": 60,
+   "typical": 1,
+   "reason": "one medium dill pickle"
+  },
+  {
+   "key": "pickled ginger",
+   "unit": "portion",
+   "gramsPerUnit": 15,
+   "typical": 1,
+   "reason": "the ginger served with a sushi plate"
+  },
+  {
+   "key": "cooked mixed vegetables",
+   "unit": "portion",
+   "gramsPerUnit": 150,
+   "typical": 1,
+   "reason": "a vegetable side"
+  },
+  {
+   "key": "nori",
+   "unit": "piece",
+   "gramsPerUnit": 3,
+   "typical": 1,
+   "reason": "one full nori sheet"
+  },
+  {
+   "key": "horseradish",
+   "unit": "teaspoon",
+   "gramsPerUnit": 5,
+   "typical": 2,
+   "reason": "a teaspoon grated alongside meat or fish"
+  },
+  {
+   "key": "wasabi",
+   "unit": "teaspoon",
+   "gramsPerUnit": 5,
+   "typical": 0.5,
+   "reason": "a dab of grated wasabi with sushi"
+  },
+  {
+   "key": "cilantro",
+   "unit": "tablespoon",
+   "gramsPerUnit": 1,
+   "typical": 2,
+   "reason": "a tablespoon of chopped leaves as garnish"
+  },
+  {
+   "key": "mint",
+   "unit": "tablespoon",
+   "gramsPerUnit": 2,
+   "typical": 1,
+   "reason": "a tablespoon of chopped leaves"
+  },
+  {
+   "key": "dried thyme",
+   "unit": "teaspoon",
+   "gramsPerUnit": 1,
+   "typical": 1,
+   "reason": "one teaspoon of dried leaves"
+  },
+  {
+   "key": "onion powder",
+   "unit": "teaspoon",
+   "gramsPerUnit": 2.5,
+   "typical": 1,
+   "reason": "one teaspoon"
+  },
+  {
+   "key": "garam masala",
+   "unit": "teaspoon",
+   "gramsPerUnit": 2,
+   "typical": 1,
+   "reason": "one teaspoon"
+  },
+  {
+   "key": "vanilla sugar",
+   "unit": "teaspoon",
+   "gramsPerUnit": 4,
+   "typical": 2,
+   "reason": "two teaspoons make one 8 g sachet"
+  },
+  {
+   "key": "yeast",
+   "skip": "a leavening agent used only inside doughs"
+  },
+  {
+   "key": "gelatine",
+   "skip": "a setting agent used only inside desserts"
+  },
+  {
+   "key": "vegetable oil",
+   "unit": "tablespoon",
+   "gramsPerUnit": 14,
+   "typical": 1,
+   "reason": "one tablespoon for cooking or dressing"
+  },
+  {
+   "key": "sesame oil",
+   "unit": "tablespoon",
+   "gramsPerUnit": 14,
+   "typical": 0.5,
+   "reason": "a seasoning splash of about a teaspoon and a half"
+  },
+  {
+   "key": "margarine",
+   "unit": "tablespoon",
+   "gramsPerUnit": 14,
+   "typical": 1,
+   "reason": "one tablespoon, about two slices of bread spread"
+  },
+  {
+   "key": "mayonnaise",
+   "unit": "tablespoon",
+   "gramsPerUnit": 14,
+   "typical": 1,
+   "reason": "one tablespoon"
+  },
+  {
+   "key": "ketchup",
+   "unit": "tablespoon",
+   "gramsPerUnit": 17,
+   "typical": 2,
+   "reason": "a dip for fries or a burger"
+  },
+  {
+   "key": "curry ketchup",
+   "unit": "tablespoon",
+   "gramsPerUnit": 17,
+   "typical": 2,
+   "reason": "a dip for fries or currywurst"
+  },
+  {
+   "key": "fish sauce",
+   "unit": "tablespoon",
+   "gramsPerUnit": 16,
+   "typical": 1,
+   "reason": "one tablespoon in a dish"
+  },
+  {
+   "key": "oyster sauce",
+   "unit": "tablespoon",
+   "gramsPerUnit": 16,
+   "typical": 1,
+   "reason": "one tablespoon in a stir-fry"
+  },
+  {
+   "key": "hoisin sauce",
+   "unit": "tablespoon",
+   "gramsPerUnit": 16,
+   "typical": 1,
+   "reason": "one tablespoon"
+  },
+  {
+   "key": "teriyaki sauce",
+   "unit": "tablespoon",
+   "gramsPerUnit": 16,
+   "typical": 2,
+   "reason": "a glaze for one serving"
+  },
+  {
+   "key": "worcestershire sauce",
+   "unit": "tablespoon",
+   "gramsPerUnit": 16,
+   "typical": 0.5,
+   "reason": "a dash of about a teaspoon and a half"
+  },
+  {
+   "key": "barbecue sauce",
+   "unit": "tablespoon",
+   "gramsPerUnit": 17,
+   "typical": 2,
+   "reason": "a dip or glaze for one serving"
+  },
+  {
+   "key": "sweet and sour sauce",
+   "unit": "tablespoon",
+   "gramsPerUnit": 16,
+   "typical": 2,
+   "reason": "a dip for one serving"
+  },
+  {
+   "key": "chili sauce",
+   "unit": "tablespoon",
+   "gramsPerUnit": 17,
+   "typical": 0.5,
+   "reason": "a hot sauce used by the teaspoon"
+  },
+  {
+   "key": "harissa",
+   "unit": "tablespoon",
+   "gramsPerUnit": 16,
+   "typical": 0.5,
+   "reason": "a hot paste used by the teaspoon"
+  },
+  {
+   "key": "miso",
+   "unit": "tablespoon",
+   "gramsPerUnit": 18,
+   "typical": 1,
+   "reason": "one tablespoon, as for a bowl of miso soup"
+  },
+  {
+   "key": "curry paste",
+   "unit": "tablespoon",
+   "gramsPerUnit": 16,
+   "typical": 1,
+   "reason": "one person's share of a curry"
+  },
+  {
+   "key": "peanut sauce",
+   "unit": "tablespoon",
+   "gramsPerUnit": 16,
+   "typical": 2,
+   "reason": "a dip for satay or a dressing"
+  },
+  {
+   "key": "pesto",
+   "unit": "tablespoon",
+   "gramsPerUnit": 15,
+   "typical": 2,
+   "reason": "stirred through one plate of pasta"
+  },
+  {
+   "key": "tomato salsa",
+   "unit": "tablespoon",
+   "gramsPerUnit": 16,
+   "typical": 2,
+   "reason": "a spoonful with chips or tacos"
+  },
+  {
+   "key": "pico de gallo",
+   "unit": "tablespoon",
+   "gramsPerUnit": 15,
+   "typical": 2,
+   "reason": "a spoonful with chips or tacos"
+  },
+  {
+   "key": "guacamole",
+   "unit": "tablespoon",
+   "gramsPerUnit": 15,
+   "typical": 2,
+   "reason": "a spoonful with chips or tacos"
+  },
+  {
+   "key": "tzatziki",
+   "unit": "tablespoon",
+   "gramsPerUnit": 18,
+   "typical": 2,
+   "reason": "a spoonful with gyros or bread"
+  },
+  {
+   "key": "tomato sauce",
+   "unit": "portion",
+   "gramsPerUnit": 125,
+   "typical": 1,
+   "reason": "sauce for one plate of pasta"
+  },
+  {
+   "key": "enchilada sauce",
+   "unit": "tablespoon",
+   "gramsPerUnit": 16,
+   "typical": 3,
+   "reason": "sauce over one serving of enchiladas"
+  },
+  {
+   "key": "gravy",
+   "unit": "portion",
+   "gramsPerUnit": 60,
+   "typical": 1,
+   "reason": "poured over one roast dinner"
+  },
+  {
+   "key": "bechamel",
+   "unit": "portion",
+   "gramsPerUnit": 80,
+   "typical": 1,
+   "reason": "one person's share in a gratin or over vegetables"
+  },
+  {
+   "key": "hollandaise",
+   "unit": "tablespoon",
+   "gramsPerUnit": 16,
+   "typical": 3,
+   "reason": "over asparagus or eggs Benedict"
+  },
+  {
+   "key": "vinaigrette",
+   "unit": "tablespoon",
+   "gramsPerUnit": 15,
+   "typical": 1.5,
+   "reason": "dressing for one side salad"
+  },
+  {
+   "key": "caesar dressing",
+   "unit": "tablespoon",
+   "gramsPerUnit": 15,
+   "typical": 2,
+   "reason": "dressing for one salad"
+  },
+  {
+   "key": "ranch dressing",
+   "unit": "tablespoon",
+   "gramsPerUnit": 15,
+   "typical": 2,
+   "reason": "a dip or salad dressing"
+  },
+  {
+   "key": "thousand island dressing",
+   "unit": "tablespoon",
+   "gramsPerUnit": 15.6,
+   "typical": 2,
+   "reason": "a salad dressing or burger sauce"
+  },
+  {
+   "key": "tartar sauce",
+   "unit": "tablespoon",
+   "gramsPerUnit": 14,
+   "typical": 2,
+   "reason": "a side for fried fish"
+  },
+  {
+   "key": "broth",
+   "unit": "cup",
+   "milliliters": 250,
+   "typical": 1,
+   "reason": "a mug or bowl of clear broth"
+  },
+  {
+   "key": "chicken stock",
+   "unit": "cup",
+   "milliliters": 250,
+   "typical": 1,
+   "reason": "a mug or bowl of clear broth"
+  },
+  {
+   "key": "beef stock",
+   "unit": "cup",
+   "milliliters": 250,
+   "typical": 1,
+   "reason": "a mug or bowl of clear broth"
+  },
+  {
+   "key": "vegetable stock",
+   "unit": "cup",
+   "milliliters": 250,
+   "typical": 1,
+   "reason": "a mug or bowl of clear broth"
+  },
+  {
+   "key": "white vinegar",
+   "unit": "tablespoon",
+   "gramsPerUnit": 15,
+   "typical": 1,
+   "reason": "one tablespoon"
+  },
+  {
+   "key": "wine vinegar",
+   "unit": "tablespoon",
+   "gramsPerUnit": 15,
+   "typical": 1,
+   "reason": "one tablespoon in a dressing"
+  },
+  {
+   "key": "balsamic vinegar",
+   "unit": "tablespoon",
+   "gramsPerUnit": 16,
+   "typical": 1,
+   "reason": "one tablespoon over a salad"
+  },
+  {
+   "key": "rice vinegar",
+   "unit": "tablespoon",
+   "gramsPerUnit": 15,
+   "typical": 1,
+   "reason": "one tablespoon"
+  },
+  {
+   "key": "lemon juice",
+   "unit": "tablespoon",
+   "gramsPerUnit": 15,
+   "typical": 1,
+   "reason": "one tablespoon, about half a lemon squeezed"
+  },
+  {
+   "key": "lime juice",
+   "unit": "tablespoon",
+   "gramsPerUnit": 15,
+   "typical": 1,
+   "reason": "one tablespoon, about half a lime squeezed"
+  },
+  {
+   "key": "chutney",
+   "unit": "tablespoon",
+   "gramsPerUnit": 20,
+   "typical": 1,
+   "reason": "a spoonful with curry or cheese"
+  },
+  {
+   "key": "caramel sauce",
+   "unit": "tablespoon",
+   "gramsPerUnit": 20,
+   "typical": 2,
+   "reason": "drizzled over a dessert"
+  },
+  {
+   "key": "sugar",
+   "unit": "teaspoon",
+   "gramsPerUnit": 4.2,
+   "typical": 1,
+   "reason": "one teaspoon in coffee or tea"
+  },
+  {
+   "key": "brown sugar",
+   "unit": "teaspoon",
+   "gramsPerUnit": 4.6,
+   "typical": 1,
+   "reason": "one teaspoon"
+  },
+  {
+   "key": "powdered sugar",
+   "unit": "teaspoon",
+   "gramsPerUnit": 2.5,
+   "typical": 1,
+   "reason": "a dusting over a dessert"
+  },
+  {
+   "key": "simple syrup",
+   "unit": "tablespoon",
+   "gramsPerUnit": 20,
+   "typical": 1,
+   "reason": "one tablespoon in a drink"
+  },
+  {
+   "key": "chocolate hazelnut spread",
+   "unit": "tablespoon",
+   "gramsPerUnit": 18,
+   "typical": 1,
+   "reason": "spread on one slice of bread"
+  },
+  {
+   "key": "milk chocolate",
+   "unit": "piece",
+   "gramsPerUnit": 5,
+   "typical": 4,
+   "reason": "one square of a 100 g bar"
+  },
+  {
+   "key": "white chocolate",
+   "unit": "piece",
+   "gramsPerUnit": 5,
+   "typical": 4,
+   "reason": "one square of a 100 g bar"
+  },
+  {
+   "key": "chocolate chips",
+   "unit": "tablespoon",
+   "gramsPerUnit": 12,
+   "typical": 2,
+   "reason": "a sprinkle on oats, yogurt or pancakes"
+  },
+  {
+   "key": "hot chocolate powder",
+   "unit": "teaspoon",
+   "gramsPerUnit": 6,
+   "typical": 3,
+   "reason": "powder for one mug"
+  },
+  {
+   "key": "ladyfingers",
+   "unit": "cookie",
+   "gramsPerUnit": 6,
+   "typical": 3,
+   "reason": "one sponge finger"
+  },
+  {
+   "key": "digestive biscuits",
+   "unit": "cookie",
+   "gramsPerUnit": 15,
+   "typical": 2,
+   "reason": "one digestive biscuit"
+  },
+  {
+   "key": "cashews",
+   "unit": "portion",
+   "gramsPerUnit": 30,
+   "typical": 1,
+   "reason": "a handful of nuts"
+  },
+  {
+   "key": "pecans",
+   "unit": "portion",
+   "gramsPerUnit": 30,
+   "typical": 1,
+   "reason": "a handful of nuts"
+  },
+  {
+   "key": "pistachios",
+   "unit": "portion",
+   "gramsPerUnit": 30,
+   "typical": 1,
+   "reason": "a handful of shelled nuts"
+  },
+  {
+   "key": "pine nuts",
+   "unit": "tablespoon",
+   "gramsPerUnit": 9,
+   "typical": 2,
+   "reason": "sprinkled over a salad or pasta"
+  },
+  {
+   "key": "desiccated coconut",
+   "unit": "tablespoon",
+   "gramsPerUnit": 5,
+   "typical": 2,
+   "reason": "sprinkled over oats or a dessert"
+  },
+  {
+   "key": "mandarin",
+   "unit": "piece",
+   "gramsPerUnit": 65,
+   "typical": 2,
+   "reason": "edible part of one mandarin or clementine"
+  },
+  {
+   "key": "lime",
+   "unit": "piece",
+   "gramsPerUnit": 45,
+   "typical": 0.25,
+   "reason": "a medium lime; a wedge or squeeze is a quarter of it"
+  },
+  {
+   "key": "grapefruit",
+   "unit": "piece",
+   "gramsPerUnit": 250,
+   "typical": 0.5,
+   "reason": "edible flesh of a medium grapefruit"
+  },
+  {
+   "key": "mixed berries",
+   "unit": "portion",
+   "gramsPerUnit": 125,
+   "typical": 1,
+   "reason": "a cup of berries"
+  },
+  {
+   "key": "cherries",
+   "unit": "portion",
+   "gramsPerUnit": 125,
+   "typical": 1,
+   "reason": "a small bowl of cherries without stones"
+  },
+  {
+   "key": "mango",
+   "unit": "piece",
+   "gramsPerUnit": 280,
+   "typical": 0.5,
+   "reason": "edible flesh of a medium mango"
+  },
+  {
+   "key": "kiwi",
+   "unit": "piece",
+   "gramsPerUnit": 70,
+   "typical": 1,
+   "reason": "a medium peeled kiwi"
+  },
+  {
+   "key": "papaya",
+   "unit": "piece",
+   "gramsPerUnit": 300,
+   "typical": 0.5,
+   "reason": "edible flesh of a medium papaya"
+  },
+  {
+   "key": "passion fruit",
+   "unit": "piece",
+   "gramsPerUnit": 18,
+   "typical": 2,
+   "reason": "pulp of one passion fruit"
+  },
+  {
+   "key": "cantaloupe",
+   "unit": "slice",
+   "gramsPerUnit": 100,
+   "typical": 2,
+   "reason": "a wedge of melon without rind"
+  },
+  {
+   "key": "fig",
+   "unit": "piece",
+   "gramsPerUnit": 50,
+   "typical": 2,
+   "reason": "one medium fresh fig"
+  },
+  {
+   "key": "rhubarb",
+   "unit": "portion",
+   "gramsPerUnit": 100,
+   "typical": 1,
+   "reason": "one helping of stewed rhubarb by raw weight"
+  },
+  {
+   "key": "dried cranberries",
+   "unit": "tablespoon",
+   "gramsPerUnit": 10,
+   "typical": 2,
+   "reason": "sprinkled over muesli or a salad"
+  },
+  {
+   "key": "dried apricots",
+   "unit": "piece",
+   "gramsPerUnit": 8,
+   "typical": 4,
+   "reason": "one whole dried apricot"
+  },
+  {
+   "key": "prunes",
+   "unit": "piece",
+   "gramsPerUnit": 9,
+   "typical": 4,
+   "reason": "one pitted prune"
+  },
+  {
+   "key": "applesauce",
+   "unit": "portion",
+   "gramsPerUnit": 125,
+   "typical": 1,
+   "reason": "a small bowl as a side or dessert"
+  },
+  {
+   "key": "espresso",
+   "unit": "cup",
+   "milliliters": 30,
+   "typical": 1,
+   "reason": "one single espresso shot"
+  },
+  {
+   "key": "herbal tea",
+   "unit": "cup",
+   "milliliters": 250,
+   "typical": 1,
+   "reason": "one mug of tea"
+  },
+  {
+   "key": "matcha",
+   "unit": "teaspoon",
+   "gramsPerUnit": 2,
+   "typical": 1,
+   "reason": "powder for one bowl or latte"
+  },
+  {
+   "key": "tomato juice",
+   "unit": "glass",
+   "milliliters": 200,
+   "typical": 1,
+   "reason": "a small drinking glass"
+  },
+  {
+   "key": "coconut water",
+   "unit": "glass",
+   "milliliters": 250,
+   "typical": 1,
+   "reason": "a regular drinking glass"
+  },
+  {
+   "key": "red wine",
+   "unit": "glass",
+   "milliliters": 150,
+   "typical": 1,
+   "reason": "a standard wine pour"
+  },
+  {
+   "key": "white wine",
+   "unit": "glass",
+   "milliliters": 150,
+   "typical": 1,
+   "reason": "a standard wine pour"
+  },
+  {
+   "key": "rice wine",
+   "unit": "glass",
+   "milliliters": 120,
+   "typical": 1,
+   "reason": "a small glass of sake"
+  },
+  {
+   "key": "beer",
+   "unit": "bottle",
+   "milliliters": 500,
+   "typical": 1,
+   "reason": "a German half-litre bottle"
+  },
+  {
+   "key": "gyoza wrappers",
+   "skip": "raw dough sheets used only inside dumplings"
+  },
+  {
+   "key": "shumai wrappers",
+   "skip": "raw dough sheets used only inside dumplings"
+  },
+  {
+   "key": "tempura batter fried",
+   "skip": "a batter coating that is part of tempura dishes"
+  },
+  {
+   "key": "spring roll wrappers fried",
+   "skip": "a wrapper that is part of spring rolls"
+  },
+  {
+   "key": "shirataki noodles",
+   "unit": "portion",
+   "gramsPerUnit": 200,
+   "typical": 1,
+   "reason": "one drained pack of noodles"
+  },
+  {
+   "key": "takuan",
+   "unit": "slice",
+   "gramsPerUnit": 8,
+   "typical": 3,
+   "reason": "one slice of pickled daikon"
+  },
+  {
+   "key": "lard",
+   "unit": "tablespoon",
+   "gramsPerUnit": 12,
+   "typical": 1,
+   "reason": "one tablespoon for cooking"
+  },
+  {
+   "key": "chuno sauce",
+   "skip": "a condiment only used on or inside Japanese dishes"
+  },
+  {
+   "key": "tonkatsu sauce",
+   "skip": "a condiment only used on or inside Japanese dishes"
+  },
+  {
+   "key": "japanese curry roux",
+   "skip": "a sauce block used only to make curry"
+  },
+  {
+   "key": "okonomiyaki sauce",
+   "skip": "a condiment only used on or inside Japanese dishes"
+  },
+  {
+   "key": "imitation crab",
+   "unit": "piece",
+   "gramsPerUnit": 16,
+   "typical": 4,
+   "reason": "one surimi stick"
+  },
+  {
+   "key": "black bean sauce",
+   "unit": "tablespoon",
+   "gramsPerUnit": 16,
+   "typical": 1,
+   "reason": "one tablespoon in a stir-fry"
+  },
+  {
+   "key": "chinese pancake",
+   "unit": "piece",
+   "gramsPerUnit": 28,
+   "typical": 2,
+   "reason": "one thin wheat pancake"
+  },
+  {
+   "key": "shortcrust pastry",
+   "skip": "a pastry case that is part of pies and tarts"
+  },
+  {
+   "key": "sweet shortcrust pastry",
+   "skip": "raw pastry used inside baked dishes"
+  },
+  {
+   "key": "okara",
+   "skip": "soy pulp used inside dishes and baking"
+  },
+  {
+   "key": "dried daikon strips boiled",
+   "unit": "portion",
+   "gramsPerUnit": 60,
+   "typical": 1,
+   "reason": "a small side dish"
+  },
+  {
+   "key": "zenmai fern boiled",
+   "unit": "portion",
+   "gramsPerUnit": 50,
+   "typical": 1,
+   "reason": "a small side dish"
+  },
+  {
+   "key": "hijiki boiled",
+   "unit": "portion",
+   "gramsPerUnit": 40,
+   "typical": 1,
+   "reason": "a small side dish"
+  },
+  {
+   "key": "reblochon",
+   "unit": "slice",
+   "gramsPerUnit": 25,
+   "typical": 2,
+   "reason": "a wedge slice of reblochon"
+  },
+  {
+   "key": "burrata",
+   "unit": "piece",
+   "gramsPerUnit": 125,
+   "typical": 0.5,
+   "reason": "a standard 125 g burrata, half for one person"
+  },
+  {
+   "key": "pretzel salted",
+   "unit": "piece",
+   "gramsPerUnit": 85,
+   "typical": 1,
+   "reason": "one German lye pretzel"
+  },
+  {
+   "key": "pumpernickel",
+   "unit": "slice",
+   "gramsPerUnit": 45,
+   "typical": 2,
+   "reason": "one pre-cut slice"
+  },
+  {
+   "key": "pearl barley boiled",
+   "unit": "portion",
+   "gramsPerUnit": 150,
+   "typical": 1,
+   "reason": "a side of cooked barley"
+  },
+  {
+   "key": "wheat starch",
+   "skip": "a thickener used only inside dishes"
+  },
+  {
+   "key": "soft wheat semolina",
+   "skip": "a dry ingredient used inside puddings and doughs"
+  },
+  {
+   "key": "green spelt whole grain boiled",
+   "unit": "portion",
+   "gramsPerUnit": 150,
+   "typical": 1,
+   "reason": "a side of cooked grain"
+  },
+  {
+   "key": "green spelt groats",
+   "unit": "portion",
+   "gramsPerUnit": 60,
+   "typical": 1,
+   "reason": "dry weight for one serving"
+  },
+  {
+   "key": "buckwheat groats",
+   "unit": "portion",
+   "gramsPerUnit": 60,
+   "typical": 1,
+   "reason": "dry weight for one serving"
+  },
+  {
+   "key": "millet raw",
+   "unit": "portion",
+   "gramsPerUnit": 60,
+   "typical": 1,
+   "reason": "dry weight for one serving"
+  },
+  {
+   "key": "millet boiled",
+   "unit": "portion",
+   "gramsPerUnit": 150,
+   "typical": 1,
+   "reason": "a side of cooked millet"
+  },
+  {
+   "key": "white rice raw",
+   "unit": "portion",
+   "gramsPerUnit": 75,
+   "typical": 1,
+   "reason": "dry weight for one serving"
+  },
+  {
+   "key": "green spelt flour",
+   "skip": "a flour used inside doughs and batters"
+  },
+  {
+   "key": "buckwheat flour",
+   "skip": "a flour used inside doughs and batters"
+  },
+  {
+   "key": "cornflakes unsweetened",
+   "unit": "portion",
+   "gramsPerUnit": 40,
+   "typical": 1,
+   "reason": "one bowl of cereal"
+  },
+  {
+   "key": "rice drink unsweetened",
+   "unit": "glass",
+   "milliliters": 250,
+   "typical": 1,
+   "reason": "a regular drinking glass"
+  },
+  {
+   "key": "butter rusk",
+   "unit": "piece",
+   "gramsPerUnit": 10,
+   "typical": 2,
+   "reason": "one rusk"
+  },
+  {
+   "key": "puff pastry egg free baked",
+   "skip": "a pastry component of baked dishes"
+  },
+  {
+   "key": "chocolate sponge cake base",
+   "skip": "a cake layer used only inside assembled cakes"
+  },
+  {
+   "key": "yeast dough simple baked",
+   "unit": "slice",
+   "gramsPerUnit": 45,
+   "typical": 1,
+   "reason": "a slice of plain yeast cake or braid"
+  },
+  {
+   "key": "english muffins toasties yeast dough fried without fat pan",
+   "unit": "piece",
+   "gramsPerUnit": 60,
+   "typical": 1,
+   "reason": "one English muffin"
+  },
+  {
+   "key": "meringue",
+   "unit": "piece",
+   "gramsPerUnit": 10,
+   "typical": 2,
+   "reason": "one small meringue"
+  },
+  {
+   "key": "semolina dumplings boiled",
+   "unit": "piece",
+   "gramsPerUnit": 15,
+   "typical": 3,
+   "reason": "one small dumpling in soup"
+  },
+  {
+   "key": "egg pasta tortellini meat filling dried boiled",
+   "unit": "portion",
+   "gramsPerUnit": 250,
+   "typical": 1,
+   "reason": "cooked tortellini for one main course"
+  }
+ ]
+}

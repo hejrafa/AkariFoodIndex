@@ -1,0 +1,2544 @@
+{
+ "version": 1,
+ "unresolved": [
+  {
+   "key": "tteokbokki",
+   "batch": 1,
+   "names": {
+    "en": "Tteokbokki",
+    "de": "Tteokbokki"
+   },
+   "reason": "no reference row for korean rice cakes, korean fish cake, gochujang"
+  },
+  {
+   "key": "dolmades",
+   "batch": 3,
+   "names": {
+    "en": "Dolmades",
+    "de": "Gefüllte Weinblätter"
+   },
+   "reason": "no reference row for brined vine leaves"
+  },
+  {
+   "key": "acai bowl",
+   "batch": 4,
+   "names": {
+    "en": "Açaí bowl",
+    "de": "Açaí Bowl"
+   },
+   "reason": "no reference row for frozen acai pulp"
+  }
+ ],
+ "skipped": [
+  {
+   "key": "salmon sashimi",
+   "batch": 1,
+   "reason": "a single food: raw salmon, already a vocabulary alias of \"raw salmon\""
+  },
+  {
+   "key": "chicken curry",
+   "batch": 2,
+   "reason": "one food the table already covers: \"chicken curry\" is a generic search phrase for the USDA chicken curry row"
+  },
+  {
+   "key": "chicken tenders",
+   "batch": 3,
+   "reason": "a single food: \"chicken tenders\" is a vocabulary alias of breaded chicken breast"
+  },
+  {
+   "key": "chicken schnitzel",
+   "batch": 4,
+   "reason": "a single food: \"chicken schnitzel\" is a vocabulary alias of breaded chicken breast"
+  },
+  {
+   "key": "frikadellen",
+   "batch": 4,
+   "reason": "a single food: Frikadellen is a vocabulary alias of meatballs and the table row is that food"
+  },
+  {
+   "key": "half roast chicken",
+   "batch": 4,
+   "reason": "a single food: \"half chicken\" is a vocabulary alias of roast chicken"
+  },
+  {
+   "key": "leberkase",
+   "batch": 4,
+   "reason": "a single food: Leberkäse is a vocabulary food and the table row is that food"
+  },
+  {
+   "key": "cheese toast welsh rarebit",
+   "batch": 5,
+   "reason": "duplicate: \"welsh rarebit\" already names recipe akari:recipe:welsh-rarebit:v1"
+  },
+  {
+   "key": "crunchy muesli sweetened",
+   "batch": 5,
+   "reason": "a single food: crunchy muesli is the vocabulary food granola (the same table row)"
+  },
+  {
+   "key": "muesli bircher benner style unsweetened with apples raisins cream and nuts",
+   "batch": 5,
+   "reason": "duplicate: \"bircher muesli\" already names recipe akari:recipe:bircher-muesli:v1"
+  },
+  {
+   "key": "muesli unsweetened with yogurt 3 5 fat and mixed fruit",
+   "batch": 5,
+   "reason": "duplicate of the reviewed recipe Muesli with yoghurt"
+  },
+  {
+   "key": "potato salad with marinade",
+   "batch": 5,
+   "reason": "duplicate of the reviewed recipe German potato salad"
+  },
+  {
+   "key": "rosti",
+   "batch": 5,
+   "reason": "a single food: rösti is a vocabulary alias of hash browns"
+  },
+  {
+   "key": "aioli",
+   "batch": 6,
+   "reason": "a sauce on its own"
+  },
+  {
+   "key": "almond pesto",
+   "batch": 6,
+   "reason": "a sauce on its own"
+  },
+  {
+   "key": "anchovy pesto with herbs",
+   "batch": 6,
+   "reason": "a sauce on its own"
+  },
+  {
+   "key": "apple horseradish cream",
+   "batch": 6,
+   "reason": "a sauce on its own"
+  },
+  {
+   "key": "avocado dip",
+   "batch": 6,
+   "reason": "a dip on its own (guacamole is a vocabulary food)"
+  },
+  {
+   "key": "bacon vinegar marinade for salad",
+   "batch": 6,
+   "reason": "a salad dressing on its own"
+  },
+  {
+   "key": "basic soup dark",
+   "batch": 6,
+   "reason": "a soup base on its own, not a dish"
+  },
+  {
+   "key": "basic soup light coloured",
+   "batch": 6,
+   "reason": "a soup base on its own, not a dish"
+  },
+  {
+   "key": "bechamel sauce with cream",
+   "batch": 6,
+   "reason": "a sauce on its own"
+  },
+  {
+   "key": "bechamel sauce with milk 3 5 fat",
+   "batch": 6,
+   "reason": "a sauce on its own"
+  },
+  {
+   "key": "beef consomme with diced egg custard",
+   "batch": 6,
+   "reason": "duplicate of beef broth with egg custard (meat stock with diced egg custard)"
+  },
+  {
+   "key": "beef consomme with egg pasta",
+   "batch": 6,
+   "reason": "duplicate of beef broth with egg noodles (meat stock with egg pasta)"
+  },
+  {
+   "key": "beef consomme with small semolina dumplings",
+   "batch": 6,
+   "reason": "duplicate of beef broth with semolina dumplings (meat stock with small semolina dumplings)"
+  },
+  {
+   "key": "beef consomme with strips of crepe",
+   "batch": 6,
+   "reason": "duplicate of Flädlesuppe (meat stock with strips of crepe)"
+  },
+  {
+   "key": "cheese semolina dumplings",
+   "batch": 6,
+   "reason": "a soup garnish (dumpling or insert) on its own, not a dish"
+  },
+  {
+   "key": "chocolate sauce with couverture and cream",
+   "batch": 6,
+   "reason": "a sauce on its own"
+  },
+  {
+   "key": "croutons white bread cubes toasted in butter",
+   "batch": 6,
+   "reason": "a single food: croutons are a vocabulary food"
+  },
+  {
+   "key": "cumberland sauce with red and port wine",
+   "batch": 6,
+   "reason": "a sauce on its own"
+  },
+  {
+   "key": "curry cream sauce with fruit",
+   "batch": 6,
+   "reason": "a sauce on its own"
+  },
+  {
+   "key": "fladle strips of crepe as soup garnish",
+   "batch": 6,
+   "reason": "a soup garnish (dumpling or insert) on its own, not a dish"
+  },
+  {
+   "key": "french onion soup with white bread slices",
+   "batch": 6,
+   "reason": "duplicate: \"franzosische zwiebelsuppe\" already names recipe akari:recipe:french-onion-soup:v1"
+  },
+  {
+   "key": "fruit mix unsweetened",
+   "batch": 6,
+   "reason": "duplicate of fruit salad (apple, banana and mandarin, unsweetened)"
+  },
+  {
+   "key": "fruit salad unsweetened",
+   "batch": 6,
+   "reason": "duplicate of fruit salad (Obstsalat) drafted in batch 5"
+  },
+  {
+   "key": "greek farmers salad",
+   "batch": 6,
+   "reason": "duplicate of the reviewed recipe Greek salad"
+  },
+  {
+   "key": "horseradish cream",
+   "batch": 6,
+   "reason": "a sauce on its own"
+  },
+  {
+   "key": "horseradish mousse",
+   "batch": 6,
+   "reason": "a sauce on its own"
+  },
+  {
+   "key": "italian vegetable soup",
+   "batch": 6,
+   "reason": "duplicate of the recipe Minestrone"
+  },
+  {
+   "key": "lemon marinade for salad",
+   "batch": 6,
+   "reason": "a salad dressing on its own"
+  },
+  {
+   "key": "lentil bolognese vegan",
+   "batch": 6,
+   "reason": "a pasta sauce on its own"
+  },
+  {
+   "key": "lingonberry sauce with red wine",
+   "batch": 6,
+   "reason": "a sauce on its own"
+  },
+  {
+   "key": "liver spaetzle",
+   "batch": 6,
+   "reason": "a soup garnish (dumpling or insert) on its own, not a dish"
+  },
+  {
+   "key": "marinade with vegetable stock for potato salad",
+   "batch": 6,
+   "reason": "a salad dressing on its own"
+  },
+  {
+   "key": "meat stock with pasta egg free",
+   "batch": 6,
+   "reason": "duplicate of beef broth with egg noodles (meat stock with egg pasta); only the pasta differs"
+  },
+  {
+   "key": "meat stock with pork mince spinach filled pasta squares",
+   "batch": 6,
+   "reason": "duplicate: \"maultaschen soup\" already names recipe akari:recipe:maultaschen:v1"
+  },
+  {
+   "key": "meat stock with strips of crepe",
+   "batch": 6,
+   "reason": "duplicate: \"fladlesuppe\" already names recipe akari:recipe:frittatensuppe:v1"
+  },
+  {
+   "key": "mixed mushroom sauce mushroom ragout for pork schnitzel",
+   "batch": 6,
+   "reason": "a sauce on its own"
+  },
+  {
+   "key": "mustard marinade for salad",
+   "batch": 6,
+   "reason": "a salad dressing on its own"
+  },
+  {
+   "key": "nicoise salad with tuna and anchovies",
+   "batch": 6,
+   "reason": "duplicate: \"nicoise salad\" already names recipe akari:recipe:salade-nicoise:v1"
+  },
+  {
+   "key": "pesto rosso",
+   "batch": 6,
+   "reason": "a sauce on its own"
+  },
+  {
+   "key": "pesto verde",
+   "batch": 6,
+   "reason": "a sauce on its own (pesto is a vocabulary food)"
+  },
+  {
+   "key": "poultry consomme",
+   "batch": 6,
+   "reason": "a single food: clear chicken broth (vocabulary chicken stock)"
+  },
+  {
+   "key": "quark remoulade sauce",
+   "batch": 6,
+   "reason": "a sauce on its own"
+  },
+  {
+   "key": "salad marinade with horseradish",
+   "batch": 6,
+   "reason": "a salad dressing on its own"
+  },
+  {
+   "key": "salsa verde",
+   "batch": 6,
+   "reason": "a sauce on its own"
+  },
+  {
+   "key": "schmand dip with chives",
+   "batch": 6,
+   "reason": "a dip on its own"
+  },
+  {
+   "key": "small cheese dumplings",
+   "batch": 6,
+   "reason": "a soup garnish (dumpling or insert) on its own, not a dish"
+  },
+  {
+   "key": "small game meatballs",
+   "batch": 6,
+   "reason": "a soup garnish (dumpling or insert) on its own, not a dish"
+  },
+  {
+   "key": "small ham dumplings",
+   "batch": 6,
+   "reason": "a soup garnish (dumpling or insert) on its own, not a dish"
+  },
+  {
+   "key": "small liver dumplings",
+   "batch": 6,
+   "reason": "a soup garnish (dumpling or insert) on its own, not a dish"
+  },
+  {
+   "key": "small liver dumplings with bread crumbs",
+   "batch": 6,
+   "reason": "a soup garnish (dumpling or insert) on its own, not a dish"
+  },
+  {
+   "key": "small marrow dumplings",
+   "batch": 6,
+   "reason": "a soup garnish (dumpling or insert) on its own, not a dish"
+  },
+  {
+   "key": "small meatballs",
+   "batch": 6,
+   "reason": "a soup garnish (dumpling or insert) on its own, not a dish"
+  },
+  {
+   "key": "small sausage meatballs",
+   "batch": 6,
+   "reason": "a soup garnish (dumpling or insert) on its own, not a dish"
+  },
+  {
+   "key": "small white bread dumplings",
+   "batch": 6,
+   "reason": "a soup garnish (dumpling or insert) on its own, not a dish"
+  },
+  {
+   "key": "tofu bolognese vegan",
+   "batch": 6,
+   "reason": "a pasta sauce on its own"
+  },
+  {
+   "key": "vinegar marinade for salad",
+   "batch": 6,
+   "reason": "a salad dressing on its own"
+  },
+  {
+   "key": "vinegar marinade warm for salad",
+   "batch": 6,
+   "reason": "a salad dressing on its own"
+  },
+  {
+   "key": "yogurt cream sauce with herbs for salad",
+   "batch": 6,
+   "reason": "a salad dressing on its own"
+  },
+  {
+   "key": "yogurt dip",
+   "batch": 6,
+   "reason": "a dip on its own"
+  },
+  {
+   "key": "yogurt dip with herbs",
+   "batch": 6,
+   "reason": "a dip on its own"
+  },
+  {
+   "key": "yogurt marinade for salad",
+   "batch": 6,
+   "reason": "a salad dressing on its own"
+  },
+  {
+   "key": "button mushroom soup of fresh button mushrooms",
+   "batch": 7,
+   "reason": "duplicate of mushroom soup (made with button mushrooms)"
+  },
+  {
+   "key": "carrot soup",
+   "batch": 7,
+   "reason": "duplicate of carrot soup (cream of carrot soup)"
+  },
+  {
+   "key": "celeriac soup",
+   "batch": 7,
+   "reason": "duplicate of cream of celeriac soup"
+  },
+  {
+   "key": "goulash soup with beef meat stock and red wine",
+   "batch": 7,
+   "reason": "duplicate: \"goulash soup\" already names recipe akari:recipe:goulash-soup:v1"
+  },
+  {
+   "key": "goulash soup with beef onions and sweet pepper",
+   "batch": 7,
+   "reason": "duplicate of goulash soup (beef, onions and peppers)"
+  },
+  {
+   "key": "green spelt soup roasted",
+   "batch": 7,
+   "reason": "duplicate of green spelt soup"
+  },
+  {
+   "key": "lentil soup with vegetables",
+   "batch": 7,
+   "reason": "duplicate of the reviewed recipe Lentil soup"
+  },
+  {
+   "key": "lentil stew with vegetables",
+   "batch": 7,
+   "reason": "duplicate of the reviewed recipe Lentil soup (which lists linseneintopf as an alias)"
+  },
+  {
+   "key": "pea soup with vegetable stock mirepoix and bacon",
+   "batch": 7,
+   "reason": "duplicate of pea soup with bacon (only the thickening differs)"
+  },
+  {
+   "key": "potato soup with vegetable stock thickened",
+   "batch": 7,
+   "reason": "duplicate: \"kartoffelsuppe\" already names recipe akari:recipe:german-potato-soup:v1"
+  },
+  {
+   "key": "rice soup with meat stock and vegetables",
+   "batch": 7,
+   "reason": "duplicate of beef broth with vegetables and rice (batch 6)"
+  },
+  {
+   "key": "semolina soup roasted",
+   "batch": 7,
+   "reason": "duplicate of roasted semolina soup with egg yolk"
+  },
+  {
+   "key": "tomato soup of fresh tomatoes vegetable stock and pasta egg free",
+   "batch": 7,
+   "reason": "duplicate of tomato soup with noodles (only the tomatoes differ)"
+  },
+  {
+   "key": "tomato soup thickened",
+   "batch": 7,
+   "reason": "duplicate of the reviewed recipe Tomato soup"
+  },
+  {
+   "key": "vegetable stew with beef",
+   "batch": 7,
+   "reason": "duplicate of vegetable and beef stew (batch 6)"
+  },
+  {
+   "key": "chanterelles",
+   "batch": 8,
+   "reason": "a single food with a cooking method (stewed chanterelles)"
+  },
+  {
+   "key": "chickpea stew",
+   "batch": 8,
+   "reason": "duplicate: \"chickpea stew\" already names recipe akari:recipe:chickpea-and-tomato-stew:v1"
+  },
+  {
+   "key": "chocolate milk soup thickened with semolina",
+   "batch": 8,
+   "reason": "duplicate of the chocolate milk soup thickened with starch in this batch"
+  },
+  {
+   "key": "cold apple soup with currants",
+   "batch": 8,
+   "reason": "duplicate of the cold apple soup in this batch"
+  },
+  {
+   "key": "cold rhubarb soup thickened with semolina",
+   "batch": 8,
+   "reason": "duplicate of the cold rhubarb soup thickened with starch in this batch"
+  },
+  {
+   "key": "haricot bean soup",
+   "batch": 8,
+   "reason": "duplicate: \"weiße bohnensuppe\" already names recipe akari:recipe:white-bean-soup-with-bacon:v1"
+  },
+  {
+   "key": "meat bouillon with egg",
+   "batch": 8,
+   "reason": "duplicate: \"beef broth with egg\" already names recipe akari:recipe:beef-broth-with-egg:v1"
+  },
+  {
+   "key": "mixed vegetables",
+   "batch": 8,
+   "reason": "a single food the vocabulary covers (cooked mixed vegetables)"
+  },
+  {
+   "key": "oat flakes soup sweetened with milk 3 5 fat",
+   "batch": 8,
+   "reason": "duplicate of the sweet oat milk soup in this batch"
+  },
+  {
+   "key": "pea soup with vegetable stock and mirepoix",
+   "batch": 8,
+   "reason": "duplicate: \"erbsensuppe\" already names recipe akari:recipe:german-pea-soup:v1"
+  },
+  {
+   "key": "porcini mushrooms",
+   "batch": 8,
+   "reason": "a single food with a cooking method (stewed porcini)"
+  },
+  {
+   "key": "sauerkraut",
+   "batch": 8,
+   "reason": "a single food the vocabulary covers"
+  },
+  {
+   "key": "tsatsiki",
+   "batch": 8,
+   "reason": "a dip; tzatziki is already a single food"
+  },
+  {
+   "key": "vegetable mix",
+   "batch": 8,
+   "reason": "a single food the vocabulary covers (cooked mixed vegetables)"
+  },
+  {
+   "key": "vegetable soup with potatoes",
+   "batch": 8,
+   "reason": "duplicate: \"gemusesuppe mit kartoffeln\" already names recipe akari:recipe:vegetable-soup-with-potatoes-and-beef:v1"
+  },
+  {
+   "key": "velvety vegetable soup",
+   "batch": 8,
+   "reason": "duplicate: \"cream of vegetable soup\" already names recipe akari:recipe:cream-of-vegetable-soup:v1"
+  },
+  {
+   "key": "white cabbage stew",
+   "batch": 8,
+   "reason": "duplicate: \"weißkohleintopf\" already names recipe akari:recipe:bavarian-cabbage-and-vegetable-stew:v1"
+  },
+  {
+   "key": "artichokes",
+   "batch": 9,
+   "reason": "a single food with a cooking method (boiled artichokes)"
+  },
+  {
+   "key": "aubergine slices",
+   "batch": 9,
+   "reason": "a single food with a cooking method (fried aubergine slices)"
+  },
+  {
+   "key": "beetroot",
+   "batch": 9,
+   "reason": "a single food with a cooking method (stewed beetroot)"
+  },
+  {
+   "key": "black salsify",
+   "batch": 9,
+   "reason": "a single food with a cooking method (boiled black salsify)"
+  },
+  {
+   "key": "button mushrooms in vinegar pickled in rapeseed oil",
+   "batch": 9,
+   "reason": "a preserve (pickled mushrooms)"
+  },
+  {
+   "key": "carrots",
+   "batch": 9,
+   "reason": "a single food with a cooking method (fried carrots)"
+  },
+  {
+   "key": "celeriac",
+   "batch": 9,
+   "reason": "a single food with a cooking method (boiled celeriac)"
+  },
+  {
+   "key": "cheese alternative mozzarella style vegan",
+   "batch": 9,
+   "reason": "a single product, not a dish"
+  },
+  {
+   "key": "chickpea snack",
+   "batch": 9,
+   "reason": "a single food with a cooking method (roasted chickpeas)"
+  },
+  {
+   "key": "fennel",
+   "batch": 9,
+   "reason": "a single food with a cooking method (stewed fennel)"
+  },
+  {
+   "key": "green beans",
+   "batch": 9,
+   "reason": "a single food the vocabulary covers (cooked green beans)"
+  },
+  {
+   "key": "green peas",
+   "batch": 9,
+   "reason": "a single food the vocabulary covers (cooked green peas)"
+  },
+  {
+   "key": "kidney beans",
+   "batch": 9,
+   "reason": "a single food the vocabulary covers (kidney beans)"
+  },
+  {
+   "key": "lentils with vegetables",
+   "batch": 9,
+   "reason": "duplicate of the braised lentils with vegetables in this batch"
+  },
+  {
+   "key": "onions",
+   "batch": 9,
+   "reason": "a single food the vocabulary covers (sautéed onion)"
+  },
+  {
+   "key": "potato mash with milk 3 5 fat",
+   "batch": 9,
+   "reason": "a single food the vocabulary covers (mashed potatoes)"
+  },
+  {
+   "key": "potato puree with milk 1 5 fat",
+   "batch": 9,
+   "reason": "a single food the vocabulary covers (mashed potatoes)"
+  },
+  {
+   "key": "potato puree with milk 3 5 fat",
+   "batch": 9,
+   "reason": "a single food the vocabulary covers (mashed potatoes)"
+  },
+  {
+   "key": "potatoes mashed",
+   "batch": 9,
+   "reason": "a single food (riced boiled potatoes)"
+  },
+  {
+   "key": "pumpkin",
+   "batch": 9,
+   "reason": "a single food with a cooking method (baked pumpkin)"
+  },
+  {
+   "key": "red cabbage with apple",
+   "batch": 9,
+   "reason": "a single food the vocabulary covers (braised red cabbage with apple)"
+  },
+  {
+   "key": "vegetable potato cereal purree with carrot and oat flakes",
+   "batch": 9,
+   "reason": "baby food (salt-free puree for infants)"
+  },
+  {
+   "key": "vegetable potato fish purree with carrots and salmon",
+   "batch": 9,
+   "reason": "baby food (salt-free puree for infants)"
+  },
+  {
+   "key": "vegetable potato meat purree with carrots and beef",
+   "batch": 9,
+   "reason": "baby food (salt-free puree for infants)"
+  },
+  {
+   "key": "vegetable potato meat purree with carrots and pork",
+   "batch": 9,
+   "reason": "baby food (salt-free puree for infants)"
+  },
+  {
+   "key": "vegetable potato poultry purree with carrots and chicken",
+   "batch": 9,
+   "reason": "baby food (salt-free puree for infants)"
+  },
+  {
+   "key": "vegetable potato purree with carrot and parsnip",
+   "batch": 9,
+   "reason": "baby food (salt-free puree for infants)"
+  },
+  {
+   "key": "vegetable potato purree with carrot and pumpkin",
+   "batch": 9,
+   "reason": "baby food (salt-free puree for infants)"
+  },
+  {
+   "key": "vegetable potato purree with courgette",
+   "batch": 9,
+   "reason": "baby food (salt-free puree for infants)"
+  },
+  {
+   "key": "vegetable potato purree with fennel",
+   "batch": 9,
+   "reason": "baby food (salt-free puree for infants)"
+  },
+  {
+   "key": "vegetable potato purree with spinach",
+   "batch": 9,
+   "reason": "baby food (salt-free puree for infants)"
+  },
+  {
+   "key": "vegetable sweet potato purree with carrot and parsnip",
+   "batch": 9,
+   "reason": "baby food (salt-free puree for infants)"
+  },
+  {
+   "key": "buttered rice",
+   "batch": 10,
+   "reason": "a single food with butter (buttered rice)"
+  },
+  {
+   "key": "egg pasta with flakes of butter",
+   "batch": 10,
+   "reason": "a single food with butter (buttered noodles)"
+  },
+  {
+   "key": "fresh egg pasta spaetzle with cheese",
+   "batch": 10,
+   "reason": "duplicate of the Käsespätzle already in the catalogue"
+  },
+  {
+   "key": "grated potatoes tyrolese",
+   "batch": 10,
+   "reason": "duplicate: \"tiroler grostl\" already names recipe akari:recipe:tiroler-grostl:v1"
+  },
+  {
+   "key": "jacket potatoes",
+   "batch": 10,
+   "reason": "a single food the vocabulary covers (baked potato)"
+  },
+  {
+   "key": "minced meat spinach filled pasta squares swabian style",
+   "batch": 10,
+   "reason": "duplicate: \"maultaschen\" already names recipe akari:recipe:maultaschen:v1"
+  },
+  {
+   "key": "pasta egg free with aubergines with tomatoes and ricotta",
+   "batch": 10,
+   "reason": "duplicate of the pasta alla Norma already in the catalogue"
+  },
+  {
+   "key": "pasta egg free with pesto verde",
+   "batch": 10,
+   "reason": "duplicate of the pasta with pesto already in the catalogue"
+  },
+  {
+   "key": "potato chips",
+   "batch": 10,
+   "reason": "a single food the vocabulary covers (french fries)"
+  },
+  {
+   "key": "potato croquettes",
+   "batch": 10,
+   "reason": "a single food (potato croquettes)"
+  },
+  {
+   "key": "potato croquettes with cheese",
+   "batch": 10,
+   "reason": "a single food (cheese potato croquettes)"
+  },
+  {
+   "key": "potato dumplings",
+   "batch": 10,
+   "reason": "a single food (potato dumplings)"
+  },
+  {
+   "key": "potato dumplings from potatoes",
+   "batch": 10,
+   "reason": "a single food the vocabulary covers (potato dumplings)"
+  },
+  {
+   "key": "potato dumplings from raw potatoes",
+   "batch": 10,
+   "reason": "a single food (potato dumplings)"
+  },
+  {
+   "key": "potato omelette",
+   "batch": 10,
+   "reason": "duplicate: \"kartoffelomelett\" already names recipe akari:recipe:spanish-omelette:v1"
+  },
+  {
+   "key": "potato pancakes",
+   "batch": 10,
+   "reason": "duplicate: \"kartoffelpuffer\" already names recipe akari:recipe:potato-pancakes-with-apple-sauce:v1"
+  },
+  {
+   "key": "potatoes peeled",
+   "batch": 10,
+   "reason": "a single food the vocabulary covers (fried potatoes)"
+  },
+  {
+   "key": "potatoes sweetened",
+   "batch": 10,
+   "reason": "a single food with a cooking method (sugared fried potatoes)"
+  },
+  {
+   "key": "potatoes with egg",
+   "batch": 10,
+   "reason": "duplicate: \"bratkartoffeln mit ei\" already names recipe akari:recipe:fried-potatoes-with-fried-egg:v1"
+  },
+  {
+   "key": "potatoes with peel",
+   "batch": 10,
+   "reason": "a single food the vocabulary covers (boiled potatoes in their skins)"
+  },
+  {
+   "key": "rice",
+   "batch": 10,
+   "reason": "a single food the vocabulary covers (cooked white rice)"
+  },
+  {
+   "key": "rice porridge sweetened with milk 3 5 fat",
+   "batch": 10,
+   "reason": "duplicate of the rice pudding in this batch"
+  },
+  {
+   "key": "rice pudding sweetened with milk 3 5 fat",
+   "batch": 10,
+   "reason": "duplicate: \"milchreis\" already names recipe akari:recipe:rice-pudding-with-cinnamon-sugar:v1"
+  },
+  {
+   "key": "rice pudding sweetened with milk 3 5 fat and raisins",
+   "batch": 10,
+   "reason": "duplicate of the rice pudding with raisins and pistachios in this batch"
+  },
+  {
+   "key": "rice pudding sweetened with milk 3 5 fat browned butter sugar and cinnamon",
+   "batch": 10,
+   "reason": "duplicate of the rice pudding with cinnamon sugar in this batch"
+  },
+  {
+   "key": "rice pudding sweetened with milk 3 5 fat sugar and cinnamon",
+   "batch": 10,
+   "reason": "duplicate: \"milchreis mit zimt und zucker\" already names recipe akari:recipe:rice-pudding-with-cinnamon-sugar:v1"
+  },
+  {
+   "key": "rice with tomato paste",
+   "batch": 10,
+   "reason": "duplicate of the tomato rice in this batch"
+  },
+  {
+   "key": "schupfnudeln",
+   "batch": 10,
+   "reason": "a single food (potato noodles, like gnocchi)"
+  },
+  {
+   "key": "sweet potato puree",
+   "batch": 10,
+   "reason": "baby food (salt-free puree for infants)"
+  },
+  {
+   "key": "thuringian dumplings",
+   "batch": 10,
+   "reason": "a single food (potato dumplings)"
+  },
+  {
+   "key": "thuringian green dumplings",
+   "batch": 10,
+   "reason": "a single food (potato dumplings)"
+  },
+  {
+   "key": "banana milk with milk 3 5 fat",
+   "batch": 11,
+   "reason": "duplicate: \"banana milk\" already names recipe akari:recipe:banana-milk:v1"
+  },
+  {
+   "key": "burrito filled with vegetables beef mince and cheese",
+   "batch": 11,
+   "reason": "duplicate: \"beef burrito\" already names recipe akari:recipe:beef-burrito:v1"
+  },
+  {
+   "key": "cereal fruit puree with unsweetened apple sauce and oat flakes",
+   "batch": 11,
+   "reason": "baby food (weaning porridge)"
+  },
+  {
+   "key": "couscous with butter",
+   "batch": 11,
+   "reason": "a single food (buttered couscous)"
+  },
+  {
+   "key": "couscous with vegetables",
+   "batch": 11,
+   "reason": "duplicate: \"couscous with vegetables\" already names recipe akari:recipe:vegetable-couscous:v1"
+  },
+  {
+   "key": "grissini",
+   "batch": 11,
+   "reason": "a single food (breadsticks)"
+  },
+  {
+   "key": "milk cereal puree with oat flakes and apple juice",
+   "batch": 11,
+   "reason": "baby food (weaning porridge)"
+  },
+  {
+   "key": "millet porridge sweetened with milk 3 5 fat",
+   "batch": 11,
+   "reason": "duplicate: the sweetened variant of millet porridge with milk"
+  },
+  {
+   "key": "pancakes unsweetened with milk 1 5 fat",
+   "batch": 11,
+   "reason": "duplicate of the German pancake (Pfannkuchen) recipe already in the catalogue"
+  },
+  {
+   "key": "pancakes unsweetened with milk 3 5 fat",
+   "batch": 11,
+   "reason": "duplicate of the German pancake (Pfannkuchen) recipe already in the catalogue"
+  },
+  {
+   "key": "pancakes unsweetened with milk 3 5 fat in butter",
+   "batch": 11,
+   "reason": "duplicate of the German pancake (Pfannkuchen) recipe already in the catalogue"
+  },
+  {
+   "key": "polenta",
+   "batch": 11,
+   "reason": "a single food (polenta is already an ingredient)"
+  },
+  {
+   "key": "porridge sweetened with milk 3 5 fat",
+   "batch": 11,
+   "reason": "duplicate: the sweetened variant of porridge with milk"
+  },
+  {
+   "key": "porridge sweetened with soya drink",
+   "batch": 11,
+   "reason": "duplicate: the sweetened variant of porridge with soy milk"
+  },
+  {
+   "key": "porridge sweetened with water",
+   "batch": 11,
+   "reason": "a single food (porridge with water is already an ingredient) plus sugar"
+  },
+  {
+   "key": "porridge unsweetened with water",
+   "batch": 11,
+   "reason": "a single food (porridge with water is already an ingredient)"
+  },
+  {
+   "key": "puff pastry pockets filled with leaf spinach and sheep s milk cheese",
+   "batch": 11,
+   "reason": "duplicate of the spinach, feta and pine nut puff pastry pockets in this batch"
+  },
+  {
+   "key": "reisrand",
+   "batch": 11,
+   "reason": "a moulded ring of buttered rice, a single food"
+  },
+  {
+   "key": "rice flakes porridge unsweetened with water apple juice and rapeseed oil",
+   "batch": 11,
+   "reason": "baby food (a weaning porridge)"
+  },
+  {
+   "key": "spring rolls vegetarian filled with vegetables",
+   "batch": 11,
+   "reason": "duplicate of the vegetable spring rolls recipe already in the catalogue"
+  },
+  {
+   "key": "sushi rice",
+   "batch": 11,
+   "reason": "a single food (seasoned sushi rice is already an ingredient)"
+  },
+  {
+   "key": "tarte flambee alsatian style",
+   "batch": 11,
+   "reason": "duplicate: \"flammkuchen elsasser art\" already names recipe akari:recipe:flammkuchen:v1"
+  },
+  {
+   "key": "beef",
+   "batch": 12,
+   "reason": "a single food (boiled beef) the table already covers"
+  },
+  {
+   "key": "beef chop",
+   "batch": 12,
+   "reason": "a plain steak the table already covers"
+  },
+  {
+   "key": "beef fillet marinated in oven",
+   "batch": 12,
+   "reason": "a plain fillet the table already covers"
+  },
+  {
+   "key": "beef fillet steak",
+   "batch": 12,
+   "reason": "a plain steak the table already covers"
+  },
+  {
+   "key": "beef liver",
+   "batch": 12,
+   "reason": "a single food (fried beef liver) the table already covers"
+  },
+  {
+   "key": "beef meatballs",
+   "batch": 12,
+   "reason": "a single food the table already covers (beef meatballs are already an ingredient)"
+  },
+  {
+   "key": "beef rump steak",
+   "batch": 12,
+   "reason": "a plain steak the table already covers"
+  },
+  {
+   "key": "beef steak",
+   "batch": 12,
+   "reason": "a plain steak the table already covers"
+  },
+  {
+   "key": "beef stock",
+   "batch": 12,
+   "reason": "a single food (beef stock is already an ingredient)"
+  },
+  {
+   "key": "beef tongue",
+   "batch": 12,
+   "reason": "a single food (boiled beef tongue) the table already covers"
+  },
+  {
+   "key": "beef with creamed apple horseradish",
+   "batch": 12,
+   "reason": "duplicate: \"tafelspitz mit apfelkren\" already names recipe akari:recipe:tafelspitz:v1"
+  },
+  {
+   "key": "beer ham",
+   "batch": 12,
+   "reason": "a single food the table already covers (a fried slice of Bierschinken sausage)"
+  },
+  {
+   "key": "blood sausages heated",
+   "batch": 12,
+   "reason": "a single food the table already covers (heated blood sausage)"
+  },
+  {
+   "key": "bolognese sauce with beef mince",
+   "batch": 12,
+   "reason": "a sauce on its own"
+  },
+  {
+   "key": "bratwurst",
+   "batch": 12,
+   "reason": "a single food the table already covers (a fried bratwurst)"
+  },
+  {
+   "key": "fleischkaese",
+   "batch": 12,
+   "reason": "a single food the table already covers (fried Leberkäse is already an ingredient)"
+  },
+  {
+   "key": "goose liver pate",
+   "batch": 12,
+   "reason": "a liver pâté, a single food"
+  },
+  {
+   "key": "liver pate liver pudding",
+   "batch": 12,
+   "reason": "a liver pâté, a single food"
+  },
+  {
+   "key": "liver pudding with minced meat",
+   "batch": 12,
+   "reason": "a baked liver loaf, a pâté-like single food"
+  },
+  {
+   "key": "liver sausages heated",
+   "batch": 12,
+   "reason": "a single food the table already covers (heated liver sausage)"
+  },
+  {
+   "key": "ox tongue breaded",
+   "batch": 12,
+   "reason": "a cooking-method variant of beef tongue"
+  },
+  {
+   "key": "pork chop",
+   "batch": 12,
+   "reason": "a plain chop the table already covers"
+  },
+  {
+   "key": "pork chop breaded",
+   "batch": 12,
+   "reason": "a cooking-method variant of a pork chop"
+  },
+  {
+   "key": "pork cordon bleu",
+   "batch": 12,
+   "reason": "duplicate: \"pork cordon bleu\" already names recipe akari:recipe:cordon-bleu:v1"
+  },
+  {
+   "key": "pork fillet",
+   "batch": 12,
+   "reason": "a plain fillet the table already covers"
+  },
+  {
+   "key": "pork foreshank eisbein cured",
+   "batch": 12,
+   "reason": "a single food (boiled cured pork knuckle) the table already covers"
+  },
+  {
+   "key": "pork in aspic",
+   "batch": 12,
+   "reason": "duplicate of the pork knuckle in aspic (Tellersülze) in this batch"
+  },
+  {
+   "key": "pork loin chop cured",
+   "batch": 12,
+   "reason": "a plain chop the table already covers"
+  },
+  {
+   "key": "pork loin chop cured breaded",
+   "batch": 12,
+   "reason": "a cooking-method variant of a cured pork chop"
+  },
+  {
+   "key": "pork medaillon",
+   "batch": 12,
+   "reason": "a plain fillet the table already covers"
+  },
+  {
+   "key": "pork schnitzel",
+   "batch": 12,
+   "reason": "a plain escalope the table already covers"
+  },
+  {
+   "key": "pork schnitzel breaded",
+   "batch": 12,
+   "reason": "a single food the table already covers (breaded pork schnitzel is already an ingredient)"
+  },
+  {
+   "key": "pork steak",
+   "batch": 12,
+   "reason": "a plain steak the table already covers"
+  },
+  {
+   "key": "veal brain",
+   "batch": 12,
+   "reason": "a single food (fried veal brain) the table already covers"
+  },
+  {
+   "key": "veal chop",
+   "batch": 12,
+   "reason": "a plain chop the table already covers"
+  },
+  {
+   "key": "veal chop breaded",
+   "batch": 12,
+   "reason": "a cooking-method variant of a veal chop"
+  },
+  {
+   "key": "veal cordon bleu",
+   "batch": 12,
+   "reason": "duplicate: \"veal cordon bleu\" already names recipe akari:recipe:cordon-bleu:v1"
+  },
+  {
+   "key": "veal fillet in oven",
+   "batch": 12,
+   "reason": "a plain fillet the table already covers"
+  },
+  {
+   "key": "veal liver floured",
+   "batch": 12,
+   "reason": "a cooking-method variant of fried veal liver"
+  },
+  {
+   "key": "veal loin in oven",
+   "batch": 12,
+   "reason": "a plain roast the table already covers"
+  },
+  {
+   "key": "veal ragout zurich style",
+   "batch": 12,
+   "reason": "duplicate: \"zurcher geschnetzeltes\" already names recipe akari:recipe:zurich-style-sliced-veal:v1"
+  },
+  {
+   "key": "veal schnitzel floured",
+   "batch": 12,
+   "reason": "a cooking-method variant of a veal escalope"
+  },
+  {
+   "key": "chicken",
+   "batch": 13,
+   "reason": "a single food the table already covers (roast chicken is already an ingredient)"
+  },
+  {
+   "key": "chicken breast fillet",
+   "batch": 13,
+   "reason": "a plain fillet the table already covers"
+  },
+  {
+   "key": "chicken breast fillet breaded",
+   "batch": 13,
+   "reason": "a single food the table already covers (breaded chicken breast is already an ingredient)"
+  },
+  {
+   "key": "chicken in oven",
+   "batch": 13,
+   "reason": "a single food the table already covers (roast chicken is already an ingredient)"
+  },
+  {
+   "key": "chicken liver",
+   "batch": 13,
+   "reason": "a single food the table already covers (fried chicken liver)"
+  },
+  {
+   "key": "chicken thigh in oven",
+   "batch": 13,
+   "reason": "a single food the table already covers (roast chicken leg is already an ingredient)"
+  },
+  {
+   "key": "cod fillet breaded",
+   "batch": 13,
+   "reason": "a cooking-method variant of a single fish fillet"
+  },
+  {
+   "key": "flounder breaded",
+   "batch": 13,
+   "reason": "a cooking-method variant of a single fish fillet"
+  },
+  {
+   "key": "flounder floured",
+   "batch": 13,
+   "reason": "a cooking-method variant of a single fish fillet"
+  },
+  {
+   "key": "gyros",
+   "batch": 13,
+   "reason": "a single food the table already covers (pork gyros is already an ingredient)"
+  },
+  {
+   "key": "halibut breaded",
+   "batch": 13,
+   "reason": "a cooking-method variant of a single fish fillet"
+  },
+  {
+   "key": "halibut fillet",
+   "batch": 13,
+   "reason": "a plain fillet the table already covers"
+  },
+  {
+   "key": "halibut floured",
+   "batch": 13,
+   "reason": "a cooking-method variant of a single fish fillet"
+  },
+  {
+   "key": "herring fillet",
+   "batch": 13,
+   "reason": "a plain fillet the table already covers"
+  },
+  {
+   "key": "herring fillet breaded",
+   "batch": 13,
+   "reason": "a cooking-method variant of a single fish fillet"
+  },
+  {
+   "key": "herring marinated drained",
+   "batch": 13,
+   "reason": "a single food the table already covers (a jarred fried herring)"
+  },
+  {
+   "key": "lamb chop",
+   "batch": 13,
+   "reason": "a plain chop the table already covers"
+  },
+  {
+   "key": "lamb chops marinated",
+   "batch": 13,
+   "reason": "a single food the table already covers (grilled lamb chops are already an ingredient)"
+  },
+  {
+   "key": "lamb fillet",
+   "batch": 13,
+   "reason": "a plain fillet the table already covers"
+  },
+  {
+   "key": "ling breaded",
+   "batch": 13,
+   "reason": "a cooking-method variant of a single fish fillet"
+  },
+  {
+   "key": "mutton chop",
+   "batch": 13,
+   "reason": "a plain chop the table already covers"
+  },
+  {
+   "key": "mutton fillet",
+   "batch": 13,
+   "reason": "a plain fillet the table already covers"
+  },
+  {
+   "key": "mutton steak",
+   "batch": 13,
+   "reason": "a plain steak the table already covers"
+  },
+  {
+   "key": "mutton with white cabbage",
+   "batch": 13,
+   "reason": "duplicate: \"irish stew\" already names recipe akari:recipe:irish-stew:v1"
+  },
+  {
+   "key": "pickled herring fillet filled rolled drained",
+   "batch": 13,
+   "reason": "a single food the table already covers (a jarred rollmops)"
+  },
+  {
+   "key": "pickled herring fillet in cream sauce",
+   "batch": 13,
+   "reason": "duplicate of the herring in cream sauce (Heringsstipp) in this batch"
+  },
+  {
+   "key": "plaice fillet floured",
+   "batch": 13,
+   "reason": "a cooking-method variant of a single fish fillet"
+  },
+  {
+   "key": "plaice fillet with parsley breaded",
+   "batch": 13,
+   "reason": "a cooking-method variant of a single fish fillet"
+  },
+  {
+   "key": "pork belly",
+   "batch": 13,
+   "reason": "a single food the table already covers (boiled pork belly)"
+  },
+  {
+   "key": "pork liver floured",
+   "batch": 13,
+   "reason": "a cooking-method variant of fried pork liver"
+  },
+  {
+   "key": "pork meatballs",
+   "batch": 13,
+   "reason": "a single food the table already covers (pork meatballs are already an ingredient)"
+  },
+  {
+   "key": "pork spare ribs",
+   "batch": 13,
+   "reason": "a single food the table already covers (boiled pork ribs)"
+  },
+  {
+   "key": "saithe fillet breaded",
+   "batch": 13,
+   "reason": "a cooking-method variant of a single fish fillet"
+  },
+  {
+   "key": "salmon steaks",
+   "batch": 13,
+   "reason": "a single food the table already covers (cooked salmon is already an ingredient)"
+  },
+  {
+   "key": "sole fillet",
+   "batch": 13,
+   "reason": "a plain fillet the table already covers"
+  },
+  {
+   "key": "sushi with salmon",
+   "batch": 13,
+   "reason": "duplicate of the salmon nigiri and salmon maki recipes already in the catalogue"
+  },
+  {
+   "key": "tuna steak marinated",
+   "batch": 13,
+   "reason": "a plain fillet the table already covers"
+  },
+  {
+   "key": "turbot breaded",
+   "batch": 13,
+   "reason": "a cooking-method variant of a single fish fillet"
+  },
+  {
+   "key": "turbot floured",
+   "batch": 13,
+   "reason": "a cooking-method variant of a single fish fillet"
+  },
+  {
+   "key": "turkey schnitzel",
+   "batch": 13,
+   "reason": "a plain escalope the table already covers"
+  },
+  {
+   "key": "witch breaded",
+   "batch": 13,
+   "reason": "a cooking-method variant of a single fish fillet"
+  },
+  {
+   "key": "witch floured",
+   "batch": 13,
+   "reason": "a cooking-method variant of a single fish fillet"
+  },
+  {
+   "key": "egg",
+   "batch": 14,
+   "reason": "a single fried egg; the vocabulary covers it (fried egg)"
+  },
+  {
+   "key": "egg custard with herbs diced",
+   "batch": 14,
+   "reason": "a soup garnish (Eierstich), not logged as a dish"
+  },
+  {
+   "key": "egg in butter",
+   "batch": 14,
+   "reason": "a fried egg in butter, a cooking variant of a single food"
+  },
+  {
+   "key": "egg with bacon",
+   "batch": 14,
+   "reason": "duplicate: \"fried eggs with bacon\" already names recipe akari:recipe:bacon-and-eggs:v1"
+  },
+  {
+   "key": "eggs",
+   "batch": 14,
+   "reason": "plain boiled eggs, a single food (boiled egg)"
+  },
+  {
+   "key": "eggs salted",
+   "batch": 14,
+   "reason": "plain boiled eggs, a single food (boiled egg)"
+  },
+  {
+   "key": "fish fingers",
+   "batch": 14,
+   "reason": "a single food the vocabulary already covers (fish fingers)"
+  },
+  {
+   "key": "fish slices of saithe",
+   "batch": 14,
+   "reason": "a plain grilled fillet, the table row covers it"
+  },
+  {
+   "key": "herb butter",
+   "batch": 14,
+   "reason": "a seasoned butter on its own, not a dish"
+  },
+  {
+   "key": "horseradish butter",
+   "batch": 14,
+   "reason": "a seasoned butter on its own, not a dish"
+  },
+  {
+   "key": "mustard butter",
+   "batch": 14,
+   "reason": "a seasoned butter on its own, not a dish"
+  },
+  {
+   "key": "omelette with cheese",
+   "batch": 14,
+   "reason": "duplicate: \"cheese omelette\" already names recipe akari:recipe:cheese-omelette:v1"
+  },
+  {
+   "key": "potatoes with herb quark and butter",
+   "batch": 14,
+   "reason": "duplicate: \"pellkartoffeln mit krauterquark\" already names recipe akari:recipe:potatoes-with-herb-quark:v1"
+  },
+  {
+   "key": "quark 10 fat in dry matter with herbs",
+   "batch": 14,
+   "reason": "a quark dip/spread on its own"
+  },
+  {
+   "key": "quark min 40 fat in dry matter with chives",
+   "batch": 14,
+   "reason": "a quark dip/spread on its own"
+  },
+  {
+   "key": "redfish fillet",
+   "batch": 14,
+   "reason": "a plain grilled fillet, the table row covers it"
+  },
+  {
+   "key": "scrambled eggs in butter",
+   "batch": 14,
+   "reason": "duplicate of the catalogue dish Scrambled eggs (Rührei)"
+  },
+  {
+   "key": "snails in stock",
+   "batch": 14,
+   "reason": "plain boiled snails, the table row covers them"
+  },
+  {
+   "key": "sole in butter",
+   "batch": 14,
+   "reason": "duplicate: \"seezunge in butter\" already names recipe akari:recipe:sole-meuniere:v1"
+  },
+  {
+   "key": "trout fillet",
+   "batch": 14,
+   "reason": "a plain fried fillet, the table row covers it"
+  },
+  {
+   "key": "apple sauce",
+   "batch": 15,
+   "reason": "applesauce, a single food"
+  },
+  {
+   "key": "apple sauce unsweetened",
+   "batch": 15,
+   "reason": "applesauce, a single food"
+  },
+  {
+   "key": "apple sauce with artificial sweetener",
+   "batch": 15,
+   "reason": "applesauce, a single food"
+  },
+  {
+   "key": "apple sauce with cinnamon",
+   "batch": 15,
+   "reason": "applesauce, a single food"
+  },
+  {
+   "key": "basil butter",
+   "batch": 15,
+   "reason": "a seasoned butter on its own, not a dish"
+  },
+  {
+   "key": "blueberries sugared",
+   "batch": 15,
+   "reason": "sugared berries, essentially a single food"
+  },
+  {
+   "key": "butter cream filling",
+   "batch": 15,
+   "reason": "a cake filling on its own"
+  },
+  {
+   "key": "dip made from sheep s milk cheese",
+   "batch": 15,
+   "reason": "a dip on its own"
+  },
+  {
+   "key": "french toast with sugar and cinnamon",
+   "batch": 15,
+   "reason": "duplicate: \"arme ritter\" already names recipe akari:recipe:french-toast:v1"
+  },
+  {
+   "key": "fruit jelly",
+   "batch": 15,
+   "reason": "duplicate of Rote Grütze in this batch (alias added there)"
+  },
+  {
+   "key": "fruit jelly sugar reduced",
+   "batch": 15,
+   "reason": "a sugar-reduced variant of Rote Grütze in this batch"
+  },
+  {
+   "key": "fruit preserved in rum with sugar",
+   "batch": 15,
+   "reason": "an alcoholic fruit preserve (Rumtopf)"
+  },
+  {
+   "key": "grapefruit sugared",
+   "batch": 15,
+   "reason": "sugared fruit, essentially a single food"
+  },
+  {
+   "key": "koch kaese homemade",
+   "batch": 15,
+   "reason": "a cheese spread (Kochkäse), a single food"
+  },
+  {
+   "key": "lemon butter",
+   "batch": 15,
+   "reason": "a seasoned butter on its own, not a dish"
+  },
+  {
+   "key": "pears",
+   "batch": 15,
+   "reason": "pears poached in syrup, a compote on its own"
+  },
+  {
+   "key": "raspberries sugared",
+   "batch": 15,
+   "reason": "sugared berries, essentially a single food"
+  },
+  {
+   "key": "red currants sugared",
+   "batch": 15,
+   "reason": "sugared berries, essentially a single food"
+  },
+  {
+   "key": "red fruit jelly",
+   "batch": 15,
+   "reason": "duplicate: \"rote grutze\" already names recipe akari:recipe:red-berry-pudding-with-vanilla-sauce:v1"
+  },
+  {
+   "key": "red fruit jelly of fruit juice",
+   "batch": 15,
+   "reason": "a variant of Rote Grütze in this batch"
+  },
+  {
+   "key": "red fruit jelly sugar reduced",
+   "batch": 15,
+   "reason": "a sugar-reduced variant of Rote Grütze in this batch"
+  },
+  {
+   "key": "red fruit jelly unsweetened",
+   "batch": 15,
+   "reason": "an unsweetened variant of Rote Grütze in this batch"
+  },
+  {
+   "key": "red fruit jelly with artificial sweetener",
+   "batch": 15,
+   "reason": "a sweetener variant of Rote Grütze in this batch"
+  },
+  {
+   "key": "rohrnudeln sweet yeast dumplings",
+   "batch": 15,
+   "reason": "duplicate: \"rohrnudeln\" already names recipe akari:recipe:dampfnudeln:v1"
+  },
+  {
+   "key": "salmon cream cheese with dill weed",
+   "batch": 15,
+   "reason": "a spread on its own"
+  },
+  {
+   "key": "semolina pudding with egg",
+   "batch": 15,
+   "reason": "duplicate: \"semolina pudding\" already names recipe akari:recipe:sweet-semolina-porridge:v1"
+  },
+  {
+   "key": "small buckwheat pancakes",
+   "batch": 15,
+   "reason": "duplicate: \"buckwheat pancakes\" already names recipe akari:recipe:buckwheat-pancakes:v1"
+  },
+  {
+   "key": "small quark pancakes",
+   "batch": 15,
+   "reason": "duplicate: \"quark pancakes\" already names recipe akari:recipe:quark-pancakes:v1"
+  },
+  {
+   "key": "strawberries sugared",
+   "batch": 15,
+   "reason": "sugared berries, essentially a single food"
+  },
+  {
+   "key": "vanilla pudding with egg yolk",
+   "batch": 15,
+   "reason": "duplicate: \"vanilla pudding\" already names recipe akari:recipe:vanilla-pudding:v1"
+  },
+  {
+   "key": "almond brittle",
+   "batch": 16,
+   "reason": "a confection on its own (Mandelkrokant), a single food"
+  },
+  {
+   "key": "apple banana pear sauce unsweetened",
+   "batch": 16,
+   "reason": "a fruit purée, essentially a single food"
+  },
+  {
+   "key": "apple mango sauce unsweetened",
+   "batch": 16,
+   "reason": "a fruit purée, essentially a single food"
+  },
+  {
+   "key": "chocolate cream ice cream",
+   "batch": 16,
+   "reason": "a single food (ice cream)"
+  },
+  {
+   "key": "chocolate ice cream",
+   "batch": 16,
+   "reason": "a single food (ice cream)"
+  },
+  {
+   "key": "curried bratwurst with curry ketchup",
+   "batch": 16,
+   "reason": "duplicate of the catalogue dish Currywurst"
+  },
+  {
+   "key": "kaiserschmarren",
+   "batch": 16,
+   "reason": "duplicate: \"kaiserschmarrn\" already names recipe akari:recipe:kaiserschmarrn:v1"
+  },
+  {
+   "key": "lemon sherbet sorbet",
+   "batch": 16,
+   "reason": "a single food (sorbet)"
+  },
+  {
+   "key": "mocha cream ice cream",
+   "batch": 16,
+   "reason": "a single food (ice cream)"
+  },
+  {
+   "key": "neapolitan ice cream",
+   "batch": 16,
+   "reason": "a single food (ice cream)"
+  },
+  {
+   "key": "omelette souffle",
+   "batch": 16,
+   "reason": "duplicate of the sweet soufflé omelette (Schaumomelett) in batch 14"
+  },
+  {
+   "key": "pancakes with milk 3 5 fat and blueberries",
+   "batch": 16,
+   "reason": "duplicate: \"blueberry pancake\" already names recipe akari:recipe:blueberry-pancakes:v1"
+  },
+  {
+   "key": "pancakes with milk 3 5 fat in butter",
+   "batch": 16,
+   "reason": "duplicate of the catalogue dish German pancake (Pfannkuchen)"
+  },
+  {
+   "key": "pannacotta",
+   "batch": 16,
+   "reason": "duplicate: \"panna cotta\" already names recipe akari:recipe:panna-cotta:v1"
+  },
+  {
+   "key": "quark dumplings filled with apricots",
+   "batch": 16,
+   "reason": "duplicate: \"marillenknodel\" already names recipe akari:recipe:apricot-dumplings:v1"
+  },
+  {
+   "key": "scalded sausage with mustard",
+   "batch": 16,
+   "reason": "a generic sausage category, covered by Bockwurst, Wiener and Knacker in this batch"
+  },
+  {
+   "key": "scalded sausage with potato salad and mustard",
+   "batch": 16,
+   "reason": "a generic sausage category, covered by Bockwurst, Wiener and Knacker in this batch"
+  },
+  {
+   "key": "scalded sausage with roll and mustard",
+   "batch": 16,
+   "reason": "a generic sausage category, covered by Bockwurst, Wiener and Knacker in this batch"
+  },
+  {
+   "key": "semolina pudding without egg",
+   "batch": 16,
+   "reason": "a variant of Grießpudding (batch 15)"
+  },
+  {
+   "key": "semolina slices sweetened",
+   "batch": 16,
+   "reason": "duplicate of Grießschnitten (batch 15)"
+  },
+  {
+   "key": "strawberry cream ice cream",
+   "batch": 16,
+   "reason": "a single food (ice cream)"
+  },
+  {
+   "key": "strawberry ice cream",
+   "batch": 16,
+   "reason": "a single food (ice cream)"
+  },
+  {
+   "key": "vanilla cream ice cream",
+   "batch": 16,
+   "reason": "a single food (vanilla ice cream)"
+  },
+  {
+   "key": "vanilla cream ice cream with orange liqueur",
+   "batch": 16,
+   "reason": "a single food (ice cream) with liqueur"
+  },
+  {
+   "key": "vanilla cream ice cream with whipped cream fresh strawberries and rum",
+   "batch": 16,
+   "reason": "duplicate: \"erdbeerbecher\" already names recipe akari:recipe:strawberry-sundae:v1"
+  },
+  {
+   "key": "vanilla ice cream",
+   "batch": 16,
+   "reason": "a single food (vanilla ice cream)"
+  },
+  {
+   "key": "vanilla pudding with egg",
+   "batch": 16,
+   "reason": "duplicate of Vanillepudding (batch 15)"
+  },
+  {
+   "key": "anchois",
+   "batch": 17,
+   "reason": "a single food: anchovy fillets in oil"
+  },
+  {
+   "key": "apricot ice cream",
+   "batch": 17,
+   "reason": "a single food: one ice cream flavour the table covers"
+  },
+  {
+   "key": "beignet de viande",
+   "batch": 17,
+   "reason": "a category of battered fried meat, poultry or fish, not one dish"
+  },
+  {
+   "key": "boulettes au boeuf",
+   "batch": 17,
+   "reason": "a single food: cooked beef meatballs (meatballs are in the vocabulary)"
+  },
+  {
+   "key": "brochette d agneau",
+   "batch": 17,
+   "reason": "duplicate of the lamb skewer with vegetables candidate in batch 13"
+  },
+  {
+   "key": "brochette de boeuf",
+   "batch": 17,
+   "reason": "duplicate of the beef skewer candidate in batch 12"
+  },
+  {
+   "key": "brochette mixte de viande",
+   "batch": 17,
+   "reason": "duplicate of the meat skewer candidate in batch 12"
+  },
+  {
+   "key": "burger au poisson",
+   "batch": 17,
+   "reason": "duplicate of the fish burger with saithe in this batch"
+  },
+  {
+   "key": "burger au poulet",
+   "batch": 17,
+   "reason": "duplicate of the chicken burger candidate in batch 3"
+  },
+  {
+   "key": "burritos au boeuf",
+   "batch": 17,
+   "reason": "duplicate of the beef burrito candidate in batch 2"
+  },
+  {
+   "key": "choucroute cuisinee aux lardons",
+   "batch": 17,
+   "reason": "a single food: sauerkraut cooked with bacon, without its garnish"
+  },
+  {
+   "key": "fajita au poulet",
+   "batch": 17,
+   "reason": "duplicate of the chicken fajitas candidate in batch 2"
+  },
+  {
+   "key": "falafel",
+   "batch": 17,
+   "reason": "a single food: falafel is already in the vocabulary and the table"
+  },
+  {
+   "key": "falafel in flatbread vegetarian filled",
+   "batch": 17,
+   "reason": "duplicate: \"falafel im fladenbrot\" already names recipe akari:recipe:falafel-wrap:v1"
+  },
+  {
+   "key": "feuillete ou friand jambon fromage",
+   "batch": 17,
+   "reason": "duplicate: \"ham and cheese puff pastry\" already names recipe akari:recipe:ham-and-cheese-puff-pastry-pockets:v1"
+  },
+  {
+   "key": "gnocchi a la pomme de terre",
+   "batch": 17,
+   "reason": "a single food: plain cooked potato gnocchi"
+  },
+  {
+   "key": "hareng fume",
+   "batch": 17,
+   "reason": "a single food: smoked herring"
+  },
+  {
+   "key": "hazelnut ice cream",
+   "batch": 17,
+   "reason": "a single food: one ice cream flavour the table covers"
+  },
+  {
+   "key": "lahmacun unfilled",
+   "batch": 17,
+   "reason": "duplicate of the lahmacun candidate in batch 2"
+  },
+  {
+   "key": "mahi mahi",
+   "batch": 17,
+   "reason": "a single food: cooked mahi-mahi"
+  },
+  {
+   "key": "nouilles asiatiques instantanees",
+   "batch": 17,
+   "reason": "a single food: one packaged instant noodle product"
+  },
+  {
+   "key": "nut croquettes fried in vegetable oil",
+   "batch": 17,
+   "reason": "duplicate of the nut croquettes fried in sunflower oil in this batch"
+  },
+  {
+   "key": "osso buco de veau a la milanaise jarret de porc",
+   "batch": 17,
+   "reason": "duplicate of the ossobuco alla milanese candidate in batch 12"
+  },
+  {
+   "key": "paella poulet fruit de mer",
+   "batch": 17,
+   "reason": "duplicate of the paella candidate in batch 11"
+  },
+  {
+   "key": "raspberry ice cream",
+   "batch": 17,
+   "reason": "a single food: one ice cream flavour the table covers"
+  },
+  {
+   "key": "ravioli chinois a la vapeur a la crevette",
+   "batch": 17,
+   "reason": "already in the catalogue as Har gow"
+  },
+  {
+   "key": "rouleau de printemps",
+   "batch": 17,
+   "reason": "duplicate: \"fresh spring rolls\" already names recipe akari:recipe:summer-rolls:v1"
+  },
+  {
+   "key": "salade verte",
+   "batch": 17,
+   "reason": "a single food: plain undressed lettuce"
+  },
+  {
+   "key": "samoussa ou samossa ou brick garni",
+   "batch": 17,
+   "reason": "duplicate of the beef samosa and brick candidates in this batch"
+  },
+  {
+   "key": "sandwich grec ou kebab",
+   "batch": 17,
+   "reason": "duplicate of the doner kebab candidate in batch 2"
+  },
+  {
+   "key": "saumon fume",
+   "batch": 17,
+   "reason": "a single food: smoked salmon"
+  },
+  {
+   "key": "shish kebabs with onions and peppers",
+   "batch": 17,
+   "reason": "duplicate of the lamb skewer with vegetables candidate in batch 13"
+  },
+  {
+   "key": "souffle au fromage",
+   "batch": 17,
+   "reason": "duplicate of the cheese soufflé candidate in batch 14"
+  },
+  {
+   "key": "sushi ou maki aux produits de la mer",
+   "batch": 17,
+   "reason": "duplicate of the sushi candidate in batch 20 and the catalogue sushi"
+  },
+  {
+   "key": "vanilla ice cream with whipped cream and fresh strawberries",
+   "batch": 17,
+   "reason": "duplicate: \"erdbeerbecher\" already names recipe akari:recipe:strawberry-sundae:v1"
+  },
+  {
+   "key": "wrap jambon crudites",
+   "batch": 17,
+   "reason": "duplicate of the ham sandwich wrap candidate in batch 19"
+  },
+  {
+   "key": "wrap poulet crudites",
+   "batch": 17,
+   "reason": "duplicate of the chicken breast wrap candidate in batch 13"
+  },
+  {
+   "key": "いかフライ",
+   "batch": 17,
+   "reason": "a single food: breaded fried squid (fried calamari is in the vocabulary)"
+  },
+  {
+   "key": "きょうさ",
+   "batch": 17,
+   "reason": "already in the catalogue as Gyoza"
+  },
+  {
+   "key": "しゅうまい",
+   "batch": 17,
+   "reason": "already in the catalogue as Siu mai"
+  },
+  {
+   "key": "しょうゆ漬",
+   "batch": 17,
+   "reason": "a preserve: matsumae-zuke soy pickle"
+  },
+  {
+   "key": "ヒーフカレー",
+   "batch": 17,
+   "reason": "already in the catalogue as Japanese curry rice (Japanese beef curry)"
+  },
+  {
+   "key": "ミートホール",
+   "batch": 17,
+   "reason": "a single food: fried meatballs (meatballs are in the vocabulary)"
+  },
+  {
+   "key": "冷凍",
+   "batch": 17,
+   "reason": "a frozen cream croquette before frying; cream croquettes are drafted in batch 18"
+  },
+  {
+   "key": "白身フライ",
+   "batch": 17,
+   "reason": "a single food: breaded fried white fish (battered fish is in the vocabulary)"
+  },
+  {
+   "key": "粉末タイフ",
+   "batch": 17,
+   "reason": "an instant soup powder, not a dish"
+  },
+  {
+   "key": "alfredo sauce",
+   "batch": 18,
+   "reason": "a sauce on its own"
+  },
+  {
+   "key": "alfredo sauce with added vegetables",
+   "batch": 18,
+   "reason": "a sauce on its own"
+  },
+  {
+   "key": "alfredo sauce with meat",
+   "batch": 18,
+   "reason": "a sauce on its own"
+  },
+  {
+   "key": "alfredo sauce with poultry",
+   "batch": 18,
+   "reason": "a sauce on its own"
+  },
+  {
+   "key": "alfredo sauce with seafood",
+   "batch": 18,
+   "reason": "a sauce on its own"
+  },
+  {
+   "key": "beef curry",
+   "batch": 18,
+   "reason": "duplicate of beef curry with rice in this batch"
+  },
+  {
+   "key": "beef taco filling beef",
+   "batch": 18,
+   "reason": "duplicate of the beef tacos candidate in batch 2 (this row is only the filling)"
+  },
+  {
+   "key": "biryani with chicken",
+   "batch": 18,
+   "reason": "duplicate of the chicken biryani candidate in batch 2"
+  },
+  {
+   "key": "chicken or turkey parmigiana",
+   "batch": 18,
+   "reason": "already in the catalogue as Chicken parmigiana"
+  },
+  {
+   "key": "chicken or turkey salad",
+   "batch": 18,
+   "reason": "duplicate: \"chicken salad\" already names recipe akari:recipe:salad-with-chicken-strips:v1"
+  },
+  {
+   "key": "chicken or turkey with teriyaki",
+   "batch": 18,
+   "reason": "already in the catalogue as Chicken teriyaki"
+  },
+  {
+   "key": "chili hot dog",
+   "batch": 18,
+   "reason": "duplicate of the chili dog candidate in batch 3"
+  },
+  {
+   "key": "chow mein or chop suey",
+   "batch": 18,
+   "reason": "already in the catalogue as Chicken chow mein and Chop suey"
+  },
+  {
+   "key": "fish curry",
+   "batch": 18,
+   "reason": "duplicate of fish curry with rice in this batch"
+  },
+  {
+   "key": "frozen yogurt sandwich",
+   "batch": 18,
+   "reason": "a single food: one packaged frozen dessert"
+  },
+  {
+   "key": "general tso chicken",
+   "batch": 18,
+   "reason": "already in the catalogue as General Tso's chicken"
+  },
+  {
+   "key": "gumbo with rice",
+   "batch": 18,
+   "reason": "duplicate of the gumbo candidate in batch 19"
+  },
+  {
+   "key": "ham croquette",
+   "batch": 18,
+   "reason": "duplicate of the croquetas de jamón candidate in batch 4"
+  },
+  {
+   "key": "ice cream cookie sandwich",
+   "batch": 18,
+   "reason": "a single food: one packaged frozen dessert"
+  },
+  {
+   "key": "ice cream sandwich",
+   "batch": 18,
+   "reason": "a single food: one packaged frozen dessert"
+  },
+  {
+   "key": "jambalaya with meat and rice",
+   "batch": 18,
+   "reason": "duplicate of the jambalaya candidate in batch 3"
+  },
+  {
+   "key": "paella with seafood",
+   "batch": 18,
+   "reason": "duplicate of the seafood paella candidate in batch 3"
+  },
+  {
+   "key": "soup",
+   "batch": 18,
+   "reason": "duplicate of the bouillabaisse candidate in batch 3"
+  },
+  {
+   "key": "spaghetti sauce with meat",
+   "batch": 18,
+   "reason": "a sauce on its own"
+  },
+  {
+   "key": "spaghetti sauce with poultry",
+   "batch": 18,
+   "reason": "a sauce on its own"
+  },
+  {
+   "key": "spaghetti sauce with seafood",
+   "batch": 18,
+   "reason": "a sauce on its own"
+  },
+  {
+   "key": "stewed",
+   "batch": 18,
+   "reason": "duplicate of the Mexican stewed ground beef (picadillo) in this batch"
+  },
+  {
+   "key": "topping from cheese pizza",
+   "batch": 18,
+   "reason": "not a dish: the topping of a pizza"
+  },
+  {
+   "key": "topping from meat pizza",
+   "batch": 18,
+   "reason": "not a dish: the topping of a pizza"
+  },
+  {
+   "key": "topping from vegetable pizza",
+   "batch": 18,
+   "reason": "not a dish: the topping of a pizza"
+  },
+  {
+   "key": "お好み焼き",
+   "batch": 18,
+   "reason": "already in the catalogue as Okonomiyaki"
+  },
+  {
+   "key": "かほちゃのクリームスーフ",
+   "batch": 18,
+   "reason": "duplicate of the cream of pumpkin soup candidate in batch 7"
+  },
+  {
+   "key": "とりから揚け",
+   "batch": 18,
+   "reason": "already in the catalogue as Karaage"
+  },
+  {
+   "key": "チャーハン",
+   "batch": 18,
+   "reason": "already in the catalogue as Egg fried rice"
+  },
+  {
+   "key": "八宝菜",
+   "batch": 18,
+   "reason": "already in the catalogue as Eight treasures (happosai)"
+  },
+  {
+   "key": "春巻き",
+   "batch": 18,
+   "reason": "duplicate of the pork and vegetable spring rolls candidate in batch 11"
+  },
+  {
+   "key": "牛飯の具",
+   "batch": 18,
+   "reason": "already in the catalogue as Gyudon (this is its topping)"
+  },
+  {
+   "key": "親子丼の具",
+   "batch": 18,
+   "reason": "already in the catalogue as Oyakodon (this is its topping)"
+  },
+  {
+   "key": "酢豚",
+   "batch": 18,
+   "reason": "already in the catalogue as Sweet and sour pork"
+  },
+  {
+   "key": "麻婆豆腐",
+   "batch": 18,
+   "reason": "already in the catalogue as Mapo tofu"
+  },
+  {
+   "key": "barbecue pork sandwich",
+   "batch": 19,
+   "reason": "duplicate of 'pulled pork sandwich' in another batch"
+  },
+  {
+   "key": "barbecue sandwich",
+   "batch": 19,
+   "reason": "not further specified; duplicate of the barbecue beef sandwich in this batch"
+  },
+  {
+   "key": "cheese steak sandwich or sub",
+   "batch": 19,
+   "reason": "duplicate: \"philly cheesesteak\" already names recipe akari:recipe:philly-cheesesteak:v1"
+  },
+  {
+   "key": "chicken fillet sandwich",
+   "batch": 19,
+   "reason": "duplicate of 'fried chicken sandwich' in another batch"
+  },
+  {
+   "key": "chicken salad sandwich",
+   "batch": 19,
+   "reason": "duplicate: \"chicken salad sandwich\" already names recipe akari:recipe:chicken-salad-sandwich:v1"
+  },
+  {
+   "key": "chicken salad sandwich wrap",
+   "batch": 19,
+   "reason": "duplicate: \"chicken salad wrap\" already names recipe akari:recipe:chicken-salad-wrap:v1"
+  },
+  {
+   "key": "chili hot dog sandwich",
+   "batch": 19,
+   "reason": "duplicate of 'chili hot dog' in another batch"
+  },
+  {
+   "key": "chinese pancake",
+   "batch": 19,
+   "reason": "a single food (the wheat pancake wrapper is already an ingredient row)"
+  },
+  {
+   "key": "club sandwich or sub",
+   "batch": 19,
+   "reason": "duplicate of 'club sandwich' in another batch"
+  },
+  {
+   "key": "crepe",
+   "batch": 19,
+   "reason": "duplicate of 'chocolate hazelnut crepe' in another batch"
+  },
+  {
+   "key": "egg burrito",
+   "batch": 19,
+   "reason": "duplicate of 'breakfast burrito' in another batch"
+  },
+  {
+   "key": "egg omelet or scrambled egg",
+   "batch": 19,
+   "reason": "duplicate of the existing Omelette and Scrambled eggs recipes"
+  },
+  {
+   "key": "falafel sandwich",
+   "batch": 19,
+   "reason": "duplicate of 'falafel in flatbread vegetarian filled' and 'falafel wrap' in other batches"
+  },
+  {
+   "key": "fish sandwich",
+   "batch": 19,
+   "reason": "duplicate of the fish burger candidates in another batch ('fish burger with saithe', 'burger au poisson')"
+  },
+  {
+   "key": "french toast sticks",
+   "batch": 19,
+   "reason": "duplicate of 'french toast' in another batch"
+  },
+  {
+   "key": "gyro sandwich",
+   "batch": 19,
+   "reason": "duplicate: \"gyro sandwich\" already names recipe akari:recipe:gyros-pita:v1"
+  },
+  {
+   "key": "ham sandwich wrap",
+   "batch": 19,
+   "reason": "duplicate of the ham wrap candidate in another batch ('wrap jambon crudites')"
+  },
+  {
+   "key": "hot dog sandwich",
+   "batch": 19,
+   "reason": "duplicate of 'hot dog' in another batch"
+  },
+  {
+   "key": "italian sandwich",
+   "batch": 19,
+   "reason": "duplicate of the Italian sub in this batch"
+  },
+  {
+   "key": "meatball sandwich or sub",
+   "batch": 19,
+   "reason": "duplicate of 'meatball sub' in another batch"
+  },
+  {
+   "key": "multiple meat sandwich wrap",
+   "batch": 19,
+   "reason": "near-duplicate of the turkey wrap and cold cut sandwich in this batch"
+  },
+  {
+   "key": "sandwich",
+   "batch": 19,
+   "reason": "a bare category (sandwich, not further specified); specific sandwiches are drafted separately"
+  },
+  {
+   "key": "sandwich wrap",
+   "batch": 19,
+   "reason": "a bare category (wrap, not further specified); specific wraps are drafted separately"
+  },
+  {
+   "key": "sloppy joe sandwich",
+   "batch": 19,
+   "reason": "duplicate: \"sloppy joe\" already names recipe akari:recipe:sloppy-joe:v1"
+  },
+  {
+   "key": "taco shell",
+   "batch": 19,
+   "reason": "a single food (a corn taco shell)"
+  },
+  {
+   "key": "teriyaki sauce",
+   "batch": 19,
+   "reason": "a sauce on its own"
+  },
+  {
+   "key": "tuna salad sandwich",
+   "batch": 19,
+   "reason": "duplicate of 'tuna sandwich' in another batch"
+  },
+  {
+   "key": "turkey or chicken burger",
+   "batch": 19,
+   "reason": "duplicate of 'chicken burger' in another batch"
+  },
+  {
+   "key": "turkey sandwich or sub",
+   "batch": 19,
+   "reason": "duplicate of 'turkey sandwich' in another batch"
+  },
+  {
+   "key": "veggie burger patty",
+   "batch": 19,
+   "reason": "a single food (the patty without a bun is already an ingredient row)"
+  },
+  {
+   "key": "waffle",
+   "batch": 19,
+   "reason": "a single food (a plain waffle, not further specified)"
+  },
+  {
+   "key": "asian stir fry vegetables",
+   "batch": 20,
+   "reason": "a single food (a mixed vegetable blend, cooked without fat)"
+  },
+  {
+   "key": "biryani with vegetables",
+   "batch": 20,
+   "reason": "duplicate of 'vegetable biryani' in another batch"
+  },
+  {
+   "key": "burrito",
+   "batch": 20,
+   "reason": "not further specified; duplicate of 'beef burrito', 'chicken burrito' and 'bean burrito' in another batch"
+  },
+  {
+   "key": "curry sauce",
+   "batch": 20,
+   "reason": "a sauce on its own"
+  },
+  {
+   "key": "eggplant parmesan casserole",
+   "batch": 20,
+   "reason": "duplicate of the existing Eggplant parmigiana recipe"
+  },
+  {
+   "key": "enchilada",
+   "batch": 20,
+   "reason": "not further specified; duplicate of 'chicken enchiladas' and 'cheese enchiladas' in another batch"
+  },
+  {
+   "key": "enchilada sauce",
+   "batch": 20,
+   "reason": "a sauce on its own"
+  },
+  {
+   "key": "fajita",
+   "batch": 20,
+   "reason": "not further specified; duplicate of 'chicken fajitas' in another batch"
+  },
+  {
+   "key": "lasagna",
+   "batch": 20,
+   "reason": "near-duplicate of the chicken lasagne and the lasagne with meat and spinach in this batch"
+  },
+  {
+   "key": "lasagna with meat",
+   "batch": 20,
+   "reason": "duplicate of the existing Lasagne recipe"
+  },
+  {
+   "key": "mixed salad greens",
+   "batch": 20,
+   "reason": "a single food (raw salad leaves)"
+  },
+  {
+   "key": "nachos",
+   "batch": 20,
+   "reason": "not further specified; duplicate of 'nachos with cheese' and 'loaded nachos' in another batch"
+  },
+  {
+   "key": "pad thai with seafood",
+   "batch": 20,
+   "reason": "duplicate: \"pad thai mit garnelen\" already names recipe akari:recipe:pad-thai:v1"
+  },
+  {
+   "key": "pancake syrup",
+   "batch": 20,
+   "reason": "a single food (a syrup)"
+  },
+  {
+   "key": "pizza with meat and fruit",
+   "batch": 20,
+   "reason": "duplicate of the existing Pizza Hawaii recipe"
+  },
+  {
+   "key": "potato pancake",
+   "batch": 20,
+   "reason": "duplicate of 'potato pancakes' in another batch"
+  },
+  {
+   "key": "quesadilla",
+   "batch": 20,
+   "reason": "not further specified; duplicate of 'cheese quesadilla' and 'chicken quesadilla' in another batch"
+  },
+  {
+   "key": "quiche with meat",
+   "batch": 20,
+   "reason": "duplicate of 'quiche lorraine' in another batch"
+  },
+  {
+   "key": "ramen bowl",
+   "batch": 20,
+   "reason": "not further specified; duplicate of the existing Ramen recipe"
+  },
+  {
+   "key": "ravioli",
+   "batch": 20,
+   "reason": "duplicate of 'fresh egg pasta ravioli filled with beef mince' in another batch"
+  },
+  {
+   "key": "rice croquette",
+   "batch": 20,
+   "reason": "duplicate: \"reiskroketten\" already names recipe akari:recipe:rice-croquettes-with-parmesan:v1"
+  },
+  {
+   "key": "samosa",
+   "batch": 20,
+   "reason": "duplicate of 'vegetable samosas' in another batch"
+  },
+  {
+   "key": "spaghetti sauce",
+   "batch": 20,
+   "reason": "a sauce on its own"
+  },
+  {
+   "key": "spaghetti sauce with added vegetables",
+   "batch": 20,
+   "reason": "a sauce on its own"
+  },
+  {
+   "key": "spaghetti squash",
+   "batch": 20,
+   "reason": "a single food (cooked spaghetti squash)"
+  },
+  {
+   "key": "spinach and cheese casserole",
+   "batch": 20,
+   "reason": "duplicate of 'spinach casserole with cheese' in another batch"
+  },
+  {
+   "key": "stewed potatoes with tomatoes",
+   "batch": 20,
+   "reason": "duplicate: \"stewed potatoes with tomatoes\" already names recipe akari:recipe:tomato-potatoes:v1"
+  },
+  {
+   "key": "sushi",
+   "batch": 20,
+   "reason": "not further specified; the specific sushi (nigiri, maki, California roll) are separate recipes"
+  },
+  {
+   "key": "sushi roll tuna",
+   "batch": 20,
+   "reason": "duplicate of the existing Tuna maki recipe"
+  },
+  {
+   "key": "sweet and sour sauce",
+   "batch": 20,
+   "reason": "a sauce on its own"
+  },
+  {
+   "key": "taco",
+   "batch": 20,
+   "reason": "not further specified; duplicate of the specific tacos ('beef tacos', 'chicken tacos', ...) in another batch"
+  },
+  {
+   "key": "taco sauce",
+   "batch": 20,
+   "reason": "a sauce on its own"
+  },
+  {
+   "key": "vegetable sandwich wrap",
+   "batch": 20,
+   "reason": "duplicate of the vegetable and cheese wrap candidate in another batch ('wrap vegetarien fromage crudites')"
+  }
+ ]
+}

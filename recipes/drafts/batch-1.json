@@ -1,0 +1,8849 @@
+{
+ "batch": 1,
+ "drafted": "2026-10-01",
+ "drafter": "Claude in the Akari Claude Code session",
+ "dishes": [
+  {
+   "key": "spaghetti carbonara",
+   "names": {
+    "en": "Spaghetti carbonara",
+    "de": "Spaghetti Carbonara"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "pasta",
+   "aliases": {
+    "en": [
+     "carbonara",
+     "pasta carbonara",
+     "spagetti carbonara",
+     "spaghetti alla carbonara",
+     "spaghetti carbonera"
+    ],
+    "de": [
+     "carbonara",
+     "nudeln carbonara",
+     "spaghetti alla carbonara",
+     "spagetti carbonara",
+     "pasta carbonara"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked spaghetti",
+     "grams": 220,
+     "resolved": {
+      "id": "bls:E401032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked bacon",
+     "grams": 40,
+     "resolved": {
+      "id": "usda:2705889",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 50,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg yolk",
+     "grams": 17,
+     "resolved": {
+      "id": "usda:2707172",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "pecorino",
+     "grams": 15,
+     "resolved": {
+      "id": "ciqual:12122",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "parmesan",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:M306400",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "currywurst",
+   "names": {
+    "en": "Currywurst",
+    "de": "Currywurst"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "meat",
+   "aliases": {
+    "en": [
+     "curry wurst",
+     "currywurst with sauce",
+     "berlin currywurst",
+     "currywurst sausage with curry ketchup"
+    ],
+    "de": [
+     "curry wurst",
+     "currywurst mit soße",
+     "currywurst mit sauce",
+     "berliner currywurst",
+     "currywurst ohne darm"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "curry sausage",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:W221300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "curry ketchup",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:R141200",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "curry powder",
+     "grams": 2,
+     "resolved": {
+      "id": "ciqual:11005",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "spaghetti aglio e olio",
+   "names": {
+    "en": "Spaghetti aglio e olio",
+    "de": "Spaghetti Aglio e Olio"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "pasta",
+   "aliases": {
+    "en": [
+     "aglio e olio",
+     "aglio olio",
+     "spaghetti aglio olio",
+     "pasta aglio e olio",
+     "aglio olio e peperoncino",
+     "spagetti aglio e olio"
+    ],
+    "de": [
+     "aglio e olio",
+     "aglio olio",
+     "spaghetti aglio olio",
+     "spaghetti aglio olio e peperoncino",
+     "nudeln mit knoblauch und öl",
+     "spagetti aglio olio"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked spaghetti",
+     "grams": 250,
+     "resolved": {
+      "id": "bls:E401032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "olive oil",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:Q120000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "garlic",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:G490100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "red chili",
+     "grams": 3,
+     "resolved": {
+      "id": "bls:G554100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "parsley",
+     "grams": 5,
+     "resolved": {
+      "id": "usda:2709796",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "spaghetti alle vongole",
+   "names": {
+    "en": "Spaghetti alle vongole",
+    "de": "Spaghetti alle Vongole"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "pasta",
+   "aliases": {
+    "en": [
+     "spaghetti vongole",
+     "spaghetti with clams",
+     "clam spaghetti",
+     "pasta alle vongole",
+     "linguine alle vongole",
+     "spagetti vongole"
+    ],
+    "de": [
+     "spaghetti vongole",
+     "spaghetti mit venusmuscheln",
+     "spaghetti mit muscheln",
+     "pasta vongole",
+     "linguine alle vongole",
+     "spagetti vongole"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked spaghetti",
+     "grams": 220,
+     "resolved": {
+      "id": "bls:E401032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "venus clam, boiled",
+     "grams": 80,
+     "reference": "bls:T797132"
+    },
+    {
+     "name": "olive oil",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:Q120000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "white wine",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2710689",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "garlic",
+     "grams": 6,
+     "resolved": {
+      "id": "bls:G490100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "parsley",
+     "grams": 5,
+     "resolved": {
+      "id": "usda:2709796",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "red chili",
+     "grams": 2,
+     "resolved": {
+      "id": "bls:G554100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "spaghetti puttanesca",
+   "names": {
+    "en": "Spaghetti puttanesca",
+    "de": "Spaghetti Puttanesca"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "pasta",
+   "aliases": {
+    "en": [
+     "puttanesca",
+     "pasta puttanesca",
+     "spaghetti alla puttanesca",
+     "spagetti puttanesca",
+     "puttanesca pasta"
+    ],
+    "de": [
+     "puttanesca",
+     "pasta puttanesca",
+     "spaghetti alla puttanesca",
+     "nudeln puttanesca",
+     "spagetti puttanesca"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked spaghetti",
+     "grams": 220,
+     "resolved": {
+      "id": "bls:E401032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "canned tomatoes",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:G568900",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "black olives",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2710090",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "olive oil",
+     "grams": 12,
+     "resolved": {
+      "id": "bls:Q120000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "capers",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:G012902",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "anchovies in oil",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:T104702",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "garlic",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:G490100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "red chili",
+     "grams": 2,
+     "resolved": {
+      "id": "bls:G554100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "parsley",
+     "grams": 3,
+     "resolved": {
+      "id": "usda:2709796",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "penne arrabbiata",
+   "names": {
+    "en": "Penne arrabbiata",
+    "de": "Penne all'Arrabbiata"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "pasta",
+   "aliases": {
+    "en": [
+     "arrabbiata",
+     "penne all'arrabbiata",
+     "pasta arrabbiata",
+     "penne arrabiata",
+     "arrabiata",
+     "penne arabiata"
+    ],
+    "de": [
+     "arrabbiata",
+     "penne arrabbiata",
+     "penne arrabiata",
+     "nudeln arrabbiata",
+     "pasta arrabbiata",
+     "arrabiata"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked penne",
+     "grams": 220,
+     "resolved": {
+      "id": "bls:E401032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "canned tomatoes",
+     "grams": 130,
+     "resolved": {
+      "id": "bls:G568900",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "olive oil",
+     "grams": 12,
+     "resolved": {
+      "id": "bls:Q120000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "garlic",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:G490100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "red chili",
+     "grams": 3,
+     "resolved": {
+      "id": "bls:G554100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "parsley",
+     "grams": 3,
+     "resolved": {
+      "id": "usda:2709796",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "pasta alla norma",
+   "names": {
+    "en": "Pasta alla Norma",
+    "de": "Pasta alla Norma"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "pasta",
+   "aliases": {
+    "en": [
+     "pasta norma",
+     "rigatoni alla norma",
+     "maccheroni alla norma",
+     "penne alla norma",
+     "pasta with aubergine and ricotta salata"
+    ],
+    "de": [
+     "pasta norma",
+     "nudeln alla norma",
+     "rigatoni alla norma",
+     "penne alla norma",
+     "pasta mit auberginen und ricotta"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked spaghetti",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:E401032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked aubergine",
+     "grams": 130,
+     "resolved": {
+      "id": "ciqual:20002",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "olive oil",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:Q120000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "canned tomatoes",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:G568900",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "garlic",
+     "grams": 4,
+     "resolved": {
+      "id": "bls:G490100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "basil",
+     "grams": 3,
+     "resolved": {
+      "id": "bls:G061000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "cacio e pepe",
+   "names": {
+    "en": "Cacio e pepe",
+    "de": "Cacio e Pepe"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "pasta",
+   "aliases": {
+    "en": [
+     "cacio pepe",
+     "spaghetti cacio e pepe",
+     "pasta cacio e pepe",
+     "tonnarelli cacio e pepe",
+     "cacio e pepe pasta"
+    ],
+    "de": [
+     "cacio pepe",
+     "spaghetti cacio e pepe",
+     "pasta cacio e pepe",
+     "nudeln cacio e pepe",
+     "tonnarelli cacio e pepe"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked spaghetti",
+     "grams": 220,
+     "resolved": {
+      "id": "bls:E401032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "pecorino",
+     "grams": 40,
+     "resolved": {
+      "id": "ciqual:12122",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "black pepper",
+     "grams": 2,
+     "resolved": {
+      "id": "bls:R258100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "fettuccine alfredo",
+   "names": {
+    "en": "Fettuccine Alfredo",
+    "de": "Fettuccine Alfredo"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "pasta",
+   "aliases": {
+    "en": [
+     "pasta alfredo",
+     "fettucine alfredo",
+     "fettuccini alfredo",
+     "fettuccine al burro",
+     "alfredo pasta"
+    ],
+    "de": [
+     "fettucine alfredo",
+     "pasta alfredo",
+     "nudeln alfredo",
+     "bandnudeln alfredo",
+     "fettuccine in parmesansauce"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked egg noodles",
+     "grams": 220,
+     "resolved": {
+      "id": "bls:E432032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "heavy cream",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:M173800",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "parmesan",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:M306400",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "pasta with pesto",
+   "names": {
+    "en": "Pasta with pesto",
+    "de": "Pasta mit Pesto"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "pasta",
+   "aliases": {
+    "en": [
+     "pesto pasta",
+     "pasta pesto",
+     "spaghetti with pesto",
+     "pasta al pesto",
+     "pesto spaghetti",
+     "trofie al pesto"
+    ],
+    "de": [
+     "nudeln mit pesto",
+     "pesto nudeln",
+     "pasta pesto",
+     "spaghetti mit pesto",
+     "pestonudeln",
+     "pasta al pesto"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked spaghetti",
+     "grams": 220,
+     "resolved": {
+      "id": "bls:E401032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "pesto",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:X372012",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "parmesan",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:M306400",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "tagliatelle with salmon",
+   "names": {
+    "en": "Tagliatelle with salmon",
+    "de": "Tagliatelle mit Lachs"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "pasta",
+   "aliases": {
+    "en": [
+     "salmon tagliatelle",
+     "salmon pasta",
+     "pasta with salmon",
+     "tagliatelle al salmone",
+     "creamy salmon pasta"
+    ],
+    "de": [
+     "lachs tagliatelle",
+     "lachsnudeln",
+     "nudeln mit lachs",
+     "pasta mit lachs",
+     "tagliatelle lachs sahne",
+     "bandnudeln mit lachs"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked egg noodles",
+     "grams": 220,
+     "resolved": {
+      "id": "bls:E432032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked salmon",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:T410072",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "heavy cream",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:M173800",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "shallot",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G485100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "parmesan",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:M306400",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lemon juice",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:F601600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "dill",
+     "grams": 2,
+     "resolved": {
+      "id": "ciqual:11093",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "lasagne",
+   "names": {
+    "en": "Lasagne",
+    "de": "Lasagne"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "pasta",
+   "aliases": {
+    "en": [
+     "lasagna",
+     "beef lasagne",
+     "lasagne bolognese",
+     "lasagne al forno",
+     "lasagna bolognese",
+     "lasange"
+    ],
+    "de": [
+     "lasagne bolognese",
+     "lasagne al forno",
+     "lasagna",
+     "fleischlasagne",
+     "hackfleischlasagne",
+     "lasange"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "lasagne sheets, cooked",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:E401032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "bolognese sauce",
+     "grams": 180,
+     "reference": "bls:Y038213"
+    },
+    {
+     "name": "béchamel",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:X320243",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "mozzarella",
+     "grams": 25,
+     "resolved": {
+      "id": "usda:2705722",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "parmesan",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:M306400",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "vegetable lasagne",
+   "names": {
+    "en": "Vegetable lasagne",
+    "de": "Gemüselasagne"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "pasta",
+   "aliases": {
+    "en": [
+     "veggie lasagne",
+     "vegetarian lasagne",
+     "vegetable lasagna",
+     "veggie lasagna",
+     "vegetarian lasagna",
+     "lasagne with vegetables"
+    ],
+    "de": [
+     "vegetarische lasagne",
+     "gemüse lasagne",
+     "veggie lasagne",
+     "lasagne mit gemüse",
+     "gemuselasagne",
+     "gemüselasange"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "lasagne sheets, cooked",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:E401032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "zucchini",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:G582100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "red bell pepper",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G543100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked spinach",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:G210132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "carrot",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "canned tomatoes",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:G568900",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "béchamel",
+     "grams": 90,
+     "resolved": {
+      "id": "bls:X320243",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "mozzarella",
+     "grams": 25,
+     "resolved": {
+      "id": "usda:2705722",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "parmesan",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:M306400",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "olive oil",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:Q120000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "spinach and ricotta cannelloni",
+   "names": {
+    "en": "Spinach and ricotta cannelloni",
+    "de": "Cannelloni mit Ricotta und Spinat"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "pasta",
+   "aliases": {
+    "en": [
+     "spinach ricotta cannelloni",
+     "ricotta and spinach cannelloni",
+     "cannelloni ricotta e spinaci",
+     "spinach cannelloni",
+     "spinach and ricotta canneloni"
+    ],
+    "de": [
+     "cannelloni ricotta spinat",
+     "cannelloni mit spinat",
+     "spinat ricotta cannelloni",
+     "cannelloni mit spinat und ricotta",
+     "canneloni ricotta spinat"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked spaghetti",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:E401032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "ricotta",
+     "grams": 90,
+     "resolved": {
+      "id": "cofid:12-176",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked spinach",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:G210132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato sauce",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:X331353",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "béchamel",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:X320243",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "mozzarella",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2705722",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "parmesan",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:M306400",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "tortellini alla panna",
+   "names": {
+    "en": "Tortellini alla panna",
+    "de": "Tortellini alla Panna"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "pasta",
+   "aliases": {
+    "en": [
+     "tortellini panna",
+     "tortellini in cream sauce",
+     "tortellini with cream and ham",
+     "tortellini panna e prosciutto",
+     "creamy tortellini"
+    ],
+    "de": [
+     "tortellini sahnesoße",
+     "tortellini in sahnesauce",
+     "tortellini schinken sahne",
+     "tortellini mit schinken-sahne-soße",
+     "tortellini panna"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "tortellini with meat filling, cooked",
+     "grams": 220,
+     "reference": "bls:E609232"
+    },
+    {
+     "name": "heavy cream",
+     "grams": 70,
+     "resolved": {
+      "id": "bls:M173800",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked ham",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:W424000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "green peas",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G760132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "parmesan",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:M306400",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "gnocchi alla sorrentina",
+   "names": {
+    "en": "Gnocchi alla sorrentina",
+    "de": "Gnocchi alla Sorrentina"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "pasta",
+   "aliases": {
+    "en": [
+     "gnocchi sorrentina",
+     "gnocchi with tomato and mozzarella",
+     "baked gnocchi sorrentina",
+     "gnocchi sorrentino"
+    ],
+    "de": [
+     "gnocchi sorrentina",
+     "gnocchi mit tomate und mozzarella",
+     "überbackene gnocchi mit tomaten",
+     "gnocchi tomate mozzarella",
+     "gnocchi sorrentino"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked gnocchi",
+     "grams": 280,
+     "resolved": {
+      "id": "bls:K270032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato sauce",
+     "grams": 130,
+     "resolved": {
+      "id": "bls:X331353",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "fresh mozzarella",
+     "grams": 70,
+     "resolved": {
+      "id": "ciqual:19590",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "parmesan",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:M306400",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "basil",
+     "grams": 3,
+     "resolved": {
+      "id": "bls:G061000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "mushroom risotto",
+   "names": {
+    "en": "Mushroom risotto",
+    "de": "Pilzrisotto"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "rice",
+   "aliases": {
+    "en": [
+     "risotto ai funghi",
+     "risotto with mushrooms",
+     "porcini risotto",
+     "risotto funghi",
+     "mushroom risoto"
+    ],
+    "de": [
+     "risotto mit pilzen",
+     "risotto ai funghi",
+     "champignonrisotto",
+     "pilz risotto",
+     "steinpilzrisotto",
+     "risotto funghi"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked white rice",
+     "grams": 230,
+     "resolved": {
+      "id": "bls:C352032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked mushrooms",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:K701172",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable stock",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:X416243",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "white wine",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2710689",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "parmesan",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:M306400",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "olive oil",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:Q120000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "pizza salami",
+   "names": {
+    "en": "Pizza salami",
+    "de": "Pizza Salami"
+   },
+   "serving": {
+    "label": {
+     "en": "1 pizza",
+     "de": "1 Pizza"
+    },
+    "count": 1
+   },
+   "artworkID": "pizza",
+   "aliases": {
+    "en": [
+     "salami pizza",
+     "pizza with salami",
+     "pizza salame",
+     "pizza salamie"
+    ],
+    "de": [
+     "salamipizza",
+     "pizza mit salami",
+     "salami pizza",
+     "pizza salame"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "pizza dough",
+     "grams": 230,
+     "resolved": {
+      "id": "bls:X9A6030",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "passata",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:R161200",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "mozzarella",
+     "grams": 100,
+     "resolved": {
+      "id": "usda:2705722",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "salami",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:W140000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "olive oil",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:Q120000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "pizza funghi",
+   "names": {
+    "en": "Pizza funghi",
+    "de": "Pizza Funghi"
+   },
+   "serving": {
+    "label": {
+     "en": "1 pizza",
+     "de": "1 Pizza"
+    },
+    "count": 1
+   },
+   "artworkID": "pizza",
+   "aliases": {
+    "en": [
+     "mushroom pizza",
+     "pizza with mushrooms",
+     "pizza fungi",
+     "pizza funghi e mozzarella"
+    ],
+    "de": [
+     "pilzpizza",
+     "champignonpizza",
+     "pizza mit pilzen",
+     "pizza mit champignons",
+     "pizza fungi"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "pizza dough",
+     "grams": 230,
+     "resolved": {
+      "id": "bls:X9A6030",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "passata",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:R161200",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "mozzarella",
+     "grams": 100,
+     "resolved": {
+      "id": "usda:2705722",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "mushrooms",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:K701100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "olive oil",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:Q120000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "pizza hawaii",
+   "names": {
+    "en": "Pizza Hawaii",
+    "de": "Pizza Hawaii"
+   },
+   "serving": {
+    "label": {
+     "en": "1 pizza",
+     "de": "1 Pizza"
+    },
+    "count": 1
+   },
+   "artworkID": "pizza",
+   "aliases": {
+    "en": [
+     "hawaiian pizza",
+     "pizza hawaiian",
+     "ham and pineapple pizza",
+     "pizza hawai",
+     "hawaii pizza"
+    ],
+    "de": [
+     "hawaiipizza",
+     "pizza hawai",
+     "pizza mit schinken und ananas",
+     "schinken ananas pizza",
+     "hawaii pizza"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "pizza dough",
+     "grams": 230,
+     "resolved": {
+      "id": "bls:X9A6030",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "passata",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:R161200",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "mozzarella",
+     "grams": 100,
+     "resolved": {
+      "id": "usda:2705722",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked ham",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:W424000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "pineapple",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:F501100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "pizza quattro formaggi",
+   "names": {
+    "en": "Pizza quattro formaggi",
+    "de": "Pizza Quattro Formaggi"
+   },
+   "serving": {
+    "label": {
+     "en": "1 pizza",
+     "de": "1 Pizza"
+    },
+    "count": 1
+   },
+   "artworkID": "pizza",
+   "aliases": {
+    "en": [
+     "four cheese pizza",
+     "pizza 4 formaggi",
+     "pizza quattro fromaggi",
+     "4 cheese pizza",
+     "quattro formaggi pizza"
+    ],
+    "de": [
+     "vier käse pizza",
+     "pizza 4 käse",
+     "pizza quattro fromaggi",
+     "pizza vier käse",
+     "pizza 4 formaggi"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "pizza dough",
+     "grams": 230,
+     "resolved": {
+      "id": "bls:X9A6030",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "passata",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:R161200",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "mozzarella",
+     "grams": 80,
+     "resolved": {
+      "id": "usda:2705722",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "fontina",
+     "grams": 30,
+     "reference": "bls:M406700"
+    },
+    {
+     "name": "blue cheese",
+     "grams": 30,
+     "resolved": {
+      "id": "usda:2705705",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "parmesan",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:M306400",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "olive oil",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:Q120000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "pizza tonno",
+   "names": {
+    "en": "Pizza tonno",
+    "de": "Pizza Tonno"
+   },
+   "serving": {
+    "label": {
+     "en": "1 pizza",
+     "de": "1 Pizza"
+    },
+    "count": 1
+   },
+   "artworkID": "pizza",
+   "aliases": {
+    "en": [
+     "tuna pizza",
+     "pizza with tuna",
+     "pizza tuna",
+     "pizza tonno e cipolla",
+     "tuna and onion pizza"
+    ],
+    "de": [
+     "thunfischpizza",
+     "pizza thunfisch",
+     "pizza mit thunfisch",
+     "pizza tonno zwiebel",
+     "thunfisch pizza"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "pizza dough",
+     "grams": 230,
+     "resolved": {
+      "id": "bls:X9A6030",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "passata",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:R161200",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "mozzarella",
+     "grams": 100,
+     "resolved": {
+      "id": "usda:2705722",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "canned tuna",
+     "grams": 70,
+     "resolved": {
+      "id": "usda:2706311",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "pizza diavola",
+   "names": {
+    "en": "Pizza diavola",
+    "de": "Pizza Diavolo"
+   },
+   "serving": {
+    "label": {
+     "en": "1 pizza",
+     "de": "1 Pizza"
+    },
+    "count": 1
+   },
+   "artworkID": "pizza",
+   "aliases": {
+    "en": [
+     "pizza diavolo",
+     "spicy salami pizza",
+     "diavola pizza",
+     "pizza diabolo",
+     "hot salami pizza"
+    ],
+    "de": [
+     "pizza diavola",
+     "pizza diabolo",
+     "pizza mit scharfer salami",
+     "diavolo pizza",
+     "pizza diavolo scharf"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "pizza dough",
+     "grams": 230,
+     "resolved": {
+      "id": "bls:X9A6030",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "passata",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:R161200",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "mozzarella",
+     "grams": 100,
+     "resolved": {
+      "id": "usda:2705722",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "salami",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:W140000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "red chili",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:G554100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "olive oil",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:Q120000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "calzone",
+   "names": {
+    "en": "Calzone",
+    "de": "Calzone"
+   },
+   "serving": {
+    "label": {
+     "en": "1 pizza",
+     "de": "1 Pizza"
+    },
+    "count": 1
+   },
+   "artworkID": "pizza",
+   "aliases": {
+    "en": [
+     "calzone pizza",
+     "folded pizza",
+     "pizza calzone",
+     "calzone with ham",
+     "calzone ham and cheese"
+    ],
+    "de": [
+     "pizza calzone",
+     "calzone pizza",
+     "gefüllte pizza",
+     "calzone mit schinken",
+     "calzone schinken salami"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "pizza dough",
+     "grams": 250,
+     "resolved": {
+      "id": "bls:X9A6030",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "passata",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:R161200",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "mozzarella",
+     "grams": 90,
+     "resolved": {
+      "id": "usda:2705722",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked ham",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:W424000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "salami",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:W140000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "mushrooms",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:K701100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "olive oil",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:Q120000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "minestrone",
+   "names": {
+    "en": "Minestrone",
+    "de": "Minestrone"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "soup",
+   "aliases": {
+    "en": [
+     "minestrone soup",
+     "italian vegetable soup",
+     "minestrone with pasta",
+     "minestroni",
+     "minestrone alla genovese"
+    ],
+    "de": [
+     "minestrone suppe",
+     "italienische gemüsesuppe",
+     "minestrone mit nudeln",
+     "minestronesuppe",
+     "minestroni"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "vegetable stock",
+     "grams": 180,
+     "resolved": {
+      "id": "bls:X416243",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "canned tomatoes",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:G568900",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "zucchini",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G582100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "boiled potatoes",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "white beans",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:H740132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked spaghetti",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:E401032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "carrot",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "celery",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G220100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "olive oil",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:Q120000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "parmesan",
+     "grams": 6,
+     "resolved": {
+      "id": "bls:M306400",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "vitello tonnato",
+   "names": {
+    "en": "Vitello tonnato",
+    "de": "Vitello Tonnato"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "meat",
+   "aliases": {
+    "en": [
+     "vitel tonné",
+     "veal with tuna sauce",
+     "vitello tonato",
+     "cold veal with tuna sauce",
+     "vitel tonne"
+    ],
+    "de": [
+     "kalbfleisch mit thunfischsauce",
+     "vitello tonato",
+     "vitel tonné",
+     "kalb mit thunfischsoße",
+     "vitel tonne"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "veal, roasted",
+     "grams": 120,
+     "reference": "bls:U482162"
+    },
+    {
+     "name": "canned tuna in oil",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:T121702",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "mayonnaise",
+     "grams": 30,
+     "resolved": {
+      "id": "usda:2710204",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "capers",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:G012902",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lemon juice",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:F601600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "anchovies in oil",
+     "grams": 4,
+     "resolved": {
+      "id": "bls:T104702",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "saltimbocca alla romana",
+   "names": {
+    "en": "Saltimbocca alla romana",
+    "de": "Saltimbocca alla Romana"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "meat",
+   "aliases": {
+    "en": [
+     "saltimbocca",
+     "veal saltimbocca",
+     "veal with prosciutto and sage",
+     "saltimboca",
+     "saltimbocca romana"
+    ],
+    "de": [
+     "saltimbocca",
+     "kalbsschnitzel mit parmaschinken und salbei",
+     "saltimboca",
+     "saltimbocca vom kalb",
+     "saltimbocca romana"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "veal escalope, pan-fried",
+     "grams": 150,
+     "reference": "bls:U342182"
+    },
+    {
+     "name": "prosciutto",
+     "grams": 30,
+     "resolved": {
+      "id": "usda:2705879",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "white wine",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2710689",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "wheat flour",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "chicken parmigiana",
+   "names": {
+    "en": "Chicken parmigiana",
+    "de": "Hähnchen Parmigiana"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "poultry",
+   "aliases": {
+    "en": [
+     "chicken parmesan",
+     "chicken parm",
+     "chicken parmigiano",
+     "pollo alla parmigiana",
+     "chicken parmi"
+    ],
+    "de": [
+     "chicken parmigiana",
+     "chicken parmesan",
+     "pollo alla parmigiana",
+     "hühnchen parmigiana",
+     "hähnchenschnitzel mit tomate und mozzarella"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "breaded chicken breast",
+     "grams": 180,
+     "resolved": {
+      "id": "bls:Y591112",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato sauce",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:X331353",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "mozzarella",
+     "grams": 40,
+     "resolved": {
+      "id": "usda:2705722",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "parmesan",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:M306400",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "eggplant parmigiana",
+   "names": {
+    "en": "Eggplant parmigiana",
+    "de": "Parmigiana di Melanzane"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "eggplant",
+   "aliases": {
+    "en": [
+     "parmigiana di melanzane",
+     "aubergine parmigiana",
+     "eggplant parmesan",
+     "eggplant parm",
+     "melanzane alla parmigiana",
+     "aubergine parmesan"
+    ],
+    "de": [
+     "auberginen parmigiana",
+     "melanzane alla parmigiana",
+     "überbackene auberginen",
+     "auberginenauflauf italienisch",
+     "parmigiana di melanzane al forno"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked aubergine",
+     "grams": 220,
+     "resolved": {
+      "id": "ciqual:20002",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato sauce",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:X331353",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "fresh mozzarella",
+     "grams": 60,
+     "resolved": {
+      "id": "ciqual:19590",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "olive oil",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:Q120000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "parmesan",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:M306400",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "basil",
+     "grams": 2,
+     "resolved": {
+      "id": "bls:G061000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "caprese salad",
+   "names": {
+    "en": "Caprese salad",
+    "de": "Tomate Mozzarella"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "salad",
+   "aliases": {
+    "en": [
+     "insalata caprese",
+     "tomato mozzarella salad",
+     "tomato and mozzarella",
+     "caprese",
+     "mozzarella tomato salad"
+    ],
+    "de": [
+     "insalata caprese",
+     "caprese",
+     "tomaten mozzarella",
+     "tomaten mit mozzarella",
+     "tomate mozarella",
+     "mozzarella tomate",
+     "caprese salat"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "tomato",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:G561100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "fresh mozzarella",
+     "grams": 125,
+     "resolved": {
+      "id": "ciqual:19590",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "olive oil",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:Q120000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "basil",
+     "grams": 3,
+     "resolved": {
+      "id": "bls:G061000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "bruschetta",
+   "names": {
+    "en": "Bruschetta",
+    "de": "Bruschetta"
+   },
+   "serving": {
+    "label": {
+     "en": "3 pieces",
+     "de": "3 Stück"
+    },
+    "count": 3
+   },
+   "artworkID": "baguette",
+   "aliases": {
+    "en": [
+     "bruschetta al pomodoro",
+     "tomato bruschetta",
+     "bruscetta",
+     "brushetta",
+     "bruschetta with tomato"
+    ],
+    "de": [
+     "bruschetta mit tomaten",
+     "tomaten bruschetta",
+     "bruscetta",
+     "brushetta",
+     "geröstetes brot mit tomaten"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "baguette",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:B781200",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:G561100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "olive oil",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:Q120000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "garlic",
+     "grams": 3,
+     "resolved": {
+      "id": "bls:G490100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "basil",
+     "grams": 2,
+     "resolved": {
+      "id": "bls:G061000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "ramen",
+   "names": {
+    "en": "Ramen",
+    "de": "Ramen"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "noodles",
+   "aliases": {
+    "en": [
+     "shoyu ramen",
+     "ramen noodle soup",
+     "ramen soup",
+     "ramen bowl",
+     "chicken shoyu ramen"
+    ],
+    "de": [
+     "ramen nudelsuppe",
+     "shoyu ramen",
+     "ramensuppe",
+     "japanische nudelsuppe",
+     "ramen schüssel"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked ramen noodles",
+     "grams": 200,
+     "resolved": {
+      "id": "mext:01048",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "chicken stock",
+     "grams": 300,
+     "resolved": {
+      "id": "bls:X411243",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "soy sauce",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:R143000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked pork belly",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:U57A172",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "boiled egg",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:E111132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "bamboo shoots",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:H610902",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "spring onion",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:G482100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "nori",
+     "grams": 2,
+     "resolved": {
+      "id": "bls:G995000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "tonkotsu ramen",
+   "names": {
+    "en": "Tonkotsu ramen",
+    "de": "Tonkotsu-Ramen"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "noodles",
+   "aliases": {
+    "en": [
+     "tonkotsu",
+     "tonkatsu ramen",
+     "pork bone ramen",
+     "hakata ramen",
+     "tonkotzu ramen"
+    ],
+    "de": [
+     "tonkotsu",
+     "tonkotsu ramen",
+     "schweineknochen ramen",
+     "hakata ramen",
+     "tonkatsu ramen"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked ramen noodles",
+     "grams": 200,
+     "resolved": {
+      "id": "mext:01048",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "broth",
+     "grams": 300,
+     "resolved": {
+      "id": "usda:2707132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lard",
+     "grams": 12,
+     "reference": "mext:14016"
+    },
+    {
+     "name": "soy sauce",
+     "grams": 12,
+     "resolved": {
+      "id": "bls:R143000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked pork belly",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:U57A172",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "boiled egg",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:E111132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "spring onion",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:G482100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sesame seeds",
+     "grams": 2,
+     "resolved": {
+      "id": "usda:2707586",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "nori",
+     "grams": 2,
+     "resolved": {
+      "id": "bls:G995000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "miso ramen",
+   "names": {
+    "en": "Miso ramen",
+    "de": "Miso-Ramen"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "noodles",
+   "aliases": {
+    "en": [
+     "miso ramen soup",
+     "sapporo ramen",
+     "miso noodle soup",
+     "ramen with miso",
+     "miso ramen bowl"
+    ],
+    "de": [
+     "miso ramen",
+     "misoramen",
+     "miso nudelsuppe",
+     "sapporo ramen",
+     "ramen mit miso"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked ramen noodles",
+     "grams": 200,
+     "resolved": {
+      "id": "mext:01048",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "chicken stock",
+     "grams": 280,
+     "resolved": {
+      "id": "bls:X411243",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "miso",
+     "grams": 25,
+     "resolved": {
+      "id": "ciqual:20916",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked ground pork",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:U020182",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "bean sprouts",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:H650100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sweetcorn",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G570100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "boiled egg",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:E111132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "spring onion",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:G482100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "tempura udon",
+   "names": {
+    "en": "Tempura udon",
+    "de": "Tempura-Udon"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "noodles",
+   "aliases": {
+    "en": [
+     "tempura udon soup",
+     "udon with tempura",
+     "ebi tempura udon",
+     "shrimp tempura udon",
+     "tenpura udon"
+    ],
+    "de": [
+     "tempura udon",
+     "udon mit tempura",
+     "udonsuppe mit tempura",
+     "udon mit garnelen tempura",
+     "tenpura udon"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked udon",
+     "grams": 250,
+     "resolved": {
+      "id": "mext:01039",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "dashi",
+     "grams": 300,
+     "resolved": {
+      "id": "mext:17021",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "soy sauce",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:R143000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "mirin",
+     "grams": 10,
+     "resolved": {
+      "id": "mext:17054",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked shrimp",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:T753132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tempura batter, fried",
+     "grams": 25,
+     "reference": "mext:01172"
+    },
+    {
+     "name": "spring onion",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:G482100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "yaki udon",
+   "names": {
+    "en": "Yaki udon",
+    "de": "Yaki Udon"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "noodles",
+   "aliases": {
+    "en": [
+     "fried udon",
+     "stir-fried udon",
+     "yakiudon",
+     "udon stir fry",
+     "stir fried udon noodles"
+    ],
+    "de": [
+     "gebratene udon",
+     "gebratene udon nudeln",
+     "yakiudon",
+     "udon gebraten",
+     "udon pfanne"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked udon",
+     "grams": 250,
+     "resolved": {
+      "id": "mext:01039",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked pork belly",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:U57A172",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "white cabbage",
+     "grams": 70,
+     "resolved": {
+      "id": "bls:G342100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "carrot",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "soy sauce",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:R143000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "oyster sauce",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2707150",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "spring onion",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:G482100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "yakisoba",
+   "names": {
+    "en": "Yakisoba",
+    "de": "Yakisoba"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "noodles",
+   "aliases": {
+    "en": [
+     "yaki soba",
+     "japanese fried noodles",
+     "yakisoba noodles",
+     "yakisoba with pork",
+     "yakisoba stir fry"
+    ],
+    "de": [
+     "yaki soba",
+     "japanische gebratene nudeln",
+     "yakisoba nudeln",
+     "yakisoba mit schweinefleisch",
+     "gebratene yakisoba"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked ramen noodles",
+     "grams": 200,
+     "resolved": {
+      "id": "mext:01048",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "white cabbage",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:G342100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked pork belly",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:U57A172",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "carrot",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "chuno sauce",
+     "grams": 25,
+     "reference": "mext:17002"
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "pickled ginger",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:R912000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "zaru soba",
+   "names": {
+    "en": "Zaru soba",
+    "de": "Zaru Soba"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "noodles",
+   "aliases": {
+    "en": [
+     "cold soba",
+     "zarusoba",
+     "mori soba",
+     "cold buckwheat noodles",
+     "soba with dipping sauce"
+    ],
+    "de": [
+     "kalte soba",
+     "zarusoba",
+     "kalte buchweizennudeln",
+     "soba mit dip",
+     "mori soba"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked soba",
+     "grams": 250,
+     "resolved": {
+      "id": "mext:01128",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "dashi",
+     "grams": 40,
+     "resolved": {
+      "id": "mext:17021",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "soy sauce",
+     "grams": 12,
+     "resolved": {
+      "id": "bls:R143000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "mirin",
+     "grams": 12,
+     "resolved": {
+      "id": "mext:17054",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "spring onion",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:G482100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "wasabi",
+     "grams": 2,
+     "resolved": {
+      "id": "bls:G693100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "nori",
+     "grams": 1,
+     "resolved": {
+      "id": "bls:G995000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "chicken teriyaki",
+   "names": {
+    "en": "Chicken teriyaki",
+    "de": "Teriyaki-Hähnchen"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "poultry",
+   "aliases": {
+    "en": [
+     "teriyaki chicken",
+     "teriyaki chicken thighs",
+     "tori teriyaki",
+     "chiken teriyaki",
+     "chicken teriaki"
+    ],
+    "de": [
+     "chicken teriyaki",
+     "hähnchen teriyaki",
+     "teriyaki huhn",
+     "hühnchen teriyaki",
+     "teriyaki hühnchen"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked chicken thigh",
+     "grams": 180,
+     "resolved": {
+      "id": "usda:2706044",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "teriyaki sauce",
+     "grams": 30,
+     "resolved": {
+      "id": "usda:2707445",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 5,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "spring onion",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:G482100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sesame seeds",
+     "grams": 2,
+     "resolved": {
+      "id": "usda:2707586",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "salmon teriyaki",
+   "names": {
+    "en": "Salmon teriyaki",
+    "de": "Teriyaki-Lachs"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "fish",
+   "aliases": {
+    "en": [
+     "teriyaki salmon",
+     "salmon with teriyaki sauce",
+     "sake teriyaki",
+     "teriyaki salmon fillet",
+     "salmon teriaki"
+    ],
+    "de": [
+     "lachs teriyaki",
+     "teriyaki lachs",
+     "lachs mit teriyakisauce",
+     "salmon teriyaki",
+     "teriyaki lachsfilet"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked salmon",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:T410072",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "teriyaki sauce",
+     "grams": 30,
+     "resolved": {
+      "id": "usda:2707445",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "spring onion",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:G482100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sesame seeds",
+     "grams": 2,
+     "resolved": {
+      "id": "usda:2707586",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "chicken katsu curry",
+   "names": {
+    "en": "Chicken katsu curry",
+    "de": "Chicken Katsu Curry"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "curry",
+   "aliases": {
+    "en": [
+     "katsu curry",
+     "chicken katsu with curry",
+     "katsu kare",
+     "japanese katsu curry",
+     "katsu curry rice"
+    ],
+    "de": [
+     "katsu curry",
+     "japanisches katsu curry",
+     "hähnchen katsu curry",
+     "katsu curry mit reis",
+     "katsu kare"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked white rice",
+     "grams": 220,
+     "resolved": {
+      "id": "bls:C352032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "breaded chicken breast",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:Y591112",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "water",
+     "grams": 120,
+     "resolved": {
+      "id": "usda:2710706",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "carrot",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "japanese curry roux",
+     "grams": 20,
+     "reference": "mext:17051"
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 5,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "japanese curry rice",
+   "names": {
+    "en": "Japanese curry rice",
+    "de": "Japanisches Curry mit Reis"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "curry",
+   "aliases": {
+    "en": [
+     "curry rice",
+     "kare raisu",
+     "japanese curry",
+     "japanese beef curry",
+     "kare rice",
+     "curry raisu"
+    ],
+    "de": [
+     "japanisches curry",
+     "curry reis",
+     "kare raisu",
+     "japanisches rindfleischcurry",
+     "japanischer curryreis"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked white rice",
+     "grams": 250,
+     "resolved": {
+      "id": "bls:C352032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "braised beef",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:U281142",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "boiled potatoes",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sautéed onion",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:G480152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked carrot",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G620132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "water",
+     "grams": 110,
+     "resolved": {
+      "id": "usda:2710706",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "japanese curry roux",
+     "grams": 22,
+     "reference": "mext:17051"
+    }
+   ]
+  },
+  {
+   "key": "chicken katsu sandwich",
+   "names": {
+    "en": "Chicken katsu sandwich",
+    "de": "Chicken Katsu Sandwich"
+   },
+   "serving": {
+    "label": {
+     "en": "1 sandwich",
+     "de": "1 Sandwich"
+    },
+    "count": 1
+   },
+   "artworkID": "sandwich",
+   "aliases": {
+    "en": [
+     "katsu sando",
+     "chicken katsu sando",
+     "katsu sandwich",
+     "chicken cutlet sandwich",
+     "katsusando"
+    ],
+    "de": [
+     "katsu sando",
+     "katsu sandwich",
+     "hähnchen katsu sandwich",
+     "katsusando",
+     "japanisches hähnchenschnitzel sandwich"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "white toast bread",
+     "grams": 70,
+     "resolved": {
+      "id": "bls:B314000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "breaded chicken breast",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:Y591112",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "white cabbage",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G342100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tonkatsu sauce",
+     "grams": 15,
+     "reference": "mext:17003"
+    },
+    {
+     "name": "mayonnaise",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2710204",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "tonkatsu",
+   "names": {
+    "en": "Tonkatsu",
+    "de": "Tonkatsu"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "meat",
+   "aliases": {
+    "en": [
+     "ton katsu",
+     "pork katsu",
+     "japanese pork cutlet",
+     "tonkatsu with cabbage",
+     "tonkatsu plate"
+    ],
+    "de": [
+     "ton katsu",
+     "japanisches schweineschnitzel",
+     "pork katsu",
+     "tonkatsu mit kohl",
+     "schweine katsu"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "breaded pork schnitzel",
+     "grams": 160,
+     "resolved": {
+      "id": "bls:Y332132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "white cabbage",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:G342100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tonkatsu sauce",
+     "grams": 20,
+     "reference": "mext:17003"
+    }
+   ]
+  },
+  {
+   "key": "katsudon",
+   "names": {
+    "en": "Katsudon",
+    "de": "Katsudon"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "rice",
+   "aliases": {
+    "en": [
+     "katsu don",
+     "katsu-don",
+     "pork katsu bowl",
+     "tonkatsu donburi",
+     "katsudon bowl"
+    ],
+    "de": [
+     "katsu don",
+     "katsu-don",
+     "reisschüssel mit schweineschnitzel",
+     "tonkatsu donburi",
+     "katsudon schale"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked white rice",
+     "grams": 250,
+     "resolved": {
+      "id": "bls:C352032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "breaded pork schnitzel",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:Y332132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 50,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "dashi",
+     "grams": 40,
+     "resolved": {
+      "id": "mext:17021",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "soy sauce",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:R143000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "mirin",
+     "grams": 10,
+     "resolved": {
+      "id": "mext:17054",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 3,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "spring onion",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:G482100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "oyakodon",
+   "names": {
+    "en": "Oyakodon",
+    "de": "Oyakodon"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "rice",
+   "aliases": {
+    "en": [
+     "oyako don",
+     "chicken and egg rice bowl",
+     "oyako donburi",
+     "chicken egg donburi",
+     "oyakudon"
+    ],
+    "de": [
+     "oyako don",
+     "reisschüssel mit hähnchen und ei",
+     "oyako donburi",
+     "hähnchen ei reisschüssel",
+     "oyakudon"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked white rice",
+     "grams": 250,
+     "resolved": {
+      "id": "bls:C352032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 100,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked chicken thigh",
+     "grams": 90,
+     "resolved": {
+      "id": "usda:2706044",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "dashi",
+     "grams": 60,
+     "resolved": {
+      "id": "mext:17021",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "soy sauce",
+     "grams": 12,
+     "resolved": {
+      "id": "bls:R143000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "mirin",
+     "grams": 12,
+     "resolved": {
+      "id": "mext:17054",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 3,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "spring onion",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:G482100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "gyudon",
+   "names": {
+    "en": "Gyudon",
+    "de": "Gyudon"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "rice",
+   "aliases": {
+    "en": [
+     "gyu don",
+     "beef bowl",
+     "beef rice bowl",
+     "gyudon beef bowl",
+     "gyu donburi"
+    ],
+    "de": [
+     "gyu don",
+     "rindfleisch reisschüssel",
+     "japanische rindfleisch bowl",
+     "gyudon schale",
+     "gyu donburi"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked white rice",
+     "grams": 250,
+     "resolved": {
+      "id": "bls:C352032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "beef brisket, thinly sliced, raw",
+     "grams": 100,
+     "reference": "bls:U255100"
+    },
+    {
+     "name": "onion",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "dashi",
+     "grams": 50,
+     "resolved": {
+      "id": "mext:17021",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "soy sauce",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:R143000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "mirin",
+     "grams": 12,
+     "resolved": {
+      "id": "mext:17054",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 5,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "pickled ginger",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:R912000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "karaage",
+   "names": {
+    "en": "Karaage",
+    "de": "Karaage"
+   },
+   "serving": {
+    "label": {
+     "en": "5 pieces",
+     "de": "5 Stück"
+    },
+    "count": 5
+   },
+   "artworkID": "poultry",
+   "aliases": {
+    "en": [
+     "chicken karaage",
+     "japanese fried chicken",
+     "kara-age",
+     "karage",
+     "tori karaage"
+    ],
+    "de": [
+     "japanisches frittiertes hähnchen",
+     "chicken karaage",
+     "karage",
+     "kara-age",
+     "tori karaage"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked chicken thigh",
+     "grams": 150,
+     "resolved": {
+      "id": "usda:2706044",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 12,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cornstarch",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:C446000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "soy sauce",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:R143000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lemon",
+     "grams": 5,
+     "resolved": {
+      "id": "usda:2709168",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "ginger",
+     "grams": 3,
+     "resolved": {
+      "id": "cofid:13-890",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "garlic",
+     "grams": 2,
+     "resolved": {
+      "id": "bls:G490100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "gyoza",
+   "names": {
+    "en": "Gyoza",
+    "de": "Gyoza"
+   },
+   "serving": {
+    "label": {
+     "en": "6 pieces",
+     "de": "6 Stück"
+    },
+    "count": 6
+   },
+   "artworkID": "dumpling",
+   "aliases": {
+    "en": [
+     "gyoza dumplings",
+     "pot stickers",
+     "potstickers",
+     "japanese dumplings",
+     "pork gyoza",
+     "gyozas"
+    ],
+    "de": [
+     "gyoza teigtaschen",
+     "japanische teigtaschen",
+     "gebratene teigtaschen",
+     "gyozas",
+     "gyoza mit schweinefleisch"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked ground pork",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:U020182",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "gyoza wrappers",
+     "grams": 36,
+     "reference": "mext:01074"
+    },
+    {
+     "name": "napa cabbage",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G321100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "soy sauce",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:R143000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 5,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "rice vinegar",
+     "grams": 5,
+     "resolved": {
+      "id": "mext:17016",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "spring onion",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:G482100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sesame oil",
+     "grams": 3,
+     "resolved": {
+      "id": "usda:2710190",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "garlic",
+     "grams": 2,
+     "resolved": {
+      "id": "bls:G490100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "ginger",
+     "grams": 2,
+     "resolved": {
+      "id": "cofid:13-890",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "okonomiyaki",
+   "names": {
+    "en": "Okonomiyaki",
+    "de": "Okonomiyaki"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "pancakes",
+   "aliases": {
+    "en": [
+     "okonomi yaki",
+     "osaka okonomiyaki",
+     "japanese savoury pancake",
+     "japanese cabbage pancake",
+     "okonomiyaki pancake"
+    ],
+    "de": [
+     "okonomi yaki",
+     "japanischer kohlpfannkuchen",
+     "herzhafter japanischer pfannkuchen",
+     "okonomiyaki pfannkuchen"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "white cabbage",
+     "grams": 130,
+     "resolved": {
+      "id": "bls:G342100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "wheat flour",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 50,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "dashi",
+     "grams": 50,
+     "resolved": {
+      "id": "mext:17021",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked pork belly",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:U57A172",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "okonomiyaki sauce",
+     "grams": 20,
+     "reference": "mext:17085"
+    },
+    {
+     "name": "mayonnaise",
+     "grams": 12,
+     "resolved": {
+      "id": "usda:2710204",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 8,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "spring onion",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:G482100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "salmon nigiri",
+   "names": {
+    "en": "Salmon nigiri",
+    "de": "Lachs-Nigiri"
+   },
+   "serving": {
+    "label": {
+     "en": "6 pieces",
+     "de": "6 Stück"
+    },
+    "count": 6
+   },
+   "artworkID": "sushi",
+   "aliases": {
+    "en": [
+     "sake nigiri",
+     "nigiri salmon",
+     "salmon nigiri sushi",
+     "nigiri with salmon",
+     "salmon nigri"
+    ],
+    "de": [
+     "sake nigiri",
+     "nigiri lachs",
+     "lachs nigiri sushi",
+     "nigiri mit lachs",
+     "lachs nigri"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "sushi rice",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:X8A1100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "raw salmon",
+     "grams": 60,
+     "resolved": {
+      "id": "cofid:16-356",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "wasabi",
+     "grams": 2,
+     "resolved": {
+      "id": "bls:G693100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "california roll",
+   "names": {
+    "en": "California roll",
+    "de": "California Roll"
+   },
+   "serving": {
+    "label": {
+     "en": "8 pieces",
+     "de": "8 Stück"
+    },
+    "count": 8
+   },
+   "artworkID": "sushi",
+   "aliases": {
+    "en": [
+     "california maki",
+     "california sushi roll",
+     "cali roll",
+     "california rolls",
+     "californian roll"
+    ],
+    "de": [
+     "california rolle",
+     "california maki",
+     "california rolls",
+     "kalifornia roll",
+     "california sushi"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "sushi rice",
+     "grams": 140,
+     "resolved": {
+      "id": "bls:X8A1100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "imitation crab",
+     "grams": 30,
+     "reference": "usda:2706568"
+    },
+    {
+     "name": "avocado",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:F502100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cucumber",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G520100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "mayonnaise",
+     "grams": 8,
+     "resolved": {
+      "id": "usda:2710204",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sesame seeds",
+     "grams": 4,
+     "resolved": {
+      "id": "usda:2707586",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "nori",
+     "grams": 3,
+     "resolved": {
+      "id": "bls:G995000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "salmon maki",
+   "names": {
+    "en": "Salmon maki",
+    "de": "Lachs-Maki"
+   },
+   "serving": {
+    "label": {
+     "en": "6 pieces",
+     "de": "6 Stück"
+    },
+    "count": 6
+   },
+   "artworkID": "sushi",
+   "aliases": {
+    "en": [
+     "sake maki",
+     "salmon roll",
+     "salmon hosomaki",
+     "maki salmon",
+     "salmon sushi roll"
+    ],
+    "de": [
+     "sake maki",
+     "lachs maki",
+     "hosomaki lachs",
+     "maki mit lachs",
+     "lachsrolle sushi"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "sushi rice",
+     "grams": 90,
+     "resolved": {
+      "id": "bls:X8A1100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "raw salmon",
+     "grams": 30,
+     "resolved": {
+      "id": "cofid:16-356",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "nori",
+     "grams": 3,
+     "resolved": {
+      "id": "bls:G995000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "tuna maki",
+   "names": {
+    "en": "Tuna maki",
+    "de": "Thunfisch-Maki"
+   },
+   "serving": {
+    "label": {
+     "en": "6 pieces",
+     "de": "6 Stück"
+    },
+    "count": 6
+   },
+   "artworkID": "sushi",
+   "aliases": {
+    "en": [
+     "tekka maki",
+     "tuna roll",
+     "tuna hosomaki",
+     "maki tuna",
+     "tuna sushi roll"
+    ],
+    "de": [
+     "tekka maki",
+     "thunfisch maki",
+     "maki mit thunfisch",
+     "hosomaki thunfisch",
+     "thunfischrolle sushi"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "sushi rice",
+     "grams": 90,
+     "resolved": {
+      "id": "bls:X8A1100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "raw tuna",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:T121100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "nori",
+     "grams": 3,
+     "resolved": {
+      "id": "bls:G995000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "salmon sashimi",
+   "skip": "a single food: raw salmon, already a vocabulary alias of \"raw salmon\""
+  },
+  {
+   "key": "salmon onigiri",
+   "names": {
+    "en": "Salmon onigiri",
+    "de": "Onigiri mit Lachs"
+   },
+   "serving": {
+    "label": {
+     "en": "1 onigiri",
+     "de": "1 Onigiri"
+    },
+    "count": 1
+   },
+   "artworkID": "rice-ball",
+   "aliases": {
+    "en": [
+     "onigiri salmon",
+     "sake onigiri",
+     "shake onigiri",
+     "salmon rice ball",
+     "rice ball with salmon"
+    ],
+    "de": [
+     "onigiri lachs",
+     "lachs onigiri",
+     "sake onigiri",
+     "reisball mit lachs",
+     "reisbällchen mit lachs"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked white rice",
+     "grams": 110,
+     "resolved": {
+      "id": "bls:C352032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked salmon",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:T410072",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "nori",
+     "grams": 2,
+     "resolved": {
+      "id": "bls:G995000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "miso soup",
+   "names": {
+    "en": "Miso soup",
+    "de": "Misosuppe"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "soup",
+   "aliases": {
+    "en": [
+     "miso shiru",
+     "misoshiru",
+     "miso soup with tofu",
+     "japanese miso soup",
+     "misosoup"
+    ],
+    "de": [
+     "miso suppe",
+     "misosuppe mit tofu",
+     "japanische misosuppe",
+     "miso shiru",
+     "misosupe"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "dashi",
+     "grams": 200,
+     "resolved": {
+      "id": "mext:17021",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "silken tofu",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:H861100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "miso",
+     "grams": 12,
+     "resolved": {
+      "id": "ciqual:20916",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "wakame",
+     "grams": 5,
+     "resolved": {
+      "id": "mext:09039",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "spring onion",
+     "grams": 3,
+     "resolved": {
+      "id": "bls:G482100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "prawn tempura",
+   "names": {
+    "en": "Prawn tempura",
+    "de": "Garnelen-Tempura"
+   },
+   "serving": {
+    "label": {
+     "en": "5 pieces",
+     "de": "5 Stück"
+    },
+    "count": 5
+   },
+   "artworkID": "fried-shrimp",
+   "aliases": {
+    "en": [
+     "shrimp tempura",
+     "ebi tempura",
+     "tempura prawns",
+     "tempura shrimp",
+     "prawn tempura with dipping sauce"
+    ],
+    "de": [
+     "garnelen tempura",
+     "ebi tempura",
+     "tempura garnelen",
+     "shrimp tempura",
+     "garnelen im tempurateig"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked shrimp",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:T753132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tempura batter, fried",
+     "grams": 40,
+     "reference": "mext:01172"
+    },
+    {
+     "name": "dashi",
+     "grams": 30,
+     "resolved": {
+      "id": "mext:17021",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "soy sauce",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:R143000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "mirin",
+     "grams": 8,
+     "resolved": {
+      "id": "mext:17054",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "sukiyaki",
+   "names": {
+    "en": "Sukiyaki",
+    "de": "Sukiyaki"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "meat",
+   "aliases": {
+    "en": [
+     "sukiyaki hot pot",
+     "beef sukiyaki",
+     "suki yaki",
+     "japanese beef hot pot",
+     "sukiyaki nabe"
+    ],
+    "de": [
+     "sukiyaki eintopf",
+     "suki yaki",
+     "japanischer rindfleischtopf",
+     "sukiyaki mit rind",
+     "sukiyaki topf"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "thinly sliced beef",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:U131100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "firm tofu",
+     "grams": 70,
+     "resolved": {
+      "id": "bls:H861000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "napa cabbage",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:G321100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "shirataki",
+     "grams": 60,
+     "reference": "mext:02005"
+    },
+    {
+     "name": "leek",
+     "grams": 40,
+     "resolved": {
+      "id": "ciqual:20039",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "shiitake mushrooms",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:K724100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "soy sauce",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:R143000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "mirin",
+     "grams": 15,
+     "resolved": {
+      "id": "mext:17054",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 8,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 50,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "yakitori",
+   "names": {
+    "en": "Yakitori",
+    "de": "Yakitori"
+   },
+   "serving": {
+    "label": {
+     "en": "3 skewers",
+     "de": "3 Spieße"
+    },
+    "count": 3
+   },
+   "artworkID": "poultry",
+   "aliases": {
+    "en": [
+     "chicken skewers japanese",
+     "yakitori skewers",
+     "negima",
+     "yaki tori",
+     "grilled chicken skewers japanese"
+    ],
+    "de": [
+     "yakitori spieße",
+     "japanische hähnchenspieße",
+     "hähnchenspieße yakitori",
+     "yaki tori",
+     "negima"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked chicken thigh",
+     "grams": 120,
+     "resolved": {
+      "id": "usda:2706044",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "leek",
+     "grams": 30,
+     "resolved": {
+      "id": "ciqual:20039",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "teriyaki sauce",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2707445",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "kung pao chicken",
+   "names": {
+    "en": "Kung pao chicken",
+    "de": "Kung-Pao-Hähnchen"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "takeout",
+   "aliases": {
+    "en": [
+     "kung po chicken",
+     "gong bao chicken",
+     "kung pow chicken",
+     "kungpao chicken",
+     "chicken kung pao"
+    ],
+    "de": [
+     "kung pao huhn",
+     "gong bao hähnchen",
+     "kung po hähnchen",
+     "hähnchen kung pao",
+     "kung pao chicken"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked chicken breast",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:V416132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "red bell pepper",
+     "grams": 70,
+     "resolved": {
+      "id": "bls:G543100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "celery",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G220100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "peanuts",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:H110600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "spring onion",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G482100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "soy sauce",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:R143000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 12,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 5,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cornstarch",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:C446000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "garlic",
+     "grams": 4,
+     "resolved": {
+      "id": "bls:G490100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "red chili",
+     "grams": 3,
+     "resolved": {
+      "id": "bls:G554100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "sweet and sour chicken",
+   "names": {
+    "en": "Sweet and sour chicken",
+    "de": "Hähnchen süß-sauer"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "takeout",
+   "aliases": {
+    "en": [
+     "sweet & sour chicken",
+     "sweet n sour chicken",
+     "chicken sweet and sour",
+     "sweet sour chicken",
+     "sweet and sour chicken balls"
+    ],
+    "de": [
+     "hähnchen süß sauer",
+     "huhn süß-sauer",
+     "hühnchen süß sauer",
+     "süß-sauer hähnchen",
+     "chicken süß sauer",
+     "hähnchen suess sauer"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "breaded chicken breast",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:Y591112",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sweet and sour sauce",
+     "grams": 100,
+     "resolved": {
+      "id": "usda:2710296",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "pineapple",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:F501100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "red bell pepper",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G543100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "carrot",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "sweet and sour pork",
+   "names": {
+    "en": "Sweet and sour pork",
+    "de": "Schweinefleisch süß-sauer"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "takeout",
+   "aliases": {
+    "en": [
+     "sweet & sour pork",
+     "sweet n sour pork",
+     "pork sweet and sour",
+     "sweet sour pork",
+     "gu lou yuk"
+    ],
+    "de": [
+     "schweinefleisch süß sauer",
+     "schwein süß-sauer",
+     "süß-sauer schwein",
+     "schweinefleisch suess sauer",
+     "schwein süß sauer"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "grilled pork tenderloin",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:U611172",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sweet and sour sauce",
+     "grams": 80,
+     "resolved": {
+      "id": "usda:2710296",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "pineapple",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:F501100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "red bell pepper",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G543100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "wheat flour",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "orange chicken",
+   "names": {
+    "en": "Orange chicken",
+    "de": "Orangen-Hähnchen"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "takeout",
+   "aliases": {
+    "en": [
+     "chinese orange chicken",
+     "crispy orange chicken",
+     "orange peel chicken",
+     "chicken in orange sauce",
+     "orange chiken"
+    ],
+    "de": [
+     "orangenhähnchen",
+     "hähnchen in orangensoße",
+     "orange chicken",
+     "knuspriges orangenhähnchen",
+     "huhn mit orangensauce"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "breaded chicken breast",
+     "grams": 180,
+     "resolved": {
+      "id": "bls:Y591112",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "orange juice",
+     "grams": 30,
+     "resolved": {
+      "id": "usda:2709186",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "soy sauce",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:R143000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 12,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "rice vinegar",
+     "grams": 8,
+     "resolved": {
+      "id": "mext:17016",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cornstarch",
+     "grams": 4,
+     "resolved": {
+      "id": "bls:C446000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "garlic",
+     "grams": 3,
+     "resolved": {
+      "id": "bls:G490100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "ginger",
+     "grams": 2,
+     "resolved": {
+      "id": "cofid:13-890",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "general tso s chicken",
+   "names": {
+    "en": "General Tso's chicken",
+    "de": "General Tso's Chicken"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "takeout",
+   "aliases": {
+    "en": [
+     "general tso chicken",
+     "general tsos chicken",
+     "general tao chicken",
+     "general tsao chicken",
+     "general gau's chicken"
+    ],
+    "de": [
+     "general tso hähnchen",
+     "general tsos chicken",
+     "general tao hähnchen",
+     "general tso huhn",
+     "general tsao chicken"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "breaded chicken breast",
+     "grams": 180,
+     "resolved": {
+      "id": "bls:Y591112",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "soy sauce",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:R143000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "hoisin sauce",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2707441",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 8,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "rice vinegar",
+     "grams": 8,
+     "resolved": {
+      "id": "mext:17016",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "spring onion",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:G482100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cornstarch",
+     "grams": 4,
+     "resolved": {
+      "id": "bls:C446000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "garlic",
+     "grams": 4,
+     "resolved": {
+      "id": "bls:G490100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "ginger",
+     "grams": 3,
+     "resolved": {
+      "id": "cofid:13-890",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "red chili",
+     "grams": 3,
+     "resolved": {
+      "id": "bls:G554100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "lemon chicken",
+   "names": {
+    "en": "Lemon chicken",
+    "de": "Hähnchen mit Zitronensoße"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "takeout",
+   "aliases": {
+    "en": [
+     "chinese lemon chicken",
+     "crispy lemon chicken",
+     "chicken in lemon sauce",
+     "lemon sauce chicken",
+     "lemon chiken"
+    ],
+    "de": [
+     "zitronenhähnchen",
+     "zitronenhuhn",
+     "hähnchen mit zitronensauce",
+     "knuspriges zitronenhähnchen",
+     "huhn in zitronensoße"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "breaded chicken breast",
+     "grams": 180,
+     "resolved": {
+      "id": "bls:Y591112",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "chicken stock",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:X411243",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lemon juice",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:F601600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cornstarch",
+     "grams": 6,
+     "resolved": {
+      "id": "bls:C446000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "chicken with cashew nuts",
+   "names": {
+    "en": "Chicken with cashew nuts",
+    "de": "Hähnchen mit Cashewkernen"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "takeout",
+   "aliases": {
+    "en": [
+     "cashew chicken",
+     "chicken cashew nut",
+     "chicken with cashews",
+     "chicken and cashew stir fry",
+     "cashew nut chicken"
+    ],
+    "de": [
+     "hähnchen mit cashewnüssen",
+     "cashew hähnchen",
+     "huhn mit cashewkernen",
+     "hühnchen cashew",
+     "hähnchen cashew"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked chicken breast",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:V416132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "red bell pepper",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:G543100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cashews",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:H170610",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "bamboo shoots",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:H610902",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "mushrooms",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:K701100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "soy sauce",
+     "grams": 12,
+     "resolved": {
+      "id": "bls:R143000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "oyster sauce",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2707150",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cornstarch",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:C446000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "chicken in black bean sauce",
+   "names": {
+    "en": "Chicken in black bean sauce",
+    "de": "Hähnchen in Schwarzer-Bohnen-Soße"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "takeout",
+   "aliases": {
+    "en": [
+     "chicken black bean sauce",
+     "black bean chicken",
+     "chicken with black bean sauce",
+     "chicken and peppers in black bean sauce",
+     "chicken in blackbean sauce"
+    ],
+    "de": [
+     "hähnchen in schwarzer bohnensauce",
+     "huhn in schwarzer bohnensoße",
+     "hähnchen schwarze bohnen soße",
+     "hühnchen in schwarzer-bohnen-sauce",
+     "black bean chicken"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked chicken breast",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:V416132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "green bell pepper",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:G541100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "black bean sauce",
+     "grams": 50,
+     "reference": "usda:2707404"
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "mapo tofu",
+   "names": {
+    "en": "Mapo tofu",
+    "de": "Mapo Tofu"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "takeout",
+   "aliases": {
+    "en": [
+     "mapo doufu",
+     "ma po tofu",
+     "mabo tofu",
+     "sichuan mapo tofu",
+     "mapotofu"
+    ],
+    "de": [
+     "mapo doufu",
+     "ma po tofu",
+     "mabo tofu",
+     "scharfer tofu mit hackfleisch",
+     "mapotofu"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "silken tofu",
+     "grams": 250,
+     "resolved": {
+      "id": "bls:H861100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "chicken stock",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:X411243",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked ground pork",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:U020182",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "doubanjiang",
+     "grams": 15,
+     "reference": "mext:17004"
+    },
+    {
+     "name": "spring onion",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:G482100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cornstarch",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:C446000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "soy sauce",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:R143000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "garlic",
+     "grams": 4,
+     "resolved": {
+      "id": "bls:G490100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "ginger",
+     "grams": 3,
+     "resolved": {
+      "id": "cofid:13-890",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "chili powder",
+     "grams": 2,
+     "resolved": {
+      "id": "ciqual:11088",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "chicken chow mein",
+   "names": {
+    "en": "Chicken chow mein",
+    "de": "Gebratene Nudeln mit Hähnchen"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "noodles",
+   "aliases": {
+    "en": [
+     "chicken chowmein",
+     "chicken chow mien",
+     "chow mein with chicken",
+     "fried noodles with chicken",
+     "chicken fried noodles"
+    ],
+    "de": [
+     "gebratene nudeln mit huhn",
+     "gebratene nudeln hähnchen",
+     "chicken chow mein",
+     "gebratene nudeln mit hühnchen",
+     "bratnudeln mit hähnchen"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked egg noodles",
+     "grams": 220,
+     "resolved": {
+      "id": "bls:E432032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked chicken breast",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:V416132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "bean sprouts",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:H650100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "napa cabbage",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G321100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "carrot",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "soy sauce",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:R143000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 12,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "oyster sauce",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2707150",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "spring onion",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:G482100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sesame oil",
+     "grams": 3,
+     "resolved": {
+      "id": "usda:2710190",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "vegetable fried noodles",
+   "names": {
+    "en": "Vegetable fried noodles",
+    "de": "Gebratene Nudeln mit Gemüse"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "noodles",
+   "aliases": {
+    "en": [
+     "vegetable chow mein",
+     "veg fried noodles",
+     "fried noodles with vegetables",
+     "veggie fried noodles",
+     "vegetable stir fried noodles"
+    ],
+    "de": [
+     "gebratene nudeln gemüse",
+     "gebratene nudeln vegetarisch",
+     "bratnudeln mit gemüse",
+     "asia nudeln mit gemüse",
+     "gebratene nudeln mit gemuse"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked egg noodles",
+     "grams": 250,
+     "resolved": {
+      "id": "bls:E432032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "bean sprouts",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:H650100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "white cabbage",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:G342100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "red bell pepper",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G543100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "carrot",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 30,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "soy sauce",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:R143000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 12,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "egg fried rice",
+   "names": {
+    "en": "Egg fried rice",
+    "de": "Gebratener Reis mit Ei"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "rice",
+   "aliases": {
+    "en": [
+     "fried rice with egg",
+     "chinese egg fried rice",
+     "egg-fried rice",
+     "egg fried rice side",
+     "egg rice"
+    ],
+    "de": [
+     "eierreis",
+     "gebratener eierreis",
+     "bratreis mit ei",
+     "gebratener reis ei",
+     "chinesischer gebratener reis mit ei"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked white rice",
+     "grams": 250,
+     "resolved": {
+      "id": "bls:C352032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 60,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "green peas",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G760132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 12,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "spring onion",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:G482100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "soy sauce",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:R143000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "chicken fried rice",
+   "names": {
+    "en": "Chicken fried rice",
+    "de": "Gebratener Reis mit Hähnchen"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "rice",
+   "aliases": {
+    "en": [
+     "fried rice with chicken",
+     "chinese chicken fried rice",
+     "chicken egg fried rice",
+     "chiken fried rice"
+    ],
+    "de": [
+     "gebratener reis mit huhn",
+     "gebratener reis hähnchen",
+     "bratreis mit hähnchen",
+     "gebratener reis mit hühnchen"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked white rice",
+     "grams": 250,
+     "resolved": {
+      "id": "bls:C352032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked chicken breast",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:V416132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 50,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "green peas",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G760132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "carrot",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "soy sauce",
+     "grams": 12,
+     "resolved": {
+      "id": "bls:R143000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 12,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "spring onion",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:G482100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "beef with broccoli",
+   "names": {
+    "en": "Beef with broccoli",
+    "de": "Rindfleisch mit Brokkoli"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "takeout",
+   "aliases": {
+    "en": [
+     "beef and broccoli",
+     "broccoli beef",
+     "beef broccoli stir fry",
+     "beef with brocoli",
+     "chinese beef and broccoli"
+    ],
+    "de": [
+     "rind mit brokkoli",
+     "rindfleisch mit broccoli",
+     "brokkoli rindfleisch",
+     "rindfleisch brokkoli pfanne",
+     "rind mit broccoli"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "beef steak, pan-fried",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:U131182",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked broccoli",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:G312132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "oyster sauce",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2707150",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "soy sauce",
+     "grams": 12,
+     "resolved": {
+      "id": "bls:R143000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cornstarch",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:C446000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "garlic",
+     "grams": 4,
+     "resolved": {
+      "id": "bls:G490100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "ginger",
+     "grams": 3,
+     "resolved": {
+      "id": "cofid:13-890",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 3,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "mongolian beef",
+   "names": {
+    "en": "Mongolian beef",
+    "de": "Mongolisches Rindfleisch"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "takeout",
+   "aliases": {
+    "en": [
+     "mongolian beef stir fry",
+     "mongolian style beef",
+     "beef mongolian",
+     "mongolean beef"
+    ],
+    "de": [
+     "mongolisches rind",
+     "mongolian beef",
+     "rindfleisch mongolische art",
+     "mongolisches rindfleisch pfanne"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "beef steak, pan-fried",
+     "grams": 160,
+     "resolved": {
+      "id": "bls:U131182",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "spring onion",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G482100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "soy sauce",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:R143000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "brown sugar",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2710260",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cornstarch",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:C446000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "garlic",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:G490100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "ginger",
+     "grams": 4,
+     "resolved": {
+      "id": "cofid:13-890",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "peking duck",
+   "names": {
+    "en": "Peking duck",
+    "de": "Peking-Ente"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "poultry",
+   "aliases": {
+    "en": [
+     "peking duck with pancakes",
+     "beijing duck",
+     "pekin duck",
+     "crispy duck pancakes",
+     "aromatic crispy duck"
+    ],
+    "de": [
+     "pekingente",
+     "peking ente",
+     "pekingente mit pfannkuchen",
+     "peking-ente mit pfannkuchen",
+     "beijing ente"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "crispy duck, chinese style",
+     "grams": 120,
+     "reference": "cofid:18-490"
+    },
+    {
+     "name": "chinese pancakes",
+     "grams": 50,
+     "reference": "usda:2708343"
+    },
+    {
+     "name": "cucumber",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G520100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "hoisin sauce",
+     "grams": 25,
+     "resolved": {
+      "id": "usda:2707441",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "spring onion",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G482100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "crispy duck with vegetables",
+   "names": {
+    "en": "Crispy duck with vegetables",
+    "de": "Knusprige Ente mit Gemüse"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "takeout",
+   "aliases": {
+    "en": [
+     "crispy duck with mixed vegetables",
+     "crispy duck and vegetables",
+     "crispy duck stir fry",
+     "duck with vegetables chinese"
+    ],
+    "de": [
+     "knusprige ente",
+     "ente kross mit gemüse",
+     "knusprige ente gemüse",
+     "ente mit gemüse chinesisch",
+     "krosse ente mit gemüse"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "crispy duck, chinese style",
+     "grams": 150,
+     "reference": "cofid:18-490"
+    },
+    {
+     "name": "napa cabbage",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G321100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "bamboo shoots",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:H610902",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "mushrooms",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:K701100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "carrot",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "red bell pepper",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G543100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "bean sprouts",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:H650100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "soy sauce",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:R143000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "oyster sauce",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2707150",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cornstarch",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:C446000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "eight treasures",
+   "names": {
+    "en": "Eight treasures",
+    "de": "Acht Schätze"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "takeout",
+   "aliases": {
+    "en": [
+     "eight treasure stir fry",
+     "8 treasures",
+     "eight treasures with meat and prawns",
+     "ba bao",
+     "eight delicacies"
+    ],
+    "de": [
+     "8 schätze",
+     "acht schaetze",
+     "acht kostbarkeiten",
+     "acht schätze pfanne",
+     "8 kostbarkeiten"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked chicken breast",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:V416132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "grilled pork tenderloin",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:U611172",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "beef steak, pan-fried",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:U131182",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked shrimp",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:T753132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "napa cabbage",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G321100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "bamboo shoots",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:H610902",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "mushrooms",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:K701100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "carrot",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "bean sprouts",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:H650100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "soy sauce",
+     "grams": 12,
+     "resolved": {
+      "id": "bls:R143000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 12,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "oyster sauce",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2707150",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "char siu pork",
+   "names": {
+    "en": "Char siu pork",
+    "de": "Char Siu"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "meat",
+   "aliases": {
+    "en": [
+     "char siu",
+     "chinese bbq pork",
+     "cha siu",
+     "chinese barbecue pork",
+     "char sui",
+     "barbecued pork chinese style"
+    ],
+    "de": [
+     "char siu schwein",
+     "chinesischer grillschweinebraten",
+     "cha siu",
+     "chinesisches bbq schweinefleisch",
+     "char sui"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "roast pork",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:Y352212",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "honey",
+     "grams": 12,
+     "resolved": {
+      "id": "usda:2710281",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "hoisin sauce",
+     "grams": 12,
+     "resolved": {
+      "id": "usda:2707441",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "soy sauce",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:R143000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 5,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "chop suey",
+   "names": {
+    "en": "Chop suey",
+    "de": "Chop Suey"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "takeout",
+   "aliases": {
+    "en": [
+     "chicken chop suey",
+     "chopsuey",
+     "chop suey with chicken",
+     "chop sui",
+     "chop-suey"
+    ],
+    "de": [
+     "chop suey mit huhn",
+     "chop suey hähnchen",
+     "chopsuey",
+     "chop sui",
+     "chop-suey"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked chicken breast",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:V416132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "bean sprouts",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:H650100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "napa cabbage",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:G321100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "chicken stock",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:X411243",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "bamboo shoots",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:H610902",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "celery",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G220100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "mushrooms",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:K701100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "soy sauce",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:R143000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 12,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "oyster sauce",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2707150",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cornstarch",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:C446000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "wonton soup",
+   "names": {
+    "en": "Wonton soup",
+    "de": "Wan-Tan-Suppe"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "soup",
+   "aliases": {
+    "en": [
+     "won ton soup",
+     "wantan soup",
+     "wanton soup",
+     "chinese wonton soup",
+     "wonton dumpling soup"
+    ],
+    "de": [
+     "wantan suppe",
+     "won ton suppe",
+     "wan tan suppe",
+     "wonton suppe",
+     "wantansuppe"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "chicken stock",
+     "grams": 300,
+     "resolved": {
+      "id": "bls:X411243",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked ground pork",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:U020182",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "bok choy",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G324100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "wonton wrappers",
+     "grams": 30,
+     "reference": "mext:01075"
+    },
+    {
+     "name": "cooked shrimp",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:T753132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "soy sauce",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:R143000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "spring onion",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:G482100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sesame oil",
+     "grams": 2,
+     "resolved": {
+      "id": "usda:2710190",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "ginger",
+     "grams": 2,
+     "resolved": {
+      "id": "cofid:13-890",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "hot and sour soup",
+   "names": {
+    "en": "Hot and sour soup",
+    "de": "Sauer-scharf-Suppe"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "soup",
+   "aliases": {
+    "en": [
+     "hot & sour soup",
+     "hot n sour soup",
+     "suan la tang",
+     "peking soup",
+     "szechuan hot and sour soup"
+    ],
+    "de": [
+     "pekingsuppe",
+     "peking suppe",
+     "sauer scharf suppe",
+     "scharf sauer suppe",
+     "sauerscharfsuppe"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "chicken stock",
+     "grams": 280,
+     "resolved": {
+      "id": "bls:X411243",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "firm tofu",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:H861000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "grilled pork tenderloin",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:U611172",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "bamboo shoots",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:H610902",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 25,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "shiitake mushrooms",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:K724100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "rice vinegar",
+     "grams": 15,
+     "resolved": {
+      "id": "mext:17016",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "soy sauce",
+     "grams": 12,
+     "resolved": {
+      "id": "bls:R143000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cornstarch",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:C446000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "spring onion",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:G482100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "chili powder",
+     "grams": 2,
+     "resolved": {
+      "id": "ciqual:11088",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "vegetable spring rolls",
+   "names": {
+    "en": "Vegetable spring rolls",
+    "de": "Gemüse-Frühlingsrollen"
+   },
+   "serving": {
+    "label": {
+     "en": "2 rolls",
+     "de": "2 Rollen"
+    },
+    "count": 2
+   },
+   "artworkID": "neutral",
+   "aliases": {
+    "en": [
+     "veg spring rolls",
+     "vegetarian spring rolls",
+     "vegetable spring roll",
+     "veggie spring rolls",
+     "fried vegetable spring rolls"
+    ],
+    "de": [
+     "gemüse frühlingsrolle",
+     "vegetarische frühlingsrollen",
+     "frühlingsrollen mit gemüse",
+     "gemüsefrühlingsrollen",
+     "gemuse fruhlingsrollen"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "white cabbage",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G342100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "spring roll wrappers, fried",
+     "grams": 35,
+     "reference": "mext:01180"
+    },
+    {
+     "name": "carrot",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "bean sprouts",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:H650100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked glass noodles",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:H030432",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 5,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "soy sauce",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:R143000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "har gow",
+   "names": {
+    "en": "Har gow",
+    "de": "Har Gow"
+   },
+   "serving": {
+    "label": {
+     "en": "4 pieces",
+     "de": "4 Stück"
+    },
+    "count": 4
+   },
+   "artworkID": "dumpling",
+   "aliases": {
+    "en": [
+     "ha gow",
+     "har gau",
+     "shrimp dumplings",
+     "crystal shrimp dumplings",
+     "hargow",
+     "ha kao"
+    ],
+    "de": [
+     "ha gao",
+     "har gau",
+     "garnelen dim sum",
+     "garnelen teigtaschen",
+     "hargow",
+     "ha kau"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked shrimp",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:T753132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "water",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2710706",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "wheat starch",
+     "grams": 15,
+     "reference": "bls:C216000"
+    },
+    {
+     "name": "bamboo shoots",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:H610902",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cornstarch",
+     "grams": 7,
+     "resolved": {
+      "id": "bls:C446000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 3,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sesame oil",
+     "grams": 2,
+     "resolved": {
+      "id": "usda:2710190",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "siu mai",
+   "names": {
+    "en": "Siu mai",
+    "de": "Siu Mai"
+   },
+   "serving": {
+    "label": {
+     "en": "4 pieces",
+     "de": "4 Stück"
+    },
+    "count": 4
+   },
+   "artworkID": "dumpling",
+   "aliases": {
+    "en": [
+     "shumai",
+     "siomai",
+     "sui mai",
+     "shao mai",
+     "pork and shrimp dumplings"
+    ],
+    "de": [
+     "shumai",
+     "siomai",
+     "shao mai",
+     "dim sum siu mai",
+     "sui mai"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked ground pork",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:U020182",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked shrimp",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:T753132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "shumai wrappers",
+     "grams": 20,
+     "reference": "mext:01075"
+    },
+    {
+     "name": "shiitake mushrooms",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:K724100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "soy sauce",
+     "grams": 3,
+     "resolved": {
+      "id": "bls:R143000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cornstarch",
+     "grams": 3,
+     "resolved": {
+      "id": "bls:C446000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sesame oil",
+     "grams": 2,
+     "resolved": {
+      "id": "usda:2710190",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "xiaolongbao",
+   "names": {
+    "en": "Xiaolongbao",
+    "de": "Xiaolongbao"
+   },
+   "serving": {
+    "label": {
+     "en": "6 pieces",
+     "de": "6 Stück"
+    },
+    "count": 6
+   },
+   "artworkID": "dumpling",
+   "aliases": {
+    "en": [
+     "xiao long bao",
+     "soup dumplings",
+     "shanghai soup dumplings",
+     "xiaolong bao",
+     "xlb"
+    ],
+    "de": [
+     "xiao long bao",
+     "suppenteigtaschen",
+     "shanghai teigtaschen",
+     "xiaolong bao",
+     "gefüllte suppenteigtaschen"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked ground pork",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:U020182",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "gyoza wrappers",
+     "grams": 50,
+     "reference": "mext:01074"
+    },
+    {
+     "name": "chicken stock",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:X411243",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "rice vinegar",
+     "grams": 10,
+     "resolved": {
+      "id": "mext:17016",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "spring onion",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:G482100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "soy sauce",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:R143000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "ginger",
+     "grams": 3,
+     "resolved": {
+      "id": "cofid:13-890",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sesame oil",
+     "grams": 2,
+     "resolved": {
+      "id": "usda:2710190",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "jiaozi",
+   "names": {
+    "en": "Jiaozi",
+    "de": "Jiaozi"
+   },
+   "serving": {
+    "label": {
+     "en": "8 pieces",
+     "de": "8 Stück"
+    },
+    "count": 8
+   },
+   "artworkID": "dumpling",
+   "aliases": {
+    "en": [
+     "chinese pork dumplings",
+     "boiled pork dumplings",
+     "jiao zi",
+     "pork and cabbage dumplings",
+     "shui jiao"
+    ],
+    "de": [
+     "chinesische teigtaschen mit schweinefleisch",
+     "jiao zi",
+     "gekochte chinesische teigtaschen",
+     "chinesische maultaschen",
+     "shui jiao"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked ground pork",
+     "grams": 70,
+     "resolved": {
+      "id": "bls:U020182",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "gyoza wrappers",
+     "grams": 64,
+     "reference": "mext:01074"
+    },
+    {
+     "name": "napa cabbage",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:G321100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "spring onion",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:G482100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "rice vinegar",
+     "grams": 8,
+     "resolved": {
+      "id": "mext:17016",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "soy sauce",
+     "grams": 6,
+     "resolved": {
+      "id": "bls:R143000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "ginger",
+     "grams": 3,
+     "resolved": {
+      "id": "cofid:13-890",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sesame oil",
+     "grams": 3,
+     "resolved": {
+      "id": "usda:2710190",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "char siu bao",
+   "names": {
+    "en": "Char siu bao",
+    "de": "Char Siu Bao"
+   },
+   "serving": {
+    "label": {
+     "en": "2 buns",
+     "de": "2 Stück"
+    },
+    "count": 2
+   },
+   "artworkID": "dumpling",
+   "aliases": {
+    "en": [
+     "cha siu bao",
+     "bbq pork buns",
+     "char siu buns",
+     "steamed pork buns",
+     "barbecue pork bun"
+    ],
+    "de": [
+     "cha siu bao",
+     "bbq schwein bao",
+     "gedämpfte schweinefleischbrötchen",
+     "char siu brötchen",
+     "char siu dampfnudel"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "wheat flour",
+     "grams": 70,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "roast pork",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:Y352212",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "water",
+     "grams": 35,
+     "resolved": {
+      "id": "usda:2710706",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 13,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "hoisin sauce",
+     "grams": 8,
+     "resolved": {
+      "id": "usda:2707441",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "oyster sauce",
+     "grams": 5,
+     "resolved": {
+      "id": "usda:2707150",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 4,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cornstarch",
+     "grams": 3,
+     "resolved": {
+      "id": "bls:C446000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "baking powder",
+     "grams": 2,
+     "resolved": {
+      "id": "bls:R421100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "dan dan noodles",
+   "names": {
+    "en": "Dan dan noodles",
+    "de": "Dan-Dan-Nudeln"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "noodles",
+   "aliases": {
+    "en": [
+     "dandan noodles",
+     "dan dan mian",
+     "dandan mian",
+     "sichuan dan dan noodles",
+     "tan tan noodles"
+    ],
+    "de": [
+     "dandan nudeln",
+     "dan dan mian",
+     "sichuan dan dan nudeln",
+     "tantan nudeln",
+     "dan dan nudel"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked ramen noodles",
+     "grams": 200,
+     "resolved": {
+      "id": "mext:01048",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked ground pork",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:U020182",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "chicken stock",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:X411243",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "bok choy",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G324100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tahini",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2707587",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "soy sauce",
+     "grams": 12,
+     "resolved": {
+      "id": "bls:R143000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 12,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "peanuts",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:H110600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "spring onion",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:G482100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 3,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "chili powder",
+     "grams": 3,
+     "resolved": {
+      "id": "ciqual:11088",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "chicken congee",
+   "names": {
+    "en": "Chicken congee",
+    "de": "Congee mit Hähnchen"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "rice",
+   "aliases": {
+    "en": [
+     "congee with chicken",
+     "chicken rice porridge",
+     "chicken jook",
+     "chicken conge",
+     "chicken rice congee"
+    ],
+    "de": [
+     "reisbrei mit hähnchen",
+     "congee hähnchen",
+     "hühnchen congee",
+     "reissuppe mit huhn",
+     "chinesischer reisbrei mit huhn"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "chicken stock",
+     "grams": 250,
+     "resolved": {
+      "id": "bls:X411243",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked white rice",
+     "grams": 130,
+     "resolved": {
+      "id": "bls:C352032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked chicken breast",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:V416132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "spring onion",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:G482100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "soy sauce",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:R143000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "ginger",
+     "grams": 4,
+     "resolved": {
+      "id": "cofid:13-890",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sesame oil",
+     "grams": 2,
+     "resolved": {
+      "id": "usda:2710190",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "bibimbap",
+   "names": {
+    "en": "Bibimbap",
+    "de": "Bibimbap"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "rice",
+   "aliases": {
+    "en": [
+     "bi bim bap",
+     "bibim bap",
+     "bibimbab",
+     "korean mixed rice",
+     "beef bibimbap"
+    ],
+    "de": [
+     "bibim bap",
+     "bibimbab",
+     "koreanische reisschüssel",
+     "bibimbap mit rind",
+     "bibimbap bowl"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked white rice",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:C352032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "thinly sliced beef",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:U131100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "fried egg",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:Y710142",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked spinach",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G210132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "bean sprouts",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:H650100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "carrot",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "zucchini",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G582100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "shiitake mushrooms",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:K724100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sesame oil",
+     "grams": 5,
+     "resolved": {
+      "id": "usda:2710190",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "bulgogi",
+   "names": {
+    "en": "Bulgogi",
+    "de": "Bulgogi"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "meat",
+   "aliases": {
+    "en": [
+     "beef bulgogi",
+     "bul gogi",
+     "korean bbq beef",
+     "bulgoki",
+     "korean marinated beef"
+    ],
+    "de": [
+     "bul gogi",
+     "koreanisches rindfleisch",
+     "bulgoki",
+     "koreanisches bbq rind",
+     "rindfleisch bulgogi"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "thinly sliced beef",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:U131100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "soy sauce",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:R143000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "pear",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:F130100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "spring onion",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:G482100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 8,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sesame oil",
+     "grams": 5,
+     "resolved": {
+      "id": "usda:2710190",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "garlic",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:G490100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sesame seeds",
+     "grams": 2,
+     "resolved": {
+      "id": "usda:2707586",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "korean fried chicken",
+   "names": {
+    "en": "Korean fried chicken",
+    "de": "Koreanisches Fried Chicken"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "poultry",
+   "aliases": {
+    "en": [
+     "yangnyeom chicken",
+     "korean style fried chicken",
+     "dakgangjeong",
+     "k-chicken",
+     "korean fried chiken"
+    ],
+    "de": [
+     "koreanisches frittiertes hähnchen",
+     "yangnyeom chicken",
+     "korean fried chicken",
+     "koreanisches brathähnchen",
+     "dakgangjeong"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked chicken thigh",
+     "grams": 180,
+     "resolved": {
+      "id": "usda:2706044",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cornstarch",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:C446000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "ketchup",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:R141100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "honey",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2710281",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "wheat flour",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "soy sauce",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:R143000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "garlic",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:G490100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sesame seeds",
+     "grams": 2,
+     "resolved": {
+      "id": "usda:2707586",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "kimchi jjigae",
+   "names": {
+    "en": "Kimchi jjigae",
+    "de": "Kimchi-Jjigae"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "soup",
+   "aliases": {
+    "en": [
+     "kimchi stew",
+     "kimchi chigae",
+     "kimchi jigae",
+     "korean kimchi stew",
+     "kimchijjigae"
+    ],
+    "de": [
+     "kimchi eintopf",
+     "kimchi suppe",
+     "kimchi chigae",
+     "koreanischer kimchi eintopf",
+     "kimchi jjigae"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "broth",
+     "grams": 250,
+     "resolved": {
+      "id": "usda:2707132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "kimchi",
+     "grams": 120,
+     "resolved": {
+      "id": "usda:2710077",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "firm tofu",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:H861000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked pork belly",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:U57A172",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "spring onion",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:G482100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "chili powder",
+     "grams": 3,
+     "resolved": {
+      "id": "ciqual:11088",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sesame oil",
+     "grams": 3,
+     "resolved": {
+      "id": "usda:2710190",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "sundubu jjigae",
+   "names": {
+    "en": "Sundubu jjigae",
+    "de": "Sundubu-Jjigae"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "soup",
+   "aliases": {
+    "en": [
+     "soft tofu stew",
+     "sundubu",
+     "soondubu jjigae",
+     "korean soft tofu stew",
+     "soondubu"
+    ],
+    "de": [
+     "koreanischer tofu eintopf",
+     "sundubu",
+     "soondubu",
+     "eintopf mit weichem tofu",
+     "sundubu jjigae"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "silken tofu",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:H861100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "broth",
+     "grams": 200,
+     "resolved": {
+      "id": "usda:2707132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 50,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked shrimp",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:T753132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "zucchini",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G582100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "chili powder",
+     "grams": 5,
+     "resolved": {
+      "id": "ciqual:11088",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "soy sauce",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:R143000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "spring onion",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:G482100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sesame oil",
+     "grams": 4,
+     "resolved": {
+      "id": "usda:2710190",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "garlic",
+     "grams": 4,
+     "resolved": {
+      "id": "bls:G490100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "japchae",
+   "names": {
+    "en": "Japchae",
+    "de": "Japchae"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "noodles",
+   "aliases": {
+    "en": [
+     "chapchae",
+     "jap chae",
+     "korean glass noodles",
+     "japche",
+     "korean stir fried glass noodles"
+    ],
+    "de": [
+     "chapchae",
+     "jap chae",
+     "koreanische glasnudeln",
+     "japche",
+     "gebratene glasnudeln koreanisch"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked glass noodles",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:H030432",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "thinly sliced beef",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:U131100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked spinach",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G210132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "carrot",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "shiitake mushrooms",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:K724100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "red bell pepper",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G543100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "soy sauce",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:R143000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sesame oil",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2710190",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 8,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sesame seeds",
+     "grams": 2,
+     "resolved": {
+      "id": "usda:2707586",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "tteokbokki",
+   "names": {
+    "en": "Tteokbokki",
+    "de": "Tteokbokki"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "neutral",
+   "aliases": {
+    "en": [
+     "topokki",
+     "ddeokbokki",
+     "spicy rice cakes",
+     "dukbokki",
+     "ddukbokki"
+    ],
+    "de": [
+     "topokki",
+     "ddeokbokki",
+     "scharfe reiskuchen",
+     "koreanische reiskuchen scharf",
+     "tteok-bokki"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "korean rice cakes",
+     "grams": 200,
+     "unresolvable": "no table row matches the name"
+    },
+    {
+     "name": "broth",
+     "grams": 100,
+     "resolved": {
+      "id": "usda:2707132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "korean fish cake",
+     "grams": 40,
+     "unresolvable": "no table row matches the name"
+    },
+    {
+     "name": "gochujang",
+     "grams": 30,
+     "unresolvable": "no table row matches the name"
+    },
+    {
+     "name": "sugar",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "spring onion",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:G482100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "boiled egg",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:E111132",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "kimchi fried rice",
+   "names": {
+    "en": "Kimchi fried rice",
+    "de": "Gebratener Kimchi-Reis"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "rice",
+   "aliases": {
+    "en": [
+     "kimchi bokkeumbap",
+     "kimchi rice",
+     "fried rice with kimchi",
+     "kimchi bokumbap",
+     "kimchi fried rice with egg"
+    ],
+    "de": [
+     "kimchi reis",
+     "kimchi bokkeumbap",
+     "gebratener reis mit kimchi",
+     "kimchi bratreis",
+     "kimchireis"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked white rice",
+     "grams": 250,
+     "resolved": {
+      "id": "bls:C352032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "kimchi",
+     "grams": 80,
+     "resolved": {
+      "id": "usda:2710077",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "fried egg",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:Y710142",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked pork belly",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:U57A172",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 8,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sesame oil",
+     "grams": 5,
+     "resolved": {
+      "id": "usda:2710190",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "spring onion",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:G482100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "kimbap",
+   "names": {
+    "en": "Kimbap",
+    "de": "Kimbap"
+   },
+   "serving": {
+    "label": {
+     "en": "1 roll",
+     "de": "1 Rolle"
+    },
+    "count": 1
+   },
+   "artworkID": "sushi",
+   "aliases": {
+    "en": [
+     "gimbap",
+     "kim bap",
+     "korean rice roll",
+     "gim bap",
+     "kimbab"
+    ],
+    "de": [
+     "gimbap",
+     "kim bap",
+     "koreanische reisrolle",
+     "kimbab",
+     "koreanisches sushi"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked white rice",
+     "grams": 180,
+     "resolved": {
+      "id": "bls:C352032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 30,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked spinach",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:G210132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "carrot",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "pickled radish",
+     "grams": 20,
+     "reference": "mext:06138"
+    },
+    {
+     "name": "cooked ham",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:W424000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "imitation crab",
+     "grams": 20,
+     "reference": "usda:2706568"
+    },
+    {
+     "name": "sesame oil",
+     "grams": 5,
+     "resolved": {
+      "id": "usda:2710190",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 3,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "nori",
+     "grams": 3,
+     "resolved": {
+      "id": "bls:G995000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sesame seeds",
+     "grams": 2,
+     "resolved": {
+      "id": "usda:2707586",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "samgyeopsal",
+   "names": {
+    "en": "Samgyeopsal",
+    "de": "Samgyeopsal"
+   },
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "artworkID": "meat",
+   "aliases": {
+    "en": [
+     "samgyupsal",
+     "korean pork belly bbq",
+     "grilled pork belly korean style",
+     "sam gyeop sal",
+     "samgyeopsal gui"
+    ],
+    "de": [
+     "samgyupsal",
+     "koreanischer schweinebauch",
+     "schweinebauch korean bbq",
+     "sam gyeop sal",
+     "koreanischer grillbauch"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked pork belly",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:U57A172",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "kimchi",
+     "grams": 50,
+     "resolved": {
+      "id": "usda:2710077",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lettuce",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G105100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "garlic",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:G490100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "spring onion",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:G482100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "miso",
+     "grams": 10,
+     "resolved": {
+      "id": "ciqual:20916",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sesame oil",
+     "grams": 5,
+     "resolved": {
+      "id": "usda:2710190",
+      "via": "lexicon"
+     }
+    }
+   ]
+  }
+ ]
+}

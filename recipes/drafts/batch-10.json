@@ -1,0 +1,5260 @@
+{
+ "batch": 10,
+ "drafted": "2026-10-01",
+ "drafter": "Claude in the Akari Claude Code session",
+ "dishes": [
+  {
+   "key": "butter potatoes",
+   "names": {
+    "en": "Butter potatoes",
+    "de": "Butterkartoffeln"
+   },
+   "serving": {
+    "label": {
+     "en": "1 side portion",
+     "de": "1 Beilagenportion"
+    },
+    "count": 1
+   },
+   "artworkID": "potato",
+   "aliases": {
+    "en": [
+     "buttered potatoes",
+     "boiled potatoes with butter",
+     "butter new potatoes"
+    ],
+    "de": [
+     "kartoffeln mit butter",
+     "salzkartoffeln mit butter",
+     "butter-kartoffeln",
+     "butterkartoffeln mit petersilie"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "boiled potatoes",
+     "grams": 250,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 12,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "parsley",
+     "grams": 3,
+     "resolved": {
+      "id": "usda:2709796",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "backerin kartoffeln vegetarian",
+   "names": {
+    "en": "Baker-style potatoes",
+    "de": "Bäckerinkartoffeln"
+   },
+   "serving": {
+    "label": {
+     "en": "1 side portion",
+     "de": "1 Beilagenportion"
+    },
+    "count": 1
+   },
+   "artworkID": "potato",
+   "aliases": {
+    "en": [
+     "pommes boulangère",
+     "boulangere potatoes",
+     "potatoes baked with onions and stock"
+    ],
+    "de": [
+     "bäckerin-kartoffeln",
+     "bäckerin-kartoffeln vegetarisch",
+     "baeckerinkartoffeln",
+     "pommes boulangère"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "boiled potatoes",
+     "grams": 250,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable stock",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:X416243",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "potatoes with eggs and tomatoes",
+   "names": {
+    "en": "Egg and tomato potato bake",
+    "de": "Eierkartoffeln mit Tomaten"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "potato",
+   "aliases": {
+    "en": [
+     "potatoes with eggs and tomatoes",
+     "potato egg tomato bake",
+     "baked potatoes with egg and tomato"
+    ],
+    "de": [
+     "eierkartoffeln",
+     "eierkartoffeln überbacken",
+     "kartoffeln mit ei und tomaten überbacken",
+     "kartoffel-eier-auflauf mit tomaten"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "boiled potatoes",
+     "grams": 180,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "boiled egg",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:E111132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:G561100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "gouda",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:M402600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "light cream",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:M171500",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "potatoes with tomatoes",
+   "names": {
+    "en": "Tomato potatoes",
+    "de": "Tomatenkartoffeln"
+   },
+   "serving": {
+    "label": {
+     "en": "1 side portion",
+     "de": "1 Beilagenportion"
+    },
+    "count": 1
+   },
+   "artworkID": "potato",
+   "aliases": {
+    "en": [
+     "potatoes with tomatoes",
+     "stewed potatoes with tomatoes",
+     "potatoes in tomato sauce"
+    ],
+    "de": [
+     "tomaten-kartoffeln",
+     "kartoffeln mit tomaten",
+     "kartoffeln in tomatensauce",
+     "geschmorte tomatenkartoffeln"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "boiled potatoes",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "canned tomatoes",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:G568900",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 12,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "potato gratin without cheese",
+   "names": {
+    "en": "Potato gratin without cheese",
+    "de": "Kartoffelgratin ohne Käse"
+   },
+   "serving": {
+    "label": {
+     "en": "1 side portion",
+     "de": "1 Beilagenportion"
+    },
+    "count": 1
+   },
+   "artworkID": "potato",
+   "aliases": {
+    "en": [
+     "gratin dauphinois",
+     "potatoes dauphinoise",
+     "creamy potato gratin",
+     "scalloped potatoes"
+    ],
+    "de": [
+     "gratin dauphinois",
+     "kartoffelgratin",
+     "rahmkartoffelgratin",
+     "kartoffelgratin mit sahne"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "boiled potatoes",
+     "grams": 220,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "heavy cream",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:M173800",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "garlic",
+     "grams": 2,
+     "resolved": {
+      "id": "bls:G490100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "potato gratin with tomatoes and mozzarella",
+   "names": {
+    "en": "Potato and tomato gratin with mozzarella",
+    "de": "Kartoffel-Tomaten-Gratin mit Mozzarella"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "potato",
+   "aliases": {
+    "en": [
+     "potato tomato mozzarella bake",
+     "potato gratin with tomatoes",
+     "potato caprese bake"
+    ],
+    "de": [
+     "kartoffel-tomaten-gratin",
+     "kartoffelgratin mit tomaten und mozzarella",
+     "kartoffel tomaten auflauf mit mozzarella",
+     "tomaten-kartoffel-auflauf"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "boiled potatoes",
+     "grams": 180,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:G561100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "mozzarella",
+     "grams": 40,
+     "resolved": {
+      "id": "usda:2705722",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "heavy cream",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:M173800",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "potato gratin with kohlrabi and cheese",
+   "names": {
+    "en": "Potato and kohlrabi gratin",
+    "de": "Kartoffel-Kohlrabi-Gratin"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "potato",
+   "aliases": {
+    "en": [
+     "kohlrabi potato gratin",
+     "potato kohlrabi bake with cheese",
+     "kohlrabi gratin"
+    ],
+    "de": [
+     "kartoffel-kohlrabi-gratin mit käse",
+     "kohlrabi-kartoffel-auflauf",
+     "kohlrabigratin",
+     "kartoffel kohlrabi gratin"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "boiled potatoes",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "kohlrabi, boiled",
+     "grams": 100,
+     "reference": "bls:G331132"
+    },
+    {
+     "name": "heavy cream",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:M173800",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "gouda",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:M402600",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "potato gratin with spinach",
+   "names": {
+    "en": "Potato gratin with spinach",
+    "de": "Kartoffelgratin mit Spinat"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "potato",
+   "aliases": {
+    "en": [
+     "spinach potato gratin",
+     "potato and spinach bake",
+     "potato spinach casserole"
+    ],
+    "de": [
+     "kartoffel-spinat-gratin",
+     "spinat-kartoffel-auflauf",
+     "kartoffelauflauf mit spinat",
+     "kartoffel spinat gratin"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "boiled potatoes",
+     "grams": 180,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked spinach",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:G210132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "heavy cream",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:M173800",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "gouda",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:M402600",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "potato gratin with leek",
+   "names": {
+    "en": "Potato gratin with leek",
+    "de": "Kartoffelgratin mit Lauch"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "potato",
+   "aliases": {
+    "en": [
+     "leek potato gratin",
+     "potato and leek bake",
+     "potato leek casserole"
+    ],
+    "de": [
+     "kartoffel-lauch-gratin",
+     "lauch-kartoffel-auflauf",
+     "kartoffelgratin mit porree",
+     "kartoffelauflauf mit lauch"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "boiled potatoes",
+     "grams": 180,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "leek",
+     "grams": 70,
+     "resolved": {
+      "id": "ciqual:20039",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "heavy cream",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:M173800",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "gouda",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:M402600",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "potatoes peeled",
+   "skip": "a single food the vocabulary covers (fried potatoes)"
+  },
+  {
+   "key": "potatoes with onions",
+   "names": {
+    "en": "Fried potatoes with onions",
+    "de": "Bratkartoffeln mit Zwiebeln"
+   },
+   "serving": {
+    "label": {
+     "en": "1 side portion",
+     "de": "1 Beilagenportion"
+    },
+    "count": 1
+   },
+   "artworkID": "potato",
+   "aliases": {
+    "en": [
+     "fried potatoes with onions",
+     "home fries with onions",
+     "pan fried potatoes and onions"
+    ],
+    "de": [
+     "bratkartoffeln aus pellkartoffeln mit zwiebeln",
+     "zwiebelbratkartoffeln",
+     "bratkartoffeln zwiebeln",
+     "röstkartoffeln mit zwiebeln"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "fried potatoes",
+     "grams": 230,
+     "resolved": {
+      "id": "bls:X651013",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sautéed onion",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:G480152",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "farmer s breakfast with bacon and ham",
+   "names": {
+    "en": "Farmer's breakfast with bacon and ham",
+    "de": "Bauernfrühstück mit Speck und Schinken"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "fried-egg",
+   "aliases": {
+    "en": [
+     "farmers breakfast",
+     "farmer's breakfast",
+     "german farmers breakfast",
+     "potato egg scramble with bacon"
+    ],
+    "de": [
+     "bauernfrühstück",
+     "bauernfruehstueck",
+     "bauern frühstück mit speck",
+     "bauernfrühstück mit kochschinken"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "fried potatoes",
+     "grams": 180,
+     "resolved": {
+      "id": "bls:X651013",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 100,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "smoked streaky bacon",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:W411300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked ham",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:W424000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "potatoes with bacon and onions",
+   "names": {
+    "en": "Fried potatoes with bacon and onions",
+    "de": "Bratkartoffeln mit Speck und Zwiebeln"
+   },
+   "serving": {
+    "label": {
+     "en": "1 side portion",
+     "de": "1 Beilagenportion"
+    },
+    "count": 1
+   },
+   "artworkID": "potato",
+   "aliases": {
+    "en": [
+     "fried potatoes with bacon",
+     "home fries with bacon and onion",
+     "german fried potatoes with bacon"
+    ],
+    "de": [
+     "bratkartoffeln mit speck",
+     "speckbratkartoffeln",
+     "bratkartoffeln speck zwiebeln",
+     "röstkartoffeln mit speck"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "fried potatoes",
+     "grams": 220,
+     "resolved": {
+      "id": "bls:X651013",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "smoked streaky bacon",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:W411300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sautéed onion",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G480152",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "potatoes with caraway seeds",
+   "names": {
+    "en": "Baked caraway potatoes",
+    "de": "Kümmelkartoffeln"
+   },
+   "serving": {
+    "label": {
+     "en": "1 side portion",
+     "de": "1 Beilagenportion"
+    },
+    "count": 1
+   },
+   "artworkID": "potato",
+   "aliases": {
+    "en": [
+     "caraway potatoes",
+     "roasted potatoes with caraway",
+     "baked potatoes with caraway seeds"
+    ],
+    "de": [
+     "kümmelkartoffeln gebacken",
+     "kuemmelkartoffeln",
+     "ofenkartoffeln mit kümmel",
+     "kümmel kartoffeln"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "baked potato",
+     "grams": 250,
+     "resolved": {
+      "id": "usda:2709524",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "potatoes sweetened",
+   "skip": "a single food with a cooking method (sugared fried potatoes)"
+  },
+  {
+   "key": "potatoes with bacon",
+   "names": {
+    "en": "Stewed potatoes with bacon",
+    "de": "Speckkartoffeln"
+   },
+   "serving": {
+    "label": {
+     "en": "1 side portion",
+     "de": "1 Beilagenportion"
+    },
+    "count": 1
+   },
+   "artworkID": "potato",
+   "aliases": {
+    "en": [
+     "potatoes with bacon",
+     "bacon potatoes",
+     "braised potatoes with bacon"
+    ],
+    "de": [
+     "speck-kartoffeln",
+     "kartoffeln mit speck",
+     "speckkartoffeln gedünstet",
+     "gedünstete kartoffeln mit speck"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "boiled potatoes",
+     "grams": 250,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "smoked streaky bacon",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:W411300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "beef stock",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:Y183013",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "grated potatoes tyrolese",
+   "names": {
+    "en": "Tyrolean gröstl",
+    "de": "Tiroler Gröstl"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "fried-egg",
+   "aliases": {
+    "en": [
+     "tiroler gröstl",
+     "tyrolean groestl",
+     "tyrolean potato hash",
+     "tiroler geröstel"
+    ],
+    "de": [
+     "tiroler geröstel",
+     "tiroler groestl",
+     "gröstl",
+     "tiroler gröstel mit spiegelei"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "fried potatoes",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:X651013",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "beef, boiled",
+     "grams": 80,
+     "reference": "bls:Y180512"
+    },
+    {
+     "name": "onion",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "fried egg",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:Y710142",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "potatoes with egg",
+   "names": {
+    "en": "Fried potatoes with egg",
+    "de": "Bratkartoffeln mit Ei"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "potato",
+   "aliases": {
+    "en": [
+     "fried potatoes with egg",
+     "home fries with egg",
+     "potato and egg fry"
+    ],
+    "de": [
+     "bratkartoffeln mit rührei",
+     "bratkartoffeln ei",
+     "bratkartoffeln mit eiern",
+     "eierbratkartoffeln"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "fried potatoes",
+     "grams": 220,
+     "resolved": {
+      "id": "bls:X651013",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 60,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "potato croquettes",
+   "skip": "a single food (potato croquettes)"
+  },
+  {
+   "key": "potato croquettes with cheese",
+   "skip": "a single food (cheese potato croquettes)"
+  },
+  {
+   "key": "potato chips",
+   "skip": "a single food the vocabulary covers (french fries)"
+  },
+  {
+   "key": "potato pancakes",
+   "names": {
+    "en": "Potato pancakes",
+    "de": "Kartoffelpuffer"
+   },
+   "serving": {
+    "label": {
+     "en": "3 pancakes",
+     "de": "3 Puffer"
+    },
+    "count": 3
+   },
+   "artworkID": "pancakes",
+   "aliases": {
+    "en": [
+     "potato fritters",
+     "reibekuchen",
+     "latkes",
+     "german potato pancakes"
+    ],
+    "de": [
+     "reibekuchen",
+     "reibeplätzchen",
+     "kartoffelpfannkuchen",
+     "rievkooche",
+     "kartoffelpuffer gebraten",
+     "kartoffelpuffa"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "potato, raw",
+     "grams": 250,
+     "reference": "bls:K110100"
+    },
+    {
+     "name": "egg",
+     "grams": 30,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "wheat flour",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 35,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "potato pancakes rhenish with apple sauce and lingonberries",
+   "names": {
+    "en": "Rhenish potato pancakes with apple sauce and lingonberries",
+    "de": "Rheinische Reibekuchen mit Apfelmus und Preiselbeeren"
+   },
+   "serving": {
+    "label": {
+     "en": "3 pancakes",
+     "de": "3 Reibekuchen"
+    },
+    "count": 3
+   },
+   "artworkID": "pancakes",
+   "aliases": {
+    "en": [
+     "potato pancakes with apple sauce",
+     "reibekuchen with applesauce",
+     "potato pancakes with applesauce and lingonberries"
+    ],
+    "de": [
+     "reibekuchen mit apfelmus",
+     "kartoffelpuffer mit apfelmus",
+     "reibekuchen rheinisch",
+     "reibekuchen mit apfelmus und preiselbeeren",
+     "kartoffelpuffer mit apfelmus und preiselbeeren"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "potato, raw",
+     "grams": 230,
+     "reference": "bls:K110100"
+    },
+    {
+     "name": "egg",
+     "grams": 25,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "wheat flour",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 25,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 30,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "applesauce",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:Y864112",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lingonberry compote",
+     "grams": 25,
+     "reference": "bls:Y840563"
+    }
+   ]
+  },
+  {
+   "key": "potato vegetable cake",
+   "names": {
+    "en": "Potato and vegetable bake",
+    "de": "Kartoffel-Gemüse-Kuchen"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "potato",
+   "aliases": {
+    "en": [
+     "potato vegetable cake",
+     "potato vegetable bake",
+     "savoury potato cake with vegetables"
+    ],
+    "de": [
+     "kartoffel-gemüse-auflauf",
+     "kartoffelgemüsekuchen",
+     "herzhafter kartoffelkuchen mit gemüse",
+     "kartoffel gemüse kuchen"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "boiled potatoes",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "carrot",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:G620100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "leek",
+     "grams": 50,
+     "resolved": {
+      "id": "ciqual:20039",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 50,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "gouda",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:M402600",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "small potato burger with cheese",
+   "names": {
+    "en": "Potato cakes with cheese",
+    "de": "Kartoffelküchlein mit Käse"
+   },
+   "serving": {
+    "label": {
+     "en": "3 cakes",
+     "de": "3 Küchlein"
+    },
+    "count": 3
+   },
+   "artworkID": "pancakes",
+   "aliases": {
+    "en": [
+     "cheesy potato cakes",
+     "potato patties with cheese",
+     "fried potato cheese cakes"
+    ],
+    "de": [
+     "kartoffelküchle mit käse",
+     "käse-kartoffelküchlein",
+     "kartoffelplätzchen mit käse",
+     "kartoffellaibchen mit käse"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "boiled potatoes",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 25,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "wheat flour",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "gouda",
+     "grams": 35,
+     "resolved": {
+      "id": "bls:M402600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "bernese rosti grated potatoes",
+   "names": {
+    "en": "Bernese rösti",
+    "de": "Berner Rösti"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "potato",
+   "aliases": {
+    "en": [
+     "berner rösti",
+     "bernese rosti with bacon",
+     "swiss rösti with bacon and onion",
+     "berner rosti"
+    ],
+    "de": [
+     "berner roesti",
+     "rösti berner art",
+     "rösti mit speck",
+     "berner rösti mit speck und zwiebeln"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "hash browns",
+     "grams": 200,
+     "resolved": {
+      "id": "usda:2709483",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "smoked streaky bacon",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:W411300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "potato patties with onions",
+   "names": {
+    "en": "Potato patties with onions",
+    "de": "Kartoffelbratlinge mit Zwiebeln"
+   },
+   "serving": {
+    "label": {
+     "en": "3 patties",
+     "de": "3 Bratlinge"
+    },
+    "count": 3
+   },
+   "artworkID": "pancakes",
+   "aliases": {
+    "en": [
+     "potato patties",
+     "potato onion cakes",
+     "fried potato patties"
+    ],
+    "de": [
+     "kartoffelbratlinge",
+     "kartoffelfrikadellen",
+     "kartoffellaibchen",
+     "kartoffel bratlinge mit zwiebeln"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "boiled potatoes",
+     "grams": 160,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 25,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "wheat flour",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:C214100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 25,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "potato omelette",
+   "names": {
+    "en": "Potato omelette",
+    "de": "Kartoffelomelett"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "fried-egg",
+   "aliases": {
+    "en": [
+     "potato omelet",
+     "spanish omelette",
+     "tortilla de patatas",
+     "potato egg omelette"
+    ],
+    "de": [
+     "kartoffel-omelett",
+     "kartoffelomelette",
+     "tortilla española",
+     "spanisches omelett"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "boiled potatoes",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 120,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "olive oil",
+     "grams": 12,
+     "resolved": {
+      "id": "bls:Q120000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "schupfnudeln",
+   "skip": "a single food (potato noodles, like gnocchi)"
+  },
+  {
+   "key": "potato pudding",
+   "names": {
+    "en": "Potato pudding",
+    "de": "Kartoffelpudding"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "potato",
+   "aliases": {
+    "en": [
+     "baked potato pudding",
+     "potato souffle pudding",
+     "german potato pudding"
+    ],
+    "de": [
+     "kartoffel-pudding",
+     "kartoffelpudding gebacken",
+     "kartoffelauflauf süß",
+     "kartoffel pudding"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "boiled potatoes",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 50,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "breadcrumbs",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:B821000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "thuringian dumplings",
+   "skip": "a single food (potato dumplings)"
+  },
+  {
+   "key": "thuringian green dumplings",
+   "skip": "a single food (potato dumplings)"
+  },
+  {
+   "key": "potato dumplings from potatoes",
+   "skip": "a single food the vocabulary covers (potato dumplings)"
+  },
+  {
+   "key": "potato dumplings from potatoes with egg milk mix",
+   "names": {
+    "en": "Fried potato dumplings with egg",
+    "de": "Gebratene Kartoffelklöße mit Ei"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "potato",
+   "aliases": {
+    "en": [
+     "fried potato dumplings with egg",
+     "leftover dumplings fried with egg",
+     "potato dumplings fried in egg"
+    ],
+    "de": [
+     "gebratene klöße mit ei",
+     "kartoffelklöße gebraten mit eiermilch",
+     "gebratene knödel mit ei",
+     "knödel mit ei",
+     "geröstete knödel mit ei"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "potato dumplings",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:X673042",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 50,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "potato dumplings from raw potatoes",
+   "skip": "a single food (potato dumplings)"
+  },
+  {
+   "key": "wickelkloße wrapped potato dumplings from potatoes",
+   "names": {
+    "en": "Wickelklöße rolled potato dumplings",
+    "de": "Wickelklöße"
+   },
+   "serving": {
+    "label": {
+     "en": "2 slices",
+     "de": "2 Scheiben"
+    },
+    "count": 2
+   },
+   "artworkID": "potato",
+   "aliases": {
+    "en": [
+     "wickelkloesse",
+     "rolled potato dumplings",
+     "potato roulade with breadcrumbs"
+    ],
+    "de": [
+     "wickelkloesse",
+     "wickelkloß",
+     "wickelklösse",
+     "kartoffelwickel"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "potato dough",
+     "grams": 200,
+     "reference": "bls:X6A5000"
+    },
+    {
+     "name": "breadcrumbs",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:B821000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "potato dumplings",
+   "skip": "a single food (potato dumplings)"
+  },
+  {
+   "key": "potato squares filled with plums",
+   "names": {
+    "en": "Potato pockets filled with plums",
+    "de": "Kartoffeltaschen mit Pflaumen"
+   },
+   "serving": {
+    "label": {
+     "en": "3 pieces",
+     "de": "3 Stück"
+    },
+    "count": 3
+   },
+   "artworkID": "dumpling",
+   "aliases": {
+    "en": [
+     "potato maultaschen with plums",
+     "plum filled potato pockets",
+     "baked potato pockets with plums"
+    ],
+    "de": [
+     "kartoffelmaultaschen mit pflaumen",
+     "kartoffelmaultaschen gefüllt mit pflaumen",
+     "kartoffeltaschen mit zwetschgen",
+     "pflaumentaschen aus kartoffelteig"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "potato dough",
+     "grams": 150,
+     "reference": "bls:X6A5000"
+    },
+    {
+     "name": "plum",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:F220100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "breadcrumbs",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:B821000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "heaven and earth apple potato mash with bacon",
+   "names": {
+    "en": "Heaven and earth with bacon",
+    "de": "Himmel und Erde mit Speck"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "potato",
+   "aliases": {
+    "en": [
+     "heaven and earth",
+     "himmel und erde",
+     "apple potato mash with bacon"
+    ],
+    "de": [
+     "himmel un ääd",
+     "himmel und erde mit gebratenem speck",
+     "kartoffel-apfel-püree mit speck",
+     "himmel und äd"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "mashed potatoes",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:X634012",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "applesauce",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:Y864112",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "smoked streaky bacon",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:W411300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sautéed onion",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G480152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "heaven and earth apple potato mash with blood sausage",
+   "names": {
+    "en": "Heaven and earth with black pudding",
+    "de": "Himmel und Erde mit Blutwurst"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "potato",
+   "aliases": {
+    "en": [
+     "heaven and earth with blood sausage",
+     "apple potato mash with black pudding",
+     "himmel und erde with blood sausage"
+    ],
+    "de": [
+     "himmel und erde mit gebratener blutwurst",
+     "himmel un ääd mit blutwurst",
+     "himmel und erde mit flönz",
+     "kartoffel-apfel-püree mit blutwurst"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "mashed potatoes",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:X634012",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "applesauce",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:Y864112",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "blood sausage, fried",
+     "grams": 80,
+     "reference": "bls:Y024113"
+    },
+    {
+     "name": "sautéed onion",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G480152",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "lobscouse",
+   "names": {
+    "en": "Labskaus",
+    "de": "Labskaus"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "potato",
+   "aliases": {
+    "en": [
+     "lobscouse",
+     "labskaus with fried egg",
+     "north german labskaus"
+    ],
+    "de": [
+     "labskaus mit spiegelei",
+     "labskaus mit rote bete",
+     "lapskaus",
+     "labskaus norddeutsch"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "mashed potatoes",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:X634012",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "corned beef",
+     "grams": 80,
+     "reference": "bls:W520032"
+    },
+    {
+     "name": "cooked beetroot",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G613132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "pickles",
+     "grams": 30,
+     "resolved": {
+      "id": "usda:2710078",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "fried egg",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:Y710142",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "haricot bean puree",
+   "names": {
+    "en": "White bean puree",
+    "de": "Weißes Bohnenpüree"
+   },
+   "serving": {
+    "label": {
+     "en": "1 side portion",
+     "de": "1 Beilagenportion"
+    },
+    "count": 1
+   },
+   "artworkID": "beans",
+   "aliases": {
+    "en": [
+     "white bean puree",
+     "cannellini bean mash",
+     "haricot bean mash"
+    ],
+    "de": [
+     "weiße-bohnen-püree",
+     "bohnenpüree",
+     "weißes bohnenpüree",
+     "weisse bohnen püree"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "white beans",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:H740132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "olive oil",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:Q120000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "garlic",
+     "grams": 3,
+     "resolved": {
+      "id": "bls:G490100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "lemon juice",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:F601600",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "broccoli puree with milk 1 5 fat",
+   "names": {
+    "en": "Broccoli puree",
+    "de": "Brokkolipüree"
+   },
+   "serving": {
+    "label": {
+     "en": "1 side portion",
+     "de": "1 Beilagenportion"
+    },
+    "count": 1
+   },
+   "artworkID": "broccoli",
+   "aliases": {
+    "en": [
+     "broccoli mash",
+     "pureed broccoli",
+     "broccoli puree with milk"
+    ],
+    "de": [
+     "broccolipüree",
+     "brokkoli-püree",
+     "broccoli püree mit milch",
+     "brokkolimus"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked broccoli",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:G312132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "low-fat milk",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:M111200",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 3,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "pumpkin potato puree with milk 1 5 fat",
+   "names": {
+    "en": "Pumpkin and potato mash",
+    "de": "Kürbis-Kartoffel-Püree"
+   },
+   "serving": {
+    "label": {
+     "en": "1 side portion",
+     "de": "1 Beilagenportion"
+    },
+    "count": 1
+   },
+   "artworkID": "potato",
+   "aliases": {
+    "en": [
+     "pumpkin potato puree",
+     "mashed potatoes with pumpkin",
+     "squash and potato mash"
+    ],
+    "de": [
+     "kürbis-kartoffelpüree",
+     "kürbispüree mit kartoffeln",
+     "kürbis-kartoffel-stampf",
+     "kuerbis kartoffel pueree"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked butternut squash",
+     "grams": 120,
+     "resolved": {
+      "id": "ciqual:20141",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "boiled potatoes",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "low-fat milk",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:M111200",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 6,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "jacket potatoes",
+   "skip": "a single food the vocabulary covers (baked potato)"
+  },
+  {
+   "key": "potatoes with peel",
+   "skip": "a single food the vocabulary covers (boiled potatoes in their skins)"
+  },
+  {
+   "key": "sweet potato puree",
+   "skip": "baby food (salt-free puree for infants)"
+  },
+  {
+   "key": "potato souffle with bacon",
+   "names": {
+    "en": "Potato soufflé with bacon",
+    "de": "Kartoffelsoufflé mit Speck"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "potato",
+   "aliases": {
+    "en": [
+     "potato souffle with bacon",
+     "bacon potato souffle",
+     "baked potato souffle"
+    ],
+    "de": [
+     "kartoffelsouffle mit bacon",
+     "kartoffelsoufflé mit speck",
+     "kartoffel-soufflé mit bacon",
+     "kartoffelauflauf mit speck"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "mashed potatoes",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:X634012",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 60,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked bacon",
+     "grams": 25,
+     "resolved": {
+      "id": "usda:2705889",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "gouda",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:M402600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "heavy cream",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:M173800",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "potato souffle with broccoli",
+   "names": {
+    "en": "Potato soufflé with broccoli",
+    "de": "Kartoffelsoufflé mit Brokkoli"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "potato",
+   "aliases": {
+    "en": [
+     "potato souffle with broccoli",
+     "broccoli potato souffle",
+     "baked potato broccoli souffle"
+    ],
+    "de": [
+     "kartoffelsouffle mit broccoli",
+     "kartoffelsoufflé mit broccoli",
+     "kartoffel-brokkoli-soufflé",
+     "kartoffelauflauf mit brokkoli"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "mashed potatoes",
+     "grams": 130,
+     "resolved": {
+      "id": "bls:X634012",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked broccoli",
+     "grams": 70,
+     "resolved": {
+      "id": "bls:G312132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 60,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "gouda",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:M402600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "heavy cream",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:M173800",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "potatoes with ham sour cream and cheese",
+   "names": {
+    "en": "Ham potatoes with sour cream and cheese",
+    "de": "Schinkenkartoffeln mit saurer Sahne und Käse"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "potato",
+   "aliases": {
+    "en": [
+     "ham and potato bake",
+     "potatoes with ham and cheese",
+     "baked ham potatoes with sour cream"
+    ],
+    "de": [
+     "schinkenkartoffeln",
+     "schinken-kartoffeln überbacken",
+     "kartoffeln mit schinken und käse überbacken",
+     "schinkenkartoffeln mit käse"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "boiled potatoes",
+     "grams": 180,
+     "resolved": {
+      "id": "bls:K110132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked ham",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:W424000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sour cream",
+     "grams": 60,
+     "resolved": {
+      "id": "usda:2705614",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "gouda",
+     "grams": 45,
+     "resolved": {
+      "id": "bls:M402600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "cherry dumplings with sugar and cinnamon",
+   "names": {
+    "en": "Cherry dumplings with cinnamon sugar",
+    "de": "Kirschknödel mit Zimtzucker"
+   },
+   "serving": {
+    "label": {
+     "en": "2 dumplings",
+     "de": "2 Knödel"
+    },
+    "count": 2
+   },
+   "artworkID": "dumpling",
+   "aliases": {
+    "en": [
+     "cherry dumplings",
+     "sweet cherry dumplings",
+     "cherry knoedel"
+    ],
+    "de": [
+     "kirschknödel",
+     "kirschknödel mit zucker und zimt",
+     "kirschenknödel",
+     "kirschknoedel"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "potato dough",
+     "grams": 150,
+     "reference": "bls:X6A5000"
+    },
+    {
+     "name": "cherries",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:F211100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 12,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "breadcrumbs",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:B821000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cinnamon",
+     "grams": 1,
+     "resolved": {
+      "id": "ciqual:11025",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "plum dumplings with sugar and cinnamon",
+   "names": {
+    "en": "Plum dumplings with cinnamon sugar",
+    "de": "Zwetschgenknödel mit Zimtzucker"
+   },
+   "serving": {
+    "label": {
+     "en": "2 dumplings",
+     "de": "2 Knödel"
+    },
+    "count": 2
+   },
+   "artworkID": "dumpling",
+   "aliases": {
+    "en": [
+     "plum dumplings",
+     "zwetschgenknoedel",
+     "austrian plum dumplings",
+     "sweet plum dumplings"
+    ],
+    "de": [
+     "zwetschgenknödel",
+     "zwetschkenknödel",
+     "pflaumenknödel",
+     "zwetschgenknödel mit zucker und zimt",
+     "zwetschgen knödel"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "potato dough",
+     "grams": 150,
+     "reference": "bls:X6A5000"
+    },
+    {
+     "name": "plum",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:F220100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 12,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 12,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "breadcrumbs",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:B821000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cinnamon",
+     "grams": 1,
+     "resolved": {
+      "id": "ciqual:11025",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "fresh wholemeal egg pasta with almond pesto",
+   "names": {
+    "en": "Wholemeal pasta with almond pesto",
+    "de": "Vollkornnudeln mit Mandelpesto"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "pasta",
+   "aliases": {
+    "en": [
+     "wholewheat pasta with almond pesto",
+     "pasta with almond pesto",
+     "pesto trapanese pasta"
+    ],
+    "de": [
+     "vollkorn-eier-frischteigwaren mit mandelpesto",
+     "vollkornpasta mit mandelpesto",
+     "nudeln mit mandelpesto",
+     "pasta mit mandel-pesto"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked wholewheat pasta",
+     "grams": 220,
+     "resolved": {
+      "id": "bls:E500032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "almonds",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:H210100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "olive oil",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:Q120000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "parmesan",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:M306400",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "basil",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:G061000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "fresh wholemeal egg pasta with anchovy herb pesto",
+   "names": {
+    "en": "Wholemeal pasta with anchovy herb pesto",
+    "de": "Vollkornnudeln mit Sardellen-Kräuter-Pesto"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "pasta",
+   "aliases": {
+    "en": [
+     "pasta with anchovy pesto",
+     "wholewheat pasta with anchovies and herbs",
+     "anchovy herb pasta"
+    ],
+    "de": [
+     "vollkornpasta mit sardellenpesto",
+     "nudeln mit sardellen-kräuter-pesto",
+     "vollkorn-eier-frischteigwaren mit sardellen-kräuter-pesto",
+     "pasta mit sardellen und kräutern"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked wholewheat pasta",
+     "grams": 220,
+     "resolved": {
+      "id": "bls:E500032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "anchovies in oil",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:T104702",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "olive oil",
+     "grams": 12,
+     "resolved": {
+      "id": "bls:Q120000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "parsley",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2709796",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "parmesan",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:M306400",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "garlic",
+     "grams": 3,
+     "resolved": {
+      "id": "bls:G490100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "fresh wholemeal egg pasta with mixed vegetables",
+   "names": {
+    "en": "Wholemeal pasta with mixed vegetables",
+    "de": "Vollkornnudeln mit Kaisergemüse"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "pasta",
+   "aliases": {
+    "en": [
+     "wholewheat pasta with vegetables",
+     "pasta with mixed vegetables",
+     "wholegrain pasta primavera"
+    ],
+    "de": [
+     "vollkornnudeln mit gemüse",
+     "vollkorn-eier-frischteigwaren mit gedünstetem kaisergemüse",
+     "vollkornpasta mit gemüse",
+     "nudeln mit kaisergemüse"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked wholewheat pasta",
+     "grams": 180,
+     "resolved": {
+      "id": "bls:E500032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked mixed vegetables",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:G090132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "pasta egg free with pesto verde",
+   "skip": "duplicate of the pasta with pesto already in the catalogue"
+  },
+  {
+   "key": "pasta egg free with milk and raisins",
+   "names": {
+    "en": "Sweet milk noodles with raisins",
+    "de": "Milchnudeln mit Rosinen"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "noodles",
+   "aliases": {
+    "en": [
+     "milk noodles with raisins",
+     "sweet pasta in milk",
+     "noodles cooked in milk with raisins"
+    ],
+    "de": [
+     "milchnudeln",
+     "süße milchnudeln",
+     "milchnudeln mit rosinen und zucker",
+     "nudeln in milch"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked spaghetti",
+     "grams": 160,
+     "resolved": {
+      "id": "bls:E401032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sugar",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "raisins",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2709212",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "fresh egg pasta spaetzle with sauerkraut",
+   "names": {
+    "en": "Sauerkraut spaetzle",
+    "de": "Krautspätzle"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "pasta",
+   "aliases": {
+    "en": [
+     "spaetzle with sauerkraut",
+     "krautspaetzle",
+     "swabian sauerkraut spätzle",
+     "cabbage spaetzle"
+    ],
+    "de": [
+     "spätzle mit sauerkraut",
+     "krautspaetzle",
+     "kraut-spätzle",
+     "sauerkrautspätzle"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked fresh egg pasta",
+     "grams": 130,
+     "resolved": {
+      "id": "bls:E438032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sauerkraut",
+     "grams": 170,
+     "resolved": {
+      "id": "bls:G346100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 5,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "fresh egg pasta spaetzle with cheese",
+   "skip": "duplicate of the Käsespätzle already in the catalogue"
+  },
+  {
+   "key": "fresh egg pasta spaetzle with beef goulash",
+   "names": {
+    "en": "Beef goulash with spaetzle",
+    "de": "Gulasch mit Spätzle"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "pasta",
+   "aliases": {
+    "en": [
+     "goulash with spaetzle",
+     "spaetzle with goulash",
+     "beef goulash and spätzle"
+    ],
+    "de": [
+     "spätzle mit gulasch",
+     "rindergulasch mit spätzle",
+     "gulasch und spätzle",
+     "gulasch mit spaetzle"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked fresh egg pasta",
+     "grams": 180,
+     "resolved": {
+      "id": "bls:E438032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "braised beef",
+     "grams": 110,
+     "resolved": {
+      "id": "bls:U281142",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato paste",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:R160000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "paprika",
+     "grams": 3,
+     "resolved": {
+      "id": "ciqual:11049",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 6,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "beef stock",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:Y183013",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "casserole of pasta egg free with ham",
+   "names": {
+    "en": "Pasta bake with ham",
+    "de": "Nudelauflauf mit Schinken"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "pasta",
+   "aliases": {
+    "en": [
+     "ham pasta bake",
+     "pasta casserole with ham",
+     "baked pasta with ham and egg"
+    ],
+    "de": [
+     "nudelauflauf mit kochschinken",
+     "schinkennudelauflauf",
+     "nudel-schinken-auflauf",
+     "schinkennudeln überbacken"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked spaghetti",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:E401032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked ham",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:W424000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 50,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "heavy cream",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:M173800",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "gouda",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:M402600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "schinkenfleckerl",
+   "names": {
+    "en": "Schinkenfleckerl ham pasta bake",
+    "de": "Schinkenfleckerl"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "pasta",
+   "aliases": {
+    "en": [
+     "schinkenfleckerl",
+     "austrian ham pasta bake",
+     "ham and pasta squares"
+    ],
+    "de": [
+     "überbackene schinkenfleckerl",
+     "schinkenfleckerln",
+     "schinken fleckerl",
+     "fleckerl mit schinken"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked fresh egg pasta",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:E438032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked ham",
+     "grams": 70,
+     "resolved": {
+      "id": "bls:W424000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sour cream",
+     "grams": 50,
+     "resolved": {
+      "id": "usda:2705614",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 40,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "pasta egg free with sausage and eggs",
+   "names": {
+    "en": "Fried pasta with sausage and egg",
+    "de": "Gebratene Nudeln mit Fleischwurst und Ei"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "pasta",
+   "aliases": {
+    "en": [
+     "fried noodles with sausage and egg",
+     "pasta fried with bologna and egg",
+     "noodle fry with sausage"
+    ],
+    "de": [
+     "nudeln mit fleischwurst und ei",
+     "gebratene nudeln mit wurst und ei",
+     "nudelpfanne mit fleischwurst",
+     "teigwaren gebraten mit kochwurst und eiern"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked spaghetti",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:E401032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "bologna sausage",
+     "grams": 60,
+     "reference": "bls:W234032"
+    },
+    {
+     "name": "egg",
+     "grams": 60,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 8,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "pasta egg free with egg",
+   "names": {
+    "en": "Fried pasta with egg",
+    "de": "Gebratene Nudeln mit Ei"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "pasta",
+   "aliases": {
+    "en": [
+     "fried noodles with egg",
+     "pasta fried with egg",
+     "egg fried pasta"
+    ],
+    "de": [
+     "nudeln mit ei",
+     "eiernudeln gebraten",
+     "gebratene nudeln mit rührei",
+     "nudeln mit ei gebraten"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked spaghetti",
+     "grams": 220,
+     "resolved": {
+      "id": "bls:E401032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 60,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "pasta with ricotta and tomatoes with spinach",
+   "names": {
+    "en": "Pasta with ricotta, tomatoes and spinach",
+    "de": "Nudeln mit Ricotta, Tomaten und Spinat"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "pasta",
+   "aliases": {
+    "en": [
+     "lasagnette with ricotta and spinach",
+     "pasta with spinach and ricotta",
+     "ricotta spinach tomato pasta"
+    ],
+    "de": [
+     "lasagnette mit ricotta und spinat",
+     "pasta mit spinat und ricotta",
+     "nudeln mit spinat und ricotta",
+     "ricotta-spinat-nudeln mit tomaten"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked spaghetti",
+     "grams": 180,
+     "resolved": {
+      "id": "bls:E401032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "ricotta",
+     "grams": 50,
+     "resolved": {
+      "id": "cofid:12-176",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "canned tomatoes",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:G568900",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked spinach",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:G210132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "parmesan",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:M306400",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "olive oil",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:Q120000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "egg pasta with flakes of butter",
+   "skip": "a single food with butter (buttered noodles)"
+  },
+  {
+   "key": "egg pasta with tuna",
+   "names": {
+    "en": "Fried egg noodles with tuna",
+    "de": "Gebratene Eiernudeln mit Thunfisch"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "pasta",
+   "aliases": {
+    "en": [
+     "egg noodles with tuna",
+     "tuna noodles",
+     "pasta with tuna"
+    ],
+    "de": [
+     "eierteigwaren mit thunfisch",
+     "nudeln mit thunfisch",
+     "thunfischnudeln",
+     "bandnudeln mit thunfisch"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked egg noodles",
+     "grams": 180,
+     "resolved": {
+      "id": "bls:E432032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "canned tuna",
+     "grams": 70,
+     "resolved": {
+      "id": "usda:2706311",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 30,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:G561100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 5,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "pasta egg free tossed in oil with broccoli and anchovies",
+   "names": {
+    "en": "Pasta with broccoli and anchovies",
+    "de": "Nudeln mit Brokkoli und Sardellen"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "pasta",
+   "aliases": {
+    "en": [
+     "orecchiette with broccoli and anchovies",
+     "pasta broccoli anchovy",
+     "broccoli anchovy pasta"
+    ],
+    "de": [
+     "pasta mit brokkoli und sardellen",
+     "nudeln mit broccoli und sardellen",
+     "orecchiette mit brokkoli",
+     "brokkoli-sardellen-nudeln"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked spaghetti",
+     "grams": 180,
+     "resolved": {
+      "id": "bls:E401032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked broccoli",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:G312132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "anchovies in oil",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:T104702",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "olive oil",
+     "grams": 12,
+     "resolved": {
+      "id": "bls:Q120000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "garlic",
+     "grams": 3,
+     "resolved": {
+      "id": "bls:G490100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "red chili",
+     "grams": 2,
+     "resolved": {
+      "id": "bls:G554100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "pasta egg free with aubergines with tomatoes and ricotta",
+   "skip": "duplicate of the pasta alla Norma already in the catalogue"
+  },
+  {
+   "key": "egg pasta with four cheeses",
+   "names": {
+    "en": "Pasta with four cheeses",
+    "de": "Nudeln mit vier Käsesorten"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "pasta",
+   "aliases": {
+    "en": [
+     "pasta quattro formaggi",
+     "four cheese pasta",
+     "quattro formaggi noodles"
+    ],
+    "de": [
+     "pasta quattro formaggi",
+     "nudeln vier käse",
+     "vier-käse-nudeln",
+     "bandnudeln mit käsesauce",
+     "eierteigwaren mit vier käsesorten"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked egg noodles",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:E432032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "heavy cream",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:M173800",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "blue cheese",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2705705",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "parmesan",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:M306400",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "emmental",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:M304600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "mozzarella",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2705722",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "egg pasta with vegetables and egg",
+   "names": {
+    "en": "Fried egg noodles with vegetables and egg",
+    "de": "Gebratene Eiernudeln mit Gemüse und Ei"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "noodles",
+   "aliases": {
+    "en": [
+     "fried noodles with vegetables and egg",
+     "egg noodle vegetable stir fry",
+     "vegetable noodle pan with egg"
+    ],
+    "de": [
+     "nudelpfanne mit gemüse und ei",
+     "gebratene nudeln mit gemüse und ei",
+     "eiernudeln mit gemüse",
+     "gemüsenudeln mit ei"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked egg noodles",
+     "grams": 180,
+     "resolved": {
+      "id": "bls:E432032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked mixed vegetables",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:G090132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 50,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 8,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "pasta egg free with veal goulash",
+   "names": {
+    "en": "Veal goulash with pasta",
+    "de": "Kalbsgulasch mit Nudeln"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "pasta",
+   "aliases": {
+    "en": [
+     "pasta with veal goulash",
+     "veal goulash and noodles",
+     "veal stew with pasta"
+    ],
+    "de": [
+     "nudeln mit kalbsgulasch",
+     "kalbsgulasch und nudeln",
+     "teigwaren mit kalbsgulasch",
+     "kalbsgulasch mit teigwaren"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked spaghetti",
+     "grams": 160,
+     "resolved": {
+      "id": "bls:E401032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "veal goulash, braised",
+     "grams": 110,
+     "reference": "bls:U351142"
+    },
+    {
+     "name": "onion",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato paste",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:R160000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "paprika",
+     "grams": 2,
+     "resolved": {
+      "id": "ciqual:11049",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 5,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "beef stock",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:Y183013",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sour cream",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2705614",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "egg pasta with tomatoes and parsley",
+   "names": {
+    "en": "Egg noodles with tomatoes and parsley",
+    "de": "Eiernudeln mit Tomaten und Petersilie"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "pasta",
+   "aliases": {
+    "en": [
+     "noodles with stewed tomatoes",
+     "pasta with fresh tomatoes and parsley",
+     "tomato parsley noodles"
+    ],
+    "de": [
+     "nudeln mit tomaten und petersilie",
+     "bandnudeln mit tomaten",
+     "eierteigwaren mit gedünsteten tomaten",
+     "tomatennudeln"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked egg noodles",
+     "grams": 220,
+     "resolved": {
+      "id": "bls:E432032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato",
+     "grams": 120,
+     "resolved": {
+      "id": "bls:G561100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "olive oil",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:Q120000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "parsley",
+     "grams": 5,
+     "resolved": {
+      "id": "usda:2709796",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "egg pasta with porcini mushrooms and tomatoes",
+   "names": {
+    "en": "Egg noodles with porcini and tomatoes",
+    "de": "Eiernudeln mit Steinpilzen und Tomaten"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "pasta",
+   "aliases": {
+    "en": [
+     "pasta with porcini and tomatoes",
+     "porcini tomato pasta",
+     "tagliatelle with porcini"
+    ],
+    "de": [
+     "bandnudeln mit steinpilzen",
+     "nudeln mit steinpilzen und tomaten",
+     "tagliatelle mit steinpilzen",
+     "steinpilznudeln"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked egg noodles",
+     "grams": 180,
+     "resolved": {
+      "id": "bls:E432032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "porcini, stewed",
+     "grams": 80,
+     "reference": "bls:K718152"
+    },
+    {
+     "name": "tomato",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:G561100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "olive oil",
+     "grams": 6,
+     "resolved": {
+      "id": "bls:Q120000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "garlic",
+     "grams": 3,
+     "resolved": {
+      "id": "bls:G490100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "minced meat spinach filled pasta squares swabian style",
+   "names": {
+    "en": "Swabian Maultaschen",
+    "de": "Maultaschen"
+   },
+   "serving": {
+    "label": {
+     "en": "3 Maultaschen",
+     "de": "3 Maultaschen"
+    },
+    "count": 3
+   },
+   "artworkID": "dumpling",
+   "aliases": {
+    "en": [
+     "maultaschen",
+     "swabian ravioli",
+     "swabian pasta squares",
+     "meat and spinach maultaschen"
+    ],
+    "de": [
+     "schwäbische maultaschen",
+     "maultaschen schwäbische art",
+     "maultasche",
+     "herrgottsbscheißerle",
+     "maultaschen mit hackfleisch"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked egg noodles",
+     "grams": 90,
+     "resolved": {
+      "id": "bls:E432032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked mixed mince",
+     "grams": 45,
+     "resolved": {
+      "id": "bls:U050132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked spinach",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:G210132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "bread roll",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:B511000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "minced meat spinach filled pasta squares swabian style in butter",
+   "names": {
+    "en": "Maultaschen tossed in butter",
+    "de": "Maultaschen in Butter geschmälzt"
+   },
+   "serving": {
+    "label": {
+     "en": "3 Maultaschen",
+     "de": "3 Maultaschen"
+    },
+    "count": 3
+   },
+   "artworkID": "dumpling",
+   "aliases": {
+    "en": [
+     "maultaschen in butter",
+     "buttered maultaschen",
+     "pan-fried maultaschen in butter"
+    ],
+    "de": [
+     "geschmälzte maultaschen",
+     "maultaschen in butter geröstet",
+     "maultaschen in butter",
+     "geröstete maultaschen"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked egg noodles",
+     "grams": 90,
+     "resolved": {
+      "id": "bls:E432032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked mixed mince",
+     "grams": 45,
+     "resolved": {
+      "id": "bls:U050132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked spinach",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:G210132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "bread roll",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:B511000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "minced meat spinach filled pasta squares swabian style with onions",
+   "names": {
+    "en": "Maultaschen with fried onions",
+    "de": "Maultaschen mit Röstzwiebeln"
+   },
+   "serving": {
+    "label": {
+     "en": "3 Maultaschen",
+     "de": "3 Maultaschen"
+    },
+    "count": 3
+   },
+   "artworkID": "dumpling",
+   "aliases": {
+    "en": [
+     "maultaschen with onions",
+     "maultaschen with fried onions",
+     "maultaschen with caramelised onions"
+    ],
+    "de": [
+     "maultaschen mit gebratenen zwiebeln",
+     "maultaschen mit zwiebeln",
+     "geschmälzte maultaschen mit zwiebeln",
+     "maultaschen mit zwiebelschmelze"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked egg noodles",
+     "grams": 90,
+     "resolved": {
+      "id": "bls:E432032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked mixed mince",
+     "grams": 45,
+     "resolved": {
+      "id": "bls:U050132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked spinach",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:G210132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "bread roll",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:B511000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sautéed onion",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:G480152",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "minced meat spinach filled pasta squares swabian style with egg",
+   "names": {
+    "en": "Fried Maultaschen with egg",
+    "de": "Maultaschen mit Ei"
+   },
+   "serving": {
+    "label": {
+     "en": "3 Maultaschen",
+     "de": "3 Maultaschen"
+    },
+    "count": 3
+   },
+   "artworkID": "dumpling",
+   "aliases": {
+    "en": [
+     "maultaschen with egg",
+     "fried maultaschen with egg",
+     "maultaschen and scrambled egg"
+    ],
+    "de": [
+     "maultaschen gebraten mit ei",
+     "geröstete maultaschen mit ei",
+     "maultaschen mit rührei",
+     "maultaschen in ei gebraten"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked egg noodles",
+     "grams": 90,
+     "resolved": {
+      "id": "bls:E432032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked mixed mince",
+     "grams": 45,
+     "resolved": {
+      "id": "bls:U050132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked spinach",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:G210132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "bread roll",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:B511000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 75,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 10,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "pasta egg free with egg sweet pepper and chicken",
+   "names": {
+    "en": "Fried pasta with chicken, pepper and egg",
+    "de": "Nudelpfanne mit Hähnchen, Paprika und Ei"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "pasta",
+   "aliases": {
+    "en": [
+     "chicken pepper noodle pan",
+     "fried pasta with chicken and egg",
+     "chicken noodle stir fry with pepper"
+    ],
+    "de": [
+     "nudeln mit hähnchen und paprika",
+     "teigwaren gebraten mit ei, paprika und hähnchenfleisch",
+     "hähnchen-nudel-pfanne",
+     "nudelpfanne mit hähnchen"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked spaghetti",
+     "grams": 180,
+     "resolved": {
+      "id": "bls:E401032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked chicken breast",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:V416132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "red bell pepper",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:G543100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 40,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 8,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "pudding of pasta egg free with ham",
+   "names": {
+    "en": "Baked noodle pudding with ham",
+    "de": "Nudelpudding mit Schinken"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "pasta",
+   "aliases": {
+    "en": [
+     "noodle pudding with ham",
+     "ham noodle pudding",
+     "baked pasta pudding"
+    ],
+    "de": [
+     "nudelpudding mit kochschinken",
+     "schinkennudelpudding",
+     "nudelpudding",
+     "nudel-schinken-pudding"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked spaghetti",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:E401032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked ham",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:W424000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 60,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "whole milk",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "butter",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:Q611000",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "gratin of egg pasta and spinach",
+   "names": {
+    "en": "Egg noodle and spinach gratin",
+    "de": "Nudel-Spinat-Gratin"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "pasta",
+   "aliases": {
+    "en": [
+     "spinach pasta bake",
+     "pasta and spinach gratin",
+     "spinach noodle casserole"
+    ],
+    "de": [
+     "gratin aus eierteigwaren und spinat",
+     "spinat-nudel-auflauf",
+     "nudelauflauf mit spinat",
+     "nudel spinat gratin"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked egg noodles",
+     "grams": 180,
+     "resolved": {
+      "id": "bls:E432032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked spinach",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:G210132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "heavy cream",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:M173800",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "gouda",
+     "grams": 35,
+     "resolved": {
+      "id": "bls:M402600",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 25,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "fresh egg pasta ravioli filled with beef mince",
+   "names": {
+    "en": "Beef ravioli",
+    "de": "Ravioli mit Rinderhackfüllung"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "pasta",
+   "aliases": {
+    "en": [
+     "beef ravioli",
+     "ravioli with meat filling",
+     "meat ravioli"
+    ],
+    "de": [
+     "rinderravioli",
+     "fleischravioli",
+     "ravioli mit fleischfüllung",
+     "ravioli gefüllt mit rinderhackfleisch"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked egg noodles",
+     "grams": 130,
+     "resolved": {
+      "id": "bls:E432032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked ground beef",
+     "grams": 45,
+     "resolved": {
+      "id": "bls:U010182",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "egg",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2707152",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "parmesan",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:M306400",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "fresh egg pasta ravioli vegetarian filled with asparagus and ricotta",
+   "names": {
+    "en": "Asparagus and ricotta ravioli",
+    "de": "Ravioli mit Spargel-Ricotta-Füllung"
+   },
+   "serving": {
+    "label": {
+     "en": "1 plate",
+     "de": "1 Teller"
+    },
+    "count": 1
+   },
+   "artworkID": "pasta",
+   "aliases": {
+    "en": [
+     "asparagus ravioli",
+     "ricotta asparagus ravioli",
+     "vegetarian ravioli with asparagus"
+    ],
+    "de": [
+     "spargelravioli",
+     "ravioli mit spargel und ricotta",
+     "spargel-ricotta-ravioli",
+     "vegetarische ravioli mit spargel"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked egg noodles",
+     "grams": 130,
+     "resolved": {
+      "id": "bls:E432032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "ricotta",
+     "grams": 40,
+     "resolved": {
+      "id": "cofid:12-176",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked asparagus",
+     "grams": 50,
+     "resolved": {
+      "id": "bls:G450132",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "parmesan",
+     "grams": 6,
+     "resolved": {
+      "id": "bls:M306400",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "rice pudding sweetened with milk 3 5 fat raisins and pistachios",
+   "names": {
+    "en": "Rice pudding with raisins and pistachios",
+    "de": "Milchreis mit Rosinen und Pistazien"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "custard",
+   "aliases": {
+    "en": [
+     "rice pudding with raisins",
+     "rice pudding with pistachios",
+     "milk rice with raisins and pistachios"
+    ],
+    "de": [
+     "milchreis mit rosinen",
+     "milchreis mit pistazien",
+     "milchreis rosinen pistazien",
+     "milchreis gesüßt mit rosinen und pistazien"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "whole milk",
+     "grams": 240,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "white rice, raw",
+     "grams": 60,
+     "reference": "bls:C352000"
+    },
+    {
+     "name": "sugar",
+     "grams": 12,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "raisins",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2709212",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "pistachios",
+     "grams": 8,
+     "resolved": {
+      "id": "bls:H250100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "rice pudding sweetened with milk 3 5 fat",
+   "names": {
+    "en": "Rice pudding",
+    "de": "Milchreis"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "custard",
+   "aliases": {
+    "en": [
+     "rice pudding",
+     "milk rice",
+     "creamy rice pudding",
+     "sweet rice pudding"
+    ],
+    "de": [
+     "milchreis gesüßt",
+     "milchreisbrei",
+     "süßer milchreis",
+     "milchreis mit vollmilch",
+     "reisbrei"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "whole milk",
+     "grams": 240,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "white rice, raw",
+     "grams": 60,
+     "reference": "bls:C352000"
+    },
+    {
+     "name": "sugar",
+     "grams": 12,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "rice pudding sweetened with milk 3 5 fat browned butter sugar and cinnamon",
+   "skip": "duplicate of the rice pudding with cinnamon sugar in this batch"
+  },
+  {
+   "key": "rice pudding sweetened with milk 3 5 fat sugar and cinnamon",
+   "names": {
+    "en": "Rice pudding with cinnamon sugar",
+    "de": "Milchreis mit Zimt und Zucker"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "custard",
+   "aliases": {
+    "en": [
+     "rice pudding with cinnamon",
+     "cinnamon sugar rice pudding",
+     "milk rice with cinnamon and sugar"
+    ],
+    "de": [
+     "milchreis mit zimt",
+     "milchreis mit zimtzucker",
+     "milchreis zimt und zucker",
+     "milchreis mit zucker und zimt"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "whole milk",
+     "grams": 240,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "white rice, raw",
+     "grams": 60,
+     "reference": "bls:C352000"
+    },
+    {
+     "name": "sugar",
+     "grams": 20,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cinnamon",
+     "grams": 1,
+     "resolved": {
+      "id": "ciqual:11025",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "rice pudding sweetened with milk 3 5 fat and fruit mix",
+   "names": {
+    "en": "Rice pudding with fruit",
+    "de": "Milchreis mit Früchten"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "custard",
+   "aliases": {
+    "en": [
+     "rice pudding with fruit",
+     "fruit rice pudding",
+     "milk rice with mixed fruit"
+    ],
+    "de": [
+     "milchreis mit obst",
+     "milchreis mit fruchtmischung",
+     "milchreis mit früchten",
+     "milchreis mit obstsalat"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "whole milk",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "white rice, raw",
+     "grams": 50,
+     "reference": "bls:C352000"
+    },
+    {
+     "name": "sugar",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "peach",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:F203100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "pineapple",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:F501100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "grapes",
+     "grams": 20,
+     "resolved": {
+      "id": "bls:F310100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "rice pudding sweetened with milk 3 5 fat and berry mix",
+   "names": {
+    "en": "Rice pudding with berries",
+    "de": "Milchreis mit Beeren"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "custard",
+   "aliases": {
+    "en": [
+     "rice pudding with berries",
+     "berry rice pudding",
+     "milk rice with mixed berries"
+    ],
+    "de": [
+     "milchreis mit beerenmischung",
+     "milchreis mit beeren",
+     "beeren-milchreis",
+     "milchreis mit waldbeeren"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "whole milk",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "white rice, raw",
+     "grams": 50,
+     "reference": "bls:C352000"
+    },
+    {
+     "name": "sugar",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "mixed berries",
+     "grams": 100,
+     "resolved": {
+      "id": "bls:F092100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "rice pudding sweetened with milk 3 5 fat and raisins",
+   "skip": "duplicate of the rice pudding with raisins and pistachios in this batch"
+  },
+  {
+   "key": "rice porridge sweetened with milk 3 5 fat",
+   "skip": "duplicate of the rice pudding in this batch"
+  },
+  {
+   "key": "apple rice with milk 3 5 fat",
+   "names": {
+    "en": "Apple rice pudding",
+    "de": "Apfelreis"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "apple",
+   "aliases": {
+    "en": [
+     "apple rice",
+     "rice pudding with apple",
+     "apple milk rice"
+    ],
+    "de": [
+     "apfel-milchreis",
+     "milchreis mit apfel",
+     "apfelreis mit milch",
+     "milchreis mit äpfeln"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "whole milk",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "white rice, raw",
+     "grams": 45,
+     "reference": "bls:C352000"
+    },
+    {
+     "name": "sugar",
+     "grams": 10,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "apple",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:F110100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cinnamon",
+     "grams": 1,
+     "resolved": {
+      "id": "ciqual:11025",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "rice pudding trauttmansdorff",
+   "names": {
+    "en": "Rice Trauttmansdorff",
+    "de": "Reis Trauttmansdorff"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "custard",
+   "aliases": {
+    "en": [
+     "rice trauttmansdorff",
+     "riz trauttmansdorff",
+     "cold rice pudding with cream and fruit"
+    ],
+    "de": [
+     "reis trautmannsdorf",
+     "reis à la trauttmansdorff",
+     "trauttmansdorff reis",
+     "reis trauttmansdorf"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "whole milk",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "white rice, raw",
+     "grams": 35,
+     "reference": "bls:C352000"
+    },
+    {
+     "name": "sugar",
+     "grams": 15,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "heavy cream",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:M173800",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "gelatine",
+     "grams": 2,
+     "resolved": {
+      "id": "bls:R468000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "mixed berries",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:F092100",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "kaiserreis",
+   "names": {
+    "en": "Kaiserreis rice pudding with cherries",
+    "de": "Kaiserreis"
+   },
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "artworkID": "cherries",
+   "aliases": {
+    "en": [
+     "kaiserreis",
+     "emperor rice",
+     "rice pudding with cream and sour cherries"
+    ],
+    "de": [
+     "kaiser reis",
+     "kaiserreis mit sauerkirschen",
+     "milchreis mit sahne und kirschen",
+     "kaiserreis mit kirschen"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "whole milk",
+     "grams": 150,
+     "resolved": {
+      "id": "bls:M111300",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "white rice, raw",
+     "grams": 35,
+     "reference": "bls:C352000"
+    },
+    {
+     "name": "sugar",
+     "grams": 12,
+     "resolved": {
+      "id": "usda:2710258",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "heavy cream",
+     "grams": 40,
+     "resolved": {
+      "id": "bls:M173800",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "sour cherry compote",
+     "grams": 60,
+     "reference": "bls:Y841363"
+    }
+   ]
+  },
+  {
+   "key": "rice",
+   "skip": "a single food the vocabulary covers (cooked white rice)"
+  },
+  {
+   "key": "buttered rice",
+   "skip": "a single food with butter (buttered rice)"
+  },
+  {
+   "key": "rice with sweet peppers",
+   "names": {
+    "en": "Rice with peppers",
+    "de": "Paprikareis"
+   },
+   "serving": {
+    "label": {
+     "en": "1 side portion",
+     "de": "1 Beilagenportion"
+    },
+    "count": 1
+   },
+   "artworkID": "rice",
+   "aliases": {
+    "en": [
+     "pepper rice",
+     "rice with sweet peppers",
+     "bell pepper rice"
+    ],
+    "de": [
+     "reis mit paprika",
+     "reis mit gedünsteter paprika",
+     "paprika-reis",
+     "gemüsereis mit paprika"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked white rice",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:C352032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "red bell pepper",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:G543100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 3,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "rice with button mushrooms",
+   "names": {
+    "en": "Mushroom rice",
+    "de": "Champignonreis"
+   },
+   "serving": {
+    "label": {
+     "en": "1 side portion",
+     "de": "1 Beilagenportion"
+    },
+    "count": 1
+   },
+   "artworkID": "rice",
+   "aliases": {
+    "en": [
+     "rice with mushrooms",
+     "button mushroom rice",
+     "mushroom rice side"
+    ],
+    "de": [
+     "reis mit champignons",
+     "pilzreis",
+     "reis mit gedünsteten champignons",
+     "champignon-reis"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked white rice",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:C352032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "cooked mushrooms",
+     "grams": 60,
+     "resolved": {
+      "id": "bls:K701172",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "onion",
+     "grams": 15,
+     "resolved": {
+      "id": "bls:G480100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 3,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "rice with tomatoes",
+   "names": {
+    "en": "Tomato rice",
+    "de": "Tomatenreis"
+   },
+   "serving": {
+    "label": {
+     "en": "1 side portion",
+     "de": "1 Beilagenportion"
+    },
+    "count": 1
+   },
+   "artworkID": "rice",
+   "aliases": {
+    "en": [
+     "rice with tomatoes",
+     "tomato rice side",
+     "rice with stewed tomatoes"
+    ],
+    "de": [
+     "reis mit tomaten",
+     "reis mit gedünsteten tomaten",
+     "tomaten-reis",
+     "reis mit tomatenmark"
+    ]
+   },
+   "ingredients": [
+    {
+     "name": "cooked white rice",
+     "grams": 200,
+     "resolved": {
+      "id": "bls:C352032",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato",
+     "grams": 80,
+     "resolved": {
+      "id": "bls:G561100",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "tomato paste",
+     "grams": 5,
+     "resolved": {
+      "id": "bls:R160000",
+      "via": "lexicon"
+     }
+    },
+    {
+     "name": "vegetable oil",
+     "grams": 3,
+     "resolved": {
+      "id": "usda:2710180",
+      "via": "lexicon"
+     }
+    }
+   ]
+  },
+  {
+   "key": "rice with tomato paste",
+   "skip": "duplicate of the tomato rice in this batch"
+  }
+ ]
+}

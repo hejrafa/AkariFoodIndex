@@ -1,0 +1,3766 @@
+{
+ "batch": 3,
+ "identities": [
+  {
+   "key": "baked beans",
+   "names": [
+    "baked beans",
+    "beans in tomato sauce",
+    "canned baked beans",
+    "weiße bohnen in tomatensauce"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "cofid:13-532",
+     "name": "Baked beans, canned in tomato sauce"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "refried beans",
+   "names": [
+    "refried beans",
+    "frijoles refritos"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2707396",
+     "name": "Refried beans"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2707396",
+     "label": "1 cup",
+     "grams": 260
+    }
+   ]
+  },
+  {
+   "key": "edamame",
+   "names": [
+    "edamame",
+    "cooked edamame",
+    "soybeans in pods",
+    "green soybeans",
+    "edamame cooked",
+    "edamame gekocht"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2707436",
+     "name": "Edamame, cooked"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2707436",
+     "label": "1 pod, yields",
+     "grams": 2
+    },
+    {
+     "reference": "usda:2707436",
+     "label": "1 cup",
+     "grams": 160
+    }
+   ]
+  },
+  {
+   "key": "sourdough bread",
+   "names": [
+    "sourdough bread",
+    "sourdough",
+    "wheat rye bread",
+    "weizenmischbrot",
+    "country bread",
+    "mixed wheat bread"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:B251000",
+     "name": "Wheat-rye bread (> 50 % and < 90 % wheat)"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "baguette",
+   "names": [
+    "baguette",
+    "french bread",
+    "french baguette",
+    "baguette bread"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:B781200",
+     "name": "Wheat baguette"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "ciabatta",
+   "names": [
+    "ciabatta",
+    "ciabatta bread",
+    "ciabatta roll"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "cofid:11-969",
+     "name": "Bread, ciabatta"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "burger bun",
+   "names": [
+    "burger bun",
+    "hamburger bun",
+    "burger buns",
+    "hamburger roll",
+    "slider bun",
+    "burgerbrotchen"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2707657",
+     "name": "Roll, white, hamburger bun"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2707657",
+     "label": "1 miniature/small hamburger bun",
+     "grams": 28
+    },
+    {
+     "reference": "usda:2707657",
+     "label": "1 hamburger bun",
+     "grams": 52
+    }
+   ]
+  },
+  {
+   "key": "hot dog bun",
+   "names": [
+    "hot dog bun",
+    "hot dog roll",
+    "hot dog buns",
+    "frankfurter roll",
+    "hotdog brotchen"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2707656",
+     "name": "Roll, white, hot dog bun"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2707656",
+     "label": "1 hot dog bun",
+     "grams": 45
+    },
+    {
+     "reference": "usda:2707656",
+     "label": "1 foot long hot dog bun",
+     "grams": 83
+    }
+   ]
+  },
+  {
+   "key": "sub roll",
+   "names": [
+    "sub roll",
+    "hoagie roll",
+    "submarine roll",
+    "sandwich roll",
+    "hero roll",
+    "sub brotchen"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2707663",
+     "name": "Roll, white, hoagie, submarine"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2707663",
+     "label": "1 small (5-1/2\" long)",
+     "grams": 73
+    },
+    {
+     "reference": "usda:2707663",
+     "label": "1 medium (8\" long)",
+     "grams": 106
+    },
+    {
+     "reference": "usda:2707663",
+     "label": "1 large (11-1/2\" long)",
+     "grams": 153
+    }
+   ]
+  },
+  {
+   "key": "brioche",
+   "names": [
+    "brioche",
+    "brioche bun",
+    "brioche bread"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2707682",
+     "name": "Brioche"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2707682",
+     "label": "1 piece",
+     "grams": 77
+    }
+   ]
+  },
+  {
+   "key": "flatbread",
+   "names": [
+    "flatbread",
+    "turkish flatbread",
+    "fladenbrot",
+    "pide",
+    "turkish bread"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:B782100",
+     "name": "Wheat flatbread"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "naan",
+   "names": [
+    "naan",
+    "naan bread",
+    "nan bread",
+    "garlic naan",
+    "naan brot"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2707613",
+     "name": "Bread, naan"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2707613",
+     "label": "1 piece (1/4 of 10\" dia)",
+     "grams": 44
+    },
+    {
+     "reference": "usda:2707613",
+     "label": "1 Naan (10\" dia)",
+     "grams": 177
+    },
+    {
+     "reference": "usda:2707613",
+     "label": "1 surface inch",
+     "grams": 2.4
+    }
+   ]
+  },
+  {
+   "key": "chapati",
+   "names": [
+    "chapati",
+    "roti",
+    "chapatti",
+    "phulka"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "cofid:11-459",
+     "name": "Chapatis, made without fat"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "corn tortilla",
+   "names": [
+    "corn tortilla",
+    "corn tortillas",
+    "maize tortilla",
+    "soft taco tortilla",
+    "maistortilla"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2707823",
+     "name": "Tortilla, corn"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2707823",
+     "label": "1 small",
+     "grams": 18
+    },
+    {
+     "reference": "usda:2707823",
+     "label": "1 medium",
+     "grams": 28
+    },
+    {
+     "reference": "usda:2707823",
+     "label": "1 large",
+     "grams": 44
+    },
+    {
+     "reference": "usda:2707823",
+     "label": "1 extra large",
+     "grams": 65
+    }
+   ]
+  },
+  {
+   "key": "tortilla chips",
+   "names": [
+    "tortilla chips",
+    "nacho chips",
+    "totopos",
+    "tortillachips"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2708202",
+     "name": "Tortilla chips, plain"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2708202",
+     "label": "1 chip",
+     "grams": 3
+    },
+    {
+     "reference": "usda:2708202",
+     "label": "1 small single serving bag",
+     "grams": 28
+    },
+    {
+     "reference": "usda:2708202",
+     "label": "1 medium single serving bag",
+     "grams": 57
+    },
+    {
+     "reference": "usda:2708202",
+     "label": "1 large single serving bag",
+     "grams": 85
+    },
+    {
+     "reference": "usda:2708202",
+     "label": "1 100 calorie package",
+     "grams": 20
+    },
+    {
+     "reference": "usda:2708202",
+     "label": "1 cup",
+     "grams": 30
+    }
+   ]
+  },
+  {
+   "key": "breadcrumbs",
+   "names": [
+    "breadcrumbs",
+    "bread crumbs",
+    "dried breadcrumbs",
+    "panko",
+    "panko breadcrumbs",
+    "semmelbrosel",
+    "paniermehl"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:B821000",
+     "name": "Bread crumbs"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "croutons",
+   "names": [
+    "croutons",
+    "crouton",
+    "bread croutons"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2707697",
+     "name": "Croutons"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2707697",
+     "label": "1 cup",
+     "grams": 40
+    },
+    {
+     "reference": "usda:2707697",
+     "label": "1 fast food package",
+     "grams": 12
+    },
+    {
+     "reference": "usda:2707697",
+     "label": "4 cubes",
+     "grams": 1
+    }
+   ]
+  },
+  {
+   "key": "pizza dough",
+   "names": [
+    "pizza dough",
+    "pizza base",
+    "raw pizza dough",
+    "pizzateig",
+    "pizza crust dough"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:X9A6030",
+     "name": "Yeast dough for pizza/pizza dough, raw"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "puff pastry",
+   "names": [
+    "puff pastry",
+    "blatterteig",
+    "puff pastry sheet",
+    "rough puff pastry"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:D072000",
+     "name": "Puff pastry egg-free, raw"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "filo pastry",
+   "names": [
+    "filo pastry",
+    "phyllo",
+    "phyllo dough",
+    "filo",
+    "yufka",
+    "strudel dough",
+    "filoteig"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "ciqual:23445",
+     "name": "Pâte phyllo ou pâte filo, crue"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "chickpea flour",
+   "names": [
+    "chickpea flour",
+    "gram flour",
+    "besan",
+    "kichererbsenmehl"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:H720400",
+     "name": "Chickpea flour"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "granola",
+   "names": [
+    "granola",
+    "crunchy granola",
+    "knuspermusli",
+    "crunchy muesli"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:X0A3000",
+     "name": "Crunchy muesli (granola) sweetened, baked"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "grilled chicken breast",
+   "names": [
+    "grilled chicken breast",
+    "grilled chicken",
+    "chargrilled chicken breast",
+    "bbq chicken breast",
+    "chicken breast grilled",
+    "hahnchenbrust gegrillt"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:V4A6172",
+     "name": "Chicken breast, without skin, grilled"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "pan fried chicken breast",
+   "names": [
+    "pan fried chicken breast",
+    "fried chicken breast",
+    "sauteed chicken breast",
+    "seared chicken breast",
+    "chicken breast fillet fried",
+    "chicken breast pan fried",
+    "hahnchenbrust gebraten"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:Y562032",
+     "name": "Chicken breast fillet fried"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "cooked chicken thigh",
+   "names": [
+    "cooked chicken thigh",
+    "chicken thighs",
+    "chicken thigh",
+    "boneless chicken thigh",
+    "skinless chicken thigh",
+    "chicken thigh fillet",
+    "chicken thigh cooked",
+    "hahnchenschenkel gegart"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2706044",
+     "name": "Chicken thigh, sauteed, skin not eaten"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2706044",
+     "label": "1 cup, cooked, diced",
+     "grams": 135
+    },
+    {
+     "reference": "usda:2706044",
+     "label": "1 small thigh",
+     "grams": 65
+    },
+    {
+     "reference": "usda:2706044",
+     "label": "1 medium thigh",
+     "grams": 70
+    },
+    {
+     "reference": "usda:2706044",
+     "label": "1 large thigh",
+     "grams": 90
+    },
+    {
+     "reference": "usda:2706044",
+     "label": "1 thigh, NS as to size",
+     "grams": 70
+    },
+    {
+     "reference": "usda:2706044",
+     "label": "1 oz, cooked",
+     "grams": 28.35
+    }
+   ]
+  },
+  {
+   "key": "roast chicken",
+   "names": [
+    "roast chicken",
+    "roasted chicken",
+    "rotisserie chicken",
+    "whole roast chicken",
+    "brathahnchen",
+    "half chicken"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:Y560322",
+     "name": "Chicken fried in oven (roast chicken)"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "breaded chicken breast",
+   "names": [
+    "breaded chicken breast",
+    "chicken schnitzel",
+    "chicken katsu",
+    "crispy chicken",
+    "breaded chicken",
+    "chicken cutlet breaded",
+    "fried chicken",
+    "chicken tenders",
+    "chicken breast breaded",
+    "hahnchenbrust paniert"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:Y591112",
+     "name": "Chicken breast fillet breaded, fried"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "chicken nuggets",
+   "names": [
+    "chicken nuggets",
+    "nuggets",
+    "chicken nugget"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2706096",
+     "name": "Chicken nuggets, from frozen"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2706096",
+     "label": "1 nugget",
+     "grams": 16
+    },
+    {
+     "reference": "usda:2706096",
+     "label": "1 cup",
+     "grams": 140
+    }
+   ]
+  },
+  {
+   "key": "chicken doner meat",
+   "names": [
+    "chicken doner meat",
+    "doner meat",
+    "doner",
+    "kebab meat",
+    "doner kebab meat",
+    "chicken shawarma",
+    "shawarma meat",
+    "hahnchen donerfleisch"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:V422072",
+     "name": "Poultry kebab meat, grilled"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "turkey deli slices",
+   "names": [
+    "turkey deli slices",
+    "sliced turkey",
+    "turkey cold cuts",
+    "deli turkey",
+    "turkey slices",
+    "putenaufschnitt"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2706215",
+     "name": "Turkey, prepackaged or deli, luncheon meat"
+    },
+    {
+     "id": "cofid:19-543",
+     "name": "Turkey slices"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2706215",
+     "label": "1 slice, NFS",
+     "grams": 28
+    },
+    {
+     "reference": "usda:2706215",
+     "label": "1 cup, pieces",
+     "grams": 140
+    }
+   ]
+  },
+  {
+   "key": "roast duck",
+   "names": [
+    "roast duck",
+    "roasted duck",
+    "peking duck",
+    "crispy duck",
+    "duck meat",
+    "roast duck meat only",
+    "entenbraten ohne haut"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "cofid:18-372",
+     "name": "Duck, roasted, meat only"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "beef steak pan fried",
+   "names": [
+    "beef steak pan fried",
+    "steak",
+    "beef steak",
+    "sirloin steak",
+    "rib eye steak",
+    "ribeye",
+    "cooked steak",
+    "pan fried steak",
+    "strip steak",
+    "rump steak",
+    "grilled steak",
+    "chargrilled steak",
+    "grilled beef steak",
+    "rindersteak gebraten"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:U131182",
+     "name": "Beef steak (loin) fried without fat (pan)"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "thinly sliced beef",
+   "names": [
+    "thinly sliced beef",
+    "shaved beef",
+    "beef strips raw",
+    "bulgogi beef",
+    "sukiyaki beef",
+    "raw beef",
+    "thinly sliced beef raw",
+    "rindfleisch dunn geschnitten roh"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:U131100",
+     "name": "Beef steak (loin) raw"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "raw ground beef",
+   "names": [
+    "raw ground beef",
+    "raw beef mince",
+    "uncooked ground beef",
+    "raw minced beef",
+    "ground beef raw",
+    "rinderhackfleisch roh"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:U010100",
+     "name": "Beef mince, raw"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "beef patty",
+   "names": [
+    "beef patty",
+    "burger patty",
+    "hamburger patty",
+    "beef burger patty",
+    "grilled burger patty",
+    "smash patty",
+    "beef patty grilled",
+    "rindfleisch patty gegrillt"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:U013172",
+     "name": "Beef patty, grilled"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "meatballs",
+   "names": [
+    "meatballs",
+    "meatball",
+    "fried meatballs",
+    "frikadellen",
+    "frikadelle",
+    "beef meatballs",
+    "pork meatballs",
+    "meatballs fried",
+    "fleischballchen gebraten"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:Y036122",
+     "name": "Meatballs fried"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "roast beef",
+   "names": [
+    "roast beef",
+    "roast beef slices",
+    "sliced roast beef",
+    "roastbeef"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:Y131132",
+     "name": "Roast beef fried in oven, without sauce"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "braised beef",
+   "names": [
+    "braised beef",
+    "stewing beef",
+    "beef stew meat",
+    "beef chuck braised",
+    "pot roast",
+    "beef for goulash",
+    "beef brisket braised",
+    "beef cubes cooked",
+    "beef braised",
+    "rindfleisch geschmort"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:U281142",
+     "name": "Beef round, braised without fat"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "roast pork",
+   "names": [
+    "roast pork",
+    "pork roast",
+    "schweinebraten",
+    "roasted pork shoulder",
+    "pulled pork",
+    "roast pork loin"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:Y352212",
+     "name": "Pork roast without sauce"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "cooked pork belly",
+   "names": [
+    "cooked pork belly",
+    "pork belly",
+    "roast pork belly",
+    "crispy pork belly",
+    "grilled pork belly",
+    "samgyeopsal",
+    "pork belly cooked",
+    "schweinebauch gegart"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:U57A172",
+     "name": "Pork belly for grilling, grilled"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "pork chop",
+   "names": [
+    "pork chop",
+    "pork chops",
+    "pan fried pork chop",
+    "fried pork chop",
+    "pork cutlet",
+    "pork chop fried",
+    "schweinekotelett gebraten"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:Y321222",
+     "name": "Pork chop fried"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "breaded pork schnitzel",
+   "names": [
+    "breaded pork schnitzel",
+    "schnitzel",
+    "pork schnitzel",
+    "tonkatsu",
+    "breaded pork cutlet",
+    "schnitzel wiener art",
+    "pork schnitzel breaded",
+    "schweineschnitzel paniert"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:Y332132",
+     "name": "Pork schnitzel breaded, fried"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "wiener schnitzel",
+   "names": [
+    "wiener schnitzel",
+    "veal schnitzel",
+    "breaded veal cutlet",
+    "viennese schnitzel"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:Y231322",
+     "name": "Viennese schnitzel fried"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "pork gyros",
+   "names": [
+    "pork gyros",
+    "gyros",
+    "gyro meat",
+    "gyros meat",
+    "gyros vom schwein"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:Y384112",
+     "name": "Gyros (pork) fried"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "cooked bacon",
+   "names": [
+    "cooked bacon",
+    "bacon",
+    "crispy bacon",
+    "bacon strips",
+    "streaky bacon cooked",
+    "fried bacon",
+    "bacon cooked",
+    "bacon gebraten"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2705889",
+     "name": "Pork bacon, smoked or cured, cooked"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2705889",
+     "label": "1 thin slice (yield after cooking)",
+     "grams": 5
+    },
+    {
+     "reference": "usda:2705889",
+     "label": "1 medium slice (yield after cooking)",
+     "grams": 8
+    },
+    {
+     "reference": "usda:2705889",
+     "label": "1 thick slice (yield after cooking)",
+     "grams": 12
+    },
+    {
+     "reference": "usda:2705889",
+     "label": "1 oz, raw (yield after cooking)",
+     "grams": 8
+    },
+    {
+     "reference": "usda:2705889",
+     "label": "1 oz, cooked",
+     "grams": 28.35
+    },
+    {
+     "reference": "usda:2705889",
+     "label": "1 cup, pieces",
+     "grams": 80
+    }
+   ]
+  },
+  {
+   "key": "grilled back bacon",
+   "names": [
+    "grilled back bacon",
+    "back bacon",
+    "bacon rashers",
+    "rashers",
+    "irish bacon",
+    "back bacon grilled",
+    "bacon aus dem rucken gegrillt"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "cofid:19-500",
+     "name": "Bacon rashers, back, grilled"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "smoked streaky bacon",
+   "names": [
+    "smoked streaky bacon",
+    "speck",
+    "bauchspeck",
+    "pancetta",
+    "lardons",
+    "bacon bits raw",
+    "smoked bacon",
+    "diced bacon",
+    "bauchspeck gerauchert"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:W411300",
+     "name": "Pork streaky bacon, raw cured, smoked"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "cooked ham",
+   "names": [
+    "cooked ham",
+    "ham",
+    "boiled ham",
+    "sliced ham",
+    "kochschinken",
+    "deli ham",
+    "ham slices"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:W424000",
+     "name": "Pork ham, cooked cured"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "prosciutto",
+   "names": [
+    "prosciutto",
+    "parma ham",
+    "serrano ham",
+    "jamon serrano",
+    "cured ham",
+    "rohschinken",
+    "air dried ham",
+    "black forest ham"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2705879",
+     "name": "Ham, prosciutto"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2705879",
+     "label": "1 thin slice",
+     "grams": 9.2
+    },
+    {
+     "reference": "usda:2705879",
+     "label": "1 slice, NFS",
+     "grams": 9.2
+    },
+    {
+     "reference": "usda:2705879",
+     "label": "1 cup",
+     "grams": 56
+    },
+    {
+     "reference": "usda:2705879",
+     "label": "1 oz, boneless",
+     "grams": 28.35
+    },
+    {
+     "reference": "usda:2705879",
+     "label": "1 surface inch",
+     "grams": 0.35
+    }
+   ]
+  },
+  {
+   "key": "salami",
+   "names": [
+    "salami",
+    "salame",
+    "genoa salami",
+    "milano salami"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:W140000",
+     "name": "Salami"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "pepperoni",
+   "names": [
+    "pepperoni",
+    "pepperoni slices",
+    "pepperoni salami"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2706185",
+     "name": "Pepperoni, NFS"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2706185",
+     "label": "1 sausage (10-1/4\" long x 1-3/8\" dia)",
+     "grams": 251
+    },
+    {
+     "reference": "usda:2706185",
+     "label": "1 cup, NFS",
+     "grams": 140
+    },
+    {
+     "reference": "usda:2706185",
+     "label": "1 slice",
+     "grams": 2
+    }
+   ]
+  },
+  {
+   "key": "chorizo",
+   "names": [
+    "chorizo",
+    "chorizo sausage",
+    "spanish chorizo",
+    "mexican chorizo"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2706179",
+     "name": "Chorizo"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2706179",
+     "label": "1 patty",
+     "grams": 35
+    },
+    {
+     "reference": "usda:2706179",
+     "label": "1 cocktail or miniature link",
+     "grams": 10
+    },
+    {
+     "reference": "usda:2706179",
+     "label": "1 breakfast size link",
+     "grams": 20
+    },
+    {
+     "reference": "usda:2706179",
+     "label": "1 bun-size or griller link",
+     "grams": 75
+    },
+    {
+     "reference": "usda:2706179",
+     "label": "1 slice",
+     "grams": 15
+    },
+    {
+     "reference": "usda:2706179",
+     "label": "1 piece",
+     "grams": 75
+    },
+    {
+     "reference": "usda:2706179",
+     "label": "1 cup, NFS",
+     "grams": 140
+    },
+    {
+     "reference": "usda:2706179",
+     "label": "1 oz, cooked",
+     "grams": 28.35
+    },
+    {
+     "reference": "usda:2706179",
+     "label": "1 cubic inch",
+     "grams": 16
+    }
+   ]
+  },
+  {
+   "key": "bratwurst",
+   "names": [
+    "bratwurst",
+    "grilled bratwurst",
+    "fried bratwurst",
+    "brats",
+    "bratwurst cooked",
+    "rostbratwurst",
+    "bratwurst fried",
+    "bratwurst gebraten"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:Y021312",
+     "name": "Bratwurst fried"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "frankfurter",
+   "names": [
+    "frankfurter",
+    "frankfurters",
+    "wiener",
+    "wieners",
+    "vienna sausage",
+    "hot dog sausage",
+    "hot dogs",
+    "wiener wurstchen",
+    "frank"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:W211200",
+     "name": "Vienna sausage"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "pork sausages",
+   "names": [
+    "pork sausages",
+    "pork sausage",
+    "sausages",
+    "bangers",
+    "breakfast sausages",
+    "grilled sausages",
+    "sausage",
+    "pork sausages grilled",
+    "schweinswurstchen gegrillt"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "cofid:19-509",
+     "name": "Sausages, pork, chilled, grilled"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "italian sausage",
+   "names": [
+    "italian sausage",
+    "salsiccia",
+    "italian sausages"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2706189",
+     "name": "Italian sausage"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2706189",
+     "label": "1 patty",
+     "grams": 35
+    },
+    {
+     "reference": "usda:2706189",
+     "label": "1 cocktail or miniature link",
+     "grams": 10
+    },
+    {
+     "reference": "usda:2706189",
+     "label": "1 breakfast size link",
+     "grams": 20
+    },
+    {
+     "reference": "usda:2706189",
+     "label": "1 bun-size or griller link",
+     "grams": 75
+    },
+    {
+     "reference": "usda:2706189",
+     "label": "1 slice",
+     "grams": 15
+    },
+    {
+     "reference": "usda:2706189",
+     "label": "1 piece",
+     "grams": 75
+    },
+    {
+     "reference": "usda:2706189",
+     "label": "1 cup, NFS",
+     "grams": 138
+    },
+    {
+     "reference": "usda:2706189",
+     "label": "1 oz, cooked",
+     "grams": 28.35
+    },
+    {
+     "reference": "usda:2706189",
+     "label": "1 cubic inch",
+     "grams": 15
+    }
+   ]
+  },
+  {
+   "key": "curry sausage",
+   "names": [
+    "curry sausage",
+    "currywurst sausage",
+    "currybratwurst"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:W221300",
+     "name": "Curry-Bratwurst"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "leberkase",
+   "names": [
+    "leberkase",
+    "leberkaese",
+    "fleischkase",
+    "bavarian meatloaf"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:W256100",
+     "name": "Leberkaese sausage"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "roast lamb",
+   "names": [
+    "roast lamb",
+    "roast leg of lamb",
+    "leg of lamb",
+    "lamb leg roasted",
+    "lamb roast",
+    "lammbraten"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "cofid:18-131",
+     "name": "Lamb, leg joint, roasted, lean"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "roast lamb shoulder",
+   "names": [
+    "roast lamb shoulder",
+    "lamb shoulder",
+    "slow roasted lamb shoulder",
+    "lamb for curry",
+    "lamb stew meat",
+    "lamb kebab meat",
+    "lamb shoulder roasted",
+    "lammschulter gebraten"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "cofid:18-179",
+     "name": "Lamb, shoulder, whole, roasted, lean"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "grilled lamb chops",
+   "names": [
+    "grilled lamb chops",
+    "lamb chops",
+    "lamb chop",
+    "lamb cutlets",
+    "lamb chops grilled",
+    "lammkoteletts gegrillt"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:U727172",
+     "name": "Lamb chop (loin) grilled"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "raw salmon",
+   "names": [
+    "raw salmon",
+    "salmon sashimi",
+    "sushi salmon",
+    "raw salmon fillet",
+    "sashimi grade salmon",
+    "salmon raw",
+    "lachs roh"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "cofid:16-356",
+     "name": "Salmon, farmed, flesh only, raw"
+    },
+    {
+     "id": "bls:T410100",
+     "name": "Salmon raw"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "smoked salmon",
+   "names": [
+    "smoked salmon",
+    "lox",
+    "raucherlachs",
+    "cold smoked salmon"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:T410600",
+     "name": "Salmon smoked"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "canned tuna in oil",
+   "names": [
+    "canned tuna in oil",
+    "tuna in oil",
+    "tinned tuna in oil",
+    "tuna in olive oil",
+    "tuna in oil canned",
+    "thunfisch in ol aus der dose"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:T121702",
+     "name": "Tuna in oil, canned, drained"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "raw tuna",
+   "names": [
+    "raw tuna",
+    "tuna sashimi",
+    "sushi tuna",
+    "ahi tuna",
+    "raw tuna steak",
+    "tuna raw",
+    "thunfisch roh"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:T121100",
+     "name": "Tuna raw"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "battered fish",
+   "names": [
+    "battered fish",
+    "battered cod",
+    "fish in batter",
+    "fried fish",
+    "beer battered fish",
+    "kabeljau im backteig"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "cofid:16-369",
+     "name": "Cod, in batter, baked"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "fish fingers",
+   "names": [
+    "fish fingers",
+    "fish sticks",
+    "fischstabchen"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:T930162",
+     "name": "Fish fingers (Alaska pollock) breaded, deep-frozen, fried without fat (oven)"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "cooked squid",
+   "names": [
+    "cooked squid",
+    "squid",
+    "calamari",
+    "squid rings",
+    "cooked calamari",
+    "squid cooked",
+    "tintenfisch gegart"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2706333",
+     "name": "Calamari, cooked"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2706333",
+     "label": "1 item",
+     "grams": 15
+    },
+    {
+     "reference": "usda:2706333",
+     "label": "1 cup",
+     "grams": 135
+    }
+   ]
+  },
+  {
+   "key": "fried calamari",
+   "names": [
+    "fried calamari",
+    "calamari fritti",
+    "breaded squid rings",
+    "fried squid",
+    "calamari fried",
+    "calamari frittiert"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2706334",
+     "name": "Calamari, fried"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2706334",
+     "label": "1 item",
+     "grams": 15
+    },
+    {
+     "reference": "usda:2706334",
+     "label": "1 cup",
+     "grams": 135
+    }
+   ]
+  },
+  {
+   "key": "cooked mussels",
+   "names": [
+    "cooked mussels",
+    "mussels",
+    "steamed mussels",
+    "moules",
+    "mussels cooked",
+    "miesmuscheln gekocht"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:T792132",
+     "name": "Common mussel boiled"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "crab meat",
+   "names": [
+    "crab meat",
+    "crab",
+    "crabmeat",
+    "cooked crab",
+    "krabbenfleisch"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2706344",
+     "name": "Crab"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2706344",
+     "label": "1 crab",
+     "grams": 40
+    },
+    {
+     "reference": "usda:2706344",
+     "label": "1 leg",
+     "grams": 15
+    },
+    {
+     "reference": "usda:2706344",
+     "label": "1 claw",
+     "grams": 15
+    },
+    {
+     "reference": "usda:2706344",
+     "label": "1 cup",
+     "grams": 135
+    }
+   ]
+  },
+  {
+   "key": "anchovies in oil",
+   "names": [
+    "anchovies in oil",
+    "anchovies",
+    "anchovy fillets",
+    "canned anchovies",
+    "anchovy",
+    "sardellen in ol"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:T104702",
+     "name": "Anchovy in oil, canned, drained"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "sardines in oil",
+   "names": [
+    "sardines in oil",
+    "sardines",
+    "canned sardines",
+    "tinned sardines",
+    "sardinen in ol"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:T105702",
+     "name": "Sardine in oil, canned, drained"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "boiled egg",
+   "names": [
+    "boiled egg",
+    "hard boiled egg",
+    "soft boiled egg",
+    "boiled eggs",
+    "ramen egg",
+    "egg boiled",
+    "poached egg",
+    "poached eggs",
+    "ei gekocht"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:E111132",
+     "name": "Chicken egg boiled"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "fried egg",
+   "names": [
+    "fried egg",
+    "fried eggs",
+    "sunny side up egg",
+    "egg fried",
+    "spiegelei"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:Y710142",
+     "name": "Fried egg"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "scrambled eggs",
+   "names": [
+    "scrambled eggs",
+    "scrambled egg",
+    "ruhrei"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:Y720163",
+     "name": "Scrambled eggs fried in butter"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "firm tofu",
+   "names": [
+    "firm tofu",
+    "tofu",
+    "plain tofu",
+    "extra firm tofu",
+    "bean curd"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:H861000",
+     "name": "Tofu"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "fried tofu",
+   "names": [
+    "fried tofu",
+    "baked tofu",
+    "crispy tofu",
+    "tofu puffs",
+    "tofu fried",
+    "tofu gebraten"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:H861062",
+     "name": "Tofu baked"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "tempeh",
+   "names": [
+    "tempeh",
+    "tempe"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "ciqual:20917",
+     "name": "Tempeh"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "falafel",
+   "names": [
+    "falafel",
+    "falafels",
+    "chickpea fritters"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:Y9A1050",
+     "name": "Falafel (small chickpea balls) deep-fried"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "veggie burger patty",
+   "names": [
+    "veggie burger patty",
+    "vegetarian burger patty",
+    "veggie patty",
+    "plant based patty",
+    "vegetarisches burger patty"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2707473",
+     "name": "Veggie burger patty, no bun"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2707473",
+     "label": "1 patty",
+     "grams": 100
+    },
+    {
+     "reference": "usda:2707473",
+     "label": "1 cup",
+     "grams": 125
+    }
+   ]
+  },
+  {
+   "key": "low fat milk",
+   "names": [
+    "low fat milk",
+    "semi skimmed milk",
+    "1 5 milk",
+    "reduced fat milk",
+    "2 milk",
+    "lowfat milk",
+    "fettarme milch"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:M111200",
+     "name": "Milk low-fat, fresh, 1.5 % fat, pasteurised"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "buttermilk",
+   "names": [
+    "buttermilk",
+    "cultured buttermilk",
+    "buttermilch"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:M150000",
+     "name": "Buttermilk"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "whipped cream",
+   "names": [
+    "whipped cream",
+    "whipped topping cream",
+    "chantilly cream",
+    "geschlagene sahne"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2705598",
+     "name": "Cream, whipped"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2705598",
+     "label": "1 cup",
+     "grams": 40
+    }
+   ]
+  },
+  {
+   "key": "light cream",
+   "names": [
+    "light cream",
+    "single cream",
+    "half and half",
+    "coffee cream",
+    "cooking cream",
+    "kaffeesahne"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:M171500",
+     "name": "Coffee cream min. 10 % fat"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "creme fraiche",
+   "names": [
+    "creme fraiche"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "cofid:12-335",
+     "name": "Creme fraiche, full fat"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "ghee",
+   "names": [
+    "ghee",
+    "clarified butter",
+    "butterschmalz",
+    "desi ghee"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2710168",
+     "name": "Ghee, clarified butter"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2710168",
+     "label": "1 cup",
+     "grams": 224
+    },
+    {
+     "reference": "usda:2710168",
+     "label": "1 tablespoon",
+     "grams": 14
+    }
+   ]
+  },
+  {
+   "key": "mascarpone",
+   "names": [
+    "mascarpone",
+    "mascarpone cheese"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "cofid:12-490",
+     "name": "Cheese, Mascarpone"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "ricotta",
+   "names": [
+    "ricotta",
+    "ricotta cheese"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "cofid:12-176",
+     "name": "Cheese, Ricotta"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "mozzarella",
+   "names": [
+    "mozzarella",
+    "shredded mozzarella",
+    "grated mozzarella",
+    "pizza cheese",
+    "low moisture mozzarella",
+    "mozzarella cheese"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2705722",
+     "name": "Cheese, Mozzarella, NFS"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2705722",
+     "label": "1 cracker-size slice",
+     "grams": 9
+    },
+    {
+     "reference": "usda:2705722",
+     "label": "1 slice",
+     "grams": 21
+    },
+    {
+     "reference": "usda:2705722",
+     "label": "1 stick",
+     "grams": 28.35
+    },
+    {
+     "reference": "usda:2705722",
+     "label": "1 cheese curd",
+     "grams": 4
+    },
+    {
+     "reference": "usda:2705722",
+     "label": "1 cup, shredded",
+     "grams": 113
+    },
+    {
+     "reference": "usda:2705722",
+     "label": "1 cup, diced",
+     "grams": 132
+    },
+    {
+     "reference": "usda:2705722",
+     "label": "1 cup, NFS",
+     "grams": 113
+    },
+    {
+     "reference": "usda:2705722",
+     "label": "1 cup, melted",
+     "grams": 244
+    },
+    {
+     "reference": "usda:2705722",
+     "label": "1 cubic inch",
+     "grams": 18
+    }
+   ]
+  },
+  {
+   "key": "fresh mozzarella",
+   "names": [
+    "fresh mozzarella",
+    "mozzarella ball",
+    "buffalo mozzarella",
+    "fior di latte",
+    "mozzarella di bufala",
+    "frischer mozzarella"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "ciqual:19590",
+     "name": "Mozzarella au lait de vache"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "parmesan",
+   "names": [
+    "parmesan",
+    "parmigiano reggiano",
+    "parmigiano",
+    "grated parmesan",
+    "parmesan cheese",
+    "grana padano"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:M306400",
+     "name": "Parmesan cheese min. 30 % fat in dry matter"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "pecorino",
+   "names": [
+    "pecorino",
+    "pecorino romano",
+    "pecorino cheese"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "ciqual:12122",
+     "name": "Pecorino (fromage de brebis)"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "cheddar",
+   "names": [
+    "cheddar",
+    "cheddar cheese",
+    "grated cheddar",
+    "shredded cheddar",
+    "mature cheddar",
+    "sharp cheddar"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:M303600",
+     "name": "Chester (Cheddar) cheese min. 45 % fat in dry matter"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "monterey jack",
+   "names": [
+    "monterey jack",
+    "jack cheese",
+    "pepper jack",
+    "monterey jack cheese"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2705720",
+     "name": "Cheese, Monterey"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2705720",
+     "label": "1 cracker-size slice",
+     "grams": 9
+    },
+    {
+     "reference": "usda:2705720",
+     "label": "1 slice",
+     "grams": 21
+    },
+    {
+     "reference": "usda:2705720",
+     "label": "1 cup, shredded",
+     "grams": 113
+    },
+    {
+     "reference": "usda:2705720",
+     "label": "1 cup, diced",
+     "grams": 132
+    },
+    {
+     "reference": "usda:2705720",
+     "label": "1 cup, NFS",
+     "grams": 113
+    },
+    {
+     "reference": "usda:2705720",
+     "label": "1 cup, melted",
+     "grams": 244
+    },
+    {
+     "reference": "usda:2705720",
+     "label": "1 cubic inch",
+     "grams": 17.2
+    }
+   ]
+  },
+  {
+   "key": "queso fresco",
+   "names": [
+    "queso fresco",
+    "fresh mexican cheese",
+    "queso blanco"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2705745",
+     "name": "Queso Fresco"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2705745",
+     "label": "1 cracker-size slice",
+     "grams": 9
+    },
+    {
+     "reference": "usda:2705745",
+     "label": "1 slice",
+     "grams": 21
+    },
+    {
+     "reference": "usda:2705745",
+     "label": "1 cup",
+     "grams": 135
+    },
+    {
+     "reference": "usda:2705745",
+     "label": "1 oz",
+     "grams": 28.35
+    },
+    {
+     "reference": "usda:2705745",
+     "label": "1 cubic inch",
+     "grams": 18
+    }
+   ]
+  },
+  {
+   "key": "feta",
+   "names": [
+    "feta",
+    "feta cheese",
+    "sheep cheese",
+    "white cheese feta",
+    "greek feta",
+    "schafskase"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2705714",
+     "name": "Cheese, Feta"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2705714",
+     "label": "1 wedge (1.33 oz)",
+     "grams": 38
+    },
+    {
+     "reference": "usda:2705714",
+     "label": "1 cup, crumbled",
+     "grams": 150
+    },
+    {
+     "reference": "usda:2705714",
+     "label": "1 cubic inch",
+     "grams": 17
+    }
+   ]
+  },
+  {
+   "key": "gouda",
+   "names": [
+    "gouda",
+    "gouda cheese",
+    "young gouda",
+    "gouda slices"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:M402600",
+     "name": "Gouda cheese 48 % fat in dry matter"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "emmental",
+   "names": [
+    "emmental",
+    "emmentaler",
+    "swiss cheese",
+    "emmenthal"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:M304600",
+     "name": "Emmentaler cheese min. 45 % fat in dry matter"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "gruyere",
+   "names": [
+    "gruyere",
+    "greyerzer",
+    "gruyere cheese"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:M305700",
+     "name": "Gruyère cheese min. 50 % fat in dry matter"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "alpine cheese",
+   "names": [
+    "alpine cheese",
+    "bergkase",
+    "mountain cheese",
+    "comte"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:M302600",
+     "name": "Bergkäse (Alpine cheese) min. 45 % fat in dry matter"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "brie",
+   "names": [
+    "brie",
+    "brie cheese"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2705708",
+     "name": "Cheese, Brie"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2705708",
+     "label": "1 package (4.5 oz)",
+     "grams": 128
+    },
+    {
+     "reference": "usda:2705708",
+     "label": "1 cup, sliced",
+     "grams": 144
+    },
+    {
+     "reference": "usda:2705708",
+     "label": "1 cup, melted",
+     "grams": 240
+    },
+    {
+     "reference": "usda:2705708",
+     "label": "1 cup, NFS",
+     "grams": 144
+    },
+    {
+     "reference": "usda:2705708",
+     "label": "1 cubic inch",
+     "grams": 17
+    }
+   ]
+  },
+  {
+   "key": "camembert",
+   "names": [
+    "camembert",
+    "camembert cheese"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2705707",
+     "name": "Cheese, Camembert"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2705707",
+     "label": "1 wedge (1.33 oz)",
+     "grams": 38
+    },
+    {
+     "reference": "usda:2705707",
+     "label": "1 cup",
+     "grams": 246
+    },
+    {
+     "reference": "usda:2705707",
+     "label": "1 cubic inch",
+     "grams": 17
+    }
+   ]
+  },
+  {
+   "key": "blue cheese",
+   "names": [
+    "blue cheese",
+    "gorgonzola",
+    "roquefort",
+    "stilton",
+    "danish blue",
+    "blauschimmelkase"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2705705",
+     "name": "Cheese, Blue or Roquefort"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2705705",
+     "label": "1 cracker-size slice",
+     "grams": 9
+    },
+    {
+     "reference": "usda:2705705",
+     "label": "1 slice",
+     "grams": 21
+    },
+    {
+     "reference": "usda:2705705",
+     "label": "1 cup, crumbled",
+     "grams": 135
+    },
+    {
+     "reference": "usda:2705705",
+     "label": "1 cubic inch",
+     "grams": 17.3
+    }
+   ]
+  },
+  {
+   "key": "goat cheese",
+   "names": [
+    "goat cheese",
+    "chevre",
+    "goats cheese",
+    "goat s cheese",
+    "goat s milk cheese",
+    "ziegenkase"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2705716",
+     "name": "Cheese, goat"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2705716",
+     "label": "1 cup, crumbled",
+     "grams": 140
+    },
+    {
+     "reference": "usda:2705716",
+     "label": "1 cubic inch",
+     "grams": 25
+    }
+   ]
+  },
+  {
+   "key": "halloumi",
+   "names": [
+    "halloumi",
+    "halloumi cheese",
+    "grilling cheese",
+    "grillkase"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:M524500",
+     "name": "Halloumi cheese"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "paneer",
+   "names": [
+    "paneer",
+    "paneer cheese",
+    "indian cottage cheese"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "cofid:12-495",
+     "name": "Cheese, Paneer"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "processed cheese slice",
+   "names": [
+    "processed cheese slice",
+    "american cheese",
+    "cheese slice",
+    "processed cheese",
+    "burger cheese",
+    "cheese singles",
+    "schmelzkasescheibe"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "cofid:12-527",
+     "name": "Cheese, processed, plain"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "cheese sauce",
+   "names": [
+    "cheese sauce",
+    "nacho cheese sauce",
+    "cheddar cheese sauce",
+    "mornay sauce",
+    "kasesauce"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2705808",
+     "name": "Cheese sauce"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2705808",
+     "label": "1 tablespoon",
+     "grams": 16
+    },
+    {
+     "reference": "usda:2705808",
+     "label": "1 dipping-size container",
+     "grams": 28
+    }
+   ]
+  },
+  {
+   "key": "sweetened condensed milk",
+   "names": [
+    "sweetened condensed milk",
+    "condensed milk",
+    "kondensmilch gezuckert",
+    "gezuckerte kondensmilch"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:M181400",
+     "name": "Condensed milk min. 8 % fat, sweetened"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "vanilla ice cream",
+   "names": [
+    "vanilla ice cream",
+    "ice cream",
+    "vanilla gelato",
+    "vanilleeis"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:S241000",
+     "name": "Vanilla ice cream"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "vanilla sauce",
+   "names": [
+    "vanilla sauce",
+    "custard sauce",
+    "creme anglaise",
+    "vanillesauce",
+    "pouring custard"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:X361163",
+     "name": "Vanilla sauce"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "sauteed onion",
+   "names": [
+    "sauteed onion",
+    "softened onion",
+    "sweated onion",
+    "fried onion soft",
+    "caramelised onion",
+    "caramelized onions",
+    "onion sauteed",
+    "zwiebel gedunstet"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:G480152",
+     "name": "Onion stewed"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "crispy fried onions",
+   "names": [
+    "crispy fried onions",
+    "fried onions",
+    "rostzwiebeln",
+    "fried shallots",
+    "crispy onions",
+    "onion crisps"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:X5A9030",
+     "name": "Fried onions"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "shallot",
+   "names": [
+    "shallot",
+    "shallots",
+    "echalion",
+    "schalotte"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:G485100",
+     "name": "Shallot raw"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "canned tomatoes",
+   "names": [
+    "canned tomatoes",
+    "chopped tomatoes",
+    "diced tomatoes",
+    "tinned tomatoes",
+    "canned chopped tomatoes",
+    "whole peeled tomatoes",
+    "peeled tomatoes",
+    "san marzano tomatoes",
+    "tomatoes canned",
+    "tomaten aus der dose"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:G568900",
+     "name": "Tomato peeled, canned"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "passata",
+   "names": [
+    "passata",
+    "tomato passata",
+    "strained tomatoes",
+    "sieved tomatoes",
+    "crushed tomatoes",
+    "tomatoes pureed",
+    "passierte tomaten"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:R161200",
+     "name": "Tomato puree"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "sun dried tomatoes",
+   "names": [
+    "sun dried tomatoes",
+    "sundried tomatoes",
+    "sun dried tomatoes in oil",
+    "dried tomatoes",
+    "getrocknete tomaten in ol"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:G567702",
+     "name": "Tomato dried, in oil, canned, drained"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "roasted red pepper",
+   "names": [
+    "roasted red pepper",
+    "roasted peppers",
+    "roasted red peppers",
+    "grilled peppers",
+    "baked peppers",
+    "red bell pepper roasted",
+    "rote paprika gerostet"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:G543162",
+     "name": "Sweet pepper red, baked"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "red chili",
+   "names": [
+    "red chili",
+    "chili",
+    "chilli",
+    "chile",
+    "fresh chili",
+    "chili pepper",
+    "red chilli",
+    "bird s eye chili",
+    "thai chili",
+    "hot pepper",
+    "rote chilischote"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:G554100",
+     "name": "Chilli pepper red, raw"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "green chili",
+   "names": [
+    "green chili",
+    "green chilli",
+    "green chilies",
+    "serrano chili",
+    "green chile",
+    "grune chilischote"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:G553100",
+     "name": "Chilli pepper green, raw"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "jalapeno",
+   "names": [
+    "jalapeno",
+    "jalapenos",
+    "pickled jalapenos",
+    "sliced jalapenos"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2710096",
+     "name": "Peppers, jalapenos"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2710096",
+     "label": "1 slice",
+     "grams": 2
+    },
+    {
+     "reference": "usda:2710096",
+     "label": "1 whole",
+     "grams": 15
+    },
+    {
+     "reference": "usda:2710096",
+     "label": "1 cup",
+     "grams": 150
+    }
+   ]
+  },
+  {
+   "key": "cooked carrot",
+   "names": [
+    "cooked carrot",
+    "boiled carrots",
+    "steamed carrots",
+    "cooked carrots",
+    "glazed carrots",
+    "carrot cooked",
+    "karotte gekocht"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:G620132",
+     "name": "Carrot boiled"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "celery",
+   "names": [
+    "celery",
+    "celery stalk",
+    "celery sticks",
+    "celery stalks",
+    "stalk celery",
+    "celery ribs",
+    "staudensellerie"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:G220100",
+     "name": "Stalk celery raw"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "celeriac",
+   "names": [
+    "celeriac",
+    "celery root",
+    "knollensellerie"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:G660100",
+     "name": "Celeriac raw"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "sauerkraut",
+   "names": [
+    "sauerkraut",
+    "raw sauerkraut",
+    "fermented cabbage"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:G346100",
+     "name": "Wine sauerkraut raw"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "kimchi",
+   "names": [
+    "kimchi",
+    "napa cabbage kimchi",
+    "kimchee"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2710077",
+     "name": "Kimchi"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2710077",
+     "label": "1 cup",
+     "grams": 150
+    }
+   ]
+  },
+  {
+   "key": "cooked spinach",
+   "names": [
+    "cooked spinach",
+    "wilted spinach",
+    "boiled spinach",
+    "frozen spinach cooked",
+    "steamed spinach",
+    "spinach cooked",
+    "spinat gekocht"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:G210132",
+     "name": "Spinach boiled"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "iceberg lettuce",
+   "names": [
+    "iceberg lettuce",
+    "iceberg",
+    "eisbergsalat",
+    "shredded lettuce"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:G103100",
+     "name": "Iceberg lettuce raw"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "romaine lettuce",
+   "names": [
+    "romaine lettuce",
+    "romaine",
+    "cos lettuce",
+    "little gem",
+    "romersalat"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2709590",
+     "name": "Romaine lettuce, raw"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2709590",
+     "label": "1 leaf",
+     "grams": 13
+    },
+    {
+     "reference": "usda:2709590",
+     "label": "1 head",
+     "grams": 376
+    },
+    {
+     "reference": "usda:2709590",
+     "label": "1 cup",
+     "grams": 35
+    }
+   ]
+  },
+  {
+   "key": "rocket",
+   "names": [
+    "rocket",
+    "arugula",
+    "rucola",
+    "roquette"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:G130100",
+     "name": "Rocket raw"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "cooked aubergine",
+   "names": [
+    "cooked aubergine",
+    "roasted eggplant",
+    "cooked eggplant",
+    "grilled aubergine",
+    "grilled eggplant",
+    "roasted aubergine",
+    "aubergine cooked",
+    "aubergine gegart"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "ciqual:20002",
+     "name": "Solanum melongena L."
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "cooked mushrooms",
+   "names": [
+    "cooked mushrooms",
+    "sauteed mushrooms",
+    "pan fried mushrooms",
+    "grilled mushrooms",
+    "roasted mushrooms",
+    "mushrooms cooked",
+    "champignons gegart"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:K701172",
+     "name": "Button mushroom grilled"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "shiitake mushrooms",
+   "names": [
+    "shiitake mushrooms",
+    "shiitake",
+    "fresh shiitake",
+    "shiitake pilze"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:K724100",
+     "name": "Shiitake mushroom raw"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "cooked broccoli",
+   "names": [
+    "cooked broccoli",
+    "steamed broccoli",
+    "boiled broccoli",
+    "roasted broccoli",
+    "tenderstem broccoli",
+    "broccoli cooked",
+    "brokkoli gekocht"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:G312132",
+     "name": "Broccoli boiled"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "cooked cauliflower",
+   "names": [
+    "cooked cauliflower",
+    "steamed cauliflower",
+    "boiled cauliflower",
+    "roasted cauliflower",
+    "cauliflower cooked",
+    "blumenkohl gekocht"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:G311132",
+     "name": "Cauliflower boiled"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "sugar snap peas",
+   "names": [
+    "sugar snap peas",
+    "snow peas",
+    "mangetout",
+    "sugar snaps",
+    "snap peas",
+    "zuckerschoten"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:G761100",
+     "name": "Sugar pea raw"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "sweetcorn",
+   "names": [
+    "sweetcorn",
+    "corn",
+    "corn kernels",
+    "maize kernels",
+    "sweet corn",
+    "zuckermais"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:G570100",
+     "name": "Sweetcorn raw"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "cooked corn",
+   "names": [
+    "cooked corn",
+    "corn on the cob",
+    "boiled corn",
+    "canned corn",
+    "grilled corn",
+    "elote corn",
+    "sweetcorn cooked",
+    "zuckermais gekocht"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:G570132",
+     "name": "Sweetcorn boiled"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "cooked asparagus",
+   "names": [
+    "cooked asparagus",
+    "boiled asparagus",
+    "steamed asparagus",
+    "grilled asparagus",
+    "asparagus cooked",
+    "spargel gekocht"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:G450132",
+     "name": "Asparagus boiled"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "cooked beetroot",
+   "names": [
+    "cooked beetroot",
+    "beets",
+    "cooked beets",
+    "boiled beetroot",
+    "roasted beetroot",
+    "beetroot cooked",
+    "rote bete gekocht"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:G613132",
+     "name": "Beetroot boiled"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "pumpkin",
+   "names": [
+    "pumpkin",
+    "raw pumpkin",
+    "hokkaido pumpkin",
+    "kurbis"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:G581100",
+     "name": "Pumpkin (C. pepo) raw"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "cooked butternut squash",
+   "names": [
+    "cooked butternut squash",
+    "roasted butternut squash",
+    "cooked pumpkin",
+    "roasted pumpkin",
+    "cooked squash",
+    "butternut squash cooked",
+    "butternutkurbis gekocht"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "ciqual:20141",
+     "name": "Cucurbita moschata"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "cooked parsnip",
+   "names": [
+    "cooked parsnip",
+    "roasted parsnips",
+    "boiled parsnips",
+    "parsnip cooked",
+    "pastinake gekocht"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:G640132",
+     "name": "Parsnip boiled"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "radish",
+   "names": [
+    "radish",
+    "radishes",
+    "red radish",
+    "radieschen"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:G691100",
+     "name": "Small red radish raw"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "daikon",
+   "names": [
+    "daikon",
+    "white radish",
+    "mooli",
+    "rettich",
+    "daikon radish"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:G680100",
+     "name": "Radish raw"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "artichoke",
+   "names": [
+    "artichoke",
+    "artichokes",
+    "globe artichoke",
+    "artischocke"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:G410100",
+     "name": "Artichokes raw"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "cooked artichoke hearts",
+   "names": [
+    "cooked artichoke hearts",
+    "artichoke hearts",
+    "artichoke bottoms",
+    "artichoke hearts cooked",
+    "artischockenherzen gekocht"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:G410132",
+     "name": "Artichokes boiled"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "okra",
+   "names": [
+    "okra",
+    "ladies fingers",
+    "bhindi",
+    "gumbo okra"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:G530100",
+     "name": "Okra raw"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "bean sprouts",
+   "names": [
+    "bean sprouts",
+    "mung bean sprouts",
+    "beansprouts",
+    "mungbohnensprossen"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:H650100",
+     "name": "Mung bean sprouts raw"
+    }
+   ],
+   "measures": []
+  }
+ ]
+}
