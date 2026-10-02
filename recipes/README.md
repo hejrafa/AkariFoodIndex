@@ -78,6 +78,13 @@ share, 14 from its protein share, 23 have an energy ratio outside 0.7–1.4
 Frankfurter Grüne Soße or USDA's filling-only sloppy joe), and 39 have a
 serving outside 120–900 g (dumplings, small sandwiches, desserts, drinks).
 
+Review (2 October 2026): dashi moved from mext:17021, which leaves fat
+undeclared and so took fat off 17 Japanese dishes, to mext:17148, the same
+bonito and kombu dashi with fat and fibre declared. Fat now shows on 15 of
+them; sukiyaki, chikuzenni and nikujaga still lack it because shirataki
+(mext:02005) has no row that declares fat. The audit now counts 61 fat-share
+and 10 protein-share differences; the other counts are unchanged.
+
 ## Adding a dish by hand
 
 1. Look up the real rows first, for example
