@@ -15,11 +15,11 @@
  "summary": {
   "dishes": 1496,
   "withTableRow": 1084,
-  "flagged": 188,
+  "flagged": 187,
   "flags": {
    "energy ratio": 23,
-   "fat share": 61,
-   "missing": 90,
+   "fat share": 58,
+   "missing": 89,
    "protein share": 10,
    "serving": 39
   }
@@ -814,15 +814,14 @@
    "name": "Sukiyaki",
    "origin": "generated",
    "servingGrams": 473,
-   "kcalPerServing": 423.2,
-   "kcalPer100g": 89.5,
+   "kcalPerServing": 423.8,
+   "kcalPer100g": 89.6,
    "missingCore": [
-    "fat",
     "sugar",
     "saturatedFat"
    ],
    "flags": [
-    "missing fat, sugar, saturatedFat"
+    "missing sugar, saturatedFat"
    ]
   },
   {
@@ -2900,14 +2899,8 @@
    "name": "Tartiflette",
    "origin": "generated",
    "servingGrams": 495,
-   "kcalPerServing": 821.6,
-   "kcalPer100g": 166.0,
-   "missingCore": [
-    "carbs"
-   ],
-   "flags": [
-    "missing carbs"
-   ]
+   "kcalPerServing": 823.1,
+   "kcalPer100g": 166.3
   },
   {
    "id": "akari:recipe:buckwheat-galette-with-ham-cheese-and-egg:v1",
@@ -12054,20 +12047,17 @@
    "name": "Christmas pudding",
    "origin": "generated",
    "servingGrams": 175,
-   "kcalPerServing": 566.6,
-   "kcalPer100g": 323.7,
+   "kcalPerServing": 577.3,
+   "kcalPer100g": 329.9,
    "missingCore": [
-    "protein",
-    "fat",
     "saturatedFat",
-    "sodium"
+    "water"
    ],
    "tableRow": "bls:Y835463",
    "tableKcalPer100g": 282,
-   "ratio": 1.148,
+   "ratio": 1.17,
    "flags": [
-    "missing protein, fat, saturatedFat, sodium",
-    "fat share differs by -35 points"
+    "missing saturatedFat, water"
    ]
   },
   {
@@ -14091,20 +14081,18 @@
    "name": "Chikuzenni",
    "origin": "generated",
    "servingGrams": 266,
-   "kcalPerServing": 262.1,
-   "kcalPer100g": 98.5,
+   "kcalPerServing": 262.4,
+   "kcalPer100g": 98.7,
    "missingCore": [
-    "fat",
     "sugar",
     "fiber",
     "saturatedFat"
    ],
    "tableRow": "mext:18035",
    "tableKcalPer100g": 85,
-   "ratio": 1.159,
+   "ratio": 1.161,
    "flags": [
-    "missing fat, sugar, fiber, saturatedFat",
-    "fat share differs by -41 points"
+    "missing sugar, fiber, saturatedFat"
    ]
   },
   {
@@ -14112,20 +14100,18 @@
    "name": "Nikujaga",
    "origin": "generated",
    "servingGrams": 414,
-   "kcalPerServing": 321.0,
-   "kcalPer100g": 77.5,
+   "kcalPerServing": 321.3,
+   "kcalPer100g": 77.6,
    "missingCore": [
-    "fat",
     "sugar",
     "fiber",
     "saturatedFat"
    ],
    "tableRow": "mext:18036",
    "tableKcalPer100g": 78,
-   "ratio": 0.994,
+   "ratio": 0.995,
    "flags": [
-    "missing fat, sugar, fiber, saturatedFat",
-    "fat share differs by -16 points"
+    "missing sugar, fiber, saturatedFat"
    ]
   },
   {

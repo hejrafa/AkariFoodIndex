@@ -85,6 +85,16 @@ them; sukiyaki, chikuzenni and nikujaga still lack it because shirataki
 (mext:02005) has no row that declares fat. The audit now counts 61 fat-share
 and 10 protein-share differences; the other counts are unchanged.
 
+Second pass (2 October 2026): the last five dishes missing a macronutrient
+each had one ingredient row without it. Shirataki now uses mext:02004, plain
+konjac from the same table with fat declared (sukiyaki, chikuzenni,
+nikujaga); tartiflette's Reblochon uses ciqual:12039, Munster, the closest
+washed-rind cheese that declares carbohydrate, under the Reblochon name;
+Christmas pudding's shredded suet uses BLS beef tallow (bls:Q890000) and its
+candied lemon peel BLS candied orange peel (bls:R381100). No dish misses fat,
+protein or carbohydrate now; the audit flags 187 dishes, 89 for a missing
+core value and 58 for fat share.
+
 ## Adding a dish by hand
 
 1. Look up the real rows first, for example
