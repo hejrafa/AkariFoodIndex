@@ -1,5 +1,5 @@
 {
-  "version": 33,
+  "version": 35,
   "description": "Akari presentation classification. Unambiguous complete food names can correct contradictory source categories; otherwise exact source categories come first. Product-line rules apply only when the entire remaining name is a reviewed qualifier. Never infer nutrients, allergens, alcohol counts or verified status.",
   "taxonomySource": "https://openfoodfacts.github.io/documentation/docs/Product-Opener/schemas/schemas/product_tags/",
   "rules": [
@@ -2332,7 +2332,19 @@
         "boisson",
         "boissons",
         "refresco",
-        "炭酸飲料類"
+        "炭酸飲料類",
+        "hydration",
+        "electrolyte drink",
+        "electrolyte drinks",
+        "elektrolytgetränk",
+        "elektrolytgetränke",
+        "isotonic drink",
+        "isotonic drinks",
+        "isotonisches getränk",
+        "sports drink",
+        "sports drinks",
+        "sportgetränk",
+        "sportgetränke"
       ]
     },
     {
@@ -2374,7 +2386,12 @@
         "pilsner",
         "bières",
         "biermischgetränk",
-        "ビール"
+        "ビール",
+        "radler",
+        "radlers",
+        "shandy",
+        "shandies",
+        "alsterwasser"
       ]
     },
     {
@@ -4693,7 +4710,9 @@
         "semmel",
         "english muffin",
         "english muffins",
-        "muffin english"
+        "muffin english",
+        "breadroll",
+        "breadrolls"
       ],
       "ingredientCategories": [
         "egg",

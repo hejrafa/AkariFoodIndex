@@ -50,6 +50,10 @@ network model). `Scripts/draft_typical_portions.py --accept` builds
 - **excludeReferences**: rows listed under the identity that are a different
   preparation from your portion (raw rice under a cooked-rice identity, dried
   under fresh). They then keep their old default.
+- **includeReferences**: rows of the same food that none of the identity's
+  names resolves to (a USDA apple variety under apple, USDA's 70–85 % dark
+  chocolate under dark chocolate). Their household measures are checked like
+  the identity's own.
 - **skip** an identity that nobody logs on its own (a minor dish component
   such as dashi, a thickener, baking powder), that is not one food (a mixed
   category), or whose rows are clearly unrelated.

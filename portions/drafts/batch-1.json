@@ -64,7 +64,8 @@
    "unit": "piece",
    "gramsPerUnit": 160,
    "typical": 1,
-   "reason": "edible weight of a medium apple without core"
+   "reason": "edible weight of a medium apple without core",
+   "includeReferences": ["usda:1750339", "usda:1750340", "usda:1750341", "usda:1750342", "usda:1750343", "cofid:14-319"]
   },
   {
    "key": "birne",
@@ -887,7 +888,8 @@
    "unit": "portion",
    "gramsPerUnit": 180,
    "typical": 1,
-   "reason": "cooked rice as a side, from about 65 g dry"
+   "reason": "cooked rice as a side, from about 65 g dry",
+   "includeReferences": ["usda:2708408"]
   },
   {
    "key": "cooked brown rice",

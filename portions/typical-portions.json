@@ -308,7 +308,13 @@
     "diced apple"
    ],
    "references": [
-    "bls:F110100"
+    "bls:F110100",
+    "usda:1750339",
+    "usda:1750340",
+    "usda:1750341",
+    "usda:1750342",
+    "usda:1750343",
+    "cofid:14-319"
    ],
    "unit": "piece",
    "typical": 1,
@@ -5014,7 +5020,8 @@
     "riz thai"
    ],
    "references": [
-    "bls:C352032"
+    "bls:C352032",
+    "usda:2708408"
    ],
    "unit": "portion",
    "typical": 1,
@@ -5716,7 +5723,8 @@
     "dunkle schokolade"
    ],
    "references": [
-    "bls:S560000"
+    "bls:S560000",
+    "usda:170273"
    ],
    "unit": "piece",
    "typical": 2,
@@ -6868,7 +6876,8 @@
     "skinny fries"
    ],
    "references": [
-    "bls:X654042"
+    "bls:X654042",
+    "usda:2709456"
    ],
    "unit": "portion",
    "typical": 1,
@@ -8892,6 +8901,29 @@
    "draft": "batch-3"
   },
   {
+   "key": "iced tea",
+   "names": [
+    "iced tea",
+    "ice tea",
+    "eistee",
+    "iced teas"
+   ],
+   "references": [
+    "bls:N019000",
+    "usda:2710512"
+   ],
+   "unit": "glass",
+   "typical": 1,
+   "milliliters": 250,
+   "source": {
+    "kind": "estimate",
+    "reason": "a regular drinking glass"
+   },
+   "typicalSource": "estimate",
+   "origin": "reviewed",
+   "date": "2026-10-03"
+  },
+  {
    "key": "idli",
    "names": [
     "idli"
@@ -10909,6 +10941,29 @@
    "origin": "generated",
    "date": "2026-10-01",
    "draft": "batch-4"
+  },
+  {
+   "key": "mixed salad",
+   "names": [
+    "mixed salad",
+    "salad",
+    "side salad",
+    "gemischter salat",
+    "beilagensalat"
+   ],
+   "references": [
+    "bls:X201160"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 150,
+   "source": {
+    "kind": "estimate",
+    "reason": "a side salad bowl of mixed leaves and vegetables"
+   },
+   "typicalSource": "estimate",
+   "origin": "reviewed",
+   "date": "2026-10-03"
   },
   {
    "key": "mole sauce",

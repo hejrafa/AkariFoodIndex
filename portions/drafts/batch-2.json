@@ -352,7 +352,8 @@
    "unit": "piece",
    "gramsPerUnit": 10,
    "typical": 2,
-   "reason": "a square of a 100 g bar"
+   "reason": "a square of a 100 g bar",
+   "includeReferences": ["usda:170273"]
   },
   {
    "key": "cocoa powder",
@@ -982,7 +983,8 @@
    "unit": "portion",
    "gramsPerUnit": 150,
    "typical": 1,
-   "reason": "a medium portion of fries"
+   "reason": "a medium portion of fries",
+   "includeReferences": ["usda:2709456"]
   },
   {
    "key": "roast potatoes",
