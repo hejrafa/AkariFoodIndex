@@ -13,13 +13,13 @@
   "shareDifferencePoints": 15
  },
  "summary": {
-  "dishes": 1496,
+  "dishes": 1498,
   "withTableRow": 1084,
-  "flagged": 187,
+  "flagged": 188,
   "flags": {
    "energy ratio": 23,
    "fat share": 58,
-   "missing": 89,
+   "missing": 90,
    "protein share": 10,
    "serving": 39
   }
@@ -184,6 +184,29 @@
    "servingGrams": 390,
    "kcalPerServing": 362.8,
    "kcalPer100g": 93.0
+  },
+  {
+   "id": "akari:recipe:chicken-blt:v1",
+   "name": "Chicken BLT",
+   "origin": "reviewed",
+   "servingGrams": 235,
+   "kcalPerServing": 518.0,
+   "kcalPer100g": 220.4
+  },
+  {
+   "id": "akari:recipe:tantanmen-ramen:v1",
+   "name": "Tantanmen ramen",
+   "origin": "reviewed",
+   "servingGrams": 754,
+   "kcalPerServing": 812.8,
+   "kcalPer100g": 107.8,
+   "missingCore": [
+    "sugar",
+    "saturatedFat"
+   ],
+   "flags": [
+    "missing sugar, saturatedFat"
+   ]
   },
   {
    "id": "akari:recipe:spaghetti-carbonara:v1",

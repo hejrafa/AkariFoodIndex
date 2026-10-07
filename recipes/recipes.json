@@ -914,6 +914,125 @@
    "origin": "reviewed"
   },
   {
+   "id": "akari:recipe:chicken-blt:v1",
+   "names": {
+    "en": "Chicken BLT",
+    "de": "Chicken-BLT"
+   },
+   "aliases": [
+    "chicken blt",
+    "chicken blt sandwich",
+    "chicken bacon lettuce tomato sandwich",
+    "hähnchen blt",
+    "hähnchen blt sandwich"
+   ],
+   "artworkID": "sandwich",
+   "serving": {
+    "label": {
+     "en": "1 sandwich",
+     "de": "1 Sandwich"
+    },
+    "count": 1
+   },
+   "ingredients": [
+    {
+     "reference": "bls:B314072",
+     "grams": 60
+    },
+    {
+     "reference": "bls:V416132",
+     "grams": 60
+    },
+    {
+     "reference": "usda:2705889",
+     "grams": 30
+    },
+    {
+     "reference": "bls:G105100",
+     "grams": 20
+    },
+    {
+     "reference": "bls:G561100",
+     "grams": 50
+    },
+    {
+     "reference": "usda:2710204",
+     "grams": 15
+    }
+   ],
+   "notes": "The BLT with 60 g of cooked chicken breast added.",
+   "origin": "reviewed"
+  },
+  {
+   "id": "akari:recipe:tantanmen-ramen:v1",
+   "names": {
+    "en": "Tantanmen ramen",
+    "de": "Tantanmen-Ramen"
+   },
+   "aliases": [
+    "tantanmen",
+    "tantan ramen",
+    "tan tan ramen",
+    "dan dan ramen",
+    "dandan ramen",
+    "tantamen",
+    "tantamen ramen",
+    "tantanmen ramen"
+   ],
+   "artworkID": "noodles",
+   "serving": {
+    "label": {
+     "en": "1 bowl",
+     "de": "1 Schüssel"
+    },
+    "count": 1
+   },
+   "ingredients": [
+    {
+     "reference": "mext:01048",
+     "grams": 200
+    },
+    {
+     "reference": "bls:X411243",
+     "grams": 350
+    },
+    {
+     "reference": "usda:2707587",
+     "grams": 20
+    },
+    {
+     "reference": "bls:R143000",
+     "grams": 12
+    },
+    {
+     "reference": "usda:2710180",
+     "grams": 10
+    },
+    {
+     "reference": "ciqual:11088",
+     "grams": 2
+    },
+    {
+     "reference": "bls:U020182",
+     "grams": 60
+    },
+    {
+     "reference": "bls:G324100",
+     "grams": 40
+    },
+    {
+     "reference": "bls:E111132",
+     "grams": 50
+    },
+    {
+     "reference": "bls:G482100",
+     "grams": 10
+    }
+   ],
+   "notes": "Ramen noodles in chicken stock enriched with sesame paste and soy sauce, topped with minced pork, pak choi, a boiled egg and spring onion. Chili oil is the known chili oil mixture: 10 g neutral oil with 2 g cayenne.",
+   "origin": "reviewed"
+  },
+  {
    "id": "akari:recipe:spaghetti-carbonara:v1",
    "names": {
     "en": "Spaghetti carbonara",
@@ -14556,7 +14675,10 @@
     "b l t",
     "bacon lettuce tomato sandwich",
     "bacon salat tomate sandwich",
-    "sandwich mit bacon salat und tomate"
+    "sandwich mit bacon salat und tomate",
+    "blt sandwich",
+    "blt sandwhich",
+    "blt-sandwich"
    ],
    "artworkID": "sandwich",
    "serving": {
