@@ -1,6 +1,6 @@
 {
  "version": 1,
- "description": "Typical portions for generic foods: the natural unit, its weight or volume and the usual count for one eating occasion. Weights come from the reference row's household measure where one matches; otherwise they are marked estimates. Typical counts are always Akari estimates.",
+ "description": "Typical portions for generic foods: the natural unit, its weight or volume and the usual count for one eating occasion. Weights come from the reference row's household measure where one matches; otherwise they are marked estimates. Typical counts are always Akari estimates. Entries with categories serve a branded product whose label offers no serving for one person.",
  "generatedFrom": "FoodIndex/portions + Scripts/draft_typical_portions.py",
  "portions": [
   {
@@ -2703,6 +2703,311 @@
    "draft": "batch-4"
   },
   {
+   "key": "category: cereal",
+   "names": [],
+   "references": [],
+   "categories": [
+    "cereal",
+    "en:breakfast-cereals",
+    "en:mueslis",
+    "en:granolas",
+    "en:cereal-flakes"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 40,
+   "source": {
+    "kind": "estimate",
+    "reason": "one bowl of cereal"
+   },
+   "typicalSource": "estimate",
+   "origin": "reviewed",
+   "date": "2026-10-07"
+  },
+  {
+   "key": "category: cheese",
+   "names": [],
+   "references": [],
+   "categories": [
+    "cheese",
+    "plant-cheese",
+    "en:cheeses"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 30,
+   "source": {
+    "kind": "estimate",
+    "reason": "two slices or a small piece of cheese"
+   },
+   "typicalSource": "estimate",
+   "origin": "reviewed",
+   "date": "2026-10-07"
+  },
+  {
+   "key": "category: chips",
+   "names": [],
+   "references": [],
+   "categories": [
+    "crisps",
+    "potato-crisps",
+    "popcorn",
+    "en:crisps",
+    "en:chips",
+    "en:potato-crisps"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 30,
+   "source": {
+    "kind": "estimate",
+    "reason": "a small bowl of chips"
+   },
+   "typicalSource": "estimate",
+   "origin": "reviewed",
+   "date": "2026-10-07"
+  },
+  {
+   "key": "category: chocolate",
+   "names": [],
+   "references": [],
+   "categories": [
+    "chocolate",
+    "chocolate-bar",
+    "en:chocolates"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 20,
+   "source": {
+    "kind": "estimate",
+    "reason": "a few squares of chocolate"
+   },
+   "typicalSource": "estimate",
+   "origin": "reviewed",
+   "date": "2026-10-07"
+  },
+  {
+   "key": "category: cold cuts",
+   "names": [],
+   "references": [],
+   "categories": [
+    "en:cold-cuts",
+    "en:hams",
+    "en:sliced-hams",
+    "en:cooked-hams",
+    "en:salamis",
+    "en:prepared-meats"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 30,
+   "source": {
+    "kind": "estimate",
+    "reason": "two slices of cold cuts"
+   },
+   "typicalSource": "estimate",
+   "origin": "reviewed",
+   "date": "2026-10-07"
+  },
+  {
+   "key": "category: cooked grains",
+   "names": [],
+   "references": [],
+   "categories": [
+    "prepared-rice",
+    "en:cooked-rices",
+    "en:precooked-rices",
+    "en:cooked-pastas"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 150,
+   "source": {
+    "kind": "estimate",
+    "reason": "a side of cooked grains"
+   },
+   "typicalSource": "estimate",
+   "origin": "reviewed",
+   "date": "2026-10-07"
+  },
+  {
+   "key": "category: cookies",
+   "names": [],
+   "references": [],
+   "categories": [
+    "cookie",
+    "en:biscuits",
+    "en:cookies"
+   ],
+   "unit": "cookie",
+   "typical": 2,
+   "gramsPerUnit": 10,
+   "source": {
+    "kind": "estimate",
+    "reason": "two cookies"
+   },
+   "typicalSource": "estimate",
+   "origin": "reviewed",
+   "date": "2026-10-07"
+  },
+  {
+   "key": "category: jam and honey",
+   "names": [],
+   "references": [],
+   "categories": [
+    "honey",
+    "syrup",
+    "en:jams",
+    "en:honeys",
+    "en:marmalades",
+    "en:fruit-preserves",
+    "en:syrups"
+   ],
+   "unit": "tablespoon",
+   "typical": 1,
+   "gramsPerUnit": 20,
+   "source": {
+    "kind": "estimate",
+    "reason": "one tablespoon of jam or honey"
+   },
+   "typicalSource": "estimate",
+   "origin": "reviewed",
+   "date": "2026-10-07"
+  },
+  {
+   "key": "category: nuts and seeds",
+   "names": [],
+   "references": [],
+   "categories": [
+    "nuts",
+    "peanuts",
+    "en:nuts",
+    "en:peanuts",
+    "en:seeds",
+    "en:mixed-nuts"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 30,
+   "source": {
+    "kind": "estimate",
+    "reason": "a handful of nuts or seeds"
+   },
+   "typicalSource": "estimate",
+   "origin": "reviewed",
+   "date": "2026-10-07"
+  },
+  {
+   "key": "category: pasta sauces",
+   "names": [],
+   "references": [],
+   "categories": [
+    "en:pasta-sauces",
+    "en:tomato-sauces"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 125,
+   "source": {
+    "kind": "estimate",
+    "reason": "enough sauce for one plate of pasta"
+   },
+   "typicalSource": "estimate",
+   "origin": "reviewed",
+   "date": "2026-10-07"
+  },
+  {
+   "key": "category: pickles",
+   "names": [],
+   "references": [],
+   "categories": [
+    "cucumber",
+    "en:pickles",
+    "en:pickled-cucumbers",
+    "en:gherkins"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 30,
+   "source": {
+    "kind": "estimate",
+    "reason": "a few gherkins"
+   },
+   "typicalSource": "estimate",
+   "origin": "reviewed",
+   "date": "2026-10-07"
+  },
+  {
+   "key": "category: sauces and dressings",
+   "names": [],
+   "references": [],
+   "categories": [
+    "sauce",
+    "en:sauces",
+    "en:dressings",
+    "en:condiments"
+   ],
+   "unit": "tablespoon",
+   "typical": 1,
+   "gramsPerUnit": 15,
+   "source": {
+    "kind": "estimate",
+    "reason": "one tablespoon of sauce or dressing"
+   },
+   "typicalSource": "estimate",
+   "origin": "reviewed",
+   "date": "2026-10-07"
+  },
+  {
+   "key": "category: spreads and nut butters",
+   "names": [],
+   "references": [],
+   "categories": [
+    "spread",
+    "sweet-spread",
+    "meat-spread",
+    "en:spreads",
+    "en:nut-butters",
+    "en:peanut-butters",
+    "en:chocolate-spreads",
+    "en:hazelnut-spreads",
+    "en:sweet-spreads"
+   ],
+   "unit": "tablespoon",
+   "typical": 1,
+   "gramsPerUnit": 20,
+   "source": {
+    "kind": "estimate",
+    "reason": "one tablespoon spread on bread"
+   },
+   "typicalSource": "estimate",
+   "origin": "reviewed",
+   "date": "2026-10-07"
+  },
+  {
+   "key": "category: yogurt",
+   "names": [],
+   "references": [],
+   "categories": [
+    "yogurt",
+    "cottage-cheese",
+    "en:yogurts",
+    "en:yoghurts",
+    "en:quarks"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 150,
+   "source": {
+    "kind": "estimate",
+    "reason": "a small bowl or pot of yogurt"
+   },
+   "typicalSource": "estimate",
+   "origin": "reviewed",
+   "date": "2026-10-07"
+  },
+  {
    "key": "cauliflower",
    "names": [
     "cauliflower",
@@ -5210,6 +5515,30 @@
    "origin": "generated",
    "date": "2026-10-01",
    "draft": "batch-4"
+  },
+  {
+   "key": "cornichons",
+   "names": [
+    "cornichons",
+    "cornichon",
+    "gewürzgurken",
+    "gewürzgurke"
+   ],
+   "references": [
+    "bls:G890902",
+    "ciqual:11004",
+    "ciqual:11097"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 30,
+   "source": {
+    "kind": "estimate",
+    "reason": "a few small gherkins"
+   },
+   "typicalSource": "estimate",
+   "origin": "reviewed",
+   "date": "2026-10-07"
   },
   {
    "key": "cottage cheese",
@@ -12279,9 +12608,7 @@
     "dill pickles",
     "gherkins",
     "pickled cucumber",
-    "cornichons",
     "pickle",
-    "gewurzgurken",
     "dill pickle"
    ],
    "references": [
