@@ -2939,6 +2939,25 @@
    "date": "2026-10-07"
   },
   {
+   "key": "category: rice ball",
+   "names": [],
+   "references": [],
+   "categories": [
+    "rice-ball",
+    "en:onigiri"
+   ],
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 110,
+   "source": {
+    "kind": "estimate",
+    "reason": "a convenience store onigiri, counted by the piece, never by the spoon"
+   },
+   "typicalSource": "estimate",
+   "origin": "reviewed",
+   "date": "2026-10-10"
+  },
+  {
    "key": "category: sauces and dressings",
    "names": [],
    "references": [],
@@ -7192,6 +7211,26 @@
    "origin": "generated",
    "date": "2026-10-01",
    "draft": "batch-3"
+  },
+  {
+   "key": "franzbrotchen",
+   "names": [
+    "franzbrotchen",
+    "franzbroetchen"
+   ],
+   "references": [
+    "bls:D7A7200"
+   ],
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 80,
+   "source": {
+    "kind": "estimate",
+    "reason": "one Hamburg Franzbrötchen, a cinnamon pastry"
+   },
+   "typicalSource": "estimate",
+   "origin": "reviewed",
+   "date": "2026-10-10"
   },
   {
    "key": "french fries",

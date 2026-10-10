@@ -1,5 +1,5 @@
 {
-  "version": 35,
+  "version": 36,
   "description": "Akari presentation classification. Unambiguous complete food names can correct contradictory source categories; otherwise exact source categories come first. Product-line rules apply only when the entire remaining name is a reviewed qualifier. Never infer nutrients, allergens, alcohol counts or verified status.",
   "taxonomySource": "https://openfoodfacts.github.io/documentation/docs/Product-Opener/schemas/schemas/product_tags/",
   "rules": [
@@ -2665,7 +2665,12 @@
         "brocoli",
         "brokkoliröschen",
         "broccoli florets",
-        "ブロッコリー"
+        "ブロッコリー",
+        "brussels sprouts",
+        "brussels sprout",
+        "brussel sprouts",
+        "brussel sprout",
+        "rosenkohl"
       ]
     },
     {
@@ -2970,7 +2975,16 @@
         "wildheidelbeeren",
         "wilde heidelbeeren",
         "wildblaubeeren",
-        "ブルーベリー"
+        "ブルーベリー",
+        "berries",
+        "mixed berries",
+        "berry mix",
+        "frozen berries",
+        "beeren",
+        "beerenmischung",
+        "beerenmix",
+        "waldbeeren",
+        "tk beeren"
       ]
     },
     {
@@ -4211,6 +4225,15 @@
         "onigiri",
         "omusubi",
         "reisbällchen"
+      ],
+      "ingredientCategories": [
+        "sauce",
+        "poultry",
+        "fish",
+        "meat",
+        "egg",
+        "avocado",
+        "rice"
       ]
     },
     {
