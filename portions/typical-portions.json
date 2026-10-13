@@ -12850,6 +12850,27 @@
    "draft": "batch-1"
   },
   {
+   "key": "pizza",
+   "names": [
+    "pizza",
+    "pizza margherita"
+   ],
+   "references": [
+    "usda:2708614",
+    "bls:X912033"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 350,
+   "source": {
+    "kind": "estimate",
+    "reason": "one whole pizza for one person"
+   },
+   "typicalSource": "estimate",
+   "origin": "reviewed",
+   "date": "2026-10-13"
+  },
+  {
    "key": "pizza dough",
    "names": [
     "pizza dough",
