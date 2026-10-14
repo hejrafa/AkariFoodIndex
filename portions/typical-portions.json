@@ -1411,6 +1411,60 @@
    "draft": "batch-6"
   },
   {
+   "key": "berliner doughnut",
+   "names": [
+    "berliner",
+    "krapfen",
+    "berliner pfannkuchen",
+    "jam doughnut",
+    "berliner doughnut"
+   ],
+   "references": [
+    "bls:D7A6000",
+    "bls:D7A6100",
+    "bls:D7A6200",
+    "bls:D7A6300",
+    "bls:D7A6400",
+    "bls:D7A6500"
+   ],
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 75,
+   "source": {
+    "kind": "estimate",
+    "reason": "one filled Berliner (Krapfen) from a bakery"
+   },
+   "typicalSource": "estimate",
+   "origin": "reviewed",
+   "date": "2026-10-14"
+  },
+  {
+   "key": "bienenstich",
+   "names": [
+    "bienenstich",
+    "bee sting cake"
+   ],
+   "references": [
+    "bls:D461300"
+   ],
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 110,
+   "also": [
+    {
+     "unit": "slice",
+     "gramsPerUnit": 110
+    }
+   ],
+   "source": {
+    "kind": "estimate",
+    "reason": "one piece of sheet-baked Bienenstich from a bakery"
+   },
+   "typicalSource": "estimate",
+   "origin": "reviewed",
+   "date": "2026-10-14"
+  },
+  {
    "key": "birne",
    "names": [
     "birne",
@@ -1928,6 +1982,30 @@
    "origin": "generated",
    "date": "2026-10-01",
    "draft": "batch-3"
+  },
+  {
+   "key": "bratwurst with sauerkraut piece",
+   "names": [],
+   "references": [
+    "akari:recipe:bratwurst-with-sauerkraut:v1"
+   ],
+   "unit": "piece",
+   "typical": 2,
+   "gramsPerUnit": 155,
+   "counts": [
+    "bratwurst",
+    "bratwürste",
+    "bratwürstchen",
+    "bratwurste",
+    "bratwursts"
+   ],
+   "source": {
+    "kind": "estimate",
+    "reason": "one sausage with its share of the plate of sauerkraut, a plate holding two"
+   },
+   "typicalSource": "estimate",
+   "origin": "reviewed",
+   "date": "2026-10-14"
   },
   {
    "key": "bread roll",
@@ -11013,6 +11091,27 @@
    "draft": "batch-5"
   },
   {
+   "key": "maultasche in broth",
+   "names": [],
+   "references": [
+    "akari:recipe:maultaschen:v1"
+   ],
+   "unit": "piece",
+   "typical": 4,
+   "gramsPerUnit": 128,
+   "counts": [
+    "maultasche",
+    "maultaschen"
+   ],
+   "source": {
+    "kind": "estimate",
+    "reason": "one Maultasche of about 65 g with its share of the broth, a bowl holding four"
+   },
+   "typicalSource": "estimate",
+   "origin": "reviewed",
+   "date": "2026-10-14"
+  },
+  {
    "key": "mayonnaise",
    "names": [
     "mayonnaise",
@@ -12868,7 +12967,17 @@
    },
    "typicalSource": "estimate",
    "origin": "reviewed",
-   "date": "2026-10-13"
+   "date": "2026-10-14",
+   "also": [
+    {
+     "unit": "slice",
+     "gramsPerUnit": 80
+    },
+    {
+     "unit": "piece",
+     "gramsPerUnit": 80
+    }
+   ]
   },
   {
    "key": "pizza dough",
@@ -12893,6 +13002,32 @@
    "origin": "generated",
    "date": "2026-10-01",
    "draft": "batch-3"
+  },
+  {
+   "key": "pizza slice",
+   "names": [
+    "pizza slice",
+    "slice of pizza"
+   ],
+   "references": [
+    "akari:recipe:pizza-margherita:v1",
+    "akari:recipe:pizza-salami:v1",
+    "akari:recipe:pizza-funghi:v1",
+    "akari:recipe:pizza-hawaii:v1",
+    "akari:recipe:pizza-quattro-formaggi:v1",
+    "akari:recipe:pizza-tonno:v1",
+    "akari:recipe:pizza-diavola:v1"
+   ],
+   "unit": "slice",
+   "typical": 2,
+   "gramsPerUnit": 80,
+   "source": {
+    "kind": "estimate",
+    "reason": "a sixth of a whole pizza; a counted Stück of pizza is a slice"
+   },
+   "typicalSource": "estimate",
+   "origin": "reviewed",
+   "date": "2026-10-14"
   },
   {
    "key": "plaice fried without fat pan",

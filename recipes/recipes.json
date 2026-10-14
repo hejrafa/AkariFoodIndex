@@ -303,7 +303,16 @@
     "avocado on toast",
     "avo toast",
     "avocado brot",
-    "avocadobrot"
+    "avocadobrot",
+    "toast with avocado",
+    "toast with smashed avocado",
+    "smashed avocado toast",
+    "smashed avocado on toast",
+    "avocado on sourdough",
+    "toast mit avocado",
+    "toast mit avocadocreme",
+    "brot mit avocado",
+    "avocado auf toast"
    ],
    "artworkID": "avocado",
    "serving": {
@@ -331,7 +340,7 @@
      "grams": 5
     }
    ],
-   "notes": "Two 40 g slices of wheat-rye bread with half a large avocado, a squeeze of lemon and a drizzle of olive oil. The serving counts slices.",
+   "notes": "Two 40 g slices of wheat-rye bread with half a large avocado, a squeeze of lemon and a drizzle of olive oil. The serving counts slices. A bare count or a count of slices counts slices; sourdough named before it is this bread.",
    "origin": "reviewed"
   },
   {
@@ -1030,6 +1039,96 @@
     }
    ],
    "notes": "Ramen noodles in chicken stock enriched with sesame paste and soy sauce, topped with minced pork, pak choi, a boiled egg and spring onion. Chili oil is the known chili oil mixture: 10 g neutral oil with 2 g cayenne.",
+   "origin": "reviewed"
+  },
+  {
+   "id": "akari:recipe:spaetzle:v1",
+   "names": {
+    "en": "Spätzle",
+    "de": "Spätzle"
+   },
+   "aliases": [
+    "spaetzle",
+    "spatzle",
+    "spätzli",
+    "spaetzli",
+    "egg spaetzle",
+    "swabian egg noodles",
+    "butter spaetzle",
+    "schwäbische spätzle",
+    "eierspätzle",
+    "butterspätzle",
+    "spätzle mit butter"
+   ],
+   "artworkID": "pasta",
+   "serving": {
+    "label": {
+     "en": "1 portion",
+     "de": "1 Portion"
+    },
+    "count": 1
+   },
+   "ingredients": [
+    {
+     "reference": "bls:E438032",
+     "grams": 220
+    },
+    {
+     "reference": "bls:Q611000",
+     "grams": 8
+    }
+   ],
+   "notes": "Plain Spätzle as a main or a side: BLS has only raw homemade Spätzle, so its cooked fresh egg pasta stands in, as in Käsespätzle, tossed in a little butter. One portion is 220 g cooked, the typical portion of fresh egg pasta.",
+   "origin": "reviewed"
+  },
+  {
+   "id": "akari:recipe:almond-croissant:v1",
+   "names": {
+    "en": "Almond croissant",
+    "de": "Mandelcroissant"
+   },
+   "aliases": [
+    "almond croissants",
+    "croissant aux amandes",
+    "mandel croissant",
+    "mandel-croissant",
+    "mandelcroissants"
+   ],
+   "artworkID": "croissant",
+   "serving": {
+    "label": {
+     "en": "1 piece",
+     "de": "1 Stück"
+    },
+    "count": 1
+   },
+   "ingredients": [
+    {
+     "reference": "usda:2707678",
+     "grams": 60
+    },
+    {
+     "reference": "bls:H210100",
+     "grams": 15
+    },
+    {
+     "reference": "usda:2710258",
+     "grams": 8
+    },
+    {
+     "reference": "bls:Q611000",
+     "grams": 6
+    },
+    {
+     "reference": "usda:2707152",
+     "grams": 6
+    },
+    {
+     "reference": "bls:S111100",
+     "grams": 2
+    }
+   ],
+   "notes": "A bakery almond croissant: a 60 g butter croissant filled with almond cream (ground almonds, sugar, butter and egg), topped with flaked almonds and a dusting of icing sugar. Ciqual's croissant aux amandes has only a French name, so the dish is built from rows the app can name.",
    "origin": "reviewed"
   },
   {

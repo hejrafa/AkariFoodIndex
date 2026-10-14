@@ -13,15 +13,15 @@
   "shareDifferencePoints": 15
  },
  "summary": {
-  "dishes": 1498,
+  "dishes": 1500,
   "withTableRow": 1084,
-  "flagged": 188,
+  "flagged": 189,
   "flags": {
    "energy ratio": 23,
    "fat share": 58,
-   "missing": 90,
+   "missing": 91,
    "protein share": 10,
-   "serving": 39
+   "serving": 40
   }
  },
  "dishes": [
@@ -206,6 +206,29 @@
    ],
    "flags": [
     "missing sugar, saturatedFat"
+   ]
+  },
+  {
+   "id": "akari:recipe:spaetzle:v1",
+   "name": "Spätzle",
+   "origin": "reviewed",
+   "servingGrams": 228,
+   "kcalPerServing": 438.2,
+   "kcalPer100g": 192.2
+  },
+  {
+   "id": "akari:recipe:almond-croissant:v1",
+   "name": "Almond croissant",
+   "origin": "reviewed",
+   "servingGrams": 97,
+   "kcalPerServing": 418.7,
+   "kcalPer100g": 431.6,
+   "missingCore": [
+    "water"
+   ],
+   "flags": [
+    "serving 97 g outside 120–900 g",
+    "missing water"
    ]
   },
   {
