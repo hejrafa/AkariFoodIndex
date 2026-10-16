@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "description": "Words a food's display name leaves out, English and German. Source databases add grading and marketing words (\"Best quality butter\", \"beste Qualität\") and unspecified qualifications (\"NFS\", \"NS as to part\") that do not tell a person what they ate. The app removes them from titles in lists and rows; the opened food page still shows the source name. unspecified: comma-separated parts of a source name that are dropped whole (exact, case-insensitive) or by their start (prefixes); the first part is never dropped. marketing: regular expressions removed wherever they appear; the name keeps its first letter capitalised and is never left empty.",
+  "unspecified": {
+    "exact": ["ns", "nfs", "not specified", "not further specified"],
+    "prefixes": ["ns as to ", "not specified as to "]
+  },
+  "marketing": [
+    {"pattern": "(?i)\\b(?:best|highest|high|top|extra|premium|finest|superior)\\s+quality\\b", "example": "Best quality butter → Butter"},
+    {"pattern": "(?i)^quality\\s+(?=\\p{L})", "example": "Quality sparkling wine dry → Sparkling wine dry"},
+    {"pattern": "(?i)\\b(?:beste|bester|bestes|höchste|hoechste|feinste|premium|top|spitzen)[- ]?qualität\\b", "example": "Butter beste Qualität → Butter"},
+    {"pattern": "(?i)\\bin\\s+(?:bester|feinster|premium)\\s+qualität\\b", "example": "Salami in bester Qualität → Salami"},
+    {"pattern": "\\s+Ia\\b", "example": "Salami Ia → Salami"}
+  ]
+}
