@@ -1,75 +1,77 @@
 {
- "about": "Artwork ids that stand for a kind of dish or a container rather than a food. A catalogue dish whose artworkID is a family shows its main ingredient's sticker instead: the heaviest ingredient that weighs at least minimumShare of the dish and whose row resolves, through artwork-classification.json, to a sticker that is neither a family (ownStickers excepted) nor a carrier. Soups, curries and the meat, poultry and fish families (keepUnlessProtein) keep their family unless that ingredient is drawn as a named animal, fish or legume: a chicken soup shows the chicken, a tomato soup stays a soup bowl, and fish with potatoes stays a fish. The plain meat sticker is itself a family and does not replace a soup bowl. Scripts/build_recipe_catalog.py writes the pick into FoodIndex/recipes/recipes.json as artworkID and keeps the family as familyArtworkID; a dish whose familyArtworkID equals its artworkID was reviewed to keep its family.",
- "families": [
-  "meat",
-  "poultry",
-  "fish",
-  "takeout",
-  "custard",
-  "soup",
-  "curry",
-  "plate",
-  "bento",
-  "canned-food",
-  "jar",
-  "amphora",
-  "cutlery",
-  "chopsticks",
-  "spoon",
-  "kitchen-knife"
- ],
- "ownStickers": {
-  "about": "Families that are also an ingredient row's own sticker: a chicken breast is drawn as the poultry leg, a salmon fillet as the fish.",
-  "ids": [
-   "meat",
-   "poultry",
-   "fish"
-  ]
- },
- "carriers": {
-  "about": "Ingredients that carry a dish without naming it: liquids, fats and seasoning. They are never the main ingredient.",
-  "ids": [
-   "milk",
-   "water",
-   "pouring-water",
-   "ice",
-   "juice",
-   "butter",
-   "salt",
-   "wine",
-   "beer",
-   "spirits",
-   "sparkling-wine",
-   "sake",
-   "soft-drink",
-   "coffee",
-   "tea",
-   "sheaf-of-rice"
-  ]
- },
- "minimumShare": 0.15,
- "keepUnlessProtein": {
+  "about": "Artwork ids that stand for a kind of dish or a container rather than a food. A catalogue dish whose artworkID is a family shows its main ingredient's sticker instead: the heaviest ingredient that weighs at least minimumShare of the dish and whose row resolves, through artwork-classification.json, to a sticker that is neither a family (ownStickers excepted) nor a carrier. Soups, curries and the meat, poultry and fish families (keepUnlessProtein) keep their family unless that ingredient is drawn as a named animal, fish or legume: a chicken soup shows the chicken, a tomato soup stays a soup bowl, and fish with potatoes stays a fish. The plain meat sticker is itself a family and does not replace a soup bowl. Scripts/build_recipe_catalog.py writes the pick into FoodIndex/recipes/recipes.json as artworkID and keeps the family as familyArtworkID; a dish whose familyArtworkID equals its artworkID was reviewed to keep its family.",
   "families": [
-   "soup",
-   "curry",
-   "meat",
-   "poultry",
-   "fish"
+    "meat",
+    "poultry",
+    "fish",
+    "takeout",
+    "custard",
+    "soup",
+    "curry",
+    "plate",
+    "bento",
+    "canned-food",
+    "jar",
+    "amphora",
+    "cutlery",
+    "chopsticks",
+    "spoon",
+    "kitchen-knife"
   ],
-  "proteins": [
-   "meat-on-bone",
-   "poultry",
-   "bacon",
-   "fish",
-   "shrimp",
-   "fried-shrimp",
-   "crab",
-   "lobster",
-   "oyster",
-   "squid",
-   "fish-cake",
-   "beans",
-   "peas"
-  ]
- }
+  "ownStickers": {
+    "about": "Families that are also an ingredient row's own sticker: a chicken breast is drawn as the poultry leg, a salmon fillet as the fish.",
+    "ids": [
+      "meat",
+      "poultry",
+      "fish"
+    ]
+  },
+  "carriers": {
+    "about": "Ingredients that carry a dish without naming it: liquids, fats and seasoning. They are never the main ingredient.",
+    "ids": [
+      "milk",
+      "water",
+      "pouring-water",
+      "ice",
+      "juice",
+      "butter",
+      "salt",
+      "wine",
+      "beer",
+      "spirits",
+      "sparkling-wine",
+      "sake",
+      "soft-drink",
+      "coffee",
+      "tea",
+      "sheaf-of-rice"
+    ]
+  },
+  "minimumShare": 0.15,
+  "keepUnlessProtein": {
+    "families": [
+      "soup",
+      "curry",
+      "meat",
+      "poultry",
+      "fish",
+      "custard"
+    ],
+    "proteins": [
+      "meat-on-bone",
+      "poultry",
+      "bacon",
+      "fish",
+      "shrimp",
+      "fried-shrimp",
+      "crab",
+      "lobster",
+      "oyster",
+      "squid",
+      "fish-cake",
+      "beans",
+      "peas"
+    ],
+    "about": "Families that keep their sticker unless the main ingredient is drawn as an animal, fish or legume. Custard joined on 2026-10-17: egg and berry desserts keep the custard sticker."
+  }
 }
