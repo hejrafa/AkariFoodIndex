@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "description": "Plausible amounts for a photo meal, checked after the meal worker and after the phone's own reading alike. An amount outside its range is clamped to the nearest bound and the food's confidence drops to lowConfidence. Ranges are grams, or millilitres for the drink categories. A kind (the artwork rule id) is narrower than its visual category and wins over it. A catalogue dish's parts keep the recipe's amounts; the whole-meal range scales every solid food of a plate of at least minimumFoods foods.",
+  "lowConfidence": 0.3,
+  "meal": {
+    "min": 100,
+    "max": 1500,
+    "minimumFoods": 2
+  },
+  "drinks": [
+    "alcohol",
+    "coffeeAndTea",
+    "beverage"
+  ],
+  "categories": {
+    "alcohol": { "min": 20, "max": 1000 },
+    "coffeeAndTea": { "min": 20, "max": 750 },
+    "beverage": { "min": 50, "max": 1000 },
+    "preparedMeal": { "min": 50, "max": 1000 },
+    "fish": { "min": 30, "max": 400 },
+    "egg": { "min": 15, "max": 250 },
+    "dairy": { "min": 5, "max": 600 },
+    "meat": { "min": 30, "max": 400 },
+    "grain": { "min": 10, "max": 400 },
+    "legumesAndNuts": { "min": 5, "max": 400 },
+    "vegetable": { "min": 10, "max": 500 },
+    "fruit": { "min": 5, "max": 600 },
+    "sweets": { "min": 5, "max": 400 },
+    "snack": { "min": 5, "max": 300 },
+    "fatsAndOils": { "min": 0, "max": 40 },
+    "general": { "min": 0, "max": 1000 }
+  },
+  "kinds": {
+    "sauce": { "min": 0, "max": 150 },
+    "pasta": { "min": 50, "max": 400 },
+    "noodles": { "min": 50, "max": 400 },
+    "rice": { "min": 50, "max": 400 },
+    "prepared-rice": { "min": 50, "max": 400 }
+  }
+}

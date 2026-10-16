@@ -1,5 +1,5 @@
 {
-  "version": 36,
+  "version": 37,
   "description": "Akari presentation classification. Unambiguous complete food names can correct contradictory source categories; otherwise exact source categories come first. Product-line rules apply only when the entire remaining name is a reviewed qualifier. Never infer nutrients, allergens, alcohol counts or verified status.",
   "taxonomySource": "https://openfoodfacts.github.io/documentation/docs/Product-Opener/schemas/schemas/product_tags/",
   "rules": [
@@ -221,7 +221,7 @@
     },
     {
       "id": "flour",
-      "artworkID": "plate",
+      "artworkID": "sheaf-of-rice",
       "priority": 100,
       "tags": [
         "en:flours",
@@ -262,13 +262,24 @@
         "eiweißshakepulver",
         "eiweissshakepulver",
         "ginger powder",
-        "ingwerpulver",
-        "cocoa powder",
-        "kakaopulver",
         "chocolate powder",
         "vollmilchpulver",
         "magermilchpulver",
         "erdbeerjoghurtpulver"
+      ]
+    },
+    {
+      "id": "baking-powder",
+      "artworkID": "jar",
+      "priority": 101,
+      "tags": [],
+      "terms": [
+        "baking powder",
+        "backpulver",
+        "weinsteinbackpulver",
+        "levure chimique",
+        "baking soda",
+        "speisenatron"
       ]
     },
     {
@@ -830,7 +841,9 @@
         "weiße schokolade",
         "weisse schokolade",
         "dunkle schokolade",
-        "chocolat au lait"
+        "chocolat au lait",
+        "cocoa powder",
+        "kakaopulver"
       ],
       "compoundSuffixes": [
         "schokolade"
@@ -947,7 +960,21 @@
         "semoule de blé",
         "milch getreide brei",
         "breakfast cereal",
-        "wheat biscuits"
+        "wheat biscuits",
+        "muesli mix",
+        "müslimischung",
+        "chia",
+        "chia seed",
+        "chia seeds",
+        "chiasamen",
+        "chia samen",
+        "flaxseed",
+        "flaxseeds",
+        "flax seed",
+        "flax seeds",
+        "linseed",
+        "linseeds",
+        "leinsamen"
       ],
       "compoundSuffixes": [
         "flocken"
@@ -1344,7 +1371,19 @@
         "crispbread",
         "cornbread",
         "pan dulce",
-        "パン類"
+        "パン類",
+        "weizentortilla",
+        "weizentortillas",
+        "flour tortilla",
+        "flour tortillas",
+        "wheat tortilla",
+        "wheat tortillas",
+        "corn tortilla",
+        "corn tortillas",
+        "maistortilla",
+        "maistortillas",
+        "tortilla wrap",
+        "tortilla wraps"
       ],
       "compoundSuffixes": [
         "brot",
@@ -1374,6 +1413,11 @@
         "olive-oil",
         "flour",
         "yogurt"
+      ],
+      "exactTerms": [
+        "tortilla",
+        "tortillas",
+        "tortilla flour"
       ]
     },
     {
@@ -1861,6 +1905,9 @@
         "beef liver",
         "beef kidney",
         "meat extract"
+      ],
+      "ingredientCategories": [
+        "tofu"
       ]
     },
     {
@@ -2014,6 +2061,9 @@
         "fowl",
         "鳥肉類",
         "にわとり"
+      ],
+      "ingredientCategories": [
+        "tofu"
       ]
     },
     {
@@ -2036,6 +2086,9 @@
         "pancetta",
         "raeucherspeck",
         "baconwuerfel"
+      ],
+      "ingredientCategories": [
+        "tofu"
       ]
     },
     {
@@ -2475,7 +2528,18 @@
       "tags": [
         "en:spices"
       ],
-      "terms": [],
+      "terms": [
+        "paprika powder",
+        "turmeric powder",
+        "curry powder",
+        "garlic powder",
+        "paprika pulver",
+        "curry pulver",
+        "knoblauch pulver",
+        "ingwerpulver",
+        "fennel seed",
+        "fennel seeds"
+      ],
       "exactTerms": [
         "white pepper",
         "white pepper ground",
@@ -2859,7 +2923,24 @@
         "pistaches",
         "noix de macadamia",
         "pignon",
-        "pignons"
+        "pignons",
+        "cashewkern",
+        "cashewkerne",
+        "pumpkin seed",
+        "pumpkin seeds",
+        "kürbiskern",
+        "kürbiskerne",
+        "sunflower seed",
+        "sunflower seeds",
+        "sonnenblumenkern",
+        "sonnenblumenkerne",
+        "sesame",
+        "sesame seed",
+        "sesame seeds",
+        "sesamsamen"
+      ],
+      "exactTerms": [
+        "sesam"
       ]
     },
     {
@@ -3003,6 +3084,24 @@
       ]
     },
     {
+      "id": "raspberry",
+      "artworkID": "blueberries",
+      "priority": 18,
+      "tags": [],
+      "terms": [
+        "raspberry",
+        "raspberries",
+        "himbeere",
+        "himbeeren",
+        "framboise",
+        "framboises",
+        "blackberry",
+        "blackberries",
+        "brombeere",
+        "brombeeren"
+      ]
+    },
+    {
       "id": "melon",
       "artworkID": "melon",
       "priority": 20,
@@ -3050,7 +3149,105 @@
         "pfirsich",
         "pfirsiche",
         "pêches",
-        "もも"
+        "もも",
+        "nectarine",
+        "nectarines",
+        "nektarine",
+        "nektarinen",
+        "brugnon",
+        "brugnons"
+      ]
+    },
+    {
+      "id": "apricot",
+      "artworkID": "peach",
+      "priority": 18,
+      "tags": [],
+      "terms": [
+        "apricot",
+        "apricots",
+        "aprikose",
+        "aprikosen",
+        "abricot",
+        "abricots",
+        "marille",
+        "marillen"
+      ]
+    },
+    {
+      "id": "plum",
+      "artworkID": "grapes",
+      "priority": 18,
+      "tags": [],
+      "terms": [
+        "plum",
+        "plums",
+        "pflaume",
+        "pflaumen",
+        "zwetschge",
+        "zwetschgen",
+        "zwetschke",
+        "zwetschken"
+      ]
+    },
+    {
+      "id": "fig",
+      "artworkID": "grapes",
+      "priority": 18,
+      "tags": [],
+      "terms": [
+        "fig",
+        "figs",
+        "feige",
+        "feigen",
+        "figue",
+        "figues"
+      ]
+    },
+    {
+      "id": "date",
+      "artworkID": "chestnut",
+      "priority": 18,
+      "tags": [],
+      "terms": [
+        "dates",
+        "dattel",
+        "datteln",
+        "dattes",
+        "medjool",
+        "medjool dates"
+      ],
+      "exactTerms": [
+        "date",
+        "date raw"
+      ]
+    },
+    {
+      "id": "pomegranate",
+      "artworkID": "apple",
+      "priority": 18,
+      "tags": [],
+      "terms": [
+        "pomegranate",
+        "pomegranates",
+        "granatapfel",
+        "granatäpfel",
+        "grenade"
+      ]
+    },
+    {
+      "id": "grapefruit",
+      "artworkID": "orange",
+      "priority": 18,
+      "tags": [],
+      "terms": [
+        "grapefruit",
+        "grapefruits",
+        "pampelmuse",
+        "pampelmusen",
+        "pamplemousse",
+        "pomelo",
+        "pomelos"
       ]
     },
     {
@@ -3224,6 +3421,87 @@
       ]
     },
     {
+      "id": "zucchini",
+      "artworkID": "cucumber",
+      "priority": 18,
+      "tags": [],
+      "terms": [
+        "zucchini",
+        "zucchinis",
+        "zucchino",
+        "zucchetti",
+        "courgette",
+        "courgettes"
+      ]
+    },
+    {
+      "id": "green-vegetable",
+      "artworkID": "greens",
+      "priority": 18,
+      "tags": [],
+      "terms": [
+        "artichoke",
+        "artichokes",
+        "artischocke",
+        "artischocken",
+        "artichaut",
+        "artichauts",
+        "asparagus",
+        "spargel",
+        "asperge",
+        "asperges",
+        "celery",
+        "stalk celery",
+        "celery stalk",
+        "celery stalks",
+        "bleichsellerie",
+        "staudensellerie",
+        "stangensellerie",
+        "fennel",
+        "florence fennel",
+        "fenchel",
+        "gemüsefenchel",
+        "fenouil"
+      ]
+    },
+    {
+      "id": "root-vegetable",
+      "artworkID": "sweet-potato",
+      "priority": 18,
+      "tags": [],
+      "terms": [
+        "beetroot",
+        "beetroots",
+        "rote bete",
+        "rote beete",
+        "rote rübe",
+        "rote rüben",
+        "betterave",
+        "radish",
+        "radishes",
+        "radieschen",
+        "rettich",
+        "radis"
+      ]
+    },
+    {
+      "id": "pumpkin",
+      "artworkID": "sweet-potato",
+      "priority": 18,
+      "tags": [],
+      "terms": [
+        "pumpkin",
+        "pumpkins",
+        "kürbis",
+        "butternut",
+        "butternut squash",
+        "hokkaido kürbis",
+        "hokkaidokürbis",
+        "potiron",
+        "citrouille"
+      ]
+    },
+    {
       "id": "greens",
       "artworkID": "greens",
       "priority": 20,
@@ -3371,6 +3649,20 @@
         "shalot",
         "echalote",
         "たまねぎ"
+      ]
+    },
+    {
+      "id": "leek",
+      "artworkID": "onion",
+      "priority": 18,
+      "tags": [],
+      "terms": [
+        "leek",
+        "leeks",
+        "lauch",
+        "porree",
+        "poireau",
+        "poireaux"
       ]
     },
     {
@@ -3951,6 +4243,33 @@
         "en:vegetarian-sausages",
         "en:vegan-sausages"
       ],
+      "terms": []
+    },
+    {
+      "id": "tofu",
+      "artworkID": "beans",
+      "priority": 42,
+      "tags": [
+        "xx:tofu"
+      ],
+      "terms": [
+        "tofu",
+        "tofu natur",
+        "räuchertofu",
+        "smoked tofu",
+        "silken tofu",
+        "seidentofu",
+        "tofu soyeux",
+        "tofu fume"
+      ]
+    },
+    {
+      "id": "textured-soy",
+      "artworkID": "beans",
+      "priority": 42,
+      "tags": [
+        "en:textured-soy-protein"
+      ],
       "terms": [
         "soja geschnetzeltes",
         "sojageschnetzeltes",
@@ -3959,10 +4278,9 @@
         "textured soy protein",
         "textured vegetable protein",
         "texturiertes sojaprotein",
-        "tofu",
-        "tofu natur",
-        "räuchertofu",
-        "smoked tofu"
+        "sojaschnetzel",
+        "textured soya protein",
+        "texturised soya protein"
       ]
     },
     {
@@ -4081,6 +4399,18 @@
       ]
     },
     {
+      "id": "pea",
+      "artworkID": "peas",
+      "priority": 18,
+      "tags": [],
+      "terms": [
+        "green pea",
+        "pea green",
+        "erbse",
+        "erbse grün"
+      ]
+    },
+    {
       "id": "brown-mushroom",
       "artworkID": "brown-mushroom",
       "priority": 22,
@@ -4114,6 +4444,9 @@
         "lammhaxen",
         "schweinshaxe",
         "pork knuckle"
+      ],
+      "ingredientCategories": [
+        "tofu"
       ]
     },
     {
