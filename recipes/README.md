@@ -111,7 +111,8 @@ core value and 58 for fat share.
      one dish and must not collide with a café drink or a known product. Avoid
      bare category words (`pizza`, `curry`) that name many dishes.
    - `artworkID`: an existing id from `Akari/FluentFoodArtwork.json`; use
-     `plate` when nothing fits. Never add artwork.
+     `plate` when nothing fits. Never add artwork. A family sticker (see
+     below) is replaced by the build when the main ingredient has its own.
    - `serving`: a label in both languages and a `count`. The count is what a
      spoken number counts: "two pancakes" with a serving of 3 pancakes is two
      thirds of a serving.
@@ -128,6 +129,26 @@ python3 -m unittest Scripts/test_recipe_catalog.py
 
 A reference that does not exist, an unknown artwork id or a duplicated alias
 fails the build. Running the build twice changes nothing.
+
+## Family stickers
+
+`FoodIndex/artwork-families.json` names the artwork ids that stand for a kind
+of dish or a container rather than a food: `meat`, `poultry`, `fish`,
+`takeout`, `custard`, `soup`, `curry`, `plate`, `bento`, `canned-food`, `jar`,
+`amphora` and the cutlery. A dish drawn with one of them shows its main
+ingredient's sticker instead: the heaviest ingredient of at least 15 % of the
+dish whose row resolves, through `artwork-classification.json`, to a food
+sticker. Liquids, fats, flour and seasoning (`carriers`) never count, and
+neither does the plate placeholder. Soups, curries and the meat, poultry and
+fish families keep their sticker unless that ingredient is drawn as an
+animal, fish or legume, so a chicken soup shows the chicken and a tomato soup
+stays a soup bowl.
+
+The build writes the pick into `recipes.json` as `artworkID` and keeps the
+family as `familyArtworkID`. `python3 Scripts/dish_artwork_review.py` prints
+every dish whose sticker changed with its main ingredient. Fix a wrong pick
+here in the data: another `artworkID`, or the family id in both
+`artworkID` and `familyArtworkID` to keep the family.
 
 ## How the app uses it
 
