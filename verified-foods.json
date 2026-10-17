@@ -186,7 +186,12 @@
     },
     {
       "id": "bls:M711100",
-      "ingredient": "Cottage cheese"
+      "ingredient": "Cottage cheese",
+      "searchAliases": [
+        "cottage cheese",
+        "Hüttenkäse",
+        "körniger Frischkäse"
+      ]
     },
     {
       "id": "bls:C119232",
@@ -639,7 +644,11 @@
         "plain bread roll",
         "white roll",
         "normales Brötchen",
-        "Weizenbrötchen"
+        "Weizenbrötchen",
+        "bread roll",
+        "bread rolls",
+        "Semmel",
+        "Schrippe"
       ]
     },
     {
@@ -706,7 +715,10 @@
       "id": "usda:2707599",
       "ingredient": "Bread, white, toasted",
       "displayName": "Toast",
-      "displayNameDE": "Toast"
+      "displayNameDE": "Toast",
+      "searchAliases": [
+        "toast"
+      ]
     },
     {
       "id": "usda:2707646",
@@ -726,7 +738,12 @@
     {
       "id": "usda:2707678",
       "ingredient": "Croissant",
-      "displayNameDE": "Croissant"
+      "displayNameDE": "Croissant",
+      "searchAliases": [
+        "croissant",
+        "croissants",
+        "Buttercroissant"
+      ]
     },
     {
       "id": "usda:2707616",
@@ -1532,7 +1549,12 @@
       "ingredient": "Coffee, brewed",
       "displayNameDE": "Kaffee, aufgebrüht",
       "searchAliases": [
-        "Kaffee"
+        "Kaffee",
+        "coffee",
+        "black coffee",
+        "filter coffee",
+        "schwarzer Kaffee",
+        "Filterkaffee"
       ]
     },
     {
@@ -1565,7 +1587,10 @@
         "schwarzer Tee",
         "Schwarztee",
         "Tee",
-        "tea"
+        "tea",
+        "black tea",
+        "cup of tea",
+        "Tasse Tee"
       ]
     },
     {
@@ -1575,7 +1600,9 @@
       "searchAliases": [
         "soda",
         "soft drink",
-        "Softdrink"
+        "Softdrink",
+        "cola",
+        "Cola"
       ]
     },
     {
@@ -1611,7 +1638,9 @@
         "Carbonated water",
         "Mineral water",
         "Sprudelwasser",
-        "Mineralwasser"
+        "Mineralwasser",
+        "sparkling water",
+        "Sprudel"
       ]
     },
     {
@@ -1620,7 +1649,8 @@
       "displayName": "Orange juice, 100%",
       "displayNameDE": "Orangensaft, 100 %",
       "searchAliases": [
-        "Orangensaft"
+        "Orangensaft",
+        "orange juice"
       ]
     },
     {
@@ -1629,7 +1659,8 @@
       "displayName": "Apple juice, 100%",
       "displayNameDE": "Apfelsaft, 100 %",
       "searchAliases": [
-        "Apfelsaft"
+        "Apfelsaft",
+        "apple juice"
       ]
     },
     {
@@ -2092,6 +2123,247 @@
         "Gebratenes Reisbällchen",
         "焼きおにぎり"
       ]
+    },
+    {
+      "id": "bls:X654042",
+      "ingredient": "French fries",
+      "displayName": "French fries",
+      "displayNameDE": "Pommes frites",
+      "searchAliases": [
+        "french fries",
+        "fries",
+        "Pommes",
+        "Pommes frites",
+        "Fritten"
+      ]
+    },
+    {
+      "id": "usda:2709405",
+      "ingredient": "Roast potatoes",
+      "displayName": "Roast potatoes",
+      "displayNameDE": "Ofenkartoffeln",
+      "searchAliases": [
+        "roast potatoes",
+        "roasted potatoes",
+        "Ofenkartoffeln",
+        "Röstkartoffeln"
+      ]
+    },
+    {
+      "id": "bls:X634012",
+      "ingredient": "Mashed potatoes",
+      "displayName": "Mashed potatoes",
+      "displayNameDE": "Kartoffelpüree",
+      "searchAliases": [
+        "mashed potatoes",
+        "mashed potato",
+        "Kartoffelpüree",
+        "Kartoffelbrei",
+        "Stampfkartoffeln"
+      ]
+    },
+    {
+      "id": "cofid:13-483",
+      "ingredient": "Potato wedges",
+      "displayName": "Potato wedges",
+      "displayNameDE": "Kartoffelspalten",
+      "searchAliases": [
+        "potato wedges",
+        "wedges",
+        "Kartoffelspalten",
+        "Kartoffelecken",
+        "Wedges"
+      ]
+    },
+    {
+      "id": "bls:B723000",
+      "ingredient": "Pretzel",
+      "displayName": "Pretzel",
+      "displayNameDE": "Brezel",
+      "searchAliases": [
+        "pretzel",
+        "pretzels",
+        "soft pretzel",
+        "Brezel",
+        "Brezeln",
+        "Breze",
+        "Laugenbrezel",
+        "Brezn"
+      ]
+    },
+    {
+      "id": "bls:X929212",
+      "ingredient": "Pancakes",
+      "displayName": "Pancakes",
+      "displayNameDE": "Pfannkuchen",
+      "searchAliases": [
+        "pancakes",
+        "pancake",
+        "Pfannkuchen",
+        "Eierkuchen",
+        "Pfannekuchen"
+      ]
+    },
+    {
+      "id": "bls:D621000",
+      "ingredient": "Waffles",
+      "displayName": "Waffles",
+      "displayNameDE": "Waffeln",
+      "searchAliases": [
+        "waffles",
+        "waffle",
+        "Waffeln",
+        "Waffel"
+      ]
+    },
+    {
+      "id": "bls:Y720143",
+      "ingredient": "Scrambled eggs",
+      "displayName": "Scrambled eggs",
+      "displayNameDE": "Rührei",
+      "searchAliases": [
+        "scrambled eggs",
+        "scrambled egg",
+        "Rührei",
+        "Rühreier"
+      ]
+    },
+    {
+      "id": "bls:Y710142",
+      "ingredient": "Fried egg",
+      "displayName": "Fried egg",
+      "displayNameDE": "Spiegelei",
+      "searchAliases": [
+        "fried egg",
+        "fried eggs",
+        "sunny side up egg",
+        "Spiegelei",
+        "Spiegeleier"
+      ]
+    },
+    {
+      "id": "bls:E111132",
+      "ingredient": "Boiled egg",
+      "displayName": "Boiled egg",
+      "displayNameDE": "Gekochtes Ei",
+      "searchAliases": [
+        "boiled egg",
+        "boiled eggs",
+        "hard boiled egg",
+        "soft boiled egg",
+        "gekochtes Ei",
+        "gekochte Eier",
+        "Frühstücksei"
+      ]
+    },
+    {
+      "id": "bls:Y730163",
+      "ingredient": "Omelette",
+      "displayName": "Omelette",
+      "displayNameDE": "Omelett",
+      "searchAliases": [
+        "omelette",
+        "omelet",
+        "Omelett",
+        "Omelette"
+      ]
+    },
+    {
+      "id": "usda:2709483",
+      "ingredient": "Hash browns",
+      "displayName": "Hash browns",
+      "displayNameDE": "Hash Browns",
+      "searchAliases": [
+        "hash browns",
+        "hash brown",
+        "Hash Browns"
+      ]
+    },
+    {
+      "id": "bls:Y9A1050",
+      "ingredient": "Falafel",
+      "displayName": "Falafel",
+      "displayNameDE": "Falafel",
+      "searchAliases": [
+        "falafel",
+        "Falafelbällchen"
+      ]
+    },
+    {
+      "id": "bls:X9A3030",
+      "ingredient": "Spring roll",
+      "displayName": "Spring roll",
+      "displayNameDE": "Frühlingsrolle",
+      "searchAliases": [
+        "spring roll",
+        "spring rolls",
+        "Frühlingsrolle",
+        "Frühlingsrollen"
+      ]
+    },
+    {
+      "id": "usda:2708705",
+      "ingredient": "Dumplings",
+      "displayName": "Dumplings",
+      "displayNameDE": "Dumplings",
+      "searchAliases": [
+        "dumplings",
+        "dumpling",
+        "gyoza",
+        "potstickers",
+        "pot stickers",
+        "Teigtaschen",
+        "Jiaozi"
+      ]
+    },
+    {
+      "id": "usda:2710570",
+      "ingredient": "Lemonade",
+      "displayName": "Lemonade",
+      "displayNameDE": "Limonade",
+      "searchAliases": [
+        "lemonade",
+        "Limonade",
+        "Zitronenlimonade",
+        "Limo"
+      ]
+    },
+    {
+      "id": "bls:P161000",
+      "ingredient": "Beer",
+      "displayName": "Beer",
+      "displayNameDE": "Bier",
+      "searchAliases": [
+        "beer",
+        "lager",
+        "Bier",
+        "Helles",
+        "Pils",
+        "Lagerbier"
+      ]
+    },
+    {
+      "id": "usda:2710688",
+      "ingredient": "Red wine",
+      "displayName": "Red wine",
+      "displayNameDE": "Rotwein",
+      "searchAliases": [
+        "wine",
+        "red wine",
+        "Wein",
+        "Rotwein"
+      ]
+    },
+    {
+      "id": "usda:2710689",
+      "ingredient": "White wine",
+      "displayName": "White wine",
+      "displayNameDE": "Weißwein",
+      "searchAliases": [
+        "white wine",
+        "Weißwein",
+        "Weisswein"
+      ]
     }
   ],
   "namedOnly": [
@@ -2156,6 +2428,1914 @@
       "ingredient": "Instant noodles",
       "displayName": "Instant noodles, prepared",
       "displayNameDE": "Instantnudeln, zubereitet"
+    }
+  ],
+  "drinks": [
+    {
+      "id": "cafe:generic:coffee-black",
+      "name": "Coffee, black",
+      "displayNameDE": "Kaffee, schwarz",
+      "searchAliases": [
+        "Filter coffee",
+        "Brewed coffee",
+        "Drip coffee",
+        "Pour over",
+        "French press",
+        "Filterkaffee",
+        "Schwarzer Kaffee"
+      ],
+      "servingMilliliters": 250
+    },
+    {
+      "id": "cafe:generic:espresso",
+      "name": "Espresso",
+      "displayNameDE": "Espresso",
+      "searchAliases": [
+        "Espresso single",
+        "Single shot"
+      ],
+      "servingMilliliters": 30
+    },
+    {
+      "id": "cafe:generic:double-espresso",
+      "name": "Double espresso",
+      "displayNameDE": "Doppelter Espresso",
+      "searchAliases": [
+        "Doppio",
+        "Double shot"
+      ],
+      "servingMilliliters": 60
+    },
+    {
+      "id": "cafe:generic:decaf-espresso",
+      "name": "Decaf espresso",
+      "displayNameDE": "Espresso entkoffeiniert",
+      "searchAliases": [
+        "Decaffeinated espresso"
+      ],
+      "servingMilliliters": 30
+    },
+    {
+      "id": "cafe:generic:instant-coffee-black",
+      "name": "Instant coffee, black",
+      "displayNameDE": "Instantkaffee, schwarz",
+      "searchAliases": [
+        "Instantkaffee"
+      ],
+      "servingMilliliters": 250
+    },
+    {
+      "id": "cafe:generic:decaf-instant-coffee-black",
+      "name": "Decaf instant coffee, black",
+      "displayNameDE": "Instantkaffee entkoffeiniert, schwarz",
+      "searchAliases": [
+        "Decaffeinated coffee"
+      ],
+      "servingMilliliters": 250
+    },
+    {
+      "id": "cafe:generic:long-black",
+      "name": "Long black",
+      "displayNameDE": "Long Black",
+      "searchAliases": [
+        "Americano"
+      ],
+      "servingMilliliters": 250
+    },
+    {
+      "id": "cafe:generic:long-black-double-shot",
+      "name": "Long black, double shot",
+      "displayNameDE": "Long Black, doppelter Shot",
+      "searchAliases": [
+        "Double americano"
+      ],
+      "servingMilliliters": 250
+    },
+    {
+      "id": "cafe:generic:decaf-long-black",
+      "name": "Decaf long black",
+      "displayNameDE": "Long Black entkoffeiniert",
+      "searchAliases": [
+        "Decaf americano"
+      ],
+      "servingMilliliters": 250
+    },
+    {
+      "id": "cafe:generic:turkish-coffee-sweetened",
+      "name": "Turkish coffee, sweetened",
+      "displayNameDE": "Türkischer Kaffee, gesüßt",
+      "searchAliases": [
+        "Türkischer Kaffee"
+      ],
+      "servingMilliliters": 55
+    },
+    {
+      "id": "cafe:generic:chai-latte-sweetened-powder-and-whole-milk",
+      "name": "Chai latte, sweetened powder and whole milk",
+      "displayNameDE": "Chai Latte aus gesüßtem Pulver mit Vollmilch",
+      "searchAliases": [
+        "Chai tea latte"
+      ],
+      "servingMilliliters": 250
+    },
+    {
+      "id": "cafe:generic:matcha-tea",
+      "name": "Matcha tea",
+      "displayNameDE": "Matcha-Tee",
+      "searchAliases": [
+        "Matcha",
+        "Matcha green tea"
+      ],
+      "servingMilliliters": 100
+    },
+    {
+      "id": "cafe:generic:matcha-americano",
+      "name": "Matcha americano",
+      "displayNameDE": "Matcha Americano",
+      "searchAliases": [
+        "Matcha long black"
+      ],
+      "servingMilliliters": 250
+    },
+    {
+      "id": "cafe:generic:iced-matcha-americano",
+      "name": "Iced matcha americano",
+      "displayNameDE": "Iced Matcha Americano",
+      "searchAliases": [],
+      "servingMilliliters": 250
+    },
+    {
+      "id": "cafe:generic:flat-white-with-whole-milk",
+      "name": "Flat white with whole milk",
+      "displayNameDE": "Flat White mit Vollmilch",
+      "searchAliases": [
+        "Flatwhite with whole milk",
+        "Flat white",
+        "Flatwhite"
+      ],
+      "servingMilliliters": 175
+    },
+    {
+      "id": "cafe:generic:decaf-flat-white-with-whole-milk",
+      "name": "Decaf flat white with whole milk",
+      "displayNameDE": "Flat White entkoffeiniert mit Vollmilch",
+      "searchAliases": [
+        "Decaf Flatwhite with whole milk"
+      ],
+      "servingMilliliters": 175
+    },
+    {
+      "id": "cafe:generic:flat-white-with-oat-milk",
+      "name": "Flat white with oat milk",
+      "displayNameDE": "Flat White mit Haferdrink",
+      "searchAliases": [
+        "Flatwhite with oat milk"
+      ],
+      "servingMilliliters": 175
+    },
+    {
+      "id": "cafe:generic:decaf-flat-white-with-oat-milk",
+      "name": "Decaf flat white with oat milk",
+      "displayNameDE": "Flat White entkoffeiniert mit Haferdrink",
+      "searchAliases": [
+        "Decaf Flatwhite with oat milk"
+      ],
+      "servingMilliliters": 175
+    },
+    {
+      "id": "cafe:generic:flat-white-with-soy-milk",
+      "name": "Flat white with soy milk",
+      "displayNameDE": "Flat White mit Sojadrink",
+      "searchAliases": [
+        "Flatwhite with soy milk"
+      ],
+      "servingMilliliters": 175
+    },
+    {
+      "id": "cafe:generic:decaf-flat-white-with-soy-milk",
+      "name": "Decaf flat white with soy milk",
+      "displayNameDE": "Flat White entkoffeiniert mit Sojadrink",
+      "searchAliases": [
+        "Decaf Flatwhite with soy milk"
+      ],
+      "servingMilliliters": 175
+    },
+    {
+      "id": "cafe:generic:flat-white-with-almond-milk",
+      "name": "Flat white with almond milk",
+      "displayNameDE": "Flat White mit Mandeldrink",
+      "searchAliases": [
+        "Flatwhite with almond milk"
+      ],
+      "servingMilliliters": 175
+    },
+    {
+      "id": "cafe:generic:decaf-flat-white-with-almond-milk",
+      "name": "Decaf flat white with almond milk",
+      "displayNameDE": "Flat White entkoffeiniert mit Mandeldrink",
+      "searchAliases": [
+        "Decaf Flatwhite with almond milk"
+      ],
+      "servingMilliliters": 175
+    },
+    {
+      "id": "cafe:generic:flat-white-with-coconut-milk-drink",
+      "name": "Flat white with coconut milk drink",
+      "displayNameDE": "Flat White mit Kokosdrink",
+      "searchAliases": [
+        "Flatwhite with coconut milk drink"
+      ],
+      "servingMilliliters": 175
+    },
+    {
+      "id": "cafe:generic:decaf-flat-white-with-coconut-milk-drink",
+      "name": "Decaf flat white with coconut milk drink",
+      "displayNameDE": "Flat White entkoffeiniert mit Kokosdrink",
+      "searchAliases": [
+        "Decaf Flatwhite with coconut milk drink"
+      ],
+      "servingMilliliters": 175
+    },
+    {
+      "id": "cafe:generic:flat-white-with-skim-milk",
+      "name": "Flat white with skim milk",
+      "displayNameDE": "Flat White mit Magermilch",
+      "searchAliases": [
+        "Flatwhite with skim milk"
+      ],
+      "servingMilliliters": 175
+    },
+    {
+      "id": "cafe:generic:decaf-flat-white-with-skim-milk",
+      "name": "Decaf flat white with skim milk",
+      "displayNameDE": "Flat White entkoffeiniert mit Magermilch",
+      "searchAliases": [
+        "Decaf Flatwhite with skim milk"
+      ],
+      "servingMilliliters": 175
+    },
+    {
+      "id": "cafe:generic:flat-white-with-low-fat-milk",
+      "name": "Flat white with low-fat milk",
+      "displayNameDE": "Flat White mit fettarmer Milch",
+      "searchAliases": [
+        "Flatwhite with low-fat milk"
+      ],
+      "servingMilliliters": 175
+    },
+    {
+      "id": "cafe:generic:decaf-flat-white-with-low-fat-milk",
+      "name": "Decaf flat white with low-fat milk",
+      "displayNameDE": "Flat White entkoffeiniert mit fettarmer Milch",
+      "searchAliases": [
+        "Decaf Flatwhite with low-fat milk"
+      ],
+      "servingMilliliters": 175
+    },
+    {
+      "id": "cafe:generic:flat-white-with-lactose-free-milk",
+      "name": "Flat white with lactose-free milk",
+      "displayNameDE": "Flat White mit laktosefreier Milch",
+      "searchAliases": [
+        "Flatwhite with lactose-free milk"
+      ],
+      "servingMilliliters": 175
+    },
+    {
+      "id": "cafe:generic:decaf-flat-white-with-lactose-free-milk",
+      "name": "Decaf flat white with lactose-free milk",
+      "displayNameDE": "Flat White entkoffeiniert mit laktosefreier Milch",
+      "searchAliases": [
+        "Decaf Flatwhite with lactose-free milk"
+      ],
+      "servingMilliliters": 175
+    },
+    {
+      "id": "cafe:generic:cappuccino-with-whole-milk",
+      "name": "Cappuccino with whole milk",
+      "displayNameDE": "Cappuccino mit Vollmilch",
+      "searchAliases": [
+        "Cappucino with whole milk",
+        "Cappucchino with whole milk",
+        "Cappuccino",
+        "Cappucino",
+        "Cappucchino"
+      ],
+      "servingMilliliters": 150
+    },
+    {
+      "id": "cafe:generic:decaf-cappuccino-with-whole-milk",
+      "name": "Decaf cappuccino with whole milk",
+      "displayNameDE": "Cappuccino entkoffeiniert mit Vollmilch",
+      "searchAliases": [
+        "Decaf Cappucino with whole milk",
+        "Decaf Cappucchino with whole milk"
+      ],
+      "servingMilliliters": 150
+    },
+    {
+      "id": "cafe:generic:cappuccino-with-oat-milk",
+      "name": "Cappuccino with oat milk",
+      "displayNameDE": "Cappuccino mit Haferdrink",
+      "searchAliases": [
+        "Cappucino with oat milk",
+        "Cappucchino with oat milk"
+      ],
+      "servingMilliliters": 150
+    },
+    {
+      "id": "cafe:generic:decaf-cappuccino-with-oat-milk",
+      "name": "Decaf cappuccino with oat milk",
+      "displayNameDE": "Cappuccino entkoffeiniert mit Haferdrink",
+      "searchAliases": [
+        "Decaf Cappucino with oat milk",
+        "Decaf Cappucchino with oat milk"
+      ],
+      "servingMilliliters": 150
+    },
+    {
+      "id": "cafe:generic:cappuccino-with-soy-milk",
+      "name": "Cappuccino with soy milk",
+      "displayNameDE": "Cappuccino mit Sojadrink",
+      "searchAliases": [
+        "Cappucino with soy milk",
+        "Cappucchino with soy milk"
+      ],
+      "servingMilliliters": 150
+    },
+    {
+      "id": "cafe:generic:decaf-cappuccino-with-soy-milk",
+      "name": "Decaf cappuccino with soy milk",
+      "displayNameDE": "Cappuccino entkoffeiniert mit Sojadrink",
+      "searchAliases": [
+        "Decaf Cappucino with soy milk",
+        "Decaf Cappucchino with soy milk"
+      ],
+      "servingMilliliters": 150
+    },
+    {
+      "id": "cafe:generic:cappuccino-with-almond-milk",
+      "name": "Cappuccino with almond milk",
+      "displayNameDE": "Cappuccino mit Mandeldrink",
+      "searchAliases": [
+        "Cappucino with almond milk",
+        "Cappucchino with almond milk"
+      ],
+      "servingMilliliters": 150
+    },
+    {
+      "id": "cafe:generic:decaf-cappuccino-with-almond-milk",
+      "name": "Decaf cappuccino with almond milk",
+      "displayNameDE": "Cappuccino entkoffeiniert mit Mandeldrink",
+      "searchAliases": [
+        "Decaf Cappucino with almond milk",
+        "Decaf Cappucchino with almond milk"
+      ],
+      "servingMilliliters": 150
+    },
+    {
+      "id": "cafe:generic:cappuccino-with-coconut-milk-drink",
+      "name": "Cappuccino with coconut milk drink",
+      "displayNameDE": "Cappuccino mit Kokosdrink",
+      "searchAliases": [
+        "Cappucino with coconut milk drink",
+        "Cappucchino with coconut milk drink"
+      ],
+      "servingMilliliters": 150
+    },
+    {
+      "id": "cafe:generic:decaf-cappuccino-with-coconut-milk-drink",
+      "name": "Decaf cappuccino with coconut milk drink",
+      "displayNameDE": "Cappuccino entkoffeiniert mit Kokosdrink",
+      "searchAliases": [
+        "Decaf Cappucino with coconut milk drink",
+        "Decaf Cappucchino with coconut milk drink"
+      ],
+      "servingMilliliters": 150
+    },
+    {
+      "id": "cafe:generic:cappuccino-with-skim-milk",
+      "name": "Cappuccino with skim milk",
+      "displayNameDE": "Cappuccino mit Magermilch",
+      "searchAliases": [
+        "Cappucino with skim milk",
+        "Cappucchino with skim milk"
+      ],
+      "servingMilliliters": 150
+    },
+    {
+      "id": "cafe:generic:decaf-cappuccino-with-skim-milk",
+      "name": "Decaf cappuccino with skim milk",
+      "displayNameDE": "Cappuccino entkoffeiniert mit Magermilch",
+      "searchAliases": [
+        "Decaf Cappucino with skim milk",
+        "Decaf Cappucchino with skim milk"
+      ],
+      "servingMilliliters": 150
+    },
+    {
+      "id": "cafe:generic:cappuccino-with-low-fat-milk",
+      "name": "Cappuccino with low-fat milk",
+      "displayNameDE": "Cappuccino mit fettarmer Milch",
+      "searchAliases": [
+        "Cappucino with low-fat milk",
+        "Cappucchino with low-fat milk"
+      ],
+      "servingMilliliters": 150
+    },
+    {
+      "id": "cafe:generic:decaf-cappuccino-with-low-fat-milk",
+      "name": "Decaf cappuccino with low-fat milk",
+      "displayNameDE": "Cappuccino entkoffeiniert mit fettarmer Milch",
+      "searchAliases": [
+        "Decaf Cappucino with low-fat milk",
+        "Decaf Cappucchino with low-fat milk"
+      ],
+      "servingMilliliters": 150
+    },
+    {
+      "id": "cafe:generic:cappuccino-with-lactose-free-milk",
+      "name": "Cappuccino with lactose-free milk",
+      "displayNameDE": "Cappuccino mit laktosefreier Milch",
+      "searchAliases": [
+        "Cappucino with lactose-free milk",
+        "Cappucchino with lactose-free milk"
+      ],
+      "servingMilliliters": 150
+    },
+    {
+      "id": "cafe:generic:decaf-cappuccino-with-lactose-free-milk",
+      "name": "Decaf cappuccino with lactose-free milk",
+      "displayNameDE": "Cappuccino entkoffeiniert mit laktosefreier Milch",
+      "searchAliases": [
+        "Decaf Cappucino with lactose-free milk",
+        "Decaf Cappucchino with lactose-free milk"
+      ],
+      "servingMilliliters": 150
+    },
+    {
+      "id": "cafe:generic:caff-latte-with-whole-milk",
+      "name": "Caffè latte with whole milk",
+      "displayNameDE": "Caffè Latte mit Vollmilch",
+      "searchAliases": [
+        "Latte with whole milk",
+        "Caffe latte with whole milk",
+        "Caffè latte",
+        "Latte",
+        "Caffe latte"
+      ],
+      "servingMilliliters": 225
+    },
+    {
+      "id": "cafe:generic:decaf-caff-latte-with-whole-milk",
+      "name": "Decaf caffè latte with whole milk",
+      "displayNameDE": "Caffè Latte entkoffeiniert mit Vollmilch",
+      "searchAliases": [
+        "Decaf Latte with whole milk",
+        "Decaf Caffe latte with whole milk"
+      ],
+      "servingMilliliters": 225
+    },
+    {
+      "id": "cafe:generic:caff-latte-with-oat-milk",
+      "name": "Caffè latte with oat milk",
+      "displayNameDE": "Caffè Latte mit Haferdrink",
+      "searchAliases": [
+        "Latte with oat milk",
+        "Caffe latte with oat milk"
+      ],
+      "servingMilliliters": 225
+    },
+    {
+      "id": "cafe:generic:decaf-caff-latte-with-oat-milk",
+      "name": "Decaf caffè latte with oat milk",
+      "displayNameDE": "Caffè Latte entkoffeiniert mit Haferdrink",
+      "searchAliases": [
+        "Decaf Latte with oat milk",
+        "Decaf Caffe latte with oat milk"
+      ],
+      "servingMilliliters": 225
+    },
+    {
+      "id": "cafe:generic:caff-latte-with-soy-milk",
+      "name": "Caffè latte with soy milk",
+      "displayNameDE": "Caffè Latte mit Sojadrink",
+      "searchAliases": [
+        "Latte with soy milk",
+        "Caffe latte with soy milk"
+      ],
+      "servingMilliliters": 225
+    },
+    {
+      "id": "cafe:generic:decaf-caff-latte-with-soy-milk",
+      "name": "Decaf caffè latte with soy milk",
+      "displayNameDE": "Caffè Latte entkoffeiniert mit Sojadrink",
+      "searchAliases": [
+        "Decaf Latte with soy milk",
+        "Decaf Caffe latte with soy milk"
+      ],
+      "servingMilliliters": 225
+    },
+    {
+      "id": "cafe:generic:caff-latte-with-almond-milk",
+      "name": "Caffè latte with almond milk",
+      "displayNameDE": "Caffè Latte mit Mandeldrink",
+      "searchAliases": [
+        "Latte with almond milk",
+        "Caffe latte with almond milk"
+      ],
+      "servingMilliliters": 225
+    },
+    {
+      "id": "cafe:generic:decaf-caff-latte-with-almond-milk",
+      "name": "Decaf caffè latte with almond milk",
+      "displayNameDE": "Caffè Latte entkoffeiniert mit Mandeldrink",
+      "searchAliases": [
+        "Decaf Latte with almond milk",
+        "Decaf Caffe latte with almond milk"
+      ],
+      "servingMilliliters": 225
+    },
+    {
+      "id": "cafe:generic:caff-latte-with-coconut-milk-drink",
+      "name": "Caffè latte with coconut milk drink",
+      "displayNameDE": "Caffè Latte mit Kokosdrink",
+      "searchAliases": [
+        "Latte with coconut milk drink",
+        "Caffe latte with coconut milk drink"
+      ],
+      "servingMilliliters": 225
+    },
+    {
+      "id": "cafe:generic:decaf-caff-latte-with-coconut-milk-drink",
+      "name": "Decaf caffè latte with coconut milk drink",
+      "displayNameDE": "Caffè Latte entkoffeiniert mit Kokosdrink",
+      "searchAliases": [
+        "Decaf Latte with coconut milk drink",
+        "Decaf Caffe latte with coconut milk drink"
+      ],
+      "servingMilliliters": 225
+    },
+    {
+      "id": "cafe:generic:caff-latte-with-skim-milk",
+      "name": "Caffè latte with skim milk",
+      "displayNameDE": "Caffè Latte mit Magermilch",
+      "searchAliases": [
+        "Latte with skim milk",
+        "Caffe latte with skim milk"
+      ],
+      "servingMilliliters": 225
+    },
+    {
+      "id": "cafe:generic:decaf-caff-latte-with-skim-milk",
+      "name": "Decaf caffè latte with skim milk",
+      "displayNameDE": "Caffè Latte entkoffeiniert mit Magermilch",
+      "searchAliases": [
+        "Decaf Latte with skim milk",
+        "Decaf Caffe latte with skim milk"
+      ],
+      "servingMilliliters": 225
+    },
+    {
+      "id": "cafe:generic:caff-latte-with-low-fat-milk",
+      "name": "Caffè latte with low-fat milk",
+      "displayNameDE": "Caffè Latte mit fettarmer Milch",
+      "searchAliases": [
+        "Latte with low-fat milk",
+        "Caffe latte with low-fat milk"
+      ],
+      "servingMilliliters": 225
+    },
+    {
+      "id": "cafe:generic:decaf-caff-latte-with-low-fat-milk",
+      "name": "Decaf caffè latte with low-fat milk",
+      "displayNameDE": "Caffè Latte entkoffeiniert mit fettarmer Milch",
+      "searchAliases": [
+        "Decaf Latte with low-fat milk",
+        "Decaf Caffe latte with low-fat milk"
+      ],
+      "servingMilliliters": 225
+    },
+    {
+      "id": "cafe:generic:caff-latte-with-lactose-free-milk",
+      "name": "Caffè latte with lactose-free milk",
+      "displayNameDE": "Caffè Latte mit laktosefreier Milch",
+      "searchAliases": [
+        "Latte with lactose-free milk",
+        "Caffe latte with lactose-free milk"
+      ],
+      "servingMilliliters": 225
+    },
+    {
+      "id": "cafe:generic:decaf-caff-latte-with-lactose-free-milk",
+      "name": "Decaf caffè latte with lactose-free milk",
+      "displayNameDE": "Caffè Latte entkoffeiniert mit laktosefreier Milch",
+      "searchAliases": [
+        "Decaf Latte with lactose-free milk",
+        "Decaf Caffe latte with lactose-free milk"
+      ],
+      "servingMilliliters": 225
+    },
+    {
+      "id": "cafe:generic:cortado-with-whole-milk",
+      "name": "Cortado with whole milk",
+      "displayNameDE": "Cortado mit Vollmilch",
+      "searchAliases": [
+        "Gibraltar with whole milk",
+        "Cortado",
+        "Gibraltar"
+      ],
+      "servingMilliliters": 60
+    },
+    {
+      "id": "cafe:generic:decaf-cortado-with-whole-milk",
+      "name": "Decaf cortado with whole milk",
+      "displayNameDE": "Cortado entkoffeiniert mit Vollmilch",
+      "searchAliases": [
+        "Decaf Gibraltar with whole milk"
+      ],
+      "servingMilliliters": 60
+    },
+    {
+      "id": "cafe:generic:cortado-with-oat-milk",
+      "name": "Cortado with oat milk",
+      "displayNameDE": "Cortado mit Haferdrink",
+      "searchAliases": [
+        "Gibraltar with oat milk"
+      ],
+      "servingMilliliters": 60
+    },
+    {
+      "id": "cafe:generic:decaf-cortado-with-oat-milk",
+      "name": "Decaf cortado with oat milk",
+      "displayNameDE": "Cortado entkoffeiniert mit Haferdrink",
+      "searchAliases": [
+        "Decaf Gibraltar with oat milk"
+      ],
+      "servingMilliliters": 60
+    },
+    {
+      "id": "cafe:generic:cortado-with-soy-milk",
+      "name": "Cortado with soy milk",
+      "displayNameDE": "Cortado mit Sojadrink",
+      "searchAliases": [
+        "Gibraltar with soy milk"
+      ],
+      "servingMilliliters": 60
+    },
+    {
+      "id": "cafe:generic:decaf-cortado-with-soy-milk",
+      "name": "Decaf cortado with soy milk",
+      "displayNameDE": "Cortado entkoffeiniert mit Sojadrink",
+      "searchAliases": [
+        "Decaf Gibraltar with soy milk"
+      ],
+      "servingMilliliters": 60
+    },
+    {
+      "id": "cafe:generic:cortado-with-almond-milk",
+      "name": "Cortado with almond milk",
+      "displayNameDE": "Cortado mit Mandeldrink",
+      "searchAliases": [
+        "Gibraltar with almond milk"
+      ],
+      "servingMilliliters": 60
+    },
+    {
+      "id": "cafe:generic:decaf-cortado-with-almond-milk",
+      "name": "Decaf cortado with almond milk",
+      "displayNameDE": "Cortado entkoffeiniert mit Mandeldrink",
+      "searchAliases": [
+        "Decaf Gibraltar with almond milk"
+      ],
+      "servingMilliliters": 60
+    },
+    {
+      "id": "cafe:generic:cortado-with-coconut-milk-drink",
+      "name": "Cortado with coconut milk drink",
+      "displayNameDE": "Cortado mit Kokosdrink",
+      "searchAliases": [
+        "Gibraltar with coconut milk drink"
+      ],
+      "servingMilliliters": 60
+    },
+    {
+      "id": "cafe:generic:decaf-cortado-with-coconut-milk-drink",
+      "name": "Decaf cortado with coconut milk drink",
+      "displayNameDE": "Cortado entkoffeiniert mit Kokosdrink",
+      "searchAliases": [
+        "Decaf Gibraltar with coconut milk drink"
+      ],
+      "servingMilliliters": 60
+    },
+    {
+      "id": "cafe:generic:cortado-with-skim-milk",
+      "name": "Cortado with skim milk",
+      "displayNameDE": "Cortado mit Magermilch",
+      "searchAliases": [
+        "Gibraltar with skim milk"
+      ],
+      "servingMilliliters": 60
+    },
+    {
+      "id": "cafe:generic:decaf-cortado-with-skim-milk",
+      "name": "Decaf cortado with skim milk",
+      "displayNameDE": "Cortado entkoffeiniert mit Magermilch",
+      "searchAliases": [
+        "Decaf Gibraltar with skim milk"
+      ],
+      "servingMilliliters": 60
+    },
+    {
+      "id": "cafe:generic:cortado-with-low-fat-milk",
+      "name": "Cortado with low-fat milk",
+      "displayNameDE": "Cortado mit fettarmer Milch",
+      "searchAliases": [
+        "Gibraltar with low-fat milk"
+      ],
+      "servingMilliliters": 60
+    },
+    {
+      "id": "cafe:generic:decaf-cortado-with-low-fat-milk",
+      "name": "Decaf cortado with low-fat milk",
+      "displayNameDE": "Cortado entkoffeiniert mit fettarmer Milch",
+      "searchAliases": [
+        "Decaf Gibraltar with low-fat milk"
+      ],
+      "servingMilliliters": 60
+    },
+    {
+      "id": "cafe:generic:cortado-with-lactose-free-milk",
+      "name": "Cortado with lactose-free milk",
+      "displayNameDE": "Cortado mit laktosefreier Milch",
+      "searchAliases": [
+        "Gibraltar with lactose-free milk"
+      ],
+      "servingMilliliters": 60
+    },
+    {
+      "id": "cafe:generic:decaf-cortado-with-lactose-free-milk",
+      "name": "Decaf cortado with lactose-free milk",
+      "displayNameDE": "Cortado entkoffeiniert mit laktosefreier Milch",
+      "searchAliases": [
+        "Decaf Gibraltar with lactose-free milk"
+      ],
+      "servingMilliliters": 60
+    },
+    {
+      "id": "cafe:generic:piccolo-latte-with-whole-milk",
+      "name": "Piccolo latte with whole milk",
+      "displayNameDE": "Piccolo Latte mit Vollmilch",
+      "searchAliases": [
+        "Piccolo with whole milk",
+        "Piccolo latte",
+        "Piccolo"
+      ],
+      "servingMilliliters": 90
+    },
+    {
+      "id": "cafe:generic:decaf-piccolo-latte-with-whole-milk",
+      "name": "Decaf piccolo latte with whole milk",
+      "displayNameDE": "Piccolo Latte entkoffeiniert mit Vollmilch",
+      "searchAliases": [
+        "Decaf Piccolo with whole milk"
+      ],
+      "servingMilliliters": 90
+    },
+    {
+      "id": "cafe:generic:piccolo-latte-with-oat-milk",
+      "name": "Piccolo latte with oat milk",
+      "displayNameDE": "Piccolo Latte mit Haferdrink",
+      "searchAliases": [
+        "Piccolo with oat milk"
+      ],
+      "servingMilliliters": 85
+    },
+    {
+      "id": "cafe:generic:decaf-piccolo-latte-with-oat-milk",
+      "name": "Decaf piccolo latte with oat milk",
+      "displayNameDE": "Piccolo Latte entkoffeiniert mit Haferdrink",
+      "searchAliases": [
+        "Decaf Piccolo with oat milk"
+      ],
+      "servingMilliliters": 85
+    },
+    {
+      "id": "cafe:generic:piccolo-latte-with-soy-milk",
+      "name": "Piccolo latte with soy milk",
+      "displayNameDE": "Piccolo Latte mit Sojadrink",
+      "searchAliases": [
+        "Piccolo with soy milk"
+      ],
+      "servingMilliliters": 90
+    },
+    {
+      "id": "cafe:generic:decaf-piccolo-latte-with-soy-milk",
+      "name": "Decaf piccolo latte with soy milk",
+      "displayNameDE": "Piccolo Latte entkoffeiniert mit Sojadrink",
+      "searchAliases": [
+        "Decaf Piccolo with soy milk"
+      ],
+      "servingMilliliters": 90
+    },
+    {
+      "id": "cafe:generic:piccolo-latte-with-almond-milk",
+      "name": "Piccolo latte with almond milk",
+      "displayNameDE": "Piccolo Latte mit Mandeldrink",
+      "searchAliases": [
+        "Piccolo with almond milk"
+      ],
+      "servingMilliliters": 85
+    },
+    {
+      "id": "cafe:generic:decaf-piccolo-latte-with-almond-milk",
+      "name": "Decaf piccolo latte with almond milk",
+      "displayNameDE": "Piccolo Latte entkoffeiniert mit Mandeldrink",
+      "searchAliases": [
+        "Decaf Piccolo with almond milk"
+      ],
+      "servingMilliliters": 85
+    },
+    {
+      "id": "cafe:generic:piccolo-latte-with-coconut-milk-drink",
+      "name": "Piccolo latte with coconut milk drink",
+      "displayNameDE": "Piccolo Latte mit Kokosdrink",
+      "searchAliases": [
+        "Piccolo with coconut milk drink"
+      ],
+      "servingMilliliters": 90
+    },
+    {
+      "id": "cafe:generic:decaf-piccolo-latte-with-coconut-milk-drink",
+      "name": "Decaf piccolo latte with coconut milk drink",
+      "displayNameDE": "Piccolo Latte entkoffeiniert mit Kokosdrink",
+      "searchAliases": [
+        "Decaf Piccolo with coconut milk drink"
+      ],
+      "servingMilliliters": 90
+    },
+    {
+      "id": "cafe:generic:piccolo-latte-with-skim-milk",
+      "name": "Piccolo latte with skim milk",
+      "displayNameDE": "Piccolo Latte mit Magermilch",
+      "searchAliases": [
+        "Piccolo with skim milk"
+      ],
+      "servingMilliliters": 90
+    },
+    {
+      "id": "cafe:generic:decaf-piccolo-latte-with-skim-milk",
+      "name": "Decaf piccolo latte with skim milk",
+      "displayNameDE": "Piccolo Latte entkoffeiniert mit Magermilch",
+      "searchAliases": [
+        "Decaf Piccolo with skim milk"
+      ],
+      "servingMilliliters": 90
+    },
+    {
+      "id": "cafe:generic:piccolo-latte-with-low-fat-milk",
+      "name": "Piccolo latte with low-fat milk",
+      "displayNameDE": "Piccolo Latte mit fettarmer Milch",
+      "searchAliases": [
+        "Piccolo with low-fat milk"
+      ],
+      "servingMilliliters": 90
+    },
+    {
+      "id": "cafe:generic:decaf-piccolo-latte-with-low-fat-milk",
+      "name": "Decaf piccolo latte with low-fat milk",
+      "displayNameDE": "Piccolo Latte entkoffeiniert mit fettarmer Milch",
+      "searchAliases": [
+        "Decaf Piccolo with low-fat milk"
+      ],
+      "servingMilliliters": 90
+    },
+    {
+      "id": "cafe:generic:piccolo-latte-with-lactose-free-milk",
+      "name": "Piccolo latte with lactose-free milk",
+      "displayNameDE": "Piccolo Latte mit laktosefreier Milch",
+      "searchAliases": [
+        "Piccolo with lactose-free milk"
+      ],
+      "servingMilliliters": 90
+    },
+    {
+      "id": "cafe:generic:decaf-piccolo-latte-with-lactose-free-milk",
+      "name": "Decaf piccolo latte with lactose-free milk",
+      "displayNameDE": "Piccolo Latte entkoffeiniert mit laktosefreier Milch",
+      "searchAliases": [
+        "Decaf Piccolo with lactose-free milk"
+      ],
+      "servingMilliliters": 90
+    },
+    {
+      "id": "cafe:generic:espresso-macchiato-with-whole-milk",
+      "name": "Espresso macchiato with whole milk",
+      "displayNameDE": "Espresso Macchiato mit Vollmilch",
+      "searchAliases": [
+        "Caffè macchiato with whole milk",
+        "Espresso macchiato",
+        "Caffè macchiato"
+      ],
+      "servingMilliliters": 40
+    },
+    {
+      "id": "cafe:generic:decaf-espresso-macchiato-with-whole-milk",
+      "name": "Decaf espresso macchiato with whole milk",
+      "displayNameDE": "Espresso Macchiato entkoffeiniert mit Vollmilch",
+      "searchAliases": [
+        "Decaf Caffè macchiato with whole milk"
+      ],
+      "servingMilliliters": 40
+    },
+    {
+      "id": "cafe:generic:espresso-macchiato-with-oat-milk",
+      "name": "Espresso macchiato with oat milk",
+      "displayNameDE": "Espresso Macchiato mit Haferdrink",
+      "searchAliases": [
+        "Caffè macchiato with oat milk"
+      ],
+      "servingMilliliters": 40
+    },
+    {
+      "id": "cafe:generic:decaf-espresso-macchiato-with-oat-milk",
+      "name": "Decaf espresso macchiato with oat milk",
+      "displayNameDE": "Espresso Macchiato entkoffeiniert mit Haferdrink",
+      "searchAliases": [
+        "Decaf Caffè macchiato with oat milk"
+      ],
+      "servingMilliliters": 40
+    },
+    {
+      "id": "cafe:generic:espresso-macchiato-with-soy-milk",
+      "name": "Espresso macchiato with soy milk",
+      "displayNameDE": "Espresso Macchiato mit Sojadrink",
+      "searchAliases": [
+        "Caffè macchiato with soy milk"
+      ],
+      "servingMilliliters": 40
+    },
+    {
+      "id": "cafe:generic:decaf-espresso-macchiato-with-soy-milk",
+      "name": "Decaf espresso macchiato with soy milk",
+      "displayNameDE": "Espresso Macchiato entkoffeiniert mit Sojadrink",
+      "searchAliases": [
+        "Decaf Caffè macchiato with soy milk"
+      ],
+      "servingMilliliters": 40
+    },
+    {
+      "id": "cafe:generic:espresso-macchiato-with-almond-milk",
+      "name": "Espresso macchiato with almond milk",
+      "displayNameDE": "Espresso Macchiato mit Mandeldrink",
+      "searchAliases": [
+        "Caffè macchiato with almond milk"
+      ],
+      "servingMilliliters": 40
+    },
+    {
+      "id": "cafe:generic:decaf-espresso-macchiato-with-almond-milk",
+      "name": "Decaf espresso macchiato with almond milk",
+      "displayNameDE": "Espresso Macchiato entkoffeiniert mit Mandeldrink",
+      "searchAliases": [
+        "Decaf Caffè macchiato with almond milk"
+      ],
+      "servingMilliliters": 40
+    },
+    {
+      "id": "cafe:generic:espresso-macchiato-with-coconut-milk-drink",
+      "name": "Espresso macchiato with coconut milk drink",
+      "displayNameDE": "Espresso Macchiato mit Kokosdrink",
+      "searchAliases": [
+        "Caffè macchiato with coconut milk drink"
+      ],
+      "servingMilliliters": 40
+    },
+    {
+      "id": "cafe:generic:decaf-espresso-macchiato-with-coconut-milk-drink",
+      "name": "Decaf espresso macchiato with coconut milk drink",
+      "displayNameDE": "Espresso Macchiato entkoffeiniert mit Kokosdrink",
+      "searchAliases": [
+        "Decaf Caffè macchiato with coconut milk drink"
+      ],
+      "servingMilliliters": 40
+    },
+    {
+      "id": "cafe:generic:espresso-macchiato-with-skim-milk",
+      "name": "Espresso macchiato with skim milk",
+      "displayNameDE": "Espresso Macchiato mit Magermilch",
+      "searchAliases": [
+        "Caffè macchiato with skim milk"
+      ],
+      "servingMilliliters": 40
+    },
+    {
+      "id": "cafe:generic:decaf-espresso-macchiato-with-skim-milk",
+      "name": "Decaf espresso macchiato with skim milk",
+      "displayNameDE": "Espresso Macchiato entkoffeiniert mit Magermilch",
+      "searchAliases": [
+        "Decaf Caffè macchiato with skim milk"
+      ],
+      "servingMilliliters": 40
+    },
+    {
+      "id": "cafe:generic:espresso-macchiato-with-low-fat-milk",
+      "name": "Espresso macchiato with low-fat milk",
+      "displayNameDE": "Espresso Macchiato mit fettarmer Milch",
+      "searchAliases": [
+        "Caffè macchiato with low-fat milk"
+      ],
+      "servingMilliliters": 40
+    },
+    {
+      "id": "cafe:generic:decaf-espresso-macchiato-with-low-fat-milk",
+      "name": "Decaf espresso macchiato with low-fat milk",
+      "displayNameDE": "Espresso Macchiato entkoffeiniert mit fettarmer Milch",
+      "searchAliases": [
+        "Decaf Caffè macchiato with low-fat milk"
+      ],
+      "servingMilliliters": 40
+    },
+    {
+      "id": "cafe:generic:espresso-macchiato-with-lactose-free-milk",
+      "name": "Espresso macchiato with lactose-free milk",
+      "displayNameDE": "Espresso Macchiato mit laktosefreier Milch",
+      "searchAliases": [
+        "Caffè macchiato with lactose-free milk"
+      ],
+      "servingMilliliters": 40
+    },
+    {
+      "id": "cafe:generic:decaf-espresso-macchiato-with-lactose-free-milk",
+      "name": "Decaf espresso macchiato with lactose-free milk",
+      "displayNameDE": "Espresso Macchiato entkoffeiniert mit laktosefreier Milch",
+      "searchAliases": [
+        "Decaf Caffè macchiato with lactose-free milk"
+      ],
+      "servingMilliliters": 40
+    },
+    {
+      "id": "cafe:generic:latte-macchiato-with-whole-milk",
+      "name": "Latte macchiato with whole milk",
+      "displayNameDE": "Latte Macchiato mit Vollmilch",
+      "searchAliases": [
+        "Latte macchiato"
+      ],
+      "servingMilliliters": 200
+    },
+    {
+      "id": "cafe:generic:decaf-latte-macchiato-with-whole-milk",
+      "name": "Decaf latte macchiato with whole milk",
+      "displayNameDE": "Latte Macchiato entkoffeiniert mit Vollmilch",
+      "searchAliases": [],
+      "servingMilliliters": 200
+    },
+    {
+      "id": "cafe:generic:latte-macchiato-with-oat-milk",
+      "name": "Latte macchiato with oat milk",
+      "displayNameDE": "Latte Macchiato mit Haferdrink",
+      "searchAliases": [],
+      "servingMilliliters": 200
+    },
+    {
+      "id": "cafe:generic:decaf-latte-macchiato-with-oat-milk",
+      "name": "Decaf latte macchiato with oat milk",
+      "displayNameDE": "Latte Macchiato entkoffeiniert mit Haferdrink",
+      "searchAliases": [],
+      "servingMilliliters": 200
+    },
+    {
+      "id": "cafe:generic:latte-macchiato-with-soy-milk",
+      "name": "Latte macchiato with soy milk",
+      "displayNameDE": "Latte Macchiato mit Sojadrink",
+      "searchAliases": [],
+      "servingMilliliters": 200
+    },
+    {
+      "id": "cafe:generic:decaf-latte-macchiato-with-soy-milk",
+      "name": "Decaf latte macchiato with soy milk",
+      "displayNameDE": "Latte Macchiato entkoffeiniert mit Sojadrink",
+      "searchAliases": [],
+      "servingMilliliters": 200
+    },
+    {
+      "id": "cafe:generic:latte-macchiato-with-almond-milk",
+      "name": "Latte macchiato with almond milk",
+      "displayNameDE": "Latte Macchiato mit Mandeldrink",
+      "searchAliases": [],
+      "servingMilliliters": 200
+    },
+    {
+      "id": "cafe:generic:decaf-latte-macchiato-with-almond-milk",
+      "name": "Decaf latte macchiato with almond milk",
+      "displayNameDE": "Latte Macchiato entkoffeiniert mit Mandeldrink",
+      "searchAliases": [],
+      "servingMilliliters": 200
+    },
+    {
+      "id": "cafe:generic:latte-macchiato-with-coconut-milk-drink",
+      "name": "Latte macchiato with coconut milk drink",
+      "displayNameDE": "Latte Macchiato mit Kokosdrink",
+      "searchAliases": [],
+      "servingMilliliters": 200
+    },
+    {
+      "id": "cafe:generic:decaf-latte-macchiato-with-coconut-milk-drink",
+      "name": "Decaf latte macchiato with coconut milk drink",
+      "displayNameDE": "Latte Macchiato entkoffeiniert mit Kokosdrink",
+      "searchAliases": [],
+      "servingMilliliters": 200
+    },
+    {
+      "id": "cafe:generic:latte-macchiato-with-skim-milk",
+      "name": "Latte macchiato with skim milk",
+      "displayNameDE": "Latte Macchiato mit Magermilch",
+      "searchAliases": [],
+      "servingMilliliters": 200
+    },
+    {
+      "id": "cafe:generic:decaf-latte-macchiato-with-skim-milk",
+      "name": "Decaf latte macchiato with skim milk",
+      "displayNameDE": "Latte Macchiato entkoffeiniert mit Magermilch",
+      "searchAliases": [],
+      "servingMilliliters": 200
+    },
+    {
+      "id": "cafe:generic:latte-macchiato-with-low-fat-milk",
+      "name": "Latte macchiato with low-fat milk",
+      "displayNameDE": "Latte Macchiato mit fettarmer Milch",
+      "searchAliases": [],
+      "servingMilliliters": 200
+    },
+    {
+      "id": "cafe:generic:decaf-latte-macchiato-with-low-fat-milk",
+      "name": "Decaf latte macchiato with low-fat milk",
+      "displayNameDE": "Latte Macchiato entkoffeiniert mit fettarmer Milch",
+      "searchAliases": [],
+      "servingMilliliters": 200
+    },
+    {
+      "id": "cafe:generic:latte-macchiato-with-lactose-free-milk",
+      "name": "Latte macchiato with lactose-free milk",
+      "displayNameDE": "Latte Macchiato mit laktosefreier Milch",
+      "searchAliases": [],
+      "servingMilliliters": 200
+    },
+    {
+      "id": "cafe:generic:decaf-latte-macchiato-with-lactose-free-milk",
+      "name": "Decaf latte macchiato with lactose-free milk",
+      "displayNameDE": "Latte Macchiato entkoffeiniert mit laktosefreier Milch",
+      "searchAliases": [],
+      "servingMilliliters": 200
+    },
+    {
+      "id": "cafe:generic:caf-au-lait-with-whole-milk",
+      "name": "Café au lait with whole milk",
+      "displayNameDE": "Milchkaffee mit Vollmilch",
+      "searchAliases": [
+        "Milchkaffee with whole milk",
+        "Cafe con leche with whole milk",
+        "Café au lait",
+        "Milchkaffee",
+        "Cafe con leche"
+      ],
+      "servingMilliliters": 225
+    },
+    {
+      "id": "cafe:generic:caf-au-lait-with-oat-milk",
+      "name": "Café au lait with oat milk",
+      "displayNameDE": "Milchkaffee mit Haferdrink",
+      "searchAliases": [
+        "Milchkaffee with oat milk",
+        "Cafe con leche with oat milk"
+      ],
+      "servingMilliliters": 225
+    },
+    {
+      "id": "cafe:generic:caf-au-lait-with-soy-milk",
+      "name": "Café au lait with soy milk",
+      "displayNameDE": "Milchkaffee mit Sojadrink",
+      "searchAliases": [
+        "Milchkaffee with soy milk",
+        "Cafe con leche with soy milk"
+      ],
+      "servingMilliliters": 225
+    },
+    {
+      "id": "cafe:generic:caf-au-lait-with-almond-milk",
+      "name": "Café au lait with almond milk",
+      "displayNameDE": "Milchkaffee mit Mandeldrink",
+      "searchAliases": [
+        "Milchkaffee with almond milk",
+        "Cafe con leche with almond milk"
+      ],
+      "servingMilliliters": 225
+    },
+    {
+      "id": "cafe:generic:caf-au-lait-with-coconut-milk-drink",
+      "name": "Café au lait with coconut milk drink",
+      "displayNameDE": "Milchkaffee mit Kokosdrink",
+      "searchAliases": [
+        "Milchkaffee with coconut milk drink",
+        "Cafe con leche with coconut milk drink"
+      ],
+      "servingMilliliters": 225
+    },
+    {
+      "id": "cafe:generic:caf-au-lait-with-skim-milk",
+      "name": "Café au lait with skim milk",
+      "displayNameDE": "Milchkaffee mit Magermilch",
+      "searchAliases": [
+        "Milchkaffee with skim milk",
+        "Cafe con leche with skim milk"
+      ],
+      "servingMilliliters": 225
+    },
+    {
+      "id": "cafe:generic:caf-au-lait-with-low-fat-milk",
+      "name": "Café au lait with low-fat milk",
+      "displayNameDE": "Milchkaffee mit fettarmer Milch",
+      "searchAliases": [
+        "Milchkaffee with low-fat milk",
+        "Cafe con leche with low-fat milk"
+      ],
+      "servingMilliliters": 225
+    },
+    {
+      "id": "cafe:generic:caf-au-lait-with-lactose-free-milk",
+      "name": "Café au lait with lactose-free milk",
+      "displayNameDE": "Milchkaffee mit laktosefreier Milch",
+      "searchAliases": [
+        "Milchkaffee with lactose-free milk",
+        "Cafe con leche with lactose-free milk"
+      ],
+      "servingMilliliters": 225
+    },
+    {
+      "id": "cafe:generic:mocha-with-whole-milk",
+      "name": "Mocha with whole milk",
+      "displayNameDE": "Mocha mit Vollmilch",
+      "searchAliases": [
+        "Caffè mocha with whole milk",
+        "Mochaccino with whole milk",
+        "Mocha",
+        "Caffè mocha",
+        "Mochaccino"
+      ],
+      "servingMilliliters": 225
+    },
+    {
+      "id": "cafe:generic:decaf-mocha-with-whole-milk",
+      "name": "Decaf mocha with whole milk",
+      "displayNameDE": "Mocha entkoffeiniert mit Vollmilch",
+      "searchAliases": [
+        "Decaf Caffè mocha with whole milk",
+        "Decaf Mochaccino with whole milk"
+      ],
+      "servingMilliliters": 225
+    },
+    {
+      "id": "cafe:generic:mocha-with-oat-milk",
+      "name": "Mocha with oat milk",
+      "displayNameDE": "Mocha mit Haferdrink",
+      "searchAliases": [
+        "Caffè mocha with oat milk",
+        "Mochaccino with oat milk"
+      ],
+      "servingMilliliters": 225
+    },
+    {
+      "id": "cafe:generic:decaf-mocha-with-oat-milk",
+      "name": "Decaf mocha with oat milk",
+      "displayNameDE": "Mocha entkoffeiniert mit Haferdrink",
+      "searchAliases": [
+        "Decaf Caffè mocha with oat milk",
+        "Decaf Mochaccino with oat milk"
+      ],
+      "servingMilliliters": 225
+    },
+    {
+      "id": "cafe:generic:mocha-with-soy-milk",
+      "name": "Mocha with soy milk",
+      "displayNameDE": "Mocha mit Sojadrink",
+      "searchAliases": [
+        "Caffè mocha with soy milk",
+        "Mochaccino with soy milk"
+      ],
+      "servingMilliliters": 225
+    },
+    {
+      "id": "cafe:generic:decaf-mocha-with-soy-milk",
+      "name": "Decaf mocha with soy milk",
+      "displayNameDE": "Mocha entkoffeiniert mit Sojadrink",
+      "searchAliases": [
+        "Decaf Caffè mocha with soy milk",
+        "Decaf Mochaccino with soy milk"
+      ],
+      "servingMilliliters": 225
+    },
+    {
+      "id": "cafe:generic:mocha-with-almond-milk",
+      "name": "Mocha with almond milk",
+      "displayNameDE": "Mocha mit Mandeldrink",
+      "searchAliases": [
+        "Caffè mocha with almond milk",
+        "Mochaccino with almond milk"
+      ],
+      "servingMilliliters": 225
+    },
+    {
+      "id": "cafe:generic:decaf-mocha-with-almond-milk",
+      "name": "Decaf mocha with almond milk",
+      "displayNameDE": "Mocha entkoffeiniert mit Mandeldrink",
+      "searchAliases": [
+        "Decaf Caffè mocha with almond milk",
+        "Decaf Mochaccino with almond milk"
+      ],
+      "servingMilliliters": 225
+    },
+    {
+      "id": "cafe:generic:mocha-with-coconut-milk-drink",
+      "name": "Mocha with coconut milk drink",
+      "displayNameDE": "Mocha mit Kokosdrink",
+      "searchAliases": [
+        "Caffè mocha with coconut milk drink",
+        "Mochaccino with coconut milk drink"
+      ],
+      "servingMilliliters": 225
+    },
+    {
+      "id": "cafe:generic:decaf-mocha-with-coconut-milk-drink",
+      "name": "Decaf mocha with coconut milk drink",
+      "displayNameDE": "Mocha entkoffeiniert mit Kokosdrink",
+      "searchAliases": [
+        "Decaf Caffè mocha with coconut milk drink",
+        "Decaf Mochaccino with coconut milk drink"
+      ],
+      "servingMilliliters": 225
+    },
+    {
+      "id": "cafe:generic:mocha-with-skim-milk",
+      "name": "Mocha with skim milk",
+      "displayNameDE": "Mocha mit Magermilch",
+      "searchAliases": [
+        "Caffè mocha with skim milk",
+        "Mochaccino with skim milk"
+      ],
+      "servingMilliliters": 225
+    },
+    {
+      "id": "cafe:generic:decaf-mocha-with-skim-milk",
+      "name": "Decaf mocha with skim milk",
+      "displayNameDE": "Mocha entkoffeiniert mit Magermilch",
+      "searchAliases": [
+        "Decaf Caffè mocha with skim milk",
+        "Decaf Mochaccino with skim milk"
+      ],
+      "servingMilliliters": 225
+    },
+    {
+      "id": "cafe:generic:mocha-with-low-fat-milk",
+      "name": "Mocha with low-fat milk",
+      "displayNameDE": "Mocha mit fettarmer Milch",
+      "searchAliases": [
+        "Caffè mocha with low-fat milk",
+        "Mochaccino with low-fat milk"
+      ],
+      "servingMilliliters": 225
+    },
+    {
+      "id": "cafe:generic:decaf-mocha-with-low-fat-milk",
+      "name": "Decaf mocha with low-fat milk",
+      "displayNameDE": "Mocha entkoffeiniert mit fettarmer Milch",
+      "searchAliases": [
+        "Decaf Caffè mocha with low-fat milk",
+        "Decaf Mochaccino with low-fat milk"
+      ],
+      "servingMilliliters": 225
+    },
+    {
+      "id": "cafe:generic:mocha-with-lactose-free-milk",
+      "name": "Mocha with lactose-free milk",
+      "displayNameDE": "Mocha mit laktosefreier Milch",
+      "searchAliases": [
+        "Caffè mocha with lactose-free milk",
+        "Mochaccino with lactose-free milk"
+      ],
+      "servingMilliliters": 225
+    },
+    {
+      "id": "cafe:generic:decaf-mocha-with-lactose-free-milk",
+      "name": "Decaf mocha with lactose-free milk",
+      "displayNameDE": "Mocha entkoffeiniert mit laktosefreier Milch",
+      "searchAliases": [
+        "Decaf Caffè mocha with lactose-free milk",
+        "Decaf Mochaccino with lactose-free milk"
+      ],
+      "servingMilliliters": 225
+    },
+    {
+      "id": "cafe:generic:iced-latte-with-whole-milk",
+      "name": "Iced latte with whole milk",
+      "displayNameDE": "Iced Latte mit Vollmilch",
+      "searchAliases": [
+        "Iced coffee with milk with whole milk",
+        "Iced latte",
+        "Iced coffee with milk"
+      ],
+      "servingMilliliters": 300
+    },
+    {
+      "id": "cafe:generic:iced-latte-with-oat-milk",
+      "name": "Iced latte with oat milk",
+      "displayNameDE": "Iced Latte mit Haferdrink",
+      "searchAliases": [
+        "Iced coffee with milk with oat milk"
+      ],
+      "servingMilliliters": 300
+    },
+    {
+      "id": "cafe:generic:iced-latte-with-soy-milk",
+      "name": "Iced latte with soy milk",
+      "displayNameDE": "Iced Latte mit Sojadrink",
+      "searchAliases": [
+        "Iced coffee with milk with soy milk"
+      ],
+      "servingMilliliters": 300
+    },
+    {
+      "id": "cafe:generic:iced-latte-with-almond-milk",
+      "name": "Iced latte with almond milk",
+      "displayNameDE": "Iced Latte mit Mandeldrink",
+      "searchAliases": [
+        "Iced coffee with milk with almond milk"
+      ],
+      "servingMilliliters": 300
+    },
+    {
+      "id": "cafe:generic:iced-latte-with-coconut-milk-drink",
+      "name": "Iced latte with coconut milk drink",
+      "displayNameDE": "Iced Latte mit Kokosdrink",
+      "searchAliases": [
+        "Iced coffee with milk with coconut milk drink"
+      ],
+      "servingMilliliters": 300
+    },
+    {
+      "id": "cafe:generic:iced-latte-with-skim-milk",
+      "name": "Iced latte with skim milk",
+      "displayNameDE": "Iced Latte mit Magermilch",
+      "searchAliases": [
+        "Iced coffee with milk with skim milk"
+      ],
+      "servingMilliliters": 300
+    },
+    {
+      "id": "cafe:generic:iced-latte-with-low-fat-milk",
+      "name": "Iced latte with low-fat milk",
+      "displayNameDE": "Iced Latte mit fettarmer Milch",
+      "searchAliases": [
+        "Iced coffee with milk with low-fat milk"
+      ],
+      "servingMilliliters": 300
+    },
+    {
+      "id": "cafe:generic:iced-latte-with-lactose-free-milk",
+      "name": "Iced latte with lactose-free milk",
+      "displayNameDE": "Iced Latte mit laktosefreier Milch",
+      "searchAliases": [
+        "Iced coffee with milk with lactose-free milk"
+      ],
+      "servingMilliliters": 300
+    },
+    {
+      "id": "cafe:generic:iced-flat-white-with-whole-milk",
+      "name": "Iced flat white with whole milk",
+      "displayNameDE": "Iced Flat White mit Vollmilch",
+      "searchAliases": [
+        "Iced flat white"
+      ],
+      "servingMilliliters": 225
+    },
+    {
+      "id": "cafe:generic:iced-flat-white-with-oat-milk",
+      "name": "Iced flat white with oat milk",
+      "displayNameDE": "Iced Flat White mit Haferdrink",
+      "searchAliases": [],
+      "servingMilliliters": 225
+    },
+    {
+      "id": "cafe:generic:iced-flat-white-with-soy-milk",
+      "name": "Iced flat white with soy milk",
+      "displayNameDE": "Iced Flat White mit Sojadrink",
+      "searchAliases": [],
+      "servingMilliliters": 225
+    },
+    {
+      "id": "cafe:generic:iced-flat-white-with-almond-milk",
+      "name": "Iced flat white with almond milk",
+      "displayNameDE": "Iced Flat White mit Mandeldrink",
+      "searchAliases": [],
+      "servingMilliliters": 225
+    },
+    {
+      "id": "cafe:generic:iced-flat-white-with-coconut-milk-drink",
+      "name": "Iced flat white with coconut milk drink",
+      "displayNameDE": "Iced Flat White mit Kokosdrink",
+      "searchAliases": [],
+      "servingMilliliters": 225
+    },
+    {
+      "id": "cafe:generic:iced-flat-white-with-skim-milk",
+      "name": "Iced flat white with skim milk",
+      "displayNameDE": "Iced Flat White mit Magermilch",
+      "searchAliases": [],
+      "servingMilliliters": 225
+    },
+    {
+      "id": "cafe:generic:iced-flat-white-with-low-fat-milk",
+      "name": "Iced flat white with low-fat milk",
+      "displayNameDE": "Iced Flat White mit fettarmer Milch",
+      "searchAliases": [],
+      "servingMilliliters": 225
+    },
+    {
+      "id": "cafe:generic:iced-flat-white-with-lactose-free-milk",
+      "name": "Iced flat white with lactose-free milk",
+      "displayNameDE": "Iced Flat White mit laktosefreier Milch",
+      "searchAliases": [],
+      "servingMilliliters": 225
+    },
+    {
+      "id": "cafe:generic:iced-mocha-with-whole-milk",
+      "name": "Iced mocha with whole milk",
+      "displayNameDE": "Iced Mocha mit Vollmilch",
+      "searchAliases": [
+        "Iced mocha"
+      ],
+      "servingMilliliters": 275
+    },
+    {
+      "id": "cafe:generic:iced-mocha-with-oat-milk",
+      "name": "Iced mocha with oat milk",
+      "displayNameDE": "Iced Mocha mit Haferdrink",
+      "searchAliases": [],
+      "servingMilliliters": 275
+    },
+    {
+      "id": "cafe:generic:iced-mocha-with-soy-milk",
+      "name": "Iced mocha with soy milk",
+      "displayNameDE": "Iced Mocha mit Sojadrink",
+      "searchAliases": [],
+      "servingMilliliters": 275
+    },
+    {
+      "id": "cafe:generic:iced-mocha-with-almond-milk",
+      "name": "Iced mocha with almond milk",
+      "displayNameDE": "Iced Mocha mit Mandeldrink",
+      "searchAliases": [],
+      "servingMilliliters": 275
+    },
+    {
+      "id": "cafe:generic:iced-mocha-with-coconut-milk-drink",
+      "name": "Iced mocha with coconut milk drink",
+      "displayNameDE": "Iced Mocha mit Kokosdrink",
+      "searchAliases": [],
+      "servingMilliliters": 275
+    },
+    {
+      "id": "cafe:generic:iced-mocha-with-skim-milk",
+      "name": "Iced mocha with skim milk",
+      "displayNameDE": "Iced Mocha mit Magermilch",
+      "searchAliases": [],
+      "servingMilliliters": 275
+    },
+    {
+      "id": "cafe:generic:iced-mocha-with-low-fat-milk",
+      "name": "Iced mocha with low-fat milk",
+      "displayNameDE": "Iced Mocha mit fettarmer Milch",
+      "searchAliases": [],
+      "servingMilliliters": 275
+    },
+    {
+      "id": "cafe:generic:iced-mocha-with-lactose-free-milk",
+      "name": "Iced mocha with lactose-free milk",
+      "displayNameDE": "Iced Mocha mit laktosefreier Milch",
+      "searchAliases": [],
+      "servingMilliliters": 275
+    },
+    {
+      "id": "cafe:generic:matcha-latte-with-whole-milk",
+      "name": "Matcha latte with whole milk",
+      "displayNameDE": "Matcha Latte mit Vollmilch",
+      "searchAliases": [
+        "Matcha latte"
+      ],
+      "servingMilliliters": 225
+    },
+    {
+      "id": "cafe:generic:chai-latte-with-whole-milk",
+      "name": "Chai latte with whole milk",
+      "displayNameDE": "Chai Latte mit Vollmilch",
+      "searchAliases": [
+        "Chai latte",
+        "Chai tea latte"
+      ],
+      "servingMilliliters": 225
+    },
+    {
+      "id": "cafe:generic:iced-matcha-latte-with-whole-milk",
+      "name": "Iced Matcha latte with whole milk",
+      "displayNameDE": "Iced Matcha Latte mit Vollmilch",
+      "searchAliases": [
+        "Iced Matcha latte"
+      ],
+      "servingMilliliters": 275
+    },
+    {
+      "id": "cafe:generic:iced-chai-latte-with-whole-milk",
+      "name": "Iced Chai latte with whole milk",
+      "displayNameDE": "Iced Chai Latte mit Vollmilch",
+      "searchAliases": [
+        "Iced Chai latte",
+        "Iced Chai tea latte"
+      ],
+      "servingMilliliters": 300
+    },
+    {
+      "id": "cafe:generic:dirty-chai-latte-with-whole-milk",
+      "name": "Dirty chai latte with whole milk",
+      "displayNameDE": "Dirty Chai Latte mit Vollmilch",
+      "searchAliases": [
+        "Dirty chai"
+      ],
+      "servingMilliliters": 250
+    },
+    {
+      "id": "cafe:generic:matcha-latte-with-oat-milk",
+      "name": "Matcha latte with oat milk",
+      "displayNameDE": "Matcha Latte mit Haferdrink",
+      "searchAliases": [],
+      "servingMilliliters": 225
+    },
+    {
+      "id": "cafe:generic:chai-latte-with-oat-milk",
+      "name": "Chai latte with oat milk",
+      "displayNameDE": "Chai Latte mit Haferdrink",
+      "searchAliases": [],
+      "servingMilliliters": 225
+    },
+    {
+      "id": "cafe:generic:iced-matcha-latte-with-oat-milk",
+      "name": "Iced Matcha latte with oat milk",
+      "displayNameDE": "Iced Matcha Latte mit Haferdrink",
+      "searchAliases": [],
+      "servingMilliliters": 275
+    },
+    {
+      "id": "cafe:generic:iced-chai-latte-with-oat-milk",
+      "name": "Iced Chai latte with oat milk",
+      "displayNameDE": "Iced Chai Latte mit Haferdrink",
+      "searchAliases": [],
+      "servingMilliliters": 300
+    },
+    {
+      "id": "cafe:generic:dirty-chai-latte-with-oat-milk",
+      "name": "Dirty chai latte with oat milk",
+      "displayNameDE": "Dirty Chai Latte mit Haferdrink",
+      "searchAliases": [],
+      "servingMilliliters": 250
+    },
+    {
+      "id": "cafe:generic:matcha-latte-with-soy-milk",
+      "name": "Matcha latte with soy milk",
+      "displayNameDE": "Matcha Latte mit Sojadrink",
+      "searchAliases": [],
+      "servingMilliliters": 225
+    },
+    {
+      "id": "cafe:generic:chai-latte-with-soy-milk",
+      "name": "Chai latte with soy milk",
+      "displayNameDE": "Chai Latte mit Sojadrink",
+      "searchAliases": [],
+      "servingMilliliters": 225
+    },
+    {
+      "id": "cafe:generic:iced-matcha-latte-with-soy-milk",
+      "name": "Iced Matcha latte with soy milk",
+      "displayNameDE": "Iced Matcha Latte mit Sojadrink",
+      "searchAliases": [],
+      "servingMilliliters": 275
+    },
+    {
+      "id": "cafe:generic:iced-chai-latte-with-soy-milk",
+      "name": "Iced Chai latte with soy milk",
+      "displayNameDE": "Iced Chai Latte mit Sojadrink",
+      "searchAliases": [],
+      "servingMilliliters": 300
+    },
+    {
+      "id": "cafe:generic:dirty-chai-latte-with-soy-milk",
+      "name": "Dirty chai latte with soy milk",
+      "displayNameDE": "Dirty Chai Latte mit Sojadrink",
+      "searchAliases": [],
+      "servingMilliliters": 250
+    },
+    {
+      "id": "cafe:generic:matcha-latte-with-almond-milk",
+      "name": "Matcha latte with almond milk",
+      "displayNameDE": "Matcha Latte mit Mandeldrink",
+      "searchAliases": [],
+      "servingMilliliters": 225
+    },
+    {
+      "id": "cafe:generic:chai-latte-with-almond-milk",
+      "name": "Chai latte with almond milk",
+      "displayNameDE": "Chai Latte mit Mandeldrink",
+      "searchAliases": [],
+      "servingMilliliters": 225
+    },
+    {
+      "id": "cafe:generic:iced-matcha-latte-with-almond-milk",
+      "name": "Iced Matcha latte with almond milk",
+      "displayNameDE": "Iced Matcha Latte mit Mandeldrink",
+      "searchAliases": [],
+      "servingMilliliters": 275
+    },
+    {
+      "id": "cafe:generic:iced-chai-latte-with-almond-milk",
+      "name": "Iced Chai latte with almond milk",
+      "displayNameDE": "Iced Chai Latte mit Mandeldrink",
+      "searchAliases": [],
+      "servingMilliliters": 300
+    },
+    {
+      "id": "cafe:generic:dirty-chai-latte-with-almond-milk",
+      "name": "Dirty chai latte with almond milk",
+      "displayNameDE": "Dirty Chai Latte mit Mandeldrink",
+      "searchAliases": [],
+      "servingMilliliters": 250
+    },
+    {
+      "id": "cafe:generic:matcha-latte-with-coconut-milk-drink",
+      "name": "Matcha latte with coconut milk drink",
+      "displayNameDE": "Matcha Latte mit Kokosdrink",
+      "searchAliases": [],
+      "servingMilliliters": 225
+    },
+    {
+      "id": "cafe:generic:chai-latte-with-coconut-milk-drink",
+      "name": "Chai latte with coconut milk drink",
+      "displayNameDE": "Chai Latte mit Kokosdrink",
+      "searchAliases": [],
+      "servingMilliliters": 225
+    },
+    {
+      "id": "cafe:generic:iced-matcha-latte-with-coconut-milk-drink",
+      "name": "Iced Matcha latte with coconut milk drink",
+      "displayNameDE": "Iced Matcha Latte mit Kokosdrink",
+      "searchAliases": [],
+      "servingMilliliters": 275
+    },
+    {
+      "id": "cafe:generic:iced-chai-latte-with-coconut-milk-drink",
+      "name": "Iced Chai latte with coconut milk drink",
+      "displayNameDE": "Iced Chai Latte mit Kokosdrink",
+      "searchAliases": [],
+      "servingMilliliters": 300
+    },
+    {
+      "id": "cafe:generic:dirty-chai-latte-with-coconut-milk-drink",
+      "name": "Dirty chai latte with coconut milk drink",
+      "displayNameDE": "Dirty Chai Latte mit Kokosdrink",
+      "searchAliases": [],
+      "servingMilliliters": 250
+    },
+    {
+      "id": "cafe:generic:matcha-latte-with-skim-milk",
+      "name": "Matcha latte with skim milk",
+      "displayNameDE": "Matcha Latte mit Magermilch",
+      "searchAliases": [],
+      "servingMilliliters": 225
+    },
+    {
+      "id": "cafe:generic:chai-latte-with-skim-milk",
+      "name": "Chai latte with skim milk",
+      "displayNameDE": "Chai Latte mit Magermilch",
+      "searchAliases": [],
+      "servingMilliliters": 225
+    },
+    {
+      "id": "cafe:generic:iced-matcha-latte-with-skim-milk",
+      "name": "Iced Matcha latte with skim milk",
+      "displayNameDE": "Iced Matcha Latte mit Magermilch",
+      "searchAliases": [],
+      "servingMilliliters": 275
+    },
+    {
+      "id": "cafe:generic:iced-chai-latte-with-skim-milk",
+      "name": "Iced Chai latte with skim milk",
+      "displayNameDE": "Iced Chai Latte mit Magermilch",
+      "searchAliases": [],
+      "servingMilliliters": 300
+    },
+    {
+      "id": "cafe:generic:dirty-chai-latte-with-skim-milk",
+      "name": "Dirty chai latte with skim milk",
+      "displayNameDE": "Dirty Chai Latte mit Magermilch",
+      "searchAliases": [],
+      "servingMilliliters": 250
+    },
+    {
+      "id": "cafe:generic:matcha-latte-with-low-fat-milk",
+      "name": "Matcha latte with low-fat milk",
+      "displayNameDE": "Matcha Latte mit fettarmer Milch",
+      "searchAliases": [],
+      "servingMilliliters": 225
+    },
+    {
+      "id": "cafe:generic:chai-latte-with-low-fat-milk",
+      "name": "Chai latte with low-fat milk",
+      "displayNameDE": "Chai Latte mit fettarmer Milch",
+      "searchAliases": [],
+      "servingMilliliters": 225
+    },
+    {
+      "id": "cafe:generic:iced-matcha-latte-with-low-fat-milk",
+      "name": "Iced Matcha latte with low-fat milk",
+      "displayNameDE": "Iced Matcha Latte mit fettarmer Milch",
+      "searchAliases": [],
+      "servingMilliliters": 275
+    },
+    {
+      "id": "cafe:generic:iced-chai-latte-with-low-fat-milk",
+      "name": "Iced Chai latte with low-fat milk",
+      "displayNameDE": "Iced Chai Latte mit fettarmer Milch",
+      "searchAliases": [],
+      "servingMilliliters": 300
+    },
+    {
+      "id": "cafe:generic:dirty-chai-latte-with-low-fat-milk",
+      "name": "Dirty chai latte with low-fat milk",
+      "displayNameDE": "Dirty Chai Latte mit fettarmer Milch",
+      "searchAliases": [],
+      "servingMilliliters": 250
+    },
+    {
+      "id": "cafe:generic:matcha-latte-with-lactose-free-milk",
+      "name": "Matcha latte with lactose-free milk",
+      "displayNameDE": "Matcha Latte mit laktosefreier Milch",
+      "searchAliases": [],
+      "servingMilliliters": 225
+    },
+    {
+      "id": "cafe:generic:chai-latte-with-lactose-free-milk",
+      "name": "Chai latte with lactose-free milk",
+      "displayNameDE": "Chai Latte mit laktosefreier Milch",
+      "searchAliases": [],
+      "servingMilliliters": 225
+    },
+    {
+      "id": "cafe:generic:iced-matcha-latte-with-lactose-free-milk",
+      "name": "Iced Matcha latte with lactose-free milk",
+      "displayNameDE": "Iced Matcha Latte mit laktosefreier Milch",
+      "searchAliases": [],
+      "servingMilliliters": 275
+    },
+    {
+      "id": "cafe:generic:iced-chai-latte-with-lactose-free-milk",
+      "name": "Iced Chai latte with lactose-free milk",
+      "displayNameDE": "Iced Chai Latte mit laktosefreier Milch",
+      "searchAliases": [],
+      "servingMilliliters": 300
+    },
+    {
+      "id": "cafe:generic:dirty-chai-latte-with-lactose-free-milk",
+      "name": "Dirty chai latte with lactose-free milk",
+      "displayNameDE": "Dirty Chai Latte mit laktosefreier Milch",
+      "searchAliases": [],
+      "servingMilliliters": 250
+    },
+    {
+      "id": "cafe:generic:iced-americano",
+      "name": "Iced americano",
+      "displayNameDE": "Iced Americano",
+      "searchAliases": [
+        "Iced black coffee"
+      ],
+      "servingMilliliters": 300
+    },
+    {
+      "id": "cafe:generic:espresso-tonic",
+      "name": "Espresso tonic",
+      "displayNameDE": "Espresso Tonic",
+      "searchAliases": [
+        "Espresso and tonic",
+        "Coffee tonic",
+        "Kaffee Tonic",
+        "Espresso mit Tonic"
+      ],
+      "servingMilliliters": 250
     }
   ]
 }

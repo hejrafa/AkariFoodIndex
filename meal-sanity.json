@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "description": "Plausible amounts for a photo meal, checked after the meal worker and after the phone's own reading alike. An amount outside its range is clamped to the nearest bound and the food's confidence drops to lowConfidence. Ranges are grams, or millilitres for the drink categories. A kind (the artwork rule id) is narrower than its visual category and wins over it. A catalogue dish's parts keep the recipe's amounts; the whole-meal range scales every solid food of a plate of at least minimumFoods foods.",
+  "description": "Plausible amounts for a photo meal, checked after the meal worker and after the phone's own reading alike. An amount outside its range is clamped to the nearest bound and the food's confidence drops to lowConfidence. Ranges are grams, or millilitres for the drink categories. A kind (the artwork rule id) is narrower than its visual category and wins over it; a condiment, named by the start of the food's name before any \"with\", wins over both. A catalogue dish's parts keep the recipe's amounts; the whole-meal range scales every solid food of a plate of at least minimumFoods foods.",
   "lowConfidence": 0.3,
   "meal": {
     "min": 100,
@@ -35,6 +35,23 @@
     "pasta": { "min": 50, "max": 400 },
     "noodles": { "min": 50, "max": 400 },
     "rice": { "min": 50, "max": 400 },
-    "prepared-rice": { "min": 50, "max": 400 }
+    "prepared-rice": { "min": 50, "max": 400 },
+    "ginger": { "min": 0, "max": 50 },
+    "salt": { "min": 0, "max": 50 },
+    "black-pepper": { "min": 0, "max": 50 },
+    "spice": { "min": 0, "max": 50 }
+  },
+  "condiments": {
+    "range": { "min": 0, "max": 50 },
+    "names": [
+      "pickled ginger", "gari", "sushi ginger", "sushi ingwer",
+      "soy sauce", "soya sauce", "sojasauce", "sojasosse", "shoyu", "tamari",
+      "mustard", "senf", "ketchup", "mayonnaise", "mayo", "aioli",
+      "wasabi", "horseradish", "meerrettich", "sriracha", "tabasco", "hot sauce",
+      "chili sauce", "chilisauce", "sweet chili sauce", "fish sauce", "fischsauce",
+      "worcestershire sauce", "tonkatsu sauce", "teriyaki sauce", "ponzu",
+      "barbecue sauce", "bbq sauce", "grillsauce", "cocktail sauce", "cocktailsauce",
+      "relish", "chutney"
+    ]
   }
 }
