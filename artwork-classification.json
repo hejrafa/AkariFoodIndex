@@ -209,7 +209,10 @@
         "tentsuyu",
         "tsuyu",
         "salad cream",
-        "salatcreme"
+        "salatcreme",
+        "wasabi paste",
+        "wasabipaste",
+        "wasabi-paste"
       ],
       "compoundSuffixes": [
         "sauce",
@@ -217,7 +220,10 @@
         "sosse",
         "dressing"
       ],
-      "compoundExclusions": []
+      "compoundExclusions": [],
+      "exactTerms": [
+        "wasabi"
+      ]
     },
     {
       "id": "flour",
@@ -1383,7 +1389,13 @@
         "maistortilla",
         "maistortillas",
         "tortilla wrap",
-        "tortilla wraps"
+        "tortilla wraps",
+        "breadcrumbs",
+        "bread crumbs",
+        "semmelbrösel",
+        "paniermehl",
+        "semmelmehl",
+        "panko"
       ],
       "compoundSuffixes": [
         "brot",
@@ -3631,7 +3643,8 @@
         "あおのり",
         "わかめ",
         "こんぶ",
-        "ひじき"
+        "ひじき",
+        "kimchi"
       ]
     },
     {
@@ -3864,7 +3877,11 @@
         "salade",
         "salades",
         "salads",
-        "salat"
+        "salat",
+        "coleslaw",
+        "cole slaw",
+        "krautsalat",
+        "weißkrautsalat"
       ]
     },
     {
@@ -4022,7 +4039,17 @@
         "donut",
         "donuts",
         "doughnut",
-        "doughnuts"
+        "doughnuts",
+        "berliner pfannkuchen",
+        "krapfen",
+        "kreppel",
+        "jam doughnut",
+        "jam doughnuts",
+        "jelly doughnut",
+        "jelly doughnuts"
+      ],
+      "exactTerms": [
+        "berliner"
       ]
     },
     {
@@ -4425,7 +4452,9 @@
         "えんどう",
         "グリンピース",
         "pigeon peas",
-        "pigeon pea"
+        "pigeon pea",
+        "sugar pea",
+        "sugar peas"
       ]
     },
     {
@@ -5171,6 +5200,73 @@
         "tk gemüse",
         "gemüse tiefgefroren",
         "mélange de légumes"
+      ]
+    },
+    {
+      "id": "sugar",
+      "artworkID": "jar",
+      "priority": 10,
+      "tags": [
+        "en:sugars",
+        "en:white-sugars",
+        "en:brown-sugars",
+        "en:icing-sugars"
+      ],
+      "terms": [
+        "sugar",
+        "white sugar",
+        "brown sugar",
+        "icing sugar",
+        "powdered sugar",
+        "cane sugar",
+        "zucker",
+        "haushaltszucker",
+        "weißzucker",
+        "puderzucker",
+        "brauner zucker",
+        "rohrzucker",
+        "rohzucker",
+        "sucre",
+        "sucre blanc",
+        "sucre roux",
+        "sucre glace"
+      ]
+    },
+    {
+      "id": "yeast",
+      "artworkID": "jar",
+      "priority": 31,
+      "tags": [],
+      "terms": [
+        "yeast",
+        "fresh yeast",
+        "dried yeast",
+        "dry yeast",
+        "instant yeast",
+        "baker's yeast",
+        "bakers yeast",
+        "hefe",
+        "frischhefe",
+        "trockenhefe",
+        "backhefe",
+        "levure de boulanger"
+      ]
+    },
+    {
+      "id": "protein-powder",
+      "artworkID": "jar",
+      "priority": 102,
+      "tags": [],
+      "terms": [
+        "protein powder",
+        "whey protein",
+        "whey protein powder",
+        "proteinpulver",
+        "eiweißpulver",
+        "eiweisspulver"
+      ],
+      "overridesCategories": [
+        "powder"
       ]
     }
   ],
