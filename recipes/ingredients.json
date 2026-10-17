@@ -3,7 +3,7 @@
  "about": "Generic recipe ingredient names mapped to one bundled reference row each. Keys are lowercase English as a recipe writer would say them; aliases are other spellings of the same thing.",
  "ingredients": {
   "cooked spaghetti": {
-   "reference": "bls:E401032",
+   "reference": "usda:2708357",
    "aliases": [
     "spaghetti, cooked",
     "boiled spaghetti",
@@ -178,7 +178,7 @@
    }
   },
   "sushi rice": {
-   "reference": "bls:X8A1100",
+   "reference": "bls:C352032",
    "aliases": [
     "seasoned sushi rice",
     "sushi rice, cooked",
@@ -202,7 +202,7 @@
    }
   },
   "boiled potatoes": {
-   "reference": "bls:K110132",
+   "reference": "bls:K120134",
    "aliases": [
     "boiled potato",
     "potatoes",
@@ -273,7 +273,7 @@
    }
   },
   "roast potatoes": {
-   "reference": "cofid:13-534",
+   "reference": "usda:2709405",
    "aliases": [
     "roasted potatoes",
     "roasties",
@@ -438,7 +438,7 @@
    }
   },
   "black beans": {
-   "reference": "usda:2707363",
+   "reference": "usda:2707359",
    "aliases": [
     "canned black beans",
     "cooked black beans",
@@ -496,7 +496,7 @@
    }
   },
   "edamame": {
-   "reference": "usda:2707436",
+   "reference": "bls:G750432",
    "aliases": [
     "cooked edamame",
     "soybeans in pods",
@@ -563,7 +563,7 @@
    }
   },
   "sourdough bread": {
-   "reference": "bls:B251000",
+   "reference": "usda:2707646",
    "aliases": [
     "sourdough",
     "wheat-rye bread",
@@ -801,7 +801,7 @@
    }
   },
   "croutons": {
-   "reference": "usda:2707697",
+   "reference": "bls:X434442",
    "aliases": [
     "crouton",
     "bread croutons"
@@ -1400,7 +1400,7 @@
    }
   },
   "cooked bacon": {
-   "reference": "usda:2705889",
+   "reference": "bls:W415082",
    "aliases": [
     "bacon",
     "crispy bacon",
@@ -1522,7 +1522,7 @@
    }
   },
   "frankfurter": {
-   "reference": "bls:W211200",
+   "reference": "bls:W213000",
    "aliases": [
     "frankfurters",
     "wiener",
@@ -1539,7 +1539,7 @@
    }
   },
   "pork sausages": {
-   "reference": "cofid:19-509",
+   "reference": "bls:Y021312",
    "aliases": [
     "pork sausage",
     "sausages",
@@ -1891,7 +1891,7 @@
    }
   },
   "scrambled eggs": {
-   "reference": "bls:Y720163",
+   "reference": "bls:Y720143",
    "aliases": [
     "scrambled egg",
     "rührei"
@@ -1924,7 +1924,7 @@
    }
   },
   "firm tofu": {
-   "reference": "bls:H861000",
+   "reference": "bls:H861032",
    "aliases": [
     "tofu",
     "plain tofu",
@@ -2220,7 +2220,7 @@
    }
   },
   "mozzarella": {
-   "reference": "usda:2705722",
+   "reference": "bls:M0A1000",
    "aliases": [
     "shredded mozzarella",
     "grated mozzarella",
@@ -3432,7 +3432,7 @@
    }
   },
   "black olives": {
-   "reference": "usda:2710090",
+   "reference": "bls:H520800",
    "aliases": [
     "olives",
     "kalamata olives",
@@ -3545,7 +3545,7 @@
    }
   },
   "wasabi": {
-   "reference": "bls:G693100",
+   "reference": "bls:R913000",
    "aliases": [
     "wasabi root",
     "fresh wasabi"
@@ -3913,7 +3913,7 @@
    }
   },
   "yeast": {
-   "reference": "usda:2710005",
+   "reference": "ciqual:11045",
    "aliases": [
     "dry yeast",
     "active dry yeast",
@@ -4021,7 +4021,7 @@
    }
   },
   "mayonnaise": {
-   "reference": "usda:2710204",
+   "reference": "bls:Q991000",
    "aliases": [
     "mayo",
     "japanese mayonnaise",
@@ -4033,7 +4033,7 @@
    }
   },
   "ketchup": {
-   "reference": "bls:R141100",
+   "reference": "usda:2709733",
    "aliases": [
     "tomato ketchup",
     "catsup"
@@ -4325,7 +4325,7 @@
    }
   },
   "tomato sauce": {
-   "reference": "bls:X331353",
+   "reference": "bls:X321813",
    "aliases": [
     "marinara sauce",
     "marinara",
@@ -4601,7 +4601,7 @@
    }
   },
   "lemon juice": {
-   "reference": "bls:F601600",
+   "reference": "usda:2709181",
    "aliases": [
     "juice of a lemon",
     "fresh lemon juice",
@@ -4648,7 +4648,7 @@
    }
   },
   "sugar": {
-   "reference": "usda:2710258",
+   "reference": "ciqual:31016",
    "aliases": [
     "white sugar",
     "granulated sugar",
@@ -4754,7 +4754,7 @@
    }
   },
   "dark chocolate": {
-   "reference": "bls:S560000",
+   "reference": "usda:2710336",
    "aliases": [
     "semisweet chocolate",
     "bittersweet chocolate",
@@ -5566,7 +5566,7 @@
    }
   },
   "pineapple juice": {
-   "reference": "bls:F501600",
+   "reference": "usda:2709329",
    "aliases": [
     "pineapple juice, 100%"
    ],
@@ -5669,7 +5669,7 @@
    }
   },
   "beer": {
-   "reference": "usda:2710616",
+   "reference": "bls:P161000",
    "aliases": [
     "lager",
     "pilsner",

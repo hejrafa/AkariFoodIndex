@@ -298,21 +298,9 @@
       "ingredient": "Kiwi"
     },
     {
-      "id": "bls:G470100",
-      "ingredient": "Leek"
-    },
-    {
       "id": "usda:2709168",
       "ingredient": "Lemon",
       "displayNameDE": "Zitrone"
-    },
-    {
-      "id": "bls:H730132",
-      "ingredient": "Lentil, cooked",
-      "searchAliases": [
-        "Linsen",
-        "lentils"
-      ]
     },
     {
       "id": "bls:G105100",
@@ -814,24 +802,22 @@
       "ingredient": "Rind Schwein Hackfleisch gemischt roh",
       "searchAliases": [
         "gemischtes Hack",
-        "gemischtes Hackfleisch"
-      ]
-    },
-    {
-      "id": "bls:U040100",
-      "ingredient": "Schwein Rind Hackfleisch gemischt roh",
-      "searchAliases": [
-        "gemischtes Hack",
-        "gemischtes Hackfleisch"
-      ]
+        "gemischtes Hackfleisch",
+        "Hackfleisch gemischt",
+        "mixed mince"
+      ],
+      "displayName": "Mixed mince",
+      "displayNameDE": "Gemischtes Hackfleisch"
     },
     {
       "id": "bls:U050132",
       "ingredient": "Rind Schwein Hackfleisch gemischt gekocht",
       "searchAliases": [
-        "gemischtes Hack",
-        "gemischtes Hackfleisch"
-      ]
+        "cooked mixed mince",
+        "gemischtes Hackfleisch gekocht"
+      ],
+      "displayName": "Mixed mince, cooked",
+      "displayNameDE": "Gemischtes Hackfleisch, gekocht"
     },
     {
       "id": "usda:2706133",
@@ -1467,12 +1453,6 @@
       ]
     },
     {
-      "id": "ciqual:11036",
-      "ingredient": "Rosemary, dried",
-      "displayName": "Rosemary, dried",
-      "displayNameDE": "Rosmarin, getrocknet"
-    },
-    {
       "id": "cofid:13-882",
       "ingredient": "Rosemary, dried",
       "displayNameDE": "Rosmarin, getrocknet",
@@ -1664,30 +1644,13 @@
       ]
     },
     {
-      "id": "bls:F310600",
-      "ingredient": "Grape juice",
-      "displayName": "Grape juice, 100%",
-      "displayNameDE": "Traubensaft, 100 %",
-      "searchAliases": [
-        "Traubensaft",
-        "100% grape juice"
-      ]
-    },
-    {
       "id": "usda:2709325",
       "ingredient": "Grape juice, 100%",
       "displayNameDE": "Traubensaft, 100 %",
       "searchAliases": [
-        "Traubensaft"
-      ]
-    },
-    {
-      "id": "bls:F604600",
-      "ingredient": "Grapefruit juice",
-      "displayName": "Grapefruit juice, 100%",
-      "displayNameDE": "Grapefruitsaft, 100 %",
-      "searchAliases": [
-        "Grapefruitsaft"
+        "Traubensaft",
+        "grape juice",
+        "100% grape juice"
       ]
     },
     {
@@ -1695,16 +1658,8 @@
       "ingredient": "Grapefruit juice, 100%",
       "displayNameDE": "Grapefruitsaft, 100 %",
       "searchAliases": [
-        "Grapefruitsaft"
-      ]
-    },
-    {
-      "id": "bls:F501600",
-      "ingredient": "Pineapple juice",
-      "displayName": "Pineapple juice, 100%",
-      "displayNameDE": "Ananassaft, 100 %",
-      "searchAliases": [
-        "Ananassaft"
+        "Grapefruitsaft",
+        "grapefruit juice"
       ]
     },
     {
@@ -1712,7 +1667,8 @@
       "ingredient": "Pineapple juice, 100%",
       "displayNameDE": "Ananassaft, 100 %",
       "searchAliases": [
-        "Ananassaft"
+        "Ananassaft",
+        "pineapple juice"
       ]
     },
     {
@@ -2772,6 +2728,470 @@
         "sliced cheese",
         "Scheibenkäse"
       ]
+    },
+    {
+      "id": "usda:2710180",
+      "ingredient": "Vegetable oil",
+      "displayName": "Vegetable oil",
+      "displayNameDE": "Pflanzenöl",
+      "searchAliases": [
+        "vegetable oil",
+        "cooking oil",
+        "oil",
+        "Pflanzenöl",
+        "Speiseöl",
+        "Öl"
+      ]
+    },
+    {
+      "id": "usda:2707445",
+      "ingredient": "Teriyaki sauce",
+      "displayName": "Teriyaki sauce",
+      "displayNameDE": "Teriyakisauce",
+      "searchAliases": [
+        "teriyaki sauce",
+        "Teriyakisauce",
+        "Teriyaki-Sauce",
+        "Teriyakisoße"
+      ]
+    },
+    {
+      "id": "bls:X4A8060",
+      "ingredient": "Miso soup",
+      "displayName": "Miso soup",
+      "displayNameDE": "Misosuppe",
+      "searchAliases": [
+        "miso soup",
+        "Misosuppe",
+        "Miso-Suppe"
+      ]
+    },
+    {
+      "id": "usda:2706568",
+      "ingredient": "Imitation crab",
+      "displayName": "Imitation crab",
+      "displayNameDE": "Surimi",
+      "searchAliases": [
+        "imitation crab",
+        "crab stick",
+        "crab sticks",
+        "surimi",
+        "kani",
+        "Surimi",
+        "Krebsfleischimitat",
+        "Surimi-Sticks"
+      ]
+    },
+    {
+      "id": "bls:Y8A4150",
+      "ingredient": "Vanilla custard",
+      "displayName": "Vanilla custard",
+      "displayNameDE": "Vanillepudding",
+      "searchAliases": [
+        "vanilla custard",
+        "custard",
+        "vanilla pudding",
+        "Vanillepudding",
+        "Pudding"
+      ]
+    },
+    {
+      "id": "mext:17003",
+      "ingredient": "Tonkatsu sauce",
+      "displayName": "Tonkatsu sauce",
+      "displayNameDE": "Tonkatsu-Sauce",
+      "searchAliases": [
+        "tonkatsu sauce",
+        "katsu sauce",
+        "Tonkatsusauce",
+        "Tonkatsu-Sauce",
+        "Tonkatsu-Soße"
+      ]
+    },
+    {
+      "id": "bls:X416243",
+      "ingredient": "Vegetable stock",
+      "displayName": "Vegetable stock",
+      "displayNameDE": "Gemüsebrühe",
+      "searchAliases": [
+        "vegetable stock",
+        "vegetable broth",
+        "Gemüsebrühe",
+        "Gemüsefond"
+      ]
+    },
+    {
+      "id": "bls:Y183013",
+      "ingredient": "Beef stock",
+      "displayName": "Beef stock",
+      "displayNameDE": "Rinderbrühe",
+      "searchAliases": [
+        "beef stock",
+        "beef broth",
+        "Rinderbrühe",
+        "Fleischbrühe",
+        "Rindfleischbrühe"
+      ]
+    },
+    {
+      "id": "bls:X411243",
+      "ingredient": "Chicken stock",
+      "displayName": "Chicken stock",
+      "displayNameDE": "Hühnerbrühe",
+      "searchAliases": [
+        "chicken stock",
+        "chicken broth",
+        "Hühnerbrühe",
+        "Hühnerfond"
+      ]
+    },
+    {
+      "id": "usda:2709181",
+      "ingredient": "Lemon juice",
+      "displayName": "Lemon juice",
+      "displayNameDE": "Zitronensaft",
+      "searchAliases": [
+        "lemon juice",
+        "Zitronensaft"
+      ]
+    },
+    {
+      "id": "bls:G568900",
+      "ingredient": "Canned tomatoes",
+      "displayName": "Canned tomatoes",
+      "displayNameDE": "Dosentomaten",
+      "searchAliases": [
+        "canned tomatoes",
+        "tinned tomatoes",
+        "chopped tomatoes",
+        "Dosentomaten",
+        "Tomaten aus der Dose",
+        "geschälte Tomaten"
+      ]
+    },
+    {
+      "id": "bls:W424000",
+      "ingredient": "Cooked ham",
+      "displayName": "Cooked ham",
+      "displayNameDE": "Kochschinken",
+      "searchAliases": [
+        "ham",
+        "cooked ham",
+        "Kochschinken",
+        "Schinken"
+      ]
+    },
+    {
+      "id": "bls:W411300",
+      "ingredient": "Smoked streaky bacon",
+      "displayName": "Smoked streaky bacon",
+      "displayNameDE": "Bauchspeck, geräuchert",
+      "searchAliases": [
+        "smoked bacon",
+        "streaky bacon",
+        "smoked streaky bacon",
+        "Bauchspeck",
+        "Räucherspeck",
+        "durchwachsener Speck"
+      ]
+    },
+    {
+      "id": "bls:G660100",
+      "ingredient": "Celeriac",
+      "displayName": "Celeriac",
+      "displayNameDE": "Knollensellerie",
+      "searchAliases": [
+        "celeriac",
+        "celery root",
+        "Knollensellerie",
+        "Sellerieknolle"
+      ]
+    },
+    {
+      "id": "bls:M306400",
+      "ingredient": "Parmesan",
+      "displayName": "Parmesan",
+      "displayNameDE": "Parmesan",
+      "searchAliases": [
+        "parmesan",
+        "parmigiano",
+        "Parmigiano Reggiano"
+      ]
+    },
+    {
+      "id": "bls:G620132",
+      "ingredient": "Carrot, cooked",
+      "displayName": "Carrot, cooked",
+      "displayNameDE": "Karotte, gekocht",
+      "searchAliases": [
+        "cooked carrots",
+        "boiled carrots",
+        "gekochte Karotten",
+        "gekochte Möhren"
+      ]
+    },
+    {
+      "id": "usda:2709782",
+      "ingredient": "Cilantro",
+      "displayName": "Cilantro",
+      "displayNameDE": "Koriander, frisch",
+      "searchAliases": [
+        "cilantro",
+        "coriander leaves",
+        "fresh coriander",
+        "Koriander",
+        "Koriandergrün"
+      ]
+    },
+    {
+      "id": "bls:U281142",
+      "ingredient": "Beef, braised",
+      "displayName": "Beef, braised",
+      "displayNameDE": "Rindfleisch, geschmort",
+      "searchAliases": [
+        "braised beef",
+        "pot roast",
+        "Schmorbraten",
+        "Rinderschmorbraten",
+        "geschmortes Rindfleisch"
+      ]
+    },
+    {
+      "id": "usda:2706044",
+      "ingredient": "Chicken thigh, cooked",
+      "displayName": "Chicken thigh, cooked",
+      "displayNameDE": "Hähnchenschenkel, gebraten",
+      "searchAliases": [
+        "cooked chicken thigh",
+        "fried chicken thigh",
+        "gebratener Hähnchenschenkel"
+      ]
+    },
+    {
+      "id": "bls:X320243",
+      "ingredient": "Béchamel sauce",
+      "displayName": "Béchamel sauce",
+      "displayNameDE": "Béchamelsauce",
+      "searchAliases": [
+        "bechamel",
+        "béchamel",
+        "bechamel sauce",
+        "white sauce",
+        "Bechamelsauce",
+        "Béchamelsauce"
+      ]
+    },
+    {
+      "id": "bls:G210132",
+      "ingredient": "Spinach, cooked",
+      "displayName": "Spinach, cooked",
+      "displayNameDE": "Spinat, gekocht",
+      "searchAliases": [
+        "cooked spinach",
+        "gekochter Spinat",
+        "Spinat gekocht"
+      ]
+    },
+    {
+      "id": "bls:K701172",
+      "ingredient": "Mushrooms, grilled",
+      "displayName": "Mushrooms, grilled",
+      "displayNameDE": "Champignons, gegrillt",
+      "searchAliases": [
+        "grilled mushrooms",
+        "cooked mushrooms",
+        "sautéed mushrooms",
+        "gebratene Champignons",
+        "gegrillte Champignons"
+      ]
+    },
+    {
+      "id": "bls:H650100",
+      "ingredient": "Bean sprouts",
+      "displayName": "Bean sprouts",
+      "displayNameDE": "Sojasprossen",
+      "searchAliases": [
+        "bean sprouts",
+        "mung bean sprouts",
+        "Sojasprossen",
+        "Mungbohnensprossen"
+      ]
+    },
+    {
+      "id": "usda:2710190",
+      "ingredient": "Sesame oil",
+      "displayName": "Sesame oil",
+      "displayNameDE": "Sesamöl",
+      "searchAliases": [
+        "sesame oil",
+        "Sesamöl"
+      ]
+    },
+    {
+      "id": "bls:U010182",
+      "ingredient": "Beef mince, fried",
+      "displayName": "Beef mince, fried",
+      "displayNameDE": "Rinderhackfleisch, gebraten",
+      "searchAliases": [
+        "cooked ground beef",
+        "fried beef mince",
+        "gebratenes Hackfleisch",
+        "gebratenes Rinderhack"
+      ]
+    },
+    {
+      "id": "usda:2709733",
+      "ingredient": "Ketchup",
+      "displayName": "Ketchup",
+      "displayNameDE": "Ketchup",
+      "searchAliases": [
+        "ketchup",
+        "tomato ketchup",
+        "Tomatenketchup"
+      ]
+    },
+    {
+      "id": "bls:E432032",
+      "ingredient": "Egg noodles, cooked",
+      "displayName": "Egg noodles, cooked",
+      "displayNameDE": "Eiernudeln, gekocht",
+      "searchAliases": [
+        "egg noodles",
+        "cooked egg noodles",
+        "Eiernudeln",
+        "Bandnudeln"
+      ]
+    },
+    {
+      "id": "bls:G480152",
+      "ingredient": "Onion, stewed",
+      "displayName": "Onion, stewed",
+      "displayNameDE": "Zwiebeln, gedünstet",
+      "searchAliases": [
+        "sautéed onions",
+        "cooked onions",
+        "stewed onions",
+        "gedünstete Zwiebeln"
+      ]
+    },
+    {
+      "id": "bls:X9A6030",
+      "ingredient": "Pizza dough",
+      "displayName": "Pizza dough",
+      "displayNameDE": "Pizzateig",
+      "searchAliases": [
+        "pizza dough",
+        "Pizzateig"
+      ]
+    },
+    {
+      "id": "usda:2707132",
+      "ingredient": "Broth",
+      "displayName": "Broth",
+      "displayNameDE": "Brühe",
+      "searchAliases": [
+        "broth",
+        "stock",
+        "Brühe",
+        "Bouillon"
+      ]
+    },
+    {
+      "id": "bls:R121000",
+      "ingredient": "Wine vinegar",
+      "displayName": "Wine vinegar",
+      "displayNameDE": "Weinessig",
+      "searchAliases": [
+        "wine vinegar",
+        "red wine vinegar",
+        "white wine vinegar",
+        "Weinessig",
+        "Rotweinessig",
+        "Weißweinessig"
+      ]
+    },
+    {
+      "id": "bls:M304600",
+      "ingredient": "Emmentaler",
+      "displayName": "Emmentaler",
+      "displayNameDE": "Emmentaler",
+      "searchAliases": [
+        "emmental",
+        "emmentaler",
+        "Swiss cheese",
+        "Emmentaler Käse"
+      ]
+    },
+    {
+      "id": "bls:Y352212",
+      "ingredient": "Pork roast",
+      "displayName": "Pork roast",
+      "displayNameDE": "Schweinebraten",
+      "searchAliases": [
+        "roast pork",
+        "pork roast",
+        "Schweinebraten"
+      ]
+    },
+    {
+      "id": "usda:2706457",
+      "ingredient": "Fish sauce",
+      "displayName": "Fish sauce",
+      "displayNameDE": "Fischsauce",
+      "searchAliases": [
+        "fish sauce",
+        "nam pla",
+        "Fischsauce",
+        "Fischsoße"
+      ]
+    },
+    {
+      "id": "usda:2707657",
+      "ingredient": "Hamburger bun",
+      "displayName": "Hamburger bun",
+      "displayNameDE": "Burgerbrötchen",
+      "searchAliases": [
+        "hamburger bun",
+        "burger bun",
+        "Burgerbrötchen",
+        "Hamburgerbrötchen"
+      ]
+    },
+    {
+      "id": "bls:R468000",
+      "ingredient": "Gelatine",
+      "displayName": "Gelatine",
+      "displayNameDE": "Gelatine",
+      "searchAliases": [
+        "gelatin",
+        "gelatine",
+        "Blattgelatine"
+      ]
+    },
+    {
+      "id": "ciqual:20039",
+      "ingredient": "Leek",
+      "displayName": "Leek",
+      "displayNameDE": "Lauch",
+      "searchAliases": [
+        "leek",
+        "leeks",
+        "Lauch",
+        "Porree"
+      ]
+    },
+    {
+      "id": "usda:2707425",
+      "ingredient": "Lentils, cooked",
+      "displayName": "Lentils, cooked",
+      "displayNameDE": "Linsen, gekocht",
+      "searchAliases": [
+        "cooked lentils",
+        "gekochte Linsen",
+        "lentils",
+        "lentil",
+        "Linsen"
+      ]
     }
   ],
   "namedOnly": [
@@ -2789,11 +3209,6 @@
       "id": "usda:2709275",
       "ingredient": "Blueberries, raw",
       "displayNameDE": "Heidelbeeren, roh"
-    },
-    {
-      "id": "usda:2710180",
-      "ingredient": "Vegetable oil",
-      "displayNameDE": "Pflanzenöl"
     },
     {
       "id": "usda:2707504",

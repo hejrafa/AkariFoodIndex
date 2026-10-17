@@ -212,7 +212,15 @@
         "salatcreme",
         "wasabi paste",
         "wasabipaste",
-        "wasabi-paste"
+        "wasabi-paste",
+        "vinegar",
+        "wine vinegar",
+        "weinessig",
+        "essig",
+        "apfelessig",
+        "rotweinessig",
+        "weißweinessig",
+        "apple cider vinegar"
       ],
       "compoundSuffixes": [
         "sauce",
@@ -285,7 +293,10 @@
         "weinsteinbackpulver",
         "levure chimique",
         "baking soda",
-        "speisenatron"
+        "speisenatron",
+        "gelatine",
+        "gelatin",
+        "blattgelatine"
       ]
     },
     {
@@ -1175,7 +1186,9 @@
         "pizza",
         "pizzas",
         "steinofenpizza",
-        "pizzabrot"
+        "pizzabrot",
+        "pizza dough",
+        "pizzateig"
       ]
     },
     {
@@ -1294,14 +1307,18 @@
         "erbsensuppe",
         "gemüsebrühe",
         "potato soup",
-        "スープ"
+        "スープ",
+        "vegetable stock"
       ],
       "compoundSuffixes": [
         "suppe",
         "brühe",
         "bruehe"
       ],
-      "compoundExclusions": []
+      "compoundExclusions": [],
+      "ingredientCategories": [
+        "sauce"
+      ]
     },
     {
       "id": "prepared-meal",
@@ -2841,7 +2858,10 @@
         "だいず",
         "枝豆",
         "えだまめ",
-        "そらまめ"
+        "そらまめ",
+        "bean sprouts",
+        "sojasprossen",
+        "mungbohnensprossen"
       ]
     },
     {
@@ -3517,7 +3537,11 @@
         "radishes",
         "radieschen",
         "rettich",
-        "radis"
+        "radis",
+        "celeriac",
+        "celery root",
+        "knollensellerie",
+        "sellerieknolle"
       ]
     },
     {
@@ -3973,7 +3997,15 @@
         "crabe",
         "crabs",
         "krabbe",
-        "krabben"
+        "krabben",
+        "surimi",
+        "imitation crab",
+        "crab stick",
+        "crab sticks",
+        "krebsfleischimitat",
+        "crab meat",
+        "imitation crab meat",
+        "krabbenfleisch"
       ]
     },
     {
@@ -4162,7 +4194,8 @@
         "nuts",
         "peanuts",
         "cereal",
-        "coconut"
+        "coconut",
+        "powder"
       ]
     },
     {

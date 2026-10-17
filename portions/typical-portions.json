@@ -7987,7 +7987,8 @@
     "100 percent grapefruit juice"
    ],
    "references": [
-    "bls:F604600"
+    "bls:F604600",
+    "usda:2709177"
    ],
    "unit": "glass",
    "typical": 1,
@@ -10438,7 +10439,8 @@
     "zitronensaft"
    ],
    "references": [
-    "bls:F601600"
+    "bls:F601600",
+    "usda:2709181"
    ],
    "unit": "tablespoon",
    "typical": 1,
@@ -12892,7 +12894,8 @@
     "100 percent pineapple juice"
    ],
    "references": [
-    "bls:F501600"
+    "bls:F501600",
+    "usda:2709329"
    ],
    "unit": "glass",
    "typical": 1,
@@ -18098,6 +18101,26 @@
    "draft": "batch-4"
   },
   {
+   "key": "tonkatsu sauce",
+   "names": [
+    "tonkatsu sauce"
+   ],
+   "references": [
+    "mext:17003"
+   ],
+   "unit": "tablespoon",
+   "typical": 1,
+   "gramsPerUnit": 18,
+   "source": {
+    "kind": "estimate",
+    "reason": "a tablespoon of the thick sauce over one cutlet"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-01",
+   "draft": "batch-4"
+  },
+  {
    "key": "tortellini meat filled no sauce",
    "names": [
     "tortellini meat filled no sauce"
@@ -18149,7 +18172,8 @@
     "100 percent grape juice"
    ],
    "references": [
-    "bls:F310600"
+    "bls:F310600",
+    "usda:2709325"
    ],
    "unit": "glass",
    "typical": 1,
