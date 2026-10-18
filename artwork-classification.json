@@ -1947,7 +1947,13 @@
         "goat meat",
         "beef liver",
         "beef kidney",
-        "meat extract"
+        "meat extract",
+        "roulade",
+        "rouladen",
+        "beef roulade",
+        "beef roulades",
+        "beef olive",
+        "beef olives"
       ],
       "ingredientCategories": [
         "tofu"
@@ -2442,7 +2448,13 @@
         "sports drink",
         "sports drinks",
         "sportgetränk",
-        "sportgetränke"
+        "sportgetränke",
+        "apple spritzer",
+        "apple juice spritzer",
+        "juice spritzer",
+        "apfelsaftschorle",
+        "fruchtsaftschorle",
+        "saftschorle"
       ]
     },
     {
@@ -3805,7 +3817,11 @@
         "flatbread",
         "flatbreads",
         "naan",
-        "pita"
+        "pita",
+        "weizenfladenbrot",
+        "fladenbrote",
+        "pide",
+        "turkish flatbread"
       ]
     },
     {
@@ -4260,21 +4276,32 @@
       "artworkID": "plate",
       "priority": 95,
       "tags": [
-        "en:potato-salads",
         "en:pasta-salads",
         "en:egg-salads"
       ],
       "terms": [
         "egg salad",
-        "potato salad",
         "pasta salad",
         "tuna salad",
         "chicken salad",
         "eiersalat",
-        "kartoffelsalat",
         "nudelsalat",
         "fleischsalat",
         "lauchsalat"
+      ]
+    },
+    {
+      "id": "potato-salad",
+      "artworkID": "potato",
+      "priority": 96,
+      "tags": [
+        "en:potato-salads"
+      ],
+      "terms": [
+        "potato salad",
+        "potato salads",
+        "kartoffelsalat",
+        "kartoffelsalate"
       ]
     },
     {

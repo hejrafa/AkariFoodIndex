@@ -288,7 +288,11 @@
       "id": "usda:2707152",
       "ingredient": "Egg",
       "displayName": "Egg",
-      "displayNameDE": "Ei"
+      "displayNameDE": "Ei",
+      "searchAliases": [
+        "Eier",
+        "eggs"
+      ]
     },
     {
       "id": "bls:G510100",
@@ -3666,7 +3670,6 @@
         "red chili",
         "red chilli",
         "chili pepper",
-        "chilli",
         "Chilischote",
         "rote Chili"
       ]
@@ -3896,7 +3899,10 @@
       "displayNameDE": "Tzatziki",
       "searchAliases": [
         "tsatsiki",
-        "Zaziki"
+        "Zaziki",
+        "Joghurtsauce",
+        "yogurt sauce",
+        "Joghurt-Dip"
       ]
     },
     {
@@ -4520,6 +4526,92 @@
         "Kartoffelchips",
         "Chips"
       ]
+    },
+    {
+      "id": "bls:X1A2020",
+      "ingredient": "Potato salad with mayonnaise",
+      "displayName": "Potato salad",
+      "displayNameDE": "Kartoffelsalat",
+      "searchAliases": [
+        "potato salad",
+        "Kartoffelsalat"
+      ]
+    },
+    {
+      "id": "bls:Y695112",
+      "ingredient": "Fish fingers, fried",
+      "displayName": "Fish fingers",
+      "displayNameDE": "Fischstäbchen",
+      "searchAliases": [
+        "fish fingers",
+        "fish sticks",
+        "Fischstäbchen",
+        "Seelachs paniert"
+      ]
+    },
+    {
+      "id": "bls:B782100",
+      "ingredient": "Wheat flatbread",
+      "displayName": "Flatbread",
+      "displayNameDE": "Fladenbrot",
+      "searchAliases": [
+        "flatbread",
+        "Fladenbrot",
+        "pide",
+        "Pide"
+      ]
+    },
+    {
+      "id": "bls:T410600",
+      "ingredient": "Smoked salmon",
+      "displayName": "Smoked salmon",
+      "displayNameDE": "Räucherlachs",
+      "searchAliases": [
+        "smoked salmon",
+        "lox",
+        "Räucherlachs"
+      ]
+    },
+    {
+      "id": "bls:M172700",
+      "ingredient": "Schmand",
+      "displayName": "Schmand",
+      "displayNameDE": "Schmand",
+      "searchAliases": [
+        "Schmand",
+        "sour cream 24 %"
+      ]
+    },
+    {
+      "id": "bls:X760112",
+      "ingredient": "Maultaschen, cooked",
+      "displayName": "Maultaschen",
+      "displayNameDE": "Maultaschen",
+      "searchAliases": [
+        "Swabian ravioli",
+        "Maultasche"
+      ]
+    },
+    {
+      "id": "bls:Y151112",
+      "ingredient": "Beef roulade, braised, with sauce",
+      "displayName": "Beef roulade",
+      "displayNameDE": "Rinderroulade",
+      "searchAliases": [
+        "Rinderrouladen",
+        "Roulade"
+      ]
+    },
+    {
+      "id": "bls:N256000",
+      "ingredient": "Apple spritzer",
+      "displayName": "Apple spritzer",
+      "displayNameDE": "Apfelschorle",
+      "searchAliases": [
+        "Apfelsaftschorle",
+        "Schorle",
+        "apple spritzer"
+      ]
     }
   ],
   "namedOnly": [
@@ -4569,6 +4661,12 @@
       "ingredient": "Instant noodles",
       "displayName": "Instant noodles, prepared",
       "displayNameDE": "Instantnudeln, zubereitet"
+    },
+    {
+      "id": "bls:P151100",
+      "ingredient": "Wheat beer",
+      "displayName": "Wheat beer",
+      "displayNameDE": "Weißbier"
     }
   ],
   "drinks": [

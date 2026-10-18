@@ -329,6 +329,30 @@
    "draft": "batch-1"
   },
   {
+   "key": "apfelschorle",
+   "names": [
+    "apfelschorle",
+    "apfelsaftschorle",
+    "apple spritzer",
+    "apple juice spritzer",
+    "schorle"
+   ],
+   "references": [
+    "bls:N256000"
+   ],
+   "unit": "glass",
+   "typical": 1,
+   "milliliters": 300,
+   "source": {
+    "kind": "estimate",
+    "reason": "a large glass of apple spritzer"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-18",
+   "draft": "batch-7"
+  },
+  {
    "key": "apple cider vinegar",
    "names": [
     "apple cider vinegar",
@@ -787,6 +811,27 @@
    "draft": "batch-4"
   },
   {
+   "key": "barley",
+   "names": [
+    "barley",
+    "gerste"
+   ],
+   "references": [
+    "bls:C141000"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 60,
+   "source": {
+    "kind": "estimate",
+    "reason": "dry grain for one serving"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-18",
+   "draft": "batch-8"
+  },
+  {
    "key": "basic sauce white",
    "names": [
     "basic sauce white",
@@ -832,6 +877,27 @@
    "origin": "generated",
    "date": "2026-10-01",
    "draft": "batch-2"
+  },
+  {
+   "key": "basil dried",
+   "names": [
+    "basil dried",
+    "basilikum getrocknet"
+   ],
+   "references": [
+    "bls:R231000"
+   ],
+   "unit": "teaspoon",
+   "typical": 0.5,
+   "gramsPerUnit": 1,
+   "source": {
+    "kind": "estimate",
+    "reason": "a pinch of dried herb"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-18",
+   "draft": "batch-8"
   },
   {
    "key": "bass sea flesh only raw",
@@ -1224,6 +1290,30 @@
    "draft": "batch-3"
   },
   {
+   "key": "beef roulade",
+   "names": [
+    "beef roulade",
+    "rinderroulade",
+    "rinderrouladen",
+    "roulade",
+    "beef roulades"
+   ],
+   "references": [
+    "bls:Y151112"
+   ],
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 180,
+   "source": {
+    "kind": "estimate",
+    "reason": "one braised roulade with its filling and some sauce"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-18",
+   "draft": "batch-7"
+  },
+  {
    "key": "beef rump boiled",
    "names": [
     "beef rump boiled",
@@ -1322,6 +1412,27 @@
    "origin": "generated",
    "date": "2026-10-01",
    "draft": "batch-5"
+  },
+  {
+   "key": "beef tallow fat",
+   "names": [
+    "beef tallow fat",
+    "rinderfett rindertalg"
+   ],
+   "references": [
+    "bls:Q890000"
+   ],
+   "unit": "tablespoon",
+   "typical": 1,
+   "gramsPerUnit": 12,
+   "source": {
+    "kind": "estimate",
+    "reason": "a spoon of fat for frying"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-18",
+   "draft": "batch-8"
   },
   {
    "key": "beef tenderloin steak fried without fat pan",
@@ -1931,6 +2042,29 @@
    "draft": "batch-6"
   },
   {
+   "key": "bottled water",
+   "names": [
+    "bottled water",
+    "wasser still flasche",
+    "plain bottled water",
+    "flaschenwasser"
+   ],
+   "references": [
+    "usda:2710708"
+   ],
+   "unit": "bottle",
+   "typical": 1,
+   "milliliters": 500,
+   "source": {
+    "kind": "estimate",
+    "reason": "a half-litre bottle"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-18",
+   "draft": "batch-8"
+  },
+  {
    "key": "braised beef",
    "names": [
     "braised beef",
@@ -2228,6 +2362,27 @@
    "origin": "generated",
    "date": "2026-10-01",
    "draft": "batch-4"
+  },
+  {
+   "key": "brown rice raw",
+   "names": [
+    "brown rice raw",
+    "vollkornreis roh"
+   ],
+   "references": [
+    "bls:C351000"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 75,
+   "source": {
+    "kind": "estimate",
+    "reason": "dry rice for one serving"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-18",
+   "draft": "batch-8"
   },
   {
    "key": "brown sugar",
@@ -4242,6 +4397,28 @@
    "origin": "generated",
    "date": "2026-10-01",
    "draft": "batch-2"
+  },
+  {
+   "key": "coleslaw",
+   "names": [
+    "coleslaw",
+    "cole slaw",
+    "krautsalat"
+   ],
+   "references": [
+    "bls:X2A1030"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 100,
+   "source": {
+    "kind": "estimate",
+    "reason": "a side of coleslaw"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-18",
+   "draft": "batch-8"
   },
   {
    "key": "common cuttlefish fried without fat pan",
@@ -6528,6 +6705,33 @@
    "draft": "batch-6"
   },
   {
+   "key": "dumplings",
+   "names": [
+    "dumplings",
+    "dumpling",
+    "gyoza",
+    "potstickers",
+    "pot stickers",
+    "teigtaschen",
+    "jiaozi"
+   ],
+   "references": [
+    "usda:2708705"
+   ],
+   "unit": "piece",
+   "typical": 6,
+   "gramsPerUnit": 25,
+   "source": {
+    "kind": "household-measure",
+    "reference": "usda:2708705",
+    "label": "1 item, any size"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-18",
+   "draft": "batch-8"
+  },
+  {
    "key": "edamame",
    "names": [
     "edamame",
@@ -7108,14 +7312,15 @@
     "fischstabchen"
    ],
    "references": [
-    "bls:T930162"
+    "bls:T930162",
+    "bls:Y695112"
    ],
    "unit": "piece",
-   "typical": 5,
-   "gramsPerUnit": 28,
+   "typical": 2,
+   "gramsPerUnit": 30,
    "source": {
     "kind": "estimate",
-    "reason": "one oven-baked fish finger"
+    "reason": "one fried fish finger; two on a plate"
    },
    "typicalSource": "estimate",
    "origin": "generated",
@@ -7178,12 +7383,12 @@
    "references": [
     "bls:B782100"
    ],
-   "unit": "portion",
+   "unit": "piece",
    "typical": 1,
-   "gramsPerUnit": 100,
+   "gramsPerUnit": 90,
    "source": {
     "kind": "estimate",
-    "reason": "a quarter wedge of a round Turkish Fladenbrot"
+    "reason": "one piece of a round Turkish Fladenbrot"
    },
    "typicalSource": "estimate",
    "origin": "generated",
@@ -7495,6 +7700,32 @@
    "origin": "generated",
    "date": "2026-10-01",
    "draft": "batch-3"
+  },
+  {
+   "key": "frozen mixed vegetables cooked",
+   "names": [
+    "frozen mixed vegetables cooked",
+    "gemusemischung tiefgekuhlt gekocht",
+    "frozen vegetables",
+    "tiefkuhlgemuse",
+    "tk gemuse",
+    "gemusemischung"
+   ],
+   "references": [
+    "usda:2710013"
+   ],
+   "unit": "cup",
+   "typical": 1,
+   "gramsPerUnit": 180,
+   "source": {
+    "kind": "household-measure",
+    "reference": "usda:2710013",
+    "label": "1 cup"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-18",
+   "draft": "batch-8"
   },
   {
    "key": "fruit mix fruit cocktail in juice canned drained",
@@ -8383,6 +8614,31 @@
    "origin": "generated",
    "date": "2026-10-01",
    "draft": "batch-3"
+  },
+  {
+   "key": "grilled onigiri",
+   "names": [
+    "grilled onigiri",
+    "gegrilltes onigiri",
+    "yaki onigiri",
+    "grilled rice ball",
+    "gebratenes reisballchen",
+    "焼きおにきり"
+   ],
+   "references": [
+    "mext:01112"
+   ],
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 100,
+   "source": {
+    "kind": "estimate",
+    "reason": "one grilled rice ball"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-18",
+   "draft": "batch-8"
   },
   {
    "key": "grilled pork tenderloin",
@@ -10455,6 +10711,29 @@
    "draft": "batch-4"
   },
   {
+   "key": "lemonade",
+   "names": [
+    "lemonade",
+    "limonade",
+    "zitronenlimonade",
+    "limo"
+   ],
+   "references": [
+    "usda:2710570"
+   ],
+   "unit": "glass",
+   "typical": 1,
+   "milliliters": 250,
+   "source": {
+    "kind": "estimate",
+    "reason": "a glass of lemonade"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-18",
+   "draft": "batch-8"
+  },
+  {
    "key": "lettuce",
    "names": [
     "lettuce",
@@ -11135,6 +11414,28 @@
    "date": "2026-10-14"
   },
   {
+   "key": "maultaschen",
+   "names": [
+    "maultaschen",
+    "maultasche",
+    "swabian ravioli"
+   ],
+   "references": [
+    "bls:X760112"
+   ],
+   "unit": "piece",
+   "typical": 2,
+   "gramsPerUnit": 100,
+   "source": {
+    "kind": "estimate",
+    "reason": "one cooked Swabian Maultasche; two make a plate"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-18",
+   "draft": "batch-7"
+  },
+  {
    "key": "mayonnaise",
    "names": [
     "mayonnaise",
@@ -11407,6 +11708,28 @@
    "draft": "batch-4"
   },
   {
+   "key": "miso soup",
+   "names": [
+    "miso soup",
+    "misosuppe",
+    "miso suppe"
+   ],
+   "references": [
+    "bls:X4A8060"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 200,
+   "source": {
+    "kind": "estimate",
+    "reason": "a bowl of miso soup"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-18",
+   "draft": "batch-8"
+  },
+  {
    "key": "mixed berries",
    "names": [
     "mixed berries",
@@ -11431,6 +11754,30 @@
    "origin": "generated",
    "date": "2026-10-01",
    "draft": "batch-4"
+  },
+  {
+   "key": "mixed nuts",
+   "names": [
+    "mixed nuts",
+    "nussmischung",
+    "nuts",
+    "nusse",
+    "nussmix"
+   ],
+   "references": [
+    "usda:2707504"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 30,
+   "source": {
+    "kind": "estimate",
+    "reason": "a handful of nuts"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-18",
+   "draft": "batch-8"
   },
   {
    "key": "mixed salad",
@@ -11569,6 +11916,48 @@
    "origin": "generated",
    "date": "2026-10-01",
    "draft": "batch-6"
+  },
+  {
+   "key": "multigrain roll",
+   "names": [
+    "multigrain roll",
+    "mehrkornbrotchen"
+   ],
+   "references": [
+    "bls:B591000"
+   ],
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 65,
+   "source": {
+    "kind": "estimate",
+    "reason": "one bread roll"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-18",
+   "draft": "batch-8"
+  },
+  {
+   "key": "multigrain toast",
+   "names": [
+    "multigrain toast",
+    "mehrkorntoast"
+   ],
+   "references": [
+    "bls:B314200"
+   ],
+   "unit": "slice",
+   "typical": 2,
+   "gramsPerUnit": 25,
+   "source": {
+    "kind": "estimate",
+    "reason": "a slice of toast"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-18",
+   "draft": "batch-8"
   },
   {
    "key": "mung bean sprouts cooked",
@@ -12020,6 +12409,28 @@
    "draft": "batch-2"
   },
   {
+   "key": "omelette",
+   "names": [
+    "omelette",
+    "omelett",
+    "omelet"
+   ],
+   "references": [
+    "bls:Y730163"
+   ],
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 150,
+   "source": {
+    "kind": "estimate",
+    "reason": "a two- or three-egg omelette"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-18",
+   "draft": "batch-8"
+  },
+  {
    "key": "onigiri",
    "names": [
     "onigiri",
@@ -12237,6 +12648,30 @@
    "draft": "batch-3"
   },
   {
+   "key": "pancakes",
+   "names": [
+    "pancakes",
+    "pfannkuchen",
+    "pancake",
+    "eierkuchen",
+    "pfannekuchen"
+   ],
+   "references": [
+    "bls:X929212"
+   ],
+   "unit": "piece",
+   "typical": 2,
+   "gramsPerUnit": 80,
+   "source": {
+    "kind": "estimate",
+    "reason": "one German Pfannkuchen; two make a plate"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-18",
+   "draft": "batch-8"
+  },
+  {
    "key": "pancakes plain",
    "names": [
     "pancakes plain"
@@ -12390,6 +12825,27 @@
    "origin": "generated",
    "date": "2026-10-01",
    "draft": "batch-2"
+  },
+  {
+   "key": "parsley dried",
+   "names": [
+    "parsley dried",
+    "petersilie getrocknet"
+   ],
+   "references": [
+    "ciqual:11024"
+   ],
+   "unit": "teaspoon",
+   "typical": 0.5,
+   "gramsPerUnit": 1,
+   "source": {
+    "kind": "estimate",
+    "reason": "a pinch of dried herb"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-18",
+   "draft": "batch-8"
   },
   {
    "key": "passata",
@@ -13159,6 +13615,26 @@
    "draft": "batch-6"
   },
   {
+   "key": "popcorn",
+   "names": [
+    "popcorn"
+   ],
+   "references": [
+    "usda:2708219"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 30,
+   "source": {
+    "kind": "estimate",
+    "reason": "a small bowl of popcorn"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-18",
+   "draft": "batch-8"
+  },
+  {
    "key": "porcini mushroom stewed",
    "names": [
     "porcini mushroom stewed",
@@ -13829,6 +14305,29 @@
    "origin": "generated",
    "date": "2026-10-01",
    "draft": "batch-6"
+  },
+  {
+   "key": "potato wedges",
+   "names": [
+    "potato wedges",
+    "kartoffelspalten",
+    "wedges",
+    "kartoffelecken"
+   ],
+   "references": [
+    "cofid:13-483"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 150,
+   "source": {
+    "kind": "estimate",
+    "reason": "a side of wedges"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-18",
+   "draft": "batch-8"
   },
   {
    "key": "potatoe peeled raw",
@@ -16097,6 +16596,28 @@
    "draft": "batch-5"
   },
   {
+   "key": "schmand",
+   "names": [
+    "schmand",
+    "sauerrahm 24",
+    "sour cream 24"
+   ],
+   "references": [
+    "bls:M172700"
+   ],
+   "unit": "tablespoon",
+   "typical": 1,
+   "gramsPerUnit": 20,
+   "source": {
+    "kind": "estimate",
+    "reason": "a heaped spoonful of the thick cream on a potato or in a sauce"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-18",
+   "draft": "batch-7"
+  },
+  {
    "key": "schweinebauch",
    "names": [
     "schweinebauch",
@@ -16384,7 +16905,8 @@
     "ruhrei"
    ],
    "references": [
-    "bls:Y720163"
+    "bls:Y720163",
+    "bls:Y720143"
    ],
    "unit": "egg",
    "typical": 2,
@@ -16803,6 +17325,32 @@
    "draft": "batch-5"
   },
   {
+   "key": "soda",
+   "names": [
+    "soda",
+    "soft drink",
+    "softdrink",
+    "soda pop",
+    "soft drink cola",
+    "cola",
+    "erfrischungsgetrank cola"
+   ],
+   "references": [
+    "usda:2710541"
+   ],
+   "unit": "can",
+   "typical": 1,
+   "milliliters": 330,
+   "source": {
+    "kind": "estimate",
+    "reason": "a can of soft drink"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-18",
+   "draft": "batch-8"
+  },
+  {
    "key": "soft cheese made from sheep s milk min 45 fat in dry matter",
    "names": [
     "soft cheese made from sheep s milk min 45 fat in dry matter",
@@ -17192,6 +17740,29 @@
    "origin": "generated",
    "date": "2026-10-01",
    "draft": "batch-2"
+  },
+  {
+   "key": "spring roll",
+   "names": [
+    "spring roll",
+    "fruhlingsrolle",
+    "spring rolls",
+    "fruhlingsrollen"
+   ],
+   "references": [
+    "bls:X9A3030"
+   ],
+   "unit": "piece",
+   "typical": 2,
+   "gramsPerUnit": 60,
+   "source": {
+    "kind": "estimate",
+    "reason": "one deep-fried spring roll"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-18",
+   "draft": "batch-8"
   },
   {
    "key": "strawberry ice cream",
@@ -18411,6 +18982,30 @@
    "draft": "batch-4"
   },
   {
+   "key": "vanilla custard",
+   "names": [
+    "vanilla custard",
+    "vanillepudding",
+    "custard",
+    "vanilla pudding",
+    "pudding"
+   ],
+   "references": [
+    "bls:Y8A4150"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 150,
+   "source": {
+    "kind": "estimate",
+    "reason": "a dessert bowl of pudding"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-18",
+   "draft": "batch-8"
+  },
+  {
    "key": "vanilla ice cream",
    "names": [
     "vanilla ice cream",
@@ -18972,6 +19567,29 @@
    "draft": "batch-4"
   },
   {
+   "key": "waffles",
+   "names": [
+    "waffles",
+    "waffeln",
+    "waffle",
+    "waffel"
+   ],
+   "references": [
+    "bls:D621000"
+   ],
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 60,
+   "source": {
+    "kind": "estimate",
+    "reason": "one waffle"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-18",
+   "draft": "batch-8"
+  },
+  {
    "key": "waffles homemade",
    "names": [
     "waffles homemade"
@@ -19134,6 +19752,33 @@
    "origin": "generated",
    "date": "2026-10-01",
    "draft": "batch-1"
+  },
+  {
+   "key": "weizenbier",
+   "names": [
+    "weizenbier",
+    "weißbier",
+    "weissbier",
+    "hefeweizen",
+    "hefeweißbier",
+    "hefeweissbier",
+    "wheat beer"
+   ],
+   "references": [
+    "bls:P151100",
+    "bls:P150000"
+   ],
+   "unit": "glass",
+   "typical": 1,
+   "milliliters": 500,
+   "source": {
+    "kind": "estimate",
+    "reason": "a half-litre Weißbier glass"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-18",
+   "draft": "batch-8"
   },
   {
    "key": "weißer pfeffer",
@@ -19571,6 +20216,28 @@
    "origin": "generated",
    "date": "2026-10-01",
    "draft": "batch-1"
+  },
+  {
+   "key": "wholemeal wheat toast toasted",
+   "names": [
+    "wholemeal wheat toast toasted",
+    "wholemeal toast toasted",
+    "vollkorntoast getoastet"
+   ],
+   "references": [
+    "bls:B111272"
+   ],
+   "unit": "slice",
+   "typical": 2,
+   "gramsPerUnit": 25,
+   "source": {
+    "kind": "estimate",
+    "reason": "a slice of toast"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-18",
+   "draft": "batch-8"
   },
   {
    "key": "wiener schnitzel",

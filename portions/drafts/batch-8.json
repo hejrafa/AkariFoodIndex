@@ -1,0 +1,246 @@
+{
+ "batch": 8,
+ "drafted": "2026-10-18",
+ "drafter": "Claude in the Akari Claude Code session",
+ "entries": [
+  {
+   "key": "pretzel",
+   "skip": "its row already has a typical portion under another identity"
+  },
+  {
+   "key": "pearl barley cooked",
+   "skip": "its row already has a typical portion under another identity"
+  },
+  {
+   "key": "pork goulash",
+   "skip": "its row already has a typical portion under another identity"
+  },
+  {
+   "key": "turkey breast pan fried",
+   "skip": "its row already has a typical portion under another identity"
+  },
+  {
+   "key": "kassler",
+   "skip": "its row already has a typical portion under another identity"
+  },
+  {
+   "key": "whey protein powder",
+   "skip": "its row already has a typical portion under another identity"
+  },
+  {
+   "key": "weizenbier",
+   "unit": "glass",
+   "milliliters": 500,
+   "typical": 1,
+   "reason": "a half-litre Weißbier glass",
+   "includeReferences": [
+    "bls:P151100",
+    "bls:P150000"
+   ]
+  },
+  {
+   "key": "soda",
+   "unit": "can",
+   "milliliters": 330,
+   "typical": 1,
+   "reason": "a can of soft drink"
+  },
+  {
+   "key": "barley",
+   "unit": "portion",
+   "gramsPerUnit": 60,
+   "typical": 1,
+   "reason": "dry grain for one serving"
+  },
+  {
+   "key": "green pea cooked",
+   "skip": "its row already has a typical portion under another identity"
+  },
+  {
+   "key": "wholemeal wheat toast toasted",
+   "unit": "slice",
+   "gramsPerUnit": 25,
+   "typical": 2,
+   "reason": "a slice of toast"
+  },
+  {
+   "key": "multigrain toast",
+   "unit": "slice",
+   "gramsPerUnit": 25,
+   "typical": 2,
+   "reason": "a slice of toast"
+  },
+  {
+   "key": "multigrain roll",
+   "unit": "piece",
+   "gramsPerUnit": 65,
+   "typical": 1,
+   "reason": "one bread roll"
+  },
+  {
+   "key": "brown rice raw",
+   "unit": "portion",
+   "gramsPerUnit": 75,
+   "typical": 1,
+   "reason": "dry rice for one serving"
+  },
+  {
+   "key": "yogurt greek whole milk plain",
+   "skip": "its row already has a typical portion under another identity"
+  },
+  {
+   "key": "basil dried",
+   "unit": "teaspoon",
+   "gramsPerUnit": 1,
+   "typical": 0.5,
+   "reason": "a pinch of dried herb"
+  },
+  {
+   "key": "parsley dried",
+   "unit": "teaspoon",
+   "gramsPerUnit": 1,
+   "typical": 0.5,
+   "reason": "a pinch of dried herb"
+  },
+  {
+   "key": "bottled water",
+   "unit": "bottle",
+   "milliliters": 500,
+   "typical": 1,
+   "reason": "a half-litre bottle"
+  },
+  {
+   "key": "grilled onigiri",
+   "unit": "piece",
+   "gramsPerUnit": 100,
+   "typical": 1,
+   "reason": "one grilled rice ball"
+  },
+  {
+   "key": "potato wedges",
+   "unit": "portion",
+   "gramsPerUnit": 150,
+   "typical": 1,
+   "reason": "a side of wedges"
+  },
+  {
+   "key": "pancakes",
+   "unit": "piece",
+   "gramsPerUnit": 80,
+   "typical": 2,
+   "reason": "one German Pfannkuchen; two make a plate"
+  },
+  {
+   "key": "waffles",
+   "unit": "piece",
+   "gramsPerUnit": 60,
+   "typical": 1,
+   "reason": "one waffle"
+  },
+  {
+   "key": "omelette",
+   "unit": "piece",
+   "gramsPerUnit": 150,
+   "typical": 1,
+   "reason": "a two- or three-egg omelette"
+  },
+  {
+   "key": "spring roll",
+   "unit": "piece",
+   "gramsPerUnit": 60,
+   "typical": 2,
+   "reason": "one deep-fried spring roll"
+  },
+  {
+   "key": "dumplings",
+   "unit": "piece",
+   "gramsPerUnit": 25,
+   "typical": 6,
+   "reason": "one gyoza; six make a serving"
+  },
+  {
+   "key": "lemonade",
+   "unit": "glass",
+   "milliliters": 250,
+   "typical": 1,
+   "reason": "a glass of lemonade"
+  },
+  {
+   "key": "coleslaw",
+   "unit": "portion",
+   "gramsPerUnit": 100,
+   "typical": 1,
+   "reason": "a side of coleslaw"
+  },
+  {
+   "key": "spatzle cooked",
+   "skip": "its row already has a typical portion under another identity"
+  },
+  {
+   "key": "jam doughnut berliner",
+   "skip": "its row already has a typical portion under another identity"
+  },
+  {
+   "key": "frozen mixed vegetables cooked",
+   "unit": "cup",
+   "gramsPerUnit": 180,
+   "typical": 1,
+   "reason": "a cup of vegetables, the source measure"
+  },
+  {
+   "key": "miso soup",
+   "unit": "portion",
+   "gramsPerUnit": 200,
+   "typical": 1,
+   "reason": "a bowl of miso soup"
+  },
+  {
+   "key": "vanilla custard",
+   "unit": "portion",
+   "gramsPerUnit": 150,
+   "typical": 1,
+   "reason": "a dessert bowl of pudding"
+  },
+  {
+   "key": "onion stewed",
+   "skip": "its row already has a typical portion under another identity"
+  },
+  {
+   "key": "popcorn",
+   "unit": "portion",
+   "gramsPerUnit": 30,
+   "typical": 1,
+   "reason": "a small bowl of popcorn"
+  },
+  {
+   "key": "mixed nuts",
+   "unit": "portion",
+   "gramsPerUnit": 30,
+   "typical": 1,
+   "reason": "a handful of nuts"
+  },
+  {
+   "key": "beef tallow fat",
+   "unit": "tablespoon",
+   "gramsPerUnit": 12,
+   "typical": 1,
+   "reason": "a spoon of fat for frying"
+  },
+  {
+   "key": "candied orange peel",
+   "skip": "a baking ingredient used inside cakes"
+  },
+  {
+   "key": "beef tenderloin raw",
+   "skip": "its row already has a typical portion under another identity"
+  },
+  {
+   "key": "beef brisket raw",
+   "skip": "its row already has a typical portion under another identity"
+  },
+  {
+   "key": "potato salad",
+   "skip": "its row already has a typical portion under another identity"
+  }
+ ]
+}

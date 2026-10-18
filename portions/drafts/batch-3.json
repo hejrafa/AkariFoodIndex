@@ -75,10 +75,10 @@
   },
   {
    "key": "flatbread",
-   "unit": "portion",
-   "gramsPerUnit": 100,
+   "unit": "piece",
+   "gramsPerUnit": 90,
    "typical": 1,
-   "reason": "a quarter wedge of a round Turkish Fladenbrot"
+   "reason": "one piece of a round Turkish Fladenbrot"
   },
   {
    "key": "naan",
@@ -456,9 +456,12 @@
   {
    "key": "fish fingers",
    "unit": "piece",
-   "gramsPerUnit": 28,
-   "typical": 5,
-   "reason": "one oven-baked fish finger"
+   "gramsPerUnit": 30,
+   "typical": 2,
+   "reason": "one fried fish finger; two on a plate",
+   "includeReferences": [
+    "bls:Y695112"
+   ]
   },
   {
    "key": "cooked squid",
@@ -521,7 +524,10 @@
    "unit": "egg",
    "gramsPerUnit": 60,
    "typical": 2,
-   "reason": "one egg scrambled with a little butter and milk"
+   "reason": "one egg scrambled with a little butter and milk",
+   "includeReferences": [
+    "bls:Y720143"
+   ]
   },
   {
    "key": "firm tofu",

@@ -1,0 +1,966 @@
+{
+ "batch": 8,
+ "identities": [
+  {
+   "key": "pretzel",
+   "names": [
+    "pretzel",
+    "brezel",
+    "pretzels",
+    "soft pretzel",
+    "brezeln",
+    "breze",
+    "laugenbrezel",
+    "brezn"
+   ],
+   "origins": [
+    "recipe-ingredient",
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:B723000",
+     "name": "Pretzel salted"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "pearl barley cooked",
+   "names": [
+    "pearl barley cooked",
+    "graupen gekocht",
+    "pearl barley",
+    "graupen",
+    "perlgraupen"
+   ],
+   "origins": [
+    "recipe-ingredient",
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:C148032",
+     "name": "Pearl barley, boiled"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "pork goulash",
+   "names": [
+    "pork goulash",
+    "schweinegulasch"
+   ],
+   "origins": [
+    "recipe-ingredient",
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:U554142",
+     "name": "Pork goulash (shoulder strips) braised without fat"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "turkey breast pan fried",
+   "names": [
+    "turkey breast pan fried",
+    "putenbrust gebraten",
+    "pan fried turkey breast",
+    "putenschnitzel"
+   ],
+   "origins": [
+    "recipe-ingredient",
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:V486182",
+     "name": "Turkey breast, without skin, fried without fat (pan)"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "kassler",
+   "names": [
+    "kassler",
+    "kasseler",
+    "smoked pork loin"
+   ],
+   "origins": [
+    "recipe-ingredient",
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:W511000",
+     "name": "Pork neck, cooked cured, smoked"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "whey protein powder",
+   "names": [
+    "whey protein powder",
+    "proteinpulver molke",
+    "protein powder",
+    "whey protein",
+    "whey",
+    "proteinpulver",
+    "eiweißpulver"
+   ],
+   "origins": [
+    "recipe-ingredient",
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "usda:2710742",
+     "name": "Nutritional powder mix, whey based, NFS"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2710742",
+     "label": "1 scoop, NFS",
+     "grams": 26
+    },
+    {
+     "reference": "usda:2710742",
+     "label": "1 scoop Gold Standard",
+     "grams": 20.5
+    },
+    {
+     "reference": "usda:2710742",
+     "label": "1 scoop NOW Foods",
+     "grams": 32
+    },
+    {
+     "reference": "usda:2710742",
+     "label": "1 tablespoon",
+     "grams": 13
+    }
+   ]
+  },
+  {
+   "key": "weizenbier",
+   "names": [
+    "weizenbier",
+    "weißbier",
+    "weissbier",
+    "hefeweizen",
+    "hefeweißbier",
+    "hefeweissbier",
+    "wheat beer"
+   ],
+   "origins": [
+    "generic-search"
+   ],
+   "references": [],
+   "measures": []
+  },
+  {
+   "key": "soda",
+   "names": [
+    "soda",
+    "soft drink",
+    "softdrink",
+    "soda pop",
+    "soft drink cola",
+    "cola",
+    "erfrischungsgetrank cola"
+   ],
+   "origins": [
+    "generic-search",
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "usda:2710541",
+     "name": "Soft drink, cola"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2710541",
+     "label": "1 fl oz (no ice)",
+     "grams": 31
+    },
+    {
+     "reference": "usda:2710541",
+     "label": "1 fl oz (with ice)",
+     "grams": 23
+    },
+    {
+     "reference": "usda:2710541",
+     "label": "1 fl oz (NFS)",
+     "grams": 31
+    },
+    {
+     "reference": "usda:2710541",
+     "label": "1 can (12 fl oz)",
+     "grams": 372
+    },
+    {
+     "reference": "usda:2710541",
+     "label": "1 bottle (16.9 fl oz or 500 ml)",
+     "grams": 524
+    },
+    {
+     "reference": "usda:2710541",
+     "label": "1 bottle (20 fl oz)",
+     "grams": 620
+    },
+    {
+     "reference": "usda:2710541",
+     "label": "1 child/senior drink",
+     "grams": 279
+    },
+    {
+     "reference": "usda:2710541",
+     "label": "1 small drink",
+     "grams": 372
+    },
+    {
+     "reference": "usda:2710541",
+     "label": "1 medium drink",
+     "grams": 512
+    },
+    {
+     "reference": "usda:2710541",
+     "label": "1 large drink",
+     "grams": 744
+    },
+    {
+     "reference": "usda:2710541",
+     "label": "1 extra large drink",
+     "grams": 1023
+    }
+   ]
+  },
+  {
+   "key": "barley",
+   "names": [
+    "barley",
+    "gerste"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:C141000",
+     "name": "Barley whole grain, raw"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "green pea cooked",
+   "names": [
+    "green pea cooked",
+    "grune erbsen gekocht"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:G760132",
+     "name": "Pea green, boiled"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "wholemeal wheat toast toasted",
+   "names": [
+    "wholemeal wheat toast toasted",
+    "wholemeal toast toasted",
+    "vollkorntoast getoastet"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:B111272",
+     "name": "Wholemeal wheat toast toasted"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "multigrain toast",
+   "names": [
+    "multigrain toast",
+    "mehrkorntoast"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:B314200",
+     "name": "Multigrain toast"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "multigrain roll",
+   "names": [
+    "multigrain roll",
+    "mehrkornbrotchen"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:B591000",
+     "name": "Multigrain roll"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "brown rice raw",
+   "names": [
+    "brown rice raw",
+    "vollkornreis roh"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:C351000",
+     "name": "Brown rice raw"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "yogurt greek whole milk plain",
+   "names": [
+    "yogurt greek whole milk plain",
+    "greek yogurt whole milk",
+    "griechischer joghurt vollmilch natur"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "usda:2705422",
+     "name": "Yogurt, Greek, whole milk, plain"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2705422",
+     "label": "1 5.3 oz container",
+     "grams": 150
+    },
+    {
+     "reference": "usda:2705422",
+     "label": "1 6 oz container",
+     "grams": 170
+    },
+    {
+     "reference": "usda:2705422",
+     "label": "1 container, NFS",
+     "grams": 150
+    },
+    {
+     "reference": "usda:2705422",
+     "label": "1 cup",
+     "grams": 245
+    }
+   ]
+  },
+  {
+   "key": "basil dried",
+   "names": [
+    "basil dried",
+    "basilikum getrocknet"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:R231000",
+     "name": "Basil dried"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "parsley dried",
+   "names": [
+    "parsley dried",
+    "petersilie getrocknet"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "ciqual:11024",
+     "name": "Persil, séché"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "bottled water",
+   "names": [
+    "bottled water",
+    "wasser still flasche",
+    "plain bottled water",
+    "flaschenwasser"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "usda:2710708",
+     "name": "Water, bottled, plain"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2710708",
+     "label": "1 cup",
+     "grams": 240
+    },
+    {
+     "reference": "usda:2710708",
+     "label": "1 fl oz",
+     "grams": 30
+    },
+    {
+     "reference": "usda:2710708",
+     "label": "1 bottle (8 fl oz)",
+     "grams": 240
+    },
+    {
+     "reference": "usda:2710708",
+     "label": "1 bottle (12 fl oz)",
+     "grams": 360
+    },
+    {
+     "reference": "usda:2710708",
+     "label": "1 bottle (16.9 fl oz or 500 ml)",
+     "grams": 507
+    },
+    {
+     "reference": "usda:2710708",
+     "label": "1 bottle (20 fl oz)",
+     "grams": 600
+    },
+    {
+     "reference": "usda:2710708",
+     "label": "1 bottle (1 liter)",
+     "grams": 1014
+    },
+    {
+     "reference": "usda:2710708",
+     "label": "1 bottle, NFS",
+     "grams": 507
+    }
+   ]
+  },
+  {
+   "key": "grilled onigiri",
+   "names": [
+    "grilled onigiri",
+    "gegrilltes onigiri",
+    "yaki onigiri",
+    "grilled rice ball",
+    "gebratenes reisballchen",
+    "焼きおにきり"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "mext:01112",
+     "name": "こめ ［うるち米製品］ 焼きおにぎり"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "potato wedges",
+   "names": [
+    "potato wedges",
+    "kartoffelspalten",
+    "wedges",
+    "kartoffelecken"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "cofid:13-483",
+     "name": "Potato wedges, retail, cooked"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "pancakes",
+   "names": [
+    "pancakes",
+    "pfannkuchen",
+    "pancake",
+    "eierkuchen",
+    "pfannekuchen"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:X929212",
+     "name": "Pancakes unsweetened, with milk 3.5 % fat, fried"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "waffles",
+   "names": [
+    "waffles",
+    "waffeln",
+    "waffle",
+    "waffel"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:D621000",
+     "name": "Waffles (cake batter)"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "omelette",
+   "names": [
+    "omelette",
+    "omelett",
+    "omelet"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:Y730163",
+     "name": "Omelette fried"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "spring roll",
+   "names": [
+    "spring roll",
+    "fruhlingsrolle",
+    "spring rolls",
+    "fruhlingsrollen"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:X9A3030",
+     "name": "Spring rolls vegetarian filled with vegetables, deep-fried"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "dumplings",
+   "names": [
+    "dumplings",
+    "dumpling",
+    "gyoza",
+    "potstickers",
+    "pot stickers",
+    "teigtaschen",
+    "jiaozi"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "usda:2708705",
+     "name": "Wonton, dumpling or pot sticker, fried"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2708705",
+     "label": "1 item, any size",
+     "grams": 25
+    },
+    {
+     "reference": "usda:2708705",
+     "label": "1 cup",
+     "grams": 75
+    }
+   ]
+  },
+  {
+   "key": "lemonade",
+   "names": [
+    "lemonade",
+    "limonade",
+    "zitronenlimonade",
+    "limo"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "usda:2710570",
+     "name": "Lemonade, fruit juice drink"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2710570",
+     "label": "1 fl oz (no ice)",
+     "grams": 31
+    },
+    {
+     "reference": "usda:2710570",
+     "label": "1 fl oz (with ice)",
+     "grams": 23
+    },
+    {
+     "reference": "usda:2710570",
+     "label": "1 fl oz (NFS)",
+     "grams": 31
+    }
+   ]
+  },
+  {
+   "key": "coleslaw",
+   "names": [
+    "coleslaw",
+    "cole slaw",
+    "krautsalat"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:X2A1030",
+     "name": "Coleslaw with sour cream dressing"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "spatzle cooked",
+   "names": [
+    "spatzle cooked",
+    "spatzle gekocht",
+    "spaetzle cooked",
+    "eierspatzle gekocht"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:E438032",
+     "name": "Fresh egg pasta boiled"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "jam doughnut berliner",
+   "names": [
+    "jam doughnut berliner",
+    "berliner krapfen",
+    "berliner",
+    "jam doughnut",
+    "jelly doughnut",
+    "krapfen",
+    "kreppel",
+    "berliner pfannkuchen"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:D7A6200",
+     "name": "\"Berliner\" doughnut (yeast dough) deep-fried, filled with jam"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "frozen mixed vegetables cooked",
+   "names": [
+    "frozen mixed vegetables cooked",
+    "gemusemischung tiefgekuhlt gekocht",
+    "frozen vegetables",
+    "tiefkuhlgemuse",
+    "tk gemuse",
+    "gemusemischung"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "usda:2710013",
+     "name": "Classic mixed vegetables, frozen, cooked, no added fat"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2710013",
+     "label": "1 cup",
+     "grams": 180
+    }
+   ]
+  },
+  {
+   "key": "miso soup",
+   "names": [
+    "miso soup",
+    "misosuppe",
+    "miso suppe"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:X4A8060",
+     "name": "Miso soup"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "vanilla custard",
+   "names": [
+    "vanilla custard",
+    "vanillepudding",
+    "custard",
+    "vanilla pudding",
+    "pudding"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:Y8A4150",
+     "name": "Vanilla pudding made from powder with milk 1.5 % fat"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "onion stewed",
+   "names": [
+    "onion stewed",
+    "zwiebeln gedunstet",
+    "sauteed onions",
+    "cooked onions",
+    "stewed onions",
+    "gedunstete zwiebeln"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:G480152",
+     "name": "Onion stewed"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "popcorn",
+   "names": [
+    "popcorn"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "usda:2708219",
+     "name": "Popcorn, air-popped, no butter added"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2708219",
+     "label": "1 cup, popped",
+     "grams": 8
+    },
+    {
+     "reference": "usda:2708219",
+     "label": "1 cup, unpopped, yields",
+     "grams": 135
+    },
+    {
+     "reference": "usda:2708219",
+     "label": "1 oz, unpopped, yields",
+     "grams": 19
+    },
+    {
+     "reference": "usda:2708219",
+     "label": "1 kernel",
+     "grams": 0.2
+    }
+   ]
+  },
+  {
+   "key": "mixed nuts",
+   "names": [
+    "mixed nuts",
+    "nussmischung",
+    "nuts",
+    "nusse",
+    "nussmix"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "usda:2707504",
+     "name": "Mixed nuts, NFS"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2707504",
+     "label": "1 cup",
+     "grams": 142
+    },
+    {
+     "reference": "usda:2707504",
+     "label": "1 package",
+     "grams": 50
+    }
+   ]
+  },
+  {
+   "key": "beef tallow fat",
+   "names": [
+    "beef tallow fat",
+    "rinderfett rindertalg"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:Q890000",
+     "name": "Beef tallow/fat"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "candied orange peel",
+   "names": [
+    "candied orange peel",
+    "orangeat"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:R381100",
+     "name": "Candied orange peel"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "beef tenderloin raw",
+   "names": [
+    "beef tenderloin raw",
+    "rinderfilet roh"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:U211100",
+     "name": "Beef fillet (tenderloin) raw"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "beef brisket raw",
+   "names": [
+    "beef brisket raw",
+    "rinderbrust roh"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:U255100",
+     "name": "Beef brisket/centre cut, raw"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "potato salad",
+   "names": [
+    "potato salad",
+    "kartoffelsalat"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:X1A2020",
+     "name": "Potato salad with mayonnaise"
+    }
+   ],
+   "measures": []
+  }
+ ]
+}
