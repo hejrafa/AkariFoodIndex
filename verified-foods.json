@@ -291,7 +291,8 @@
       "displayNameDE": "Ei",
       "searchAliases": [
         "Eier",
-        "eggs"
+        "eggs",
+        "Ei"
       ]
     },
     {
@@ -909,7 +910,11 @@
       "displayNameDE": "Konfitüre",
       "searchAliases": [
         "Konfitüre",
-        "jam"
+        "jam",
+        "Marmelade",
+        "marmalade",
+        "Erdbeermarmelade",
+        "strawberry jam"
       ]
     },
     {
@@ -1674,7 +1679,9 @@
       "displayName": "Curry powder",
       "displayNameDE": "Currypulver",
       "searchAliases": [
-        "Curry Pulver"
+        "Curry Pulver",
+        "Currypulver",
+        "curry"
       ]
     },
     {
@@ -2687,7 +2694,8 @@
       "displayNameDE": "Falafel",
       "searchAliases": [
         "falafel",
-        "Falafelbällchen"
+        "Falafelbällchen",
+        "falafel balls"
       ]
     },
     {
@@ -4468,8 +4476,7 @@
         "bread dumplings",
         "Knödel",
         "Klöße",
-        "Semmelknödel",
-        "Kartoffelknödel"
+        "Semmelknödel"
       ]
     },
     {
@@ -4611,6 +4618,440 @@
         "Apfelsaftschorle",
         "Schorle",
         "apple spritzer"
+      ]
+    },
+    {
+      "id": "usda:2710289",
+      "ingredient": "Hazelnut spread",
+      "displayName": "Hazelnut spread",
+      "displayNameDE": "Nuss-Nougat-Creme",
+      "searchAliases": [
+        "nutella",
+        "chocolate hazelnut spread",
+        "chocolate spread",
+        "Nutella",
+        "Nussnougatcreme",
+        "Schokocreme"
+      ]
+    },
+    {
+      "id": "usda:2707390",
+      "ingredient": "Baked beans",
+      "displayName": "Baked beans",
+      "displayNameDE": "Baked Beans",
+      "searchAliases": [
+        "baked beans",
+        "beans in tomato sauce",
+        "Bohnen in Tomatensauce"
+      ]
+    },
+    {
+      "id": "bls:M502700",
+      "ingredient": "Blue cheese",
+      "displayName": "Blue cheese",
+      "displayNameDE": "Blauschimmelkäse",
+      "searchAliases": [
+        "blue cheese",
+        "gorgonzola",
+        "roquefort",
+        "stilton",
+        "Gorgonzola",
+        "Roquefort"
+      ]
+    },
+    {
+      "id": "usda:2710199",
+      "ingredient": "Caesar dressing",
+      "displayName": "Caesar dressing",
+      "displayNameDE": "Caesar-Dressing",
+      "searchAliases": [
+        "caesar dressing",
+        "Caesar Dressing"
+      ]
+    },
+    {
+      "id": "usda:2709309",
+      "ingredient": "Chutney",
+      "displayName": "Chutney",
+      "displayNameDE": "Chutney",
+      "searchAliases": [
+        "mango chutney",
+        "Mango-Chutney"
+      ]
+    },
+    {
+      "id": "cofid:12-592",
+      "ingredient": "Clotted cream",
+      "displayName": "Clotted cream",
+      "displayNameDE": "Clotted Cream",
+      "searchAliases": [
+        "clotted cream"
+      ]
+    },
+    {
+      "id": "usda:2708146",
+      "ingredient": "Crackers",
+      "displayName": "Crackers",
+      "displayNameDE": "Cracker",
+      "searchAliases": [
+        "cracker",
+        "butter crackers",
+        "Cracker",
+        "Kräcker"
+      ]
+    },
+    {
+      "id": "bls:K270032",
+      "ingredient": "Gnocchi, cooked",
+      "displayName": "Gnocchi, cooked",
+      "displayNameDE": "Gnocchi, gekocht",
+      "searchAliases": [
+        "gnocchi",
+        "potato gnocchi",
+        "Gnocchi"
+      ]
+    },
+    {
+      "id": "cofid:11-819",
+      "ingredient": "Cereal bar",
+      "displayName": "Cereal bar",
+      "displayNameDE": "Müsliriegel",
+      "searchAliases": [
+        "granola bar",
+        "cereal bar",
+        "muesli bar",
+        "Müsliriegel",
+        "Getreideriegel"
+      ]
+    },
+    {
+      "id": "usda:2709307",
+      "ingredient": "Guacamole",
+      "displayName": "Guacamole",
+      "displayNameDE": "Guacamole",
+      "searchAliases": [
+        "guacamole",
+        "avocado dip",
+        "Avocadodip"
+      ]
+    },
+    {
+      "id": "bls:S361000",
+      "ingredient": "Gummy bears",
+      "displayName": "Gummy bears",
+      "displayNameDE": "Gummibärchen",
+      "searchAliases": [
+        "gummy bears",
+        "gummi bears",
+        "fruit gums",
+        "wine gums",
+        "Gummibärchen",
+        "Fruchtgummi",
+        "Weingummi"
+      ]
+    },
+    {
+      "id": "usda:2706261",
+      "ingredient": "Herring",
+      "displayName": "Herring",
+      "displayNameDE": "Hering",
+      "searchAliases": [
+        "herring",
+        "Hering",
+        "Heringsfilet"
+      ]
+    },
+    {
+      "id": "bls:T103100",
+      "ingredient": "Matjes",
+      "displayName": "Matjes",
+      "displayNameDE": "Matjes",
+      "searchAliases": [
+        "matjes",
+        "matjes herring",
+        "soused herring",
+        "Matjesfilet",
+        "Matjeshering"
+      ]
+    },
+    {
+      "id": "bls:F321100",
+      "ingredient": "Red currants",
+      "displayName": "Red currants",
+      "displayNameDE": "Johannisbeeren",
+      "searchAliases": [
+        "red currants",
+        "redcurrants",
+        "currants",
+        "Johannisbeeren",
+        "rote Johannisbeeren"
+      ]
+    },
+    {
+      "id": "bls:G012902",
+      "ingredient": "Capers",
+      "displayName": "Capers",
+      "displayNameDE": "Kapern",
+      "searchAliases": [
+        "capers",
+        "caper",
+        "Kapern"
+      ]
+    },
+    {
+      "id": "bls:Y771510",
+      "ingredient": "Herb quark",
+      "displayName": "Herb quark",
+      "displayNameDE": "Kräuterquark",
+      "searchAliases": [
+        "herb quark",
+        "Kräuterquark"
+      ]
+    },
+    {
+      "id": "bls:M307700",
+      "ingredient": "Raclette cheese",
+      "displayName": "Raclette cheese",
+      "displayNameDE": "Raclette-Käse",
+      "searchAliases": [
+        "raclette",
+        "raclette cheese",
+        "Raclettekäse",
+        "Raclette"
+      ]
+    },
+    {
+      "id": "bls:W256100",
+      "ingredient": "Leberkäse",
+      "displayName": "Leberkäse",
+      "displayNameDE": "Leberkäse",
+      "searchAliases": [
+        "leberkaese",
+        "leberkase",
+        "Fleischkäse",
+        "Leberkas",
+        "Leberkässemmel"
+      ]
+    },
+    {
+      "id": "bls:W310000",
+      "ingredient": "Liver sausage",
+      "displayName": "Liver sausage",
+      "displayNameDE": "Leberwurst",
+      "searchAliases": [
+        "liver sausage",
+        "liverwurst",
+        "Leberwurst",
+        "feine Leberwurst"
+      ]
+    },
+    {
+      "id": "cofid:12-490",
+      "ingredient": "Mascarpone",
+      "displayName": "Mascarpone",
+      "displayNameDE": "Mascarpone",
+      "searchAliases": [
+        "mascarpone"
+      ]
+    },
+    {
+      "id": "bls:W110000",
+      "ingredient": "Mettwurst",
+      "displayName": "Mettwurst",
+      "displayNameDE": "Mettwurst",
+      "searchAliases": [
+        "mettwurst",
+        "Mettwurst",
+        "Teewurst",
+        "Zwiebelmettwurst"
+      ]
+    },
+    {
+      "id": "usda:2710055",
+      "ingredient": "Onion rings",
+      "displayName": "Onion rings",
+      "displayNameDE": "Zwiebelringe",
+      "searchAliases": [
+        "onion rings",
+        "fried onion rings",
+        "Zwiebelringe"
+      ]
+    },
+    {
+      "id": "bls:X512053",
+      "ingredient": "Chanterelles, cooked",
+      "displayName": "Chanterelles, cooked",
+      "displayNameDE": "Pfifferlinge, gegart",
+      "searchAliases": [
+        "chanterelles",
+        "chanterelle",
+        "Pfifferlinge",
+        "Pfifferling"
+      ]
+    },
+    {
+      "id": "bls:F401902",
+      "ingredient": "Lingonberries",
+      "displayName": "Lingonberries",
+      "displayNameDE": "Preiselbeeren",
+      "searchAliases": [
+        "lingonberries",
+        "lingonberry jam",
+        "Preiselbeeren",
+        "Preiselbeermarmelade"
+      ]
+    },
+    {
+      "id": "cofid:11-459",
+      "ingredient": "Chapati",
+      "displayName": "Chapati",
+      "displayNameDE": "Chapati",
+      "searchAliases": [
+        "chapati",
+        "roti",
+        "Roti",
+        "Chapati"
+      ]
+    },
+    {
+      "id": "bls:G130100",
+      "ingredient": "Rocket",
+      "displayName": "Rocket",
+      "displayNameDE": "Rucola",
+      "searchAliases": [
+        "rocket",
+        "arugula",
+        "rucola",
+        "rocket salad",
+        "Rauke",
+        "Rucola"
+      ]
+    },
+    {
+      "id": "bls:X656362",
+      "ingredient": "Rösti",
+      "displayName": "Rösti",
+      "displayNameDE": "Rösti",
+      "searchAliases": [
+        "rösti",
+        "roesti",
+        "rosti",
+        "potato rösti",
+        "Kartoffelrösti"
+      ]
+    },
+    {
+      "id": "bls:D064000",
+      "ingredient": "Pretzel sticks",
+      "displayName": "Pretzel sticks",
+      "displayNameDE": "Salzstangen",
+      "searchAliases": [
+        "pretzel sticks",
+        "salted pretzel sticks",
+        "Salzstangen",
+        "Salzbrezeln"
+      ]
+    },
+    {
+      "id": "bls:W620000",
+      "ingredient": "Eisbein",
+      "displayName": "Eisbein",
+      "displayNameDE": "Eisbein",
+      "searchAliases": [
+        "eisbein",
+        "pork knuckle",
+        "pork hock",
+        "Schweinshaxe",
+        "Haxe"
+      ]
+    },
+    {
+      "id": "bls:P2A6100",
+      "ingredient": "Sparkling wine",
+      "displayName": "Sparkling wine",
+      "displayNameDE": "Sekt",
+      "searchAliases": [
+        "sparkling wine",
+        "prosecco",
+        "champagne",
+        "cava",
+        "Sekt",
+        "Prosecco",
+        "Champagner"
+      ]
+    },
+    {
+      "id": "usda:2709712",
+      "ingredient": "Sweet potato fries",
+      "displayName": "Sweet potato fries",
+      "displayNameDE": "Süßkartoffel-Pommes",
+      "searchAliases": [
+        "sweet potato fries",
+        "Süßkartoffelpommes",
+        "Süßkartoffel Pommes"
+      ]
+    },
+    {
+      "id": "bls:R135000",
+      "ingredient": "Sweet mustard",
+      "displayName": "Sweet mustard",
+      "displayNameDE": "Süßer Senf",
+      "searchAliases": [
+        "sweet mustard",
+        "bavarian sweet mustard",
+        "süßer Senf",
+        "Weißwurstsenf"
+      ]
+    },
+    {
+      "id": "cofid:11-1146",
+      "ingredient": "Yorkshire pudding",
+      "displayName": "Yorkshire pudding",
+      "displayNameDE": "Yorkshire Pudding",
+      "searchAliases": [
+        "yorkshire pudding",
+        "yorkshire puddings"
+      ]
+    },
+    {
+      "id": "usda:2710527",
+      "ingredient": "Iced tea",
+      "displayName": "Iced tea",
+      "displayNameDE": "Eistee",
+      "searchAliases": [
+        "iced tea",
+        "ice tea",
+        "Eistee",
+        "Ice Tea"
+      ]
+    },
+    {
+      "id": "usda:2705473",
+      "ingredient": "Hot chocolate",
+      "displayName": "Hot chocolate",
+      "displayNameDE": "Heiße Schokolade",
+      "searchAliases": [
+        "hot chocolate",
+        "hot cocoa",
+        "cocoa",
+        "Kakao",
+        "heiße Schokolade",
+        "Trinkschokolade",
+        "Kakao mit Milch"
+      ]
+    },
+    {
+      "id": "bls:B251000",
+      "ingredient": "Wheat-rye bread",
+      "displayName": "Wheat-rye bread",
+      "displayNameDE": "Mischbrot",
+      "searchAliases": [
+        "mixed bread",
+        "wheat rye bread",
+        "Mischbrot",
+        "Graubrot",
+        "Brot",
+        "bread"
       ]
     }
   ],

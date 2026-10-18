@@ -1,0 +1,522 @@
+{
+ "batch": 9,
+ "identities": [
+  {
+   "key": "raclette cheese",
+   "names": [
+    "raclette cheese",
+    "raclette kase",
+    "raclette",
+    "raclettekase"
+   ],
+   "origins": [
+    "recipe-ingredient",
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:M307700",
+     "name": "Raclette cheese min. 45 % fat in dry matter"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "sweet mustard",
+   "names": [
+    "sweet mustard",
+    "sußer senf",
+    "bavarian sweet mustard",
+    "weißwurstsenf"
+   ],
+   "origins": [
+    "recipe-ingredient",
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:R135000",
+     "name": "Mustard sweet"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "matjes",
+   "names": [
+    "matjes",
+    "matjes herring",
+    "soused herring",
+    "matjesfilet",
+    "matjeshering"
+   ],
+   "origins": [
+    "recipe-ingredient",
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:T103100",
+     "name": "Matjes herring mild salted"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "yorkshire pudding",
+   "names": [
+    "yorkshire pudding",
+    "yorkshire puddings"
+   ],
+   "origins": [
+    "recipe-ingredient",
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "cofid:11-1146",
+     "name": "Yorkshire pudding, made with whole milk"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "clotted cream",
+   "names": [
+    "clotted cream"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "cofid:12-592",
+     "name": "Cream, fresh, clotted"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "crackers",
+   "names": [
+    "crackers",
+    "cracker",
+    "butter crackers",
+    "kracker"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "usda:2708146",
+     "name": "Crackers, butter, plain"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2708146",
+     "label": "1 cracker",
+     "grams": 3
+    },
+    {
+     "reference": "usda:2708146",
+     "label": "1 miniature/bite size",
+     "grams": 1
+    },
+    {
+     "reference": "usda:2708146",
+     "label": "1 small or medium single serving bag",
+     "grams": 45
+    },
+    {
+     "reference": "usda:2708146",
+     "label": "1 large single serving bag",
+     "grams": 85
+    },
+    {
+     "reference": "usda:2708146",
+     "label": "1 sleeve",
+     "grams": 115
+    },
+    {
+     "reference": "usda:2708146",
+     "label": "1 cup, NFS",
+     "grams": 50
+    },
+    {
+     "reference": "usda:2708146",
+     "label": "1 cup, bite size",
+     "grams": 60
+    },
+    {
+     "reference": "usda:2708146",
+     "label": "1 cup, crushed",
+     "grams": 70
+    }
+   ]
+  },
+  {
+   "key": "cereal bar",
+   "names": [
+    "cereal bar",
+    "musliriegel",
+    "granola bar",
+    "muesli bar",
+    "getreideriegel"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "cofid:11-819",
+     "name": "Cereal bars, with fruit and/or nuts, no chocolate, unfortified"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "gummy bears",
+   "names": [
+    "gummy bears",
+    "gummibarchen",
+    "gummi bears",
+    "fruit gums",
+    "wine gums",
+    "fruchtgummi",
+    "weingummi"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:S361000",
+     "name": "Gum drops with fruit essence"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "herring",
+   "names": [
+    "herring",
+    "hering",
+    "heringsfilet"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "usda:2706261",
+     "name": "Fish, herring"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2706261",
+     "label": "1 fillet, any size",
+     "grams": 90
+    },
+    {
+     "reference": "usda:2706261",
+     "label": "1 whole fish, any size",
+     "grams": 270
+    },
+    {
+     "reference": "usda:2706261",
+     "label": "1 cup",
+     "grams": 135
+    },
+    {
+     "reference": "usda:2706261",
+     "label": "1 oz yields",
+     "grams": 20
+    },
+    {
+     "reference": "usda:2706261",
+     "label": "1 cubic inch",
+     "grams": 17
+    }
+   ]
+  },
+  {
+   "key": "herb quark",
+   "names": [
+    "herb quark",
+    "krauterquark"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:Y771510",
+     "name": "Quark, < 10 % fat in dry matter, with herbs"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "onion rings",
+   "names": [
+    "onion rings",
+    "zwiebelringe",
+    "fried onion rings"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "usda:2710055",
+     "name": "Fried onion rings"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2710055",
+     "label": "1 ring",
+     "grams": 10
+    },
+    {
+     "reference": "usda:2710055",
+     "label": "1 cup",
+     "grams": 50
+    },
+    {
+     "reference": "usda:2710055",
+     "label": "1 fast food order",
+     "grams": 120
+    }
+   ]
+  },
+  {
+   "key": "chanterelles cooked",
+   "names": [
+    "chanterelles cooked",
+    "pfifferlinge gegart",
+    "chanterelles",
+    "chanterelle",
+    "pfifferlinge",
+    "pfifferling"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:X512053",
+     "name": "Chanterelles stewed"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "lingonberries",
+   "names": [
+    "lingonberries",
+    "preiselbeeren",
+    "lingonberry jam",
+    "preiselbeermarmelade"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:F401902",
+     "name": "Lingonberry sugared, canned, drained"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "pretzel sticks",
+   "names": [
+    "pretzel sticks",
+    "salzstangen",
+    "salted pretzel sticks",
+    "salzbrezeln"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:D064000",
+     "name": "Salted pretzels/pretzel sticks (snack)"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "eisbein",
+   "names": [
+    "eisbein",
+    "pork knuckle",
+    "pork hock",
+    "schweinshaxe",
+    "haxe"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:W620000",
+     "name": "Pork foreshank (hock) \"Eisbein\" cooked cured, boiled"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "sparkling wine",
+   "names": [
+    "sparkling wine",
+    "sekt",
+    "prosecco",
+    "champagne",
+    "cava",
+    "champagner"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:P2A6100",
+     "name": "Quality sparkling wine extra dry"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "sweet potato fries",
+   "names": [
+    "sweet potato fries",
+    "sußkartoffel pommes",
+    "sußkartoffelpommes"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "usda:2709712",
+     "name": "Sweet potato fries, from fresh"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2709712",
+     "label": "1 fry, any cut",
+     "grams": 5
+    },
+    {
+     "reference": "usda:2709712",
+     "label": "1 cup",
+     "grams": 60
+    }
+   ]
+  },
+  {
+   "key": "iced tea",
+   "names": [
+    "iced tea",
+    "eistee",
+    "ice tea"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "usda:2710527",
+     "name": "Tea, iced, bottled, black"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2710527",
+     "label": "1 fl oz (no ice)",
+     "grams": 31
+    },
+    {
+     "reference": "usda:2710527",
+     "label": "1 fl oz (with ice)",
+     "grams": 23
+    },
+    {
+     "reference": "usda:2710527",
+     "label": "1 fl oz (NFS)",
+     "grams": 31
+    },
+    {
+     "reference": "usda:2710527",
+     "label": "1 can or bottle (12 fl oz)",
+     "grams": 372
+    },
+    {
+     "reference": "usda:2710527",
+     "label": "1 Snapple bottle (16 fl oz)",
+     "grams": 496
+    },
+    {
+     "reference": "usda:2710527",
+     "label": "1 can or bottle (16.9 fl oz)",
+     "grams": 524
+    },
+    {
+     "reference": "usda:2710527",
+     "label": "1 can or bottle (20 fl oz)",
+     "grams": 620
+    },
+    {
+     "reference": "usda:2710527",
+     "label": "1 child/senior drink",
+     "grams": 279
+    },
+    {
+     "reference": "usda:2710527",
+     "label": "1 small drink",
+     "grams": 372
+    },
+    {
+     "reference": "usda:2710527",
+     "label": "1 medium drink",
+     "grams": 512
+    },
+    {
+     "reference": "usda:2710527",
+     "label": "1 large drink",
+     "grams": 744
+    },
+    {
+     "reference": "usda:2710527",
+     "label": "1 extra large drink",
+     "grams": 1023
+    }
+   ]
+  },
+  {
+   "key": "red currants",
+   "names": [
+    "red currants",
+    "johannisbeeren"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:F321100",
+     "name": "Red currant raw"
+    }
+   ],
+   "measures": []
+  }
+ ]
+}

@@ -3352,6 +3352,30 @@
    "draft": "batch-3"
   },
   {
+   "key": "cereal bar",
+   "names": [
+    "cereal bar",
+    "musliriegel",
+    "granola bar",
+    "muesli bar",
+    "getreideriegel"
+   ],
+   "references": [
+    "cofid:11-819"
+   ],
+   "unit": "bar",
+   "typical": 1,
+   "gramsPerUnit": 30,
+   "source": {
+    "kind": "estimate",
+    "reason": "a wrapped bar"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-19",
+   "draft": "batch-9"
+  },
+  {
    "key": "cereal corn flakes plain",
    "names": [
     "cereal corn flakes plain",
@@ -3445,6 +3469,31 @@
    "origin": "generated",
    "date": "2026-10-01",
    "draft": "batch-5"
+  },
+  {
+   "key": "chanterelles cooked",
+   "names": [
+    "chanterelles cooked",
+    "pfifferlinge gegart",
+    "chanterelles",
+    "chanterelle",
+    "pfifferlinge",
+    "pfifferling"
+   ],
+   "references": [
+    "bls:X512053"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 100,
+   "source": {
+    "kind": "estimate",
+    "reason": "a cooked side of mushrooms"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-19",
+   "draft": "batch-9"
   },
   {
    "key": "chapati",
@@ -4250,6 +4299,26 @@
    "origin": "generated",
    "date": "2026-10-01",
    "draft": "batch-6"
+  },
+  {
+   "key": "clotted cream",
+   "names": [
+    "clotted cream"
+   ],
+   "references": [
+    "cofid:12-592"
+   ],
+   "unit": "tablespoon",
+   "typical": 2,
+   "gramsPerUnit": 20,
+   "source": {
+    "kind": "estimate",
+    "reason": "spread on a scone"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-19",
+   "draft": "batch-9"
   },
   {
    "key": "cloves",
@@ -5885,6 +5954,29 @@
    "draft": "batch-3"
   },
   {
+   "key": "crackers",
+   "names": [
+    "crackers",
+    "cracker",
+    "butter crackers",
+    "kracker"
+   ],
+   "references": [
+    "usda:2708146"
+   ],
+   "unit": "piece",
+   "typical": 6,
+   "gramsPerUnit": 3,
+   "source": {
+    "kind": "estimate",
+    "reason": "the source's single cracker; a small handful"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-19",
+   "draft": "batch-9"
+  },
+  {
    "key": "crayfish raw",
    "names": [
     "crayfish raw",
@@ -6916,6 +7008,30 @@
    "origin": "generated",
    "date": "2026-10-01",
    "draft": "batch-2"
+  },
+  {
+   "key": "eisbein",
+   "names": [
+    "eisbein",
+    "pork knuckle",
+    "pork hock",
+    "schweinshaxe",
+    "haxe"
+   ],
+   "references": [
+    "bls:W620000"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 300,
+   "source": {
+    "kind": "estimate",
+    "reason": "the meat of one cured hock on a plate"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-19",
+   "draft": "batch-9"
   },
   {
    "key": "emmental",
@@ -8845,6 +8961,32 @@
    "draft": "batch-4"
   },
   {
+   "key": "gummy bears",
+   "names": [
+    "gummy bears",
+    "gummibarchen",
+    "gummi bears",
+    "fruit gums",
+    "wine gums",
+    "fruchtgummi",
+    "weingummi"
+   ],
+   "references": [
+    "bls:S361000"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 30,
+   "source": {
+    "kind": "estimate",
+    "reason": "a small handful"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-19",
+   "draft": "batch-9"
+  },
+  {
    "key": "gurke",
    "names": [
     "gurke",
@@ -9265,6 +9407,27 @@
    "draft": "batch-6"
   },
   {
+   "key": "herb quark",
+   "names": [
+    "herb quark",
+    "krauterquark"
+   ],
+   "references": [
+    "bls:Y771510"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 100,
+   "source": {
+    "kind": "estimate",
+    "reason": "the helping beside jacket potatoes"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-19",
+   "draft": "batch-9"
+  },
+  {
    "key": "herbal tea",
    "names": [
     "herbal tea",
@@ -9288,6 +9451,29 @@
    "origin": "generated",
    "date": "2026-10-01",
    "draft": "batch-4"
+  },
+  {
+   "key": "herring",
+   "names": [
+    "herring",
+    "hering",
+    "heringsfilet"
+   ],
+   "references": [
+    "usda:2706261"
+   ],
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 90,
+   "source": {
+    "kind": "household-measure",
+    "reference": "usda:2706261",
+    "label": "1 fillet, any size"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-19",
+   "draft": "batch-9"
   },
   {
    "key": "herring fried without fat pan",
@@ -10838,6 +11024,29 @@
    "draft": "batch-4"
   },
   {
+   "key": "lingonberries",
+   "names": [
+    "lingonberries",
+    "preiselbeeren",
+    "lingonberry jam",
+    "preiselbeermarmelade"
+   ],
+   "references": [
+    "bls:F401902"
+   ],
+   "unit": "tablespoon",
+   "typical": 1,
+   "gramsPerUnit": 20,
+   "source": {
+    "kind": "estimate",
+    "reason": "a spoon beside a schnitzel"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-19",
+   "draft": "batch-9"
+  },
+  {
    "key": "lingonberry compote",
    "names": [
     "lingonberry compote",
@@ -11370,6 +11579,30 @@
    "origin": "generated",
    "date": "2026-10-01",
    "draft": "batch-4"
+  },
+  {
+   "key": "matjes",
+   "names": [
+    "matjes",
+    "matjes herring",
+    "soused herring",
+    "matjesfilet",
+    "matjeshering"
+   ],
+   "references": [
+    "bls:T103100"
+   ],
+   "unit": "piece",
+   "typical": 2,
+   "gramsPerUnit": 75,
+   "source": {
+    "kind": "estimate",
+    "reason": "one mild-salted fillet; a plate carries two"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-19",
+   "draft": "batch-9"
   },
   {
    "key": "matjes herring mild salted",
@@ -12499,6 +12732,28 @@
    "origin": "generated",
    "date": "2026-10-01",
    "draft": "batch-4"
+  },
+  {
+   "key": "onion rings",
+   "names": [
+    "onion rings",
+    "zwiebelringe",
+    "fried onion rings"
+   ],
+   "references": [
+    "usda:2710055"
+   ],
+   "unit": "piece",
+   "typical": 8,
+   "gramsPerUnit": 10,
+   "source": {
+    "kind": "estimate",
+    "reason": "the source's ring; a side of eight"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-19",
+   "draft": "batch-9"
   },
   {
    "key": "orange",
@@ -14417,6 +14672,29 @@
    "draft": "batch-4"
   },
   {
+   "key": "pretzel sticks",
+   "names": [
+    "pretzel sticks",
+    "salzstangen",
+    "salted pretzel sticks",
+    "salzbrezeln"
+   ],
+   "references": [
+    "bls:D064000"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 30,
+   "source": {
+    "kind": "estimate",
+    "reason": "a small handful"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-19",
+   "draft": "batch-9"
+  },
+  {
    "key": "processed cheese slice",
    "names": [
     "processed cheese slice",
@@ -14727,6 +15005,29 @@
    "origin": "generated",
    "date": "2026-10-01",
    "draft": "batch-6"
+  },
+  {
+   "key": "raclette cheese",
+   "names": [
+    "raclette cheese",
+    "raclette kase",
+    "raclette",
+    "raclettekase"
+   ],
+   "references": [
+    "bls:M307700"
+   ],
+   "unit": "slice",
+   "typical": 3,
+   "gramsPerUnit": 30,
+   "source": {
+    "kind": "estimate",
+    "reason": "a raclette slice; an evening uses a few"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-19",
+   "draft": "batch-9"
   },
   {
    "key": "raclette cheese min 45 fat in dry matter",
@@ -15061,6 +15362,27 @@
    "origin": "generated",
    "date": "2026-10-01",
    "draft": "batch-5"
+  },
+  {
+   "key": "red currants",
+   "names": [
+    "red currants",
+    "johannisbeeren"
+   ],
+   "references": [
+    "bls:F321100"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 100,
+   "source": {
+    "kind": "estimate",
+    "reason": "a small bowl of berries"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-19",
+   "draft": "batch-9"
   },
   {
    "key": "red fruit jelly",
@@ -17669,6 +17991,31 @@
    "draft": "batch-1"
   },
   {
+   "key": "sparkling wine",
+   "names": [
+    "sparkling wine",
+    "sekt",
+    "prosecco",
+    "champagne",
+    "cava",
+    "champagner"
+   ],
+   "references": [
+    "bls:P2A6100"
+   ],
+   "unit": "glass",
+   "typical": 1,
+   "milliliters": 100,
+   "source": {
+    "kind": "estimate",
+    "reason": "a flute"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-19",
+   "draft": "batch-9"
+  },
+  {
    "key": "spinach",
    "names": [
     "spinach",
@@ -18072,6 +18419,50 @@
    "origin": "generated",
    "date": "2026-10-01",
    "draft": "batch-4"
+  },
+  {
+   "key": "sweet mustard",
+   "names": [
+    "sußer senf",
+    "bavarian sweet mustard",
+    "weißwurstsenf"
+   ],
+   "references": [
+    "bls:R135000"
+   ],
+   "unit": "tablespoon",
+   "typical": 1,
+   "gramsPerUnit": 15,
+   "source": {
+    "kind": "estimate",
+    "reason": "a tablespoon beside a Weißwurst"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-19",
+   "draft": "batch-9"
+  },
+  {
+   "key": "sweet potato fries",
+   "names": [
+    "sweet potato fries",
+    "sußkartoffel pommes",
+    "sußkartoffelpommes"
+   ],
+   "references": [
+    "usda:2709712"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 120,
+   "source": {
+    "kind": "estimate",
+    "reason": "a side order"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-19",
+   "draft": "batch-9"
   },
   {
    "key": "sweetcorn",
@@ -20439,6 +20830,27 @@
    "origin": "generated",
    "date": "2026-10-01",
    "draft": "batch-6"
+  },
+  {
+   "key": "yorkshire pudding",
+   "names": [
+    "yorkshire pudding",
+    "yorkshire puddings"
+   ],
+   "references": [
+    "cofid:11-1146"
+   ],
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 40,
+   "source": {
+    "kind": "estimate",
+    "reason": "one baked pudding"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-19",
+   "draft": "batch-9"
   },
   {
    "key": "yorkshire pudding made with whole milk",
