@@ -1,0 +1,270 @@
+{
+ "batch": 10,
+ "identities": [
+  {
+   "key": "mint sauce",
+   "names": [
+    "mint sauce",
+    "minzsauce",
+    "minzsoße"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "cofid:17-811",
+     "name": "Mint sauce, homemade"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "mushy peas",
+   "names": [
+    "mushy peas",
+    "erbsenpuree",
+    "pea puree",
+    "erbsenmus",
+    "erbsenbrei"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:X570363",
+     "name": "Pea puree from fresh peas"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "federweißer",
+   "names": [
+    "federweißer",
+    "federweisser",
+    "new wine",
+    "neuer wein",
+    "sauser",
+    "sturm",
+    "bremser"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:P289000",
+     "name": "Federweisser (still fermenting young wine)"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "fruit brandy",
+   "names": [
+    "fruit brandy",
+    "obstbrand",
+    "fruit schnapps",
+    "obstwasser",
+    "obstler",
+    "kirschwasser",
+    "kirsch",
+    "williams",
+    "zwetschgenwasser",
+    "schnaps",
+    "schnapps"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:P752100",
+     "name": "Fruit spirit"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "salsa verde",
+   "names": [
+    "salsa verde",
+    "italian salsa verde",
+    "green herb sauce",
+    "krautersauce"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:X3A7020",
+     "name": "Salsa verde"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "green salsa",
+   "names": [
+    "green salsa",
+    "grune salsa",
+    "tomatillo salsa",
+    "salsa verde mexicana"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "usda:2709743",
+     "name": "Salsa verde or salsa, green"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2709743",
+     "label": "1 cup",
+     "grams": 246
+    },
+    {
+     "reference": "usda:2709743",
+     "label": "1 tablespoon",
+     "grams": 15
+    }
+   ]
+  },
+  {
+   "key": "frankfurt green sauce",
+   "names": [
+    "frankfurt green sauce",
+    "frankfurter grune soße",
+    "grune soße",
+    "grune sauce",
+    "grie soß",
+    "green sauce"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:X382040",
+     "name": "Frankfurt green herb sauce"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "red pesto",
+   "names": [
+    "red pesto",
+    "pesto rosso",
+    "tomatenpesto"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:X3A7010",
+     "name": "Pesto rosso"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "brandy",
+   "names": [
+    "brandy",
+    "weinbrand",
+    "cognac"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "usda:2710699",
+     "name": "Brandy"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2710699",
+     "label": "1 fl oz (no ice)",
+     "grams": 28
+    },
+    {
+     "reference": "usda:2710699",
+     "label": "1 shot",
+     "grams": 42
+    },
+    {
+     "reference": "usda:2710699",
+     "label": "1 jigger",
+     "grams": 42
+    },
+    {
+     "reference": "usda:2710699",
+     "label": "1 drink",
+     "grams": 63
+    }
+   ]
+  },
+  {
+   "key": "whisky",
+   "names": [
+    "whisky",
+    "whiskey",
+    "bourbon",
+    "scotch"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:P733000",
+     "name": "Whisky/whiskey"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "gin",
+   "names": [
+    "gin"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:P722000",
+     "name": "Gin"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "vodka",
+   "names": [
+    "vodka",
+    "wodka"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:P712000",
+     "name": "Vodka"
+    }
+   ],
+   "measures": []
+  }
+ ]
+}

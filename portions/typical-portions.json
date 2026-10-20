@@ -2093,6 +2093,28 @@
    "draft": "batch-3"
   },
   {
+   "key": "brandy",
+   "names": [
+    "brandy",
+    "weinbrand",
+    "cognac"
+   ],
+   "references": [
+    "usda:2710699"
+   ],
+   "unit": "glass",
+   "typical": 1,
+   "milliliters": 40,
+   "source": {
+    "kind": "estimate",
+    "reason": "a 4 cl pour"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-21",
+   "draft": "batch-10"
+  },
+  {
    "key": "bratwurst",
    "names": [
     "bratwurst",
@@ -7303,6 +7325,32 @@
    "draft": "batch-3"
   },
   {
+   "key": "federweißer",
+   "names": [
+    "federweißer",
+    "federweisser",
+    "new wine",
+    "neuer wein",
+    "sauser",
+    "sturm",
+    "bremser"
+   ],
+   "references": [
+    "bls:P289000"
+   ],
+   "unit": "glass",
+   "typical": 1,
+   "milliliters": 200,
+   "source": {
+    "kind": "estimate",
+    "reason": "a wine glass of the young wine"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-21",
+   "draft": "batch-10"
+  },
+  {
    "key": "fenchelsamen",
    "names": [
     "fenchelsamen",
@@ -7585,6 +7633,31 @@
    "draft": "batch-5"
   },
   {
+   "key": "frankfurt green sauce",
+   "names": [
+    "frankfurt green sauce",
+    "frankfurter grune soße",
+    "grune soße",
+    "grune sauce",
+    "grie soß",
+    "green sauce"
+   ],
+   "references": [
+    "bls:X382040"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 100,
+   "source": {
+    "kind": "estimate",
+    "reason": "the helping over eggs and potatoes"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-21",
+   "draft": "batch-10"
+  },
+  {
    "key": "frankfurter",
    "names": [
     "frankfurter",
@@ -7844,6 +7917,36 @@
    "draft": "batch-8"
   },
   {
+   "key": "fruit brandy",
+   "names": [
+    "fruit brandy",
+    "obstbrand",
+    "fruit schnapps",
+    "obstwasser",
+    "obstler",
+    "kirschwasser",
+    "kirsch",
+    "williams",
+    "zwetschgenwasser",
+    "schnaps",
+    "schnapps"
+   ],
+   "references": [
+    "bls:P752100"
+   ],
+   "unit": "glass",
+   "typical": 1,
+   "milliliters": 20,
+   "source": {
+    "kind": "estimate",
+    "reason": "a 2 cl Schnapsglas"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-21",
+   "draft": "batch-10"
+  },
+  {
    "key": "fruit mix fruit cocktail in juice canned drained",
    "names": [
     "fruit mix fruit cocktail in juice canned drained",
@@ -8063,6 +8166,26 @@
    "origin": "generated",
    "date": "2026-10-01",
    "draft": "batch-3"
+  },
+  {
+   "key": "gin",
+   "names": [
+    "gin"
+   ],
+   "references": [
+    "bls:P722000"
+   ],
+   "unit": "glass",
+   "typical": 1,
+   "milliliters": 40,
+   "source": {
+    "kind": "estimate",
+    "reason": "a 4 cl pour, before the tonic"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-21",
+   "draft": "batch-10"
   },
   {
    "key": "ginger",
@@ -8534,6 +8657,30 @@
    "origin": "generated",
    "date": "2026-10-01",
    "draft": "batch-2"
+  },
+  {
+   "key": "green salsa",
+   "names": [
+    "green salsa",
+    "grune salsa",
+    "tomatillo salsa",
+    "salsa verde mexicana"
+   ],
+   "references": [
+    "usda:2709743"
+   ],
+   "unit": "tablespoon",
+   "typical": 2,
+   "gramsPerUnit": 15,
+   "source": {
+    "kind": "household-measure",
+    "reference": "usda:2709743",
+    "label": "1 tablespoon"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-21",
+   "draft": "batch-10"
   },
   {
    "key": "green spelt groats",
@@ -11892,6 +12039,28 @@
    "draft": "batch-4"
   },
   {
+   "key": "mint sauce",
+   "names": [
+    "mint sauce",
+    "minzsauce",
+    "minzsoße"
+   ],
+   "references": [
+    "cofid:17-811"
+   ],
+   "unit": "tablespoon",
+   "typical": 1,
+   "gramsPerUnit": 15,
+   "source": {
+    "kind": "estimate",
+    "reason": "a spoon beside roast lamb"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-21",
+   "draft": "batch-10"
+  },
+  {
    "key": "mirin",
    "names": [
     "mirin",
@@ -12211,6 +12380,30 @@
    "origin": "generated",
    "date": "2026-10-01",
    "draft": "batch-6"
+  },
+  {
+   "key": "mushy peas",
+   "names": [
+    "mushy peas",
+    "erbsenpuree",
+    "pea puree",
+    "erbsenmus",
+    "erbsenbrei"
+   ],
+   "references": [
+    "bls:X570363"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 120,
+   "source": {
+    "kind": "estimate",
+    "reason": "the side beside fish and chips"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-21",
+   "draft": "batch-10"
   },
   {
    "key": "mustard",
@@ -15406,6 +15599,28 @@
    "draft": "batch-6"
   },
   {
+   "key": "red pesto",
+   "names": [
+    "red pesto",
+    "pesto rosso",
+    "tomatenpesto"
+   ],
+   "references": [
+    "bls:X3A7010"
+   ],
+   "unit": "tablespoon",
+   "typical": 2,
+   "gramsPerUnit": 20,
+   "source": {
+    "kind": "estimate",
+    "reason": "two spoons through a plate of pasta"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-21",
+   "draft": "batch-10"
+  },
+  {
    "key": "red wine",
    "names": [
     "red wine",
@@ -16652,6 +16867,29 @@
    "origin": "generated",
    "date": "2026-10-01",
    "draft": "batch-5"
+  },
+  {
+   "key": "salsa verde",
+   "names": [
+    "salsa verde",
+    "italian salsa verde",
+    "green herb sauce",
+    "krautersauce"
+   ],
+   "references": [
+    "bls:X3A7020"
+   ],
+   "unit": "tablespoon",
+   "typical": 2,
+   "gramsPerUnit": 15,
+   "source": {
+    "kind": "estimate",
+    "reason": "two spoons over meat or fish"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-21",
+   "draft": "batch-10"
   },
   {
    "key": "salz",
@@ -19958,6 +20196,27 @@
    "draft": "batch-4"
   },
   {
+   "key": "vodka",
+   "names": [
+    "vodka",
+    "wodka"
+   ],
+   "references": [
+    "bls:P712000"
+   ],
+   "unit": "glass",
+   "typical": 1,
+   "milliliters": 40,
+   "source": {
+    "kind": "estimate",
+    "reason": "a 4 cl pour"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-21",
+   "draft": "batch-10"
+  },
+  {
    "key": "waffles",
    "names": [
     "waffles",
@@ -20244,6 +20503,29 @@
    "origin": "generated",
    "date": "2026-10-01",
    "draft": "batch-3"
+  },
+  {
+   "key": "whisky",
+   "names": [
+    "whisky",
+    "whiskey",
+    "bourbon",
+    "scotch"
+   ],
+   "references": [
+    "bls:P733000"
+   ],
+   "unit": "glass",
+   "typical": 1,
+   "milliliters": 40,
+   "source": {
+    "kind": "estimate",
+    "reason": "a 4 cl pour"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-21",
+   "draft": "batch-10"
   },
   {
    "key": "white beans",
