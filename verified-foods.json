@@ -449,7 +449,9 @@
         "Kuhmilch",
         "Vollmilch",
         "whole milk"
-      ]
+      ],
+      "measure": "volume",
+      "gramsPerMilliliter": 1.03
     },
     {
       "id": "bls:M111200",
@@ -460,7 +462,9 @@
         "fettarme Milch",
         "semi-skimmed milk",
         "low-fat milk"
-      ]
+      ],
+      "measure": "volume",
+      "gramsPerMilliliter": 1.03
     },
     {
       "id": "bls:M0A1000",
@@ -1322,7 +1326,9 @@
         "entrahmte Milch",
         "skimmed milk",
         "fat-free milk"
-      ]
+      ],
+      "measure": "volume",
+      "gramsPerMilliliter": 1.03
     },
     {
       "id": "bls:M173800",
@@ -1336,7 +1342,8 @@
         "cream",
         "whipped cream",
         "geschlagene Sahne"
-      ]
+      ],
+      "measure": "volume"
     },
     {
       "id": "usda:2705614",
@@ -1376,7 +1383,9 @@
       "searchAliases": [
         "Hafermilch",
         "Haferdrink"
-      ]
+      ],
+      "measure": "volume",
+      "gramsPerMilliliter": 1.03
     },
     {
       "id": "usda:2705405",
@@ -1386,7 +1395,9 @@
       "searchAliases": [
         "Sojamilch",
         "Sojadrink"
-      ]
+      ],
+      "measure": "volume",
+      "gramsPerMilliliter": 1.03
     },
     {
       "id": "bls:H800000",
@@ -1396,7 +1407,9 @@
       "searchAliases": [
         "Mandelmilch",
         "Mandeldrink"
-      ]
+      ],
+      "measure": "volume",
+      "gramsPerMilliliter": 1.03
     },
     {
       "id": "bls:H154000",
@@ -1406,7 +1419,8 @@
       "searchAliases": [
         "Kokosmilch",
         "Kokosnussmilch"
-      ]
+      ],
+      "measure": "volume"
     },
     {
       "id": "usda:2707168",
@@ -1560,7 +1574,8 @@
       "displayNameDE": "Apfelessig",
       "searchAliases": [
         "Apfelessig"
-      ]
+      ],
+      "measure": "volume"
     },
     {
       "id": "ciqual:31034",
@@ -1889,7 +1904,8 @@
         "filter coffee",
         "schwarzer Kaffee",
         "Filterkaffee"
-      ]
+      ],
+      "measure": "volume"
     },
     {
       "id": "usda:2710490",
@@ -1910,7 +1926,8 @@
         "Japanese roasted green tea",
         "gerösteter grüner Tee",
         "geroesteter gruener Tee"
-      ]
+      ],
+      "measure": "volume"
     },
     {
       "id": "usda:2710488",
@@ -1925,7 +1942,8 @@
         "black tea",
         "cup of tea",
         "Tasse Tee"
-      ]
+      ],
+      "measure": "volume"
     },
     {
       "id": "usda:2710541",
@@ -1938,7 +1956,9 @@
         "Softdrink",
         "cola",
         "Cola"
-      ]
+      ],
+      "measure": "volume",
+      "gramsPerMilliliter": 1.04
     },
     {
       "id": "usda:2710706",
@@ -1952,7 +1972,8 @@
         "Wasser",
         "Leitungswasser",
         "Stilles Wasser"
-      ]
+      ],
+      "measure": "volume"
     },
     {
       "id": "usda:2710708",
@@ -1962,7 +1983,8 @@
       "searchAliases": [
         "Plain bottled water",
         "Flaschenwasser"
-      ]
+      ],
+      "measure": "volume"
     },
     {
       "id": "usda:2710539",
@@ -1976,7 +1998,8 @@
         "Mineralwasser",
         "sparkling water",
         "Sprudel"
-      ]
+      ],
+      "measure": "volume"
     },
     {
       "id": "usda:2709186",
@@ -1986,7 +2009,9 @@
       "searchAliases": [
         "Orangensaft",
         "orange juice"
-      ]
+      ],
+      "measure": "volume",
+      "gramsPerMilliliter": 1.04
     },
     {
       "id": "usda:2709320",
@@ -1996,7 +2021,9 @@
       "searchAliases": [
         "Apfelsaft",
         "apple juice"
-      ]
+      ],
+      "measure": "volume",
+      "gramsPerMilliliter": 1.04
     },
     {
       "id": "usda:2709325",
@@ -2007,7 +2034,9 @@
         "Traubensaft",
         "grape juice",
         "100% grape juice"
-      ]
+      ],
+      "measure": "volume",
+      "gramsPerMilliliter": 1.04
     },
     {
       "id": "usda:2709177",
@@ -2017,7 +2046,9 @@
       "searchAliases": [
         "Grapefruitsaft",
         "grapefruit juice"
-      ]
+      ],
+      "measure": "volume",
+      "gramsPerMilliliter": 1.04
     },
     {
       "id": "usda:2709329",
@@ -2027,7 +2058,9 @@
       "searchAliases": [
         "Ananassaft",
         "pineapple juice"
-      ]
+      ],
+      "measure": "volume",
+      "gramsPerMilliliter": 1.04
     },
     {
       "id": "bls:U211100",
@@ -2739,7 +2772,9 @@
         "Limonade",
         "Zitronenlimonade",
         "Limo"
-      ]
+      ],
+      "measure": "volume",
+      "gramsPerMilliliter": 1.02
     },
     {
       "id": "bls:P161000",
@@ -2753,7 +2788,9 @@
         "Helles",
         "Pils",
         "Lagerbier"
-      ]
+      ],
+      "measure": "volume",
+      "gramsPerMilliliter": 1.01
     },
     {
       "id": "usda:2710688",
@@ -2765,7 +2802,9 @@
         "red wine",
         "Wein",
         "Rotwein"
-      ]
+      ],
+      "measure": "volume",
+      "gramsPerMilliliter": 0.99
     },
     {
       "id": "usda:2710689",
@@ -2776,7 +2815,9 @@
         "white wine",
         "Weißwein",
         "Weisswein"
-      ]
+      ],
+      "measure": "volume",
+      "gramsPerMilliliter": 0.99
     },
     {
       "id": "bls:Q991000",
@@ -3222,7 +3263,8 @@
         "miso soup",
         "Misosuppe",
         "Miso-Suppe"
-      ]
+      ],
+      "measure": "volume"
     },
     {
       "id": "usda:2706568",
@@ -3276,7 +3318,8 @@
         "vegetable broth",
         "Gemüsebrühe",
         "Gemüsefond"
-      ]
+      ],
+      "measure": "volume"
     },
     {
       "id": "bls:Y183013",
@@ -3289,7 +3332,8 @@
         "Rinderbrühe",
         "Fleischbrühe",
         "Rindfleischbrühe"
-      ]
+      ],
+      "measure": "volume"
     },
     {
       "id": "bls:X411243",
@@ -3301,7 +3345,8 @@
         "chicken broth",
         "Hühnerbrühe",
         "Hühnerfond"
-      ]
+      ],
+      "measure": "volume"
     },
     {
       "id": "usda:2709181",
@@ -3311,7 +3356,9 @@
       "searchAliases": [
         "lemon juice",
         "Zitronensaft"
-      ]
+      ],
+      "measure": "volume",
+      "gramsPerMilliliter": 1.04
     },
     {
       "id": "bls:G568900",
@@ -3553,7 +3600,8 @@
         "stock",
         "Brühe",
         "Bouillon"
-      ]
+      ],
+      "measure": "volume"
     },
     {
       "id": "bls:R121000",
@@ -3567,7 +3615,8 @@
         "Weinessig",
         "Rotweinessig",
         "Weißweinessig"
-      ]
+      ],
+      "measure": "volume"
     },
     {
       "id": "bls:M304600",
@@ -3661,7 +3710,8 @@
         "light cream",
         "Kaffeesahne",
         "single cream"
-      ]
+      ],
+      "measure": "volume"
     },
     {
       "id": "bls:F602600",
@@ -3671,7 +3721,9 @@
       "searchAliases": [
         "lime juice",
         "Limettensaft"
-      ]
+      ],
+      "measure": "volume",
+      "gramsPerMilliliter": 1.04
     },
     {
       "id": "bls:G554100",
@@ -3862,7 +3914,8 @@
         "Essig",
         "Tafelessig",
         "Branntweinessig"
-      ]
+      ],
+      "measure": "volume"
     },
     {
       "id": "bls:M305700",
@@ -4502,7 +4555,8 @@
       "searchAliases": [
         "rice vinegar",
         "Reisessig"
-      ]
+      ],
+      "measure": "volume"
     },
     {
       "id": "cofid:12-508",
@@ -4622,7 +4676,9 @@
         "Apfelsaftschorle",
         "Schorle",
         "apple spritzer"
-      ]
+      ],
+      "measure": "volume",
+      "gramsPerMilliliter": 1.02
     },
     {
       "id": "usda:2710289",
@@ -4982,7 +5038,9 @@
         "Sekt",
         "Prosecco",
         "Champagner"
-      ]
+      ],
+      "measure": "volume",
+      "gramsPerMilliliter": 0.99
     },
     {
       "id": "usda:2709712",
@@ -5027,7 +5085,9 @@
         "ice tea",
         "Eistee",
         "Ice Tea"
-      ]
+      ],
+      "measure": "volume",
+      "gramsPerMilliliter": 1.02
     },
     {
       "id": "usda:2705473",
@@ -5042,7 +5102,9 @@
         "heiße Schokolade",
         "Trinkschokolade",
         "Kakao mit Milch"
-      ]
+      ],
+      "measure": "volume",
+      "gramsPerMilliliter": 1.03
     },
     {
       "id": "bls:B251000",
@@ -5124,7 +5186,9 @@
         "Sauser",
         "Sturm",
         "Bremser"
-      ]
+      ],
+      "measure": "volume",
+      "gramsPerMilliliter": 0.99
     },
     {
       "id": "bls:P752100",
@@ -5143,7 +5207,9 @@
         "Zwetschgenwasser",
         "Schnaps",
         "schnapps"
-      ]
+      ],
+      "measure": "volume",
+      "gramsPerMilliliter": 0.94
     },
     {
       "id": "bls:X361163",
@@ -5259,7 +5325,9 @@
         "cognac",
         "Weinbrand",
         "Cognac"
-      ]
+      ],
+      "measure": "volume",
+      "gramsPerMilliliter": 0.94
     },
     {
       "id": "bls:P733000",
@@ -5271,7 +5339,9 @@
         "whiskey",
         "bourbon",
         "scotch"
-      ]
+      ],
+      "measure": "volume",
+      "gramsPerMilliliter": 0.94
     },
     {
       "id": "bls:P722000",
@@ -5280,7 +5350,9 @@
       "displayNameDE": "Gin",
       "searchAliases": [
         "gin"
-      ]
+      ],
+      "measure": "volume",
+      "gramsPerMilliliter": 0.94
     },
     {
       "id": "bls:P712000",
@@ -5290,7 +5362,9 @@
       "searchAliases": [
         "vodka",
         "Wodka"
-      ]
+      ],
+      "measure": "volume",
+      "gramsPerMilliliter": 0.94
     },
     {
       "id": "bls:P741000",
@@ -5301,7 +5375,9 @@
         "rum",
         "white rum",
         "dark rum"
-      ]
+      ],
+      "measure": "volume",
+      "gramsPerMilliliter": 0.94
     },
     {
       "id": "cofid:13-829",
@@ -5359,7 +5435,8 @@
         "gin tonic",
         "G&T",
         "Gin Tonic"
-      ]
+      ],
+      "measure": "volume"
     }
   ],
   "namedOnly": [
@@ -5391,7 +5468,8 @@
     {
       "id": "usda:2710378",
       "ingredient": "Espresso",
-      "displayNameDE": "Espresso"
+      "displayNameDE": "Espresso",
+      "measure": "volume"
     },
     {
       "id": "usda:2706096",
@@ -5414,7 +5492,9 @@
       "id": "bls:P151100",
       "ingredient": "Wheat beer",
       "displayName": "Wheat beer",
-      "displayNameDE": "Weißbier"
+      "displayNameDE": "Weißbier",
+      "measure": "volume",
+      "gramsPerMilliliter": 1.01
     }
   ],
   "drinks": [
