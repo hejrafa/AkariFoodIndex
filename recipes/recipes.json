@@ -80563,6 +80563,66 @@
       "date": "2026-10-01",
       "draft": "batch-20",
       "tableRow": "usda:2710312"
+    },
+    {
+      "id": "akari:recipe:poke-bowl:v1",
+      "names": {
+        "en": "Poke bowl",
+        "de": "Poke Bowl"
+      },
+      "aliases": [
+        "poke",
+        "poké bowl",
+        "poké",
+        "hawaiian poke bowl",
+        "poke bowl hawaii",
+        "poke schüssel"
+      ],
+      "artworkID": "sushi",
+      "serving": {
+        "label": {
+          "en": "1 bowl",
+          "de": "1 Schüssel"
+        },
+        "count": 1
+      },
+      "ingredients": [
+        {
+          "reference": "bls:C352032",
+          "grams": 180
+        },
+        {
+          "reference": "cofid:16-356",
+          "grams": 100
+        },
+        {
+          "reference": "bls:G750432",
+          "grams": 40
+        },
+        {
+          "reference": "bls:F502100",
+          "grams": 50
+        },
+        {
+          "reference": "bls:G520100",
+          "grams": 40
+        },
+        {
+          "reference": "bls:R143000",
+          "grams": 10
+        },
+        {
+          "reference": "usda:2707586",
+          "grams": 5
+        },
+        {
+          "reference": "bls:G995000",
+          "grams": 2
+        }
+      ],
+      "origin": "generated",
+      "date": "2026-10-22",
+      "draft": "batch-21"
     }
   ]
 }

@@ -498,7 +498,17 @@
       "id": "bls:G480100",
       "ingredient": "Onion",
       "displayName": "Onion",
-      "displayNameDE": "Zwiebel"
+      "displayNameDE": "Zwiebel",
+      "searchAliases": [
+        "onion",
+        "onions",
+        "red onion",
+        "red onions",
+        "rote Zwiebel",
+        "rote Zwiebeln",
+        "Zwiebeln",
+        "Gemüsezwiebel"
+      ]
     },
     {
       "id": "bls:F603100",
@@ -3398,7 +3408,9 @@
         "Bauchspeck",
         "Räucherspeck",
         "durchwachsener Speck",
-        "Speckwürfel"
+        "Speckwürfel",
+        "Schweinespeck",
+        "Speckstreifen"
       ]
     },
     {
@@ -5437,6 +5449,20 @@
         "Gin Tonic"
       ],
       "measure": "volume"
+    },
+    {
+      "id": "bls:Y180512",
+      "ingredient": "Beef, boiled",
+      "displayName": "Beef, boiled",
+      "displayNameDE": "Rindfleisch, gekocht",
+      "searchAliases": [
+        "boiled beef",
+        "cooked beef",
+        "Rindfleisch gekocht",
+        "Rindfleisch, gekocht",
+        "gekochtes Rindfleisch",
+        "Suppenfleisch"
+      ]
     }
   ],
   "namedOnly": [
