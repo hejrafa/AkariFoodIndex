@@ -3,29 +3,89 @@
  "drafted": "2026-10-21",
  "drafter": "Claude in the Akari Claude Code session",
  "entries": [
-  {"key": "mint sauce", "unit": "tablespoon", "gramsPerUnit": 15, "typical": 1,
-   "reason": "a spoon beside roast lamb"},
-  {"key": "mushy peas", "unit": "portion", "gramsPerUnit": 120, "typical": 1,
-   "reason": "the side beside fish and chips"},
-  {"key": "federweißer", "unit": "glass", "milliliters": 200, "typical": 1,
-   "reason": "a wine glass of the young wine"},
-  {"key": "fruit brandy", "unit": "glass", "milliliters": 20, "typical": 1,
-   "reason": "a 2 cl Schnapsglas"},
-  {"key": "salsa verde", "unit": "tablespoon", "gramsPerUnit": 15, "typical": 2,
-   "reason": "two spoons over meat or fish"},
-  {"key": "green salsa", "unit": "tablespoon", "gramsPerUnit": 15, "typical": 2,
-   "reason": "the source's tablespoon; two for a taco plate"},
-  {"key": "frankfurt green sauce", "unit": "portion", "gramsPerUnit": 100, "typical": 1,
-   "reason": "the helping over eggs and potatoes"},
-  {"key": "red pesto", "unit": "tablespoon", "gramsPerUnit": 20, "typical": 2,
-   "reason": "two spoons through a plate of pasta"},
-  {"key": "brandy", "unit": "glass", "milliliters": 40, "typical": 1,
-   "reason": "a 4 cl pour"},
-  {"key": "whisky", "unit": "glass", "milliliters": 40, "typical": 1,
-   "reason": "a 4 cl pour"},
-  {"key": "gin", "unit": "glass", "milliliters": 40, "typical": 1,
-   "reason": "a 4 cl pour, before the tonic"},
-  {"key": "vodka", "unit": "glass", "milliliters": 40, "typical": 1,
-   "reason": "a 4 cl pour"}
+  {
+   "key": "mint sauce",
+   "unit": "tablespoon",
+   "gramsPerUnit": 15,
+   "typical": 1,
+   "reason": "a spoon beside roast lamb"
+  },
+  {
+   "key": "mushy peas",
+   "unit": "portion",
+   "gramsPerUnit": 120,
+   "typical": 1,
+   "reason": "the side beside fish and chips"
+  },
+  {
+   "key": "federweißer",
+   "unit": "glass",
+   "milliliters": 200,
+   "typical": 1,
+   "reason": "a wine glass of the young wine"
+  },
+  {
+   "key": "fruit brandy",
+   "unit": "glass",
+   "milliliters": 20,
+   "typical": 1,
+   "reason": "a 2 cl Schnapsglas"
+  },
+  {
+   "key": "salsa verde",
+   "unit": "tablespoon",
+   "gramsPerUnit": 15,
+   "typical": 2,
+   "reason": "two spoons over meat or fish"
+  },
+  {
+   "key": "green salsa",
+   "unit": "tablespoon",
+   "gramsPerUnit": 15,
+   "typical": 2,
+   "reason": "the source's tablespoon; two for a taco plate"
+  },
+  {
+   "key": "frankfurt green sauce",
+   "unit": "portion",
+   "gramsPerUnit": 100,
+   "typical": 1,
+   "reason": "the helping over eggs and potatoes"
+  },
+  {
+   "key": "red pesto",
+   "unit": "tablespoon",
+   "gramsPerUnit": 20,
+   "typical": 2,
+   "reason": "two spoons through a plate of pasta"
+  },
+  {
+   "key": "brandy",
+   "unit": "glass",
+   "milliliters": 40,
+   "typical": 1,
+   "reason": "a 4 cl pour"
+  },
+  {
+   "key": "whisky",
+   "unit": "glass",
+   "milliliters": 40,
+   "typical": 1,
+   "reason": "a 4 cl pour"
+  },
+  {
+   "key": "gin",
+   "unit": "glass",
+   "milliliters": 40,
+   "typical": 1,
+   "reason": "a 4 cl pour, before the tonic"
+  },
+  {
+   "key": "vodka",
+   "unit": "glass",
+   "milliliters": 40,
+   "typical": 1,
+   "reason": "a 4 cl pour"
+  }
  ]
 }

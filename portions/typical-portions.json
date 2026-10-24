@@ -656,7 +656,8 @@
     "weiße bohnen in tomatensauce"
    ],
    "references": [
-    "cofid:13-532"
+    "cofid:13-532",
+    "usda:2707390"
    ],
    "unit": "can",
    "typical": 0.5,
@@ -694,6 +695,96 @@
    "origin": "generated",
    "date": "2026-10-01",
    "draft": "batch-2"
+  },
+  {
+   "key": "baker s yeast dried",
+   "names": [
+    "baker s yeast dried",
+    "trockenhefe",
+    "dried yeast"
+   ],
+   "references": [
+    "ciqual:11045"
+   ],
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 7,
+   "source": {
+    "kind": "estimate",
+    "reason": "one 7 g sachet for 500 g flour"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-13"
+  },
+  {
+   "key": "baker s yeast fresh",
+   "names": [
+    "baker s yeast fresh",
+    "frischhefe",
+    "backhefe"
+   ],
+   "references": [
+    "ciqual:11010"
+   ],
+   "unit": "piece",
+   "typical": 0.5,
+   "gramsPerUnit": 42,
+   "source": {
+    "kind": "estimate",
+    "reason": "half a 42 g cube for 500 g flour"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-13"
+  },
+  {
+   "key": "baking powder",
+   "names": [
+    "baking powder",
+    "backpulver"
+   ],
+   "references": [
+    "bls:R421100"
+   ],
+   "unit": "teaspoon",
+   "typical": 1,
+   "gramsPerUnit": 4.6,
+   "source": {
+    "kind": "estimate",
+    "reason": "a teaspoon per batch of batter (USDA 1 tsp 4.6 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-13"
+  },
+  {
+   "key": "baking soda",
+   "names": [
+    "baking soda",
+    "bicarbonate of soda",
+    "bicarb",
+    "sodium bicarbonate",
+    "natron",
+    "bicarbonate de soude"
+   ],
+   "references": [
+    "ciqual:11507"
+   ],
+   "unit": "teaspoon",
+   "typical": 1,
+   "gramsPerUnit": 4.6,
+   "source": {
+    "kind": "estimate",
+    "reason": "a teaspoon per batch (USDA 1 tsp 4.6 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-13"
   },
   {
    "key": "balsamic vinegar",
@@ -900,6 +991,27 @@
    "draft": "batch-8"
   },
   {
+   "key": "basmati rice raw",
+   "names": [
+    "basmati rice raw",
+    "basmatireis roh"
+   ],
+   "references": [
+    "cofid:11-857"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 75,
+   "source": {
+    "kind": "estimate",
+    "reason": "raw rice for one plate (aid 60–75 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-13"
+  },
+  {
    "key": "bass sea flesh only raw",
    "names": [
     "bass sea flesh only raw"
@@ -964,6 +1076,32 @@
    "origin": "generated",
    "date": "2026-10-01",
    "draft": "batch-6"
+  },
+  {
+   "key": "bay leaf",
+   "names": [
+    "bay leaf",
+    "bay leaves",
+    "laurel leaf",
+    "lorbeerblatt",
+    "lorbeer",
+    "lorbeerblatter",
+    "laurier feuille"
+   ],
+   "references": [
+    "ciqual:11053"
+   ],
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 0.6,
+   "source": {
+    "kind": "estimate",
+    "reason": "one leaf in a pot (USDA 1 leaf 0.6 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-13"
   },
   {
    "key": "bean sprouts",
@@ -1353,7 +1491,8 @@
     "rindersteak gebraten"
    ],
    "references": [
-    "bls:U131182"
+    "bls:U131182",
+    "bls:U131100"
    ],
    "unit": "piece",
    "typical": 1,
@@ -1486,7 +1625,8 @@
     "bier"
    ],
    "references": [
-    "usda:2710616"
+    "usda:2710616",
+    "bls:P161000"
    ],
    "unit": "bottle",
    "typical": 1,
@@ -1651,7 +1791,8 @@
     "schwarze bohnen"
    ],
    "references": [
-    "usda:2707363"
+    "usda:2707363",
+    "usda:2707359"
    ],
    "unit": "portion",
    "typical": 1,
@@ -1697,6 +1838,7 @@
    ],
    "references": [
     "usda:2710090",
+    "bls:H520800",
     "usda:2710088"
    ],
    "unit": "piece",
@@ -1844,7 +1986,8 @@
     "blauschimmelkase"
    ],
    "references": [
-    "usda:2705705"
+    "usda:2705705",
+    "bls:M502700"
    ],
    "unit": "slice",
    "typical": 1.5,
@@ -1967,11 +2110,10 @@
    ],
    "unit": "slice",
    "typical": 2,
-   "gramsPerUnit": 28,
+   "gramsPerUnit": 15,
    "source": {
-    "kind": "household-measure",
-    "reference": "usda:2706176",
-    "label": "1 slice, NFS"
+    "kind": "estimate",
+    "reason": "a thin slice of Fleischwurst or Lyoner on bread (aid: Wurst 30 g)"
    },
    "typicalSource": "estimate",
    "origin": "generated",
@@ -2181,7 +2323,9 @@
     "weizenvollkornbrotchen"
    ],
    "references": [
-    "bls:B511000"
+    "bls:B511000",
+    "bls:B401000",
+    "bls:B411000"
    ],
    "unit": "piece",
    "typical": 1,
@@ -2194,6 +2338,32 @@
    "origin": "generated",
    "date": "2026-10-01",
    "draft": "batch-1"
+  },
+  {
+   "key": "breadcrumbs",
+   "names": [
+    "breadcrumbs",
+    "bread crumbs",
+    "dried breadcrumbs",
+    "panko",
+    "panko breadcrumbs",
+    "semmelbrosel",
+    "paniermehl"
+   ],
+   "references": [
+    "bls:B821000"
+   ],
+   "unit": "tablespoon",
+   "typical": 2,
+   "gramsPerUnit": 8,
+   "source": {
+    "kind": "estimate",
+    "reason": "the crumbs on one breaded piece"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-12"
   },
   {
    "key": "breaded chicken breast",
@@ -2444,7 +2614,8 @@
     "rosenkohl gekocht"
    ],
    "references": [
-    "bls:G332132"
+    "bls:G332132",
+    "bls:G332100"
    ],
    "unit": "portion",
    "typical": 1,
@@ -2478,6 +2649,27 @@
    "origin": "generated",
    "date": "2026-10-01",
    "draft": "batch-2"
+  },
+  {
+   "key": "buckwheat cooked",
+   "names": [
+    "buckwheat cooked",
+    "buchweizen gekocht"
+   ],
+   "references": [
+    "bls:C320032"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 180,
+   "source": {
+    "kind": "estimate",
+    "reason": "cooked buckwheat as a side, from about 65 g dry (FNDDS 1 cup cooked 170 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-13"
   },
   {
    "key": "buckwheat groats",
@@ -3656,6 +3848,34 @@
    "draft": "batch-6"
   },
   {
+   "key": "cherry tomatoes",
+   "names": [
+    "cherry tomatoes",
+    "kirschtomaten",
+    "cherry tomato",
+    "cocktail tomatoes",
+    "grape tomatoes",
+    "kirschtomate",
+    "cherrytomaten",
+    "cocktailtomaten",
+    "datteltomaten"
+   ],
+   "references": [
+    "cofid:13-519"
+   ],
+   "unit": "piece",
+   "typical": 6,
+   "gramsPerUnit": 17,
+   "source": {
+    "kind": "estimate",
+    "reason": "a handful of cherry tomatoes (USDA 1 cherry tomato 17 g); the plain tomato row keeps its own portion"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-13"
+  },
+  {
    "key": "chia seeds",
    "names": [
     "chia seeds",
@@ -3756,12 +3976,11 @@
     "usda:2706208"
    ],
    "unit": "slice",
-   "typical": 2,
-   "gramsPerUnit": 28,
+   "typical": 3,
+   "gramsPerUnit": 10,
    "source": {
-    "kind": "household-measure",
-    "reference": "usda:2706208",
-    "label": "1 slice, NFS"
+    "kind": "estimate",
+    "reason": "a thin slice of chicken breast cold cuts, three on bread (aid: Wurst 30 g, 1–3 Scheiben)"
    },
    "typicalSource": "estimate",
    "origin": "generated",
@@ -3840,6 +4059,28 @@
    "origin": "generated",
    "date": "2026-10-01",
    "draft": "batch-2"
+  },
+  {
+   "key": "chicken leg raw",
+   "names": [
+    "chicken leg raw",
+    "hahnchenkeule roh",
+    "hahnchenschenkel"
+   ],
+   "references": [
+    "cofid:18-293"
+   ],
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 200,
+   "source": {
+    "kind": "estimate",
+    "reason": "one whole leg, edible part"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-13"
   },
   {
    "key": "chicken meat without skin fried without fat pan",
@@ -3929,6 +4170,27 @@
    "draft": "batch-4"
   },
   {
+   "key": "chicken wings raw",
+   "names": [
+    "chicken wings raw",
+    "hahnchenflugel roh"
+   ],
+   "references": [
+    "bls:V417100"
+   ],
+   "unit": "piece",
+   "typical": 4,
+   "gramsPerUnit": 49,
+   "source": {
+    "kind": "estimate",
+    "reason": "four wings, edible part (USDA 1 wing meat and skin 49 g); about the aid meat portion"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-13"
+  },
+  {
    "key": "chili powder",
    "names": [
     "chili powder",
@@ -3974,7 +4236,8 @@
     "chilipaste"
    ],
    "references": [
-    "bls:R146100"
+    "bls:R146100",
+    "usda:2709735"
    ],
    "unit": "tablespoon",
    "typical": 0.5,
@@ -4105,7 +4368,8 @@
     "chocolate spread"
    ],
    "references": [
-    "bls:S145000"
+    "bls:S145000",
+    "usda:2710289"
    ],
    "unit": "tablespoon",
    "typical": 1,
@@ -4214,7 +4478,8 @@
     "fruchtchutney"
    ],
    "references": [
-    "bls:R144100"
+    "bls:R144100",
+    "usda:2709309"
    ],
    "unit": "tablespoon",
    "typical": 1,
@@ -4383,10 +4648,10 @@
    ],
    "unit": "teaspoon",
    "typical": 2,
-   "gramsPerUnit": 2.5,
+   "gramsPerUnit": 1.8,
    "source": {
     "kind": "estimate",
-    "reason": "two teaspoons of cocoa for a hot drink or porridge"
+    "reason": "two level teaspoons of cocoa for a drink or porridge (FNDDS 1 tbsp 5 g)"
    },
    "typicalSource": "estimate",
    "origin": "generated",
@@ -4906,7 +5171,8 @@
     "dorsch"
    ],
    "references": [
-    "bls:T204172"
+    "bls:T204172",
+    "bls:T204100"
    ],
    "unit": "piece",
    "typical": 1,
@@ -5195,14 +5461,7 @@
    "key": "cooked mixed mince",
    "names": [
     "cooked mixed mince",
-    "beef and pork mince",
-    "mixed ground meat",
-    "hackfleisch gemischt",
-    "mixed mince",
-    "gemischtes hackfleisch gekocht",
-    "gemischtes hack",
-    "gemischtes hackfleisch",
-    "rind schwein hackfleisch gemischt"
+    "gemischtes hackfleisch gekocht"
    ],
    "references": [
     "bls:U050132"
@@ -5907,6 +6166,34 @@
    "date": "2026-10-07"
   },
   {
+   "key": "cornstarch",
+   "names": [
+    "cornstarch",
+    "corn starch",
+    "cornflour",
+    "maize starch",
+    "speisestarke",
+    "maisstarke",
+    "maisstaerke",
+    "mais starke",
+    "mais staerke"
+   ],
+   "references": [
+    "bls:C446000"
+   ],
+   "unit": "tablespoon",
+   "typical": 1,
+   "gramsPerUnit": 8,
+   "source": {
+    "kind": "estimate",
+    "reason": "a tablespoon thickens one sauce (USDA 1 tbsp 8 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-13"
+  },
+  {
    "key": "cottage cheese",
    "names": [
     "cottage cheese",
@@ -6184,7 +6471,8 @@
     "bread croutons"
    ],
    "references": [
-    "usda:2707697"
+    "usda:2707697",
+    "bls:X434442"
    ],
    "unit": "portion",
    "typical": 1,
@@ -6442,6 +6730,7 @@
    ],
    "references": [
     "bls:S560000",
+    "usda:2710336",
     "usda:170273"
    ],
    "unit": "piece",
@@ -6468,7 +6757,8 @@
     "datteln getrocknet"
    ],
    "references": [
-    "bls:F504400"
+    "bls:F504400",
+    "bls:F504100"
    ],
    "unit": "piece",
    "typical": 3,
@@ -6554,6 +6844,27 @@
    "origin": "generated",
    "date": "2026-10-01",
    "draft": "batch-2"
+  },
+  {
+   "key": "dill dried",
+   "names": [
+    "dill dried",
+    "dill getrocknet"
+   ],
+   "references": [
+    "cofid:13-825"
+   ],
+   "unit": "teaspoon",
+   "typical": 1,
+   "gramsPerUnit": 1,
+   "source": {
+    "kind": "estimate",
+    "reason": "USDA 1 tsp dried dill 1 g"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-13"
   },
   {
    "key": "domestic rabbit meat braised without fat",
@@ -7445,6 +7756,32 @@
    "draft": "batch-4"
   },
   {
+   "key": "filo pastry",
+   "names": [
+    "filo pastry",
+    "phyllo",
+    "phyllo dough",
+    "filo",
+    "yufka",
+    "strudel dough",
+    "filoteig"
+   ],
+   "references": [
+    "ciqual:23445"
+   ],
+   "unit": "piece",
+   "typical": 2,
+   "gramsPerUnit": 25,
+   "source": {
+    "kind": "estimate",
+    "reason": "two sheets of a 250 g ten-sheet pack"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-13"
+  },
+  {
    "key": "firm tofu",
    "names": [
     "firm tofu",
@@ -7454,7 +7791,8 @@
     "bean curd"
    ],
    "references": [
-    "bls:H861000"
+    "bls:H861000",
+    "bls:H861032"
    ],
    "unit": "portion",
    "typical": 1,
@@ -7480,11 +7818,11 @@
     "bls:Y695112"
    ],
    "unit": "piece",
-   "typical": 2,
+   "typical": 5,
    "gramsPerUnit": 30,
    "source": {
     "kind": "estimate",
-    "reason": "one fried fish finger; two on a plate"
+    "reason": "one fish finger; five on a plate (aid: Fisch 150–200 g)"
    },
    "typicalSource": "estimate",
    "origin": "generated",
@@ -7671,7 +8009,8 @@
     "frank"
    ],
    "references": [
-    "bls:W211200"
+    "bls:W211200",
+    "bls:W213000"
    ],
    "unit": "piece",
    "typical": 2,
@@ -8144,6 +8483,54 @@
    "draft": "batch-6"
   },
   {
+   "key": "gelatine",
+   "names": [
+    "gelatine",
+    "gelatin",
+    "gelatine sheets",
+    "gelatin powder"
+   ],
+   "references": [
+    "bls:R468000"
+   ],
+   "unit": "piece",
+   "typical": 2,
+   "gramsPerUnit": 1.7,
+   "source": {
+    "kind": "estimate",
+    "reason": "two leaves of gelatine, one person's share of a dessert set with six"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-13"
+  },
+  {
+   "key": "gemischtes hack",
+   "names": [
+    "gemischtes hack",
+    "gemischtes hackfleisch",
+    "hackfleisch gemischt",
+    "rind schwein hackfleisch gemischt",
+    "rind schwein hackfleisch gemischt roh",
+    "mixed mince"
+   ],
+   "references": [
+    "bls:U050100"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 125,
+   "source": {
+    "kind": "estimate",
+    "reason": "raw mince for one person (aid 125 g); the boiled row keeps its own portion"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-13"
+  },
+  {
    "key": "ghee",
    "names": [
     "ghee",
@@ -8253,6 +8640,28 @@
    "origin": "generated",
    "date": "2026-10-01",
    "draft": "batch-6"
+  },
+  {
+   "key": "glass noodles raw",
+   "names": [
+    "glass noodles raw",
+    "glass noodles mung bean uncooked",
+    "glasnudeln roh"
+   ],
+   "references": [
+    "bls:H030400"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 50,
+   "source": {
+    "kind": "estimate",
+    "reason": "dry glass noodles for one bowl"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-13"
   },
   {
    "key": "gluten free toast",
@@ -8532,7 +8941,8 @@
     "griechischer joghurt"
    ],
    "references": [
-    "usda:2705422"
+    "usda:2705422",
+    "cofid:12-555"
    ],
    "unit": "portion",
    "typical": 1,
@@ -8679,6 +9089,27 @@
    "origin": "generated",
    "date": "2026-10-01",
    "draft": "batch-2"
+  },
+  {
+   "key": "green peas raw",
+   "names": [
+    "green peas raw",
+    "grune erbsen roh"
+   ],
+   "references": [
+    "cofid:13-438"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 100,
+   "source": {
+    "kind": "estimate",
+    "reason": "a vegetable side"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-13"
   },
   {
    "key": "green salsa",
@@ -9466,7 +9897,8 @@
     "kartoffelrosti"
    ],
    "references": [
-    "usda:2709483"
+    "usda:2709483",
+    "bls:X656362"
    ],
    "unit": "piece",
    "typical": 2,
@@ -9719,7 +10151,8 @@
     "frozen raspberries"
    ],
    "references": [
-    "usda:2709281"
+    "usda:2709281",
+    "bls:F302100"
    ],
    "unit": "portion",
    "typical": 1,
@@ -9801,7 +10234,8 @@
     "hollandaise sauce"
    ],
    "references": [
-    "usda:2710171"
+    "usda:2710171",
+    "bls:X371043"
    ],
    "unit": "tablespoon",
    "typical": 3,
@@ -9862,6 +10296,31 @@
    "origin": "generated",
    "date": "2026-10-01",
    "draft": "batch-4"
+  },
+  {
+   "key": "hot chocolate",
+   "names": [
+    "hot chocolate",
+    "heiße schokolade",
+    "hot cocoa",
+    "kakao",
+    "trinkschokolade",
+    "kakao mit milch"
+   ],
+   "references": [
+    "usda:2705473"
+   ],
+   "unit": "cup",
+   "typical": 1,
+   "milliliters": 250,
+   "source": {
+    "kind": "estimate",
+    "reason": "one mug (USDA 1 cup 248 ml)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-13"
   },
   {
    "key": "hot chocolate powder",
@@ -9941,7 +10400,8 @@
     "hummus dip"
    ],
    "references": [
-    "usda:2707402"
+    "usda:2707402",
+    "bls:H960000"
    ],
    "unit": "tablespoon",
    "typical": 2,
@@ -9989,14 +10449,15 @@
    ],
    "references": [
     "bls:N019000",
-    "usda:2710512"
+    "usda:2710512",
+    "usda:2710527"
    ],
    "unit": "glass",
    "typical": 1,
-   "milliliters": 250,
+   "milliliters": 300,
    "source": {
     "kind": "estimate",
-    "reason": "a regular drinking glass"
+    "reason": "a large glass of iced tea (aid: 1 Glas 280 ml)"
    },
    "typicalSource": "estimate",
    "origin": "reviewed",
@@ -10119,6 +10580,27 @@
    "draft": "batch-1"
   },
   {
+   "key": "jasmine rice raw",
+   "names": [
+    "jasmine rice raw",
+    "jasminreis roh"
+   ],
+   "references": [
+    "cofid:11-874"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 75,
+   "source": {
+    "kind": "estimate",
+    "reason": "raw rice for one plate (aid 60–75 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-13"
+  },
+  {
    "key": "joghurt natur",
    "names": [
     "joghurt natur"
@@ -10150,10 +10632,10 @@
    ],
    "unit": "portion",
    "typical": 1,
-   "gramsPerUnit": 150,
+   "gramsPerUnit": 100,
    "source": {
     "kind": "estimate",
-    "reason": "raw veal for one person"
+    "reason": "cooked veal mince from about 125 g raw (FNDDS 1 patty 85 g)"
    },
    "typicalSource": "estimate",
    "origin": "generated",
@@ -10488,7 +10970,8 @@
     "catsup"
    ],
    "references": [
-    "bls:R141100"
+    "bls:R141100",
+    "usda:2709733"
    ],
    "unit": "tablespoon",
    "typical": 2,
@@ -11105,7 +11588,8 @@
     "salat"
    ],
    "references": [
-    "bls:G105100"
+    "bls:G105100",
+    "bls:X201160"
    ],
    "unit": "portion",
    "typical": 1,
@@ -11284,7 +11768,8 @@
     "liver sausage"
    ],
    "references": [
-    "cofid:19-106"
+    "cofid:19-106",
+    "bls:W310000"
    ],
    "unit": "slice",
    "typical": 2,
@@ -11661,6 +12146,27 @@
    "draft": "batch-4"
   },
   {
+   "key": "marjoram dried",
+   "names": [
+    "marjoram dried",
+    "majoran getrocknet"
+   ],
+   "references": [
+    "ciqual:11034"
+   ],
+   "unit": "teaspoon",
+   "typical": 1,
+   "gramsPerUnit": 0.6,
+   "source": {
+    "kind": "estimate",
+    "reason": "USDA 1 tsp dried marjoram 0.6 g"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-13"
+  },
+  {
    "key": "marzipan",
    "names": [
     "marzipan"
@@ -11846,7 +12352,8 @@
     "aioli"
    ],
    "references": [
-    "usda:2710204"
+    "usda:2710204",
+    "bls:Q991000"
    ],
    "unit": "tablespoon",
    "typical": 1,
@@ -11957,7 +12464,8 @@
     "mettwurst"
    ],
    "references": [
-    "bls:W151000"
+    "bls:W151000",
+    "bls:W110000"
    ],
    "unit": "slice",
    "typical": 4,
@@ -12180,6 +12688,28 @@
    "draft": "batch-4"
   },
   {
+   "key": "mixed berries frozen",
+   "names": [
+    "beerenmischung tiefgekuhlt",
+    "tk beeren",
+    "tiefgekuhlte beeren"
+   ],
+   "references": [
+    "usda:2709272"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 125,
+   "source": {
+    "kind": "estimate",
+    "reason": "a bowl of berries (aid 125 g fruit)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-13"
+  },
+  {
    "key": "mixed nuts",
    "names": [
     "mixed nuts",
@@ -12282,15 +12812,15 @@
     "mozzarella cheese"
    ],
    "references": [
-    "usda:2705722"
+    "usda:2705722",
+    "bls:M0A1000"
    ],
-   "unit": "slice",
-   "typical": 2,
-   "gramsPerUnit": 21,
+   "unit": "piece",
+   "typical": 0.5,
+   "gramsPerUnit": 125,
    "source": {
-    "kind": "household-measure",
-    "reference": "usda:2705722",
-    "label": "1 slice"
+    "kind": "estimate",
+    "reason": "half a 125 g ball of fresh mozzarella"
    },
    "typicalSource": "estimate",
    "origin": "generated",
@@ -12574,11 +13104,11 @@
     "usda:2707613"
    ],
    "unit": "piece",
-   "typical": 2,
-   "gramsPerUnit": 44,
+   "typical": 1,
+   "gramsPerUnit": 120,
    "source": {
     "kind": "estimate",
-    "reason": "source piece is a quarter of a 10-inch naan; two make a typical serving"
+    "reason": "one whole naan with a curry (German packs of two at 240–260 g)"
    },
    "typicalSource": "estimate",
    "origin": "generated",
@@ -13245,6 +13775,30 @@
    "draft": "batch-1"
   },
   {
+   "key": "paprikapulver",
+   "names": [
+    "paprikapulver",
+    "paprika pulver",
+    "paprika powder",
+    "paprika poudre",
+    "spices paprika"
+   ],
+   "references": [
+    "ciqual:11049"
+   ],
+   "unit": "teaspoon",
+   "typical": 1,
+   "gramsPerUnit": 2.3,
+   "source": {
+    "kind": "estimate",
+    "reason": "a teaspoon of paprika seasons one dish (USDA 1 tsp 2.3 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-13"
+  },
+  {
    "key": "parmesan",
    "names": [
     "parmesan",
@@ -13307,10 +13861,10 @@
    ],
    "unit": "teaspoon",
    "typical": 0.5,
-   "gramsPerUnit": 1,
+   "gramsPerUnit": 0.5,
    "source": {
     "kind": "estimate",
-    "reason": "a pinch of dried herb"
+    "reason": "a pinch of dried herb (USDA SR 1 tsp 0.5 g)"
    },
    "typicalSource": "estimate",
    "origin": "generated",
@@ -13364,6 +13918,34 @@
    "origin": "generated",
    "date": "2026-10-01",
    "draft": "batch-4"
+  },
+  {
+   "key": "pasta cooked",
+   "names": [
+    "nudeln gekocht",
+    "lasagne sheets",
+    "lasagna sheets",
+    "lasagneplatten",
+    "nudelplatten",
+    "noodles",
+    "noodle",
+    "nudeln",
+    "pasta gekocht"
+   ],
+   "references": [
+    "usda:2708357"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 220,
+   "source": {
+    "kind": "estimate",
+    "reason": "a plate of cooked pasta, as the wholemeal pasta row (75 g dry)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-13"
   },
   {
    "key": "pastrami nfs",
@@ -13600,11 +14182,11 @@
     "bls:X372012"
    ],
    "unit": "tablespoon",
-   "typical": 2,
-   "gramsPerUnit": 15,
+   "typical": 3,
+   "gramsPerUnit": 16,
    "source": {
     "kind": "estimate",
-    "reason": "stirred through one plate of pasta"
+    "reason": "stirred through one plate of pasta (FNDDS 1 tbsp 16 g)"
    },
    "typicalSource": "estimate",
    "origin": "generated",
@@ -13713,11 +14295,10 @@
    ],
    "unit": "piece",
    "typical": 1,
-   "gramsPerUnit": 80,
+   "gramsPerUnit": 40,
    "source": {
-    "kind": "household-measure",
-    "reference": "usda:2710078",
-    "label": "1 regular"
+    "kind": "estimate",
+    "reason": "one German Gewürzgurke (wikifit 30–50 g; FNDDS spear 40 g)"
    },
    "typicalSource": "estimate",
    "origin": "generated",
@@ -13797,7 +14378,8 @@
     "pinienkerne"
    ],
    "references": [
-    "bls:H320100"
+    "bls:H320100",
+    "usda:2707526"
    ],
    "unit": "tablespoon",
    "typical": 2,
@@ -14510,6 +15092,27 @@
    "draft": "batch-6"
   },
   {
+   "key": "pork mince raw",
+   "names": [
+    "pork mince raw",
+    "schweinehackfleisch roh"
+   ],
+   "references": [
+    "bls:U020100"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 125,
+   "source": {
+    "kind": "estimate",
+    "reason": "raw mince for one person (aid 125 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-13"
+  },
+  {
    "key": "pork neck cooked cured smoked",
    "names": [
     "pork neck cooked cured smoked",
@@ -14571,6 +15174,28 @@
    "origin": "generated",
    "date": "2026-10-01",
    "draft": "batch-6"
+  },
+  {
+   "key": "pork raw",
+   "names": [
+    "pork raw",
+    "pork meat raw",
+    "schweinefleisch roh"
+   ],
+   "references": [
+    "bls:U601000"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 150,
+   "source": {
+    "kind": "estimate",
+    "reason": "raw pork for one person (aid 150 g meat)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-13"
   },
   {
    "key": "pork ribs",
@@ -14703,6 +15328,27 @@
    "draft": "batch-5"
   },
   {
+   "key": "pork tenderloin raw",
+   "names": [
+    "pork tenderloin raw",
+    "schweinefilet roh"
+   ],
+   "references": [
+    "bls:U611100"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 150,
+   "source": {
+    "kind": "estimate",
+    "reason": "raw fillet for one person (aid 150 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-13"
+  },
+  {
    "key": "porridge",
    "names": [
     "porridge",
@@ -14731,6 +15377,28 @@
    "draft": "batch-1"
   },
   {
+   "key": "potato crisps",
+   "names": [
+    "potato crisps",
+    "kartoffelchips",
+    "crisps"
+   ],
+   "references": [
+    "bls:K280100"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 30,
+   "source": {
+    "kind": "estimate",
+    "reason": "a small bag or a bowl (aid 30 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-13"
+  },
+  {
    "key": "potato dumplings",
    "names": [
     "potato dumplings",
@@ -14741,7 +15409,8 @@
     "kartoffelkloße"
    ],
    "references": [
-    "bls:X673042"
+    "bls:X673042",
+    "bls:E608032"
    ],
    "unit": "piece",
    "typical": 2,
@@ -15007,6 +15676,29 @@
    "draft": "batch-6"
   },
   {
+   "key": "puff pastry",
+   "names": [
+    "puff pastry",
+    "blatterteig",
+    "puff pastry sheet",
+    "rough puff pastry"
+   ],
+   "references": [
+    "bls:D072000"
+   ],
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 70,
+   "source": {
+    "kind": "estimate",
+    "reason": "one turnover, a quarter of a 275 g sheet"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-13"
+  },
+  {
    "key": "pumpernickel",
    "names": [
     "pumpernickel"
@@ -15233,11 +15925,11 @@
     "bls:M307700"
    ],
    "unit": "slice",
-   "typical": 3,
+   "typical": 5,
    "gramsPerUnit": 30,
    "source": {
     "kind": "estimate",
-    "reason": "a raclette slice; an evening uses a few"
+    "reason": "a raclette slice; a raclette evening uses about 150 g per person"
    },
    "typicalSource": "estimate",
    "origin": "generated",
@@ -15254,11 +15946,11 @@
     "bls:M307700"
    ],
    "unit": "slice",
-   "typical": 6,
+   "typical": 5,
    "gramsPerUnit": 30,
    "source": {
     "kind": "estimate",
-    "reason": "one raclette slice; about 180 g at a raclette meal"
+    "reason": "a raclette slice; a raclette evening uses about 150 g per person"
    },
    "typicalSource": "estimate",
    "origin": "generated",
@@ -15319,7 +16011,8 @@
     "rapsoel"
    ],
    "references": [
-    "usda:2710188"
+    "usda:2710188",
+    "bls:Q180000"
    ],
    "unit": "tablespoon",
    "typical": 1,
@@ -15443,12 +16136,6 @@
     "paprika vegetable",
     "rote paprika",
     "paprika",
-    "sweet paprika",
-    "smoked paprika",
-    "paprika powder",
-    "pimenton",
-    "hot paprika",
-    "paprikapulver",
     "gemusepaprika",
     "gemuesepaprika",
     "paprikaschote",
@@ -15456,10 +16143,7 @@
     "sweet peppers",
     "paprika rot",
     "gemusepaprika rot",
-    "red sweet pepper",
-    "paprika pulver",
-    "paprika poudre",
-    "spices paprika"
+    "red sweet pepper"
    ],
    "references": [
     "bls:G543100"
@@ -15505,6 +16189,46 @@
    "origin": "generated",
    "date": "2026-10-01",
    "draft": "batch-2"
+  },
+  {
+   "key": "red cabbage",
+   "names": [],
+   "references": [
+    "bls:G341100",
+    "bls:G341152"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 150,
+   "source": {
+    "kind": "estimate",
+    "reason": "a vegetable side of braised red cabbage"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-12"
+  },
+  {
+   "key": "red cabbage with apple",
+   "names": [
+    "red cabbage with apple",
+    "rotkohl mit apfel"
+   ],
+   "references": [
+    "bls:X537063"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 150,
+   "source": {
+    "kind": "estimate",
+    "reason": "a vegetable side (aid 150 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-13"
   },
   {
    "key": "red chili",
@@ -15791,6 +16515,28 @@
    "origin": "generated",
    "date": "2026-10-01",
    "draft": "batch-6"
+  },
+  {
+   "key": "rice noodles raw",
+   "names": [
+    "rice noodles raw",
+    "rice noodles uncooked",
+    "reisnudeln roh"
+   ],
+   "references": [
+    "bls:C559000"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 70,
+   "source": {
+    "kind": "estimate",
+    "reason": "dry rice noodles for one bowl (FNDDS: 1 oz dry yields 100 g cooked)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-13"
   },
   {
    "key": "rice paper",
@@ -16409,7 +17155,8 @@
     "kartoffeln im ofen gerostet"
    ],
    "references": [
-    "cofid:13-534"
+    "cofid:13-534",
+    "usda:2709405"
    ],
    "unit": "portion",
    "typical": 1,
@@ -16611,6 +17358,27 @@
    "draft": "batch-2"
   },
   {
+   "key": "rosemary dried",
+   "names": [
+    "rosemary dried",
+    "rosmarin getrocknet"
+   ],
+   "references": [
+    "cofid:13-882"
+   ],
+   "unit": "teaspoon",
+   "typical": 1,
+   "gramsPerUnit": 1.2,
+   "source": {
+    "kind": "estimate",
+    "reason": "USDA 1 tsp dried rosemary 1.2 g"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-13"
+  },
+  {
    "key": "rosinen",
    "names": [
     "rosinen",
@@ -16704,7 +17472,8 @@
     "rum"
    ],
    "references": [
-    "usda:2710703"
+    "usda:2710703",
+    "bls:P741000"
    ],
    "unit": "glass",
    "typical": 1,
@@ -16926,7 +17695,9 @@
     "table salt",
     "sea salt"
    ],
-   "references": [],
+   "references": [
+    "usda:173468"
+   ],
    "unit": "teaspoon",
    "typical": 0.25,
    "gramsPerUnit": 6,
@@ -17645,7 +18416,8 @@
     "shiitake pilze"
    ],
    "references": [
-    "bls:K724100"
+    "bls:K724100",
+    "bls:K724902"
    ],
    "unit": "piece",
    "typical": 4,
@@ -17697,6 +18469,33 @@
    "origin": "generated",
    "date": "2026-10-01",
    "draft": "batch-1"
+  },
+  {
+   "key": "shortcrust pastry",
+   "names": [
+    "shortcrust pastry",
+    "pie crust",
+    "pastry dough",
+    "murbeteig",
+    "tart pastry",
+    "shortcrust pastry cooked",
+    "shortcrust pastry baked",
+    "murbeteig gebacken"
+   ],
+   "references": [
+    "cofid:11-1052"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 50,
+   "source": {
+    "kind": "estimate",
+    "reason": "the pastry in one slice of tart or quiche"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-13"
   },
   {
    "key": "shrimp fried",
@@ -17778,7 +18577,8 @@
     "milk fat free skim"
    ],
    "references": [
-    "usda:2705388"
+    "usda:2705388",
+    "bls:M111100"
    ],
    "unit": "glass",
    "typical": 1,
@@ -18152,7 +18952,8 @@
     "mixed wheat bread"
    ],
    "references": [
-    "bls:B251000"
+    "bls:B251000",
+    "usda:2707646"
    ],
    "unit": "slice",
    "typical": 2,
@@ -18222,6 +19023,30 @@
    "draft": "batch-1"
   },
   {
+   "key": "soybeans cooked",
+   "names": [
+    "soybeans cooked",
+    "soybean cooked",
+    "sojabohnen gekocht",
+    "soybeans",
+    "sojabohnen"
+   ],
+   "references": [
+    "bls:G750432"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 100,
+   "source": {
+    "kind": "estimate",
+    "reason": "a bowl of shelled edamame"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-13"
+  },
+  {
    "key": "sparkling water",
    "names": [
     "sparkling water",
@@ -18286,7 +19111,8 @@
     "spinat"
    ],
    "references": [
-    "bls:G211100"
+    "bls:G211100",
+    "cofid:13-521"
    ],
    "unit": "portion",
    "typical": 1,
@@ -18430,7 +19256,8 @@
     "zucker"
    ],
    "references": [
-    "usda:2710258"
+    "usda:2710258",
+    "ciqual:31016"
    ],
    "unit": "teaspoon",
    "typical": 1,
@@ -18502,7 +19329,8 @@
     "sonnenblumenoel"
    ],
    "references": [
-    "usda:2710192"
+    "usda:2710192",
+    "bls:Q320000"
    ],
    "unit": "tablespoon",
    "typical": 1,
@@ -19039,9 +19867,7 @@
     "thinly sliced beef raw",
     "rindfleisch dunn geschnitten roh"
    ],
-   "references": [
-    "bls:U131100"
-   ],
+   "references": [],
    "unit": "portion",
    "typical": 1,
    "gramsPerUnit": 120,
@@ -19156,7 +19982,8 @@
     "weizentoastbrot buttertoastbrot getoastet"
    ],
    "references": [
-    "bls:B314072"
+    "bls:B314072",
+    "usda:2707599"
    ],
    "unit": "slice",
    "typical": 2,
@@ -19199,8 +20026,6 @@
     "tomato",
     "tomatoes",
     "fresh tomato",
-    "cherry tomatoes",
-    "cherry tomato",
     "plum tomato",
     "plum tomatoes",
     "roma tomatoes",
@@ -19308,7 +20133,8 @@
     "tomatensauce"
    ],
    "references": [
-    "bls:X331353"
+    "bls:X331353",
+    "bls:X321813"
    ],
    "unit": "portion",
    "typical": 1,
@@ -19452,6 +20278,27 @@
    "draft": "batch-5"
   },
   {
+   "key": "trout raw",
+   "names": [
+    "trout raw",
+    "forelle roh"
+   ],
+   "references": [
+    "bls:T422100"
+   ],
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 200,
+   "source": {
+    "kind": "estimate",
+    "reason": "one gutted trout, edible part"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-13"
+  },
+  {
    "key": "trout smoked",
    "names": [
     "trout smoked",
@@ -19550,12 +20397,11 @@
     "cofid:19-543"
    ],
    "unit": "slice",
-   "typical": 2,
-   "gramsPerUnit": 28,
+   "typical": 3,
+   "gramsPerUnit": 12,
    "source": {
-    "kind": "household-measure",
-    "reference": "usda:2706215",
-    "label": "1 slice, NFS"
+    "kind": "estimate",
+    "reason": "a thin German deli slice, three on bread (aid: Wurst 30 g, 1–3 Scheiben)"
    },
    "typicalSource": "estimate",
    "origin": "generated",
@@ -19621,11 +20467,11 @@
     "cofid:12-547"
    ],
    "unit": "tablespoon",
-   "typical": 2,
-   "gramsPerUnit": 18,
+   "typical": 4,
+   "gramsPerUnit": 15,
    "source": {
     "kind": "estimate",
-    "reason": "a spoonful with gyros or bread"
+    "reason": "a small bowl beside gyros or bread (FNDDS 1 tbsp 15 g, unspecified 60 g)"
    },
    "typicalSource": "estimate",
    "origin": "generated",
@@ -19665,7 +20511,8 @@
     "vanilleeis"
    ],
    "references": [
-    "bls:S241000"
+    "bls:S241000",
+    "cofid:12-508"
    ],
    "unit": "portion",
    "typical": 1,
@@ -20336,7 +21183,8 @@
     "fresh wasabi"
    ],
    "references": [
-    "bls:G693100"
+    "bls:G693100",
+    "bls:R913000"
    ],
    "unit": "teaspoon",
    "typical": 0.5,
@@ -20563,7 +21411,8 @@
     "weisse bohnen"
    ],
    "references": [
-    "bls:H740132"
+    "bls:H740132",
+    "usda:2707353"
    ],
    "unit": "portion",
    "typical": 1,
@@ -20593,7 +21442,8 @@
     "white bread wheat bread"
    ],
    "references": [
-    "bls:B311000"
+    "bls:B311000",
+    "usda:2707598"
    ],
    "unit": "slice",
    "typical": 2,

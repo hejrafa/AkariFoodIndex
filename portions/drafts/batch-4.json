@@ -23,7 +23,9 @@
    "gramsPerUnit": 4,
    "typical": 6,
    "reason": "one pitted black olive",
-   "includeReferences": ["usda:2710088"]
+   "includeReferences": [
+    "usda:2710088"
+   ]
   },
   {
    "key": "green olives",
@@ -42,9 +44,10 @@
   {
    "key": "pickles",
    "unit": "piece",
-   "gramsPerUnit": 60,
+   "gramsPerUnit": 40,
    "typical": 1,
-   "reason": "one medium dill pickle"
+   "reason": "one German Gewürzgurke (wikifit 30–50 g; FNDDS spear 40 g)",
+   "ignoreMeasures": "US regular dill pickle 80 g; a German Gewürzgurke is 30–50 g"
   },
   {
    "key": "pickled ginger",
@@ -129,7 +132,11 @@
   },
   {
    "key": "gelatine",
-   "skip": "a setting agent used only inside desserts"
+   "skip": "a setting agent used only inside desserts",
+   "unit": "piece",
+   "typical": 2,
+   "gramsPerUnit": 1.7,
+   "reason": "two leaves of gelatine, one person's share of a dessert set with six"
   },
   {
    "key": "vegetable oil",
@@ -260,9 +267,9 @@
   {
    "key": "pesto",
    "unit": "tablespoon",
-   "gramsPerUnit": 15,
-   "typical": 2,
-   "reason": "stirred through one plate of pasta"
+   "gramsPerUnit": 16,
+   "typical": 3,
+   "reason": "stirred through one plate of pasta (FNDDS 1 tbsp 16 g)"
   },
   {
    "key": "tomato salsa",
@@ -288,9 +295,9 @@
   {
    "key": "tzatziki",
    "unit": "tablespoon",
-   "gramsPerUnit": 18,
-   "typical": 2,
-   "reason": "a spoonful with gyros or bread"
+   "gramsPerUnit": 15,
+   "typical": 4,
+   "reason": "a small bowl beside gyros or bread (FNDDS 1 tbsp 15 g, unspecified 60 g)"
   },
   {
    "key": "tomato sauce",
@@ -812,7 +819,11 @@
   },
   {
    "key": "shortcrust pastry",
-   "skip": "a pastry case that is part of pies and tarts"
+   "skip": "a pastry case that is part of pies and tarts",
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 50,
+   "reason": "the pastry in one slice of tart or quiche"
   },
   {
    "key": "sweet shortcrust pastry",

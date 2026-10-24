@@ -62,9 +62,9 @@
   {
    "key": "sub roll",
    "unit": "piece",
-   "gramsPerUnit": 100,
+   "gramsPerUnit": 73,
    "typical": 1,
-   "reason": "a medium 20 cm submarine roll"
+   "reason": "a 15 cm sub roll (FNDDS 1 small 73 g)"
   },
   {
    "key": "brioche",
@@ -83,9 +83,9 @@
   {
    "key": "naan",
    "unit": "piece",
-   "gramsPerUnit": 44,
-   "typical": 2,
-   "reason": "source piece is a quarter of a 10-inch naan; two make a typical serving"
+   "gramsPerUnit": 120,
+   "typical": 1,
+   "reason": "one whole naan with a curry (German packs of two at 240–260 g)"
   },
   {
    "key": "chapati",
@@ -197,9 +197,10 @@
   {
    "key": "turkey deli slices",
    "unit": "slice",
-   "gramsPerUnit": 20,
-   "typical": 2,
-   "reason": "a deli slice of turkey breast"
+   "gramsPerUnit": 12,
+   "typical": 3,
+   "reason": "a thin German deli slice, three on bread (aid: Wurst 30 g, 1–3 Scheiben)",
+   "ignoreMeasures": "US slice NFS 28 g; German cold-cut slices are about 12 g"
   },
   {
    "key": "roast duck",
@@ -457,8 +458,8 @@
    "key": "fish fingers",
    "unit": "piece",
    "gramsPerUnit": 30,
-   "typical": 2,
-   "reason": "one fried fish finger; two on a plate",
+   "typical": 5,
+   "reason": "one fish finger; five on a plate (aid: Fisch 150–200 g)",
    "includeReferences": [
     "bls:Y695112"
    ]
@@ -622,10 +623,10 @@
   },
   {
    "key": "mozzarella",
-   "unit": "slice",
-   "gramsPerUnit": 21,
-   "typical": 2,
-   "reason": "a slice or a small handful shredded"
+   "unit": "piece",
+   "gramsPerUnit": 125,
+   "typical": 0.5,
+   "reason": "half a 125 g ball of fresh mozzarella"
   },
   {
    "key": "fresh mozzarella",

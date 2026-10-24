@@ -106,6 +106,10 @@
     {
      "id": "usda:2709281",
      "name": "Raspberries, raw"
+    },
+    {
+     "id": "bls:F302100",
+     "name": "Raspberry raw"
     }
    ],
    "measures": [
@@ -427,6 +431,10 @@
     {
      "id": "bls:F504400",
      "name": "Date dried"
+    },
+    {
+     "id": "bls:F504100",
+     "name": "Date raw"
     }
    ],
    "measures": []
@@ -664,8 +672,6 @@
     "tomato",
     "tomatoes",
     "fresh tomato",
-    "cherry tomatoes",
-    "cherry tomato",
     "plum tomato",
     "plum tomatoes",
     "roma tomatoes",
@@ -1040,6 +1046,10 @@
     {
      "id": "bls:B311000",
      "name": "White bread/wheat bread"
+    },
+    {
+     "id": "usda:2707598",
+     "name": "Bread, white"
     }
    ],
    "measures": []
@@ -1068,6 +1078,10 @@
     {
      "id": "bls:B314072",
      "name": "Wheat toast/butter toast, toasted"
+    },
+    {
+     "id": "usda:2707599",
+     "name": "Bread, white, toasted"
     }
    ],
    "measures": []
@@ -1140,6 +1154,14 @@
     {
      "id": "bls:B511000",
      "name": "Wheat roll"
+    },
+    {
+     "id": "bls:B401000",
+     "name": "Wholemeal roll"
+    },
+    {
+     "id": "bls:B411000",
+     "name": "Wholemeal wheat roll"
     }
    ],
    "measures": []
@@ -1664,12 +1686,6 @@
     "paprika vegetable",
     "rote paprika",
     "paprika",
-    "sweet paprika",
-    "smoked paprika",
-    "paprika powder",
-    "pimenton",
-    "hot paprika",
-    "paprikapulver",
     "gemusepaprika",
     "gemuesepaprika",
     "paprikaschote",
@@ -1677,10 +1693,7 @@
     "sweet peppers",
     "paprika rot",
     "gemusepaprika rot",
-    "red sweet pepper",
-    "paprika pulver",
-    "paprika poudre",
-    "spices paprika"
+    "red sweet pepper"
    ],
    "origins": [
     "generic-search",
@@ -1691,10 +1704,6 @@
     {
      "id": "bls:G543100",
      "name": "Sweet pepper red, raw"
-    },
-    {
-     "id": "ciqual:11049",
-     "name": "Paprika, poudre"
     }
    ],
    "measures": []
@@ -1775,6 +1784,10 @@
     {
      "id": "bls:G105100",
      "name": "Butterhead lettuce raw"
+    },
+    {
+     "id": "bls:X201160",
+     "name": "Mixed salad without salad marinade"
     }
    ],
    "measures": []
@@ -1989,6 +2002,10 @@
     {
      "id": "usda:2707402",
      "name": "Hummus, plain"
+    },
+    {
+     "id": "bls:H960000",
+     "name": "Hummus/chickpea puree"
     }
    ],
    "measures": [
@@ -2535,7 +2552,12 @@
     "generic-search",
     "search-examples"
    ],
-   "references": [],
+   "references": [
+    {
+     "id": "usda:173468",
+     "name": "Salt, table"
+    }
+   ],
    "measures": []
   },
   {
@@ -3027,6 +3049,28 @@
    "measures": []
   },
   {
+   "key": "paprikapulver",
+   "names": [
+    "paprikapulver",
+    "paprika pulver",
+    "paprika powder",
+    "paprika poudre",
+    "spices paprika"
+   ],
+   "origins": [
+    "generic-search",
+    "search-examples",
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "ciqual:11049",
+     "name": "Paprika, poudre"
+    }
+   ],
+   "measures": []
+  },
+  {
    "key": "cooked wholewheat pasta",
    "names": [
     "cooked wholewheat pasta",
@@ -3237,6 +3281,10 @@
     {
      "id": "usda:2707363",
      "name": "Black beans, from canned, no added fat"
+    },
+    {
+     "id": "usda:2707359",
+     "name": "Black beans, NFS"
     }
    ],
    "measures": [
@@ -3269,6 +3317,10 @@
     {
      "id": "bls:H740132",
      "name": "Haricot bean mature, boiled"
+    },
+    {
+     "id": "usda:2707353",
+     "name": "White beans, NFS"
     }
    ],
    "measures": []
@@ -3515,16 +3567,8 @@
    "key": "cooked mixed mince",
    "names": [
     "cooked mixed mince",
-    "beef and pork mince",
-    "mixed ground meat",
-    "hackfleisch gemischt",
-    "mixed mince",
     "mixed mince cooked",
-    "gemischtes hackfleisch gekocht",
-    "gemischtes hack",
-    "gemischtes hackfleisch",
-    "rind schwein hackfleisch gemischt",
-    "schwein rind hackfleisch gemischt"
+    "gemischtes hackfleisch gekocht"
    ],
    "origins": [
     "generic-search",
@@ -3738,6 +3782,10 @@
     {
      "id": "bls:T204172",
      "name": "Cod grilled"
+    },
+    {
+     "id": "bls:T204100",
+     "name": "Cod raw"
     }
    ],
    "measures": []
@@ -3895,6 +3943,10 @@
     {
      "id": "usda:2705388",
      "name": "Milk, fat free (skim)"
+    },
+    {
+     "id": "bls:M111100",
+     "name": "Milk skimmed, fresh, max. 0.1 % fat, pasteurised"
     }
    ],
    "measures": [
@@ -3991,6 +4043,10 @@
     {
      "id": "usda:2705422",
      "name": "Yogurt, Greek, whole milk, plain"
+    },
+    {
+     "id": "cofid:12-555",
+     "name": "Yogurt, Greek style, plain"
     }
    ],
    "measures": [
@@ -4241,6 +4297,10 @@
     {
      "id": "bls:G211100",
      "name": "Spinach raw"
+    },
+    {
+     "id": "cofid:13-521",
+     "name": "Spinach, baby, raw"
     }
    ],
    "measures": []
@@ -4383,6 +4443,10 @@
     {
      "id": "bls:G332132",
      "name": "Brussels sprouts boiled"
+    },
+    {
+     "id": "bls:G332100",
+     "name": "Brussels sprouts raw"
     }
    ],
    "measures": []
@@ -4862,6 +4926,10 @@
     {
      "id": "usda:2710192",
      "name": "Sunflower oil"
+    },
+    {
+     "id": "bls:Q320000",
+     "name": "Sunflower oil"
     }
    ],
    "measures": [
@@ -4893,6 +4961,10 @@
     {
      "id": "usda:2710188",
      "name": "Canola oil"
+    },
+    {
+     "id": "bls:Q180000",
+     "name": "Rapeseed oil/canola oil"
     }
    ],
    "measures": [
@@ -5079,6 +5151,10 @@
     {
      "id": "bls:S560000",
      "name": "Bittersweet/semisweet chocolate"
+    },
+    {
+     "id": "usda:2710336",
+     "name": "Dark chocolate candy"
     }
    ],
    "measures": []
@@ -8559,6 +8635,522 @@
    ]
   },
   {
+   "key": "gemischtes hack",
+   "names": [
+    "gemischtes hack",
+    "gemischtes hackfleisch",
+    "hackfleisch gemischt",
+    "rind schwein hackfleisch gemischt",
+    "schwein rind hackfleisch gemischt",
+    "rind schwein hackfleisch gemischt roh",
+    "mixed mince"
+   ],
+   "origins": [
+    "generic-search",
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:U050100",
+     "name": "Beef/pork, mince mixed, raw"
+    },
+    {
+     "id": "bls:U050132",
+     "name": "Beef/pork, mince mixed, boiled"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "cherry tomatoes",
+   "names": [
+    "cherry tomatoes",
+    "kirschtomaten",
+    "cherry tomato",
+    "cocktail tomatoes",
+    "grape tomatoes",
+    "kirschtomate",
+    "cherrytomaten",
+    "cocktailtomaten",
+    "datteltomaten"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "cofid:13-519",
+     "name": "Tomatoes, cherry, raw"
+    },
+    {
+     "id": "bls:G561100",
+     "name": "Tomato raw"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "buckwheat cooked",
+   "names": [
+    "buckwheat cooked",
+    "buchweizen gekocht"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:C320032",
+     "name": "Buckwheat boiled"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "pork raw",
+   "names": [
+    "pork raw",
+    "pork meat raw",
+    "schweinefleisch roh"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:U601000",
+     "name": "Pork muscle meat, raw"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "soybeans cooked",
+   "names": [
+    "soybeans cooked",
+    "soybean cooked",
+    "sojabohnen gekocht",
+    "soybeans",
+    "sojabohnen"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:G750432",
+     "name": "Soya bean mature, boiled"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "pasta cooked",
+   "names": [
+    "pasta cooked",
+    "nudeln gekocht",
+    "lasagne sheets",
+    "lasagna sheets",
+    "lasagneplatten",
+    "nudelplatten",
+    "noodles",
+    "noodle",
+    "nudeln",
+    "pasta gekocht"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "usda:2708357",
+     "name": "Pasta, cooked"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2708357",
+     "label": "1 cup, cooked",
+     "grams": 140
+    },
+    {
+     "reference": "usda:2708357",
+     "label": "1 oz, dry, yields",
+     "grams": 80
+    }
+   ]
+  },
+  {
+   "key": "pork mince raw",
+   "names": [
+    "pork mince raw",
+    "schweinehackfleisch roh"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:U020100",
+     "name": "Pork mince, raw"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "trout raw",
+   "names": [
+    "trout raw",
+    "forelle roh"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:T422100",
+     "name": "Trout raw"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "basmati rice raw",
+   "names": [
+    "basmati rice raw",
+    "basmatireis roh"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "cofid:11-857",
+     "name": "Rice, white, basmati, raw"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "jasmine rice raw",
+   "names": [
+    "jasmine rice raw",
+    "jasminreis roh"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "cofid:11-874",
+     "name": "Rice, Thai fragrant, raw"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "rice noodles raw",
+   "names": [
+    "rice noodles raw",
+    "rice noodles uncooked",
+    "reisnudeln roh"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:C559000",
+     "name": "Rice noodles raw"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "glass noodles raw",
+   "names": [
+    "glass noodles raw",
+    "glass noodles mung bean uncooked",
+    "glasnudeln roh"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:H030400",
+     "name": "Glass noodles made from mung bean starch, raw"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "green peas raw",
+   "names": [
+    "green peas raw",
+    "grune erbsen roh"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "cofid:13-438",
+     "name": "Peas, raw"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "dill dried",
+   "names": [
+    "dill dried",
+    "dill getrocknet"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "cofid:13-825",
+     "name": "Dill, dried"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "rosemary dried",
+   "names": [
+    "rosemary dried",
+    "rosmarin getrocknet"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "cofid:13-882",
+     "name": "Rosemary, dried"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "marjoram dried",
+   "names": [
+    "marjoram dried",
+    "majoran getrocknet"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "ciqual:11034",
+     "name": "Marjolaine, séchée"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "pork tenderloin raw",
+   "names": [
+    "pork tenderloin raw",
+    "schweinefilet roh"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:U611100",
+     "name": "Pork tenderloin, raw"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "chicken leg raw",
+   "names": [
+    "chicken leg raw",
+    "hahnchenkeule roh",
+    "hahnchenschenkel"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "cofid:18-293",
+     "name": "Chicken, leg quarter, raw, meat and skin"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "chicken wings raw",
+   "names": [
+    "chicken wings raw",
+    "hahnchenflugel roh"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:V417100",
+     "name": "Chicken wings, with skin, raw"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "baker s yeast fresh",
+   "names": [
+    "baker s yeast fresh",
+    "frischhefe",
+    "backhefe"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "ciqual:11010",
+     "name": "Levure de boulanger fraîche"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "baker s yeast dried",
+   "names": [
+    "baker s yeast dried",
+    "trockenhefe",
+    "dried yeast"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "ciqual:11045",
+     "name": "Levure de boulanger déshydratée"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "mixed berries frozen",
+   "names": [
+    "mixed berries frozen",
+    "beerenmischung tiefgekuhlt",
+    "tk beeren",
+    "tiefgekuhlte beeren"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "usda:2709272",
+     "name": "Berries, frozen"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2709272",
+     "label": "1 cup",
+     "grams": 150
+    }
+   ]
+  },
+  {
+   "key": "bacon fried",
+   "names": [
+    "bacon fried",
+    "fruhstucksspeck gebraten",
+    "fruhstucksspeck"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:W415082",
+     "name": "Pork breakfast bacon, raw cured, smoked, fried without fat (pan)"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "potato crisps",
+   "names": [
+    "potato crisps",
+    "kartoffelchips",
+    "crisps"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:K280100",
+     "name": "Potato crisps/potato chips (various types)"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "hot chocolate",
+   "names": [
+    "hot chocolate",
+    "heiße schokolade",
+    "hot cocoa",
+    "kakao",
+    "trinkschokolade",
+    "kakao mit milch"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "usda:2705473",
+     "name": "Hot chocolate / cocoa, made with whole or reduced fat (2%) milk"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2705473",
+     "label": "1 cup",
+     "grams": 248
+    },
+    {
+     "reference": "usda:2705473",
+     "label": "1 fl oz",
+     "grams": 31
+    }
+   ]
+  },
+  {
+   "key": "red cabbage with apple",
+   "names": [
+    "red cabbage with apple",
+    "rotkohl mit apfel"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:X537063",
+     "name": "Red cabbage with apple stewed"
+    }
+   ],
+   "measures": []
+  },
+  {
    "key": "cooked egg noodles",
    "names": [
     "cooked egg noodles",
@@ -8799,6 +9391,10 @@
     {
      "id": "cofid:13-534",
      "name": "Potatoes, old, roasted in rapeseed oil"
+    },
+    {
+     "id": "usda:2709405",
+     "name": "Potato, roasted, from fresh, peel eaten, fat added, NS as to fat type"
     }
    ],
    "measures": []
@@ -8839,6 +9435,10 @@
     {
      "id": "usda:2709483",
      "name": "Potato, hash brown, from fresh"
+    },
+    {
+     "id": "bls:X656362",
+     "name": "Bernese rösti fried grated potatoes"
     }
    ],
    "measures": [
@@ -8866,6 +9466,10 @@
     {
      "id": "bls:X673042",
      "name": "Potato dumplings from boiled potatoes"
+    },
+    {
+     "id": "bls:E608032",
+     "name": "Bohemian dumplings boiled"
     }
    ],
    "measures": []
@@ -8991,6 +9595,10 @@
     {
      "id": "cofid:13-532",
      "name": "Baked beans, canned in tomato sauce"
+    },
+    {
+     "id": "usda:2707390",
+     "name": "Baked beans"
     }
    ],
    "measures": []
@@ -9067,6 +9675,10 @@
     {
      "id": "bls:B251000",
      "name": "Wheat-rye bread (> 50 % and < 90 % wheat)"
+    },
+    {
+     "id": "usda:2707646",
+     "name": "Bread, sour dough"
     }
    ],
    "measures": []
@@ -9434,6 +10046,10 @@
     {
      "id": "usda:2707697",
      "name": "Croutons"
+    },
+    {
+     "id": "bls:X434442",
+     "name": "Croutons, white bread cubes toasted in butter"
     }
    ],
    "measures": [
@@ -9831,6 +10447,10 @@
     {
      "id": "bls:U131182",
      "name": "Beef steak (loin) fried without fat (pan)"
+    },
+    {
+     "id": "bls:U131100",
+     "name": "Beef steak (loin) raw"
     }
    ],
    "measures": []
@@ -9850,12 +10470,7 @@
    "origins": [
     "recipe-ingredient"
    ],
-   "references": [
-    {
-     "id": "bls:U131100",
-     "name": "Beef steak (loin) raw"
-    }
-   ],
+   "references": [],
    "measures": []
   },
   {
@@ -10430,6 +11045,10 @@
     {
      "id": "bls:W211200",
      "name": "Vienna sausage"
+    },
+    {
+     "id": "bls:W213000",
+     "name": "Frankfurt sausage small"
     }
    ],
    "measures": []
@@ -10747,6 +11366,10 @@
     {
      "id": "bls:T930162",
      "name": "Fish fingers (Alaska pollock) breaded, deep-frozen, fried without fat (oven)"
+    },
+    {
+     "id": "bls:Y695112",
+     "name": "Fish fingers (with Alaska pollock) fried"
     }
    ],
    "measures": []
@@ -10977,6 +11600,10 @@
     {
      "id": "bls:Y720163",
      "name": "Scrambled eggs fried in butter"
+    },
+    {
+     "id": "bls:Y720143",
+     "name": "Scrambled eggs fried"
     }
    ],
    "measures": []
@@ -10997,6 +11624,10 @@
     {
      "id": "bls:H861000",
      "name": "Tofu"
+    },
+    {
+     "id": "bls:H861032",
+     "name": "Tofu poached"
     }
    ],
    "measures": []
@@ -11271,6 +11902,10 @@
     {
      "id": "usda:2705722",
      "name": "Cheese, Mozzarella, NFS"
+    },
+    {
+     "id": "bls:M0A1000",
+     "name": "Mozzarella min. 20 % fat in dry matter"
     }
    ],
    "measures": [
@@ -11706,6 +12341,10 @@
     {
      "id": "usda:2705705",
      "name": "Cheese, Blue or Roquefort"
+    },
+    {
+     "id": "bls:M502700",
+     "name": "Blue cheese min. 50 % fat in dry matter"
     }
    ],
    "measures": [
@@ -11887,6 +12526,10 @@
     {
      "id": "bls:S241000",
      "name": "Vanilla ice cream"
+    },
+    {
+     "id": "cofid:12-508",
+     "name": "Ice cream, dairy, vanilla, soft scoop"
     }
    ],
    "measures": []
@@ -12405,6 +13048,10 @@
     {
      "id": "bls:K724100",
      "name": "Shiitake mushroom raw"
+    },
+    {
+     "id": "bls:K724902",
+     "name": "Shiitake mushroom canned, drained"
     }
    ],
    "measures": []
@@ -12797,6 +13444,10 @@
     {
      "id": "usda:2710090",
      "name": "Olives, black"
+    },
+    {
+     "id": "bls:H520800",
+     "name": "Olives blackened, in brine, drained"
     }
    ],
    "measures": [
@@ -13015,6 +13666,10 @@
     {
      "id": "bls:G693100",
      "name": "Japanese horseradish/wasabi root, raw"
+    },
+    {
+     "id": "bls:R913000",
+     "name": "Wasabi paste canned"
     }
    ],
    "measures": []
@@ -13313,6 +13968,10 @@
     {
      "id": "usda:2710204",
      "name": "Mayonnaise, regular"
+    },
+    {
+     "id": "bls:Q991000",
+     "name": "Mayonnaise (ready-made product)"
     }
    ],
    "measures": [
@@ -13352,6 +14011,10 @@
     {
      "id": "bls:R141100",
      "name": "Tomato ketchup"
+    },
+    {
+     "id": "usda:2709733",
+     "name": "Ketchup"
     }
    ],
    "measures": []
@@ -13594,6 +14257,10 @@
     {
      "id": "bls:R146100",
      "name": "Chilli sauce (Sambal Oelek)"
+    },
+    {
+     "id": "usda:2709735",
+     "name": "Tomato chili sauce"
     }
    ],
    "measures": []
@@ -13823,6 +14490,10 @@
     {
      "id": "bls:X331353",
      "name": "Tomato sauce Italian style"
+    },
+    {
+     "id": "bls:X321813",
+     "name": "Tomato sauce of canned tomatoes"
     }
    ],
    "measures": []
@@ -13913,6 +14584,10 @@
    "references": [
     {
      "id": "usda:2710171",
+     "name": "Hollandaise sauce"
+    },
+    {
+     "id": "bls:X371043",
      "name": "Hollandaise sauce"
     }
    ],
@@ -14338,6 +15013,10 @@
     {
      "id": "bls:R144100",
      "name": "Fruit chutney"
+    },
+    {
+     "id": "usda:2709309",
+     "name": "Chutney"
     }
    ],
    "measures": []
@@ -14379,6 +15058,10 @@
     {
      "id": "usda:2710258",
      "name": "Sugar, white, granulated or lump"
+    },
+    {
+     "id": "ciqual:31016",
+     "name": "Sucre blanc"
     }
    ],
    "measures": [
@@ -14514,6 +15197,10 @@
     {
      "id": "bls:S145000",
      "name": "Nut nougat cream (spread)"
+    },
+    {
+     "id": "usda:2710289",
+     "name": "Chocolate hazelnut spread"
     }
    ],
    "measures": []
@@ -14719,6 +15406,10 @@
     {
      "id": "bls:H320100",
      "name": "Pine nut"
+    },
+    {
+     "id": "usda:2707526",
+     "name": "Pine nuts"
     }
    ],
    "measures": []
@@ -15366,6 +16057,10 @@
     {
      "id": "usda:2710616",
      "name": "Beer"
+    },
+    {
+     "id": "bls:P161000",
+     "name": "Pale beer"
     }
    ],
    "measures": [
@@ -18741,6 +19436,10 @@
     {
      "id": "bls:W151000",
      "name": "Mettwurst sausage firm"
+    },
+    {
+     "id": "bls:W110000",
+     "name": "Braunschweiger Mettwurst sausage high quality, spreadable"
     }
    ],
    "measures": []
@@ -19906,6 +20605,10 @@
     {
      "id": "cofid:19-106",
      "name": "Liver sausage"
+    },
+    {
+     "id": "bls:W310000",
+     "name": "Liver sausage finely minced"
     }
    ],
    "measures": []
@@ -21686,6 +22389,10 @@
     {
      "id": "usda:2710703",
      "name": "Rum"
+    },
+    {
+     "id": "bls:P741000",
+     "name": "Rum 37.5/40 % vol"
     }
    ],
    "measures": [
@@ -21846,6 +22553,23 @@
     {
      "id": "bls:F321100",
      "name": "Red currant raw"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "black pudding",
+   "names": [
+    "black pudding",
+    "blutwurst"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "cofid:19-114",
+     "name": "Black pudding, dry-fried"
     }
    ],
    "measures": []

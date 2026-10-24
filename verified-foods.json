@@ -21,7 +21,12 @@
       "id": "bls:F201100",
       "ingredient": "Apricot",
       "displayName": "Apricot",
-      "displayNameDE": "Aprikose"
+      "displayNameDE": "Aprikose",
+      "searchAliases": [
+        "Aprikosen",
+        "Marille",
+        "Marillen"
+      ]
     },
     {
       "id": "bls:G410100",
@@ -57,7 +62,10 @@
       "id": "bls:U010100",
       "ingredient": "Beef mince",
       "displayName": "Beef mince, raw",
-      "displayNameDE": "Rinderhackfleisch, roh"
+      "displayNameDE": "Rinderhackfleisch, roh",
+      "searchAliases": [
+        "Rinderhackfleisch"
+      ]
     },
     {
       "id": "bls:U131100",
@@ -69,13 +77,21 @@
       "id": "bls:G613100",
       "ingredient": "Beetroot",
       "displayName": "Beetroot",
-      "displayNameDE": "Rote Bete"
+      "displayNameDE": "Rote Bete",
+      "searchAliases": [
+        "Rote Rüben",
+        "beet",
+        "beets"
+      ]
     },
     {
       "id": "bls:F303100",
       "ingredient": "Blackberry",
       "displayName": "Blackberry",
-      "displayNameDE": "Brombeeren"
+      "displayNameDE": "Brombeeren",
+      "searchAliases": [
+        "Brombeere"
+      ]
     },
     {
       "id": "bls:F304100",
@@ -96,7 +112,8 @@
       "displayNameDE": "Vollkornreis, gekocht",
       "searchAliases": [
         "Vollkornreis",
-        "brown rice"
+        "brown rice",
+        "Naturreis"
       ]
     },
     {
@@ -134,7 +151,8 @@
       "displayNameDE": "Rotkohl",
       "searchAliases": [
         "Rotkohl",
-        "red cabbage"
+        "red cabbage",
+        "Blaukohl"
       ]
     },
     {
@@ -144,26 +162,40 @@
       "displayNameDE": "Weißkohl",
       "searchAliases": [
         "Weißkohl",
-        "white cabbage"
+        "white cabbage",
+        "Weißkraut"
       ]
     },
     {
       "id": "bls:F532100",
       "ingredient": "Cantaloupe",
       "displayName": "Cantaloupe",
-      "displayNameDE": "Cantaloupe-Melone"
+      "displayNameDE": "Cantaloupe-Melone",
+      "searchAliases": [
+        "Charentais-Melone"
+      ]
     },
     {
       "id": "bls:G620100",
       "ingredient": "Carrot",
       "displayName": "Carrot",
-      "displayNameDE": "Karotte"
+      "displayNameDE": "Karotte",
+      "searchAliases": [
+        "Mohrrübe",
+        "Mohrrüben",
+        "Gelbe Rüben",
+        "Rüebli"
+      ]
     },
     {
       "id": "bls:H170610",
       "ingredient": "Cashew",
       "displayName": "Cashew",
-      "displayNameDE": "Cashewkerne"
+      "displayNameDE": "Cashewkerne",
+      "searchAliases": [
+        "Cashewnüsse",
+        "Cashewnuss"
+      ]
     },
     {
       "id": "bls:G311100",
@@ -175,19 +207,30 @@
       "id": "bls:G220100",
       "ingredient": "Celery",
       "displayName": "Celery",
-      "displayNameDE": "Stangensellerie"
+      "displayNameDE": "Stangensellerie",
+      "searchAliases": [
+        "Bleichsellerie",
+        "Selleriestangen"
+      ]
     },
     {
       "id": "bls:M303600",
       "ingredient": "Cheddar",
       "displayName": "Cheddar",
-      "displayNameDE": "Cheddar"
+      "displayNameDE": "Cheddar",
+      "searchAliases": [
+        "Cheddarkäse"
+      ]
     },
     {
       "id": "bls:F211100",
       "ingredient": "Cherry",
       "displayName": "Cherry",
-      "displayNameDE": "Kirschen"
+      "displayNameDE": "Kirschen",
+      "searchAliases": [
+        "Kirsche",
+        "Süßkirschen"
+      ]
     },
     {
       "id": "bls:V416132",
@@ -196,7 +239,9 @@
       "displayNameDE": "Hähnchenbrust, gekocht",
       "searchAliases": [
         "Hähnchenbrust",
-        "chicken breast"
+        "chicken breast",
+        "Hühnerbrust",
+        "Hühnchenbrust"
       ]
     },
     {
@@ -207,7 +252,9 @@
       "searchAliases": [
         "Hähnchen Curry",
         "Hähnchencurry",
-        "chicken curry"
+        "chicken curry",
+        "Hühnchencurry",
+        "Hühnercurry"
       ]
     },
     {
@@ -219,7 +266,8 @@
         "Hühneraufschnitt",
         "Hähnchenaufschnitt",
         "chicken cold cuts",
-        "chicken luncheon meat"
+        "chicken luncheon meat",
+        "Hähnchenbrustaufschnitt"
       ]
     },
     {
@@ -246,7 +294,10 @@
       "id": "bls:T204100",
       "ingredient": "Cod",
       "displayName": "Cod, raw",
-      "displayNameDE": "Kabeljau, roh"
+      "displayNameDE": "Kabeljau, roh",
+      "searchAliases": [
+        "Kabeljau"
+      ]
     },
     {
       "id": "bls:M711100",
@@ -272,7 +323,11 @@
       "id": "bls:G520100",
       "ingredient": "Cucumber",
       "displayName": "Cucumber",
-      "displayNameDE": "Gurke"
+      "displayNameDE": "Gurke",
+      "searchAliases": [
+        "Salatgurke",
+        "Schlangengurke"
+      ]
     },
     {
       "id": "bls:F504100",
@@ -292,32 +347,47 @@
       "searchAliases": [
         "Eier",
         "eggs",
-        "Ei"
+        "Ei",
+        "Hühnerei",
+        "Hühnereier"
       ]
     },
     {
       "id": "bls:G510100",
       "ingredient": "Eggplant",
       "displayName": "Eggplant",
-      "displayNameDE": "Aubergine"
+      "displayNameDE": "Aubergine",
+      "searchAliases": [
+        "Auberginen",
+        "Melanzani"
+      ]
     },
     {
       "id": "usda:2705714",
       "ingredient": "Feta",
       "displayName": "Feta",
-      "displayNameDE": "Feta"
+      "displayNameDE": "Feta",
+      "searchAliases": [
+        "Fetakäse"
+      ]
     },
     {
       "id": "bls:G430100",
       "ingredient": "Fennel",
       "displayName": "Fennel",
-      "displayNameDE": "Fenchel"
+      "displayNameDE": "Fenchel",
+      "searchAliases": [
+        "Fenchelknolle"
+      ]
     },
     {
       "id": "bls:F505100",
       "ingredient": "Fig",
       "displayName": "Fig",
-      "displayNameDE": "Feige"
+      "displayNameDE": "Feige",
+      "searchAliases": [
+        "Feigen"
+      ]
     },
     {
       "id": "bls:H410400",
@@ -326,14 +396,19 @@
       "displayNameDE": "Leinsamen",
       "searchAliases": [
         "Leinsamen",
-        "flax seeds"
+        "flax seeds",
+        "Leinsaat"
       ]
     },
     {
       "id": "bls:G490100",
       "ingredient": "Garlic",
       "displayName": "Garlic",
-      "displayNameDE": "Knoblauch"
+      "displayNameDE": "Knoblauch",
+      "searchAliases": [
+        "Knoblauchzehe",
+        "Knoblauchzehen"
+      ]
     },
     {
       "id": "bls:F604100",
@@ -348,7 +423,8 @@
       "displayNameDE": "Weintrauben",
       "searchAliases": [
         "Weintrauben",
-        "grapes"
+        "grapes",
+        "Weintraube"
       ]
     },
     {
@@ -358,7 +434,11 @@
       "displayNameDE": "Grüne Bohnen, gekocht",
       "searchAliases": [
         "grüne Bohnen",
-        "green beans"
+        "green beans",
+        "Brechbohnen",
+        "Prinzessbohnen",
+        "Buschbohnen",
+        "Fisolen"
       ]
     },
     {
@@ -371,7 +451,11 @@
       "id": "bls:H740132",
       "ingredient": "Haricot bean, cooked",
       "displayName": "White beans, cooked",
-      "displayNameDE": "Weiße Bohnen, gekocht"
+      "displayNameDE": "Weiße Bohnen, gekocht",
+      "searchAliases": [
+        "Cannellini-Bohnen",
+        "weiße Bohnenkerne"
+      ]
     },
     {
       "id": "bls:H130400",
@@ -380,14 +464,21 @@
       "displayNameDE": "Haselnüsse",
       "searchAliases": [
         "Haselnüsse",
-        "hazelnuts"
+        "hazelnuts",
+        "Haselnuss",
+        "Haselnusskerne"
       ]
     },
     {
       "id": "bls:G322100",
       "ingredient": "Kale",
       "displayName": "Kale",
-      "displayNameDE": "Grünkohl"
+      "displayNameDE": "Grünkohl",
+      "searchAliases": [
+        "Braunkohl",
+        "Federkohl",
+        "Schwarzkohl"
+      ]
     },
     {
       "id": "usda:2707383",
@@ -396,7 +487,8 @@
       "displayNameDE": "Kidneybohnen, gekocht",
       "searchAliases": [
         "Kidneybohnen",
-        "kidney beans"
+        "kidney beans",
+        "rote Bohnen"
       ]
     },
     {
@@ -415,13 +507,20 @@
       "id": "bls:G105100",
       "ingredient": "Lettuce",
       "displayName": "Lettuce",
-      "displayNameDE": "Kopfsalat"
+      "displayNameDE": "Kopfsalat",
+      "searchAliases": [
+        "Salatblätter",
+        "Häuptelsalat"
+      ]
     },
     {
       "id": "bls:F602100",
       "ingredient": "Lime",
       "displayName": "Lime",
-      "displayNameDE": "Limette"
+      "displayNameDE": "Limette",
+      "searchAliases": [
+        "Limetten"
+      ]
     },
     {
       "id": "bls:F516100",
@@ -479,20 +578,30 @@
       "displayNameDE": "Champignons",
       "searchAliases": [
         "Champignons",
-        "button mushroom"
+        "button mushroom",
+        "Pilze",
+        "Egerlinge"
       ]
     },
     {
       "id": "bls:C133000",
       "ingredient": "Oat flakes",
       "displayName": "Oat flakes",
-      "displayNameDE": "Haferflocken"
+      "displayNameDE": "Haferflocken",
+      "searchAliases": [
+        "kernige Haferflocken",
+        "zarte Haferflocken",
+        "Hafer"
+      ]
     },
     {
       "id": "bls:Q120000",
       "ingredient": "Olive oil",
       "displayName": "Olive oil",
-      "displayNameDE": "Olivenöl"
+      "displayNameDE": "Olivenöl",
+      "searchAliases": [
+        "natives Olivenöl extra"
+      ]
     },
     {
       "id": "bls:G480100",
@@ -514,13 +623,20 @@
       "id": "bls:F603100",
       "ingredient": "Orange",
       "displayName": "Orange",
-      "displayNameDE": "Orange"
+      "displayNameDE": "Orange",
+      "searchAliases": [
+        "Apfelsine",
+        "Apfelsinen"
+      ]
     },
     {
       "id": "bls:F203100",
       "ingredient": "Peach",
       "displayName": "Peach",
-      "displayNameDE": "Pfirsich"
+      "displayNameDE": "Pfirsich",
+      "searchAliases": [
+        "Pfirsiche"
+      ]
     },
     {
       "id": "bls:H110600",
@@ -529,7 +645,9 @@
       "displayNameDE": "Erdnüsse",
       "searchAliases": [
         "Erdnüsse",
-        "peanuts"
+        "peanuts",
+        "Erdnuss",
+        "Erdnusskerne"
       ]
     },
     {
@@ -542,7 +660,11 @@
       "id": "bls:H160100",
       "ingredient": "Pecan",
       "displayName": "Pecan",
-      "displayNameDE": "Pekannüsse"
+      "displayNameDE": "Pekannüsse",
+      "searchAliases": [
+        "Pekannuss",
+        "Pecannüsse"
+      ]
     },
     {
       "id": "bls:G541100",
@@ -560,7 +682,11 @@
       "displayNameDE": "Paprika, rot",
       "searchAliases": [
         "red bell pepper",
-        "bell pepper"
+        "bell pepper",
+        "rote Paprika",
+        "Paprika",
+        "Paprikaschote",
+        "Gemüsepaprika"
       ]
     },
     {
@@ -582,13 +708,22 @@
       "id": "bls:H250100",
       "ingredient": "Pistachio",
       "displayName": "Pistachio",
-      "displayNameDE": "Pistazien"
+      "displayNameDE": "Pistazien",
+      "searchAliases": [
+        "Pistazie"
+      ]
     },
     {
       "id": "bls:F220100",
       "ingredient": "Plum",
       "displayName": "Plum",
-      "displayNameDE": "Pflaume"
+      "displayNameDE": "Pflaume",
+      "searchAliases": [
+        "Pflaumen",
+        "Zwetschge",
+        "Zwetschgen",
+        "Zwetschke"
+      ]
     },
     {
       "id": "bls:F506100",
@@ -600,7 +735,10 @@
       "id": "bls:U522100",
       "ingredient": "Pork loin",
       "displayName": "Pork loin",
-      "displayNameDE": "Schweinerücken"
+      "displayNameDE": "Schweinerücken",
+      "searchAliases": [
+        "Schweinelachs"
+      ]
     },
     {
       "id": "bls:U601000",
@@ -619,14 +757,22 @@
       "displayNameDE": "Kartoffeln, gekocht",
       "searchAliases": [
         "Kartoffel",
-        "potato"
+        "potato",
+        "Erdäpfel",
+        "Erdapfel",
+        "potatoes",
+        "boiled potatoes"
       ]
     },
     {
       "id": "bls:G581100",
       "ingredient": "Pumpkin",
       "displayName": "Pumpkin",
-      "displayNameDE": "Kürbis"
+      "displayNameDE": "Kürbis",
+      "searchAliases": [
+        "Hokkaido",
+        "Hokkaidokürbis"
+      ]
     },
     {
       "id": "bls:H310100",
@@ -660,7 +806,10 @@
       "id": "bls:F302100",
       "ingredient": "Raspberry",
       "displayName": "Raspberry",
-      "displayNameDE": "Himbeeren"
+      "displayNameDE": "Himbeeren",
+      "searchAliases": [
+        "Himbeere"
+      ]
     },
     {
       "id": "bls:T410100",
@@ -675,7 +824,10 @@
       "displayNameDE": "Garnelen, gekocht",
       "searchAliases": [
         "Garnelen",
-        "shrimp"
+        "shrimp",
+        "Krabben",
+        "Gambas",
+        "Riesengarnelen"
       ]
     },
     {
@@ -701,13 +853,20 @@
       "id": "bls:F301100",
       "ingredient": "Strawberry",
       "displayName": "Strawberry",
-      "displayNameDE": "Erdbeeren"
+      "displayNameDE": "Erdbeeren",
+      "searchAliases": [
+        "Erdbeere"
+      ]
     },
     {
       "id": "bls:G570100",
       "ingredient": "Sweetcorn",
       "displayName": "Sweetcorn",
-      "displayNameDE": "Zuckermais"
+      "displayNameDE": "Zuckermais",
+      "searchAliases": [
+        "Mais",
+        "Maiskörner"
+      ]
     },
     {
       "id": "bls:K420132",
@@ -739,13 +898,20 @@
       "id": "bls:H861032",
       "ingredient": "Tofu",
       "displayName": "Tofu",
-      "displayNameDE": "Tofu"
+      "displayNameDE": "Tofu",
+      "searchAliases": [
+        "Naturtofu"
+      ]
     },
     {
       "id": "bls:G561100",
       "ingredient": "Tomato",
       "displayName": "Tomato",
-      "displayNameDE": "Tomate"
+      "displayNameDE": "Tomate",
+      "searchAliases": [
+        "Paradeiser",
+        "Strauchtomaten"
+      ]
     },
     {
       "id": "bls:T121100",
@@ -767,7 +933,10 @@
       "id": "bls:H120400",
       "ingredient": "Walnut",
       "displayName": "Walnut",
-      "displayNameDE": "Walnüsse"
+      "displayNameDE": "Walnüsse",
+      "searchAliases": [
+        "Walnusskerne"
+      ]
     },
     {
       "id": "bls:F535100",
@@ -785,7 +954,9 @@
         "Sushireis",
         "white rice",
         "rice, cooked",
-        "Reis gekocht"
+        "Reis gekocht",
+        "Reis",
+        "Langkornreis"
       ]
     },
     {
@@ -797,20 +968,28 @@
         "Naturjoghurt",
         "Joghurt natur",
         "plain yogurt",
-        "plain yoghurt"
+        "plain yoghurt",
+        "Vollmilchjoghurt"
       ]
     },
     {
       "id": "bls:G582100",
       "ingredient": "Zucchini",
       "displayName": "Zucchini",
-      "displayNameDE": "Zucchini"
+      "displayNameDE": "Zucchini",
+      "searchAliases": [
+        "Zucchetti"
+      ]
     },
     {
       "id": "bls:B314072",
       "ingredient": "Wheat toast/butter toast, toasted",
       "displayName": "Toast (wheat bread)",
-      "displayNameDE": "Toast (Weizen, getoastet)"
+      "displayNameDE": "Weizentoast, getoastet",
+      "searchAliases": [
+        "Toast (Weizen, getoastet)",
+        "Weizentoast"
+      ]
     },
     {
       "id": "bls:B111200",
@@ -828,7 +1007,10 @@
       "id": "bls:B314200",
       "ingredient": "Multigrain toast",
       "displayName": "Multigrain toast",
-      "displayNameDE": "Mehrkorntoast"
+      "displayNameDE": "Mehrkorntoast",
+      "searchAliases": [
+        "Mehrkorntoastbrot"
+      ]
     },
     {
       "id": "bls:B311000",
@@ -840,7 +1022,11 @@
       "id": "bls:B101000",
       "ingredient": "Wholemeal bread",
       "displayName": "Wholemeal bread",
-      "displayNameDE": "Vollkornbrot"
+      "displayNameDE": "Vollkornbrot",
+      "searchAliases": [
+        "Vollkorn-Brot",
+        "Roggenvollkornbrot"
+      ]
     },
     {
       "id": "bls:B221000",
@@ -873,20 +1059,33 @@
         "bread roll",
         "bread rolls",
         "Semmel",
-        "Schrippe"
+        "Schrippe",
+        "Weckle",
+        "Weck",
+        "Rundstück",
+        "Kaisersemmel",
+        "Kaiserbrötchen"
       ]
     },
     {
       "id": "bls:B591000",
       "ingredient": "Multigrain roll",
       "displayName": "Multigrain roll",
-      "displayNameDE": "Mehrkornbrötchen"
+      "displayNameDE": "Mehrkornbrötchen",
+      "searchAliases": [
+        "Körnerbrötchen",
+        "Mehrkornsemmel"
+      ]
     },
     {
       "id": "bls:B401000",
       "ingredient": "Wholemeal roll",
       "displayName": "Wholemeal roll",
-      "displayNameDE": "Vollkornbrötchen"
+      "displayNameDE": "Vollkornbrötchen",
+      "searchAliases": [
+        "Vollkornsemmel",
+        "whole wheat roll"
+      ]
     },
     {
       "id": "bls:B411000",
@@ -935,19 +1134,31 @@
       "id": "bls:C512300",
       "ingredient": "Muesli mix with dried fruit, unsweetened",
       "displayName": "Muesli with dried fruit, unsweetened",
-      "displayNameDE": "Müsli mit Trockenfrüchten, ungesüßt"
+      "displayNameDE": "Müsli mit Trockenfrüchten, ungesüßt",
+      "searchAliases": [
+        "Früchtemüsli"
+      ]
     },
     {
       "id": "bls:C352000",
       "ingredient": "White rice raw",
       "displayName": "White rice, raw",
-      "displayNameDE": "Weißer Reis, roh"
+      "displayNameDE": "Weißer Reis, roh",
+      "searchAliases": [
+        "Reis roh",
+        "Reis ungekocht",
+        "uncooked white rice"
+      ]
     },
     {
       "id": "bls:C351000",
       "ingredient": "Brown rice raw",
       "displayName": "Brown rice, raw",
-      "displayNameDE": "Vollkornreis, roh"
+      "displayNameDE": "Vollkornreis, roh",
+      "searchAliases": [
+        "Naturreis roh",
+        "uncooked brown rice"
+      ]
     },
     {
       "id": "usda:2707598",
@@ -996,7 +1207,11 @@
       "id": "usda:2707616",
       "ingredient": "Bread, pita",
       "displayName": "Pita bread",
-      "displayNameDE": "Pitabrot"
+      "displayNameDE": "Pitabrot",
+      "searchAliases": [
+        "Pitatasche",
+        "Pitataschen"
+      ]
     },
     {
       "id": "usda:2707823",
@@ -1008,13 +1223,21 @@
       "id": "usda:2707824",
       "ingredient": "Tortilla, flour",
       "displayName": "Flour tortilla",
-      "displayNameDE": "Weizentortilla"
+      "displayNameDE": "Weizentortilla",
+      "searchAliases": [
+        "Wraps",
+        "Tortillafladen"
+      ]
     },
     {
       "id": "usda:2707537",
       "ingredient": "Peanut butter",
       "displayName": "Peanut butter",
-      "displayNameDE": "Erdnussbutter"
+      "displayNameDE": "Erdnussbutter",
+      "searchAliases": [
+        "Erdnusscreme",
+        "Erdnussmus"
+      ]
     },
     {
       "id": "usda:2705760",
@@ -1023,7 +1246,8 @@
       "displayNameDE": "Frischkäse natur",
       "searchAliases": [
         "Frischkäse",
-        "cream cheese"
+        "cream cheese",
+        "Doppelrahmfrischkäse"
       ]
     },
     {
@@ -1085,7 +1309,10 @@
         "gemischtes Hack",
         "gemischtes Hackfleisch",
         "Hackfleisch gemischt",
-        "mixed mince"
+        "mixed mince",
+        "Hackfleisch",
+        "Hackfleisch halb und halb",
+        "Faschiertes"
       ]
     },
     {
@@ -1144,7 +1371,7 @@
       "id": "usda:2705910",
       "ingredient": "Veal",
       "displayName": "Ground veal",
-      "displayNameDE": "Kalbfleisch",
+      "displayNameDE": "Kalbshackfleisch",
       "searchAliases": [
         "Kalbfleisch"
       ]
@@ -1156,7 +1383,8 @@
       "displayNameDE": "Hähnchenfleisch, ohne Haut, roh",
       "searchAliases": [
         "Hähnchenfleisch",
-        "Hühnerfleisch"
+        "Hühnerfleisch",
+        "Hühnchenfleisch"
       ]
     },
     {
@@ -1165,7 +1393,8 @@
       "displayName": "Duck breast, grilled",
       "displayNameDE": "Entenbrust, gegrillt",
       "searchAliases": [
-        "Entenbrust"
+        "Entenbrust",
+        "Entenbrustfilet"
       ]
     },
     {
@@ -1174,7 +1403,9 @@
       "displayName": "Trout, raw",
       "displayNameDE": "Forelle, roh",
       "searchAliases": [
-        "Forelle"
+        "Forelle",
+        "Forellenfilet",
+        "Regenbogenforelle"
       ]
     },
     {
@@ -1183,7 +1414,8 @@
       "displayName": "Basmati rice, raw",
       "displayNameDE": "Basmatireis, roh",
       "searchAliases": [
-        "Basmatireis"
+        "Basmatireis",
+        "Basmati"
       ]
     },
     {
@@ -1193,7 +1425,9 @@
       "displayNameDE": "Jasminreis, roh",
       "searchAliases": [
         "Jasminreis",
-        "Thai fragrant rice"
+        "Thai fragrant rice",
+        "Duftreis",
+        "Thai-Duftreis"
       ]
     },
     {
@@ -1202,7 +1436,9 @@
       "displayName": "Rice noodles, raw",
       "displayNameDE": "Reisnudeln, roh",
       "searchAliases": [
-        "Reisnudeln"
+        "Reisnudeln",
+        "Reisbandnudeln",
+        "Reisvermicelli"
       ]
     },
     {
@@ -1220,7 +1456,9 @@
       "displayName": "Wholemeal pasta, cooked",
       "displayNameDE": "Vollkornnudeln, gekocht",
       "searchAliases": [
-        "Vollkornnudeln"
+        "Vollkornnudeln",
+        "Vollkornpasta",
+        "Vollkornspaghetti"
       ]
     },
     {
@@ -1230,7 +1468,8 @@
       "displayNameDE": "Grieß, roh",
       "searchAliases": [
         "Grieß",
-        "Griess"
+        "Griess",
+        "Weizengrieß"
       ]
     },
     {
@@ -1241,7 +1480,10 @@
       "searchAliases": [
         "Weizenmehl",
         "wheat flour",
-        "plain flour"
+        "plain flour",
+        "Mehl",
+        "Weizenmehl 405",
+        "Auszugsmehl"
       ]
     },
     {
@@ -1310,7 +1552,9 @@
       "displayNameDE": "Grüne Erbsen, roh",
       "searchAliases": [
         "Erbsen",
-        "green peas"
+        "green peas",
+        "TK-Erbsen",
+        "Tiefkühlerbsen"
       ]
     },
     {
@@ -1329,7 +1573,10 @@
       "displayNameDE": "Sojagranulat",
       "searchAliases": [
         "Sojagranulat",
-        "Sojaschnetzel"
+        "Sojaschnetzel",
+        "Sojahack",
+        "Sojafleisch",
+        "TVP"
       ]
     },
     {
@@ -1377,7 +1624,9 @@
       "displayName": "Low-fat quark",
       "displayNameDE": "Magerquark",
       "searchAliases": [
-        "Magerquark"
+        "Magerquark",
+        "Magertopfen",
+        "Speisequark mager"
       ]
     },
     {
@@ -1398,7 +1647,9 @@
       "displayNameDE": "Haferdrink, ungesüßt",
       "searchAliases": [
         "Hafermilch",
-        "Haferdrink"
+        "Haferdrink",
+        "oat milk",
+        "oat drink"
       ],
       "measure": "volume",
       "gramsPerMilliliter": 1.03
@@ -1410,7 +1661,10 @@
       "displayNameDE": "Sojadrink, ungesüßt",
       "searchAliases": [
         "Sojamilch",
-        "Sojadrink"
+        "Sojadrink",
+        "soy milk",
+        "soya milk",
+        "soy drink"
       ],
       "measure": "volume",
       "gramsPerMilliliter": 1.03
@@ -1422,7 +1676,9 @@
       "displayNameDE": "Mandeldrink, ungesüßt",
       "searchAliases": [
         "Mandelmilch",
-        "Mandeldrink"
+        "Mandeldrink",
+        "almond milk",
+        "almond drink"
       ],
       "measure": "volume",
       "gramsPerMilliliter": 1.03
@@ -1456,7 +1712,9 @@
       "displayNameDE": "Eigelb, roh",
       "searchAliases": [
         "Eigelb",
-        "egg yolk"
+        "egg yolk",
+        "Eidotter",
+        "Dotter"
       ]
     },
     {
@@ -1475,7 +1733,9 @@
       "displayName": "Raisins",
       "displayNameDE": "Rosinen",
       "searchAliases": [
-        "Rosinen"
+        "Rosinen",
+        "Sultaninen",
+        "Rosine"
       ]
     },
     {
@@ -1485,7 +1745,8 @@
       "displayNameDE": "Chinakohl",
       "searchAliases": [
         "Chinakohl",
-        "napa cabbage"
+        "napa cabbage",
+        "Pekingkohl"
       ]
     },
     {
@@ -1494,7 +1755,8 @@
       "displayName": "Bok choy, raw",
       "displayNameDE": "Pak Choi",
       "searchAliases": [
-        "Pak Choi"
+        "Pak Choi",
+        "Senfkohl"
       ]
     },
     {
@@ -1505,7 +1767,9 @@
       "searchAliases": [
         "Frühlingszwiebel",
         "Lauchzwiebel",
-        "scallion"
+        "scallion",
+        "Frühlingszwiebeln",
+        "Lauchzwiebeln"
       ]
     },
     {
@@ -1514,7 +1778,9 @@
       "displayName": "Ginger, fresh",
       "displayNameDE": "Ingwer, frisch",
       "searchAliases": [
-        "Ingwer"
+        "Ingwer",
+        "Ingwerwurzel",
+        "frischer Ingwer"
       ]
     },
     {
@@ -1523,7 +1789,9 @@
       "displayName": "Sesame seeds",
       "displayNameDE": "Sesam",
       "searchAliases": [
-        "Sesam"
+        "Sesam",
+        "Sesamsamen",
+        "Sesamkörner"
       ]
     },
     {
@@ -1532,7 +1800,8 @@
       "displayName": "Almond butter",
       "displayNameDE": "Mandelmus",
       "searchAliases": [
-        "Mandelmus"
+        "Mandelmus",
+        "Mandelbutter"
       ]
     },
     {
@@ -1542,7 +1811,8 @@
       "displayNameDE": "Tahin",
       "searchAliases": [
         "Tahin",
-        "Sesammus"
+        "Sesammus",
+        "Sesampaste"
       ]
     },
     {
@@ -1552,7 +1822,8 @@
       "displayNameDE": "Kokosöl",
       "searchAliases": [
         "Kokosöl",
-        "Kokosoel"
+        "Kokosoel",
+        "Kokosfett"
       ]
     },
     {
@@ -1571,7 +1842,8 @@
       "displayName": "Tomato paste",
       "displayNameDE": "Tomatenmark",
       "searchAliases": [
-        "Tomatenmark"
+        "Tomatenmark",
+        "Tomatenpaste"
       ]
     },
     {
@@ -1580,7 +1852,10 @@
       "displayName": "Mustard",
       "displayNameDE": "Senf",
       "searchAliases": [
-        "Senf"
+        "Senf",
+        "Mostrich",
+        "Dijon-Senf",
+        "mittelscharfer Senf"
       ]
     },
     {
@@ -1608,7 +1883,8 @@
       "displayName": "Cocoa powder",
       "displayNameDE": "Kakaopulver",
       "searchAliases": [
-        "Kakaopulver"
+        "Kakaopulver",
+        "Backkakao"
       ]
     },
     {
@@ -1619,7 +1895,9 @@
       "searchAliases": [
         "Zartbitterschokolade",
         "Bitterschokolade",
-        "dunkle Schokolade"
+        "dunkle Schokolade",
+        "Edelbitterschokolade",
+        "Zartbitter"
       ]
     },
     {
@@ -1638,18 +1916,21 @@
       "displayNameDE": "Natron",
       "searchAliases": [
         "Natron",
-        "bicarbonate of soda"
+        "bicarbonate of soda",
+        "Speisenatron",
+        "Backnatron"
       ]
     },
     {
       "id": "bls:R258100",
       "ingredient": "Black pepper, dried",
       "displayName": "Black pepper, dried",
-      "displayNameDE": "Schwarzer Pfeffer, getrocknet",
+      "displayNameDE": "Schwarzer Pfeffer",
       "searchAliases": [
         "Pfeffer",
         "Pfefferkörner",
-        "peppercorns"
+        "peppercorns",
+        "Schwarzer Pfeffer, getrocknet"
       ]
     },
     {
@@ -1668,7 +1949,9 @@
       "displayName": "Cayenne pepper, ground",
       "displayNameDE": "Cayennepfeffer, gemahlen",
       "searchAliases": [
-        "Cayenne Pfeffer"
+        "Cayenne Pfeffer",
+        "Cayennepfeffer",
+        "Cayenne"
       ]
     },
     {
@@ -1677,7 +1960,8 @@
       "displayName": "Cinnamon, ground",
       "displayNameDE": "Zimt, gemahlen",
       "searchAliases": [
-        "Zimt"
+        "Zimt",
+        "Zimtpulver"
       ]
     },
     {
@@ -1686,7 +1970,13 @@
       "displayName": "Paprika powder",
       "displayNameDE": "Paprikapulver",
       "searchAliases": [
-        "Paprika Pulver"
+        "Paprika Pulver",
+        "Paprika edelsüß",
+        "Paprika rosenscharf",
+        "Rosenpaprika",
+        "ground paprika",
+        "sweet paprika",
+        "smoked paprika"
       ]
     },
     {
@@ -1705,7 +1995,8 @@
       "displayNameDE": "Kurkuma, gemahlen",
       "searchAliases": [
         "Kurkuma",
-        "Curcuma"
+        "Curcuma",
+        "Gelbwurz"
       ]
     },
     {
@@ -1743,7 +2034,8 @@
       "displayName": "Garlic powder",
       "displayNameDE": "Knoblauchpulver",
       "searchAliases": [
-        "Knoblauch Pulver"
+        "Knoblauch Pulver",
+        "Knoblauchgranulat"
       ]
     },
     {
@@ -1788,7 +2080,11 @@
       "id": "ciqual:11039",
       "ingredient": "Saffron",
       "displayName": "Saffron",
-      "displayNameDE": "Safran"
+      "displayNameDE": "Safran",
+      "searchAliases": [
+        "Safranfäden",
+        "saffron threads"
+      ]
     },
     {
       "id": "ciqual:11035",
@@ -1803,13 +2099,23 @@
       "id": "bls:R231000",
       "ingredient": "Basil, dried",
       "displayName": "Basil, dried",
-      "displayNameDE": "Basilikum, getrocknet"
+      "displayNameDE": "Basilikum, getrocknet",
+      "searchAliases": [
+        "dried basil",
+        "getrocknetes Basilikum",
+        "Basilikum gerebelt"
+      ]
     },
     {
       "id": "ciqual:11024",
       "ingredient": "Parsley, dried",
       "displayName": "Parsley, dried",
-      "displayNameDE": "Petersilie, getrocknet"
+      "displayNameDE": "Petersilie, getrocknet",
+      "searchAliases": [
+        "dried parsley",
+        "getrocknete Petersilie",
+        "Petersilie gerebelt"
+      ]
     },
     {
       "id": "cofid:13-825",
@@ -1817,7 +2123,9 @@
       "displayName": "Dill, dried",
       "displayNameDE": "Dill, getrocknet",
       "searchAliases": [
-        "Dill"
+        "dried dill",
+        "getrockneter Dill",
+        "Dillspitzen"
       ]
     },
     {
@@ -1827,7 +2135,9 @@
       "displayNameDE": "Thymian, getrocknet",
       "searchAliases": [
         "Thymian",
-        "thyme"
+        "thyme",
+        "getrockneter Thymian",
+        "dried thyme"
       ]
     },
     {
@@ -1837,16 +2147,20 @@
       "displayNameDE": "Rosmarin, getrocknet",
       "searchAliases": [
         "Rosmarin",
-        "rosemary"
+        "rosemary",
+        "getrockneter Rosmarin",
+        "dried rosemary"
       ]
     },
     {
       "id": "cofid:13-854",
       "ingredient": "Sage, dried, ground",
       "displayName": "Sage, dried, ground",
-      "displayNameDE": "Salbei, getrocknet und gemahlen",
+      "displayNameDE": "Salbei, getrocknet",
       "searchAliases": [
-        "Salbei"
+        "Salbei",
+        "sage",
+        "Salbei, gemahlen"
       ]
     },
     {
@@ -1856,7 +2170,9 @@
       "displayNameDE": "Majoran, getrocknet",
       "searchAliases": [
         "Majoran",
-        "marjoram"
+        "marjoram",
+        "getrockneter Majoran",
+        "dried marjoram"
       ]
     },
     {
@@ -1885,9 +2201,13 @@
       "id": "usda:2709796",
       "ingredient": "Parsley, raw",
       "displayName": "Parsley, raw",
-      "displayNameDE": "Petersilie, roh",
+      "displayNameDE": "Petersilie",
       "searchAliases": [
-        "Petersilie"
+        "Petersilie",
+        "Petersilie, roh",
+        "glatte Petersilie",
+        "krause Petersilie",
+        "Blattpetersilie"
       ]
     },
     {
@@ -1896,7 +2216,8 @@
       "displayName": "Basil, raw",
       "displayNameDE": "Basilikum",
       "searchAliases": [
-        "Basilikum"
+        "Basilikum",
+        "basil"
       ]
     },
     {
@@ -1905,7 +2226,8 @@
       "displayName": "Chives, raw",
       "displayNameDE": "Schnittlauch",
       "searchAliases": [
-        "Schnittlauch"
+        "Schnittlauch",
+        "Schnittlauchröllchen"
       ]
     },
     {
@@ -1941,7 +2263,9 @@
         "roasted green tea",
         "Japanese roasted green tea",
         "gerösteter grüner Tee",
-        "geroesteter gruener Tee"
+        "geroesteter gruener Tee",
+        "green tea",
+        "Sencha"
       ],
       "measure": "volume"
     },
@@ -1957,7 +2281,9 @@
         "tea",
         "black tea",
         "cup of tea",
-        "Tasse Tee"
+        "Tasse Tee",
+        "Earl Grey",
+        "Ostfriesentee"
       ],
       "measure": "volume"
     },
@@ -1965,13 +2291,16 @@
       "id": "usda:2710541",
       "ingredient": "Soft drink, cola",
       "displayName": "Cola",
-      "displayNameDE": "Erfrischungsgetränk, Cola",
+      "displayNameDE": "Cola",
       "searchAliases": [
         "soda",
         "soft drink",
         "Softdrink",
         "cola",
-        "Cola"
+        "Cola",
+        "Erfrischungsgetränk, Cola",
+        "Coca-Cola",
+        "Coke"
       ],
       "measure": "volume",
       "gramsPerMilliliter": 1.04
@@ -1995,10 +2324,13 @@
       "id": "usda:2710708",
       "ingredient": "Bottled water",
       "displayName": "Bottled water",
-      "displayNameDE": "Wasser, still, Flasche",
+      "displayNameDE": "Mineralwasser, still",
       "searchAliases": [
         "Plain bottled water",
-        "Flaschenwasser"
+        "Flaschenwasser",
+        "Wasser, still, Flasche",
+        "Mineralwasser still",
+        "stilles Mineralwasser"
       ],
       "measure": "volume"
     },
@@ -2013,7 +2345,9 @@
         "Sprudelwasser",
         "Mineralwasser",
         "sparkling water",
-        "Sprudel"
+        "Sprudel",
+        "Selterswasser",
+        "Wasser mit Kohlensäure"
       ],
       "measure": "volume"
     },
@@ -2024,7 +2358,8 @@
       "displayNameDE": "Orangensaft, 100 %",
       "searchAliases": [
         "Orangensaft",
-        "orange juice"
+        "orange juice",
+        "O-Saft"
       ],
       "measure": "volume",
       "gramsPerMilliliter": 1.04
@@ -2084,7 +2419,9 @@
       "displayName": "Beef tenderloin, raw",
       "displayNameDE": "Rinderfilet, roh",
       "searchAliases": [
-        "Rinderfilet"
+        "Rinderfilet",
+        "Filetsteak",
+        "Rinderfiletsteak"
       ]
     },
     {
@@ -2129,7 +2466,8 @@
       "displayName": "Beef shoulder, raw",
       "displayNameDE": "Rinderschulter, roh",
       "searchAliases": [
-        "Rinderschulter"
+        "Rinderschulter",
+        "Rinderbug"
       ]
     },
     {
@@ -2138,7 +2476,9 @@
       "displayName": "Beef brisket, raw",
       "displayNameDE": "Rinderbrust, roh",
       "searchAliases": [
-        "Rinderbrust"
+        "Rinderbrust",
+        "Brisket",
+        "Brustkern"
       ]
     },
     {
@@ -2166,7 +2506,8 @@
       "displayName": "Beef rump, raw",
       "displayNameDE": "Rinderhüfte, roh",
       "searchAliases": [
-        "Rinderhüfte"
+        "Rinderhüfte",
+        "rump steak"
       ]
     },
     {
@@ -2220,7 +2561,8 @@
       "displayName": "Pork shoulder, raw",
       "displayNameDE": "Schweineschulter, roh",
       "searchAliases": [
-        "Schweineschulter"
+        "Schweineschulter",
+        "Schweinebug"
       ]
     },
     {
@@ -2238,7 +2580,8 @@
       "displayName": "Pork belly, raw",
       "displayNameDE": "Schweinebauch, roh",
       "searchAliases": [
-        "Schweinebauch"
+        "Schweinebauch",
+        "pork belly"
       ]
     },
     {
@@ -2256,7 +2599,10 @@
       "displayName": "Pork chop, raw",
       "displayNameDE": "Schweinekotelett, roh",
       "searchAliases": [
-        "Schweinekotelett"
+        "Schweinekotelett",
+        "Kotelett",
+        "Karbonade",
+        "pork chop"
       ]
     },
     {
@@ -2427,7 +2773,8 @@
       "displayName": "Lamb loin, raw",
       "displayNameDE": "Lammrücken, roh",
       "searchAliases": [
-        "Lammrücken"
+        "Lammrücken",
+        "Lammlachs"
       ]
     },
     {
@@ -2445,7 +2792,9 @@
       "displayName": "Lamb chop, raw",
       "displayNameDE": "Lammkotelett, roh",
       "searchAliases": [
-        "Lammkotelett"
+        "Lammkotelett",
+        "Lammkoteletts",
+        "lamb chops"
       ]
     },
     {
@@ -2455,7 +2804,8 @@
       "displayNameDE": "Hähnchenkeule, roh",
       "searchAliases": [
         "Hähnchenkeule",
-        "Hähnchenschenkel"
+        "Hähnchenschenkel",
+        "Hühnerkeule"
       ]
     },
     {
@@ -2464,7 +2814,9 @@
       "displayName": "Chicken wings, raw",
       "displayNameDE": "Hähnchenflügel, roh",
       "searchAliases": [
-        "Hähnchenflügel"
+        "Hähnchenflügel",
+        "Hühnerflügel",
+        "Hühnchenflügel"
       ]
     },
     {
@@ -2473,7 +2825,9 @@
       "displayName": "Chicken liver, raw",
       "displayNameDE": "Hähnchenleber, roh",
       "searchAliases": [
-        "Hähnchenleber"
+        "Hähnchenleber",
+        "Hühnerleber",
+        "Geflügelleber"
       ]
     },
     {
@@ -2482,7 +2836,9 @@
       "displayName": "Chicken heart, raw",
       "displayNameDE": "Hähnchenherz, roh",
       "searchAliases": [
-        "Hähnchenherz"
+        "Hähnchenherz",
+        "Hühnerherzen",
+        "Hähnchenherzen"
       ]
     },
     {
@@ -2491,7 +2847,9 @@
       "displayName": "Turkey leg, raw",
       "displayNameDE": "Putenkeule, roh",
       "searchAliases": [
-        "Putenkeule"
+        "Putenkeule",
+        "Truthahnkeule",
+        "Putenschenkel"
       ]
     },
     {
@@ -2500,7 +2858,8 @@
       "displayName": "Turkey wings, raw",
       "displayNameDE": "Putenflügel, roh",
       "searchAliases": [
-        "Putenflügel"
+        "Putenflügel",
+        "Truthahnflügel"
       ]
     },
     {
@@ -2509,7 +2868,8 @@
       "displayName": "Duck leg, raw",
       "displayNameDE": "Entenkeule, roh",
       "searchAliases": [
-        "Entenkeule"
+        "Entenkeule",
+        "Entenschenkel"
       ]
     },
     {
@@ -2527,7 +2887,8 @@
       "displayName": "Goose leg, raw",
       "displayNameDE": "Gänsekeule, roh",
       "searchAliases": [
-        "Gänsekeule"
+        "Gänsekeule",
+        "Gänseschenkel"
       ]
     },
     {
@@ -2607,7 +2968,9 @@
         "roast potatoes",
         "roasted potatoes",
         "Ofenkartoffeln",
-        "Röstkartoffeln"
+        "Röstkartoffeln",
+        "Rosmarinkartoffeln",
+        "Backofenkartoffeln"
       ]
     },
     {
@@ -2620,7 +2983,10 @@
         "mashed potato",
         "Kartoffelpüree",
         "Kartoffelbrei",
-        "Stampfkartoffeln"
+        "Stampfkartoffeln",
+        "Kartoffelstampf",
+        "Erdäpfelpüree",
+        "Püree"
       ]
     },
     {
@@ -2649,7 +3015,9 @@
         "Brezeln",
         "Breze",
         "Laugenbrezel",
-        "Brezn"
+        "Brezn",
+        "Brezen",
+        "Laugenbreze"
       ]
     },
     {
@@ -2662,7 +3030,8 @@
         "pancake",
         "Pfannkuchen",
         "Eierkuchen",
-        "Pfannekuchen"
+        "Pfannekuchen",
+        "Palatschinken"
       ]
     },
     {
@@ -2714,7 +3083,9 @@
         "soft boiled egg",
         "gekochtes Ei",
         "gekochte Eier",
-        "Frühstücksei"
+        "Frühstücksei",
+        "hartgekochtes Ei",
+        "weiches Ei"
       ]
     },
     {
@@ -2737,7 +3108,8 @@
       "searchAliases": [
         "hash browns",
         "hash brown",
-        "Hash Browns"
+        "Hash Browns",
+        "Röstis"
       ]
     },
     {
@@ -2857,7 +3229,9 @@
         "whey",
         "Proteinpulver",
         "Eiweißpulver",
-        "Whey Protein"
+        "Whey Protein",
+        "Molkenprotein",
+        "Whey-Protein"
       ]
     },
     {
@@ -2871,7 +3245,8 @@
         "panko",
         "Paniermehl",
         "Semmelbrösel",
-        "Semmelmehl"
+        "Semmelmehl",
+        "Brösel"
       ]
     },
     {
@@ -2889,7 +3264,9 @@
         "Gewürzgurke",
         "Gewürzgurken",
         "Essiggurke",
-        "Essiggurken"
+        "Essiggurken",
+        "saure Gurken",
+        "saure Gurke"
       ]
     },
     {
@@ -2950,7 +3327,8 @@
         "black olives",
         "olives",
         "Oliven",
-        "schwarze Oliven"
+        "schwarze Oliven",
+        "Kalamata-Oliven"
       ]
     },
     {
@@ -2971,7 +3349,6 @@
       "searchAliases": [
         "coleslaw",
         "cole slaw",
-        "Krautsalat",
         "Coleslaw"
       ]
     },
@@ -3041,7 +3418,9 @@
         "Wiener Würstchen",
         "Frankfurter",
         "Würstchen",
-        "Wienerle"
+        "Wienerle",
+        "Frankfurter Würstchen",
+        "Würstel"
       ]
     },
     {
@@ -3053,7 +3432,8 @@
         "fleischwurst",
         "bologna",
         "Fleischwurst",
-        "Lyoner"
+        "Lyoner",
+        "Extrawurst"
       ]
     },
     {
@@ -3093,7 +3473,8 @@
         "icing sugar",
         "powdered sugar",
         "confectioners sugar",
-        "Puderzucker"
+        "Puderzucker",
+        "Staubzucker"
       ]
     },
     {
@@ -3118,7 +3499,9 @@
         "fresh yeast",
         "Hefe",
         "Frischhefe",
-        "Backhefe"
+        "Backhefe",
+        "Hefewürfel",
+        "Germ"
       ]
     },
     {
@@ -3144,7 +3527,8 @@
         "marinara",
         "Tomatensauce",
         "Tomatensoße",
-        "Nudelsauce"
+        "Nudelsauce",
+        "Sugo"
       ]
     },
     {
@@ -3184,7 +3568,10 @@
         "frozen mixed berries",
         "TK Beeren",
         "Beerenmischung",
-        "tiefgekühlte Beeren"
+        "tiefgekühlte Beeren",
+        "TK-Beeren",
+        "Beerenmix",
+        "Waldfrüchte"
       ]
     },
     {
@@ -3203,7 +3590,7 @@
       "id": "bls:X201160",
       "ingredient": "Green salad",
       "displayName": "Green salad",
-      "displayNameDE": "Gemischter Salat",
+      "displayNameDE": "Grüner Salat",
       "searchAliases": [
         "green salad",
         "mixed salad",
@@ -3212,7 +3599,8 @@
         "mixed leaves",
         "gemischter Salat",
         "Beilagensalat",
-        "grüner Salat"
+        "grüner Salat",
+        "Gemischter Salat"
       ]
     },
     {
@@ -3241,7 +3629,9 @@
         "Gouda",
         "Gouda cheese",
         "sliced cheese",
-        "Scheibenkäse"
+        "Scheibenkäse",
+        "Goudakäse",
+        "junger Gouda"
       ]
     },
     {
@@ -3333,7 +3723,8 @@
         "vegetable stock",
         "vegetable broth",
         "Gemüsebrühe",
-        "Gemüsefond"
+        "Gemüsefond",
+        "Gemüsebouillon"
       ],
       "measure": "volume"
     },
@@ -3347,7 +3738,9 @@
         "beef broth",
         "Rinderbrühe",
         "Fleischbrühe",
-        "Rindfleischbrühe"
+        "Rindfleischbrühe",
+        "Rinderbouillon",
+        "Rinderfond"
       ],
       "measure": "volume"
     },
@@ -3360,7 +3753,9 @@
         "chicken stock",
         "chicken broth",
         "Hühnerbrühe",
-        "Hühnerfond"
+        "Hühnerfond",
+        "Geflügelbrühe",
+        "Hühnerbouillon"
       ],
       "measure": "volume"
     },
@@ -3387,7 +3782,9 @@
         "chopped tomatoes",
         "Dosentomaten",
         "Tomaten aus der Dose",
-        "geschälte Tomaten"
+        "geschälte Tomaten",
+        "stückige Tomaten",
+        "gehackte Tomaten"
       ]
     },
     {
@@ -3399,7 +3796,9 @@
         "ham",
         "cooked ham",
         "Kochschinken",
-        "Schinken"
+        "Schinken",
+        "gekochter Schinken",
+        "Hinterschinken"
       ]
     },
     {
@@ -3439,7 +3838,9 @@
       "searchAliases": [
         "parmesan",
         "parmigiano",
-        "Parmigiano Reggiano"
+        "Parmigiano Reggiano",
+        "Parmesankäse",
+        "geriebener Parmesan"
       ]
     },
     {
@@ -3464,7 +3865,8 @@
         "coriander leaves",
         "fresh coriander",
         "Koriander",
-        "Koriandergrün"
+        "Koriandergrün",
+        "Korianderblätter"
       ]
     },
     {
@@ -3488,7 +3890,9 @@
       "searchAliases": [
         "cooked chicken thigh",
         "fried chicken thigh",
-        "gebratener Hähnchenschenkel"
+        "gebratener Hähnchenschenkel",
+        "Hähnchenoberschenkel",
+        "chicken thighs"
       ]
     },
     {
@@ -3502,7 +3906,9 @@
         "bechamel sauce",
         "white sauce",
         "Bechamelsauce",
-        "Béchamelsauce"
+        "Béchamelsauce",
+        "Béchamelsoße",
+        "weiße Soße"
       ]
     },
     {
@@ -3526,7 +3932,9 @@
         "cooked mushrooms",
         "sautéed mushrooms",
         "gebratene Champignons",
-        "gegrillte Champignons"
+        "gegrillte Champignons",
+        "gebratene Pilze",
+        "Pilze, gebraten"
       ]
     },
     {
@@ -3538,7 +3946,9 @@
         "bean sprouts",
         "mung bean sprouts",
         "Sojasprossen",
-        "Mungbohnensprossen"
+        "Mungbohnensprossen",
+        "Mungobohnensprossen",
+        "beansprouts"
       ]
     },
     {
@@ -3560,7 +3970,8 @@
         "cooked ground beef",
         "fried beef mince",
         "gebratenes Hackfleisch",
-        "gebratenes Rinderhack"
+        "gebratenes Rinderhack",
+        "minced beef"
       ]
     },
     {
@@ -3595,7 +4006,9 @@
         "sautéed onions",
         "cooked onions",
         "stewed onions",
-        "gedünstete Zwiebeln"
+        "gedünstete Zwiebeln",
+        "gebratene Zwiebeln",
+        "Zwiebeln, gebraten"
       ]
     },
     {
@@ -3645,7 +4058,8 @@
         "emmental",
         "emmentaler",
         "Swiss cheese",
-        "Emmentaler Käse"
+        "Emmentaler Käse",
+        "Emmenthaler"
       ]
     },
     {
@@ -3668,7 +4082,8 @@
         "fish sauce",
         "nam pla",
         "Fischsauce",
-        "Fischsoße"
+        "Fischsoße",
+        "nuoc mam"
       ]
     },
     {
@@ -3680,7 +4095,8 @@
         "hamburger bun",
         "burger bun",
         "Burgerbrötchen",
-        "Hamburgerbrötchen"
+        "Hamburgerbrötchen",
+        "Burger Buns"
       ]
     },
     {
@@ -3691,7 +4107,9 @@
       "searchAliases": [
         "gelatin",
         "gelatine",
-        "Blattgelatine"
+        "Blattgelatine",
+        "Gelatinepulver",
+        "gelatine sheets"
       ]
     },
     {
@@ -3753,7 +4171,9 @@
         "red chilli",
         "chili pepper",
         "Chilischote",
-        "rote Chili"
+        "rote Chili",
+        "Chilischoten",
+        "rote Chilischote"
       ]
     },
     {
@@ -3764,7 +4184,9 @@
       "searchAliases": [
         "green chili",
         "green chilli",
-        "grüne Chili"
+        "grüne Chili",
+        "grüne Chilischote",
+        "Chilischote, grün"
       ]
     },
     {
@@ -3777,7 +4199,10 @@
         "tangerine",
         "clementine",
         "Mandarine",
-        "Clementine"
+        "Clementine",
+        "Mandarinen",
+        "Clementinen",
+        "Satsuma"
       ]
     },
     {
@@ -3789,7 +4214,9 @@
         "steak",
         "cooked steak",
         "Steak",
-        "Rindersteak"
+        "Rindersteak",
+        "Rumpsteak",
+        "Beefsteak"
       ]
     },
     {
@@ -3799,7 +4226,9 @@
       "displayNameDE": "Schweinehackfleisch, gebraten",
       "searchAliases": [
         "cooked ground pork",
-        "fried pork mince"
+        "fried pork mince",
+        "gebratenes Schweinehack",
+        "pork mince"
       ]
     },
     {
@@ -3809,7 +4238,9 @@
       "displayNameDE": "Salsa",
       "searchAliases": [
         "tomato salsa",
-        "salsa roja"
+        "salsa roja",
+        "Tomatensalsa",
+        "Salsa-Dip"
       ]
     },
     {
@@ -3833,7 +4264,9 @@
       "searchAliases": [
         "fried potatoes",
         "pan-fried potatoes",
-        "Bratkartoffeln"
+        "Bratkartoffeln",
+        "home fries",
+        "Bratkartoffel"
       ]
     },
     {
@@ -3843,7 +4276,9 @@
       "displayNameDE": "Baguette",
       "searchAliases": [
         "French bread",
-        "Baguette"
+        "Baguette",
+        "Baguettebrot",
+        "french baguette"
       ]
     },
     {
@@ -3865,7 +4300,8 @@
       "displayNameDE": "Kabeljau, gegart",
       "searchAliases": [
         "cooked cod",
-        "grilled cod"
+        "grilled cod",
+        "gebratener Kabeljau"
       ]
     },
     {
@@ -3875,7 +4311,9 @@
       "displayNameDE": "Brokkoli, gekocht",
       "searchAliases": [
         "cooked broccoli",
-        "steamed broccoli"
+        "steamed broccoli",
+        "gekochter Brokkoli",
+        "gedünsteter Brokkoli"
       ]
     },
     {
@@ -3886,7 +4324,9 @@
       "searchAliases": [
         "sub roll",
         "hoagie roll",
-        "sandwich roll"
+        "sandwich roll",
+        "Sub-Brötchen",
+        "hoagie"
       ]
     },
     {
@@ -3896,7 +4336,8 @@
       "displayNameDE": "Austernsauce",
       "searchAliases": [
         "oyster sauce",
-        "Austernsauce"
+        "Austernsauce",
+        "Austernsoße"
       ]
     },
     {
@@ -3906,7 +4347,9 @@
       "displayNameDE": "Lammschulter, gebraten",
       "searchAliases": [
         "roast lamb",
-        "roast lamb shoulder"
+        "roast lamb shoulder",
+        "Lammbraten",
+        "geschmorte Lammschulter"
       ]
     },
     {
@@ -3918,7 +4361,10 @@
         "beef patty",
         "burger patty",
         "hamburger patty",
-        "Patty"
+        "Patty",
+        "Burgerpatty",
+        "Burger-Patty",
+        "Hamburger-Patty"
       ]
     },
     {
@@ -3942,7 +4388,9 @@
       "displayNameDE": "Gruyère",
       "searchAliases": [
         "gruyere",
-        "Greyerzer"
+        "Greyerzer",
+        "Greyerzer Käse",
+        "Gruyère-Käse"
       ]
     },
     {
@@ -3962,7 +4410,8 @@
       "displayName": "Asparagus, cooked",
       "displayNameDE": "Spargel, gekocht",
       "searchAliases": [
-        "cooked asparagus"
+        "cooked asparagus",
+        "Stangenspargel"
       ]
     },
     {
@@ -3985,7 +4434,8 @@
         "Zaziki",
         "Joghurtsauce",
         "yogurt sauce",
-        "Joghurt-Dip"
+        "Joghurt-Dip",
+        "Cacik"
       ]
     },
     {
@@ -3997,7 +4447,10 @@
         "processed cheese slice",
         "cheese slice",
         "Scheiblette",
-        "Scheibletten"
+        "Scheibletten",
+        "Schmelzkäsescheiben",
+        "Burgerkäse",
+        "American cheese"
       ]
     },
     {
@@ -4010,7 +4463,9 @@
         "chicken schnitzel",
         "Hähnchenschnitzel",
         "chicken katsu",
-        "katsu chicken"
+        "katsu chicken",
+        "Hühnerschnitzel",
+        "panierte Hähnchenbrust"
       ]
     },
     {
@@ -4035,7 +4490,10 @@
       "displayNameDE": "Hähnchenbrust, gegrillt",
       "searchAliases": [
         "grilled chicken breast",
-        "grilled chicken"
+        "grilled chicken",
+        "gegrillte Hähnchenbrust",
+        "Hühnerbrust gegrillt",
+        "Hähnchenbrustfilet gegrillt"
       ]
     },
     {
@@ -4044,7 +4502,8 @@
       "displayName": "Cauliflower, cooked",
       "displayNameDE": "Blumenkohl, gekocht",
       "searchAliases": [
-        "cooked cauliflower"
+        "cooked cauliflower",
+        "gekochter Blumenkohl"
       ]
     },
     {
@@ -4053,7 +4512,10 @@
       "displayName": "Rice noodles, cooked",
       "displayNameDE": "Reisnudeln, gekocht",
       "searchAliases": [
-        "cooked rice noodles"
+        "cooked rice noodles",
+        "gekochte Reisnudeln",
+        "rice vermicelli",
+        "Reis-Vermicelli"
       ]
     },
     {
@@ -4064,7 +4526,9 @@
       "searchAliases": [
         "parma ham",
         "Parmaschinken",
-        "Rohschinken"
+        "Rohschinken",
+        "Serranoschinken",
+        "luftgetrockneter Schinken"
       ]
     },
     {
@@ -4076,7 +4540,9 @@
         "phyllo",
         "phyllo pastry",
         "Yufka",
-        "Yufkateig"
+        "Yufkateig",
+        "Filo",
+        "Strudelteig"
       ]
     },
     {
@@ -4086,7 +4552,8 @@
       "displayNameDE": "Dill, frisch",
       "searchAliases": [
         "fresh dill",
-        "frischer Dill"
+        "frischer Dill",
+        "Dill"
       ]
     },
     {
@@ -4117,7 +4584,9 @@
       "displayNameDE": "Eisbergsalat",
       "searchAliases": [
         "iceberg lettuce",
-        "Eisbergsalat"
+        "Eisbergsalat",
+        "Eissalat",
+        "Eisberg"
       ]
     },
     {
@@ -4129,7 +4598,10 @@
         "tartar sauce",
         "tartare sauce",
         "remoulade",
-        "Remoulade"
+        "Remoulade",
+        "Tatarensauce",
+        "Sauce tartare",
+        "Remouladensoße"
       ]
     },
     {
@@ -4140,7 +4612,9 @@
       "searchAliases": [
         "shortcrust",
         "pie crust",
-        "Mürbeteig"
+        "Mürbeteig",
+        "Mürbteig",
+        "tart pastry"
       ]
     },
     {
@@ -4152,7 +4626,9 @@
         "applesauce",
         "apple sauce",
         "Apfelmus",
-        "Apfelkompott"
+        "Apfelkompott",
+        "Apfelpüree",
+        "apple puree"
       ]
     },
     {
@@ -4164,7 +4640,8 @@
         "cooked salmon",
         "grilled salmon",
         "Lachs gebraten",
-        "Lachsfilet gebraten"
+        "Lachsfilet gebraten",
+        "gegrillter Lachs"
       ]
     },
     {
@@ -4176,7 +4653,9 @@
         "anchovies in oil",
         "anchovy",
         "Sardellen",
-        "Sardellenfilets"
+        "Sardellenfilets",
+        "Anchovis",
+        "Sardellenfilet"
       ]
     },
     {
@@ -4197,7 +4676,9 @@
       "searchAliases": [
         "tortilla chips",
         "nachos",
-        "Nachos"
+        "Nachos",
+        "Tortillachips",
+        "Nachochips"
       ]
     },
     {
@@ -4207,7 +4688,9 @@
       "displayNameDE": "Worcestersauce",
       "searchAliases": [
         "worcester sauce",
-        "Worcestershire"
+        "Worcestershire",
+        "Worcestershiresauce",
+        "Worcestersoße"
       ]
     },
     {
@@ -4216,7 +4699,9 @@
       "displayName": "Hoisin sauce",
       "displayNameDE": "Hoisin-Sauce",
       "searchAliases": [
-        "hoisin"
+        "hoisin",
+        "Hoisinsauce",
+        "Hoisin-Soße"
       ]
     },
     {
@@ -4242,7 +4727,9 @@
       "searchAliases": [
         "pan-fried chicken breast",
         "fried chicken breast",
-        "Hähnchenbrust gebraten"
+        "Hähnchenbrust gebraten",
+        "gebratene Hähnchenbrust",
+        "Hühnerbrust gebraten"
       ]
     },
     {
@@ -4254,7 +4741,9 @@
         "schnitzel",
         "breaded pork schnitzel",
         "Schweineschnitzel",
-        "Schnitzel"
+        "Schnitzel",
+        "Schnitzel Wiener Art",
+        "tonkatsu"
       ]
     },
     {
@@ -4273,7 +4762,9 @@
       "displayNameDE": "Rote Bete, gekocht",
       "searchAliases": [
         "cooked beetroot",
-        "cooked beets"
+        "cooked beets",
+        "Rote Beete",
+        "gekochte Rote Bete"
       ]
     },
     {
@@ -4282,7 +4773,9 @@
       "displayName": "Sauerkraut",
       "displayNameDE": "Sauerkraut",
       "searchAliases": [
-        "sauerkraut"
+        "sauerkraut",
+        "Sauerkohl",
+        "Weinsauerkraut"
       ]
     },
     {
@@ -4291,7 +4784,9 @@
       "displayName": "Brussels sprouts, cooked",
       "displayNameDE": "Rosenkohl, gekocht",
       "searchAliases": [
-        "cooked brussels sprouts"
+        "cooked brussels sprouts",
+        "gekochter Rosenkohl",
+        "brussel sprouts"
       ]
     },
     {
@@ -4336,7 +4831,10 @@
       "searchAliases": [
         "bbq sauce",
         "BBQ-Sauce",
-        "barbecue sauce"
+        "barbecue sauce",
+        "Grillsauce",
+        "BBQ-Soße",
+        "Barbecuesoße"
       ]
     },
     {
@@ -4354,17 +4852,20 @@
       "displayName": "Pico de gallo",
       "displayNameDE": "Pico de Gallo",
       "searchAliases": [
-        "pico de gallo"
+        "pico de gallo",
+        "salsa fresca"
       ]
     },
     {
       "id": "usda:2707396",
       "ingredient": "Refried beans",
       "displayName": "Refried beans",
-      "displayNameDE": "Bohnenmus",
+      "displayNameDE": "Refried Beans",
       "searchAliases": [
         "refried beans",
-        "frijoles refritos"
+        "frijoles refritos",
+        "Bohnenmus",
+        "Bohnenpüree"
       ]
     },
     {
@@ -4373,7 +4874,9 @@
       "displayName": "Pepperoni",
       "displayNameDE": "Pepperoni-Salami",
       "searchAliases": [
-        "pepperoni"
+        "pepperoni",
+        "Peperonisalami",
+        "Peperoni-Salami"
       ]
     },
     {
@@ -4385,7 +4888,9 @@
         "granola",
         "crunchy muesli",
         "Crunchy",
-        "Knuspermüsli"
+        "Knuspermüsli",
+        "Crunchy Müsli",
+        "Knusper-Müsli"
       ]
     },
     {
@@ -4395,7 +4900,8 @@
       "displayNameDE": "Schweinefilet, gegrillt",
       "searchAliases": [
         "grilled pork tenderloin",
-        "Schweinefilet gebraten"
+        "Schweinefilet gebraten",
+        "pork fillet"
       ]
     },
     {
@@ -4417,7 +4923,9 @@
       "displayNameDE": "Blätterteig",
       "searchAliases": [
         "puff pastry",
-        "Blätterteig"
+        "Blätterteig",
+        "Blätterteigplatte",
+        "puff pastry sheet"
       ]
     },
     {
@@ -4459,18 +4967,22 @@
       "searchAliases": [
         "pan-fried turkey breast",
         "Putenbrust gebraten",
-        "Putenschnitzel"
+        "Putenschnitzel",
+        "gebratene Putenbrust"
       ]
     },
     {
       "id": "bls:M713300",
       "ingredient": "Quark",
       "displayName": "Quark",
-      "displayNameDE": "Speisequark, 20 %",
+      "displayNameDE": "Speisequark, 20 % Fett",
       "searchAliases": [
         "quark",
         "Speisequark",
-        "Quark"
+        "Quark",
+        "Speisequark, 20 %",
+        "Halbfettquark",
+        "Quark 20 %"
       ]
     },
     {
@@ -4482,7 +4994,8 @@
         "cooked pork belly",
         "grilled pork belly",
         "chashu",
-        "chashu pork"
+        "chashu pork",
+        "Bauchscheiben"
       ]
     },
     {
@@ -4521,7 +5034,9 @@
       "displayNameDE": "Sauce Hollandaise",
       "searchAliases": [
         "hollandaise",
-        "Sauce Hollandaise"
+        "Sauce Hollandaise",
+        "Hollandaise-Soße",
+        "Hollandaisesauce"
       ]
     },
     {
@@ -4549,7 +5064,7 @@
       "id": "bls:E608032",
       "ingredient": "Bread dumplings",
       "displayName": "Bread dumplings",
-      "displayNameDE": "Knödel",
+      "displayNameDE": "Semmelknödel",
       "searchAliases": [
         "bread dumplings",
         "Knödel",
@@ -4588,7 +5103,9 @@
         "ice cream",
         "Eis",
         "Vanilleeis",
-        "Speiseeis"
+        "Speiseeis",
+        "Vanille-Eis",
+        "Eiscreme"
       ]
     },
     {
@@ -4610,7 +5127,9 @@
         "crisps",
         "potato crisps",
         "Kartoffelchips",
-        "Chips"
+        "Chips",
+        "potato chips",
+        "Kartoffel-Chips"
       ]
     },
     {
@@ -4620,7 +5139,9 @@
       "displayNameDE": "Kartoffelsalat",
       "searchAliases": [
         "potato salad",
-        "Kartoffelsalat"
+        "Kartoffelsalat",
+        "Kartoffelsalat mit Mayonnaise",
+        "Kartoffelsalat mit Mayo"
       ]
     },
     {
@@ -4644,7 +5165,9 @@
         "flatbread",
         "Fladenbrot",
         "pide",
-        "Pide"
+        "Pide",
+        "türkisches Fladenbrot",
+        "Turkish bread"
       ]
     },
     {
@@ -4655,7 +5178,8 @@
       "searchAliases": [
         "smoked salmon",
         "lox",
-        "Räucherlachs"
+        "Räucherlachs",
+        "geräucherter Lachs"
       ]
     },
     {
@@ -4665,7 +5189,8 @@
       "displayNameDE": "Schmand",
       "searchAliases": [
         "Schmand",
-        "sour cream 24 %"
+        "sour cream 24 %",
+        "Schmant"
       ]
     },
     {
@@ -4712,7 +5237,9 @@
         "chocolate spread",
         "Nutella",
         "Nussnougatcreme",
-        "Schokocreme"
+        "Schokocreme",
+        "Nougatcreme",
+        "Nuss-Nugat-Creme"
       ]
     },
     {
@@ -4723,7 +5250,9 @@
       "searchAliases": [
         "baked beans",
         "beans in tomato sauce",
-        "Bohnen in Tomatensauce"
+        "Bohnen in Tomatensauce",
+        "weiße Bohnen in Tomatensoße",
+        "Bohnen in Tomatensoße"
       ]
     },
     {
@@ -4789,7 +5318,8 @@
       "searchAliases": [
         "gnocchi",
         "potato gnocchi",
-        "Gnocchi"
+        "Gnocchi",
+        "Kartoffelgnocchi"
       ]
     },
     {
@@ -4865,7 +5395,8 @@
         "redcurrants",
         "currants",
         "Johannisbeeren",
-        "rote Johannisbeeren"
+        "rote Johannisbeeren",
+        "Ribisel"
       ]
     },
     {
@@ -4911,7 +5442,9 @@
         "leberkase",
         "Fleischkäse",
         "Leberkas",
-        "Leberkässemmel"
+        "Leberkässemmel",
+        "Leberkäs",
+        "Fleischkäs"
       ]
     },
     {
@@ -4967,7 +5500,8 @@
         "chanterelles",
         "chanterelle",
         "Pfifferlinge",
-        "Pfifferling"
+        "Pfifferling",
+        "Eierschwammerl"
       ]
     },
     {
@@ -5058,7 +5592,9 @@
         "cava",
         "Sekt",
         "Prosecco",
-        "Champagner"
+        "Champagner",
+        "Schaumwein",
+        "Crémant"
       ],
       "measure": "volume",
       "gramsPerMilliliter": 0.99
@@ -5071,7 +5607,8 @@
       "searchAliases": [
         "sweet potato fries",
         "Süßkartoffelpommes",
-        "Süßkartoffel Pommes"
+        "Süßkartoffel Pommes",
+        "Süßkartoffelfritten"
       ]
     },
     {
@@ -5083,7 +5620,8 @@
         "sweet mustard",
         "bavarian sweet mustard",
         "süßer Senf",
-        "Weißwurstsenf"
+        "Weißwurstsenf",
+        "bayerischer Senf"
       ]
     },
     {
@@ -5105,7 +5643,9 @@
         "iced tea",
         "ice tea",
         "Eistee",
-        "Ice Tea"
+        "Ice Tea",
+        "Pfirsich-Eistee",
+        "Zitronen-Eistee"
       ],
       "measure": "volume",
       "gramsPerMilliliter": 1.02
@@ -5122,7 +5662,8 @@
         "Kakao",
         "heiße Schokolade",
         "Trinkschokolade",
-        "Kakao mit Milch"
+        "Kakao mit Milch",
+        "Kakaogetränk"
       ],
       "measure": "volume",
       "gramsPerMilliliter": 1.03
@@ -5138,7 +5679,8 @@
         "Mischbrot",
         "Graubrot",
         "Brot",
-        "bread"
+        "bread",
+        "Weizenmischbrot"
       ]
     },
     {
@@ -5418,7 +5960,9 @@
       "searchAliases": [
         "black pudding",
         "blood sausage",
-        "Blutwurst"
+        "Blutwurst",
+        "Blunzen",
+        "Rotwurst"
       ]
     },
     {
@@ -5470,7 +6014,9 @@
         "Rindfleisch gekocht",
         "Rindfleisch, gekocht",
         "gekochtes Rindfleisch",
-        "Suppenfleisch"
+        "Suppenfleisch",
+        "Tafelspitz",
+        "Siedfleisch"
       ]
     },
     {

@@ -45,3 +45,5 @@ First pass (1 October 2026), 6 batches: 878 identities, 837 portions (78 with a
 source household measure, 759 estimates), 40 skipped as never logged on their
 own (stocks, raw doughs, leavening, thickeners), 1 unresolved (corn taco
 shell: the USDA "1 medium" shell is 28 g against a drafted 12 g).
+
+`ignoreMeasures` on a draft entry (with a short reason) keeps the drafted weight when the source row's household measure describes another country's item, such as a 28 g US deli slice against a 12 g German one; the portion is then marked an estimate.

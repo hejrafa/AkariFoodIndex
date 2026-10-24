@@ -353,14 +353,16 @@
    "gramsPerUnit": 10,
    "typical": 2,
    "reason": "a square of a 100 g bar",
-   "includeReferences": ["usda:170273"]
+   "includeReferences": [
+    "usda:170273"
+   ]
   },
   {
    "key": "cocoa powder",
    "unit": "teaspoon",
-   "gramsPerUnit": 2.5,
+   "gramsPerUnit": 1.8,
    "typical": 2,
-   "reason": "two teaspoons of cocoa for a hot drink or porridge"
+   "reason": "two level teaspoons of cocoa for a drink or porridge (FNDDS 1 tbsp 5 g)"
   },
   {
    "key": "sesame seeds",
@@ -449,9 +451,10 @@
   {
    "key": "chicken deli meat",
    "unit": "slice",
-   "gramsPerUnit": 20,
-   "typical": 2,
-   "reason": "a deli slice of chicken; German pre-packed slices are thinner"
+   "gramsPerUnit": 10,
+   "typical": 3,
+   "reason": "a thin slice of chicken breast cold cuts, three on bread (aid: Wurst 30 g, 1–3 Scheiben)",
+   "ignoreMeasures": "US slice NFS 28 g; German cold-cut slices are about 10 g"
   },
   {
    "key": "almond butter",
@@ -484,9 +487,9 @@
   {
    "key": "kalbfleisch",
    "unit": "portion",
-   "gramsPerUnit": 150,
+   "gramsPerUnit": 100,
    "typical": 1,
-   "reason": "raw veal for one person"
+   "reason": "cooked veal mince from about 125 g raw (FNDDS 1 patty 85 g)"
   },
   {
    "key": "hahnchenfleisch",
@@ -984,7 +987,9 @@
    "gramsPerUnit": 150,
    "typical": 1,
    "reason": "a medium portion of fries",
-   "includeReferences": ["usda:2709456"]
+   "includeReferences": [
+    "usda:2709456"
+   ]
   },
   {
    "key": "roast potatoes",

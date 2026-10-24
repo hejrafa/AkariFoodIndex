@@ -3,43 +3,138 @@
  "drafted": "2026-10-19",
  "drafter": "Claude in the Akari Claude Code session",
  "entries": [
-  {"key": "raclette cheese", "unit": "slice", "gramsPerUnit": 30, "typical": 3,
-   "reason": "a raclette slice; an evening uses a few"},
-  {"key": "sweet mustard", "unit": "tablespoon", "gramsPerUnit": 15, "typical": 1,
-   "reason": "a tablespoon beside a Weißwurst"},
-  {"key": "matjes", "unit": "piece", "gramsPerUnit": 75, "typical": 2,
-   "reason": "one mild-salted fillet; a plate carries two"},
-  {"key": "yorkshire pudding", "unit": "piece", "gramsPerUnit": 40, "typical": 1,
-   "reason": "one baked pudding"},
-  {"key": "clotted cream", "unit": "tablespoon", "gramsPerUnit": 20, "typical": 2,
-   "reason": "spread on a scone"},
-  {"key": "crackers", "unit": "piece", "gramsPerUnit": 3, "typical": 6,
-   "reason": "the source's single cracker; a small handful"},
-  {"key": "cereal bar", "unit": "bar", "gramsPerUnit": 30, "typical": 1,
-   "reason": "a wrapped bar"},
-  {"key": "gummy bears", "unit": "portion", "gramsPerUnit": 30, "typical": 1,
-   "reason": "a small handful"},
-  {"key": "herring", "unit": "piece", "gramsPerUnit": 90, "typical": 1,
-   "reason": "the source's fillet"},
-  {"key": "herb quark", "unit": "portion", "gramsPerUnit": 100, "typical": 1,
-   "reason": "the helping beside jacket potatoes"},
-  {"key": "onion rings", "unit": "piece", "gramsPerUnit": 10, "typical": 8,
-   "reason": "the source's ring; a side of eight"},
-  {"key": "chanterelles cooked", "unit": "portion", "gramsPerUnit": 100, "typical": 1,
-   "reason": "a cooked side of mushrooms"},
-  {"key": "lingonberries", "unit": "tablespoon", "gramsPerUnit": 20, "typical": 1,
-   "reason": "a spoon beside a schnitzel"},
-  {"key": "pretzel sticks", "unit": "portion", "gramsPerUnit": 30, "typical": 1,
-   "reason": "a small handful"},
-  {"key": "eisbein", "unit": "portion", "gramsPerUnit": 300, "typical": 1,
-   "reason": "the meat of one cured hock on a plate"},
-  {"key": "sparkling wine", "unit": "glass", "milliliters": 100, "typical": 1,
-   "reason": "a flute"},
-  {"key": "sweet potato fries", "unit": "portion", "gramsPerUnit": 120, "typical": 1,
-   "reason": "a side order"},
-  {"key": "iced tea", "unit": "glass", "milliliters": 300, "typical": 1,
-   "reason": "a tall glass"},
-  {"key": "red currants", "unit": "portion", "gramsPerUnit": 100, "typical": 1,
-   "reason": "a small bowl of berries"}
+  {
+   "key": "raclette cheese",
+   "unit": "slice",
+   "gramsPerUnit": 30,
+   "typical": 5,
+   "reason": "a raclette slice; a raclette evening uses about 150 g per person"
+  },
+  {
+   "key": "sweet mustard",
+   "unit": "tablespoon",
+   "gramsPerUnit": 15,
+   "typical": 1,
+   "reason": "a tablespoon beside a Weißwurst"
+  },
+  {
+   "key": "matjes",
+   "unit": "piece",
+   "gramsPerUnit": 75,
+   "typical": 2,
+   "reason": "one mild-salted fillet; a plate carries two"
+  },
+  {
+   "key": "yorkshire pudding",
+   "unit": "piece",
+   "gramsPerUnit": 40,
+   "typical": 1,
+   "reason": "one baked pudding"
+  },
+  {
+   "key": "clotted cream",
+   "unit": "tablespoon",
+   "gramsPerUnit": 20,
+   "typical": 2,
+   "reason": "spread on a scone"
+  },
+  {
+   "key": "crackers",
+   "unit": "piece",
+   "gramsPerUnit": 3,
+   "typical": 6,
+   "reason": "the source's single cracker; a small handful"
+  },
+  {
+   "key": "cereal bar",
+   "unit": "bar",
+   "gramsPerUnit": 30,
+   "typical": 1,
+   "reason": "a wrapped bar"
+  },
+  {
+   "key": "gummy bears",
+   "unit": "portion",
+   "gramsPerUnit": 30,
+   "typical": 1,
+   "reason": "a small handful"
+  },
+  {
+   "key": "herring",
+   "unit": "piece",
+   "gramsPerUnit": 90,
+   "typical": 1,
+   "reason": "the source's fillet"
+  },
+  {
+   "key": "herb quark",
+   "unit": "portion",
+   "gramsPerUnit": 100,
+   "typical": 1,
+   "reason": "the helping beside jacket potatoes"
+  },
+  {
+   "key": "onion rings",
+   "unit": "piece",
+   "gramsPerUnit": 10,
+   "typical": 8,
+   "reason": "the source's ring; a side of eight"
+  },
+  {
+   "key": "chanterelles cooked",
+   "unit": "portion",
+   "gramsPerUnit": 100,
+   "typical": 1,
+   "reason": "a cooked side of mushrooms"
+  },
+  {
+   "key": "lingonberries",
+   "unit": "tablespoon",
+   "gramsPerUnit": 20,
+   "typical": 1,
+   "reason": "a spoon beside a schnitzel"
+  },
+  {
+   "key": "pretzel sticks",
+   "unit": "portion",
+   "gramsPerUnit": 30,
+   "typical": 1,
+   "reason": "a small handful"
+  },
+  {
+   "key": "eisbein",
+   "unit": "portion",
+   "gramsPerUnit": 300,
+   "typical": 1,
+   "reason": "the meat of one cured hock on a plate"
+  },
+  {
+   "key": "sparkling wine",
+   "unit": "glass",
+   "milliliters": 100,
+   "typical": 1,
+   "reason": "a flute"
+  },
+  {
+   "key": "sweet potato fries",
+   "unit": "portion",
+   "gramsPerUnit": 120,
+   "typical": 1,
+   "reason": "a side order"
+  },
+  {
+   "key": "iced tea",
+   "unit": "glass",
+   "milliliters": 300,
+   "typical": 1,
+   "reason": "a tall glass"
+  },
+  {
+   "key": "red currants",
+   "unit": "portion",
+   "gramsPerUnit": 100,
+   "typical": 1,
+   "reason": "a small bowl of berries"
+  }
  ]
 }

@@ -1,0 +1,251 @@
+{
+ "batch": 13,
+ "drafted": "2026-10-24",
+ "drafter": "Claude in the Akari Claude Code session",
+ "entries": [
+  {
+   "key": "paprikapulver",
+   "unit": "teaspoon",
+   "typical": 1,
+   "gramsPerUnit": 2.3,
+   "reason": "a teaspoon of paprika seasons one dish (USDA 1 tsp 2.3 g)"
+  },
+  {
+   "key": "cornstarch",
+   "unit": "tablespoon",
+   "typical": 1,
+   "gramsPerUnit": 8,
+   "reason": "a tablespoon thickens one sauce (USDA 1 tbsp 8 g)"
+  },
+  {
+   "key": "bay leaf",
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 0.6,
+   "reason": "one leaf in a pot (USDA 1 leaf 0.6 g)"
+  },
+  {
+   "key": "baking powder",
+   "unit": "teaspoon",
+   "typical": 1,
+   "gramsPerUnit": 4.6,
+   "reason": "a teaspoon per batch of batter (USDA 1 tsp 4.6 g)"
+  },
+  {
+   "key": "baking soda",
+   "unit": "teaspoon",
+   "typical": 1,
+   "gramsPerUnit": 4.6,
+   "reason": "a teaspoon per batch (USDA 1 tsp 4.6 g)"
+  },
+  {
+   "key": "gemischtes hack",
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 125,
+   "reason": "raw mince for one person (aid 125 g); the boiled row keeps its own portion",
+   "excludeReferences": [
+    "bls:U050132"
+   ]
+  },
+  {
+   "key": "cherry tomatoes",
+   "unit": "piece",
+   "typical": 6,
+   "gramsPerUnit": 17,
+   "reason": "a handful of cherry tomatoes (USDA 1 cherry tomato 17 g); the plain tomato row keeps its own portion",
+   "excludeReferences": [
+    "bls:G561100"
+   ]
+  },
+  {
+   "key": "buckwheat cooked",
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 180,
+   "reason": "cooked buckwheat as a side, from about 65 g dry (FNDDS 1 cup cooked 170 g)"
+  },
+  {
+   "key": "pork raw",
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 150,
+   "reason": "raw pork for one person (aid 150 g meat)"
+  },
+  {
+   "key": "soybeans cooked",
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 100,
+   "reason": "a bowl of shelled edamame"
+  },
+  {
+   "key": "pasta cooked",
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 220,
+   "reason": "a plate of cooked pasta, as the wholemeal pasta row (75 g dry)"
+  },
+  {
+   "key": "pork mince raw",
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 125,
+   "reason": "raw mince for one person (aid 125 g)"
+  },
+  {
+   "key": "trout raw",
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 200,
+   "reason": "one gutted trout, edible part"
+  },
+  {
+   "key": "basmati rice raw",
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 75,
+   "reason": "raw rice for one plate (aid 60–75 g)"
+  },
+  {
+   "key": "jasmine rice raw",
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 75,
+   "reason": "raw rice for one plate (aid 60–75 g)"
+  },
+  {
+   "key": "rice noodles raw",
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 70,
+   "reason": "dry rice noodles for one bowl (FNDDS: 1 oz dry yields 100 g cooked)"
+  },
+  {
+   "key": "glass noodles raw",
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 50,
+   "reason": "dry glass noodles for one bowl"
+  },
+  {
+   "key": "green peas raw",
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 100,
+   "reason": "a vegetable side"
+  },
+  {
+   "key": "dill dried",
+   "unit": "teaspoon",
+   "typical": 1,
+   "gramsPerUnit": 1,
+   "reason": "USDA 1 tsp dried dill 1 g"
+  },
+  {
+   "key": "rosemary dried",
+   "unit": "teaspoon",
+   "typical": 1,
+   "gramsPerUnit": 1.2,
+   "reason": "USDA 1 tsp dried rosemary 1.2 g"
+  },
+  {
+   "key": "marjoram dried",
+   "unit": "teaspoon",
+   "typical": 1,
+   "gramsPerUnit": 0.6,
+   "reason": "USDA 1 tsp dried marjoram 0.6 g"
+  },
+  {
+   "key": "pork tenderloin raw",
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 150,
+   "reason": "raw fillet for one person (aid 150 g)"
+  },
+  {
+   "key": "chicken leg raw",
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 200,
+   "reason": "one whole leg, edible part"
+  },
+  {
+   "key": "chicken wings raw",
+   "unit": "piece",
+   "typical": 4,
+   "gramsPerUnit": 49,
+   "reason": "four wings, edible part (USDA 1 wing meat and skin 49 g); about the aid meat portion"
+  },
+  {
+   "key": "baker s yeast fresh",
+   "unit": "piece",
+   "typical": 0.5,
+   "gramsPerUnit": 42,
+   "reason": "half a 42 g cube for 500 g flour"
+  },
+  {
+   "key": "baker s yeast dried",
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 7,
+   "reason": "one 7 g sachet for 500 g flour"
+  },
+  {
+   "key": "mixed berries frozen",
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 125,
+   "reason": "a bowl of berries (aid 125 g fruit)"
+  },
+  {
+   "key": "gelatine",
+   "unit": "piece",
+   "typical": 2,
+   "gramsPerUnit": 1.7,
+   "reason": "two leaves of gelatine, one person's share of a dessert set with six"
+  },
+  {
+   "key": "filo pastry",
+   "unit": "piece",
+   "typical": 2,
+   "gramsPerUnit": 25,
+   "reason": "two sheets of a 250 g ten-sheet pack"
+  },
+  {
+   "key": "shortcrust pastry",
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 50,
+   "reason": "the pastry in one slice of tart or quiche"
+  },
+  {
+   "key": "puff pastry",
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 70,
+   "reason": "one turnover, a quarter of a 275 g sheet"
+  },
+  {
+   "key": "potato crisps",
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 30,
+   "reason": "a small bag or a bowl (aid 30 g)"
+  },
+  {
+   "key": "hot chocolate",
+   "unit": "cup",
+   "typical": 1,
+   "milliliters": 250,
+   "reason": "one mug (USDA 1 cup 248 ml)"
+  },
+  {
+   "key": "red cabbage with apple",
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 150,
+   "reason": "a vegetable side (aid 150 g)"
+  }
+ ]
+}
