@@ -1,0 +1,581 @@
+{
+ "batch": 24,
+ "drafted": "2026-10-24",
+ "drafter": "Claude in the Akari Claude Code session (staples sweep)",
+ "entries": [
+  {
+   "key": "flavoured water",
+   "unit": "glass",
+   "typical": 1,
+   "reason": "a glass of flavoured water (estimate: 1 Glas Wasser 250 ml (aid: 1 Glas 250–280 ml))",
+   "milliliters": 250
+  },
+  {
+   "key": "orange nectar",
+   "unit": "glass",
+   "typical": 1,
+   "reason": "a glass of nectar (estimate: 1 Glas 200 ml (aid counts juice by the glass))",
+   "milliliters": 200
+  },
+  {
+   "key": "multivitamin juice",
+   "unit": "glass",
+   "typical": 1,
+   "reason": "a glass of juice (estimate: 1 Glas 200 ml (aid counts juice by the glass))",
+   "milliliters": 200
+  },
+  {
+   "key": "cherry nectar",
+   "unit": "glass",
+   "typical": 1,
+   "reason": "a glass of nectar (estimate: 1 Glas 200 ml (aid counts juice by the glass))",
+   "milliliters": 200
+  },
+  {
+   "key": "blackcurrant juice",
+   "unit": "glass",
+   "typical": 1,
+   "reason": "a glass of juice (estimate: 1 Glas 200 ml (aid counts juice by the glass))",
+   "milliliters": 200
+  },
+  {
+   "key": "banana nectar",
+   "unit": "glass",
+   "typical": 1,
+   "reason": "a glass of nectar (estimate: 1 Glas 200 ml (aid counts juice by the glass))",
+   "milliliters": 200
+  },
+  {
+   "key": "mango juice",
+   "unit": "glass",
+   "typical": 1,
+   "reason": "a glass of juice (estimate: 1 Glas 200 ml (aid counts juice by the glass))",
+   "milliliters": 200
+  },
+  {
+   "key": "mango nectar",
+   "unit": "glass",
+   "typical": 1,
+   "reason": "a glass of nectar (estimate: 1 Glas 200 ml (aid counts juice by the glass))",
+   "milliliters": 200
+  },
+  {
+   "key": "peach nectar",
+   "unit": "glass",
+   "typical": 1,
+   "reason": "a glass of nectar (estimate: 1 Glas 200 ml (aid counts juice by the glass))",
+   "milliliters": 200
+  },
+  {
+   "key": "passion fruit nectar",
+   "unit": "glass",
+   "typical": 1,
+   "reason": "a glass of nectar (estimate: 1 Glas 200 ml (aid counts juice by the glass))",
+   "milliliters": 200
+  },
+  {
+   "key": "pear juice",
+   "unit": "glass",
+   "typical": 1,
+   "reason": "a glass of juice (estimate: 1 Glas 200 ml (aid counts juice by the glass))",
+   "milliliters": 200
+  },
+  {
+   "key": "cranberry juice",
+   "unit": "glass",
+   "typical": 1,
+   "reason": "a glass of juice (estimate: 1 Glas 200 ml (aid counts juice by the glass))",
+   "milliliters": 200
+  },
+  {
+   "key": "cranberry juice drink",
+   "unit": "glass",
+   "typical": 1,
+   "reason": "a glass of nectar (estimate: 1 Glas 200 ml (aid counts juice by the glass))",
+   "milliliters": 200
+  },
+  {
+   "key": "pomegranate juice",
+   "unit": "glass",
+   "typical": 1,
+   "reason": "a glass of juice (estimate: 1 Glas 200 ml (aid counts juice by the glass))",
+   "milliliters": 200
+  },
+  {
+   "key": "carrot juice",
+   "unit": "glass",
+   "typical": 1,
+   "reason": "a glass of vegetable juice (estimate: 1 Glas 200 ml)",
+   "milliliters": 200
+  },
+  {
+   "key": "beetroot juice",
+   "unit": "glass",
+   "typical": 1,
+   "reason": "a glass of vegetable juice (estimate: 1 Glas 200 ml)",
+   "milliliters": 200
+  },
+  {
+   "key": "vegetable juice",
+   "unit": "glass",
+   "typical": 1,
+   "reason": "a glass of vegetable juice (estimate: 1 Glas 200 ml)",
+   "milliliters": 200
+  },
+  {
+   "key": "fruit smoothie",
+   "unit": "bottle",
+   "typical": 1,
+   "reason": "a 250 ml smoothie bottle (estimate: typical bottled smoothie 250 ml)",
+   "milliliters": 250
+  },
+  {
+   "key": "green smoothie",
+   "unit": "bottle",
+   "typical": 1,
+   "reason": "a 250 ml smoothie bottle (estimate: typical bottled smoothie 250 ml)",
+   "milliliters": 250
+  },
+  {
+   "key": "grape spritzer",
+   "unit": "glass",
+   "typical": 1,
+   "reason": "a large glass of spritzer (estimate, matching the existing Apfelschorle portion of 300 ml)",
+   "milliliters": 300
+  },
+  {
+   "key": "cherry spritzer",
+   "unit": "glass",
+   "typical": 1,
+   "reason": "a large glass of spritzer (estimate, matching the existing Apfelschorle portion of 300 ml)",
+   "milliliters": 300
+  },
+  {
+   "key": "orange spritzer",
+   "unit": "glass",
+   "typical": 1,
+   "reason": "a large glass of spritzer (estimate, matching the existing Apfelschorle portion of 300 ml)",
+   "milliliters": 300
+  },
+  {
+   "key": "cola zero sugar",
+   "unit": "can",
+   "typical": 1,
+   "reason": "a can of soft drink (estimate: standard 330 ml can, matching the existing Cola portion)",
+   "milliliters": 330
+  },
+  {
+   "key": "caffeine free cola",
+   "unit": "can",
+   "typical": 1,
+   "reason": "a can of soft drink (estimate: standard 330 ml can, matching the existing Cola portion)",
+   "milliliters": 330
+  },
+  {
+   "key": "cola mix",
+   "unit": "glass",
+   "typical": 1,
+   "reason": "a glass of soft drink (estimate: 1 Glas 200 ml)",
+   "milliliters": 200
+  },
+  {
+   "key": "orange soda",
+   "unit": "glass",
+   "typical": 1,
+   "reason": "a glass of soft drink (estimate: 1 Glas 200 ml)",
+   "milliliters": 200
+  },
+  {
+   "key": "lemon lime soda",
+   "unit": "glass",
+   "typical": 1,
+   "reason": "a glass of soft drink (estimate: 1 Glas 200 ml)",
+   "milliliters": 200
+  },
+  {
+   "key": "sugar free soda",
+   "unit": "glass",
+   "typical": 1,
+   "reason": "a glass of soft drink (estimate: 1 Glas 200 ml)",
+   "milliliters": 200
+  },
+  {
+   "key": "tonic water",
+   "unit": "glass",
+   "typical": 1,
+   "reason": "a glass of soft drink (estimate: 1 Glas 200 ml)",
+   "milliliters": 200
+  },
+  {
+   "key": "root beer",
+   "unit": "can",
+   "typical": 1,
+   "reason": "a can of soft drink (estimate: standard 330 ml can, matching the existing Cola portion)",
+   "milliliters": 330
+  },
+  {
+   "key": "malt drink",
+   "unit": "bottle",
+   "typical": 1,
+   "reason": "a 0,33 l bottle of malt drink (estimate: Malzbier is sold in 0,33 l bottles)",
+   "milliliters": 330
+  },
+  {
+   "key": "energy drink",
+   "unit": "can",
+   "typical": 1,
+   "reason": "a 250 ml can of energy drink (estimate: the common energy drink can is 250 ml)",
+   "milliliters": 250
+  },
+  {
+   "key": "energy drink sugar free",
+   "unit": "can",
+   "typical": 1,
+   "reason": "a 250 ml can of energy drink (estimate: the common energy drink can is 250 ml)",
+   "milliliters": 250
+  },
+  {
+   "key": "sports drink",
+   "unit": "bottle",
+   "typical": 1,
+   "reason": "a 0,5 l bottle of sports drink (estimate: sports drinks come in 0,5 l bottles)",
+   "milliliters": 500
+  },
+  {
+   "key": "coffee with milk",
+   "unit": "cup",
+   "typical": 1,
+   "reason": "a cup of coffee (estimate: 1 Tasse Kaffee 150 ml)",
+   "milliliters": 150
+  },
+  {
+   "key": "coffee with milk and sugar",
+   "unit": "cup",
+   "typical": 1,
+   "reason": "a cup of coffee (estimate: 1 Tasse Kaffee 150 ml)",
+   "milliliters": 150
+  },
+  {
+   "key": "grain coffee",
+   "unit": "cup",
+   "typical": 1,
+   "reason": "a cup of coffee (estimate: 1 Tasse Kaffee 150 ml)",
+   "milliliters": 150
+  },
+  {
+   "key": "tea with milk",
+   "unit": "cup",
+   "typical": 1,
+   "reason": "a cup of tea (estimate: 1 Tasse Tee 200 ml)",
+   "milliliters": 200
+  },
+  {
+   "key": "tea with milk and sugar",
+   "unit": "cup",
+   "typical": 1,
+   "reason": "a cup of tea (estimate: 1 Tasse Tee 200 ml)",
+   "milliliters": 200
+  },
+  {
+   "key": "non alcoholic beer",
+   "unit": "bottle",
+   "typical": 1,
+   "reason": "a half-litre bottle of beer (aid/DGE: Bier 0,33 l or 0,5 l; German bottle 0,5 l)",
+   "milliliters": 500
+  },
+  {
+   "key": "non alcoholic wheat beer",
+   "unit": "bottle",
+   "typical": 1,
+   "reason": "a half-litre bottle of beer (aid/DGE: Bier 0,33 l or 0,5 l; German bottle 0,5 l)",
+   "milliliters": 500
+  },
+  {
+   "key": "dark beer",
+   "unit": "bottle",
+   "typical": 1,
+   "reason": "a half-litre bottle of beer (aid/DGE: Bier 0,33 l or 0,5 l; German bottle 0,5 l)",
+   "milliliters": 500
+  },
+  {
+   "key": "light beer",
+   "unit": "bottle",
+   "typical": 1,
+   "reason": "a half-litre bottle of beer (aid/DGE: Bier 0,33 l or 0,5 l; German bottle 0,5 l)",
+   "milliliters": 500
+  },
+  {
+   "key": "stout",
+   "unit": "glass",
+   "typical": 1,
+   "reason": "about a pint of stout (estimate: a pint is 568 ml in the UK; 0,5 l in Germany)",
+   "milliliters": 500
+  },
+  {
+   "key": "bock beer",
+   "unit": "bottle",
+   "typical": 1,
+   "reason": "a half-litre bottle of beer (aid/DGE: Bier 0,33 l or 0,5 l; German bottle 0,5 l)",
+   "milliliters": 500
+  },
+  {
+   "key": "kolsch",
+   "unit": "glass",
+   "typical": 1,
+   "reason": "one Kölschstange (estimate: a Kölsch glass (Stange) holds 0,2 l)",
+   "milliliters": 200
+  },
+  {
+   "key": "altbier",
+   "unit": "glass",
+   "typical": 1,
+   "reason": "one Altbier glass (estimate: an Altbier glass holds 0,25 l)",
+   "milliliters": 250
+  },
+  {
+   "key": "radler",
+   "unit": "bottle",
+   "typical": 1,
+   "reason": "a half-litre bottle of beer (aid/DGE: Bier 0,33 l or 0,5 l; German bottle 0,5 l)",
+   "milliliters": 500
+  },
+  {
+   "key": "radler non alcoholic",
+   "unit": "bottle",
+   "typical": 1,
+   "reason": "a half-litre bottle of beer (aid/DGE: Bier 0,33 l or 0,5 l; German bottle 0,5 l)",
+   "milliliters": 500
+  },
+  {
+   "key": "wheat beer radler",
+   "unit": "bottle",
+   "typical": 1,
+   "reason": "a half-litre bottle of beer (aid/DGE: Bier 0,33 l or 0,5 l; German bottle 0,5 l)",
+   "milliliters": 500
+  },
+  {
+   "key": "beer with cola",
+   "unit": "bottle",
+   "typical": 1,
+   "reason": "a half-litre bottle of beer (aid/DGE: Bier 0,33 l or 0,5 l; German bottle 0,5 l)",
+   "milliliters": 500
+  },
+  {
+   "key": "berliner weisse with syrup",
+   "unit": "bottle",
+   "typical": 1,
+   "reason": "a 0,33 l bottle served in the bowl glass (estimate: Berliner Weisse comes in 0,33 l bottles)",
+   "milliliters": 330
+  },
+  {
+   "key": "rose wine",
+   "unit": "glass",
+   "typical": 1,
+   "reason": "a glass of wine (aid/DGE: Wein 0,1–0,2 l; standard pour 150 ml)",
+   "milliliters": 150
+  },
+  {
+   "key": "non alcoholic wine",
+   "unit": "glass",
+   "typical": 1,
+   "reason": "a glass of wine (aid/DGE: Wein 0,1–0,2 l; standard pour 150 ml)",
+   "milliliters": 150
+  },
+  {
+   "key": "wine spritzer",
+   "unit": "glass",
+   "typical": 1,
+   "reason": "a Schoppen of wine spritzer (estimate: Weinschorle is served by the 0,25 l Schoppen)",
+   "milliliters": 250
+  },
+  {
+   "key": "mulled wine",
+   "unit": "cup",
+   "typical": 1,
+   "reason": "one Glühwein mug (estimate: a Christmas-market mug holds 0,2 l)",
+   "milliliters": 200
+  },
+  {
+   "key": "non alcoholic sparkling wine",
+   "unit": "glass",
+   "typical": 1,
+   "reason": "a flute of sparkling wine (estimate: one flute 100 ml, as the existing sparkling wine portion)",
+   "milliliters": 100
+  },
+  {
+   "key": "cider",
+   "unit": "glass",
+   "typical": 1,
+   "reason": "a glass of cider (estimate: an Apfelwein glass (Gerippter) holds 0,3 l)",
+   "milliliters": 300
+  },
+  {
+   "key": "port",
+   "unit": "glass",
+   "typical": 1,
+   "reason": "a 5 cl glass of fortified wine (estimate: port, sherry and vermouth are poured at 5 cl)",
+   "milliliters": 50
+  },
+  {
+   "key": "sherry",
+   "unit": "glass",
+   "typical": 1,
+   "reason": "a 5 cl glass of fortified wine (estimate: port, sherry and vermouth are poured at 5 cl)",
+   "milliliters": 50
+  },
+  {
+   "key": "vermouth",
+   "unit": "glass",
+   "typical": 1,
+   "reason": "a 5 cl glass of fortified wine (estimate: port, sherry and vermouth are poured at 5 cl)",
+   "milliliters": 50
+  },
+  {
+   "key": "sangria",
+   "unit": "glass",
+   "typical": 1,
+   "reason": "a glass of sangria (estimate: 1 Glas 200 ml)",
+   "milliliters": 200
+  },
+  {
+   "key": "tequila",
+   "unit": "glass",
+   "typical": 1,
+   "reason": "a 2 cl Schnapsglas (aid/DGE: Schnaps 2 cl)",
+   "milliliters": 20
+  },
+  {
+   "key": "korn",
+   "unit": "glass",
+   "typical": 1,
+   "reason": "a 2 cl Schnapsglas (aid/DGE: Schnaps 2 cl)",
+   "milliliters": 20
+  },
+  {
+   "key": "ouzo",
+   "unit": "glass",
+   "typical": 1,
+   "reason": "a 2 cl Schnapsglas (aid/DGE: Schnaps 2 cl)",
+   "milliliters": 20
+  },
+  {
+   "key": "aquavit",
+   "unit": "glass",
+   "typical": 1,
+   "reason": "a 2 cl Schnapsglas (aid/DGE: Schnaps 2 cl)",
+   "milliliters": 20
+  },
+  {
+   "key": "fruit liqueur",
+   "unit": "glass",
+   "typical": 1,
+   "reason": "a 2 cl liqueur glass (aid/DGE: Schnaps 2 cl)",
+   "milliliters": 20
+  },
+  {
+   "key": "egg liqueur",
+   "unit": "glass",
+   "typical": 1,
+   "reason": "a 2 cl liqueur glass (aid/DGE: Schnaps 2 cl)",
+   "milliliters": 20
+  },
+  {
+   "key": "cream liqueur",
+   "unit": "glass",
+   "typical": 1,
+   "reason": "a 2 cl liqueur glass (aid/DGE: Schnaps 2 cl)",
+   "milliliters": 20
+  },
+  {
+   "key": "coffee liqueur",
+   "unit": "glass",
+   "typical": 1,
+   "reason": "a 2 cl liqueur glass (aid/DGE: Schnaps 2 cl)",
+   "milliliters": 20
+  },
+  {
+   "key": "herbal liqueur",
+   "unit": "glass",
+   "typical": 1,
+   "reason": "a 2 cl liqueur glass (aid/DGE: Schnaps 2 cl)",
+   "milliliters": 20
+  },
+  {
+   "key": "apfelkorn",
+   "unit": "glass",
+   "typical": 1,
+   "reason": "a 2 cl liqueur glass (aid/DGE: Schnaps 2 cl)",
+   "milliliters": 20
+  },
+  {
+   "key": "bitter aperitif",
+   "unit": "glass",
+   "typical": 1,
+   "reason": "a 4 cl aperitif pour (estimate: an aperitif is poured at 4 cl, a spritz takes 6 cl)",
+   "milliliters": 40
+  },
+  {
+   "key": "hugo",
+   "unit": "glass",
+   "typical": 1,
+   "reason": "one long drink (estimate: a long drink glass of about 250 ml)",
+   "milliliters": 250
+  },
+  {
+   "key": "cuba libre",
+   "unit": "glass",
+   "typical": 1,
+   "reason": "one long drink (estimate: a long drink glass of about 250 ml)",
+   "milliliters": 250
+  },
+  {
+   "key": "mojito",
+   "unit": "glass",
+   "typical": 1,
+   "reason": "one long drink (estimate: a long drink glass of about 250 ml)",
+   "milliliters": 250
+  },
+  {
+   "key": "caipirinha",
+   "unit": "glass",
+   "typical": 1,
+   "reason": "one Caipirinha tumbler (estimate: a tumbler of about 200 ml)",
+   "milliliters": 200
+  },
+  {
+   "key": "pina colada",
+   "unit": "glass",
+   "typical": 1,
+   "reason": "one long drink (estimate: a long drink glass of about 250 ml)",
+   "milliliters": 250
+  },
+  {
+   "key": "margarita",
+   "unit": "glass",
+   "typical": 1,
+   "reason": "one Margarita glass (estimate: a cocktail glass of about 150 ml)",
+   "milliliters": 150
+  },
+  {
+   "key": "campari orange",
+   "unit": "glass",
+   "typical": 1,
+   "reason": "one Campari Orange (estimate: a tumbler of about 200 ml)",
+   "milliliters": 200
+  },
+  {
+   "key": "eggnog",
+   "unit": "cup",
+   "typical": 1,
+   "reason": "one mug of Eierpunsch (estimate: a Christmas-market mug holds 0,2 l)",
+   "milliliters": 200
+  },
+  {
+   "key": "hard seltzer",
+   "unit": "can",
+   "typical": 1,
+   "reason": "a can of hard seltzer (estimate: 330 ml can)",
+   "milliliters": 330
+  }
+ ]
+}

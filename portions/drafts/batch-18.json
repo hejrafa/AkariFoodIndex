@@ -1,0 +1,602 @@
+{
+ "batch": 18,
+ "drafted": "2026-10-24",
+ "drafter": "Claude in the Akari Claude Code session (staples sweep)",
+ "entries": [
+  {
+   "key": "beef patty raw",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one raw burger patty (estimate; FNDDS beef patty about 90 g cooked)",
+   "gramsPerUnit": 150
+  },
+  {
+   "key": "beef sirloin raw",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one steak or roasting portion by raw weight (aid table: Fleisch 200 g adults)",
+   "gramsPerUnit": 200
+  },
+  {
+   "key": "ribeye steak raw",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one ribeye steak by raw weight (FNDDS ribeye: 1 regular 240 g cooked; aid Fleisch 200 g)",
+   "gramsPerUnit": 250
+  },
+  {
+   "key": "ribeye steak grilled",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one ribeye steak, cooked weight (FNDDS ribeye: 1 thin 180 g, 1 regular 240 g)",
+   "gramsPerUnit": 200
+  },
+  {
+   "key": "boiling beef raw",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one portion by raw weight (aid table: Fleisch 200 g adults)",
+   "gramsPerUnit": 200
+  },
+  {
+   "key": "beef goulash meat raw",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one portion of goulash meat by raw weight (aid table: Fleisch 200 g adults)",
+   "gramsPerUnit": 200
+  },
+  {
+   "key": "beef goulash",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one plate portion of braised meat, sauce not included (aid table: Fleisch 200 g raw; cooked plate 150 g)",
+   "gramsPerUnit": 150
+  },
+  {
+   "key": "beef roulade meat raw",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one roulade slice by raw weight (estimate; aid Fleisch 200 g)",
+   "gramsPerUnit": 180
+  },
+  {
+   "key": "beef roasting joint raw",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one portion of roast by raw weight (aid table: Fleisch 200 g adults)",
+   "gramsPerUnit": 200
+  },
+  {
+   "key": "beef topside raw",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one portion by raw weight (aid table: Fleisch 200 g adults)",
+   "gramsPerUnit": 200
+  },
+  {
+   "key": "beef chuck raw",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one portion by raw weight (aid table: Fleisch 200 g adults)",
+   "gramsPerUnit": 200
+  },
+  {
+   "key": "beef shin raw",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "edible meat of one cross-cut shin slice, raw; bone not counted (estimate; aid Fleisch 200 g)",
+   "gramsPerUnit": 200
+  },
+  {
+   "key": "beef shin braised",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one plate portion of braised shin meat (aid table: Fleisch 200 g raw; cooked plate 150 g)",
+   "gramsPerUnit": 150
+  },
+  {
+   "key": "beef loin chop grilled",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one T-bone or loin chop, meat weight cooked (FNDDS ribeye steak 1 regular 240 g; estimate)",
+   "gramsPerUnit": 200
+  },
+  {
+   "key": "oxtail raw",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "edible meat of one portion of oxtail pieces, raw; bone not counted (FNDDS oxtails: 1 tail bone 30 g meat; estimate)",
+   "gramsPerUnit": 200
+  },
+  {
+   "key": "oxtail braised",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one plate portion of oxtail meat off the bone (FNDDS oxtails: Quantity not specified 85 g; estimate)",
+   "gramsPerUnit": 150
+  },
+  {
+   "key": "beef tripe raw",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one portion by raw weight (aid table: Fleisch 200 g adults)",
+   "gramsPerUnit": 200
+  },
+  {
+   "key": "veal mince raw",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one portion of mince by raw weight (aid table: Hackfleisch 125 g)",
+   "gramsPerUnit": 125
+  },
+  {
+   "key": "veal schnitzel raw",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one schnitzel cutlet by raw weight (aid table: Fleisch 200 g; schnitzel 150 g)",
+   "gramsPerUnit": 150
+  },
+  {
+   "key": "veal goulash meat raw",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one portion of goulash meat by raw weight (aid table: Fleisch 200 g adults)",
+   "gramsPerUnit": 200
+  },
+  {
+   "key": "veal roasting joint raw",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one portion of roast by raw weight (aid table: Fleisch 200 g adults)",
+   "gramsPerUnit": 200
+  },
+  {
+   "key": "roast veal",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one plate portion of sliced roast (FNDDS Pork, roast: 1 thick slice 90 g; aid Fleisch 200 g raw)",
+   "gramsPerUnit": 150
+  },
+  {
+   "key": "veal shank raw",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "edible meat of one cross-cut veal shank slice, raw; bone not counted (estimate; aid Fleisch 200 g)",
+   "gramsPerUnit": 220
+  },
+  {
+   "key": "pork schnitzel raw",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one schnitzel cutlet (aid table: Fleisch 200 g; schnitzel 150 g)",
+   "gramsPerUnit": 150
+  },
+  {
+   "key": "pork schnitzel pan fried",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one schnitzel, cooked weight (aid Fleisch 200 g raw; 150 g cutlet loses about 20 %)",
+   "gramsPerUnit": 120
+  },
+  {
+   "key": "pork loin roasted",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one plate portion of sliced roast (FNDDS Pork, roast: 1 thick slice 90 g; aid Fleisch 200 g raw)",
+   "gramsPerUnit": 150
+  },
+  {
+   "key": "pork neck raw",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one neck steak by raw weight (aid table: Fleisch 200 g; estimate)",
+   "gramsPerUnit": 180
+  },
+  {
+   "key": "pork neck steak grilled",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one grilled neck steak (existing identity 'pork neck grilled' 150 g)",
+   "gramsPerUnit": 150
+  },
+  {
+   "key": "pork ribs raw",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "edible meat of one portion of ribs, raw; bone not counted (estimate; FNDDS pork ribs about 35 g meat per rib)",
+   "gramsPerUnit": 250
+  },
+  {
+   "key": "pork ribs roasted",
+   "unit": "piece",
+   "typical": 6,
+   "reason": "one rib, meat off the bone (existing identity 'pork ribs': 6 pieces of 35 g)",
+   "gramsPerUnit": 35
+  },
+  {
+   "key": "pork goulash meat raw",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one portion of goulash meat by raw weight (aid table: Fleisch 200 g adults)",
+   "gramsPerUnit": 200
+  },
+  {
+   "key": "pork roasting joint raw",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one portion of roast by raw weight (aid table: Fleisch 200 g adults)",
+   "gramsPerUnit": 200
+  },
+  {
+   "key": "pork joint with rind raw",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one portion of rind-on roast by raw weight (estimate; aid Fleisch 200 g)",
+   "gramsPerUnit": 250
+  },
+  {
+   "key": "roast pork with crackling",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one plate portion of sliced roast with crackling (existing identity 'roast pork' 150 g; aid Fleisch 200 g raw)",
+   "gramsPerUnit": 150
+  },
+  {
+   "key": "pork knuckle raw",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "edible part (meat, fat, rind) of one hind knuckle, raw; bone not counted (estimate; existing identity 'pork hindshank hock grilled' 400 g eaten)",
+   "gramsPerUnit": 550
+  },
+  {
+   "key": "pork knuckle roasted",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one knuckle, meat and crackling eaten (existing identity 'pork hindshank hock grilled' 400 g)",
+   "gramsPerUnit": 400
+  },
+  {
+   "key": "bacon raw",
+   "unit": "slice",
+   "typical": 3,
+   "reason": "one thin breakfast bacon slice by raw weight (FNDDS bacon: 1 slice about 0.8 oz raw (23 g) for US slices; German Frühstücksspeck slices are thinner, about 10 g)",
+   "gramsPerUnit": 10
+  },
+  {
+   "key": "back bacon raw",
+   "unit": "slice",
+   "typical": 2,
+   "reason": "one back bacon rasher by raw weight (bacon rasher 25 g; existing identity 'grilled back bacon' 23 g)",
+   "gramsPerUnit": 25
+  },
+  {
+   "key": "gammon raw",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one portion of gammon by raw weight (aid table: Fleisch 200 g adults)",
+   "gramsPerUnit": 200
+  },
+  {
+   "key": "gammon steak grilled",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one grilled gammon steak (estimate; cooked plate portion 120-150 g)",
+   "gramsPerUnit": 150
+  },
+  {
+   "key": "lamb mince raw",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one portion of mince by raw weight (aid table: Hackfleisch 125 g)",
+   "gramsPerUnit": 125
+  },
+  {
+   "key": "lamb chop grilled",
+   "unit": "piece",
+   "typical": 3,
+   "reason": "one small lamb chop, meat eaten (existing identity 'grilled lamb chops' 3 x 50 g; FNDDS 1 chop 90 g)",
+   "gramsPerUnit": 50
+  },
+  {
+   "key": "rack of lamb raw",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "half a rack (3-4 bones) by raw weight (aid table: Fleisch 200 g)",
+   "gramsPerUnit": 200
+  },
+  {
+   "key": "rack of lamb roasted",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "half a rack, meat eaten (aid Fleisch 200 g raw; cooked plate 150 g)",
+   "gramsPerUnit": 150
+  },
+  {
+   "key": "diced lamb raw",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one portion of diced lamb by raw weight (aid table: Fleisch 200 g adults)",
+   "gramsPerUnit": 200
+  },
+  {
+   "key": "lamb shank raw",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "edible meat of one lamb shank, raw; bone not counted (estimate; aid Fleisch 200 g)",
+   "gramsPerUnit": 280
+  },
+  {
+   "key": "lamb shank braised",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one lamb shank, meat off the bone (estimate; cooked plate 150-200 g)",
+   "gramsPerUnit": 200
+  },
+  {
+   "key": "lamb liver pan fried",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one portion of fried liver (FNDDS Liver, beef: 1 slice 85 g; existing liver identities 130 g)",
+   "gramsPerUnit": 130
+  },
+  {
+   "key": "mutton raw",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one portion by raw weight (aid table: Fleisch 200 g adults)",
+   "gramsPerUnit": 200
+  },
+  {
+   "key": "goat raw",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one portion by raw weight (aid table: Fleisch 200 g adults)",
+   "gramsPerUnit": 200
+  },
+  {
+   "key": "horse meat raw",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one portion by raw weight (aid table: Fleisch 200 g adults)",
+   "gramsPerUnit": 200
+  },
+  {
+   "key": "venison raw",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one portion by raw weight (aid table: Fleisch 200 g adults)",
+   "gramsPerUnit": 200
+  },
+  {
+   "key": "venison braised",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one plate portion of braised meat, sauce not included (aid Fleisch 200 g raw; cooked plate 150 g)",
+   "gramsPerUnit": 150
+  },
+  {
+   "key": "venison loin raw",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one portion of loin steaks by raw weight (aid table: Fleisch 200 g; FNDDS venison steak 85 g cooked)",
+   "gramsPerUnit": 180
+  },
+  {
+   "key": "venison loin roasted",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one plate portion of loin (aid Fleisch 200 g raw; FNDDS venison steak 85 g)",
+   "gramsPerUnit": 140
+  },
+  {
+   "key": "roe deer leg raw",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one portion by raw weight (aid table: Fleisch 200 g adults)",
+   "gramsPerUnit": 200
+  },
+  {
+   "key": "roe deer loin raw",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one portion of loin by raw weight (aid table: Fleisch 200 g)",
+   "gramsPerUnit": 180
+  },
+  {
+   "key": "roe deer loin roasted",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one plate portion of loin (aid Fleisch 200 g raw; cooked plate 120-150 g)",
+   "gramsPerUnit": 140
+  },
+  {
+   "key": "wild boar raw",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one portion by raw weight (aid table: Fleisch 200 g adults)",
+   "gramsPerUnit": 200
+  },
+  {
+   "key": "wild boar braised",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one plate portion of braised meat, sauce not included (aid Fleisch 200 g raw; cooked plate 150 g)",
+   "gramsPerUnit": 150
+  },
+  {
+   "key": "rabbit raw",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one portion by raw weight (meat only) (aid table: Fleisch 200 g adults)",
+   "gramsPerUnit": 200
+  },
+  {
+   "key": "rabbit braised",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one plate portion of rabbit meat off the bone (FNDDS Rabbit: Quantity not specified 85 g; cooked plate 120-150 g)",
+   "gramsPerUnit": 130
+  },
+  {
+   "key": "hare raw",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one portion by raw weight (meat only) (aid table: Fleisch 200 g adults)",
+   "gramsPerUnit": 200
+  },
+  {
+   "key": "pheasant raw",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one portion by raw weight (aid table: Fleisch 200 g adults)",
+   "gramsPerUnit": 200
+  },
+  {
+   "key": "pheasant roasted",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "half a pheasant breast, cooked (FNDDS Pheasant, cooked: 1/2 breast 130 g)",
+   "gramsPerUnit": 130
+  },
+  {
+   "key": "quail raw",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "edible part of one whole quail, raw; bone not counted (estimate; FNDDS Quail, cooked: 1 quail 75 g meat)",
+   "gramsPerUnit": 100
+  },
+  {
+   "key": "quail roasted",
+   "unit": "piece",
+   "typical": 2,
+   "reason": "one quail, meat eaten (FNDDS Quail, cooked: 1 quail 75 g)",
+   "gramsPerUnit": 75
+  },
+  {
+   "key": "chicken breast raw",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one chicken breast fillet by raw weight (aid table: Fleisch 200 g; existing cooked chicken breast identity 130 g)",
+   "gramsPerUnit": 150
+  },
+  {
+   "key": "chicken thigh raw",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one chicken thigh by raw weight (chicken thigh 150 g)",
+   "gramsPerUnit": 150
+  },
+  {
+   "key": "chicken drumstick raw",
+   "unit": "piece",
+   "typical": 2,
+   "reason": "edible part of one drumstick, raw; bone not counted (estimate; existing identity 'roast chicken drumstick' 60 g meat)",
+   "gramsPerUnit": 80
+  },
+  {
+   "key": "chicken leg roasted",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one chicken leg, meat and skin eaten (estimate; cooked plate 120-150 g; FNDDS duck leg 90 g)",
+   "gramsPerUnit": 150
+  },
+  {
+   "key": "chicken wings roasted",
+   "unit": "piece",
+   "typical": 4,
+   "reason": "one chicken wing (chicken wing 50 g; FNDDS 1 wing 35 g meat)",
+   "gramsPerUnit": 50
+  },
+  {
+   "key": "whole chicken raw",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "a quarter chicken with skin by raw weight, edible part (estimate; existing identity 'roast chicken' 200 g eaten)",
+   "gramsPerUnit": 250
+  },
+  {
+   "key": "chicken boiled",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one portion of cooked chicken meat (cooked plate 120-150 g; FNDDS chicken 1 cup diced 135 g)",
+   "gramsPerUnit": 120
+  },
+  {
+   "key": "boiling hen raw",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one portion of meat with skin by raw weight (aid table: Fleisch 200 g adults)",
+   "gramsPerUnit": 200
+  },
+  {
+   "key": "boiling hen cooked",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one portion of cooked hen meat (cooked plate 120-150 g)",
+   "gramsPerUnit": 120
+  },
+  {
+   "key": "chicken liver pan fried",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one portion of fried livers (estimate; existing liver identities 130 g)",
+   "gramsPerUnit": 120
+  },
+  {
+   "key": "chicken gizzards raw",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one portion by raw weight (estimate; aid Fleisch 200 g)",
+   "gramsPerUnit": 150
+  },
+  {
+   "key": "turkey breast raw",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one turkey steak or schnitzel by raw weight (aid table: Fleisch 200 g; schnitzel 150 g)",
+   "gramsPerUnit": 150
+  },
+  {
+   "key": "turkey leg roasted",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one portion of turkey leg meat (FNDDS turkey drumstick, cooked: 1 medium 200 g)",
+   "gramsPerUnit": 200
+  },
+  {
+   "key": "turkey raw",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one portion by raw weight (aid table: Fleisch 200 g adults)",
+   "gramsPerUnit": 200
+  },
+  {
+   "key": "duck raw",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "a quarter duck with skin by raw weight, edible part (estimate; aid Fleisch 200 g)",
+   "gramsPerUnit": 250
+  },
+  {
+   "key": "goose raw",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "a portion of goose with skin by raw weight, edible part (estimate; aid Fleisch 200 g)",
+   "gramsPerUnit": 250
+  },
+  {
+   "key": "roast goose",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one plate portion of goose meat with skin (aid Fleisch 200 g raw; cooked plate 150 g)",
+   "gramsPerUnit": 150
+  },
+  {
+   "key": "goose leg roasted",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one goose leg, meat and skin eaten (estimate; cooked plate 150-200 g)",
+   "gramsPerUnit": 200
+  }
+ ]
+}

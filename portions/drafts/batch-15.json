@@ -1,0 +1,483 @@
+{
+ "batch": 15,
+ "drafted": "2026-10-24",
+ "drafter": "Claude in the Akari Claude Code session (staples sweep)",
+ "entries": [
+  {
+   "key": "potato raw",
+   "unit": "piece",
+   "typical": 2,
+   "reason": "a medium potato by raw weight (FNDDS Potato, boiled: 1 small 130 g, 1 medium 170 g; aid Kartoffeln 200/250 g)",
+   "gramsPerUnit": 150
+  },
+  {
+   "key": "french fries frozen",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one portion of oven fries weighed from the bag (estimate (matches the French fries row))",
+   "gramsPerUnit": 150
+  },
+  {
+   "key": "potato croquettes",
+   "unit": "piece",
+   "typical": 6,
+   "reason": "one frozen croquette, cooked (estimate)",
+   "gramsPerUnit": 25
+  },
+  {
+   "key": "potato pancakes",
+   "unit": "piece",
+   "typical": 3,
+   "reason": "one medium potato pancake (FNDDS Potato pancake: 1 medium pancake 70 g)",
+   "gramsPerUnit": 70
+  },
+  {
+   "key": "sweet potato raw",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one medium sweet potato by raw weight (estimate; FNDDS Sweet potato, baked: 1 large 235 g)",
+   "gramsPerUnit": 200
+  },
+  {
+   "key": "pickled chillies",
+   "unit": "piece",
+   "typical": 3,
+   "reason": "one whole pickled chilli (FNDDS Peppers, hot, pickled: 1 whole 15 g)",
+   "gramsPerUnit": 15
+  },
+  {
+   "key": "silverskin onions",
+   "unit": "piece",
+   "typical": 5,
+   "reason": "one small pickled onion (estimate)",
+   "gramsPerUnit": 5
+  },
+  {
+   "key": "leek cooked",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "a vegetable side (aid table: Gemüse, Salat 140 g (adults))",
+   "gramsPerUnit": 140
+  },
+  {
+   "key": "broccoli frozen",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "a vegetable side weighed from the bag (aid table: Gemüse, Salat 140 g (adults))",
+   "gramsPerUnit": 140
+  },
+  {
+   "key": "romanesco raw",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "a vegetable side by raw weight (aid table: Gemüse, Salat 140 g (adults))",
+   "gramsPerUnit": 140
+  },
+  {
+   "key": "romanesco cooked",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "a vegetable side (aid table: Gemüse, Salat 140 g (adults))",
+   "gramsPerUnit": 140
+  },
+  {
+   "key": "kale frozen",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "a vegetable side weighed from the bag (aid table: Gemüse, Salat 140 g (adults))",
+   "gramsPerUnit": 140
+  },
+  {
+   "key": "pointed cabbage raw",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "a vegetable side by raw weight (aid table: Gemüse, Salat 140 g (adults))",
+   "gramsPerUnit": 140
+  },
+  {
+   "key": "pointed cabbage cooked",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "a vegetable side (aid table: Gemüse, Salat 140 g (adults))",
+   "gramsPerUnit": 140
+  },
+  {
+   "key": "bok choy cooked",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "a vegetable side (aid table: Gemüse, Salat 140 g (adults))",
+   "gramsPerUnit": 140
+  },
+  {
+   "key": "kohlrabi raw",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "a vegetable side or snack by raw weight (aid table: Gemüse, Salat 140 g (adults))",
+   "gramsPerUnit": 140
+  },
+  {
+   "key": "collard greens cooked",
+   "unit": "cup",
+   "typical": 1,
+   "reason": "a cooked side (FNDDS Collards, fresh, cooked: 1 cup 130 g)",
+   "gramsPerUnit": 130
+  },
+  {
+   "key": "spinach frozen",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "a vegetable side weighed from the pack (aid table: Gemüse, Salat 140 g (adults))",
+   "gramsPerUnit": 140
+  },
+  {
+   "key": "swiss chard raw",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "a vegetable side by raw weight (aid table: Gemüse, Salat 140 g (adults))",
+   "gramsPerUnit": 140
+  },
+  {
+   "key": "swiss chard cooked",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "a vegetable side (aid table: Gemüse, Salat 140 g (adults))",
+   "gramsPerUnit": 140
+  },
+  {
+   "key": "lamb s lettuce",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "a side salad (salad rule: 75 g)",
+   "gramsPerUnit": 75
+  },
+  {
+   "key": "radicchio",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "usually mixed with milder leaves (estimate below the 75 g salad rule)",
+   "gramsPerUnit": 50
+  },
+  {
+   "key": "escarole",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "a side salad (salad rule: 75 g)",
+   "gramsPerUnit": 75
+  },
+  {
+   "key": "belgian endive",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one chicory head (estimate)",
+   "gramsPerUnit": 125
+  },
+  {
+   "key": "watercress",
+   "unit": "cup",
+   "typical": 1,
+   "reason": "a handful in a salad or on a sandwich (FNDDS Watercress, raw: 1 cup 34 g)",
+   "gramsPerUnit": 34
+  },
+  {
+   "key": "garden cress",
+   "unit": "tablespoon",
+   "typical": 2,
+   "reason": "a tablespoon snipped on bread or eggs (estimate)",
+   "gramsPerUnit": 2
+  },
+  {
+   "key": "wild garlic",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "a handful in a soup, pesto or spread (estimate)",
+   "gramsPerUnit": 20
+  },
+  {
+   "key": "fennel cooked",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "a vegetable side (aid table: Gemüse, Salat 140 g (adults))",
+   "gramsPerUnit": 140
+  },
+  {
+   "key": "asparagus canned",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "half a drained jar (estimate)",
+   "gramsPerUnit": 100
+  },
+  {
+   "key": "green asparagus raw",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "a vegetable side by raw weight (aid table: Gemüse, Salat 140 g (adults))",
+   "gramsPerUnit": 140
+  },
+  {
+   "key": "green asparagus cooked",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "a vegetable side (aid table: Gemüse, Salat 140 g (adults))",
+   "gramsPerUnit": 140
+  },
+  {
+   "key": "eggplant cooked",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "a vegetable side (aid table: Gemüse, Salat 140 g (adults))",
+   "gramsPerUnit": 140
+  },
+  {
+   "key": "zucchini cooked",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "a vegetable side (aid table: Gemüse, Salat 140 g (adults))",
+   "gramsPerUnit": 140
+  },
+  {
+   "key": "pumpkin cooked",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "a vegetable side (aid table: Gemüse, Salat 140 g (adults))",
+   "gramsPerUnit": 140
+  },
+  {
+   "key": "butternut squash raw",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "a vegetable side by raw weight (aid table: Gemüse, Salat 140 g (adults))",
+   "gramsPerUnit": 140
+  },
+  {
+   "key": "sweetcorn canned",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "drained kernels in a salad or bowl (estimate (matches the Sweetcorn row))",
+   "gramsPerUnit": 75
+  },
+  {
+   "key": "green beans raw",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "a vegetable side by raw weight (aid table: Gemüse, Salat 140 g (adults))",
+   "gramsPerUnit": 140
+  },
+  {
+   "key": "green beans frozen",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "a vegetable side weighed from the bag (aid table: Gemüse, Salat 140 g (adults))",
+   "gramsPerUnit": 140
+  },
+  {
+   "key": "green beans canned",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "a vegetable side, drained (aid table: Gemüse, Salat 140 g (adults); FNDDS Green beans, canned: 1 cup 140 g)",
+   "gramsPerUnit": 140
+  },
+  {
+   "key": "wax beans cooked",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "a vegetable side (aid table: Gemüse, Salat 140 g (adults))",
+   "gramsPerUnit": 140
+  },
+  {
+   "key": "wax beans canned",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "a vegetable side, drained (aid table: Gemüse, Salat 140 g (adults))",
+   "gramsPerUnit": 140
+  },
+  {
+   "key": "broad beans cooked",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "a vegetable side (aid table: Gemüse, Salat 140 g (adults))",
+   "gramsPerUnit": 140
+  },
+  {
+   "key": "green peas canned",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "a vegetable side, drained (estimate (matches the other pea rows))",
+   "gramsPerUnit": 100
+  },
+  {
+   "key": "sugar snap peas cooked",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "a vegetable side (aid table: Gemüse, Salat 140 g (adults))",
+   "gramsPerUnit": 140
+  },
+  {
+   "key": "peas and carrots canned",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "a vegetable side, drained (aid table: Gemüse, Salat 140 g (adults))",
+   "gramsPerUnit": 140
+  },
+  {
+   "key": "peas and carrots frozen",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "a vegetable side weighed from the bag (aid table: Gemüse, Salat 140 g (adults))",
+   "gramsPerUnit": 140
+  },
+  {
+   "key": "mixed vegetables peas carrots asparagus",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "a vegetable side weighed from the bag (aid table: Gemüse, Salat 140 g (adults))",
+   "gramsPerUnit": 140
+  },
+  {
+   "key": "stir fry vegetables frozen",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "a vegetable side weighed from the bag (aid table: Gemüse, Salat 140 g (adults))",
+   "gramsPerUnit": 140
+  },
+  {
+   "key": "soup vegetables",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "the share of one bunch in a pot of soup for one (estimate)",
+   "gramsPerUnit": 50
+  },
+  {
+   "key": "beetroot pickled",
+   "unit": "slice",
+   "typical": 5,
+   "reason": "one slice of pickled beetroot (FNDDS Beets, pickled: 1 slice 10 g)",
+   "gramsPerUnit": 10
+  },
+  {
+   "key": "horseradish grated",
+   "unit": "tablespoon",
+   "typical": 1,
+   "reason": "a tablespoon with meat or fish (FNDDS Horseradish: 1 tablespoon 15 g)",
+   "gramsPerUnit": 15
+  },
+  {
+   "key": "parsnip raw",
+   "unit": "piece",
+   "typical": 2,
+   "reason": "one medium parsnip (FNDDS Parsnips: 1 whole 100 g)",
+   "gramsPerUnit": 100
+  },
+  {
+   "key": "parsley root",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one parsley root (estimate)",
+   "gramsPerUnit": 80
+  },
+  {
+   "key": "turnip",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one whole turnip (FNDDS Turnip, raw: 1 whole 120 g)",
+   "gramsPerUnit": 120
+  },
+  {
+   "key": "black salsify cooked",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "a vegetable side (aid table: Gemüse, Salat 140 g (adults))",
+   "gramsPerUnit": 140
+  },
+  {
+   "key": "black salsify canned",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "a vegetable side, drained (aid table: Gemüse, Salat 140 g (adults))",
+   "gramsPerUnit": 140
+  },
+  {
+   "key": "jerusalem artichoke",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "a vegetable side by raw weight (aid table: Gemüse, Salat 140 g (adults))",
+   "gramsPerUnit": 140
+  },
+  {
+   "key": "okra cooked",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "a vegetable side (aid table: Gemüse, Salat 140 g (adults))",
+   "gramsPerUnit": 140
+  },
+  {
+   "key": "cassava cooked",
+   "unit": "cup",
+   "typical": 1,
+   "reason": "a starchy side (FNDDS Cassava, cooked: 1 cup 160 g)",
+   "gramsPerUnit": 160
+  },
+  {
+   "key": "mushrooms canned",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "drained mushrooms in a sauce or on pizza (FNDDS Mushrooms, canned: quantity not specified 80 g)",
+   "gramsPerUnit": 80
+  },
+  {
+   "key": "oyster mushrooms",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "a mushroom side (estimate (matches the mushroom rows))",
+   "gramsPerUnit": 100
+  },
+  {
+   "key": "porcini raw",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "a mushroom side (estimate (matches the mushroom rows))",
+   "gramsPerUnit": 100
+  },
+  {
+   "key": "porcini dried",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "a small handful soaked for a risotto or sauce (estimate)",
+   "gramsPerUnit": 10
+  },
+  {
+   "key": "chanterelles raw",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "a mushroom side (estimate (matches the cooked chanterelles row))",
+   "gramsPerUnit": 100
+  },
+  {
+   "key": "mixed mushrooms frozen",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "a mushroom side weighed from the bag (estimate (matches the mushroom rows))",
+   "gramsPerUnit": 100
+  },
+  {
+   "key": "bean sprouts canned",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "drained, in a stir-fry (estimate)",
+   "gramsPerUnit": 75
+  },
+  {
+   "key": "alfalfa sprouts",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "a handful on a sandwich or salad (estimate)",
+   "gramsPerUnit": 15
+  },
+  {
+   "key": "mixed pickles",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "a side of pickles (estimate)",
+   "gramsPerUnit": 50
+  }
+ ]
+}

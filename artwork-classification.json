@@ -1,5 +1,5 @@
 {
-  "version": 37,
+  "version": 38,
   "description": "Akari presentation classification. Unambiguous complete food names can correct contradictory source categories; otherwise exact source categories come first. Product-line rules apply only when the entire remaining name is a reviewed qualifier. Never infer nutrients, allergens, alcohol counts or verified status.",
   "taxonomySource": "https://openfoodfacts.github.io/documentation/docs/Product-Opener/schemas/schemas/product_tags/",
   "rules": [
@@ -43,7 +43,14 @@
         "pâté de gibier",
         "pâté au poivre",
         "pâté aliment moyen",
-        "type pâté"
+        "type pâté",
+        "yeast extract",
+        "yeast extract spread",
+        "hefeextrakt",
+        "hefepaste",
+        "marmite",
+        "vegemite",
+        "cenovis"
       ],
       "compoundSuffixes": [
         "aufstrich",
@@ -298,7 +305,15 @@
         "speisenatron",
         "gelatine",
         "gelatin",
-        "blattgelatine"
+        "blattgelatine",
+        "vanilla extract",
+        "pure vanilla extract",
+        "vanilla essence",
+        "vanilleextrakt",
+        "vanille extrakt",
+        "bourbon vanilleextrakt",
+        "vanillearoma",
+        "vanilleessenz"
       ]
     },
     {
@@ -637,7 +652,16 @@
         "beurre",
         "margarine",
         "margarin",
-        "バター類"
+        "バター類",
+        "vegetable shortening",
+        "shortening",
+        "pflanzenfett",
+        "white vegetable fat",
+        "crisco",
+        "trex",
+        "frying fat",
+        "deep frying fat",
+        "frittierfett"
       ],
       "ingredientCategories": [
         "oil"
@@ -741,7 +765,14 @@
         "puff pastry",
         "pastry puff",
         "swiss roll",
-        "swiss rolls"
+        "swiss rolls",
+        "gugelhupf",
+        "guglhupf",
+        "gugelhopf",
+        "kugelhopf",
+        "kougelhopf",
+        "napfkuchen",
+        "tiramisu"
       ],
       "compoundSuffixes": [
         "kuchen",
@@ -1614,7 +1645,10 @@
         "もち米",
         "精白米",
         "sushi rice",
-        "sushireis"
+        "sushireis",
+        "wild rice mix",
+        "wildreismischung",
+        "reismischung"
       ]
     },
     {
@@ -1966,7 +2000,11 @@
         "beef olives",
         "black pudding",
         "blood sausage",
-        "blutwurst"
+        "blutwurst",
+        "scrapple",
+        "pon haus",
+        "panhas",
+        "pannhas"
       ],
       "ingredientCategories": [
         "tofu"
@@ -2289,7 +2327,47 @@
         "rascasse",
         "sandre",
         "hilsa",
-        "pangasius"
+        "pangasius",
+        "caviar",
+        "kaviar",
+        "sturgeon caviar",
+        "black caviar",
+        "beluga caviar",
+        "osietra",
+        "ossietra",
+        "sevruga",
+        "lumpfish roe",
+        "lumpfish",
+        "lumpfish caviar",
+        "seehasenrogen",
+        "seehasenkaviar",
+        "lumpfischkaviar",
+        "deutscher kaviar",
+        "kaviarersatz",
+        "char pan fried",
+        "char raw",
+        "cooked char",
+        "smoked char",
+        "arctic char",
+        "saibling",
+        "saiblinge",
+        "saiblingsfilet",
+        "swordfish",
+        "schwertfisch",
+        "schillerlocke",
+        "schillerlocken",
+        "dogfish",
+        "smoked dogfish",
+        "spiny dogfish",
+        "dornhai",
+        "wolffish",
+        "steinbeißer",
+        "steinbeißerfilet",
+        "seewolf",
+        "zander",
+        "zanderfilet",
+        "walleye",
+        "seeaal"
       ]
     },
     {
@@ -2308,7 +2386,13 @@
         "crevettes",
         "garnele",
         "prawn",
-        "えび類"
+        "えび類",
+        "seafood mix",
+        "cooked seafood",
+        "frozen seafood mix",
+        "seafood medley",
+        "meeresfrüchte",
+        "frutti di mare"
       ]
     },
     {
@@ -2467,7 +2551,12 @@
         "juice spritzer",
         "apfelsaftschorle",
         "fruchtsaftschorle",
-        "saftschorle"
+        "saftschorle",
+        "hard seltzer",
+        "hard seltzers",
+        "spiked seltzer",
+        "alcoholic seltzer",
+        "alkohol seltzer"
       ]
     },
     {
@@ -2516,7 +2605,8 @@
         "shandies",
         "alsterwasser",
         "lagerbier",
-        "helles"
+        "helles",
+        "berliner weisse"
       ]
     },
     {
@@ -2609,7 +2699,69 @@
         "ingwerpulver",
         "fennel seed",
         "fennel seeds",
-        "garam masala"
+        "garam masala",
+        "allspice",
+        "ground allspice",
+        "allspice berries",
+        "jamaica pepper",
+        "piment gemahlen",
+        "fenugreek seed",
+        "fenugreek seeds",
+        "bockshornklee",
+        "bockshornkleesamen",
+        "bockshornkleesaat",
+        "bockshornklee gemahlen",
+        "ground fenugreek",
+        "savory dried",
+        "dried savory",
+        "summer savory",
+        "winter savory",
+        "bohnenkraut",
+        "bohnenkraut getrocknet",
+        "getrocknetes bohnenkraut",
+        "caraway",
+        "caraway seed",
+        "caraway seeds",
+        "ground caraway",
+        "kümmel",
+        "kümmelsamen",
+        "kümmel gemahlen",
+        "wiesenkümmel",
+        "tarragon dried",
+        "dried tarragon",
+        "estragon getrocknet",
+        "getrockneter estragon",
+        "herbes de provence",
+        "herbs de provence",
+        "kräuter der provence",
+        "provence herbs",
+        "provencal herbs",
+        "provencekräuter",
+        "provence kräuter",
+        "italian herbs",
+        "italienische kräuter",
+        "mixed herbs",
+        "mixed dried herbs",
+        "dried mixed herbs",
+        "italian seasoning",
+        "italian herb mix",
+        "kräutermischung",
+        "mixed spice",
+        "lebkuchengewürz",
+        "pumpkin pie spice",
+        "pumpkin spice",
+        "gingerbread spice",
+        "apple pie spice",
+        "quatre épices",
+        "four spice",
+        "onion powder",
+        "zwiebelpulver",
+        "onion granules",
+        "zwiebelgranulat",
+        "onion flakes",
+        "dehydrated onion",
+        "dried rosemary",
+        "getrockneter rosmarin"
       ],
       "exactTerms": [
         "white pepper",
@@ -2690,7 +2842,15 @@
         "bananas",
         "banane",
         "bananen",
-        "バナナ"
+        "バナナ",
+        "plantain",
+        "plantains",
+        "green plantain",
+        "kochbanane",
+        "kochbananen",
+        "mehlbanane",
+        "mehlbananen",
+        "plátano"
       ]
     },
     {
@@ -2742,7 +2902,8 @@
         "tomate",
         "tomaten",
         "tomates",
-        "トマト"
+        "トマト",
+        "caviar de tomates"
       ],
       "compoundSuffixes": [
         "tomate",
@@ -2800,7 +2961,12 @@
         "carottes",
         "mohre",
         "mohren",
-        "にんじん"
+        "にんじん",
+        "parsnip",
+        "parsnips",
+        "pastinake",
+        "pastinaken",
+        "pastinak"
       ]
     },
     {
@@ -2893,7 +3059,13 @@
         "そらまめ",
         "bean sprouts",
         "sojasprossen",
-        "mungbohnensprossen"
+        "mungbohnensprossen",
+        "alfalfa sprouts",
+        "alfalfasprossen",
+        "alfalfa sprossen",
+        "alfalfa",
+        "luzernesprossen",
+        "alfalfakeimlinge"
       ]
     },
     {
@@ -3025,7 +3197,21 @@
         "sesame",
         "sesame seed",
         "sesame seeds",
-        "sesamsamen"
+        "sesamsamen",
+        "hemp seed",
+        "hemp seeds",
+        "hemp hearts",
+        "hanfsamen",
+        "hanfsaat",
+        "poppy seed",
+        "poppy seeds",
+        "poppyseed",
+        "poppyseeds",
+        "mohn",
+        "mohnsamen",
+        "blaumohn",
+        "backmohn",
+        "graumohn"
       ],
       "exactTerms": [
         "sesam"
@@ -3061,7 +3247,17 @@
         "poires",
         "なし類",
         "和なし",
-        "日本なし"
+        "日本なし",
+        "guava",
+        "guavas",
+        "guave",
+        "guaven",
+        "quince",
+        "quinces",
+        "quitte",
+        "quitten",
+        "apfelquitte",
+        "birnenquitte"
       ]
     },
     {
@@ -3082,7 +3278,19 @@
         "tangerine",
         "apfelsine",
         "apfelsinen",
-        "オレンジ"
+        "オレンジ",
+        "persimmon",
+        "persimmons",
+        "kaki",
+        "kakis",
+        "kakifrucht",
+        "sharon fruit",
+        "sharonfrucht",
+        "sharon frucht",
+        "kumquat",
+        "kumquats",
+        "zwergorange",
+        "zwergorangen"
       ]
     },
     {
@@ -3099,7 +3307,15 @@
         "zitrone",
         "zitronen",
         "citrons",
-        "レモン"
+        "レモン",
+        "star fruit",
+        "star fruits",
+        "starfruit",
+        "carambola",
+        "karambole",
+        "karambola",
+        "sternfrucht",
+        "sternfrüchte"
       ]
     },
     {
@@ -3137,7 +3353,19 @@
         "rosine",
         "rosinen",
         "traube",
-        "ぶどう"
+        "ぶどう",
+        "mixed dried fruit",
+        "dried fruit",
+        "dried fruits",
+        "dried fruit mix",
+        "trockenobst",
+        "trockenobst mischung",
+        "trockenobstmischung",
+        "trockenfrüchte",
+        "trockenfrucht mix",
+        "trockenfruchtmischung",
+        "dried mixed fruit",
+        "mixed fruit dried"
       ]
     },
     {
@@ -3168,7 +3396,18 @@
         "beerenmischung",
         "beerenmix",
         "waldbeeren",
-        "tk beeren"
+        "tk beeren",
+        "elderberry",
+        "elderberries",
+        "holunderbeere",
+        "holunderbeeren",
+        "hollerbeeren",
+        "fliederbeeren",
+        "mixed fruit",
+        "frozen fruit",
+        "frozen mixed fruit",
+        "frozen fruit mix",
+        "obstmischung"
       ]
     },
     {
@@ -3194,7 +3433,19 @@
         "currants",
         "johannisbeere",
         "johannisbeeren",
-        "rote johannisbeeren"
+        "rote johannisbeeren",
+        "cranberry",
+        "cranberries",
+        "kranbeeren",
+        "kranichbeeren",
+        "moosbeeren",
+        "großfrüchtige moosbeeren",
+        "craisins",
+        "trockencranberries",
+        "mulberry",
+        "mulberries",
+        "maulbeere",
+        "maulbeeren"
       ]
     },
     {
@@ -3211,7 +3462,13 @@
         "melons",
         "melone",
         "melonen",
-        "メロン"
+        "メロン",
+        "gooseberry",
+        "gooseberries",
+        "stachelbeere",
+        "stachelbeeren",
+        "agrasel",
+        "agrasln"
       ]
     },
     {
@@ -3228,7 +3485,16 @@
         "cherry",
         "kirsche",
         "kirschen",
-        "さくらんぼ"
+        "さくらんぼ",
+        "lychee",
+        "lychees",
+        "litchi",
+        "litchis",
+        "litschi",
+        "litschis",
+        "rambutan",
+        "rambutans",
+        "hairy lychee"
       ]
     },
     {
@@ -3267,7 +3533,24 @@
         "abricot",
         "abricots",
         "marille",
-        "marillen"
+        "marillen",
+        "loquat",
+        "loquats",
+        "japanese medlar",
+        "wollmispel",
+        "wollmispeln",
+        "japanische wollmispel",
+        "nespoli",
+        "nespole",
+        "physalis",
+        "kapstachelbeere",
+        "kapstachelbeeren",
+        "cape gooseberry",
+        "cape gooseberries",
+        "goldenberry",
+        "goldenberries",
+        "andenbeere",
+        "andenbeeren"
       ]
     },
     {
@@ -3283,7 +3566,20 @@
         "zwetschge",
         "zwetschgen",
         "zwetschke",
-        "zwetschken"
+        "zwetschken",
+        "mangosteen",
+        "mangosteens",
+        "mangostane",
+        "mangostanen",
+        "mangostan",
+        "passion fruit",
+        "passion fruits",
+        "passionfruit",
+        "passionsfrucht",
+        "passionsfrüchte",
+        "maracuja",
+        "maracujas",
+        "grenadilla"
       ]
     },
     {
@@ -3360,7 +3656,11 @@
         "mangue",
         "mangues",
         "mangoschnitze",
-        "マンゴー"
+        "マンゴー",
+        "papaya",
+        "papayas",
+        "papayafrucht",
+        "trockenpapaya"
       ]
     },
     {
@@ -3374,7 +3674,9 @@
         "ananas",
         "pineapple",
         "pineapples",
-        "パインアップル"
+        "パインアップル",
+        "pineapple guava",
+        "ananas guave"
       ]
     },
     {
@@ -3405,7 +3707,14 @@
         "kiwi",
         "kiwifruit",
         "kiwis",
-        "キウイフルーツ"
+        "キウイフルーツ",
+        "dragon fruit",
+        "dragon fruits",
+        "dragonfruit",
+        "drachenfrucht",
+        "drachenfrüchte",
+        "pitaya",
+        "pitahaya"
       ]
     },
     {
@@ -3438,7 +3747,8 @@
         "aubergines",
         "eggplant",
         "eggplants",
-        "なす"
+        "なす",
+        "caviar d aubergine"
       ]
     },
     {
@@ -3561,7 +3871,13 @@
         "florence fennel",
         "fenchel",
         "gemüsefenchel",
-        "fenouil"
+        "fenouil",
+        "rhubarb",
+        "rhubarb stalk",
+        "rhubarb stalks",
+        "rhabarber",
+        "rhabarberstange",
+        "rhabarberstangen"
       ]
     },
     {
@@ -3585,7 +3901,37 @@
         "celeriac",
         "celery root",
         "knollensellerie",
-        "sellerieknolle"
+        "sellerieknolle",
+        "black salsify",
+        "salsify",
+        "scorzonera",
+        "schwarzwurzel",
+        "schwarzwurzeln",
+        "winterspargel",
+        "cassava",
+        "yuca",
+        "manioc",
+        "maniok",
+        "kassava",
+        "swede",
+        "swedes",
+        "rutabaga",
+        "rutabagas",
+        "swedish turnip",
+        "steckrübe",
+        "steckrüben",
+        "kohlrübe",
+        "kohlrüben",
+        "neeps",
+        "turnip",
+        "turnips",
+        "white turnip",
+        "weiße rübe",
+        "weiße rüben",
+        "mairübe",
+        "mairüben",
+        "mairübchen",
+        "teltower rübchen"
       ]
     },
     {
@@ -3713,7 +4059,19 @@
         "こんぶ",
         "ひじき",
         "kimchi",
-        "sauerkraut"
+        "sauerkraut",
+        "collard greens",
+        "collards",
+        "collard",
+        "blattkohl",
+        "spring greens",
+        "kohlrabi",
+        "kohlrabigemüse",
+        "rosemary",
+        "rosmarin",
+        "rosemary sprig",
+        "rosmarinzweig",
+        "rosmarinnadeln"
       ]
     },
     {
@@ -3847,7 +4205,13 @@
         "turkish flatbread",
         "chapati",
         "chapatis",
-        "roti"
+        "roti",
+        "focaccia",
+        "focaccias",
+        "fokaccia",
+        "focacciabrot",
+        "crumpet",
+        "crumpets"
       ]
     },
     {
@@ -3921,7 +4285,16 @@
         "hot dog",
         "hot dogs",
         "hotdog",
-        "hotdogs"
+        "hotdogs",
+        "vegetarian sausages",
+        "vegetarian sausage",
+        "vegan sausages",
+        "vegan sausage",
+        "veggie sausages",
+        "veggie sausage",
+        "meat free sausages",
+        "vegetarische würstchen",
+        "vegane würstchen"
       ]
     },
     {
@@ -3945,7 +4318,18 @@
       "priority": 80,
       "tags": [],
       "terms": [
-        "falafel"
+        "falafel",
+        "vegan meatballs",
+        "vegane hackbällchen",
+        "vegane köttbullar",
+        "veggie balls",
+        "veggie nuggets",
+        "vegan nuggets",
+        "vegetarian nuggets",
+        "vegane nuggets",
+        "vegetarische nuggets",
+        "vegane chicken nuggets",
+        "soja nuggets"
       ]
     },
     {
@@ -4074,7 +4458,14 @@
       "terms": [
         "homard",
         "hummer",
-        "lobster"
+        "lobster",
+        "crayfish",
+        "crawfish",
+        "crawdads",
+        "crayfish tails",
+        "flusskrebs",
+        "flusskrebse",
+        "flusskrebsschwänze"
       ]
     },
     {
@@ -4299,7 +4690,17 @@
         "gin tonic",
         "gin and tonic",
         "gin fizz",
-        "sloe gin fizz"
+        "sloe gin fizz",
+        "cream liqueur",
+        "sahnelikör",
+        "sahnelikoer",
+        "cremelikör",
+        "irish cream",
+        "irish cream liqueur",
+        "baileys",
+        "sangria",
+        "sangrias",
+        "tinto de verano"
       ]
     },
     {
@@ -4431,7 +4832,10 @@
         "silken tofu",
         "seidentofu",
         "tofu soyeux",
-        "tofu fume"
+        "tofu fume",
+        "tempeh",
+        "tempe",
+        "soy tempeh"
       ]
     },
     {
@@ -4451,7 +4855,25 @@
         "texturiertes sojaprotein",
         "sojaschnetzel",
         "textured soya protein",
-        "texturised soya protein"
+        "texturised soya protein",
+        "vegan chicken pieces",
+        "vegan chicken strips",
+        "vegane hähnchenstücke",
+        "vegan cold cuts",
+        "vegan deli slices",
+        "vegetarian cold cuts",
+        "veganer aufschnitt",
+        "vegetarischer aufschnitt",
+        "veggie aufschnitt",
+        "vegan schnitzel",
+        "vegetarian schnitzel",
+        "veganes schnitzel",
+        "vegane schnitzel",
+        "vegetarisches schnitzel",
+        "veggie schnitzel"
+      ],
+      "exactTerms": [
+        "seitan"
       ]
     },
     {
@@ -4574,7 +4996,13 @@
         "sugar peas",
         "erbsenpüree",
         "mushy peas",
-        "erbsenmus"
+        "erbsenmus",
+        "okra",
+        "okras",
+        "okraschoten",
+        "okraschote",
+        "bhindi",
+        "bamia"
       ]
     },
     {
@@ -4737,7 +5165,15 @@
         "rice cakes",
         "maisgalette",
         "maisgaletten",
-        "corn cakes"
+        "corn cakes",
+        "prawn crackers",
+        "prawn cracker",
+        "prawn crisps",
+        "shrimp chips",
+        "krabbenchips",
+        "garnelenchips",
+        "krupuk",
+        "kroepoek"
       ]
     },
     {
@@ -4956,7 +5392,13 @@
         "sake",
         "saké",
         "nihonshu",
-        "reissake"
+        "reissake",
+        "mirin",
+        "aji mirin",
+        "hon mirin",
+        "mirin seasoning",
+        "mirin würze",
+        "sweet rice seasoning"
       ]
     },
     {
@@ -5040,7 +5482,20 @@
         "fruit brandy",
         "gin",
         "schnaps",
-        "schnapps"
+        "schnapps",
+        "aquavit",
+        "akvavit",
+        "kümmelschnaps",
+        "kümmelbrand",
+        "caraway schnapps",
+        "aquavit schnaps",
+        "ouzo",
+        "pastis",
+        "raki",
+        "rakı",
+        "anisschnaps",
+        "aniseed spirit",
+        "anise spirit"
       ]
     },
     {
@@ -5213,7 +5668,25 @@
         "agavendicksaft",
         "agave syrup",
         "sirop",
-        "apfeldicksaft"
+        "apfeldicksaft",
+        "apple syrup",
+        "apfelsirup",
+        "apfel dicksaft",
+        "apple juice concentrate",
+        "apple concentrate",
+        "corn syrup",
+        "light corn syrup",
+        "dark corn syrup",
+        "maissirup",
+        "glucose syrup",
+        "glukosesirup",
+        "glucosesirup",
+        "golden syrup",
+        "goldsirup",
+        "light treacle",
+        "zuckersirup",
+        "heller zuckersirup",
+        "zuckersirup hell"
       ]
     },
     {
@@ -5274,7 +5747,9 @@
         "english muffins",
         "muffin english",
         "breadroll",
-        "breadrolls"
+        "breadrolls",
+        "hot cross bun",
+        "hot cross buns"
       ],
       "ingredientCategories": [
         "egg",
@@ -5331,7 +5806,13 @@
         "tiefkühlgemüse",
         "tk gemüse",
         "gemüse tiefgefroren",
-        "mélange de légumes"
+        "mélange de légumes",
+        "stir fry vegetables",
+        "stir fry mix",
+        "asian vegetables",
+        "asian stir fry vegetables",
+        "wokgemüse",
+        "asia gemüse"
       ]
     },
     {

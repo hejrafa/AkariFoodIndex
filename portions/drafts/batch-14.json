@@ -1,0 +1,449 @@
+{
+ "batch": 14,
+ "drafted": "2026-10-24",
+ "drafter": "Claude in the Akari Claude Code session (staples sweep)",
+ "entries": [
+  {
+   "key": "mixed rye bread",
+   "unit": "slice",
+   "typical": 2,
+   "reason": "two slices for a Brotzeit (aid table: Brot, Getreide 70/85 g per adult portion (1-1½ slices); estimate 50 g per slice)",
+   "gramsPerUnit": 50
+  },
+  {
+   "key": "wholemeal wheat bread",
+   "unit": "slice",
+   "typical": 2,
+   "reason": "two slices for breakfast (aid table: Brot, Getreide 70/85 g per adult portion (1-1½ slices); estimate 45 g per slice)",
+   "gramsPerUnit": 45
+  },
+  {
+   "key": "spelt bread",
+   "unit": "slice",
+   "typical": 2,
+   "reason": "two slices for breakfast (aid table: Brot, Getreide 70/85 g per adult portion (1-1½ slices); estimate 45 g per slice)",
+   "gramsPerUnit": 45
+  },
+  {
+   "key": "oat bread",
+   "unit": "slice",
+   "typical": 2,
+   "reason": "two slices for breakfast (aid table: Brot, Getreide 70/85 g per adult portion (1-1½ slices); estimate 45 g per slice)",
+   "gramsPerUnit": 45
+  },
+  {
+   "key": "multigrain bread",
+   "unit": "slice",
+   "typical": 2,
+   "reason": "two slices for breakfast (aid table: Brot, Getreide 70/85 g per adult portion (1-1½ slices); estimate 45 g per slice)",
+   "gramsPerUnit": 45
+  },
+  {
+   "key": "sunflower seed bread",
+   "unit": "slice",
+   "typical": 2,
+   "reason": "two slices for breakfast (aid table: Brot, Getreide 70/85 g per adult portion (1-1½ slices); estimate 50 g per slice)",
+   "gramsPerUnit": 50
+  },
+  {
+   "key": "pumpkin seed bread",
+   "unit": "slice",
+   "typical": 2,
+   "reason": "two slices for breakfast (aid table: Brot, Getreide 70/85 g per adult portion (1-1½ slices); estimate 50 g per slice)",
+   "gramsPerUnit": 50
+  },
+  {
+   "key": "walnut bread",
+   "unit": "slice",
+   "typical": 2,
+   "reason": "two slices with cheese (aid table: Brot, Getreide 70/85 g per adult portion (1-1½ slices); estimate 45 g per slice)",
+   "gramsPerUnit": 45
+  },
+  {
+   "key": "onion bread",
+   "unit": "slice",
+   "typical": 2,
+   "reason": "two slices for a Brotzeit (aid table: Brot, Getreide 70/85 g per adult portion (1-1½ slices); estimate 50 g per slice)",
+   "gramsPerUnit": 50
+  },
+  {
+   "key": "caraway rye bread",
+   "unit": "slice",
+   "typical": 2,
+   "reason": "two slices for a Brotzeit (aid table: Brot, Getreide 70/85 g per adult portion (1-1½ slices); estimate 50 g per slice)",
+   "gramsPerUnit": 50
+  },
+  {
+   "key": "buttermilk bread",
+   "unit": "slice",
+   "typical": 2,
+   "reason": "two slices for breakfast (aid table: Brot, Getreide 70/85 g per adult portion (1-1½ slices); estimate 45 g per slice)",
+   "gramsPerUnit": 45
+  },
+  {
+   "key": "wholemeal baguette",
+   "unit": "slice",
+   "typical": 3,
+   "reason": "three rounds cut from a baguette, as for the white baguette (estimate: 2 cm round, same as the existing baguette portion)",
+   "gramsPerUnit": 20
+  },
+  {
+   "key": "focaccia",
+   "unit": "slice",
+   "typical": 1,
+   "reason": "one piece cut from a tray (FNDDS Focaccia, Italian, plain: 1 slice 57 g)",
+   "gramsPerUnit": 57
+  },
+  {
+   "key": "protein bread",
+   "unit": "slice",
+   "typical": 2,
+   "reason": "two thin pre-cut slices (estimate: 250 g packs of six slices)",
+   "gramsPerUnit": 40
+  },
+  {
+   "key": "gluten free bread",
+   "unit": "slice",
+   "typical": 2,
+   "reason": "two slices of a small gluten-free loaf (estimate)",
+   "gramsPerUnit": 30
+  },
+  {
+   "key": "raisin bread",
+   "unit": "slice",
+   "typical": 2,
+   "reason": "two slices for breakfast (estimate; FNDDS Bread, raisin: 1 medium slice 28 g, German Stuten slices are thicker)",
+   "gramsPerUnit": 35,
+   "ignoreMeasures": "the USDA measure is a crustless 13 g slice; a German Rosinenbrot slice is about 35 g"
+  },
+  {
+   "key": "multigrain toast toasted",
+   "unit": "slice",
+   "typical": 2,
+   "reason": "two slices of toast (estimate: 25 g toast slice after toasting)",
+   "gramsPerUnit": 23
+  },
+  {
+   "key": "rusk",
+   "unit": "slice",
+   "typical": 3,
+   "reason": "three slices with tea (FNDDS Zwieback toast: 1 rusk 10 g)",
+   "gramsPerUnit": 10
+  },
+  {
+   "key": "wholegrain crispbread",
+   "unit": "slice",
+   "typical": 2,
+   "reason": "two slices (estimate: slightly heavier than the 11 g rye crispbread slice)",
+   "gramsPerUnit": 12
+  },
+  {
+   "key": "crackerbread",
+   "unit": "slice",
+   "typical": 3,
+   "reason": "three thin slices (estimate: 125 g packs of about sixteen slices)",
+   "gramsPerUnit": 8
+  },
+  {
+   "key": "rice cakes",
+   "unit": "piece",
+   "typical": 2,
+   "reason": "two cakes as a snack (estimate: 100 g packs of about twelve)",
+   "gramsPerUnit": 8
+  },
+  {
+   "key": "breadsticks",
+   "unit": "piece",
+   "typical": 4,
+   "reason": "a few sticks as a starter or snack (FNDDS Breadsticks, hard, NFS: 1 small stick 5 g)",
+   "gramsPerUnit": 5
+  },
+  {
+   "key": "rye roll",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one roll (estimate: Brötchen 55-60 g)",
+   "gramsPerUnit": 60
+  },
+  {
+   "key": "spelt roll",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one roll (estimate: Brötchen 55-60 g)",
+   "gramsPerUnit": 60
+  },
+  {
+   "key": "wholemeal spelt roll",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one roll (estimate: wholemeal rolls run a little heavier)",
+   "gramsPerUnit": 65
+  },
+  {
+   "key": "oat roll",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one roll (estimate: Brötchen 55-60 g)",
+   "gramsPerUnit": 60
+  },
+  {
+   "key": "sesame roll",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one roll (estimate: Brötchen 55-60 g)",
+   "gramsPerUnit": 60
+  },
+  {
+   "key": "poppy seed roll",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one roll (estimate: Brötchen 55-60 g)",
+   "gramsPerUnit": 60
+  },
+  {
+   "key": "pumpkin seed roll",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one roll (estimate: seeded rolls run a little heavier)",
+   "gramsPerUnit": 65
+  },
+  {
+   "key": "sunflower seed roll",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one roll (estimate: seeded rolls run a little heavier)",
+   "gramsPerUnit": 65
+  },
+  {
+   "key": "caraway roll",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one roll (estimate: Brötchen 55-60 g)",
+   "gramsPerUnit": 60
+  },
+  {
+   "key": "pretzel roll",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one roll (estimate: lye rolls and sticks weigh 60-80 g)",
+   "gramsPerUnit": 70
+  },
+  {
+   "key": "cheese pretzel stick",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one stick (estimate: cheese-topped lye sticks weigh 80-100 g)",
+   "gramsPerUnit": 90
+  },
+  {
+   "key": "milk roll",
+   "unit": "piece",
+   "typical": 2,
+   "reason": "two small soft rolls (estimate: supermarket packs of 45 g rolls)",
+   "gramsPerUnit": 45
+  },
+  {
+   "key": "raisin roll",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one roll (estimate: Brötchen 55-60 g)",
+   "gramsPerUnit": 60
+  },
+  {
+   "key": "chocolate chip roll",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one roll (estimate: Brötchen 55-60 g)",
+   "gramsPerUnit": 60
+  },
+  {
+   "key": "baguette roll",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one small baguette (estimate: 60-80 g bake-off baguette rolls)",
+   "gramsPerUnit": 70
+  },
+  {
+   "key": "protein roll",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one roll (estimate: protein rolls are denser than a Brötchen)",
+   "gramsPerUnit": 70
+  },
+  {
+   "key": "crumpet",
+   "unit": "piece",
+   "typical": 2,
+   "reason": "two crumpets with butter (FNDDS Muffin, English: 1 crumpet 45 g)",
+   "gramsPerUnit": 45
+  },
+  {
+   "key": "scone",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one scone with jam and cream (FNDDS Scone: 1 regular 70 g)",
+   "gramsPerUnit": 70
+  },
+  {
+   "key": "chocolate croissant",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one croissant (FNDDS Croissant, chocolate: 1 croissant 57 g)",
+   "gramsPerUnit": 57
+  },
+  {
+   "key": "nougat croissant",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one filled croissant (estimate: filled bakery croissants weigh 75-90 g)",
+   "gramsPerUnit": 80
+  },
+  {
+   "key": "cinnamon roll",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one bakery swirl (FNDDS Roll, sweet, cinnamon bun: 1 medium 90 g)",
+   "gramsPerUnit": 90
+  },
+  {
+   "key": "nut swirl",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one bakery swirl (estimate: bakery swirls weigh 90-110 g)",
+   "gramsPerUnit": 100
+  },
+  {
+   "key": "custard swirl",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one bakery swirl (estimate: bakery swirls weigh 90-110 g)",
+   "gramsPerUnit": 100
+  },
+  {
+   "key": "raisin swirl",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one bakery swirl (estimate)",
+   "gramsPerUnit": 90
+  },
+  {
+   "key": "poppy seed swirl",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one bakery swirl (estimate)",
+   "gramsPerUnit": 90
+  },
+  {
+   "key": "streusel swirl",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one bakery swirl (estimate: bakery swirls weigh 90-110 g)",
+   "gramsPerUnit": 100
+  },
+  {
+   "key": "danish pastry",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one bakery pastry (estimate: German Plunderteilchen weigh 80-110 g)",
+   "gramsPerUnit": 90
+  },
+  {
+   "key": "cheese danish",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one bakery pastry (estimate)",
+   "gramsPerUnit": 100
+  },
+  {
+   "key": "apple turnover",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one bakery pastry (estimate)",
+   "gramsPerUnit": 100
+  },
+  {
+   "key": "doughnut",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one doughnut (FNDDS Doughnut, yeast type: 1 doughnut 60 g)",
+   "gramsPerUnit": 60
+  },
+  {
+   "key": "quark balls",
+   "unit": "piece",
+   "typical": 3,
+   "reason": "a few from a paper bag (estimate: bakery Quarkbällchen weigh about 20 g each)",
+   "gramsPerUnit": 20
+  },
+  {
+   "key": "amerikaner iced soft cookie",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one from the bakery (estimate: bakery Amerikaner weigh 60-80 g)",
+   "gramsPerUnit": 70
+  },
+  {
+   "key": "braided sweet bread",
+   "unit": "slice",
+   "typical": 2,
+   "reason": "two slices for breakfast (estimate: a 500 g Hefezopf cuts into about eleven slices)",
+   "gramsPerUnit": 45
+  },
+  {
+   "key": "stollen",
+   "unit": "slice",
+   "typical": 1,
+   "reason": "one slice with coffee (estimate: a 1 kg Stollen cuts into about twenty slices)",
+   "gramsPerUnit": 45
+  },
+  {
+   "key": "muffin",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one supermarket or bakery muffin (estimate: German muffins weigh 75-90 g, between FNDDS 1 small (70 g) and 1 medium (130 g))",
+   "gramsPerUnit": 80
+  },
+  {
+   "key": "blueberry muffin",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one muffin (estimate: German muffins weigh 75-90 g)",
+   "gramsPerUnit": 80
+  },
+  {
+   "key": "chocolate muffin",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one muffin (estimate: German muffins weigh 75-90 g)",
+   "gramsPerUnit": 80
+  },
+  {
+   "key": "hot cross bun",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one bun (estimate: UK hot cross buns weigh 65-70 g)",
+   "gramsPerUnit": 70
+  },
+  {
+   "key": "garlic bread",
+   "unit": "slice",
+   "typical": 2,
+   "reason": "two slices from a frozen baguette (FNDDS Garlic bread, from frozen: 1 small slice 37 g)",
+   "gramsPerUnit": 37
+  },
+  {
+   "key": "paratha",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one flaky flatbread (estimate: frozen parathas weigh about 80 g)",
+   "gramsPerUnit": 80
+  },
+  {
+   "key": "soda bread",
+   "unit": "slice",
+   "typical": 2,
+   "reason": "two slices (estimate)",
+   "gramsPerUnit": 40
+  }
+ ]
+}

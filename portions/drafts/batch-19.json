@@ -1,0 +1,653 @@
+{
+ "batch": 19,
+ "drafted": "2026-10-24",
+ "drafter": "Claude in the Akari Claude Code session (staples sweep)",
+ "entries": [
+  {
+   "key": "salmon canned",
+   "unit": "can",
+   "typical": 1,
+   "reason": "one small tin, drained (FNDDS Salmon, canned: 1 small can 170 g; estimate)",
+   "gramsPerUnit": 150
+  },
+  {
+   "key": "gravlax",
+   "unit": "slice",
+   "typical": 3,
+   "reason": "three slices on bread (as smoked salmon: BLS 1 Scheibe 20 g; estimate)",
+   "gramsPerUnit": 20
+  },
+  {
+   "key": "wild salmon raw",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one raw fillet (aid Fisch 150–200 g for adults; FNDDS 1 large fillet 135 g cooked)",
+   "gramsPerUnit": 150
+  },
+  {
+   "key": "wild salmon pan fried",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one cooked plate portion from about 150 g raw (aid Fisch 150–200 g for adults; FNDDS 1 small fillet 90 g, large 135 g)",
+   "gramsPerUnit": 130
+  },
+  {
+   "key": "smoked wild salmon",
+   "unit": "slice",
+   "typical": 3,
+   "reason": "three slices on bread (as smoked salmon: BLS 1 Scheibe 20 g; estimate)",
+   "gramsPerUnit": 20
+  },
+  {
+   "key": "smoked trout",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one smoked trout fillet (estimate: packs of two fillets, 125 g)",
+   "gramsPerUnit": 65
+  },
+  {
+   "key": "sea trout raw",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one raw fillet (aid Fisch 150–200 g for adults; FNDDS 1 large fillet 135 g cooked)",
+   "gramsPerUnit": 150
+  },
+  {
+   "key": "sea trout pan fried",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one cooked plate portion from about 150 g raw (aid Fisch 150–200 g for adults; FNDDS 1 small fillet 90 g, large 135 g)",
+   "gramsPerUnit": 130
+  },
+  {
+   "key": "char raw",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one raw fillet (aid Fisch 150–200 g for adults; FNDDS 1 large fillet 135 g cooked)",
+   "gramsPerUnit": 150
+  },
+  {
+   "key": "char pan fried",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one cooked plate portion from about 150 g raw (aid Fisch 150–200 g for adults; FNDDS 1 small fillet 90 g, large 135 g)",
+   "gramsPerUnit": 130
+  },
+  {
+   "key": "smoked char",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one smoked char fillet (estimate)",
+   "gramsPerUnit": 70
+  },
+  {
+   "key": "whitefish raw",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one raw fillet (aid Fisch 150–200 g for adults; FNDDS 1 large fillet 135 g cooked)",
+   "gramsPerUnit": 150
+  },
+  {
+   "key": "smoked whitefish",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "the fillets of one smoked whitefish (estimate)",
+   "gramsPerUnit": 80
+  },
+  {
+   "key": "cod liver canned",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "spread on two slices of bread (estimate: tins hold 121 g)",
+   "gramsPerUnit": 50
+  },
+  {
+   "key": "pollock raw",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one raw fillet (aid Fisch 150–200 g for adults; FNDDS 1 large fillet 135 g cooked)",
+   "gramsPerUnit": 150
+  },
+  {
+   "key": "alaska pollock raw",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one raw fillet (aid Fisch 150–200 g for adults; FNDDS 1 large fillet 135 g cooked)",
+   "gramsPerUnit": 150
+  },
+  {
+   "key": "alaska pollock pan fried",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one cooked plate portion from about 150 g raw (aid Fisch 150–200 g for adults; FNDDS 1 small fillet 90 g, large 135 g)",
+   "gramsPerUnit": 130
+  },
+  {
+   "key": "smoked pollock in oil",
+   "unit": "slice",
+   "typical": 3,
+   "reason": "three slices on bread (estimate: 1 slice about 15 g)",
+   "gramsPerUnit": 15
+  },
+  {
+   "key": "haddock raw",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one raw fillet (aid Fisch 150–200 g for adults; FNDDS 1 large fillet 135 g cooked)",
+   "gramsPerUnit": 150
+  },
+  {
+   "key": "haddock pan fried",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one cooked plate portion from about 150 g raw (aid Fisch 150–200 g for adults; FNDDS 1 small fillet 90 g, large 135 g)",
+   "gramsPerUnit": 130
+  },
+  {
+   "key": "smoked haddock",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one smoked haddock fillet (estimate; aid Fisch 150–200 g for adults)",
+   "gramsPerUnit": 150
+  },
+  {
+   "key": "hake raw",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one raw fillet (aid Fisch 150–200 g for adults; FNDDS 1 large fillet 135 g cooked)",
+   "gramsPerUnit": 150
+  },
+  {
+   "key": "hake pan fried",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one cooked plate portion from about 150 g raw (aid Fisch 150–200 g for adults; FNDDS 1 small fillet 90 g, large 135 g)",
+   "gramsPerUnit": 130
+  },
+  {
+   "key": "whiting raw",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one raw fillet (aid Fisch 150–200 g for adults; FNDDS 1 large fillet 135 g cooked)",
+   "gramsPerUnit": 150
+  },
+  {
+   "key": "whiting pan fried",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one cooked plate portion from about 150 g raw (aid Fisch 150–200 g for adults; FNDDS 1 small fillet 90 g, large 135 g)",
+   "gramsPerUnit": 130
+  },
+  {
+   "key": "plaice raw",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one raw fillet (aid Fisch 150–200 g for adults; FNDDS 1 large fillet 135 g cooked)",
+   "gramsPerUnit": 150
+  },
+  {
+   "key": "sole raw",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one raw fillet (aid Fisch 150–200 g for adults; FNDDS 1 large fillet 135 g cooked)",
+   "gramsPerUnit": 150
+  },
+  {
+   "key": "halibut raw",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one raw fillet (aid Fisch 150–200 g for adults; FNDDS 1 large fillet 135 g cooked)",
+   "gramsPerUnit": 150
+  },
+  {
+   "key": "smoked halibut",
+   "unit": "slice",
+   "typical": 3,
+   "reason": "three slices on bread (as smoked salmon: BLS 1 Scheibe 20 g; estimate)",
+   "gramsPerUnit": 20
+  },
+  {
+   "key": "turbot raw",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one raw fillet (aid Fisch 150–200 g for adults; FNDDS 1 large fillet 135 g cooked)",
+   "gramsPerUnit": 150
+  },
+  {
+   "key": "turbot pan fried",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one cooked plate portion from about 150 g raw (aid Fisch 150–200 g for adults; FNDDS 1 small fillet 90 g, large 135 g)",
+   "gramsPerUnit": 130
+  },
+  {
+   "key": "flounder raw",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one raw fillet (aid Fisch 150–200 g for adults; FNDDS 1 large fillet 135 g cooked)",
+   "gramsPerUnit": 150
+  },
+  {
+   "key": "flounder pan fried",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one cooked plate portion from about 150 g raw (aid Fisch 150–200 g for adults; FNDDS 1 small fillet 90 g, large 135 g)",
+   "gramsPerUnit": 130
+  },
+  {
+   "key": "smoked flounder",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "the edible part of one smoked flounder (estimate)",
+   "gramsPerUnit": 100
+  },
+  {
+   "key": "redfish raw",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one raw fillet (aid Fisch 150–200 g for adults; FNDDS 1 large fillet 135 g cooked)",
+   "gramsPerUnit": 150
+  },
+  {
+   "key": "monkfish raw",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one raw fillet (aid Fisch 150–200 g for adults; FNDDS 1 large fillet 135 g cooked)",
+   "gramsPerUnit": 150
+  },
+  {
+   "key": "monkfish pan fried",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one cooked plate portion from about 150 g raw (aid Fisch 150–200 g for adults; FNDDS 1 small fillet 90 g, large 135 g)",
+   "gramsPerUnit": 130
+  },
+  {
+   "key": "wolffish raw",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one raw fillet (aid Fisch 150–200 g for adults; FNDDS 1 large fillet 135 g cooked)",
+   "gramsPerUnit": 150
+  },
+  {
+   "key": "wolffish pan fried",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one cooked plate portion from about 150 g raw (aid Fisch 150–200 g for adults; FNDDS 1 small fillet 90 g, large 135 g)",
+   "gramsPerUnit": 130
+  },
+  {
+   "key": "tuna grilled",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one cooked tuna steak (aid Fisch 150–200 g for adults; FNDDS 1 large fillet 135 g)",
+   "gramsPerUnit": 130
+  },
+  {
+   "key": "mackerel grilled",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one cooked plate portion from about 150 g raw (aid Fisch 150–200 g for adults; FNDDS 1 small fillet 90 g, large 135 g)",
+   "gramsPerUnit": 130
+  },
+  {
+   "key": "smoked mackerel",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one smoked mackerel fillet (estimate)",
+   "gramsPerUnit": 100
+  },
+  {
+   "key": "mackerel in oil",
+   "unit": "can",
+   "typical": 1,
+   "reason": "one 125 g can, drained (FNDDS Mackerel, canned: 1 standard can 75 g; estimate)",
+   "gramsPerUnit": 90
+  },
+  {
+   "key": "mackerel in tomato sauce",
+   "unit": "can",
+   "typical": 1,
+   "reason": "one 125 g can with its sauce (estimate)",
+   "gramsPerUnit": 125
+  },
+  {
+   "key": "herring raw",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "the fillets of one fresh herring (aid Fisch 150–200 g for adults)",
+   "gramsPerUnit": 150
+  },
+  {
+   "key": "smoked herring",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "the edible part of one smoked herring (estimate)",
+   "gramsPerUnit": 100
+  },
+  {
+   "key": "rollmops",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one rollmops, drained (estimate)",
+   "gramsPerUnit": 80
+  },
+  {
+   "key": "fried pickled herring",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one fried herring, drained (estimate)",
+   "gramsPerUnit": 120
+  },
+  {
+   "key": "smoked sprats",
+   "unit": "piece",
+   "typical": 8,
+   "reason": "eight smoked sprats (estimate)",
+   "gramsPerUnit": 10
+  },
+  {
+   "key": "sprats in oil",
+   "unit": "can",
+   "typical": 1,
+   "reason": "one 160 g can, drained (estimate)",
+   "gramsPerUnit": 110
+  },
+  {
+   "key": "sardines raw",
+   "unit": "piece",
+   "typical": 4,
+   "reason": "four fresh sardines, edible part (estimate; aid Fisch 150–200 g for adults)",
+   "gramsPerUnit": 40
+  },
+  {
+   "key": "sardines grilled",
+   "unit": "piece",
+   "typical": 4,
+   "reason": "four grilled sardines, edible part (estimate; FNDDS 1 sardine 12 g canned)",
+   "gramsPerUnit": 35
+  },
+  {
+   "key": "sardines in tomato sauce",
+   "unit": "can",
+   "typical": 1,
+   "reason": "one tin with its sauce (estimate: 120–125 g tins)",
+   "gramsPerUnit": 120
+  },
+  {
+   "key": "anchovies raw",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one starter plate of fresh anchovies (estimate)",
+   "gramsPerUnit": 100
+  },
+  {
+   "key": "smoked eel",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "a few pieces on bread (estimate)",
+   "gramsPerUnit": 50
+  },
+  {
+   "key": "carp raw",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one raw fillet (aid Fisch 150–200 g for adults; FNDDS 1 large fillet 135 g cooked)",
+   "gramsPerUnit": 150
+  },
+  {
+   "key": "pike raw",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one raw fillet (aid Fisch 150–200 g for adults; FNDDS 1 large fillet 135 g cooked)",
+   "gramsPerUnit": 150
+  },
+  {
+   "key": "zander raw",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one raw fillet (aid Fisch 150–200 g for adults; FNDDS 1 large fillet 135 g cooked)",
+   "gramsPerUnit": 150
+  },
+  {
+   "key": "perch raw",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one raw fillet (aid Fisch 150–200 g for adults; FNDDS 1 large fillet 135 g cooked)",
+   "gramsPerUnit": 150
+  },
+  {
+   "key": "catfish raw",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one raw fillet (aid Fisch 150–200 g for adults; FNDDS 1 large fillet 135 g cooked)",
+   "gramsPerUnit": 150
+  },
+  {
+   "key": "catfish pan fried",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one cooked plate portion from about 150 g raw (aid Fisch 150–200 g for adults; FNDDS 1 small fillet 90 g, large 135 g)",
+   "gramsPerUnit": 130
+  },
+  {
+   "key": "pangasius raw",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one raw fillet (aid Fisch 150–200 g for adults; FNDDS 1 large fillet 135 g cooked)",
+   "gramsPerUnit": 150
+  },
+  {
+   "key": "pangasius pan fried",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one cooked plate portion from about 150 g raw (aid Fisch 150–200 g for adults; FNDDS 1 small fillet 90 g, large 135 g)",
+   "gramsPerUnit": 130
+  },
+  {
+   "key": "tilapia raw",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one raw fillet (aid Fisch 150–200 g for adults; FNDDS 1 large fillet 135 g cooked)",
+   "gramsPerUnit": 150
+  },
+  {
+   "key": "tilapia steamed",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one cooked fillet (FNDDS Tilapia: 1 small fillet 90 g, large 135 g)",
+   "gramsPerUnit": 130,
+   "ignoreMeasures": "FNDDS small fillet 90 g; a plate fillet is 130 g"
+  },
+  {
+   "key": "sea bream raw",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one raw fillet (aid Fisch 150–200 g for adults; FNDDS 1 large fillet 135 g cooked)",
+   "gramsPerUnit": 150
+  },
+  {
+   "key": "sea bass raw",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one raw fillet (aid Fisch 150–200 g for adults; FNDDS 1 large fillet 135 g cooked)",
+   "gramsPerUnit": 150
+  },
+  {
+   "key": "sea bass steamed",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one cooked fillet (FNDDS Bass: 1 small fillet 90 g, large 135 g)",
+   "gramsPerUnit": 130,
+   "ignoreMeasures": "FNDDS small fillet 90 g; a plate fillet is 130 g"
+  },
+  {
+   "key": "swordfish raw",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one raw fillet (aid Fisch 150–200 g for adults; FNDDS 1 large fillet 135 g cooked)",
+   "gramsPerUnit": 150
+  },
+  {
+   "key": "red snapper raw",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one raw fillet (aid Fisch 150–200 g for adults; FNDDS 1 large fillet 135 g cooked)",
+   "gramsPerUnit": 150
+  },
+  {
+   "key": "smoked dogfish belly",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one Schillerlocke (estimate)",
+   "gramsPerUnit": 50
+  },
+  {
+   "key": "caviar",
+   "unit": "tablespoon",
+   "typical": 1,
+   "reason": "one tablespoon (FNDDS Caviar: 1 tablespoon 16 g)",
+   "gramsPerUnit": 16
+  },
+  {
+   "key": "lumpfish roe",
+   "unit": "tablespoon",
+   "typical": 1,
+   "reason": "one tablespoon (FNDDS Caviar: 1 tablespoon 16 g)",
+   "gramsPerUnit": 15
+  },
+  {
+   "key": "salmon roe",
+   "unit": "tablespoon",
+   "typical": 1,
+   "reason": "one tablespoon (FNDDS Caviar: 1 tablespoon 16 g)",
+   "gramsPerUnit": 16
+  },
+  {
+   "key": "shrimp raw",
+   "unit": "piece",
+   "typical": 10,
+   "reason": "ten peeled prawns (brief: a prawn 10 g; FNDDS Shrimp: 1 medium 6–8 g)",
+   "gramsPerUnit": 10
+  },
+  {
+   "key": "langoustine raw",
+   "unit": "piece",
+   "typical": 8,
+   "reason": "eight peeled tails (estimate; FNDDS Crayfish: 1 crayfish 15 g)",
+   "gramsPerUnit": 15
+  },
+  {
+   "key": "lobster raw",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "the meat of one lobster (FNDDS Lobster: 1 lobster 200 g, 1 tail 100 g)",
+   "gramsPerUnit": 150
+  },
+  {
+   "key": "spiny lobster cooked",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "the meat of one tail (FNDDS Lobster: 1 tail 100 g; estimate)",
+   "gramsPerUnit": 150
+  },
+  {
+   "key": "crayfish cooked",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "tail meat for one (estimate; FNDDS Crayfish: 1 crayfish 15 g)",
+   "gramsPerUnit": 100
+  },
+  {
+   "key": "crab canned",
+   "unit": "can",
+   "typical": 1,
+   "reason": "one can, drained (FNDDS Crab, canned: 1 standard can 120 g)",
+   "gramsPerUnit": 120
+  },
+  {
+   "key": "squid raw",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one main-course portion (aid Fisch 150–200 g for adults)",
+   "gramsPerUnit": 150
+  },
+  {
+   "key": "cuttlefish raw",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one main-course portion (aid Fisch 150–200 g for adults)",
+   "gramsPerUnit": 150
+  },
+  {
+   "key": "cuttlefish grilled",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one cooked plate portion from about 150 g raw (aid Fisch 150–200 g for adults; FNDDS 1 small fillet 90 g, large 135 g)",
+   "gramsPerUnit": 130
+  },
+  {
+   "key": "octopus raw",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one main-course portion (aid Fisch 150–200 g for adults)",
+   "gramsPerUnit": 150
+  },
+  {
+   "key": "mussels raw",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "mussel meat from a main-course pot (brief: mussels 150 g meat; FNDDS 1 mussel 15 g)",
+   "gramsPerUnit": 150
+  },
+  {
+   "key": "oysters raw",
+   "unit": "piece",
+   "typical": 6,
+   "reason": "half a dozen oysters (FNDDS Oysters, raw: 1 oyster 15 g)",
+   "gramsPerUnit": 15
+  },
+  {
+   "key": "scallops raw",
+   "unit": "piece",
+   "typical": 5,
+   "reason": "five scallops (estimate)",
+   "gramsPerUnit": 20
+  },
+  {
+   "key": "clams raw",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "clam meat for one plate (estimate; FNDDS 1 clam 15 g)",
+   "gramsPerUnit": 100
+  },
+  {
+   "key": "seafood mix raw",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one main-course portion (aid Fisch 150–200 g for adults)",
+   "gramsPerUnit": 150
+  },
+  {
+   "key": "seafood mix cooked",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one cooked plate portion from about 150 g raw (aid Fisch 150–200 g for adults; FNDDS 1 small fillet 90 g, large 135 g)",
+   "gramsPerUnit": 130
+  },
+  {
+   "key": "wakame dried",
+   "unit": "tablespoon",
+   "typical": 1,
+   "reason": "one tablespoon of dried flakes for a bowl of soup (estimate)",
+   "gramsPerUnit": 3
+  },
+  {
+   "key": "kombu dried",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one 10 cm strip (estimate)",
+   "gramsPerUnit": 5
+  }
+ ]
+}

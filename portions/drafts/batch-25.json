@@ -1,0 +1,802 @@
+{
+ "batch": 25,
+ "drafted": "2026-10-24",
+ "drafter": "Claude in the Akari Claude Code session (staples sweep)",
+ "entries": [
+  {
+   "key": "milk chocolate with hazelnuts",
+   "unit": "piece",
+   "typical": 4,
+   "reason": "four squares of a nut bar (brief: a chocolate piece 6 g; nut bars have thicker squares)",
+   "gramsPerUnit": 7
+  },
+  {
+   "key": "mint chocolate",
+   "unit": "piece",
+   "typical": 3,
+   "reason": "three thin mint chocolates (After Eight thin about 8 g; aid: Süßigkeiten 25 g)",
+   "gramsPerUnit": 8
+  },
+  {
+   "key": "peanut caramel bar",
+   "unit": "bar",
+   "typical": 1,
+   "reason": "one standard bar (brief: a chocolate bar 50 g (Snickers 50 g))",
+   "gramsPerUnit": 50
+  },
+  {
+   "key": "chocolate caramel bar",
+   "unit": "bar",
+   "typical": 1,
+   "reason": "one standard bar (brief: a chocolate bar 50 g (Mars 51 g))",
+   "gramsPerUnit": 50
+  },
+  {
+   "key": "caramel biscuit bar",
+   "unit": "bar",
+   "typical": 1,
+   "reason": "one twin pack, two fingers (brief: a chocolate bar 50 g (Twix 50 g))",
+   "gramsPerUnit": 50
+  },
+  {
+   "key": "chocolate wafer bar",
+   "unit": "bar",
+   "typical": 1,
+   "reason": "one four-finger bar (KitKat four-finger bar 41.5 g)",
+   "gramsPerUnit": 42
+  },
+  {
+   "key": "coconut chocolate bar",
+   "unit": "bar",
+   "typical": 1,
+   "reason": "one twin bar (Bounty twin bar 57 g)",
+   "gramsPerUnit": 57
+  },
+  {
+   "key": "milk filled chocolate bar",
+   "unit": "bar",
+   "typical": 1,
+   "reason": "one small bar (Kinder Riegel 21 g)",
+   "gramsPerUnit": 21
+  },
+  {
+   "key": "milk slice",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one chilled slice (Milch-Schnitte 28 g)",
+   "gramsPerUnit": 28
+  },
+  {
+   "key": "candy coated chocolates",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "a small handful (aid: Süßigkeiten 25 g)",
+   "gramsPerUnit": 25
+  },
+  {
+   "key": "malted milk balls",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one standard bag (Maltesers bag 37 g)",
+   "gramsPerUnit": 37
+  },
+  {
+   "key": "filled chocolates",
+   "unit": "piece",
+   "typical": 3,
+   "reason": "three chocolates from a box (a filled praline 10–15 g; aid: Süßigkeiten 25 g)",
+   "gramsPerUnit": 12
+  },
+  {
+   "key": "chocolate truffles",
+   "unit": "piece",
+   "typical": 3,
+   "reason": "three truffles (Lindor ball 12.5 g; aid: Süßigkeiten 25 g)",
+   "gramsPerUnit": 12
+  },
+  {
+   "key": "rum balls",
+   "unit": "piece",
+   "typical": 3,
+   "reason": "three rum balls (a rum ball about 10 g; aid: Süßigkeiten 25 g)",
+   "gramsPerUnit": 10
+  },
+  {
+   "key": "chocolate marshmallow",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one Schokokuss (a standard Schokokuss 20–30 g)",
+   "gramsPerUnit": 25
+  },
+  {
+   "key": "nougat",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one small piece (aid: Süßigkeiten 25 g)",
+   "gramsPerUnit": 25
+  },
+  {
+   "key": "liquorice",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "a small handful (aid: Süßigkeiten 25 g)",
+   "gramsPerUnit": 25
+  },
+  {
+   "key": "hard candy",
+   "unit": "piece",
+   "typical": 3,
+   "reason": "three sweets (FNDDS: Candy, hard, 1 piece = 5 g)",
+   "gramsPerUnit": 5
+  },
+  {
+   "key": "mints",
+   "unit": "piece",
+   "typical": 3,
+   "reason": "three mints (FNDDS: Candy, mint, 1 piece = 2 g)",
+   "gramsPerUnit": 2
+  },
+  {
+   "key": "toffee",
+   "unit": "piece",
+   "typical": 3,
+   "reason": "three toffees (FNDDS: Candy, caramel, 1 piece = 5 g; Werther's about 5–7 g)",
+   "gramsPerUnit": 6
+  },
+  {
+   "key": "fudge",
+   "unit": "piece",
+   "typical": 2,
+   "reason": "two pieces (a fudge cube about 15 g; aid: Süßigkeiten 25 g)",
+   "gramsPerUnit": 15
+  },
+  {
+   "key": "marshmallow",
+   "unit": "piece",
+   "typical": 4,
+   "reason": "four marshmallows (FNDDS: Candy, marshmallow, 1 piece = 8 g)",
+   "gramsPerUnit": 8
+  },
+  {
+   "key": "chewing gum",
+   "unit": "piece",
+   "typical": 2,
+   "reason": "two pellets (a sugar-free gum pellet about 1.5–2 g (FNDDS lists 5 g per stick))",
+   "gramsPerUnit": 2,
+   "ignoreMeasures": "USDA piece 5 g; a stick or pellet of gum is about 2 g"
+  },
+  {
+   "key": "candied almonds",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "half a fairground bag (a fairground bag holds 100 g; aid: Süßigkeiten 25 g)",
+   "gramsPerUnit": 50
+  },
+  {
+   "key": "turkish delight",
+   "unit": "piece",
+   "typical": 2,
+   "reason": "two cubes (a Turkish delight cube about 15 g)",
+   "gramsPerUnit": 15
+  },
+  {
+   "key": "stracciatella ice cream",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "two scoops (aid: Eis 1 Kugel 50 g)",
+   "gramsPerUnit": 100
+  },
+  {
+   "key": "caramel ice cream",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "two scoops (aid: Eis 1 Kugel 50 g)",
+   "gramsPerUnit": 100
+  },
+  {
+   "key": "sorbet",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "two scoops (aid: Eis 1 Kugel 50 g)",
+   "gramsPerUnit": 100
+  },
+  {
+   "key": "frozen yogurt",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one cup (a frozen yogurt cup about 120 g; aid: Eis 1 Kugel 50 g)",
+   "gramsPerUnit": 120
+  },
+  {
+   "key": "chocolate coated ice cream bar",
+   "unit": "bar",
+   "typical": 1,
+   "reason": "one bar (FNDDS: Ice cream bar, vanilla, chocolate coated, 1 bar = 75 g; Magnum Classic 79 g)",
+   "gramsPerUnit": 80
+  },
+  {
+   "key": "ice lolly",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one lolly (FNDDS: Popsicle, 1 single stick = 50 g)",
+   "gramsPerUnit": 50
+  },
+  {
+   "key": "ice cream cone",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one cone with two scoops (FNDDS: Ice cream cone, scooped, 1 cone = 125 g)",
+   "gramsPerUnit": 125
+  },
+  {
+   "key": "chocolate pudding",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one pudding cup (brief: a pudding cup 125 g)",
+   "gramsPerUnit": 125
+  },
+  {
+   "key": "semolina pudding",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one bowl (a dessert bowl 200 g, like rice pudding)",
+   "gramsPerUnit": 200
+  },
+  {
+   "key": "tiramisu",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one restaurant portion (FNDDS: Tiramisu, 1 piece = 175 g; a dessert portion 150 g)",
+   "gramsPerUnit": 150
+  },
+  {
+   "key": "chocolate mousse",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one dessert pot (a mousse pot 90–100 g)",
+   "gramsPerUnit": 100
+  },
+  {
+   "key": "panna cotta",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one ramekin (a panna cotta ramekin 120–125 g)",
+   "gramsPerUnit": 125
+  },
+  {
+   "key": "creme brulee",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one ramekin (a crème brûlée ramekin about 120 g)",
+   "gramsPerUnit": 120
+  },
+  {
+   "key": "creme caramel",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one pot (a crème caramel pot 100 g)",
+   "gramsPerUnit": 100
+  },
+  {
+   "key": "jelly",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one dessert cup (brief: a pudding cup 125 g)",
+   "gramsPerUnit": 125
+  },
+  {
+   "key": "apple crumble",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one dessert portion (a UK crumble portion about 170 g)",
+   "gramsPerUnit": 170
+  },
+  {
+   "key": "trifle",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one dessert bowl (FNDDS: Trifle, 1 cup = 145 g)",
+   "gramsPerUnit": 150
+  },
+  {
+   "key": "cream puff",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one bakery cream puff (FNDDS: cream puff 1 piece about 100 g; German bakery Windbeutel 70–90 g)",
+   "gramsPerUnit": 80
+  },
+  {
+   "key": "chocolate eclair",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one éclair (a retail chocolate éclair 50–65 g)",
+   "gramsPerUnit": 60
+  },
+  {
+   "key": "baklava",
+   "unit": "piece",
+   "typical": 2,
+   "reason": "two pieces (a baklava piece about 30 g)",
+   "gramsPerUnit": 30
+  },
+  {
+   "key": "apple strudel",
+   "unit": "slice",
+   "typical": 1,
+   "reason": "one slice (aid: Kuchen 1 Stück 100–150 g)",
+   "gramsPerUnit": 150
+  },
+  {
+   "key": "quark strudel",
+   "unit": "slice",
+   "typical": 1,
+   "reason": "one slice (aid: Kuchen 1 Stück 100–150 g)",
+   "gramsPerUnit": 150
+  },
+  {
+   "key": "mince pie",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one individual pie (a retail mince pie 55–60 g)",
+   "gramsPerUnit": 60
+  },
+  {
+   "key": "pumpkin pie",
+   "unit": "slice",
+   "typical": 1,
+   "reason": "one regular slice (FNDDS: Pie, pumpkin, 1 regular slice = 150 g)",
+   "gramsPerUnit": 150
+  },
+  {
+   "key": "pecan pie",
+   "unit": "slice",
+   "typical": 1,
+   "reason": "one slice (FNDDS: Pie, pecan, 1 regular slice = 150 g; small slice 75 g; pecan pie is dense, 125 g)",
+   "gramsPerUnit": 125
+  },
+  {
+   "key": "cheesecake",
+   "unit": "slice",
+   "typical": 1,
+   "reason": "one slice (aid: Kuchen 1 Stück 100–150 g; a Käsekuchen slice is heavy)",
+   "gramsPerUnit": 140
+  },
+  {
+   "key": "new york cheesecake",
+   "unit": "slice",
+   "typical": 1,
+   "reason": "one slice (FNDDS: Cheesecake, 1 piece = 175 g; a café slice 120–130 g)",
+   "gramsPerUnit": 125
+  },
+  {
+   "key": "quark cream cake",
+   "unit": "slice",
+   "typical": 1,
+   "reason": "one slice (aid: Kuchen 1 Stück 100–150 g)",
+   "gramsPerUnit": 130
+  },
+  {
+   "key": "apple cake",
+   "unit": "slice",
+   "typical": 1,
+   "reason": "one slice (aid: Kuchen 1 Stück 100–150 g)",
+   "gramsPerUnit": 120
+  },
+  {
+   "key": "apple pie",
+   "unit": "slice",
+   "typical": 1,
+   "reason": "one slice (aid: Kuchen 1 Stück 100–150 g; FNDDS apple pie slice 125 g)",
+   "gramsPerUnit": 125
+  },
+  {
+   "key": "apple crumble cake",
+   "unit": "slice",
+   "typical": 1,
+   "reason": "one piece of sheet cake (aid: Kuchen 1 Stück 100–150 g)",
+   "gramsPerUnit": 120
+  },
+  {
+   "key": "streusel cake",
+   "unit": "slice",
+   "typical": 1,
+   "reason": "one piece of sheet cake (aid: Kuchen 1 Stück 100–150 g; plain Streuselkuchen is flat and dry, about 90 g)",
+   "gramsPerUnit": 90
+  },
+  {
+   "key": "bee sting cake",
+   "unit": "slice",
+   "typical": 1,
+   "reason": "one piece (existing identity bienenstich: 110 g)",
+   "gramsPerUnit": 110
+  },
+  {
+   "key": "butter cake",
+   "unit": "slice",
+   "typical": 1,
+   "reason": "one piece of sheet cake (aid: Kuchen 1 Stück 100–150 g; a flat Butterkuchen piece about 90 g)",
+   "gramsPerUnit": 90
+  },
+  {
+   "key": "plum cake",
+   "unit": "slice",
+   "typical": 1,
+   "reason": "one piece (aid: Kuchen 1 Stück 100–150 g)",
+   "gramsPerUnit": 120
+  },
+  {
+   "key": "strawberry cake",
+   "unit": "slice",
+   "typical": 1,
+   "reason": "one slice (aid: Kuchen 1 Stück 100–150 g)",
+   "gramsPerUnit": 120
+  },
+  {
+   "key": "fruit flan",
+   "unit": "slice",
+   "typical": 1,
+   "reason": "one slice (aid: Kuchen 1 Stück 100–150 g)",
+   "gramsPerUnit": 120
+  },
+  {
+   "key": "rhubarb cake",
+   "unit": "slice",
+   "typical": 1,
+   "reason": "one slice (aid: Kuchen 1 Stück 100–150 g)",
+   "gramsPerUnit": 120
+  },
+  {
+   "key": "black forest gateau",
+   "unit": "slice",
+   "typical": 1,
+   "reason": "one slice of cream torte (aid: Kuchen 1 Stück 100–150 g)",
+   "gramsPerUnit": 140
+  },
+  {
+   "key": "marble cake",
+   "unit": "slice",
+   "typical": 1,
+   "reason": "one slice of loaf cake (a loaf or bundt slice 60–80 g; aid: Kuchen 1 Stück 100–150 g applies to cream and fruit cakes)",
+   "gramsPerUnit": 70
+  },
+  {
+   "key": "pound cake",
+   "unit": "slice",
+   "typical": 1,
+   "reason": "one slice of loaf cake (a loaf slice 60–80 g)",
+   "gramsPerUnit": 70
+  },
+  {
+   "key": "gugelhupf",
+   "unit": "slice",
+   "typical": 1,
+   "reason": "one slice (a bundt slice 60–80 g)",
+   "gramsPerUnit": 70
+  },
+  {
+   "key": "danube wave cake",
+   "unit": "slice",
+   "typical": 1,
+   "reason": "one piece (aid: Kuchen 1 Stück 100–150 g)",
+   "gramsPerUnit": 100
+  },
+  {
+   "key": "frankfurt crown cake",
+   "unit": "slice",
+   "typical": 1,
+   "reason": "one slice (aid: Kuchen 1 Stück 100–150 g)",
+   "gramsPerUnit": 100
+  },
+  {
+   "key": "sacher torte",
+   "unit": "slice",
+   "typical": 1,
+   "reason": "one slice of a dense torte (aid: Kuchen 1 Stück 100–150 g)",
+   "gramsPerUnit": 100
+  },
+  {
+   "key": "linzer torte",
+   "unit": "slice",
+   "typical": 1,
+   "reason": "one slice of a dense torte (a Linzer slice 70–90 g)",
+   "gramsPerUnit": 80
+  },
+  {
+   "key": "carrot cake",
+   "unit": "slice",
+   "typical": 1,
+   "reason": "one slice (aid: Kuchen 1 Stück 100–150 g)",
+   "gramsPerUnit": 100
+  },
+  {
+   "key": "chocolate cake",
+   "unit": "slice",
+   "typical": 1,
+   "reason": "one slice (a loaf or round cake slice 70–90 g)",
+   "gramsPerUnit": 80
+  },
+  {
+   "key": "lemon cake",
+   "unit": "slice",
+   "typical": 1,
+   "reason": "one slice of loaf cake (a loaf slice 60–80 g)",
+   "gramsPerUnit": 70
+  },
+  {
+   "key": "nut cake",
+   "unit": "slice",
+   "typical": 1,
+   "reason": "one slice of loaf cake (a loaf slice 60–80 g)",
+   "gramsPerUnit": 70
+  },
+  {
+   "key": "swiss roll",
+   "unit": "slice",
+   "typical": 1,
+   "reason": "one slice (a Swiss roll slice 50–60 g)",
+   "gramsPerUnit": 55
+  },
+  {
+   "key": "baumkuchen",
+   "unit": "slice",
+   "typical": 1,
+   "reason": "one slice or a few Spitzen (a Baumkuchen slice about 50 g)",
+   "gramsPerUnit": 50
+  },
+  {
+   "key": "brownie",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one square (a bakery brownie square 50–70 g)",
+   "gramsPerUnit": 60
+  },
+  {
+   "key": "cupcake",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one cupcake (FNDDS: Cake or cupcake, 1 cupcake = 90 g)",
+   "gramsPerUnit": 90,
+   "ignoreMeasures": "USDA any-size piece 175 g; a German cupcake is about 90 g"
+  },
+  {
+   "key": "fruit cake",
+   "unit": "slice",
+   "typical": 1,
+   "reason": "one slice of loaf cake (a fruit cake slice 60–80 g)",
+   "gramsPerUnit": 70
+  },
+  {
+   "key": "banana bread",
+   "unit": "slice",
+   "typical": 1,
+   "reason": "one slice (a loaf slice 60–80 g)",
+   "gramsPerUnit": 70
+  },
+  {
+   "key": "victoria sponge",
+   "unit": "slice",
+   "typical": 1,
+   "reason": "one slice (a Victoria sponge slice 70–90 g)",
+   "gramsPerUnit": 80
+  },
+  {
+   "key": "lebkuchen",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one round Lebkuchen (a supermarket Lebkuchen 40–75 g)",
+   "gramsPerUnit": 50
+  },
+  {
+   "key": "dominosteine",
+   "unit": "piece",
+   "typical": 3,
+   "reason": "three pieces (a Dominostein about 10 g)",
+   "gramsPerUnit": 10
+  },
+  {
+   "key": "speculoos",
+   "unit": "cookie",
+   "typical": 3,
+   "reason": "three biscuits (brief: a cookie 10–15 g; Spekulatius 8–10 g)",
+   "gramsPerUnit": 10
+  },
+  {
+   "key": "vanilla crescents",
+   "unit": "cookie",
+   "typical": 4,
+   "reason": "four small crescents (a Vanillekipferl about 6 g)",
+   "gramsPerUnit": 6
+  },
+  {
+   "key": "cinnamon stars",
+   "unit": "cookie",
+   "typical": 3,
+   "reason": "three stars (a Zimtstern about 8 g)",
+   "gramsPerUnit": 8
+  },
+  {
+   "key": "pfeffernusse",
+   "unit": "cookie",
+   "typical": 3,
+   "reason": "three pieces (a Pfeffernuss about 10 g)",
+   "gramsPerUnit": 10
+  },
+  {
+   "key": "butter cookies",
+   "unit": "cookie",
+   "typical": 4,
+   "reason": "four small cookies (brief: a cookie 10–15 g; small Plätzchen 6–10 g)",
+   "gramsPerUnit": 8
+  },
+  {
+   "key": "coconut macaroons",
+   "unit": "cookie",
+   "typical": 2,
+   "reason": "two macaroons (brief: a cookie 10–15 g)",
+   "gramsPerUnit": 15
+  },
+  {
+   "key": "nut triangle",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one bakery Nussecke (a bakery Nussecke 60–90 g)",
+   "gramsPerUnit": 70
+  },
+  {
+   "key": "butter biscuit",
+   "unit": "cookie",
+   "typical": 3,
+   "reason": "three biscuits (Leibniz Butterkeks 8.3 g each)",
+   "gramsPerUnit": 8
+  },
+  {
+   "key": "chocolate biscuit",
+   "unit": "cookie",
+   "typical": 2,
+   "reason": "two biscuits (Choco Leibniz 12.5 g each)",
+   "gramsPerUnit": 13
+  },
+  {
+   "key": "chocolate digestive",
+   "unit": "cookie",
+   "typical": 2,
+   "reason": "two biscuits (McVitie's chocolate digestive 16.7 g each)",
+   "gramsPerUnit": 17
+  },
+  {
+   "key": "shortbread",
+   "unit": "cookie",
+   "typical": 2,
+   "reason": "two fingers (a shortbread finger 16–20 g)",
+   "gramsPerUnit": 17
+  },
+  {
+   "key": "chocolate chip cookie",
+   "unit": "cookie",
+   "typical": 2,
+   "reason": "two cookies (brief: a cookie 10–15 g)",
+   "gramsPerUnit": 15
+  },
+  {
+   "key": "oat cookie",
+   "unit": "cookie",
+   "typical": 2,
+   "reason": "two cookies (brief: a cookie 10–15 g; Hobnob 15 g)",
+   "gramsPerUnit": 15
+  },
+  {
+   "key": "chocolate sandwich cookie",
+   "unit": "cookie",
+   "typical": 3,
+   "reason": "three cookies (FNDDS: Cookie, chocolate sandwich, 1 Oreo = 11 g)",
+   "gramsPerUnit": 11
+  },
+  {
+   "key": "wafer biscuits",
+   "unit": "cookie",
+   "typical": 4,
+   "reason": "four wafers (Manner wafer 7.5 g each)",
+   "gramsPerUnit": 8
+  },
+  {
+   "key": "jaffa cakes",
+   "unit": "cookie",
+   "typical": 2,
+   "reason": "two cakes (McVitie's Jaffa cake 12.5 g each)",
+   "gramsPerUnit": 12
+  },
+  {
+   "key": "ginger biscuit",
+   "unit": "cookie",
+   "typical": 2,
+   "reason": "two biscuits (a ginger nut about 10 g)",
+   "gramsPerUnit": 10
+  },
+  {
+   "key": "biscotti",
+   "unit": "cookie",
+   "typical": 3,
+   "reason": "three Cantuccini with coffee (Cantuccini 8–10 g each (FNDDS US biscotti 32 g))",
+   "gramsPerUnit": 10,
+   "ignoreMeasures": "USDA cookie 32 g; a Cantuccino is about 10 g"
+  },
+  {
+   "key": "orange marmalade",
+   "unit": "tablespoon",
+   "typical": 1,
+   "reason": "one tablespoon on toast (brief: jam 1 tablespoon 20 g; matches existing jam portion)",
+   "gramsPerUnit": 20
+  },
+  {
+   "key": "fruit spread",
+   "unit": "tablespoon",
+   "typical": 1,
+   "reason": "one tablespoon on bread (brief: jam 1 tablespoon 20 g)",
+   "gramsPerUnit": 20
+  },
+  {
+   "key": "plum butter",
+   "unit": "tablespoon",
+   "typical": 1,
+   "reason": "one tablespoon on bread (brief: jam 1 tablespoon 20 g)",
+   "gramsPerUnit": 20
+  },
+  {
+   "key": "lemon curd",
+   "unit": "tablespoon",
+   "typical": 1,
+   "reason": "one tablespoon on toast (brief: jam 1 tablespoon 20 g)",
+   "gramsPerUnit": 20
+  },
+  {
+   "key": "caramel popcorn",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one snack bowl (brief: popcorn 30 g; FNDDS small bag 28 g)",
+   "gramsPerUnit": 30
+  },
+  {
+   "key": "peanut puffs",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one snack bowl (brief: crisps 30 g)",
+   "gramsPerUnit": 30
+  },
+  {
+   "key": "cheese puffs",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one snack bowl (FNDDS: Cheese flavored corn snacks, small bag 28 g)",
+   "gramsPerUnit": 30
+  },
+  {
+   "key": "prawn crackers",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one side portion (brief: crisps 30 g)",
+   "gramsPerUnit": 30
+  },
+  {
+   "key": "potato sticks",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one snack bowl (brief: crisps 30 g)",
+   "gramsPerUnit": 30
+  },
+  {
+   "key": "protein bar",
+   "unit": "bar",
+   "typical": 1,
+   "reason": "one bar (brief: a protein bar 50 g)",
+   "gramsPerUnit": 50,
+   "ignoreMeasures": "USDA bar 35 g; bars sold in Germany are 50–60 g"
+  },
+  {
+   "key": "flapjack",
+   "unit": "bar",
+   "typical": 1,
+   "reason": "one retail bar (a retail flapjack 60–90 g)",
+   "gramsPerUnit": 60
+  }
+ ]
+}

@@ -47,7 +47,10 @@
    "gramsPerUnit": 40,
    "typical": 1,
    "reason": "one German Gewürzgurke (wikifit 30–50 g; FNDDS spear 40 g)",
-   "ignoreMeasures": "US regular dill pickle 80 g; a German Gewürzgurke is 30–50 g"
+   "ignoreMeasures": "US regular dill pickle 80 g; a German Gewürzgurke is 30–50 g",
+   "excludeReferences": [
+    "bls:G890902"
+   ]
   },
   {
    "key": "pickled ginger",
