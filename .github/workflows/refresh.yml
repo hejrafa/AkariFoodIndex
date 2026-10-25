@@ -18,6 +18,13 @@ jobs:
     timeout-minutes: 330
     env:
       OFF_EXPORT_URL: https://static.openfoodfacts.org/data/openfoodfacts-products.jsonl.gz
+      R2_BUCKET: akari-food-index
+      R2_BASE_URL: https://foods.joinakari.com/latest
+      # R2's S3 API ignores the region, and needs none of the extra checksums
+      # newer AWS CLI versions add by default.
+      AWS_DEFAULT_REGION: auto
+      AWS_REQUEST_CHECKSUM_CALCULATION: when_required
+      AWS_RESPONSE_CHECKSUM_VALIDATION: when_required
     steps:
       - uses: actions/checkout@v5
 
@@ -149,17 +156,128 @@ jobs:
           mkdir -p previous-release
           PREVIOUS_TAG="$(gh release view --json tagName --jq .tagName)"
           gh release download "$PREVIOUS_TAG" --pattern manifest.json --dir previous-release
+          # The R2 copy carries the same catalogue, addressed to its own host.
+          # It is staged first, outside dist/, because the GitHub staging below
+          # renames the databases and replaces dist/manifest.json.
+          python3 prepare_release.py --directory dist \
+            --previous-manifest previous-release/manifest.json \
+            --previous-tag "$PREVIOUS_TAG" \
+            --base-url "$R2_BASE_URL" \
+            --output r2-manifests
           python3 prepare_release.py --directory dist \
             --previous-manifest previous-release/manifest.json \
             --previous-tag "$PREVIOUS_TAG" \
             --base-url "https://github.com/${{ github.repository }}/releases/latest/download"
 
+      # The app reads https://foods.joinakari.com/latest/, an R2 bucket (EU
+      # jurisdiction). Wrangler uploads at most 315 MB per object and cannot
+      # list objects, so the R2 steps use R2's S3 API through the runner's AWS
+      # CLI, which sends the large catalogues as multipart uploads. Its key pair
+      # comes from CLOUDFLARE_API_TOKEN: the key id is the token's id, the
+      # secret the SHA-256 of the token. The token needs Account > Workers R2
+      # Storage > Edit, which reads, writes, lists and deletes objects;
+      # CLOUDFLARE_ACCOUNT_ID names the account. Any failure here ends the run
+      # before the GitHub release, so both copies carry the same catalogue.
+      - name: Upload to Cloudflare R2
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          set -euo pipefail
+          if [ -z "$CLOUDFLARE_API_TOKEN" ] || [ -z "$CLOUDFLARE_ACCOUNT_ID" ]; then
+            echo "::error::Add CLOUDFLARE_API_TOKEN and CLOUDFLARE_ACCOUNT_ID as repository secrets. Nothing was uploaded and no GitHub release was made."
+            exit 1
+          fi
+          # A broken build must not fill R2's 10 GB free tier.
+          DIST_BYTES="$(du -sb dist | cut -f1)"
+          if [ "$DIST_BYTES" -gt 3000000000 ]; then
+            echo "::error::dist/ holds $DIST_BYTES bytes, more than 3 GB. Nothing was uploaded."
+            exit 1
+          fi
+
+          token_id() {
+            curl --silent --header "Authorization: Bearer $CLOUDFLARE_API_TOKEN" "$1" \
+              | jq -r 'select(.success == true) | .result.id // empty' 2>/dev/null || true
+          }
+          TOKEN_ID="$(token_id https://api.cloudflare.com/client/v4/user/tokens/verify)"
+          if [ -z "$TOKEN_ID" ]; then
+            TOKEN_ID="$(token_id "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/tokens/verify")"
+          fi
+          if [ -z "$TOKEN_ID" ]; then
+            echo "::error::Cloudflare does not accept CLOUDFLARE_API_TOKEN. Nothing was uploaded."
+            exit 1
+          fi
+          SECRET="$(printf '%s' "$CLOUDFLARE_API_TOKEN" | sha256sum | cut -d' ' -f1)"
+          echo "::add-mask::$SECRET"
+          export AWS_ACCESS_KEY_ID="$TOKEN_ID" AWS_SECRET_ACCESS_KEY="$SECRET"
+          export AWS_ENDPOINT_URL="https://$CLOUDFLARE_ACCOUNT_ID.eu.r2.cloudflarestorage.com"
+          RELEASE_TAG="catalog-$(date -u +'%Y%m%d')-${GITHUB_RUN_NUMBER}"
+          # The GitHub release and the snapshot cleanup use the same tag and keys.
+          {
+            echo "RELEASE_TAG=$RELEASE_TAG"
+            echo "AWS_ACCESS_KEY_ID=$AWS_ACCESS_KEY_ID"
+            echo "AWS_SECRET_ACCESS_KEY=$AWS_SECRET_ACCESS_KEY"
+            echo "AWS_ENDPOINT_URL=$AWS_ENDPOINT_URL"
+          } >> "$GITHUB_ENV"
+
+          put() {
+            local file="$1" key="$2" type
+            shift 2
+            case "$file" in
+              *.sqlite) type=application/octet-stream ;;
+              *.json) type=application/json ;;
+              *) echo "::error::No content type for $file"; exit 1 ;;
+            esac
+            aws s3 cp "$file" "s3://$R2_BUCKET/$key" --content-type "$type" --no-progress "$@"
+          }
+          # Every build file, with the R2-addressed manifests in place of the
+          # GitHub ones. The immutable snapshot goes first, latest/ after it;
+          # in each, the manifests come last and manifest-v4.json, which the app
+          # reads, last of all, so no client sees a manifest before its files.
+          # latest/ is replaced every week, so clients revalidate it.
+          files=()
+          for path in dist/*; do
+            case "$(basename "$path")" in
+              manifest.json|manifest-v4.json) ;;
+              *) files+=("$path") ;;
+            esac
+          done
+          upload_copy() {
+            local prefix="$1" path
+            shift
+            for path in "${files[@]}"; do
+              put "$path" "$prefix/$(basename "$path")" "$@"
+            done
+            put r2-manifests/manifest.json "$prefix/manifest.json" "$@"
+            put r2-manifests/manifest-v4.json "$prefix/manifest-v4.json" "$@"
+          }
+          upload_copy "releases/$RELEASE_TAG"
+          upload_copy latest --cache-control no-cache
+
       - name: Publish immutable snapshot and move latest pointer
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          RELEASE_TAG="catalog-$(date -u +'%Y%m%d')-${GITHUB_RUN_NUMBER}"
           gh release create "$RELEASE_TAG" dist/* \
             --title "Akari Food Index $CATALOG_VERSION" \
             --notes "Open Food Facts market snapshots plus Akari's separate BLS, USDA, CoFID, Ciqual, and MEXT generic-food reference index. See LICENSE.md for source-specific terms and attribution." \
             --latest
+
+      # Keeps the newest three releases/<tag>/ snapshots in R2, this run's
+      # among them. Tags sort by date, then run number. Only releases/ is
+      # listed, so latest/ is never touched.
+      - name: Remove R2 snapshots older than the newest three
+        run: |
+          set -euo pipefail
+          listed="$(aws s3api list-objects-v2 --bucket "$R2_BUCKET" \
+            --prefix releases/ --delimiter / \
+            --query 'CommonPrefixes[].Prefix' --output text \
+            | tr '\t' '\n' | grep -E '^releases/catalog-[0-9]{8}-[0-9]+/$' | sort -V || true)"
+          if ! grep -qxF "releases/$RELEASE_TAG/" <<< "$listed"; then
+            echo "::error::releases/$RELEASE_TAG/ is not listed in R2. Nothing was removed."
+            exit 1
+          fi
+          for prefix in $(head -n -3 <<< "$listed"); do
+            echo "Removing $prefix"
+            aws s3 rm "s3://$R2_BUCKET/$prefix" --recursive --only-show-errors
+          done

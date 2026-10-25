@@ -95,11 +95,25 @@ reuse guidance before changing distribution or contribution behavior.
 the app checkout) is the complete distribution workflow. It
 refreshes the core German-speaking and English-speaking markets weekly,
 validates the independent generic-food reference database, verifies every
-SQLite file and SHA-256 digest, then publishes immutable GitHub Release assets
-with a stable `latest` URL.
+SQLite file and SHA-256 digest, then publishes the same files twice: to
+Cloudflare R2 first, then as GitHub Release assets. Each copy's manifests point
+at its own host.
 
-Published catalogues are available from the
-[`hejrafa/AkariFoodIndex`](https://github.com/hejrafa/AkariFoodIndex) releases.
+- `https://foods.joinakari.com/latest/` is what the app reads:
+  `manifest-v4.json`, `manifest.json` and the files they name, replaced every
+  week. It is the R2 bucket `akari-food-index` (EU jurisdiction); the manifests
+  are uploaded after their files.
+- `https://foods.joinakari.com/releases/<tag>/` holds an immutable snapshot of
+  each release. The newest three are kept; older ones are deleted at the end of
+  the run.
+- The [`hejrafa/AkariFoodIndex`](https://github.com/hejrafa/AkariFoodIndex)
+  releases carry the same files. App builds from before the move still read
+  them, so the GitHub release stays the archive until the next app build has
+  reached testers.
+
+The R2 steps need the repository secrets `CLOUDFLARE_API_TOKEN` (with Account >
+Workers R2 Storage > Edit) and `CLOUDFLARE_ACCOUNT_ID`. Without them the run
+stops before either copy changes. The upload refuses a `dist/` larger than 3 GB.
 
 ## Food classification and artwork
 
@@ -131,7 +145,8 @@ Releases expose `manifest-v4.json` and `*-v4.sqlite` for classified catalogues.
 `prepare_release.py` preserves the legacy `manifest.json` with immutable URLs to
 the previous compatible catalogues, so older app versions keep working. The
 app falls back to legacy only if the new manifest has not been published (404).
-Do not delete the pinned legacy release while supporting those clients.
+Do not delete the pinned legacy release while supporting those clients: both
+copies' `manifest.json` still point at it, because R2 holds only schema 4.
 
 Run all builder, classification, and compatibility checks:
 

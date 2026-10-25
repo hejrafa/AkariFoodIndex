@@ -58,3 +58,28 @@ class ReleaseCompatibilityTests(unittest.TestCase):
                 self.assertEqual(legacy['markets']['DE']['sha256'],'old')
                 self.assertEqual(v4['markets']['DE']['filename'],'akari-food-de-v4.sqlite')
                 self.assertEqual((root/'akari-food-de-v4.sqlite').read_bytes(),b'new schema database')
+
+    def test_each_host_copy_gets_manifests_addressed_to_itself(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root=pathlib.Path(tmp)
+            github='https://github.com/hejrafa/AkariFoodIndex/releases/latest/download'
+            r2='https://foods.joinakari.com/latest'
+            previous={'schemaVersion':1,'markets':{'DE':{'filename':'akari-food-de.sqlite',
+                'url':'https://github.com/hejrafa/AkariFoodIndex/releases/download/original/akari-food-de.sqlite','sha256':'old'}}}
+            current={'schemaVersion':4,'markets':{'DE':{'filename':'akari-food-de.sqlite','url':'unused','sha256':'new'}}}
+            (root/'previous.json').write_text(json.dumps(previous))
+            (root/'manifest.json').write_text(json.dumps(current))
+            (root/'akari-food-de.sqlite').write_bytes(b'new schema database')
+            # The second host's copy is staged first and leaves the build as it was.
+            prepare(root,root/'previous.json','first',r2,output=root/'r2')
+            self.assertEqual(json.loads((root/'manifest.json').read_text()),current)
+            self.assertTrue((root/'akari-food-de.sqlite').exists())
+            prepare(root,root/'previous.json','first',github)
+            r2_v4=json.loads((root/'r2'/'manifest-v4.json').read_text())
+            github_v4=json.loads((root/'manifest-v4.json').read_text())
+            self.assertEqual(r2_v4['markets']['DE']['url'],r2+'/akari-food-de-v4.sqlite')
+            self.assertEqual(github_v4['markets']['DE']['url'],github+'/akari-food-de-v4.sqlite')
+            self.assertEqual(r2_v4['markets']['DE']['sha256'],github_v4['markets']['DE']['sha256'])
+            self.assertEqual(json.loads((root/'r2'/'manifest.json').read_text()),
+                             json.loads((root/'manifest.json').read_text()),
+                             'Both copies keep the same legacy catalogue')
