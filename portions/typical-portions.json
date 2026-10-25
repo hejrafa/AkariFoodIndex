@@ -355,7 +355,7 @@
    ],
    "unit": "tablespoon",
    "typical": 1,
-   "gramsPerUnit": 10,
+   "gramsPerUnit": 14,
    "source": {
     "kind": "estimate",
     "reason": "a tablespoon of almond oil for the pan or the salad (aid: Öl 1 EL 10 g; FNDDS oils 1 tbsp 14 g)"
@@ -1656,7 +1656,9 @@
    "names": [
     "bami goreng"
    ],
-   "references": [],
+   "references": [
+    "bls:X891212"
+   ],
    "unit": "portion",
    "typical": 1,
    "gramsPerUnit": 350,
@@ -1981,7 +1983,8 @@
     "kabeljau im backteig"
    ],
    "references": [
-    "cofid:16-369"
+    "cofid:16-369",
+    "cofid:16-368"
    ],
    "unit": "piece",
    "typical": 1,
@@ -4770,7 +4773,8 @@
     "hahnchenbrust paniert"
    ],
    "references": [
-    "bls:Y591112"
+    "bls:Y591112",
+    "cofid:18-501"
    ],
    "unit": "piece",
    "typical": 1,
@@ -6000,7 +6004,7 @@
     "bls:T121702"
    ],
    "unit": "can",
-   "typical": 0.5,
+   "typical": 1,
    "gramsPerUnit": 140,
    "source": {
     "kind": "estimate",
@@ -8082,7 +8086,8 @@
     "hahnchen donerfleisch"
    ],
    "references": [
-    "bls:V422072"
+    "bls:V422072",
+    "bls:Y921062"
    ],
    "unit": "portion",
    "typical": 1,
@@ -8511,7 +8516,7 @@
    ],
    "unit": "piece",
    "typical": 4,
-   "gramsPerUnit": 50,
+   "gramsPerUnit": 35,
    "source": {
     "kind": "estimate",
     "reason": "one chicken wing (chicken wing 50 g; FNDDS 1 wing 35 g meat)"
@@ -10196,7 +10201,7 @@
    ],
    "unit": "cup",
    "typical": 1,
-   "milliliters": 150,
+   "milliliters": 200,
    "source": {
     "kind": "estimate",
     "reason": "a cup of coffee (estimate: 1 Tasse Kaffee 150 ml)"
@@ -10222,7 +10227,7 @@
    ],
    "unit": "cup",
    "typical": 1,
-   "milliliters": 150,
+   "milliliters": 200,
    "source": {
     "kind": "estimate",
     "reason": "a cup of coffee (estimate: 1 Tasse Kaffee 150 ml)"
@@ -17152,7 +17157,7 @@
    ],
    "unit": "tablespoon",
    "typical": 1,
-   "gramsPerUnit": 10,
+   "gramsPerUnit": 14,
    "source": {
     "kind": "estimate",
     "reason": "a tablespoon of grapeseed oil for the pan or the salad (aid: Öl 1 EL 10 g; FNDDS oils 1 tbsp 14 g)"
@@ -18524,8 +18529,8 @@
     "bls:Q640000"
    ],
    "unit": "teaspoon",
-   "typical": 1,
-   "gramsPerUnit": 10,
+   "typical": 2,
+   "gramsPerUnit": 5,
    "source": {
     "kind": "estimate",
     "reason": "half-fat butter spread on a slice of bread (aid: Butter 1 TL 10 g)"
@@ -18937,7 +18942,7 @@
    ],
    "unit": "tablespoon",
    "typical": 1,
-   "gramsPerUnit": 10,
+   "gramsPerUnit": 14,
    "source": {
     "kind": "estimate",
     "reason": "a tablespoon of hazelnut oil for the pan or the salad (aid: Öl 1 EL 10 g; FNDDS oils 1 tbsp 14 g)"
@@ -19072,7 +19077,7 @@
    ],
    "unit": "tablespoon",
    "typical": 1,
-   "gramsPerUnit": 10,
+   "gramsPerUnit": 14,
    "source": {
     "kind": "estimate",
     "reason": "a tablespoon of hemp oil for the pan or the salad (aid: Öl 1 EL 10 g; FNDDS oils 1 tbsp 14 g)"
@@ -20089,7 +20094,8 @@
     "italienisches dressing"
    ],
    "references": [
-    "bls:X359912"
+    "bls:X359912",
+    "usda:2710203"
    ],
    "unit": "tablespoon",
    "typical": 2,
@@ -20148,7 +20154,7 @@
    "references": [
     "usda:2706189"
    ],
-   "unit": "portion",
+   "unit": "piece",
    "typical": 1,
    "gramsPerUnit": 85,
    "source": {
@@ -22186,7 +22192,8 @@
     "zitronenbrause"
    ],
    "references": [
-    "ciqual:18327"
+    "ciqual:18327",
+    "ciqual:18010"
    ],
    "unit": "glass",
    "typical": 1,
@@ -22392,8 +22399,8 @@
     "bls:Q440000"
    ],
    "unit": "teaspoon",
-   "typical": 1,
-   "gramsPerUnit": 10,
+   "typical": 2,
+   "gramsPerUnit": 5,
    "source": {
     "kind": "estimate",
     "reason": "light margarine spread on a slice of bread (aid: Butter 1 TL 10 g)"
@@ -22617,7 +22624,7 @@
    ],
    "unit": "tablespoon",
    "typical": 1,
-   "gramsPerUnit": 10,
+   "gramsPerUnit": 14,
    "source": {
     "kind": "estimate",
     "reason": "a tablespoon for the pan (aid: Öl 1 EL 10 g)"
@@ -26225,8 +26232,8 @@
     "bls:C138000"
    ],
    "unit": "tablespoon",
-   "typical": 2,
-   "gramsPerUnit": 10,
+   "typical": 3,
+   "gramsPerUnit": 6,
    "source": {
     "kind": "estimate",
     "reason": "one tablespoon stirred into muesli or yogurt (estimate; 1 tbsp oat bran about 8-10 g)"
@@ -27743,7 +27750,7 @@
    ],
    "unit": "piece",
    "typical": 2,
-   "gramsPerUnit": 45,
+   "gramsPerUnit": 65,
    "source": {
     "kind": "estimate",
     "reason": "one drained canned peach half"
@@ -28660,7 +28667,8 @@
     "pina coladas"
    ],
    "references": [
-    "bls:P9A7000"
+    "bls:P9A7000",
+    "usda:2710662"
    ],
    "unit": "glass",
    "typical": 1,
@@ -28909,8 +28917,7 @@
   {
    "key": "pizza",
    "names": [
-    "pizza",
-    "pizza margherita"
+    "pizza"
    ],
    "references": [
     "usda:2708614",
@@ -31198,7 +31205,7 @@
    "references": [
     "bls:M2A2200"
    ],
-   "unit": "glass",
+   "unit": "bottle",
    "typical": 1,
    "milliliters": 100,
    "source": {
@@ -31674,7 +31681,7 @@
    ],
    "unit": "tablespoon",
    "typical": 1,
-   "gramsPerUnit": 10,
+   "gramsPerUnit": 14,
    "source": {
     "kind": "estimate",
     "reason": "a tablespoon of pumpkin seed oil for the pan or the salad (aid: Öl 1 EL 10 g; FNDDS oils 1 tbsp 14 g)"
@@ -32134,7 +32141,8 @@
     "kungel"
    ],
    "references": [
-    "ciqual:34001"
+    "ciqual:34001",
+    "bls:V132100"
    ],
    "unit": "portion",
    "typical": 1,
@@ -34614,8 +34622,8 @@
     "bls:W222682"
    ],
    "unit": "piece",
-   "typical": 1,
-   "gramsPerUnit": 90,
+   "typical": 6,
+   "gramsPerUnit": 20,
    "source": {
     "kind": "estimate",
     "reason": "one Thuringian-style fried sausage"
@@ -38767,8 +38775,8 @@
     "bls:Q6A7100"
    ],
    "unit": "teaspoon",
-   "typical": 1,
-   "gramsPerUnit": 10,
+   "typical": 2,
+   "gramsPerUnit": 5,
    "source": {
     "kind": "estimate",
     "reason": "spreadable butter spread on a slice of bread (aid: Butter 1 TL 10 g)"
@@ -43397,8 +43405,8 @@
     "bls:C217000"
    ],
    "unit": "tablespoon",
-   "typical": 1,
-   "gramsPerUnit": 10,
+   "typical": 2,
+   "gramsPerUnit": 4,
    "source": {
     "kind": "estimate",
     "reason": "one tablespoon stirred into muesli or yogurt (estimate; 1 tbsp bran about 5-10 g)"
@@ -44594,7 +44602,8 @@
     "wildlachsfilet"
    ],
    "references": [
-    "bls:T417100"
+    "bls:T417100",
+    "usda:2684440"
    ],
    "unit": "piece",
    "typical": 1,

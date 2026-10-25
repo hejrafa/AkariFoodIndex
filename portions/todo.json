@@ -3066,7 +3066,12 @@
    "origins": [
     "search-examples"
    ],
-   "references": [],
+   "references": [
+    {
+     "id": "bls:X891212",
+     "name": "Bami Goreng (egg pasta fried with vegetables and chicken)"
+    }
+   ],
    "measures": []
   },
   {
@@ -17656,6 +17661,10 @@
     {
      "id": "bls:T417100",
      "name": "Pacific salmon raw"
+    },
+    {
+     "id": "usda:2684440",
+     "name": "Fish, salmon, sockeye, wild caught, raw"
     }
    ],
    "measures": []
@@ -20021,6 +20030,10 @@
     {
      "id": "ciqual:34001",
      "name": "Lapin, viande crue"
+    },
+    {
+     "id": "bls:V132100",
+     "name": "Domestic rabbit meat, raw"
     }
    ],
    "measures": []
@@ -26133,6 +26146,10 @@
     {
      "id": "bls:X359912",
      "name": "Italian dressing"
+    },
+    {
+     "id": "usda:2710203",
+     "name": "Italian dressing, made with vinegar and oil"
     }
    ],
    "measures": []
@@ -27084,6 +27101,10 @@
     {
      "id": "ciqual:18327",
      "name": "Limonade, sans précision sur la teneur en sucres et édulcorants (aliment moyen)"
+    },
+    {
+     "id": "ciqual:18010",
+     "name": "Limonade, sucrée"
     }
    ],
    "measures": []
@@ -28498,6 +28519,10 @@
     {
      "id": "bls:P9A7000",
      "name": "Cocktail, Pina colada"
+    },
+    {
+     "id": "usda:2710662",
+     "name": "Pina Colada"
     }
    ],
    "measures": []
@@ -31673,6 +31698,3416 @@
    "measures": []
   },
   {
+   "key": "red lentils dried raw",
+   "names": [
+    "red lentils dried raw",
+    "rote linsen getrocknet roh",
+    "dried red lentils",
+    "split red lentils",
+    "rote linsen getrocknet",
+    "rote linsen trocken",
+    "masoor dal",
+    "yellow lentils",
+    "gelbe linsen",
+    "rote linsen roh"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "cofid:13-657",
+     "name": "Lentils, red, split, dried, raw"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "frozen pizza margherita",
+   "names": [
+    "frozen pizza margherita",
+    "tiefkuhlpizza margherita",
+    "pizza margherita",
+    "margherita pizza",
+    "frozen margherita pizza",
+    "cheese pizza",
+    "frozen cheese pizza",
+    "tk pizza margherita",
+    "pizza margarita",
+    "margarita pizza",
+    "kasepizza",
+    "tiefkuhlpizza",
+    "frozen pizza",
+    "tk pizza",
+    "steinofenpizza",
+    "pizza tomate mozzarella",
+    "mini pizza",
+    "mini pizzas",
+    "mini pizzen",
+    "minipizza",
+    "minipizzen"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:X912033",
+     "name": "Pizza margherita (with tomato sauce, mozzarella)"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "frozen pizza salami",
+   "names": [
+    "frozen pizza salami",
+    "tiefkuhlpizza salami",
+    "salami pizza",
+    "pizza salame",
+    "salamipizza",
+    "pepperoni pizza",
+    "pizza pepperoni",
+    "frozen pepperoni pizza",
+    "tk pizza salami",
+    "pizza diavolo",
+    "peperonipizza"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:X914133",
+     "name": "Pizza salame (with tomato sauce, mozzarellea, salami, olives, peperoni)"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "frozen pizza tuna",
+   "names": [
+    "frozen pizza tuna",
+    "tiefkuhlpizza thunfisch",
+    "pizza tonno",
+    "tuna pizza",
+    "thunfischpizza",
+    "pizza thunfisch",
+    "pizza mit thunfisch",
+    "tk pizza thunfisch"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:X915233",
+     "name": "Pizza tonno (with tomato sauce, mozzarella, tuna, anchovies, olives, onions)"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "frozen pizza hawaiian",
+   "names": [
+    "frozen pizza hawaiian",
+    "tiefkuhlpizza hawaii",
+    "pizza hawaii",
+    "hawaiian pizza",
+    "ham and pineapple pizza",
+    "hawaii pizza",
+    "hawaiipizza",
+    "pizza hawai",
+    "tk pizza hawaii"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:X9A5010",
+     "name": "Pizza Hawaii (with tomato sauce, mozzarella, pineapple, ham)"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "frozen pizza ham",
+   "names": [
+    "frozen pizza ham",
+    "tiefkuhlpizza schinken",
+    "pizza prosciutto",
+    "pizza schinken",
+    "ham pizza",
+    "schinkenpizza",
+    "ham and cheese pizza",
+    "pizza prosciutto cotto",
+    "tk pizza schinken"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:X912412",
+     "name": "Pizza prosciutto (with tomato sauce, boiled ham, mozzarella)"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "frozen pizza mushroom",
+   "names": [
+    "frozen pizza mushroom",
+    "tiefkuhlpizza funghi",
+    "pizza funghi",
+    "mushroom pizza",
+    "pizza champignon",
+    "champignonpizza",
+    "pizza mit pilzen",
+    "pilzpizza",
+    "pizza champignons"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:X912133",
+     "name": "Pizza al funghi (with tomato sauce, button mushrooms, mozzarella)"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "frozen pizza four cheese",
+   "names": [
+    "frozen pizza four cheese",
+    "tiefkuhlpizza quattro formaggi",
+    "pizza quattro formaggi",
+    "four cheese pizza",
+    "pizza 4 kase",
+    "vier kase pizza",
+    "pizza vier kase",
+    "pizza quattro fromaggi",
+    "pizza 4 formaggi",
+    "4 cheese pizza"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:X912233",
+     "name": "Pizza quattro formaggi (with cheese)"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "frozen pizza vegetable",
+   "names": [
+    "frozen pizza vegetable",
+    "tiefkuhlpizza gemuse",
+    "vegetable pizza",
+    "veggie pizza",
+    "gemusepizza",
+    "pizza verdure",
+    "pizza vegetarisch",
+    "vegetarische pizza",
+    "pizza gemuse",
+    "pizza primavera",
+    "vegetarian pizza"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "usda:2708624",
+     "name": "Pizza, cheese, with vegetables, from frozen, thin crust"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2708624",
+     "label": "1 piece, NFS",
+     "grams": 109
+    },
+    {
+     "reference": "usda:2708624",
+     "label": "1 frozen personal size pizza (5-7\" diameter)",
+     "grams": 173
+    },
+    {
+     "reference": "usda:2708624",
+     "label": "1 frozen small pizza (8-10\" diameter)",
+     "grams": 369
+    },
+    {
+     "reference": "usda:2708624",
+     "label": "1 frozen medium pizza (11-13\" diameter)",
+     "grams": 652
+    },
+    {
+     "reference": "usda:2708624",
+     "label": "1 frozen large pizza (14-16\" diameter)",
+     "grams": 1025
+    },
+    {
+     "reference": "usda:2708624",
+     "label": "1 surface inch",
+     "grams": 5.8
+    }
+   ]
+  },
+  {
+   "key": "pizza baguette",
+   "names": [
+    "pizza baguette",
+    "pizzabaguette",
+    "baguette pizza",
+    "pizza baguettes",
+    "pizzabaguettes",
+    "french bread pizza",
+    "pizzabrotchen",
+    "mini pizzabrotchen",
+    "pizza buns",
+    "pizza bun",
+    "ofenbaguette",
+    "uberbackenes baguette",
+    "pizzabrot"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:X987112",
+     "name": "Pizza baguette with boiled ham and cheese gratinated"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "pizza slice",
+   "names": [
+    "pizza slice",
+    "pizzastuck",
+    "slice of pizza",
+    "pizza slices",
+    "stuck pizza",
+    "pizzastucke",
+    "pizzaecke",
+    "pizza by the slice",
+    "takeaway pizza",
+    "pizzeria pizza",
+    "restaurant pizza",
+    "delivery pizza",
+    "lieferpizza",
+    "pizza vom italiener",
+    "pizzaschnitte",
+    "pizza from the pizzeria"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "usda:2708614",
+     "name": "Pizza, cheese, from restaurant or fast food, NS as to type of crust"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2708614",
+     "label": "1 piece, NFS",
+     "grams": 119
+    },
+    {
+     "reference": "usda:2708614",
+     "label": "1 piece, small pizza",
+     "grams": 80
+    },
+    {
+     "reference": "usda:2708614",
+     "label": "1 piece, medium pizza",
+     "grams": 86
+    },
+    {
+     "reference": "usda:2708614",
+     "label": "1 piece, large pizza",
+     "grams": 119
+    },
+    {
+     "reference": "usda:2708614",
+     "label": "1 piece, extra-large pizza",
+     "grams": 128
+    },
+    {
+     "reference": "usda:2708614",
+     "label": "1 personal size pizza (5-7\" diameter)",
+     "grams": 175
+    },
+    {
+     "reference": "usda:2708614",
+     "label": "1 small pizza (8-10\" diameter)",
+     "grams": 480
+    },
+    {
+     "reference": "usda:2708614",
+     "label": "1 medium pizza (11-12\" diameter)",
+     "grams": 691
+    },
+    {
+     "reference": "usda:2708614",
+     "label": "1 large pizza (13-15\" diameter)",
+     "grams": 954
+    },
+    {
+     "reference": "usda:2708614",
+     "label": "1 extra-large pizza (16-18\" diameter)",
+     "grams": 1278
+    },
+    {
+     "reference": "usda:2708614",
+     "label": "1 surface inch",
+     "grams": 6.2
+    }
+   ]
+  },
+  {
+   "key": "tarte flambee",
+   "names": [
+    "tarte flambee",
+    "flammkuchen",
+    "flammkuchen elsasser art",
+    "flammekueche",
+    "flammenkuchen",
+    "alsatian flatbread",
+    "elsasser flammkuchen",
+    "flammkuchen mit speck"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:X934412",
+     "name": "Tarte flambee Alsatian style"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "calzone",
+   "names": [
+    "calzone",
+    "calzones",
+    "pizza calzone",
+    "folded pizza",
+    "calzone pizza"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "usda:2708685",
+     "name": "Calzone, with meat and cheese"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2708685",
+     "label": "1 calzone or stromboli",
+     "grams": 424
+    },
+    {
+     "reference": "usda:2708685",
+     "label": "1 cubic inch",
+     "grams": 11.5
+    },
+    {
+     "reference": "usda:2708685",
+     "label": "1 Calizza",
+     "grams": 217
+    }
+   ]
+  },
+  {
+   "key": "lasagne",
+   "names": [
+    "lasagne",
+    "lasagna",
+    "lasagne bolognese",
+    "lasagna bolognese",
+    "lasagne al forno",
+    "beef lasagne",
+    "fleischlasagne",
+    "frozen lasagne",
+    "tiefkuhllasagne",
+    "lasagnen",
+    "lasagnas",
+    "lasagne ready meal",
+    "lasange"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:X730033",
+     "name": "Lasagna al forno (pasta sheets with Bechamel- and Bolognese sauce, gratinated with cheese)"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "vegetable lasagne",
+   "names": [
+    "vegetable lasagne",
+    "gemuselasagne",
+    "vegetarian lasagne",
+    "vegetarian lasagna",
+    "veggie lasagne",
+    "vegetable lasagna",
+    "vegetarische lasagne",
+    "lasagne vegetarisch",
+    "spinatlasagne",
+    "spinach lasagne"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "usda:2708759",
+     "name": "Lasagna, meatless, with vegetables"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2708759",
+     "label": "1 piece (1/6 of 8\" square, approx 2-1/2\" x 4\")",
+     "grams": 227
+    },
+    {
+     "reference": "usda:2708759",
+     "label": "1 piece (1/8 of 7\" x 12\", approx 3-1/2\" x 3\")",
+     "grams": 256
+    },
+    {
+     "reference": "usda:2708759",
+     "label": "1 lasagna (8\" square)",
+     "grams": 1360
+    },
+    {
+     "reference": "usda:2708759",
+     "label": "1 lasagna (7\" x 12\")",
+     "grams": 2048
+    },
+    {
+     "reference": "usda:2708759",
+     "label": "1 cup",
+     "grams": 250
+    },
+    {
+     "reference": "usda:2708759",
+     "label": "1 surface inch",
+     "grams": 22.8
+    }
+   ]
+  },
+  {
+   "key": "beef cannelloni",
+   "names": [
+    "beef cannelloni",
+    "cannelloni al forno",
+    "baked cannelloni",
+    "cannelloni mit hackfleisch",
+    "cannelloni bolognese",
+    "canneloni",
+    "cannelloni uberbacken"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:X760533",
+     "name": "Cannelloni al forno (pasta rolls filled with Bolognese sauce, gratinated with cheese)"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "spaghetti bolognese",
+   "names": [
+    "spaghetti bolognese",
+    "spag bol",
+    "spaghetti bolognaise",
+    "spaghetti bolo",
+    "pasta bolognese",
+    "nudeln bolognese",
+    "nudeln mit bolognese",
+    "nudeln mit hackfleischsauce",
+    "spagetti bolognese",
+    "bolognese mit nudeln",
+    "penne bolognese"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:X740433",
+     "name": "Egg pasta with Bolognese (minced meat sauce)"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "spaghetti carbonara",
+   "names": [
+    "spaghetti carbonara",
+    "pasta carbonara",
+    "nudeln carbonara",
+    "spagetti carbonara",
+    "tagliatelle carbonara",
+    "penne carbonara",
+    "carbonara"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:X740733",
+     "name": "Egg pasta with Carbonara"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "pasta with tomato sauce",
+   "names": [
+    "pasta with tomato sauce",
+    "nudeln mit tomatensauce",
+    "spaghetti with tomato sauce",
+    "spaghetti napoli",
+    "spaghetti napoletana",
+    "pasta pomodoro",
+    "pasta al pomodoro",
+    "penne all arrabbiata",
+    "penne arrabbiata",
+    "nudeln mit tomatensoße",
+    "spaghetti mit tomatensoße",
+    "spaghetti mit tomatensauce",
+    "pasta napoli",
+    "penne mit tomatensauce"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:X740933",
+     "name": "Egg pasta with tomato sauce (of fresh tomatoes)"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "tortellini in cream sauce",
+   "names": [
+    "tortellini in cream sauce",
+    "tortellini in sahnesauce",
+    "tortellini alla panna",
+    "tortellini a la panna",
+    "tortellini with cream sauce",
+    "tortellini sahnesoße",
+    "tortellini mit sahnesauce",
+    "tortellini schinken sahne",
+    "tortellini mit schinken sahne sauce",
+    "tortellini in kasesahnesauce",
+    "tortellini ready meal"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "usda:2708791",
+     "name": "Tortellini, cheese-filled, with cream sauce"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2708791",
+     "label": "1 cup",
+     "grams": 250
+    }
+   ]
+  },
+  {
+   "key": "ravioli in tomato sauce canned",
+   "names": [
+    "ravioli in tomato sauce canned",
+    "ravioli aus der dose",
+    "dosenravioli",
+    "canned ravioli",
+    "tinned ravioli",
+    "ravioli in tomatensauce",
+    "ravioli in tomatensoße",
+    "buchsenravioli",
+    "ravioli dose",
+    "ravioli in der dose",
+    "ravioli in a can"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:E901000",
+     "name": "Pasta egg-free, Ravioli (meat filling) in tomato sauce, canned"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "kasespatzle",
+   "names": [
+    "kasespatzle",
+    "cheese spaetzle",
+    "cheese spatzle",
+    "kasspatzle",
+    "kasknopfle",
+    "kasspatzln",
+    "kasknopfli",
+    "chaschnopfli",
+    "spaetzle with cheese",
+    "allgauer kasespatzle",
+    "kasespatzen",
+    "kaesespaetzle",
+    "kasspatzen"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:X711412",
+     "name": "Fresh egg pasta spaetzle with cheese"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "macaroni and cheese",
+   "names": [
+    "macaroni and cheese",
+    "makkaroni mit kase",
+    "mac and cheese",
+    "mac n cheese",
+    "macaroni cheese",
+    "mac cheese",
+    "kasemakkaroni",
+    "makkaroni kase",
+    "alplermagronen",
+    "maccaroni mit kase"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "usda:2708811",
+     "name": "Macaroni or noodles with cheese"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2708811",
+     "label": "1 cup",
+     "grams": 230
+    }
+   ]
+  },
+  {
+   "key": "chili con carne",
+   "names": [
+    "chili con carne",
+    "chilli con carne",
+    "chili con carne aus der dose",
+    "canned chili",
+    "beef chili",
+    "chili with beans",
+    "chili mit hackfleisch",
+    "chili con carne dose"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:X469753",
+     "name": "Chilli con carne (with beef mince)"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "nasi goreng",
+   "names": [
+    "nasi goreng",
+    "indonesian fried rice",
+    "nasigoreng",
+    "nasi goreng mit hahnchen"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:X891133",
+     "name": "Nasi Goreng (rice fried with vegetables and pork)"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "fried rice",
+   "names": [
+    "fried rice",
+    "gebratener reis",
+    "egg fried rice",
+    "chinese fried rice",
+    "gebratener reis mit ei",
+    "reis gebraten",
+    "special fried rice",
+    "chinesischer gebratener reis",
+    "gebratener reis mit gemuse"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "usda:2708952",
+     "name": "Rice, fried, NFS"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2708952",
+     "label": "1 cup",
+     "grams": 198
+    }
+   ]
+  },
+  {
+   "key": "chicken chow mein",
+   "names": [
+    "chicken chow mein",
+    "gebratene nudeln mit hahnchen",
+    "chow mein",
+    "chowmein",
+    "gebratene nudeln",
+    "fried noodles",
+    "chinese fried noodles",
+    "chop suey",
+    "gebratene mie nudeln",
+    "gebratene nudeln mit huhn",
+    "chow mein mit hahnchen"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "usda:2706687",
+     "name": "Chicken or turkey chow mein or chop suey with noodles"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2706687",
+     "label": "1 cup",
+     "grams": 220
+    }
+   ]
+  },
+  {
+   "key": "sweet and sour chicken",
+   "names": [
+    "sweet and sour chicken",
+    "hahnchen suß sauer",
+    "chicken sweet and sour",
+    "sweet sour chicken",
+    "huhn suß sauer",
+    "huhnchen sußsauer",
+    "hahnchen sußsauer",
+    "huhnerfleisch suß sauer",
+    "chicken suß sauer",
+    "ente suß sauer"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "usda:2706435",
+     "name": "Sweet and sour chicken or turkey"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2706435",
+     "label": "1 cup",
+     "grams": 252
+    },
+    {
+     "reference": "usda:2706435",
+     "label": "1 nugget",
+     "grams": 18
+    }
+   ]
+  },
+  {
+   "key": "chicken tikka masala",
+   "names": [
+    "chicken tikka masala",
+    "tikka masala",
+    "chicken tikka",
+    "hahnchen tikka masala",
+    "butter chicken",
+    "murgh makhani",
+    "chicken masala",
+    "tikka masala huhn"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "cofid:19-296",
+     "name": "Curry, chicken tikka masala, retail, reheated"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "thai green curry",
+   "names": [
+    "thai green curry",
+    "thailandisches grunes curry",
+    "green curry",
+    "green thai curry",
+    "thai curry",
+    "grunes curry",
+    "grunes thai curry",
+    "thai red curry",
+    "red curry",
+    "rotes curry",
+    "rotes thai curry",
+    "thai curry mit hahnchen",
+    "gaeng keow wan"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "cofid:19-465",
+     "name": "Curry, chicken, Thai green, takeaway and restaurant"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "germknodel",
+   "names": [
+    "germknodel",
+    "germknoedel",
+    "yeast dumpling with plum jam",
+    "hefeknodel",
+    "dampfknodel",
+    "germknodel mit mohn",
+    "germknodel mit vanillesoße"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:X985162",
+     "name": "Yeast dumplings, filled with plum jam, topped with ground poppy seed"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "kaiserschmarrn",
+   "names": [
+    "kaiserschmarrn",
+    "kaiserschmarren",
+    "schmarrn",
+    "kaiserschmarn",
+    "shredded pancake",
+    "emperor s mess",
+    "kaiserschmarrn mit apfelmus"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:Y890342",
+     "name": "\"Kaiserschmarren\" fried (thick pancake with milk 3.5 % fat, cut into pieces)"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "fish bake bordelaise",
+   "names": [
+    "fish bake bordelaise",
+    "schlemmerfilet bordelaise",
+    "schlemmerfilet",
+    "schlemmer filet",
+    "fischfilet bordelaise",
+    "fish bake",
+    "baked fish with crumb topping",
+    "fischfilet mit krauterkruste",
+    "ofenfisch",
+    "schlemmerfilet a la bordelaise",
+    "alaska seelachs bordelaise"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:T935262",
+     "name": "Fish bake Bordelaise style (Alaska pollock) deep-frozen, fried without fat (oven)"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "cordon bleu",
+   "names": [
+    "cordon bleu",
+    "cordon bleu vom schwein",
+    "pork cordon bleu",
+    "schnitzel cordon bleu",
+    "chicken cordon bleu",
+    "hahnchen cordon bleu",
+    "puten cordon bleu",
+    "cordon blue",
+    "kalbs cordon bleu",
+    "cordon bleu paniert"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:Y332832",
+     "name": "Pork cordon bleu fried"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "chicken kiev",
+   "names": [
+    "chicken kiev",
+    "hahnchen kiew",
+    "chicken kiew",
+    "hahnchenbrust kiew",
+    "chicken kievs",
+    "kiev",
+    "garlic butter chicken",
+    "hahnchen kiev"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "usda:2706445",
+     "name": "Chicken kiev"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2706445",
+     "label": "1 serving (1 whole breast)",
+     "grams": 258
+    }
+   ]
+  },
+  {
+   "key": "fish cakes",
+   "names": [
+    "fish cakes",
+    "fischfrikadellen",
+    "fishcake",
+    "fishcakes",
+    "fish cake",
+    "fischfrikadelle",
+    "fischbulette",
+    "fischbuletten",
+    "fischkuchle",
+    "fischlaibchen",
+    "fischplatzchen",
+    "fischlaiberl"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:T930862",
+     "name": "Fishcake (Alaska pollock) breaded, deep-frozen, fried without fat (oven)"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "breaded camembert",
+   "names": [
+    "breaded camembert",
+    "backcamembert",
+    "fried camembert",
+    "camembert paniert",
+    "gebackener camembert",
+    "deep fried camembert",
+    "back camembert",
+    "panierter camembert",
+    "backcamembert mit preiselbeeren",
+    "baked camembert breaded"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:Y780863",
+     "name": "Camembert cheese breaded, deep-fried"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "quiche lorraine",
+   "names": [
+    "quiche lorraine",
+    "quiche",
+    "quiches",
+    "specktorte",
+    "bacon quiche",
+    "lorraine quiche",
+    "quiche mit speck",
+    "speckquiche"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "cofid:12-936",
+     "name": "Quiche, Lorraine, shortcrust pastry, retail"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "moussaka",
+   "names": [
+    "moussaka",
+    "musaka",
+    "mousaka",
+    "moussaka ready meal",
+    "musakas"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:X6A3020",
+     "name": "Moussaka (gratin with potatoes, aubergines, Bechamel and minced meat sauce)"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "cottage pie",
+   "names": [
+    "cottage pie",
+    "shepherd s pie",
+    "shepherds pie",
+    "cottage pie ready meal",
+    "hackfleisch kartoffelbrei auflauf"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "cofid:19-494",
+     "name": "Pie, Cottage/Shepherd's, reheated"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "fish pie",
+   "names": [
+    "fish pie",
+    "fischauflauf",
+    "fish pie ready meal",
+    "fisch pie",
+    "fischauflauf mit kartoffelpuree",
+    "fisherman s pie"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "cofid:16-410",
+     "name": "Pie, fish, white fish, retail, baked"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "chicken pot pie",
+   "names": [
+    "chicken pot pie",
+    "hahnchen pot pie",
+    "pot pie",
+    "chicken potpie",
+    "chicken pot pies",
+    "frozen pot pie"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "usda:2706703",
+     "name": "Pot pie, chicken"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2706703",
+     "label": "1 slice, any size",
+     "grams": 210
+    },
+    {
+     "reference": "usda:2706703",
+     "label": "1 individual pie",
+     "grams": 250
+    },
+    {
+     "reference": "usda:2706703",
+     "label": "1 pie, any size",
+     "grams": 1260
+    },
+    {
+     "reference": "usda:2706703",
+     "label": "1 cup",
+     "grams": 200
+    },
+    {
+     "reference": "usda:2706703",
+     "label": "1 cubic inch",
+     "grams": 10
+    }
+   ]
+  },
+  {
+   "key": "steak pie",
+   "names": [
+    "steak pie",
+    "rindfleisch pie",
+    "beef pie",
+    "steak and ale pie",
+    "meat pie",
+    "aussie meat pie",
+    "steak and kidney pie",
+    "fleisch pie",
+    "fleischpie"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "cofid:18-506",
+     "name": "Pie, beef, puff or shortcrust pastry, individual, retail"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "chicken and mushroom pie",
+   "names": [
+    "chicken and mushroom pie",
+    "hahnchen pilz pie",
+    "chicken pie",
+    "chicken mushroom pie",
+    "chicken and mushroom pies",
+    "huhnchen pie"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "cofid:19-559",
+     "name": "Pie, chicken and mushroom, single crust, homemade"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "sausage roll",
+   "names": [
+    "sausage roll",
+    "wurstchen im blatterteig",
+    "sausage rolls",
+    "wurst im schlafrock",
+    "wurstchen im schlafrock",
+    "wurstel im schlafrock",
+    "blatterteigwurstchen",
+    "bratwurst im blatterteig"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "cofid:19-468",
+     "name": "Sausage roll, flaky pastry, ready-to-eat, retail"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "pork pie",
+   "names": [
+    "pork pie",
+    "pork pies",
+    "individual pork pie",
+    "schweinefleischpastete"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "cofid:19-467",
+     "name": "Pork pie, individual"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "cornish pasty",
+   "names": [
+    "cornish pasty",
+    "pasty",
+    "pasties",
+    "cornish pasties",
+    "steak pasty",
+    "beef pasty",
+    "fleischtasche"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "cofid:19-466",
+     "name": "Cornish pasty, retail"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "scotch egg",
+   "names": [
+    "scotch egg",
+    "scotch eggs",
+    "schottisches ei",
+    "ei im wurstmantel",
+    "ei im hackmantel"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "cofid:19-518",
+     "name": "Scotch eggs, retail"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "spinach and feta pastry",
+   "names": [
+    "spinach and feta pastry",
+    "spinat feta tasche",
+    "borek",
+    "spinatborek",
+    "borek mit spinat",
+    "burek",
+    "spinattasche",
+    "schafskasetasche",
+    "blatterteigtasche mit spinat",
+    "spinat schafskase tasche",
+    "spanakopita",
+    "spinach puff",
+    "spinach and feta puff",
+    "ispanakli borek",
+    "peynirli borek",
+    "kaseborek"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:X9A3000",
+     "name": "Puff pastry pockets filled with leaf spinach and sheep's milk cheese, baked"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "pea soup",
+   "names": [
+    "pea soup",
+    "erbsensuppe",
+    "erbseneintopf",
+    "erbsen eintopf",
+    "erbsensuppe aus der dose",
+    "canned pea soup",
+    "split pea soup",
+    "pea and ham soup",
+    "erbsensuppe mit wurstchen",
+    "erbsensuppe mit wurst",
+    "erbsensuppe mit speck",
+    "erbseneintopf mit wurstchen",
+    "pea soup with sausage"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:X464433",
+     "name": "Pea soup with vegetable stock, mirepoix, bacon and Vienna sausages"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "lentil soup",
+   "names": [
+    "lentil soup",
+    "linsensuppe",
+    "linseneintopf",
+    "linsen eintopf",
+    "linsensuppe aus der dose",
+    "canned lentil soup",
+    "linsensuppe mit wurstchen",
+    "linseneintopf mit wurstchen",
+    "lentil stew",
+    "linsensuppe mit wurst",
+    "linsensupp"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:X4A8050",
+     "name": "Lentil soup with vegetables and Vienna sausages"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "tomato soup",
+   "names": [
+    "tomato soup",
+    "tomatensuppe",
+    "cream of tomato soup",
+    "canned tomato soup",
+    "tinned tomato soup",
+    "tomatencremesuppe",
+    "tomatensuppe aus der dose",
+    "tomato cream soup",
+    "tomatensuppe mit reis"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:X444343",
+     "name": "Tomato soup thickened"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "goulash soup",
+   "names": [
+    "goulash soup",
+    "gulaschsuppe",
+    "gulaschsuppe aus der dose",
+    "canned goulash soup",
+    "gulyassuppe",
+    "gulyas soup",
+    "gulaschsuppe konserve",
+    "ungarische gulaschsuppe",
+    "gulaschsupp"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:U980400",
+     "name": "Goulash soup canned"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "vegetable stew",
+   "names": [
+    "vegetable stew",
+    "gemuseeintopf",
+    "eintopf",
+    "gemuse eintopf",
+    "pichelsteiner",
+    "pichelsteiner eintopf",
+    "eintopf aus der dose",
+    "canned stew",
+    "gemuseeintopf aus der dose",
+    "vegetable hotpot"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:X4A7000",
+     "name": "Vegetable stew \"Pichelsteiner\""
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "vegetable soup",
+   "names": [
+    "vegetable soup",
+    "gemusesuppe",
+    "canned vegetable soup",
+    "gemusesuppe aus der dose",
+    "veggie soup",
+    "gemusesuppchen"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:X416713",
+     "name": "Vegetable soup"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "potato soup",
+   "names": [
+    "potato soup",
+    "kartoffelsuppe",
+    "kartoffelcremesuppe",
+    "kartoffeleintopf",
+    "erdapfelsuppe",
+    "hardopfelsuppe",
+    "potato and leek soup",
+    "kartoffelsuppe aus der dose",
+    "kartoffelsuppe mit wurstchen",
+    "kartoffel lauch suppe"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:X449023",
+     "name": "Potato soup with vegetable stock"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "chicken noodle soup",
+   "names": [
+    "chicken noodle soup",
+    "huhnernudelsuppe",
+    "huhnersuppe",
+    "chicken soup",
+    "nudelsuppe",
+    "huhnersuppe mit nudeln",
+    "huhner nudelsuppe",
+    "huhnernudeleintopf",
+    "huhnersuppe aus der dose",
+    "hendlsuppe",
+    "nudelsuppe mit huhn",
+    "canned chicken soup",
+    "chicken noodle"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:X452263",
+     "name": "Soup of egg pasta with chicken"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "bean soup",
+   "names": [
+    "bean soup",
+    "bohnensuppe",
+    "weiße bohnen suppe",
+    "weiße bohnensuppe",
+    "bohneneintopf",
+    "white bean soup",
+    "serbische bohnensuppe",
+    "bohnensuppe aus der dose",
+    "bean stew",
+    "bohnen eintopf"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:X4A8080",
+     "name": "Haricot bean soup"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "minestrone",
+   "names": [
+    "minestrone",
+    "minestrone soup",
+    "italienische gemusesuppe",
+    "minestrone suppe",
+    "minestrone aus der dose"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:X425163",
+     "name": "Italian vegetable soup (minestrone)"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "cream of mushroom soup",
+   "names": [
+    "cream of mushroom soup",
+    "champignoncremesuppe",
+    "mushroom soup",
+    "pilzsuppe",
+    "pilzcremesuppe",
+    "champignonsuppe",
+    "schwammerlsuppe",
+    "cream of mushroom",
+    "champignon cremesuppe"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:X448153",
+     "name": "Cream of button mushroom soup with meat stock"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "pumpkin soup",
+   "names": [
+    "pumpkin soup",
+    "kurbissuppe",
+    "kurbiscremesuppe",
+    "butternut squash soup",
+    "pumpkin cream soup",
+    "kurbissuppe mit kokos",
+    "hokkaidosuppe",
+    "squash soup"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:X445863",
+     "name": "Cream of pumpkin soup"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "instant soup",
+   "names": [
+    "instant soup",
+    "tutensuppe",
+    "packet soup",
+    "cup soup",
+    "cup a soup",
+    "instantsuppe",
+    "fertigsuppe",
+    "tassensuppe",
+    "pulversuppe",
+    "suppe aus der tute",
+    "packchensuppe",
+    "beutelsuppe",
+    "instant cream soup",
+    "soup sachet",
+    "instant suppe"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:G850132",
+     "name": "Cream of vegetable soup, made from instant powder and water"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "instant noodles prepared",
+   "names": [
+    "instant noodles prepared",
+    "instantnudeln zubereitet",
+    "instant noodles",
+    "instantnudeln",
+    "instant nudeln",
+    "cup noodles",
+    "cup noodle",
+    "pot noodle",
+    "pot noodles",
+    "yum yum",
+    "yum yum nudeln",
+    "instant ramen",
+    "tutennudeln",
+    "nudelsnack",
+    "indomie",
+    "mi goreng",
+    "5 minuten terrine",
+    "packet noodles",
+    "fertignudeln",
+    "instant noodle soup",
+    "noodle cup",
+    "asia nudeln",
+    "cup nudeln",
+    "instantnudelsuppe"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "usda:2709152",
+     "name": "Soup, ramen noodles, water added"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2709152",
+     "label": "1 cup",
+     "grams": 245
+    },
+    {
+     "reference": "usda:2709152",
+     "label": "1 individual container",
+     "grams": 440
+    },
+    {
+     "reference": "usda:2709152",
+     "label": "1 oz, dry, yields",
+     "grams": 165
+    }
+   ]
+  },
+  {
+   "key": "instant mashed potatoes",
+   "names": [
+    "instant mashed potatoes",
+    "kartoffelpuree aus der packung",
+    "instant mash",
+    "kartoffelpuree instant",
+    "instant kartoffelpuree",
+    "puree aus der tute",
+    "kartoffelpuree aus flocken",
+    "pureeflocken",
+    "kartoffelbrei instant",
+    "instant mashed potato",
+    "fertigpuree",
+    "kartoffelpuree aus der tute",
+    "instantpuree"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:X637012",
+     "name": "Potato puree, made from instant powder and milk 3.5 % fat"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "instant porridge",
+   "names": [
+    "instant porridge",
+    "instant oatmeal",
+    "porridge pot",
+    "porridge to go",
+    "flavoured porridge",
+    "flavored oatmeal",
+    "porridge sachet",
+    "porridge becher",
+    "haferbrei instant",
+    "instant haferbrei",
+    "oatmeal packet",
+    "porridge mit geschmack",
+    "instantporridge"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "usda:2708395",
+     "name": "Oatmeal, instant, fruit flavored, no added fat"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2708395",
+     "label": "1 cup, cooked",
+     "grams": 240
+    },
+    {
+     "reference": "usda:2708395",
+     "label": "1 oz, cooked",
+     "grams": 28.35
+    },
+    {
+     "reference": "usda:2708395",
+     "label": "1 oz, dry, yields",
+     "grams": 170
+    },
+    {
+     "reference": "usda:2708395",
+     "label": "1 packet, dry, yields",
+     "grams": 163
+    },
+    {
+     "reference": "usda:2708395",
+     "label": "1 single serving container",
+     "grams": 210
+    },
+    {
+     "reference": "usda:2708395",
+     "label": "1 Keurig cup",
+     "grams": 170
+    },
+    {
+     "reference": "usda:2708395",
+     "label": "1 microwave cup, prepared",
+     "grams": 210
+    }
+   ]
+  },
+  {
+   "key": "vegetarian doner",
+   "names": [
+    "vegetarian doner",
+    "vegetarischer doner",
+    "veggie doner",
+    "vegetarian kebab",
+    "doner vegetarisch",
+    "veggie kebab",
+    "vegi doner",
+    "gemuse doner ohne fleisch"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:Y9A1040",
+     "name": "Doner vegetarian, flatbread filled with salad, sheep's milk cheese and sauce"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "gyros pita",
+   "names": [
+    "gyros pita",
+    "gyro sandwich",
+    "gyro pita",
+    "gyros im pita",
+    "pita gyros",
+    "gyros im brot",
+    "souvlaki pita",
+    "gyro wrap",
+    "pita mit gyros"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "usda:2706962",
+     "name": "Gyro sandwich"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2706962",
+     "label": "1 sandwich, any size",
+     "grams": 200
+    }
+   ]
+  },
+  {
+   "key": "lahmacun",
+   "names": [
+    "lahmacun",
+    "turkische pizza",
+    "turkish pizza",
+    "lahmacun mit salat",
+    "lahmacun gerollt",
+    "lahmajoun",
+    "lahmajun",
+    "lahmacun rolle"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:Y9A1090",
+     "name": "Lahmacun filled with salad and sauce"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "samosa",
+   "names": [
+    "samosa",
+    "samosas",
+    "vegetable samosa",
+    "gemusesamosa",
+    "samosa gemuse",
+    "meat samosa",
+    "samoosa"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "usda:2708730",
+     "name": "Samosa"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2708730",
+     "label": "1 small/individual",
+     "grams": 25
+    },
+    {
+     "reference": "usda:2708730",
+     "label": "1 regular/large",
+     "grams": 100
+    }
+   ]
+  },
+  {
+   "key": "burrito",
+   "names": [
+    "burrito",
+    "burritos",
+    "beef burrito",
+    "burrito mit rindfleisch",
+    "burrito mit hackfleisch",
+    "burrito wrap"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:X9A4000",
+     "name": "Burrito filled with vegetables, beef mince and cheese"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "taco",
+   "names": [
+    "taco",
+    "tacos",
+    "beef taco",
+    "tacos mit hackfleisch",
+    "hard shell taco",
+    "hard taco",
+    "tacos mit rindfleisch"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "usda:2708515",
+     "name": "Taco, corn tortilla, beef, cheese"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2708515",
+     "label": "1 miniature",
+     "grams": 50
+    },
+    {
+     "reference": "usda:2708515",
+     "label": "1 small/regular",
+     "grams": 105
+    },
+    {
+     "reference": "usda:2708515",
+     "label": "1 large",
+     "grams": 160
+    },
+    {
+     "reference": "usda:2708515",
+     "label": "1 cup",
+     "grams": 120
+    }
+   ]
+  },
+  {
+   "key": "quesadilla",
+   "names": [
+    "quesadilla",
+    "quesadillas",
+    "cheese quesadilla",
+    "chicken quesadilla",
+    "quesadillas mit kase"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "usda:2708590",
+     "name": "Quesadilla, NFS"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2708590",
+     "label": "1 full circle",
+     "grams": 140
+    },
+    {
+     "reference": "usda:2708590",
+     "label": "1 half circle",
+     "grams": 70
+    },
+    {
+     "reference": "usda:2708590",
+     "label": "1 triangular piece",
+     "grams": 35
+    },
+    {
+     "reference": "usda:2708590",
+     "label": "1 cup",
+     "grams": 95
+    }
+   ]
+  },
+  {
+   "key": "nachos with cheese",
+   "names": [
+    "nachos with cheese",
+    "nachos mit kase",
+    "cheese nachos",
+    "nachos mit kasesoße",
+    "nachos mit kasesauce",
+    "nachos mit kasedip",
+    "loaded nachos",
+    "nachos and cheese",
+    "kino nachos",
+    "nacho cheese"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "usda:2708577",
+     "name": "Nachos, cheese only"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2708577",
+     "label": "1 chip",
+     "grams": 7
+    },
+    {
+     "reference": "usda:2708577",
+     "label": "1 item, any size",
+     "grams": 250
+    },
+    {
+     "reference": "usda:2708577",
+     "label": "1 order",
+     "grams": 250
+    },
+    {
+     "reference": "usda:2708577",
+     "label": "1 cup",
+     "grams": 135
+    }
+   ]
+  },
+  {
+   "key": "hamburger",
+   "names": [
+    "hamburger",
+    "burger",
+    "burgers",
+    "hamburgers",
+    "beef burger",
+    "plain burger",
+    "rindfleischburger"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:Y911060",
+     "name": "Hamburger"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "cheeseburger",
+   "names": [
+    "cheeseburger",
+    "cheeseburgers",
+    "cheese burger",
+    "kaseburger"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:Y911160",
+     "name": "Cheeseburger"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "double cheeseburger",
+   "names": [
+    "double cheeseburger",
+    "doppelter cheeseburger",
+    "double cheese burger",
+    "doppel cheeseburger",
+    "double cheese",
+    "double cheeseburgers",
+    "doppelcheeseburger"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:Y911260",
+     "name": "Double cheeseburger"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "fish burger",
+   "names": [
+    "fish burger",
+    "fischburger",
+    "fish burgers",
+    "fish sandwich",
+    "fish fillet burger",
+    "fisch burger",
+    "fish fillet sandwich",
+    "fischmac"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:Y9A1010",
+     "name": "Fish burger with saithe"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "fish and chips",
+   "names": [
+    "fish and chips",
+    "fish chips",
+    "fish n chips",
+    "fisch mit pommes",
+    "backfisch mit pommes",
+    "fish and fries"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:Y693932",
+     "name": "Fish and chips (with redfish)"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "fried fish roll",
+   "names": [
+    "fried fish roll",
+    "backfischbrotchen",
+    "backfisch brotchen",
+    "fish fillet roll",
+    "fischbrotchen mit backfisch",
+    "backfischsemmel",
+    "fried fish sandwich",
+    "brotchen mit backfisch"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:Y610712",
+     "name": "Baked fish roll with cod"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "matjes roll",
+   "names": [
+    "matjes roll",
+    "matjesbrotchen",
+    "fischbrotchen",
+    "fish roll",
+    "herring roll",
+    "matjes brotchen",
+    "bismarckbrotchen",
+    "heringsbrotchen",
+    "matjessemmel",
+    "matjes im brotchen"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:Y610512",
+     "name": "Matjes herring roll"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "currywurst",
+   "names": [
+    "currywurst",
+    "currywurst with sauce",
+    "currywurst mit soße",
+    "currywurst mit sauce",
+    "curry wurst",
+    "currywurst mit ketchup",
+    "berliner currywurst",
+    "currywurst darm",
+    "currywurst ohne darm"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:Y943032",
+     "name": "Curried bratwurst with curry ketchup"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "currywurst with fries",
+   "names": [
+    "currywurst with fries",
+    "currywurst mit pommes",
+    "currywurst pommes",
+    "currywurst and chips",
+    "currywurst mit pommes frites",
+    "currywurst mit fritten",
+    "pommes currywurst",
+    "currywurst pommes mayo",
+    "curry pommes"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:Y944062",
+     "name": "Curried bratwurst with potato chips"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "leberkase roll",
+   "names": [
+    "leberkase roll",
+    "leberkasbrotchen",
+    "leberkase brotchen",
+    "leberkasesemmel",
+    "fleischkasbrotchen",
+    "fleischkasebrotchen",
+    "leberkasweckle",
+    "leberkasweck",
+    "lkw",
+    "fleischkaseweckle",
+    "leberkase im brotchen",
+    "leberkassemmerl"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:X041910",
+     "name": "Roll and fleischkaese sausage"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "bratwurst in a roll",
+   "names": [
+    "bratwurst in a roll",
+    "bratwurst im brotchen",
+    "bratwurstbrotchen",
+    "bratwurstsemmel",
+    "rostbratwurst im brotchen",
+    "thuringer im brotchen",
+    "bratwurst bun",
+    "brat in a bun",
+    "bratwurst mit brotchen",
+    "bosna",
+    "bratwurst semmel",
+    "roster im brotchen",
+    "bratwurstweckle"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:Y942062",
+     "name": "Bratwurst with roll and mustard"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "bockwurst in a roll",
+   "names": [
+    "bockwurst in a roll",
+    "bockwurst im brotchen",
+    "bockwurst mit brotchen",
+    "wurstchen im brotchen",
+    "bockwurstbrotchen",
+    "wurstel mit semmel",
+    "frankfurter mit semmel",
+    "wiener mit brotchen",
+    "wurstchen mit brotchen",
+    "sausage in a roll"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:Y913062",
+     "name": "Bockwurst with roll and mustard"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "chicken wrap",
+   "names": [
+    "chicken wrap",
+    "wrap mit hahnchen",
+    "chicken wraps",
+    "hahnchen wrap",
+    "hahnchenwrap",
+    "chicken caesar wrap",
+    "filled wrap",
+    "wrap belegt",
+    "sandwich wrap",
+    "wrap hahnchen",
+    "huhnchenwrap",
+    "chicken wrap salat"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:Y599112",
+     "name": "Wrap filled with salad and fried chicken breast fillet"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "falafel in pitta",
+   "names": [
+    "falafel in pitta",
+    "falafel im fladenbrot",
+    "falafel wrap",
+    "falafel sandwich",
+    "falafel pita",
+    "falafel pitta",
+    "falafel durum",
+    "falafeltasche",
+    "falafel im brot",
+    "falafel doner",
+    "falafelrolle"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:Y9A1060",
+     "name": "Falafel deep-fried, in flatbread, vegetarian filled"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "sushi",
+   "names": [
+    "sushi",
+    "sushi box",
+    "sushibox",
+    "maki",
+    "maki sushi",
+    "nigiri",
+    "california roll",
+    "california rolls",
+    "sushi rolls",
+    "salmon sushi",
+    "lachs sushi",
+    "sushi mit lachs",
+    "sushi platter",
+    "inside out rolls",
+    "sushi set",
+    "sushirollen"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:Y627112",
+     "name": "Sushi with salmon"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "ramen bowl",
+   "names": [
+    "ramen bowl",
+    "ramen suppe",
+    "ramen soup",
+    "tonkotsu ramen",
+    "shoyu ramen",
+    "miso ramen",
+    "ramensuppe",
+    "ramen bowls",
+    "bowl of ramen"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "usda:2709153",
+     "name": "Ramen bowl, NFS"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2709153",
+     "label": "1 cup",
+     "grams": 245
+    }
+   ]
+  },
+  {
+   "key": "milkshake",
+   "names": [
+    "milkshake",
+    "milchshake",
+    "milk shake",
+    "milkshakes",
+    "fast food milkshake",
+    "vanilla milkshake",
+    "strawberry milkshake",
+    "chocolate milkshake",
+    "thick shake",
+    "milchshakes",
+    "vanille milchshake",
+    "erdbeer milchshake",
+    "schoko milchshake"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "usda:2705509",
+     "name": "Milk shake, fast food, flavors other than chocolate"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2705509",
+     "label": "1 small",
+     "grams": 405
+    },
+    {
+     "reference": "usda:2705509",
+     "label": "1 medium",
+     "grams": 526
+    },
+    {
+     "reference": "usda:2705509",
+     "label": "1 large",
+     "grams": 690
+    },
+    {
+     "reference": "usda:2705509",
+     "label": "1 fl oz",
+     "grams": 28
+    },
+    {
+     "reference": "usda:2705509",
+     "label": "1 cup",
+     "grams": 224
+    }
+   ]
+  },
+  {
+   "key": "protein shake",
+   "names": [
+    "protein shake",
+    "proteinshake",
+    "protein drink",
+    "proteindrink",
+    "eiweißshake",
+    "eiweiß shake",
+    "high protein shake",
+    "ready to drink protein shake",
+    "proteinmilch",
+    "protein milchdrink",
+    "protein milkshake",
+    "eiweißdrink"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "usda:2710726",
+     "name": "Nutritional drink or shake, high protein, ready-to-drink, NFS"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2710726",
+     "label": "1 cup",
+     "grams": 256
+    },
+    {
+     "reference": "usda:2710726",
+     "label": "1 fl oz",
+     "grams": 32
+    },
+    {
+     "reference": "usda:2710726",
+     "label": "1 bottle or box, NFS",
+     "grams": 544
+    },
+    {
+     "reference": "usda:2710726",
+     "label": "1 bottle (14 fl oz) Myoplex",
+     "grams": 448
+    },
+    {
+     "reference": "usda:2710726",
+     "label": "1 bottle (20 fl oz) Monster Milk",
+     "grams": 640
+    },
+    {
+     "reference": "usda:2710726",
+     "label": "1 single serving box (17 fl oz) Myoplex",
+     "grams": 544
+    }
+   ]
+  },
+  {
+   "key": "meal replacement shake",
+   "names": [
+    "meal replacement shake",
+    "trinkmahlzeit",
+    "meal replacement drink",
+    "mahlzeitersatz",
+    "mahlzeitenersatz",
+    "mahlzeitersatz shake",
+    "diet shake",
+    "diat shake",
+    "yfood",
+    "huel",
+    "ensure",
+    "slimfast",
+    "slim fast",
+    "trinknahrung",
+    "astronautennahrung",
+    "abnehmshake",
+    "meal shake"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "usda:2710725",
+     "name": "Nutritional drink or shake, ready-to-drink, NFS"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2710725",
+     "label": "1 cup",
+     "grams": 248
+    },
+    {
+     "reference": "usda:2710725",
+     "label": "1 fl oz",
+     "grams": 31
+    },
+    {
+     "reference": "usda:2710725",
+     "label": "1 bottle (8 fl oz)",
+     "grams": 248
+    },
+    {
+     "reference": "usda:2710725",
+     "label": "1 can (12 fl oz)",
+     "grams": 372
+    }
+   ]
+  },
+  {
+   "key": "pasta salad",
+   "names": [
+    "pasta salad",
+    "nudelsalat",
+    "pasta salads",
+    "macaroni salad",
+    "nudelsalat mit mayonnaise",
+    "nudelsalat mit mayo",
+    "spirelli salat",
+    "nudelsalat danische art",
+    "nudelsalat mit schinken",
+    "nudlsalat"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:X1A3010",
+     "name": "Salad of egg pasta Danish style, with mayonnaise, diluted with yogurt"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "couscous salad",
+   "names": [
+    "couscous salad",
+    "couscous salat",
+    "couscoussalat",
+    "tabbouleh",
+    "taboule",
+    "tabouleh",
+    "tabule",
+    "couscous salad pot"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "ciqual:25608",
+     "name": "Taboulé ou salade de semoule aux légumes, préemballé"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "meat salad",
+   "names": [
+    "meat salad",
+    "fleischsalat",
+    "fleischsalat mit mayonnaise",
+    "german meat salad",
+    "bologna salad",
+    "fleischsalat mit gurke",
+    "fleischsalat brotaufstrich"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:W985000",
+     "name": "Bologna salad with salad mayonnaise and gherkin"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "sausage salad",
+   "names": [
+    "sausage salad",
+    "wurstsalat",
+    "bayerischer wurstsalat",
+    "schweizer wurstsalat",
+    "straßburger wurstsalat",
+    "regensburger wurstsalat",
+    "wurstsalat mit kase",
+    "elsasser wurstsalat",
+    "wurstsalat schweizer art",
+    "fleischkasesalat"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:X1A7020",
+     "name": "Sausage salad with gherkin and vinegar marinade"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "egg salad",
+   "names": [
+    "egg salad",
+    "eiersalat",
+    "egg mayo",
+    "egg mayonnaise",
+    "eiersalat mit mayonnaise",
+    "egg salad spread",
+    "eiersalat mit mayo",
+    "eiaufstrich"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "usda:2707182",
+     "name": "Egg salad, made with mayonnaise"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2707182",
+     "label": "1 medium egg",
+     "grams": 68
+    },
+    {
+     "reference": "usda:2707182",
+     "label": "1 large egg",
+     "grams": 74
+    },
+    {
+     "reference": "usda:2707182",
+     "label": "1 extra large egg",
+     "grams": 82
+    },
+    {
+     "reference": "usda:2707182",
+     "label": "1 egg, NS as to size",
+     "grams": 74
+    },
+    {
+     "reference": "usda:2707182",
+     "label": "1 cup",
+     "grams": 222
+    }
+   ]
+  },
+  {
+   "key": "tuna salad",
+   "names": [
+    "tuna salad",
+    "thunfischsalat",
+    "tuna mayo",
+    "tuna mayonnaise",
+    "thunfischsalat mit mayo",
+    "thunfisch mayo",
+    "tuna salad spread",
+    "thunfischaufstrich",
+    "thunfischcreme"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:X1A8060",
+     "name": "Tuna salad with mayonnaise, diluted with yogurt"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "chicken salad",
+   "names": [
+    "chicken salad",
+    "geflugelsalat",
+    "hahnchensalat",
+    "chicken mayo",
+    "geflugelsalat mit mayonnaise",
+    "huhnersalat",
+    "chicken salad spread",
+    "coronation chicken",
+    "geflugelsalat mit ananas",
+    "huhnchensalat"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:X1A4010",
+     "name": "Poultry salad (chicken) with mayonnaise, diluted with cream"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "herring salad",
+   "names": [
+    "herring salad",
+    "heringssalat",
+    "heringssalat mit mayonnaise",
+    "roter heringssalat",
+    "matjessalat",
+    "herring salad with apple",
+    "heringsalat"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:X1A8030",
+     "name": "Herring salad with apple, gherkin and mayonnaise, diluted with sour/whipping cream"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "greek salad",
+   "names": [
+    "greek salad",
+    "griechischer salat",
+    "horiatiki",
+    "bauernsalat",
+    "hirtensalat",
+    "village salad",
+    "greek farmer s salad",
+    "griechischer bauernsalat",
+    "greek salad bowl",
+    "salat mit feta"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:X203850",
+     "name": "Greek salad"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "ham and cheese sandwich",
+   "names": [
+    "ham and cheese sandwich",
+    "sandwich mit schinken und kase",
+    "ham cheese sandwich",
+    "ham sandwich",
+    "schinken kase sandwich",
+    "schinkensandwich",
+    "sandwich",
+    "sandwiches",
+    "sandwich schinken kase",
+    "cheese and ham sandwich",
+    "kase schinken sandwich",
+    "sandwichdreieck",
+    "sandwich dreieck",
+    "triangle sandwich",
+    "meal deal sandwich",
+    "belegtes sandwich",
+    "schinken kase brotchen",
+    "schinkenbrotchen",
+    "schinkensemmel",
+    "kasesemmel",
+    "belegtes brotchen",
+    "ham roll",
+    "cheese roll"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "usda:2706965",
+     "name": "Ham sandwich on white, with cheese"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2706965",
+     "label": "1 regular",
+     "grams": 135
+    },
+    {
+     "reference": "usda:2706965",
+     "label": "1 large",
+     "grams": 205
+    },
+    {
+     "reference": "usda:2706965",
+     "label": "1 regular or 6\" submarine",
+     "grams": 205
+    },
+    {
+     "reference": "usda:2706965",
+     "label": "1 miniature/slider",
+     "grams": 70
+    }
+   ]
+  },
+  {
+   "key": "tuna sandwich",
+   "names": [
+    "tuna sandwich",
+    "thunfisch sandwich",
+    "tuna mayo sandwich",
+    "tuna salad sandwich",
+    "thunfischsandwich",
+    "tuna sweetcorn sandwich",
+    "sandwich mit thunfisch"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "usda:2707034",
+     "name": "Tuna salad sandwich on white"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2707034",
+     "label": "1 regular",
+     "grams": 180
+    },
+    {
+     "reference": "usda:2707034",
+     "label": "1 large",
+     "grams": 270
+    },
+    {
+     "reference": "usda:2707034",
+     "label": "1 regular or 6\" submarine",
+     "grams": 270
+    },
+    {
+     "reference": "usda:2707034",
+     "label": "1 miniature/slider",
+     "grams": 90
+    }
+   ]
+  },
+  {
+   "key": "chicken salad sandwich",
+   "names": [
+    "chicken salad sandwich",
+    "sandwich mit geflugelsalat",
+    "chicken mayo sandwich",
+    "coronation chicken sandwich",
+    "hahnchen sandwich",
+    "geflugelsalat sandwich",
+    "chicken salad sandwiches",
+    "sandwich mit hahnchen"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:X070460",
+     "name": "Sandwich with poultry salad (chicken)"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "club sandwich",
+   "names": [
+    "club sandwich",
+    "clubsandwich",
+    "club sandwiches",
+    "chicken club",
+    "clubsandwich mit hahnchen",
+    "club sandwich with chicken"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:X070160",
+     "name": "Club sandwich with chicken breast fillet, tomatoes, bacon and mayonnaise"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "blt sandwich",
+   "names": [
+    "blt sandwich",
+    "blt",
+    "bacon lettuce tomato",
+    "bacon lettuce and tomato sandwich",
+    "speck salat tomaten sandwich",
+    "b l t"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "usda:2706979",
+     "name": "Bacon, lettuce, tomato sandwich on white"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2706979",
+     "label": "1 sandwich, any size",
+     "grams": 105
+    }
+   ]
+  },
+  {
+   "key": "grilled cheese sandwich",
+   "names": [
+    "grilled cheese sandwich",
+    "gegrilltes kasesandwich",
+    "grilled cheese",
+    "cheese toastie",
+    "kasetoast",
+    "toasted cheese sandwich",
+    "kase toast",
+    "grilled cheese sandwiches",
+    "toastie"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "usda:2705801",
+     "name": "Grilled cheese sandwich, NFS"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2705801",
+     "label": "1 sandwich",
+     "grams": 116
+    }
+   ]
+  },
+  {
+   "key": "croque monsieur",
+   "names": [
+    "croque monsieur",
+    "croque",
+    "ham and cheese toastie",
+    "schinken kase toast",
+    "kase schinken toast",
+    "toasted ham and cheese",
+    "toast schinken kase",
+    "croque madame",
+    "sandwichtoast",
+    "schinken kase toast uberbacken"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "ciqual:25547",
+     "name": "Croque-monsieur, préemballé"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "ham and cheese baguette",
+   "names": [
+    "ham and cheese baguette",
+    "baguette mit schinken und kase",
+    "belegtes baguette",
+    "schinken kase baguette",
+    "baguette sandwich",
+    "ham baguette",
+    "sandwich baguette",
+    "baguette schinken kase",
+    "ham and cheese sub",
+    "filled baguette",
+    "baguette belegt"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:X060060",
+     "name": "Baguette roll with boiled ham, cheese, tomatoes and remoulade sauce"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "mozzarella sticks",
+   "names": [
+    "mozzarella sticks",
+    "mozzarella stick",
+    "mozzarellasticks",
+    "cheese sticks",
+    "fried mozzarella",
+    "panierter mozzarella",
+    "mozzarella sticks paniert",
+    "breaded mozzarella"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "usda:2705817",
+     "name": "Mozzarella sticks, breaded, baked, or fried"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2705817",
+     "label": "1 nugget",
+     "grams": 7
+    },
+    {
+     "reference": "usda:2705817",
+     "label": "1 piece or stick (4\" x 1\" x 3/4\")",
+     "grams": 44
+    },
+    {
+     "reference": "usda:2705817",
+     "label": "1 cup",
+     "grams": 115
+    },
+    {
+     "reference": "usda:2705817",
+     "label": "1 cubic inch",
+     "grams": 14.7
+    }
+   ]
+  },
+  {
+   "key": "pad thai",
+   "names": [
+    "pad thai",
+    "phad thai",
+    "gebratene reisnudeln",
+    "pad thai mit hahnchen",
+    "phat thai",
+    "padthai"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "usda:2708804",
+     "name": "Pad Thai, NFS"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2708804",
+     "label": "1 cup",
+     "grams": 200
+    }
+   ]
+  },
+  {
+   "key": "chicken doner",
+   "names": [
+    "chicken doner",
+    "hahnchendoner",
+    "hahnchen doner",
+    "geflugeldoner",
+    "chicken kebab",
+    "hahnchenkebab",
+    "huhnerdoner",
+    "hahnchen durum",
+    "chicken durum",
+    "chicken kebap",
+    "puten doner",
+    "putendoner"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:Y921162",
+     "name": "Doner kebab, flatbread filled with grilled poultry, salad and sauce"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "chicken burger",
+   "names": [
+    "chicken burger",
+    "chickenburger",
+    "chicken burgers",
+    "hahnchenburger",
+    "crispy chicken burger",
+    "chicken fillet burger",
+    "chicken sandwich",
+    "fried chicken sandwich",
+    "huhnchenburger"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:Y9A1000",
+     "name": "Chicken burger"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "hot dog",
+   "names": [
+    "hot dog",
+    "hotdog",
+    "hotdogs",
+    "danish hot dog",
+    "danischer hot dog",
+    "hot dog in a bun"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:Y021512",
+     "name": "Hot Dog"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "chicken strips",
+   "names": [
+    "chicken strips",
+    "chicken fingers",
+    "panierte hahnchenstreifen",
+    "chicken goujons",
+    "crispy chicken strips",
+    "breaded chicken strips",
+    "chicken crispies",
+    "hahnchen sticks",
+    "chicken tenderloins"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "usda:2706102",
+     "name": "Chicken tenders or strips, breaded, from frozen"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2706102",
+     "label": "1 tender or finger",
+     "grams": 17
+    },
+    {
+     "reference": "usda:2706102",
+     "label": "1 strip",
+     "grams": 40
+    },
+    {
+     "reference": "usda:2706102",
+     "label": "1 popcorn chicken",
+     "grams": 10
+    },
+    {
+     "reference": "usda:2706102",
+     "label": "1 chicken fry",
+     "grams": 14
+    },
+    {
+     "reference": "usda:2706102",
+     "label": "1 cup",
+     "grams": 140
+    }
+   ]
+  },
+  {
+   "key": "fried chicken wings",
+   "names": [
+    "fried chicken wings",
+    "frittierte chicken wings",
+    "hot wings",
+    "buffalo wings",
+    "fried wings",
+    "breaded chicken wings",
+    "chicken wings paniert",
+    "crispy wings",
+    "chicken wings fried"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "usda:2706067",
+     "name": "Chicken wing, fried, coated, from fast food"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2706067",
+     "label": "1 wing, any size",
+     "grams": 55
+    },
+    {
+     "reference": "usda:2706067",
+     "label": "1 drummette",
+     "grams": 22
+    }
+   ]
+  },
+  {
    "key": "cooked egg noodles",
    "names": [
     "cooked egg noodles",
@@ -32846,6 +36281,10 @@
     {
      "id": "bls:Y591112",
      "name": "Chicken breast fillet breaded, fried"
+    },
+    {
+     "id": "cofid:18-501",
+     "name": "Chicken pieces, coated, takeaway"
     }
    ],
    "measures": []
@@ -32898,6 +36337,10 @@
     {
      "id": "bls:V422072",
      "name": "Poultry kebab meat, grilled"
+    },
+    {
+     "id": "bls:Y921062",
+     "name": "Doner kebab, flatbread filled with grilled veal and beef, salad and sauce"
     }
    ],
    "measures": []
@@ -33902,6 +37345,10 @@
     {
      "id": "cofid:16-369",
      "name": "Cod, in batter, baked"
+    },
+    {
+     "id": "cofid:16-368",
+     "name": "Cod, in batter, fried, takeaway"
     }
    ],
    "measures": []
@@ -45309,6 +48756,40 @@
      "grams": 6.2
     }
    ]
+  },
+  {
+   "key": "cherry juice",
+   "names": [
+    "cherry juice",
+    "kirschsaft"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:F212600",
+     "name": "Sour cherry juice"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "hazelnut ice cream",
+   "names": [
+    "hazelnut ice cream",
+    "haselnusseis"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "bls:Y9A2020",
+     "name": "Hazelnut ice cream (with egg)"
+    }
+   ],
+   "measures": []
   }
  ]
 }

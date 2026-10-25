@@ -379,10 +379,11 @@
   },
   {
    "key": "italian sausage",
-   "unit": "portion",
-   "gramsPerUnit": 85,
+   "unit": "piece",
    "typical": 1,
-   "reason": "one cooked link or its crumbled meat"
+   "reason": "one cooked link or its crumbled meat",
+   "gramsPerUnit": 85,
+   "ignoreMeasures": "quality review 2026-10-24"
   },
   {
    "key": "curry sausage",
@@ -436,9 +437,10 @@
   {
    "key": "canned tuna in oil",
    "unit": "can",
+   "typical": 1,
+   "reason": "drained contents of a standard can",
    "gramsPerUnit": 140,
-   "typical": 0.5,
-   "reason": "drained contents of a standard can"
+   "ignoreMeasures": "quality review 2026-10-24"
   },
   {
    "key": "raw tuna",

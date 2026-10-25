@@ -1556,7 +1556,13 @@
       "id": "bls:B311000",
       "ingredient": "White bread/wheat bread",
       "displayName": "Wheat bread",
-      "displayNameDE": "Weizenbrot"
+      "displayNameDE": "Weißbrot",
+      "searchAliases": [
+        "Weizenbrot",
+        "Weißbrote",
+        "weisses Brot",
+        "Weissbrot"
+      ]
     },
     {
       "id": "bls:B101000",
@@ -1819,11 +1825,11 @@
       "id": "usda:2707598",
       "ingredient": "Bread, white",
       "displayName": "White bread",
-      "displayNameDE": "Weißbrot",
+      "displayNameDE": "Sandwichbrot",
       "searchAliases": [
         "white loaf",
         "Kastenweißbrot",
-        "Weißbrote"
+        "Sandwichbrot, amerikanisch"
       ]
     },
     {
@@ -2295,14 +2301,15 @@
       "displayName": "Red lentils, dried, raw",
       "displayNameDE": "Rote Linsen, getrocknet, roh",
       "searchAliases": [
-        "rote Linsen",
         "dried red lentils",
         "split red lentils",
         "rote Linsen getrocknet",
         "rote Linsen trocken",
         "masoor dal",
         "yellow lentils",
-        "gelbe Linsen"
+        "gelbe Linsen",
+        "rote Linsen, trocken",
+        "rote Linsen, roh"
       ]
     },
     {
@@ -4120,7 +4127,12 @@
         "fries",
         "Pommes",
         "Pommes frites",
-        "Fritten"
+        "Fritten",
+        "Pommes rot-weiß",
+        "Pommes Schranke",
+        "Pommes Ketchup",
+        "Pommes mit Ketchup",
+        "Pommes Mayo"
       ]
     },
     {
@@ -4285,7 +4297,10 @@
       "searchAliases": [
         "falafel",
         "Falafelbällchen",
-        "falafel balls"
+        "falafel balls",
+        "falafel plate",
+        "Falafelteller",
+        "Falafel-Teller"
       ]
     },
     {
@@ -4297,7 +4312,12 @@
         "spring roll",
         "spring rolls",
         "Frühlingsrolle",
-        "Frühlingsrollen"
+        "Frühlingsrollen",
+        "mini spring rolls",
+        "Mini-Frühlingsrollen",
+        "Mini Frühlingsrollen",
+        "egg roll",
+        "egg rolls"
       ]
     },
     {
@@ -6754,7 +6774,9 @@
         "Seelachs paniert",
         "fish finger",
         "fish stick",
-        "Fischstäbchen gebraten"
+        "Fischstäbchen gebraten",
+        "Fischstäbli",
+        "Fischstäbchen aus dem Ofen"
       ]
     },
     {
@@ -8070,7 +8092,6 @@
         "raisin loaf",
         "fruit loaf",
         "Rosinenstuten",
-        "Stuten",
         "Krentenstuten",
         "Rosinenbrote"
       ]
@@ -8756,12 +8777,8 @@
       "searchAliases": [
         "frozen fries",
         "frozen chips",
-        "oven chips",
-        "oven fries",
         "TK-Pommes",
         "Tiefkühlpommes",
-        "Backofen-Pommes",
-        "Ofenpommes",
         "frozen french fries"
       ]
     },
@@ -8863,9 +8880,7 @@
         "jarred roasted peppers",
         "Paprika gegrillt",
         "geröstete Paprika",
-        "Paprika aus dem Glas",
-        "pickled red peppers",
-        "eingelegte Paprika"
+        "Paprika aus dem Glas"
       ]
     },
     {
@@ -9654,7 +9669,8 @@
         "Erbsen-Möhren",
         "Erbsen mit Möhren",
         "Erbsen-Karotten",
-        "Erbsen und Möhren aus dem Glas"
+        "Erbsen und Möhren aus dem Glas",
+        "peas and carrots"
       ]
     },
     {
@@ -9666,14 +9682,13 @@
         "frozen peas and carrots",
         "TK Erbsen und Möhren",
         "Erbsen-Möhren TK",
-        "Erbsen und Karotten, tiefgekühlt",
-        "Peas and carrots"
+        "Erbsen und Karotten, tiefgekühlt"
       ]
     },
     {
       "id": "bls:G090200",
-      "ingredient": "Mixed vegetables (carrot, cauliflower, broccoli)",
-      "displayName": "Mixed vegetables (carrot, cauliflower, broccoli)",
+      "ingredient": "Broccoli, cauliflower and carrot mix",
+      "displayName": "Broccoli, cauliflower and carrot mix",
       "displayNameDE": "Kaisergemüse",
       "searchAliases": [
         "Kaisergemüse TK",
@@ -9686,8 +9701,8 @@
     },
     {
       "id": "bls:G920200",
-      "ingredient": "Mixed vegetables (peas, carrots, asparagus)",
-      "displayName": "Mixed vegetables (peas, carrots, asparagus)",
+      "ingredient": "Leipziger Allerlei (peas, carrots and asparagus)",
+      "displayName": "Leipziger Allerlei (peas, carrots and asparagus)",
       "displayNameDE": "Leipziger Allerlei",
       "searchAliases": [
         "Leipziger Allerlei TK",
@@ -10218,12 +10233,9 @@
         "canned peaches",
         "tinned peaches",
         "peach halves",
-        "peaches in syrup",
         "Dosenpfirsiche",
         "Pfirsichhälften",
-        "Pfirsiche in Sirup",
-        "Pfirsiche im Glas",
-        "Pfirsiche leicht gezuckert"
+        "Pfirsiche im Glas"
       ]
     },
     {
@@ -10693,10 +10705,6 @@
         "dried date",
         "getrocknete Datteln",
         "Trockendatteln",
-        "Medjool",
-        "Medjool dates",
-        "Medjool-Datteln",
-        "Medjooldatteln",
         "Deglet Nour"
       ]
     },
@@ -10970,7 +10978,6 @@
       "displayNameDE": "Laktosefreie fettarme Milch",
       "searchAliases": [
         "lactose-free low-fat milk",
-        "lactose-free skimmed milk",
         "fettarme Milch laktosefrei",
         "laktosefreie Milch 1,5 %",
         "laktosefreie fettarme H-Milch"
@@ -11021,8 +11028,8 @@
     },
     {
       "id": "bls:M252000",
-      "ingredient": "Buttermilk, fruit",
-      "displayName": "Buttermilk, fruit",
+      "ingredient": "Fruit buttermilk",
+      "displayName": "Fruit buttermilk",
       "displayNameDE": "Fruchtbuttermilch",
       "searchAliases": [
         "fruit buttermilk",
@@ -11310,8 +11317,8 @@
     },
     {
       "id": "bls:M241300",
-      "ingredient": "Yogurt, fruit",
-      "displayName": "Yogurt, fruit",
+      "ingredient": "Fruit yogurt",
+      "displayName": "Fruit yogurt",
       "displayNameDE": "Fruchtjoghurt",
       "searchAliases": [
         "fruit yogurt",
@@ -11327,8 +11334,8 @@
     },
     {
       "id": "bls:M2R8300",
-      "ingredient": "Yogurt, vanilla",
-      "displayName": "Yogurt, vanilla",
+      "ingredient": "Vanilla yogurt",
+      "displayName": "Vanilla yogurt",
       "displayNameDE": "Vanillejoghurt",
       "searchAliases": [
         "vanilla yogurt",
@@ -11354,8 +11361,8 @@
     },
     {
       "id": "bls:M241500",
-      "ingredient": "Cream yogurt, fruit",
-      "displayName": "Cream yogurt, fruit",
+      "ingredient": "Fruit cream yogurt",
+      "displayName": "Fruit cream yogurt",
       "displayNameDE": "Sahnejoghurt mit Frucht",
       "searchAliases": [
         "fruit cream yogurt",
@@ -11616,7 +11623,11 @@
         "Edam cheese",
         "Edamer Käse",
         "Eidamer",
-        "Edamer 40 %"
+        "Edamer 40 %",
+        "Babybel",
+        "Mini Babybel",
+        "Babybel cheese",
+        "Protein Babybel"
       ]
     },
     {
@@ -12067,7 +12078,6 @@
       "displayNameDE": "Rindertatar, roh",
       "searchAliases": [
         "Tatar",
-        "Tartar",
         "Schabefleisch",
         "Schabefleisch roh",
         "Rindertatar",
@@ -12078,24 +12088,6 @@
         "Hackfleisch mager",
         "Rinderschabefleisch",
         "Lean beef mince"
-      ]
-    },
-    {
-      "id": "bls:U013100",
-      "ingredient": "Beef patty, raw",
-      "displayName": "Beef patty, raw",
-      "displayNameDE": "Rinderpatty, roh",
-      "searchAliases": [
-        "raw burger patty",
-        "raw beef patty",
-        "raw hamburger patty",
-        "uncooked burger",
-        "Burgerpatty roh",
-        "Hamburger-Patty roh",
-        "Rinderpatties",
-        "beef burger raw",
-        "Burger Patties roh",
-        "Rinderpatty"
       ]
     },
     {
@@ -12240,7 +12232,11 @@
         "Gulasch vom Rind",
         "Saftgulasch",
         "beef goulash meat braised",
-        "Rindsragout"
+        "Rindsragout",
+        "Goulash",
+        "Gulasch",
+        "goulash",
+        "beef goulash"
       ]
     },
     {
@@ -12581,9 +12577,6 @@
       "displayNameDE": "Kalbshaxe, roh",
       "searchAliases": [
         "veal shin",
-        "osso buco",
-        "ossobuco",
-        "osso bucco",
         "Kalbshaxe",
         "Kalbshaxen",
         "Kalbshachse",
@@ -12606,7 +12599,10 @@
         "geschmorte Kalbshaxe",
         "Kalbshaxe gebraten",
         "Kalbsstelze gebraten",
-        "Kalbshaxn gebraten"
+        "Kalbshaxn gebraten",
+        "osso buco",
+        "ossobuco",
+        "osso bucco"
       ]
     },
     {
@@ -12753,7 +12749,6 @@
         "spareribs",
         "pork spare ribs",
         "baby back ribs",
-        "Rippchen",
         "Schälrippchen",
         "Spareribs roh",
         "Schweinerippe",
@@ -12842,8 +12837,7 @@
         "Schweinebraten mit Kruste",
         "Schwartenbraten gebraten",
         "Krustenbraten gebraten",
-        "bayerischer Schweinsbraten",
-        "crispy pork belly roast"
+        "bayerischer Schweinsbraten"
       ]
     },
     {
@@ -12853,17 +12847,11 @@
       "displayNameDE": "Schweinshaxe, roh",
       "searchAliases": [
         "pork shank",
-        "Schweinehaxe",
         "Schweinshaxn roh",
         "Schweinshachse",
         "Haxe roh",
         "Stelze roh",
-        "Schweinsstelze roh",
-        "Hachse",
-        "Schweinshaxn",
-        "Haxn",
-        "Stelze",
-        "Schweinsstelze"
+        "Schweinsstelze roh"
       ]
     },
     {
@@ -12878,7 +12866,13 @@
         "Grillhaxe",
         "Wiener Stelze",
         "Schweinshaxe gegrillt",
-        "Schweinshaxe knusprig"
+        "Schweinshaxe knusprig",
+        "Schweinehaxe",
+        "Schweinshaxn",
+        "Hachse",
+        "Haxn",
+        "Stelze",
+        "Schweinsstelze"
       ]
     },
     {
@@ -13002,8 +12996,7 @@
         "Lammkoteletts gegrillt",
         "Lammkotelett gebraten",
         "Lammkoteletts gebraten",
-        "Lammchops gegrillt",
-        "Lammracks gegrillt"
+        "Lammchops gegrillt"
       ]
     },
     {
@@ -13368,7 +13361,7 @@
       ]
     },
     {
-      "id": "ciqual:34001",
+      "id": "bls:V132100",
       "ingredient": "Rabbit, raw",
       "displayName": "Rabbit, raw",
       "displayNameDE": "Kaninchen, roh",
@@ -13388,7 +13381,7 @@
       ]
     },
     {
-      "id": "ciqual:34000",
+      "id": "bls:V132142",
       "ingredient": "Rabbit, braised",
       "displayName": "Rabbit, braised",
       "displayNameDE": "Kaninchen, geschmort",
@@ -13532,11 +13525,6 @@
       "searchAliases": [
         "raw chicken thigh",
         "raw chicken thighs",
-        "chicken thigh fillet",
-        "chicken thigh fillets",
-        "boneless chicken thigh",
-        "Hähnchenoberschenkelfilet",
-        "Hähnchenschenkelfilet",
         "Hühneroberschenkel",
         "Pouletschenkel",
         "Pouletoberschenkel",
@@ -13624,14 +13612,11 @@
       "searchAliases": [
         "whole chicken",
         "raw whole chicken",
-        "Hähnchen",
         "ganzes Hähnchen",
         "Brathähnchen roh",
         "Hähnchen roh",
-        "Huhn",
         "ganzes Huhn",
         "Masthähnchen",
-        "Poulet",
         "ganzes Poulet",
         "Hendl roh",
         "Maishähnchen",
@@ -13964,7 +13949,7 @@
       ]
     },
     {
-      "id": "bls:T417100",
+      "id": "usda:2684440",
       "ingredient": "Wild salmon, raw",
       "displayName": "Wild salmon, raw",
       "displayNameDE": "Wildlachs, roh",
@@ -14185,7 +14170,8 @@
         "Köhler",
         "Seelachsfilet",
         "Köhlerfilet",
-        "Steinköhler"
+        "Steinköhler",
+        "pollock"
       ]
     },
     {
@@ -14200,8 +14186,7 @@
         "cooked saithe",
         "gebratener Seelachs",
         "Seelachsfilet gebraten",
-        "Seelachs gegart",
-        "Pollock"
+        "Seelachs gegart"
       ]
     },
     {
@@ -14396,10 +14381,8 @@
       "searchAliases": [
         "halibut",
         "halibut fillet",
-        "Greenland halibut",
         "Heilbutt",
         "Weißer Heilbutt",
-        "Schwarzer Heilbutt",
         "Heilbuttfilet"
       ]
     },
@@ -14766,10 +14749,7 @@
       "displayName": "Sardines, raw",
       "displayNameDE": "Sardinen, roh",
       "searchAliases": [
-        "sardine",
-        "sardines",
         "fresh sardines",
-        "Sardinen",
         "frische Sardinen"
       ]
     },
@@ -14796,7 +14776,10 @@
         "Ölsardinen",
         "Sardinen in Olivenöl",
         "Sardinen aus der Dose",
-        "Sardinenkonserve"
+        "Sardinenkonserve",
+        "sardines",
+        "sardine",
+        "Sardinen"
       ]
     },
     {
@@ -14843,8 +14826,8 @@
       "searchAliases": [
         "cooked eel",
         "grilled eel",
-        "Bratal",
-        "gebratener Aal"
+        "gebratener Aal",
+        "Brataal"
       ]
     },
     {
@@ -15231,13 +15214,7 @@
       "ingredient": "Lobster, raw",
       "displayName": "Lobster, raw",
       "displayNameDE": "Hummer, roh",
-      "searchAliases": [
-        "lobster",
-        "lobster tail",
-        "Hummer",
-        "Hummerschwanz",
-        "Hummerschwänze"
-      ]
+      "searchAliases": []
     },
     {
       "id": "bls:T730132",
@@ -15249,7 +15226,12 @@
         "boiled lobster",
         "lobster meat",
         "gekochter Hummer",
-        "Hummerfleisch"
+        "Hummerfleisch",
+        "lobster",
+        "lobster tail",
+        "Hummer",
+        "Hummerschwanz",
+        "Hummerschwänze"
       ]
     },
     {
@@ -15290,14 +15272,13 @@
       "id": "usda:2706344",
       "ingredient": "Crab, cooked",
       "displayName": "Crab, cooked",
-      "displayNameDE": "Taschenkrebs, gekocht",
+      "displayNameDE": "Krebsfleisch, gekocht",
       "searchAliases": [
         "crab",
         "crab meat",
         "crabmeat",
         "cooked crab",
         "white crab meat",
-        "brown crab",
         "king crab",
         "snow crab",
         "crab legs",
@@ -15929,8 +15910,6 @@
         "kielbasas",
         "Polish sausage",
         "Polish sausages",
-        "smoked sausage",
-        "smoked sausages",
         "Krakow sausage",
         "Krakauer Aufschnitt"
       ]
@@ -15975,7 +15954,7 @@
       "id": "bls:W151000",
       "ingredient": "Smoked mettwurst",
       "displayName": "Smoked mettwurst",
-      "displayNameDE": "Mettenden",
+      "displayNameDE": "Mettwurst, schnittfest",
       "searchAliases": [
         "Mettende",
         "Mettenden sausage",
@@ -16075,8 +16054,7 @@
         "Geflügel-Fleischwurst",
         "chicken bologna",
         "poultry bologna",
-        "Hähnchenfleischwurst",
-        "Geflügelaufschnitt"
+        "Hähnchenfleischwurst"
       ]
     },
     {
@@ -16152,8 +16130,6 @@
         "tinned luncheon meat",
         "Frühstücksfleisch Dose",
         "Dosenfleisch",
-        "lunch meat",
-        "Lunchmeat",
         "Schinkenfrühstücksfleisch",
         "chopped pork"
       ]
@@ -16204,7 +16180,6 @@
         "pork liver pâté",
         "Leberpâté",
         "Leberpastete fein",
-        "Pastete",
         "country pâté",
         "pâté de campagne",
         "Landpastete"
@@ -16329,13 +16304,7 @@
       "displayName": "Lean smoked bacon",
       "displayNameDE": "Schinkenspeck",
       "searchAliases": [
-        "Tiroler Speck",
-        "Südtiroler Speck",
-        "Speck Alto Adige",
-        "Tyrolean speck",
-        "South Tyrolean speck",
         "Schinkenspeck Scheiben",
-        "Bauernspeck",
         "Kaminwurzspeck",
         "Karreespeck",
         "lean bacon"
@@ -16367,17 +16336,9 @@
         "Hamburger Rauchfleisch",
         "smoked beef",
         "cured beef",
-        "air-dried beef",
-        "dried beef",
-        "Bündnerfleisch",
-        "Bündner Fleisch",
-        "Bresaola",
-        "Mostbröckli",
-        "Trockenfleisch",
         "beef ham",
         "Rindersaftschinken",
         "Rinderrauchfleisch",
-        "Viande des Grisons",
         "Pökelfleisch vom Rind"
       ]
     },
@@ -16419,7 +16380,7 @@
       "id": "cofid:19-510",
       "ingredient": "Pork sausages, raw",
       "displayName": "Pork sausages, raw",
-      "displayNameDE": "Schweinswürstchen, roh",
+      "displayNameDE": "Englische Schweinswürstchen, roh",
       "searchAliases": [
         "raw pork sausages",
         "raw pork sausage",
@@ -16438,7 +16399,7 @@
       "id": "cofid:19-509",
       "ingredient": "Pork sausages, grilled",
       "displayName": "Pork sausages, grilled",
-      "displayNameDE": "Schweinswürstchen, gegrillt",
+      "displayNameDE": "Englische Schweinswürstchen, gegrillt",
       "searchAliases": [
         "pork sausages",
         "pork sausage",
@@ -16454,14 +16415,11 @@
         "Lincolnshire sausages",
         "chipolata",
         "chipolatas",
-        "grilled sausages",
-        "fried sausages",
         "Schweinewürstchen",
         "englische Würstchen",
         "britische Würstchen",
         "Toulouse sausage",
-        "pork and herb sausages",
-        "Schweinswürstchen"
+        "pork and herb sausages"
       ]
     },
     {
@@ -16529,11 +16487,6 @@
         "scrapple",
         "scrapple slices",
         "pon haus",
-        "Panhas",
-        "Pannhas",
-        "Westfälischer Panhas",
-        "Knipp",
-        "Grützwurst gebraten",
         "fried scrapple"
       ]
     },
@@ -17040,8 +16993,8 @@
         "uncooked buckwheat",
         "buckwheat groats, raw",
         "Buchweizen ungekocht",
-        "Buchweizenkörner",
-        "Buchweizengrütze, roh"
+        "Buchweizengrütze, roh",
+        "Buchweizenkörner, roh"
       ]
     },
     {
@@ -17653,10 +17606,11 @@
       "displayName": "Maize flour",
       "displayNameDE": "Maismehl",
       "searchAliases": [
-        "corn flour",
         "fine cornmeal",
         "Maismehl fein",
-        "maize meal fine"
+        "maize meal fine",
+        "maize meal",
+        "fine corn meal"
       ]
     },
     {
@@ -17746,7 +17700,10 @@
         "boiled red lentils",
         "gekochte rote Linsen",
         "rote Linsen gegart",
-        "Red lentils"
+        "Red lentils",
+        "rote Linsen",
+        "red lentil",
+        "rote Linse"
       ]
     },
     {
@@ -18150,8 +18107,7 @@
       "displayNameDE": "Seitan",
       "searchAliases": [
         "wheat meat",
-        "Weizenfleisch",
-        "wheat protein"
+        "Weizenfleisch"
       ]
     },
     {
@@ -18193,13 +18149,7 @@
       "displayName": "Veggie burger patty",
       "displayNameDE": "Veggie-Patty",
       "searchAliases": [
-        "veggie burger",
-        "vegan burger",
         "vegan patty",
-        "plant-based burger",
-        "vegetarian burger",
-        "veganer Burger",
-        "vegetarischer Burger",
         "vegane Burger-Patties",
         "Sojabratling",
         "Sojabratlinge",
@@ -18331,7 +18281,6 @@
         "almond flour",
         "ground almond",
         "Mandeln gemahlen",
-        "Mandelmehl",
         "gemahlene Mandelkerne"
       ]
     },
@@ -18702,7 +18651,6 @@
         "half-fat margarine",
         "Lätta",
         "Halbfett-Margarine",
-        "Diätmargarine",
         "Margarine light",
         "fettreduzierte Margarine"
       ]
@@ -19619,7 +19567,6 @@
       "displayNameDE": "Erdnusssoße",
       "searchAliases": [
         "satay sauce",
-        "satay",
         "peanut dipping sauce",
         "Erdnusssauce",
         "Erdnuss-Soße",
@@ -19702,8 +19649,7 @@
         "jellied cranberry sauce",
         "whole berry cranberry sauce",
         "Cranberry-Soße",
-        "Cranberrysauce",
-        "Preiselbeersoße"
+        "Cranberrysauce"
       ]
     },
     {
@@ -19767,7 +19713,7 @@
       "gramsPerMilliliter": 0.95
     },
     {
-      "id": "bls:X359912",
+      "id": "usda:2710203",
       "ingredient": "Italian dressing",
       "displayName": "Italian dressing",
       "displayNameDE": "Italian Dressing",
@@ -19816,7 +19762,6 @@
       "displayName": "Honey mustard dressing",
       "displayNameDE": "Honig-Senf-Dressing",
       "searchAliases": [
-        "honey mustard",
         "honey mustard sauce",
         "Senf-Honig-Dressing",
         "Honig-Senf-Soße",
@@ -19993,7 +19938,6 @@
       "displayName": "Multivitamin juice",
       "displayNameDE": "Multivitaminsaft",
       "searchAliases": [
-        "multivitamin",
         "Multivitamin-Saft",
         "multi-vitamin juice",
         "ACE juice",
@@ -20252,7 +20196,9 @@
         "red smoothie",
         "Mango smoothie",
         "berry smoothie",
-        "Beeren-Smoothie"
+        "Beeren-Smoothie",
+        "Beerensmoothie",
+        "mixed berry smoothie"
       ],
       "measure": "volume",
       "gramsPerMilliliter": 1.05
@@ -20392,7 +20338,7 @@
       "gramsPerMilliliter": 1.04
     },
     {
-      "id": "ciqual:18327",
+      "id": "ciqual:18010",
       "ingredient": "Lemon-lime soda",
       "displayName": "Lemon-lime soda",
       "displayNameDE": "Zitronen-Limetten-Limonade",
@@ -20448,9 +20394,7 @@
         "tonic",
         "Indian tonic water",
         "Tonicwasser",
-        "Chininwasser",
-        "bitter lemon",
-        "Bitterlemon"
+        "Chininwasser"
       ],
       "measure": "volume",
       "gramsPerMilliliter": 1.03
@@ -20705,8 +20649,7 @@
         "0.0 beer",
         "Bier 0,0",
         "alkoholfreies Helles",
-        "zero beer",
-        "Alkoholfreies"
+        "zero beer"
       ],
       "measure": "volume",
       "gramsPerMilliliter": 1.01
@@ -21369,7 +21312,7 @@
       "gramsPerMilliliter": 1.0
     },
     {
-      "id": "bls:P9A7000",
+      "id": "usda:2710662",
       "ingredient": "Piña colada",
       "displayName": "Piña colada",
       "displayNameDE": "Piña Colada",
@@ -21715,7 +21658,6 @@
         "chocolate teacake",
         "Tunnock's teacake",
         "Mallomars",
-        "chocolate kiss",
         "chocolate marshmallow treat",
         "Schokoladen-Schaumkuss"
       ]
@@ -22035,7 +21977,6 @@
         "popsicles",
         "ice pop",
         "freezer pop",
-        "Stieleis",
         "Calippo",
         "Flutschfinger",
         "fruit lolly",
@@ -22134,7 +22075,6 @@
       "searchAliases": [
         "Schokoladenmousse",
         "Schokomousse",
-        "mousse",
         "chocolate mousse pot",
         "Mousse au chocolat Becher"
       ]
@@ -22175,8 +22115,8 @@
     },
     {
       "id": "bls:Y860212",
-      "ingredient": "Jelly",
-      "displayName": "Jelly",
+      "ingredient": "Jelly dessert",
+      "displayName": "Jelly dessert",
       "displayNameDE": "Götterspeise",
       "searchAliases": [
         "jello",
@@ -23244,6 +23184,18 @@
         "Haferriegel",
         "Haferflockenriegel"
       ]
+    },
+    {
+      "id": "bls:F850100",
+      "ingredient": "Banana chips",
+      "displayName": "Banana chips",
+      "displayNameDE": "Bananenchips",
+      "searchAliases": [
+        "banana chip",
+        "Bananenchip",
+        "dried banana chips",
+        "getrocknete Bananenchips"
+      ]
     }
   ],
   "namedOnly": [
@@ -23279,6 +23231,14 @@
       "measure": "volume"
     },
     {
+      "id": "bls:P151100",
+      "ingredient": "Wheat beer",
+      "displayName": "Wheat beer",
+      "displayNameDE": "Weißbier",
+      "measure": "volume",
+      "gramsPerMilliliter": 1.01
+    },
+    {
       "id": "usda:2706096",
       "ingredient": "Chicken nuggets",
       "displayNameDE": "Chicken Nuggets (Tiefkühlware, zubereitet)"
@@ -23288,14 +23248,6 @@
       "ingredient": "Instant noodles",
       "displayName": "Instant noodles, prepared",
       "displayNameDE": "Instantnudeln, zubereitet"
-    },
-    {
-      "id": "bls:P151100",
-      "ingredient": "Wheat beer",
-      "displayName": "Wheat beer",
-      "displayNameDE": "Weißbier",
-      "measure": "volume",
-      "gramsPerMilliliter": 1.01
     }
   ],
   "drinks": [

@@ -1,5 +1,5 @@
 {
-  "version": 38,
+  "version": 41,
   "description": "Akari presentation classification. Unambiguous complete food names can correct contradictory source categories; otherwise exact source categories come first. Product-line rules apply only when the entire remaining name is a reviewed qualifier. Never infer nutrients, allergens, alcohol counts or verified status.",
   "taxonomySource": "https://openfoodfacts.github.io/documentation/docs/Product-Opener/schemas/schemas/product_tags/",
   "rules": [
@@ -5283,7 +5283,12 @@
       "terms": [
         "dango",
         "hanami dango",
-        "mitarashi dango"
+        "mitarashi dango",
+        "mochi",
+        "mochis",
+        "daifuku",
+        "mochi eis",
+        "mochi ice cream"
       ]
     },
     {
@@ -5812,7 +5817,12 @@
         "asian vegetables",
         "asian stir fry vegetables",
         "wokgemüse",
-        "asia gemüse"
+        "asia gemüse",
+        "kaisergemuse",
+        "kaisergemüse",
+        "broccoli cauliflower and carrot mix",
+        "leipziger allerlei peas carrots and asparagus",
+        "leipziger allerlei"
       ]
     },
     {
@@ -5880,6 +5890,19 @@
       ],
       "overridesCategories": [
         "powder"
+      ]
+    },
+    {
+      "id": "banana-chips",
+      "artworkID": "banana",
+      "priority": 80,
+      "tags": [],
+      "terms": [],
+      "exactTerms": [
+        "banana chips",
+        "bananenchips",
+        "banana chip",
+        "bananenchip"
       ]
     }
   ],
