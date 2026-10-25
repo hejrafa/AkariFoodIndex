@@ -1,0 +1,610 @@
+{
+ "batch": 26,
+ "drafted": "2026-10-24",
+ "drafter": "Claude in the Akari Claude Code session (staples sweep)",
+ "entries": [
+  {
+   "key": "frozen pizza margherita",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one whole frozen pizza (brief: a whole frozen pizza 350–400 g; FNDDS frozen small pizza 369 g)",
+   "gramsPerUnit": 350
+  },
+  {
+   "key": "frozen pizza salami",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one whole frozen pizza (brief: a whole frozen pizza 350–400 g)",
+   "gramsPerUnit": 380
+  },
+  {
+   "key": "frozen pizza tuna",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one whole frozen pizza (brief: a whole frozen pizza 350–400 g)",
+   "gramsPerUnit": 360
+  },
+  {
+   "key": "frozen pizza hawaiian",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one whole frozen pizza (brief: a whole frozen pizza 350–400 g)",
+   "gramsPerUnit": 380
+  },
+  {
+   "key": "frozen pizza ham",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one whole frozen pizza (brief: a whole frozen pizza 350–400 g)",
+   "gramsPerUnit": 370
+  },
+  {
+   "key": "frozen pizza mushroom",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one whole frozen pizza (brief: a whole frozen pizza 350–400 g)",
+   "gramsPerUnit": 360
+  },
+  {
+   "key": "frozen pizza four cheese",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one whole frozen pizza (brief: a whole frozen pizza 350–400 g; cheese pizzas run lighter)",
+   "gramsPerUnit": 340
+  },
+  {
+   "key": "frozen pizza vegetable",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one whole frozen pizza (FNDDS frozen pizza 369–652 g; brief 350–400 g)",
+   "gramsPerUnit": 370,
+   "ignoreMeasures": "USDA piece is one slice; people log the whole 370 g pizza"
+  },
+  {
+   "key": "pizza baguette",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one baguette half (typical frozen pizza baguette 125 g each, two per pack)",
+   "gramsPerUnit": 125
+  },
+  {
+   "key": "tarte flambee",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one frozen tarte flambée (typical frozen Flammkuchen 300–350 g)",
+   "gramsPerUnit": 300
+  },
+  {
+   "key": "calzone",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one pizzeria calzone (estimate: a pizzeria calzone 300–450 g)",
+   "gramsPerUnit": 350
+  },
+  {
+   "key": "lasagne",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one ready-meal tray (brief: a ready meal tray 350–450 g)",
+   "gramsPerUnit": 400
+  },
+  {
+   "key": "vegetable lasagne",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one ready-meal tray (brief: a ready meal tray 350–450 g)",
+   "gramsPerUnit": 400
+  },
+  {
+   "key": "beef cannelloni",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one ready-meal tray (brief: a ready meal tray 350–450 g)",
+   "gramsPerUnit": 400
+  },
+  {
+   "key": "spaghetti bolognese",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one ready-meal tray or plate (brief: a ready meal tray 350–450 g)",
+   "gramsPerUnit": 400
+  },
+  {
+   "key": "spaghetti carbonara",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one ready-meal tray or plate (brief: a ready meal tray 350–450 g)",
+   "gramsPerUnit": 400
+  },
+  {
+   "key": "pasta with tomato sauce",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one ready-meal tray or plate (brief: a ready meal tray 350–450 g)",
+   "gramsPerUnit": 400
+  },
+  {
+   "key": "tortellini in cream sauce",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one ready-meal tray (brief: a ready meal tray 350–450 g)",
+   "gramsPerUnit": 400
+  },
+  {
+   "key": "ravioli in tomato sauce canned",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "half an 800 g can (brief: a can 400 g; the usual German can holds 800 g, two servings)",
+   "gramsPerUnit": 400
+  },
+  {
+   "key": "kasespatzle",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one ready-meal tray or plate (brief: a ready meal tray 350–450 g)",
+   "gramsPerUnit": 400
+  },
+  {
+   "key": "macaroni and cheese",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one ready-meal tray or bowl (estimate: US mac and cheese ready meal 280–340 g)",
+   "gramsPerUnit": 300
+  },
+  {
+   "key": "chili con carne",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one ready-meal tray or half an 800 g can (brief: a ready meal tray 350–450 g)",
+   "gramsPerUnit": 400
+  },
+  {
+   "key": "nasi goreng ready meal",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one ready-meal tray or takeaway box (brief: a ready meal tray 350–450 g)",
+   "gramsPerUnit": 400
+  },
+  {
+   "key": "bami goreng ready meal",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one ready-meal tray or takeaway box (brief: a ready meal tray 350–450 g)",
+   "gramsPerUnit": 400
+  },
+  {
+   "key": "fried rice",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one takeaway box (estimate: a takeaway carton 300 g; FNDDS 1 cup 137 g)",
+   "gramsPerUnit": 300
+  },
+  {
+   "key": "chicken chow mein",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one takeaway box (estimate: a takeaway carton 350 g; FNDDS 1 cup 220 g)",
+   "gramsPerUnit": 350
+  },
+  {
+   "key": "pad thai",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one takeaway box or plate (estimate: a takeaway carton 350 g)",
+   "gramsPerUnit": 350
+  },
+  {
+   "key": "sweet and sour chicken",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one takeaway box (estimate: a takeaway carton 350 g; FNDDS 1 cup 252 g)",
+   "gramsPerUnit": 350
+  },
+  {
+   "key": "chicken tikka masala",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one ready meal or takeaway portion without rice (estimate: a ready meal curry 350 g)",
+   "gramsPerUnit": 350
+  },
+  {
+   "key": "thai green curry",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one takeaway portion without rice (estimate: a takeaway curry 350 g)",
+   "gramsPerUnit": 350
+  },
+  {
+   "key": "germknodel",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one dumpling with butter and poppy seed (estimate: a frozen Germknödel 120–170 g plus topping)",
+   "gramsPerUnit": 170
+  },
+  {
+   "key": "kaiserschmarrn",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one plate (estimate: a frozen Kaiserschmarrn pack 250–400 g for one or two)",
+   "gramsPerUnit": 250
+  },
+  {
+   "key": "fish bake bordelaise",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "half a 380 g tray, with sides (estimate: the usual tray holds 380 g for one or two)",
+   "gramsPerUnit": 190
+  },
+  {
+   "key": "cordon bleu",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one piece (estimate: a frozen or butcher cordon bleu 150–200 g)",
+   "gramsPerUnit": 180
+  },
+  {
+   "key": "chicken kiev",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one Kiev (estimate: UK frozen Kievs 125–140 g each; FNDDS whole breast 258 g)",
+   "gramsPerUnit": 140
+  },
+  {
+   "key": "fish cakes",
+   "unit": "piece",
+   "typical": 2,
+   "reason": "two fish cakes (estimate: frozen fish cakes 70–90 g each)",
+   "gramsPerUnit": 75
+  },
+  {
+   "key": "breaded camembert",
+   "unit": "piece",
+   "typical": 2,
+   "reason": "two pieces (estimate: frozen Backcamembert 75 g pieces, two per pack)",
+   "gramsPerUnit": 75
+  },
+  {
+   "key": "quiche lorraine",
+   "unit": "slice",
+   "typical": 1,
+   "reason": "one slice or individual quiche (estimate: a slice of quiche 120–160 g)",
+   "gramsPerUnit": 150
+  },
+  {
+   "key": "moussaka",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one ready-meal tray (brief: a ready meal tray 350–450 g)",
+   "gramsPerUnit": 400
+  },
+  {
+   "key": "cottage pie",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one ready-meal tray (brief: a ready meal tray 350–450 g)",
+   "gramsPerUnit": 400
+  },
+  {
+   "key": "fish pie",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one ready-meal tray (brief: a ready meal tray 350–450 g)",
+   "gramsPerUnit": 400
+  },
+  {
+   "key": "chicken pot pie",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one individual pie (FNDDS 1 individual pie 250 g)",
+   "gramsPerUnit": 250
+  },
+  {
+   "key": "steak pie",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one individual pie (estimate: an individual retail pie 200–250 g)",
+   "gramsPerUnit": 210
+  },
+  {
+   "key": "chicken and mushroom pie",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one individual pie (estimate: an individual retail pie 200–250 g)",
+   "gramsPerUnit": 200
+  },
+  {
+   "key": "sausage roll",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one bakery sausage roll (estimate: a bakery sausage roll 100–120 g)",
+   "gramsPerUnit": 110
+  },
+  {
+   "key": "pork pie",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one individual pork pie (estimate: an individual pork pie 130–150 g)",
+   "gramsPerUnit": 140
+  },
+  {
+   "key": "cornish pasty",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one pasty (estimate: a bakery pasty 200–250 g)",
+   "gramsPerUnit": 220
+  },
+  {
+   "key": "scotch egg",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one Scotch egg (estimate: a retail Scotch egg 113 g)",
+   "gramsPerUnit": 113
+  },
+  {
+   "key": "spinach and feta pastry",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one bakery pastry (estimate: a bakery pastry or börek piece 120–160 g)",
+   "gramsPerUnit": 140
+  },
+  {
+   "key": "pea soup",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "a deep plate, half an 800 g can (brief: a can of soup 400 g)",
+   "gramsPerUnit": 400
+  },
+  {
+   "key": "lentil soup",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "a deep plate, half an 800 g can (brief: a can of soup 400 g)",
+   "gramsPerUnit": 400
+  },
+  {
+   "key": "tomato soup",
+   "unit": "can",
+   "typical": 1,
+   "reason": "one 400 g can (brief: a can of soup 400 g)",
+   "gramsPerUnit": 400
+  },
+  {
+   "key": "goulash soup",
+   "unit": "can",
+   "typical": 1,
+   "reason": "one 400 g can (brief: a can of soup 400 g)",
+   "gramsPerUnit": 400
+  },
+  {
+   "key": "vegetable stew",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "a deep plate, half an 800 g can (brief: a can of soup 400 g)",
+   "gramsPerUnit": 400
+  },
+  {
+   "key": "vegetable soup",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one bowl (brief: half a can 200 g is a bowl; a soup bowl 250 g)",
+   "gramsPerUnit": 250
+  },
+  {
+   "key": "potato soup",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "a deep plate, half an 800 g can (brief: a can of soup 400 g)",
+   "gramsPerUnit": 400
+  },
+  {
+   "key": "chicken noodle soup",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one bowl (brief: half a can 200 g is a bowl; a soup bowl 250 g)",
+   "gramsPerUnit": 250
+  },
+  {
+   "key": "bean soup",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "a deep plate, half an 800 g can (brief: a can of soup 400 g)",
+   "gramsPerUnit": 400
+  },
+  {
+   "key": "minestrone",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one bowl (brief: half a can 200 g is a bowl; a soup bowl 250 g)",
+   "gramsPerUnit": 250
+  },
+  {
+   "key": "cream of mushroom soup",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one bowl (brief: half a can 200 g is a bowl; a soup bowl 250 g)",
+   "gramsPerUnit": 250
+  },
+  {
+   "key": "pumpkin soup",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one bowl (brief: half a can 200 g is a bowl; a soup bowl 250 g)",
+   "gramsPerUnit": 250
+  },
+  {
+   "key": "instant soup",
+   "unit": "cup",
+   "typical": 1,
+   "reason": "one cup made up with water (estimate: a cup soup 150–250 ml)",
+   "gramsPerUnit": 200
+  },
+  {
+   "key": "instant noodles prepared",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one cup or packet made up with water (brief: a cup noodle 70 g dry, 300 g prepared)",
+   "gramsPerUnit": 300
+  },
+  {
+   "key": "instant mashed potatoes",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one side portion made up with milk (estimate: a side of mash 200 g)",
+   "gramsPerUnit": 200
+  },
+  {
+   "key": "instant porridge",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one pot or sachet made up (FNDDS 1 microwave cup prepared 210 g)",
+   "gramsPerUnit": 210
+  },
+  {
+   "key": "chicken strips",
+   "unit": "piece",
+   "typical": 4,
+   "reason": "four strips (FNDDS 1 strip 40 g)",
+   "gramsPerUnit": 40
+  },
+  {
+   "key": "fried chicken wings",
+   "unit": "piece",
+   "typical": 4,
+   "reason": "four fried wings (USDA 1 wing, any size 55 g)",
+   "gramsPerUnit": 55
+  },
+  {
+   "key": "milkshake",
+   "unit": "cup",
+   "typical": 1,
+   "reason": "one small fast-food shake (FNDDS 1 small 405 g)",
+   "milliliters": 400
+  },
+  {
+   "key": "protein shake",
+   "unit": "bottle",
+   "typical": 1,
+   "reason": "one bottle (estimate: a ready-to-drink protein shake 250–500 ml)",
+   "milliliters": 330
+  },
+  {
+   "key": "meal replacement shake",
+   "unit": "bottle",
+   "typical": 1,
+   "reason": "one bottle (estimate: a 500 ml bottle (Yfood, Huel); medical drinks 200–240 ml)",
+   "milliliters": 500
+  },
+  {
+   "key": "pasta salad",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one side portion or salad pot (estimate: a deli pot 200–250 g)",
+   "gramsPerUnit": 200
+  },
+  {
+   "key": "couscous salad",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one salad pot (estimate: a chilled salad pot 200–250 g)",
+   "gramsPerUnit": 200
+  },
+  {
+   "key": "meat salad",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "spread on one roll or two slices (estimate: 50–75 g on bread)",
+   "gramsPerUnit": 60
+  },
+  {
+   "key": "sausage salad",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one plate (estimate: a Wurstsalat plate 200–250 g)",
+   "gramsPerUnit": 200
+  },
+  {
+   "key": "egg salad",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "filling for one sandwich or roll (FNDDS quantity not specified 111 g; as a spread 60–100 g)",
+   "gramsPerUnit": 80
+  },
+  {
+   "key": "tuna salad",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "filling for one sandwich or roll (estimate: 60–100 g as a filling)",
+   "gramsPerUnit": 80
+  },
+  {
+   "key": "chicken salad",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "a deli portion (estimate: 80–120 g)",
+   "gramsPerUnit": 100
+  },
+  {
+   "key": "herring salad",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "a deli portion (estimate: 120–180 g)",
+   "gramsPerUnit": 150
+  },
+  {
+   "key": "greek salad",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one salad bowl (estimate: a salad bowl 250–300 g)",
+   "gramsPerUnit": 250
+  },
+  {
+   "key": "ham and cheese sandwich",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one packed sandwich (brief: a sandwich 180 g; FNDDS regular 135 g, large 205 g)",
+   "gramsPerUnit": 170
+  },
+  {
+   "key": "tuna sandwich",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one packed sandwich (FNDDS regular 180 g)",
+   "gramsPerUnit": 180
+  },
+  {
+   "key": "chicken salad sandwich",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one packed sandwich (brief: a sandwich 180 g)",
+   "gramsPerUnit": 180
+  },
+  {
+   "key": "club sandwich",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one club sandwich (estimate: a three-slice club 220–280 g)",
+   "gramsPerUnit": 250
+  },
+  {
+   "key": "blt sandwich",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one sandwich (FNDDS 1 sandwich 105 g; packed BLTs run 150–180 g)",
+   "gramsPerUnit": 150
+  },
+  {
+   "key": "ham and cheese baguette",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one filled baguette (estimate: a filled half baguette 200–250 g)",
+   "gramsPerUnit": 220
+  },
+  {
+   "key": "mozzarella sticks",
+   "unit": "piece",
+   "typical": 5,
+   "reason": "five sticks (estimate: a frozen stick 20–30 g; FNDDS large stick 44 g)",
+   "gramsPerUnit": 25
+  }
+ ]
+}

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "about": "Every basic food a German or English supermarket sells, by category: its English and German name and the verified row for each state people log. Scripts/check_staples.py fails when a staple has no verified row, a row lacks a name in either language, the plain names do not find the row, or the row has no typical portion. Add a category by sweeping its foods; never remove a staple to make the check pass.",
+  "about": "Every basic food a German or English supermarket sells, by category: its English and German name and the verified row for each state people log. Scripts/check_staples.py fails when a staple has no verified row, a row lacks a name in either language, the plain names do not find the row, or the row has no typical portion. Add a category by sweeping its foods; never remove a staple to make the check pass. Convenience foods are staples only when sold sealed with a nutrition label (frozen pizzas, ready-meal trays, canned soups, instant noodles, chilled salads, shakes); their rows carry the product name (\"Lasagne, ready meal\"), never a bare dish name, which stays with the recipe catalogue. Takeaway and counter food (Döner, burgers, Currywurst, sushi) is never a verified row.",
   "categories": [
     {
       "key": "bread",
@@ -9064,6 +9064,818 @@
           "de": "Löffelbiskuits",
           "rows": {
             "plain": "bls:D710200"
+          }
+        }
+      ]
+    },
+    {
+      "key": "convenience",
+      "en": "Convenience foods (sealed products)",
+      "de": "Fertigprodukte",
+      "staples": [
+        {
+          "en": "Frozen pizza, margherita",
+          "de": "Tiefkühlpizza Margherita",
+          "rows": {
+            "plain": "bls:X912033"
+          }
+        },
+        {
+          "en": "Frozen pizza, salami",
+          "de": "Tiefkühlpizza Salami",
+          "rows": {
+            "plain": "bls:X914133"
+          }
+        },
+        {
+          "en": "Frozen pizza, tuna",
+          "de": "Tiefkühlpizza Thunfisch",
+          "rows": {
+            "plain": "bls:X915233"
+          }
+        },
+        {
+          "en": "Frozen pizza, Hawaiian",
+          "de": "Tiefkühlpizza Hawaii",
+          "rows": {
+            "plain": "bls:X9A5010"
+          }
+        },
+        {
+          "en": "Frozen pizza, ham",
+          "de": "Tiefkühlpizza Schinken",
+          "rows": {
+            "plain": "bls:X912412"
+          }
+        },
+        {
+          "en": "Frozen pizza, mushroom",
+          "de": "Tiefkühlpizza Funghi",
+          "rows": {
+            "plain": "bls:X912133"
+          }
+        },
+        {
+          "en": "Frozen pizza, four cheese",
+          "de": "Tiefkühlpizza Quattro Formaggi",
+          "rows": {
+            "plain": "bls:X912233"
+          }
+        },
+        {
+          "en": "Frozen pizza, vegetable",
+          "de": "Tiefkühlpizza Gemüse",
+          "rows": {
+            "plain": "usda:2708624"
+          }
+        },
+        {
+          "en": "Pizza baguette",
+          "de": "Pizzabaguette",
+          "rows": {
+            "plain": "bls:X987112"
+          }
+        },
+        {
+          "en": "Tarte flambée, ready meal",
+          "de": "Flammkuchen, Fertiggericht",
+          "rows": {
+            "plain": "bls:X934412"
+          }
+        },
+        {
+          "en": "Calzone, ready meal",
+          "de": "Calzone, Fertiggericht",
+          "rows": {
+            "plain": "usda:2708685"
+          }
+        },
+        {
+          "en": "Lasagne, ready meal",
+          "de": "Lasagne, Fertiggericht",
+          "rows": {
+            "plain": "bls:X730033"
+          }
+        },
+        {
+          "en": "Vegetable lasagne, ready meal",
+          "de": "Gemüselasagne, Fertiggericht",
+          "rows": {
+            "plain": "usda:2708759"
+          }
+        },
+        {
+          "en": "Beef cannelloni",
+          "de": "Cannelloni al forno",
+          "rows": {
+            "plain": "bls:X760533"
+          }
+        },
+        {
+          "en": "Spaghetti bolognese, ready meal",
+          "de": "Spaghetti Bolognese, Fertiggericht",
+          "rows": {
+            "plain": "bls:X740433"
+          }
+        },
+        {
+          "en": "Spaghetti carbonara, ready meal",
+          "de": "Spaghetti Carbonara, Fertiggericht",
+          "rows": {
+            "plain": "bls:X740733"
+          }
+        },
+        {
+          "en": "Pasta with tomato sauce",
+          "de": "Nudeln mit Tomatensauce",
+          "rows": {
+            "plain": "bls:X740933"
+          }
+        },
+        {
+          "en": "Tortellini in cream sauce, ready meal",
+          "de": "Tortellini in Sahnesauce, Fertiggericht",
+          "rows": {
+            "plain": "usda:2708791"
+          }
+        },
+        {
+          "en": "Ravioli in tomato sauce, canned",
+          "de": "Ravioli aus der Dose",
+          "rows": {
+            "plain": "bls:E901000"
+          }
+        },
+        {
+          "en": "Käsespätzle, ready meal",
+          "de": "Käsespätzle, Fertiggericht",
+          "rows": {
+            "plain": "bls:X711412"
+          }
+        },
+        {
+          "en": "Macaroni and cheese, ready meal",
+          "de": "Makkaroni mit Käse, Fertiggericht",
+          "rows": {
+            "plain": "usda:2708811"
+          }
+        },
+        {
+          "en": "Chili con carne, ready meal",
+          "de": "Chili con Carne, Fertiggericht",
+          "rows": {
+            "plain": "bls:X469753"
+          }
+        },
+        {
+          "en": "Nasi goreng, ready meal",
+          "de": "Nasi Goreng, Fertiggericht",
+          "rows": {
+            "plain": "bls:X891133"
+          }
+        },
+        {
+          "en": "Bami goreng, ready meal",
+          "de": "Bami Goreng, Fertiggericht",
+          "rows": {
+            "plain": "bls:X891212"
+          }
+        },
+        {
+          "en": "Fried rice",
+          "de": "Gebratener Reis",
+          "rows": {
+            "plain": "usda:2708952"
+          }
+        },
+        {
+          "en": "Chicken chow mein, ready meal",
+          "de": "Gebratene Nudeln mit Hähnchen, Fertiggericht",
+          "rows": {
+            "plain": "usda:2706687"
+          }
+        },
+        {
+          "en": "Pad thai, ready meal",
+          "de": "Pad Thai, Fertiggericht",
+          "rows": {
+            "plain": "usda:2708804"
+          }
+        },
+        {
+          "en": "Sweet and sour chicken, ready meal",
+          "de": "Hähnchen süß-sauer, Fertiggericht",
+          "rows": {
+            "plain": "usda:2706435"
+          }
+        },
+        {
+          "en": "Chicken tikka masala, ready meal",
+          "de": "Chicken Tikka Masala, Fertiggericht",
+          "rows": {
+            "plain": "cofid:19-296"
+          }
+        },
+        {
+          "en": "Thai green curry",
+          "de": "Thailändisches grünes Curry",
+          "rows": {
+            "plain": "cofid:19-465"
+          }
+        },
+        {
+          "en": "Germknödel, ready meal",
+          "de": "Germknödel, Fertiggericht",
+          "rows": {
+            "plain": "bls:X985162"
+          }
+        },
+        {
+          "en": "Kaiserschmarrn, ready meal",
+          "de": "Kaiserschmarrn, Fertiggericht",
+          "rows": {
+            "plain": "bls:Y890342"
+          }
+        },
+        {
+          "en": "Fish bake, Bordelaise",
+          "de": "Schlemmerfilet Bordelaise",
+          "rows": {
+            "plain": "bls:T935262"
+          }
+        },
+        {
+          "en": "Cordon bleu, ready meal",
+          "de": "Cordon bleu, Fertiggericht",
+          "rows": {
+            "plain": "bls:Y332832"
+          }
+        },
+        {
+          "en": "Chicken Kiev",
+          "de": "Hähnchen Kiew",
+          "rows": {
+            "plain": "usda:2706445"
+          }
+        },
+        {
+          "en": "Fish cakes",
+          "de": "Fischfrikadellen, Fertiggericht",
+          "rows": {
+            "plain": "bls:T930862"
+          }
+        },
+        {
+          "en": "Breaded camembert, ready meal",
+          "de": "Backcamembert, Fertiggericht",
+          "rows": {
+            "plain": "bls:Y780863"
+          }
+        },
+        {
+          "en": "Quiche lorraine, ready meal",
+          "de": "Quiche Lorraine, Fertiggericht",
+          "rows": {
+            "plain": "cofid:12-936"
+          }
+        },
+        {
+          "en": "Moussaka, ready meal",
+          "de": "Moussaka, Fertiggericht",
+          "rows": {
+            "plain": "bls:X6A3020"
+          }
+        },
+        {
+          "en": "Cottage pie, ready meal",
+          "de": "Cottage Pie, Fertiggericht",
+          "rows": {
+            "plain": "cofid:19-494"
+          }
+        },
+        {
+          "en": "Fish pie, ready meal",
+          "de": "Fischauflauf, Fertiggericht",
+          "rows": {
+            "plain": "cofid:16-410"
+          }
+        },
+        {
+          "en": "Chicken pot pie",
+          "de": "Hähnchen-Pot-Pie",
+          "rows": {
+            "plain": "usda:2706703"
+          }
+        },
+        {
+          "en": "Steak pie, ready meal",
+          "de": "Rindfleisch-Pie, Fertiggericht",
+          "rows": {
+            "plain": "cofid:18-506"
+          }
+        },
+        {
+          "en": "Chicken and mushroom pie",
+          "de": "Hähnchen-Pilz-Pie",
+          "rows": {
+            "plain": "cofid:19-559"
+          }
+        },
+        {
+          "en": "Sausage roll",
+          "de": "Würstchen im Blätterteig",
+          "rows": {
+            "plain": "cofid:19-468"
+          }
+        },
+        {
+          "en": "Pork pie",
+          "de": "Pork Pie",
+          "rows": {
+            "plain": "cofid:19-467"
+          }
+        },
+        {
+          "en": "Cornish pasty, ready meal",
+          "de": "Cornish Pasty, Fertiggericht",
+          "rows": {
+            "plain": "cofid:19-466"
+          }
+        },
+        {
+          "en": "Scotch egg, ready meal",
+          "de": "Scotch Egg, Fertiggericht",
+          "rows": {
+            "plain": "cofid:19-518"
+          }
+        },
+        {
+          "en": "Spinach and feta pastry",
+          "de": "Spinat-Feta-Tasche",
+          "rows": {
+            "plain": "bls:X9A3000"
+          }
+        },
+        {
+          "en": "Pea soup, ready meal",
+          "de": "Erbsensuppe, Fertiggericht",
+          "rows": {
+            "plain": "bls:X464433"
+          }
+        },
+        {
+          "en": "Lentil soup, ready meal",
+          "de": "Linsensuppe, Fertiggericht",
+          "rows": {
+            "plain": "bls:X4A8050"
+          }
+        },
+        {
+          "en": "Tomato soup, ready meal",
+          "de": "Tomatensuppe, Fertiggericht",
+          "rows": {
+            "plain": "bls:X444343"
+          }
+        },
+        {
+          "en": "Goulash soup, ready meal",
+          "de": "Gulaschsuppe, Fertiggericht",
+          "rows": {
+            "plain": "bls:U980400"
+          }
+        },
+        {
+          "en": "Vegetable stew, ready meal",
+          "de": "Gemüseeintopf, Fertiggericht",
+          "rows": {
+            "plain": "bls:X4A7000"
+          }
+        },
+        {
+          "en": "Vegetable soup, ready meal",
+          "de": "Gemüsesuppe, Fertiggericht",
+          "rows": {
+            "plain": "bls:X416713"
+          }
+        },
+        {
+          "en": "Potato soup, ready meal",
+          "de": "Kartoffelsuppe, Fertiggericht",
+          "rows": {
+            "plain": "bls:X449023"
+          }
+        },
+        {
+          "en": "Chicken noodle soup, ready meal",
+          "de": "Hühnernudelsuppe, Fertiggericht",
+          "rows": {
+            "plain": "bls:X452263"
+          }
+        },
+        {
+          "en": "Bean soup",
+          "de": "Bohnensuppe, Fertiggericht",
+          "rows": {
+            "plain": "bls:X4A8080"
+          }
+        },
+        {
+          "en": "Minestrone, ready meal",
+          "de": "Minestrone, Fertiggericht",
+          "rows": {
+            "plain": "bls:X425163"
+          }
+        },
+        {
+          "en": "Cream of mushroom soup, ready meal",
+          "de": "Champignoncremesuppe, Fertiggericht",
+          "rows": {
+            "plain": "bls:X448153"
+          }
+        },
+        {
+          "en": "Pumpkin soup, ready meal",
+          "de": "Kürbissuppe, Fertiggericht",
+          "rows": {
+            "plain": "bls:X445863"
+          }
+        },
+        {
+          "en": "Instant soup",
+          "de": "Tütensuppe",
+          "rows": {
+            "plain": "bls:G850132"
+          }
+        },
+        {
+          "en": "Instant noodles, prepared",
+          "de": "Instantnudeln, zubereitet",
+          "rows": {
+            "plain": "usda:2709152"
+          }
+        },
+        {
+          "en": "Instant mashed potatoes",
+          "de": "Kartoffelpüree aus der Packung",
+          "rows": {
+            "plain": "bls:X637012"
+          }
+        },
+        {
+          "en": "Instant porridge",
+          "de": "Instant-Porridge",
+          "rows": {
+            "plain": "usda:2708395"
+          }
+        },
+        {
+          "en": "Chicken nuggets",
+          "de": "Chicken Nuggets",
+          "rows": {
+            "plain": "usda:2706096"
+          }
+        },
+        {
+          "en": "Chicken strips",
+          "de": "Chicken Strips",
+          "rows": {
+            "plain": "usda:2706102"
+          }
+        },
+        {
+          "en": "Fried chicken wings",
+          "de": "Frittierte Chicken Wings",
+          "rows": {
+            "plain": "usda:2706067"
+          }
+        },
+        {
+          "en": "Battered fish",
+          "de": "Backfisch",
+          "rows": {
+            "plain": "cofid:16-368"
+          }
+        },
+        {
+          "en": "Milkshake",
+          "de": "Milchshake",
+          "rows": {
+            "plain": "usda:2705509"
+          }
+        },
+        {
+          "en": "Protein shake, ready meal",
+          "de": "Proteinshake, Fertiggericht",
+          "rows": {
+            "plain": "usda:2710726"
+          }
+        },
+        {
+          "en": "Meal replacement shake",
+          "de": "Trinkmahlzeit",
+          "rows": {
+            "plain": "usda:2710725"
+          }
+        },
+        {
+          "en": "Pasta salad, ready meal",
+          "de": "Nudelsalat, Fertiggericht",
+          "rows": {
+            "plain": "bls:X1A3010"
+          }
+        },
+        {
+          "en": "Couscous salad, ready meal",
+          "de": "Couscous-Salat, Fertiggericht",
+          "rows": {
+            "plain": "ciqual:25608"
+          }
+        },
+        {
+          "en": "Meat salad",
+          "de": "Fleischsalat",
+          "rows": {
+            "plain": "bls:W985000"
+          }
+        },
+        {
+          "en": "Sausage salad",
+          "de": "Wurstsalat",
+          "rows": {
+            "plain": "bls:X1A7020"
+          }
+        },
+        {
+          "en": "Egg salad, ready meal",
+          "de": "Eiersalat, Fertiggericht",
+          "rows": {
+            "plain": "usda:2707182"
+          }
+        },
+        {
+          "en": "Tuna salad, ready meal",
+          "de": "Thunfischsalat, Fertiggericht",
+          "rows": {
+            "plain": "bls:X1A8060"
+          }
+        },
+        {
+          "en": "Chicken salad, ready meal",
+          "de": "Geflügelsalat",
+          "rows": {
+            "plain": "bls:X1A4010"
+          }
+        },
+        {
+          "en": "Herring salad",
+          "de": "Heringssalat",
+          "rows": {
+            "plain": "bls:X1A8030"
+          }
+        },
+        {
+          "en": "Greek salad, ready meal",
+          "de": "Griechischer Salat, Fertiggericht",
+          "rows": {
+            "plain": "bls:X203850"
+          }
+        },
+        {
+          "en": "Ham and cheese sandwich, ready meal",
+          "de": "Sandwich mit Schinken und Käse, Fertiggericht",
+          "rows": {
+            "plain": "usda:2706965"
+          }
+        },
+        {
+          "en": "Tuna sandwich, ready meal",
+          "de": "Thunfisch-Sandwich, Fertiggericht",
+          "rows": {
+            "plain": "usda:2707034"
+          }
+        },
+        {
+          "en": "Chicken salad sandwich, ready meal",
+          "de": "Sandwich mit Geflügelsalat, Fertiggericht",
+          "rows": {
+            "plain": "bls:X070460"
+          }
+        },
+        {
+          "en": "Club sandwich, ready meal",
+          "de": "Clubsandwich, Fertiggericht",
+          "rows": {
+            "plain": "bls:X070160"
+          }
+        },
+        {
+          "en": "BLT sandwich, ready meal",
+          "de": "BLT-Sandwich, Fertiggericht",
+          "rows": {
+            "plain": "usda:2706979"
+          }
+        },
+        {
+          "en": "Ham and cheese baguette, ready meal",
+          "de": "Baguette mit Schinken und Käse, Fertiggericht",
+          "rows": {
+            "plain": "bls:X060060"
+          }
+        },
+        {
+          "en": "Mozzarella sticks",
+          "de": "Mozzarella-Sticks",
+          "rows": {
+            "plain": "usda:2705817"
+          }
+        },
+        {
+          "en": "Fish fingers",
+          "de": "Fischstäbchen",
+          "rows": {
+            "plain": "bls:Y695112"
+          }
+        },
+        {
+          "en": "French fries",
+          "de": "Pommes frites",
+          "rows": {
+            "plain": "bls:X654042"
+          }
+        },
+        {
+          "en": "Frozen fries",
+          "de": "Tiefkühlpommes",
+          "rows": {
+            "plain": "bls:K130200"
+          }
+        },
+        {
+          "en": "Potato croquettes",
+          "de": "Kroketten",
+          "rows": {
+            "plain": "bls:K282292"
+          }
+        },
+        {
+          "en": "Rösti",
+          "de": "Rösti",
+          "rows": {
+            "plain": "bls:X656362"
+          }
+        },
+        {
+          "en": "Hash browns",
+          "de": "Hash Browns",
+          "rows": {
+            "plain": "usda:2709483"
+          }
+        },
+        {
+          "en": "Potato wedges",
+          "de": "Kartoffelspalten",
+          "rows": {
+            "plain": "cofid:13-483"
+          }
+        },
+        {
+          "en": "Onion rings",
+          "de": "Zwiebelringe",
+          "rows": {
+            "plain": "usda:2710055"
+          }
+        },
+        {
+          "en": "Spring roll",
+          "de": "Frühlingsrolle",
+          "rows": {
+            "plain": "bls:X9A3030"
+          }
+        },
+        {
+          "en": "Dumplings",
+          "de": "Dumplings",
+          "rows": {
+            "plain": "usda:2708705"
+          }
+        },
+        {
+          "en": "Falafel",
+          "de": "Falafel",
+          "rows": {
+            "plain": "bls:Y9A1050"
+          }
+        },
+        {
+          "en": "Onigiri",
+          "de": "Onigiri",
+          "rows": {
+            "plain": "mext:01111"
+          }
+        },
+        {
+          "en": "Garlic bread",
+          "de": "Knoblauchbaguette",
+          "rows": {
+            "plain": "usda:2707628"
+          }
+        },
+        {
+          "en": "Veggie nuggets",
+          "de": "Vegetarische Nuggets",
+          "rows": {
+            "plain": "ciqual:25226"
+          }
+        },
+        {
+          "en": "Veggie burger patty",
+          "de": "Veggie-Patty",
+          "rows": {
+            "plain": "bls:H926100"
+          }
+        },
+        {
+          "en": "Maultaschen",
+          "de": "Maultaschen",
+          "rows": {
+            "plain": "bls:X760112"
+          }
+        },
+        {
+          "en": "Chicken curry",
+          "de": "Hähnchen-Curry",
+          "rows": {
+            "plain": "usda:2706437"
+          }
+        },
+        {
+          "en": "Goulash",
+          "de": "Gulasch",
+          "rows": {
+            "plain": "bls:U151142"
+          }
+        },
+        {
+          "en": "Miso soup",
+          "de": "Misosuppe",
+          "rows": {
+            "plain": "bls:X4A8060"
+          }
+        },
+        {
+          "en": "Potato salad",
+          "de": "Kartoffelsalat",
+          "rows": {
+            "plain": "bls:X1A2020"
+          }
+        },
+        {
+          "en": "Coleslaw",
+          "de": "Coleslaw",
+          "rows": {
+            "plain": "bls:X2A1030"
+          }
+        },
+        {
+          "en": "Green salad",
+          "de": "Grüner Salat",
+          "rows": {
+            "plain": "bls:X201160"
+          }
+        },
+        {
+          "en": "Cereal bar",
+          "de": "Müsliriegel",
+          "rows": {
+            "plain": "cofid:11-819"
+          }
+        },
+        {
+          "en": "Protein bar",
+          "de": "Proteinriegel",
+          "rows": {
+            "plain": "usda:2708124"
+          }
+        },
+        {
+          "en": "Smoothie",
+          "de": "Smoothie",
+          "rows": {
+            "plain": "bls:F033600"
+          }
+        },
+        {
+          "en": "Frozen pizza, margherita",
+          "de": "Tiefkühlpizza Margherita",
+          "rows": {
+            "plain": "bls:X912033"
+          }
+        },
+        {
+          "en": "Pizza baguette",
+          "de": "Pizzabaguette",
+          "rows": {
+            "plain": "bls:X987112"
           }
         }
       ]

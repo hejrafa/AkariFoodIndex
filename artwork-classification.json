@@ -1,5 +1,5 @@
 {
-  "version": 41,
+  "version": 43,
   "description": "Akari presentation classification. Unambiguous complete food names can correct contradictory source categories; otherwise exact source categories come first. Product-line rules apply only when the entire remaining name is a reviewed qualifier. Never infer nutrients, allergens, alcohol counts or verified status.",
   "taxonomySource": "https://openfoodfacts.github.io/documentation/docs/Product-Opener/schemas/schemas/product_tags/",
   "rules": [
@@ -1211,7 +1211,9 @@
         "そば",
         "うどん",
         "そうめん",
-        "中華めん"
+        "中華めん",
+        "bami goreng",
+        "pad thai"
       ]
     },
     {
@@ -1227,7 +1229,8 @@
         "steinofenpizza",
         "pizzabrot",
         "pizza dough",
-        "pizzateig"
+        "pizzateig",
+        "calzone"
       ]
     },
     {
@@ -1355,7 +1358,8 @@
         "gemüsebrühe",
         "potato soup",
         "スープ",
-        "vegetable stock"
+        "vegetable stock",
+        "minestrone"
       ],
       "compoundSuffixes": [
         "suppe",
@@ -2004,7 +2008,8 @@
         "scrapple",
         "pon haus",
         "panhas",
-        "pannhas"
+        "pannhas",
+        "cordon bleu"
       ],
       "ingredientCategories": [
         "tofu"
@@ -3748,7 +3753,13 @@
         "eggplant",
         "eggplants",
         "なす",
-        "caviar d aubergine"
+        "caviar d aubergine",
+        "moussaka",
+        "mousaka"
+      ],
+      "exactTerms": [
+        "moussaka ready meal",
+        "moussaka fertiggericht"
       ]
     },
     {
@@ -4240,7 +4251,8 @@
         "pancake",
         "pancakes",
         "pfannkuchen",
-        "eierkuchen"
+        "eierkuchen",
+        "kaiserschmarrn"
       ],
       "ingredientCategories": [
         "egg",
@@ -4346,7 +4358,31 @@
         "coleslaw",
         "cole slaw",
         "krautsalat",
-        "weißkrautsalat"
+        "weißkrautsalat",
+        "geflugelsalat",
+        "geflügelsalat",
+        "thunfischsalat"
+      ],
+      "exactTerms": [
+        "chicken salad ready meal",
+        "geflugelsalat fertiggericht",
+        "geflügelsalat fertiggericht",
+        "egg salad ready meal",
+        "eiersalat fertiggericht",
+        "tuna salad ready meal",
+        "thunfischsalat fertiggericht",
+        "pasta salad ready meal",
+        "nudelsalat fertiggericht",
+        "herring salad ready meal",
+        "heringssalat fertiggericht",
+        "meat salad ready meal",
+        "fleischsalat fertiggericht",
+        "sausage salad ready meal",
+        "wurstsalat fertiggericht",
+        "couscous salad ready meal",
+        "couscous salat fertiggericht",
+        "greek salad ready meal",
+        "griechischer salat fertiggericht"
       ]
     },
     {
@@ -4426,7 +4462,9 @@
         "spring roll",
         "spring rolls",
         "frühlingsrolle",
-        "frühlingsrollen"
+        "frühlingsrollen",
+        "germknodel",
+        "germknödel"
       ]
     },
     {
@@ -4589,7 +4627,10 @@
         "phyllo pastry",
         "filoteig",
         "yufka",
-        "yufkateig"
+        "yufkateig",
+        "cornish pasty",
+        "pasty",
+        "pasties"
       ]
     },
     {
@@ -4802,7 +4843,10 @@
         "congee",
         "reispudding",
         "porridge rice",
-        "かゆ"
+        "かゆ",
+        "nasi goreng",
+        "fried rice",
+        "gebratener reis"
       ]
     },
     {

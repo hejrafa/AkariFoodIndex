@@ -1672,6 +1672,27 @@
    "draft": "batch-1"
   },
   {
+   "key": "bami goreng ready meal",
+   "names": [
+    "bami goreng ready meal",
+    "bami goreng fertiggericht"
+   ],
+   "references": [
+    "bls:X891212"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 400,
+   "source": {
+    "kind": "estimate",
+    "reason": "one ready-meal tray or takeaway box (brief: a ready meal tray 350–450 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-26"
+  },
+  {
    "key": "banana bread",
    "names": [
     "banana bread",
@@ -2071,6 +2092,35 @@
    "draft": "batch-13"
   },
   {
+   "key": "bean soup",
+   "names": [
+    "bean soup",
+    "bohnensuppe",
+    "weiße bohnen suppe",
+    "weiße bohnensuppe",
+    "bohneneintopf",
+    "white bean soup",
+    "serbische bohnensuppe",
+    "bohnensuppe aus der dose",
+    "bean stew",
+    "bohnen eintopf"
+   ],
+   "references": [
+    "bls:X4A8080"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 400,
+   "source": {
+    "kind": "estimate",
+    "reason": "a deep plate, half an 800 g can (brief: a can of soup 400 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-26"
+  },
+  {
    "key": "bean sprouts",
    "names": [
     "bean sprouts",
@@ -2309,6 +2359,32 @@
    "origin": "generated",
    "date": "2026-10-01",
    "draft": "batch-5"
+  },
+  {
+   "key": "beef cannelloni",
+   "names": [
+    "beef cannelloni",
+    "cannelloni al forno",
+    "baked cannelloni",
+    "cannelloni mit hackfleisch",
+    "cannelloni bolognese",
+    "canneloni",
+    "cannelloni uberbacken"
+   ],
+   "references": [
+    "bls:X760533"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 400,
+   "source": {
+    "kind": "estimate",
+    "reason": "one ready-meal tray (brief: a ready meal tray 350–450 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-26"
   },
   {
    "key": "beef chuck raw",
@@ -4012,6 +4088,31 @@
    "draft": "batch-6"
   },
   {
+   "key": "blt sandwich",
+   "names": [
+    "blt sandwich",
+    "blt",
+    "bacon lettuce tomato",
+    "bacon lettuce and tomato sandwich",
+    "speck salat tomaten sandwich",
+    "b l t"
+   ],
+   "references": [
+    "usda:2706979"
+   ],
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 150,
+   "source": {
+    "kind": "estimate",
+    "reason": "one sandwich (FNDDS 1 sandwich 105 g; packed BLTs run 150–180 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-26"
+  },
+  {
    "key": "blue cheese",
    "names": [
     "blue cheese",
@@ -4758,6 +4859,35 @@
    "origin": "generated",
    "date": "2026-10-24",
    "draft": "batch-12"
+  },
+  {
+   "key": "breaded camembert",
+   "names": [
+    "breaded camembert",
+    "backcamembert",
+    "fried camembert",
+    "camembert paniert",
+    "gebackener camembert",
+    "deep fried camembert",
+    "back camembert",
+    "panierter camembert",
+    "backcamembert mit preiselbeeren",
+    "baked camembert breaded"
+   ],
+   "references": [
+    "bls:Y780863"
+   ],
+   "unit": "piece",
+   "typical": 2,
+   "gramsPerUnit": 75,
+   "source": {
+    "kind": "estimate",
+    "reason": "two pieces (estimate: frozen Backcamembert 75 g pieces, two per pack)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-26"
   },
   {
    "key": "breaded chicken breast",
@@ -5833,6 +5963,29 @@
    "origin": "generated",
    "date": "2026-10-24",
    "draft": "batch-24"
+  },
+  {
+   "key": "calzone",
+   "names": [
+    "calzone",
+    "calzones",
+    "pizza calzone",
+    "folded pizza"
+   ],
+   "references": [
+    "usda:2708685"
+   ],
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 350,
+   "source": {
+    "kind": "estimate",
+    "reason": "one pizzeria calzone (estimate: a pizzeria calzone 300–450 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-26"
   },
   {
    "key": "camembert",
@@ -7850,6 +8003,31 @@
    "draft": "batch-1"
   },
   {
+   "key": "chicken and mushroom pie",
+   "names": [
+    "chicken and mushroom pie",
+    "hahnchen pilz pie",
+    "chicken pie",
+    "chicken mushroom pie",
+    "chicken and mushroom pies",
+    "huhnchen pie"
+   ],
+   "references": [
+    "cofid:19-559"
+   ],
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 200,
+   "source": {
+    "kind": "estimate",
+    "reason": "one individual pie (estimate: an individual retail pie 200–250 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-26"
+  },
+  {
    "key": "chicken boiled",
    "names": [
     "chicken boiled",
@@ -8045,6 +8223,36 @@
    "origin": "generated",
    "date": "2026-10-24",
    "draft": "batch-18"
+  },
+  {
+   "key": "chicken chow mein",
+   "names": [
+    "chicken chow mein",
+    "gebratene nudeln mit hahnchen",
+    "chow mein",
+    "chowmein",
+    "gebratene nudeln",
+    "fried noodles",
+    "chinese fried noodles",
+    "chop suey",
+    "gebratene mie nudeln",
+    "gebratene nudeln mit huhn",
+    "chow mein mit hahnchen"
+   ],
+   "references": [
+    "usda:2706687"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 350,
+   "source": {
+    "kind": "estimate",
+    "reason": "one takeaway box (estimate: a takeaway carton 350 g; FNDDS 1 cup 220 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-26"
   },
   {
    "key": "chicken deli meat",
@@ -8248,6 +8456,33 @@
    "draft": "batch-2"
   },
   {
+   "key": "chicken kiev",
+   "names": [
+    "chicken kiev",
+    "hahnchen kiew",
+    "chicken kiew",
+    "hahnchenbrust kiew",
+    "chicken kievs",
+    "kiev",
+    "garlic butter chicken",
+    "hahnchen kiev"
+   ],
+   "references": [
+    "usda:2706445"
+   ],
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 140,
+   "source": {
+    "kind": "estimate",
+    "reason": "one Kiev (estimate: UK frozen Kievs 125–140 g each; FNDDS whole breast 258 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-26"
+  },
+  {
    "key": "chicken leg raw",
    "names": [
     "chicken leg raw",
@@ -8350,6 +8585,37 @@
    "draft": "batch-5"
   },
   {
+   "key": "chicken noodle soup",
+   "names": [
+    "chicken noodle soup",
+    "huhnernudelsuppe",
+    "huhnersuppe",
+    "nudelsuppe",
+    "huhnersuppe mit nudeln",
+    "huhner nudelsuppe",
+    "huhnernudeleintopf",
+    "huhnersuppe aus der dose",
+    "hendlsuppe",
+    "nudelsuppe mit huhn",
+    "canned chicken soup",
+    "chicken noodle"
+   ],
+   "references": [
+    "bls:X452263"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 250,
+   "source": {
+    "kind": "estimate",
+    "reason": "one bowl (brief: half a can 200 g is a bowl; a soup bowl 250 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-26"
+  },
+  {
    "key": "chicken ns as to part fried coated skin coating eaten",
    "names": [
     "chicken ns as to part fried coated skin coating eaten"
@@ -8391,6 +8657,87 @@
    "origin": "generated",
    "date": "2026-10-01",
    "draft": "batch-3"
+  },
+  {
+   "key": "chicken pot pie",
+   "names": [
+    "chicken pot pie",
+    "hahnchen pot pie",
+    "pot pie",
+    "chicken potpie",
+    "chicken pot pies",
+    "frozen pot pie"
+   ],
+   "references": [
+    "usda:2706703"
+   ],
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 250,
+   "source": {
+    "kind": "estimate",
+    "reason": "one individual pie (FNDDS 1 individual pie 250 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-26"
+  },
+  {
+   "key": "chicken salad",
+   "names": [
+    "chicken salad",
+    "geflugelsalat",
+    "hahnchensalat",
+    "chicken mayo",
+    "geflugelsalat mit mayonnaise",
+    "huhnersalat",
+    "chicken salad spread",
+    "coronation chicken",
+    "geflugelsalat mit ananas",
+    "huhnchensalat"
+   ],
+   "references": [
+    "bls:X1A4010"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 100,
+   "source": {
+    "kind": "estimate",
+    "reason": "a deli portion (estimate: 80–120 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-26"
+  },
+  {
+   "key": "chicken salad sandwich",
+   "names": [
+    "chicken salad sandwich",
+    "sandwich mit geflugelsalat",
+    "chicken mayo sandwich",
+    "coronation chicken sandwich",
+    "hahnchen sandwich",
+    "geflugelsalat sandwich",
+    "chicken salad sandwiches",
+    "sandwich mit hahnchen"
+   ],
+   "references": [
+    "bls:X070460"
+   ],
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 180,
+   "source": {
+    "kind": "estimate",
+    "reason": "one packed sandwich (brief: a sandwich 180 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-26"
   },
   {
    "key": "chicken stock",
@@ -8447,6 +8794,34 @@
    "draft": "batch-23"
   },
   {
+   "key": "chicken strips",
+   "names": [
+    "chicken strips",
+    "chicken fingers",
+    "panierte hahnchenstreifen",
+    "chicken goujons",
+    "crispy chicken strips",
+    "breaded chicken strips",
+    "chicken crispies",
+    "hahnchen sticks",
+    "chicken tenderloins"
+   ],
+   "references": [
+    "usda:2706102"
+   ],
+   "unit": "piece",
+   "typical": 4,
+   "gramsPerUnit": 40,
+   "source": {
+    "kind": "estimate",
+    "reason": "four strips (FNDDS 1 strip 40 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-26"
+  },
+  {
    "key": "chicken thigh raw",
    "names": [
     "chicken thigh raw",
@@ -8476,6 +8851,33 @@
    "origin": "generated",
    "date": "2026-10-24",
    "draft": "batch-18"
+  },
+  {
+   "key": "chicken tikka masala",
+   "names": [
+    "chicken tikka masala",
+    "tikka masala",
+    "chicken tikka",
+    "hahnchen tikka masala",
+    "butter chicken",
+    "murgh makhani",
+    "chicken masala",
+    "tikka masala huhn"
+   ],
+   "references": [
+    "cofid:19-296"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 350,
+   "source": {
+    "kind": "estimate",
+    "reason": "one ready meal or takeaway portion without rice (estimate: a ready meal curry 350 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-26"
   },
   {
    "key": "chicken wings raw",
@@ -8607,6 +9009,33 @@
    "origin": "generated",
    "date": "2026-10-24",
    "draft": "batch-22"
+  },
+  {
+   "key": "chili con carne",
+   "names": [
+    "chili con carne",
+    "chilli con carne",
+    "chili con carne aus der dose",
+    "canned chili",
+    "beef chili",
+    "chili with beans",
+    "chili mit hackfleisch",
+    "chili con carne dose"
+   ],
+   "references": [
+    "bls:X469753"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 400,
+   "source": {
+    "kind": "estimate",
+    "reason": "one ready-meal tray or half an 800 g can (brief: a ready meal tray 350–450 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-26"
   },
   {
    "key": "chili powder",
@@ -9784,6 +10213,31 @@
    "origin": "generated",
    "date": "2026-10-01",
    "draft": "batch-2"
+  },
+  {
+   "key": "club sandwich",
+   "names": [
+    "club sandwich",
+    "clubsandwich",
+    "club sandwiches",
+    "chicken club",
+    "clubsandwich mit hahnchen",
+    "club sandwich with chicken"
+   ],
+   "references": [
+    "bls:X070160"
+   ],
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 250,
+   "source": {
+    "kind": "estimate",
+    "reason": "one club sandwich (estimate: a three-slice club 220–280 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-26"
   },
   {
    "key": "coated peanuts",
@@ -11634,6 +12088,35 @@
    "draft": "batch-6"
   },
   {
+   "key": "cordon bleu",
+   "names": [
+    "cordon bleu",
+    "cordon bleu vom schwein",
+    "pork cordon bleu",
+    "schnitzel cordon bleu",
+    "chicken cordon bleu",
+    "hahnchen cordon bleu",
+    "puten cordon bleu",
+    "cordon blue",
+    "kalbs cordon bleu",
+    "cordon bleu paniert"
+   ],
+   "references": [
+    "bls:Y332832"
+   ],
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 180,
+   "source": {
+    "kind": "estimate",
+    "reason": "one piece (estimate: a frozen or butcher cordon bleu 150–200 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-26"
+  },
+  {
    "key": "coriander leaves dried",
    "names": [
     "coriander leaves dried",
@@ -11847,6 +12330,32 @@
    "date": "2026-10-07"
   },
   {
+   "key": "cornish pasty",
+   "names": [
+    "cornish pasty",
+    "pasty",
+    "pasties",
+    "cornish pasties",
+    "steak pasty",
+    "beef pasty",
+    "fleischtasche"
+   ],
+   "references": [
+    "cofid:19-466"
+   ],
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 220,
+   "source": {
+    "kind": "estimate",
+    "reason": "one pasty (estimate: a bakery pasty 200–250 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-26"
+  },
+  {
    "key": "cornstarch",
    "names": [
     "cornstarch",
@@ -11921,6 +12430,30 @@
    "draft": "batch-2"
   },
   {
+   "key": "cottage pie",
+   "names": [
+    "cottage pie",
+    "shepherd s pie",
+    "shepherds pie",
+    "cottage pie ready meal",
+    "hackfleisch kartoffelbrei auflauf"
+   ],
+   "references": [
+    "cofid:19-494"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 400,
+   "source": {
+    "kind": "estimate",
+    "reason": "one ready-meal tray (brief: a ready meal tray 350–450 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-26"
+  },
+  {
    "key": "couscous raw",
    "names": [
     "couscous raw",
@@ -11945,6 +12478,33 @@
    "origin": "generated",
    "date": "2026-10-24",
    "draft": "batch-21"
+  },
+  {
+   "key": "couscous salad",
+   "names": [
+    "couscous salad",
+    "couscous salat",
+    "couscoussalat",
+    "tabbouleh",
+    "taboule",
+    "tabouleh",
+    "tabule",
+    "couscous salad pot"
+   ],
+   "references": [
+    "ciqual:25608"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 200,
+   "source": {
+    "kind": "estimate",
+    "reason": "one salad pot (estimate: a chilled salad pot 200–250 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-26"
   },
   {
    "key": "crab cake",
@@ -12323,6 +12883,34 @@
    "origin": "generated",
    "date": "2026-10-24",
    "draft": "batch-24"
+  },
+  {
+   "key": "cream of mushroom soup",
+   "names": [
+    "cream of mushroom soup",
+    "champignoncremesuppe",
+    "mushroom soup",
+    "pilzsuppe",
+    "pilzcremesuppe",
+    "champignonsuppe",
+    "schwammerlsuppe",
+    "cream of mushroom",
+    "champignon cremesuppe"
+   ],
+   "references": [
+    "bls:X448153"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 250,
+   "source": {
+    "kind": "estimate",
+    "reason": "one bowl (brief: half a can 200 g is a bowl; a soup bowl 250 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-26"
   },
   {
    "key": "cream puff",
@@ -14025,6 +14613,33 @@
    "draft": "batch-4"
   },
   {
+   "key": "egg salad",
+   "names": [
+    "egg salad",
+    "eiersalat",
+    "egg mayo",
+    "egg mayonnaise",
+    "eiersalat mit mayonnaise",
+    "egg salad spread",
+    "eiersalat mit mayo",
+    "eiaufstrich"
+   ],
+   "references": [
+    "usda:2707182"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 80,
+   "source": {
+    "kind": "estimate",
+    "reason": "filling for one sandwich or roll (FNDDS quantity not specified 111 g; as a spread 60–100 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-26"
+  },
+  {
    "key": "egg white",
    "names": [
     "egg white",
@@ -14858,6 +15473,67 @@
    "draft": "batch-3"
   },
   {
+   "key": "fish bake bordelaise",
+   "names": [
+    "fish bake bordelaise",
+    "schlemmerfilet bordelaise",
+    "schlemmerfilet",
+    "schlemmer filet",
+    "fischfilet bordelaise",
+    "fish bake",
+    "baked fish with crumb topping",
+    "fischfilet mit krauterkruste",
+    "ofenfisch",
+    "schlemmerfilet a la bordelaise",
+    "alaska seelachs bordelaise"
+   ],
+   "references": [
+    "bls:T935262"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 190,
+   "source": {
+    "kind": "estimate",
+    "reason": "half a 380 g tray, with sides (estimate: the usual tray holds 380 g for one or two)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-26"
+  },
+  {
+   "key": "fish cakes",
+   "names": [
+    "fish cakes",
+    "fischfrikadellen",
+    "fishcake",
+    "fishcakes",
+    "fish cake",
+    "fischfrikadelle",
+    "fischbulette",
+    "fischbuletten",
+    "fischkuchle",
+    "fischlaibchen",
+    "fischplatzchen",
+    "fischlaiberl"
+   ],
+   "references": [
+    "bls:T930862"
+   ],
+   "unit": "piece",
+   "typical": 2,
+   "gramsPerUnit": 75,
+   "source": {
+    "kind": "estimate",
+    "reason": "two fish cakes (estimate: frozen fish cakes 70–90 g each)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-26"
+  },
+  {
    "key": "fish fingers",
    "names": [
     "fish fingers",
@@ -14879,6 +15555,31 @@
    "origin": "generated",
    "date": "2026-10-01",
    "draft": "batch-3"
+  },
+  {
+   "key": "fish pie",
+   "names": [
+    "fish pie",
+    "fischauflauf",
+    "fish pie ready meal",
+    "fisch pie",
+    "fischauflauf mit kartoffelpuree",
+    "fisherman s pie"
+   ],
+   "references": [
+    "cofid:16-410"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 400,
+   "source": {
+    "kind": "estimate",
+    "reason": "one ready-meal tray (brief: a ready meal tray 350–450 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-26"
   },
   {
    "key": "fish salmon cake or patty",
@@ -15506,6 +16207,34 @@
    "draft": "batch-3"
   },
   {
+   "key": "fried chicken wings",
+   "names": [
+    "fried chicken wings",
+    "frittierte chicken wings",
+    "hot wings",
+    "buffalo wings",
+    "fried wings",
+    "breaded chicken wings",
+    "chicken wings paniert",
+    "crispy wings"
+   ],
+   "references": [
+    "usda:2706067"
+   ],
+   "unit": "piece",
+   "typical": 4,
+   "gramsPerUnit": 55,
+   "source": {
+    "kind": "household-measure",
+    "reference": "usda:2706067",
+    "label": "1 wing, any size"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-26"
+  },
+  {
    "key": "fried egg",
    "names": [
     "fried egg",
@@ -15577,6 +16306,34 @@
    "origin": "generated",
    "date": "2026-10-01",
    "draft": "batch-2"
+  },
+  {
+   "key": "fried rice",
+   "names": [
+    "fried rice",
+    "gebratener reis",
+    "egg fried rice",
+    "chinese fried rice",
+    "gebratener reis mit ei",
+    "reis gebraten",
+    "special fried rice",
+    "chinesischer gebratener reis",
+    "gebratener reis mit gemuse"
+   ],
+   "references": [
+    "usda:2708952"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 300,
+   "source": {
+    "kind": "estimate",
+    "reason": "one takeaway box (estimate: a takeaway carton 300 g; FNDDS 1 cup 137 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-26"
   },
   {
    "key": "fried tofu",
@@ -15655,6 +16412,240 @@
    "origin": "generated",
    "date": "2026-10-18",
    "draft": "batch-8"
+  },
+  {
+   "key": "frozen pizza four cheese",
+   "names": [
+    "frozen pizza four cheese",
+    "tiefkuhlpizza quattro formaggi",
+    "pizza quattro formaggi",
+    "four cheese pizza",
+    "pizza 4 kase",
+    "vier kase pizza",
+    "pizza quattro fromaggi",
+    "pizza 4 formaggi",
+    "4 cheese pizza"
+   ],
+   "references": [
+    "bls:X912233"
+   ],
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 340,
+   "source": {
+    "kind": "estimate",
+    "reason": "one whole frozen pizza (brief: a whole frozen pizza 350–400 g; cheese pizzas run lighter)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-26"
+  },
+  {
+   "key": "frozen pizza ham",
+   "names": [
+    "frozen pizza ham",
+    "tiefkuhlpizza schinken",
+    "pizza prosciutto",
+    "pizza schinken",
+    "ham pizza",
+    "schinkenpizza",
+    "ham and cheese pizza",
+    "pizza prosciutto cotto",
+    "tk pizza schinken"
+   ],
+   "references": [
+    "bls:X912412"
+   ],
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 370,
+   "source": {
+    "kind": "estimate",
+    "reason": "one whole frozen pizza (brief: a whole frozen pizza 350–400 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-26"
+  },
+  {
+   "key": "frozen pizza hawaiian",
+   "names": [
+    "frozen pizza hawaiian",
+    "tiefkuhlpizza hawaii",
+    "pizza hawaii",
+    "hawaiian pizza",
+    "ham and pineapple pizza",
+    "hawaiipizza",
+    "pizza hawai",
+    "tk pizza hawaii"
+   ],
+   "references": [
+    "bls:X9A5010"
+   ],
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 380,
+   "source": {
+    "kind": "estimate",
+    "reason": "one whole frozen pizza (brief: a whole frozen pizza 350–400 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-26"
+  },
+  {
+   "key": "frozen pizza margherita",
+   "names": [
+    "frozen pizza margherita",
+    "tiefkuhlpizza margherita",
+    "pizza margherita",
+    "cheese pizza",
+    "frozen cheese pizza",
+    "tk pizza margherita",
+    "pizza margarita",
+    "kasepizza",
+    "tiefkuhlpizza",
+    "frozen pizza",
+    "tk pizza",
+    "steinofenpizza",
+    "pizza tomate mozzarella",
+    "mini pizza",
+    "mini pizzas",
+    "mini pizzen",
+    "minipizza",
+    "minipizzen"
+   ],
+   "references": [
+    "bls:X912033"
+   ],
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 350,
+   "source": {
+    "kind": "estimate",
+    "reason": "one whole frozen pizza (brief: a whole frozen pizza 350–400 g; FNDDS frozen small pizza 369 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-26"
+  },
+  {
+   "key": "frozen pizza mushroom",
+   "names": [
+    "frozen pizza mushroom",
+    "tiefkuhlpizza funghi",
+    "pizza funghi",
+    "mushroom pizza",
+    "pizza champignon",
+    "champignonpizza",
+    "pizza mit pilzen",
+    "pilzpizza",
+    "pizza champignons"
+   ],
+   "references": [
+    "bls:X912133"
+   ],
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 360,
+   "source": {
+    "kind": "estimate",
+    "reason": "one whole frozen pizza (brief: a whole frozen pizza 350–400 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-26"
+  },
+  {
+   "key": "frozen pizza salami",
+   "names": [
+    "frozen pizza salami",
+    "tiefkuhlpizza salami",
+    "salami pizza",
+    "pizza salame",
+    "salamipizza",
+    "pepperoni pizza",
+    "frozen pepperoni pizza",
+    "tk pizza salami",
+    "pizza diavolo",
+    "peperonipizza"
+   ],
+   "references": [
+    "bls:X914133"
+   ],
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 380,
+   "source": {
+    "kind": "estimate",
+    "reason": "one whole frozen pizza (brief: a whole frozen pizza 350–400 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-26"
+  },
+  {
+   "key": "frozen pizza tuna",
+   "names": [
+    "frozen pizza tuna",
+    "tiefkuhlpizza thunfisch",
+    "pizza tonno",
+    "tuna pizza",
+    "thunfischpizza",
+    "pizza thunfisch",
+    "pizza mit thunfisch",
+    "tk pizza thunfisch"
+   ],
+   "references": [
+    "bls:X915233"
+   ],
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 360,
+   "source": {
+    "kind": "estimate",
+    "reason": "one whole frozen pizza (brief: a whole frozen pizza 350–400 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-26"
+  },
+  {
+   "key": "frozen pizza vegetable",
+   "names": [
+    "frozen pizza vegetable",
+    "tiefkuhlpizza gemuse",
+    "vegetable pizza",
+    "veggie pizza",
+    "gemusepizza",
+    "pizza verdure",
+    "pizza vegetarisch",
+    "vegetarische pizza",
+    "pizza gemuse",
+    "pizza primavera",
+    "vegetarian pizza"
+   ],
+   "references": [
+    "usda:2708624"
+   ],
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 370,
+   "source": {
+    "kind": "estimate",
+    "reason": "one whole frozen pizza (FNDDS frozen pizza 369–652 g; brief 350–400 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-26"
   },
   {
    "key": "frozen yogurt",
@@ -16382,6 +17373,32 @@
    "draft": "batch-13"
   },
   {
+   "key": "germknodel",
+   "names": [
+    "germknodel",
+    "germknoedel",
+    "yeast dumpling with plum jam",
+    "hefeknodel",
+    "dampfknodel",
+    "germknodel mit mohn",
+    "germknodel mit vanillesoße"
+   ],
+   "references": [
+    "bls:X985162"
+   ],
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 170,
+   "source": {
+    "kind": "estimate",
+    "reason": "one dumpling with butter and poppy seed (estimate: a frozen Germknödel 120–170 g plus topping)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-26"
+  },
+  {
    "key": "ghee",
    "names": [
     "ghee",
@@ -16949,6 +17966,34 @@
    "draft": "batch-3"
   },
   {
+   "key": "goulash soup",
+   "names": [
+    "goulash soup",
+    "gulaschsuppe",
+    "gulaschsuppe aus der dose",
+    "canned goulash soup",
+    "gulyassuppe",
+    "gulyas soup",
+    "gulaschsuppe konserve",
+    "ungarische gulaschsuppe",
+    "gulaschsupp"
+   ],
+   "references": [
+    "bls:U980400"
+   ],
+   "unit": "can",
+   "typical": 1,
+   "gramsPerUnit": 400,
+   "source": {
+    "kind": "estimate",
+    "reason": "one 400 g can (brief: a can of soup 400 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-26"
+  },
+  {
    "key": "graham crackers",
    "names": [
     "graham crackers"
@@ -17248,6 +18293,35 @@
    "origin": "generated",
    "date": "2026-10-01",
    "draft": "batch-4"
+  },
+  {
+   "key": "greek salad",
+   "names": [
+    "greek salad",
+    "griechischer salat",
+    "horiatiki",
+    "bauernsalat",
+    "hirtensalat",
+    "village salad",
+    "greek farmer s salad",
+    "griechischer bauernsalat",
+    "greek salad bowl",
+    "salat mit feta"
+   ],
+   "references": [
+    "bls:X203850"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 250,
+   "source": {
+    "kind": "estimate",
+    "reason": "one salad bowl (estimate: a salad bowl 250–300 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-26"
   },
   {
    "key": "greek yoghurt",
@@ -18639,6 +19713,74 @@
    "draft": "batch-17"
   },
   {
+   "key": "ham and cheese baguette",
+   "names": [
+    "ham and cheese baguette",
+    "baguette mit schinken und kase",
+    "belegtes baguette",
+    "schinken kase baguette",
+    "baguette sandwich",
+    "ham baguette",
+    "ham and cheese sub",
+    "filled baguette",
+    "baguette belegt"
+   ],
+   "references": [
+    "bls:X060060"
+   ],
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 220,
+   "source": {
+    "kind": "estimate",
+    "reason": "one filled baguette (estimate: a filled half baguette 200–250 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-26"
+  },
+  {
+   "key": "ham and cheese sandwich",
+   "names": [
+    "ham and cheese sandwich",
+    "sandwich mit schinken und kase",
+    "ham cheese sandwich",
+    "ham sandwich",
+    "schinken kase sandwich",
+    "schinkensandwich",
+    "sandwich",
+    "sandwiches",
+    "sandwichdreieck",
+    "sandwich dreieck",
+    "triangle sandwich",
+    "meal deal sandwich",
+    "belegtes sandwich",
+    "schinken kase brotchen",
+    "schinkenbrotchen",
+    "schinkensemmel",
+    "kasesemmel",
+    "belegtes brotchen",
+    "ham roll",
+    "cheese roll"
+   ],
+   "references": [
+    "usda:2706965"
+   ],
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 135,
+   "source": {
+    "kind": "household-measure",
+    "reference": "usda:2706965",
+    "label": "1 regular"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-26"
+  },
+  {
    "key": "hard candy",
    "names": [
     "hard candy",
@@ -19371,6 +20513,32 @@
    "draft": "batch-19"
   },
   {
+   "key": "herring salad",
+   "names": [
+    "herring salad",
+    "heringssalat",
+    "heringssalat mit mayonnaise",
+    "roter heringssalat",
+    "matjessalat",
+    "herring salad with apple",
+    "heringsalat"
+   ],
+   "references": [
+    "bls:X1A8030"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 150,
+   "source": {
+    "kind": "estimate",
+    "reason": "a deli portion (estimate: 120–180 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-26"
+  },
+  {
    "key": "hijiki boiled",
    "names": [
     "hijiki boiled",
@@ -20086,6 +21254,144 @@
    "draft": "batch-4"
   },
   {
+   "key": "instant mashed potatoes",
+   "names": [
+    "instant mashed potatoes",
+    "kartoffelpuree aus der packung",
+    "instant mash",
+    "kartoffelpuree instant",
+    "puree aus der tute",
+    "kartoffelpuree aus flocken",
+    "pureeflocken",
+    "kartoffelbrei instant",
+    "instant mashed potato",
+    "fertigpuree",
+    "kartoffelpuree aus der tute",
+    "instantpuree"
+   ],
+   "references": [
+    "bls:X637012"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 200,
+   "source": {
+    "kind": "estimate",
+    "reason": "one side portion made up with milk (estimate: a side of mash 200 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-26"
+  },
+  {
+   "key": "instant noodles prepared",
+   "names": [
+    "instant noodles prepared",
+    "instantnudeln zubereitet",
+    "instant noodles",
+    "instantnudeln",
+    "instant nudeln",
+    "cup noodles",
+    "cup noodle",
+    "pot noodle",
+    "pot noodles",
+    "yum yum",
+    "yum yum nudeln",
+    "instant ramen",
+    "tutennudeln",
+    "nudelsnack",
+    "indomie",
+    "mi goreng",
+    "5 minuten terrine",
+    "packet noodles",
+    "fertignudeln",
+    "instant noodle soup",
+    "asia nudeln",
+    "cup nudeln",
+    "instantnudelsuppe"
+   ],
+   "references": [
+    "usda:2709152"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 300,
+   "source": {
+    "kind": "estimate",
+    "reason": "one cup or packet made up with water (brief: a cup noodle 70 g dry, 300 g prepared)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-26"
+  },
+  {
+   "key": "instant porridge",
+   "names": [
+    "instant porridge",
+    "instant oatmeal",
+    "porridge pot",
+    "porridge to go",
+    "flavoured porridge",
+    "flavored oatmeal",
+    "porridge sachet",
+    "porridge becher",
+    "haferbrei instant",
+    "oatmeal packet",
+    "porridge mit geschmack",
+    "instantporridge"
+   ],
+   "references": [
+    "usda:2708395"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 210,
+   "source": {
+    "kind": "estimate",
+    "reason": "one pot or sachet made up (FNDDS 1 microwave cup prepared 210 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-26"
+  },
+  {
+   "key": "instant soup",
+   "names": [
+    "instant soup",
+    "tutensuppe",
+    "packet soup",
+    "cup soup",
+    "cup a soup",
+    "instantsuppe",
+    "fertigsuppe",
+    "tassensuppe",
+    "pulversuppe",
+    "suppe aus der tute",
+    "packchensuppe",
+    "beutelsuppe",
+    "instant cream soup",
+    "soup sachet",
+    "instant suppe"
+   ],
+   "references": [
+    "bls:G850132"
+   ],
+   "unit": "cup",
+   "typical": 1,
+   "gramsPerUnit": 200,
+   "source": {
+    "kind": "estimate",
+    "reason": "one cup made up with water (estimate: a cup soup 150–250 ml)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-26"
+  },
+  {
    "key": "italian dressing",
    "names": [
     "italian dressing",
@@ -20444,6 +21750,32 @@
    "origin": "generated",
    "date": "2026-10-24",
    "draft": "batch-20"
+  },
+  {
+   "key": "kaiserschmarrn",
+   "names": [
+    "kaiserschmarrn",
+    "kaiserschmarren",
+    "schmarrn",
+    "kaiserschmarn",
+    "shredded pancake",
+    "emperor s mess",
+    "kaiserschmarrn mit apfelmus"
+   ],
+   "references": [
+    "bls:Y890342"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 250,
+   "source": {
+    "kind": "estimate",
+    "reason": "one plate (estimate: a frozen Kaiserschmarrn pack 250–400 g for one or two)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-26"
   },
   {
    "key": "kalbfleisch",
@@ -20843,6 +22175,38 @@
    "origin": "generated",
    "date": "2026-10-24",
    "draft": "batch-20"
+  },
+  {
+   "key": "kasespatzle",
+   "names": [
+    "kasespatzle",
+    "cheese spaetzle",
+    "cheese spatzle",
+    "kasspatzle",
+    "kasknopfle",
+    "kasspatzln",
+    "kasknopfli",
+    "chaschnopfli",
+    "spaetzle with cheese",
+    "allgauer kasespatzle",
+    "kasespatzen",
+    "kaesespaetzle",
+    "kasspatzen"
+   ],
+   "references": [
+    "bls:X711412"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 400,
+   "source": {
+    "kind": "estimate",
+    "reason": "one ready-meal tray or plate (brief: a ready meal tray 350–450 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-26"
   },
   {
    "key": "kefir",
@@ -21936,6 +23300,38 @@
    "draft": "batch-4"
   },
   {
+   "key": "lasagne",
+   "names": [
+    "lasagne",
+    "lasagna",
+    "lasagne bolognese",
+    "lasagna bolognese",
+    "lasagne al forno",
+    "beef lasagne",
+    "fleischlasagne",
+    "frozen lasagne",
+    "tiefkuhllasagne",
+    "lasagnen",
+    "lasagnas",
+    "lasagne ready meal",
+    "lasange"
+   ],
+   "references": [
+    "bls:X730033"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 400,
+   "source": {
+    "kind": "estimate",
+    "reason": "one ready-meal tray (brief: a ready meal tray 350–450 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-26"
+  },
+  {
    "key": "lean smoked bacon",
    "names": [
     "lean smoked bacon",
@@ -22229,6 +23625,36 @@
    "origin": "generated",
    "date": "2026-10-18",
    "draft": "batch-8"
+  },
+  {
+   "key": "lentil soup",
+   "names": [
+    "lentil soup",
+    "linsensuppe",
+    "linseneintopf",
+    "linsen eintopf",
+    "linsensuppe aus der dose",
+    "canned lentil soup",
+    "linsensuppe mit wurstchen",
+    "linseneintopf mit wurstchen",
+    "lentil stew",
+    "linsensuppe mit wurst",
+    "linsensupp"
+   ],
+   "references": [
+    "bls:X4A8050"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 400,
+   "source": {
+    "kind": "estimate",
+    "reason": "a deep plate, half an 800 g can (brief: a can of soup 400 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-26"
   },
   {
    "key": "lentils canned",
@@ -23144,6 +24570,35 @@
    "draft": "batch-22"
   },
   {
+   "key": "macaroni and cheese",
+   "names": [
+    "macaroni and cheese",
+    "makkaroni mit kase",
+    "mac and cheese",
+    "mac n cheese",
+    "macaroni cheese",
+    "mac cheese",
+    "kasemakkaroni",
+    "makkaroni kase",
+    "alplermagronen",
+    "maccaroni mit kase"
+   ],
+   "references": [
+    "usda:2708811"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 300,
+   "source": {
+    "kind": "estimate",
+    "reason": "one ready-meal tray or bowl (estimate: US mac and cheese ready meal 280–340 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-26"
+  },
+  {
    "key": "mackerel grilled",
    "names": [
     "mackerel grilled",
@@ -23917,6 +25372,42 @@
    "draft": "batch-4"
   },
   {
+   "key": "meal replacement shake",
+   "names": [
+    "meal replacement shake",
+    "trinkmahlzeit",
+    "meal replacement drink",
+    "mahlzeitersatz",
+    "mahlzeitenersatz",
+    "mahlzeitersatz shake",
+    "diet shake",
+    "diat shake",
+    "yfood",
+    "huel",
+    "ensure",
+    "slimfast",
+    "slim fast",
+    "trinknahrung",
+    "astronautennahrung",
+    "abnehmshake",
+    "meal shake"
+   ],
+   "references": [
+    "usda:2710725"
+   ],
+   "unit": "bottle",
+   "typical": 1,
+   "milliliters": 500,
+   "source": {
+    "kind": "estimate",
+    "reason": "one bottle (estimate: a 500 ml bottle (Yfood, Huel); medical drinks 200–240 ml)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-26"
+  },
+  {
    "key": "meat loaf made with beef",
    "names": [
     "meat loaf made with beef"
@@ -23935,6 +25426,32 @@
    "origin": "generated",
    "date": "2026-10-01",
    "draft": "batch-6"
+  },
+  {
+   "key": "meat salad",
+   "names": [
+    "meat salad",
+    "fleischsalat",
+    "fleischsalat mit mayonnaise",
+    "german meat salad",
+    "bologna salad",
+    "fleischsalat mit gurke",
+    "fleischsalat brotaufstrich"
+   ],
+   "references": [
+    "bls:W985000"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 60,
+   "source": {
+    "kind": "estimate",
+    "reason": "spread on one roll or two slices (estimate: 50–75 g on bread)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-26"
   },
   {
    "key": "meatballs",
@@ -24160,6 +25677,38 @@
    "draft": "batch-25"
   },
   {
+   "key": "milkshake",
+   "names": [
+    "milkshake",
+    "milchshake",
+    "milk shake",
+    "milkshakes",
+    "fast food milkshake",
+    "vanilla milkshake",
+    "strawberry milkshake",
+    "chocolate milkshake",
+    "thick shake",
+    "milchshakes",
+    "vanille milchshake",
+    "erdbeer milchshake",
+    "schoko milchshake"
+   ],
+   "references": [
+    "usda:2705509"
+   ],
+   "unit": "cup",
+   "typical": 1,
+   "milliliters": 400,
+   "source": {
+    "kind": "estimate",
+    "reason": "one small fast-food shake (FNDDS 1 small 405 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-26"
+  },
+  {
    "key": "millet boiled",
    "names": [
     "millet boiled",
@@ -24247,6 +25796,30 @@
    "origin": "generated",
    "date": "2026-10-24",
    "draft": "batch-25"
+  },
+  {
+   "key": "minestrone",
+   "names": [
+    "minestrone",
+    "minestrone soup",
+    "italienische gemusesuppe",
+    "minestrone suppe",
+    "minestrone aus der dose"
+   ],
+   "references": [
+    "bls:X425163"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 250,
+   "source": {
+    "kind": "estimate",
+    "reason": "one bowl (brief: half a can 200 g is a bowl; a soup bowl 250 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-26"
   },
   {
    "key": "mint",
@@ -25006,12 +26579,35 @@
    "draft": "batch-20"
   },
   {
+   "key": "moussaka",
+   "names": [
+    "moussaka",
+    "musaka",
+    "mousaka",
+    "moussaka ready meal",
+    "musakas"
+   ],
+   "references": [
+    "bls:X6A3020"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 400,
+   "source": {
+    "kind": "estimate",
+    "reason": "one ready-meal tray (brief: a ready meal tray 350–450 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-26"
+  },
+  {
    "key": "mozzarella",
    "names": [
     "mozzarella",
     "shredded mozzarella",
     "grated mozzarella",
-    "pizza cheese",
     "low moisture mozzarella",
     "mozzarella cheese"
    ],
@@ -25030,6 +26626,33 @@
    "origin": "generated",
    "date": "2026-10-01",
    "draft": "batch-3"
+  },
+  {
+   "key": "mozzarella sticks",
+   "names": [
+    "mozzarella sticks",
+    "mozzarella stick",
+    "mozzarellasticks",
+    "cheese sticks",
+    "fried mozzarella",
+    "panierter mozzarella",
+    "mozzarella sticks paniert",
+    "breaded mozzarella"
+   ],
+   "references": [
+    "usda:2705817"
+   ],
+   "unit": "piece",
+   "typical": 5,
+   "gramsPerUnit": 25,
+   "source": {
+    "kind": "estimate",
+    "reason": "five sticks (estimate: a frozen stick 20–30 g; FNDDS large stick 44 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-26"
   },
   {
    "key": "muesli",
@@ -25802,6 +27425,27 @@
    "origin": "generated",
    "date": "2026-10-24",
    "draft": "batch-16"
+  },
+  {
+   "key": "nasi goreng ready meal",
+   "names": [
+    "nasi goreng ready meal",
+    "nasi goreng fertiggericht"
+   ],
+   "references": [
+    "bls:X891133"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 400,
+   "source": {
+    "kind": "estimate",
+    "reason": "one ready-meal tray or takeaway box (brief: a ready meal tray 350–450 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-26"
   },
   {
    "key": "natto",
@@ -27071,6 +28715,31 @@
    "draft": "batch-19"
   },
   {
+   "key": "pad thai",
+   "names": [
+    "pad thai",
+    "phad thai",
+    "gebratene reisnudeln",
+    "pad thai mit hahnchen",
+    "phat thai",
+    "padthai"
+   ],
+   "references": [
+    "usda:2708804"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 350,
+   "source": {
+    "kind": "estimate",
+    "reason": "one takeaway box or plate (estimate: a takeaway carton 350 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-26"
+  },
+  {
    "key": "pan fried chicken breast",
    "names": [
     "pan fried chicken breast",
@@ -27698,6 +29367,68 @@
    "draft": "batch-21"
   },
   {
+   "key": "pasta salad",
+   "names": [
+    "pasta salad",
+    "nudelsalat",
+    "pasta salads",
+    "macaroni salad",
+    "nudelsalat mit mayonnaise",
+    "nudelsalat mit mayo",
+    "spirelli salat",
+    "nudelsalat danische art",
+    "nudelsalat mit schinken",
+    "nudlsalat"
+   ],
+   "references": [
+    "bls:X1A3010"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 200,
+   "source": {
+    "kind": "estimate",
+    "reason": "one side portion or salad pot (estimate: a deli pot 200–250 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-26"
+  },
+  {
+   "key": "pasta with tomato sauce",
+   "names": [
+    "pasta with tomato sauce",
+    "nudeln mit tomatensauce",
+    "spaghetti with tomato sauce",
+    "spaghetti napoli",
+    "spaghetti napoletana",
+    "pasta pomodoro",
+    "pasta al pomodoro",
+    "penne all arrabbiata",
+    "penne arrabbiata",
+    "nudeln mit tomatensoße",
+    "spaghetti mit tomatensoße",
+    "spaghetti mit tomatensauce",
+    "pasta napoli",
+    "penne mit tomatensauce"
+   ],
+   "references": [
+    "bls:X740933"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 400,
+   "source": {
+    "kind": "estimate",
+    "reason": "one ready-meal tray or plate (brief: a ready meal tray 350–450 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-26"
+  },
+  {
    "key": "pastrami nfs",
    "names": [
     "pastrami nfs"
@@ -27738,6 +29469,38 @@
    "origin": "generated",
    "date": "2026-10-01",
    "draft": "batch-5"
+  },
+  {
+   "key": "pea soup",
+   "names": [
+    "pea soup",
+    "erbsensuppe",
+    "erbseneintopf",
+    "erbsen eintopf",
+    "erbsensuppe aus der dose",
+    "canned pea soup",
+    "split pea soup",
+    "pea and ham soup",
+    "erbsensuppe mit wurstchen",
+    "erbsensuppe mit wurst",
+    "erbsensuppe mit speck",
+    "erbseneintopf mit wurstchen",
+    "pea soup with sausage"
+   ],
+   "references": [
+    "bls:X464433"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 400,
+   "source": {
+    "kind": "estimate",
+    "reason": "a deep plate, half an 800 g can (brief: a can of soup 400 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-26"
   },
   {
    "key": "peach in juice canned drained",
@@ -28943,6 +30706,37 @@
      "gramsPerUnit": 80
     }
    ]
+  },
+  {
+   "key": "pizza baguette",
+   "names": [
+    "pizza baguette",
+    "pizzabaguette",
+    "pizza baguettes",
+    "pizzabaguettes",
+    "french bread pizza",
+    "pizzabrotchen",
+    "mini pizzabrotchen",
+    "pizza buns",
+    "pizza bun",
+    "ofenbaguette",
+    "uberbackenes baguette",
+    "pizzabrot"
+   ],
+   "references": [
+    "bls:X987112"
+   ],
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 125,
+   "source": {
+    "kind": "estimate",
+    "reason": "one baguette half (typical frozen pizza baguette 125 g each, two per pack)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-26"
   },
   {
    "key": "pizza dough",
@@ -30324,6 +32118,29 @@
    "draft": "batch-18"
   },
   {
+   "key": "pork pie",
+   "names": [
+    "pork pie",
+    "pork pies",
+    "individual pork pie",
+    "schweinefleischpastete"
+   ],
+   "references": [
+    "cofid:19-467"
+   ],
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 140,
+   "source": {
+    "kind": "estimate",
+    "reason": "one individual pork pie (estimate: an individual pork pie 130–150 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-26"
+  },
+  {
    "key": "pork pig s feet",
    "names": [
     "pork pig s feet"
@@ -30917,6 +32734,35 @@
    "draft": "batch-6"
   },
   {
+   "key": "potato soup",
+   "names": [
+    "potato soup",
+    "kartoffelsuppe",
+    "kartoffelcremesuppe",
+    "kartoffeleintopf",
+    "erdapfelsuppe",
+    "hardopfelsuppe",
+    "potato and leek soup",
+    "kartoffelsuppe aus der dose",
+    "kartoffelsuppe mit wurstchen",
+    "kartoffel lauch suppe"
+   ],
+   "references": [
+    "bls:X449023"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 400,
+   "source": {
+    "kind": "estimate",
+    "reason": "a deep plate, half an 800 g can (brief: a can of soup 400 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-26"
+  },
+  {
    "key": "potato starch",
    "names": [
     "potato starch",
@@ -31350,6 +33196,37 @@
    "draft": "batch-14"
   },
   {
+   "key": "protein shake",
+   "names": [
+    "protein shake",
+    "proteinshake",
+    "protein drink",
+    "proteindrink",
+    "eiweißshake",
+    "eiweiß shake",
+    "high protein shake",
+    "ready to drink protein shake",
+    "proteinmilch",
+    "protein milchdrink",
+    "protein milkshake",
+    "eiweißdrink"
+   ],
+   "references": [
+    "usda:2710726"
+   ],
+   "unit": "bottle",
+   "typical": 1,
+   "milliliters": 330,
+   "source": {
+    "kind": "estimate",
+    "reason": "one bottle (estimate: a ready-to-drink protein shake 250–500 ml)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-26"
+  },
+  {
    "key": "prunes",
    "names": [
     "prunes",
@@ -31740,6 +33617,33 @@
    "draft": "batch-2"
   },
   {
+   "key": "pumpkin soup",
+   "names": [
+    "pumpkin soup",
+    "kurbissuppe",
+    "kurbiscremesuppe",
+    "butternut squash soup",
+    "pumpkin cream soup",
+    "kurbissuppe mit kokos",
+    "hokkaidosuppe",
+    "squash soup"
+   ],
+   "references": [
+    "bls:X445863"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 250,
+   "source": {
+    "kind": "estimate",
+    "reason": "one bowl (brief: half a can 200 g is a bowl; a soup bowl 250 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-26"
+  },
+  {
    "key": "putenflugel",
    "names": [
     "putenflugel",
@@ -32024,6 +33928,32 @@
    "origin": "generated",
    "date": "2026-10-01",
    "draft": "batch-3"
+  },
+  {
+   "key": "quiche lorraine",
+   "names": [
+    "quiche lorraine",
+    "quiche",
+    "quiches",
+    "specktorte",
+    "bacon quiche",
+    "quiche mit speck",
+    "speckquiche"
+   ],
+   "references": [
+    "cofid:12-936"
+   ],
+   "unit": "slice",
+   "typical": 1,
+   "gramsPerUnit": 150,
+   "source": {
+    "kind": "estimate",
+    "reason": "one slice or individual quiche (estimate: a slice of quiche 120–160 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-26"
   },
   {
    "key": "quince",
@@ -32537,6 +34467,36 @@
    "origin": "generated",
    "date": "2026-10-24",
    "draft": "batch-21"
+  },
+  {
+   "key": "ravioli in tomato sauce canned",
+   "names": [
+    "ravioli in tomato sauce canned",
+    "ravioli aus der dose",
+    "dosenravioli",
+    "canned ravioli",
+    "tinned ravioli",
+    "ravioli in tomatensauce",
+    "ravioli in tomatensoße",
+    "buchsenravioli",
+    "ravioli dose",
+    "ravioli in der dose",
+    "ravioli in a can"
+   ],
+   "references": [
+    "bls:E901000"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 400,
+   "source": {
+    "kind": "estimate",
+    "reason": "half an 800 g can (brief: a can 400 g; the usual German can holds 800 g, two servings)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-26"
   },
   {
    "key": "raw ground beef",
@@ -35534,6 +37494,62 @@
    "draft": "batch-20"
   },
   {
+   "key": "sausage roll",
+   "names": [
+    "sausage roll",
+    "wurstchen im blatterteig",
+    "sausage rolls",
+    "wurst im schlafrock",
+    "wurstchen im schlafrock",
+    "wurstel im schlafrock",
+    "blatterteigwurstchen",
+    "bratwurst im blatterteig"
+   ],
+   "references": [
+    "cofid:19-468"
+   ],
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 110,
+   "source": {
+    "kind": "estimate",
+    "reason": "one bakery sausage roll (estimate: a bakery sausage roll 100–120 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-26"
+  },
+  {
+   "key": "sausage salad",
+   "names": [
+    "sausage salad",
+    "wurstsalat",
+    "bayerischer wurstsalat",
+    "schweizer wurstsalat",
+    "straßburger wurstsalat",
+    "regensburger wurstsalat",
+    "wurstsalat mit kase",
+    "elsasser wurstsalat",
+    "wurstsalat schweizer art",
+    "fleischkasesalat"
+   ],
+   "references": [
+    "bls:X1A7020"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 200,
+   "source": {
+    "kind": "estimate",
+    "reason": "one plate (estimate: a Wurstsalat plate 200–250 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-26"
+  },
+  {
    "key": "sauteed onion",
    "names": [
     "sauteed onion",
@@ -36033,6 +38049,30 @@
    "origin": "generated",
    "date": "2026-10-24",
    "draft": "batch-14"
+  },
+  {
+   "key": "scotch egg",
+   "names": [
+    "scotch egg",
+    "scotch eggs",
+    "schottisches ei",
+    "ei im wurstmantel",
+    "ei im hackmantel"
+   ],
+   "references": [
+    "cofid:19-518"
+   ],
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 113,
+   "source": {
+    "kind": "estimate",
+    "reason": "one Scotch egg (estimate: a retail Scotch egg 113 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-26"
   },
   {
    "key": "scrambled eggs",
@@ -37677,9 +39717,7 @@
   },
   {
    "key": "soup cream of mushroom",
-   "names": [
-    "soup cream of mushroom"
-   ],
+   "names": [],
    "references": [
     "usda:2710107"
    ],
@@ -38163,6 +40201,61 @@
    "draft": "batch-22"
   },
   {
+   "key": "spaghetti bolognese",
+   "names": [
+    "spaghetti bolognese",
+    "spag bol",
+    "spaghetti bolognaise",
+    "spaghetti bolo",
+    "pasta bolognese",
+    "nudeln bolognese",
+    "nudeln mit bolognese",
+    "nudeln mit hackfleischsauce",
+    "spagetti bolognese",
+    "penne bolognese"
+   ],
+   "references": [
+    "bls:X740433"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 400,
+   "source": {
+    "kind": "estimate",
+    "reason": "one ready-meal tray or plate (brief: a ready meal tray 350–450 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-26"
+  },
+  {
+   "key": "spaghetti carbonara",
+   "names": [
+    "spaghetti carbonara",
+    "pasta carbonara",
+    "nudeln carbonara",
+    "spagetti carbonara",
+    "tagliatelle carbonara",
+    "penne carbonara",
+    "carbonara"
+   ],
+   "references": [
+    "bls:X740733"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 400,
+   "source": {
+    "kind": "estimate",
+    "reason": "one ready-meal tray or plate (brief: a ready meal tray 350–450 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-26"
+  },
+  {
    "key": "sparkling water",
    "names": [
     "sparkling water",
@@ -38534,6 +40627,41 @@
    "draft": "batch-2"
   },
   {
+   "key": "spinach and feta pastry",
+   "names": [
+    "spinach and feta pastry",
+    "spinat feta tasche",
+    "borek",
+    "spinatborek",
+    "borek mit spinat",
+    "burek",
+    "spinattasche",
+    "schafskasetasche",
+    "blatterteigtasche mit spinat",
+    "spinat schafskase tasche",
+    "spanakopita",
+    "spinach puff",
+    "spinach and feta puff",
+    "ispanakli borek",
+    "peynirli borek",
+    "kaseborek"
+   ],
+   "references": [
+    "bls:X9A3000"
+   ],
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 140,
+   "source": {
+    "kind": "estimate",
+    "reason": "one bakery pastry (estimate: a bakery pastry or börek piece 120–160 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-26"
+  },
+  {
    "key": "spinach and ricotta tortelloni cooked",
    "names": [
     "spinach and ricotta tortelloni cooked",
@@ -38892,6 +41020,34 @@
    "origin": "generated",
    "date": "2026-10-24",
    "draft": "batch-16"
+  },
+  {
+   "key": "steak pie",
+   "names": [
+    "steak pie",
+    "rindfleisch pie",
+    "beef pie",
+    "steak and ale pie",
+    "meat pie",
+    "aussie meat pie",
+    "steak and kidney pie",
+    "fleisch pie",
+    "fleischpie"
+   ],
+   "references": [
+    "cofid:18-506"
+   ],
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 210,
+   "source": {
+    "kind": "estimate",
+    "reason": "one individual pie (estimate: an individual retail pie 200–250 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-26"
   },
   {
    "key": "stir fry vegetables frozen",
@@ -39501,6 +41657,34 @@
    "draft": "batch-5"
   },
   {
+   "key": "sweet and sour chicken",
+   "names": [
+    "sweet and sour chicken",
+    "hahnchen suß sauer",
+    "sweet sour chicken",
+    "huhn suß sauer",
+    "huhnchen sußsauer",
+    "hahnchen sußsauer",
+    "huhnerfleisch suß sauer",
+    "chicken suß sauer",
+    "ente suß sauer"
+   ],
+   "references": [
+    "usda:2706435"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 350,
+   "source": {
+    "kind": "estimate",
+    "reason": "one takeaway box (estimate: a takeaway carton 350 g; FNDDS 1 cup 252 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-26"
+  },
+  {
    "key": "sweet and sour sauce",
    "names": [
     "sweet and sour sauce",
@@ -40093,6 +42277,33 @@
    "draft": "batch-4"
   },
   {
+   "key": "tarte flambee",
+   "names": [
+    "tarte flambee",
+    "flammkuchen",
+    "flammkuchen elsasser art",
+    "flammekueche",
+    "flammenkuchen",
+    "alsatian flatbread",
+    "elsasser flammkuchen",
+    "flammkuchen mit speck"
+   ],
+   "references": [
+    "bls:X934412"
+   ],
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 300,
+   "source": {
+    "kind": "estimate",
+    "reason": "one frozen tarte flambée (typical frozen Flammkuchen 300–350 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-26"
+  },
+  {
    "key": "tea with milk",
    "names": [
     "tea with milk",
@@ -40259,6 +42470,37 @@
    "origin": "generated",
    "date": "2026-10-01",
    "draft": "batch-4"
+  },
+  {
+   "key": "thai green curry",
+   "names": [
+    "thai green curry",
+    "thailandisches grunes curry",
+    "green curry",
+    "thai curry",
+    "grunes curry",
+    "grunes thai curry",
+    "thai red curry",
+    "red curry",
+    "rotes curry",
+    "rotes thai curry",
+    "thai curry mit hahnchen",
+    "gaeng keow wan"
+   ],
+   "references": [
+    "cofid:19-465"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 350,
+   "source": {
+    "kind": "estimate",
+    "reason": "one takeaway portion without rice (estimate: a takeaway curry 350 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-26"
   },
   {
    "key": "thinly sliced beef",
@@ -40724,6 +42966,34 @@
    "draft": "batch-4"
   },
   {
+   "key": "tomato soup",
+   "names": [
+    "tomato soup",
+    "tomatensuppe",
+    "cream of tomato soup",
+    "canned tomato soup",
+    "tinned tomato soup",
+    "tomatencremesuppe",
+    "tomatensuppe aus der dose",
+    "tomato cream soup",
+    "tomatensuppe mit reis"
+   ],
+   "references": [
+    "bls:X444343"
+   ],
+   "unit": "can",
+   "typical": 1,
+   "gramsPerUnit": 400,
+   "source": {
+    "kind": "estimate",
+    "reason": "one 400 g can (brief: a can of soup 400 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-26"
+  },
+  {
    "key": "tongue blood sausage",
    "names": [
     "tongue blood sausage",
@@ -40794,6 +43064,36 @@
    "origin": "generated",
    "date": "2026-10-01",
    "draft": "batch-4"
+  },
+  {
+   "key": "tortellini in cream sauce",
+   "names": [
+    "tortellini in cream sauce",
+    "tortellini in sahnesauce",
+    "tortellini alla panna",
+    "tortellini a la panna",
+    "tortellini with cream sauce",
+    "tortellini sahnesoße",
+    "tortellini mit sahnesauce",
+    "tortellini schinken sahne",
+    "tortellini mit schinken sahne sauce",
+    "tortellini in kasesahnesauce",
+    "tortellini ready meal"
+   ],
+   "references": [
+    "usda:2708791"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 400,
+   "source": {
+    "kind": "estimate",
+    "reason": "one ready-meal tray (brief: a ready meal tray 350–450 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-26"
   },
   {
    "key": "tortellini meat filled no sauce",
@@ -41068,6 +43368,61 @@
    "origin": "generated",
    "date": "2026-10-24",
    "draft": "batch-19"
+  },
+  {
+   "key": "tuna salad",
+   "names": [
+    "tuna salad",
+    "thunfischsalat",
+    "tuna mayo",
+    "tuna mayonnaise",
+    "thunfischsalat mit mayo",
+    "thunfisch mayo",
+    "tuna salad spread",
+    "thunfischaufstrich",
+    "thunfischcreme"
+   ],
+   "references": [
+    "bls:X1A8060"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 80,
+   "source": {
+    "kind": "estimate",
+    "reason": "filling for one sandwich or roll (estimate: 60–100 g as a filling)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-26"
+  },
+  {
+   "key": "tuna sandwich",
+   "names": [
+    "tuna sandwich",
+    "thunfisch sandwich",
+    "tuna mayo sandwich",
+    "tuna salad sandwich",
+    "thunfischsandwich",
+    "tuna sweetcorn sandwich",
+    "sandwich mit thunfisch"
+   ],
+   "references": [
+    "usda:2707034"
+   ],
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 180,
+   "source": {
+    "kind": "household-measure",
+    "reference": "usda:2707034",
+    "label": "1 regular"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-26"
   },
   {
    "key": "turbot pan fried",
@@ -42369,6 +44724,35 @@
    "draft": "batch-24"
   },
   {
+   "key": "vegetable lasagne",
+   "names": [
+    "vegetable lasagne",
+    "gemuselasagne",
+    "vegetarian lasagne",
+    "vegetarian lasagna",
+    "veggie lasagne",
+    "vegetable lasagna",
+    "vegetarische lasagne",
+    "lasagne vegetarisch",
+    "spinatlasagne",
+    "spinach lasagne"
+   ],
+   "references": [
+    "usda:2708759"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 400,
+   "source": {
+    "kind": "estimate",
+    "reason": "one ready-meal tray (brief: a ready meal tray 350–450 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-26"
+  },
+  {
    "key": "vegetable oil",
    "names": [
     "vegetable oil",
@@ -42427,6 +44811,60 @@
    "origin": "generated",
    "date": "2026-10-24",
    "draft": "batch-23"
+  },
+  {
+   "key": "vegetable soup",
+   "names": [
+    "vegetable soup",
+    "gemusesuppe",
+    "canned vegetable soup",
+    "gemusesuppe aus der dose",
+    "veggie soup",
+    "gemusesuppchen"
+   ],
+   "references": [
+    "bls:X416713"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 250,
+   "source": {
+    "kind": "estimate",
+    "reason": "one bowl (brief: half a can 200 g is a bowl; a soup bowl 250 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-26"
+  },
+  {
+   "key": "vegetable stew",
+   "names": [
+    "vegetable stew",
+    "gemuseeintopf",
+    "eintopf",
+    "gemuse eintopf",
+    "pichelsteiner",
+    "pichelsteiner eintopf",
+    "eintopf aus der dose",
+    "canned stew",
+    "gemuseeintopf aus der dose",
+    "vegetable hotpot"
+   ],
+   "references": [
+    "bls:X4A7000"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 400,
+   "source": {
+    "kind": "estimate",
+    "reason": "a deep plate, half an 800 g can (brief: a can of soup 400 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-24",
+   "draft": "batch-26"
   },
   {
    "key": "vegetable stock",
