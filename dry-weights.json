@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "description": "Pasta, rice and noodles people weigh dry. A weight typed for one of these cooked rows without a word for cooked is the dry weight, so the row's dry twin is logged at that weight: \"125 g Nudeln\" is 125 g of dry pasta. A cooked word (\"gekocht\", \"cooked\", \"boiled\") or a portion without a weight (\"ein Teller Nudeln\") keeps the cooked row and its cooked plate. Only typed and spoken meals: a photo's amounts are what the plate shows. A cooked word is a word of the food's own text starting with one of cookedWords.",
+  "cookedWords": ["cooked", "boiled", "steamed", "gekocht", "abgekocht", "gegart", "gedampft"],
+  "pairs": [
+    {"name": "pasta", "cooked": "usda:2708357", "dry": "cofid:11-716"},
+    {"name": "wholemeal pasta", "cooked": "bls:E500032", "dry": "bls:E510000"},
+    {"name": "egg noodles", "cooked": "bls:E432032", "dry": "bls:E432000"},
+    {"name": "fresh pasta", "cooked": "cofid:11-450", "dry": "bls:E438000"},
+    {"name": "gluten-free pasta", "cooked": "bls:E612032", "dry": "bls:E612000"},
+    {"name": "spelt pasta", "cooked": "bls:E632032", "dry": "bls:E632000"},
+    {"name": "rice noodles", "cooked": "bls:C559032", "dry": "bls:C559000"},
+    {"name": "glass noodles", "cooked": "bls:H030432", "dry": "bls:H030400"},
+    {"name": "white rice", "cooked": "bls:C352032", "dry": "bls:C352000"},
+    {"name": "white rice, the English rice pin", "cooked": "usda:2708408", "dry": "bls:C352000"},
+    {"name": "brown rice", "cooked": "bls:C351032", "dry": "bls:C351000"},
+    {"name": "basmati rice", "cooked": "cofid:11-858", "dry": "cofid:11-857"},
+    {"name": "jasmine rice", "cooked": "cofid:11-875", "dry": "cofid:11-874"},
+    {"name": "parboiled rice", "cooked": "bls:C359032", "dry": "bls:C359000"},
+    {"name": "wild rice", "cooked": "bls:C353132", "dry": "bls:C353100"},
+    {"name": "wild rice mix", "cooked": "bls:C354132", "dry": "bls:C354100"},
+    {"name": "red rice", "cooked": "cofid:11-877", "dry": "cofid:11-876"}
+  ]
+}

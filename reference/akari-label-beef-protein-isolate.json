@@ -1,0 +1,56 @@
+{
+  "id": "akari:label:beef-protein-isolate",
+  "name": "Beef protein isolate powder, unflavoured",
+  "identity": "Plain, unflavoured and unsweetened beef protein isolate powder: hydrolysed beef protein isolate as the only ingredient. Flavoured and clear (fruit-drink) isolates are excluded.",
+  "rule": "Per 100 g, each value is the median of the unflavoured labels below that declare it, and a value enters only when at least three labels declare it. Salt becomes sodium (salt in g × 400 = sodium in mg). Nothing a label leaves out becomes zero.",
+  "nutrients": {
+    "calories": 418,
+    "fat": 1.61,
+    "saturatedFat": 0.5,
+    "carbs": 0,
+    "sugar": 0,
+    "protein": 96.46,
+    "sodium": 752
+  },
+  "portions": [
+    {"grams": 30, "label": "1 scoop"}
+  ],
+  "labels": [
+    {
+      "brand": "Bulk",
+      "product": "Beef Protein Isolate 97 (HydroBEEF), Unflavoured",
+      "read": "https://www.bulk.com/uk/products/beef-protein-isolate-97-hydrobeef/bpb-hbee-0000 (maker's page, flavour Unflavoured)",
+      "date": "2026-10-28",
+      "ingredients": "Hydrolysed Beef Protein Isolate (HydroBEEF)",
+      "serving": "30 g",
+      "per100g": {"energyKJ": 1705, "energyKcal": 402, "fat": 1.5, "saturates": 0.5, "carbohydrate": 0, "sugars": 0, "protein": 97, "salt": 1.65}
+    },
+    {
+      "brand": "Hunter & Gather",
+      "product": "Beef Protein Unflavoured, 400 g",
+      "read": "https://www.myprotein.com/p/sports-nutrition/hunter-gather-beef-protein-unflavoured-400g/17998309/ (Myprotein's product page)",
+      "date": "2026-10-28",
+      "ingredients": "Beef protein isolate (100%)",
+      "serving": "21.5 g",
+      "per100g": {"energyKJ": 1757, "energyKcal": 420, "fat": 3, "saturates": 0.8, "carbohydrate": 1, "sugars": 0, "protein": 95, "salt": 1.88}
+    },
+    {
+      "brand": "Promix",
+      "product": "Unflavored Grass-fed Beef Protein Isolate",
+      "read": "Open Food Facts 0850079666306 through https://api.joinakari.com/v1/off/product/0850079666306; unflavoured, one ingredient, barcode 850079666306 on https://promixnutrition.com/products/grass-fed-beef-protein-isolate",
+      "date": "2026-10-28",
+      "ingredients": "Grass-fed beef protein isolate (one ingredient, unsweetened)",
+      "serving": "1 scoop (31.1 g): 130 kcal, 0.5 g fat, 0 g carbohydrate, 30 g protein, 235 mg sodium",
+      "per100g": {"energyKcal": 418, "fat": 1.61, "saturates": 0, "carbohydrate": 0, "sugars": 0, "protein": 96.46, "salt": 1.89}
+    }
+  ],
+  "notUsed": [
+    {"label": "NXT Nutrition Beef Protein Isolate, Open Food Facts 7427135377778", "why": "NXT's beef isolate is a clear, fruit-flavoured line (cola, lemonade, kiwi and others); no unflavoured variant is sold, and the entry names no flavour."},
+    {"label": "XXL Nutrition Hydrolyzed Beef Protein Isolate, Open Food Facts 8719214562960", "why": "XXL's Beef Protein is sold only as chocolate and raspberry; the entry's fibre and saturates fit the cocoa version."},
+    {"label": "Applied Nutrition Beef-XP", "why": "Flavoured."},
+    {"label": "Bulk Beef Protein Isolate 97, Chocolate, Banana Fudge and Chocolate Peanut", "why": "Flavoured: the chocolate panel adds cocoa, flavouring and sucralose, at 90 g protein and 6 g carbohydrate."},
+    {"label": "Dense Beef Protein Unflavoured, Open Food Facts 7350053315716", "why": "Unflavoured, but its panel is identical to Hunter & Gather's, so it would count the same raw material twice."},
+    {"label": "Codeage Beef Isolate Protein Powder, Open Food Facts 0850049609357", "why": "Unflavoured, but the maker's page (25 g protein per serving) and the entry (23 g per 25 g) disagree."},
+    {"label": "Myprotein Hydrolysed Beef Protein", "why": "Discontinued: every regional product page is gone."}
+  ]
+}
