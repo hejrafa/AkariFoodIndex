@@ -1,0 +1,159 @@
+name: Publish Akari Food Data Pack
+
+# The reviewed food data the app bundles (reference index, verified names,
+# artwork rules, portions, recipes and the rest) as one zip, so improvements
+# reach the app without an App Store update. The app installs a pack whose
+# format it supports and whose publishedAt is later than what it has; it
+# applies at the next launch.
+
+on:
+  schedule:
+    # Sundays, three hours after the catalogue refresh (03:17).
+    - cron: '17 6 * * 0'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: food-data-pack
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      R2_BUCKET: akari-food-index
+      R2_BASE_URL: https://foods.joinakari.com/latest
+      # R2's S3 API ignores the region, and needs none of the extra checksums
+      # newer AWS CLI versions add by default.
+      AWS_DEFAULT_REGION: auto
+      AWS_REQUEST_CHECKSUM_CALCULATION: when_required
+      AWS_RESPONSE_CHECKSUM_VALIDATION: when_required
+    steps:
+      # Full history without file contents: publishedAt is the time of the
+      # last commit that changed the packed files, not of main's tip.
+      - name: Check out Akari's reviewed food data
+        uses: actions/checkout@v5
+        with:
+          repository: hejrafa/Akari
+          ref: main
+          path: akari-source
+          fetch-depth: 0
+          filter: blob:none
+          sparse-checkout: |
+            Scripts/build_food_data_pack.py
+            Akari/ReferenceFoods.sqlite
+            Akari/VerifiedFoodReferences.json
+            Akari/FoodArtworkClassification.json
+            Akari/FoodArtworkFamilies.json
+            Akari/FoodCategoryTaxonomy.json
+            Akari/FoodServingIdentities.json
+            Akari/FoodTypicalPortions.json
+            Akari/FoodMealSanity.json
+            Akari/FoodDryWeights.json
+            Akari/FoodDisplayNameCleanup.json
+            Akari/RecipeCatalog.json
+            Akari/GenericFoodSearchAliases.json
+            Akari/FoodDescriptionAliases.json
+            Akari/CafeDrinkCatalog.json
+            Akari/BeverageVolumeReferences.json
+            Akari/FoodVarieties.json
+          sparse-checkout-cone-mode: false
+          ssh-key: ${{ secrets.AKARI_SOURCE_DEPLOY_KEY }}
+          persist-credentials: false
+
+      - name: Build the pack
+        run: |
+          python3 akari-source/Scripts/build_food_data_pack.py \
+            --root akari-source --output pack
+
+      - name: Verify the pack
+        run: |
+          python3 - <<'PY'
+          import hashlib, json, pathlib, sqlite3, sys, tempfile, zipfile
+          sys.path.insert(0, "akari-source/Scripts")
+          import build_food_data_pack as builder
+          # What the app of this format accepts, from the one record of it.
+          accepted = builder.FORMATS[builder.FORMAT]
+          root = pathlib.Path("pack")
+          manifest = json.loads((root / "food-data-pack-manifest.json").read_text())
+          archive = root / "food-data-pack.zip"
+          data = archive.read_bytes()
+          assert manifest["format"] == builder.FORMAT, manifest["format"]
+          assert manifest["zipSha256"] == hashlib.sha256(data).hexdigest()
+          assert manifest["zipSize"] == len(data)
+          assert manifest["publishedAt"].endswith("Z") and manifest["commit"]
+          with tempfile.TemporaryDirectory() as directory, zipfile.ZipFile(archive) as pack:
+              directory = pathlib.Path(directory)
+              assert pack.namelist() == [item["name"] for item in manifest["files"]]
+              for item in manifest["files"]:
+                  content = pack.read(item["name"])
+                  assert hashlib.sha256(content).hexdigest() == item["sha256"], item["name"]
+                  assert len(content) == item["size"], item["name"]
+                  (directory / item["name"]).write_bytes(content)
+                  if item["name"].endswith(".json"):
+                      json.loads(content)
+              verified = json.loads((directory / "VerifiedFoodReferences.json").read_text())
+              policy = verified["policy"]
+              # The app's copy: names-only rows only where they declare a measure.
+              assert all("measure" in entry or "gramsPerMilliliter" in entry
+                         for entry in verified.get("namedOnly", []))
+              database = sqlite3.connect(f"file:{directory / 'ReferenceFoods.sqlite'}?mode=ro", uri=True)
+              assert database.execute("PRAGMA quick_check").fetchone()[0] == "ok"
+              assert database.execute("PRAGMA application_id").fetchone()[0] == accepted["referenceApplicationID"]
+              assert database.execute("PRAGMA user_version").fetchone()[0] == accepted["referenceSchema"]
+              assert policy == accepted["verificationPolicy"], policy
+              stored = database.execute(
+                  "SELECT value FROM metadata WHERE key='verification_policy'").fetchone()[0]
+              assert stored == policy, (stored, policy)
+              database.close()
+          print(f"Pack {manifest['contentHash'][:12]} from {manifest['commit'][:12]}, "
+                f"published {manifest['publishedAt']}, {manifest['zipSize']:,} bytes")
+          PY
+
+      # Same R2 account, token and key derivation as the catalogue refresh.
+      # The manifest goes last, so no client sees it before its zip.
+      - name: Upload to Cloudflare R2
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          set -euo pipefail
+          if [ -z "$CLOUDFLARE_API_TOKEN" ] || [ -z "$CLOUDFLARE_ACCOUNT_ID" ]; then
+            echo "::error::Add CLOUDFLARE_API_TOKEN and CLOUDFLARE_ACCOUNT_ID as repository secrets. Nothing was uploaded."
+            exit 1
+          fi
+          token_id() {
+            curl --silent --header "Authorization: Bearer $CLOUDFLARE_API_TOKEN" "$1" \
+              | jq -r 'select(.success == true) | .result.id // empty' 2>/dev/null || true
+          }
+          TOKEN_ID="$(token_id https://api.cloudflare.com/client/v4/user/tokens/verify)"
+          if [ -z "$TOKEN_ID" ]; then
+            TOKEN_ID="$(token_id "https://api.cloudflare.com/client/v4/accounts/$CLOUDFLARE_ACCOUNT_ID/tokens/verify")"
+          fi
+          if [ -z "$TOKEN_ID" ]; then
+            echo "::error::Cloudflare does not accept CLOUDFLARE_API_TOKEN. Nothing was uploaded."
+            exit 1
+          fi
+          SECRET="$(printf '%s' "$CLOUDFLARE_API_TOKEN" | sha256sum | cut -d' ' -f1)"
+          echo "::add-mask::$SECRET"
+          export AWS_ACCESS_KEY_ID="$TOKEN_ID" AWS_SECRET_ACCESS_KEY="$SECRET"
+          export AWS_ENDPOINT_URL="https://$CLOUDFLARE_ACCOUNT_ID.eu.r2.cloudflarestorage.com"
+
+          # The refresh workflow's helper, with the zip's content type added.
+          put() {
+            local file="$1" key="$2" type
+            shift 2
+            case "$file" in
+              *.sqlite) type=application/octet-stream ;;
+              *.json) type=application/json ;;
+              *.zip) type=application/zip ;;
+              *) echo "::error::No content type for $file"; exit 1 ;;
+            esac
+            aws s3 cp "$file" "s3://$R2_BUCKET/$key" --content-type "$type" --no-progress "$@"
+          }
+          put pack/food-data-pack.zip latest/food-data-pack.zip --cache-control no-cache
+          put pack/food-data-pack-manifest.json latest/food-data-pack-manifest.json --cache-control no-cache
+          echo "Published $R2_BASE_URL/food-data-pack-manifest.json"

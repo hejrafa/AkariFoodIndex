@@ -112,7 +112,7 @@ jobs:
           assert database.execute("PRAGMA quick_check").fetchone()[0] == "ok"
           assert database.execute("PRAGMA application_id").fetchone()[0] == 1095455302
           reference_schema = database.execute("PRAGMA user_version").fetchone()[0]
-          assert reference_schema in (3, 4, 5)
+          assert reference_schema in (3, 4, 5, 6)
           source_counts = dict(database.execute(
               "SELECT source, COUNT(*) FROM reference_food GROUP BY source"))
           verified_counts = dict(database.execute(

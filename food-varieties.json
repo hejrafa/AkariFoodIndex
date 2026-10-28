@@ -1,0 +1,33 @@
+{
+  "about": "Variety names of a food, in English and German. In meal parsing, a query that adds only variety names to a verified food is that verified food: a Granny Smith apple is the verified apple, never a table row that only names the variety. Any other added word (a preparation, a cut, skin, a form) leaves the rows to their scores. Lower case; FoodIndex/ is the source, Akari/FoodVarieties.json the synced copy.",
+  "foods": [
+    {
+      "food": ["apple", "apfel"],
+      "varieties": [
+        "granny smith", "gala", "royal gala", "braeburn", "fuji", "pink lady", "elstar", "boskoop",
+        "jonagold", "golden delicious", "red delicious", "cox", "cox orange", "cox orangenrenette",
+        "honeycrisp", "jazz", "kanzi"
+      ]
+    },
+    {
+      "food": ["pear", "birne"],
+      "varieties": ["conference", "williams", "williams christ", "bartlett", "abate", "abate fetel"]
+    },
+    {
+      "food": ["potato", "kartoffel"],
+      "varieties": [
+        "russet", "yukon gold", "maris piper", "king edward", "charlotte", "linda", "annabelle",
+        "festkochend", "festkochende", "mehligkochend", "mehligkochende", "vorwiegend festkochend",
+        "vorwiegend festkochende"
+      ]
+    },
+    {
+      "food": ["banana", "banane"],
+      "varieties": ["cavendish"]
+    },
+    {
+      "food": ["grape", "traube", "weintraube"],
+      "varieties": ["thompson", "thompson seedless", "concord"]
+    }
+  ]
+}

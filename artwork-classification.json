@@ -1,5 +1,5 @@
 {
-  "version": 43,
+  "version": 44,
   "description": "Akari presentation classification. Unambiguous complete food names can correct contradictory source categories; otherwise exact source categories come first. Product-line rules apply only when the entire remaining name is a reviewed qualifier. Never infer nutrients, allergens, alcohol counts or verified status.",
   "taxonomySource": "https://openfoodfacts.github.io/documentation/docs/Product-Opener/schemas/schemas/product_tags/",
   "rules": [
@@ -1653,6 +1653,17 @@
         "wild rice mix",
         "wildreismischung",
         "reismischung"
+      ],
+      "compoundSuffixes": [
+        "reis"
+      ],
+      "compoundExclusions": [
+        "beereis",
+        "wassereis",
+        "puffreis",
+        "knusperreis",
+        "dinkelreis",
+        "blumenkohlreis"
       ]
     },
     {
@@ -4361,7 +4372,22 @@
         "weißkrautsalat",
         "geflugelsalat",
         "geflügelsalat",
-        "thunfischsalat"
+        "thunfischsalat",
+        "meeresfrüchtesalat",
+        "meeresfruechtesalat"
+      ],
+      "compoundSuffixes": [
+        "salat"
+      ],
+      "compoundExclusions": [
+        "obstsalat",
+        "fruchtsalat",
+        "früchtesalat",
+        "fruechtesalat",
+        "bananensalat",
+        "birnensalat",
+        "nudlsalat",
+        "makkaronisalat"
       ],
       "exactTerms": [
         "chicken salad ready meal",
