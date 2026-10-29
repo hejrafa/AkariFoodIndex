@@ -103,7 +103,9 @@ def food_subject(name, removing_parentheses=True):
     # keeps USDA salads ending in "no dressing" on the salad bowl rather than
     # the sauce jar, while an actual "salad dressing" still remains a sauce.
     name = re.sub(r'\bno\s+(?:dressing|sauce)\b', ' ', name, flags=re.IGNORECASE)
-    return re.split(r' (?:with|without|in|im|mit|ohne|for|fur|avec|sans|dans|au jus) ', normalize(name))[0]
+    subject = re.split(r' (?:with|without|in|im|mit|ohne|for|fur|avec|sans|dans|au jus) ', normalize(name))[0]
+    # The cooking water is not the food: "bouillie/cuite à l'eau" is boiled.
+    return re.split(r' (?:cuit|cuite|cuits|cuites) a l eau\b', subject)[0]
 
 def is_meat_alternative(name):
     subject = food_subject(name, removing_parentheses=False)

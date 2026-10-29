@@ -210,8 +210,9 @@
    "key": "pork ribs roasted",
    "unit": "piece",
    "typical": 6,
-   "reason": "one rib, meat off the bone (existing identity 'pork ribs': 6 pieces of 35 g)",
-   "gramsPerUnit": 35
+   "reason": "USDA FNDDS via MyFoodData: Pork spareribs, cooked, 1 small rib, bone removed (https://tools.myfooddata.com/nutrition-facts/781979/wt1): The same FNDDS rib is 25 g of meat, so 35 g is too high.",
+   "gramsPerUnit": 25,
+   "webChecked": "2026-10-30"
   },
   {
    "key": "pork goulash meat raw",

@@ -269,8 +269,9 @@
    "key": "coriander leaves dried",
    "unit": "teaspoon",
    "typical": 1,
-   "reason": "a teaspoon of dried herb in a dish (rule: dried herb 1 tsp 1 g)",
-   "gramsPerUnit": 1
+   "reason": "USDA data via FoodStruct (dried coriander leaf, 1 tsp = 0.6 g) (https://foodstruct.com/food/spices-corianderleaf-dried): 1 tsp of dried coriander leaf weighs about 0.6 g, not 1 g (1 tbsp = 1.8 g).",
+   "gramsPerUnit": 0.6,
+   "webChecked": "2026-10-30"
   },
   {
    "key": "mint dried",

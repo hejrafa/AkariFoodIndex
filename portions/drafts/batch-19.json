@@ -77,8 +77,9 @@
    "key": "smoked char",
    "unit": "piece",
    "typical": 1,
-   "reason": "one smoked char fillet (estimate)",
-   "gramsPerUnit": 70
+   "reason": "Fischkultur smoked char fillet (at least 150 g); Fischräucherei Hadeyer (about 200 g per fillet) (https://shop.fischkultur.de/saiblingsfilet/): Retail smoked char fillets weigh about 150–200 g, far above 70 g.",
+   "gramsPerUnit": 150,
+   "webChecked": "2026-10-30"
   },
   {
    "key": "whitefish raw",
@@ -342,9 +343,10 @@
   {
    "key": "smoked sprats",
    "unit": "piece",
-   "typical": 8,
-   "reason": "eight smoked sprats (estimate)",
-   "gramsPerUnit": 10
+   "typical": 6,
+   "reason": "Heine Delikatessen (Sprotten, 250 g, about 15 pieces) (https://heine-delikatessen.de/fisch/geraeuchertes/56/sprotten-250-g): 250 g for about 15 pieces is about 17 g each. Another retailer, fisch-aufgetischt.de, gives about 25 g for a 10 cm sprat. Both are well above 10 g. I used the lower figure and",
+   "gramsPerUnit": 17,
+   "webChecked": "2026-10-30"
   },
   {
    "key": "sprats in oil",
@@ -499,8 +501,9 @@
    "key": "smoked dogfish belly",
    "unit": "piece",
    "typical": 1,
-   "reason": "one Schillerlocke (estimate)",
-   "gramsPerUnit": 50
+   "reason": "Heine Delikatessen product listing (Dornhai Schillerlocke) (https://heine-delikatessen.de/fisch/geraeuchertes/434/dornhai-schillerlocke-2-stueck-ca.-200-g): The listing gives 2 pieces as about 200 g, so one piece is about 100 g, not 50 g. This is a retailer figure, not a nutrition table.",
+   "gramsPerUnit": 100,
+   "webChecked": "2026-10-30"
   },
   {
    "key": "caviar",

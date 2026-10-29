@@ -35,9 +35,10 @@
   {
    "key": "lyon sausage",
    "unit": "slice",
-   "typical": 3,
-   "gramsPerUnit": 12,
-   "reason": "one cold-cut slice"
+   "typical": 2,
+   "gramsPerUnit": 30,
+   "reason": "fddb Lyoner (Metzger), slice 30 g (https://fddb.mobi/de/metzger_lyoner.html): The reference slice is 30 g. A Fatsecret entry gives about 28 g and an Aldi Schinken-Lyoner is 18 g, so 12 g is too low. Two slices is a sensible count.",
+   "webChecked": "2026-10-30"
   },
   {
    "key": "bologna",
@@ -480,8 +481,9 @@
    "key": "black pudding dry fried",
    "unit": "slice",
    "typical": 2,
-   "gramsPerUnit": 30,
-   "reason": "one slice, as in a cooked breakfast"
+   "gramsPerUnit": 50,
+   "reason": "Feast Glorious Feast, black pudding slices (about 40–60 g each) (https://feastgloriousfeast.com/air-fry-black-pudding-slices/): Retail slices are about 40 g (Hopwells), at least 60 g (Slacks Farm) or 85 g (Waller's), so 30 g is too low. I used 50 g, the middle of the 40–60 g range.",
+   "webChecked": "2026-10-30"
   },
   {
    "key": "haggis boiled",
@@ -557,8 +559,9 @@
    "key": "pork ribs",
    "unit": "piece",
    "typical": 6,
-   "gramsPerUnit": 35,
-   "reason": "one rib, meat without bone"
+   "gramsPerUnit": 25,
+   "reason": "USDA FNDDS via MyFoodData: Pork spareribs, cooked, 1 small rib, bone removed (https://tools.myfooddata.com/nutrition-facts/781979/wt1): FNDDS gives 25 g of meat per small rib (18 g if lean only), so 35 g is about 40% too high.",
+   "webChecked": "2026-10-30"
   },
   {
    "key": "pork pig s feet",

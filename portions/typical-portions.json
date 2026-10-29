@@ -570,10 +570,10 @@
    ],
    "unit": "piece",
    "typical": 3,
-   "gramsPerUnit": 3,
+   "gramsPerUnit": 4,
    "source": {
     "kind": "estimate",
-    "reason": "one drained anchovy fillet"
+    "reason": "USDA SR Legacy via MyFoodData (anchovy, canned in oil, drained) (https://tools.myfooddata.com/nutrition-facts/174183/wt4): 5 anchovies are 20 g, so 4 g each. 3 g is 25% low."
    },
    "typicalSource": "estimate",
    "origin": "generated",
@@ -3468,10 +3468,10 @@
    ],
    "unit": "slice",
    "typical": 2,
-   "gramsPerUnit": 20,
+   "gramsPerUnit": 30,
    "source": {
     "kind": "estimate",
-    "reason": "two slices on bread (aid table: Wurst 30 g; Brühwurst slices about 20 g)"
+    "reason": "EDEKA Lebensmittellexikon, Bierschinken (https://www.edeka.de/wissen/kuechenwissen/lebensmittellexikon/bierschinken/): EDEKA gives 30 g for one slice of Aufschnitt, and fddb lists 25 g. The draft's 20 g is 33% below EDEKA's figure."
    },
    "typicalSource": "estimate",
    "origin": "generated",
@@ -3845,10 +3845,10 @@
    ],
    "unit": "slice",
    "typical": 2,
-   "gramsPerUnit": 30,
+   "gramsPerUnit": 50,
    "source": {
     "kind": "estimate",
-    "reason": "one slice, as in a cooked breakfast"
+    "reason": "Feast Glorious Feast, black pudding slices (about 40–60 g each) (https://feastgloriousfeast.com/air-fry-black-pudding-slices/): Retail slices are about 40 g (Hopwells), at least 60 g (Slacks Farm) or 85 g (Waller's), so 30 g is too low. I used 50 g, the middle of the 40–60 g range."
    },
    "typicalSource": "estimate",
    "origin": "generated",
@@ -5658,11 +5658,11 @@
     "bls:D630400"
    ],
    "unit": "cookie",
-   "typical": 3,
-   "gramsPerUnit": 8,
+   "typical": 4,
+   "gramsPerUnit": 6,
    "source": {
     "kind": "estimate",
-    "reason": "three biscuits (Leibniz Butterkeks 8.3 g each)"
+    "reason": "Mahlzait and WikiFit, Leibniz Butterkeks (1 biscuit = 6.25 g / 5 g) (https://www.mahlzait.de/kalorien/leibniz-butterkeks/): Both references put a Leibniz biscuit at 5–6.25 g, not 8 g. At about 6 g each, 4 biscuits is a more usual count. WikiFit: https://www.wikifit.de/kalorientabelle/backwaren/leibn"
    },
    "typicalSource": "estimate",
    "origin": "generated",
@@ -5685,10 +5685,10 @@
    ],
    "unit": "slice",
    "typical": 1,
-   "gramsPerUnit": 90,
+   "gramsPerUnit": 60,
    "source": {
     "kind": "estimate",
-    "reason": "one piece of sheet cake (aid: Kuchen 1 Stück 100–150 g; a flat Butterkuchen piece about 90 g)"
+    "reason": "meine-gesundheit.de Kalorientabelle Brot, Kuchen & Gebäck (Butterkuchen 1 piece = 60 g) (https://www.meine-gesundheit.de/ernaehrung/kalorientabellen/kalorientabelle-brot-kuchen-gebaeck): This table lists a piece of Butterkuchen at 60 g. A user forum post says about 65 g, and neither is near 90 g."
    },
    "typicalSource": "estimate",
    "origin": "generated",
@@ -12132,10 +12132,10 @@
    ],
    "unit": "teaspoon",
    "typical": 1,
-   "gramsPerUnit": 1,
+   "gramsPerUnit": 0.6,
    "source": {
     "kind": "estimate",
-    "reason": "a teaspoon of dried herb in a dish (rule: dried herb 1 tsp 1 g)"
+    "reason": "USDA data via FoodStruct (dried coriander leaf, 1 tsp = 0.6 g) (https://foodstruct.com/food/spices-corianderleaf-dried): 1 tsp of dried coriander leaf weighs about 0.6 g, not 1 g (1 tbsp = 1.8 g)."
    },
    "typicalSource": "estimate",
    "origin": "generated",
@@ -15640,10 +15640,10 @@
    ],
    "unit": "bar",
    "typical": 1,
-   "gramsPerUnit": 60,
+   "gramsPerUnit": 90,
    "source": {
     "kind": "estimate",
-    "reason": "one retail bar (a retail flapjack 60–90 g)"
+    "reason": "Check Your Food, Flapjacks - retail (McCance & Widdowson-based portion) (https://www.checkyourfood.com/ingredients/ingredient/1506/flapjacks-retail): The retail flapjack portion is 90 g. Complete Nutrition cites 80–100 g, and Blackfriars sells a 110 g slice. The drafted 60 g is too low."
    },
    "typicalSource": "estimate",
    "origin": "generated",
@@ -18847,10 +18847,10 @@
    ],
    "unit": "piece",
    "typical": 4,
-   "gramsPerUnit": 35,
+   "gramsPerUnit": 50,
    "source": {
     "kind": "estimate",
-    "reason": "four greengages (estimate (a greengage weighs 30 to 40 g); aid Obst 125 g)"
+    "reason": "Oxford Dictionary of Nutrition and Dietetics via Encyclopedia.com (4 greengages = 200 g, stones removed) (https://www.encyclopedia.com/sports-and-everyday-life/food-and-drink/food-and-cooking/greengage): The reference gives 200 g for four stoned fruit, which is 50 g each. The draft's 35 g is about 3"
    },
    "typicalSource": "estimate",
    "origin": "generated",
@@ -20455,10 +20455,10 @@
    ],
    "unit": "piece",
    "typical": 1,
-   "gramsPerUnit": 120,
+   "gramsPerUnit": 184,
    "source": {
     "kind": "estimate",
-    "reason": "one fried herring, edible part"
+    "reason": "lebensmittelwissen.de Portionsgrößen Fische und Fischprodukte (Brathering, 1 Stück) (https://www.lebensmittelwissen.de/tipps/haushalt/portionsgroessen/fische-fischprodukte.php): The table lists 1 Brathering as 200 g raw weight and 184 g edible part. The draft's 120 g is about 35% lower. The table's "
    },
    "typicalSource": "estimate",
    "origin": "generated",
@@ -23902,10 +23902,10 @@
    ],
    "unit": "piece",
    "typical": 0.25,
-   "gramsPerUnit": 45,
+   "gramsPerUnit": 67,
    "source": {
     "kind": "estimate",
-    "reason": "a medium lime; a wedge or squeeze is a quarter of it"
+    "reason": "USDA FoodData Central via MyFoodData (limes, raw) (https://tools.myfooddata.com/nutrition-facts/168155/wt1): USDA lists 1 fruit (2 in diameter) as 67 g, so the drafted 45 g is more than 20% low."
    },
    "typicalSource": "estimate",
    "origin": "generated",
@@ -24179,10 +24179,10 @@
    ],
    "unit": "portion",
    "typical": 1,
-   "gramsPerUnit": 20,
+   "gramsPerUnit": 30,
    "source": {
     "kind": "estimate",
-    "reason": "one tablespoon spread on bread (estimate; spread 1 tablespoon 20 g)"
+    "reason": "Apotheken Umschau – typische Portionsgrößen (https://www.apotheken-umschau.de/gesund-bleiben/ernaehrung/so-gross-sind-typische-portionsgroessen-713899.html): The page puts a spreadable-sausage portion (liver sausage) at 30 g. fettrechner.de also lists coarse liver sausage as 30 g per portion. 20 g i"
    },
    "typicalSource": "estimate",
    "origin": "generated",
@@ -24314,10 +24314,10 @@
    ],
    "unit": "piece",
    "typical": 5,
-   "gramsPerUnit": 30,
+   "gramsPerUnit": 16,
    "source": {
     "kind": "estimate",
-    "reason": "five loquats (estimate (a loquat weighs 30 to 40 g with stone))"
+    "reason": "USDA household measures via Foodstruct (Loquat: 1 medium = 16 g, large 20 g, small 13.6 g) (https://foodstruct.com/food/loquat): The draft 30 g includes the stone. The edible-part reference is about 16 g per medium fruit. Five fruits is still reasonable."
    },
    "typicalSource": "estimate",
    "origin": "generated",
@@ -24504,11 +24504,11 @@
     "bls:W231100"
    ],
    "unit": "slice",
-   "typical": 3,
-   "gramsPerUnit": 12,
+   "typical": 2,
+   "gramsPerUnit": 30,
    "source": {
     "kind": "estimate",
-    "reason": "one cold-cut slice"
+    "reason": "fddb Lyoner (Metzger), slice 30 g (https://fddb.mobi/de/metzger_lyoner.html): The reference slice is 30 g. A Fatsecret entry gives about 28 g and an Aldi Schinken-Lyoner is 18 g, so 12 g is too low. Two slices is a sensible count."
    },
    "typicalSource": "estimate",
    "origin": "generated",
@@ -25271,10 +25271,10 @@
    ],
    "unit": "piece",
    "typical": 2,
-   "gramsPerUnit": 75,
+   "gramsPerUnit": 50,
    "source": {
     "kind": "estimate",
-    "reason": "one mild-salted fillet; a plate carries two"
+    "reason": "lachs.de Kleine Matjeskunde (Bofrost pack 6-8 pieces = 340 g agrees) (https://lachs.de/kleine-matjeskunde/): A matjes fillet weighs 35-50 g; Bofrost gives about 48 g per piece. 75 g is too high. A Lindner shop pack gives about 62 g per piece."
    },
    "typicalSource": "estimate",
    "origin": "generated",
@@ -26150,10 +26150,10 @@
    ],
    "unit": "portion",
    "typical": 1,
-   "gramsPerUnit": 40,
+   "gramsPerUnit": 30,
    "source": {
     "kind": "estimate",
-    "reason": "a handful of dried fruit (FNDDS Dried fruit, NFS: quantity not specified 40 g)"
+    "reason": "British Nutrition Foundation, Your balanced diet (dried fruit portion about 30 g) (https://www.nutrition.org.uk/media/pwdjfvj5/your-balanced-diet_16pp_final_web.pdf): BNF and NHS give 30 g as one portion of dried fruit. The drafted 40 g is about 33 % higher, and I did not find the FNDDS figure it ci"
    },
    "typicalSource": "estimate",
    "origin": "generated",
@@ -31752,10 +31752,10 @@
    ],
    "unit": "slice",
    "typical": 2,
-   "gramsPerUnit": 40,
+   "gramsPerUnit": 25,
    "source": {
     "kind": "estimate",
-    "reason": "two thick slices (estimate)"
+    "reason": "lebensmittelwissen.de Portionsgrößen Wurst & Wurstwaren (https://www.lebensmittelwissen.de/tipps/haushalt/portionsgroessen/wurst.php): Sülze is listed at 25 g per slice, so 40 g is too high. A second site gives about 20 g per slice. Two slices is still sensible."
    },
    "typicalSource": "estimate",
    "origin": "generated",
@@ -32193,10 +32193,10 @@
    ],
    "unit": "piece",
    "typical": 6,
-   "gramsPerUnit": 35,
+   "gramsPerUnit": 25,
    "source": {
     "kind": "estimate",
-    "reason": "one rib, meat without bone"
+    "reason": "USDA FNDDS via MyFoodData: Pork spareribs, cooked, 1 small rib, bone removed (https://tools.myfooddata.com/nutrition-facts/781979/wt1): FNDDS gives 25 g of meat per small rib (18 g if lean only), so 35 g is about 40% too high."
    },
    "typicalSource": "estimate",
    "origin": "generated",
@@ -32257,10 +32257,10 @@
    ],
    "unit": "piece",
    "typical": 6,
-   "gramsPerUnit": 35,
+   "gramsPerUnit": 25,
    "source": {
     "kind": "estimate",
-    "reason": "one rib, meat off the bone (existing identity 'pork ribs': 6 pieces of 35 g)"
+    "reason": "USDA FNDDS via MyFoodData: Pork spareribs, cooked, 1 small rib, bone removed (https://tools.myfooddata.com/nutrition-facts/781979/wt1): The same FNDDS rib is 25 g of meat, so 35 g is too high."
    },
    "typicalSource": "estimate",
    "origin": "generated",
@@ -36795,10 +36795,10 @@
    ],
    "unit": "tablespoon",
    "typical": 1,
-   "gramsPerUnit": 9,
+   "gramsPerUnit": 6.4,
    "source": {
     "kind": "estimate",
-    "reason": "one tablespoon of flour (existing wheat flour 1 tbsp 9 g)"
+    "reason": "USDA rye flour (medium), 1 tbsp ≈ 6.37 g (howmany.wiki, derived from USDA density) (https://www.howmany.wiki/vw/--1--tablespoon--of--usda-rye-flour--in--gram): The lighter type 997 is closest to USDA medium rye, and 6.4 g is about 30 % below the draft. The source is a derived calculation, so confide"
    },
    "typicalSource": "estimate",
    "origin": "generated",
@@ -39100,10 +39100,10 @@
    ],
    "unit": "piece",
    "typical": 1,
-   "gramsPerUnit": 70,
+   "gramsPerUnit": 150,
    "source": {
     "kind": "estimate",
-    "reason": "one smoked char fillet (estimate)"
+    "reason": "Fischkultur smoked char fillet (at least 150 g); Fischräucherei Hadeyer (about 200 g per fillet) (https://shop.fischkultur.de/saiblingsfilet/): Retail smoked char fillets weigh about 150–200 g, far above 70 g."
    },
    "typicalSource": "estimate",
    "origin": "generated",
@@ -39162,10 +39162,10 @@
    ],
    "unit": "piece",
    "typical": 1,
-   "gramsPerUnit": 50,
+   "gramsPerUnit": 100,
    "source": {
     "kind": "estimate",
-    "reason": "one Schillerlocke (estimate)"
+    "reason": "Heine Delikatessen product listing (Dornhai Schillerlocke) (https://heine-delikatessen.de/fisch/geraeuchertes/434/dornhai-schillerlocke-2-stueck-ca.-200-g): The listing gives 2 pieces as about 200 g, so one piece is about 100 g, not 50 g. This is a retailer figure, not a nutrition table."
    },
    "typicalSource": "estimate",
    "origin": "generated",
@@ -39395,11 +39395,11 @@
     "bls:T106600"
    ],
    "unit": "piece",
-   "typical": 8,
-   "gramsPerUnit": 10,
+   "typical": 6,
+   "gramsPerUnit": 17,
    "source": {
     "kind": "estimate",
-    "reason": "eight smoked sprats (estimate)"
+    "reason": "Heine Delikatessen (Sprotten, 250 g, about 15 pieces) (https://heine-delikatessen.de/fisch/geraeuchertes/56/sprotten-250-g): 250 g for about 15 pieces is about 17 g each. Another retailer, fisch-aufgetischt.de, gives about 25 g for a 10 cm sprat. Both are well above 10 g. I used the lower figure and"
    },
    "typicalSource": "estimate",
    "origin": "generated",
@@ -40567,10 +40567,10 @@
    ],
    "unit": "piece",
    "typical": 1,
-   "gramsPerUnit": 60,
+   "gramsPerUnit": 80,
    "source": {
     "kind": "estimate",
-    "reason": "one roll (estimate: Brötchen 55-60 g)"
+    "reason": "Wikifit Kalorientabelle, Dinkelbrötchen (1 Stück = 80 g); Lidl Dinkelbrötchen lists 85 g per piece (https://www.wikifit.de/kalorientabelle/brot/dinkelbroetchen): Two listings give 80-85 g per spelt roll, which is more than 20% above 60 g. These are product and database listings, not an official port"
    },
    "typicalSource": "estimate",
    "origin": "generated",
@@ -41992,10 +41992,10 @@
    ],
    "unit": "slice",
    "typical": 1,
-   "gramsPerUnit": 55,
+   "gramsPerUnit": 40,
    "source": {
     "kind": "estimate",
-    "reason": "one slice (a Swiss roll slice 50–60 g)"
+    "reason": "Fitia (Rowan Hill Jumbo Strawberry Swiss Roll, 1 slice = 40 g); Fitatu and EatBetter also list 40 g, with one EatBetter entry at 45 g (https://fitia.app/calories-nutritional-information/jumbo-strawberry-swiss-roll-24014001/): Listed slices are 40–45 g, so 55 g is 22% or more too high. These are reta"
    },
    "typicalSource": "estimate",
    "origin": "generated",
@@ -44153,10 +44153,10 @@
    ],
    "unit": "portion",
    "typical": 1,
-   "gramsPerUnit": 20,
+   "gramsPerUnit": 30,
    "source": {
     "kind": "estimate",
-    "reason": "one tablespoon spread on bread (estimate; spread 1 tablespoon 20 g)"
+    "reason": "lebensmittelwissen.de, Portionsgrößen Wurst (Leberwurst) (https://www.lebensmittelwissen.de/tipps/haushalt/portionsgroessen/wurst.php): The table lists 30 g for one portion of Leberwurst. 20 g is a third lower than that. The table has no veal-specific entry."
    },
    "typicalSource": "estimate",
    "origin": "generated",

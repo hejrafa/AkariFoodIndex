@@ -175,8 +175,9 @@
    "key": "bierschinken",
    "unit": "slice",
    "typical": 2,
-   "reason": "two slices on bread (aid table: Wurst 30 g; Brühwurst slices about 20 g)",
-   "gramsPerUnit": 20
+   "reason": "EDEKA Lebensmittellexikon, Bierschinken (https://www.edeka.de/wissen/kuechenwissen/lebensmittellexikon/bierschinken/): EDEKA gives 30 g for one slice of Aufschnitt, and fddb lists 25 g. The draft's 20 g is 33% below EDEKA's figure.",
+   "gramsPerUnit": 30,
+   "webChecked": "2026-10-30"
   },
   {
    "key": "bierwurst",
@@ -196,15 +197,17 @@
    "key": "liver sausage coarse",
    "unit": "portion",
    "typical": 1,
-   "reason": "one tablespoon spread on bread (estimate; spread 1 tablespoon 20 g)",
-   "gramsPerUnit": 20
+   "reason": "Apotheken Umschau – typische Portionsgrößen (https://www.apotheken-umschau.de/gesund-bleiben/ernaehrung/so-gross-sind-typische-portionsgroessen-713899.html): The page puts a spreadable-sausage portion (liver sausage) at 30 g. fettrechner.de also lists coarse liver sausage as 30 g per portion. 20 g i",
+   "gramsPerUnit": 30,
+   "webChecked": "2026-10-30"
   },
   {
    "key": "veal liver sausage",
    "unit": "portion",
    "typical": 1,
-   "reason": "one tablespoon spread on bread (estimate; spread 1 tablespoon 20 g)",
-   "gramsPerUnit": 20
+   "reason": "lebensmittelwissen.de, Portionsgrößen Wurst (Leberwurst) (https://www.lebensmittelwissen.de/tipps/haushalt/portionsgroessen/wurst.php): The table lists 30 g for one portion of Leberwurst. 20 g is a third lower than that. The table has no veal-specific entry.",
+   "gramsPerUnit": 30,
+   "webChecked": "2026-10-30"
   },
   {
    "key": "thuringian blood sausage",
@@ -231,8 +234,9 @@
    "key": "pork in aspic",
    "unit": "slice",
    "typical": 2,
-   "reason": "two thick slices (estimate)",
-   "gramsPerUnit": 40
+   "reason": "lebensmittelwissen.de Portionsgrößen Wurst & Wurstwaren (https://www.lebensmittelwissen.de/tipps/haushalt/portionsgroessen/wurst.php): Sülze is listed at 25 g per slice, so 40 g is too high. A second site gives about 20 g per slice. Two slices is still sensible.",
+   "gramsPerUnit": 25,
+   "webChecked": "2026-10-30"
   },
   {
    "key": "lean smoked bacon",

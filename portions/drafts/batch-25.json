@@ -414,8 +414,9 @@
    "key": "butter cake",
    "unit": "slice",
    "typical": 1,
-   "reason": "one piece of sheet cake (aid: Kuchen 1 Stück 100–150 g; a flat Butterkuchen piece about 90 g)",
-   "gramsPerUnit": 90
+   "reason": "meine-gesundheit.de Kalorientabelle Brot, Kuchen & Gebäck (Butterkuchen 1 piece = 60 g) (https://www.meine-gesundheit.de/ernaehrung/kalorientabellen/kalorientabelle-brot-kuchen-gebaeck): This table lists a piece of Butterkuchen at 60 g. A user forum post says about 65 g, and neither is near 90 g.",
+   "gramsPerUnit": 60,
+   "webChecked": "2026-10-30"
   },
   {
    "key": "plum cake",
@@ -533,8 +534,9 @@
    "key": "swiss roll",
    "unit": "slice",
    "typical": 1,
-   "reason": "one slice (a Swiss roll slice 50–60 g)",
-   "gramsPerUnit": 55
+   "reason": "Fitia (Rowan Hill Jumbo Strawberry Swiss Roll, 1 slice = 40 g); Fitatu and EatBetter also list 40 g, with one EatBetter entry at 45 g (https://fitia.app/calories-nutritional-information/jumbo-strawberry-swiss-roll-24014001/): Listed slices are 40–45 g, so 55 g is 22% or more too high. These are reta",
+   "gramsPerUnit": 40,
+   "webChecked": "2026-10-30"
   },
   {
    "key": "baumkuchen",
@@ -645,9 +647,10 @@
   {
    "key": "butter biscuit",
    "unit": "cookie",
-   "typical": 3,
-   "reason": "three biscuits (Leibniz Butterkeks 8.3 g each)",
-   "gramsPerUnit": 8
+   "typical": 4,
+   "reason": "Mahlzait and WikiFit, Leibniz Butterkeks (1 biscuit = 6.25 g / 5 g) (https://www.mahlzait.de/kalorien/leibniz-butterkeks/): Both references put a Leibniz biscuit at 5–6.25 g, not 8 g. At about 6 g each, 4 biscuits is a more usual count. WikiFit: https://www.wikifit.de/kalorientabelle/backwaren/leibn",
+   "gramsPerUnit": 6,
+   "webChecked": "2026-10-30"
   },
   {
    "key": "chocolate biscuit",
@@ -795,8 +798,9 @@
    "key": "flapjack",
    "unit": "bar",
    "typical": 1,
-   "reason": "one retail bar (a retail flapjack 60–90 g)",
-   "gramsPerUnit": 60
+   "reason": "Check Your Food, Flapjacks - retail (McCance & Widdowson-based portion) (https://www.checkyourfood.com/ingredients/ingredient/1506/flapjacks-retail): The retail flapjack portion is 90 g. Complete Nutrition cites 80–100 g, and Blackfriars sells a 110 g slice. The drafted 60 g is too low.",
+   "gramsPerUnit": 90,
+   "webChecked": "2026-10-30"
   }
  ]
 }

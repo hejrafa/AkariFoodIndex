@@ -485,8 +485,9 @@
    "key": "rye flour type 997",
    "unit": "tablespoon",
    "typical": 1,
-   "reason": "one tablespoon of flour (existing wheat flour 1 tbsp 9 g)",
-   "gramsPerUnit": 9
+   "reason": "USDA rye flour (medium), 1 tbsp ≈ 6.37 g (howmany.wiki, derived from USDA density) (https://www.howmany.wiki/vw/--1--tablespoon--of--usda-rye-flour--in--gram): The lighter type 997 is closest to USDA medium rye, and 6.4 g is about 30 % below the draft. The source is a derived calculation, so confide",
+   "gramsPerUnit": 6.4,
+   "webChecked": "2026-10-30"
   },
   {
    "key": "rye flour type 1150",

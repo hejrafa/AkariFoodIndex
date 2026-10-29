@@ -1,5 +1,5 @@
 {
-  "version": 44,
+  "version": 45,
   "description": "Akari presentation classification. Unambiguous complete food names can correct contradictory source categories; otherwise exact source categories come first. Product-line rules apply only when the entire remaining name is a reviewed qualifier. Never infer nutrients, allergens, alcohol counts or verified status.",
   "taxonomySource": "https://openfoodfacts.github.io/documentation/docs/Product-Opener/schemas/schemas/product_tags/",
   "rules": [
@@ -4009,6 +4009,8 @@
         "weißkohl",
         "rotkohl",
         "red cabbage",
+        "weinsauerkraut",
+        "wine sauerkraut",
         "wirsing",
         "savoy cabbage",
         "chou",
