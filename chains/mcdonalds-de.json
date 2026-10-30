@@ -1,0 +1,4518 @@
+{
+ "chain": "McDonald's Deutschland",
+ "sourceURL": "https://www.mcdonalds.com/de/de-de/produkte/alle-produkte.html",
+ "sourceNote": "McDonald's Deutschland publishes its nutrition per product on each product page (Nährwerte per 100 g and per portion with the portion's weight, and allergens); https://www.mcdonalds.com/de/de-de/produkte/naehrwert-und-allergeninformationen.html says the values are rounded European averages from accredited laboratories for standard recipes and portions. There is no PDF: each page reads its table from the site's own item data service, named in the page as data-product-api-url, recorded per row as dataURL with the SHA-256 of the response text.",
+ "retrievedOn": "2026-10-30",
+ "checkedDate": "2026-10-30",
+ "sha256": "09b5fa003257b6657cb4387931e2986b3c4fa89325a9a7ba6a8b976735aadc95",
+ "sha256Note": "SHA-256 over the per-row sha256 values concatenated in ascending item id; each row sha256 is the SHA-256 of the raw itemDetails response text.",
+ "categoryPagesCrawled": [
+  "burger",
+  "mcwrap",
+  "mccrispy",
+  "mcnuggets-fingerfood",
+  "veggie-und-plantbased",
+  "beilagen-extras",
+  "fruehstueck",
+  "getraenke",
+  "desserts",
+  "mccafe",
+  "mcsmart-snacks",
+  "happy-meal",
+  "mcmenu",
+  "highlights"
+ ],
+ "rows": [
+  {
+   "id": 200016,
+   "menuItemNo": "2000",
+   "name": "Hamburger",
+   "category": "burger",
+   "siteCategories": [
+    "Burger",
+    "Snacks",
+    "Happy Meal®",
+    "McSmart Snacks"
+   ],
+   "servingGrams": 106.0,
+   "valuesPer100g": {
+    "energyKJ": 1021.0,
+    "calories": 243.0,
+    "fat": 8.9,
+    "saturatedFat": 3.5,
+    "carbs": 27.0,
+    "sugar": 6.5,
+    "fiber": 2.1,
+    "protein": 13.0,
+    "saltGrams": 1.0
+   },
+   "valuesPerServing": {
+    "energyKJ": 1086.0,
+    "calories": 259.0,
+    "fat": 9.5,
+    "saturatedFat": 3.7,
+    "carbs": 29.0,
+    "sugar": 6.9,
+    "fiber": 2.2,
+    "protein": 13.0,
+    "saltGrams": 1.1
+   },
+   "allergens": "Glutenhaltiges Getreide: Weizen (wie Dinkel und Khorasan-Weizen),Senf",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/hamburger-1-200016.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=200016",
+   "sha256": "7ded038bd202fa2b5bc5b041b846d02880aa7278370b40546c288a4c276fe5e7"
+  },
+  {
+   "id": 200017,
+   "menuItemNo": "2010",
+   "name": "Cheeseburger",
+   "category": "burger",
+   "siteCategories": [
+    "Burger",
+    "Snacks",
+    "Beliebte Produkte",
+    "Happy Meal®",
+    "McSmart Menü",
+    "McSmart Snacks"
+   ],
+   "servingGrams": 121.0,
+   "valuesPer100g": {
+    "energyKJ": 1069.0,
+    "calories": 255.0,
+    "fat": 11.0,
+    "saturatedFat": 5.2,
+    "carbs": 25.0,
+    "sugar": 6.1,
+    "fiber": 1.8,
+    "protein": 13.0,
+    "saltGrams": 1.3
+   },
+   "valuesPerServing": {
+    "energyKJ": 1290.0,
+    "calories": 307.0,
+    "fat": 13.0,
+    "saturatedFat": 6.3,
+    "carbs": 30.0,
+    "sugar": 7.4,
+    "fiber": 2.2,
+    "protein": 16.0,
+    "saltGrams": 1.6
+   },
+   "allergens": "Glutenhaltiges Getreide: Weizen (wie Dinkel und Khorasan-Weizen),Milch (einschl. Laktose),Senf",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/cheeseburger-2010.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=200017",
+   "sha256": "20320cec9534f258d24c1a50702501b1bbc93279fd583efe912dbed06dde9888"
+  },
+  {
+   "id": 200018,
+   "menuItemNo": "2030",
+   "name": "Double Cheeseburger",
+   "category": "burger",
+   "siteCategories": [
+    "Burger",
+    "Snacks",
+    "McSmart Menü"
+   ],
+   "servingGrams": 179.0,
+   "valuesPer100g": {
+    "energyKJ": 1074.0,
+    "calories": 257.0,
+    "fat": 14.0,
+    "saturatedFat": 6.8,
+    "carbs": 17.0,
+    "sugar": 4.5,
+    "fiber": 1.3,
+    "protein": 15.0,
+    "saltGrams": 1.3
+   },
+   "valuesPerServing": {
+    "energyKJ": 1924.0,
+    "calories": 460.0,
+    "fat": 25.0,
+    "saturatedFat": 12.0,
+    "carbs": 31.0,
+    "sugar": 8.0,
+    "fiber": 2.4,
+    "protein": 27.0,
+    "saltGrams": 2.4
+   },
+   "allergens": "Glutenhaltiges Getreide: Weizen (wie Dinkel und Khorasan-Weizen),Milch (einschl. Laktose),Senf",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/doppel-cheeseburger-200018.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=200018",
+   "sha256": "e2dd6b1208d1494b50e9e4d2431dc54e43cfd91a4d20bddb4e325b3af37ed6a6"
+  },
+  {
+   "id": 200019,
+   "menuItemNo": "2040",
+   "name": "Hamburger Royal Cheese",
+   "category": "burger",
+   "siteCategories": [
+    "Burger",
+    "McMenü®"
+   ],
+   "servingGrams": 213.0,
+   "valuesPer100g": {
+    "energyKJ": 1077.0,
+    "calories": 257.0,
+    "fat": 14.0,
+    "saturatedFat": 6.5,
+    "carbs": 18.0,
+    "sugar": 4.8,
+    "fiber": 1.4,
+    "protein": 15.0,
+    "saltGrams": 1.2
+   },
+   "valuesPerServing": {
+    "energyKJ": 2299.0,
+    "calories": 549.0,
+    "fat": 29.0,
+    "saturatedFat": 14.0,
+    "carbs": 38.0,
+    "sugar": 10.0,
+    "fiber": 2.9,
+    "protein": 33.0,
+    "saltGrams": 2.5
+   },
+   "allergens": "Glutenhaltiges Getreide: Weizen (wie Dinkel und Khorasan-Weizen),Milch (einschl. Laktose),Senf,Sesamsamen",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/hamburger-royal-kse-2040.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=200019",
+   "sha256": "1893efbd44ef6fc52c77fbf01d33189afe184a7ee13012ada978c8df9a39d0b6"
+  },
+  {
+   "id": 200020,
+   "menuItemNo": "2050",
+   "name": "Big Mac®",
+   "category": "burger",
+   "siteCategories": [
+    "Burger",
+    "McMenü®",
+    "Beliebte Produkte"
+   ],
+   "servingGrams": 232.0,
+   "valuesPer100g": {
+    "energyKJ": 982.0,
+    "calories": 235.0,
+    "fat": 12.0,
+    "saturatedFat": 4.5,
+    "carbs": 18.0,
+    "sugar": 3.7,
+    "fiber": 1.7,
+    "protein": 12.0,
+    "saltGrams": 0.99
+   },
+   "valuesPerServing": {
+    "energyKJ": 2280.0,
+    "calories": 545.0,
+    "fat": 29.0,
+    "saturatedFat": 11.0,
+    "carbs": 42.0,
+    "sugar": 8.6,
+    "fiber": 3.9,
+    "protein": 27.0,
+    "saltGrams": 2.3
+   },
+   "allergens": "Glutenhaltiges Getreide: Weizen (wie Dinkel und Khorasan-Weizen),Eier,Milch (einschl. Laktose),Senf,Sesamsamen",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/big-mac-2050.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=200020",
+   "sha256": "e777fa74393dfc8db65d1b1c9069b9243eb8747bcd175e27e685770654db1508"
+  },
+  {
+   "id": 200023,
+   "menuItemNo": "2100",
+   "name": "6-McNuggets",
+   "category": "chicken",
+   "siteCategories": [
+    "Snacks",
+    "McMenü®",
+    "Beliebte Produkte",
+    "McNuggets® & Fingerfood"
+   ],
+   "servingGrams": 109.0,
+   "valuesPer100g": {
+    "energyKJ": 1027.0,
+    "calories": 246.0,
+    "fat": 13.0,
+    "saturatedFat": 1.6,
+    "carbs": 16.0,
+    "sugar": 0.7,
+    "fiber": 1.1,
+    "protein": 15.0,
+    "saltGrams": 1.0
+   },
+   "valuesPerServing": {
+    "energyKJ": 1115.0,
+    "calories": 267.0,
+    "fat": 14.0,
+    "saturatedFat": 1.7,
+    "carbs": 18.0,
+    "sugar": 0.8,
+    "fiber": 1.2,
+    "protein": 16.0,
+    "saltGrams": 1.1
+   },
+   "allergens": "Glutenhaltiges Getreide: Weizen (wie Dinkel und Khorasan-Weizen),Sellerie",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/6-chicken-mcnuggets-200023.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=200023",
+   "sha256": "745130c34013d57a26e0f78f3e3ca80da3517915c670d5b643ae328008aac4b2"
+  },
+  {
+   "id": 200024,
+   "menuItemNo": "2110",
+   "name": "9-McNuggets",
+   "category": "chicken",
+   "siteCategories": [
+    "McMenü®",
+    "Beliebte Produkte",
+    "McNuggets® & Fingerfood"
+   ],
+   "servingGrams": 163.0,
+   "valuesPer100g": {
+    "energyKJ": 1027.0,
+    "calories": 246.0,
+    "fat": 13.0,
+    "saturatedFat": 1.5,
+    "carbs": 16.0,
+    "sugar": 0.7,
+    "fiber": 1.1,
+    "protein": 15.0,
+    "saltGrams": 1.0
+   },
+   "valuesPerServing": {
+    "energyKJ": 1673.0,
+    "calories": 401.0,
+    "fat": 21.0,
+    "saturatedFat": 2.5,
+    "carbs": 27.0,
+    "sugar": 1.2,
+    "fiber": 1.8,
+    "protein": 24.0,
+    "saltGrams": 1.7
+   },
+   "allergens": "Glutenhaltiges Getreide: Weizen (wie Dinkel und Khorasan-Weizen),Sellerie",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/9-chicken-mcnuggets-200024.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=200024",
+   "sha256": "ddf04dca9210f1ec2072dae5aaa82a37c425087f27b89d25fb78c269a41ba412"
+  },
+  {
+   "id": 200025,
+   "menuItemNo": "2116",
+   "name": "4-McNuggets",
+   "category": "chicken",
+   "siteCategories": [
+    "Happy Meal®"
+   ],
+   "servingGrams": 72.0,
+   "valuesPer100g": {
+    "energyKJ": 1027.0,
+    "calories": 246.0,
+    "fat": 13.0,
+    "saturatedFat": 1.5,
+    "carbs": 16.0,
+    "sugar": 0.7,
+    "fiber": 1.1,
+    "protein": 15.0,
+    "saltGrams": 1.0
+   },
+   "valuesPerServing": {
+    "energyKJ": 744.0,
+    "calories": 178.0,
+    "fat": 9.5,
+    "saturatedFat": 1.1,
+    "carbs": 12.0,
+    "sugar": 0.5,
+    "fiber": 0.8,
+    "protein": 11.0,
+    "saltGrams": 0.73
+   },
+   "allergens": "Glutenhaltiges Getreide: Weizen (wie Dinkel und Khorasan-Weizen),Sellerie",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/4-chicken-mcnuggets-200025.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=200025",
+   "sha256": "635e39000684fb58ba35a6237d3a58a055e98a773a585c227a9c13c788561b33"
+  },
+  {
+   "id": 200026,
+   "menuItemNo": "2120",
+   "name": "20-McNuggets",
+   "category": "chicken",
+   "siteCategories": [
+    "Beliebte Produkte",
+    "McNuggets® & Fingerfood"
+   ],
+   "servingGrams": 363.0,
+   "valuesPer100g": {
+    "energyKJ": 1027.0,
+    "calories": 246.0,
+    "fat": 13.0,
+    "saturatedFat": 1.5,
+    "carbs": 16.0,
+    "sugar": 0.7,
+    "fiber": 1.1,
+    "protein": 15.0,
+    "saltGrams": 1.0
+   },
+   "valuesPerServing": {
+    "energyKJ": 3725.0,
+    "calories": 892.0,
+    "fat": 47.0,
+    "saturatedFat": 5.6,
+    "carbs": 60.0,
+    "sugar": 2.7,
+    "fiber": 4.1,
+    "protein": 54.0,
+    "saltGrams": 3.7
+   },
+   "allergens": "Glutenhaltiges Getreide: Weizen (wie Dinkel und Khorasan-Weizen),Sellerie",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/20-chicken-mcnuggets-200026.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=200026",
+   "sha256": "84711fa084f6a6423206b4ff0294841362809397a5e08f39ec72dba6e4aea9d5"
+  },
+  {
+   "id": 200027,
+   "menuItemNo": "2130",
+   "name": "Barbecue Sauce 25ml",
+   "category": "sauce",
+   "siteCategories": [
+    "Beilagen & Extras"
+   ],
+   "servingGrams": 29.0,
+   "valuesPer100g": {
+    "energyKJ": 697.0,
+    "calories": 164.0,
+    "fat": 1.0,
+    "saturatedFat": 0.0,
+    "carbs": 38.0,
+    "sugar": 32.0,
+    "fiber": 0.0,
+    "protein": 0.7,
+    "saltGrams": 1.5
+   },
+   "valuesPerServing": {
+    "energyKJ": 204.0,
+    "calories": 48.0,
+    "fat": 0.3,
+    "saturatedFat": 0.0,
+    "carbs": 11.0,
+    "sugar": 9.5,
+    "fiber": 0.0,
+    "protein": 0.2,
+    "saltGrams": 0.44
+   },
+   "allergens": "Senf",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/barbecue-sauce-25ml-200027.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=200027",
+   "sha256": "fbebf33ff32dee5aa9596511a43fd719532e24e36171ae394aad66c5dc19dce1"
+  },
+  {
+   "id": 200030,
+   "menuItemNo": "2140",
+   "name": "Senf Sauce 25ml",
+   "category": "sauce",
+   "siteCategories": [
+    "Beilagen & Extras"
+   ],
+   "servingGrams": 28.0,
+   "valuesPer100g": {
+    "energyKJ": 888.0,
+    "calories": 213.0,
+    "fat": 12.0,
+    "saturatedFat": 1.1,
+    "carbs": 23.0,
+    "sugar": 21.0,
+    "fiber": 1.5,
+    "protein": 2.2,
+    "saltGrams": 1.9
+   },
+   "valuesPerServing": {
+    "energyKJ": 244.0,
+    "calories": 59.0,
+    "fat": 3.3,
+    "saturatedFat": 0.3,
+    "carbs": 6.4,
+    "sugar": 5.7,
+    "fiber": 0.4,
+    "protein": 0.6,
+    "saltGrams": 0.52
+   },
+   "allergens": "Eier,Senf",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/senf-sauce-25ml-200030.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=200030",
+   "sha256": "ce2bbb14e16896ff11e1f2d09fd9d2ab25ed297ed56510a454a213a19270cf3e"
+  },
+  {
+   "id": 200031,
+   "menuItemNo": "2150",
+   "name": "Süßsauer Sauce 25ml",
+   "category": "sauce",
+   "siteCategories": [
+    "Beilagen & Extras"
+   ],
+   "servingGrams": 30.0,
+   "valuesPer100g": {
+    "energyKJ": 702.0,
+    "calories": 166.0,
+    "fat": 1.0,
+    "saturatedFat": 0.0,
+    "carbs": 38.0,
+    "sugar": 33.0,
+    "fiber": 1.4,
+    "protein": 0.3,
+    "saltGrams": 1.0
+   },
+   "valuesPerServing": {
+    "energyKJ": 207.0,
+    "calories": 49.0,
+    "fat": 0.3,
+    "saturatedFat": 0.0,
+    "carbs": 11.0,
+    "sugar": 9.7,
+    "fiber": 0.4,
+    "protein": 0.1,
+    "saltGrams": 0.31
+   },
+   "allergens": "Glutenhaltiges Getreide: Weizen (wie Dinkel und Khorasan-Weizen),Sojabohnen,Sellerie",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/ssauer-sauce-25ml-2150.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=200031",
+   "sha256": "151e76cdf9949508f98e1a43c7292dbbd8baf887ba1dc84fba08139a71e2a9bf"
+  },
+  {
+   "id": 200032,
+   "menuItemNo": "2160",
+   "name": "Curry Sauce 25ml*",
+   "category": "sauce",
+   "siteCategories": [
+    "Beilagen & Extras"
+   ],
+   "servingGrams": 29.0,
+   "valuesPer100g": {
+    "energyKJ": 692.0,
+    "calories": 163.0,
+    "fat": 1.3,
+    "saturatedFat": 0.2,
+    "carbs": 34.0,
+    "sugar": 33.0,
+    "fiber": 1.4,
+    "protein": 0.9,
+    "saltGrams": 1.1
+   },
+   "valuesPerServing": {
+    "energyKJ": 200.0,
+    "calories": 47.0,
+    "fat": 0.4,
+    "saturatedFat": 0.1,
+    "carbs": 10.0,
+    "sugar": 9.6,
+    "fiber": 0.4,
+    "protein": 0.3,
+    "saltGrams": 0.32
+   },
+   "allergens": "Senf",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/curry-sauce-25ml-200032.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=200032",
+   "sha256": "70b6b2468885e873ad4950bd101e9c9feabde5f93bba2ee4ee288cf7049617e0"
+  },
+  {
+   "id": 200033,
+   "menuItemNo": "2210",
+   "name": "Ketchup 20ml",
+   "category": "sauce",
+   "siteCategories": [
+    "Beilagen & Extras"
+   ],
+   "servingGrams": 23.0,
+   "valuesPer100g": {
+    "energyKJ": 529.0,
+    "calories": 124.0,
+    "fat": 0.4,
+    "saturatedFat": 0.0,
+    "carbs": 28.0,
+    "sugar": 19.0,
+    "fiber": 2.2,
+    "protein": 1.8,
+    "saltGrams": 2.0
+   },
+   "valuesPerServing": {
+    "energyKJ": 120.0,
+    "calories": 28.0,
+    "fat": 0.1,
+    "saturatedFat": 0.0,
+    "carbs": 6.4,
+    "sugar": 4.3,
+    "fiber": 0.5,
+    "protein": 0.4,
+    "saltGrams": 0.45
+   },
+   "allergens": "",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/ketchup-20ml-2210.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=200033",
+   "sha256": "5c7ab50048515ac976402ead0b058d6e605dc3b979daedf1fbd9d9d90cc6ba72"
+  },
+  {
+   "id": 200034,
+   "menuItemNo": "2220",
+   "name": "Mayonnaise 20ml",
+   "category": "sauce",
+   "siteCategories": [
+    "Beilagen & Extras"
+   ],
+   "servingGrams": 19.0,
+   "valuesPer100g": {
+    "energyKJ": 3.09,
+    "calories": 751.0,
+    "fat": 82.0,
+    "saturatedFat": 9.0,
+    "carbs": 2.1,
+    "sugar": 2.1,
+    "fiber": 0.0,
+    "protein": 1.1,
+    "saltGrams": 1.0
+   },
+   "valuesPerServing": {
+    "energyKJ": 581.0,
+    "calories": 141.0,
+    "fat": 15.0,
+    "saturatedFat": 1.7,
+    "carbs": 0.4,
+    "sugar": 0.4,
+    "fiber": 0.0,
+    "protein": 0.2,
+    "saltGrams": 0.19
+   },
+   "allergens": "Eier,Senf",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/mayonnaise-20ml-2220.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=200034",
+   "sha256": "6b4ed5c144e10a5c6ca6a2a490da2603315227c365fd026b37b51d8b07d9651b"
+  },
+  {
+   "id": 200035,
+   "menuItemNo": "2221",
+   "name": "McDouble® Chili Cheese",
+   "category": "burger",
+   "siteCategories": [
+    "Burger",
+    "Snacks",
+    "Beliebte Produkte"
+   ],
+   "servingGrams": 173.0,
+   "valuesPer100g": {
+    "energyKJ": 1053.0,
+    "calories": 252.0,
+    "fat": 14.0,
+    "saturatedFat": 6.6,
+    "carbs": 16.0,
+    "sugar": 3.3,
+    "fiber": 1.3,
+    "protein": 15.0,
+    "saltGrams": 1.3
+   },
+   "valuesPerServing": {
+    "energyKJ": 1818.0,
+    "calories": 435.0,
+    "fat": 24.0,
+    "saturatedFat": 11.0,
+    "carbs": 28.0,
+    "sugar": 5.7,
+    "fiber": 2.3,
+    "protein": 26.0,
+    "saltGrams": 2.2
+   },
+   "allergens": "Glutenhaltiges Getreide: Weizen (wie Dinkel und Khorasan-Weizen),Milch (einschl. Laktose)",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/mcdouble-chili-cheese-2221.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=200035",
+   "sha256": "13be5f0eee392756b4a90de54cc7b6ec9637e7c4f45d1289d4e507ee1d893eb1"
+  },
+  {
+   "id": 200037,
+   "menuItemNo": "2310",
+   "name": "Hamburger Royal TS",
+   "category": "burger",
+   "siteCategories": [
+    "Burger",
+    "McMenü®"
+   ],
+   "servingGrams": 241.0,
+   "valuesPer100g": {
+    "energyKJ": 931.0,
+    "calories": 223.0,
+    "fat": 12.0,
+    "saturatedFat": 4.8,
+    "carbs": 15.0,
+    "sugar": 3.7,
+    "fiber": 1.2,
+    "protein": 13.0,
+    "saltGrams": 0.79
+   },
+   "valuesPerServing": {
+    "energyKJ": 2241.0,
+    "calories": 536.0,
+    "fat": 29.0,
+    "saturatedFat": 12.0,
+    "carbs": 36.0,
+    "sugar": 8.8,
+    "fiber": 3.0,
+    "protein": 30.0,
+    "saltGrams": 1.9
+   },
+   "allergens": "Glutenhaltiges Getreide: Weizen (wie Dinkel und Khorasan-Weizen),Milch (einschl. Laktose),Senf,Sesamsamen",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/hamburger-royal-ts-2310.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=200037",
+   "sha256": "9f08e3b5c74a6155595f5c3acbc3c5826b5b76a6e9160ab4e44c0ff79f0afd5b"
+  },
+  {
+   "id": 200039,
+   "menuItemNo": "2401",
+   "name": "Chickenburger",
+   "category": "burger",
+   "siteCategories": [
+    "Burger",
+    "Snacks",
+    "Beliebte Produkte",
+    "McSmart Menü",
+    "McSmart Snacks"
+   ],
+   "servingGrams": 127.0,
+   "valuesPer100g": {
+    "energyKJ": 972.0,
+    "calories": 231.0,
+    "fat": 6.9,
+    "saturatedFat": 1.1,
+    "carbs": 27.0,
+    "sugar": 8.4,
+    "fiber": 1.7,
+    "protein": 8.5,
+    "saltGrams": 1.0
+   },
+   "valuesPerServing": {
+    "energyKJ": 1232.0,
+    "calories": 293.0,
+    "fat": 8.7,
+    "saturatedFat": 1.4,
+    "carbs": 34.0,
+    "sugar": 11.0,
+    "fiber": 2.2,
+    "protein": 11.0,
+    "saltGrams": 1.3
+   },
+   "allergens": "Glutenhaltiges Getreide: Weizen (wie Dinkel und Khorasan-Weizen),Sellerie",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/chickenburger-2401.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=200039",
+   "sha256": "b73e5b734b91f5d8d7a7181269a859234c04fae4c06235ca532213556eb5911a"
+  },
+  {
+   "id": 200040,
+   "menuItemNo": "2470",
+   "name": "Double Chickenburger",
+   "category": "burger",
+   "siteCategories": [
+    "Burger",
+    "Snacks",
+    "McSmart Menü"
+   ],
+   "servingGrams": 179.0,
+   "valuesPer100g": {
+    "energyKJ": 964.0,
+    "calories": 229.0,
+    "fat": 8.7,
+    "saturatedFat": 1.4,
+    "carbs": 19.0,
+    "sugar": 6.2,
+    "fiber": 1.4,
+    "protein": 9.3,
+    "saltGrams": 0.95
+   },
+   "valuesPerServing": {
+    "energyKJ": 1724.0,
+    "calories": 410.0,
+    "fat": 16.0,
+    "saturatedFat": 2.5,
+    "carbs": 34.0,
+    "sugar": 11.0,
+    "fiber": 2.5,
+    "protein": 17.0,
+    "saltGrams": 1.7
+   },
+   "allergens": "Glutenhaltiges Getreide: Weizen (wie Dinkel und Khorasan-Weizen),Sellerie",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/doppel-chickenburger-200040.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=200040",
+   "sha256": "b59a147552f1af54b265be60b5172c39721760fc43953b199efc7689574136ce"
+  },
+  {
+   "id": 200042,
+   "menuItemNo": "3000",
+   "name": "Pommes Frites klein",
+   "category": "fries",
+   "siteCategories": [
+    "Beilagen & Extras",
+    "Happy Meal®",
+    "McSmart Snacks"
+   ],
+   "servingGrams": 80.0,
+   "valuesPer100g": {
+    "energyKJ": 1210.0,
+    "calories": 289.0,
+    "fat": 14.0,
+    "saturatedFat": 1.3,
+    "carbs": 36.0,
+    "sugar": 0.4,
+    "fiber": 3.5,
+    "protein": 3.5,
+    "saltGrams": 0.47
+   },
+   "valuesPerServing": {
+    "energyKJ": 968.0,
+    "calories": 231.0,
+    "fat": 11.0,
+    "saturatedFat": 1.0,
+    "carbs": 29.0,
+    "sugar": 0.3,
+    "fiber": 2.8,
+    "protein": 2.8,
+    "saltGrams": 0.37
+   },
+   "allergens": "Keine Allergene enthalten",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/pommes-frites-klein-3000.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=200042",
+   "sha256": "45cc397687d8f772f49d3e53ba457b67429c1ef74037e34606bfca2ea2b02082"
+  },
+  {
+   "id": 200043,
+   "menuItemNo": "3010",
+   "name": "Pommes Frites mittel",
+   "category": "fries",
+   "siteCategories": [
+    "Beilagen & Extras",
+    "McSmart Menü"
+   ],
+   "servingGrams": 114.0,
+   "valuesPer100g": {
+    "energyKJ": 1210.0,
+    "calories": 289.0,
+    "fat": 14.0,
+    "saturatedFat": 1.3,
+    "carbs": 36.0,
+    "sugar": 0.4,
+    "fiber": 3.5,
+    "protein": 3.4,
+    "saltGrams": 0.47
+   },
+   "valuesPerServing": {
+    "energyKJ": 1379.0,
+    "calories": 329.0,
+    "fat": 16.0,
+    "saturatedFat": 1.5,
+    "carbs": 41.0,
+    "sugar": 0.4,
+    "fiber": 4.0,
+    "protein": 3.9,
+    "saltGrams": 0.53
+   },
+   "allergens": "Keine Allergene enthalten",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/pommes-frites-mittel-3010.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=200043",
+   "sha256": "c8531d81e526eb1301b5ede5b414d2c1f6db95c6e1d6dec49d83f365fe34fb17"
+  },
+  {
+   "id": 200044,
+   "menuItemNo": "3020",
+   "name": "Pommes Frites groß",
+   "category": "fries",
+   "siteCategories": [
+    "Beilagen & Extras",
+    "McMenü®",
+    "Beliebte Produkte"
+   ],
+   "servingGrams": 160.0,
+   "valuesPer100g": {
+    "energyKJ": 1210.0,
+    "calories": 289.0,
+    "fat": 14.0,
+    "saturatedFat": 1.3,
+    "carbs": 36.0,
+    "sugar": 0.3,
+    "fiber": 3.5,
+    "protein": 3.4,
+    "saltGrams": 0.47
+   },
+   "valuesPerServing": {
+    "energyKJ": 1937.0,
+    "calories": 463.0,
+    "fat": 22.0,
+    "saturatedFat": 2.1,
+    "carbs": 58.0,
+    "sugar": 0.5,
+    "fiber": 5.6,
+    "protein": 5.5,
+    "saltGrams": 0.75
+   },
+   "allergens": "Keine Allergene enthalten",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/pommes-frites-gross-3020.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=200044",
+   "sha256": "992bac8cd62940e9b475cedf86c73c718af00541d57270c8f2df65d495b36063"
+  },
+  {
+   "id": 200047,
+   "menuItemNo": "3578",
+   "name": "Balsamico Dressing 25 ml",
+   "category": "sauce",
+   "siteCategories": [
+    "Beilagen & Extras"
+   ],
+   "servingGrams": 32.0,
+   "valuesPer100g": {
+    "energyKJ": 297.0,
+    "calories": 70.0,
+    "fat": 2.5,
+    "saturatedFat": 0.3,
+    "carbs": 10.0,
+    "sugar": 10.0,
+    "fiber": 0.3,
+    "protein": 0.0,
+    "saltGrams": 1.8
+   },
+   "valuesPerServing": {
+    "energyKJ": 94.0,
+    "calories": 22.0,
+    "fat": 0.8,
+    "saturatedFat": 0.1,
+    "carbs": 3.2,
+    "sugar": 3.2,
+    "fiber": 0.1,
+    "protein": 0.0,
+    "saltGrams": 0.57
+   },
+   "allergens": "Schwefeldioxid und Sulphite",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/balsamico-dressing-30ml-200047.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=200047",
+   "sha256": "209754d954d3f7447869a9601e47eedd66bc0dee2e02c56c03889017c926eca7"
+  },
+  {
+   "id": 200050,
+   "menuItemNo": "3800",
+   "name": "Snack Salad",
+   "category": "salad",
+   "siteCategories": [
+    "Beilagen & Extras",
+    "McMenü®",
+    "Happy Meal®"
+   ],
+   "servingGrams": 124.0,
+   "valuesPer100g": {
+    "energyKJ": 72.0,
+    "calories": 17.0,
+    "fat": 0.2,
+    "saturatedFat": 0.0,
+    "carbs": 2.5,
+    "sugar": 1.8,
+    "fiber": 1.0,
+    "protein": 0.9,
+    "saltGrams": 0.03
+   },
+   "valuesPerServing": {
+    "energyKJ": 89.0,
+    "calories": 21.0,
+    "fat": 0.2,
+    "saturatedFat": 0.0,
+    "carbs": 3.1,
+    "sugar": 2.2,
+    "fiber": 1.2,
+    "protein": 1.1,
+    "saltGrams": 0.03
+   },
+   "allergens": "Keine Allergene enthalten",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/snack-salad-classic-3800.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=200050",
+   "sha256": "e5ebd2589ad226e4ac6c1af0bfa36586fdb3748771c8d24c1b86cf8e5bb48884"
+  },
+  {
+   "id": 200053,
+   "menuItemNo": "4010",
+   "name": "McSundae® Original mit Schoko-Sauce",
+   "category": "dessert",
+   "siteCategories": [
+    "Desserts",
+    "Snacks"
+   ],
+   "servingGrams": 152.0,
+   "valuesPer100g": {
+    "energyKJ": 792.0,
+    "calories": 188.0,
+    "fat": 5.5,
+    "saturatedFat": 4.2,
+    "carbs": 31.0,
+    "sugar": 28.0,
+    "fiber": 0.5,
+    "protein": 3.6,
+    "saltGrams": 0.17
+   },
+   "valuesPerServing": {
+    "energyKJ": 1200.0,
+    "calories": 285.0,
+    "fat": 8.4,
+    "saturatedFat": 6.4,
+    "carbs": 46.0,
+    "sugar": 43.0,
+    "fiber": 0.7,
+    "protein": 5.5,
+    "saltGrams": 0.25
+   },
+   "allergens": "Milch (einschl. Laktose)",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/mcsundae-schokosauce-4010.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=200053",
+   "sha256": "266627321e5097b7f51aacbb4be787935ad43e5cbb98daa4797cfc734df5b2c6"
+  },
+  {
+   "id": 200054,
+   "menuItemNo": "4020",
+   "name": "McSundae® Original mit Karamell-Sauce",
+   "category": "dessert",
+   "siteCategories": [
+    "Desserts",
+    "Snacks"
+   ],
+   "servingGrams": 154.0,
+   "valuesPer100g": {
+    "energyKJ": 786.0,
+    "calories": 186.0,
+    "fat": 3.9,
+    "saturatedFat": 2.7,
+    "carbs": 35.0,
+    "sugar": 25.0,
+    "fiber": 0.0,
+    "protein": 3.0,
+    "saltGrams": 0.18
+   },
+   "valuesPerServing": {
+    "energyKJ": 1207.0,
+    "calories": 286.0,
+    "fat": 6.1,
+    "saturatedFat": 4.1,
+    "carbs": 53.0,
+    "sugar": 38.0,
+    "fiber": 0.0,
+    "protein": 4.7,
+    "saltGrams": 0.28
+   },
+   "allergens": "Milch (einschl. Laktose)",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/mcsundae-karamellsauce-4020.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=200054",
+   "sha256": "4b3c3fa12b71c617da797b5a3593c515bf83aff5d7ab8b15cc4c6f77debc4ab7"
+  },
+  {
+   "id": 200056,
+   "menuItemNo": "4060",
+   "name": "Apfeltasche",
+   "category": "dessert",
+   "siteCategories": [
+    "Desserts",
+    "Snacks"
+   ],
+   "servingGrams": 80.0,
+   "valuesPer100g": {
+    "energyKJ": 1188.0,
+    "calories": 284.0,
+    "fat": 15.0,
+    "saturatedFat": 3.5,
+    "carbs": 34.0,
+    "sugar": 11.0,
+    "fiber": 1.9,
+    "protein": 2.9,
+    "saltGrams": 0.4
+   },
+   "valuesPerServing": {
+    "energyKJ": 955.0,
+    "calories": 228.0,
+    "fat": 12.0,
+    "saturatedFat": 2.8,
+    "carbs": 28.0,
+    "sugar": 9.2,
+    "fiber": 1.5,
+    "protein": 2.3,
+    "saltGrams": 0.33
+   },
+   "allergens": "Glutenhaltiges Getreide: Weizen (wie Dinkel und Khorasan-Weizen)",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/heie-apfeltasche-200056.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=200056",
+   "sha256": "8c04ad035c631a78ccbd5d83d1fd8d81abfcfe36ca7c27afe9f6120f774c455a"
+  },
+  {
+   "id": 200058,
+   "menuItemNo": "4088",
+   "name": "Fruchtquatsch 80g",
+   "category": "dessert",
+   "siteCategories": [
+    "Desserts",
+    "Happy Meal®"
+   ],
+   "servingGrams": 80.0,
+   "valuesPer100g": {
+    "energyKJ": 215.0,
+    "calories": 51.0,
+    "fat": 0.6,
+    "saturatedFat": 0.1,
+    "carbs": 9.8,
+    "sugar": 8.9,
+    "fiber": 1.7,
+    "protein": 0.5,
+    "saltGrams": 0.01
+   },
+   "valuesPerServing": {
+    "energyKJ": 172.0,
+    "calories": 41.0,
+    "fat": 0.5,
+    "saturatedFat": 0.1,
+    "carbs": 7.8,
+    "sugar": 7.1,
+    "fiber": 1.4,
+    "protein": 0.4,
+    "saltGrams": 0.01
+   },
+   "allergens": "",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/frucht-quatsch-80-g-4088.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=200058",
+   "sha256": "7bd091f6f379f8d1add33ccf0f6e36478673f7d0672dad91527fcb871f7df482"
+  },
+  {
+   "id": 200059,
+   "menuItemNo": "4092",
+   "name": "Bio Apfeltüte 60g",
+   "category": "dessert",
+   "siteCategories": [
+    "Desserts",
+    "Happy Meal®"
+   ],
+   "servingGrams": 60.0,
+   "valuesPer100g": {
+    "energyKJ": 242.0,
+    "calories": 57.0,
+    "fat": 0.2,
+    "saturatedFat": 0.2,
+    "carbs": 13.0,
+    "sugar": 11.0,
+    "fiber": 1.8,
+    "protein": 0.2,
+    "saltGrams": 0.01
+   },
+   "valuesPerServing": {
+    "energyKJ": 145.0,
+    "calories": 34.0,
+    "fat": 0.1,
+    "saturatedFat": 0.1,
+    "carbs": 7.6,
+    "sugar": 6.4,
+    "fiber": 1.1,
+    "protein": 0.1,
+    "saltGrams": 0.01
+   },
+   "allergens": "",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/bio-apfeltte-60g-200059.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=200059",
+   "sha256": "021a6d8f773fbd40c2396e9c228c5fd854680cad6cc0a89ef00e1dc93a7a9391"
+  },
+  {
+   "id": 200073,
+   "menuItemNo": "5040",
+   "name": "Milchshake Schokogeschmack 0,4l",
+   "category": "drink",
+   "siteCategories": [
+    "Desserts",
+    "McMenü®",
+    "Highlights",
+    "McMilchshake"
+   ],
+   "servingGrams": 277.0,
+   "valuesPer100g": {
+    "energyKJ": 496.0,
+    "calories": 117.0,
+    "fat": 2.3,
+    "saturatedFat": 1.6,
+    "carbs": 21.0,
+    "sugar": 17.0,
+    "fiber": 0.4,
+    "protein": 3.3,
+    "saltGrams": 0.23
+   },
+   "valuesPerServing": {
+    "energyKJ": 1371.0,
+    "calories": 325.0,
+    "fat": 6.5,
+    "saturatedFat": 4.4,
+    "carbs": 57.0,
+    "sugar": 47.0,
+    "fiber": 1.1,
+    "protein": 9.1,
+    "saltGrams": 0.63
+   },
+   "allergens": "Milch (einschl. Laktose)",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/milchshake-schokogeschmack-04l-5040.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=200073",
+   "sha256": "ebd70274d41c4ae2ee985db7caa6c785bb9f8089707e01c5642ef8e5c29fd45f"
+  },
+  {
+   "id": 200074,
+   "menuItemNo": "5050",
+   "name": "Milchshake Vanillegeschmack 0,4l",
+   "category": "drink",
+   "siteCategories": [
+    "Desserts",
+    "McMenü®",
+    "McMilchshake"
+   ],
+   "servingGrams": 276.0,
+   "valuesPer100g": {
+    "energyKJ": 480.0,
+    "calories": 113.0,
+    "fat": 2.1,
+    "saturatedFat": 1.4,
+    "carbs": 21.0,
+    "sugar": 19.0,
+    "fiber": 0.0,
+    "protein": 2.9,
+    "saltGrams": 0.11
+   },
+   "valuesPerServing": {
+    "energyKJ": 1325.0,
+    "calories": 313.0,
+    "fat": 5.9,
+    "saturatedFat": 3.9,
+    "carbs": 57.0,
+    "sugar": 52.0,
+    "fiber": 0.0,
+    "protein": 8.1,
+    "saltGrams": 0.29
+   },
+   "allergens": "Milch (einschl. Laktose)",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/milchshake-vanillegeschmack-04l-5050.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=200074",
+   "sha256": "d6f5a358716dc8183f5f452fbdfcd3fd87bde98e5976f860993a3c62c2d2f13b"
+  },
+  {
+   "id": 200075,
+   "menuItemNo": "5060",
+   "name": "Milchshake Erdbeergeschmack 0,4l",
+   "category": "drink",
+   "siteCategories": [
+    "Desserts",
+    "McMenü®",
+    "McMilchshake"
+   ],
+   "servingGrams": 276.0,
+   "valuesPer100g": {
+    "energyKJ": 483.0,
+    "calories": 114.0,
+    "fat": 2.1,
+    "saturatedFat": 1.4,
+    "carbs": 21.0,
+    "sugar": 19.0,
+    "fiber": 0.0,
+    "protein": 2.9,
+    "saltGrams": 0.11
+   },
+   "valuesPerServing": {
+    "energyKJ": 1335.0,
+    "calories": 316.0,
+    "fat": 5.9,
+    "saturatedFat": 3.9,
+    "carbs": 58.0,
+    "sugar": 54.0,
+    "fiber": 0.0,
+    "protein": 8.1,
+    "saltGrams": 0.3
+   },
+   "allergens": "Milch (einschl. Laktose)",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/milchshake-erdbeergeschmack-04l-5060.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=200075",
+   "sha256": "b5b3c933d80ece0beaef28eebd584ee46047d31b3e0795be09d1c4a268cd4f34"
+  },
+  {
+   "id": 200078,
+   "menuItemNo": "6305",
+   "name": "Sour Cream-Schnittlauch Dip 25ml",
+   "category": "sauce",
+   "siteCategories": [
+    "Beilagen & Extras"
+   ],
+   "servingGrams": 24.0,
+   "valuesPer100g": {
+    "energyKJ": 1.92,
+    "calories": 466.0,
+    "fat": 51.0,
+    "saturatedFat": 4.6,
+    "carbs": 2.1,
+    "sugar": 0.8,
+    "fiber": 0.4,
+    "protein": 1.2,
+    "saltGrams": 0.9
+   },
+   "valuesPerServing": {
+    "energyKJ": 461.0,
+    "calories": 112.0,
+    "fat": 12.0,
+    "saturatedFat": 1.1,
+    "carbs": 0.5,
+    "sugar": 0.2,
+    "fiber": 0.1,
+    "protein": 0.3,
+    "saltGrams": 0.22
+   },
+   "allergens": "Eier,Milch (einschl. Laktose)",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/sour-cream-schnittlauch-dip-25ml-200078.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=200078",
+   "sha256": "b075b2b26460cd73f37540f29d05f59a965949b52388659236f049cfbbd9c91b"
+  },
+  {
+   "id": 200079,
+   "menuItemNo": "6474",
+   "name": "Tasty Bacon",
+   "category": "burger",
+   "siteCategories": [
+    "Burger",
+    "McMenü®"
+   ],
+   "servingGrams": 359.0,
+   "valuesPer100g": {
+    "energyKJ": 1061.0,
+    "calories": 254.0,
+    "fat": 16.0,
+    "saturatedFat": 6.1,
+    "carbs": 14.0,
+    "sugar": 3.3,
+    "fiber": 0.7,
+    "protein": 14.0,
+    "saltGrams": 1.1
+   },
+   "valuesPerServing": {
+    "energyKJ": 3808.0,
+    "calories": 912.0,
+    "fat": 57.0,
+    "saturatedFat": 22.0,
+    "carbs": 51.0,
+    "sugar": 12.0,
+    "fiber": 2.4,
+    "protein": 49.0,
+    "saltGrams": 4.0
+   },
+   "allergens": "Glutenhaltiges Getreide: Weizen (wie Dinkel und Khorasan-Weizen),Eier,Milch (einschl. Laktose),Sesamsamen",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/big-tasty-bacon-6474.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=200079",
+   "sha256": "ab340b4ff462f597113cf0e92443a832461caafba2d1d6e7c3306c53e435aa0c"
+  },
+  {
+   "id": 200082,
+   "menuItemNo": "7020",
+   "name": "Coca-Cola Classic 0,5l",
+   "category": "drink",
+   "siteCategories": [
+    "Getränke",
+    "McMenü®",
+    "McSmart Menü"
+   ],
+   "servingGrams": 500.0,
+   "valuesPer100g": {
+    "energyKJ": 173.0,
+    "calories": 40.0,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "carbs": 10.0,
+    "sugar": 10.0,
+    "fiber": 0.0,
+    "protein": 0.0,
+    "saltGrams": 0.0
+   },
+   "valuesPerServing": {
+    "energyKJ": 867.0,
+    "calories": 200.0,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "carbs": 50.0,
+    "sugar": 50.0,
+    "fiber": 0.0,
+    "protein": 0.0,
+    "saltGrams": 0.0
+   },
+   "allergens": "",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/coca-cola-classic-05l-200082.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=200082",
+   "sha256": "2f850edc25f0c09bb53a911c0dcbdd26cd3c3b8d68f1a0afded8eb469152693e"
+  },
+  {
+   "id": 200085,
+   "menuItemNo": "7050",
+   "name": "Fanta 0,5l",
+   "category": "drink",
+   "siteCategories": [
+    "Getränke",
+    "McMenü®",
+    "McSmart Menü"
+   ],
+   "servingGrams": 500.0,
+   "valuesPer100g": {
+    "energyKJ": 155.0,
+    "calories": 37.0,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "carbs": 8.9,
+    "sugar": 8.8,
+    "fiber": 0.0,
+    "protein": 0.0,
+    "saltGrams": 0.0
+   },
+   "valuesPerServing": {
+    "energyKJ": 775.0,
+    "calories": 185.0,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "carbs": 45.0,
+    "sugar": 44.0,
+    "fiber": 0.0,
+    "protein": 0.0,
+    "saltGrams": 0.0
+   },
+   "allergens": "",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/fanta-0-5l-200085.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=200085",
+   "sha256": "70e7e2ee9bb8b70e01e02a1ed0715928154f66817ffd74acc3d2379fa7945330"
+  },
+  {
+   "id": 200088,
+   "menuItemNo": "7080",
+   "name": "Sprite 0,5l",
+   "category": "drink",
+   "siteCategories": [
+    "Getränke",
+    "McMenü®",
+    "McSmart Menü"
+   ],
+   "servingGrams": 500.0,
+   "valuesPer100g": {
+    "energyKJ": 136.0,
+    "calories": 32.0,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "carbs": 7.7,
+    "sugar": 7.7,
+    "fiber": 0.0,
+    "protein": 0.0,
+    "saltGrams": 0.0
+   },
+   "valuesPerServing": {
+    "energyKJ": 678.0,
+    "calories": 159.0,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "carbs": 38.0,
+    "sugar": 38.0,
+    "fiber": 0.0,
+    "protein": 0.0,
+    "saltGrams": 0.0
+   },
+   "allergens": "Keine Allergene enthalten",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/sprite-0-5l.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=200088",
+   "sha256": "96a9c42fe302e7c21d747a6e1db1bc0a2f63964688e24e8b9de0f5f8f1661f34"
+  },
+  {
+   "id": 200096,
+   "menuItemNo": "7150",
+   "name": "Café Small",
+   "category": "coffee",
+   "siteCategories": [
+    "McSmart Snacks"
+   ],
+   "servingGrams": 180.0,
+   "valuesPer100g": {
+    "energyKJ": 3.0,
+    "calories": 1.0,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "carbs": 0.1,
+    "sugar": 0.1,
+    "fiber": 0.0,
+    "protein": 0.1,
+    "saltGrams": 0.0
+   },
+   "valuesPerServing": {
+    "energyKJ": 5.0,
+    "calories": 1.0,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "carbs": 0.2,
+    "sugar": 0.2,
+    "fiber": 0.0,
+    "protein": 0.1,
+    "saltGrams": 0.01
+   },
+   "allergens": "",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/caf-small-7150.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=200096",
+   "sha256": "7bcd8ad63f432ba021504f772f3b12f164191e133b2c53ee08fcb107b649833a"
+  },
+  {
+   "id": 200098,
+   "menuItemNo": "7159",
+   "name": "Café Grande",
+   "category": "coffee",
+   "siteCategories": [
+    "Getränke",
+    "McMenü®",
+    "Frühstück",
+    "McCafé®",
+    "Beliebte Produkte"
+   ],
+   "servingGrams": 370.0,
+   "valuesPer100g": {
+    "energyKJ": 2.0,
+    "calories": 0.0,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "carbs": 0.1,
+    "sugar": 0.1,
+    "fiber": 0.0,
+    "protein": 0.1,
+    "saltGrams": 0.0
+   },
+   "valuesPerServing": {
+    "energyKJ": 7.0,
+    "calories": 2.0,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "carbs": 0.2,
+    "sugar": 0.2,
+    "fiber": 0.0,
+    "protein": 0.2,
+    "saltGrams": 0.02
+   },
+   "allergens": "",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/cafe-grande-7159.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=200098",
+   "sha256": "47cf10e623290b961130095d2e3d9737e0cc95bf5a2a688cd7da788a73c2fc19"
+  },
+  {
+   "id": 200103,
+   "menuItemNo": "7187",
+   "name": "Heißes Kakaogetränk grande",
+   "category": "coffee",
+   "siteCategories": [
+    "Getränke",
+    "McMenü®",
+    "Frühstück",
+    "McCafé®"
+   ],
+   "servingGrams": 351.0,
+   "valuesPer100g": {
+    "energyKJ": 451.0,
+    "calories": 108.0,
+    "fat": 4.1,
+    "saturatedFat": 2.8,
+    "carbs": 13.0,
+    "sugar": 12.0,
+    "fiber": 1.3,
+    "protein": 4.1,
+    "saltGrams": 0.18
+   },
+   "valuesPerServing": {
+    "energyKJ": 1582.0,
+    "calories": 378.0,
+    "fat": 14.0,
+    "saturatedFat": 9.7,
+    "carbs": 45.0,
+    "sugar": 43.0,
+    "fiber": 4.4,
+    "protein": 14.0,
+    "saltGrams": 0.62
+   },
+   "allergens": "Milch (einschl. Laktose)",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/heies-kakaogetrnk-grande-200103.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=200103",
+   "sha256": "b0eecaa850aa09251d9d7251ca405aa56dc1cb2027acff70dba6da78b10946f6"
+  },
+  {
+   "id": 200104,
+   "menuItemNo": "7190",
+   "name": "Cappuccino Small",
+   "category": "coffee",
+   "siteCategories": [
+    "McSmart Snacks"
+   ],
+   "servingGrams": 140.0,
+   "valuesPer100g": {
+    "energyKJ": 123.0,
+    "calories": 30.0,
+    "fat": 1.6,
+    "saturatedFat": 1.0,
+    "carbs": 2.2,
+    "sugar": 2.2,
+    "fiber": 0.0,
+    "protein": 1.6,
+    "saltGrams": 0.06
+   },
+   "valuesPerServing": {
+    "energyKJ": 172.0,
+    "calories": 41.0,
+    "fat": 2.2,
+    "saturatedFat": 1.4,
+    "carbs": 3.1,
+    "sugar": 3.1,
+    "fiber": 0.0,
+    "protein": 2.2,
+    "saltGrams": 0.08
+   },
+   "allergens": "Milch (einschl. Laktose)",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/cappuccino-small-7190.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=200104",
+   "sha256": "f8899a14a213f80b62df1d2e0fb5613974d02ffda63627f51fc28d18b066ecd6"
+  },
+  {
+   "id": 200105,
+   "menuItemNo": "7191",
+   "name": "Cappuccino Grande",
+   "category": "coffee",
+   "siteCategories": [
+    "Getränke",
+    "McMenü®",
+    "Frühstück",
+    "McCafé®",
+    "Beliebte Produkte"
+   ],
+   "servingGrams": 279.0,
+   "valuesPer100g": {
+    "energyKJ": 122.0,
+    "calories": 29.0,
+    "fat": 1.6,
+    "saturatedFat": 1.0,
+    "carbs": 2.2,
+    "sugar": 2.2,
+    "fiber": 0.0,
+    "protein": 1.5,
+    "saltGrams": 0.06
+   },
+   "valuesPerServing": {
+    "energyKJ": 340.0,
+    "calories": 82.0,
+    "fat": 4.4,
+    "saturatedFat": 2.9,
+    "carbs": 6.1,
+    "sugar": 6.1,
+    "fiber": 0.0,
+    "protein": 4.3,
+    "saltGrams": 0.17
+   },
+   "allergens": "Milch (einschl. Laktose)",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/cappuccino-grande-7191.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=200105",
+   "sha256": "57f8b49123ba6c54d098fe70c49ad5467f83e2981852b04f626f1134758eb2c9"
+  },
+  {
+   "id": 200106,
+   "menuItemNo": "7193",
+   "name": "Latte Macchiato Grande",
+   "category": "coffee",
+   "siteCategories": [
+    "Getränke",
+    "McMenü®",
+    "Frühstück",
+    "McCafé®",
+    "Beliebte Produkte"
+   ],
+   "servingGrams": 262.0,
+   "valuesPer100g": {
+    "energyKJ": 174.0,
+    "calories": 42.0,
+    "fat": 2.3,
+    "saturatedFat": 1.5,
+    "carbs": 3.1,
+    "sugar": 3.1,
+    "fiber": 0.0,
+    "protein": 2.2,
+    "saltGrams": 0.09
+   },
+   "valuesPerServing": {
+    "energyKJ": 457.0,
+    "calories": 110.0,
+    "fat": 6.0,
+    "saturatedFat": 3.9,
+    "carbs": 8.1,
+    "sugar": 8.1,
+    "fiber": 0.0,
+    "protein": 5.7,
+    "saltGrams": 0.22
+   },
+   "allergens": "Milch (einschl. Laktose)",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/latte-macchiato-grande-7193.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=200106",
+   "sha256": "d977ced1b1c6123cf76e2155b74b2dd950381856120fba87407f9af008e66323"
+  },
+  {
+   "id": 200112,
+   "menuItemNo": "7289",
+   "name": "Bio Schorle Apfel-Birne 0,2l",
+   "category": "drink",
+   "siteCategories": [
+    "Happy Meal®"
+   ],
+   "servingGrams": 206.0,
+   "valuesPer100g": {
+    "energyKJ": 98.0,
+    "calories": 23.0,
+    "fat": 0.5,
+    "saturatedFat": 0.1,
+    "carbs": 5.4,
+    "sugar": 5.2,
+    "fiber": 0.0,
+    "protein": 0.5,
+    "saltGrams": 0.01
+   },
+   "valuesPerServing": {
+    "energyKJ": 202.0,
+    "calories": 47.0,
+    "fat": 1.0,
+    "saturatedFat": 0.2,
+    "carbs": 11.0,
+    "sugar": 11.0,
+    "fiber": 0.0,
+    "protein": 1.0,
+    "saltGrams": 0.02
+   },
+   "allergens": "",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/bio-schorle-apfel-birne-02l-7289.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=200112",
+   "sha256": "5117228f882ddd3105faa5ad31f7ed6bb1e4b3b8e45a742f0f18cc77b349ac40"
+  },
+  {
+   "id": 200115,
+   "menuItemNo": "7322",
+   "name": "Coca-Cola Zero Sugar 0,5l",
+   "category": "drink",
+   "siteCategories": [
+    "Getränke",
+    "McMenü®",
+    "Beliebte Produkte",
+    "McSmart Menü"
+   ],
+   "servingGrams": 543.0,
+   "valuesPer100g": {
+    "energyKJ": 1.0,
+    "calories": 0.0,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "carbs": 0.0,
+    "sugar": 0.0,
+    "fiber": 0.0,
+    "protein": 0.0,
+    "saltGrams": 0.0
+   },
+   "valuesPerServing": {
+    "energyKJ": 5.0,
+    "calories": 1.0,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "carbs": 0.1,
+    "sugar": 0.0,
+    "fiber": 0.0,
+    "protein": 0.0,
+    "saltGrams": 0.02
+   },
+   "allergens": "",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/coca-cola-zero-sugar-05l-200115.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=200115",
+   "sha256": "942a2f5fe2bd39deef2a87f5f8590c42d5faff5ea884c4336e079491d7cb0904"
+  },
+  {
+   "id": 200118,
+   "menuItemNo": "7332",
+   "name": "Lipton Ice Tea Peach 0,5l",
+   "category": "drink",
+   "siteCategories": [
+    "Getränke",
+    "McMenü®",
+    "Beliebte Produkte",
+    "McSmart Menü"
+   ],
+   "servingGrams": 500.0,
+   "valuesPer100g": {
+    "energyKJ": 78.0,
+    "calories": 19.0,
+    "fat": 0.5,
+    "saturatedFat": 0.1,
+    "carbs": 4.4,
+    "sugar": 4.3,
+    "fiber": 0.0,
+    "protein": 0.5,
+    "saltGrams": 0.03
+   },
+   "valuesPerServing": {
+    "energyKJ": 390.0,
+    "calories": 95.0,
+    "fat": 2.5,
+    "saturatedFat": 0.5,
+    "carbs": 22.0,
+    "sugar": 22.0,
+    "fiber": 0.0,
+    "protein": 2.5,
+    "saltGrams": 0.15
+   },
+   "allergens": "",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/lipton-ice-tea-peach-05l-200118.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=200118",
+   "sha256": "cbacbe194e8c8584f7d8b96d90fdd4a166a010b8fa273579a4919f034ac2c6ec"
+  },
+  {
+   "id": 200268,
+   "menuItemNo": "7279",
+   "name": "Capri-Sun Tropical 0,2l",
+   "category": "drink",
+   "siteCategories": [
+    "Happy Meal®"
+   ],
+   "servingGrams": 204.0,
+   "valuesPer100g": {
+    "energyKJ": 90.0,
+    "calories": 21.0,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "carbs": 5.0,
+    "sugar": 4.9,
+    "fiber": 0.0,
+    "protein": 0.0,
+    "saltGrams": 0.0
+   },
+   "valuesPerServing": {
+    "energyKJ": 183.0,
+    "calories": 43.0,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "carbs": 10.0,
+    "sugar": 10.0,
+    "fiber": 0.0,
+    "protein": 0.0,
+    "saltGrams": 0.01
+   },
+   "allergens": "",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/capri-sun-pure-tropical-200ml-200268.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=200268",
+   "sha256": "57ee995c0e0ff70e900bcea10a0a5513cdfe291c53bbd66088b6b95908cb37bc"
+  },
+  {
+   "id": 200280,
+   "menuItemNo": "6297",
+   "name": "McWrap® Chicken Sweet Chili",
+   "category": "wrap",
+   "siteCategories": [
+    "McMenü®",
+    "Beliebte Produkte",
+    "McNuggets® & Fingerfood",
+    "McWrap®"
+   ],
+   "servingGrams": 232.0,
+   "valuesPer100g": {
+    "energyKJ": 984.0,
+    "calories": 235.0,
+    "fat": 9.6,
+    "saturatedFat": 2.6,
+    "carbs": 28.0,
+    "sugar": 6.0,
+    "fiber": 2.4,
+    "protein": 8.9,
+    "saltGrams": 0.96
+   },
+   "valuesPerServing": {
+    "energyKJ": 2280.0,
+    "calories": 543.0,
+    "fat": 22.0,
+    "saturatedFat": 6.0,
+    "carbs": 65.0,
+    "sugar": 14.0,
+    "fiber": 5.5,
+    "protein": 21.0,
+    "saltGrams": 2.2
+   },
+   "allergens": "Glutenhaltiges Getreide: Roggen,Glutenhaltiges Getreide: Weizen (wie Dinkel und Khorasan-Weizen),Milch (einschl. Laktose),Sellerie",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/mcwrap-chicken-sweet-chili-6297.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=200280",
+   "sha256": "e629df888a5878c11b6f93acd6a60eb7259f328c982e07a6fd7c488324bfde37"
+  },
+  {
+   "id": 200663,
+   "menuItemNo": "7196",
+   "name": "Espresso Grande",
+   "category": "coffee",
+   "siteCategories": [
+    "Getränke",
+    "McCafé®"
+   ],
+   "servingGrams": 75.0,
+   "valuesPer100g": {
+    "energyKJ": 8.0,
+    "calories": 2.0,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "carbs": 0.3,
+    "sugar": 0.3,
+    "fiber": 0.0,
+    "protein": 0.1,
+    "saltGrams": 0.0
+   },
+   "valuesPerServing": {
+    "energyKJ": 6.0,
+    "calories": 1.0,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "carbs": 0.2,
+    "sugar": 0.2,
+    "fiber": 0.0,
+    "protein": 0.1,
+    "saltGrams": 0.0
+   },
+   "allergens": "",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/espresso-grande-7196.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=200663",
+   "sha256": "cba7e77139e330de5b882aaf4ead4f44538315dbb64e0354428ac1a71b22ec5a"
+  },
+  {
+   "id": 200845,
+   "menuItemNo": "7378",
+   "name": "Red Bull 250 ml",
+   "category": "drink",
+   "siteCategories": [
+    "Getränke",
+    "Snacks"
+   ],
+   "servingGrams": 263.0,
+   "valuesPer100g": {
+    "energyKJ": 195.0,
+    "calories": 46.0,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "carbs": 11.0,
+    "sugar": 11.0,
+    "fiber": 0.0,
+    "protein": 0.0,
+    "saltGrams": 0.1
+   },
+   "valuesPerServing": {
+    "energyKJ": 512.0,
+    "calories": 121.0,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "carbs": 29.0,
+    "sugar": 29.0,
+    "fiber": 0.0,
+    "protein": 0.0,
+    "saltGrams": 0.26
+   },
+   "allergens": "Keine Allergene enthalten",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/red-bull-025l-7378.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=200845",
+   "sha256": "f75c010bec4643a07c7ebe8fa4b30c4d53d5dc812a18ab20c3c8dbeaf0bd7165"
+  },
+  {
+   "id": 200909,
+   "menuItemNo": "1710",
+   "name": "McToast® Cheese",
+   "category": "breakfast",
+   "siteCategories": [],
+   "servingGrams": 78.0,
+   "valuesPer100g": {
+    "energyKJ": 1281.0,
+    "calories": 305.0,
+    "fat": 12.0,
+    "saturatedFat": 7.2,
+    "carbs": 35.0,
+    "sugar": 6.8,
+    "fiber": 2.3,
+    "protein": 13.0,
+    "saltGrams": 1.8
+   },
+   "valuesPerServing": {
+    "energyKJ": 1003.0,
+    "calories": 239.0,
+    "fat": 9.6,
+    "saturatedFat": 5.6,
+    "carbs": 27.0,
+    "sugar": 5.3,
+    "fiber": 1.8,
+    "protein": 10.0,
+    "saltGrams": 1.4
+   },
+   "allergens": "Glutenhaltiges Getreide: Weizen (wie Dinkel und Khorasan-Weizen),Milch (einschl. Laktose)",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/mctoast-cheese.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=200909",
+   "sha256": "50116fcc0b8b7d62c00dd13be19b620bd65cc203d683356a66574fa48f88f7c1"
+  },
+  {
+   "id": 201048,
+   "menuItemNo": "7254",
+   "name": "Orangensaft 0,25l",
+   "category": "drink",
+   "siteCategories": [
+    "McMenü®"
+   ],
+   "servingGrams": 262.0,
+   "valuesPer100g": {
+    "energyKJ": 172.0,
+    "calories": 41.0,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "carbs": 9.3,
+    "sugar": 8.4,
+    "fiber": 0.6,
+    "protein": 0.8,
+    "saltGrams": 0.0
+   },
+   "valuesPerServing": {
+    "energyKJ": 451.0,
+    "calories": 107.0,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "carbs": 24.0,
+    "sugar": 22.0,
+    "fiber": 1.6,
+    "protein": 2.1,
+    "saltGrams": 0.0
+   },
+   "allergens": "Keine Allergene enthalten",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/orangensaft-025l-7254.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=201048",
+   "sha256": "a02357812cade5eefe220a909648ce5db4e005f520f05208a31dbe465a2ed01d"
+  },
+  {
+   "id": 201127,
+   "menuItemNo": "4158",
+   "name": "Buttercroissant",
+   "category": "breakfast",
+   "siteCategories": [
+    "Frühstück"
+   ],
+   "servingGrams": 83.0,
+   "valuesPer100g": {
+    "energyKJ": 1683.0,
+    "calories": 403.0,
+    "fat": 21.0,
+    "saturatedFat": 16.0,
+    "carbs": 47.0,
+    "sugar": 4.3,
+    "fiber": 1.3,
+    "protein": 7.3,
+    "saltGrams": 0.7
+   },
+   "valuesPerServing": {
+    "energyKJ": 1397.0,
+    "calories": 335.0,
+    "fat": 17.0,
+    "saturatedFat": 13.0,
+    "carbs": 39.0,
+    "sugar": 3.6,
+    "fiber": 1.1,
+    "protein": 6.1,
+    "saltGrams": 0.58
+   },
+   "allergens": "Glutenhaltiges Getreide: Weizen (wie Dinkel und Khorasan-Weizen),Eier,Milch (einschl. Laktose)",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/buttercroissant-201127.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=201127",
+   "sha256": "270c18a8584cf59436b0e856fa2b59eedec0f823bf289fb9ae639a1019fa9d6f"
+  },
+  {
+   "id": 201204,
+   "menuItemNo": "7518",
+   "name": "Lipton Ice Tea Peach Zero",
+   "category": "drink",
+   "siteCategories": [
+    "Getränke",
+    "McMenü®"
+   ],
+   "servingGrams": 543.0,
+   "valuesPer100g": {
+    "energyKJ": 5.0,
+    "calories": 1.0,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "carbs": 0.0,
+    "sugar": 0.0,
+    "fiber": 0.0,
+    "protein": 0.0,
+    "saltGrams": 0.04
+   },
+   "valuesPerServing": {
+    "energyKJ": 25.0,
+    "calories": 5.0,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "carbs": 0.0,
+    "sugar": 0.0,
+    "fiber": 0.0,
+    "protein": 0.0,
+    "saltGrams": 0.2
+   },
+   "allergens": "Keine Allergene enthalten",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/lipton-ice-tea-peach-zero-05.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=201204",
+   "sha256": "1c2db85b5efc3583da76a9ebe1e1dfa9a7746e0c859e077b29fe2ecbdfd6a413"
+  },
+  {
+   "id": 201212,
+   "menuItemNo": "5600",
+   "name": "McCrispy",
+   "category": "chicken",
+   "siteCategories": [
+    "Burger",
+    "McMenü®",
+    "Beliebte Produkte",
+    "McCrispy®"
+   ],
+   "servingGrams": 219.0,
+   "valuesPer100g": {
+    "energyKJ": 1006.0,
+    "calories": 240.0,
+    "fat": 9.5,
+    "saturatedFat": 1.0,
+    "carbs": 27.0,
+    "sugar": 3.6,
+    "fiber": 1.5,
+    "protein": 11.0,
+    "saltGrams": 1.1
+   },
+   "valuesPerServing": {
+    "energyKJ": 2204.0,
+    "calories": 525.0,
+    "fat": 21.0,
+    "saturatedFat": 2.2,
+    "carbs": 58.0,
+    "sugar": 7.8,
+    "fiber": 3.3,
+    "protein": 24.0,
+    "saltGrams": 2.3
+   },
+   "allergens": "Glutenhaltiges Getreide: Weizen (wie Dinkel und Khorasan-Weizen),Eier,Milch (einschl. Laktose),Senf",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/mccrispy-5600.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=201212",
+   "sha256": "9499dd70da54d586720214f9acb8339fc2be3da42ef8877951bdbcc19e7e9a78"
+  },
+  {
+   "id": 201234,
+   "menuItemNo": "7479",
+   "name": "Iced Coffee Shake Choc 0,4l",
+   "category": "drink",
+   "siteCategories": [
+    "Desserts",
+    "Getränke",
+    "Iced Coffee"
+   ],
+   "servingGrams": 361.0,
+   "valuesPer100g": {
+    "energyKJ": 566.0,
+    "calories": 134.0,
+    "fat": 4.3,
+    "saturatedFat": 3.3,
+    "carbs": 21.0,
+    "sugar": 19.0,
+    "fiber": 0.6,
+    "protein": 2.6,
+    "saltGrams": 0.15
+   },
+   "valuesPerServing": {
+    "energyKJ": 2044.0,
+    "calories": 485.0,
+    "fat": 15.0,
+    "saturatedFat": 12.0,
+    "carbs": 76.0,
+    "sugar": 68.0,
+    "fiber": 2.1,
+    "protein": 9.5,
+    "saltGrams": 0.54
+   },
+   "allergens": "Milch (einschl. Laktose)",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/iced-coffee-shake-choc-04-l-7479.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=201234",
+   "sha256": "61bfd170e09b776b042331753b8ff866aefb656ec6789ef6f8fdfa55b91c1d67"
+  },
+  {
+   "id": 201263,
+   "menuItemNo": "4121",
+   "name": "Triple Choc Cookie",
+   "category": "dessert",
+   "siteCategories": [
+    "Desserts",
+    "McCafé®"
+   ],
+   "servingGrams": 80.0,
+   "valuesPer100g": {
+    "energyKJ": 2003.0,
+    "calories": 479.0,
+    "fat": 24.0,
+    "saturatedFat": 14.0,
+    "carbs": 58.0,
+    "sugar": 39.0,
+    "fiber": 2.3,
+    "protein": 5.3,
+    "saltGrams": 0.57
+   },
+   "valuesPerServing": {
+    "energyKJ": 1602.0,
+    "calories": 383.0,
+    "fat": 19.0,
+    "saturatedFat": 11.0,
+    "carbs": 46.0,
+    "sugar": 31.0,
+    "fiber": 1.8,
+    "protein": 4.2,
+    "saltGrams": 0.46
+   },
+   "allergens": "Glutenhaltiges Getreide: Weizen (wie Dinkel und Khorasan-Weizen),Eier,Sojabohnen,Milch (einschl. Laktose),Milk and derivatives",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/triple-choc-cookie-4121.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=201263",
+   "sha256": "24d42355ab47dcef3c2b55d5bbc7148f6224dbfe57d1e484c5eb6ff397ee42ff"
+  },
+  {
+   "id": 201326,
+   "menuItemNo": "4603",
+   "name": "McSundae® Original",
+   "category": "dessert",
+   "siteCategories": [
+    "Desserts",
+    "Snacks",
+    "McSmart Snacks"
+   ],
+   "servingGrams": 113.0,
+   "valuesPer100g": {
+    "energyKJ": 575.0,
+    "calories": 136.0,
+    "fat": 3.6,
+    "saturatedFat": 2.5,
+    "carbs": 22.0,
+    "sugar": 20.0,
+    "fiber": 0.0,
+    "protein": 3.5,
+    "saltGrams": 0.14
+   },
+   "valuesPerServing": {
+    "energyKJ": 652.0,
+    "calories": 155.0,
+    "fat": 4.1,
+    "saturatedFat": 2.8,
+    "carbs": 25.0,
+    "sugar": 23.0,
+    "fiber": 0.0,
+    "protein": 4.0,
+    "saltGrams": 0.16
+   },
+   "allergens": "Milch (einschl. Laktose)",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/mcsundae-original-ohne-wahlzutat-4603.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=201326",
+   "sha256": "a9db0cda1e991beaafef844aa2ac3c5ac5f5990720dce0ec82aec74be85a7f30"
+  },
+  {
+   "id": 201484,
+   "menuItemNo": "7281",
+   "name": "Earl Grey Tee Regular",
+   "category": "coffee",
+   "siteCategories": [
+    "Getränke",
+    "Frühstück",
+    "McCafé®"
+   ],
+   "servingGrams": 301.0,
+   "valuesPer100g": {
+    "energyKJ": 0.0,
+    "calories": 0.0,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "carbs": 0.0,
+    "sugar": 0.0,
+    "fiber": 0.0,
+    "protein": 0.0,
+    "saltGrams": 0.0
+   },
+   "valuesPerServing": {
+    "energyKJ": 0.0,
+    "calories": 0.0,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "carbs": 0.0,
+    "sugar": 0.0,
+    "fiber": 0.0,
+    "protein": 0.0,
+    "saltGrams": 0.01
+   },
+   "allergens": "",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/tee-earl-grey-140g-7281.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=201484",
+   "sha256": "14ad98057b119964bd61bf71523ee6f8f29069652465bd39f6f5b9ef9a581de1"
+  },
+  {
+   "id": 201485,
+   "menuItemNo": "7283",
+   "name": "Fresh Mint Tee Regular",
+   "category": "coffee",
+   "siteCategories": [
+    "Getränke",
+    "Frühstück",
+    "McCafé®"
+   ],
+   "servingGrams": 300.0,
+   "valuesPer100g": {
+    "energyKJ": 0.0,
+    "calories": 0.0,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "carbs": 0.0,
+    "sugar": 0.0,
+    "fiber": 0.0,
+    "protein": 0.0,
+    "saltGrams": 0.0
+   },
+   "valuesPerServing": {
+    "energyKJ": 0.0,
+    "calories": 0.0,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "carbs": 0.0,
+    "sugar": 0.0,
+    "fiber": 0.0,
+    "protein": 0.0,
+    "saltGrams": 0.01
+   },
+   "allergens": "",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/tee-fresh-mint-120-g-7283.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=201485",
+   "sha256": "e8f49ea2643e329b9ea2e252842962d611d7e5118a6827219f6e7964505c1c9c"
+  },
+  {
+   "id": 201486,
+   "menuItemNo": "7282",
+   "name": "Aromatisierter Grüntee",
+   "category": "coffee",
+   "siteCategories": [
+    "Getränke",
+    "Frühstück",
+    "McCafé®"
+   ],
+   "servingGrams": 301.0,
+   "valuesPer100g": {
+    "energyKJ": 0.0,
+    "calories": 0.0,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "carbs": 0.0,
+    "sugar": 0.0,
+    "fiber": 0.0,
+    "protein": 0.0,
+    "saltGrams": 0.0
+   },
+   "valuesPerServing": {
+    "energyKJ": 0.0,
+    "calories": 0.0,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "carbs": 0.0,
+    "sugar": 0.0,
+    "fiber": 0.0,
+    "protein": 0.0,
+    "saltGrams": 0.01
+   },
+   "allergens": "",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/tee-green-tea-140-g-7282.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=201486",
+   "sha256": "ba750aecff42ce96672eb58826bf56990765141ec6f37d7b804c0ecfb71accbb"
+  },
+  {
+   "id": 201508,
+   "menuItemNo": "1528",
+   "name": "McMuffin® Bacon & Egg",
+   "category": "breakfast",
+   "siteCategories": [
+    "Beliebte Produkte"
+   ],
+   "servingGrams": 132.0,
+   "valuesPer100g": {
+    "energyKJ": 942.0,
+    "calories": 224.0,
+    "fat": 10.0,
+    "saturatedFat": 4.1,
+    "carbs": 20.0,
+    "sugar": 1.7,
+    "fiber": 1.3,
+    "protein": 13.0,
+    "saltGrams": 1.1
+   },
+   "valuesPerServing": {
+    "energyKJ": 1247.0,
+    "calories": 297.0,
+    "fat": 13.0,
+    "saturatedFat": 5.5,
+    "carbs": 26.0,
+    "sugar": 2.3,
+    "fiber": 1.7,
+    "protein": 17.0,
+    "saltGrams": 1.5
+   },
+   "allergens": "Milch (einschl. Laktose),  Eier,  Glutenhaltiges Getreide:  Roggen,  Weizen (wie Dinkel und Khorasan-Weizen)",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/mcmuffin-bacon-egg-1528.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=201508",
+   "sha256": "8b5e7aaefb457e02dd8e1cf55fc946aff0ee105b6f5fdb381a23cb50c93f5eee"
+  },
+  {
+   "id": 201541,
+   "menuItemNo": "7304",
+   "name": "Dark Chocolate Grande",
+   "category": "coffee",
+   "siteCategories": [
+    "Getränke",
+    "McMenü®",
+    "Frühstück",
+    "McCafé®"
+   ],
+   "servingGrams": 311.0,
+   "valuesPer100g": {
+    "energyKJ": 480.0,
+    "calories": 115.0,
+    "fat": 4.2,
+    "saturatedFat": 2.7,
+    "carbs": 14.0,
+    "sugar": 13.0,
+    "fiber": 1.9,
+    "protein": 4.0,
+    "saltGrams": 0.16
+   },
+   "valuesPerServing": {
+    "energyKJ": 1490.0,
+    "calories": 356.0,
+    "fat": 13.0,
+    "saturatedFat": 8.4,
+    "carbs": 43.0,
+    "sugar": 41.0,
+    "fiber": 5.8,
+    "protein": 12.0,
+    "saltGrams": 0.49
+   },
+   "allergens": "Milch (einschl. Laktose)",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/dark-chocolate-grande-7304.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=201541",
+   "sha256": "2592760cc3b17b2a16f5f937f9ccc4279e785b030837e3e52c9bc56c383f8218"
+  },
+  {
+   "id": 201546,
+   "menuItemNo": "7828",
+   "name": "Espresso Macchiato Grande",
+   "category": "coffee",
+   "siteCategories": [
+    "Getränke",
+    "McCafé®"
+   ],
+   "servingGrams": 85.0,
+   "valuesPer100g": {
+    "energyKJ": 38.0,
+    "calories": 9.0,
+    "fat": 0.5,
+    "saturatedFat": 0.2,
+    "carbs": 0.8,
+    "sugar": 0.8,
+    "fiber": 0.0,
+    "protein": 0.6,
+    "saltGrams": 0.02
+   },
+   "valuesPerServing": {
+    "energyKJ": 33.0,
+    "calories": 8.0,
+    "fat": 0.4,
+    "saturatedFat": 0.2,
+    "carbs": 0.7,
+    "sugar": 0.7,
+    "fiber": 0.0,
+    "protein": 0.5,
+    "saltGrams": 0.02
+   },
+   "allergens": "Milch (einschl. Laktose)",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/espresso-macchiato-grande-7828.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=201546",
+   "sha256": "0b07f34447b2991d1782e95efcd3431a09aa0c1e96b5bdafef589784f44480d5"
+  },
+  {
+   "id": 201618,
+   "menuItemNo": "9050",
+   "name": "N.Y. Style Cheesecake",
+   "category": "dessert",
+   "siteCategories": [
+    "Desserts",
+    "McCafé®"
+   ],
+   "servingGrams": 140.0,
+   "valuesPer100g": {
+    "energyKJ": 1397.0,
+    "calories": 335.0,
+    "fat": 21.0,
+    "saturatedFat": 11.0,
+    "carbs": 30.0,
+    "sugar": 20.0,
+    "fiber": 0.4,
+    "protein": 5.7,
+    "saltGrams": 0.5
+   },
+   "valuesPerServing": {
+    "energyKJ": 1956.0,
+    "calories": 469.0,
+    "fat": 30.0,
+    "saturatedFat": 16.0,
+    "carbs": 42.0,
+    "sugar": 28.0,
+    "fiber": 0.6,
+    "protein": 8.0,
+    "saltGrams": 0.7
+   },
+   "allergens": "Glutenhaltiges Getreide: Weizen (wie Dinkel und Khorasan-Weizen),Eier,Milch (einschl. Laktose)",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/cheesecake-new-york-style-9050.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=201618",
+   "sha256": "5c62dc72fb1cf255983c297253a07031af71f23973b87c8de1af5e7f7b855128"
+  },
+  {
+   "id": 201776,
+   "menuItemNo": "4099",
+   "name": "McFreezy Erdbeer",
+   "category": "dessert",
+   "siteCategories": [
+    "Happy Meal®"
+   ],
+   "servingGrams": 74.0,
+   "valuesPer100g": {
+    "energyKJ": 233.0,
+    "calories": 55.0,
+    "fat": 0.1,
+    "saturatedFat": 0.0,
+    "carbs": 12.0,
+    "sugar": 12.0,
+    "fiber": 0.5,
+    "protein": 0.4,
+    "saltGrams": 0.01
+   },
+   "valuesPerServing": {
+    "energyKJ": 171.0,
+    "calories": 40.0,
+    "fat": 0.1,
+    "saturatedFat": 0.0,
+    "carbs": 9.0,
+    "sugar": 8.6,
+    "fiber": 0.4,
+    "protein": 0.3,
+    "saltGrams": 0.01
+   },
+   "allergens": "Keine Allergene enthalten",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/bio-mcfreezy-erdbeere-banane-70ml-4099.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=201776",
+   "sha256": "539b69982115b87f36dd14a7d275fe5c3aee59862dbbf40b0248a3da15464b7e"
+  },
+  {
+   "id": 201795,
+   "menuItemNo": "9058",
+   "name": "N.Y. Style Cheesecake mit OREO®-Topping und Schoko",
+   "category": "dessert",
+   "siteCategories": [
+    "Desserts",
+    "McCafé®"
+   ],
+   "servingGrams": 202.0,
+   "valuesPer100g": {
+    "energyKJ": 1465.0,
+    "calories": 351.0,
+    "fat": 19.0,
+    "saturatedFat": 11.0,
+    "carbs": 38.0,
+    "sugar": 28.0,
+    "fiber": 1.2,
+    "protein": 5.3,
+    "saltGrams": 0.54
+   },
+   "valuesPerServing": {
+    "energyKJ": 2958.0,
+    "calories": 708.0,
+    "fat": 39.0,
+    "saturatedFat": 22.0,
+    "carbs": 78.0,
+    "sugar": 56.0,
+    "fiber": 2.4,
+    "protein": 11.0,
+    "saltGrams": 1.1
+   },
+   "allergens": "Glutenhaltiges Getreide: Weizen (wie Dinkel und Khorasan-Weizen),Eier,Sojabohnen,Milch (einschl. Laktose)",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/ny-style-cheesecake-oreo-mit-schoko-sauce-9058.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=201795",
+   "sha256": "8edcbe97a6e4ba303805608196a5b95765c09c846a795594c03bc29a7d20f644"
+  },
+  {
+   "id": 201951,
+   "menuItemNo": "2230",
+   "name": "4-McP.Nuggets",
+   "category": "chicken",
+   "siteCategories": [],
+   "servingGrams": 66.0,
+   "valuesPer100g": {
+    "energyKJ": 1197.0,
+    "calories": 287.0,
+    "fat": 16.0,
+    "saturatedFat": 1.5,
+    "carbs": 21.0,
+    "sugar": 0.9,
+    "fiber": 4.1,
+    "protein": 13.0,
+    "saltGrams": 1.1
+   },
+   "valuesPerServing": {
+    "energyKJ": 790.0,
+    "calories": 189.0,
+    "fat": 10.0,
+    "saturatedFat": 1.0,
+    "carbs": 14.0,
+    "sugar": 0.6,
+    "fiber": 2.7,
+    "protein": 8.8,
+    "saltGrams": 0.75
+   },
+   "allergens": "Glutenhaltiges Getreide: Weizen (wie Dinkel und Khorasan-Weizen),Sellerie",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/4-mcplant-nuggets-2230.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=201951",
+   "sha256": "c7a11aed6bed4b3c25d45842ed381b52fc43720c651203101b07de93c56ff9a0"
+  },
+  {
+   "id": 201955,
+   "menuItemNo": "2232",
+   "name": "6 McPlant® Nuggets",
+   "category": "chicken",
+   "siteCategories": [
+    "Veggie & Plantbased",
+    "Beliebte Produkte",
+    "McNuggets® & Fingerfood"
+   ],
+   "servingGrams": 99.0,
+   "valuesPer100g": {
+    "energyKJ": 1197.0,
+    "calories": 287.0,
+    "fat": 16.0,
+    "saturatedFat": 1.5,
+    "carbs": 21.0,
+    "sugar": 0.9,
+    "fiber": 4.1,
+    "protein": 13.0,
+    "saltGrams": 1.1
+   },
+   "valuesPerServing": {
+    "energyKJ": 1185.0,
+    "calories": 284.0,
+    "fat": 16.0,
+    "saturatedFat": 1.5,
+    "carbs": 21.0,
+    "sugar": 0.9,
+    "fiber": 4.1,
+    "protein": 13.0,
+    "saltGrams": 1.1
+   },
+   "allergens": "Glutenhaltiges Getreide: Weizen (wie Dinkel und Khorasan-Weizen),Sellerie",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/6-mcplant-nuggets-2232.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=201955",
+   "sha256": "af5b1d4cd86b72be06f36f49f9b744cd11bede28ebd59483b14ca046b37f7fcf"
+  },
+  {
+   "id": 201964,
+   "menuItemNo": "2236",
+   "name": "9 McPlant® Nuggets",
+   "category": "chicken",
+   "siteCategories": [
+    "Veggie & Plantbased",
+    "Beliebte Produkte",
+    "McNuggets® & Fingerfood"
+   ],
+   "servingGrams": 149.0,
+   "valuesPer100g": {
+    "energyKJ": 1197.0,
+    "calories": 287.0,
+    "fat": 16.0,
+    "saturatedFat": 1.5,
+    "carbs": 21.0,
+    "sugar": 0.9,
+    "fiber": 4.1,
+    "protein": 13.0,
+    "saltGrams": 1.1
+   },
+   "valuesPerServing": {
+    "energyKJ": 1778.0,
+    "calories": 426.0,
+    "fat": 23.0,
+    "saturatedFat": 2.2,
+    "carbs": 31.0,
+    "sugar": 1.3,
+    "fiber": 6.1,
+    "protein": 20.0,
+    "saltGrams": 1.7
+   },
+   "allergens": "Glutenhaltiges Getreide: Weizen (wie Dinkel und Khorasan-Weizen),Sellerie",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/9-mcplant-nuggets-2236.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=201964",
+   "sha256": "e1d1ba3a5465e5d99417901171154cf92fcd98a13a674e3c94798549d852e75f"
+  },
+  {
+   "id": 201970,
+   "menuItemNo": "2240",
+   "name": "20 McPlant® Nuggets",
+   "category": "chicken",
+   "siteCategories": [
+    "Veggie & Plantbased",
+    "Beliebte Produkte",
+    "McNuggets® & Fingerfood"
+   ],
+   "servingGrams": 330.0,
+   "valuesPer100g": {
+    "energyKJ": 1197.0,
+    "calories": 287.0,
+    "fat": 16.0,
+    "saturatedFat": 1.5,
+    "carbs": 21.0,
+    "sugar": 0.9,
+    "fiber": 4.1,
+    "protein": 13.0,
+    "saltGrams": 1.1
+   },
+   "valuesPerServing": {
+    "energyKJ": 3950.0,
+    "calories": 947.0,
+    "fat": 52.0,
+    "saturatedFat": 5.0,
+    "carbs": 69.0,
+    "sugar": 3.0,
+    "fiber": 14.0,
+    "protein": 44.0,
+    "saltGrams": 3.7
+   },
+   "allergens": "Glutenhaltiges Getreide: Weizen (wie Dinkel und Khorasan-Weizen),Sellerie",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/20-mcplant-nuggets-2240.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=201970",
+   "sha256": "f66b56651d47acd99b6985acba1908460c71d21f182d7cc424c63d2638c9a2ae"
+  },
+  {
+   "id": 202064,
+   "menuItemNo": "2167",
+   "name": "Sweet Chili Sauce *",
+   "category": "sauce",
+   "siteCategories": [
+    "Beilagen & Extras"
+   ],
+   "servingGrams": 31.0,
+   "valuesPer100g": {
+    "energyKJ": 921.0,
+    "calories": 217.0,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "carbs": 52.0,
+    "sugar": 48.0,
+    "fiber": 0.6,
+    "protein": 0.6,
+    "saltGrams": 1.6
+   },
+   "valuesPerServing": {
+    "energyKJ": 285.0,
+    "calories": 67.0,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "carbs": 16.0,
+    "sugar": 15.0,
+    "fiber": 0.2,
+    "protein": 0.2,
+    "saltGrams": 0.5
+   },
+   "allergens": "Keine Allergene enthalten",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/sweet-chili-sauce-2167.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=202064",
+   "sha256": "b7f425cb1b528f782ca7f85d3b3f5f2ea5bd5c43adbb111ac5c72cc411348d98"
+  },
+  {
+   "id": 202175,
+   "menuItemNo": "2556",
+   "name": "Double Hamburger Royal TS",
+   "category": "burger",
+   "siteCategories": [
+    "Burger",
+    "McMenü®"
+   ],
+   "servingGrams": 345.0,
+   "valuesPer100g": {
+    "energyKJ": 1011.0,
+    "calories": 242.0,
+    "fat": 15.0,
+    "saturatedFat": 6.5,
+    "carbs": 11.0,
+    "sugar": 2.7,
+    "fiber": 0.9,
+    "protein": 16.0,
+    "saltGrams": 0.81
+   },
+   "valuesPerServing": {
+    "energyKJ": 3487.0,
+    "calories": 835.0,
+    "fat": 52.0,
+    "saturatedFat": 22.0,
+    "carbs": 37.0,
+    "sugar": 9.3,
+    "fiber": 3.0,
+    "protein": 54.0,
+    "saltGrams": 2.8
+   },
+   "allergens": "Glutenhaltiges Getreide: Weizen (wie Dinkel und Khorasan-Weizen),Milch (einschl. Laktose),Senf,Sesamsamen",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/double-hamburger-royal-ts-2556.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=202175",
+   "sha256": "ff758d34641be7f878b96f27f3ad975e29374e699a58ee430a684cde6da6c47f"
+  },
+  {
+   "id": 202188,
+   "menuItemNo": "2575",
+   "name": "Double Hamburger Royal Cheese",
+   "category": "burger",
+   "siteCategories": [
+    "Burger",
+    "McMenü®"
+   ],
+   "servingGrams": 304.0,
+   "valuesPer100g": {
+    "energyKJ": 1101.0,
+    "calories": 264.0,
+    "fat": 16.0,
+    "saturatedFat": 7.3,
+    "carbs": 12.0,
+    "sugar": 3.4,
+    "fiber": 1.0,
+    "protein": 18.0,
+    "saltGrams": 0.99
+   },
+   "valuesPerServing": {
+    "energyKJ": 3342.0,
+    "calories": 800.0,
+    "fat": 48.0,
+    "saturatedFat": 22.0,
+    "carbs": 38.0,
+    "sugar": 10.0,
+    "fiber": 2.9,
+    "protein": 54.0,
+    "saltGrams": 3.0
+   },
+   "allergens": "Glutenhaltiges Getreide: Weizen (wie Dinkel und Khorasan-Weizen),Milch (einschl. Laktose),Senf,Sesamsamen",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/double-hamburger-royal-kse-2575.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=202188",
+   "sha256": "26e396b22faa4d6787b6dcb4bcd02b4cb92f6501f912b6e3a1c0122ba6377bfc"
+  },
+  {
+   "id": 202247,
+   "menuItemNo": "1721",
+   "name": "McToast® Bacon & Cheese",
+   "category": "breakfast",
+   "siteCategories": [
+    "Frühstück"
+   ],
+   "servingGrams": 88.0,
+   "valuesPer100g": {
+    "energyKJ": 1335.0,
+    "calories": 318.0,
+    "fat": 14.0,
+    "saturatedFat": 7.6,
+    "carbs": 31.0,
+    "sugar": 6.1,
+    "fiber": 2.0,
+    "protein": 15.0,
+    "saltGrams": 1.9
+   },
+   "valuesPerServing": {
+    "energyKJ": 1173.0,
+    "calories": 279.0,
+    "fat": 13.0,
+    "saturatedFat": 6.7,
+    "carbs": 27.0,
+    "sugar": 5.4,
+    "fiber": 1.8,
+    "protein": 13.0,
+    "saltGrams": 1.7
+   },
+   "allergens": "Glutenhaltiges Getreide: Weizen (wie Dinkel und Khorasan-Weizen),Milch (einschl. Laktose)",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/mctoast-bacon-cheese.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=202247",
+   "sha256": "f2c5ecce623696a9064ee17cd6f8b48a4ceb75d24cc5fa2ed832275bc543bd95"
+  },
+  {
+   "id": 202248,
+   "menuItemNo": "1724",
+   "name": "McMuffin® Egg",
+   "category": "breakfast",
+   "siteCategories": [
+    "Frühstück"
+   ],
+   "servingGrams": 128.0,
+   "valuesPer100g": {
+    "energyKJ": 896.0,
+    "calories": 213.0,
+    "fat": 9.0,
+    "saturatedFat": 3.8,
+    "carbs": 20.0,
+    "sugar": 1.7,
+    "fiber": 1.5,
+    "protein": 12.0,
+    "saltGrams": 0.86
+   },
+   "valuesPerServing": {
+    "energyKJ": 1147.0,
+    "calories": 273.0,
+    "fat": 12.0,
+    "saturatedFat": 4.8,
+    "carbs": 26.0,
+    "sugar": 2.2,
+    "fiber": 1.9,
+    "protein": 16.0,
+    "saltGrams": 1.1
+   },
+   "allergens": "Glutenhaltiges Getreide: Weizen (wie Dinkel und Khorasan-Weizen),Glutenhaltiges Getreide: Roggen,Eier,Milch (einschl. Laktose)",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/mcmuffin-egg.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=202248",
+   "sha256": "b02d07492f5262228c6f609c7f8ba05adc89c48d38123be27c744f697158cc4c"
+  },
+  {
+   "id": 202250,
+   "menuItemNo": "1733",
+   "name": "McMuffin® Sausage & Egg",
+   "category": "breakfast",
+   "siteCategories": [
+    "Frühstück"
+   ],
+   "servingGrams": 175.0,
+   "valuesPer100g": {
+    "energyKJ": 995.0,
+    "calories": 238.0,
+    "fat": 13.0,
+    "saturatedFat": 5.4,
+    "carbs": 15.0,
+    "sugar": 1.3,
+    "fiber": 1.1,
+    "protein": 14.0,
+    "saltGrams": 1.0
+   },
+   "valuesPerServing": {
+    "energyKJ": 1745.0,
+    "calories": 417.0,
+    "fat": 23.0,
+    "saturatedFat": 9.4,
+    "carbs": 26.0,
+    "sugar": 2.3,
+    "fiber": 1.9,
+    "protein": 25.0,
+    "saltGrams": 1.8
+   },
+   "allergens": "Glutenhaltiges Getreide: Weizen (wie Dinkel und Khorasan-Weizen),Glutenhaltiges Getreide: Roggen,Eier,Milch (einschl. Laktose)",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/mcmuffin-sausage-egg.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=202250",
+   "sha256": "5c29281e4f4b5ed45e2a79e21e540cb3c34e5b0ce17c38b4bd1b057aaad7d114"
+  },
+  {
+   "id": 202252,
+   "menuItemNo": "1745",
+   "name": "Big Morning Farmer",
+   "category": "breakfast",
+   "siteCategories": [
+    "Frühstück"
+   ],
+   "servingGrams": 194.0,
+   "valuesPer100g": {
+    "energyKJ": 1149.0,
+    "calories": 275.0,
+    "fat": 15.0,
+    "saturatedFat": 4.9,
+    "carbs": 19.0,
+    "sugar": 2.2,
+    "fiber": 2.8,
+    "protein": 13.0,
+    "saltGrams": 1.4
+   },
+   "valuesPerServing": {
+    "energyKJ": 2230.0,
+    "calories": 534.0,
+    "fat": 30.0,
+    "saturatedFat": 9.6,
+    "carbs": 38.0,
+    "sugar": 4.3,
+    "fiber": 5.5,
+    "protein": 26.0,
+    "saltGrams": 2.7
+   },
+   "allergens": "Glutenhaltiges Getreide: Weizen (wie Dinkel und Khorasan-Weizen),Milch (einschl. Laktose),Senf,Sesamsamen",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/big-morning-farmer.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=202252",
+   "sha256": "f71b9441c6ed0a8a54f817918e1b7c619403bff3cef735a35ee8022e5334607d"
+  },
+  {
+   "id": 202253,
+   "menuItemNo": "1748",
+   "name": "Big Morning Chicken",
+   "category": "breakfast",
+   "siteCategories": [
+    "Frühstück"
+   ],
+   "servingGrams": 206.0,
+   "valuesPer100g": {
+    "energyKJ": 954.0,
+    "calories": 228.0,
+    "fat": 11.0,
+    "saturatedFat": 2.4,
+    "carbs": 18.0,
+    "sugar": 2.3,
+    "fiber": 2.9,
+    "protein": 9.3,
+    "saltGrams": 1.1
+   },
+   "valuesPerServing": {
+    "energyKJ": 1966.0,
+    "calories": 469.0,
+    "fat": 22.0,
+    "saturatedFat": 5.0,
+    "carbs": 37.0,
+    "sugar": 4.8,
+    "fiber": 6.0,
+    "protein": 19.0,
+    "saltGrams": 2.2
+   },
+   "allergens": "Glutenhaltiges Getreide: Weizen (wie Dinkel und Khorasan-Weizen),Milch (einschl. Laktose),Sellerie,Senf,Sesamsamen",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/big-morning-chicken.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=202253",
+   "sha256": "4100c9cac9065e96b9207d41e7fe4cfe41b2bf7b19dda4150fb66f08a9b95efa"
+  },
+  {
+   "id": 202254,
+   "menuItemNo": "1754",
+   "name": "McWrap® Rührei Cheese",
+   "category": "breakfast",
+   "siteCategories": [
+    "Frühstück"
+   ],
+   "servingGrams": 251.0,
+   "valuesPer100g": {
+    "energyKJ": 813.0,
+    "calories": 194.0,
+    "fat": 11.0,
+    "saturatedFat": 3.9,
+    "carbs": 15.0,
+    "sugar": 2.1,
+    "fiber": 1.6,
+    "protein": 8.8,
+    "saltGrams": 0.72
+   },
+   "valuesPerServing": {
+    "energyKJ": 2038.0,
+    "calories": 487.0,
+    "fat": 27.0,
+    "saturatedFat": 9.8,
+    "carbs": 38.0,
+    "sugar": 5.2,
+    "fiber": 3.9,
+    "protein": 22.0,
+    "saltGrams": 1.8
+   },
+   "allergens": "Glutenhaltiges Getreide: Weizen (wie Dinkel und Khorasan-Weizen),Glutenhaltiges Getreide: Roggen,Eier,Milch (einschl. Laktose),Senf",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/mcwrap-rhrei-cheese.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=202254",
+   "sha256": "73edd9e413f5f271a6004c04e46a3bf7c85556ab03f9947619034f30ed0e6f1c"
+  },
+  {
+   "id": 202255,
+   "menuItemNo": "1757",
+   "name": "McWrap® Rührei Bacon",
+   "category": "breakfast",
+   "siteCategories": [
+    "Frühstück"
+   ],
+   "servingGrams": 237.0,
+   "valuesPer100g": {
+    "energyKJ": 999.0,
+    "calories": 239.0,
+    "fat": 14.0,
+    "saturatedFat": 5.3,
+    "carbs": 16.0,
+    "sugar": 2.0,
+    "fiber": 1.6,
+    "protein": 11.0,
+    "saltGrams": 1.0
+   },
+   "valuesPerServing": {
+    "energyKJ": 2362.0,
+    "calories": 565.0,
+    "fat": 33.0,
+    "saturatedFat": 13.0,
+    "carbs": 39.0,
+    "sugar": 4.8,
+    "fiber": 3.7,
+    "protein": 27.0,
+    "saltGrams": 2.4
+   },
+   "allergens": "Glutenhaltiges Getreide: Weizen (wie Dinkel und Khorasan-Weizen),Glutenhaltiges Getreide: Roggen,Eier,Milch (einschl. Laktose),Senf",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/mcwrap-rhrei-bacon.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=202255",
+   "sha256": "4472242b6a85a70305fffbb2333162c7231cd5f932610fe0f35c2a7d0773af63"
+  },
+  {
+   "id": 202256,
+   "menuItemNo": "1763",
+   "name": "6 Mini Pancakes",
+   "category": "breakfast",
+   "siteCategories": [
+    "Frühstück"
+   ],
+   "servingGrams": 51.0,
+   "valuesPer100g": {
+    "energyKJ": 1497.0,
+    "calories": 358.0,
+    "fat": 21.0,
+    "saturatedFat": 3.1,
+    "carbs": 36.0,
+    "sugar": 16.0,
+    "fiber": 1.0,
+    "protein": 6.7,
+    "saltGrams": 0.85
+   },
+   "valuesPerServing": {
+    "energyKJ": 763.0,
+    "calories": 183.0,
+    "fat": 10.0,
+    "saturatedFat": 1.6,
+    "carbs": 19.0,
+    "sugar": 8.2,
+    "fiber": 0.5,
+    "protein": 3.4,
+    "saltGrams": 0.43
+   },
+   "allergens": "Glutenhaltiges Getreide: Weizen (wie Dinkel und Khorasan-Weizen),Eier,Milch (einschl. Laktose)",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/mini-pancakes-6-stck.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=202256",
+   "sha256": "dc56c4e57edc65a16d87699c0b3be04da611465c70d59e783e98d519cb3fed64"
+  },
+  {
+   "id": 202257,
+   "menuItemNo": "1766",
+   "name": "12 Mini Pancakes",
+   "category": "breakfast",
+   "siteCategories": [
+    "Frühstück"
+   ],
+   "servingGrams": 102.0,
+   "valuesPer100g": {
+    "energyKJ": 1497.0,
+    "calories": 358.0,
+    "fat": 21.0,
+    "saturatedFat": 3.2,
+    "carbs": 36.0,
+    "sugar": 16.0,
+    "fiber": 0.9,
+    "protein": 6.6,
+    "saltGrams": 0.85
+   },
+   "valuesPerServing": {
+    "energyKJ": 1527.0,
+    "calories": 365.0,
+    "fat": 21.0,
+    "saturatedFat": 3.3,
+    "carbs": 37.0,
+    "sugar": 16.0,
+    "fiber": 0.9,
+    "protein": 6.7,
+    "saltGrams": 0.87
+   },
+   "allergens": "Glutenhaltiges Getreide: Weizen (wie Dinkel und Khorasan-Weizen),Eier,Milch (einschl. Laktose)",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/mini-pancakes12-stck.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=202257",
+   "sha256": "b74eb5ac4626ed4908f6f83eba6b7a7380a74df98aef2decccf262042dd5af8a"
+  },
+  {
+   "id": 202263,
+   "menuItemNo": "1751",
+   "name": "Big Morning Egg",
+   "category": "breakfast",
+   "siteCategories": [
+    "Frühstück"
+   ],
+   "servingGrams": 195.0,
+   "valuesPer100g": {
+    "energyKJ": 973.0,
+    "calories": 232.0,
+    "fat": 12.0,
+    "saturatedFat": 3.2,
+    "carbs": 19.0,
+    "sugar": 2.3,
+    "fiber": 2.9,
+    "protein": 11.0,
+    "saltGrams": 0.98
+   },
+   "valuesPerServing": {
+    "energyKJ": 1894.0,
+    "calories": 453.0,
+    "fat": 24.0,
+    "saturatedFat": 6.3,
+    "carbs": 37.0,
+    "sugar": 4.4,
+    "fiber": 5.6,
+    "protein": 21.0,
+    "saltGrams": 1.9
+   },
+   "allergens": "Glutenhaltiges Getreide: Weizen (wie Dinkel und Khorasan-Weizen),Eier,Milch (einschl. Laktose),Senf,Sesamsamen",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/big-morning-egg.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=202263",
+   "sha256": "6d089dbbb9e11f741668af8f949456f923579232dcc2874a51b8c82abf7f7a64"
+  },
+  {
+   "id": 202308,
+   "menuItemNo": "7452",
+   "name": "Iced Latte",
+   "category": "coffee",
+   "siteCategories": [
+    "McMenü®",
+    "McCafé®"
+   ],
+   "servingGrams": 385.0,
+   "valuesPer100g": {
+    "energyKJ": 105.0,
+    "calories": 25.0,
+    "fat": 1.4,
+    "saturatedFat": 0.9,
+    "carbs": 1.9,
+    "sugar": 1.9,
+    "fiber": 0.0,
+    "protein": 1.3,
+    "saltGrams": 0.05
+   },
+   "valuesPerServing": {
+    "energyKJ": 405.0,
+    "calories": 97.0,
+    "fat": 5.3,
+    "saturatedFat": 3.5,
+    "carbs": 7.2,
+    "sugar": 7.2,
+    "fiber": 0.0,
+    "protein": 5.1,
+    "saltGrams": 0.2
+   },
+   "allergens": "Milch (einschl. Laktose)",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/iced-latte-grande.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=202308",
+   "sha256": "a99debb4da1dc63fc631dd6d80749a5057687b2763edebc51378da19b5107999"
+  },
+  {
+   "id": 202463,
+   "menuItemNo": "3586",
+   "name": "Honig-Senf Dressing 50 ml",
+   "category": "sauce",
+   "siteCategories": [
+    "Beilagen & Extras"
+   ],
+   "servingGrams": 54.0,
+   "valuesPer100g": {
+    "energyKJ": 912.0,
+    "calories": 219.0,
+    "fat": 16.0,
+    "saturatedFat": 1.1,
+    "carbs": 17.0,
+    "sugar": 16.0,
+    "fiber": 1.1,
+    "protein": 1.1,
+    "saltGrams": 2.0
+   },
+   "valuesPerServing": {
+    "energyKJ": 492.0,
+    "calories": 118.0,
+    "fat": 8.4,
+    "saturatedFat": 0.6,
+    "carbs": 9.3,
+    "sugar": 8.9,
+    "fiber": 0.6,
+    "protein": 0.6,
+    "saltGrams": 1.1
+   },
+   "allergens": "Eier,Senf",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/honig-senf-dressing-50-ml.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=202463",
+   "sha256": "12348316a37beaf37a8ae72a87234665d5ffae15aaa5ea6096f41e54215faee8"
+  },
+  {
+   "id": 202465,
+   "menuItemNo": "3821",
+   "name": "Big Chicken Salad",
+   "category": "salad",
+   "siteCategories": [
+    "Beilagen & Extras"
+   ],
+   "servingGrams": 271.0,
+   "valuesPer100g": {
+    "energyKJ": 431.0,
+    "calories": 103.0,
+    "fat": 5.6,
+    "saturatedFat": 0.8,
+    "carbs": 7.0,
+    "sugar": 1.1,
+    "fiber": 1.7,
+    "protein": 5.3,
+    "saltGrams": 0.39
+   },
+   "valuesPerServing": {
+    "energyKJ": 1169.0,
+    "calories": 280.0,
+    "fat": 15.0,
+    "saturatedFat": 2.3,
+    "carbs": 19.0,
+    "sugar": 3.0,
+    "fiber": 4.5,
+    "protein": 14.0,
+    "saltGrams": 1.1
+   },
+   "allergens": "Glutenhaltiges Getreide: Weizen (wie Dinkel und Khorasan-Weizen),Sellerie",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/big-chicken-salad.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=202465",
+   "sha256": "e3228df9e337f908b97c2a8ea51ef008c0a849a611827fd25dafc643ae204005"
+  },
+  {
+   "id": 202583,
+   "menuItemNo": "2355",
+   "name": "McSmart Double Beef Classic",
+   "category": "burger",
+   "siteCategories": [
+    "Burger",
+    "McSmart Menü"
+   ],
+   "servingGrams": 189.0,
+   "valuesPer100g": {
+    "energyKJ": 1097.0,
+    "calories": 263.0,
+    "fat": 15.0,
+    "saturatedFat": 3.9,
+    "carbs": 20.0,
+    "sugar": 4.7,
+    "fiber": 1.2,
+    "protein": 12.0,
+    "saltGrams": 1.0
+   },
+   "valuesPerServing": {
+    "energyKJ": 2076.0,
+    "calories": 497.0,
+    "fat": 28.0,
+    "saturatedFat": 7.4,
+    "carbs": 37.0,
+    "sugar": 8.9,
+    "fiber": 2.3,
+    "protein": 23.0,
+    "saltGrams": 2.0
+   },
+   "allergens": "Glutenhaltiges Getreide: Weizen (wie Dinkel und Khorasan-Weizen),Eier,Milch (einschl. Laktose),Senf,Sesamsamen",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/mcsmart-double-beef-classic.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=202583",
+   "sha256": "91becdca4a1cc61b8a27713ea6da291f2fecae964bf809e966fc9ea504787759"
+  },
+  {
+   "id": 202684,
+   "menuItemNo": "9023",
+   "name": "Choc-Nut Brownie",
+   "category": "dessert",
+   "siteCategories": [
+    "Desserts",
+    "McCafé®"
+   ],
+   "servingGrams": 63.0,
+   "valuesPer100g": {
+    "energyKJ": 1819.0,
+    "calories": 436.0,
+    "fat": 27.0,
+    "saturatedFat": 6.7,
+    "carbs": 42.0,
+    "sugar": 29.0,
+    "fiber": 3.3,
+    "protein": 5.6,
+    "saltGrams": 0.38
+   },
+   "valuesPerServing": {
+    "energyKJ": 1146.0,
+    "calories": 275.0,
+    "fat": 17.0,
+    "saturatedFat": 4.2,
+    "carbs": 27.0,
+    "sugar": 18.0,
+    "fiber": 2.1,
+    "protein": 3.5,
+    "saltGrams": 0.24
+   },
+   "allergens": "Glutenhaltiges Getreide: Weizen (wie Dinkel und Khorasan-Weizen),Eier,Milch (einschl. Laktose),Schalenfrüchte: Walnuss",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/choc-nut-brownie.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=202684",
+   "sha256": "4c454e2d0a7891587518fb1b7cf374824fe6a28ee6aed8a98e2edbe59173c106"
+  },
+  {
+   "id": 202818,
+   "menuItemNo": "2585",
+   "name": "McVeggie® TS",
+   "category": "burger",
+   "siteCategories": [
+    "Burger",
+    "McMenü®",
+    "Veggie & Plantbased"
+   ],
+   "servingGrams": 233.0,
+   "valuesPer100g": {
+    "energyKJ": 807.0,
+    "calories": 192.0,
+    "fat": 7.3,
+    "saturatedFat": 1.9,
+    "carbs": 22.0,
+    "sugar": 4.4,
+    "fiber": 2.7,
+    "protein": 8.7,
+    "saltGrams": 1.1
+   },
+   "valuesPerServing": {
+    "energyKJ": 1884.0,
+    "calories": 449.0,
+    "fat": 17.0,
+    "saturatedFat": 4.4,
+    "carbs": 50.0,
+    "sugar": 10.0,
+    "fiber": 6.2,
+    "protein": 20.0,
+    "saltGrams": 2.6
+   },
+   "allergens": "Glutenhaltiges Getreide: Weizen (wie Dinkel und Khorasan-Weizen),Glutenhaltiges Getreide: Hafer,Eier,Milch (einschl. Laktose),Senf,Sesamsamen",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/mcveggie-ts.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=202818",
+   "sha256": "e87ea45271671c1f1ac57855954273e5ed95dd690903c14aab54c44e7d441513"
+  },
+  {
+   "id": 202821,
+   "menuItemNo": "3823",
+   "name": "Big Veggie Salad",
+   "category": "salad",
+   "siteCategories": [
+    "Beilagen & Extras",
+    "Veggie & Plantbased"
+   ],
+   "servingGrams": 261.0,
+   "valuesPer100g": {
+    "energyKJ": 308.0,
+    "calories": 73.0,
+    "fat": 2.6,
+    "saturatedFat": 0.5,
+    "carbs": 6.1,
+    "sugar": 1.5,
+    "fiber": 2.3,
+    "protein": 5.2,
+    "saltGrams": 0.47
+   },
+   "valuesPerServing": {
+    "energyKJ": 803.0,
+    "calories": 191.0,
+    "fat": 6.9,
+    "saturatedFat": 1.2,
+    "carbs": 16.0,
+    "sugar": 4.0,
+    "fiber": 6.1,
+    "protein": 13.0,
+    "saltGrams": 1.2
+   },
+   "allergens": "Glutenhaltiges Getreide: Hafer,Glutenhaltiges Getreide: Weizen (wie Dinkel und Khorasan-Weizen),Eier,Milch (einschl. Laktose)",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/big-veggie-salad.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=202821",
+   "sha256": "a1a0e256fbd1d1621f6770de0ae148fcc31484f9a6c9232e90644e2d474d8c87"
+  },
+  {
+   "id": 202822,
+   "menuItemNo": "5900",
+   "name": "McWrap® Veggie Honig-Senf",
+   "category": "wrap",
+   "siteCategories": [
+    "McMenü®",
+    "Veggie & Plantbased",
+    "McNuggets® & Fingerfood",
+    "McWrap®"
+   ],
+   "servingGrams": 255.0,
+   "valuesPer100g": {
+    "energyKJ": 798.0,
+    "calories": 191.0,
+    "fat": 8.0,
+    "saturatedFat": 2.0,
+    "carbs": 20.0,
+    "sugar": 2.6,
+    "fiber": 3.3,
+    "protein": 7.8,
+    "saltGrams": 0.96
+   },
+   "valuesPerServing": {
+    "energyKJ": 2037.0,
+    "calories": 487.0,
+    "fat": 20.0,
+    "saturatedFat": 5.1,
+    "carbs": 52.0,
+    "sugar": 6.5,
+    "fiber": 8.3,
+    "protein": 20.0,
+    "saltGrams": 2.5
+   },
+   "allergens": "Glutenhaltiges Getreide: Weizen (wie Dinkel und Khorasan-Weizen),Glutenhaltiges Getreide: Roggen,Glutenhaltiges Getreide: Hafer,Eier,Milch (einschl. Laktose),Senf",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/mcwrap-veggie-honig-senf.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=202822",
+   "sha256": "859ffe5c7ed89367c6795825966ab1fc5bcad3b798e3558a4470c90fe07a1824"
+  },
+  {
+   "id": 202904,
+   "menuItemNo": "9079",
+   "name": "Kirsch-Streusel Kuchen",
+   "category": "dessert",
+   "siteCategories": [
+    "Desserts",
+    "McCafé®"
+   ],
+   "servingGrams": 142.0,
+   "valuesPer100g": {
+    "energyKJ": 1060.0,
+    "calories": 252.0,
+    "fat": 9.0,
+    "saturatedFat": 3.9,
+    "carbs": 39.0,
+    "sugar": 22.0,
+    "fiber": 1.6,
+    "protein": 3.2,
+    "saltGrams": 0.23
+   },
+   "valuesPerServing": {
+    "energyKJ": 1505.0,
+    "calories": 358.0,
+    "fat": 13.0,
+    "saturatedFat": 5.5,
+    "carbs": 55.0,
+    "sugar": 32.0,
+    "fiber": 2.3,
+    "protein": 4.5,
+    "saltGrams": 0.33
+   },
+   "allergens": "Glutenhaltiges Getreide: Weizen (wie Dinkel und Khorasan-Weizen),Eier,Milch (einschl. Laktose)",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/kirsch-streusel-kuchen.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=202904",
+   "sha256": "f60a4b83e79ca383f930ff27df2b7d007f96f2669ebf2eb4a602f98d2ec652f8"
+  },
+  {
+   "id": 202915,
+   "menuItemNo": "7700",
+   "name": "Wasser Still 0,25l",
+   "category": "drink",
+   "siteCategories": [
+    "Happy Meal®"
+   ],
+   "servingGrams": 293.0,
+   "valuesPer100g": {
+    "energyKJ": 0.0,
+    "calories": 0.0,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "carbs": 0.0,
+    "sugar": 0.0,
+    "fiber": 0.0,
+    "protein": 0.0,
+    "saltGrams": 0.0
+   },
+   "valuesPerServing": {
+    "energyKJ": 0.0,
+    "calories": 0.0,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "carbs": 0.0,
+    "sugar": 0.0,
+    "fiber": 0.0,
+    "protein": 0.0,
+    "saltGrams": 0.0
+   },
+   "allergens": "",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/wasser-still-025.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=202915",
+   "sha256": "78d0887707a614a95df134b86c4b248d30a7618a3cdc3254b775560c8cfb3e2c"
+  },
+  {
+   "id": 202921,
+   "menuItemNo": "7708",
+   "name": "Wasser Still 0,5l",
+   "category": "drink",
+   "siteCategories": [
+    "Getränke",
+    "McMenü®"
+   ],
+   "servingGrams": 543.0,
+   "valuesPer100g": {
+    "energyKJ": 0.0,
+    "calories": 0.0,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "carbs": 0.0,
+    "sugar": 0.0,
+    "fiber": 0.0,
+    "protein": 0.0,
+    "saltGrams": 0.0
+   },
+   "valuesPerServing": {
+    "energyKJ": 0.0,
+    "calories": 0.0,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "carbs": 0.0,
+    "sugar": 0.0,
+    "fiber": 0.0,
+    "protein": 0.0,
+    "saltGrams": 0.0
+   },
+   "allergens": "",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/wasser-still-05.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=202921",
+   "sha256": "8b46e52e8abe21932d8088b594a72baa5def95cc53715bb357abc8280399d93a"
+  },
+  {
+   "id": 202925,
+   "menuItemNo": "7712",
+   "name": "Wasser Sprudelnd 0,25l",
+   "category": "drink",
+   "siteCategories": [
+    "Happy Meal®"
+   ],
+   "servingGrams": 293.0,
+   "valuesPer100g": {
+    "energyKJ": 0.0,
+    "calories": 0.0,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "carbs": 0.0,
+    "sugar": 0.0,
+    "fiber": 0.0,
+    "protein": 0.0,
+    "saltGrams": 0.0
+   },
+   "valuesPerServing": {
+    "energyKJ": 0.0,
+    "calories": 0.0,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "carbs": 0.0,
+    "sugar": 0.0,
+    "fiber": 0.0,
+    "protein": 0.0,
+    "saltGrams": 0.0
+   },
+   "allergens": "",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/wasser-sprudelnd-025.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=202925",
+   "sha256": "5904352afa6690517370d1caee9b08f42fc1ed208a5fe8677505ad3f4fbd0710"
+  },
+  {
+   "id": 202933,
+   "menuItemNo": "7720",
+   "name": "Wasser Sprudelnd 0,5l",
+   "category": "drink",
+   "siteCategories": [
+    "Getränke",
+    "McMenü®"
+   ],
+   "servingGrams": 543.0,
+   "valuesPer100g": {
+    "energyKJ": 0.0,
+    "calories": 0.0,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "carbs": 0.0,
+    "sugar": 0.0,
+    "fiber": 0.0,
+    "protein": 0.0,
+    "saltGrams": 0.0
+   },
+   "valuesPerServing": {
+    "energyKJ": 0.0,
+    "calories": 0.0,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "carbs": 0.0,
+    "sugar": 0.0,
+    "fiber": 0.0,
+    "protein": 0.0,
+    "saltGrams": 0.0
+   },
+   "allergens": "",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/wasser-sprudelnd-05.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=202933",
+   "sha256": "0df2607407cbe8764a0b8fa451c93cd1bf5a44362850ab2d440a908f579658bb"
+  },
+  {
+   "id": 203058,
+   "menuItemNo": "7127",
+   "name": "Mezzo Mix",
+   "category": "drink",
+   "siteCategories": [
+    "Getränke",
+    "McMenü®"
+   ],
+   "servingGrams": 543.0,
+   "valuesPer100g": {
+    "energyKJ": 125.0,
+    "calories": 29.0,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "carbs": 0.0,
+    "sugar": 7.0,
+    "fiber": 0.0,
+    "protein": 0.0,
+    "saltGrams": 0.01
+   },
+   "valuesPerServing": {
+    "energyKJ": 680.0,
+    "calories": 160.0,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "carbs": 0.0,
+    "sugar": 38.0,
+    "fiber": 0.0,
+    "protein": 0.0,
+    "saltGrams": 0.05
+   },
+   "allergens": "Keine Allergene enthalten",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/mezzo-mix-05l.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=203058",
+   "sha256": "60c42db65eca379f1442f79f9060b88f22575ff12ba0cec7a7eb54b7e932c50d"
+  },
+  {
+   "id": 203062,
+   "menuItemNo": "7393",
+   "name": "Sprite Zero 0,5",
+   "category": "drink",
+   "siteCategories": [
+    "Getränke",
+    "McMenü®"
+   ],
+   "servingGrams": 543.0,
+   "valuesPer100g": {
+    "energyKJ": 5.0,
+    "calories": 1.0,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "carbs": 0.0,
+    "sugar": 0.0,
+    "fiber": 0.0,
+    "protein": 0.0,
+    "saltGrams": 0.04
+   },
+   "valuesPerServing": {
+    "energyKJ": 25.0,
+    "calories": 5.0,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "carbs": 0.0,
+    "sugar": 0.0,
+    "fiber": 0.0,
+    "protein": 0.0,
+    "saltGrams": 0.2
+   },
+   "allergens": "Keine Allergene enthalten",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/sprite-zero-05l.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=203062",
+   "sha256": "0583769690a7c217b2f5c4961eba99f56f9ae35ad81aee87c5e5ecb2170b6348"
+  },
+  {
+   "id": 203085,
+   "menuItemNo": "7374",
+   "name": "Red Bull Zero 250 ml",
+   "category": "drink",
+   "siteCategories": [
+    "Getränke"
+   ],
+   "servingGrams": 252.0,
+   "valuesPer100g": {
+    "energyKJ": 10.0,
+    "calories": 2.0,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "carbs": 2.0,
+    "sugar": 0.0,
+    "fiber": 0.0,
+    "protein": 0.0,
+    "saltGrams": 0.02
+   },
+   "valuesPerServing": {
+    "energyKJ": 25.0,
+    "calories": 5.0,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "carbs": 5.0,
+    "sugar": 0.0,
+    "fiber": 0.0,
+    "protein": 0.0,
+    "saltGrams": 0.05
+   },
+   "allergens": "Keine Allergene enthalten",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/red-bull-zero.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=203085",
+   "sha256": "0c2c24a2e90b13aaffa15e35a808ff0353e0f47038d71c40ce11b0b8b3f523a5"
+  },
+  {
+   "id": 203128,
+   "menuItemNo": "1653",
+   "name": "2 McGriddles® Pancakes",
+   "category": "breakfast",
+   "siteCategories": [
+    "Frühstück"
+   ],
+   "servingGrams": 100.0,
+   "valuesPer100g": {
+    "energyKJ": 1405.0,
+    "calories": 335.0,
+    "fat": 15.0,
+    "saturatedFat": 1.6,
+    "carbs": 45.0,
+    "sugar": 12.0,
+    "fiber": 1.0,
+    "protein": 4.7,
+    "saltGrams": 0.9
+   },
+   "valuesPerServing": {
+    "energyKJ": 1405.0,
+    "calories": 335.0,
+    "fat": 15.0,
+    "saturatedFat": 1.6,
+    "carbs": 45.0,
+    "sugar": 12.0,
+    "fiber": 1.0,
+    "protein": 4.7,
+    "saltGrams": 0.9
+   },
+   "allergens": "Glutenhaltiges Getreide: Weizen (wie Dinkel und Khorasan-Weizen),Eier,Milch (einschl. Laktose)",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/2-mcgriddlepancakes.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=203128",
+   "sha256": "13c47d5e7db80679ffb7ed9876a204450cd9eece50a2438e6f95987c0a39b29d"
+  },
+  {
+   "id": 203168,
+   "menuItemNo": "7346",
+   "name": "Lift Apfelschorle 0,5l",
+   "category": "drink",
+   "siteCategories": [
+    "Getränke"
+   ],
+   "servingGrams": 511.0,
+   "valuesPer100g": {
+    "energyKJ": 105.0,
+    "calories": 25.0,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "carbs": 6.0,
+    "sugar": 5.8,
+    "fiber": 0.0,
+    "protein": 0.0,
+    "saltGrams": 0.01
+   },
+   "valuesPerServing": {
+    "energyKJ": 536.0,
+    "calories": 128.0,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "carbs": 31.0,
+    "sugar": 30.0,
+    "fiber": 0.0,
+    "protein": 0.0,
+    "saltGrams": 0.05
+   },
+   "allergens": "Keine Allergene enthalten",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/lift-apfelschorle-05-pet-flasche.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=203168",
+   "sha256": "7d9c148b1acbd15438a33f3eff0e57dc08d175ab74f5ee746a1501e09a9a3baa"
+  },
+  {
+   "id": 203243,
+   "menuItemNo": "5921",
+   "name": "McWrap® Veggie Sweet Chili",
+   "category": "wrap",
+   "siteCategories": [
+    "McMenü®",
+    "Veggie & Plantbased",
+    "McNuggets® & Fingerfood",
+    "McWrap®"
+   ],
+   "servingGrams": 240.0,
+   "valuesPer100g": {
+    "energyKJ": 817.0,
+    "calories": 194.0,
+    "fat": 5.5,
+    "saturatedFat": 1.8,
+    "carbs": 26.0,
+    "sugar": 6.2,
+    "fiber": 3.5,
+    "protein": 8.2,
+    "saltGrams": 1.0
+   },
+   "valuesPerServing": {
+    "energyKJ": 1958.0,
+    "calories": 466.0,
+    "fat": 13.0,
+    "saturatedFat": 4.4,
+    "carbs": 63.0,
+    "sugar": 15.0,
+    "fiber": 8.3,
+    "protein": 20.0,
+    "saltGrams": 2.5
+   },
+   "allergens": "Glutenhaltiges Getreide: Weizen (wie Dinkel und Khorasan-Weizen),Glutenhaltiges Getreide: Roggen,Glutenhaltiges Getreide: Hafer,Eier,Milch (einschl. Laktose)",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/mcwrap-veggie-sweet-chili.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=203243",
+   "sha256": "69ecc64ee90771a123f4c76123b1fdd6374c96303ae587add17014a62c405ce8"
+  },
+  {
+   "id": 203260,
+   "menuItemNo": "6562",
+   "name": "McVeggie®Sweet Chili",
+   "category": "burger",
+   "siteCategories": [
+    "Burger",
+    "McMenü®",
+    "Veggie & Plantbased"
+   ],
+   "servingGrams": 228.0,
+   "valuesPer100g": {
+    "energyKJ": 850.0,
+    "calories": 202.0,
+    "fat": 5.7,
+    "saturatedFat": 1.7,
+    "carbs": 27.0,
+    "sugar": 8.6,
+    "fiber": 2.9,
+    "protein": 8.9,
+    "saltGrams": 1.2
+   },
+   "valuesPerServing": {
+    "energyKJ": 1941.0,
+    "calories": 461.0,
+    "fat": 13.0,
+    "saturatedFat": 3.9,
+    "carbs": 62.0,
+    "sugar": 20.0,
+    "fiber": 6.7,
+    "protein": 20.0,
+    "saltGrams": 2.8
+   },
+   "allergens": "Glutenhaltiges Getreide: Hafer,Glutenhaltiges Getreide: Weizen (wie Dinkel und Khorasan-Weizen),Eier,Milch (einschl. Laktose),Sesamsamen",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/mcveggiesweet-chili.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=203260",
+   "sha256": "840f076a4d028ee60101ed64a85ff8f18c83ed9b657080dbb0339d184f90e9d3"
+  },
+  {
+   "id": 203277,
+   "menuItemNo": "2300",
+   "name": "McChicken®",
+   "category": "chicken",
+   "siteCategories": [
+    "Burger",
+    "McMenü®"
+   ],
+   "servingGrams": 181.0,
+   "valuesPer100g": {
+    "energyKJ": 1045.0,
+    "calories": 249.0,
+    "fat": 11.0,
+    "saturatedFat": 1.7,
+    "carbs": 27.0,
+    "sugar": 4.3,
+    "fiber": 2.1,
+    "protein": 9.7,
+    "saltGrams": 1.1
+   },
+   "valuesPerServing": {
+    "energyKJ": 1894.0,
+    "calories": 451.0,
+    "fat": 20.0,
+    "saturatedFat": 3.1,
+    "carbs": 49.0,
+    "sugar": 7.9,
+    "fiber": 3.8,
+    "protein": 18.0,
+    "saltGrams": 2.1
+   },
+   "allergens": "Glutenhaltiges Getreide: Weizen (wie Dinkel und Khorasan-Weizen),Senf,Sesamsamen",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/mcchicken.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=203277",
+   "sha256": "a8df1e4920c4259a9ec983fc5acce7b017305a652484a554ca4fd3bda57abebd"
+  },
+  {
+   "id": 203281,
+   "menuItemNo": "2360",
+   "name": "Fish Filet Classic",
+   "category": "burger",
+   "siteCategories": [
+    "Burger",
+    "McMenü®"
+   ],
+   "servingGrams": 156.0,
+   "valuesPer100g": {
+    "energyKJ": 1058.0,
+    "calories": 253.0,
+    "fat": 11.0,
+    "saturatedFat": 2.7,
+    "carbs": 26.0,
+    "sugar": 3.6,
+    "fiber": 1.3,
+    "protein": 11.0,
+    "saltGrams": 1.3
+   },
+   "valuesPerServing": {
+    "energyKJ": 1646.0,
+    "calories": 393.0,
+    "fat": 18.0,
+    "saturatedFat": 4.3,
+    "carbs": 40.0,
+    "sugar": 5.6,
+    "fiber": 2.0,
+    "protein": 17.0,
+    "saltGrams": 2.0
+   },
+   "allergens": "Glutenhaltiges Getreide: Weizen (wie Dinkel und Khorasan-Weizen),Eier,Fisch,Milch (einschl. Laktose),Senf",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/fish-filet-classic.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=203281",
+   "sha256": "c8219cf535fe1dc704f870bb7bd8c6d08fcdc3218071eb1ef5b6795847b3e474"
+  },
+  {
+   "id": 203285,
+   "menuItemNo": "2612",
+   "name": "McChicken® Bacon Deluxe",
+   "category": "chicken",
+   "siteCategories": [
+    "Burger",
+    "McMenü®"
+   ],
+   "servingGrams": 216.0,
+   "valuesPer100g": {
+    "energyKJ": 1247.0,
+    "calories": 298.0,
+    "fat": 17.0,
+    "saturatedFat": 4.0,
+    "carbs": 23.0,
+    "sugar": 3.9,
+    "fiber": 1.6,
+    "protein": 13.0,
+    "saltGrams": 1.5
+   },
+   "valuesPerServing": {
+    "energyKJ": 2694.0,
+    "calories": 644.0,
+    "fat": 36.0,
+    "saturatedFat": 8.7,
+    "carbs": 49.0,
+    "sugar": 8.5,
+    "fiber": 3.5,
+    "protein": 28.0,
+    "saltGrams": 3.2
+   },
+   "allergens": "Glutenhaltiges Getreide: Weizen (wie Dinkel und Khorasan-Weizen),Eier,Milch (einschl. Laktose),Sellerie,Senf,Sesamsamen",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/mcchicken-bacon-deluxe.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=203285",
+   "sha256": "fd591dd5438af4253ff454f877e387ca19f1dd0d4b14cf74f18f3f8f4a943f0f"
+  },
+  {
+   "id": 203309,
+   "menuItemNo": "4535",
+   "name": "McPops® mit nutella®",
+   "category": "dessert",
+   "siteCategories": [
+    "Desserts",
+    "McCafé®"
+   ],
+   "servingGrams": 25.0,
+   "valuesPer100g": {
+    "energyKJ": 2038.0,
+    "calories": 488.0,
+    "fat": 28.0,
+    "saturatedFat": 12.0,
+    "carbs": 50.0,
+    "sugar": 27.0,
+    "fiber": 0.3,
+    "protein": 7.2,
+    "saltGrams": 0.7
+   },
+   "valuesPerServing": {
+    "energyKJ": 510.0,
+    "calories": 122.0,
+    "fat": 7.0,
+    "saturatedFat": 3.0,
+    "carbs": 13.0,
+    "sugar": 6.8,
+    "fiber": 0.1,
+    "protein": 1.8,
+    "saltGrams": 0.17
+   },
+   "allergens": "Glutenhaltiges Getreide: Weizen (wie Dinkel und Khorasan-Weizen),Eier,Sojabohnen,Milch (einschl. Laktose),Schalenfrüchte: Haselnuss",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/mcpops-mit-nutella.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=203309",
+   "sha256": "67bb0358b9638f5f9a7f40c4aa8089b4ed8f981c1e92d7a7f3f1fa592ca673eb"
+  },
+  {
+   "id": 203314,
+   "menuItemNo": "4559",
+   "name": "Pecannuss Caramel Muffin",
+   "category": "dessert",
+   "siteCategories": [
+    "Desserts",
+    "McCafé®"
+   ],
+   "servingGrams": 110.0,
+   "valuesPer100g": {
+    "energyKJ": 1858.0,
+    "calories": 446.0,
+    "fat": 28.0,
+    "saturatedFat": 4.9,
+    "carbs": 41.0,
+    "sugar": 25.0,
+    "fiber": 2.3,
+    "protein": 5.8,
+    "saltGrams": 0.55
+   },
+   "valuesPerServing": {
+    "energyKJ": 2044.0,
+    "calories": 491.0,
+    "fat": 31.0,
+    "saturatedFat": 5.4,
+    "carbs": 45.0,
+    "sugar": 28.0,
+    "fiber": 2.5,
+    "protein": 6.4,
+    "saltGrams": 0.6
+   },
+   "allergens": "Glutenhaltiges Getreide: Weizen (wie Dinkel und Khorasan-Weizen),Eier,Milch (einschl. Laktose),Schalenfrüchte: Pekannuss",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/pecannuss-caramel-muffin.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=203314",
+   "sha256": "5931b054d786d6b0314f12ac590b8df07c358a377bfdb4899f78230c3f99b432"
+  },
+  {
+   "id": 203318,
+   "menuItemNo": "4563",
+   "name": "Schoko-Banane Donut",
+   "category": "dessert",
+   "siteCategories": [
+    "Desserts",
+    "McCafé®"
+   ],
+   "servingGrams": 70.0,
+   "valuesPer100g": {
+    "energyKJ": 1475.0,
+    "calories": 353.0,
+    "fat": 17.0,
+    "saturatedFat": 7.8,
+    "carbs": 43.0,
+    "sugar": 21.0,
+    "fiber": 1.5,
+    "protein": 4.8,
+    "saltGrams": 0.55
+   },
+   "valuesPerServing": {
+    "energyKJ": 1033.0,
+    "calories": 247.0,
+    "fat": 12.0,
+    "saturatedFat": 5.5,
+    "carbs": 30.0,
+    "sugar": 15.0,
+    "fiber": 1.1,
+    "protein": 3.4,
+    "saltGrams": 0.39
+   },
+   "allergens": "Glutenhaltiges Getreide: Weizen (wie Dinkel und Khorasan-Weizen),Sojabohnen,Milch (einschl. Laktose)",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/donut-schoko-banane.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=203318",
+   "sha256": "33a752e0b347e815d1b969836f52139d8d049276593f139bcd6b44f7e1d472fc"
+  },
+  {
+   "id": 203350,
+   "menuItemNo": "7935",
+   "name": "Matcha Latte Grande",
+   "category": "coffee",
+   "siteCategories": [
+    "Getränke",
+    "McMenü®",
+    "McCafé®"
+   ],
+   "servingGrams": 270.0,
+   "valuesPer100g": {
+    "energyKJ": 280.0,
+    "calories": 67.0,
+    "fat": 2.6,
+    "saturatedFat": 1.7,
+    "carbs": 7.9,
+    "sugar": 7.9,
+    "fiber": 0.4,
+    "protein": 2.7,
+    "saltGrams": 0.1
+   },
+   "valuesPerServing": {
+    "energyKJ": 756.0,
+    "calories": 181.0,
+    "fat": 7.1,
+    "saturatedFat": 4.6,
+    "carbs": 21.0,
+    "sugar": 21.0,
+    "fiber": 1.2,
+    "protein": 7.3,
+    "saltGrams": 0.26
+   },
+   "allergens": "Milch (einschl. Laktose)",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/matcha-latte-grande.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=203350",
+   "sha256": "3cb09ac9a14fdfb2e03a10a76bf2626eced07780568a2e7123b727c817303fa4"
+  },
+  {
+   "id": 203382,
+   "menuItemNo": "9029",
+   "name": "Apfel Zimt Kuchen",
+   "category": "dessert",
+   "siteCategories": [
+    "Desserts",
+    "McCafé®"
+   ],
+   "servingGrams": 183.0,
+   "valuesPer100g": {
+    "energyKJ": 919.0,
+    "calories": 219.0,
+    "fat": 11.0,
+    "saturatedFat": 6.9,
+    "carbs": 28.0,
+    "sugar": 17.0,
+    "fiber": 1.2,
+    "protein": 2.3,
+    "saltGrams": 0.11
+   },
+   "valuesPerServing": {
+    "energyKJ": 1682.0,
+    "calories": 401.0,
+    "fat": 20.0,
+    "saturatedFat": 13.0,
+    "carbs": 51.0,
+    "sugar": 31.0,
+    "fiber": 2.2,
+    "protein": 4.2,
+    "saltGrams": 0.2
+   },
+   "allergens": "Glutenhaltiges Getreide: Weizen (wie Dinkel und Khorasan-Weizen),Eier,Milch (einschl. Laktose)",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/apfel-zimt-kuchen.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=203382",
+   "sha256": "2393cbd5708c2273e4c360cae5d64df76434159d1b0350c6570ab16e2c52d87e"
+  },
+  {
+   "id": 203399,
+   "menuItemNo": "6303",
+   "name": "Hot Western Sauce",
+   "category": "sauce",
+   "siteCategories": [
+    "Beilagen & Extras"
+   ],
+   "servingGrams": 29.0,
+   "valuesPer100g": {
+    "energyKJ": 569.0,
+    "calories": 134.0,
+    "fat": 1.3,
+    "saturatedFat": 0.1,
+    "carbs": 29.0,
+    "sugar": 19.0,
+    "fiber": 1.4,
+    "protein": 0.9,
+    "saltGrams": 1.6
+   },
+   "valuesPerServing": {
+    "energyKJ": 162.0,
+    "calories": 38.0,
+    "fat": 0.4,
+    "saturatedFat": 0.0,
+    "carbs": 8.1,
+    "sugar": 5.4,
+    "fiber": 0.4,
+    "protein": 0.3,
+    "saltGrams": 0.46
+   },
+   "allergens": "Sellerie,Senf",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/dip-hot-western-sauce-extra.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=203399",
+   "sha256": "f667db8838be6463a435c8f60fe977c3de1e6add278da515b00cce3e52c76f56"
+  },
+  {
+   "id": 203401,
+   "menuItemNo": "6573",
+   "name": "McVeggie® Smoky",
+   "category": "burger",
+   "siteCategories": [
+    "Burger",
+    "McMenü®",
+    "Highlights"
+   ],
+   "servingGrams": 226.0,
+   "valuesPer100g": {
+    "energyKJ": 846.0,
+    "calories": 202.0,
+    "fat": 7.9,
+    "saturatedFat": 1.9,
+    "carbs": 22.0,
+    "sugar": 4.6,
+    "fiber": 2.9,
+    "protein": 9.0,
+    "saltGrams": 1.1
+   },
+   "valuesPerServing": {
+    "energyKJ": 1916.0,
+    "calories": 457.0,
+    "fat": 18.0,
+    "saturatedFat": 4.4,
+    "carbs": 50.0,
+    "sugar": 10.0,
+    "fiber": 6.6,
+    "protein": 20.0,
+    "saltGrams": 2.6
+   },
+   "allergens": "Eier,Senf,Sesamsamen",
+   "pageURL": "https://www.mcdonalds.com/de/de-de/product/mcveggie-smoky.html",
+   "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=203401",
+   "sha256": "2b55e6dc5f84f491d2eda8ba600feea920117a55e956cafe17084009588368b6"
+  }
+ ],
+ "excluded": [
+  {
+   "id": 200006,
+   "name": "McMuffin® Fresh Chicken",
+   "reason": "not shown on the site (Do not Show)"
+  },
+  {
+   "id": 200057,
+   "name": "Heiße Kirsch Tasche",
+   "reason": "promotional product (Aktionsprodukte)"
+  },
+  {
+   "id": 200194,
+   "name": "McFlurry (ohne Wahlzutat)",
+   "reason": "not shown on the site (Do not Show)"
+  },
+  {
+   "id": 200195,
+   "name": "Wahlzutat Schoko-Sauce",
+   "reason": "an add-on, not a menu item"
+  },
+  {
+   "id": 200196,
+   "name": "Wahlzutat Karamell-Sauce",
+   "reason": "an add-on, not a menu item"
+  },
+  {
+   "id": 200198,
+   "name": "Wahlzutat OREO®",
+   "reason": "promotional product (Aktionsprodukte)"
+  },
+  {
+   "id": 200200,
+   "name": "Wahlzutat Smarties®",
+   "reason": "an add-on, not a menu item"
+  },
+  {
+   "id": 200205,
+   "name": "3 Käsegipfel",
+   "reason": "promotional product (Aktionsprodukte)"
+  },
+  {
+   "id": 200206,
+   "name": "6 Käsegipfel",
+   "reason": "promotional product (Aktionsprodukte)"
+  },
+  {
+   "id": 200233,
+   "name": "1955®  Burger",
+   "reason": "promotional product (Aktionsprodukte)"
+  },
+  {
+   "id": 200254,
+   "name": "McWrap® Chicken Honig-Senf",
+   "reason": "promotional product (Aktionsprodukte)"
+  },
+  {
+   "id": 200264,
+   "name": "Curly Fries",
+   "reason": "promotional product (Aktionsprodukte)"
+  },
+  {
+   "id": 200288,
+   "name": "Red Bull Zero Dragonberry Energizer Grande",
+   "reason": "seasonal or limited-time item"
+  },
+  {
+   "id": 200680,
+   "name": "Orangensaft",
+   "reason": "serving size in L, duplicate of the 0,25 l row"
+  },
+  {
+   "id": 200725,
+   "name": "Iced Matcha Latte Grande 7400",
+   "reason": "campaign menu item"
+  },
+  {
+   "id": 200926,
+   "name": "Red Bull Zero Blueberry Energizer Grande",
+   "reason": "seasonal or limited-time item"
+  },
+  {
+   "id": 201099,
+   "name": "Big Tasty® Bacon BBQ 6640",
+   "reason": "seasonal or limited-time item"
+  },
+  {
+   "id": 201478,
+   "name": "Sahne Portion",
+   "reason": "an add-on, not a menu item"
+  },
+  {
+   "id": 201489,
+   "name": "Laktosefreie Milch",
+   "reason": "an add-on, not a menu item"
+  },
+  {
+   "id": 201521,
+   "name": "Chicken & Cheese-Box(12 CMN + 6 Käsegipfel)",
+   "reason": "seasonal or limited-time item"
+  },
+  {
+   "id": 201534,
+   "name": "Ginger Lemon Refresher",
+   "reason": "seasonal or limited-time item"
+  },
+  {
+   "id": 201557,
+   "name": "Blood Orange & Fanta Grande",
+   "reason": "seasonal or limited-time item"
+  },
+  {
+   "id": 201560,
+   "name": "Berry Blue & Sprite",
+   "reason": "seasonal or limited-time item"
+  },
+  {
+   "id": 201635,
+   "name": "Haferdrink",
+   "reason": "an add-on, not a menu item"
+  },
+  {
+   "id": 202543,
+   "name": "McShaker® Fries Cheeseburger Style",
+   "reason": "seasonal or limited-time item"
+  },
+  {
+   "id": 202645,
+   "name": "Himbeer-White Choc Cookie",
+   "reason": "seasonal or limited-time item"
+  },
+  {
+   "id": 202648,
+   "name": "McPops® Berry Bomb",
+   "reason": "seasonal or limited-time item"
+  },
+  {
+   "id": 202662,
+   "name": "Pistachio Cream Donut",
+   "reason": "seasonal or limited-time item"
+  },
+  {
+   "id": 202699,
+   "name": "McPops® Pistachio Dream",
+   "reason": "seasonal or limited-time item"
+  },
+  {
+   "id": 202910,
+   "name": "McPop® Coco Kiss",
+   "reason": "seasonal or limited-time item"
+  },
+  {
+   "id": 202952,
+   "name": "Strawberry Melon Refresher Grande",
+   "reason": "seasonal or limited-time item"
+  },
+  {
+   "id": 202956,
+   "name": "Red Bull Blueberry Energizer Grande",
+   "reason": "seasonal or limited-time item"
+  },
+  {
+   "id": 203077,
+   "name": "Pink Dragonfruit & Sprite Zero Grande",
+   "reason": "seasonal or limited-time item"
+  },
+  {
+   "id": 203178,
+   "name": "McGriddles Bacon & Egg",
+   "reason": "campaign menu item"
+  },
+  {
+   "id": 203289,
+   "name": "3 McWings",
+   "reason": "seasonal or limited-time item"
+  },
+  {
+   "id": 203290,
+   "name": "5 McWings",
+   "reason": "seasonal or limited-time item"
+  },
+  {
+   "id": 203294,
+   "name": "Chicken Box (12 CMN + 3 McWings)",
+   "reason": "seasonal or limited-time item"
+  },
+  {
+   "id": 203322,
+   "name": "Red Bull Dragonberry Energizer",
+   "reason": "seasonal or limited-time item"
+  },
+  {
+   "id": 203326,
+   "name": "Iced Matcha Blueberry Grande",
+   "reason": "seasonal or limited-time item"
+  },
+  {
+   "id": 203334,
+   "name": "Iced Winter Spiced Latte Grande",
+   "reason": "seasonal or limited-time item"
+  },
+  {
+   "id": 203342,
+   "name": "Iced Popcorn Latte Grande",
+   "reason": "seasonal or limited-time item"
+  },
+  {
+   "id": 203346,
+   "name": "Iced Cozy Pink Grande",
+   "reason": "seasonal or limited-time item"
+  },
+  {
+   "id": 203358,
+   "name": "Matcha Latte Blueberry Grande",
+   "reason": "seasonal or limited-time item"
+  },
+  {
+   "id": 203366,
+   "name": "Winter Spiced Latte",
+   "reason": "seasonal or limited-time item"
+  },
+  {
+   "id": 203374,
+   "name": "Popcorn Latte Grande",
+   "reason": "seasonal or limited-time item"
+  },
+  {
+   "id": 203378,
+   "name": "Cozy Pink",
+   "reason": "seasonal or limited-time item"
+  },
+  {
+   "id": 203385,
+   "name": "McPops® Milky Red Velvet",
+   "reason": "seasonal or limited-time item"
+  },
+  {
+   "id": 203393,
+   "name": "McFlurry® Daim",
+   "reason": "seasonal or limited-time item"
+  },
+  {
+   "id": 203394,
+   "name": "McCrispy® 1955",
+   "reason": "seasonal or limited-time item"
+  },
+  {
+   "id": 203405,
+   "name": "McFarmer",
+   "reason": "seasonal or limited-time item"
+  }
+ ]
+}

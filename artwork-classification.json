@@ -1,5 +1,5 @@
 {
-  "version": 45,
+  "version": 47,
   "description": "Akari presentation classification. Unambiguous complete food names can correct contradictory source categories; otherwise exact source categories come first. Product-line rules apply only when the entire remaining name is a reviewed qualifier. Never infer nutrients, allergens, alcohol counts or verified status.",
   "taxonomySource": "https://openfoodfacts.github.io/documentation/docs/Product-Opener/schemas/schemas/product_tags/",
   "rules": [
@@ -1030,12 +1030,18 @@
         "flax seeds",
         "linseed",
         "linseeds",
-        "leinsamen"
+        "leinsamen",
+        "getreidebrei",
+        "milchbrei",
+        "trinkbrei"
       ],
       "compoundSuffixes": [
         "flocken"
       ],
-      "compoundExclusions": []
+      "compoundExclusions": [],
+      "ingredientCategories": [
+        "powder"
+      ]
     },
     {
       "id": "cereal-bar",
@@ -4702,7 +4708,10 @@
         "crème vanille",
         "crème dessert vanille",
         "crème dessert chocolat",
-        "crema catalana"
+        "crema catalana",
+        "milchdessert",
+        "milk dessert",
+        "babydessert"
       ],
       "compoundSuffixes": [
         "pudding"
@@ -5444,7 +5453,21 @@
         "säuglingsmilch",
         "säuglingsnahrung",
         "anfangsmilch",
-        "folgemilch"
+        "folgemilch",
+        "follow-on formula",
+        "infant milk",
+        "kindermilch",
+        "toddler milk",
+        "toddler formula",
+        "pre-nahrung",
+        "pre-milch",
+        "folgenahrung",
+        "growing-up milk",
+        "babymilch",
+        "säuglingsanfangsnahrung"
+      ],
+      "ingredientCategories": [
+        "powder"
       ]
     },
     {
@@ -5668,7 +5691,13 @@
         "einmachglas",
         "tamarind",
         "tamarinde",
-        "gravy"
+        "gravy",
+        "baby food",
+        "babybrei",
+        "babygläschen",
+        "gläschen",
+        "beikost",
+        "babynahrung"
       ]
     },
     {

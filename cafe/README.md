@@ -42,6 +42,40 @@ powders do not acquire drink units from their names or icons.
 
 Coffee and tea/matcha carry explicit artwork identities, independent of whether their names contain “milk”. Searches understand oatmilk/soymilk, common cappuccino misspellings, and German milk terms. Milk and brand words constrain results. Generic and branded pages paginate separately and remain available offline.
 
+## Verified counterparts — 30 October 2026
+
+A generic drink counts as **verified** on the catalogue health board when every
+ingredient is a curated reference row of the five national tables, the rule the
+recipe catalogue follows. The AUSNUT ingredient rows are outside those tables,
+so each was checked for a verified counterpart under the nutrient-fill
+plausibility rule (same food, calories within 15 %, protein, fat and
+carbohydrates within 3 g per 100 g). `ingredients.json` records the result on
+every ingredient the recipes use: a `reference` (the verified row, the day it
+was checked, the comparison, and `fills` for a nutrient the row does not declare,
+such as a milk's caffeine, taken from the AUSNUT row it stood for) or a
+`referenceCheck` saying why none fits. `Scripts/build_cafe_catalog.py` builds
+such an ingredient from the reference row's nutrients in the bundled index, keeps
+the AUSNUT id as `measureID` for the liquid measure, names the tables in the
+record's attribution and lists the reference ids under `ingredients`; the build
+stops on a reference that is missing or not verified.
+
+Mapped: tap water → USDA 2710706 water; whole milk → BLS M111300; skim milk →
+BLS M111100; reduced-fat milk → BLS M111200 (1.5 %); lactose-free whole milk →
+BLS M114300; sugar → Ciqual 31016; and since 30 October 2026 espresso → USDA
+2710378 and decaf espresso → USDA 2710379, both made curated references for
+it, with their iodine filled from the AUSNUT rows and marked because USDA
+states none. USDA brewed coffee and tonic water were reference rows already.
+Kept on AUSNUT, with the reason in the file: prepared instant coffee, the long
+blacks and Turkish coffee, the chai-powder latte, brewed chai, oat, soy,
+almond and coconut drinks (the tables' products differ by more than 15 % in
+energy), cocoa powder (fat differs by 4.6 g) and matcha (MEXT 16035 is not a
+curated reference). So 74 of the 216 generic drinks are verified: black
+coffee, espresso, double and decaf espresso, iced americano and espresso
+tonic, and every espresso drink with a cow's milk (flat white, cappuccino,
+latte, cortado, piccolo, macchiatos, café au lait, iced latte and iced flat
+white, regular and decaf); the plant-milk drinks, mochas, matcha and chai
+drinks wait on their ingredients.
+
 ## Coverage limits
 
 This is substantial core café coverage, not every possible café drink, custom syrup, roast, country or chain. Generic cold brew, ristretto and lungo are not relabeled from brewed coffee/espresso without suitable source-specific values. Starbucks cold brew is available under Branded. Other chains continue to come from Open Food Facts until a reviewed official menu source is imported. Recipes and their attribution are shown in food details; diary entries retain logged values and artwork, as with existing foods.

@@ -1,9 +1,9 @@
 {
   "format": 1,
-  "generatedAt": "2026-10-30T12:04:13Z",
-  "auditFinishedAt": "2026-10-30T12:00:11Z",
-  "commit": "753c586c9a30e13fc30af1a2a054f757cc9a7f03",
-  "dataContentHash": "d62fdac9c428fb6946069c1f147bbdf81a7377340a9370a87035b91cf44a613f",
+  "generatedAt": "2026-10-30T14:49:00Z",
+  "auditFinishedAt": "2026-10-30T14:44:49Z",
+  "commit": "00d49ad4a6664ceb5a9b418d4009ab73e0c16f50",
+  "dataContentHash": "d32f6d0468e5fd2932429a129f1d955dcdaef713e53193bbb5a44d01c653749f",
   "catalogue": {
     "rows": 21513,
     "namedBoth": 21513,
@@ -18,24 +18,28 @@
       "mext": 2526,
       "usda": 5754
     },
-    "references": 1632,
-    "namedOnly": 19881,
+    "references": 1690,
+    "namedOnly": 19823,
     "verifiedDrinks": 216,
     "artwork": {
-      "withFamily": 18717,
-      "none": 2796
+      "withFamily": 18723,
+      "none": 2790
     }
   },
   "dishes": {
+    "chains": {
+      "mcdonaldsDe": 114
+    },
     "recipes": {
       "total": 1501,
       "reviewed": 24,
-      "verified": 1064
+      "verified": 1068
     },
     "globalDishes": 468,
     "cafe": {
       "generic": 216,
-      "starbucks": 1161
+      "starbucks": 1161,
+      "verified": 74
     }
   },
   "nutrients": {
@@ -190,26 +194,27 @@
     }
   },
   "portions": {
-    "total": 1885,
+    "total": 1942,
     "origin": {
-      "generated": 1857,
+      "generated": 1914,
       "reviewed": 28
     },
     "weightSource": {
-      "estimate": 1782,
+      "estimate": 1839,
       "householdMeasure": 103
     },
     "webCheck": {
       "checkedOn": "2026-10-30",
-      "confirmed": 786,
-      "noReference": 911,
-      "corrected": 25,
+      "passes": 2,
+      "confirmed": 998,
+      "noReference": 681,
+      "corrected": 42,
       "proposedNotApplied": 32
     }
   },
   "staples": {
-    "foods": 1342,
-    "verified": 1342,
+    "foods": 1389,
+    "verified": 1389,
     "categories": [
       {
         "key": "bread",
@@ -288,25 +293,31 @@
         "en": "Convenience foods (sealed products)",
         "de": "Fertigprodukte",
         "foods": 115
+      },
+      {
+        "key": "baby-food",
+        "en": "Baby food",
+        "de": "Babynahrung",
+        "foods": 47
       }
     ],
-    "rowsChecked": 1735,
+    "rowsChecked": 1791,
     "gaps": 0
   },
   "drinks": {
     "sourceRecords": 21513,
-    "measured": 1375,
+    "measured": 1374,
     "withoutVolume": 0
   },
   "scoreboards": {
     "photo": {
       "photos": 27,
       "mainFoodRight": {
-        "right": 24,
+        "right": 26,
         "of": 26
       },
       "allFoodsRight": {
-        "right": 24,
+        "right": 26,
         "of": 26
       },
       "portionSane": {
@@ -339,7 +350,7 @@
       "quantityAccuracyPercent": 100.0,
       "unresolvedRatePercent": 0.0,
       "englishOnlyInGerman": 0,
-      "averageAnalysisMs": 151.3
+      "averageAnalysisMs": 148.6
     },
     "portionPicker": {
       "products": 22890
@@ -386,8 +397,8 @@
       "en": "Supermarket basics",
       "de": "Grundnahrungsmittel",
       "sticker": "egg",
-      "count": 1342,
-      "verified": 1342
+      "count": 1389,
+      "verified": 1389
     },
     {
       "key": "baking",
@@ -396,7 +407,7 @@
       "de": "Kuchen und Gebäck",
       "sticker": "shortcake",
       "count": 867,
-      "verified": 47
+      "verified": 48
     },
     {
       "key": "plant-based",
@@ -413,8 +424,8 @@
       "en": "Baby food",
       "de": "Babynahrung",
       "sticker": "baby-bottle",
-      "count": 185,
-      "verified": 0
+      "count": 186,
+      "verified": 56
     },
     {
       "key": "recipes",
@@ -423,7 +434,7 @@
       "de": "Gerichte",
       "sticker": "spaghetti",
       "count": 1501,
-      "verified": 1064
+      "verified": 1068
     },
     {
       "key": "takeaway",
@@ -449,8 +460,8 @@
       "en": "Fast food chains",
       "de": "Fast-Food-Ketten",
       "sticker": "hamburger",
-      "count": null,
-      "verified": null
+      "count": 114,
+      "verified": 114
     },
     {
       "key": "restaurant-chains",
@@ -477,7 +488,7 @@
       "de": "Cafégetränke",
       "sticker": "hot-beverage",
       "count": 216,
-      "verified": 0
+      "verified": 74
     },
     {
       "key": "drinks",

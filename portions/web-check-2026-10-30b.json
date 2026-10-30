@@ -1,0 +1,1936 @@
+{
+ "checkedOn": "2026-10-30",
+ "model": "claude-fable-5-1 (Nutrient-fill sweep session) with web search, second pass over the first pass’s tool-limit failures",
+ "entries": [
+  {
+   "key": "almond brittle",
+   "verdict": "no-reference",
+   "source": "",
+   "url": null,
+   "note": "Recipes (REWE, Lidl) give about 20 pieces from 200 g almonds without a finished weight; shop pieces are 90 g slabs cut at the table. The drafted 10 g piece stays."
+  },
+  {
+   "key": "almond liqueur",
+   "verdict": "confirmed",
+   "source": "alleantworten.de, Schnapsglas norm (2 cl single, 4 cl double measure)",
+   "url": "https://alleantworten.de/wie-viel-cl-hat-ein-ikea-schnapsglas",
+   "note": "A liqueur is poured as a 2 cl or 4 cl measure in Germany; the drafted 4 cl is the double."
+  },
+  {
+   "key": "almond milk",
+   "verdict": "confirmed",
+   "source": "DGE, Milch und Milchprodukte (a glass of 200 to 250 ml; the Ernährungskreis portion is 250)",
+   "url": "https://www.dge.de/gesunde-ernaehrung/gut-essen-und-trinken/dge-ernaehrungskreis/milch-und-milchprodukte/",
+   "note": "A plant drink is poured like milk; the DGE portion is 250 ml, with 200 ml glasses also named."
+  },
+  {
+   "key": "almond oil",
+   "verdict": "confirmed",
+   "source": "Küchenfibel, Wie viel ml hat 1 EL Öl (15 ml of oil weigh 13 g)",
+   "url": "https://www.kuechenfibel.de/faq/wie-viel-ml-hat-1-el-ol",
+   "note": "A full tablespoon of oil is 13 to 14 g; the rule-of-thumb 10 g is a level spoon. 14 g is within 20 % of 13 g."
+  },
+  {
+   "key": "almonds roasted and salted",
+   "verdict": "confirmed",
+   "source": "Ökotest, Wie viele Nüsse am Tag sind gesund (DGE: a handful, about 25 g)",
+   "url": "https://www.oekotest.de/essen-trinken/Wie-viele-Nuesse-am-Tag-sind-gesund_15074_1.html",
+   "note": "The DGE handful is 25 g; fatsecret lists EDEKA Salzmandeln at a 25 g portion."
+  },
+  {
+   "key": "almonds toasted",
+   "verdict": "confirmed",
+   "source": "Ökotest, Wie viele Nüsse am Tag sind gesund (DGE: a handful, about 25 g)",
+   "url": "https://www.oekotest.de/essen-trinken/Wie-viele-Nuesse-am-Tag-sind-gesund_15074_1.html",
+   "note": "The DGE handful of nuts is 25 g."
+  },
+  {
+   "key": "alpine cheese",
+   "verdict": "confirmed",
+   "source": "fatsecret, BioBio Bergkäse, 1 Scheibe 20 g",
+   "url": "https://www.fatsecret.de/Kalorien-Ern%C3%A4hrung/biobio/bergk%C3%A4se-(20g)/1-scheibe",
+   "note": "Sliced Bergkäse weighs 17 to 21 g a slice (BioBio 20 g, REWE Bio 21 g, Schärdinger 17 g); hauchdünn slices are 11 g."
+  },
+  {
+   "key": "altbier",
+   "verdict": "confirmed",
+   "source": "German Food Guide, Altbier (traditional 0.2 l glass; 0.3 l also common)",
+   "url": "https://germanfoodguide.com/beerdetail.cfm?bier_nr=39",
+   "note": "Alt is served in 0.2, 0.25 (Gatzweiler) and 0.3 l glasses; 250 ml sits between the traditional and the common larger glass."
+  },
+  {
+   "key": "amaranth cooked",
+   "verdict": "confirmed",
+   "source": "Utopia, Amaranth kochen (40 to 50 g raw for a side, cooked in three times its water)",
+   "url": "https://utopia.de/ratgeber/amaranth-kochen-so-geht-die-zubereitung_216320/",
+   "note": "Amaranth absorbs its cooking water, so 45 to 50 g raw gives about 160 to 200 g cooked; 180 g sits in that range. fatsecret's generic 120 g portion is smaller."
+  },
+  {
+   "key": "amaranth raw",
+   "verdict": "confirmed",
+   "source": "Utopia, Amaranth kochen (40 to 50 g raw for a side, up to 75 g for a main)",
+   "url": "https://utopia.de/ratgeber/amaranth-kochen-so-geht-die-zubereitung_216320/",
+   "note": "60 g lies between the side and the main dish amount."
+  },
+  {
+   "key": "apple crumble cake",
+   "verdict": "confirmed",
+   "source": "fddb, Aldi Süd Apfel-Butterstreusel Blechkuchen (135 g a piece)",
+   "url": "https://fddb.info/db/de/lebensmittel/aldi_sued_apfel-butterstreusel-blechkuchen_apfel/index.html",
+   "note": "Sheet-cake pieces are 135 g (Aldi Süd) to 140 g (DB Bordbistro); 120 g is within 20 %."
+  },
+  {
+   "key": "apple dried",
+   "verdict": "no-reference",
+   "source": "",
+   "url": null,
+   "note": "No source weighs one dried ring; Gartenjournal gives 150 g dried from 1 kg apples, which makes 3 to 6 g a ring by thickness. The drafted 8 g (FNDDS ring) stays."
+  },
+  {
+   "key": "apple juice",
+   "verdict": "confirmed",
+   "source": "Wikifit, Saft (1 Glas = 200 ml)",
+   "url": "https://www.wikifit.de/kalorientabelle/sonstiges/saft-6",
+   "note": "German nutrition tables count a juice glass as 200 ml; 200 ml juice bottles are the retail single serve."
+  },
+  {
+   "key": "apple pie",
+   "verdict": "no-reference",
+   "source": "",
+   "url": null,
+   "note": "Recipes cut a 26 cm gedeckter Apfelkuchen into 12 pieces (Cookidoo, Dirndlkitchen) without a piece weight. The drafted 125 g stays."
+  },
+  {
+   "key": "apple raw",
+   "verdict": "confirmed",
+   "source": "fatsecret, Äpfel (1 medium apple of 7 cm, about 150 g)",
+   "url": "https://www.fatsecret.de/Kalorien-Ern%C3%A4hrung/Allgemein/%C3%84pfel",
+   "note": "A medium apple is 150 to 180 g whole and about 135 g without core and peel; 160 g edible is within 20 % of both ends."
+  },
+  {
+   "key": "apple stewed",
+   "verdict": "confirmed",
+   "source": "Cookidoo, Omas Apfelkompott (4 portions from 550 g apples and 150 g water)",
+   "url": "https://cookidoo.thermomix.com/recipes/recipe/en-us/r723024",
+   "note": "The recipe gives about 175 g a portion; 150 g is within 20 %."
+  },
+  {
+   "key": "apple strudel",
+   "verdict": "confirmed",
+   "source": "Resch & Frisch, Omas Apfelstrudel portioniert (170 g a piece)",
+   "url": "https://www.resch-frisch.com/gastronomie/media/pdf/datasheets/1042149/de/1042149-omas-apfelstrudel-portioniert-27x170g--1.pdf",
+   "note": "A portioned strudel piece is 170 g; Arise counts 135 g. 150 g is within 20 % of both."
+  },
+  {
+   "key": "apple syrup",
+   "verdict": "no-reference",
+   "source": "",
+   "url": null,
+   "note": "Only an unconfirmed fddb user entry gives 15 g a tablespoon; a 15 ml spoon of a syrup of density 1.3 is 20 g. The drafted 20 g stays."
+  },
+  {
+   "key": "apple turnover",
+   "verdict": "no-reference",
+   "source": "",
+   "url": null,
+   "note": "Only a 40 g mini turnover (Bridor) is weighed; a bakery Apfeltasche is not. The drafted 100 g stays."
+  },
+  {
+   "key": "banane",
+   "verdict": "confirmed",
+   "source": "fatsecret, Banane (1 medium banana of 18 to 20 cm, 105 kcal at 89 kcal per 100 g, about 118 g)",
+   "url": "https://www.fatsecret.de/Kalorien-Ern%C3%A4hrung/Allgemein/banane",
+   "note": "German weight tables give 114 to 120 g for a medium banana without peel; 120 g sits at the top of that range."
+  },
+  {
+   "key": "barley",
+   "verdict": "confirmed",
+   "source": "Stuttgarter Zeitung, Wie viel Reis pro Person (60 to 75 g raw grain for a side)",
+   "url": "https://www.stuttgarter-zeitung.de/wissen/wie-viel-reis-pro-person-mhsd-79013939.html",
+   "note": "No barley-specific portion was found; pearl barley is cooked and served like rice, whose side portion is 60 to 75 g raw."
+  },
+  {
+   "key": "basic sauce white",
+   "verdict": "confirmed",
+   "source": "Omni Calculator, Esslöffel in Gramm (a tablespoon of a water-like liquid is 15 g)",
+   "url": "https://www.omnicalculator.com/de/umrechnungen/essloffel-in-gramm-umrechner",
+   "note": "A thin white sauce weighs like water, 15 g a tablespoon."
+  },
+  {
+   "key": "basil",
+   "verdict": "confirmed",
+   "source": "Chefsolver, Basil fresh chopped (0.14 g per ml, so a 15 ml tablespoon is about 2.1 g)",
+   "url": "https://chefsolver.com/de/convert/basil_fresh_chopped/ml-to-grams/",
+   "note": "A German guide counts two tablespoons of leaves as 5 g; 2.5 g a tablespoon is within 20 % of both."
+  },
+  {
+   "key": "basil dried",
+   "verdict": "corrected",
+   "source": "StrongrFastr (USDA), Basilikum getrocknet (1 tsp leaves = 0.7 g)",
+   "url": "https://www.strongrfastr.com/de/lebensmittel/basilikum-2003",
+   "note": "A teaspoon of dried basil leaves is 0.7 g; the drafted 1 g is 43 % above.",
+   "proposed": {
+    "gramsPerUnit": 0.7,
+    "typical": 0.5
+   }
+  },
+  {
+   "key": "basmati rice cooked",
+   "verdict": "confirmed",
+   "source": "REWE, Ben's Original Basmati-Reis (a portion of 160 g cooked from 62.5 g dry)",
+   "url": "https://www.rewe.de/shop/p/ben-s-original-basmati-reis-500g/1111914",
+   "note": "60 to 80 g raw gives 120 to 160 g cooked; 180 g is within 20 % of the maker's 160 g portion."
+  },
+  {
+   "key": "basmati rice raw",
+   "verdict": "confirmed",
+   "source": "Stuttgarter Zeitung, Wie viel Reis pro Person (60 to 75 g raw for a side, 100 to 120 g for a main)",
+   "url": "https://www.stuttgarter-zeitung.de/wissen/wie-viel-reis-pro-person-mhsd-79013939.html",
+   "note": "75 g is the upper side portion."
+  },
+  {
+   "key": "bass sea flesh only raw",
+   "verdict": "no-reference",
+   "source": "",
+   "url": null,
+   "note": "No source weighs one sea bass fillet; Lidl plans 600 g of fillet for four (150 g a person) and a 500 g whole fish serves two. The drafted 100 g fillet stays."
+  },
+  {
+   "key": "battered fish",
+   "verdict": "corrected",
+   "source": "REWE, Iglo Filegro Traditioneller Ofen-Backfisch 480 g (4 pieces, 120 g each with batter)",
+   "url": "https://www.rewe.de/shop/p/iglo-filegro-traditioneller-ofen-backfisch-480g/2818497",
+   "note": "A battered fish piece is 120 g; recipes batter 250 g fillet for two. 160 g is 33 % above.",
+   "proposed": {
+    "gramsPerUnit": 120,
+    "typical": 1
+   }
+  },
+  {
+   "key": "baumkuchen",
+   "verdict": "confirmed",
+   "source": "KuchenMeister, Baumkuchen half rings (sold as 50 g pieces)",
+   "url": "https://kuchenmeister.de/en/?p=11109",
+   "note": "A Baumkuchen piece is 50 g; nutrition sites count a German slice at 50 g too."
+  },
+  {
+   "key": "bavarian white sausage poached",
+   "verdict": "confirmed",
+   "source": "Münchenwiki, Weißwurst (a sausage weighs 70 to 100 g)",
+   "url": "https://www.muenchenwiki.de/wiki/Weiswuascht",
+   "note": "Packaged Weißwürste are 62 g (Zimmermann, 4 in 250 g) to 69 g (Ablinger); 75 g is within 20 % of all of them."
+  },
+  {
+   "key": "bay leaf",
+   "verdict": "no-reference",
+   "source": "",
+   "url": null,
+   "note": "Only pack weights were found (5 g, 40 g, 50 g), no weight for one leaf. The drafted 0.6 g (USDA) stays."
+  },
+  {
+   "key": "bean soup",
+   "verdict": "confirmed",
+   "source": "fatsecret, Tip Weiße-Bohnen-Eintopf (1 Portion 400 g)",
+   "url": "https://www.fatsecret.de/Kalorien-Ern%C3%A4hrung/tip/weisse-bohnen-eintopf/1-portion",
+   "note": "German databases count a plate of bean stew as 400 g."
+  },
+  {
+   "key": "bean sprouts",
+   "verdict": "confirmed",
+   "source": "Nutrola, Kalorien in Sojasprossen (half a cup raw is about 52 g)",
+   "url": "https://nutrola.app/de/nutrition-library/legumes/calories-in-bean-sprouts",
+   "note": "Recipes use 50 to 60 g of sprouts a person."
+  },
+  {
+   "key": "bean sprouts canned",
+   "verdict": "confirmed",
+   "source": "Küchengötter, Sojasprossen-Puffer (250 g of sprouts for four)",
+   "url": "https://www.kuechengoetter.de/rezepte/download/Sojasprossen-Puffer-14902.pdf",
+   "note": "About 60 g a person in a dish; 75 g drained is within 20 %."
+  },
+  {
+   "key": "beans broad whole boiled in unsalted water",
+   "verdict": "confirmed",
+   "source": "Utopia, Dicke Bohnen Rezept (500 g shelled beans for four)",
+   "url": "https://utopia.de/ratgeber/dicke-bohnen-rezept-ein-eiweissreiches-gericht_150481/",
+   "note": "125 g of beans a person; 120 g matches."
+  },
+  {
+   "key": "bechamel",
+   "verdict": "corrected",
+   "source": "Utopia, Béchamelsauce Rezept für Lasagne (500 ml milk, 50 g butter, 50 g flour for four)",
+   "url": "https://utopia.de/ratgeber/bechamelsauce-rezept-fuer-lasagne-klassische-und-vegane-variante_132084/",
+   "note": "A person's share of béchamel is about 150 g; the drafted 80 g is half of that.",
+   "proposed": {
+    "gramsPerUnit": 150,
+    "typical": 1
+   }
+  },
+  {
+   "key": "bee sting cake",
+   "verdict": "no-reference",
+   "source": "",
+   "url": null,
+   "note": "Recipes give 430 kcal a piece and 12 pieces from a 32 by 39 cm sheet, no weight. The drafted 110 g stays."
+  },
+  {
+   "key": "beef boiled",
+   "verdict": "confirmed",
+   "source": "DGE, 10 Regeln der DGE (a meat portion is 100 to 150 g)",
+   "url": "https://www.dge.de/ernaehrungspraxis/vollwertige-ernaehrung/10-regeln-der-dge/?L=0",
+   "note": "The current DGE guidance counts a meat portion as about 120 g; 150 g is the upper end of the older 100 to 150 g range."
+  },
+  {
+   "key": "beef bratwurst grilled",
+   "verdict": "confirmed",
+   "source": "REWE, Metzgerei Henrici Rindswurst ca. 440 g, 4 Stück (110 g raw each)",
+   "url": "https://www.rewe.de/shop/p/metzgerei-henrici-rindswurst-ca-440g-4-stueck/8538222",
+   "note": "Beef bratwursts are sold at 100 g (doncarne, Zach-Zach) to 110 g raw; grilled they lose about a tenth, so 105 g is within range."
+  },
+  {
+   "key": "brazil nuts",
+   "verdict": "no-reference",
+   "source": "",
+   "url": null,
+   "note": "No source weighs one Brazil nut; Wikifit counts a 20 g portion. The drafted 5 g (FNDDS) stays."
+  },
+  {
+   "key": "bread roll",
+   "verdict": "confirmed",
+   "source": "Wikifit, Brötchen Weizen (nutrition tables count a roll as 60 g)",
+   "url": "https://www.wikifit.de/kalorientabelle/brot/broetchen-(weizen)",
+   "note": "Bakery rolls weigh 50 to 60 g, bake-off rolls 55 to 70 g (Stiftung Warentest)."
+  },
+  {
+   "key": "breadcrumbs",
+   "verdict": "no-reference",
+   "source": "",
+   "url": null,
+   "note": "Wikifit's 15 g a tablespoon is the spoon's water weight; USDA gives about 7 g of dry crumbs a level tablespoon. No German weighing was found, so the drafted 8 g stays."
+  },
+  {
+   "key": "breaded camembert",
+   "verdict": "confirmed",
+   "source": "Chefs Culinar, Alpenhain Back-Camembert ca. 70 g a piece",
+   "url": "https://shop.chefsculinar.de/en/food/dairy/cheese/alpenhain-df-alp-camembert-ca70g-2-25kg-2-25-kg-ct-18648256",
+   "note": "Alpenhain's retail Classic is about 75 g a piece, two to a bag."
+  },
+  {
+   "key": "breaded chicken breast",
+   "verdict": "confirmed",
+   "source": "REWE, Bard Hähnchenschnitzel 155 g",
+   "url": "https://www.rewe.de/shop/p/bard-haehnchenschnitzel-155g/8518420",
+   "note": "Retail breaded chicken schnitzels are 125 to 160 g a piece."
+  },
+  {
+   "key": "breaded pork schnitzel",
+   "verdict": "confirmed",
+   "source": "Küchenfibel, Wie gesund ist ein Schweineschnitzel (a schnitzel of about 180 g)",
+   "url": "https://www.kuechenfibel.de/faq/wie-gesund-ist-ein-schweineschnitzel",
+   "note": "A restaurant schnitzel weighs 150 to 200 g with its breading; frozen ones 150 to 180 g."
+  },
+  {
+   "key": "breadsticks",
+   "verdict": "corrected",
+   "source": "Wikifit, K-Classic Grissini mit 6 % Olivenöl (1 Stück 7 g)",
+   "url": "https://www.wikifit.de/kalorientabelle/sonstiges/grissini-mit-6-olivenoel",
+   "note": "A supermarket grissino is 7 g; Italian restaurant sticks are 25 g. The drafted 5 g is 29 % below.",
+   "proposed": {
+    "gramsPerUnit": 7,
+    "typical": 4
+   }
+  },
+  {
+   "key": "breakfast sausage cooked",
+   "verdict": "no-reference",
+   "source": "",
+   "url": null,
+   "note": "No pork breakfast link is weighed by a German source; a vegan one is 22 g a link (8 in 180 g), which agrees with the drafted 20 g (FNDDS). The draft stays."
+  },
+  {
+   "key": "bremer pinkel pork sausage with oat groats",
+   "verdict": "confirmed",
+   "source": "Codecheck, Bley Bremer Pinkel 10 à 125 g",
+   "url": "https://www.codecheck.info/p/lebensmittel/fleisch-wurstwaren/frankfurter-weiss-bruehwuerste/2842831124.html",
+   "note": "Pinkel sausages are 70 to 80 g (Badenhop) or 125 g (Bley); 100 g lies between, within 20 % of Bley's."
+  },
+  {
+   "key": "cereal bar",
+   "verdict": "confirmed",
+   "source": "Wikifit, Corny Milch Riegel (1 Riegel 30 g)",
+   "url": "https://www.wikifit.de/kalorientabelle/muesliriegel/corny-milch-riegel",
+   "note": "Corny bars are 25 g (Classic) or 30 g (Milch); 30 g is the common bar."
+  },
+  {
+   "key": "cereal corn flakes plain",
+   "verdict": "corrected",
+   "source": "REWE, Kellogg's Corn Flakes 500 g (16 portions a pack, about 30 g each)",
+   "url": "https://www.rewe.de/shop/p/kellogg-s-corn-flakes-500g/9049679",
+   "note": "The maker's and the nutrition tables' portion is 30 g; the drafted 40 g is 33 % above.",
+   "proposed": {
+    "gramsPerUnit": 30,
+    "typical": 1
+   }
+  },
+  {
+   "key": "cervelat salami",
+   "verdict": "confirmed",
+   "source": "Wikifit, Cervelatwurst (1 Scheibe 18 g)",
+   "url": "https://www.wikifit.de/kalorientabelle/wurst/cervelatwurst-18",
+   "note": "A slice is 18 to 20 g (Bauer's 18.2 g, fatsecret 20 g); 15 g is within 20 % of 18 g."
+  },
+  {
+   "key": "champignon",
+   "verdict": "confirmed",
+   "source": "Wikifit, Champignons (1 Portion 100 g)",
+   "url": "https://www.wikifit.de/kalorientabelle/pilze/champignons-165807-8zk",
+   "note": "Recipes give 100 to 150 g of mushrooms a person as a side."
+  },
+  {
+   "key": "chanterelle fried without fat pan",
+   "verdict": "confirmed",
+   "source": "Gefro, Pfifferling-Zucchinigemüse (600 g chanterelles for four)",
+   "url": "https://www.gefro.de/cdn/shop/files/pfifferling-zucchinigemuese-mit-minutenschnitzel-vom-rind.pdf",
+   "note": "Recipes use 75 g (ragout) to 150 g (vegetable side) a person; 100 g lies between."
+  },
+  {
+   "key": "chanterelle stewed",
+   "verdict": "confirmed",
+   "source": "Gefro, Pfifferling-Zucchinigemüse (600 g chanterelles for four)",
+   "url": "https://www.gefro.de/cdn/shop/files/pfifferling-zucchinigemuese-mit-minutenschnitzel-vom-rind.pdf",
+   "note": "Recipes use 75 g (ragout) to 150 g (vegetable side) a person; 125 g is within that range."
+  },
+  {
+   "key": "chanterelles cooked",
+   "verdict": "confirmed",
+   "source": "Gefro, Pfifferling-Zucchinigemüse (600 g chanterelles for four)",
+   "url": "https://www.gefro.de/cdn/shop/files/pfifferling-zucchinigemuese-mit-minutenschnitzel-vom-rind.pdf",
+   "note": "Recipes use 75 g (ragout) to 150 g (vegetable side) a person; 100 g lies between."
+  },
+  {
+   "key": "chanterelles raw",
+   "verdict": "confirmed",
+   "source": "Gefro, Pfifferling-Zucchinigemüse (600 g chanterelles for four)",
+   "url": "https://www.gefro.de/cdn/shop/files/pfifferling-zucchinigemuese-mit-minutenschnitzel-vom-rind.pdf",
+   "note": "Recipes use 75 g (ragout) to 150 g (vegetable side) a person; 100 g lies between."
+  },
+  {
+   "key": "chapati",
+   "verdict": "confirmed",
+   "source": "Tarla Dalal, Calories for Chapati (1 medium roti 40 g)",
+   "url": "https://tarladalal.com/calories-for-chapati-healthy-chapati-for-weight-loss-7608",
+   "note": "A medium chapati of 7 inches is 40 g; small ones 32 g, large 52 g."
+  },
+  {
+   "key": "chicken meat without skin fried without fat pan",
+   "verdict": "confirmed",
+   "source": "DGE, 10 Regeln der DGE (a meat portion is 100 to 150 g)",
+   "url": "https://www.dge.de/ernaehrungspraxis/vollwertige-ernaehrung/10-regeln-der-dge/?L=0",
+   "note": "150 g of cooked meat is the upper DGE meat portion."
+  },
+  {
+   "key": "chocolate muesli",
+   "verdict": "confirmed",
+   "source": "fatsecret, Müsli (1 Portion 55 g)",
+   "url": "https://www.fatsecret.de/Kalorien-Ern%C3%A4hrung/Allgemein/m%C3%BCsli",
+   "note": "Makers' portions run from 40 g (Kölln) to 80 g; 50 g is within 20 % of the 55 g table portion."
+  },
+  {
+   "key": "chocolate muffin",
+   "verdict": "confirmed",
+   "source": "Knuspr, Exner Schokomuffins (90 g)",
+   "url": "https://www.knuspr.de/en-DE/81213-exner-chocolate-muffins",
+   "note": "Bakery muffins weigh 90 g (Exner) to 130 g (gastronomy); 80 g is within 20 % of the bakery one."
+  },
+  {
+   "key": "chocolate pudding",
+   "verdict": "confirmed",
+   "source": "Supermarktcheck, Dr. Oetker Sahne Pudding (Becher 150 g)",
+   "url": "https://www.supermarktcheck.de/product/7895-dr-oetker-sahne-pudding-",
+   "note": "Pudding cups are 125 g (Paula) to 150 g (Sahne Pudding); 125 g is within 20 % of both."
+  },
+  {
+   "key": "chocolate sandwich cookie",
+   "verdict": "confirmed",
+   "source": "fatsecret, Oreo Keks (1 Keks 11 g)",
+   "url": "https://www.fatsecret.de/Kalorien-Ern%C3%A4hrung/oreo/keks/1-keks",
+   "note": "An Oreo is 11 g by the maker's figure (14 in 154 g)."
+  },
+  {
+   "key": "chocolate sauce",
+   "verdict": "no-reference",
+   "source": "",
+   "url": null,
+   "note": "No source weighs a tablespoon of dessert chocolate sauce; makers give values per 100 g only. The drafted 20 g stays."
+  },
+  {
+   "key": "chocolate truffles",
+   "verdict": "confirmed",
+   "source": "fatsecret, J.D. Gross Trüffel-Praline (1 Stück 12.5 g)",
+   "url": "https://www.fatsecret.de/Kalorien-Ern%C3%A4hrung/j-d-gross/tr%C3%BCffel-praline/1-st%C3%BCck",
+   "note": "Truffle pralines are 12.5 g (J.D. Gross, Wiebold 16 in 200 g); small Italian tartufini are 7 g."
+  },
+  {
+   "key": "chocolate wafer bar",
+   "verdict": "confirmed",
+   "source": "PS in foodservice, Nestlé KitKat 4 Finger 41.5 g",
+   "url": "https://psinfoodservice.com/de/product/381639-nestle-kit-kat-chocolade-single-4-finger-41-5-gram-wikkel",
+   "note": "The four-finger bar is 41.5 g in Europe."
+  },
+  {
+   "key": "chorizo",
+   "verdict": "corrected",
+   "source": "HelloFresh, Chorizo-Paella (200 g chorizo for two, 400 g for four)",
+   "url": "https://www.hellofresh.ch/recipecards/card/chorizo-paella-mit-gerostetem-mandeln-5782138a6ced6e51038b4569-44f68116.pdf",
+   "note": "As the meat of a dish, chorizo is 100 g a person; a slice is 6 g (Wikifit). The drafted 50 g is half.",
+   "proposed": {
+    "gramsPerUnit": 100,
+    "typical": 1
+   }
+  },
+  {
+   "key": "chutney",
+   "verdict": "no-reference",
+   "source": "",
+   "url": null,
+   "note": "No source weighs a tablespoon of chutney; jars give values per 100 g. The drafted 20 g stays."
+  },
+  {
+   "key": "cider",
+   "verdict": "confirmed",
+   "source": "KuLaDig, Schoppen (Apfelwein is served in a 0.25 l glass in Hessen, 0.3 l in Frankfurt)",
+   "url": "https://www.kuladig.de/Objektansicht/Drucken/SWB-345655",
+   "note": "The Geripptes holds 0.25 or 0.3 l; the drafted glass sits in that range."
+  },
+  {
+   "key": "cilantro",
+   "verdict": "no-reference",
+   "source": "",
+   "url": null,
+   "note": "The only figure found (10 g a heaped tablespoon) counts whole sprigs; chopped leaves weigh about 1 g a tablespoon (USDA). The draft stays."
+  },
+  {
+   "key": "cinnamon",
+   "verdict": "confirmed",
+   "source": "Nutriscan, Zimt (1 level teaspoon of ground cinnamon 2.6 g)",
+   "url": "https://nutriscan.app/de/calories-nutrition/cinnamon",
+   "note": "German tables count a heaped teaspoon as 5 g; the level spoon is 2.6 g."
+  },
+  {
+   "key": "cinnamon cereal",
+   "verdict": "corrected",
+   "source": "REWE, Nestlé Cini Minis 375 g (12 portions a pack, about 31 g each)",
+   "url": "https://www.rewe.de/shop/p/nestl-cini-minis-cerealien-mit-zimtgeschmack-und-vollkorn-375g/7721528",
+   "note": "The maker's portion is 30 g; the drafted 40 g is 29 % above.",
+   "proposed": {
+    "gramsPerUnit": 30,
+    "typical": 1
+   }
+  },
+  {
+   "key": "cinnamon roll",
+   "verdict": "confirmed",
+   "source": "Resch & Frisch, Zimtschnecke (95 g a piece)",
+   "url": "https://www.resch-frisch.com/gastronomie/media/pdf/datasheets/1040284/de/1040284-zimtschnecke-20x95g--6.pdf",
+   "note": "A bakery cinnamon roll is about 95 g."
+  },
+  {
+   "key": "cinnamon stars",
+   "verdict": "confirmed",
+   "source": "Weight Watchers, Klassische Zimtsterne (70 stars from 250 g icing sugar, 350 g almonds and 3 egg whites)",
+   "url": "https://www.weightwatchers.com/ch/de/rezept/klassische-zimtsterne/5ba8c15cd9c13100260d3031",
+   "note": "About 10 g of dough a star, a little less baked; 8 g is within 20 %."
+  },
+  {
+   "key": "clams raw",
+   "verdict": "confirmed",
+   "source": "REWE, Muscheln (500 to 700 g in the shell a person as a main)",
+   "url": "https://www.rewe.de/shop/c/muscheln-in-der-dose/",
+   "note": "Clam meat is roughly a quarter of the shell weight, so a main course holds 125 to 175 g of meat and a pasta dish (1 kg for four) about 60 g; 100 g lies between."
+  },
+  {
+   "key": "clams steamed or boiled",
+   "verdict": "no-reference",
+   "source": "",
+   "url": null,
+   "note": "No source weighs one clam; recipes count clams by the kilo in the shell. The drafted 15 g (FNDDS) stays."
+  },
+  {
+   "key": "clotted cream",
+   "verdict": "corrected",
+   "source": "Fitia, Devon Cream Company Clotted Cream (1 tbsp 15 g)",
+   "url": "https://fitia.app/calories-nutritional-information/clotted-cream-F64scmprh8/",
+   "note": "A tablespoon of clotted cream is 15 g (fatsecret agrees at 86 kcal a spoon); the drafted 20 g is 33 % above.",
+   "proposed": {
+    "gramsPerUnit": 15,
+    "typical": 2
+   }
+  },
+  {
+   "key": "coconut milk",
+   "verdict": "confirmed",
+   "source": "Küchengötter, Grünes Kokos-Curry (a 400 ml can for four)",
+   "url": "https://www.kuechengoetter.de/rezepte/download/Grunes-Kokos-Curry-57674.pdf",
+   "note": "Curry recipes use 400 to 800 ml for four; a quarter can, 100 g, is the lower share."
+  },
+  {
+   "key": "coconut water",
+   "verdict": "confirmed",
+   "source": "DGE, Milch und Milchprodukte (a drinking glass of 200 to 250 ml)",
+   "url": "https://www.dge.de/gesunde-ernaehrung/gut-essen-und-trinken/dge-ernaehrungskreis/milch-und-milchprodukte/",
+   "note": "Coconut water is poured like any drink; a regular glass is 200 to 250 ml."
+  },
+  {
+   "key": "coconut yogurt",
+   "verdict": "confirmed",
+   "source": "Küchenfibel, Wie viel Joghurt rechnet man pro Person (a portion is 150 g)",
+   "url": "https://www.kuechenfibel.de/faq/wie-viel-joghurt-rechnet-man-pro-person",
+   "note": "A yogurt alternative is eaten by the 150 g cup; Alpro's 400 g tub holds about three."
+  },
+  {
+   "key": "cod liver canned",
+   "verdict": "no-reference",
+   "source": "",
+   "url": null,
+   "note": "Tins hold 121 g and Open Food Facts counts the whole tin as a portion; no source gives a bread portion. The drafted 50 g stays."
+  },
+  {
+   "key": "coffee",
+   "verdict": "confirmed",
+   "source": "Küchenfibel, Ist eine Tasse 200 ml (a filter coffee cup holds 120 to 200 ml)",
+   "url": "https://www.kuechenfibel.de/faq/ist-eine-tasse-200-ml",
+   "note": "The traditional German Schöpfmaß is 125 ml, 150 ml the usual standard and 200 ml today's filter coffee cup."
+  },
+  {
+   "key": "coffee liqueur",
+   "verdict": "confirmed",
+   "source": "alleantworten.de, Schnapsglas norm (2 cl single, 4 cl double measure)",
+   "url": "https://alleantworten.de/wie-viel-cl-hat-ein-ikea-schnapsglas",
+   "note": "A liqueur measure is 2 cl."
+  },
+  {
+   "key": "coffee with milk",
+   "verdict": "confirmed",
+   "source": "Küchenfibel, Ist eine Tasse 200 ml (a filter coffee cup holds 120 to 200 ml)",
+   "url": "https://www.kuechenfibel.de/faq/ist-eine-tasse-200-ml",
+   "note": "A modern coffee cup holds 200 ml; the traditional measure is 125 to 150 ml."
+  },
+  {
+   "key": "coffee with milk and sugar",
+   "verdict": "confirmed",
+   "source": "Küchenfibel, Ist eine Tasse 200 ml (a filter coffee cup holds 120 to 200 ml)",
+   "url": "https://www.kuechenfibel.de/faq/ist-eine-tasse-200-ml",
+   "note": "A modern coffee cup holds 200 ml; the traditional measure is 125 to 150 ml."
+  },
+  {
+   "key": "cola mix",
+   "verdict": "confirmed",
+   "source": "Wikifit, Saft (German tables count 1 Glas as 200 ml)",
+   "url": "https://www.wikifit.de/kalorientabelle/sonstiges/saft-6",
+   "note": "A soft drink glass is 200 ml in the German nutrition tables."
+  },
+  {
+   "key": "cola zero sugar",
+   "verdict": "confirmed",
+   "source": "Aldi Süd, Asbach Cola 330 ml (the one-way can is 0.33 l)",
+   "url": "https://www.aldi-sued.de/produkt/asbach-cola-330-ml-000000000000758237",
+   "note": "Soft drink cans are 330 ml in Germany."
+  },
+  {
+   "key": "cooked bulgur",
+   "verdict": "corrected",
+   "source": "Cookidoo, Bulgur gekocht (200 g bulgur and 373 g water make 4 portions)",
+   "url": "https://cookidoo.co.uk/recipes/recipe/en-gb/r555177",
+   "note": "A cooked side is about 145 g from 50 g raw (Utopia: 50 g a head as a side); the drafted 180 g is 26 % above.",
+   "proposed": {
+    "gramsPerUnit": 145,
+    "typical": 1
+   }
+  },
+  {
+   "key": "cooked butternut squash",
+   "verdict": "confirmed",
+   "source": "Verbraucherfenster Hessen, portion of vegetables (generic, not Wirsing-specific)",
+   "url": "https://verbraucherfenster.hessen.de/ernaehrung/essen-trinken/bunt-und-gesund-wie-viel-portionen-obst-und-gemuese-taeglich",
+   "note": "A vegetable portion is 100 to 150 g, raw or cooked; 150 g is at the top of that range."
+  },
+  {
+   "key": "cooked carrot",
+   "verdict": "confirmed",
+   "source": "Verbraucherfenster Hessen, portion of vegetables (generic, not Wirsing-specific)",
+   "url": "https://verbraucherfenster.hessen.de/ernaehrung/essen-trinken/bunt-und-gesund-wie-viel-portionen-obst-und-gemuese-taeglich",
+   "note": "A vegetable portion is 100 to 150 g, raw or cooked; 150 g is at the top of that range."
+  },
+  {
+   "key": "cooked cauliflower",
+   "verdict": "confirmed",
+   "source": "Verbraucherfenster Hessen, portion of vegetables (generic, not Wirsing-specific)",
+   "url": "https://verbraucherfenster.hessen.de/ernaehrung/essen-trinken/bunt-und-gesund-wie-viel-portionen-obst-und-gemuese-taeglich",
+   "note": "A vegetable portion is 100 to 150 g, raw or cooked; 150 g is at the top of that range."
+  },
+  {
+   "key": "cooked chicken breast",
+   "verdict": "confirmed",
+   "source": "Wikifit, Hähnchenbrustfilet (1 Filet 150 g raw)",
+   "url": "https://www.wikifit.de/kalorientabelle/gefluegel/haehnchenbrustfilet",
+   "note": "A fillet is 125 to 150 g raw and loses about a fifth in the pan; 130 g cooked matches."
+  },
+  {
+   "key": "cooked cod",
+   "verdict": "confirmed",
+   "source": "Lecker, Kabeljau in Eihülle (4 fillets of 150 g for four)",
+   "url": "https://www.lecker.de/kabeljau-in-eihuelle-127542.html",
+   "note": "A cod portion is 150 g raw, about 130 g cooked."
+  },
+  {
+   "key": "cooked corn",
+   "verdict": "confirmed",
+   "source": "Verbraucherfenster Hessen, portion of vegetables (generic, not Wirsing-specific)",
+   "url": "https://verbraucherfenster.hessen.de/ernaehrung/essen-trinken/bunt-und-gesund-wie-viel-portionen-obst-und-gemuese-taeglich",
+   "note": "A vegetable portion is 100 to 150 g, raw or cooked; 100 g sits in that range."
+  },
+  {
+   "key": "cooked couscous",
+   "verdict": "corrected",
+   "source": "Lecker, Couscous kochen (50 to 70 g dry couscous a person as a side, swollen in its own weight of water)",
+   "url": "https://www.lecker.de/couscous-kochen-so-gehts-schritt-fuer-schritt-50435.html",
+   "note": "60 g dry makes about 120 g cooked; the drafted 160 g is 33 % above.",
+   "proposed": {
+    "gramsPerUnit": 120,
+    "typical": 1
+   }
+  },
+  {
+   "key": "cooked egg noodles",
+   "verdict": "confirmed",
+   "source": "Ökotest, Wie viel Spaghetti pro Person (100 g dry a person; pasta doubles its weight when cooked)",
+   "url": "https://www.oekotest.de/essen-trinken/Wie-viel-Spaghetti-pro-Person-So-viel-Gramm-sind-empfehlenswert_14457_1.html",
+   "note": "85 g dry pasta boils to about 200 g; 220 g is within 20 %."
+  },
+  {
+   "key": "cooked mussels",
+   "verdict": "confirmed",
+   "source": "REWE, Muscheln (500 to 700 g in the shell a person as a main)",
+   "url": "https://www.rewe.de/shop/c/muscheln-in-der-dose/",
+   "note": "Mussel meat is about a quarter of the shell weight, so a main-course pot gives 125 to 175 g of meat; 150 g matches."
+  },
+  {
+   "key": "cooked parsnip",
+   "verdict": "confirmed",
+   "source": "Verbraucherfenster Hessen, portion of vegetables (generic, not Wirsing-specific)",
+   "url": "https://verbraucherfenster.hessen.de/ernaehrung/essen-trinken/bunt-und-gesund-wie-viel-portionen-obst-und-gemuese-taeglich",
+   "note": "A vegetable portion is 100 to 150 g, raw or cooked; 120 g sits in that range."
+  },
+  {
+   "key": "cooked pork belly",
+   "verdict": "confirmed",
+   "source": "DGE, 10 Regeln der DGE (a meat portion is 100 to 150 g)",
+   "url": "https://www.dge.de/ernaehrungspraxis/vollwertige-ernaehrung/10-regeln-der-dge/?L=0",
+   "note": "120 g of cooked meat lies in the DGE portion of 100 to 150 g."
+  },
+  {
+   "key": "cooked ramen noodles",
+   "verdict": "confirmed",
+   "source": "Ökotest, Wie viel Spaghetti pro Person (100 g dry a person; pasta doubles its weight when cooked)",
+   "url": "https://www.oekotest.de/essen-trinken/Wie-viel-Spaghetti-pro-Person-So-viel-Gramm-sind-empfehlenswert_14457_1.html",
+   "note": "A main-course noodle portion is about 200 g cooked; 230 g is within 20 %."
+  },
+  {
+   "key": "cooked rice noodles",
+   "verdict": "confirmed",
+   "source": "Ökotest, Wie viel Spaghetti pro Person (100 g dry a person; pasta doubles its weight when cooked)",
+   "url": "https://www.oekotest.de/essen-trinken/Wie-viel-Spaghetti-pro-Person-So-viel-Gramm-sind-empfehlenswert_14457_1.html",
+   "note": "70 g dry noodles boil to about 200 g, the main-course portion."
+  },
+  {
+   "key": "cooked salmon",
+   "verdict": "confirmed",
+   "source": "Wikifit, Lachsfilet (1 Portion 125 g)",
+   "url": "https://www.wikifit.de/kalorientabelle/fisch/lachsfilet-23",
+   "note": "Recipes plan 150 to 200 g raw fillet a person, which cooks down to 125 to 170 g; 120 g is within 20 % of the table portion."
+  },
+  {
+   "key": "cooked shrimp",
+   "verdict": "confirmed",
+   "source": "StrongrFastr (USDA), Garnelen gekocht (1 Portion 85 g)",
+   "url": "https://www.strongrfastr.com/de/lebensmittel/shrimp-cooked-15271",
+   "note": "Recipes use 75 g (starter) to 125 g (main) of peeled shrimp a person; 100 g is within 20 % of the 85 g table portion."
+  },
+  {
+   "key": "cooked soba",
+   "verdict": "no-reference",
+   "source": "",
+   "url": null,
+   "note": "No source gives a cooked soba portion; dry bundles are 100 g and foodservice nests 50 g, and soba doubles when boiled. The drafted 200 g stays."
+  },
+  {
+   "key": "cooked spaghetti",
+   "verdict": "confirmed",
+   "source": "Ökotest, Wie viel Spaghetti pro Person (100 g dry a person; pasta doubles its weight when cooked)",
+   "url": "https://www.oekotest.de/essen-trinken/Wie-viel-Spaghetti-pro-Person-So-viel-Gramm-sind-empfehlenswert_14457_1.html",
+   "note": "85 g dry pasta boils to about 200 g; 220 g is within 20 %."
+  },
+  {
+   "key": "corned beef boiled",
+   "verdict": "confirmed",
+   "source": "DGE, 10 Regeln der DGE (a meat portion is 100 to 150 g)",
+   "url": "https://www.dge.de/ernaehrungspraxis/vollwertige-ernaehrung/10-regeln-der-dge/?L=0",
+   "note": "150 g is the upper DGE meat portion."
+  },
+  {
+   "key": "cornflakes unsweetened",
+   "verdict": "corrected",
+   "source": "REWE, Kellogg's Corn Flakes 500 g (16 portions a pack, about 30 g each)",
+   "url": "https://www.rewe.de/shop/p/kellogg-s-corn-flakes-500g/9049679",
+   "note": "The maker's and the nutrition tables' portion is 30 g; the drafted 40 g is 33 % above.",
+   "proposed": {
+    "gramsPerUnit": 30,
+    "typical": 1
+   }
+  },
+  {
+   "key": "cornish pasty",
+   "verdict": "confirmed",
+   "source": "Ginsters, Original Cornish Pasty 227 g (retail listing)",
+   "url": "https://www.desertcart.co.uk/products/259500386-ginsters-original-cornish-pasty-227g.md",
+   "note": "A large pasty is 200 to 227 g; snack pasties 130 g."
+  },
+  {
+   "key": "cornstarch",
+   "verdict": "confirmed",
+   "source": "Küchenfibel, Wie viel Esslöffel sind 100 g Mehl (a tablespoon of starch is 8 g)",
+   "url": "https://www.kuechenfibel.de/faq/wie-viel-essloffel-sind-100-g-mehl",
+   "note": "A level tablespoon of starch is 8 to 10 g, a heaped one 15 g."
+  },
+  {
+   "key": "cottage cheese",
+   "verdict": "confirmed",
+   "source": "Küchenfibel, Ist körniger Hüttenkäse gesund (a portion is 150 to 200 g)",
+   "url": "https://www.kuechenfibel.de/faq/ist-korniger-huttenkase-gesund",
+   "note": "A portion is 150 to 200 g, most of a 200 g tub."
+  },
+  {
+   "key": "cottage pie",
+   "verdict": "confirmed",
+   "source": "Tesco, Shepherd's Pie 400 g (a single-serve ready meal tray)",
+   "url": "https://www.tesco.com/groceries/en-GB/products/303182147",
+   "note": "Own-label ready meal trays hold 400 g since 2022, earlier 450 g."
+  },
+  {
+   "key": "couscous raw",
+   "verdict": "confirmed",
+   "source": "Lecker, Couscous kochen (50 to 70 g dry couscous a person as a side)",
+   "url": "https://www.lecker.de/couscous-kochen-so-gehts-schritt-fuer-schritt-50435.html",
+   "note": "60 g is the middle of the side portion."
+  },
+  {
+   "key": "couscous salad",
+   "verdict": "confirmed",
+   "source": "Open Food Facts, Wonnemeyer Couscous-Salat (200 g pot)",
+   "url": "https://world.openfoodfacts.org/product/4061458026857/couscous-salat-wonnemeyer",
+   "note": "Chilled salad pots are 200 g single serves."
+  },
+  {
+   "key": "crab cake",
+   "verdict": "confirmed",
+   "source": "fatsecret, Crab cake (1 cake of 7 cm, 63 g); Egg Harbor jumbo lump cake 113 g",
+   "url": "https://foods.fatsecret.com/calories-nutrition/generic/crab-cake",
+   "note": "Crab cakes run from 60 g (homemade, database) to 113 g (commercial 4 oz); 85 g sits between."
+  },
+  {
+   "key": "crepe plain",
+   "verdict": "confirmed",
+   "source": "Lynas Foodservice, plain crepe 70 g",
+   "url": "https://orders.lynasfoodservice.com/products/plain-crepe-50x70gm",
+   "note": "A foodservice crêpe is 70 g; 60 g is within 20 %."
+  },
+  {
+   "key": "cress raw",
+   "verdict": "no-reference",
+   "source": "",
+   "url": null,
+   "note": "A tray of cress is 60 g (Wikifit); no source gives the amount on a slice of bread. The drafted 20 g stays."
+  },
+  {
+   "key": "crispbread",
+   "verdict": "confirmed",
+   "source": "fatsecret, Wasa Roggenknäcke (1 Scheibe 11.4 g)",
+   "url": "https://www.fatsecret.de/Kalorien-Ern%C3%A4hrung/wasa/roggenkn%C3%A4cke/1-scheibe",
+   "note": "Wasa slices weigh 11 to 13 g by variety."
+  },
+  {
+   "key": "crispy fried onions",
+   "verdict": "corrected",
+   "source": "Wikifit, Röstzwiebeln (1 Esslöffel 7 g)",
+   "url": "https://www.wikifit.de/kalorientabelle/gemuese/roestzwiebeln-3",
+   "note": "A tablespoon of fried onions is 7 g; the drafted 5 g is 29 % below.",
+   "proposed": {
+    "gramsPerUnit": 7,
+    "typical": 2
+   }
+  },
+  {
+   "key": "croutons",
+   "verdict": "confirmed",
+   "source": "fatsecret, Croutons (1 serving 12 g); Arise salad recipes count 20 g",
+   "url": "https://www.fatsecret.de/Kalorien-Ern%C3%A4hrung/Allgemein/croutons",
+   "note": "A sprinkle of croutons is 12 to 20 g; 15 g sits between."
+  },
+  {
+   "key": "crumpet",
+   "verdict": "confirmed",
+   "source": "Sainsbury's, Warburtons Crumpets (per average crumpet 55 g)",
+   "url": "https://www.sainsburys.co.uk/groceries/product/warburtons-crumpets-x6",
+   "note": "A crumpet is 55 g; 45 g is within 20 %."
+  },
+  {
+   "key": "cuba libre",
+   "verdict": "confirmed",
+   "source": "Küchengötter, Longdrink-Klassiker Cuba Libre (served in a 25 cl long drink glass)",
+   "url": "https://www.kuechengoetter.de/rezepte/download/Longdrink-Klassiker-Cuba-Libre-82610.pdf",
+   "note": "A long drink glass holds 25 to 30 cl; the drink is 4 cl rum, cola and ice."
+  },
+  {
+   "key": "cucumbers braised",
+   "verdict": "confirmed",
+   "source": "Verbraucherfenster Hessen, portion of vegetables (generic, not Wirsing-specific)",
+   "url": "https://verbraucherfenster.hessen.de/ernaehrung/essen-trinken/bunt-und-gesund-wie-viel-portionen-obst-und-gemuese-taeglich",
+   "note": "A vegetable portion is 100 to 150 g, raw or cooked; 150 g is at the top of that range."
+  },
+  {
+   "key": "cumin",
+   "verdict": "corrected",
+   "source": "Wikifit, Kreuzkümmel gemahlen (1 TL 3 g)",
+   "url": "https://www.wikifit.de/kalorientabelle/sonstiges/kreuzkuemmel-gemahlen-2",
+   "note": "A teaspoon of ground cumin is 3 g; the drafted 2 g is 33 % below.",
+   "proposed": {
+    "gramsPerUnit": 3,
+    "typical": 0.5
+   }
+  },
+  {
+   "key": "cuttlefish grilled",
+   "verdict": "confirmed",
+   "source": "DGE, Fisch, Fleisch, Wurst und Eier (a portion of sea fish is about 120 g)",
+   "url": "https://www.dge.de/gesunde-ernaehrung/gut-essen-und-trinken/dge-ernaehrungskreis/fleisch-wurst-fisch-und-eier/",
+   "note": "No cuttlefish-specific portion was found; 130 g cooked is within 20 % of the DGE fish portion."
+  },
+  {
+   "key": "cuttlefish raw",
+   "verdict": "confirmed",
+   "source": "DGE, Fisch, Fleisch, Wurst und Eier (a portion of sea fish is about 120 g)",
+   "url": "https://www.dge.de/gesunde-ernaehrung/gut-essen-und-trinken/dge-ernaehrungskreis/fleisch-wurst-fisch-und-eier/",
+   "note": "150 g raw cooks down to about 120 g, the DGE fish portion."
+  },
+  {
+   "key": "daikon",
+   "verdict": "confirmed",
+   "source": "Verbraucherfenster Hessen, portion of vegetables (generic, not Wirsing-specific)",
+   "url": "https://verbraucherfenster.hessen.de/ernaehrung/essen-trinken/bunt-und-gesund-wie-viel-portionen-obst-und-gemuese-taeglich",
+   "note": "A vegetable portion is 100 to 150 g, raw or cooked; 100 g sits in that range."
+  },
+  {
+   "key": "danish pastry",
+   "verdict": "corrected",
+   "source": "Hofpfisterei, Öko-Plunderteilchen Vanille-Kirsche (120 g a piece)",
+   "url": "https://www.hofpfisterei.de/dl/PI-0638-FIL-01_Oeko-Plunderteilchen-Vanille-Kirsche_Hofpfisterei-Berlin_SBL.pdf",
+   "note": "Bakery Plunderteilchen weigh 120 to 130 g; the drafted 90 g is 25 % below.",
+   "proposed": {
+    "gramsPerUnit": 120,
+    "typical": 1
+   }
+  },
+  {
+   "key": "danube wave cake",
+   "verdict": "confirmed",
+   "source": "fatsecret, ja! Donauwelle (1 Stück 125 g)",
+   "url": "https://www.fatsecret.de/Kalorien-Ern%C3%A4hrung/ja/donauwelle/1-st%C3%BCck",
+   "note": "Pieces run from 91 g (Coppenrath & Wiese) to 150 g; 100 g is within 20 % of the supermarket piece."
+  },
+  {
+   "key": "dark beer",
+   "verdict": "confirmed",
+   "source": "t-online, Das sind die Bierflaschensorten der deutschen Brauer (0.5 l and 0.33 l bottles)",
+   "url": "https://www.t-online.de/finanzen/boerse/news/id_53145786/si_0/das-sind-die-bierflaschensorten-der-deutschen-brauer.html",
+   "note": "The German deposit bottle is 0.5 l, with 0.33 l as the second size."
+  },
+  {
+   "key": "dark chocolate",
+   "verdict": "no-reference",
+   "source": "",
+   "url": null,
+   "note": "No source states a square's weight; bars are split into 10 pieces of 10 g or 16 to 24 smaller squares. The drafted 10 g stays."
+  },
+  {
+   "key": "datteln",
+   "verdict": "no-reference",
+   "source": "",
+   "url": null,
+   "note": "No source weighs one pitted Deglet Nour date (about 7 to 10 g by experience). The drafted 8 g stays."
+  },
+  {
+   "key": "debreziner",
+   "verdict": "confirmed",
+   "source": "Freyberger, Debreziner (1 Paar 120 g)",
+   "url": "https://www.mf58.de/en/products/debreziner",
+   "note": "A Debreziner is 55 to 60 g (Radatz 4 in 240 g); 50 g is within 20 %."
+  },
+  {
+   "key": "desiccated coconut",
+   "verdict": "no-reference",
+   "source": "",
+   "url": null,
+   "note": "Wikifit's 25 g 'Esslöffel' is a maker's serving, not a spoon; a tablespoon of grated coconut is about 6 g (USDA). The drafted 5 g stays."
+  },
+  {
+   "key": "dried apricots",
+   "verdict": "confirmed",
+   "source": "fddb, Aprikosen getrocknet (1 Stück 8 g)",
+   "url": "https://fddb.mobi/de/naturprodukt_aprikosen_getrocknet.html",
+   "note": "A dried apricot is 8 to 12 g (Wikifit counts 4 pieces as 40 g)."
+  },
+  {
+   "key": "instant noodles prepared",
+   "verdict": "no-reference",
+   "source": "",
+   "url": null,
+   "note": "Cups hold 63 g (Nissin, Knorr) to 114 g (Nongshim bowl) dry and are filled to a water line no source states. The drafted 300 g stays."
+  },
+  {
+   "key": "instant porridge",
+   "verdict": "confirmed",
+   "source": "REWE, 3Bears Porridge (50 g with 150 ml water or milk)",
+   "url": "https://www.rewe.de/shop/p/3bears-porridge-kerniger-klassiker-400g/9950225",
+   "note": "A made-up portion is about 200 g; 210 g matches."
+  },
+  {
+   "key": "instant soup",
+   "verdict": "corrected",
+   "source": "REWE, Knorr Hühner Suppe mit Nudeln (one bag for 150 ml of boiling water)",
+   "url": "https://www.rewe.de/shop/p/knorr-huehner-suppe-mit-nudeln-27g/2932867",
+   "note": "Knorr and Erasco cup soups are made up with 150 ml; the drafted 200 g is 33 % above.",
+   "proposed": {
+    "gramsPerUnit": 150,
+    "typical": 1
+   }
+  },
+  {
+   "key": "italian dressing",
+   "verdict": "confirmed",
+   "source": "StrongrFastr (USDA), Caesar dressing (a serving of 2 tablespoons is 30 g)",
+   "url": "https://www.strongrfastr.com/de/lebensmittel/molho-caesar-43015",
+   "note": "A tablespoon of dressing is 15 g; vinaigrette weighs about 1 g per ml."
+  },
+  {
+   "key": "italian herbs",
+   "verdict": "confirmed",
+   "source": "StrongrFastr (USDA), Oregano getrocknet (1 teaspoon of leaves 1 g)",
+   "url": "https://www.strongrfastr.com/de/lebensmittel/oregano-2027",
+   "note": "A level teaspoon of dried leaf herbs is 1 g; ground or heaped spoons reach 3 g (fitatu)."
+  },
+  {
+   "key": "italian sausage",
+   "verdict": "no-reference",
+   "source": "",
+   "url": null,
+   "note": "Salsiccia is sold by the 250 or 300 g pack without a piece count or weight. The drafted 85 g stays."
+  },
+  {
+   "key": "jaffa cakes",
+   "verdict": "confirmed",
+   "source": "LBC, Jaffa Cakes cut in size (each cake went from 12.2 g to 11 g in 2023)",
+   "url": "https://lbc.co.uk/news/jaffa-cakes-mcvities-shrinkflation",
+   "note": "A Jaffa cake is 11 g today, 12.2 g before 2023; 12 g is within 20 %."
+  },
+  {
+   "key": "jagdwurst",
+   "verdict": "confirmed",
+   "source": "fatsecret, K-Classic Jagdwurst (1 Scheibe 20 g)",
+   "url": "https://www.fatsecret.de/Kalorien-Ernährung/k-classic/jagdwurst/1-scheibe",
+   "note": "A slice of Jagdwurst is 17 to 20 g; thin Kaiserjagdwurst slices 10 to 12 g."
+  },
+  {
+   "key": "jam",
+   "verdict": "confirmed",
+   "source": "Wikifit, Marmelade light (1 Löffel 20 g)",
+   "url": "https://www.wikifit.de/kalorientabelle/marmelade/marmelade-light",
+   "note": "fatsecret's 49 kcal a tablespoon at 246 kcal per 100 g is 20 g too; fddb's average spoon is 10 g."
+  },
+  {
+   "key": "jarlsberg",
+   "verdict": "no-reference",
+   "source": "",
+   "url": null,
+   "note": "No source weighs a Jarlsberg slice; sliced packs (120 g) state no count. The drafted 30 g stays."
+  },
+  {
+   "key": "jasmine rice cooked",
+   "verdict": "confirmed",
+   "source": "REWE, Ben's Original Basmati-Reis (a portion of 160 g cooked from 62.5 g dry)",
+   "url": "https://www.rewe.de/shop/p/ben-s-original-basmati-reis-500g/1111914",
+   "note": "180 g is within 20 % of the maker's 160 g cooked portion."
+  },
+  {
+   "key": "jasmine rice raw",
+   "verdict": "confirmed",
+   "source": "Stuttgarter Zeitung, Wie viel Reis pro Person (60 to 75 g raw for a side, 100 to 120 g for a main)",
+   "url": "https://www.stuttgarter-zeitung.de/wissen/wie-viel-reis-pro-person-mhsd-79013939.html",
+   "note": "75 g is the upper side portion."
+  },
+  {
+   "key": "jelly",
+   "verdict": "confirmed",
+   "source": "REWE, Götterspeise-Pulver (125 ml of liquid a portion, a packet makes 500 ml for four)",
+   "url": "https://www.rewe.de/shop/c/goetterspeise-pulver/",
+   "note": "A dessert cup of jelly is one 125 g portion."
+  },
+  {
+   "key": "jerusalem artichoke",
+   "verdict": "confirmed",
+   "source": "Verbraucherfenster Hessen, portion of vegetables (generic, not Wirsing-specific)",
+   "url": "https://verbraucherfenster.hessen.de/ernaehrung/essen-trinken/bunt-und-gesund-wie-viel-portionen-obst-und-gemuese-taeglich",
+   "note": "A vegetable portion is 100 to 150 g, raw or cooked; 140 g sits in that range."
+  },
+  {
+   "key": "joghurt natur",
+   "verdict": "confirmed",
+   "source": "Küchenfibel, Wie viel Joghurt rechnet man pro Person (a portion is 150 g)",
+   "url": "https://www.kuechenfibel.de/faq/wie-viel-joghurt-rechnet-man-pro-person",
+   "note": "The German yogurt cup is 150 g (Alnatura, Müller, Ehrmann)."
+  },
+  {
+   "key": "kabanos",
+   "verdict": "no-reference",
+   "source": "",
+   "url": null,
+   "note": "Kabanossi range from 7 g minis to 45 g sticks (Moser, 4 in 180 g) and 80 g packs without a count; no source fits one stick. The drafted 30 g stays."
+  },
+  {
+   "key": "kaiserschmarrn",
+   "verdict": "confirmed",
+   "source": "fatsecret, Kaiserschmarrn (1 Portion 300 g)",
+   "url": "https://www.fatsecret.de/Kalorien-Ern%C3%A4hrung/Allgemein/kaiserschmarrn",
+   "note": "A plate is 200 to 250 g on the hut and 300 g in the table; 250 g is within 20 % of both."
+  },
+  {
+   "key": "kalbfleisch",
+   "verdict": "confirmed",
+   "source": "DGE, 10 Regeln der DGE (a meat portion is 100 to 150 g)",
+   "url": "https://www.dge.de/ernaehrungspraxis/vollwertige-ernaehrung/10-regeln-der-dge/?L=0",
+   "note": "100 g cooked from 125 g raw is the lower DGE meat portion."
+  },
+  {
+   "key": "kalbsbrust",
+   "verdict": "confirmed",
+   "source": "DGE, 10 Regeln der DGE (a meat portion is 100 to 150 g)",
+   "url": "https://www.dge.de/ernaehrungspraxis/vollwertige-ernaehrung/10-regeln-der-dge/?L=0",
+   "note": "180 g raw breast with its bone and fat cooks down to about 120 to 150 g of meat, the DGE portion."
+  },
+  {
+   "key": "kalbsfilet",
+   "verdict": "confirmed",
+   "source": "DGE, 10 Regeln der DGE (a meat portion is 100 to 150 g)",
+   "url": "https://www.dge.de/ernaehrungspraxis/vollwertige-ernaehrung/10-regeln-der-dge/?L=0",
+   "note": "150 g raw cooks down to about 120 g, the DGE meat portion."
+  },
+  {
+   "key": "kidney ox stewed",
+   "verdict": "confirmed",
+   "source": "DGE, 10 Regeln der DGE (a meat portion is 100 to 150 g)",
+   "url": "https://www.dge.de/ernaehrungspraxis/vollwertige-ernaehrung/10-regeln-der-dge/?L=0",
+   "note": "120 g is the DGE meat portion."
+  },
+  {
+   "key": "kidneybohnen",
+   "verdict": "confirmed",
+   "source": "dm, dmBio Kidneybohnen (400 g can, 240 g drained)",
+   "url": "https://www.dm.de/p/d/1635195/dmbio-kidneybohnen",
+   "note": "A can drains to 240 to 255 g, so half a can is 120 to 128 g."
+  },
+  {
+   "key": "kimchi",
+   "verdict": "confirmed",
+   "source": "Wikifit, Kimchi scharf (1 Portion 50 g)",
+   "url": "https://www.wikifit.de/kalorientabelle/sonstiges/kimchi-scharf",
+   "note": "Korean serving studies count 50 g of cabbage kimchi as a side."
+  },
+  {
+   "key": "knackwurst",
+   "verdict": "confirmed",
+   "source": "Yumda Lexikon, Knackwurst (a Knacker weighs 100 to 120 g, Frankfurter Knackwürstchen 80 to 120 g)",
+   "url": "https://www.yumda.com/de/lexikon/Knackwurst.html",
+   "note": "100 g is the usual Knacker."
+  },
+  {
+   "key": "kohlrabi boiled",
+   "verdict": "confirmed",
+   "source": "Verbraucherfenster Hessen, portion of vegetables (generic)",
+   "url": "https://verbraucherfenster.hessen.de/ernaehrung/essen-trinken/bunt-und-gesund-wie-viel-portionen-obst-und-gemuese-taeglich",
+   "note": "A vegetable portion is 100 to 150 g, raw or cooked; 150 g sits in that range."
+  },
+  {
+   "key": "kohlrabi raw",
+   "verdict": "confirmed",
+   "source": "Verbraucherfenster Hessen, portion of vegetables (generic)",
+   "url": "https://verbraucherfenster.hessen.de/ernaehrung/essen-trinken/bunt-und-gesund-wie-viel-portionen-obst-und-gemuese-taeglich",
+   "note": "A vegetable portion is 100 to 150 g, raw or cooked; 140 g sits in that range."
+  },
+  {
+   "key": "kolsch",
+   "verdict": "confirmed",
+   "source": "Leinetal24, Die Magie der Stange (a Kölsch Stange is calibrated at 0.2 l)",
+   "url": "https://www.leinetal24.de/welt/die-magie-der-stange-warum-koelsch-mehr-ist-als-nur-ein-bier-zr-93679482.html",
+   "note": "The Stange holds 0.2 l to the line."
+  },
+  {
+   "key": "kombu dried",
+   "verdict": "confirmed",
+   "source": "Kikkoman, How to make dashi (10 g of kombu is a 3 by 25 cm piece)",
+   "url": "https://www.kikkoman.com/en/cookbook/basic/dashi/konbu.html",
+   "note": "A 10 cm length of a kombu strip is 4 to 5 g (Slowood counts a strip as 5 g)."
+  },
+  {
+   "key": "korn",
+   "verdict": "confirmed",
+   "source": "alleantworten.de, Schnapsglas norm (2 cl single, 4 cl double measure)",
+   "url": "https://alleantworten.de/wie-viel-cl-hat-ein-ikea-schnapsglas",
+   "note": "A Korn is poured as a 2 cl measure."
+  },
+  {
+   "key": "mulberries",
+   "verdict": "confirmed",
+   "source": "Utopia, 5 Portionen Obst und Gemüse am Tag (the DGE counts 110 g a portion; a handful is 110 to 170 g)",
+   "url": "https://utopia.de/ratgeber/5-portionen-obst-und-gemuese-am-tag-die-who-empfiehlt-etwas-anderes-v4_742387/",
+   "note": "A bowl of berries, 100 g, is within 20 % of the 110 g fruit portion."
+  },
+  {
+   "key": "mulled wine",
+   "verdict": "confirmed",
+   "source": "Christmas market mugs (Glühweinbecher are 0.2 l with a fill line)",
+   "url": "https://www.ebay.de/itm/135402070251",
+   "note": "The market mug is poured to 0.2 l; 250 ml mugs exist."
+  },
+  {
+   "key": "multigrain bread",
+   "verdict": "confirmed",
+   "source": "fatsecret, Peter & Paul Mehrkornbrot (1 Scheibe 45.5 g)",
+   "url": "https://www.fatsecret.de/Kalorien-Ern%C3%A4hrung/peter-paul/mehrkornbrot/1-scheibe",
+   "note": "Sliced multigrain loaves give 40 to 55 g a slice."
+  },
+  {
+   "key": "multigrain flakes",
+   "verdict": "confirmed",
+   "source": "fatsecret, Müsli (1 Portion 55 g)",
+   "url": "https://www.fatsecret.de/Kalorien-Ern%C3%A4hrung/Allgemein/m%C3%BCsli",
+   "note": "A bowl of cereal flakes is 50 to 55 g."
+  },
+  {
+   "key": "multigrain roll",
+   "verdict": "confirmed",
+   "source": "Wikifit, Brötchen Weizen (nutrition tables count a roll as 60 g)",
+   "url": "https://www.wikifit.de/kalorientabelle/brot/broetchen-(weizen)",
+   "note": "Grain rolls weigh 60 to 70 g; 65 g matches."
+  },
+  {
+   "key": "multigrain toast",
+   "verdict": "confirmed",
+   "source": "Wikifit, Mehrkorntoast (1 Scheibe 25 g)",
+   "url": "https://www.wikifit.de/kalorientabelle/brot/mehrkorntoast",
+   "note": "Golden Toast slices are 25 g as well."
+  },
+  {
+   "key": "multigrain toast toasted",
+   "verdict": "confirmed",
+   "source": "Wikifit, Mehrkorntoast (1 Scheibe 25 g)",
+   "url": "https://www.wikifit.de/kalorientabelle/brot/mehrkorntoast",
+   "note": "A 25 g slice loses about a tenth of its water in the toaster."
+  },
+  {
+   "key": "onion powder",
+   "verdict": "no-reference",
+   "source": "",
+   "url": null,
+   "note": "No source weighs a teaspoon of onion powder; USDA gives 2.4 g. The drafted 2.5 g stays."
+  },
+  {
+   "key": "oxtail braised",
+   "verdict": "confirmed",
+   "source": "DGE, 10 Regeln der DGE (a meat portion is 100 to 150 g)",
+   "url": "https://www.dge.de/ernaehrungspraxis/vollwertige-ernaehrung/10-regeln-der-dge/?L=0",
+   "note": "150 g of meat off the bone is the upper DGE meat portion."
+  },
+  {
+   "key": "plain yogurt 0 1 fat",
+   "verdict": "confirmed",
+   "source": "Küchenfibel, Wie viel Joghurt rechnet man pro Person (a portion is 150 g)",
+   "url": "https://www.kuechenfibel.de/faq/wie-viel-joghurt-rechnet-man-pro-person",
+   "note": "The German yogurt cup is 150 g."
+  },
+  {
+   "key": "plum butter",
+   "verdict": "confirmed",
+   "source": "Wikifit, Marmelade light (1 Löffel 20 g)",
+   "url": "https://www.wikifit.de/kalorientabelle/marmelade/marmelade-light",
+   "note": "A tablespoon of a fruit spread is 20 g."
+  },
+  {
+   "key": "plum cake",
+   "verdict": "no-reference",
+   "source": "",
+   "url": null,
+   "note": "Sheet recipes cut 20 to 24 pieces without a weight; Arise estimates 205 g a portion. The drafted 120 g stays."
+  },
+  {
+   "key": "pointed cabbage cooked",
+   "verdict": "confirmed",
+   "source": "Verbraucherfenster Hessen, portion of vegetables (generic)",
+   "url": "https://verbraucherfenster.hessen.de/ernaehrung/essen-trinken/bunt-und-gesund-wie-viel-portionen-obst-und-gemuese-taeglich",
+   "note": "A vegetable portion is 100 to 150 g, raw or cooked; 140 g sits in that range."
+  },
+  {
+   "key": "pointed cabbage raw",
+   "verdict": "confirmed",
+   "source": "Verbraucherfenster Hessen, portion of vegetables (generic)",
+   "url": "https://verbraucherfenster.hessen.de/ernaehrung/essen-trinken/bunt-und-gesund-wie-viel-portionen-obst-und-gemuese-taeglich",
+   "note": "A vegetable portion is 100 to 150 g, raw or cooked; 140 g sits in that range."
+  },
+  {
+   "key": "polenta",
+   "verdict": "confirmed",
+   "source": "Miss Vickie, Polenta per person calculator (45 g dry for a side, 75 g for a main, cooked in four parts liquid)",
+   "url": "https://missvickie.com/polenta-amount-calculator/",
+   "note": "45 g of dry polenta in four parts liquid gives about 225 g of soft polenta; 200 g is within 20 %."
+  },
+  {
+   "key": "polenta cooked",
+   "verdict": "confirmed",
+   "source": "Miss Vickie, Polenta per person calculator (45 g dry for a side, 75 g for a main, cooked in four parts liquid)",
+   "url": "https://missvickie.com/polenta-amount-calculator/",
+   "note": "A side of 45 g dry gives about 225 g; a plate of 250 g is within 20 %."
+  },
+  {
+   "key": "polenta raw",
+   "verdict": "confirmed",
+   "source": "Miss Vickie, Polenta per person calculator (45 g dry for a side, 75 g for a main, cooked in four parts liquid)",
+   "url": "https://missvickie.com/polenta-amount-calculator/",
+   "note": "60 g lies between the side and the main portion of dry polenta."
+  },
+  {
+   "key": "pollock raw",
+   "verdict": "confirmed",
+   "source": "Lecker, Kabeljau in Eihülle (4 fillets of 150 g for four)",
+   "url": "https://www.lecker.de/kabeljau-in-eihuelle-127542.html",
+   "note": "A white fish fillet portion is 150 g raw."
+  },
+  {
+   "key": "pomelo",
+   "verdict": "confirmed",
+   "source": "Utopia, 5 Portionen Obst und Gemüse am Tag (the DGE counts 110 g a portion; a handful is 110 to 170 g)",
+   "url": "https://utopia.de/ratgeber/5-portionen-obst-und-gemuese-am-tag-die-who-empfiehlt-etwas-anderes-v4_742387/",
+   "note": "A few pomelo segments, 150 g, are a handful of fruit."
+  },
+  {
+   "key": "popcorn",
+   "verdict": "no-reference",
+   "source": "",
+   "url": null,
+   "note": "No German source gives a bowl weight; only cinema sizes (145 g small) from a forum page. The drafted 30 g stays."
+  },
+  {
+   "key": "poppy seed roll",
+   "verdict": "confirmed",
+   "source": "Wikifit, Brötchen Weizen (nutrition tables count a roll as 60 g)",
+   "url": "https://www.wikifit.de/kalorientabelle/brot/broetchen-(weizen)",
+   "note": "A roll is 50 to 60 g."
+  },
+  {
+   "key": "poppy seed swirl",
+   "verdict": "corrected",
+   "source": "Knuspr, Exner Mohnschnecke (140 g)",
+   "url": "https://www.knuspr.de/en-DE/92986-exner-poppy-snail",
+   "note": "Bakery Mohnschnecken weigh 140 g (Exner, Pappert); the drafted 90 g is 36 % below.",
+   "proposed": {
+    "gramsPerUnit": 140,
+    "typical": 1
+   }
+  },
+  {
+   "key": "poppy seeds",
+   "verdict": "no-reference",
+   "source": "",
+   "url": null,
+   "note": "No source weighs a tablespoon of poppy seeds (about 8 to 10 g heaped). The drafted 9 g stays."
+  },
+  {
+   "key": "porcini dried",
+   "verdict": "confirmed",
+   "source": "Apotheken Umschau, Gemüse-Risotto (40 g dried porcini for four)",
+   "url": "https://www.apotheken-umschau.de/gesund-bleiben/ernaehrung/rezepte/gemuese-risotto-738445.html",
+   "note": "Risottos use 6 to 15 g of dried porcini a person; 10 g is the middle."
+  },
+  {
+   "key": "porcini mushroom stewed",
+   "verdict": "confirmed",
+   "source": "Wikifit, Champignons (1 Portion 100 g)",
+   "url": "https://www.wikifit.de/kalorientabelle/pilze/champignons-165807-8zk",
+   "note": "A mushroom side is 100 to 150 g; 125 g sits in that range."
+  },
+  {
+   "key": "porcini raw",
+   "verdict": "confirmed",
+   "source": "Wikifit, Champignons (1 Portion 100 g)",
+   "url": "https://www.wikifit.de/kalorientabelle/pilze/champignons-165807-8zk",
+   "note": "A mushroom side is 100 to 150 g."
+  },
+  {
+   "key": "pork belly boiled",
+   "verdict": "confirmed",
+   "source": "DGE, 10 Regeln der DGE (a meat portion is 100 to 150 g)",
+   "url": "https://www.dge.de/ernaehrungspraxis/vollwertige-ernaehrung/10-regeln-der-dge/?L=0",
+   "note": "150 g of Wellfleisch is the upper DGE meat portion."
+  },
+  {
+   "key": "pudding rice raw",
+   "verdict": "confirmed",
+   "source": "REWE, Milchreis Grundrezept (250 g rice to a litre of milk, about 50 g a portion)",
+   "url": "https://www.rewe.de/rezepte/milchreis-grundrezept/",
+   "note": "A four-person pot uses 250 g, 62 g each; 60 g is within range."
+  },
+  {
+   "key": "puff pastry",
+   "verdict": "confirmed",
+   "source": "Lecker, Apfeltaschen (a chilled puff pastry sheet is 275 to 280 g)",
+   "url": "https://www.lecker.de/apfeltaschen",
+   "note": "A quarter sheet is 70 g."
+  },
+  {
+   "key": "puffed quinoa",
+   "verdict": "confirmed",
+   "source": "fddb, Werz Reis gepufft ungesüßt (Portion 30 g)",
+   "url": "https://fddb.info/db/de/lebensmittel/werz_naturkorn_muehle_reis_gepufft_ungesuesst/index.html",
+   "note": "No quinoa-specific portion was found; puffed cereals are counted by the 30 g bowl, a few spoonfuls on muesli."
+  },
+  {
+   "key": "puffed rice",
+   "verdict": "confirmed",
+   "source": "fddb, Werz Reis gepufft ungesüßt (Portion 30 g)",
+   "url": "https://fddb.info/db/de/lebensmittel/werz_naturkorn_muehle_reis_gepufft_ungesuesst/index.html",
+   "note": "A bowl of puffed cereal is 30 g."
+  },
+  {
+   "key": "puffed wheat",
+   "verdict": "confirmed",
+   "source": "fddb, Werz Reis gepufft ungesüßt (Portion 30 g)",
+   "url": "https://fddb.info/db/de/lebensmittel/werz_naturkorn_muehle_reis_gepufft_ungesuesst/index.html",
+   "note": "No wheat-specific portion was found; puffed cereals are counted by the 30 g bowl."
+  },
+  {
+   "key": "pumpernickel",
+   "verdict": "confirmed",
+   "source": "Wikifit, Pumpernickel (1 Scheibe 42 g)",
+   "url": "https://www.wikifit.de/kalorientabelle/brot/pumpernickel-13",
+   "note": "Pre-cut slices weigh 26 to 42 g; 45 g is within 20 % of the thick slice."
+  },
+  {
+   "key": "pumpkin",
+   "verdict": "confirmed",
+   "source": "Verbraucherfenster Hessen, portion of vegetables (generic)",
+   "url": "https://verbraucherfenster.hessen.de/ernaehrung/essen-trinken/bunt-und-gesund-wie-viel-portionen-obst-und-gemuese-taeglich",
+   "note": "A vegetable portion is 100 to 150 g, raw or cooked; 150 g sits in that range."
+  },
+  {
+   "key": "pumpkin cooked",
+   "verdict": "confirmed",
+   "source": "Verbraucherfenster Hessen, portion of vegetables (generic)",
+   "url": "https://verbraucherfenster.hessen.de/ernaehrung/essen-trinken/bunt-und-gesund-wie-viel-portionen-obst-und-gemuese-taeglich",
+   "note": "A vegetable portion is 100 to 150 g, raw or cooked; 140 g sits in that range."
+  },
+  {
+   "key": "pumpkin pie",
+   "verdict": "confirmed",
+   "source": "GAYA, Calories in pumpkin pie (1 piece, 1/8 of a 9 inch pie, 155 g)",
+   "url": "https://www.trygaya.com/calories-in/pumpkin-pie",
+   "note": "A regular slice is 125 to 155 g; 150 g matches the USDA piece."
+  },
+  {
+   "key": "quail roasted",
+   "verdict": "confirmed",
+   "source": "Küchengötter, Gefüllte Wachteln (a dressed quail weighs 180 to 200 g)",
+   "url": "https://www.kuechengoetter.de/rezepte/download/Gefuellte-Wachteln-3536.pdf",
+   "note": "About half of a dressed bird is meat, 85 to 95 g; 75 g eaten is within 20 %."
+  },
+  {
+   "key": "quark 20 fat in dry matter",
+   "verdict": "confirmed",
+   "source": "Verbraucherzentrale Baden-Württemberg, Eiweißkarten (a portion of quark is 150 g)",
+   "url": "https://www.verbraucherzentrale-bawue.de/sites/default/files/2023-08/eiweisskarten_tierisch_komplett.pdf",
+   "note": "A bowl of quark is 150 g; the 250 g tub is a milk portion."
+  },
+  {
+   "key": "quark 40 fat in dry matter",
+   "verdict": "confirmed",
+   "source": "Verbraucherzentrale Baden-Württemberg, Eiweißkarten (a portion of quark is 150 g)",
+   "url": "https://www.verbraucherzentrale-bawue.de/sites/default/files/2023-08/eiweisskarten_tierisch_komplett.pdf",
+   "note": "A dessert serving of 125 g lies between the 113 g table portion and the 150 g bowl."
+  },
+  {
+   "key": "quark balls",
+   "verdict": "no-reference",
+   "source": "",
+   "url": null,
+   "note": "Recipes make 10 to 40 g balls and no bakery states a weight. The drafted 20 g stays."
+  },
+  {
+   "key": "quark cream cake",
+   "verdict": "confirmed",
+   "source": "fatsecret, Käsesahnetorte (1 Portion 120 g)",
+   "url": "https://www.fatsecret.de/Kalorien-Ern%C3%A4hrung/Allgemein/k%C3%A4sesahnetorte",
+   "note": "A twelfth of a 26 cm Torte is about 120 g; 130 g is within 20 %."
+  },
+  {
+   "key": "quark strudel",
+   "verdict": "confirmed",
+   "source": "Resch & Frisch, Omas Apfelstrudel portioniert (170 g a piece)",
+   "url": "https://www.resch-frisch.com/gastronomie/media/pdf/datasheets/1042149/de/1042149-omas-apfelstrudel-portioniert-27x170g--1.pdf",
+   "note": "A strudel piece is 135 to 170 g; 150 g is within 20 %."
+  },
+  {
+   "key": "queso fresco",
+   "verdict": "confirmed",
+   "source": "Cacique, Ranchero Queso Fresco (serving size 1 oz, 28 g)",
+   "url": "https://www.caciquefoods.com/?p=7224",
+   "note": "The label serving of crumbling cheese is 28 g."
+  },
+  {
+   "key": "quiche lorraine",
+   "verdict": "no-reference",
+   "source": "",
+   "url": null,
+   "note": "Recipes cut a 26 cm quiche into 8 to 12 pieces without a weight (about 125 g an eighth of a 1 kg quiche). The drafted 150 g stays."
+  },
+  {
+   "key": "quince",
+   "verdict": "confirmed",
+   "source": "Utopia, 5 Portionen Obst und Gemüse am Tag (the DGE counts 110 g a portion; a handful is 110 to 170 g)",
+   "url": "https://utopia.de/ratgeber/5-portionen-obst-und-gemuese-am-tag-die-who-empfiehlt-etwas-anderes-v4_742387/",
+   "note": "A fruit portion of 125 g is within range."
+  },
+  {
+   "key": "quinoa raw",
+   "verdict": "confirmed",
+   "source": "Stuttgarter Zeitung, Wie viel Reis pro Person (60 to 75 g raw for a side, 100 to 120 g for a main)",
+   "url": "https://www.stuttgarter-zeitung.de/wissen/wie-viel-reis-pro-person-mhsd-79013939.html",
+   "note": "No quinoa-specific portion was found; a grain side is 60 to 75 g raw."
+  },
+  {
+   "key": "rabbit",
+   "verdict": "confirmed",
+   "source": "DGE, 10 Regeln der DGE (a meat portion is 100 to 150 g)",
+   "url": "https://www.dge.de/ernaehrungspraxis/vollwertige-ernaehrung/10-regeln-der-dge/?L=0",
+   "note": "150 g of cooked meat is the upper DGE meat portion."
+  },
+  {
+   "key": "ribeye steak raw",
+   "verdict": "confirmed",
+   "source": "Küchenfibel, Wie viel Steak pro Person (boneless 160 to 250 g, bone-in about 300 g)",
+   "url": "https://www.kuechenfibel.de/faq/wie-viel-steak-pro-person",
+   "note": "A ribeye is cut at 250 g, the top of the boneless range."
+  },
+  {
+   "key": "rice cakes",
+   "verdict": "confirmed",
+   "source": "GetFitCraft, Are rice cakes healthy (a plain rice cake weighs about 9 g, USDA)",
+   "url": "https://getfitcraft.com/de/blog/are-rice-cakes-healthy",
+   "note": "A rice cake is 8 to 9 g."
+  },
+  {
+   "key": "rice drink unsweetened",
+   "verdict": "confirmed",
+   "source": "DGE, Milch und Milchprodukte (a drinking glass of 200 to 250 ml)",
+   "url": "https://www.dge.de/gesunde-ernaehrung/gut-essen-und-trinken/dge-ernaehrungskreis/milch-und-milchprodukte/",
+   "note": "A regular drinking glass is 200 to 250 ml; the drafted 250 ml sits in that range."
+  },
+  {
+   "key": "rice flour",
+   "verdict": "confirmed",
+   "source": "inFranken, Küchenmaße umrechnen (1 EL flour level 10 g, heaped 15 g)",
+   "url": "https://www.infranken.de/ratgeber/genuss/rezepte/kuechenmasse-umrechnen-kochen-und-backen-mit-tassen-el-und-tl-art-6341270",
+   "note": "A level tablespoon of flour is 10 g."
+  },
+  {
+   "key": "rice milk",
+   "verdict": "confirmed",
+   "source": "DGE, Milch und Milchprodukte (a drinking glass of 200 to 250 ml)",
+   "url": "https://www.dge.de/gesunde-ernaehrung/gut-essen-und-trinken/dge-ernaehrungskreis/milch-und-milchprodukte/",
+   "note": "A regular drinking glass is 200 to 250 ml; the drafted 250 ml sits in that range."
+  },
+  {
+   "key": "rice noodles raw",
+   "verdict": "confirmed",
+   "source": "Ökotest, Wie viel Spaghetti pro Person (50 to 80 g dry as a side, 100 g as a main)",
+   "url": "https://www.oekotest.de/essen-trinken/Wie-viel-Spaghetti-pro-Person-So-viel-Gramm-sind-empfehlenswert_14457_1.html",
+   "note": "70 g of dry noodles lies between the side and the main portion."
+  },
+  {
+   "key": "rice paper",
+   "verdict": "confirmed",
+   "source": "Gourmet Versand, Rice paper 22 cm (48 sheets in 400 g, about 8 g each)",
+   "url": "https://gourmet-versand.com/en/article3068/rice-paper-medium-22cm-400g-48-sheets.html",
+   "note": "A 22 cm sheet is 8 to 10 g by thickness."
+  },
+  {
+   "key": "rice pudding sweetened with milk 3 5 fat",
+   "verdict": "confirmed",
+   "source": "REWE, Milchreis Grundrezept (250 g rice to a litre of milk for four)",
+   "url": "https://www.rewe.de/rezepte/milchreis-grundrezept/",
+   "note": "A quarter of the pot is about 300 g of pudding; a 200 g bowl is a smaller dessert serving, within the table's usual 200 to 250 g."
+  },
+  {
+   "key": "rice vinegar",
+   "verdict": "confirmed",
+   "source": "Omni Calculator, Esslöffel in Gramm (a tablespoon of a water-like liquid is 15 g)",
+   "url": "https://www.omnicalculator.com/de/umrechnungen/essloffel-in-gramm-umrechner",
+   "note": "Vinegar weighs like water, 15 g a tablespoon."
+  },
+  {
+   "key": "roast duck",
+   "verdict": "confirmed",
+   "source": "DGE, 10 Regeln der DGE (a meat portion is 100 to 150 g)",
+   "url": "https://www.dge.de/ernaehrungspraxis/vollwertige-ernaehrung/10-regeln-der-dge/?L=0",
+   "note": "150 g of cooked meat is the upper DGE meat portion."
+  },
+  {
+   "key": "roast goose",
+   "verdict": "confirmed",
+   "source": "DGE, 10 Regeln der DGE (a meat portion is 100 to 150 g)",
+   "url": "https://www.dge.de/ernaehrungspraxis/vollwertige-ernaehrung/10-regeln-der-dge/?L=0",
+   "note": "150 g of cooked meat is the upper DGE meat portion."
+  },
+  {
+   "key": "roast lamb",
+   "verdict": "confirmed",
+   "source": "DGE, 10 Regeln der DGE (a meat portion is 100 to 150 g)",
+   "url": "https://www.dge.de/ernaehrungspraxis/vollwertige-ernaehrung/10-regeln-der-dge/?L=0",
+   "note": "150 g of cooked meat is the upper DGE meat portion."
+  },
+  {
+   "key": "roast lamb shoulder",
+   "verdict": "confirmed",
+   "source": "DGE, 10 Regeln der DGE (a meat portion is 100 to 150 g)",
+   "url": "https://www.dge.de/ernaehrungspraxis/vollwertige-ernaehrung/10-regeln-der-dge/?L=0",
+   "note": "150 g of cooked meat is the upper DGE meat portion."
+  },
+  {
+   "key": "roast pork",
+   "verdict": "confirmed",
+   "source": "DGE, 10 Regeln der DGE (a meat portion is 100 to 150 g)",
+   "url": "https://www.dge.de/ernaehrungspraxis/vollwertige-ernaehrung/10-regeln-der-dge/?L=0",
+   "note": "150 g of cooked meat is the upper DGE meat portion."
+  },
+  {
+   "key": "roast pork with crackling",
+   "verdict": "confirmed",
+   "source": "DGE, 10 Regeln der DGE (a meat portion is 100 to 150 g)",
+   "url": "https://www.dge.de/ernaehrungspraxis/vollwertige-ernaehrung/10-regeln-der-dge/?L=0",
+   "note": "150 g of cooked meat is the upper DGE meat portion."
+  },
+  {
+   "key": "roast potatoes",
+   "verdict": "confirmed",
+   "source": "Payback Ratgeber, Kartoffeln für Bratkartoffeln (about 200 g of raw potatoes a person as a side)",
+   "url": "https://www.payback.de/ratgeber/essen-und-geniessen/kartoffeln-fuer-bratkartoffeln",
+   "note": "A potato side is 150 to 200 g raw; roast potatoes lose a little water, so 200 g is at the top."
+  },
+  {
+   "key": "roast veal",
+   "verdict": "confirmed",
+   "source": "DGE, 10 Regeln der DGE (a meat portion is 100 to 150 g)",
+   "url": "https://www.dge.de/ernaehrungspraxis/vollwertige-ernaehrung/10-regeln-der-dge/?L=0",
+   "note": "150 g of cooked meat is the upper DGE meat portion."
+  },
+  {
+   "key": "roasted green tea",
+   "verdict": "confirmed",
+   "source": "Musubi Kiln, Mino ware yunomi (170 ml)",
+   "url": "https://musubikiln.com/fr/products/blue-hake-mino-ware-yunomi-japanese-teacup",
+   "note": "Yunomi hold 150 to 270 ml; 200 ml is within 20 % of the common 170 ml cup."
+  },
+  {
+   "key": "roasted red pepper",
+   "verdict": "no-reference",
+   "source": "",
+   "url": null,
+   "note": "No German source weighs a bell pepper; USDA gives 119 g (medium) to 164 g (large), half of which is 60 to 80 g. The drafted 80 g stays."
+  },
+  {
+   "key": "saithe pollack breaded deep frozen deep fried",
+   "verdict": "confirmed",
+   "source": "REWE, Iglo Filegro Traditioneller Ofen-Backfisch 480 g (4 pieces, 120 g each with batter)",
+   "url": "https://www.rewe.de/shop/p/iglo-filegro-traditioneller-ofen-backfisch-480g/2818497",
+   "note": "A breaded frozen fillet is 120 g; 125 g matches."
+  },
+  {
+   "key": "saithe pollack fried without fat pan",
+   "verdict": "confirmed",
+   "source": "Lecker, Kabeljau in Eihülle (4 fillets of 150 g for four)",
+   "url": "https://www.lecker.de/kabeljau-in-eihuelle-127542.html",
+   "note": "A white fish fillet portion is 150 g."
+  },
+  {
+   "key": "saithe pollack stewed",
+   "verdict": "confirmed",
+   "source": "Lecker, Kabeljau in Eihülle (4 fillets of 150 g for four)",
+   "url": "https://www.lecker.de/kabeljau-in-eihuelle-127542.html",
+   "note": "A white fish fillet portion is 150 g."
+  },
+  {
+   "key": "salad cheese",
+   "verdict": "confirmed",
+   "source": "Arise, Salat mit Feta und Joghurt-Dressing (50 g feta on 100 g of leaves)",
+   "url": "https://www.arise-app.com/de/gericht/Salat-mit-Feta-und-Joghurt-Dressing",
+   "note": "Salads carry 50 to 100 g of feta as a main and about 40 g as a side; 40 g is within 20 % of the lighter amount."
+  },
+  {
+   "key": "salad cream",
+   "verdict": "confirmed",
+   "source": "StrongrFastr (USDA), Caesar dressing (a serving of 2 tablespoons is 30 g)",
+   "url": "https://www.strongrfastr.com/de/lebensmittel/molho-caesar-43015",
+   "note": "A tablespoon of a creamy dressing is 15 g."
+  },
+  {
+   "key": "salad mayonnaise",
+   "verdict": "confirmed",
+   "source": "StrongrFastr (USDA), Caesar dressing (a serving of 2 tablespoons is 30 g)",
+   "url": "https://www.strongrfastr.com/de/lebensmittel/molho-caesar-43015",
+   "note": "A tablespoon of mayonnaise is 14 to 15 g."
+  },
+  {
+   "key": "salami",
+   "verdict": "confirmed",
+   "source": "fddb, Metzger Salami (kleine Scheibe 6 g)",
+   "url": "https://fddb.mobi/de/metzger_salami.html",
+   "note": "Thin salami slices are 6 to 8 g (Dulano 7 g, Kaufland 8 g); wafer-thin packs reach 2 g."
+  },
+  {
+   "key": "salbei",
+   "verdict": "confirmed",
+   "source": "StrongrFastr (USDA), Basilikum getrocknet (1 tsp leaves = 0.7 g)",
+   "url": "https://www.strongrfastr.com/de/lebensmittel/basilikum-2003",
+   "note": "A teaspoon of a dried leaf herb is 0.7 to 1 g."
+  },
+  {
+   "key": "salmon canned",
+   "verdict": "no-reference",
+   "source": "",
+   "url": null,
+   "note": "No source states the drained weight of the 213 g or 170 g tins. The drafted 150 g (FNDDS small can) stays."
+  },
+  {
+   "key": "seasoned salt",
+   "verdict": "no-reference",
+   "source": "",
+   "url": null,
+   "note": "A level teaspoon of plain salt is 5 to 6 g and herb salt is lighter, but no source weighs it. The drafted 3 g stays."
+  },
+  {
+   "key": "seitan",
+   "verdict": "confirmed",
+   "source": "DGE, 10 Regeln der DGE (a meat portion is 100 to 150 g)",
+   "url": "https://www.dge.de/ernaehrungspraxis/vollwertige-ernaehrung/10-regeln-der-dge/?L=0",
+   "note": "Seitan stands in for meat; 100 g is the lower DGE meat portion."
+  },
+  {
+   "key": "self raising flour",
+   "verdict": "confirmed",
+   "source": "inFranken, Küchenmaße umrechnen (1 EL flour level 10 g, heaped 15 g)",
+   "url": "https://www.infranken.de/ratgeber/genuss/rezepte/kuechenmasse-umrechnen-kochen-und-backen-mit-tassen-el-und-tl-art-6341270",
+   "note": "A level tablespoon of flour is 10 g; 9 g is within range."
+  },
+  {
+   "key": "semolina dumplings boiled",
+   "verdict": "no-reference",
+   "source": "",
+   "url": null,
+   "note": "Recipes shape 24 dumplings from about 500 g of dough, roughly 20 g each, but no source weighs one. The drafted 15 g stays."
+  },
+  {
+   "key": "semolina pudding",
+   "verdict": "confirmed",
+   "source": "Lecker, Grießbrei kochen, Omas Grundrezept (800 ml milk and 80 g semolina for four)",
+   "url": "https://www.lecker.de/griessbrei-kochen-omas-grundrezept-84262.html",
+   "note": "A bowl is about 220 g; 200 g is within 20 %."
+  },
+  {
+   "key": "semolina raw",
+   "verdict": "corrected",
+   "source": "Wikibooks Kochbuch, Grießbrei (125 g semolina to a litre of milk for four)",
+   "url": "https://de.wikibooks.org/wiki/Kochbuch/_Grie%C3%9Fbrei",
+   "note": "Recipes use 20 to 31 g of semolina a person; the drafted 40 g is 29 % above the thickest.",
+   "proposed": {
+    "gramsPerUnit": 30,
+    "typical": 1
+   }
+  },
+  {
+   "key": "sesame roll",
+   "verdict": "confirmed",
+   "source": "Wikifit, Brötchen Weizen (nutrition tables count a roll as 60 g)",
+   "url": "https://www.wikifit.de/kalorientabelle/brot/broetchen-(weizen)",
+   "note": "A roll is 50 to 60 g."
+  },
+  {
+   "key": "sesame seeds",
+   "verdict": "confirmed",
+   "source": "Chefsolver, Sesame seeds, tablespoons to grams (1 tbsp whole seeds 9 g)",
+   "url": "https://chefsolver.com/en/convert/sesame_seeds/tbsp-to-grams/",
+   "note": "A tablespoon of whole sesame is 9 g; toasted seeds are counted at 12 to 15 g."
+  },
+  {
+   "key": "shallot",
+   "verdict": "confirmed",
+   "source": "REWE Lexikon, Schalotte (a shallot weighs 30 to 50 g)",
+   "url": "https://www.rewe.de/lexikon/schalotte/",
+   "note": "A medium shallot is 25 to 30 g peeled; 25 g is within 20 % of the lower REWE figure."
+  },
+  {
+   "key": "shashlik with pork grilled",
+   "verdict": "no-reference",
+   "source": "",
+   "url": null,
+   "note": "No source weighs a Schaschlik skewer; guides count 2 to 3 skewers a person without sides. The drafted 150 g stays."
+  },
+  {
+   "key": "somen",
+   "verdict": "confirmed",
+   "source": "Kamada, Somen recipe (200 g dried somen is about 4 bundles, 50 g each)",
+   "url": "https://www.kamada.co.jp/global/recipe/23?lang=en",
+   "note": "Two 50 g bundles, 100 g dry, boil to about 250 g."
+  },
+  {
+   "key": "spaghetti carbonara",
+   "verdict": "confirmed",
+   "source": "Tesco, Shepherd's Pie 400 g (a single-serve ready meal tray)",
+   "url": "https://www.tesco.com/groceries/en-GB/products/303182147",
+   "note": "Ready meal trays hold 400 g, and German tables count a plate of pasta at 400 g."
+  },
+  {
+   "key": "sparkling water",
+   "verdict": "confirmed",
+   "source": "DGE, Milch und Milchprodukte (a drinking glass of 200 to 250 ml)",
+   "url": "https://www.dge.de/gesunde-ernaehrung/gut-essen-und-trinken/dge-ernaehrungskreis/milch-und-milchprodukte/",
+   "note": "A regular drinking glass is 200 to 250 ml; the drafted 250 ml sits in that range."
+  },
+  {
+   "key": "sparkling wine",
+   "verdict": "confirmed",
+   "source": "Leonardo, Sektgläser geeicht Puccini Gastro-Edition (calibrated at 0.1 l)",
+   "url": "https://www.galaxus.de/en/s2/product/leonardo-sektglaeser-geeicht-puccini-gastro-edition-10-cl-6-glasses-champagne-glasses-wine-glass-38913900",
+   "note": "A Sekt flute is poured to the 0.1 l line."
+  },
+  {
+   "key": "speculoos",
+   "verdict": "confirmed",
+   "source": "Wikifit, Monarc Gewürzspekulatius (1 Stück 10 g)",
+   "url": "https://www.wikifit.de/kalorientabelle/kekse/gewuerzspekulatius-1",
+   "note": "A Spekulatius is 6 g (thin classic) to 12 g (Favorina); 10 g is the common one."
+  },
+  {
+   "key": "spelt bread",
+   "verdict": "confirmed",
+   "source": "fatsecret, Peter & Paul Mehrkornbrot (1 Scheibe 45.5 g)",
+   "url": "https://www.fatsecret.de/Kalorien-Ern%C3%A4hrung/peter-paul/mehrkornbrot/1-scheibe",
+   "note": "A slice of a sliced wholegrain loaf is 40 to 55 g."
+  },
+  {
+   "key": "spelt cooked",
+   "verdict": "confirmed",
+   "source": "REWE, Ben's Original Basmati-Reis (a portion of 160 g cooked from 62.5 g dry)",
+   "url": "https://www.rewe.de/shop/p/ben-s-original-basmati-reis-500g/1111914",
+   "note": "No spelt-specific portion was found; a cooked grain side is about 160 g, and 180 g is within 20 %."
+  },
+  {
+   "key": "spelt flakes",
+   "verdict": "confirmed",
+   "source": "fatsecret, Müsli (1 Portion 55 g)",
+   "url": "https://www.fatsecret.de/Kalorien-Ern%C3%A4hrung/Allgemein/m%C3%BCsli",
+   "note": "A bowl of flakes is 50 to 55 g."
+  },
+  {
+   "key": "spelt flour type 1050",
+   "verdict": "confirmed",
+   "source": "inFranken, Küchenmaße umrechnen (1 EL flour level 10 g, heaped 15 g)",
+   "url": "https://www.infranken.de/ratgeber/genuss/rezepte/kuechenmasse-umrechnen-kochen-und-backen-mit-tassen-el-und-tl-art-6341270",
+   "note": "A level tablespoon of flour is 10 g; 9 g is within range."
+  },
+  {
+   "key": "spelt flour type 630",
+   "verdict": "confirmed",
+   "source": "inFranken, Küchenmaße umrechnen (1 EL flour level 10 g, heaped 15 g)",
+   "url": "https://www.infranken.de/ratgeber/genuss/rezepte/kuechenmasse-umrechnen-kochen-und-backen-mit-tassen-el-und-tl-art-6341270",
+   "note": "A level tablespoon of flour is 10 g; 9 g is within range."
+  },
+  {
+   "key": "yogurt dressing",
+   "verdict": "confirmed",
+   "source": "StrongrFastr (USDA), Caesar dressing (a serving of 2 tablespoons is 30 g)",
+   "url": "https://www.strongrfastr.com/de/lebensmittel/molho-caesar-43015",
+   "note": "A tablespoon of dressing is 15 g."
+  },
+  {
+   "key": "yogurt fruit",
+   "verdict": "confirmed",
+   "source": "Küchenfibel, Wie viel Joghurt rechnet man pro Person (a portion is 150 g)",
+   "url": "https://www.kuechenfibel.de/faq/wie-viel-joghurt-rechnet-man-pro-person",
+   "note": "The German yogurt cup is 150 g."
+  },
+  {
+   "key": "yogurt low fat min 1 5 to max 1 8 fat",
+   "verdict": "confirmed",
+   "source": "Küchenfibel, Wie viel Joghurt rechnet man pro Person (a portion is 150 g)",
+   "url": "https://www.kuechenfibel.de/faq/wie-viel-joghurt-rechnet-man-pro-person",
+   "note": "The German yogurt cup is 150 g."
+  },
+  {
+   "key": "yogurt vanilla",
+   "verdict": "confirmed",
+   "source": "Küchenfibel, Wie viel Joghurt rechnet man pro Person (a portion is 150 g)",
+   "url": "https://www.kuechenfibel.de/faq/wie-viel-joghurt-rechnet-man-pro-person",
+   "note": "The German yogurt cup is 150 g."
+  },
+  {
+   "key": "yogurt whole milk plain",
+   "verdict": "confirmed",
+   "source": "Küchenfibel, Wie viel Joghurt rechnet man pro Person (a portion is 150 g)",
+   "url": "https://www.kuechenfibel.de/faq/wie-viel-joghurt-rechnet-man-pro-person",
+   "note": "The German yogurt cup is 150 g."
+  },
+  {
+   "key": "yorkshire pudding",
+   "verdict": "confirmed",
+   "source": "Sainsbury's, Aunt Bessie's Carvery Style Yorkshires (4 in 220 g, 55 g each); the 12-pack is 18 g each",
+   "url": "https://sainsburys.co.uk/groceries/product/aunt-bessie-s-carvery-style-yorkshires-x4-220g",
+   "note": "Yorkshires run from 18 g (small frozen) to 55 g (carvery); 40 g sits between."
+  },
+  {
+   "key": "yorkshire pudding made with whole milk",
+   "verdict": "confirmed",
+   "source": "Sainsbury's, Aunt Bessie's Carvery Style Yorkshires (4 in 220 g, 55 g each); the 12-pack is 18 g each",
+   "url": "https://sainsburys.co.uk/groceries/product/aunt-bessie-s-carvery-style-yorkshires-x4-220g",
+   "note": "Yorkshires run from 18 g to 55 g; 35 g sits between."
+  },
+  {
+   "key": "yuzu",
+   "verdict": "confirmed",
+   "source": "Omni Calculator, Esslöffel in Gramm (a tablespoon of a water-like liquid is 15 g)",
+   "url": "https://www.omnicalculator.com/de/umrechnungen/essloffel-in-gramm-umrechner",
+   "note": "Citrus juice weighs like water, 15 g a tablespoon."
+  },
+  {
+   "key": "zander raw",
+   "verdict": "confirmed",
+   "source": "Lecker, Kabeljau in Eihülle (4 fillets of 150 g for four)",
+   "url": "https://www.lecker.de/kabeljau-in-eihuelle-127542.html",
+   "note": "A fish fillet portion is 150 g raw."
+  }
+ ]
+}

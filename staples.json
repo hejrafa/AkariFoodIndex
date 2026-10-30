@@ -9879,6 +9879,351 @@
           }
         }
       ]
+    },
+    {
+      "key": "baby-food",
+      "en": "Baby food",
+      "de": "Babynahrung",
+      "staples": [
+        {
+          "en": "Infant formula, first stage",
+          "de": "Anfangsmilch (Pre)",
+          "rows": {
+            "powder": "ciqual:3000",
+            "prepared": "ciqual:19013"
+          }
+        },
+        {
+          "en": "Follow-on formula",
+          "de": "Folgemilch",
+          "rows": {
+            "prepared": "ciqual:19014"
+          }
+        },
+        {
+          "en": "Toddler milk",
+          "de": "Kindermilch",
+          "rows": {
+            "plain": "usda:2705547"
+          }
+        },
+        {
+          "en": "Baby cereal, oats",
+          "de": "Babybrei Hafer",
+          "rows": {
+            "dry": "usda:2708492",
+            "prepared": "usda:2708500"
+          }
+        },
+        {
+          "en": "Baby cereal, rice",
+          "de": "Babybrei Reis",
+          "rows": {
+            "dry": "usda:2708493",
+            "prepared": "usda:2708499"
+          }
+        },
+        {
+          "en": "Baby cereal, multigrain",
+          "de": "Babybrei Mehrkorn",
+          "rows": {
+            "dry": "usda:2708496",
+            "prepared": "usda:2708501"
+          }
+        },
+        {
+          "en": "Baby cereal",
+          "de": "Getreidebrei",
+          "rows": {
+            "dry": "usda:2708498"
+          }
+        },
+        {
+          "en": "Instant milk cereal",
+          "de": "Milchbrei-Pulver",
+          "rows": {
+            "from4Months": "ciqual:13167",
+            "from6Months": "ciqual:13168"
+          }
+        },
+        {
+          "en": "Milk cereal purée",
+          "de": "Milchbrei",
+          "rows": {
+            "plain": "bls:X9A2040"
+          }
+        },
+        {
+          "en": "Grain and fruit purée",
+          "de": "Getreide-Obst-Brei",
+          "rows": {
+            "plain": "bls:X9A2030"
+          }
+        },
+        {
+          "en": "Baby cereal milk drink",
+          "de": "Trinkbrei",
+          "rows": {
+            "plain": "ciqual:13182"
+          }
+        },
+        {
+          "en": "Vegetable purée",
+          "de": "Gemüsebrei",
+          "rows": {
+            "plain": "usda:2710117"
+          }
+        },
+        {
+          "en": "Carrot purée",
+          "de": "Karottenbrei",
+          "rows": {
+            "plain": "usda:2710118"
+          }
+        },
+        {
+          "en": "Pumpkin purée",
+          "de": "Kürbisbrei",
+          "rows": {
+            "plain": "usda:2710120"
+          }
+        },
+        {
+          "en": "Sweet potato purée",
+          "de": "Süßkartoffelbrei",
+          "rows": {
+            "plain": "bls:X6A2000"
+          }
+        },
+        {
+          "en": "Pea purée, baby",
+          "de": "Erbsenbrei, Baby",
+          "rows": {
+            "plain": "usda:2710131"
+          }
+        },
+        {
+          "en": "Green bean purée",
+          "de": "Grüne-Bohnen-Brei",
+          "rows": {
+            "plain": "usda:2710124"
+          }
+        },
+        {
+          "en": "Mixed vegetable purée",
+          "de": "Gemüse-Allerlei",
+          "rows": {
+            "plain": "usda:2710127"
+          }
+        },
+        {
+          "en": "Vegetable, potato and chicken purée",
+          "de": "Gemüse-Kartoffel-Hühnchen-Brei",
+          "rows": {
+            "plain": "bls:X5B1010"
+          }
+        },
+        {
+          "en": "Vegetable, potato and beef purée",
+          "de": "Gemüse-Kartoffel-Rind-Brei",
+          "rows": {
+            "plain": "bls:X5B1020"
+          }
+        },
+        {
+          "en": "Vegetable, potato and pork purée",
+          "de": "Gemüse-Kartoffel-Schwein-Brei",
+          "rows": {
+            "plain": "bls:X5B1030"
+          }
+        },
+        {
+          "en": "Vegetable, potato and salmon purée",
+          "de": "Gemüse-Kartoffel-Lachs-Brei",
+          "rows": {
+            "plain": "bls:X5B1000"
+          }
+        },
+        {
+          "en": "Potato and fennel purée",
+          "de": "Kartoffel-Fenchel-Brei",
+          "rows": {
+            "plain": "bls:X5B1100"
+          }
+        },
+        {
+          "en": "Potato and courgette purée",
+          "de": "Kartoffel-Zucchini-Brei",
+          "rows": {
+            "plain": "bls:X5B1140"
+          }
+        },
+        {
+          "en": "Potato and spinach purée",
+          "de": "Kartoffel-Spinat-Brei",
+          "rows": {
+            "plain": "bls:X5B1130"
+          }
+        },
+        {
+          "en": "Potato, carrot and pumpkin purée",
+          "de": "Kartoffel-Karotten-Kürbis-Brei",
+          "rows": {
+            "plain": "bls:X5B1110"
+          }
+        },
+        {
+          "en": "Potato, carrot and parsnip purée",
+          "de": "Kartoffel-Karotten-Pastinaken-Brei",
+          "rows": {
+            "plain": "bls:X5B1120"
+          }
+        },
+        {
+          "en": "Baby meal jar",
+          "de": "Menügläschen",
+          "rows": {
+            "from8Months": "ciqual:42604",
+            "from6Months": "ciqual:42603"
+          }
+        },
+        {
+          "en": "Fruit purée",
+          "de": "Obstbrei",
+          "rows": {
+            "plain": "usda:2709352"
+          }
+        },
+        {
+          "en": "Apple purée, baby",
+          "de": "Apfelbrei, Baby",
+          "rows": {
+            "plain": "usda:2709363"
+          }
+        },
+        {
+          "en": "Pear purée, baby",
+          "de": "Birnenbrei, Baby",
+          "rows": {
+            "plain": "usda:2709369"
+          }
+        },
+        {
+          "en": "Banana purée, baby",
+          "de": "Bananenbrei, Baby",
+          "rows": {
+            "plain": "usda:2709365"
+          }
+        },
+        {
+          "en": "Peach purée, baby",
+          "de": "Pfirsichbrei, Baby",
+          "rows": {
+            "plain": "usda:2709367"
+          }
+        },
+        {
+          "en": "Mango purée, baby",
+          "de": "Mangobrei, Baby",
+          "rows": {
+            "plain": "usda:2709372"
+          }
+        },
+        {
+          "en": "Mixed fruit purée, baby",
+          "de": "Früchte-Allerlei",
+          "rows": {
+            "plain": "usda:2709353"
+          }
+        },
+        {
+          "en": "Fruit and vegetable purée, baby",
+          "de": "Obst-Gemüse-Brei",
+          "rows": {
+            "plain": "usda:2709357"
+          }
+        },
+        {
+          "en": "Fruit purée with yogurt, baby",
+          "de": "Frucht & Joghurt",
+          "rows": {
+            "plain": "usda:2709356"
+          }
+        },
+        {
+          "en": "Baby yogurt",
+          "de": "Kinderjoghurt",
+          "rows": {
+            "plain": "usda:2705464",
+            "fruit": "usda:2705465"
+          }
+        },
+        {
+          "en": "Baby milk dessert",
+          "de": "Milchdessert, Baby",
+          "rows": {
+            "plain": "ciqual:13166",
+            "grain": "ciqual:13165"
+          }
+        },
+        {
+          "en": "Baby pudding",
+          "de": "Babypudding",
+          "rows": {
+            "plain": "usda:2709380"
+          }
+        },
+        {
+          "en": "Meat purée, baby",
+          "de": "Fleischbrei",
+          "rows": {
+            "plain": "usda:2705821"
+          }
+        },
+        {
+          "en": "Chicken purée, baby",
+          "de": "Hühnchenbrei",
+          "rows": {
+            "plain": "usda:2706151"
+          }
+        },
+        {
+          "en": "Turkey purée, baby",
+          "de": "Putenbrei",
+          "rows": {
+            "plain": "usda:2706152"
+          }
+        },
+        {
+          "en": "Beef purée, baby",
+          "de": "Rindfleischbrei",
+          "rows": {
+            "plain": "usda:2705861"
+          }
+        },
+        {
+          "en": "Baby juice",
+          "de": "Babysaft",
+          "rows": {
+            "plain": "usda:2709373",
+            "apple": "usda:2709374"
+          }
+        },
+        {
+          "en": "Baby biscuit",
+          "de": "Babykeks",
+          "rows": {
+            "plain": "usda:2708131"
+          }
+        },
+        {
+          "en": "Yogurt melts",
+          "de": "Joghurt-Drops",
+          "rows": {
+            "plain": "usda:2709381"
+          }
+        }
+      ]
     }
   ]
 }

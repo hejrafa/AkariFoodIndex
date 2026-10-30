@@ -24385,6 +24385,833 @@
         "Beef-Protein-Pulver",
         "Beef Protein Isolat"
       ]
+    },
+    {
+      "id": "ciqual:3000",
+      "ingredient": "Infant formula, powder",
+      "displayName": "Infant formula, powder",
+      "displayNameDE": "Säuglingsanfangsnahrung, Pulver",
+      "searchAliases": [
+        "Infant formula, first stage",
+        "Anfangsmilch (Pre)",
+        "Pre-Nahrung",
+        "Pre-Milch",
+        "Säuglingsanfangsnahrung",
+        "Anfangsnahrung",
+        "first infant milk",
+        "first milk",
+        "infant formula powder",
+        "Pre Milch"
+      ]
+    },
+    {
+      "id": "ciqual:19013",
+      "ingredient": "Infant formula, first stage, ready to drink",
+      "displayName": "Infant formula, first stage, ready to drink",
+      "displayNameDE": "Anfangsmilch, trinkfertig",
+      "searchAliases": [
+        "Säuglingsmilch",
+        "infant milk",
+        "baby milk",
+        "Babymilch",
+        "Fläschchenmilch",
+        "ready-to-feed formula",
+        "Babyfläschchen"
+      ]
+    },
+    {
+      "id": "ciqual:19014",
+      "ingredient": "Follow-on formula, ready to drink",
+      "displayName": "Follow-on formula, ready to drink",
+      "displayNameDE": "Folgemilch, trinkfertig",
+      "searchAliases": [
+        "Folgemilch",
+        "Follow-on formula",
+        "Folgenahrung",
+        "2er-Milch",
+        "Folgemilch 2",
+        "follow-on milk",
+        "stage 2 formula",
+        "second milk",
+        "Folgemilch 3"
+      ]
+    },
+    {
+      "id": "usda:2705547",
+      "ingredient": "Toddler formula, store brand, starter or next stage",
+      "displayName": "Toddler formula, store brand, starter or next stage",
+      "displayNameDE": "Kleinkindmilch, Handelsmarke, Start- oder Folgestufe",
+      "searchAliases": [
+        "Toddler milk",
+        "Kindermilch",
+        "toddler formula",
+        "growing-up milk",
+        "Kindermilch 1+",
+        "Kindermilch 2+",
+        "Milch für Kleinkinder"
+      ]
+    },
+    {
+      "id": "usda:2708492",
+      "ingredient": "Baby cereal, oatmeal, dry",
+      "displayName": "Baby cereal, oatmeal, dry",
+      "displayNameDE": "Baby-Getreidebrei, Hafer, Pulver",
+      "searchAliases": [
+        "Baby cereal, oats",
+        "Babybrei Hafer",
+        "oat baby cereal",
+        "Hafer-Getreidebrei",
+        "Babyhaferbrei",
+        "Hafer Babybrei Pulver"
+      ]
+    },
+    {
+      "id": "usda:2708500",
+      "ingredient": "Baby cereal, oatmeal, ready-to-eat",
+      "displayName": "Baby cereal, oatmeal, ready-to-eat",
+      "displayNameDE": "Baby-Getreidebrei, Hafer, verzehrfertig",
+      "searchAliases": [
+        "Baby cereal, oats, prepared",
+        "Babybrei Hafer, zubereitet",
+        "Haferbrei für Babys",
+        "prepared oat baby cereal"
+      ]
+    },
+    {
+      "id": "usda:2708493",
+      "ingredient": "Baby cereal, rice, dry",
+      "displayName": "Baby cereal, rice, dry",
+      "displayNameDE": "Baby-Getreidebrei, Reis, Pulver",
+      "searchAliases": [
+        "Baby cereal, rice",
+        "Babybrei Reis",
+        "rice baby cereal",
+        "Reisflocken Babybrei",
+        "Babyreisbrei Pulver",
+        "Reisbrei Pulver"
+      ]
+    },
+    {
+      "id": "usda:2708499",
+      "ingredient": "Baby cereal, rice, ready-to-eat",
+      "displayName": "Baby cereal, rice, ready-to-eat",
+      "displayNameDE": "Baby-Getreidebrei, Reis, verzehrfertig",
+      "searchAliases": [
+        "Baby cereal, rice, prepared",
+        "Babybrei Reis, zubereitet",
+        "Reisbrei für Babys",
+        "prepared rice baby cereal"
+      ]
+    },
+    {
+      "id": "usda:2708496",
+      "ingredient": "Baby cereal, multigrain, dry",
+      "displayName": "Baby cereal, multigrain, dry",
+      "displayNameDE": "Baby-Getreidebrei, Mehrkorn, Pulver",
+      "searchAliases": [
+        "Baby cereal, multigrain",
+        "Babybrei Mehrkorn",
+        "multigrain baby cereal",
+        "Mehrkornbrei Baby",
+        "7-Korn-Brei",
+        "Siebenkornbrei"
+      ]
+    },
+    {
+      "id": "usda:2708501",
+      "ingredient": "Baby cereal, multigrain, ready-to-eat",
+      "displayName": "Baby cereal, multigrain, ready-to-eat",
+      "displayNameDE": "Baby-Getreidebrei, Mehrkorn, verzehrfertig",
+      "searchAliases": [
+        "Baby cereal, multigrain, prepared",
+        "Babybrei Mehrkorn, zubereitet",
+        "Mehrkornbrei für Babys",
+        "prepared multigrain baby cereal"
+      ]
+    },
+    {
+      "id": "usda:2708498",
+      "ingredient": "Baby cereal, unspecified",
+      "displayName": "Baby cereal, unspecified",
+      "displayNameDE": "Baby-Getreidebrei, unspezifiziert",
+      "searchAliases": [
+        "Baby cereal",
+        "Getreidebrei",
+        "infant cereal",
+        "Babygetreidebrei",
+        "Getreidebrei Baby",
+        "Beikost Getreide",
+        "Getreide-Beikost"
+      ]
+    },
+    {
+      "id": "ciqual:13167",
+      "ingredient": "Instant baby cereal, powder, from 4–6 months",
+      "displayName": "Instant baby cereal, powder, from 4–6 months",
+      "displayNameDE": "Instant-Getreidebrei, Pulver, ab 4–6 Monaten",
+      "searchAliases": [
+        "Instant milk cereal",
+        "Milchbrei-Pulver",
+        "instant baby cereal",
+        "Instant-Milchbrei",
+        "Milchbrei Pulver",
+        "Instant-Getreidebrei",
+        "instant baby porridge"
+      ]
+    },
+    {
+      "id": "ciqual:13168",
+      "ingredient": "Instant baby cereal, powder, from 6 months",
+      "displayName": "Instant baby cereal, powder, from 6 months",
+      "displayNameDE": "Instant-Getreidebrei, Pulver, ab 6 Monaten",
+      "searchAliases": [
+        "Instant milk cereal, from 6 months",
+        "Milchbrei-Pulver, ab 6 Monaten",
+        "instant baby cereal from 6 months",
+        "Instant-Milchbrei ab 6 Monaten"
+      ]
+    },
+    {
+      "id": "bls:X9A2040",
+      "ingredient": "Baby milk and cereal puree, oats and apple juice",
+      "displayName": "Baby milk and cereal puree, oats and apple juice",
+      "displayNameDE": "Milch-Getreide-Brei, Hafer und Apfelsaft, Beikost",
+      "searchAliases": [
+        "Milk cereal purée",
+        "Milchbrei",
+        "Milch-Getreide-Brei",
+        "Abendbrei",
+        "Gute-Nacht-Brei",
+        "milk porridge baby",
+        "evening baby porridge",
+        "Babybrei Milch"
+      ]
+    },
+    {
+      "id": "bls:X9A2030",
+      "ingredient": "Baby cereal and fruit puree, oats and apple",
+      "displayName": "Baby cereal and fruit puree, oats and apple",
+      "displayNameDE": "Getreide-Obst-Brei, Hafer und Apfelmus, Beikost",
+      "searchAliases": [
+        "Grain and fruit purée",
+        "Getreide-Obst-Brei",
+        "Obst-Getreide-Brei",
+        "Nachmittagsbrei",
+        "fruit and grain baby purée",
+        "afternoon baby porridge",
+        "Babybrei Obst Getreide"
+      ]
+    },
+    {
+      "id": "ciqual:13182",
+      "ingredient": "Baby cereal milk drink, unspecified",
+      "displayName": "Baby cereal milk drink, unspecified",
+      "displayNameDE": "Baby-Milch-Getreide-Getränk, unspezifiziert",
+      "searchAliases": [
+        "Baby cereal milk drink",
+        "Trinkbrei",
+        "Milch-Getreide-Getränk",
+        "drinkable baby cereal",
+        "Trinkbrei Baby"
+      ]
+    },
+    {
+      "id": "usda:2710117",
+      "ingredient": "Baby food, vegetables, unspecified",
+      "displayName": "Baby food, vegetables, unspecified",
+      "displayNameDE": "Babybrei, Gemüse, unspezifiziert",
+      "searchAliases": [
+        "Vegetable purée",
+        "Gemüsebrei",
+        "Gemüsegläschen",
+        "vegetable baby food",
+        "Babybrei Gemüse",
+        "Gemüse pur",
+        "baby vegetable purée",
+        "Gemüse-Gläschen"
+      ]
+    },
+    {
+      "id": "usda:2710118",
+      "ingredient": "Baby food, carrots, stage 1",
+      "displayName": "Baby food, carrots, stage 1",
+      "displayNameDE": "Babybrei, Karotten, Stufe 1",
+      "searchAliases": [
+        "Carrot purée",
+        "Karottenbrei",
+        "Möhrenbrei",
+        "Karotten pur",
+        "Karotte pur",
+        "carrot baby food",
+        "Babybrei Karotte",
+        "Karottengläschen",
+        "Möhren pur"
+      ]
+    },
+    {
+      "id": "usda:2710120",
+      "ingredient": "Baby food, squash, stage 1",
+      "displayName": "Baby food, squash, stage 1",
+      "displayNameDE": "Babybrei, Kürbis, Stufe 1",
+      "searchAliases": [
+        "Pumpkin purée",
+        "Kürbisbrei",
+        "Kürbis pur",
+        "pumpkin baby food",
+        "Babybrei Kürbis",
+        "squash baby food"
+      ]
+    },
+    {
+      "id": "bls:X6A2000",
+      "ingredient": "Sweet potato puree, baby food, unsalted",
+      "displayName": "Sweet potato puree, baby food, unsalted",
+      "displayNameDE": "Süßkartoffelpüree, Beikost, ohne Salz",
+      "searchAliases": [
+        "Sweet potato purée",
+        "Süßkartoffelbrei",
+        "Süßkartoffel pur",
+        "sweet potato baby food",
+        "Babybrei Süßkartoffel"
+      ]
+    },
+    {
+      "id": "usda:2710131",
+      "ingredient": "Baby food, peas, stage 1",
+      "displayName": "Baby food, peas, stage 1",
+      "displayNameDE": "Babybrei, Erbsen, Stufe 1",
+      "searchAliases": [
+        "Erbsen pur",
+        "pea baby food",
+        "Babybrei Erbsen",
+        "Pea purée, baby",
+        "Erbsenbrei, Baby"
+      ]
+    },
+    {
+      "id": "usda:2710124",
+      "ingredient": "Baby food, green beans, stage 1",
+      "displayName": "Baby food, green beans, stage 1",
+      "displayNameDE": "Babybrei, grüne Bohnen, Stufe 1",
+      "searchAliases": [
+        "Green bean purée",
+        "Grüne-Bohnen-Brei",
+        "grüne Bohnen pur",
+        "green bean baby food",
+        "Babybrei grüne Bohnen"
+      ]
+    },
+    {
+      "id": "usda:2710127",
+      "ingredient": "Baby food, mixed vegetables, stage 2",
+      "displayName": "Baby food, mixed vegetables, stage 2",
+      "displayNameDE": "Babybrei, Gemüsemix, Stufe 2",
+      "searchAliases": [
+        "Mixed vegetable purée",
+        "Gemüse-Allerlei",
+        "Gemüsemix Babybrei",
+        "mixed vegetable baby food",
+        "Babybrei Gemüsemix",
+        "Gemüse-Mix Gläschen"
+      ]
+    },
+    {
+      "id": "bls:X5B1010",
+      "ingredient": "Baby food, vegetable, potato and chicken purée",
+      "displayName": "Baby food, vegetable, potato and chicken purée",
+      "displayNameDE": "Gemüse-Kartoffel-Hühnchen-Brei, Beikost",
+      "searchAliases": [
+        "Vegetable, potato and chicken purée",
+        "Gemüse-Kartoffel-Hühnchen-Brei",
+        "Gemüse-Kartoffel-Fleisch-Brei",
+        "Gemüse mit Kartoffeln und Huhn",
+        "vegetable potato chicken baby food",
+        "Menü mit Huhn",
+        "Hühnchen-Menü Gläschen"
+      ]
+    },
+    {
+      "id": "bls:X5B1020",
+      "ingredient": "Baby food, vegetable, potato and beef purée",
+      "displayName": "Baby food, vegetable, potato and beef purée",
+      "displayNameDE": "Gemüse-Kartoffel-Rind-Brei, Beikost",
+      "searchAliases": [
+        "Vegetable, potato and beef purée",
+        "Gemüse-Kartoffel-Rind-Brei",
+        "Gemüse mit Kartoffeln und Rind",
+        "vegetable potato beef baby food",
+        "Menü mit Rind",
+        "Rindfleisch-Menü Gläschen"
+      ]
+    },
+    {
+      "id": "bls:X5B1030",
+      "ingredient": "Baby food, vegetable, potato and pork purée",
+      "displayName": "Baby food, vegetable, potato and pork purée",
+      "displayNameDE": "Gemüse-Kartoffel-Schwein-Brei, Beikost",
+      "searchAliases": [
+        "Vegetable, potato and pork purée",
+        "Gemüse-Kartoffel-Schwein-Brei",
+        "Gemüse mit Kartoffeln und Schwein",
+        "vegetable potato pork baby food",
+        "Menü mit Schwein"
+      ]
+    },
+    {
+      "id": "bls:X5B1000",
+      "ingredient": "Baby food, vegetable, potato and salmon purée",
+      "displayName": "Baby food, vegetable, potato and salmon purée",
+      "displayNameDE": "Gemüse-Kartoffel-Lachs-Brei, Beikost",
+      "searchAliases": [
+        "Vegetable, potato and salmon purée",
+        "Gemüse-Kartoffel-Lachs-Brei",
+        "Gemüse mit Kartoffeln und Lachs",
+        "vegetable potato salmon baby food",
+        "Menü mit Lachs",
+        "Fisch-Menü Gläschen"
+      ]
+    },
+    {
+      "id": "bls:X5B1100",
+      "ingredient": "Baby food, potato and fennel purée",
+      "displayName": "Baby food, potato and fennel purée",
+      "displayNameDE": "Kartoffel-Fenchel-Brei, Beikost",
+      "searchAliases": [
+        "Potato and fennel purée",
+        "Kartoffel-Fenchel-Brei",
+        "Fenchel-Kartoffel-Brei",
+        "potato fennel baby food",
+        "Kartoffeln mit Fenchel Gläschen"
+      ]
+    },
+    {
+      "id": "bls:X5B1140",
+      "ingredient": "Baby food, potato and courgette purée",
+      "displayName": "Baby food, potato and courgette purée",
+      "displayNameDE": "Kartoffel-Zucchini-Brei, Beikost",
+      "searchAliases": [
+        "Potato and courgette purée",
+        "Kartoffel-Zucchini-Brei",
+        "Zucchini-Kartoffel-Brei",
+        "potato zucchini baby food",
+        "Kartoffeln mit Zucchini Gläschen"
+      ]
+    },
+    {
+      "id": "bls:X5B1130",
+      "ingredient": "Baby food, potato and spinach purée",
+      "displayName": "Baby food, potato and spinach purée",
+      "displayNameDE": "Kartoffel-Spinat-Brei, Beikost",
+      "searchAliases": [
+        "Potato and spinach purée",
+        "Kartoffel-Spinat-Brei",
+        "Spinat-Kartoffel-Brei",
+        "potato spinach baby food",
+        "Spinat mit Kartoffeln Gläschen"
+      ]
+    },
+    {
+      "id": "bls:X5B1110",
+      "ingredient": "Baby food, potato, carrot and pumpkin purée",
+      "displayName": "Baby food, potato, carrot and pumpkin purée",
+      "displayNameDE": "Kartoffel-Karotten-Kürbis-Brei, Beikost",
+      "searchAliases": [
+        "Potato, carrot and pumpkin purée",
+        "Kartoffel-Karotten-Kürbis-Brei",
+        "Kürbis-Karotten-Kartoffel-Brei",
+        "potato carrot pumpkin baby food",
+        "Kürbis mit Kartoffeln Gläschen"
+      ]
+    },
+    {
+      "id": "bls:X5B1120",
+      "ingredient": "Baby food, potato, carrot and parsnip purée",
+      "displayName": "Baby food, potato, carrot and parsnip purée",
+      "displayNameDE": "Kartoffel-Karotten-Pastinaken-Brei, Beikost",
+      "searchAliases": [
+        "Potato, carrot and parsnip purée",
+        "Kartoffel-Karotten-Pastinaken-Brei",
+        "Pastinaken-Karotten-Kartoffel-Brei",
+        "potato carrot parsnip baby food",
+        "Pastinake mit Kartoffeln Gläschen"
+      ]
+    },
+    {
+      "id": "ciqual:42604",
+      "ingredient": "Baby meal, vegetables, starch, meat/fish, 8–12 months",
+      "displayName": "Baby meal, vegetables, starch, meat/fish, 8–12 months",
+      "displayNameDE": "Babymenü, Gemüse, Beilage, Fleisch/Fisch, ab 8–12 Monaten",
+      "searchAliases": [
+        "Baby meal jar",
+        "Menügläschen",
+        "Babymenü",
+        "Menü-Gläschen",
+        "baby meal",
+        "Gläschenmenü",
+        "Babymenü ab 8 Monaten",
+        "baby dinner jar"
+      ]
+    },
+    {
+      "id": "ciqual:42603",
+      "ingredient": "Baby meal, vegetables, starch, meat/fish, 6–8 months",
+      "displayName": "Baby meal, vegetables, starch, meat/fish, 6–8 months",
+      "displayNameDE": "Babymenü, Gemüse, Beilage, Fleisch/Fisch, ab 6–8 Monaten",
+      "searchAliases": [
+        "Baby meal jar, from 6 months",
+        "Menügläschen ab 6 Monaten",
+        "Babymenü ab 6 Monaten",
+        "baby meal from 6 months"
+      ]
+    },
+    {
+      "id": "usda:2709352",
+      "ingredient": "Baby food, fruit, unspecified",
+      "displayName": "Baby food, fruit, unspecified",
+      "displayNameDE": "Babybrei, Obst, unspezifiziert",
+      "searchAliases": [
+        "Fruit purée",
+        "Obstbrei",
+        "Fruchtbrei",
+        "Obstgläschen",
+        "fruit baby food",
+        "Babybrei Obst",
+        "Obst pur",
+        "Früchtebrei",
+        "fruit jar baby"
+      ]
+    },
+    {
+      "id": "usda:2709363",
+      "ingredient": "Baby food, apple, stage 1",
+      "displayName": "Baby food, apple, stage 1",
+      "displayNameDE": "Babybrei, Apfel, Stufe 1",
+      "searchAliases": [
+        "Apple purée, baby",
+        "Apfelbrei, Baby",
+        "Apfel pur",
+        "apple baby food",
+        "Babybrei Apfel",
+        "Apfelgläschen"
+      ]
+    },
+    {
+      "id": "usda:2709369",
+      "ingredient": "Baby food, pear, stage 1",
+      "displayName": "Baby food, pear, stage 1",
+      "displayNameDE": "Babybrei, Birne, Stufe 1",
+      "searchAliases": [
+        "Pear purée, baby",
+        "Birnenbrei, Baby",
+        "Birne pur",
+        "pear baby food",
+        "Babybrei Birne",
+        "Birnenbrei"
+      ]
+    },
+    {
+      "id": "usda:2709365",
+      "ingredient": "Baby food, banana, stage 1",
+      "displayName": "Baby food, banana, stage 1",
+      "displayNameDE": "Babybrei, Banane, Stufe 1",
+      "searchAliases": [
+        "Banana purée, baby",
+        "Bananenbrei, Baby",
+        "Banane pur",
+        "banana baby food",
+        "Babybrei Banane",
+        "Bananenbrei"
+      ]
+    },
+    {
+      "id": "usda:2709367",
+      "ingredient": "Baby food, peach, stage 1",
+      "displayName": "Baby food, peach, stage 1",
+      "displayNameDE": "Babybrei, Pfirsich, Stufe 1",
+      "searchAliases": [
+        "Peach purée, baby",
+        "Pfirsichbrei, Baby",
+        "Pfirsich pur",
+        "peach baby food",
+        "Babybrei Pfirsich",
+        "Pfirsichbrei"
+      ]
+    },
+    {
+      "id": "usda:2709372",
+      "ingredient": "Baby food, mango",
+      "displayName": "Baby food, mango",
+      "displayNameDE": "Babybrei, Mango",
+      "searchAliases": [
+        "Mango purée, baby",
+        "Mangobrei, Baby",
+        "Mango pur",
+        "mango baby food",
+        "Babybrei Mango",
+        "Mangobrei"
+      ]
+    },
+    {
+      "id": "usda:2709353",
+      "ingredient": "Baby food, mixed fruit, stage 2",
+      "displayName": "Baby food, mixed fruit, stage 2",
+      "displayNameDE": "Babybrei, Früchtemix, Stufe 2",
+      "searchAliases": [
+        "Mixed fruit purée, baby",
+        "Früchte-Allerlei",
+        "Früchtemix Babybrei",
+        "mixed fruit baby food",
+        "Babybrei Früchtemix",
+        "Früchte-Mix Gläschen"
+      ]
+    },
+    {
+      "id": "usda:2709357",
+      "ingredient": "Baby food, fruit and vegetables, stage 2",
+      "displayName": "Baby food, fruit and vegetables, stage 2",
+      "displayNameDE": "Babybrei, Obst und Gemüse, Stufe 2",
+      "searchAliases": [
+        "Fruit and vegetable purée, baby",
+        "Obst-Gemüse-Brei",
+        "Gemüse-Obst-Brei",
+        "fruit and vegetable baby food",
+        "Babybrei Obst Gemüse"
+      ]
+    },
+    {
+      "id": "usda:2709356",
+      "ingredient": "Baby food, fruit with yogurt",
+      "displayName": "Baby food, fruit with yogurt",
+      "displayNameDE": "Babybrei, Obst mit Joghurt",
+      "searchAliases": [
+        "Fruit purée with yogurt, baby",
+        "Frucht & Joghurt",
+        "Frucht-Joghurt-Brei",
+        "fruit and yogurt baby food",
+        "Babybrei Frucht Joghurt",
+        "Obst mit Joghurt Gläschen"
+      ]
+    },
+    {
+      "id": "usda:2705464",
+      "ingredient": "Baby yogurt, plain",
+      "displayName": "Baby yogurt, plain",
+      "displayNameDE": "Kinderjoghurt, natur",
+      "searchAliases": [
+        "Baby yogurt",
+        "Kinderjoghurt",
+        "Babyjoghurt",
+        "Kinderjoghurt natur",
+        "baby yoghurt",
+        "Joghurt für Babys"
+      ]
+    },
+    {
+      "id": "usda:2705465",
+      "ingredient": "Baby yogurt, with fruit",
+      "displayName": "Baby yogurt, with fruit",
+      "displayNameDE": "Kinderjoghurt, mit Frucht",
+      "searchAliases": [
+        "Baby yogurt with fruit",
+        "Kinderjoghurt mit Frucht",
+        "Fruchtjoghurt für Kinder",
+        "baby fruit yogurt",
+        "Kinder-Fruchtjoghurt"
+      ]
+    },
+    {
+      "id": "ciqual:13166",
+      "ingredient": "Baby milk dessert, sweetened, plain or fruit",
+      "displayName": "Baby milk dessert, sweetened, plain or fruit",
+      "displayNameDE": "Baby-Milchdessert, gesüßt, natur oder Frucht",
+      "searchAliases": [
+        "Baby milk dessert",
+        "Milchdessert, Baby",
+        "Baby-Milchdessert",
+        "Milchdessert für Babys",
+        "baby custard dessert",
+        "Babydessert"
+      ]
+    },
+    {
+      "id": "ciqual:13165",
+      "ingredient": "Baby milk dessert, rice or semolina",
+      "displayName": "Baby milk dessert, rice or semolina",
+      "displayNameDE": "Baby-Milchdessert, Reis oder Grieß",
+      "searchAliases": [
+        "Milchdessert, Baby, Reis oder Grieß",
+        "Grießbrei für Babys",
+        "Milchreis für Babys",
+        "Baby-Grießbrei",
+        "baby rice pudding"
+      ]
+    },
+    {
+      "id": "usda:2709380",
+      "ingredient": "Baby pudding",
+      "displayName": "Baby pudding",
+      "displayNameDE": "Babypudding",
+      "searchAliases": [
+        "Pudding für Babys",
+        "Kinderpudding",
+        "toddler pudding"
+      ]
+    },
+    {
+      "id": "usda:2705821",
+      "ingredient": "Baby food, meat, unspecified",
+      "displayName": "Baby food, meat, unspecified",
+      "displayNameDE": "Babynahrung, Fleisch, unspezifiziert",
+      "searchAliases": [
+        "Meat purée, baby",
+        "Fleischbrei",
+        "Fleischgläschen",
+        "Fleisch pur",
+        "meat baby food",
+        "Babybrei Fleisch",
+        "Fleischzubereitung Baby"
+      ]
+    },
+    {
+      "id": "usda:2706151",
+      "ingredient": "Chicken, baby food",
+      "displayName": "Chicken, baby food",
+      "displayNameDE": "Hähnchen, Babynahrung",
+      "searchAliases": [
+        "Chicken purée, baby",
+        "Hühnchenbrei",
+        "Hähnchen pur",
+        "Huhn pur",
+        "chicken baby food",
+        "Babybrei Hühnchen",
+        "Hühnchen Gläschen"
+      ]
+    },
+    {
+      "id": "usda:2706152",
+      "ingredient": "Turkey, baby food",
+      "displayName": "Turkey, baby food",
+      "displayNameDE": "Pute, Babynahrung",
+      "searchAliases": [
+        "Turkey purée, baby",
+        "Putenbrei",
+        "Pute pur",
+        "turkey baby food",
+        "Babybrei Pute",
+        "Puten Gläschen"
+      ]
+    },
+    {
+      "id": "usda:2705861",
+      "ingredient": "Baby food, beef, toddler",
+      "displayName": "Baby food, beef, toddler",
+      "displayNameDE": "Babynahrung, Rindfleisch, Kleinkind",
+      "searchAliases": [
+        "Beef purée, baby",
+        "Rindfleischbrei",
+        "Rind pur",
+        "beef baby food",
+        "Babybrei Rind",
+        "Rindfleisch Gläschen"
+      ]
+    },
+    {
+      "id": "usda:2709373",
+      "ingredient": "Baby juice, unspecified",
+      "displayName": "Baby juice, unspecified",
+      "displayNameDE": "Babysaft, unspezifiziert",
+      "searchAliases": [
+        "Baby juice",
+        "Babysaft",
+        "Säfte für Babys",
+        "Kindersaft",
+        "juice for babies",
+        "Baby-Fruchtsaft"
+      ]
+    },
+    {
+      "id": "usda:2709374",
+      "ingredient": "Baby juice, apple",
+      "displayName": "Baby juice, apple",
+      "displayNameDE": "Babysaft, Apfel",
+      "searchAliases": [
+        "Baby-Apfelsaft",
+        "Apfelsaft für Babys",
+        "apple baby juice"
+      ]
+    },
+    {
+      "id": "usda:2709381",
+      "ingredient": "Baby yogurt melts",
+      "displayName": "Baby yogurt melts",
+      "displayNameDE": "Joghurt-Drops für Babys",
+      "searchAliases": [
+        "Yogurt melts",
+        "Joghurt-Drops",
+        "baby yogurt melts",
+        "freeze-dried yogurt drops",
+        "Joghurt-Snacks für Babys"
+      ]
+    },
+    {
+      "id": "usda:2710378",
+      "ingredient": "Espresso",
+      "displayName": "Espresso",
+      "displayNameDE": "Espresso",
+      "searchAliases": [
+        "espresso shot",
+        "single espresso",
+        "shot of espresso",
+        "Espresso single",
+        "Espresso Shot",
+        "einfacher Espresso",
+        "doppio",
+        "Espresso doppio",
+        "double espresso",
+        "doppelter Espresso",
+        "Doppio Espresso",
+        "caffè",
+        "Espressi"
+      ],
+      "measure": "volume",
+      "gramsPerMilliliter": 1.0
+    },
+    {
+      "id": "usda:2710379",
+      "ingredient": "Espresso, decaffeinated",
+      "displayName": "Decaf espresso",
+      "displayNameDE": "Entkoffeinierter Espresso",
+      "searchAliases": [
+        "decaf espresso",
+        "decaffeinated espresso",
+        "Espresso decaf",
+        "Espresso entkoffeiniert",
+        "koffeinfreier Espresso",
+        "Espresso koffeinfrei",
+        "decaf shot",
+        "decaf doppio",
+        "entkoffeinierter Doppio"
+      ],
+      "measure": "volume",
+      "gramsPerMilliliter": 1.0
+    },
+    {
+      "id": "usda:2708131",
+      "ingredient": "Toddler teething biscuit",
+      "displayName": "Baby biscuit",
+      "displayNameDE": "Babykeks",
+      "searchAliases": [
+        "Toddler teething biscuit",
+        "Kleinkind-Zwieback",
+        "Babykekse",
+        "Kinderkeks",
+        "Kinderkekse",
+        "baby biscuits",
+        "teething biscuit",
+        "Beißkeks",
+        "Babybiskuit",
+        "baby rusk biscuit"
+      ]
     }
   ],
   "namedOnly": [
@@ -24407,12 +25234,6 @@
       "id": "usda:2705823",
       "ingredient": "Steak",
       "displayNameDE": "Steak"
-    },
-    {
-      "id": "usda:2710378",
-      "ingredient": "Espresso",
-      "displayNameDE": "Espresso",
-      "measure": "volume"
     },
     {
       "id": "bls:P151100",
@@ -27033,30 +27854,6 @@
       "displayNameDE": "Baby-Milchdessert, Cremeart"
     },
     {
-      "id": "ciqual:13165",
-      "ingredient": "Baby milk dessert, rice or semolina",
-      "displayName": "Baby milk dessert, rice or semolina",
-      "displayNameDE": "Baby-Milchdessert, Reis oder Grieß"
-    },
-    {
-      "id": "ciqual:13166",
-      "ingredient": "Baby milk dessert, sweetened, plain or fruit",
-      "displayName": "Baby milk dessert, sweetened, plain or fruit",
-      "displayNameDE": "Baby-Milchdessert, gesüßt, natur oder Frucht"
-    },
-    {
-      "id": "ciqual:13167",
-      "ingredient": "Instant baby cereal, powder, from 4–6 months",
-      "displayName": "Instant baby cereal, powder, from 4–6 months",
-      "displayNameDE": "Instant-Getreidebrei, Pulver, ab 4–6 Monaten"
-    },
-    {
-      "id": "ciqual:13168",
-      "ingredient": "Instant baby cereal, powder, from 6 months",
-      "displayName": "Instant baby cereal, powder, from 6 months",
-      "displayNameDE": "Instant-Getreidebrei, Pulver, ab 6 Monaten"
-    },
-    {
       "id": "ciqual:13169",
       "ingredient": "Baby cereal milk drink, breakfast, from 8–9 months",
       "displayName": "Baby cereal milk drink, breakfast, from 8–9 months",
@@ -27109,12 +27906,6 @@
       "ingredient": "Cranberries, dried, sweetened",
       "displayName": "Cranberries, dried, sweetened",
       "displayNameDE": "Cranberrys, getrocknet, gesüßt"
-    },
-    {
-      "id": "ciqual:13182",
-      "ingredient": "Baby cereal milk drink, unspecified",
-      "displayName": "Baby cereal milk drink, unspecified",
-      "displayNameDE": "Baby-Milch-Getreide-Getränk, unspezifiziert"
     },
     {
       "id": "ciqual:13184",
@@ -29035,18 +29826,6 @@
       "ingredient": "Growing-up milk, liquid",
       "displayName": "Growing-up milk, liquid",
       "displayNameDE": "Kindermilch, flüssig"
-    },
-    {
-      "id": "ciqual:19013",
-      "ingredient": "Infant formula, first stage, ready to drink",
-      "displayName": "Infant formula, first stage, ready to drink",
-      "displayNameDE": "Anfangsmilch, trinkfertig"
-    },
-    {
-      "id": "ciqual:19014",
-      "ingredient": "Follow-on formula, ready to drink",
-      "displayName": "Follow-on formula, ready to drink",
-      "displayNameDE": "Folgemilch, trinkfertig"
     },
     {
       "id": "ciqual:19016",
@@ -33981,12 +34760,6 @@
       "displayNameDE": "Cookie, Schokostückchen und Kokos, abgepackt"
     },
     {
-      "id": "ciqual:24689",
-      "ingredient": "Baby biscuit",
-      "displayName": "Baby biscuit",
-      "displayNameDE": "Babykeks"
-    },
-    {
       "id": "ciqual:24998",
       "ingredient": "White fish in sauce, packaged, average",
       "displayName": "White fish in sauce, packaged, average",
@@ -38121,12 +38894,6 @@
       "displayNameDE": "Sojadrink mit Fruchtsaftkonzentrat"
     },
     {
-      "id": "ciqual:3000",
-      "ingredient": "Infant formula, powder",
-      "displayName": "Infant formula, powder",
-      "displayNameDE": "Säuglingsanfangsnahrung, Pulver"
-    },
-    {
       "id": "ciqual:30005",
       "ingredient": "Chipolata, cooked",
       "displayName": "Chipolata, cooked",
@@ -41083,18 +41850,6 @@
       "ingredient": "Cocoa drink powder, for babies",
       "displayName": "Cocoa drink powder, for babies",
       "displayNameDE": "Kakaopulver für Babys"
-    },
-    {
-      "id": "ciqual:42603",
-      "ingredient": "Baby meal, vegetables, starch, meat/fish, 6–8 months",
-      "displayName": "Baby meal, vegetables, starch, meat/fish, 6–8 months",
-      "displayNameDE": "Babymenü, Gemüse, Beilage, Fleisch/Fisch, ab 6–8 Monaten"
-    },
-    {
-      "id": "ciqual:42604",
-      "ingredient": "Baby meal, vegetables, starch, meat/fish, 8–12 months",
-      "displayName": "Baby meal, vegetables, starch, meat/fish, 8–12 months",
-      "displayNameDE": "Babymenü, Gemüse, Beilage, Fleisch/Fisch, ab 8–12 Monaten"
     },
     {
       "id": "ciqual:42605",
@@ -76186,18 +76941,6 @@
       "displayNameDE": "Baby- und Kleinkindnahrung, unspezifiziert"
     },
     {
-      "id": "usda:2705464",
-      "ingredient": "Baby yogurt, plain",
-      "displayName": "Baby yogurt, plain",
-      "displayNameDE": "Kinderjoghurt, natur"
-    },
-    {
-      "id": "usda:2705465",
-      "ingredient": "Baby yogurt, with fruit",
-      "displayName": "Baby yogurt, with fruit",
-      "displayNameDE": "Kinderjoghurt, mit Frucht"
-    },
-    {
       "id": "usda:2705466",
       "ingredient": "Chocolate milk, unspecified",
       "displayName": "Chocolate milk, unspecified",
@@ -76655,12 +77398,6 @@
       "id": "usda:2705546",
       "ingredient": "Toddler formula, Nido Kinder",
       "displayNameDE": "Kleinkindmilch, Nido Kinder"
-    },
-    {
-      "id": "usda:2705547",
-      "ingredient": "Toddler formula, store brand, starter or next stage",
-      "displayName": "Toddler formula, store brand, starter or next stage",
-      "displayNameDE": "Kleinkindmilch, Handelsmarke, Start- oder Folgestufe"
     },
     {
       "id": "usda:2705548",
@@ -78170,12 +78907,6 @@
       "displayNameDE": "Hackfleisch, unspezifiziert"
     },
     {
-      "id": "usda:2705821",
-      "ingredient": "Baby food, meat, unspecified",
-      "displayName": "Baby food, meat, unspecified",
-      "displayNameDE": "Babynahrung, Fleisch, unspezifiziert"
-    },
-    {
       "id": "usda:2705822",
       "ingredient": "Beef, unspecified",
       "displayName": "Beef, unspecified",
@@ -78395,12 +79126,6 @@
       "id": "usda:2705860",
       "ingredient": "Beef jerky",
       "displayNameDE": "Beef Jerky"
-    },
-    {
-      "id": "usda:2705861",
-      "ingredient": "Baby food, beef, toddler",
-      "displayName": "Baby food, beef, toddler",
-      "displayNameDE": "Babynahrung, Rindfleisch, Kleinkind"
     },
     {
       "id": "usda:2705862",
@@ -80047,18 +80772,6 @@
       "id": "usda:2706150",
       "ingredient": "Pheasant, cooked",
       "displayNameDE": "Fasan, gegart"
-    },
-    {
-      "id": "usda:2706151",
-      "ingredient": "Chicken, baby food",
-      "displayName": "Chicken, baby food",
-      "displayNameDE": "Hähnchen, Babynahrung"
-    },
-    {
-      "id": "usda:2706152",
-      "ingredient": "Turkey, baby food",
-      "displayName": "Turkey, baby food",
-      "displayNameDE": "Pute, Babynahrung"
     },
     {
       "id": "usda:2706153",
@@ -91034,12 +91747,6 @@
       "displayNameDE": "Kleinkind-Keks"
     },
     {
-      "id": "usda:2708131",
-      "ingredient": "Toddler teething biscuit",
-      "displayName": "Toddler teething biscuit",
-      "displayNameDE": "Kleinkind-Zwieback"
-    },
-    {
       "id": "usda:2708132",
       "ingredient": "Crackers, unspecified",
       "displayName": "Crackers, unspecified",
@@ -93079,18 +93786,6 @@
       "displayNameDE": "Baby-Getreidebrei, Gerste, Pulver"
     },
     {
-      "id": "usda:2708492",
-      "ingredient": "Baby cereal, oatmeal, dry",
-      "displayName": "Baby cereal, oatmeal, dry",
-      "displayNameDE": "Baby-Getreidebrei, Hafer, Pulver"
-    },
-    {
-      "id": "usda:2708493",
-      "ingredient": "Baby cereal, rice, dry",
-      "displayName": "Baby cereal, rice, dry",
-      "displayNameDE": "Baby-Getreidebrei, Reis, Pulver"
-    },
-    {
       "id": "usda:2708494",
       "ingredient": "Baby cereal, rice with fruit, dry",
       "displayName": "Baby cereal, rice with fruit, dry",
@@ -93103,40 +93798,10 @@
       "displayNameDE": "Baby-Getreidebrei, Mehrkorn mit Obst, Pulver"
     },
     {
-      "id": "usda:2708496",
-      "ingredient": "Baby cereal, multigrain, dry",
-      "displayName": "Baby cereal, multigrain, dry",
-      "displayNameDE": "Baby-Getreidebrei, Mehrkorn, Pulver"
-    },
-    {
       "id": "usda:2708497",
       "ingredient": "Baby cereal, oatmeal with fruit, dry",
       "displayName": "Baby cereal, oatmeal with fruit, dry",
       "displayNameDE": "Baby-Getreidebrei, Hafer mit Obst, Pulver"
-    },
-    {
-      "id": "usda:2708498",
-      "ingredient": "Baby cereal, unspecified",
-      "displayName": "Baby cereal, unspecified",
-      "displayNameDE": "Baby-Getreidebrei, unspezifiziert"
-    },
-    {
-      "id": "usda:2708499",
-      "ingredient": "Baby cereal, rice, ready-to-eat",
-      "displayName": "Baby cereal, rice, ready-to-eat",
-      "displayNameDE": "Baby-Getreidebrei, Reis, verzehrfertig"
-    },
-    {
-      "id": "usda:2708500",
-      "ingredient": "Baby cereal, oatmeal, ready-to-eat",
-      "displayName": "Baby cereal, oatmeal, ready-to-eat",
-      "displayNameDE": "Baby-Getreidebrei, Hafer, verzehrfertig"
-    },
-    {
-      "id": "usda:2708501",
-      "ingredient": "Baby cereal, multigrain, ready-to-eat",
-      "displayName": "Baby cereal, multigrain, ready-to-eat",
-      "displayNameDE": "Baby-Getreidebrei, Mehrkorn, verzehrfertig"
     },
     {
       "id": "usda:2708502",
@@ -97812,18 +98477,6 @@
       "displayNameDE": "Essig"
     },
     {
-      "id": "usda:2709352",
-      "ingredient": "Baby food, fruit, unspecified",
-      "displayName": "Baby food, fruit, unspecified",
-      "displayNameDE": "Babybrei, Obst, unspezifiziert"
-    },
-    {
-      "id": "usda:2709353",
-      "ingredient": "Baby food, mixed fruit, stage 2",
-      "displayName": "Baby food, mixed fruit, stage 2",
-      "displayNameDE": "Babybrei, Früchtemix, Stufe 2"
-    },
-    {
       "id": "usda:2709354",
       "ingredient": "Baby food, mixed fruit, stage 3",
       "displayName": "Baby food, mixed fruit, stage 3",
@@ -97834,18 +98487,6 @@
       "ingredient": "Baby food, fruit with grain",
       "displayName": "Baby food, fruit with grain",
       "displayNameDE": "Babybrei, Obst mit Getreide"
-    },
-    {
-      "id": "usda:2709356",
-      "ingredient": "Baby food, fruit with yogurt",
-      "displayName": "Baby food, fruit with yogurt",
-      "displayNameDE": "Babybrei, Obst mit Joghurt"
-    },
-    {
-      "id": "usda:2709357",
-      "ingredient": "Baby food, fruit and vegetables, stage 2",
-      "displayName": "Baby food, fruit and vegetables, stage 2",
-      "displayNameDE": "Babybrei, Obst und Gemüse, Stufe 2"
     },
     {
       "id": "usda:2709358",
@@ -97878,22 +98519,10 @@
       "displayNameDE": "Babybrei, Obst und Fleisch"
     },
     {
-      "id": "usda:2709363",
-      "ingredient": "Baby food, apple, stage 1",
-      "displayName": "Baby food, apple, stage 1",
-      "displayNameDE": "Babybrei, Apfel, Stufe 1"
-    },
-    {
       "id": "usda:2709364",
       "ingredient": "Baby food, apple, stage 2",
       "displayName": "Baby food, apple, stage 2",
       "displayNameDE": "Babybrei, Apfel, Stufe 2"
-    },
-    {
-      "id": "usda:2709365",
-      "ingredient": "Baby food, banana, stage 1",
-      "displayName": "Baby food, banana, stage 1",
-      "displayNameDE": "Babybrei, Banane, Stufe 1"
     },
     {
       "id": "usda:2709366",
@@ -97902,22 +98531,10 @@
       "displayNameDE": "Babybrei, Banane, Stufe 2"
     },
     {
-      "id": "usda:2709367",
-      "ingredient": "Baby food, peach, stage 1",
-      "displayName": "Baby food, peach, stage 1",
-      "displayNameDE": "Babybrei, Pfirsich, Stufe 1"
-    },
-    {
       "id": "usda:2709368",
       "ingredient": "Baby food, peach, stage 2",
       "displayName": "Baby food, peach, stage 2",
       "displayNameDE": "Babybrei, Pfirsich, Stufe 2"
-    },
-    {
-      "id": "usda:2709369",
-      "ingredient": "Baby food, pear, stage 1",
-      "displayName": "Baby food, pear, stage 1",
-      "displayNameDE": "Babybrei, Birne, Stufe 1"
     },
     {
       "id": "usda:2709370",
@@ -97930,24 +98547,6 @@
       "ingredient": "Baby food, prunes",
       "displayName": "Baby food, prunes",
       "displayNameDE": "Babybrei, Trockenpflaumen"
-    },
-    {
-      "id": "usda:2709372",
-      "ingredient": "Baby food, mango",
-      "displayName": "Baby food, mango",
-      "displayNameDE": "Babybrei, Mango"
-    },
-    {
-      "id": "usda:2709373",
-      "ingredient": "Baby juice, unspecified",
-      "displayName": "Baby juice, unspecified",
-      "displayNameDE": "Babysaft, unspezifiziert"
-    },
-    {
-      "id": "usda:2709374",
-      "ingredient": "Baby juice, apple",
-      "displayName": "Baby juice, apple",
-      "displayNameDE": "Babysaft, Apfel"
     },
     {
       "id": "usda:2709375",
@@ -97978,18 +98577,6 @@
       "ingredient": "Baby juice, fruit and yogurt blend",
       "displayName": "Baby juice, fruit and yogurt blend",
       "displayNameDE": "Babysaft, Frucht-Joghurt-Mix"
-    },
-    {
-      "id": "usda:2709380",
-      "ingredient": "Baby pudding",
-      "displayName": "Baby pudding",
-      "displayNameDE": "Babypudding"
-    },
-    {
-      "id": "usda:2709381",
-      "ingredient": "Baby yogurt melts",
-      "displayName": "Baby yogurt melts",
-      "displayNameDE": "Joghurt-Drops für Babys"
     },
     {
       "id": "usda:2709382",
@@ -101975,28 +102562,10 @@
       "displayNameDE": "Gemüsesuppe, mit Fleisch"
     },
     {
-      "id": "usda:2710117",
-      "ingredient": "Baby food, vegetables, unspecified",
-      "displayName": "Baby food, vegetables, unspecified",
-      "displayNameDE": "Babybrei, Gemüse, unspezifiziert"
-    },
-    {
-      "id": "usda:2710118",
-      "ingredient": "Baby food, carrots, stage 1",
-      "displayName": "Baby food, carrots, stage 1",
-      "displayNameDE": "Babybrei, Karotten, Stufe 1"
-    },
-    {
       "id": "usda:2710119",
       "ingredient": "Baby food, carrots, stage 2",
       "displayName": "Baby food, carrots, stage 2",
       "displayNameDE": "Babybrei, Karotten, Stufe 2"
-    },
-    {
-      "id": "usda:2710120",
-      "ingredient": "Baby food, squash, stage 1",
-      "displayName": "Baby food, squash, stage 1",
-      "displayNameDE": "Babybrei, Kürbis, Stufe 1"
     },
     {
       "id": "usda:2710121",
@@ -102017,12 +102586,6 @@
       "displayNameDE": "Babybrei, Süßkartoffeln, Stufe 2"
     },
     {
-      "id": "usda:2710124",
-      "ingredient": "Baby food, green beans, stage 1",
-      "displayName": "Baby food, green beans, stage 1",
-      "displayNameDE": "Babybrei, grüne Bohnen, Stufe 1"
-    },
-    {
       "id": "usda:2710125",
       "ingredient": "Baby food, green beans, stage 2",
       "displayName": "Baby food, green beans, stage 2",
@@ -102033,12 +102596,6 @@
       "ingredient": "Baby food, beets",
       "displayName": "Baby food, beets",
       "displayNameDE": "Babybrei, Rote Bete"
-    },
-    {
-      "id": "usda:2710127",
-      "ingredient": "Baby food, mixed vegetables, stage 2",
-      "displayName": "Baby food, mixed vegetables, stage 2",
-      "displayNameDE": "Babybrei, Gemüsemix, Stufe 2"
     },
     {
       "id": "usda:2710128",
@@ -102057,12 +102614,6 @@
       "ingredient": "Baby food, vegetables and meat",
       "displayName": "Baby food, vegetables and meat",
       "displayNameDE": "Babybrei, Gemüse mit Fleisch"
-    },
-    {
-      "id": "usda:2710131",
-      "ingredient": "Baby food, peas, stage 1",
-      "displayName": "Baby food, peas, stage 1",
-      "displayNameDE": "Babybrei, Erbsen, Stufe 1"
     },
     {
       "id": "usda:2710132",
@@ -103263,12 +103814,6 @@
       "ingredient": "Turkish coffee",
       "displayName": "Turkish coffee",
       "displayNameDE": "Türkischer Kaffee"
-    },
-    {
-      "id": "usda:2710379",
-      "ingredient": "Espresso, decaffeinated",
-      "displayName": "Espresso, decaffeinated",
-      "displayNameDE": "Espresso, entkoffeiniert"
     },
     {
       "id": "usda:2710380",
@@ -135075,60 +135620,6 @@
       "displayNameDE": "Selleriegemüse, gekocht"
     },
     {
-      "id": "bls:X5B1000",
-      "ingredient": "Baby food, vegetable, potato and salmon purée",
-      "displayName": "Baby food, vegetable, potato and salmon purée",
-      "displayNameDE": "Gemüse-Kartoffel-Lachs-Brei, Beikost"
-    },
-    {
-      "id": "bls:X5B1010",
-      "ingredient": "Baby food, vegetable, potato and chicken purée",
-      "displayName": "Baby food, vegetable, potato and chicken purée",
-      "displayNameDE": "Gemüse-Kartoffel-Hühnchen-Brei, Beikost"
-    },
-    {
-      "id": "bls:X5B1020",
-      "ingredient": "Baby food, vegetable, potato and beef purée",
-      "displayName": "Baby food, vegetable, potato and beef purée",
-      "displayNameDE": "Gemüse-Kartoffel-Rind-Brei, Beikost"
-    },
-    {
-      "id": "bls:X5B1030",
-      "ingredient": "Baby food, vegetable, potato and pork purée",
-      "displayName": "Baby food, vegetable, potato and pork purée",
-      "displayNameDE": "Gemüse-Kartoffel-Schwein-Brei, Beikost"
-    },
-    {
-      "id": "bls:X5B1100",
-      "ingredient": "Baby food, potato and fennel purée",
-      "displayName": "Baby food, potato and fennel purée",
-      "displayNameDE": "Kartoffel-Fenchel-Brei, Beikost"
-    },
-    {
-      "id": "bls:X5B1110",
-      "ingredient": "Baby food, potato, carrot and pumpkin purée",
-      "displayName": "Baby food, potato, carrot and pumpkin purée",
-      "displayNameDE": "Kartoffel-Karotten-Kürbis-Brei, Beikost"
-    },
-    {
-      "id": "bls:X5B1120",
-      "ingredient": "Baby food, potato, carrot and parsnip purée",
-      "displayName": "Baby food, potato, carrot and parsnip purée",
-      "displayNameDE": "Kartoffel-Karotten-Pastinaken-Brei, Beikost"
-    },
-    {
-      "id": "bls:X5B1130",
-      "ingredient": "Baby food, potato and spinach purée",
-      "displayName": "Baby food, potato and spinach purée",
-      "displayNameDE": "Kartoffel-Spinat-Brei, Beikost"
-    },
-    {
-      "id": "bls:X5B1140",
-      "ingredient": "Baby food, potato and courgette purée",
-      "displayName": "Baby food, potato and courgette purée",
-      "displayNameDE": "Kartoffel-Zucchini-Brei, Beikost"
-    },
-    {
       "id": "bls:X5B1150",
       "ingredient": "Baby food, potato, carrot and oat purée",
       "displayName": "Baby food, potato, carrot and oat purée",
@@ -135577,12 +136068,6 @@
       "ingredient": "Sweet potato and broccoli with beef, white sauce",
       "displayName": "Sweet potato and broccoli with beef, white sauce",
       "displayNameDE": "Süßkartoffeln und Brokkoli mit Rindfleisch, helle Sauce"
-    },
-    {
-      "id": "bls:X6A2000",
-      "ingredient": "Sweet potato puree, baby food, unsalted",
-      "displayName": "Sweet potato puree, baby food, unsalted",
-      "displayNameDE": "Süßkartoffelpüree, Beikost, ohne Salz"
     },
     {
       "id": "bls:X6A3000",
@@ -136711,18 +137196,6 @@
       "ingredient": "Millet porridge, unsweetened, with almond drink",
       "displayName": "Millet porridge, unsweetened, with almond drink",
       "displayNameDE": "Hirsebrei, ungesüßt, mit Mandeldrink"
-    },
-    {
-      "id": "bls:X9A2030",
-      "ingredient": "Baby cereal and fruit puree, oats and apple",
-      "displayName": "Baby cereal and fruit puree, oats and apple",
-      "displayNameDE": "Getreide-Obst-Brei, Hafer und Apfelmus, Beikost"
-    },
-    {
-      "id": "bls:X9A2040",
-      "ingredient": "Baby milk and cereal puree, oats and apple juice",
-      "displayName": "Baby milk and cereal puree, oats and apple juice",
-      "displayNameDE": "Milch-Getreide-Brei, Hafer und Apfelsaft, Beikost"
     },
     {
       "id": "bls:X9A2050",
@@ -142021,6 +142494,12 @@
       "ingredient": "Vanilla custard ice cream with whipped cream and fresh strawberries",
       "displayName": "Vanilla custard ice cream with whipped cream and fresh strawberries",
       "displayNameDE": "Vanillecremeeis mit Schlagsahne und frischen Erdbeeren"
+    },
+    {
+      "id": "ciqual:24689",
+      "ingredient": "Baby biscuit",
+      "displayName": "Baby biscuit",
+      "displayNameDE": "Babykeks"
     }
   ],
   "drinks": [

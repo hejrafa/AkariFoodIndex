@@ -1,0 +1,42 @@
+{
+ "batch": 28,
+ "identities": [
+  {
+   "key": "espresso decaffeinated",
+   "names": [
+    "espresso decaffeinated",
+    "decaf espresso",
+    "entkoffeinierter espresso",
+    "decaffeinated espresso",
+    "espresso decaf",
+    "espresso entkoffeiniert",
+    "koffeinfreier espresso",
+    "espresso koffeinfrei",
+    "decaf shot",
+    "decaf doppio",
+    "entkoffeinierter doppio"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "usda:2710379",
+     "name": "Coffee, espresso, decaffeinated"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2710379",
+     "label": "1 fl oz",
+     "grams": 30
+    },
+    {
+     "reference": "usda:2710379",
+     "label": "1 espresso cup (2 fl oz)",
+     "grams": 60
+    }
+   ]
+  }
+ ]
+}
