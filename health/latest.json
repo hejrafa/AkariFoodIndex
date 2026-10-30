@@ -1,0 +1,656 @@
+{
+  "format": 1,
+  "generatedAt": "2026-10-30T12:04:13Z",
+  "auditFinishedAt": "2026-10-30T12:00:11Z",
+  "commit": "753c586c9a30e13fc30af1a2a054f757cc9a7f03",
+  "dataContentHash": "d62fdac9c428fb6946069c1f147bbdf81a7377340a9370a87035b91cf44a613f",
+  "catalogue": {
+    "rows": 21513,
+    "namedBoth": 21513,
+    "namedEnglishOnly": 0,
+    "namedGermanOnly": 0,
+    "unnamed": 0,
+    "sources": {
+      "akariLabel": 1,
+      "bls": 7106,
+      "ciqual": 3281,
+      "cofid": 2845,
+      "mext": 2526,
+      "usda": 5754
+    },
+    "references": 1632,
+    "namedOnly": 19881,
+    "verifiedDrinks": 216,
+    "artwork": {
+      "withFamily": 18717,
+      "none": 2796
+    }
+  },
+  "dishes": {
+    "recipes": {
+      "total": 1501,
+      "reviewed": 24,
+      "verified": 1064
+    },
+    "globalDishes": 468,
+    "cafe": {
+      "generic": 216,
+      "starbucks": 1161
+    }
+  },
+  "nutrients": {
+    "overall": [
+      {
+        "key": "fiber",
+        "share": 0.959
+      },
+      {
+        "key": "sugar",
+        "share": 0.844
+      },
+      {
+        "key": "saturatedFat",
+        "share": 0.833
+      },
+      {
+        "key": "calcium",
+        "share": 0.96
+      },
+      {
+        "key": "iron",
+        "share": 0.947
+      },
+      {
+        "key": "magnesium",
+        "share": 0.953
+      },
+      {
+        "key": "potassium",
+        "share": 0.957
+      },
+      {
+        "key": "zinc",
+        "share": 0.931
+      },
+      {
+        "key": "iodine",
+        "share": 0.471
+      },
+      {
+        "key": "selenium",
+        "share": 0.463
+      },
+      {
+        "key": "vitaminA",
+        "share": 0.866
+      },
+      {
+        "key": "vitaminD",
+        "share": 0.851
+      },
+      {
+        "key": "vitaminB12",
+        "share": 0.887
+      },
+      {
+        "key": "folate",
+        "share": 0.909
+      },
+      {
+        "key": "vitaminC",
+        "share": 0.846
+      }
+    ],
+    "bySource": {
+      "bls": {
+        "fiber": 0.993,
+        "sugar": 1.0,
+        "saturatedFat": 0.997,
+        "calcium": 0.998,
+        "iron": 0.998,
+        "magnesium": 0.997,
+        "potassium": 0.998,
+        "zinc": 0.993,
+        "iodine": 0.876,
+        "selenium": 0.03,
+        "vitaminA": 0.999,
+        "vitaminD": 0.981,
+        "vitaminB12": 0.972,
+        "folate": 0.999,
+        "vitaminC": 0.945
+      },
+      "usda": {
+        "fiber": 0.972,
+        "sugar": 0.965,
+        "saturatedFat": 0.961,
+        "calcium": 0.999,
+        "iron": 0.999,
+        "magnesium": 0.999,
+        "potassium": 0.999,
+        "zinc": 0.999,
+        "iodine": 0.011,
+        "selenium": 0.97,
+        "vitaminA": 0.953,
+        "vitaminD": 0.953,
+        "vitaminB12": 0.955,
+        "folate": 0.944,
+        "vitaminC": 0.962
+      },
+      "ciqual": {
+        "fiber": 0.942,
+        "sugar": 0.874,
+        "saturatedFat": 0.907,
+        "calcium": 0.78,
+        "iron": 0.724,
+        "magnesium": 0.749,
+        "potassium": 0.757,
+        "zinc": 0.698,
+        "iodine": 0.374,
+        "selenium": 0.337,
+        "vitaminA": 0.557,
+        "vitaminD": 0.411,
+        "vitaminB12": 0.591,
+        "folate": 0.679,
+        "vitaminC": 0.503
+      },
+      "cofid": {
+        "fiber": 0.89,
+        "sugar": 0.922,
+        "saturatedFat": 0.821,
+        "calcium": 0.975,
+        "iron": 0.953,
+        "magnesium": 0.957,
+        "potassium": 0.976,
+        "zinc": 0.893,
+        "iodine": 0.491,
+        "selenium": 0.618,
+        "vitaminA": 0.665,
+        "vitaminD": 0.76,
+        "vitaminB12": 0.85,
+        "folate": 0.825,
+        "vitaminC": 0.728
+      },
+      "mext": {
+        "fiber": 0.935,
+        "sugar": 0.0,
+        "saturatedFat": 0.0,
+        "calcium": 0.979,
+        "iron": 0.972,
+        "magnesium": 0.985,
+        "potassium": 0.985,
+        "zinc": 0.943,
+        "iodine": 0.482,
+        "selenium": 0.512,
+        "vitaminA": 0.925,
+        "vitaminD": 0.926,
+        "vitaminB12": 0.917,
+        "folate": 0.972,
+        "vitaminC": 0.883
+      }
+    }
+  },
+  "portions": {
+    "total": 1885,
+    "origin": {
+      "generated": 1857,
+      "reviewed": 28
+    },
+    "weightSource": {
+      "estimate": 1782,
+      "householdMeasure": 103
+    },
+    "webCheck": {
+      "checkedOn": "2026-10-30",
+      "confirmed": 786,
+      "noReference": 911,
+      "corrected": 25,
+      "proposedNotApplied": 32
+    }
+  },
+  "staples": {
+    "foods": 1342,
+    "verified": 1342,
+    "categories": [
+      {
+        "key": "bread",
+        "en": "Bread and bakery",
+        "de": "Brot und Backwaren",
+        "foods": 98
+      },
+      {
+        "key": "vegetables",
+        "en": "Vegetables",
+        "de": "Gemüse",
+        "foods": 133
+      },
+      {
+        "key": "fruit",
+        "en": "Fruit",
+        "de": "Obst",
+        "foods": 68
+      },
+      {
+        "key": "dairy",
+        "en": "Dairy and eggs",
+        "de": "Milchprodukte und Eier",
+        "foods": 98
+      },
+      {
+        "key": "meat",
+        "en": "Meat and poultry",
+        "de": "Fleisch und Geflügel",
+        "foods": 120
+      },
+      {
+        "key": "fish",
+        "en": "Fish and seafood",
+        "de": "Fisch und Meeresfrüchte",
+        "foods": 69
+      },
+      {
+        "key": "sausages",
+        "en": "Sausages, ham and cold cuts",
+        "de": "Wurst, Schinken und Aufschnitt",
+        "foods": 76
+      },
+      {
+        "key": "grains",
+        "en": "Grains, pasta, rice and cereals",
+        "de": "Getreide, Nudeln, Reis und Cerealien",
+        "foods": 114
+      },
+      {
+        "key": "legumes-nuts",
+        "en": "Legumes, nuts and seeds",
+        "de": "Hülsenfrüchte, Nüsse und Samen",
+        "foods": 62
+      },
+      {
+        "key": "fats-spices",
+        "en": "Fats, oils, spices and condiments",
+        "de": "Fette, Öle, Gewürze und Saucen",
+        "foods": 158
+      },
+      {
+        "key": "drinks",
+        "en": "Drinks",
+        "de": "Getränke",
+        "foods": 94
+      },
+      {
+        "key": "sweets-snacks",
+        "en": "Sweets, snacks, cakes and spreads",
+        "de": "Süßes, Snacks, Kuchen und Aufstriche",
+        "foods": 137
+      },
+      {
+        "key": "convenience",
+        "en": "Convenience foods (sealed products)",
+        "de": "Fertigprodukte",
+        "foods": 115
+      }
+    ],
+    "rowsChecked": 1735,
+    "gaps": 0
+  },
+  "drinks": {
+    "sourceRecords": 21513,
+    "measured": 1375,
+    "withoutVolume": 0
+  },
+  "scoreboards": {
+    "photo": {
+      "photos": 27,
+      "mainFoodRight": {
+        "right": 24,
+        "of": 26
+      },
+      "allFoodsRight": {
+        "right": 24,
+        "of": 26
+      },
+      "portionSane": {
+        "right": 23,
+        "of": 23
+      },
+      "forbiddenFoods": 0,
+      "nonFoodRejected": {
+        "right": 1,
+        "of": 1
+      },
+      "medianSeconds": 1.6
+    },
+    "compose": {
+      "meals": 66,
+      "dishesBuilt": 47,
+      "ingredientsVerified": {
+        "right": 209,
+        "of": 215
+      },
+      "foods": 324,
+      "missingNames": 20,
+      "unverified": 3
+    },
+    "parser": {
+      "descriptions": 320,
+      "foods": 960,
+      "silentDrops": 0,
+      "confidentlyUnrelated": 0,
+      "quantityAccuracyPercent": 100.0,
+      "unresolvedRatePercent": 0.0,
+      "englishOnlyInGerman": 0,
+      "averageAnalysisMs": 151.3
+    },
+    "portionPicker": {
+      "products": 22890
+    }
+  },
+  "tests": {
+    "dataLane": {
+      "executed": 258,
+      "failures": 0
+    }
+  },
+  "auditPassed": true,
+  "collectionGroups": [
+    {
+      "key": "everyday",
+      "en": "Everyday food",
+      "de": "Alltag"
+    },
+    {
+      "key": "dishes",
+      "en": "Dishes",
+      "de": "Gerichte"
+    },
+    {
+      "key": "out",
+      "en": "Eating out",
+      "de": "Unterwegs"
+    },
+    {
+      "key": "drinks",
+      "en": "Drinks",
+      "de": "Getränke"
+    },
+    {
+      "key": "special",
+      "en": "Special",
+      "de": "Besonderes"
+    }
+  ],
+  "collections": [
+    {
+      "key": "staples",
+      "group": "everyday",
+      "en": "Supermarket basics",
+      "de": "Grundnahrungsmittel",
+      "sticker": "egg",
+      "count": 1342,
+      "verified": 1342
+    },
+    {
+      "key": "baking",
+      "group": "everyday",
+      "en": "Cakes and pastries",
+      "de": "Kuchen und Gebäck",
+      "sticker": "shortcake",
+      "count": 867,
+      "verified": 47
+    },
+    {
+      "key": "plant-based",
+      "group": "everyday",
+      "en": "Plant-based",
+      "de": "Pflanzlich",
+      "sticker": "seedling",
+      "count": 185,
+      "verified": 14
+    },
+    {
+      "key": "baby-food",
+      "group": "everyday",
+      "en": "Baby food",
+      "de": "Babynahrung",
+      "sticker": "baby-bottle",
+      "count": 185,
+      "verified": 0
+    },
+    {
+      "key": "recipes",
+      "group": "dishes",
+      "en": "Dishes",
+      "de": "Gerichte",
+      "sticker": "spaghetti",
+      "count": 1501,
+      "verified": 1064
+    },
+    {
+      "key": "takeaway",
+      "group": "dishes",
+      "en": "Takeaway and street food",
+      "de": "Imbiss und Streetfood",
+      "sticker": "pizza",
+      "count": 266,
+      "verified": 13
+    },
+    {
+      "key": "cafe-chains",
+      "group": "out",
+      "en": "Café chains",
+      "de": "Caféketten",
+      "sticker": "cup-with-straw",
+      "count": 1161,
+      "verified": 1161
+    },
+    {
+      "key": "fast-food",
+      "group": "out",
+      "en": "Fast food chains",
+      "de": "Fast-Food-Ketten",
+      "sticker": "hamburger",
+      "count": null,
+      "verified": null
+    },
+    {
+      "key": "restaurant-chains",
+      "group": "out",
+      "en": "Restaurant chains",
+      "de": "Restaurantketten",
+      "sticker": "fork-and-knife-with-plate",
+      "count": null,
+      "verified": null
+    },
+    {
+      "key": "bakery-chains",
+      "group": "out",
+      "en": "Bakery chains",
+      "de": "Bäckereiketten",
+      "sticker": "bagel",
+      "count": null,
+      "verified": null
+    },
+    {
+      "key": "cafe",
+      "group": "drinks",
+      "en": "Café drinks",
+      "de": "Cafégetränke",
+      "sticker": "hot-beverage",
+      "count": 216,
+      "verified": 0
+    },
+    {
+      "key": "drinks",
+      "group": "drinks",
+      "en": "Whole drinks",
+      "de": "Ganze Getränke",
+      "sticker": "beer-mug",
+      "count": 216,
+      "verified": 216
+    },
+    {
+      "key": "tea",
+      "group": "drinks",
+      "en": "Tea",
+      "de": "Tee",
+      "sticker": "teacup-without-handle",
+      "count": 90,
+      "verified": 7
+    },
+    {
+      "key": "alcohol",
+      "group": "drinks",
+      "en": "Beer, wine and spirits",
+      "de": "Bier, Wein und Spirituosen",
+      "sticker": "wine-glass",
+      "count": 201,
+      "verified": 30
+    },
+    {
+      "key": "cocktails",
+      "group": "drinks",
+      "en": "Cocktails",
+      "de": "Cocktails",
+      "sticker": "tropical-drink",
+      "count": null,
+      "verified": null
+    },
+    {
+      "key": "supplements",
+      "group": "special",
+      "en": "Supplements",
+      "de": "Supplemente",
+      "sticker": "pill",
+      "count": 1,
+      "verified": 1
+    },
+    {
+      "key": "sports",
+      "group": "special",
+      "en": "Sports nutrition",
+      "de": "Sportnahrung",
+      "sticker": "flexed-biceps",
+      "count": 49,
+      "verified": 6
+    },
+    {
+      "key": "seasonal",
+      "group": "special",
+      "en": "Seasonal and festive",
+      "de": "Saisonal und festlich",
+      "sticker": "christmas-tree",
+      "count": null,
+      "verified": null
+    }
+  ],
+  "cuisines": [
+    {
+      "key": "american",
+      "count": 35
+    },
+    {
+      "key": "german",
+      "count": 32
+    },
+    {
+      "key": "italian",
+      "count": 32
+    },
+    {
+      "key": "chinese",
+      "count": 30
+    },
+    {
+      "key": "indian",
+      "count": 29
+    },
+    {
+      "key": "japanese",
+      "count": 28
+    },
+    {
+      "key": "mexican",
+      "count": 28
+    },
+    {
+      "key": "british",
+      "count": 26
+    },
+    {
+      "key": "french",
+      "count": 17
+    },
+    {
+      "key": "spanish",
+      "count": 15
+    },
+    {
+      "key": "austrian",
+      "count": 12
+    },
+    {
+      "key": "middle-eastern",
+      "count": 12
+    },
+    {
+      "key": "thai",
+      "count": 12
+    },
+    {
+      "key": "turkish",
+      "count": 12
+    },
+    {
+      "key": "greek",
+      "count": 11
+    },
+    {
+      "key": "korean",
+      "count": 11
+    },
+    {
+      "key": "vietnamese",
+      "count": 9
+    },
+    {
+      "key": "polish",
+      "count": null
+    },
+    {
+      "key": "portuguese",
+      "count": null
+    },
+    {
+      "key": "brazilian",
+      "count": null
+    },
+    {
+      "key": "indonesian",
+      "count": null
+    },
+    {
+      "key": "ethiopian",
+      "count": null
+    },
+    {
+      "key": "caribbean",
+      "count": null
+    },
+    {
+      "key": "russian",
+      "count": null
+    }
+  ],
+  "cuisinesWithoutRecipe": 9,
+  "missingRecipes": [
+    "Salmon sashimi",
+    "Tteokbokki",
+    "Chicken curry",
+    "Dolmades",
+    "Chicken tenders",
+    "Chicken schnitzel",
+    "Half roast chicken",
+    "Leberkäse",
+    "Frikadellen"
+  ]
+}

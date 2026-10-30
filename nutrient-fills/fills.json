@@ -1,0 +1,2242 @@
+{
+  "version": 1,
+  "policy": "second-table-fills-v1",
+  "fills": [
+    {
+      "id": "bls:B401000",
+      "nutrient": "selenium",
+      "value": 7,
+      "from": "cofid:11-986",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:B6A2000",
+      "nutrient": "selenium",
+      "value": 5,
+      "from": "cofid:11-822",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:C119100",
+      "nutrient": "iodine",
+      "value": 2.7,
+      "from": "ciqual:9690",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:C119100",
+      "nutrient": "selenium",
+      "value": 3.2,
+      "from": "ciqual:9690",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:C119232",
+      "nutrient": "selenium",
+      "value": 9.5,
+      "from": "ciqual:9683",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:C138000",
+      "nutrient": "selenium",
+      "value": 45.2,
+      "from": "ciqual:9640",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:C236000",
+      "nutrient": "vitaminC",
+      "value": 0,
+      "from": "ciqual:9001",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:C351000",
+      "nutrient": "vitaminC",
+      "value": 0,
+      "from": "ciqual:9102",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:C352000",
+      "nutrient": "selenium",
+      "value": 9.42,
+      "from": "ciqual:9100",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:C352000",
+      "nutrient": "vitaminC",
+      "value": 0,
+      "from": "ciqual:9100",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:C352032",
+      "nutrient": "selenium",
+      "value": 1,
+      "from": "mext:01185",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:C353100",
+      "nutrient": "selenium",
+      "value": 3,
+      "from": "cofid:11-872",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:C421000",
+      "nutrient": "selenium",
+      "value": 4.9,
+      "from": "ciqual:9540",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:D038000",
+      "nutrient": "vitaminB12",
+      "value": 0,
+      "from": "usda:2707705",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:E107122",
+      "nutrient": "selenium",
+      "value": 7.68,
+      "from": "ciqual:22011",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:E111132",
+      "nutrient": "selenium",
+      "value": 7.01,
+      "from": "ciqual:22010",
+      "reviewed": "2026-10-30",
+      "note": "chosen over ciqual:22014 23.8, mext:12005 25"
+    },
+    {
+      "id": "bls:F120400",
+      "nutrient": "selenium",
+      "value": 0.5,
+      "from": "ciqual:13111",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:F130100",
+      "nutrient": "selenium",
+      "value": 0.1,
+      "from": "usda:2709254",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:F130400",
+      "nutrient": "selenium",
+      "value": 2,
+      "from": "cofid:14-196",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:F201100",
+      "nutrient": "selenium",
+      "value": 0.1,
+      "from": "usda:2709221",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:F201400",
+      "nutrient": "selenium",
+      "value": 7,
+      "from": "cofid:14-031",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:F202100",
+      "nutrient": "selenium",
+      "value": 0,
+      "from": "usda:2709245",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:F203700",
+      "nutrient": "selenium",
+      "value": 0.2,
+      "from": "usda:2709346",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:F211100",
+      "nutrient": "selenium",
+      "value": 0,
+      "from": "usda:2709231",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:F220100",
+      "nutrient": "selenium",
+      "value": 0,
+      "from": "usda:2709265",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:F301100",
+      "nutrient": "selenium",
+      "value": 0.4,
+      "from": "usda:2709283",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:F303100",
+      "nutrient": "selenium",
+      "value": 0.4,
+      "from": "usda:2709273",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:F310100",
+      "nutrient": "iodine",
+      "value": 0,
+      "from": "mext:07116",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:F310100",
+      "nutrient": "selenium",
+      "value": 0,
+      "from": "mext:07116",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:F504100",
+      "nutrient": "selenium",
+      "value": 1,
+      "from": "cofid:14-083",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:F505100",
+      "nutrient": "selenium",
+      "value": 0,
+      "from": "mext:07015",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:F506100",
+      "nutrient": "selenium",
+      "value": 0.5,
+      "from": "usda:2709267",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:F516100",
+      "nutrient": "selenium",
+      "value": 0,
+      "from": "mext:07132",
+      "reviewed": "2026-10-30",
+      "note": "chosen over usda:2709242 0.6"
+    },
+    {
+      "id": "bls:F516700",
+      "nutrient": "selenium",
+      "value": 0.4,
+      "from": "usda:2709345",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:F517100",
+      "nutrient": "selenium",
+      "value": 0.6,
+      "from": "usda:2709246",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:F535100",
+      "nutrient": "selenium",
+      "value": 0.4,
+      "from": "usda:2709270",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:F564100",
+      "nutrient": "iodine",
+      "value": 0,
+      "from": "mext:07133",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:F564100",
+      "nutrient": "selenium",
+      "value": 1,
+      "from": "mext:07133",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:F603100",
+      "nutrient": "selenium",
+      "value": 0.2,
+      "from": "usda:2709171",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:G061000",
+      "nutrient": "selenium",
+      "value": 0.3,
+      "from": "usda:2709780",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:G081100",
+      "nutrient": "selenium",
+      "value": 0.9,
+      "from": "usda:2709781",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:G105100",
+      "nutrient": "selenium",
+      "value": 0.6,
+      "from": "usda:2709789",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:G210132",
+      "nutrient": "selenium",
+      "value": 7,
+      "from": "cofid:13-550",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:G211100",
+      "nutrient": "selenium",
+      "value": 5,
+      "from": "cofid:13-521",
+      "reviewed": "2026-10-30",
+      "note": "chosen over usda:1999632 0"
+    },
+    {
+      "id": "bls:G220100",
+      "nutrient": "selenium",
+      "value": 0,
+      "from": "usda:2709778",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:G230100",
+      "nutrient": "selenium",
+      "value": 0.9,
+      "from": "usda:2709574",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:G311100",
+      "nutrient": "selenium",
+      "value": 1,
+      "from": "cofid:13-512",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:G312100",
+      "nutrient": "selenium",
+      "value": 1,
+      "from": "cofid:13-502",
+      "reviewed": "2026-10-30",
+      "note": "chosen over ciqual:20057 1.21, mext:06263 2"
+    },
+    {
+      "id": "bls:G312132",
+      "nutrient": "selenium",
+      "value": 1,
+      "from": "mext:06264",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:G312200",
+      "nutrient": "selenium",
+      "value": 2.8,
+      "from": "ciqual:20204",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:G321100",
+      "nutrient": "selenium",
+      "value": 0.29,
+      "from": "ciqual:20167",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:G322100",
+      "nutrient": "selenium",
+      "value": 2.1,
+      "from": "ciqual:20218",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:G324100",
+      "nutrient": "selenium",
+      "value": 1,
+      "from": "mext:06237",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:G331100",
+      "nutrient": "selenium",
+      "value": 0.47,
+      "from": "ciqual:20065",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:G332100",
+      "nutrient": "selenium",
+      "value": 1.32,
+      "from": "ciqual:20058",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:G410100",
+      "nutrient": "selenium",
+      "value": 0.23,
+      "from": "ciqual:20052",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:G450100",
+      "nutrient": "selenium",
+      "value": 1,
+      "from": "cofid:13-157",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:G450902",
+      "nutrient": "selenium",
+      "value": 0.97,
+      "from": "ciqual:20076",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:G470132",
+      "nutrient": "zinc",
+      "value": 0.3,
+      "from": "mext:06309",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:G480100",
+      "nutrient": "selenium",
+      "value": 0,
+      "from": "usda:2709795",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:G510100",
+      "nutrient": "selenium",
+      "value": 0,
+      "from": "mext:06191",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:G520100",
+      "nutrient": "selenium",
+      "value": 0.3,
+      "from": "usda:2709784",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:G530100",
+      "nutrient": "selenium",
+      "value": 1,
+      "from": "cofid:13-300",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:G530132",
+      "nutrient": "selenium",
+      "value": 0,
+      "from": "mext:06033",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:G561100",
+      "nutrient": "selenium",
+      "value": 0,
+      "from": "usda:2709719",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:G611100",
+      "nutrient": "selenium",
+      "value": 1,
+      "from": "cofid:13-359",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:G613100",
+      "nutrient": "selenium",
+      "value": 0.7,
+      "from": "usda:2709770",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:G620100",
+      "nutrient": "selenium",
+      "value": 0,
+      "from": "usda:2258587",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:G640100",
+      "nutrient": "selenium",
+      "value": 2,
+      "from": "cofid:13-312",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:G691100",
+      "nutrient": "selenium",
+      "value": 0.6,
+      "from": "usda:2709803",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:G710100",
+      "nutrient": "selenium",
+      "value": 1,
+      "from": "cofid:13-514",
+      "reviewed": "2026-10-30",
+      "note": "chosen over ciqual:20061 0.98"
+    },
+    {
+      "id": "bls:G710902",
+      "nutrient": "selenium",
+      "value": 0.89,
+      "from": "ciqual:20062",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:G750432",
+      "nutrient": "selenium",
+      "value": 5,
+      "from": "cofid:13-116",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:G760132",
+      "nutrient": "selenium",
+      "value": 1,
+      "from": "usda:2709962",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:G770432",
+      "nutrient": "selenium",
+      "value": 5,
+      "from": "mext:04066",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:G880602",
+      "nutrient": "selenium",
+      "value": 0.2,
+      "from": "usda:2710101",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:H120400",
+      "nutrient": "selenium",
+      "value": 3,
+      "from": "cofid:14-879",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:H130400",
+      "nutrient": "selenium",
+      "value": 2,
+      "from": "cofid:14-874",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:H150100",
+      "nutrient": "selenium",
+      "value": 1,
+      "from": "cofid:14-816",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:H154000",
+      "nutrient": "selenium",
+      "value": 3,
+      "from": "ciqual:18041",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:H160100",
+      "nutrient": "selenium",
+      "value": 12,
+      "from": "cofid:14-837",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:H170700",
+      "nutrient": "selenium",
+      "value": 34,
+      "from": "cofid:14-812",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:H190700",
+      "nutrient": "selenium",
+      "value": 13,
+      "from": "mext:05031",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:H720902",
+      "nutrient": "selenium",
+      "value": 23.3,
+      "from": "ciqual:20532",
+      "reviewed": "2026-10-30",
+      "note": "chosen over cofid:13-670 29.9"
+    },
+    {
+      "id": "bls:H960000",
+      "nutrient": "selenium",
+      "value": 4,
+      "from": "cofid:13-556",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:K120134",
+      "nutrient": "selenium",
+      "value": 1,
+      "from": "ciqual:4007",
+      "reviewed": "2026-10-30",
+      "note": "chosen over mext:02019 0"
+    },
+    {
+      "id": "bls:K120164",
+      "nutrient": "selenium",
+      "value": 0.3,
+      "from": "usda:2709383",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:K701100",
+      "nutrient": "selenium",
+      "value": 19,
+      "from": "usda:2709793",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:K701100",
+      "nutrient": "vitaminB12",
+      "value": 0.04,
+      "from": "usda:2709793",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:M011000",
+      "nutrient": "selenium",
+      "value": 3,
+      "from": "ciqual:19250",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:M021000",
+      "nutrient": "selenium",
+      "value": 1.4,
+      "from": "usda:2705395",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:M111100",
+      "nutrient": "selenium",
+      "value": 3,
+      "from": "mext:13006",
+      "reviewed": "2026-10-30",
+      "note": "chosen over usda:2705388 2"
+    },
+    {
+      "id": "bls:M111200",
+      "nutrient": "selenium",
+      "value": 1,
+      "from": "cofid:12-314",
+      "reviewed": "2026-10-30",
+      "note": "chosen over ciqual:19033 2.45, ciqual:19041 1.89"
+    },
+    {
+      "id": "bls:M111300",
+      "nutrient": "selenium",
+      "value": 1.9,
+      "from": "usda:2705385",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:M114300",
+      "nutrient": "selenium",
+      "value": 1.9,
+      "from": "usda:2705392",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:M141100",
+      "nutrient": "selenium",
+      "value": 2,
+      "from": "cofid:12-533",
+      "reviewed": "2026-10-30",
+      "note": "chosen over ciqual:19593 2.16"
+    },
+    {
+      "id": "bls:M141200",
+      "nutrient": "selenium",
+      "value": 2,
+      "from": "cofid:12-379",
+      "reviewed": "2026-10-30",
+      "note": "chosen over cofid:12-533 2, usda:2705417 3.3, usda:2705419 3.3"
+    },
+    {
+      "id": "bls:M141500",
+      "nutrient": "selenium",
+      "value": 3.56,
+      "from": "ciqual:19598",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:M150000",
+      "nutrient": "selenium",
+      "value": 2,
+      "from": "usda:2705393",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:M181400",
+      "nutrient": "selenium",
+      "value": 6,
+      "from": "mext:13013",
+      "reviewed": "2026-10-30",
+      "note": "chosen over usda:2705402 14.8"
+    },
+    {
+      "id": "bls:M182400",
+      "nutrient": "selenium",
+      "value": 2.3,
+      "from": "ciqual:19026",
+      "reviewed": "2026-10-30",
+      "note": "chosen over usda:2705398 2.3, usda:2705399 2.3"
+    },
+    {
+      "id": "bls:M206200",
+      "nutrient": "selenium",
+      "value": 1.9,
+      "from": "usda:2705470",
+      "reviewed": "2026-10-30",
+      "note": "chosen over usda:2705466 1.9"
+    },
+    {
+      "id": "bls:M241300",
+      "nutrient": "selenium",
+      "value": 3.1,
+      "from": "usda:2705425",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:M241300",
+      "nutrient": "vitaminB12",
+      "value": 0.48,
+      "from": "usda:2705425",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:M241300",
+      "nutrient": "vitaminC",
+      "value": 1.9,
+      "from": "usda:2705425",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:M2L2200",
+      "nutrient": "selenium",
+      "value": 2.5,
+      "from": "usda:2705442",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:M304600",
+      "nutrient": "selenium",
+      "value": 30.1,
+      "from": "usda:746767",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:M305700",
+      "nutrient": "selenium",
+      "value": 14.5,
+      "from": "usda:2705718",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:M306400",
+      "nutrient": "selenium",
+      "value": 12,
+      "from": "cofid:12-526",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:M406700",
+      "nutrient": "selenium",
+      "value": 14.5,
+      "from": "usda:2705715",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:M524500",
+      "nutrient": "selenium",
+      "value": 12,
+      "from": "cofid:12-496",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:M601700",
+      "nutrient": "selenium",
+      "value": 14.5,
+      "from": "usda:2705708",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:M711100",
+      "nutrient": "selenium",
+      "value": 14.6,
+      "from": "usda:2705747",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:M884000",
+      "nutrient": "selenium",
+      "value": 27,
+      "from": "mext:13010",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:N340000",
+      "nutrient": "selenium",
+      "value": 0.1,
+      "from": "usda:2710543",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:P1A4000",
+      "nutrient": "selenium",
+      "value": 0.4,
+      "from": "usda:2710617",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:P273000",
+      "nutrient": "iodine",
+      "value": 1,
+      "from": "ciqual:5216",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:P273000",
+      "nutrient": "selenium",
+      "value": 0.1,
+      "from": "ciqual:5216",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:P273000",
+      "nutrient": "vitaminB12",
+      "value": 0,
+      "from": "mext:16012",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:P2A6100",
+      "nutrient": "selenium",
+      "value": 0.1,
+      "from": "usda:2710687",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:P550000",
+      "nutrient": "selenium",
+      "value": 0.4,
+      "from": "usda:2710625",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:P712000",
+      "nutrient": "selenium",
+      "value": 0,
+      "from": "usda:2710704",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:P722000",
+      "nutrient": "selenium",
+      "value": 0,
+      "from": "usda:2710702",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:P741000",
+      "nutrient": "selenium",
+      "value": 0,
+      "from": "usda:2710703",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:P752100",
+      "nutrient": "selenium",
+      "value": 0,
+      "from": "ciqual:1001",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:P7A4000",
+      "nutrient": "selenium",
+      "value": 0,
+      "from": "usda:2710705",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:Q120000",
+      "nutrient": "selenium",
+      "value": 0,
+      "from": "mext:14001",
+      "reviewed": "2026-10-30",
+      "note": "chosen over usda:2710186 0"
+    },
+    {
+      "id": "bls:Q140000",
+      "nutrient": "selenium",
+      "value": 0,
+      "from": "ciqual:17210",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:Q180000",
+      "nutrient": "selenium",
+      "value": 0,
+      "from": "mext:14008",
+      "reviewed": "2026-10-30",
+      "note": "chosen over usda:2710188 0"
+    },
+    {
+      "id": "bls:Q190000",
+      "nutrient": "selenium",
+      "value": 0,
+      "from": "usda:2710181",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:Q320000",
+      "nutrient": "selenium",
+      "value": 0,
+      "from": "usda:2710192",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:Q400000",
+      "nutrient": "selenium",
+      "value": 0,
+      "from": "usda:2710159",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:Q440000",
+      "nutrient": "selenium",
+      "value": 0,
+      "from": "usda:2710162",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:Q440000",
+      "nutrient": "vitaminB12",
+      "value": 0.06,
+      "from": "usda:2710162",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:Q611000",
+      "nutrient": "selenium",
+      "value": 0,
+      "from": "usda:2710154",
+      "reviewed": "2026-10-30",
+      "note": "chosen over usda:2710155 0"
+    },
+    {
+      "id": "bls:R122000",
+      "nutrient": "selenium",
+      "value": 0.1,
+      "from": "ciqual:11018",
+      "reviewed": "2026-10-30",
+      "note": "chosen over cofid:17-339 1"
+    },
+    {
+      "id": "bls:R468000",
+      "nutrient": "selenium",
+      "value": 19,
+      "from": "cofid:17-360",
+      "reviewed": "2026-10-30",
+      "note": "chosen over mext:11198 7"
+    },
+    {
+      "id": "bls:S211500",
+      "nutrient": "selenium",
+      "value": 2,
+      "from": "usda:2705647",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:S221700",
+      "nutrient": "selenium",
+      "value": 1.9,
+      "from": "usda:2705451",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:S242000",
+      "nutrient": "selenium",
+      "value": 2.5,
+      "from": "usda:2705632",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:S242000",
+      "nutrient": "vitaminB12",
+      "value": 0.29,
+      "from": "usda:2705632",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:S242000",
+      "nutrient": "vitaminC",
+      "value": 0.7,
+      "from": "usda:2705632",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:S372000",
+      "nutrient": "selenium",
+      "value": 1.7,
+      "from": "usda:2710353",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:S530000",
+      "nutrient": "selenium",
+      "value": 3,
+      "from": "cofid:17-648",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:T020100",
+      "nutrient": "selenium",
+      "value": 65,
+      "from": "cofid:16-254",
+      "reviewed": "2026-10-30",
+      "note": "chosen over ciqual:10016 65, mext:10344 23"
+    },
+    {
+      "id": "bls:T064100",
+      "nutrient": "selenium",
+      "value": 12.7,
+      "from": "ciqual:27011",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:T105100",
+      "nutrient": "selenium",
+      "value": 51,
+      "from": "cofid:16-401",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:T105172",
+      "nutrient": "selenium",
+      "value": 65,
+      "from": "cofid:16-438",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:T105702",
+      "nutrient": "selenium",
+      "value": 35,
+      "from": "ciqual:26034",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:T121100",
+      "nutrient": "selenium",
+      "value": 97.1,
+      "from": "ciqual:26053",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:T121100",
+      "nutrient": "vitaminC",
+      "value": 1.37,
+      "from": "ciqual:26053",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:T204100",
+      "nutrient": "selenium",
+      "value": 23,
+      "from": "cofid:16-372",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:T206100",
+      "nutrient": "selenium",
+      "value": 34,
+      "from": "cofid:16-375",
+      "reviewed": "2026-10-30",
+      "note": "chosen over ciqual:26122 36, usda:333374 25.9"
+    },
+    {
+      "id": "bls:T206600",
+      "nutrient": "selenium",
+      "value": 28,
+      "from": "ciqual:26090",
+      "reviewed": "2026-10-30",
+      "note": "chosen over cofid:16-492 38"
+    },
+    {
+      "id": "bls:T207200",
+      "nutrient": "selenium",
+      "value": 120,
+      "from": "ciqual:26134",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:T207200",
+      "nutrient": "vitaminC",
+      "value": 0,
+      "from": "ciqual:26134",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:T208100",
+      "nutrient": "selenium",
+      "value": 21,
+      "from": "cofid:16-159",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:T209100",
+      "nutrient": "selenium",
+      "value": 31.2,
+      "from": "ciqual:26044",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:T302100",
+      "nutrient": "vitaminC",
+      "value": 1.7,
+      "from": "ciqual:26174",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:T305100",
+      "nutrient": "selenium",
+      "value": 35,
+      "from": "cofid:16-381",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:T309100",
+      "nutrient": "selenium",
+      "value": 23,
+      "from": "cofid:16-039",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:T311100",
+      "nutrient": "selenium",
+      "value": 26,
+      "from": "cofid:16-040",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:T406100",
+      "nutrient": "selenium",
+      "value": 16,
+      "from": "ciqual:26175",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:T410100",
+      "nutrient": "selenium",
+      "value": 25.8,
+      "from": "usda:2706284",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:T410100",
+      "nutrient": "vitaminC",
+      "value": 2.9,
+      "from": "usda:2706284",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:T410600",
+      "nutrient": "vitaminC",
+      "value": 0,
+      "from": "ciqual:26037",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:T420172",
+      "nutrient": "selenium",
+      "value": 29.9,
+      "from": "usda:2706304",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:T424100",
+      "nutrient": "selenium",
+      "value": 22.9,
+      "from": "ciqual:26092",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:T501100",
+      "nutrient": "selenium",
+      "value": 28,
+      "from": "cofid:16-172",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:T601100",
+      "nutrient": "selenium",
+      "value": 24,
+      "from": "ciqual:27010",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:T603100",
+      "nutrient": "selenium",
+      "value": 20,
+      "from": "ciqual:27024",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:T612100",
+      "nutrient": "selenium",
+      "value": 45,
+      "from": "cofid:16-221",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:T730100",
+      "nutrient": "vitaminD",
+      "value": 0,
+      "from": "ciqual:10010",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:T780100",
+      "nutrient": "selenium",
+      "value": 23,
+      "from": "cofid:16-260",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:U010100",
+      "nutrient": "selenium",
+      "value": 7,
+      "from": "cofid:18-469",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:U010182",
+      "nutrient": "selenium",
+      "value": 15,
+      "from": "mext:11272",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:U109100",
+      "nutrient": "selenium",
+      "value": 5.45,
+      "from": "ciqual:6311",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:U211100",
+      "nutrient": "selenium",
+      "value": 8.83,
+      "from": "ciqual:6116",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:U231100",
+      "nutrient": "selenium",
+      "value": 10.2,
+      "from": "ciqual:6270",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:U261100",
+      "nutrient": "selenium",
+      "value": 7.25,
+      "from": "ciqual:6002",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:U287100",
+      "nutrient": "selenium",
+      "value": 10.1,
+      "from": "ciqual:6160",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:U452100",
+      "nutrient": "selenium",
+      "value": 8,
+      "from": "ciqual:6540",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:U471100",
+      "nutrient": "selenium",
+      "value": 6.29,
+      "from": "ciqual:6583",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:U574100",
+      "nutrient": "iodine",
+      "value": 3.73,
+      "from": "ciqual:28300",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:U574100",
+      "nutrient": "selenium",
+      "value": 9.22,
+      "from": "ciqual:28300",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:U601000",
+      "nutrient": "selenium",
+      "value": 18,
+      "from": "cofid:18-608",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:U611100",
+      "nutrient": "vitaminB12",
+      "value": 0.31,
+      "from": "ciqual:28204",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:U611100",
+      "nutrient": "vitaminC",
+      "value": 0,
+      "from": "ciqual:28204",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:V112100",
+      "nutrient": "selenium",
+      "value": 17,
+      "from": "mext:11109",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:V132100",
+      "nutrient": "selenium",
+      "value": 17,
+      "from": "cofid:18-387",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:V132142",
+      "nutrient": "iodine",
+      "value": 3,
+      "from": "ciqual:34000",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:V212100",
+      "nutrient": "selenium",
+      "value": 9,
+      "from": "cofid:18-390",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:V250100",
+      "nutrient": "iodine",
+      "value": 2,
+      "from": "ciqual:14002",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:V250100",
+      "nutrient": "selenium",
+      "value": 6.9,
+      "from": "ciqual:14002",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:V354100",
+      "nutrient": "iodine",
+      "value": 1.5,
+      "from": "ciqual:36101",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:V416100",
+      "nutrient": "iodine",
+      "value": 0,
+      "from": "mext:11220",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:V416100",
+      "nutrient": "selenium",
+      "value": 17,
+      "from": "mext:11220",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:V481000",
+      "nutrient": "iodine",
+      "value": 6,
+      "from": "cofid:18-350",
+      "reviewed": "2026-10-30",
+      "note": "chosen over ciqual:36301 1.5"
+    },
+    {
+      "id": "bls:V481000",
+      "nutrient": "selenium",
+      "value": 13,
+      "from": "cofid:18-350",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:V485100",
+      "nutrient": "selenium",
+      "value": 28,
+      "from": "ciqual:36307",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:V511100",
+      "nutrient": "selenium",
+      "value": 3,
+      "from": "cofid:18-398",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:V512100",
+      "nutrient": "selenium",
+      "value": 14,
+      "from": "ciqual:40062",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:V513100",
+      "nutrient": "selenium",
+      "value": 12.1,
+      "from": "ciqual:40060",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:V515100",
+      "nutrient": "selenium",
+      "value": 2,
+      "from": "cofid:18-396",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:V531100",
+      "nutrient": "selenium",
+      "value": 50,
+      "from": "mext:11092",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:V533100",
+      "nutrient": "selenium",
+      "value": 43.5,
+      "from": "ciqual:40119",
+      "reviewed": "2026-10-30",
+      "note": "chosen over mext:11166 67"
+    },
+    {
+      "id": "bls:V535100",
+      "nutrient": "selenium",
+      "value": 48.7,
+      "from": "ciqual:40102",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:V571100",
+      "nutrient": "iodine",
+      "value": 8.73,
+      "from": "ciqual:40402",
+      "reviewed": "2026-10-30",
+      "note": "chosen over mext:11093 6"
+    },
+    {
+      "id": "bls:V571100",
+      "nutrient": "selenium",
+      "value": 118,
+      "from": "ciqual:40402",
+      "reviewed": "2026-10-30",
+      "note": "chosen over mext:11093 210"
+    },
+    {
+      "id": "bls:V573100",
+      "nutrient": "iodine",
+      "value": 6.35,
+      "from": "ciqual:40404",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:V573100",
+      "nutrient": "selenium",
+      "value": 187,
+      "from": "ciqual:40404",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:V575100",
+      "nutrient": "iodine",
+      "value": 7,
+      "from": "ciqual:40407",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:V575100",
+      "nutrient": "selenium",
+      "value": 150,
+      "from": "cofid:18-402",
+      "reviewed": "2026-10-30",
+      "note": "chosen over ciqual:40407 93.5"
+    },
+    {
+      "id": "bls:V591100",
+      "nutrient": "iodine",
+      "value": 2.15,
+      "from": "ciqual:40202",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:V591100",
+      "nutrient": "selenium",
+      "value": 11.9,
+      "from": "ciqual:40202",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:V592100",
+      "nutrient": "iodine",
+      "value": 2.15,
+      "from": "ciqual:40204",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:V592100",
+      "nutrient": "selenium",
+      "value": 2,
+      "from": "ciqual:40204",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:V634100",
+      "nutrient": "iodine",
+      "value": 2.7,
+      "from": "ciqual:40111",
+      "reviewed": "2026-10-30",
+      "note": "chosen over mext:11232 1"
+    },
+    {
+      "id": "bls:V634100",
+      "nutrient": "selenium",
+      "value": 56.9,
+      "from": "ciqual:40111",
+      "reviewed": "2026-10-30",
+      "note": "chosen over mext:11232 60"
+    },
+    {
+      "id": "bls:V635100",
+      "nutrient": "selenium",
+      "value": 124,
+      "from": "ciqual:40121",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:W310000",
+      "nutrient": "selenium",
+      "value": 36,
+      "from": "mext:11192",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:X655022",
+      "nutrient": "selenium",
+      "value": 6,
+      "from": "usda:2709552",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:Y710142",
+      "nutrient": "selenium",
+      "value": 35,
+      "from": "mext:12021",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:Y720143",
+      "nutrient": "selenium",
+      "value": 31,
+      "from": "mext:12022",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "ciqual:11006",
+      "nutrient": "iodine",
+      "value": 1,
+      "from": "mext:17068",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "ciqual:11006",
+      "nutrient": "selenium",
+      "value": 3,
+      "from": "mext:17068",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "ciqual:20103",
+      "nutrient": "vitaminA",
+      "value": 108,
+      "from": "bls:K713100",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "ciqual:26080",
+      "nutrient": "vitaminB12",
+      "value": 2,
+      "from": "cofid:16-006",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "ciqual:31016",
+      "nutrient": "selenium",
+      "value": 0.6,
+      "from": "usda:2710257",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "ciqual:31034",
+      "nutrient": "iodine",
+      "value": 4,
+      "from": "mext:03023",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "ciqual:31034",
+      "nutrient": "selenium",
+      "value": 0,
+      "from": "mext:03023",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "cofid:11-1104",
+      "nutrient": "vitaminC",
+      "value": 0,
+      "from": "usda:2707715",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "cofid:11-716",
+      "nutrient": "iodine",
+      "value": 1.2,
+      "from": "ciqual:9810",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "cofid:11-802",
+      "nutrient": "vitaminB12",
+      "value": 0,
+      "from": "usda:2707964",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "cofid:13-438",
+      "nutrient": "selenium",
+      "value": 1,
+      "from": "mext:06023",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "cofid:13-890",
+      "nutrient": "iodine",
+      "value": 0.4,
+      "from": "bls:R211200",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "cofid:16-263",
+      "nutrient": "vitaminD",
+      "value": 0.36,
+      "from": "ciqual:10001",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "cofid:16-382",
+      "nutrient": "vitaminA",
+      "value": 0,
+      "from": "bls:T507100",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "cofid:17-365",
+      "nutrient": "selenium",
+      "value": 70,
+      "from": "ciqual:11021",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "cofid:17-365",
+      "nutrient": "vitaminA",
+      "value": 12.9,
+      "from": "ciqual:11021",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "cofid:18-297",
+      "nutrient": "vitaminB12",
+      "value": 0.31,
+      "from": "ciqual:36020",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "usda:2707537",
+      "nutrient": "iodine",
+      "value": 1,
+      "from": "mext:05037",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "usda:2709177",
+      "nutrient": "iodine",
+      "value": 1,
+      "from": "ciqual:2027",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "usda:2709268",
+      "nutrient": "iodine",
+      "value": 1.78,
+      "from": "bls:Y840143",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "usda:2709560",
+      "nutrient": "iodine",
+      "value": 2.5,
+      "from": "ciqual:53100",
+      "reviewed": "2026-10-30",
+      "note": "chosen over bls:F545100 2.5"
+    },
+    {
+      "id": "usda:2710183",
+      "nutrient": "iodine",
+      "value": 0.8,
+      "from": "ciqual:17190",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "usda:2710185",
+      "nutrient": "iodine",
+      "value": 0.01,
+      "from": "bls:Q160000",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "usda:2710187",
+      "nutrient": "iodine",
+      "value": 0,
+      "from": "bls:Q210000",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "usda:2710189",
+      "nutrient": "iodine",
+      "value": 0.01,
+      "from": "bls:Q340000",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "usda:2710190",
+      "nutrient": "iodine",
+      "value": 0,
+      "from": "mext:14002",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "usda:2710191",
+      "nutrient": "iodine",
+      "value": 0.8,
+      "from": "ciqual:17420",
+      "reviewed": "2026-10-30",
+      "note": "chosen over mext:14005 0"
+    },
+    {
+      "id": "usda:2710193",
+      "nutrient": "iodine",
+      "value": 0.8,
+      "from": "ciqual:17220",
+      "reviewed": "2026-10-30",
+      "note": "chosen over bls:Q310000 0"
+    },
+    {
+      "id": "usda:2710260",
+      "nutrient": "iodine",
+      "value": 0.3,
+      "from": "ciqual:31017",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "usda:2710281",
+      "nutrient": "iodine",
+      "value": 0.67,
+      "from": "ciqual:31008",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "usda:2710296",
+      "nutrient": "iodine",
+      "value": 1.2,
+      "from": "ciqual:11163",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "usda:2710488",
+      "nutrient": "iodine",
+      "value": 0,
+      "from": "mext:16044",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "usda:2710699",
+      "nutrient": "iodine",
+      "value": 1,
+      "from": "bls:P620000",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:C223200",
+      "nutrient": "vitaminC",
+      "value": 0,
+      "from": "mext:01143",
+      "reviewed": "2026-10-30",
+      "note": "name differs by type"
+    },
+    {
+      "id": "bls:C223300",
+      "nutrient": "vitaminC",
+      "value": 0,
+      "from": "mext:01143",
+      "reviewed": "2026-10-30",
+      "note": "name differs by type"
+    },
+    {
+      "id": "bls:C351032",
+      "nutrient": "selenium",
+      "value": 6,
+      "from": "cofid:11-867",
+      "reviewed": "2026-10-30",
+      "note": "name differs by basmati"
+    },
+    {
+      "id": "bls:C515600",
+      "nutrient": "selenium",
+      "value": 3,
+      "from": "ciqual:32121",
+      "note": "fortified row; fortification adds no selenium, never a vitamin from it",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:E131100",
+      "nutrient": "vitaminC",
+      "value": 0,
+      "from": "ciqual:22060",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:F033600",
+      "nutrient": "selenium",
+      "value": 0.4,
+      "from": "usda:2709339",
+      "reviewed": "2026-10-30",
+      "note": "name differs by bottled"
+    },
+    {
+      "id": "bls:F081100",
+      "nutrient": "selenium",
+      "value": 0.37,
+      "from": "ciqual:13047",
+      "reviewed": "2026-10-30",
+      "note": "name differs by stalk"
+    },
+    {
+      "id": "bls:F220100",
+      "nutrient": "iodine",
+      "value": 0.27,
+      "from": "ciqual:13100",
+      "reviewed": "2026-10-30",
+      "note": "name differs by pitted"
+    },
+    {
+      "id": "bls:G103100",
+      "nutrient": "iodine",
+      "value": 1.22,
+      "from": "ciqual:20031",
+      "reviewed": "2026-10-30",
+      "note": "name differs by iceberg"
+    },
+    {
+      "id": "bls:G103100",
+      "nutrient": "selenium",
+      "value": 2.33,
+      "from": "ciqual:20031",
+      "reviewed": "2026-10-30",
+      "note": "name differs by iceberg"
+    },
+    {
+      "id": "bls:G107100",
+      "nutrient": "selenium",
+      "value": 2.33,
+      "from": "ciqual:20031",
+      "reviewed": "2026-10-30",
+      "note": "name differs by romaine"
+    },
+    {
+      "id": "bls:G108100",
+      "nutrient": "selenium",
+      "value": 2.33,
+      "from": "ciqual:20031",
+      "reviewed": "2026-10-30",
+      "note": "name differs by leaf"
+    },
+    {
+      "id": "bls:G560600",
+      "nutrient": "iodine",
+      "value": 4,
+      "from": "mext:06340",
+      "reviewed": "2026-10-30",
+      "note": "name differs by unsalted"
+    },
+    {
+      "id": "bls:H190100",
+      "nutrient": "vitaminC",
+      "value": 1.2,
+      "from": "ciqual:15027",
+      "reviewed": "2026-10-30",
+      "note": "name differs by unsalted"
+    },
+    {
+      "id": "bls:M502700",
+      "nutrient": "selenium",
+      "value": 14.5,
+      "from": "usda:2705705",
+      "reviewed": "2026-10-30",
+      "note": "name differs by roquefort"
+    },
+    {
+      "id": "bls:P172000",
+      "nutrient": "selenium",
+      "value": 0.6,
+      "from": "usda:2710616",
+      "note": "name differs by bock; a beer style",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:P733000",
+      "nutrient": "selenium",
+      "value": 0,
+      "from": "usda:2710701",
+      "reviewed": "2026-10-30",
+      "note": "name differs by scotch"
+    },
+    {
+      "id": "bls:Q400000",
+      "nutrient": "vitaminB12",
+      "value": 0.1,
+      "from": "usda:2710159",
+      "reviewed": "2026-10-30",
+      "note": "name differs by stick"
+    },
+    {
+      "id": "bls:Q991000",
+      "nutrient": "selenium",
+      "value": 3,
+      "from": "cofid:17-809",
+      "reviewed": "2026-10-30",
+      "note": "name differs by homemade"
+    },
+    {
+      "id": "bls:Q991000",
+      "nutrient": "vitaminC",
+      "value": 1,
+      "from": "cofid:17-809",
+      "reviewed": "2026-10-30",
+      "note": "name differs by homemade"
+    },
+    {
+      "id": "bls:S114000",
+      "nutrient": "iodine",
+      "value": 0.3,
+      "from": "ciqual:31016",
+      "note": "name differs by vanilla; vanilla sugar is sugar, a measured 0.3 is a value",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:S580000",
+      "nutrient": "selenium",
+      "value": 3,
+      "from": "ciqual:31010",
+      "reviewed": "2026-10-30",
+      "note": "name differs by bar"
+    },
+    {
+      "id": "bls:T105100",
+      "nutrient": "vitaminC",
+      "value": 2.5,
+      "from": "ciqual:26065",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:T206600",
+      "nutrient": "vitaminC",
+      "value": 0,
+      "from": "ciqual:26090",
+      "reviewed": "2026-10-30"
+    },
+    {
+      "id": "bls:T213100",
+      "nutrient": "selenium",
+      "value": 15.9,
+      "from": "usda:333476",
+      "reviewed": "2026-10-30",
+      "note": "name differs by alaska"
+    },
+    {
+      "id": "bls:T213100",
+      "nutrient": "vitaminC",
+      "value": 0,
+      "from": "usda:333476",
+      "reviewed": "2026-10-30",
+      "note": "name differs by alaska"
+    },
+    {
+      "id": "bls:T403100",
+      "nutrient": "selenium",
+      "value": 16,
+      "from": "ciqual:26171",
+      "reviewed": "2026-10-30",
+      "note": "name differs by arctic"
+    },
+    {
+      "id": "bls:T410072",
+      "nutrient": "selenium",
+      "value": 32,
+      "from": "cofid:16-486",
+      "reviewed": "2026-10-30",
+      "note": "name differs by wild"
+    },
+    {
+      "id": "bls:T410600",
+      "nutrient": "selenium",
+      "value": 19,
+      "from": "cofid:16-412",
+      "reviewed": "2026-10-30",
+      "note": "name differs by cold"
+    },
+    {
+      "id": "bls:T501100",
+      "nutrient": "vitaminD",
+      "value": 3.84,
+      "from": "ciqual:27003",
+      "reviewed": "2026-10-30",
+      "note": "name differs by farmed"
+    },
+    {
+      "id": "bls:T506100",
+      "nutrient": "selenium",
+      "value": 9.28,
+      "from": "usda:2684445",
+      "reviewed": "2026-10-30",
+      "note": "name differs by farmed"
+    },
+    {
+      "id": "bls:U070100",
+      "nutrient": "selenium",
+      "value": 7,
+      "from": "cofid:18-508",
+      "reviewed": "2026-10-30",
+      "note": "name differs by extra"
+    },
+    {
+      "id": "bls:U104100",
+      "nutrient": "selenium",
+      "value": 10.1,
+      "from": "ciqual:6160",
+      "reviewed": "2026-10-30",
+      "note": "name differs by topside"
+    },
+    {
+      "id": "bls:U131100",
+      "nutrient": "selenium",
+      "value": 11,
+      "from": "ciqual:6212",
+      "reviewed": "2026-10-30",
+      "note": "name differs by flank"
+    },
+    {
+      "id": "bls:U564100",
+      "nutrient": "selenium",
+      "value": 12,
+      "from": "cofid:18-609",
+      "reviewed": "2026-10-30",
+      "note": "name differs by spare"
+    },
+    {
+      "id": "bls:U886100",
+      "nutrient": "selenium",
+      "value": 2,
+      "from": "ciqual:21006",
+      "reviewed": "2026-10-30",
+      "note": "name differs by leg"
+    },
+    {
+      "id": "bls:V217100",
+      "nutrient": "selenium",
+      "value": 9,
+      "from": "cofid:18-390",
+      "reviewed": "2026-10-30",
+      "note": "name differs by loin"
+    },
+    {
+      "id": "bls:V413000",
+      "nutrient": "selenium",
+      "value": 19,
+      "from": "mext:11224",
+      "reviewed": "2026-10-30",
+      "note": "name differs by thigh"
+    },
+    {
+      "id": "bls:W320000",
+      "nutrient": "selenium",
+      "value": 36,
+      "from": "mext:11192",
+      "reviewed": "2026-10-30",
+      "note": "name differs by coarse"
+    },
+    {
+      "id": "bls:X201160",
+      "nutrient": "selenium",
+      "value": 0.5,
+      "from": "usda:2709792",
+      "reviewed": "2026-10-30",
+      "note": "name differs by mixed"
+    },
+    {
+      "id": "bls:Y8A4090",
+      "nutrient": "selenium",
+      "value": 2.76,
+      "from": "ciqual:39200",
+      "reviewed": "2026-10-30",
+      "note": "name differs by chilled"
+    },
+    {
+      "id": "ciqual:20999",
+      "nutrient": "vitaminB12",
+      "value": 0.2,
+      "from": "mext:09040",
+      "reviewed": "2026-10-30",
+      "note": "name differs by plain"
+    },
+    {
+      "id": "ciqual:20999",
+      "nutrient": "vitaminD",
+      "value": 0,
+      "from": "mext:09040",
+      "reviewed": "2026-10-30",
+      "note": "name differs by plain"
+    },
+    {
+      "id": "cofid:11-858",
+      "nutrient": "iodine",
+      "value": 2,
+      "from": "bls:X820162",
+      "reviewed": "2026-10-30",
+      "note": "name differs by basmati"
+    },
+    {
+      "id": "cofid:12-335",
+      "nutrient": "vitaminC",
+      "value": 0.6,
+      "from": "bls:M172900",
+      "reviewed": "2026-10-30",
+      "note": "name differs by fat"
+    },
+    {
+      "id": "cofid:13-519",
+      "nutrient": "selenium",
+      "value": 0,
+      "from": "usda:2709719",
+      "reviewed": "2026-10-30",
+      "note": "name differs by cherry"
+    },
+    {
+      "id": "cofid:18-179",
+      "nutrient": "vitaminA",
+      "value": 0,
+      "from": "ciqual:21507",
+      "reviewed": "2026-10-30",
+      "note": "name differs by lean"
+    },
+    {
+      "id": "cofid:18-512",
+      "nutrient": "iodine",
+      "value": 4.491,
+      "from": "bls:U601000",
+      "reviewed": "2026-10-30",
+      "note": "name differs by leg"
+    },
+    {
+      "id": "cofid:18-512",
+      "nutrient": "vitaminA",
+      "value": 6,
+      "from": "bls:U601000",
+      "reviewed": "2026-10-30",
+      "note": "name differs by leg"
+    },
+    {
+      "id": "usda:2710182",
+      "nutrient": "iodine",
+      "value": 0.4,
+      "from": "ciqual:16060",
+      "reviewed": "2026-10-30",
+      "note": "name differs by refined"
+    },
+    {
+      "id": "usda:2710259",
+      "nutrient": "iodine",
+      "value": 0.3,
+      "from": "ciqual:31016",
+      "reviewed": "2026-10-30",
+      "note": "name differs by icing"
+    }
+  ]
+}

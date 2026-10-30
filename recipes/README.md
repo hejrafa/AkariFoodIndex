@@ -18,7 +18,9 @@ this repository builds; the weekly refresh never reads it.
   The serving's grams are the sum of its ingredients.
 - **The café rule applies.** A dish declares a nutrient only when every
   ingredient declares it. Source energy is summed, not recomputed from macros.
-  Nothing missing is filled with zero. This is why some ingredient choices
+  Nothing missing is filled with zero; a gap is filled only through the
+  reference rows' marked fills (`FoodIndex/nutrient-fills/`), a second
+  national table's measured value for the same food. This is why some ingredient choices
   prefer a row from another table: the BLS mozzarella and feta leave fibre
   undeclared, BLS rapeseed and sunflower oil leave water undeclared, and either
   would remove that value from the whole dish.

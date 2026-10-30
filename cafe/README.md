@@ -15,7 +15,7 @@ Akari now bundles a café-specific catalog alongside its national tables and Ope
 
 Oat uses the actual unfortified AUSNUT oat beverage; soy, almond, coconut drink, skim, low-fat, whole and lactose-free milk each have their own source ingredient. Grouped rice/oat or almond/coconut averages are never relabeled as an individual milk. Ingredient fortification and brands can materially change a real drink. Mocha explicitly includes cocoa and sugar; the other calculated lattes have no added syrup/sugar. The separately named sweetened chai-powder record is distinct from brewed, unsweetened chai recipes.
 
-Mixtures calculate a nutrient only when **every ingredient** declares it. Absent iodine, sugar or vitamins are not filled with zero. Source energy is retained (kJ / 4.184 for AUSNUT), not recomputed from rounded macros. Caffeine is an average: different beans, extraction and shot sizes vary substantially.
+Mixtures calculate a nutrient only when **every ingredient** declares it. Absent iodine, sugar or vitamins are not filled with zero; a gap is filled only through the reference rows' marked fills (`FoodIndex/nutrient-fills/`). Source energy is retained (kJ / 4.184 for AUSNUT), not recomputed from rounded macros. Caffeine is an average: different beans, extraction and shot sizes vary substantially.
 
 Generic recipes offer editable ml/l and gram amounts. `liquid-measures.json` pins
 28 liquid density facts (with measure IDs and workbook hash) from FSANZ's
