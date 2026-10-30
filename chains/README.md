@@ -37,35 +37,47 @@ marks *Do not Show*. A table states energy (kJ and kcal), fat, saturated fat,
 carbohydrates, sugar, fibre, protein and salt and no micronutrient; salt is
 converted to sodium as the café catalogue does (g × 400).
 
-## Can chain items ship through the data pack without an app change?
+## How chain items reach the app
 
-Not correctly, so the builder stops before the bundle. What was studied:
+`Scripts/build_chain_catalog.py` builds the records into `Akari/ChainCatalog.json`
+(version 1), a data pack file of its own beside `CafeDrinkCatalog.json`, in the café
+record shape plus two fields the app honours:
 
-- `Akari/CafeDrinkCatalog.json` is in the data pack's file list (format 1,
-  `Scripts/build_food_data_pack.py`, `Akari/FoodDataFiles.swift`), and the
-  app accepts a downloaded copy when it decodes with `version == 1` and unique
-  ids (`CafeDrinkCatalog.decodes`). A record with an id such as
-  `chain:mcdonalds-de:big-mac` would decode and be found by its name, under the
-  branded group because it carries a brand.
-- But the app treats every record of that file as a café drink:
-  `CafeDrinkCatalog.swift` gives each record coffee or tea artwork from its
-  `category` (anything that is not coffee becomes tea), the meal composer and
-  the description service treat a matched record as a drink
-  (`requestsDrink`, `FoodMealComposition`), the search applies the milk-word
-  rules of lattes, and the kitchen measures read `measurementDensity` as a
-  liquid. A Big Mac would show with a teacup and be handled as a drink.
-- `Scripts/export_catalogue_health.py` also stops on a café record whose id is
-  neither `generic` nor `starbucks-de`.
+- `kind`: `food` or `drink`, from the item's category, so a Big Mac is a food and
+  never meets the café drink rules (milk words, liquid measures, a teacup);
+- `artwork`: the asset the app already draws for it (`Akari/FluentFoodArtwork.json`),
+  from the category with a few name overrides, both tables in the script:
 
-So `Scripts/build_chain_catalog.py` builds the records in the café record
-shape, basis per 100 g with the published portion, into `build/ChainCatalog.json`
-and does not add them to the bundled catalogue. The app change that would let
-them ship: a record field the app honours for artwork and for the drink rules
-(a `kind` such as `food`, with `category` mapped to the artwork taxonomy:
-burger, fries, poultry, cookie, soft-drink, coffee), or a separate
-`ChainCatalog.json` registered in `FoodDataFiles` with a pack format bump. Until
-then the health board's *Fast food chains* collection counts the file's rows,
-verified "all" as the maker's own figures, as the Starbucks collection does.
+| category | kind | artwork | by name |
+| --- | --- | --- | --- |
+| burger | food | burger | |
+| chicken | food | poultry | McChicken, McCrispy: burger |
+| wrap | food | burrito | |
+| fries | food | fries | |
+| salad | food | salad | |
+| sauce | food | jar | |
+| breakfast | food | sandwich | croissant; pancakes, McGriddles: pancakes; McWrap: burrito |
+| dessert | food | ice-cream | cookie; cheesecake, cake, brownie: cake; muffin: cupcake; donut, McPops: doughnut; Apfeltasche: pie; Apfeltüte, Fruchtquatsch: apple; McFreezy: shaved-ice |
+| coffee | drink | coffee | tea, green tea, matcha: tea |
+| drink | drink | soft-drink | water; orange juice, Schorle, Capri-Sun: juice; milkshakes: milk |
+
+The item's name is the chain's own in both languages (`names`), and the builder adds
+what people call it beside that: a count read either side ("McNuggets 6er") and the
+fries by size ("Pommes mittel", "medium fries"). A food is one item at its published
+weight; a drink whose name states its size ("0,5l", "250 ml") is measured by volume at
+that size, and one that states none ("Café Grande", "Mezzo Mix") is one serving at its
+published weight.
+
+In the app, `ChainCatalog` loads the file through `FoodDataFiles`; its records are
+café-sourced products, found by name and chain ("Big Mac", "McNuggets 6er",
+"McDonald's Big Mac"), and a description that names an item outright ("1 Big Mac") is
+the chain's item ahead of a national table's row of the same name. The nutrition is the
+chain's as published: energy, macros and sodium from salt, no micronutrients, with no
+verified mark, as Starbucks' records.
+
+Adding the file is data pack format 2 (`Scripts/build_food_data_pack.py`); the published
+pack stays format 1 (`PUBLISHED_FORMAT`) until an app of format 2 is on TestFlight, so
+apps already out keep receiving packs.
 
 ## Rebuild and tests
 

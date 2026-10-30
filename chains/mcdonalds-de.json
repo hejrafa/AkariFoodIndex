@@ -1,7 +1,7 @@
 {
  "chain": "McDonald's Deutschland",
  "sourceURL": "https://www.mcdonalds.com/de/de-de/produkte/alle-produkte.html",
- "sourceNote": "McDonald's Deutschland publishes its nutrition per product on each product page (Nährwerte per 100 g and per portion with the portion's weight, and allergens); https://www.mcdonalds.com/de/de-de/produkte/naehrwert-und-allergeninformationen.html says the values are rounded European averages from accredited laboratories for standard recipes and portions. There is no PDF: each page reads its table from the site's own item data service, named in the page as data-product-api-url, recorded per row as dataURL with the SHA-256 of the response text.",
+ "sourceNote": "McDonald's Deutschland publishes its nutrition per product on each product page (Nährwerte per 100 g and per portion with the portion's weight, and allergens); https://www.mcdonalds.com/de/de-de/produkte/naehrwert-und-allergeninformationen.html says the values are rounded European averages from accredited laboratories for standard recipes and portions. There is no PDF: each page reads its table from the site's own item data service, named in the page as data-product-api-url, recorded per row as dataURL with the SHA-256 of the response text. portionMilliliters is set only where the site itself states the sold volume, in the product's name or the page address; the McCafé Small, Regular and Grande cups have no stated volume on the site and keep only the table's portion weight.",
  "retrievedOn": "2026-10-30",
  "checkedDate": "2026-10-30",
  "sha256": "09b5fa003257b6657cb4387931e2986b3c4fa89325a9a7ba6a8b976735aadc95",
@@ -1144,7 +1144,9 @@
    "allergens": "Milch (einschl. Laktose)",
    "pageURL": "https://www.mcdonalds.com/de/de-de/product/milchshake-schokogeschmack-04l-5040.html",
    "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=200073",
-   "sha256": "ebd70274d41c4ae2ee985db7caa6c785bb9f8089707e01c5642ef8e5c29fd45f"
+   "sha256": "ebd70274d41c4ae2ee985db7caa6c785bb9f8089707e01c5642ef8e5c29fd45f",
+   "portionMilliliters": 400,
+   "volumeSource": "the product's name states 0,4l; McDonald's Deutschland product page https://www.mcdonalds.com/de/de-de/product/milchshake-schokogeschmack-04l-5040.html"
   },
   {
    "id": 200074,
@@ -1182,7 +1184,9 @@
    "allergens": "Milch (einschl. Laktose)",
    "pageURL": "https://www.mcdonalds.com/de/de-de/product/milchshake-vanillegeschmack-04l-5050.html",
    "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=200074",
-   "sha256": "d6f5a358716dc8183f5f452fbdfcd3fd87bde98e5976f860993a3c62c2d2f13b"
+   "sha256": "d6f5a358716dc8183f5f452fbdfcd3fd87bde98e5976f860993a3c62c2d2f13b",
+   "portionMilliliters": 400,
+   "volumeSource": "the product's name states 0,4l; McDonald's Deutschland product page https://www.mcdonalds.com/de/de-de/product/milchshake-vanillegeschmack-04l-5050.html"
   },
   {
    "id": 200075,
@@ -1220,7 +1224,9 @@
    "allergens": "Milch (einschl. Laktose)",
    "pageURL": "https://www.mcdonalds.com/de/de-de/product/milchshake-erdbeergeschmack-04l-5060.html",
    "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=200075",
-   "sha256": "b5b3c933d80ece0beaef28eebd584ee46047d31b3e0795be09d1c4a268cd4f34"
+   "sha256": "b5b3c933d80ece0beaef28eebd584ee46047d31b3e0795be09d1c4a268cd4f34",
+   "portionMilliliters": 400,
+   "volumeSource": "the product's name states 0,4l; McDonald's Deutschland product page https://www.mcdonalds.com/de/de-de/product/milchshake-erdbeergeschmack-04l-5060.html"
   },
   {
    "id": 200078,
@@ -1331,7 +1337,9 @@
    "allergens": "",
    "pageURL": "https://www.mcdonalds.com/de/de-de/product/coca-cola-classic-05l-200082.html",
    "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=200082",
-   "sha256": "2f850edc25f0c09bb53a911c0dcbdd26cd3c3b8d68f1a0afded8eb469152693e"
+   "sha256": "2f850edc25f0c09bb53a911c0dcbdd26cd3c3b8d68f1a0afded8eb469152693e",
+   "portionMilliliters": 500,
+   "volumeSource": "the product's name states 0,5l; McDonald's Deutschland product page https://www.mcdonalds.com/de/de-de/product/coca-cola-classic-05l-200082.html"
   },
   {
    "id": 200085,
@@ -1369,7 +1377,9 @@
    "allergens": "",
    "pageURL": "https://www.mcdonalds.com/de/de-de/product/fanta-0-5l-200085.html",
    "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=200085",
-   "sha256": "70e7e2ee9bb8b70e01e02a1ed0715928154f66817ffd74acc3d2379fa7945330"
+   "sha256": "70e7e2ee9bb8b70e01e02a1ed0715928154f66817ffd74acc3d2379fa7945330",
+   "portionMilliliters": 500,
+   "volumeSource": "the product's name states 0,5l; McDonald's Deutschland product page https://www.mcdonalds.com/de/de-de/product/fanta-0-5l-200085.html"
   },
   {
    "id": 200088,
@@ -1407,7 +1417,9 @@
    "allergens": "Keine Allergene enthalten",
    "pageURL": "https://www.mcdonalds.com/de/de-de/product/sprite-0-5l.html",
    "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=200088",
-   "sha256": "96a9c42fe302e7c21d747a6e1db1bc0a2f63964688e24e8b9de0f5f8f1661f34"
+   "sha256": "96a9c42fe302e7c21d747a6e1db1bc0a2f63964688e24e8b9de0f5f8f1661f34",
+   "portionMilliliters": 500,
+   "volumeSource": "the product's name states 0,5l; McDonald's Deutschland product page https://www.mcdonalds.com/de/de-de/product/sprite-0-5l.html"
   },
   {
    "id": 200096,
@@ -1443,7 +1455,8 @@
    "allergens": "",
    "pageURL": "https://www.mcdonalds.com/de/de-de/product/caf-small-7150.html",
    "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=200096",
-   "sha256": "7bcd8ad63f432ba021504f772f3b12f164191e133b2c53ee08fcb107b649833a"
+   "sha256": "7bcd8ad63f432ba021504f772f3b12f164191e133b2c53ee08fcb107b649833a",
+   "volumeNote": "the site states no volume for this McCafé size; the table's portion weight is the only hint"
   },
   {
    "id": 200098,
@@ -1483,7 +1496,8 @@
    "allergens": "",
    "pageURL": "https://www.mcdonalds.com/de/de-de/product/cafe-grande-7159.html",
    "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=200098",
-   "sha256": "47cf10e623290b961130095d2e3d9737e0cc95bf5a2a688cd7da788a73c2fc19"
+   "sha256": "47cf10e623290b961130095d2e3d9737e0cc95bf5a2a688cd7da788a73c2fc19",
+   "volumeNote": "the site states no volume for this McCafé size; the table's portion weight is the only hint"
   },
   {
    "id": 200103,
@@ -1522,7 +1536,8 @@
    "allergens": "Milch (einschl. Laktose)",
    "pageURL": "https://www.mcdonalds.com/de/de-de/product/heies-kakaogetrnk-grande-200103.html",
    "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=200103",
-   "sha256": "b0eecaa850aa09251d9d7251ca405aa56dc1cb2027acff70dba6da78b10946f6"
+   "sha256": "b0eecaa850aa09251d9d7251ca405aa56dc1cb2027acff70dba6da78b10946f6",
+   "volumeNote": "the site states no volume for this McCafé size; the table's portion weight is the only hint"
   },
   {
    "id": 200104,
@@ -1558,7 +1573,8 @@
    "allergens": "Milch (einschl. Laktose)",
    "pageURL": "https://www.mcdonalds.com/de/de-de/product/cappuccino-small-7190.html",
    "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=200104",
-   "sha256": "f8899a14a213f80b62df1d2e0fb5613974d02ffda63627f51fc28d18b066ecd6"
+   "sha256": "f8899a14a213f80b62df1d2e0fb5613974d02ffda63627f51fc28d18b066ecd6",
+   "volumeNote": "the site states no volume for this McCafé size; the table's portion weight is the only hint"
   },
   {
    "id": 200105,
@@ -1598,7 +1614,8 @@
    "allergens": "Milch (einschl. Laktose)",
    "pageURL": "https://www.mcdonalds.com/de/de-de/product/cappuccino-grande-7191.html",
    "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=200105",
-   "sha256": "57f8b49123ba6c54d098fe70c49ad5467f83e2981852b04f626f1134758eb2c9"
+   "sha256": "57f8b49123ba6c54d098fe70c49ad5467f83e2981852b04f626f1134758eb2c9",
+   "volumeNote": "the site states no volume for this McCafé size; the table's portion weight is the only hint"
   },
   {
    "id": 200106,
@@ -1638,7 +1655,8 @@
    "allergens": "Milch (einschl. Laktose)",
    "pageURL": "https://www.mcdonalds.com/de/de-de/product/latte-macchiato-grande-7193.html",
    "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=200106",
-   "sha256": "d977ced1b1c6123cf76e2155b74b2dd950381856120fba87407f9af008e66323"
+   "sha256": "d977ced1b1c6123cf76e2155b74b2dd950381856120fba87407f9af008e66323",
+   "volumeNote": "the site states no volume for this McCafé size; the table's portion weight is the only hint"
   },
   {
    "id": 200112,
@@ -1674,7 +1692,9 @@
    "allergens": "",
    "pageURL": "https://www.mcdonalds.com/de/de-de/product/bio-schorle-apfel-birne-02l-7289.html",
    "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=200112",
-   "sha256": "5117228f882ddd3105faa5ad31f7ed6bb1e4b3b8e45a742f0f18cc77b349ac40"
+   "sha256": "5117228f882ddd3105faa5ad31f7ed6bb1e4b3b8e45a742f0f18cc77b349ac40",
+   "portionMilliliters": 200,
+   "volumeSource": "the product's name states 0,2l; McDonald's Deutschland product page https://www.mcdonalds.com/de/de-de/product/bio-schorle-apfel-birne-02l-7289.html"
   },
   {
    "id": 200115,
@@ -1713,7 +1733,9 @@
    "allergens": "",
    "pageURL": "https://www.mcdonalds.com/de/de-de/product/coca-cola-zero-sugar-05l-200115.html",
    "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=200115",
-   "sha256": "942a2f5fe2bd39deef2a87f5f8590c42d5faff5ea884c4336e079491d7cb0904"
+   "sha256": "942a2f5fe2bd39deef2a87f5f8590c42d5faff5ea884c4336e079491d7cb0904",
+   "portionMilliliters": 500,
+   "volumeSource": "the product's name states 0,5l; McDonald's Deutschland product page https://www.mcdonalds.com/de/de-de/product/coca-cola-zero-sugar-05l-200115.html"
   },
   {
    "id": 200118,
@@ -1752,7 +1774,9 @@
    "allergens": "",
    "pageURL": "https://www.mcdonalds.com/de/de-de/product/lipton-ice-tea-peach-05l-200118.html",
    "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=200118",
-   "sha256": "cbacbe194e8c8584f7d8b96d90fdd4a166a010b8fa273579a4919f034ac2c6ec"
+   "sha256": "cbacbe194e8c8584f7d8b96d90fdd4a166a010b8fa273579a4919f034ac2c6ec",
+   "portionMilliliters": 500,
+   "volumeSource": "the product's name states 0,5l; McDonald's Deutschland product page https://www.mcdonalds.com/de/de-de/product/lipton-ice-tea-peach-05l-200118.html"
   },
   {
    "id": 200268,
@@ -1788,7 +1812,9 @@
    "allergens": "",
    "pageURL": "https://www.mcdonalds.com/de/de-de/product/capri-sun-pure-tropical-200ml-200268.html",
    "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=200268",
-   "sha256": "57ee995c0e0ff70e900bcea10a0a5513cdfe291c53bbd66088b6b95908cb37bc"
+   "sha256": "57ee995c0e0ff70e900bcea10a0a5513cdfe291c53bbd66088b6b95908cb37bc",
+   "portionMilliliters": 200,
+   "volumeSource": "the product's name states 0,2l; McDonald's Deutschland product page https://www.mcdonalds.com/de/de-de/product/capri-sun-pure-tropical-200ml-200268.html"
   },
   {
    "id": 200280,
@@ -1864,7 +1890,8 @@
    "allergens": "",
    "pageURL": "https://www.mcdonalds.com/de/de-de/product/espresso-grande-7196.html",
    "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=200663",
-   "sha256": "cba7e77139e330de5b882aaf4ead4f44538315dbb64e0354428ac1a71b22ec5a"
+   "sha256": "cba7e77139e330de5b882aaf4ead4f44538315dbb64e0354428ac1a71b22ec5a",
+   "volumeNote": "the site states no volume for this McCafé size; the table's portion weight is the only hint"
   },
   {
    "id": 200845,
@@ -1901,7 +1928,9 @@
    "allergens": "Keine Allergene enthalten",
    "pageURL": "https://www.mcdonalds.com/de/de-de/product/red-bull-025l-7378.html",
    "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=200845",
-   "sha256": "f75c010bec4643a07c7ebe8fa4b30c4d53d5dc812a18ab20c3c8dbeaf0bd7165"
+   "sha256": "f75c010bec4643a07c7ebe8fa4b30c4d53d5dc812a18ab20c3c8dbeaf0bd7165",
+   "portionMilliliters": 250,
+   "volumeSource": "the product's name states 250 ml; McDonald's Deutschland product page https://www.mcdonalds.com/de/de-de/product/red-bull-025l-7378.html"
   },
   {
    "id": 200909,
@@ -1971,7 +2000,9 @@
    "allergens": "Keine Allergene enthalten",
    "pageURL": "https://www.mcdonalds.com/de/de-de/product/orangensaft-025l-7254.html",
    "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=201048",
-   "sha256": "a02357812cade5eefe220a909648ce5db4e005f520f05208a31dbe465a2ed01d"
+   "sha256": "a02357812cade5eefe220a909648ce5db4e005f520f05208a31dbe465a2ed01d",
+   "portionMilliliters": 250,
+   "volumeSource": "the product's name states 0,25l; McDonald's Deutschland product page https://www.mcdonalds.com/de/de-de/product/orangensaft-025l-7254.html"
   },
   {
    "id": 201127,
@@ -2044,7 +2075,9 @@
    "allergens": "Keine Allergene enthalten",
    "pageURL": "https://www.mcdonalds.com/de/de-de/product/lipton-ice-tea-peach-zero-05.html",
    "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=201204",
-   "sha256": "1c2db85b5efc3583da76a9ebe1e1dfa9a7746e0c859e077b29fe2ecbdfd6a413"
+   "sha256": "1c2db85b5efc3583da76a9ebe1e1dfa9a7746e0c859e077b29fe2ecbdfd6a413",
+   "portionMilliliters": 500,
+   "volumeSource": "the site's page address names the size, lipton-ice-tea-peach-zero-05; the 543 g portion equals the 0,5 l rows'; McDonald's Deutschland product page https://www.mcdonalds.com/de/de-de/product/lipton-ice-tea-peach-zero-05.html"
   },
   {
    "id": 201212,
@@ -2121,7 +2154,9 @@
    "allergens": "Milch (einschl. Laktose)",
    "pageURL": "https://www.mcdonalds.com/de/de-de/product/iced-coffee-shake-choc-04-l-7479.html",
    "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=201234",
-   "sha256": "61bfd170e09b776b042331753b8ff866aefb656ec6789ef6f8fdfa55b91c1d67"
+   "sha256": "61bfd170e09b776b042331753b8ff866aefb656ec6789ef6f8fdfa55b91c1d67",
+   "portionMilliliters": 400,
+   "volumeSource": "the product's name states 0,4l; McDonald's Deutschland product page https://www.mcdonalds.com/de/de-de/product/iced-coffee-shake-choc-04-l-7479.html"
   },
   {
    "id": 201263,
@@ -2234,7 +2269,8 @@
    "allergens": "",
    "pageURL": "https://www.mcdonalds.com/de/de-de/product/tee-earl-grey-140g-7281.html",
    "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=201484",
-   "sha256": "14ad98057b119964bd61bf71523ee6f8f29069652465bd39f6f5b9ef9a581de1"
+   "sha256": "14ad98057b119964bd61bf71523ee6f8f29069652465bd39f6f5b9ef9a581de1",
+   "volumeNote": "the site states no volume for this McCafé size; the table's portion weight is the only hint"
   },
   {
    "id": 201485,
@@ -2272,7 +2308,8 @@
    "allergens": "",
    "pageURL": "https://www.mcdonalds.com/de/de-de/product/tee-fresh-mint-120-g-7283.html",
    "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=201485",
-   "sha256": "e8f49ea2643e329b9ea2e252842962d611d7e5118a6827219f6e7964505c1c9c"
+   "sha256": "e8f49ea2643e329b9ea2e252842962d611d7e5118a6827219f6e7964505c1c9c",
+   "volumeNote": "the site states no volume for this McCafé size; the table's portion weight is the only hint"
   },
   {
    "id": 201486,
@@ -2310,7 +2347,8 @@
    "allergens": "",
    "pageURL": "https://www.mcdonalds.com/de/de-de/product/tee-green-tea-140-g-7282.html",
    "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=201486",
-   "sha256": "ba750aecff42ce96672eb58826bf56990765141ec6f37d7b804c0ecfb71accbb"
+   "sha256": "ba750aecff42ce96672eb58826bf56990765141ec6f37d7b804c0ecfb71accbb",
+   "volumeNote": "the site states no volume for this McCafé size; the table's portion weight is the only hint"
   },
   {
    "id": 201508,
@@ -2385,7 +2423,8 @@
    "allergens": "Milch (einschl. Laktose)",
    "pageURL": "https://www.mcdonalds.com/de/de-de/product/dark-chocolate-grande-7304.html",
    "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=201541",
-   "sha256": "2592760cc3b17b2a16f5f937f9ccc4279e785b030837e3e52c9bc56c383f8218"
+   "sha256": "2592760cc3b17b2a16f5f937f9ccc4279e785b030837e3e52c9bc56c383f8218",
+   "volumeNote": "the site states no volume for this McCafé size; the table's portion weight is the only hint"
   },
   {
    "id": 201546,
@@ -2422,7 +2461,8 @@
    "allergens": "Milch (einschl. Laktose)",
    "pageURL": "https://www.mcdonalds.com/de/de-de/product/espresso-macchiato-grande-7828.html",
    "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=201546",
-   "sha256": "0b07f34447b2991d1782e95efcd3431a09aa0c1e96b5bdafef589784f44480d5"
+   "sha256": "0b07f34447b2991d1782e95efcd3431a09aa0c1e96b5bdafef589784f44480d5",
+   "volumeNote": "the site states no volume for this McCafé size; the table's portion weight is the only hint"
   },
   {
    "id": 201618,
@@ -3187,7 +3227,8 @@
    "allergens": "Milch (einschl. Laktose)",
    "pageURL": "https://www.mcdonalds.com/de/de-de/product/iced-latte-grande.html",
    "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=202308",
-   "sha256": "a99debb4da1dc63fc631dd6d80749a5057687b2763edebc51378da19b5107999"
+   "sha256": "a99debb4da1dc63fc631dd6d80749a5057687b2763edebc51378da19b5107999",
+   "volumeNote": "the site states no volume for this McCafé size; the table's portion weight is the only hint"
   },
   {
    "id": 202463,
@@ -3520,7 +3561,9 @@
    "allergens": "",
    "pageURL": "https://www.mcdonalds.com/de/de-de/product/wasser-still-025.html",
    "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=202915",
-   "sha256": "78d0887707a614a95df134b86c4b248d30a7618a3cdc3254b775560c8cfb3e2c"
+   "sha256": "78d0887707a614a95df134b86c4b248d30a7618a3cdc3254b775560c8cfb3e2c",
+   "portionMilliliters": 250,
+   "volumeSource": "the product's name states 0,25l; McDonald's Deutschland product page https://www.mcdonalds.com/de/de-de/product/wasser-still-025.html"
   },
   {
    "id": 202921,
@@ -3557,7 +3600,9 @@
    "allergens": "",
    "pageURL": "https://www.mcdonalds.com/de/de-de/product/wasser-still-05.html",
    "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=202921",
-   "sha256": "8b46e52e8abe21932d8088b594a72baa5def95cc53715bb357abc8280399d93a"
+   "sha256": "8b46e52e8abe21932d8088b594a72baa5def95cc53715bb357abc8280399d93a",
+   "portionMilliliters": 500,
+   "volumeSource": "the product's name states 0,5l; McDonald's Deutschland product page https://www.mcdonalds.com/de/de-de/product/wasser-still-05.html"
   },
   {
    "id": 202925,
@@ -3593,7 +3638,9 @@
    "allergens": "",
    "pageURL": "https://www.mcdonalds.com/de/de-de/product/wasser-sprudelnd-025.html",
    "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=202925",
-   "sha256": "5904352afa6690517370d1caee9b08f42fc1ed208a5fe8677505ad3f4fbd0710"
+   "sha256": "5904352afa6690517370d1caee9b08f42fc1ed208a5fe8677505ad3f4fbd0710",
+   "portionMilliliters": 250,
+   "volumeSource": "the product's name states 0,25l; McDonald's Deutschland product page https://www.mcdonalds.com/de/de-de/product/wasser-sprudelnd-025.html"
   },
   {
    "id": 202933,
@@ -3630,7 +3677,9 @@
    "allergens": "",
    "pageURL": "https://www.mcdonalds.com/de/de-de/product/wasser-sprudelnd-05.html",
    "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=202933",
-   "sha256": "0df2607407cbe8764a0b8fa451c93cd1bf5a44362850ab2d440a908f579658bb"
+   "sha256": "0df2607407cbe8764a0b8fa451c93cd1bf5a44362850ab2d440a908f579658bb",
+   "portionMilliliters": 500,
+   "volumeSource": "the product's name states 0,5l; McDonald's Deutschland product page https://www.mcdonalds.com/de/de-de/product/wasser-sprudelnd-05.html"
   },
   {
    "id": 203058,
@@ -3667,7 +3716,9 @@
    "allergens": "Keine Allergene enthalten",
    "pageURL": "https://www.mcdonalds.com/de/de-de/product/mezzo-mix-05l.html",
    "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=203058",
-   "sha256": "60c42db65eca379f1442f79f9060b88f22575ff12ba0cec7a7eb54b7e932c50d"
+   "sha256": "60c42db65eca379f1442f79f9060b88f22575ff12ba0cec7a7eb54b7e932c50d",
+   "portionMilliliters": 500,
+   "volumeSource": "the site's page address names the size, mezzo-mix-05l; the 543 g portion equals the Coca-Cola Zero Sugar 0,5l row's; McDonald's Deutschland product page https://www.mcdonalds.com/de/de-de/product/mezzo-mix-05l.html"
   },
   {
    "id": 203062,
@@ -3704,7 +3755,9 @@
    "allergens": "Keine Allergene enthalten",
    "pageURL": "https://www.mcdonalds.com/de/de-de/product/sprite-zero-05l.html",
    "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=203062",
-   "sha256": "0583769690a7c217b2f5c4961eba99f56f9ae35ad81aee87c5e5ecb2170b6348"
+   "sha256": "0583769690a7c217b2f5c4961eba99f56f9ae35ad81aee87c5e5ecb2170b6348",
+   "portionMilliliters": 500,
+   "volumeSource": "the product's name states 0,5 litres (the page address: sprite-zero-05l.html); McDonald's Deutschland product page https://www.mcdonalds.com/de/de-de/product/sprite-zero-05l.html"
   },
   {
    "id": 203085,
@@ -3740,7 +3793,9 @@
    "allergens": "Keine Allergene enthalten",
    "pageURL": "https://www.mcdonalds.com/de/de-de/product/red-bull-zero.html",
    "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=203085",
-   "sha256": "0c2c24a2e90b13aaffa15e35a808ff0353e0f47038d71c40ce11b0b8b3f523a5"
+   "sha256": "0c2c24a2e90b13aaffa15e35a808ff0353e0f47038d71c40ce11b0b8b3f523a5",
+   "portionMilliliters": 250,
+   "volumeSource": "the product's name states 250 ml; McDonald's Deutschland product page https://www.mcdonalds.com/de/de-de/product/red-bull-zero.html"
   },
   {
    "id": 203128,
@@ -3812,7 +3867,9 @@
    "allergens": "Keine Allergene enthalten",
    "pageURL": "https://www.mcdonalds.com/de/de-de/product/lift-apfelschorle-05-pet-flasche.html",
    "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=203168",
-   "sha256": "7d9c148b1acbd15438a33f3eff0e57dc08d175ab74f5ee746a1501e09a9a3baa"
+   "sha256": "7d9c148b1acbd15438a33f3eff0e57dc08d175ab74f5ee746a1501e09a9a3baa",
+   "portionMilliliters": 500,
+   "volumeSource": "the product's name states 0,5l; McDonald's Deutschland product page https://www.mcdonalds.com/de/de-de/product/lift-apfelschorle-05-pet-flasche.html"
   },
   {
    "id": 203243,
@@ -4149,7 +4206,8 @@
    "allergens": "Milch (einschl. Laktose)",
    "pageURL": "https://www.mcdonalds.com/de/de-de/product/matcha-latte-grande.html",
    "dataURL": "https://www.mcdonalds.com/dnaapp/itemDetails?country=DE&language=de&showLiveData=true&item=203350",
-   "sha256": "3cb09ac9a14fdfb2e03a10a76bf2626eced07780568a2e7123b727c817303fa4"
+   "sha256": "3cb09ac9a14fdfb2e03a10a76bf2626eced07780568a2e7123b727c817303fa4",
+   "volumeNote": "the site states no volume for this McCafé size; the table's portion weight is the only hint"
   },
   {
    "id": 203382,

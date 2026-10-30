@@ -60,6 +60,7 @@ jobs:
             Akari/CafeDrinkCatalog.json
             Akari/BeverageVolumeReferences.json
             Akari/FoodVarieties.json
+            Akari/ChainCatalog.json
           sparse-checkout-cone-mode: false
           ssh-key: ${{ secrets.AKARI_SOURCE_DEPLOY_KEY }}
           persist-credentials: false
@@ -75,13 +76,15 @@ jobs:
           import hashlib, json, pathlib, sqlite3, sys, tempfile, zipfile
           sys.path.insert(0, "akari-source/Scripts")
           import build_food_data_pack as builder
-          # What the app of this format accepts, from the one record of it.
-          accepted = builder.FORMATS[builder.FORMAT]
+          # What the app of the published format accepts, from the one record
+          # of it. The builder publishes PUBLISHED_FORMAT, the format
+          # TestFlight's app reads, until the next one ships.
+          accepted = builder.FORMATS[builder.PUBLISHED_FORMAT]
           root = pathlib.Path("pack")
           manifest = json.loads((root / "food-data-pack-manifest.json").read_text())
           archive = root / "food-data-pack.zip"
           data = archive.read_bytes()
-          assert manifest["format"] == builder.FORMAT, manifest["format"]
+          assert manifest["format"] == builder.PUBLISHED_FORMAT, manifest["format"]
           assert manifest["zipSha256"] == hashlib.sha256(data).hexdigest()
           assert manifest["zipSize"] == len(data)
           assert manifest["publishedAt"].endswith("Z") and manifest["commit"]
