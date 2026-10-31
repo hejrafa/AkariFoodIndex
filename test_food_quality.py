@@ -121,7 +121,10 @@ class ReleaseProvenanceTests(unittest.TestCase):
         from verify_release import verify
         with tempfile.TemporaryDirectory() as tmp:
             root=pathlib.Path(tmp);source=root/'products.jsonl';dist=root/'dist'
-            source.write_text(json.dumps({'code':'4002468181006','product_name':'Release fixture food','countries_tags':['en:germany'],
+            # A branded, half-complete record: the pack rules (b220) keep out an
+            # unbranded, unscanned stub, and this test is about provenance.
+            source.write_text(json.dumps({'code':'4002468181006','product_name':'Release fixture food','brands':'Fixture',
+                'completeness':0.6,'countries_tags':['en:germany'],
                 'nutriments':{'energy-kcal_100g':170,'proteins_100g':10,'fat_100g':10,'carbohydrates_100g':10}})+'\n')
             subprocess.run([sys.executable,str(ROOT/'build_index.py'),'--off-export',str(source),
                 '--market','DE=en:germany','--output-dir',str(dist)],check=True,capture_output=True)
