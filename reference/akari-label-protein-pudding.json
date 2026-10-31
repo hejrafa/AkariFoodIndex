@@ -1,0 +1,77 @@
+{
+  "id": "akari:label:protein-pudding",
+  "name": "High protein pudding",
+  "identity": "Chilled high-protein milk pudding with 10 g protein per 100 g, the supermarket cup; always flavoured.",
+  "rule": "Per 100 g, each value is the median of the three labels below that declare it, and a value enters only when at least three labels declare it (flavoured by nature). Salt becomes sodium (salt in g × 400 = sodium in mg). Nothing a label leaves out becomes zero. Labels read on 2026-10-30 from Open Food Facts through Akari's proxy, as the beef protein isolate was.",
+  "nutrients": {
+    "calories": 73.0,
+    "fat": 0.8,
+    "saturatedFat": 0.5,
+    "carbs": 6.2,
+    "sugar": 4.8,
+    "protein": 10.0,
+    "sodium": 96.0
+  },
+  "portions": [
+    {
+      "grams": 200,
+      "label": "1 cup"
+    }
+  ],
+  "labels": [
+    {
+      "brand": "LIDL",
+      "product": "High Protein Pudding Haselnut Flavour",
+      "read": "Open Food Facts 4056489472261 through https://api.joinakari.com/v1/off/product/4056489472261",
+      "date": "2026-10-30",
+      "ingredients": "Magermilch, Milcheiweiss, Rahm, modifizierte Stärke, Verdickungsmittel (Carrageen, Natrium-Carboxymethylcellulose), Karamell, Aroma, Süssungsmittel (Acesulfam-K, Sucralose), Laktase.",
+      "serving": "200 g",
+      "per100g": {
+        "energyKJ": 325.7,
+        "energyKcal": 77.0,
+        "fat": 1.5,
+        "saturates": 1.0,
+        "carbohydrate": 5.8,
+        "sugars": 4.8,
+        "protein": 10.0,
+        "salt": 0.19
+      }
+    },
+    {
+      "brand": "Lindahls",
+      "product": "Protein Pudding",
+      "read": "Open Food Facts 3023290064214 through https://api.joinakari.com/v1/off/product/3023290064214",
+      "date": "2026-10-30",
+      "ingredients": "Skimmed MILK (86%), MILK protein, modified starch, flavouring, caramel (glucose syrup, sugar, water), thickener (pectins), salt, colour (carotenes), sweeteners (sucralose, acesulfame K).",
+      "serving": "1 serving (140 g)",
+      "per100g": {
+        "energyKJ": 303.57,
+        "energyKcal": 71.43,
+        "fat": 0.21,
+        "saturates": 0.14,
+        "carbohydrate": 7.36,
+        "sugars": 4.93,
+        "protein": 10.0,
+        "salt": 0.24
+      }
+    },
+    {
+      "brand": "Danone",
+      "product": "hippo pudding caramel",
+      "read": "Open Food Facts 5410146421310 through https://api.joinakari.com/v1/off/product/5410146421310",
+      "date": "2026-10-30",
+      "ingredients": "Lait écrémé (87%), protéines de lait, crème (lait), épaississant (amidon modifié de mais), minéral (citrate de 10 magnésium), stabilisants (phosphates de sodium, triphosphates diphosphates), arôme, colorants (bêta-carotène, caramel au sulfite d'ammonium, extrait de paprika), sel, édulcorant (sucralo",
+      "serving": "200.0g",
+      "per100g": {
+        "energyKJ": 305.0,
+        "energyKcal": 73.0,
+        "fat": 0.8,
+        "saturates": 0.5,
+        "carbohydrate": 6.2,
+        "sugars": 4.5,
+        "protein": 10.0,
+        "salt": 0.4
+      }
+    }
+  ]
+}

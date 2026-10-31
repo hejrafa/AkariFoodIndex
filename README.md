@@ -78,6 +78,78 @@ and curated verification coverage for every national source are checked again
 here before it is published. National-table rows do not become verified merely
 because they have many nutrients.
 
+### What a market pack leaves out
+
+Open Food Facts is edited by anyone, so a market pack applies four rules
+before a product enters it (`build_index.py`, 30 October 2026). Every barcode
+a rule removes is written, with the rule and a one-line reason, to the
+market's sidecar `rejected-<market>.jsonl` next to the database; the release
+carries the sidecars, `rejections.json` sums them per market and rule, and each
+market's manifest entry repeats its counts under `rejected`, which
+`verify_release.py` checks against the sidecar. A product that is missing from
+Akari's barcode scan can therefore always be looked up there.
+
+1. **Implausible nutrition.** No nutrient may exceed 100 g per 100 g or ml, and
+   the declared energy must agree with the energy its components carry, at
+   4 kcal per g of protein and carbohydrate, 9 of fat, 2 of fibre, 7 of
+   alcohol (declared as % vol or g), 2.4 of polyols and 3 of organic acids,
+   within 20 % or 12 kcal. A product whose energy cannot be computed (a macro
+   missing, or an alcoholic drink that declares no alcohol) is not judged.
+2. **Market.** A product enters a market's pack only when its Open Food Facts
+   record lists that country. (The app's live Open Food Facts search is a
+   separate door and is not filtered here.)
+3. **Popularity floor.** A product with no brand, no scans and a record less
+   than half complete is a stub nobody has confirmed and stays out.
+4. **Another company's menu item.** A product whose name is, or begins with,
+   an item of one of Akari's chain menus (`chains/*.json`,
+   `cafe/starbucks-de.json`) and whose values per 100 g are the chain's
+   published ones (calories within 10 % or 10 kcal, fat, carbs and protein
+   each within 15 % or 1.5 g; items under 50 kcal per 100 g never count,
+   since a drink's few kilocalories match anything) stays out when its brand
+   is not that chain, the name is not the brand's own product that the chain
+   merely sells (a Coca-Cola on a Burger King menu), and nobody has scanned
+   it in the market. Menu names made only of generic food words
+   ("Cheeseburger", "Blueberry muffin", "Caffè latte") never claim another
+   maker's product; a name needs at least one word that is no word of Akari's
+   staples, recipes or café drinks ("Big Mac", "Whopper", "Zinger"). A product
+   that merely shares a menu item's name keeps its own label and stays.
+
+The rule constants sit together at the top of `build_index.py`
+(`ENERGY_TOLERANCE_SHARE` … `CHAIN_MATCH_MACRO_GRAMS`), and
+`chains/menu-claims.json` is rule 4's finished claim list (every menu name that
+can identify a copy, with its chain key, chain name and four values per 100 g,
+the generic names already left out and the constants repeated under `rules`),
+written by `python3 FoodIndex/build_index.py --menu-claims`; the live-search
+worker fetches it from the mirror and applies the same four rules to the
+products the app's online search returns. It is regenerated whenever a chain
+file, the staples, the recipes or the café drinks change; `test_index.py`
+checks that the committed file is current.
+
+Counts from the German market built locally on 31 October 2026 from the
+export of that day: 236,456 SKUs passed the market rule,
+18,610 of them (7.9 %) were kept out and 217,846 SKUs in
+197,900 families went into the pack.
+
+| Rule | Removed | Examples from `rejected-de.jsonl` |
+| --- | ---: | --- |
+| Implausible nutrition, energy | 4,528 | Bahlsen Hit, 514 kcal declared, 700 from the macronutrients; Dae Joo Koreanisches Chilipulver, 181 against 292; International Cuisine cheese & bacon mini pizza, 101 against 234; Sponser Electrolyte Cherry, 200 against 62; Foodspring EAA, 254 against 188 |
+| Implausible nutrition, above 100 g | 73 | 4820039840141 Oatflakes with strawberry (Ovsyanushka), carbs above 100 g per 100; 4050044774692 Zero creamer caramel macchiato (Starbucks), fat above 100 g per 100 |
+| Unbranded, unscanned stub | 14,009 | 4010636032814 Jambon cuit chaud (completeness 0.20); 4316268628648 Lasagne Bolognese (0.38); 8856366002965 Extra Roll Seaweed (0.28); 4260562094022 No sugar chocolate bar (0.20); 4262397160958 QLF tastatur milchcreme mandel (0.20) |
+| Another company's menu item | 0 | none in the German export of that day; the rule exists for copied menu values such as a "Big Mac" at McDonald's 235 kcal, 12 g fat, 18 g carbs and 12 g protein under another brand |
+
+The first run of the rules, the same day, had rejected 6,032 products for
+their energy and 24 as menu items: a third of the energy rejections were
+drinks with undeclared alcohol (wines, an Alt beer declared per 100 g with
+only a beverage category) and sugar-free sweets with undeclared polyols,
+which the exceptions above now excuse, and every one of the 24 menu-item hits
+was a product that merely shared a name with a chain item (Klassik, Bremer,
+Caffè Crema), which is why rule 4 now also demands the chain's published
+values and a substantial item. The "Big Mac bowl" that started the rule
+(0002015950271) turned out to be a real product of an Irish meal-prep company
+with its own nutrition, listed only for Ireland; it had reached the app
+through the live Open Food Facts search, which now applies the same rules in
+the worker.
+
 ## Verify
 
 ```sh

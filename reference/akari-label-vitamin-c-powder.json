@@ -1,0 +1,69 @@
+{
+  "id": "akari:label:vitamin-c-powder",
+  "name": "Vitamin C powder",
+  "identity": "Pure ascorbic acid powder measured with a knife tip or spoon; the dose is the label's 120 mg to 1 g.",
+  "rule": "Per 100 g of the product, each value is the median of the labels below that declare it, and a value enters only when at least three declare it; a label states its nutrients per dose, so the file converts them with the dose's weight (the pack's net content divided by its count of tablets, capsules, sticks or drops, or the stated dose weight). Salt becomes sodium (salt in g × 400 = sodium in mg). Fewer than three labels declare energy, so the row stands at 0 kcal under the verification policy's clause for label generics with a micronutrient. Nothing a label leaves out becomes zero. Labels read on 2026-10-30 from dm.de, rossmann.de and shop-apotheke.com product pages.",
+  "nutrients": {
+    "vitaminC": 100000,
+    "calories": 0
+  },
+  "portions": [
+    {
+      "grams": 0.12,
+      "label": "1 measuring spoon, about 120 mg"
+    }
+  ],
+  "labels": [
+    {
+      "brand": "Mivolis",
+      "product": "Vitamin C Pulver, 100 g",
+      "read": "https://www.dm.de/p/d/3104236/ (dm.de product page, Nährwerte and Zutaten panels; GTIN not stated)",
+      "date": "2026-10-30",
+      "ingredients": "L-Ascorbinsäure (Vitamin C)",
+      "serving": "120 mg, a knife tip: the dose is 0.12 g of a 100 g pack; the label declares per dose: vitaminCMg 120; pure ascorbic acid; the daily dose of 120 mg vitamin C is 0.12 g of powder; no energy or macros declared",
+      "per100g": {
+        "vitaminCMg": 100000.0
+      }
+    },
+    {
+      "brand": "altapharma",
+      "product": "Vitamin C Pulver, reine Ascorbinsäure, Arzneibuchqualität, 100 g",
+      "read": "https://www.rossmann.de/de/gesundheit-altapharma-vitamin-c-pulver-reine-ascorbinsaeure-arzneibuchqualitaet-100-g/p/4305615619408 (rossmann.de product page, Zutaten and Nährwerte sections; GTIN 4305615619408)",
+      "date": "2026-10-30",
+      "ingredients": "100 % L-Ascorbinsäure (Vitamin C)",
+      "serving": "1 gestrichener Dosierlöffel, ca. 120 mg: the dose is 0.12 g of a 100 g pack; the label declares per dose: vitaminCMg 120; pure ascorbic acid; the page's use note gives one level measuring spoon of about 120 mg vitamin C as the daily dose; no energy or macros declared",
+      "per100g": {
+        "vitaminCMg": 100000.0
+      }
+    },
+    {
+      "brand": "Pharma Peter (Canea)",
+      "product": "Vitamin C Pulver 100 g",
+      "read": "https://www.shop-apotheke.com/arzneimittel/3028619/vitamin-c-pulver.htm (shop-apotheke.com product page, Pflichtangaben and Weitere Produktinformationen; GTIN 4031673103589)",
+      "date": "2026-10-30",
+      "ingredients": "Vitamin C (Ascorbinsäure)",
+      "serving": "3 gestrichene Messlöffel, 180 mg: the dose is 0.18 g of a 100 g pack; the label declares per dose: vitaminCMg 180; pure ascorbic acid; one level measuring spoon is 60 mg and the page names 1 to 3 spoons a day, 3 spoons = 180 mg (225 %); no energy or macros declared; PZN 03028619",
+      "per100g": {
+        "vitaminCMg": 100000.0
+      }
+    },
+    {
+      "brand": "gesund leben",
+      "product": "Vitamin C Pulver 100 g",
+      "read": "https://www.shop-apotheke.com/arzneimittel/4984921/gesund-leben-vitamin-c-pulver.htm (shop-apotheke.com product page, Pflichtangaben and Weitere Produktinformationen; GTIN not stated)",
+      "date": "2026-10-30",
+      "ingredients": "Ascorbinsäure 100 %",
+      "serving": "1 gestrichener Messlöffel, 120 mg: the dose is 0.12 g of a 100 g pack; the label declares per dose: vitaminCMg 120; per 100 g 1300 kJ / 300 kcal, fat < 0.5 g, saturates < 0.1 g, carbohydrate < 0.5 g, sugars < 0.5 g, fibre < 0.5 g, protein < 0.5 g, salt < 0.01 g; under-values counted at half the threshold; PZN 04984921",
+      "per100g": {
+        "vitaminCMg": 100000.0,
+        "energyKcal": 300.0,
+        "fat": 0.25,
+        "saturates": 0.05,
+        "carbohydrate": 0.25,
+        "sugars": 0.25,
+        "protein": 0.25,
+        "salt": 0.005
+      }
+    }
+  ]
+}

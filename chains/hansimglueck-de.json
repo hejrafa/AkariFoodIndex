@@ -1,0 +1,4412 @@
+{
+ "chain": "Hans im Glück",
+ "kind": "restaurant",
+ "sourceURL": "https://menu.hansimglueck-burgergrill.de/",
+ "sourceNote": "Hans im Glück's online menu (https://menu.hansimglueck-burgergrill.de/, the chain-wide menu with no restaurant chosen; the menu page recorded with its SHA-256) links every item to a page whose \"Nährwert & Allergene\" view states, for the whole item (\"Gesamt\") as the kitchen makes it by default, energy in kcal and kJ, fat, saturated fat, protein, carbohydrate, sugar and salt, with no weight. Each row records that page and the SHA-256 of the page as retrieved. An item is one serving of those figures; a drink whose name states its volume (\"0,4 l\") is that volume, its per-100 ml values derived from the per-portion values and the stated volume. Burgers come with the bun of the house unless one is chosen (sourdough, multigrain, brioche or none); the figures are for the item as the page totals it. The page says the values are calculated and rounded averages of one portion. Alcoholic drinks are left out.",
+ "menuSha256": "a663fbc812737268f9f82bbebe3cbf5e07210868173dcf524fb03d9ca2962c89",
+ "retrievedOn": "2026-10-30",
+ "checkedDate": "2026-10-30",
+ "rows": [
+  {
+   "id": "almdudler-035-l-7279112",
+   "name": "Almdudler 0,35 l",
+   "category": "drink",
+   "siteCategories": [
+    "SOFTDRINKS"
+   ],
+   "servingGrams": 350,
+   "servingUnit": "ml",
+   "portionMilliliters": 350,
+   "volumeSource": "name",
+   "valuesPer100g": {
+    "energyKJ": 138.0,
+    "calories": 33.0,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "carbs": 7.91,
+    "sugar": 7.91,
+    "protein": 0.0,
+    "saltGrams": 0.11
+   },
+   "valuesPerServing": {
+    "calories": 115.5,
+    "energyKJ": 483.0,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "protein": 0.0,
+    "carbs": 27.7,
+    "sugar": 27.7,
+    "saltGrams": 0.4
+   },
+   "valueNotes": [
+    "per 100 ml derived from the per-portion values and the volume the name states"
+   ],
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/almdudler-035-l-7279112/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/almdudler-035-l-7279112/info",
+   "sha256": "9a9ca0646159c96aa1b4b34cf6a3b2d70ea265c46faede8fc42868fd99d45a56"
+  },
+  {
+   "id": "almdudler-zuckerfrei-035-l-7279115",
+   "name": "Almdudler Zuckerfrei 0,35 l",
+   "category": "drink",
+   "siteCategories": [
+    "SOFTDRINKS"
+   ],
+   "servingGrams": 350,
+   "servingUnit": "ml",
+   "portionMilliliters": 350,
+   "volumeSource": "name",
+   "valuesPer100g": {
+    "energyKJ": 6.0,
+    "calories": 1.4,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "carbs": 0.0,
+    "sugar": 0.0,
+    "protein": 0.0,
+    "saltGrams": 0.0
+   },
+   "valuesPerServing": {
+    "calories": 4.9,
+    "energyKJ": 21.0,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "protein": 0.0,
+    "carbs": 0.0,
+    "sugar": 0.0,
+    "saltGrams": 0.0
+   },
+   "valueNotes": [
+    "per 100 ml derived from the per-portion values and the volume the name states"
+   ],
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/almdudler-zuckerfrei-035-l-7279115/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/almdudler-zuckerfrei-035-l-7279115/info",
+   "sha256": "bffd510e931d38611afef9115160cafdbf7685b7f7afc6eb64c9c90c90519130"
+  },
+  {
+   "id": "avocado-7324475",
+   "name": "Avocado",
+   "category": "burger",
+   "siteCategories": [
+    "BURGER / BURGER RINDFLEISCH"
+   ],
+   "valuesPer100g": {},
+   "valuesPerServing": {
+    "calories": 827.1,
+    "energyKJ": 3460.0,
+    "fat": 50.0,
+    "saturatedFat": 20.4,
+    "protein": 42.7,
+    "carbs": 49.1,
+    "sugar": 9.1,
+    "saltGrams": 3.8
+   },
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/avocado-7324475/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/avocado-7324475/info",
+   "sha256": "8321d91cdd4433de1cbb0e71e7a4b8dcd3817dc1bef9dd90a06c946a1aaf95d1"
+  },
+  {
+   "id": "avocado-fritten-7279271",
+   "name": "Avocado Fritten",
+   "category": "fries",
+   "siteCategories": [
+    "BEILAGEN & FINGERFOOD / LOADED FRITTEN"
+   ],
+   "valuesPer100g": {},
+   "valuesPerServing": {
+    "calories": 626.9,
+    "energyKJ": 2623.0,
+    "fat": 39.3,
+    "saturatedFat": 6.9,
+    "protein": 6.3,
+    "carbs": 61.0,
+    "sugar": 3.0,
+    "saltGrams": 1.6
+   },
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/avocado-fritten-7279271/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/avocado-fritten-7279271/info",
+   "sha256": "14500312b9dbcf0b48abe108fceb7992a2db2e50bdf4e5339f265650358b2223"
+  },
+  {
+   "id": "avocado-suesskartoffeln-7279280",
+   "name": "Avocado Süsskartoffeln",
+   "category": "fries",
+   "siteCategories": [
+    "BEILAGEN & FINGERFOOD / LOADED FRITTEN"
+   ],
+   "valuesPer100g": {},
+   "valuesPerServing": {
+    "calories": 584.4,
+    "energyKJ": 2445.0,
+    "fat": 39.6,
+    "saturatedFat": 6.7,
+    "protein": 4.2,
+    "carbs": 47.7,
+    "sugar": 22.8,
+    "saltGrams": 1.9
+   },
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/avocado-suesskartoffeln-7279280/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/avocado-suesskartoffeln-7279280/info",
+   "sha256": "14cb7fe1448f07b9c05af6a1f14121b617d9f2e7b8264ca92e613aeb860e8cea"
+  },
+  {
+   "id": "avocadocreme-7279292",
+   "name": "Avocadocreme",
+   "category": "sauce",
+   "siteCategories": [
+    "BEILAGEN & FINGERFOOD / DIPS"
+   ],
+   "valuesPer100g": {},
+   "valuesPerServing": {
+    "calories": 107.4,
+    "energyKJ": 449.0,
+    "fat": 10.2,
+    "saturatedFat": 6.8,
+    "protein": 1.5,
+    "carbs": 1.1,
+    "sugar": 1.1,
+    "saltGrams": 0.5
+   },
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/avocadocreme-7279292/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/avocadocreme-7279292/info",
+   "sha256": "69861d43755a4988cf49f08b6bac4dc59a39e9e2044b1d652956e6a77fbb4b55"
+  },
+  {
+   "id": "bbq-cauli-wings-7279247",
+   "name": "BBQ Cauli Wings",
+   "category": "chicken",
+   "siteCategories": [
+    "BEILAGEN & FINGERFOOD / FINGERFOOD"
+   ],
+   "valuesPer100g": {},
+   "valuesPerServing": {
+    "calories": 354.8,
+    "energyKJ": 1485.0,
+    "fat": 13.9,
+    "saturatedFat": 1.4,
+    "protein": 4.6,
+    "carbs": 52.5,
+    "sugar": 18.2,
+    "saltGrams": 2.6
+   },
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/bbq-cauli-wings-7279247/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/bbq-cauli-wings-7279247/info",
+   "sha256": "19c06c2ee1b1bd65f3776c4a76047a4874c513453880c37ee682258f59e24e47"
+  },
+  {
+   "id": "beerengold-04-l-7672526",
+   "name": "Beerengold 0,4 l",
+   "category": "drink",
+   "siteCategories": [
+    "APERITIFS & COCKTAILS OHNE ALKOHOL / COCKTAILS  OHNE ALKOHOL"
+   ],
+   "servingGrams": 400,
+   "servingUnit": "ml",
+   "portionMilliliters": 400,
+   "volumeSource": "name",
+   "valuesPer100g": {
+    "energyKJ": 172.5,
+    "calories": 41.25,
+    "fat": 0.05,
+    "saturatedFat": 0.0,
+    "carbs": 8.45,
+    "sugar": 8.45,
+    "protein": 0.15,
+    "saltGrams": 0.0
+   },
+   "valuesPerServing": {
+    "calories": 165.0,
+    "energyKJ": 690.0,
+    "fat": 0.2,
+    "saturatedFat": 0.0,
+    "protein": 0.6,
+    "carbs": 33.8,
+    "sugar": 33.8,
+    "saltGrams": 0.0
+   },
+   "valueNotes": [
+    "per 100 ml derived from the per-portion values and the volume the name states"
+   ],
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/beerengold-04-l-7672526/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/beerengold-04-l-7672526/info",
+   "sha256": "5598e1ccb37b6cbc577048be83247d94380c58a68fe7a3dd9467f201e2b6c5f8"
+  },
+  {
+   "id": "beherzter-7282961",
+   "name": "Beherzter",
+   "category": "burger",
+   "siteCategories": [
+    "BURGER / BURGER VEGETARISCH"
+   ],
+   "valuesPer100g": {},
+   "valuesPerServing": {
+    "calories": 684.5,
+    "energyKJ": 2864.0,
+    "fat": 31.0,
+    "saturatedFat": 8.1,
+    "protein": 19.0,
+    "carbs": 79.7,
+    "sugar": 17.7,
+    "saltGrams": 4.5
+   },
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/beherzter-7282961/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/beherzter-7282961/info",
+   "sha256": "f42232ec543d9a0b7f1995f5363c15916ec7673dc3f01d0495e77026216d42ae"
+  },
+  {
+   "id": "beilagensalat-7279232",
+   "name": "Beilagensalat",
+   "category": "salad",
+   "siteCategories": [
+    "BEILAGEN & FINGERFOOD / BEILAGEN"
+   ],
+   "valuesPer100g": {},
+   "valuesPerServing": {
+    "calories": 149.6,
+    "energyKJ": 626.0,
+    "fat": 12.1,
+    "saturatedFat": 1.2,
+    "protein": 2.8,
+    "carbs": 7.1,
+    "sugar": 5.9,
+    "saltGrams": 1.0
+   },
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/beilagensalat-7279232/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/beilagensalat-7279232/info",
+   "sha256": "ef6f03ad8f19c6d571c86aab5b3c1d17db44e446e6bd71e270e39515c930598f"
+  },
+  {
+   "id": "birkenwald-7324478",
+   "name": "Birkenwald",
+   "category": "burger",
+   "siteCategories": [
+    "BURGER / BURGER RINDFLEISCH"
+   ],
+   "valuesPer100g": {},
+   "valuesPerServing": {
+    "calories": 773.5,
+    "energyKJ": 3236.0,
+    "fat": 45.3,
+    "saturatedFat": 16.1,
+    "protein": 39.1,
+    "carbs": 49.8,
+    "sugar": 9.6,
+    "saltGrams": 3.6
+   },
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/birkenwald-7324478/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/birkenwald-7324478/info",
+   "sha256": "5979e67d46df0074bbd1062b6b6a5196bc4e9ba75caabb3cabace5ea05a0aedb"
+  },
+  {
+   "id": "bravur-7282820",
+   "name": "Bravur",
+   "category": "bowl",
+   "siteCategories": [
+    "SALATE & BOWLS / BOWLS"
+   ],
+   "valuesPer100g": {},
+   "valuesPerServing": {
+    "calories": 738.0,
+    "energyKJ": 3088.0,
+    "fat": 37.4,
+    "saturatedFat": 8.2,
+    "protein": 48.6,
+    "carbs": 48.5,
+    "sugar": 13.9,
+    "saltGrams": 3.5
+   },
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/bravur-7282820/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/bravur-7282820/info",
+   "sha256": "4908eb326d87fc09b2806284e0bc618ce9c1253a3c732c94c80a0c40705f2679"
+  },
+  {
+   "id": "caesarsauce-7279298",
+   "name": "Caesarsauce",
+   "category": "sauce",
+   "siteCategories": [
+    "BEILAGEN & FINGERFOOD / DIPS"
+   ],
+   "valuesPer100g": {},
+   "valuesPerServing": {
+    "calories": 272.4,
+    "energyKJ": 1140.0,
+    "fat": 27.9,
+    "saturatedFat": 3.0,
+    "protein": 1.8,
+    "carbs": 3.6,
+    "sugar": 2.9,
+    "saltGrams": 1.0
+   },
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/caesarsauce-7279298/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/caesarsauce-7279298/info",
+   "sha256": "a37d13d039840d29067629347c8044b3a3eb9c2bbf200349dace4e47679e3326"
+  },
+  {
+   "id": "cappuccino-7280054",
+   "name": "Cappuccino",
+   "category": "coffee",
+   "siteCategories": [
+    "WARME GETRÄNKE / WARME GETRÄNKE"
+   ],
+   "valuesPer100g": {},
+   "valuesPerServing": {
+    "calories": 78.2,
+    "energyKJ": 327.0,
+    "fat": 4.2,
+    "saturatedFat": 2.7,
+    "protein": 3.9,
+    "carbs": 6.2,
+    "sugar": 5.6,
+    "saltGrams": 0.1
+   },
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/cappuccino-7280054/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/cappuccino-7280054/info",
+   "sha256": "c7d12a564f867cb6af6ef96f890cd38c9ca45017bc071e99dce43971ef5480a7"
+  },
+  {
+   "id": "casanova-7324481",
+   "name": "Casanova",
+   "category": "burger",
+   "siteCategories": [
+    "BURGER / BURGER RINDFLEISCH"
+   ],
+   "valuesPer100g": {},
+   "valuesPerServing": {
+    "calories": 858.7,
+    "energyKJ": 3593.0,
+    "fat": 47.9,
+    "saturatedFat": 15.3,
+    "protein": 44.2,
+    "carbs": 62.6,
+    "sugar": 10.3,
+    "saltGrams": 4.4
+   },
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/casanova-7324481/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/casanova-7324481/info",
+   "sha256": "d7af416f726ecc70eb2cd854ac5f382c3355ec99239a6c4e41521de56d2bb209"
+  },
+  {
+   "id": "champion-bowl-7282823",
+   "name": "Champion Bowl",
+   "category": "bowl",
+   "siteCategories": [
+    "SALATE & BOWLS / BOWLS"
+   ],
+   "valuesPer100g": {},
+   "valuesPerServing": {
+    "calories": 684.7,
+    "energyKJ": 2865.0,
+    "fat": 39.6,
+    "saturatedFat": 4.4,
+    "protein": 18.4,
+    "carbs": 59.0,
+    "sugar": 22.4,
+    "saltGrams": 4.0
+   },
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/champion-bowl-7282823/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/champion-bowl-7282823/info",
+   "sha256": "e4d1da82bdcd09d31b19fc71fbaece131637d7024f56fb7593cbd1cdc9dce1ad"
+  },
+  {
+   "id": "cheddarcreme-7279295",
+   "name": "Cheddarcreme",
+   "category": "sauce",
+   "siteCategories": [
+    "BEILAGEN & FINGERFOOD / DIPS"
+   ],
+   "valuesPer100g": {},
+   "valuesPerServing": {
+    "calories": 118.2,
+    "energyKJ": 495.0,
+    "fat": 9.6,
+    "saturatedFat": 6.0,
+    "protein": 6.6,
+    "carbs": 0.9,
+    "sugar": 0.3,
+    "saltGrams": 1.5
+   },
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/cheddarcreme-7279295/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/cheddarcreme-7279295/info",
+   "sha256": "9e58f88966e4789ae53741cdb24beaec052f8a84fad8aeca74cbf722fe2a7acb"
+  },
+  {
+   "id": "cheesecake-new-york-style-11755387",
+   "name": "Cheesecake New York Style",
+   "category": "dessert",
+   "siteCategories": [
+    "NACHSPEISEN / NACHSPEISEN"
+   ],
+   "valuesPer100g": {},
+   "valuesPerServing": {
+    "calories": 515.9,
+    "energyKJ": 2158.0,
+    "fat": 28.3,
+    "saturatedFat": 18.1,
+    "protein": 9.8,
+    "carbs": 53.5,
+    "sugar": 39.8,
+    "saltGrams": 69.6
+   },
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/cheesecake-new-york-style-11755387/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/cheesecake-new-york-style-11755387/info",
+   "sha256": "8162a2efe1f8059e7d6e6febc15ba0f5828710883b5db382232c049f17173630"
+  },
+  {
+   "id": "chili-cheddar-fritten-7279286",
+   "name": "Chili-Cheddar-Fritten",
+   "category": "fries",
+   "siteCategories": [
+    "BEILAGEN & FINGERFOOD / LOADED FRITTEN"
+   ],
+   "valuesPer100g": {},
+   "valuesPerServing": {
+    "calories": 634.6,
+    "energyKJ": 2655.0,
+    "fat": 38.1,
+    "saturatedFat": 7.7,
+    "protein": 10.7,
+    "carbs": 61.7,
+    "sugar": 3.4,
+    "saltGrams": 2.9
+   },
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/chili-cheddar-fritten-7279286/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/chili-cheddar-fritten-7279286/info",
+   "sha256": "15004e208c5d6c622aa07d588d95cdf66a4ed9019ff174da4c13a79019c56370"
+  },
+  {
+   "id": "chili-cheddar-suesskartoffeln-7279289",
+   "name": "Chili Cheddar Süsskartoffeln",
+   "category": "fries",
+   "siteCategories": [
+    "BEILAGEN & FINGERFOOD / LOADED FRITTEN"
+   ],
+   "valuesPer100g": {},
+   "valuesPerServing": {
+    "calories": 592.2,
+    "energyKJ": 2478.0,
+    "fat": 38.4,
+    "saturatedFat": 7.5,
+    "protein": 8.6,
+    "carbs": 48.4,
+    "sugar": 23.2,
+    "saltGrams": 3.3
+   },
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/chili-cheddar-suesskartoffeln-7279289/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/chili-cheddar-suesskartoffeln-7279289/info",
+   "sha256": "4e66df97fe8d69420494788081c189282775cfaac4f28c130c158eae9894683e"
+  },
+  {
+   "id": "ciao-bella-7282964",
+   "name": "Ciao Bella",
+   "category": "burger",
+   "siteCategories": [
+    "BURGER / BURGER VEGETARISCH"
+   ],
+   "valuesPer100g": {},
+   "valuesPerServing": {
+    "calories": 868.6,
+    "energyKJ": 3634.0,
+    "fat": 47.9,
+    "saturatedFat": 5.6,
+    "protein": 24.2,
+    "carbs": 85.0,
+    "sugar": 13.6,
+    "saltGrams": 5.0
+   },
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/ciao-bella-7282964/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/ciao-bella-7282964/info",
+   "sha256": "1fd143157fa200c5e67965f5602b75e5a8aa14f02a22ded258880f9671296b86"
+  },
+  {
+   "id": "coca-cola-033-l-7279097",
+   "name": "Coca-Cola 0,33 l",
+   "category": "drink",
+   "siteCategories": [
+    "SOFTDRINKS"
+   ],
+   "servingGrams": 330,
+   "servingUnit": "ml",
+   "portionMilliliters": 330,
+   "volumeSource": "name",
+   "valuesPer100g": {
+    "energyKJ": 175.76,
+    "calories": 42.0,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "carbs": 10.61,
+    "sugar": 10.61,
+    "protein": 0.0,
+    "saltGrams": 0.0
+   },
+   "valuesPerServing": {
+    "calories": 138.6,
+    "energyKJ": 580.0,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "protein": 0.0,
+    "carbs": 35.0,
+    "sugar": 35.0,
+    "saltGrams": 0.0
+   },
+   "valueNotes": [
+    "per 100 ml derived from the per-portion values and the volume the name states"
+   ],
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/coca-cola-033-l-7279097/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/coca-cola-033-l-7279097/info",
+   "sha256": "e80d8fd57abc4f1fab20ae385d5f4f02fbd5d71b4705407ef41d3573619b4b2e"
+  },
+  {
+   "id": "coca-cola-zero-033-l-7279103",
+   "name": "Coca-Cola Zero 0,33 l",
+   "category": "drink",
+   "siteCategories": [
+    "SOFTDRINKS"
+   ],
+   "servingGrams": 330,
+   "servingUnit": "ml",
+   "portionMilliliters": 330,
+   "volumeSource": "name",
+   "valuesPer100g": {
+    "energyKJ": 0.3,
+    "calories": 0.09,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "carbs": 0.0,
+    "sugar": 0.0,
+    "protein": 0.0,
+    "saltGrams": 0.0
+   },
+   "valuesPerServing": {
+    "calories": 0.3,
+    "energyKJ": 1.0,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "protein": 0.0,
+    "carbs": 0.0,
+    "sugar": 0.0,
+    "saltGrams": 0.0
+   },
+   "valueNotes": [
+    "per 100 ml derived from the per-portion values and the volume the name states"
+   ],
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/coca-cola-zero-033-l-7279103/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/coca-cola-zero-033-l-7279103/info",
+   "sha256": "b13c649d87fb7e8a9cf89ce5cbfe12a91de41aae4ac56b70de2cca03486085d8"
+  },
+  {
+   "id": "cola-light-033-l-7279100",
+   "name": "Cola Light 0.33 l",
+   "category": "drink",
+   "siteCategories": [
+    "SOFTDRINKS"
+   ],
+   "servingGrams": 330,
+   "servingUnit": "ml",
+   "portionMilliliters": 330,
+   "volumeSource": "name",
+   "valuesPer100g": {
+    "energyKJ": 0.91,
+    "calories": 0.21,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "carbs": 0.0,
+    "sugar": 0.0,
+    "protein": 0.0,
+    "saltGrams": 0.0
+   },
+   "valuesPerServing": {
+    "calories": 0.7,
+    "energyKJ": 3.0,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "protein": 0.0,
+    "carbs": 0.0,
+    "sugar": 0.0,
+    "saltGrams": 0.0
+   },
+   "valueNotes": [
+    "per 100 ml derived from the per-portion values and the volume the name states"
+   ],
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/cola-light-033-l-7279100/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/cola-light-033-l-7279100/info",
+   "sha256": "2dd52ebfe88dda570717355040b85522487c13d02d724761b59cbf91391aa68a"
+  },
+  {
+   "id": "double-smash-7324469",
+   "name": "Double Smash",
+   "category": "burger",
+   "siteCategories": [
+    "BURGER / SMASH BURGER"
+   ],
+   "valuesPer100g": {},
+   "valuesPerServing": {
+    "calories": 826.4,
+    "energyKJ": 3458.0,
+    "fat": 49.3,
+    "saturatedFat": 18.6,
+    "protein": 39.6,
+    "carbs": 54.1,
+    "sugar": 13.5,
+    "saltGrams": 4.2
+   },
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/double-smash-7324469/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/double-smash-7324469/info",
+   "sha256": "bd45c6ef9979fa80223ae0d1325efc9895366695958bea43222ee1add340e31e"
+  },
+  {
+   "id": "drachenfrucht-moskito-04-l-7672529",
+   "name": "Drachenfrucht Moskito 0,4 l",
+   "category": "drink",
+   "siteCategories": [
+    "APERITIFS & COCKTAILS OHNE ALKOHOL / COCKTAILS  OHNE ALKOHOL"
+   ],
+   "servingGrams": 400,
+   "servingUnit": "ml",
+   "portionMilliliters": 400,
+   "volumeSource": "name",
+   "valuesPer100g": {
+    "energyKJ": 124.25,
+    "calories": 29.7,
+    "fat": 0.28,
+    "saturatedFat": 0.05,
+    "carbs": 5.9,
+    "sugar": 5.9,
+    "protein": 0.1,
+    "saltGrams": 0.0
+   },
+   "valuesPerServing": {
+    "calories": 118.8,
+    "energyKJ": 497.0,
+    "fat": 1.1,
+    "saturatedFat": 0.2,
+    "protein": 0.4,
+    "carbs": 23.6,
+    "sugar": 23.6,
+    "saltGrams": 0.0
+   },
+   "valueNotes": [
+    "per 100 ml derived from the per-portion values and the volume the name states"
+   ],
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/drachenfrucht-moskito-04-l-7672529/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/drachenfrucht-moskito-04-l-7672529/info",
+   "sha256": "efcb15bdc4746c5c111420f8232d6e1ccb6dac50dce85dbfc5af5c48f6a7c191"
+  },
+  {
+   "id": "durstloescher-drachenfruchtguave-limette-05l-7281395",
+   "name": "Durstlöscher Drachenfruchtguave-Limette 0,5l",
+   "category": "drink",
+   "siteCategories": [
+    "DURSTLÖSCHER / DURSTLÖSCHER"
+   ],
+   "servingGrams": 500,
+   "servingUnit": "ml",
+   "portionMilliliters": 500,
+   "volumeSource": "name",
+   "valuesPer100g": {
+    "energyKJ": 112.8,
+    "calories": 26.96,
+    "fat": 0.12,
+    "saturatedFat": 0.02,
+    "carbs": 5.7,
+    "sugar": 5.7,
+    "protein": 0.08,
+    "saltGrams": 0.0
+   },
+   "valuesPerServing": {
+    "calories": 134.8,
+    "energyKJ": 564.0,
+    "fat": 0.6,
+    "saturatedFat": 0.1,
+    "protein": 0.4,
+    "carbs": 28.5,
+    "sugar": 28.5,
+    "saltGrams": 0.0
+   },
+   "valueNotes": [
+    "per 100 ml derived from the per-portion values and the volume the name states"
+   ],
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/durstloescher-drachenfruchtguave-limette-05l-7281395/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/durstloescher-drachenfruchtguave-limette-05l-7281395/info",
+   "sha256": "e0ad1527c70adfb7cd4341a917ba4280fe77c8e234f9a29799439026bf22d861"
+  },
+  {
+   "id": "durstloescher-erdbeer-basilikum-05l-7281401",
+   "name": "Durstlöscher Erdbeer-Basilikum 0,5l",
+   "category": "drink",
+   "siteCategories": [
+    "DURSTLÖSCHER / DURSTLÖSCHER"
+   ],
+   "servingGrams": 500,
+   "servingUnit": "ml",
+   "portionMilliliters": 500,
+   "volumeSource": "name",
+   "valuesPer100g": {
+    "energyKJ": 70.8,
+    "calories": 16.92,
+    "fat": 0.26,
+    "saturatedFat": 0.04,
+    "carbs": 5.72,
+    "sugar": 5.72,
+    "protein": 0.44,
+    "saltGrams": 0.02
+   },
+   "valuesPerServing": {
+    "calories": 84.6,
+    "energyKJ": 354.0,
+    "fat": 1.3,
+    "saturatedFat": 0.2,
+    "protein": 2.2,
+    "carbs": 28.6,
+    "sugar": 28.6,
+    "saltGrams": 0.1
+   },
+   "valueNotes": [
+    "per 100 ml derived from the per-portion values and the volume the name states"
+   ],
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/durstloescher-erdbeer-basilikum-05l-7281401/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/durstloescher-erdbeer-basilikum-05l-7281401/info",
+   "sha256": "dce87e2988ccaf6e390f08780f5716199c6dbf5ec18c4e3f1b41f058501a9140"
+  },
+  {
+   "id": "durstloescher-grapefruitmaracuja-thymian-05l-7281404",
+   "name": "Durstlöscher Grapefruitmaracuja-Thymian 0,5l",
+   "category": "drink",
+   "siteCategories": [
+    "DURSTLÖSCHER / DURSTLÖSCHER"
+   ],
+   "servingGrams": 500,
+   "servingUnit": "ml",
+   "portionMilliliters": 500,
+   "volumeSource": "name",
+   "valuesPer100g": {
+    "energyKJ": 99.4,
+    "calories": 23.78,
+    "fat": 0.04,
+    "saturatedFat": 0.02,
+    "carbs": 5.54,
+    "sugar": 5.54,
+    "protein": 0.14,
+    "saltGrams": 0.0
+   },
+   "valuesPerServing": {
+    "calories": 118.9,
+    "energyKJ": 497.0,
+    "fat": 0.2,
+    "saturatedFat": 0.1,
+    "protein": 0.7,
+    "carbs": 27.7,
+    "sugar": 27.7,
+    "saltGrams": 0.0
+   },
+   "valueNotes": [
+    "per 100 ml derived from the per-portion values and the volume the name states"
+   ],
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/durstloescher-grapefruitmaracuja-thymian-05l-7281404/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/durstloescher-grapefruitmaracuja-thymian-05l-7281404/info",
+   "sha256": "7ac02a2b3bf6863da1e3a6a113b35fe0ec6e4bf5f131df0418939ab86ef82db2"
+  },
+  {
+   "id": "durstloescher-johannisbeer-heidelbeer-05l-7281407",
+   "name": "Durstlöscher Johannisbeer-Heidelbeer 0,5l",
+   "category": "drink",
+   "siteCategories": [
+    "DURSTLÖSCHER / DURSTLÖSCHER"
+   ],
+   "servingGrams": 500,
+   "servingUnit": "ml",
+   "portionMilliliters": 500,
+   "volumeSource": "name",
+   "valuesPer100g": {
+    "energyKJ": 163.8,
+    "calories": 39.14,
+    "fat": 0.26,
+    "saturatedFat": 0.04,
+    "carbs": 8.98,
+    "sugar": 8.98,
+    "protein": 0.3,
+    "saltGrams": 0.0
+   },
+   "valuesPerServing": {
+    "calories": 195.7,
+    "energyKJ": 819.0,
+    "fat": 1.3,
+    "saturatedFat": 0.2,
+    "protein": 1.5,
+    "carbs": 44.9,
+    "sugar": 44.9,
+    "saltGrams": 0.0
+   },
+   "valueNotes": [
+    "per 100 ml derived from the per-portion values and the volume the name states"
+   ],
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/durstloescher-johannisbeer-heidelbeer-05l-7281407/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/durstloescher-johannisbeer-heidelbeer-05l-7281407/info",
+   "sha256": "81e5aa969bb65cb98ff0703fb15d05121f89301fdab349326756fd4b3a974c3a"
+  },
+  {
+   "id": "durstloescher-mango-minze-05l-7281413",
+   "name": "Durstlöscher Mango-Minze 0,5l",
+   "category": "drink",
+   "siteCategories": [
+    "DURSTLÖSCHER / DURSTLÖSCHER"
+   ],
+   "servingGrams": 500,
+   "servingUnit": "ml",
+   "portionMilliliters": 500,
+   "volumeSource": "name",
+   "valuesPer100g": {
+    "energyKJ": 100.6,
+    "calories": 24.06,
+    "fat": 0.2,
+    "saturatedFat": 0.04,
+    "carbs": 5.42,
+    "sugar": 5.42,
+    "protein": 0.24,
+    "saltGrams": 0.0
+   },
+   "valuesPerServing": {
+    "calories": 120.3,
+    "energyKJ": 503.0,
+    "fat": 1.0,
+    "saturatedFat": 0.2,
+    "protein": 1.2,
+    "carbs": 27.1,
+    "sugar": 27.1,
+    "saltGrams": 0.0
+   },
+   "valueNotes": [
+    "per 100 ml derived from the per-portion values and the volume the name states"
+   ],
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/durstloescher-mango-minze-05l-7281413/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/durstloescher-mango-minze-05l-7281413/info",
+   "sha256": "09912c1039b5abc1058e2044550a3cf03c6d2b5a342ff6293330af069ecb5cf7"
+  },
+  {
+   "id": "durstloescher-minze-holunder-05l-7281410",
+   "name": "Durstlöscher Minze-Holunder 0,5l",
+   "category": "drink",
+   "siteCategories": [
+    "DURSTLÖSCHER / DURSTLÖSCHER"
+   ],
+   "servingGrams": 500,
+   "servingUnit": "ml",
+   "portionMilliliters": 500,
+   "volumeSource": "name",
+   "valuesPer100g": {
+    "energyKJ": 125.8,
+    "calories": 30.06,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "carbs": 7.02,
+    "sugar": 7.02,
+    "protein": 0.04,
+    "saltGrams": 0.0
+   },
+   "valuesPerServing": {
+    "calories": 150.3,
+    "energyKJ": 629.0,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "protein": 0.2,
+    "carbs": 35.1,
+    "sugar": 35.1,
+    "saltGrams": 0.0
+   },
+   "valueNotes": [
+    "per 100 ml derived from the per-portion values and the volume the name states"
+   ],
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/durstloescher-minze-holunder-05l-7281410/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/durstloescher-minze-holunder-05l-7281410/info",
+   "sha256": "72aa10a9379145ca6339dba5ad5dddcf7d8c2294b1d6c442572acb96e747560f"
+  },
+  {
+   "id": "durstloescher-minze-holunder-zero-05l-7281416",
+   "name": "Durstlöscher Minze-Holunder Zero 0,5l",
+   "category": "drink",
+   "siteCategories": [
+    "DURSTLÖSCHER / DURSTLÖSCHER"
+   ],
+   "servingGrams": 500,
+   "servingUnit": "ml",
+   "portionMilliliters": 500,
+   "volumeSource": "name",
+   "valuesPer100g": {
+    "energyKJ": 12.8,
+    "calories": 3.06,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "carbs": 0.68,
+    "sugar": 0.68,
+    "protein": 0.04,
+    "saltGrams": 0.0
+   },
+   "valuesPerServing": {
+    "calories": 15.3,
+    "energyKJ": 64.0,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "protein": 0.2,
+    "carbs": 3.4,
+    "sugar": 3.4,
+    "saltGrams": 0.0
+   },
+   "valueNotes": [
+    "per 100 ml derived from the per-portion values and the volume the name states"
+   ],
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/durstloescher-minze-holunder-zero-05l-7281416/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/durstloescher-minze-holunder-zero-05l-7281416/info",
+   "sha256": "85bd40d2fc3c0b69d7e97d3ae297b137f099b486d487c646124a86788b1953de"
+  },
+  {
+   "id": "durstloescher-orange-limone-05l-7281419",
+   "name": "Durstlöscher Orange-Limone 0,5l",
+   "category": "drink",
+   "siteCategories": [
+    "DURSTLÖSCHER / DURSTLÖSCHER"
+   ],
+   "servingGrams": 500,
+   "servingUnit": "ml",
+   "portionMilliliters": 500,
+   "volumeSource": "name",
+   "valuesPer100g": {
+    "energyKJ": 105.8,
+    "calories": 25.32,
+    "fat": 0.02,
+    "saturatedFat": 0.0,
+    "carbs": 5.8,
+    "sugar": 5.8,
+    "protein": 0.12,
+    "saltGrams": 0.0
+   },
+   "valuesPerServing": {
+    "calories": 126.6,
+    "energyKJ": 529.0,
+    "fat": 0.1,
+    "saturatedFat": 0.0,
+    "protein": 0.6,
+    "carbs": 29.0,
+    "sugar": 29.0,
+    "saltGrams": 0.0
+   },
+   "valueNotes": [
+    "per 100 ml derived from the per-portion values and the volume the name states"
+   ],
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/durstloescher-orange-limone-05l-7281419/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/durstloescher-orange-limone-05l-7281419/info",
+   "sha256": "608dd3b5c6bddd373c448ab274dbc6ec55772b0b140b5065fdfb2916b57217dc"
+  },
+  {
+   "id": "eistee-heidelbeer-minze-05l-7281422",
+   "name": "Eistee Heidelbeer-Minze 0,5l",
+   "category": "drink",
+   "siteCategories": [
+    "DURSTLÖSCHER / EISTEE"
+   ],
+   "servingGrams": 500,
+   "servingUnit": "ml",
+   "portionMilliliters": 500,
+   "volumeSource": "name",
+   "valuesPer100g": {
+    "energyKJ": 116.6,
+    "calories": 27.88,
+    "fat": 0.04,
+    "saturatedFat": 0.0,
+    "carbs": 6.64,
+    "sugar": 6.62,
+    "protein": 0.06,
+    "saltGrams": 0.02
+   },
+   "valuesPerServing": {
+    "calories": 139.4,
+    "energyKJ": 583.0,
+    "fat": 0.2,
+    "saturatedFat": 0.0,
+    "protein": 0.3,
+    "carbs": 33.2,
+    "sugar": 33.1,
+    "saltGrams": 0.1
+   },
+   "valueNotes": [
+    "per 100 ml derived from the per-portion values and the volume the name states"
+   ],
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/eistee-heidelbeer-minze-05l-7281422/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/eistee-heidelbeer-minze-05l-7281422/info",
+   "sha256": "57ab5fe1c2ad092d4859b9c53e07b0ceea545bee38fc807abd526ac951dff44d"
+  },
+  {
+   "id": "eistee-mango-ingwer-05l-7281425",
+   "name": "Eistee Mango-Ingwer 0,5l",
+   "category": "drink",
+   "siteCategories": [
+    "DURSTLÖSCHER / EISTEE"
+   ],
+   "servingGrams": 500,
+   "servingUnit": "ml",
+   "portionMilliliters": 500,
+   "volumeSource": "name",
+   "valuesPer100g": {
+    "energyKJ": 124.6,
+    "calories": 29.76,
+    "fat": 0.04,
+    "saturatedFat": 0.0,
+    "carbs": 6.98,
+    "sugar": 6.96,
+    "protein": 0.06,
+    "saltGrams": 0.02
+   },
+   "valuesPerServing": {
+    "calories": 148.8,
+    "energyKJ": 623.0,
+    "fat": 0.2,
+    "saturatedFat": 0.0,
+    "protein": 0.3,
+    "carbs": 34.9,
+    "sugar": 34.8,
+    "saltGrams": 0.1
+   },
+   "valueNotes": [
+    "per 100 ml derived from the per-portion values and the volume the name states"
+   ],
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/eistee-mango-ingwer-05l-7281425/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/eistee-mango-ingwer-05l-7281425/info",
+   "sha256": "78b1bce45418b4e0db4daf28a54efdae0a90a317ca44e4419f3c7a701f41e8e7"
+  },
+  {
+   "id": "eistee-pfirsich-limette-05l-7281428",
+   "name": "Eistee Pfirsich-Limette 0,5l",
+   "category": "drink",
+   "siteCategories": [
+    "DURSTLÖSCHER / EISTEE"
+   ],
+   "servingGrams": 500,
+   "servingUnit": "ml",
+   "portionMilliliters": 500,
+   "volumeSource": "name",
+   "valuesPer100g": {
+    "energyKJ": 115.2,
+    "calories": 27.52,
+    "fat": 0.16,
+    "saturatedFat": 0.02,
+    "carbs": 6.02,
+    "sugar": 5.98,
+    "protein": 0.04,
+    "saltGrams": 0.02
+   },
+   "valuesPerServing": {
+    "calories": 137.6,
+    "energyKJ": 576.0,
+    "fat": 0.8,
+    "saturatedFat": 0.1,
+    "protein": 0.2,
+    "carbs": 30.1,
+    "sugar": 29.9,
+    "saltGrams": 0.1
+   },
+   "valueNotes": [
+    "per 100 ml derived from the per-portion values and the volume the name states"
+   ],
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/eistee-pfirsich-limette-05l-7281428/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/eistee-pfirsich-limette-05l-7281428/info",
+   "sha256": "92b4781951c0c1f256b7f0ab05628f90e0931dbf74e805b1736b99e77ec775dd"
+  },
+  {
+   "id": "eitler-gockel-7324517",
+   "name": "Eitler Gockel",
+   "category": "burger",
+   "siteCategories": [
+    "BURGER / BURGER HÄHNCHENBRUSTFILET"
+   ],
+   "valuesPer100g": {},
+   "valuesPerServing": {
+    "calories": 785.8,
+    "energyKJ": 3288.0,
+    "fat": 37.4,
+    "saturatedFat": 4.4,
+    "protein": 45.6,
+    "carbs": 63.4,
+    "sugar": 10.3,
+    "saltGrams": 4.5
+   },
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/eitler-gockel-7324517/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/eitler-gockel-7324517/info",
+   "sha256": "8d7326f8474fc94c8d48e5b551de1cdc32b9c7a4576ba57a4a43da7d67a7eec3"
+  },
+  {
+   "id": "elsaesser-7324484",
+   "name": "Elsässer",
+   "category": "burger",
+   "siteCategories": [
+    "BURGER / BURGER RINDFLEISCH"
+   ],
+   "valuesPer100g": {},
+   "valuesPerServing": {
+    "calories": 854.3,
+    "energyKJ": 3574.0,
+    "fat": 48.3,
+    "saturatedFat": 20.2,
+    "protein": 41.8,
+    "carbs": 61.6,
+    "sugar": 20.9,
+    "saltGrams": 3.6
+   },
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/elsaesser-7324484/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/elsaesser-7324484/info",
+   "sha256": "d84fe5a4049bbcbef3c74e808ba9cc8228e442adcf0d94fca4d81b91a17d4ec8"
+  },
+  {
+   "id": "erbsenkoenigin-7282979",
+   "name": "Erbsenkönigin",
+   "category": "burger",
+   "siteCategories": [
+    "BURGER / BURGER VEGAN"
+   ],
+   "valuesPer100g": {},
+   "valuesPerServing": {
+    "calories": 684.7,
+    "energyKJ": 2865.0,
+    "fat": 36.2,
+    "saturatedFat": 3.1,
+    "protein": 26.4,
+    "carbs": 62.0,
+    "sugar": 14.9,
+    "saltGrams": 4.8
+   },
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/erbsenkoenigin-7282979/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/erbsenkoenigin-7282979/info",
+   "sha256": "d95cbfc545b4046007b15597d6e4ed41507108103ccacc84143876d16c965d05"
+  },
+  {
+   "id": "espresso-7280057",
+   "name": "Espresso",
+   "category": "coffee",
+   "siteCategories": [
+    "WARME GETRÄNKE / WARME GETRÄNKE"
+   ],
+   "valuesPer100g": {},
+   "valuesPerServing": {
+    "calories": 3.1,
+    "energyKJ": 13.0,
+    "fat": 0.1,
+    "saturatedFat": 0.0,
+    "protein": 0.0,
+    "carbs": 0.6,
+    "sugar": 0.0,
+    "saltGrams": 0.0
+   },
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/espresso-7280057/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/espresso-7280057/info",
+   "sha256": "28b5d51cced0019de1d952301ab11f0c92a4a9b0eda395bbf39d33f203680424"
+  },
+  {
+   "id": "falafresh-7282970",
+   "name": "Falafresh",
+   "category": "burger",
+   "siteCategories": [
+    "BURGER / BURGER VEGETARISCH"
+   ],
+   "valuesPer100g": {},
+   "valuesPerServing": {
+    "calories": 737.2,
+    "energyKJ": 3085.0,
+    "fat": 37.5,
+    "saturatedFat": 7.0,
+    "protein": 17.7,
+    "carbs": 76.1,
+    "sugar": 13.8,
+    "saltGrams": 3.5
+   },
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/falafresh-7282970/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/falafresh-7282970/info",
+   "sha256": "da24d5a57f9569ac40a580c7b9f08b9b012eb84ec12781c365766bc594e8ea68"
+  },
+  {
+   "id": "fanta-033-l-7279094",
+   "name": "Fanta 0,33 l",
+   "category": "drink",
+   "siteCategories": [
+    "SOFTDRINKS"
+   ],
+   "servingGrams": 330,
+   "servingUnit": "ml",
+   "portionMilliliters": 330,
+   "volumeSource": "name",
+   "valuesPer100g": {
+    "energyKJ": 133.94,
+    "calories": 32.0,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "carbs": 7.7,
+    "sugar": 7.61,
+    "protein": 0.0,
+    "saltGrams": 0.0
+   },
+   "valuesPerServing": {
+    "calories": 105.6,
+    "energyKJ": 442.0,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "protein": 0.0,
+    "carbs": 25.4,
+    "sugar": 25.1,
+    "saltGrams": 0.0
+   },
+   "valueNotes": [
+    "per 100 ml derived from the per-portion values and the volume the name states"
+   ],
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/fanta-033-l-7279094/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/fanta-033-l-7279094/info",
+   "sha256": "aaddba77ea51c96635d7364724b371ccbdd524d7c4df971182f3e8b57f3a14a6"
+  },
+  {
+   "id": "farbenspiel-7282967",
+   "name": "Farbenspiel",
+   "category": "burger",
+   "siteCategories": [
+    "BURGER / BURGER VEGETARISCH"
+   ],
+   "valuesPer100g": {},
+   "valuesPerServing": {
+    "calories": 970.3,
+    "energyKJ": 4060.0,
+    "fat": 50.4,
+    "saturatedFat": 12.9,
+    "protein": 27.5,
+    "carbs": 79.9,
+    "sugar": 14.0,
+    "saltGrams": 4.5
+   },
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/farbenspiel-7282967/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/farbenspiel-7282967/info",
+   "sha256": "fa006ad09a7a046e3e49b3f0ab8d704d0862a56fb11f11a086256f7e892c7a6e"
+  },
+  {
+   "id": "federvieh-7282802",
+   "name": "Federvieh",
+   "category": "salad",
+   "siteCategories": [
+    "SALATE & BOWLS / SALATE"
+   ],
+   "valuesPer100g": {},
+   "valuesPerServing": {
+    "calories": 648.5,
+    "energyKJ": 2713.0,
+    "fat": 37.6,
+    "saturatedFat": 7.7,
+    "protein": 49.0,
+    "carbs": 27.9,
+    "sugar": 7.7,
+    "saltGrams": 3.2
+   },
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/federvieh-7282802/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/federvieh-7282802/info",
+   "sha256": "8e4a179f990a2a9f877ea28f048bd879d0dc2925cd30bef12409187ca7cbe7d5"
+  },
+  {
+   "id": "feuerwerk-7324520",
+   "name": "Feuerwerk",
+   "category": "burger",
+   "siteCategories": [
+    "BURGER / BURGER HÄHNCHENBRUSTFILET"
+   ],
+   "valuesPer100g": {},
+   "valuesPerServing": {
+    "calories": 728.7,
+    "energyKJ": 3049.0,
+    "fat": 34.4,
+    "saturatedFat": 3.9,
+    "protein": 43.2,
+    "carbs": 59.7,
+    "sugar": 10.9,
+    "saltGrams": 3.8
+   },
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/feuerwerk-7324520/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/feuerwerk-7324520/info",
+   "sha256": "9001c5b4d810e1e2c410812754162d74346fc6e9707de5bba1548736916e385e"
+  },
+  {
+   "id": "feuriger-7324487",
+   "name": "Feuriger",
+   "category": "burger",
+   "siteCategories": [
+    "BURGER / BURGER RINDFLEISCH"
+   ],
+   "valuesPer100g": {},
+   "valuesPerServing": {
+    "calories": 883.2,
+    "energyKJ": 3695.0,
+    "fat": 56.0,
+    "saturatedFat": 19.2,
+    "protein": 41.7,
+    "carbs": 51.4,
+    "sugar": 10.7,
+    "saltGrams": 4.0
+   },
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/feuriger-7324487/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/feuriger-7324487/info",
+   "sha256": "d174f5d74a1ba39171540faf48698277915872f602b9a3f99626a2a06b238b02"
+  },
+  {
+   "id": "freudentaumel-04-l-7672532",
+   "name": "Freudentaumel 0,4 l",
+   "category": "drink",
+   "siteCategories": [
+    "APERITIFS & COCKTAILS OHNE ALKOHOL / COCKTAILS  OHNE ALKOHOL"
+   ],
+   "servingGrams": 400,
+   "servingUnit": "ml",
+   "portionMilliliters": 400,
+   "volumeSource": "name",
+   "valuesPer100g": {
+    "energyKJ": 138.0,
+    "calories": 33.0,
+    "fat": 0.1,
+    "saturatedFat": 0.03,
+    "carbs": 8.12,
+    "sugar": 8.12,
+    "protein": 0.12,
+    "saltGrams": 0.0
+   },
+   "valuesPerServing": {
+    "calories": 132.0,
+    "energyKJ": 552.0,
+    "fat": 0.4,
+    "saturatedFat": 0.1,
+    "protein": 0.5,
+    "carbs": 32.5,
+    "sugar": 32.5,
+    "saltGrams": 0.0
+   },
+   "valueNotes": [
+    "per 100 ml derived from the per-portion values and the volume the name states"
+   ],
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/freudentaumel-04-l-7672532/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/freudentaumel-04-l-7672532/info",
+   "sha256": "4bddd428270873c1187dc700acf52cb9676119dc1375c52acffb68526db0f53e"
+  },
+  {
+   "id": "geissbock-7324490",
+   "name": "Geissbock",
+   "category": "burger",
+   "siteCategories": [
+    "BURGER / BURGER RINDFLEISCH"
+   ],
+   "valuesPer100g": {},
+   "valuesPerServing": {
+    "calories": 899.0,
+    "energyKJ": 3761.0,
+    "fat": 52.1,
+    "saturatedFat": 20.9,
+    "protein": 46.5,
+    "carbs": 59.4,
+    "sugar": 19.2,
+    "saltGrams": 3.8
+   },
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/geissbock-7324490/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/geissbock-7324490/info",
+   "sha256": "9af02204eb999a055aedf08058128a3f66eb451301b9e841ac6312d0e2c15e80"
+  },
+  {
+   "id": "geselle-7324523",
+   "name": "Geselle",
+   "category": "burger",
+   "siteCategories": [
+    "BURGER / BURGER HÄHNCHENBRUSTFILET"
+   ],
+   "valuesPer100g": {},
+   "valuesPerServing": {
+    "calories": 727.9,
+    "energyKJ": 3046.0,
+    "fat": 36.9,
+    "saturatedFat": 6.3,
+    "protein": 47.4,
+    "carbs": 50.1,
+    "sugar": 9.7,
+    "saltGrams": 3.9
+   },
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/geselle-7324523/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/geselle-7324523/info",
+   "sha256": "67f8ce9717de4cc3639a17b44c1d0ab3cde918cf9a3effbd6a2a37dcdce7d6c3"
+  },
+  {
+   "id": "glitter-spritz-alkoholfrei-15702032",
+   "name": "Glitter Spritz Alkoholfrei",
+   "category": "drink",
+   "siteCategories": [
+    "APERITIFS & COCKTAILS OHNE ALKOHOL / APERITIFS OHNE ALKOHOL"
+   ],
+   "valuesPer100g": {},
+   "valuesPerServing": {
+    "calories": 0.0,
+    "energyKJ": 0.0,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "protein": 0.0,
+    "carbs": 0.0,
+    "sugar": 0.0,
+    "saltGrams": 0.0
+   },
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/glitter-spritz-alkoholfrei-15702032/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/glitter-spritz-alkoholfrei-15702032/info",
+   "sha256": "e53ea1ab2d38c46f6ada0ae522b45fe205833b882080b8b1feb9d67abb2a6d51"
+  },
+  {
+   "id": "gluecksgriff-7282982",
+   "name": "Glücksgriff",
+   "category": "burger",
+   "siteCategories": [
+    "BURGER / BURGER VEGAN"
+   ],
+   "valuesPer100g": {},
+   "valuesPerServing": {
+    "calories": 531.2,
+    "energyKJ": 2223.0,
+    "fat": 37.8,
+    "saturatedFat": 3.2,
+    "protein": 17.3,
+    "carbs": 24.6,
+    "sugar": 8.2,
+    "saltGrams": 3.1
+   },
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/gluecksgriff-7282982/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/gluecksgriff-7282982/info",
+   "sha256": "9a05565b9c2f205615695c97d2520600c4cf0f735da68db5a6f3424d3b105ad8"
+  },
+  {
+   "id": "goldfink-04-l-7672538",
+   "name": "Goldfink 0,4 l",
+   "category": "drink",
+   "siteCategories": [
+    "APERITIFS & COCKTAILS OHNE ALKOHOL / COCKTAILS  OHNE ALKOHOL"
+   ],
+   "servingGrams": 400,
+   "servingUnit": "ml",
+   "portionMilliliters": 400,
+   "volumeSource": "name",
+   "valuesPer100g": {
+    "energyKJ": 218.25,
+    "calories": 52.15,
+    "fat": 0.3,
+    "saturatedFat": 0.07,
+    "carbs": 11.8,
+    "sugar": 11.78,
+    "protein": 0.55,
+    "saltGrams": 0.03
+   },
+   "valuesPerServing": {
+    "calories": 208.6,
+    "energyKJ": 873.0,
+    "fat": 1.2,
+    "saturatedFat": 0.3,
+    "protein": 2.2,
+    "carbs": 47.2,
+    "sugar": 47.1,
+    "saltGrams": 0.1
+   },
+   "valueNotes": [
+    "per 100 ml derived from the per-portion values and the volume the name states"
+   ],
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/goldfink-04-l-7672538/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/goldfink-04-l-7672538/info",
+   "sha256": "6da7accb99c68c663d576e499f6f5122ad968b29e80c05f3044049b76e737e3a"
+  },
+  {
+   "id": "goldfritten-7279226",
+   "name": "Goldfritten",
+   "category": "fries",
+   "siteCategories": [
+    "BEILAGEN & FINGERFOOD / BEILAGEN"
+   ],
+   "valuesPer100g": {},
+   "valuesPerServing": {
+    "calories": 429.7,
+    "energyKJ": 1798.0,
+    "fat": 19.9,
+    "saturatedFat": 1.8,
+    "protein": 4.9,
+    "carbs": 57.8,
+    "sugar": 0.6,
+    "saltGrams": 0.6
+   },
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/goldfritten-7279226/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/goldfritten-7279226/info",
+   "sha256": "9568d0797be3bbc28b85f8e0df14c2f7c956ef91c72509b5c187ea4fe46aa127"
+  },
+  {
+   "id": "goldfritten-gross-11747953",
+   "name": "Goldfritten Gross",
+   "category": "fries",
+   "siteCategories": [
+    "BEILAGEN & FINGERFOOD / BEILAGEN"
+   ],
+   "valuesPer100g": {},
+   "valuesPerServing": {
+    "calories": 1269.5,
+    "energyKJ": 5311.0,
+    "fat": 58.7,
+    "saturatedFat": 5.5,
+    "protein": 14.6,
+    "carbs": 170.6,
+    "sugar": 1.8,
+    "saltGrams": 1.8
+   },
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/goldfritten-gross-11747953/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/goldfritten-gross-11747953/info",
+   "sha256": "96a6276fb4ddd75e0752ad9d78e9d26b52cac301b1f7e7aec48f58e9b077df05"
+  },
+  {
+   "id": "goldstuecke-7279241",
+   "name": "Goldstücke",
+   "category": "snack",
+   "siteCategories": [
+    "BEILAGEN & FINGERFOOD / FINGERFOOD"
+   ],
+   "valuesPer100g": {},
+   "valuesPerServing": {
+    "calories": 487.3,
+    "energyKJ": 2039.0,
+    "fat": 28.4,
+    "saturatedFat": 4.8,
+    "protein": 11.2,
+    "carbs": 43.5,
+    "sugar": 2.5,
+    "saltGrams": 3.0
+   },
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/goldstuecke-7279241/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/goldstuecke-7279241/info",
+   "sha256": "788ecbe56201ecc146394f7d857555ddd636dc91ca839fb4a11dd8a72ea8d807"
+  },
+  {
+   "id": "grazie-pistazie-7279655",
+   "name": "Grazie Pistazie",
+   "category": "dessert",
+   "siteCategories": [
+    "NACHSPEISEN / NACHSPEISEN"
+   ],
+   "valuesPer100g": {},
+   "valuesPerServing": {
+    "calories": 407.2,
+    "energyKJ": 1704.0,
+    "fat": 30.3,
+    "saturatedFat": 13.9,
+    "protein": 3.4,
+    "carbs": 29.1,
+    "sugar": 26.0,
+    "saltGrams": 0.2
+   },
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/grazie-pistazie-7279655/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/grazie-pistazie-7279655/info",
+   "sha256": "4dd4ca20e9ae1482bac8e2b1e9873c9c6976e788067202c346b9429cddae1afe"
+  },
+  {
+   "id": "hans-im-glueck-7324496",
+   "name": "Hans im Glück",
+   "category": "burger",
+   "siteCategories": [
+    "BURGER / BURGER RINDFLEISCH"
+   ],
+   "valuesPer100g": {},
+   "valuesPerServing": {
+    "calories": 764.4,
+    "energyKJ": 3198.0,
+    "fat": 44.1,
+    "saturatedFat": 16.4,
+    "protein": 41.8,
+    "carbs": 48.5,
+    "sugar": 8.5,
+    "saltGrams": 3.4
+   },
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/hans-im-glueck-7324496/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/hans-im-glueck-7324496/info",
+   "sha256": "dba84ef1db6e31c7ab21fcaa69cf1a9a8698b57a7a5f0df52f755b811542b016"
+  },
+  {
+   "id": "hans-im-glueck-burgersosse-7279301",
+   "name": "Hans im Glück Burgersosse",
+   "category": "sauce",
+   "siteCategories": [
+    "BEILAGEN & FINGERFOOD / DIPS"
+   ],
+   "valuesPer100g": {},
+   "valuesPerServing": {
+    "calories": 223.8,
+    "energyKJ": 936.0,
+    "fat": 21.9,
+    "saturatedFat": 1.8,
+    "protein": 0.2,
+    "carbs": 6.5,
+    "sugar": 4.8,
+    "saltGrams": 1.5
+   },
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/hans-im-glueck-burgersosse-7279301/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/hans-im-glueck-burgersosse-7279301/info",
+   "sha256": "2cf70ffe66ecce8fa3bcbb78f14b7df39b95bef570532e624a7cb4b209e08b8f"
+  },
+  {
+   "id": "heisse-schokolade-7280093",
+   "name": "Heisse Schokolade",
+   "category": "coffee",
+   "siteCategories": [
+    "WARME GETRÄNKE / WARME GETRÄNKE"
+   ],
+   "valuesPer100g": {},
+   "valuesPerServing": {
+    "calories": 172.5,
+    "energyKJ": 722.0,
+    "fat": 7.9,
+    "saturatedFat": 5.2,
+    "protein": 7.4,
+    "carbs": 17.1,
+    "sugar": 16.4,
+    "saltGrams": 0.2
+   },
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/heisse-schokolade-7280093/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/heisse-schokolade-7280093/info",
+   "sha256": "69cce2c686c048e466f9748c7ed20463c9faab73a5812b88eaadba49d2aff99c"
+  },
+  {
+   "id": "himbeer-minzessin-04-l-7672544",
+   "name": "Himbeer Minzessin 0,4 l",
+   "category": "drink",
+   "siteCategories": [
+    "APERITIFS & COCKTAILS OHNE ALKOHOL / COCKTAILS  OHNE ALKOHOL"
+   ],
+   "servingGrams": 400,
+   "servingUnit": "ml",
+   "portionMilliliters": 400,
+   "volumeSource": "name",
+   "valuesPer100g": {
+    "energyKJ": 185.5,
+    "calories": 44.35,
+    "fat": 0.3,
+    "saturatedFat": 0.05,
+    "carbs": 9.38,
+    "sugar": 9.38,
+    "protein": 0.17,
+    "saltGrams": 0.0
+   },
+   "valuesPerServing": {
+    "calories": 177.4,
+    "energyKJ": 742.0,
+    "fat": 1.2,
+    "saturatedFat": 0.2,
+    "protein": 0.7,
+    "carbs": 37.5,
+    "sugar": 37.5,
+    "saltGrams": 0.0
+   },
+   "valueNotes": [
+    "per 100 ml derived from the per-portion values and the volume the name states"
+   ],
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/himbeer-minzessin-04-l-7672544/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/himbeer-minzessin-04-l-7672544/info",
+   "sha256": "fefdc11d08e6a8531fb20db0a12cfe8cbe13da92f1a04a8c1af520c6540426b4"
+  },
+  {
+   "id": "hippe-7282826",
+   "name": "Hippe",
+   "category": "bowl",
+   "siteCategories": [
+    "SALATE & BOWLS / BOWLS"
+   ],
+   "valuesPer100g": {},
+   "valuesPerServing": {
+    "calories": 763.9,
+    "energyKJ": 3196.0,
+    "fat": 47.8,
+    "saturatedFat": 12.9,
+    "protein": 23.7,
+    "carbs": 55.6,
+    "sugar": 20.2,
+    "saltGrams": 3.3
+   },
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/hippe-7282826/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/hippe-7282826/info",
+   "sha256": "39a67138c874f52dddde024557bed9d05c7078cd335cbc42fa894be1e98ad06e"
+  },
+  {
+   "id": "hochstapler-7324493",
+   "name": "Hochstapler",
+   "category": "burger",
+   "siteCategories": [
+    "BURGER / BURGER RINDFLEISCH"
+   ],
+   "valuesPer100g": {},
+   "valuesPerServing": {
+    "calories": 1303.4,
+    "energyKJ": 5453.0,
+    "fat": 82.6,
+    "saturatedFat": 35.4,
+    "protein": 80.3,
+    "carbs": 57.1,
+    "sugar": 8.8,
+    "saltGrams": 6.2
+   },
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/hochstapler-7324493/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/hochstapler-7324493/info",
+   "sha256": "486c1bfe904b5a29582aebb872b141a51af64be8563208fe82900487b83d8a96"
+  },
+  {
+   "id": "holunderbluete-04-l-7672541",
+   "name": "Holunderblüte 0,4 l",
+   "category": "drink",
+   "siteCategories": [
+    "APERITIFS & COCKTAILS OHNE ALKOHOL / COCKTAILS  OHNE ALKOHOL"
+   ],
+   "servingGrams": 400,
+   "servingUnit": "ml",
+   "portionMilliliters": 400,
+   "volumeSource": "name",
+   "valuesPer100g": {
+    "energyKJ": 139.0,
+    "calories": 33.25,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "carbs": 7.67,
+    "sugar": 7.67,
+    "protein": 0.03,
+    "saltGrams": 0.0
+   },
+   "valuesPerServing": {
+    "calories": 133.0,
+    "energyKJ": 556.0,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "protein": 0.1,
+    "carbs": 30.7,
+    "sugar": 30.7,
+    "saltGrams": 0.0
+   },
+   "valueNotes": [
+    "per 100 ml derived from the per-portion values and the volume the name states"
+   ],
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/holunderbluete-04-l-7672541/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/holunderbluete-04-l-7672541/info",
+   "sha256": "2ba95ddcf335d7b6ac82a8a9a02f587b3a7735f1a6d45cdb2b2933f60a45ca03"
+  },
+  {
+   "id": "horntraeger-7282973",
+   "name": "Hornträger",
+   "category": "burger",
+   "siteCategories": [
+    "BURGER / BURGER VEGETARISCH"
+   ],
+   "valuesPer100g": {},
+   "valuesPerServing": {
+    "calories": 942.5,
+    "energyKJ": 3943.0,
+    "fat": 53.2,
+    "saturatedFat": 12.2,
+    "protein": 25.0,
+    "carbs": 86.9,
+    "sugar": 21.0,
+    "saltGrams": 4.1
+   },
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/horntraeger-7282973/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/horntraeger-7282973/info",
+   "sha256": "9a7e7fb223aa554d2fa6d6c8556cbfa96030c2425ee08fc44aa505cea776e355"
+  },
+  {
+   "id": "hummusheld-7324526",
+   "name": "Hummusheld",
+   "category": "burger",
+   "siteCategories": [
+    "BURGER / BURGER HÄHNCHENBRUSTFILET"
+   ],
+   "valuesPer100g": {},
+   "valuesPerServing": {
+    "calories": 743.6,
+    "energyKJ": 3111.0,
+    "fat": 32.5,
+    "saturatedFat": 4.0,
+    "protein": 46.6,
+    "carbs": 67.8,
+    "sugar": 11.5,
+    "saltGrams": 4.7
+   },
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/hummusheld-7324526/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/hummusheld-7324526/info",
+   "sha256": "a0a4bf4f8a3f5cefd896d69c5a0dc59c2b6d4bfa05f9f1c5edbff2fc0ce87b6b"
+  },
+  {
+   "id": "ipanema-04-l-7672547",
+   "name": "Ipanema 0,4 l",
+   "category": "drink",
+   "siteCategories": [
+    "APERITIFS & COCKTAILS OHNE ALKOHOL / ALKOHOLFREIE CLASSICS"
+   ],
+   "servingGrams": 400,
+   "servingUnit": "ml",
+   "portionMilliliters": 400,
+   "volumeSource": "name",
+   "valuesPer100g": {
+    "energyKJ": 204.5,
+    "calories": 48.9,
+    "fat": 0.38,
+    "saturatedFat": 0.07,
+    "carbs": 10.43,
+    "sugar": 10.43,
+    "protein": 0.2,
+    "saltGrams": 0.0
+   },
+   "valuesPerServing": {
+    "calories": 195.6,
+    "energyKJ": 818.0,
+    "fat": 1.5,
+    "saturatedFat": 0.3,
+    "protein": 0.8,
+    "carbs": 41.7,
+    "sugar": 41.7,
+    "saltGrams": 0.0
+   },
+   "valueNotes": [
+    "per 100 ml derived from the per-portion values and the volume the name states"
+   ],
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/ipanema-04-l-7672547/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/ipanema-04-l-7672547/info",
+   "sha256": "5a1ca32e457a90b19cb86c388303dc2a85cef73d99f5471cc1f16d38aac90559"
+  },
+  {
+   "id": "kaese-speck-7324502",
+   "name": "Käse & Speck",
+   "category": "burger",
+   "siteCategories": [
+    "BURGER / BURGER RINDFLEISCH"
+   ],
+   "valuesPer100g": {},
+   "valuesPerServing": {
+    "calories": 839.0,
+    "energyKJ": 3510.0,
+    "fat": 50.3,
+    "saturatedFat": 18.9,
+    "protein": 46.5,
+    "carbs": 48.5,
+    "sugar": 8.5,
+    "saltGrams": 3.8
+   },
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/kaese-speck-7324502/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/kaese-speck-7324502/info",
+   "sha256": "92a7c9fd834229e826c0a578567c548e4f89946db40ce1d8f679b16c4edf4cc6"
+  },
+  {
+   "id": "kaffee-creme-7280081",
+   "name": "Kaffee Creme",
+   "category": "coffee",
+   "siteCategories": [
+    "WARME GETRÄNKE / WARME GETRÄNKE"
+   ],
+   "valuesPer100g": {},
+   "valuesPerServing": {
+    "calories": 3.2,
+    "energyKJ": 13.0,
+    "fat": 0.1,
+    "saturatedFat": 0.0,
+    "protein": 0.0,
+    "carbs": 0.6,
+    "sugar": 0.0,
+    "saltGrams": 0.0
+   },
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/kaffee-creme-7280081/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/kaffee-creme-7280081/info",
+   "sha256": "8554561f472b7b01930e3fa07a4651e968ecc23c2359869bf0fcb2390cae1d9a"
+  },
+  {
+   "id": "kartoffelchips-7279256",
+   "name": "Kartoffelchips",
+   "category": "snack",
+   "siteCategories": [
+    "BEILAGEN & FINGERFOOD / FINGERFOOD"
+   ],
+   "valuesPer100g": {},
+   "valuesPerServing": {
+    "calories": 664.2,
+    "energyKJ": 2779.0,
+    "fat": 40.7,
+    "saturatedFat": 3.8,
+    "protein": 7.2,
+    "carbs": 64.9,
+    "sugar": 1.6,
+    "saltGrams": 1.6
+   },
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/kartoffelchips-7279256/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/kartoffelchips-7279256/info",
+   "sha256": "ed374d6374c592fc90a399f083bde54003f4e0d9966274ca4754da2e004b07e2"
+  },
+  {
+   "id": "klassik-7324499",
+   "name": "Klassik",
+   "category": "burger",
+   "siteCategories": [
+    "BURGER / BURGER RINDFLEISCH"
+   ],
+   "valuesPer100g": {},
+   "valuesPerServing": {
+    "calories": 681.2,
+    "energyKJ": 2850.0,
+    "fat": 37.1,
+    "saturatedFat": 12.0,
+    "protein": 36.8,
+    "carbs": 48.5,
+    "sugar": 8.5,
+    "saltGrams": 3.1
+   },
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/klassik-7324499/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/klassik-7324499/info",
+   "sha256": "2f73b2e4e6de2f0554f8ce44e2ac74ec54818be7a5d8b70d2453c09d2491415c"
+  },
+  {
+   "id": "kleiner-gluecksgriff-7279688",
+   "name": "Kleiner Glücksgriff",
+   "category": "burger",
+   "siteCategories": [
+    "KINDERKARTE"
+   ],
+   "valuesPer100g": {},
+   "valuesPerServing": {
+    "calories": 601.5,
+    "energyKJ": 2517.0,
+    "fat": 29.3,
+    "saturatedFat": 2.9,
+    "protein": 22.7,
+    "carbs": 55.1,
+    "sugar": 13.9,
+    "saltGrams": 3.0
+   },
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/kleiner-gluecksgriff-7279688/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/kleiner-gluecksgriff-7279688/info",
+   "sha256": "c84224a6c9142de8b0857ccbdb368f6dcb11a651541cdce9ba86cb0ed04de5b4"
+  },
+  {
+   "id": "kleiner-klassik-7279685",
+   "name": "Kleiner Klassik",
+   "category": "burger",
+   "siteCategories": [
+    "KINDERKARTE"
+   ],
+   "valuesPer100g": {},
+   "valuesPerServing": {
+    "calories": 432.8,
+    "energyKJ": 1811.0,
+    "fat": 20.1,
+    "saturatedFat": 5.7,
+    "protein": 19.4,
+    "carbs": 41.2,
+    "sugar": 13.2,
+    "saltGrams": 1.9
+   },
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/kleiner-klassik-7279685/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/kleiner-klassik-7279685/info",
+   "sha256": "bbb76c8e40ac0bdf9ec2dcaa1bcb692e6398662aa889521355fe479f9d0bba3e"
+  },
+  {
+   "id": "knoblauch-kaese-fritten-7279259",
+   "name": "Knoblauch-Käse-Fritten",
+   "category": "fries",
+   "siteCategories": [
+    "BEILAGEN & FINGERFOOD / LOADED FRITTEN"
+   ],
+   "valuesPer100g": {},
+   "valuesPerServing": {
+    "calories": 476.6,
+    "energyKJ": 1994.0,
+    "fat": 22.0,
+    "saturatedFat": 3.2,
+    "protein": 8.1,
+    "carbs": 61.5,
+    "sugar": 2.9,
+    "saltGrams": 1.9
+   },
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/knoblauch-kaese-fritten-7279259/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/knoblauch-kaese-fritten-7279259/info",
+   "sha256": "618679d53730fae4d1b2a5685da1865a5100ae10b5382bb955daf9599d1c3573"
+  },
+  {
+   "id": "knoblauch-kaese-suesskartoffeln-7279262",
+   "name": "Knoblauch-Käse-Süsskartoffeln",
+   "category": "fries",
+   "siteCategories": [
+    "BEILAGEN & FINGERFOOD / LOADED FRITTEN"
+   ],
+   "valuesPer100g": {},
+   "valuesPerServing": {
+    "calories": 434.2,
+    "energyKJ": 1817.0,
+    "fat": 22.2,
+    "saturatedFat": 3.1,
+    "protein": 6.0,
+    "carbs": 48.2,
+    "sugar": 22.7,
+    "saltGrams": 2.2
+   },
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/knoblauch-kaese-suesskartoffeln-7279262/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/knoblauch-kaese-suesskartoffeln-7279262/info",
+   "sha256": "3cea7d2f57937aeadad2477c73857ece6ad2611f387b81caf230a16c064a24d7"
+  },
+  {
+   "id": "knoblauch-mayo-7279304",
+   "name": "Knoblauch-Mayo",
+   "category": "sauce",
+   "siteCategories": [
+    "BEILAGEN & FINGERFOOD / DIPS"
+   ],
+   "valuesPer100g": {},
+   "valuesPerServing": {
+    "calories": 225.6,
+    "energyKJ": 944.0,
+    "fat": 23.1,
+    "saturatedFat": 1.8,
+    "protein": 0.6,
+    "carbs": 3.8,
+    "sugar": 2.5,
+    "saltGrams": 1.2
+   },
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/knoblauch-mayo-7279304/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/knoblauch-mayo-7279304/info",
+   "sha256": "19773171366ab6bbf9b6848fdd47519c65dd3048d5da9f7534f46ad54360de50"
+  },
+  {
+   "id": "knusperbohnen-7279250",
+   "name": "Knusperbohnen",
+   "category": "snack",
+   "siteCategories": [
+    "BEILAGEN & FINGERFOOD / FINGERFOOD"
+   ],
+   "valuesPer100g": {},
+   "valuesPerServing": {
+    "calories": 237.5,
+    "energyKJ": 994.0,
+    "fat": 12.4,
+    "saturatedFat": 1.5,
+    "protein": 4.3,
+    "carbs": 25.4,
+    "sugar": 2.7,
+    "saltGrams": 0.9
+   },
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/knusperbohnen-7279250/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/knusperbohnen-7279250/info",
+   "sha256": "f6fdc5f0fa2cfb9d4191fc4c056465c8b8f96120702de1eb23ccc40215525851"
+  },
+  {
+   "id": "knusperschote-7282985",
+   "name": "Knusperschote",
+   "category": "burger",
+   "siteCategories": [
+    "BURGER / BURGER VEGAN"
+   ],
+   "valuesPer100g": {},
+   "valuesPerServing": {
+    "calories": 881.7,
+    "energyKJ": 3689.0,
+    "fat": 43.0,
+    "saturatedFat": 3.7,
+    "protein": 14.3,
+    "carbs": 104.2,
+    "sugar": 13.3,
+    "saltGrams": 4.8
+   },
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/knusperschote-7282985/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/knusperschote-7282985/info",
+   "sha256": "1174fe146a5651f44f87c66b0e36274954f3051fdd78e7447cb39bea2f331c32"
+  },
+  {
+   "id": "kraeuterraucher-7282988",
+   "name": "Kräuterraucher",
+   "category": "burger",
+   "siteCategories": [
+    "BURGER / BURGER VEGAN"
+   ],
+   "valuesPer100g": {},
+   "valuesPerServing": {
+    "calories": 727.7,
+    "energyKJ": 3045.0,
+    "fat": 38.3,
+    "saturatedFat": 3.5,
+    "protein": 29.3,
+    "carbs": 64.1,
+    "sugar": 16.2,
+    "saltGrams": 4.6
+   },
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/kraeuterraucher-7282988/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/kraeuterraucher-7282988/info",
+   "sha256": "4fb0fae6622a6bd11175c04ec173076a6322d1509f896a621f59f552410ae5d3"
+  },
+  {
+   "id": "krautsalat-7279238",
+   "name": "Krautsalat",
+   "category": "salad",
+   "siteCategories": [
+    "BEILAGEN & FINGERFOOD / BEILAGEN"
+   ],
+   "valuesPer100g": {},
+   "valuesPerServing": {
+    "calories": 232.5,
+    "energyKJ": 973.0,
+    "fat": 20.2,
+    "saturatedFat": 1.9,
+    "protein": 5.0,
+    "carbs": 6.8,
+    "sugar": 5.0,
+    "saltGrams": 0.9
+   },
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/krautsalat-7279238/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/krautsalat-7279238/info",
+   "sha256": "4e653a213deb9c3cd654f8dc8367067a99c7e3d30c8846d2092a67e3ff199b08"
+  },
+  {
+   "id": "kugel-vanilleeis-7279631",
+   "name": "Kugel Vanilleeis",
+   "category": "dessert",
+   "siteCategories": [
+    "NACHSPEISEN / NACHSPEISEN",
+    "KINDERKARTE"
+   ],
+   "valuesPer100g": {},
+   "valuesPerServing": {
+    "calories": 169.8,
+    "energyKJ": 710.0,
+    "fat": 9.6,
+    "saturatedFat": 6.2,
+    "protein": 1.7,
+    "carbs": 19.2,
+    "sugar": 18.6,
+    "saltGrams": 0.1
+   },
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/kugel-vanilleeis-7279631/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/kugel-vanilleeis-7279631/info",
+   "sha256": "a4f61cae60cf00c6ba518aef8ed5fcb18ba75fc1b466db7d48ead574d7402063"
+  },
+  {
+   "id": "kugel-veganes-erdbeereis-11012393",
+   "name": "Kugel Veganes Erdbeereis",
+   "category": "dessert",
+   "siteCategories": [
+    "NACHSPEISEN / NACHSPEISEN",
+    "KINDERKARTE"
+   ],
+   "valuesPer100g": {},
+   "valuesPerServing": {
+    "calories": 70.8,
+    "energyKJ": 296.0,
+    "fat": 0.1,
+    "saturatedFat": 0.0,
+    "protein": 0.2,
+    "carbs": 17.4,
+    "sugar": 16.8,
+    "saltGrams": 0.0
+   },
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/kugel-veganes-erdbeereis-11012393/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/kugel-veganes-erdbeereis-11012393/info",
+   "sha256": "f989c5cd560d020806f75bd3ee13c6df490ac307e1026e1087af53f02a05da4d"
+  },
+  {
+   "id": "latte-macchiato-7280084",
+   "name": "Latte Macchiato",
+   "category": "coffee",
+   "siteCategories": [
+    "WARME GETRÄNKE / WARME GETRÄNKE"
+   ],
+   "valuesPer100g": {},
+   "valuesPerServing": {
+    "calories": 99.1,
+    "energyKJ": 415.0,
+    "fat": 5.3,
+    "saturatedFat": 3.5,
+    "protein": 5.0,
+    "carbs": 7.8,
+    "sugar": 7.2,
+    "saltGrams": 0.2
+   },
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/latte-macchiato-7280084/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/latte-macchiato-7280084/info",
+   "sha256": "fbab39330ca455a0700971fda52ab11ffd8597dffbe52bb0bb98d4b1353769ef"
+  },
+  {
+   "id": "lausbub-7279625",
+   "name": "Lausbub",
+   "category": "dessert",
+   "siteCategories": [
+    "NACHSPEISEN / NACHSPEISEN"
+   ],
+   "valuesPer100g": {},
+   "valuesPerServing": {
+    "calories": 296.7,
+    "energyKJ": 1241.0,
+    "fat": 8.2,
+    "saturatedFat": 6.7,
+    "protein": 3.2,
+    "carbs": 51.2,
+    "sugar": 33.6,
+    "saltGrams": 0.2
+   },
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/lausbub-7279625/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/lausbub-7279625/info",
+   "sha256": "8fc3d9c3edbe52fe5843809142c3228f8b894cb692e6f69b48317ecb6e2ed17c"
+  },
+  {
+   "id": "mango-ingwer-froozy-7324538",
+   "name": "Mango-Ingwer Froozy",
+   "category": "dessert",
+   "siteCategories": [
+    "NACHSPEISEN / FROOZYS"
+   ],
+   "valuesPer100g": {},
+   "valuesPerServing": {
+    "calories": 175.5,
+    "energyKJ": 734.0,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "protein": 0.1,
+    "carbs": 42.3,
+    "sugar": 40.9,
+    "saltGrams": 0.0
+   },
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/mango-ingwer-froozy-7324538/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/mango-ingwer-froozy-7324538/info",
+   "sha256": "924f61118c80c26cd1c041f036442f89f94c32d7519cf9b17f158f497207dd78"
+  },
+  {
+   "id": "mango-joghurt-minze-froozy-7324535",
+   "name": "Mango-Joghurt-Minze Froozy",
+   "category": "dessert",
+   "siteCategories": [
+    "NACHSPEISEN / FROOZYS"
+   ],
+   "valuesPer100g": {},
+   "valuesPerServing": {
+    "calories": 271.0,
+    "energyKJ": 1134.0,
+    "fat": 0.9,
+    "saturatedFat": 0.8,
+    "protein": 4.3,
+    "carbs": 59.8,
+    "sugar": 56.9,
+    "saltGrams": 0.2
+   },
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/mango-joghurt-minze-froozy-7324535/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/mango-joghurt-minze-froozy-7324535/info",
+   "sha256": "3812a9f90a453ac67046c8f1367631761173d02ee2e7a21d4d6330467f9456b7"
+  },
+  {
+   "id": "mangobluete-03-l-7672445",
+   "name": "Mangoblüte 0,3 l",
+   "category": "drink",
+   "siteCategories": [
+    "APERITIFS & COCKTAILS OHNE ALKOHOL / APERITIFS OHNE ALKOHOL"
+   ],
+   "servingGrams": 300,
+   "servingUnit": "ml",
+   "portionMilliliters": 300,
+   "volumeSource": "name",
+   "valuesPer100g": {
+    "energyKJ": 188.33,
+    "calories": 45.0,
+    "fat": 0.17,
+    "saturatedFat": 0.03,
+    "carbs": 10.23,
+    "sugar": 10.23,
+    "protein": 0.2,
+    "saltGrams": 0.0
+   },
+   "valuesPerServing": {
+    "calories": 135.0,
+    "energyKJ": 565.0,
+    "fat": 0.5,
+    "saturatedFat": 0.1,
+    "protein": 0.6,
+    "carbs": 30.7,
+    "sugar": 30.7,
+    "saltGrams": 0.0
+   },
+   "valueNotes": [
+    "per 100 ml derived from the per-portion values and the volume the name states"
+   ],
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/mangobluete-03-l-7672445/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/mangobluete-03-l-7672445/info",
+   "sha256": "e4d0a46aaa6688b873651c1c1e25e27a3f01026dcfc12975d4d0b42708d6fc45"
+  },
+  {
+   "id": "marktschreier-7324505",
+   "name": "Marktschreier",
+   "category": "burger",
+   "siteCategories": [
+    "BURGER / BURGER RINDFLEISCH"
+   ],
+   "valuesPer100g": {},
+   "valuesPerServing": {
+    "calories": 1133.2,
+    "energyKJ": 4741.0,
+    "fat": 65.0,
+    "saturatedFat": 23.3,
+    "protein": 54.3,
+    "carbs": 63.8,
+    "sugar": 10.9,
+    "saltGrams": 5.3
+   },
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/marktschreier-7324505/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/marktschreier-7324505/info",
+   "sha256": "504314c9a273a1857c35eebaab10da7bfb41764c5718d90d9ea8a9c841d70dac"
+  },
+  {
+   "id": "matcha-latte-7280420",
+   "name": "Matcha Latte",
+   "category": "coffee",
+   "siteCategories": [
+    "WARME GETRÄNKE / WARME GETRÄNKE"
+   ],
+   "valuesPer100g": {},
+   "valuesPerServing": {
+    "calories": 172.2,
+    "energyKJ": 721.0,
+    "fat": 6.9,
+    "saturatedFat": 4.5,
+    "protein": 6.8,
+    "carbs": 20.3,
+    "sugar": 19.7,
+    "saltGrams": 0.2
+   },
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/matcha-latte-7280420/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/matcha-latte-7280420/info",
+   "sha256": "a9d837d5d4e46bef47400fe7204cf6bac3d42b904924f603081f0a531f2aebcc"
+  },
+  {
+   "id": "meisterwerk-7324529",
+   "name": "Meisterwerk",
+   "category": "burger",
+   "siteCategories": [
+    "BURGER / BURGER HÄHNCHENBRUSTFILET"
+   ],
+   "valuesPer100g": {},
+   "valuesPerServing": {
+    "calories": 648.8,
+    "energyKJ": 2715.0,
+    "fat": 28.8,
+    "saturatedFat": 3.4,
+    "protein": 42.8,
+    "carbs": 52.4,
+    "sugar": 11.6,
+    "saltGrams": 4.0
+   },
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/meisterwerk-7324529/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/meisterwerk-7324529/info",
+   "sha256": "2cac98557e28ce08722319231ea3c07a374765dddd82b6bba293ac7469764737"
+  },
+  {
+   "id": "mezzo-mix-033-l-7279106",
+   "name": "Mezzo Mix 0,33 l",
+   "category": "drink",
+   "siteCategories": [
+    "SOFTDRINKS"
+   ],
+   "servingGrams": 330,
+   "servingUnit": "ml",
+   "portionMilliliters": 330,
+   "volumeSource": "name",
+   "valuesPer100g": {
+    "energyKJ": 180.0,
+    "calories": 43.0,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "carbs": 10.61,
+    "sugar": 10.09,
+    "protein": 0.0,
+    "saltGrams": 0.0
+   },
+   "valuesPerServing": {
+    "calories": 141.9,
+    "energyKJ": 594.0,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "protein": 0.0,
+    "carbs": 35.0,
+    "sugar": 33.3,
+    "saltGrams": 0.0
+   },
+   "valueNotes": [
+    "per 100 ml derived from the per-portion values and the volume the name states"
+   ],
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/mezzo-mix-033-l-7279106/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/mezzo-mix-033-l-7279106/info",
+   "sha256": "8affb312bf367feb8f563f403cd786965a621f33b82be52b4321c0ff800682ac"
+  },
+  {
+   "id": "mineralwasser-mit-bitzel-075-l-7279088",
+   "name": "Mineralwasser mit Bitzel 0,75 l",
+   "category": "drink",
+   "siteCategories": [
+    "SOFTDRINKS"
+   ],
+   "servingGrams": 750,
+   "servingUnit": "ml",
+   "portionMilliliters": 750,
+   "volumeSource": "name",
+   "valuesPer100g": {
+    "energyKJ": 0.0,
+    "calories": 0.0,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "carbs": 0.0,
+    "sugar": 0.0,
+    "protein": 0.0,
+    "saltGrams": 0.0
+   },
+   "valuesPerServing": {
+    "calories": 0.0,
+    "energyKJ": 0.0,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "protein": 0.0,
+    "carbs": 0.0,
+    "sugar": 0.0,
+    "saltGrams": 0.0
+   },
+   "valueNotes": [
+    "per 100 ml derived from the per-portion values and the volume the name states"
+   ],
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/mineralwasser-mit-bitzel-075-l-7279088/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/mineralwasser-mit-bitzel-075-l-7279088/info",
+   "sha256": "0b6f45cbeeedda2298d020bd2ddf95a5e659f0e7c09f42f12ce0f1a769dc9b90"
+  },
+  {
+   "id": "minne-04-l-7672553",
+   "name": "Minne 0,4 l",
+   "category": "drink",
+   "siteCategories": [
+    "APERITIFS & COCKTAILS OHNE ALKOHOL / COCKTAILS  OHNE ALKOHOL"
+   ],
+   "servingGrams": 400,
+   "servingUnit": "ml",
+   "portionMilliliters": 400,
+   "volumeSource": "name",
+   "valuesPer100g": {
+    "energyKJ": 201.75,
+    "calories": 48.25,
+    "fat": 0.25,
+    "saturatedFat": 0.05,
+    "carbs": 10.75,
+    "sugar": 10.75,
+    "protein": 0.15,
+    "saltGrams": 0.0
+   },
+   "valuesPerServing": {
+    "calories": 193.0,
+    "energyKJ": 807.0,
+    "fat": 1.0,
+    "saturatedFat": 0.2,
+    "protein": 0.6,
+    "carbs": 43.0,
+    "sugar": 43.0,
+    "saltGrams": 0.0
+   },
+   "valueNotes": [
+    "per 100 ml derived from the per-portion values and the volume the name states"
+   ],
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/minne-04-l-7672553/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/minne-04-l-7672553/info",
+   "sha256": "32e08100bd4ca0c4f2f18935464ed1be9017f182733b64c8063bc29d763e4854"
+  },
+  {
+   "id": "moskito-04-l-7672550",
+   "name": "Moskito 0,4 l",
+   "category": "drink",
+   "siteCategories": [
+    "APERITIFS & COCKTAILS OHNE ALKOHOL / ALKOHOLFREIE CLASSICS"
+   ],
+   "servingGrams": 400,
+   "servingUnit": "ml",
+   "portionMilliliters": 400,
+   "volumeSource": "name",
+   "valuesPer100g": {
+    "energyKJ": 150.5,
+    "calories": 35.98,
+    "fat": 0.28,
+    "saturatedFat": 0.05,
+    "carbs": 7.7,
+    "sugar": 7.7,
+    "protein": 0.07,
+    "saltGrams": 0.0
+   },
+   "valuesPerServing": {
+    "calories": 143.9,
+    "energyKJ": 602.0,
+    "fat": 1.1,
+    "saturatedFat": 0.2,
+    "protein": 0.3,
+    "carbs": 30.8,
+    "sugar": 30.8,
+    "saltGrams": 0.0
+   },
+   "valueNotes": [
+    "per 100 ml derived from the per-portion values and the volume the name states"
+   ],
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/moskito-04-l-7672550/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/moskito-04-l-7672550/info",
+   "sha256": "9bbfb74640936b164e317224d2b598c6c98ee13e02929fa23be90f9078e3b9de"
+  },
+  {
+   "id": "omas-geheimnis-7279652",
+   "name": "Omas Geheimnis",
+   "category": "dessert",
+   "siteCategories": [
+    "NACHSPEISEN / NACHSPEISEN"
+   ],
+   "valuesPer100g": {},
+   "valuesPerServing": {
+    "calories": 672.5,
+    "energyKJ": 2814.0,
+    "fat": 41.1,
+    "saturatedFat": 18.8,
+    "protein": 6.2,
+    "carbs": 66.9,
+    "sugar": 46.3,
+    "saltGrams": 0.8
+   },
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/omas-geheimnis-7279652/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/omas-geheimnis-7279652/info",
+   "sha256": "08510b5d4cae4d67b9d1d72e85eff6253f7b48550b9a3a709f29cb90ac569247"
+  },
+  {
+   "id": "orientzauber-7282829",
+   "name": "Orientzauber",
+   "category": "bowl",
+   "siteCategories": [
+    "SALATE & BOWLS / BOWLS"
+   ],
+   "valuesPer100g": {},
+   "valuesPerServing": {
+    "calories": 843.0,
+    "energyKJ": 3527.0,
+    "fat": 45.6,
+    "saturatedFat": 5.3,
+    "protein": 23.2,
+    "carbs": 78.4,
+    "sugar": 18.3,
+    "saltGrams": 4.2
+   },
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/orientzauber-7282829/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/orientzauber-7282829/info",
+   "sha256": "790c32c11119bed6bc71bdf56cdc4c0f4fa93bb19dca326e7c3a0f36ad2b1747"
+  },
+  {
+   "id": "pestoprinz-7282991",
+   "name": "Pestoprinz",
+   "category": "burger",
+   "siteCategories": [
+    "BURGER / BURGER VEGAN"
+   ],
+   "valuesPer100g": {},
+   "valuesPerServing": {
+    "calories": 818.9,
+    "energyKJ": 3426.0,
+    "fat": 47.2,
+    "saturatedFat": 4.9,
+    "protein": 19.2,
+    "carbs": 74.3,
+    "sugar": 11.8,
+    "saltGrams": 3.7
+   },
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/pestoprinz-7282991/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/pestoprinz-7282991/info",
+   "sha256": "d6cfe6fb724f608aca9fd459fed271a3996d20883569e6b07aa458f6e797e60d"
+  },
+  {
+   "id": "pink-breeze-03-l-7672451",
+   "name": "Pink Breeze 0,3 l",
+   "category": "drink",
+   "siteCategories": [
+    "APERITIFS & COCKTAILS OHNE ALKOHOL / APERITIFS OHNE ALKOHOL"
+   ],
+   "servingGrams": 300,
+   "servingUnit": "ml",
+   "portionMilliliters": 300,
+   "volumeSource": "name",
+   "valuesPer100g": {
+    "energyKJ": 241.67,
+    "calories": 57.73,
+    "fat": 0.03,
+    "saturatedFat": 0.0,
+    "carbs": 11.83,
+    "sugar": 11.83,
+    "protein": 0.03,
+    "saltGrams": 0.03
+   },
+   "valuesPerServing": {
+    "calories": 173.2,
+    "energyKJ": 725.0,
+    "fat": 0.1,
+    "saturatedFat": 0.0,
+    "protein": 0.1,
+    "carbs": 35.5,
+    "sugar": 35.5,
+    "saltGrams": 0.1
+   },
+   "valueNotes": [
+    "per 100 ml derived from the per-portion values and the volume the name states"
+   ],
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/pink-breeze-03-l-7672451/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/pink-breeze-03-l-7672451/info",
+   "sha256": "3e476ff22104df617a193fec9268128269215b630be9652608dbebcbff16ee65"
+  },
+  {
+   "id": "pink-hummus-7302103",
+   "name": "Pink Hummus",
+   "category": "sauce",
+   "siteCategories": [
+    "BEILAGEN & FINGERFOOD / DIPS"
+   ],
+   "valuesPer100g": {},
+   "valuesPerServing": {
+    "calories": 192.0,
+    "energyKJ": 803.0,
+    "fat": 16.9,
+    "saturatedFat": 1.6,
+    "protein": 1.5,
+    "carbs": 8.4,
+    "sugar": 1.8,
+    "saltGrams": 0.8
+   },
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/pink-hummus-7302103/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/pink-hummus-7302103/info",
+   "sha256": "8254dc8f081c181edcb3a447d67d6d6d6eac0ec5c5ae43b3286f4adcca413e0f"
+  },
+  {
+   "id": "red-bull-025-l-7279091",
+   "name": "Red Bull 0.25 l",
+   "category": "drink",
+   "siteCategories": [
+    "SOFTDRINKS"
+   ],
+   "servingGrams": 250,
+   "servingUnit": "ml",
+   "portionMilliliters": 250,
+   "volumeSource": "name",
+   "valuesPer100g": {
+    "energyKJ": 192.4,
+    "calories": 46.0,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "carbs": 11.0,
+    "sugar": 11.0,
+    "protein": 0.0,
+    "saltGrams": 0.0
+   },
+   "valuesPerServing": {
+    "calories": 115.0,
+    "energyKJ": 481.0,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "protein": 0.0,
+    "carbs": 27.5,
+    "sugar": 27.5,
+    "saltGrams": 0.0
+   },
+   "valueNotes": [
+    "per 100 ml derived from the per-portion values and the volume the name states"
+   ],
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/red-bull-025-l-7279091/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/red-bull-025-l-7279091/info",
+   "sha256": "8133fc00b29369fd0a6769b1fb7edfa7e4bd901548232c6c53261d45b07ea7b3"
+  },
+  {
+   "id": "red-bull-sugarfree-025-l-7279118",
+   "name": "Red Bull Sugarfree 0.25 l",
+   "category": "drink",
+   "siteCategories": [
+    "SOFTDRINKS"
+   ],
+   "servingGrams": 250,
+   "servingUnit": "ml",
+   "portionMilliliters": 250,
+   "volumeSource": "name",
+   "valuesPer100g": {
+    "energyKJ": 12.4,
+    "calories": 3.0,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "carbs": 0.0,
+    "sugar": 0.0,
+    "protein": 0.0,
+    "saltGrams": 0.0
+   },
+   "valuesPerServing": {
+    "calories": 7.5,
+    "energyKJ": 31.0,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "protein": 0.0,
+    "carbs": 0.0,
+    "sugar": 0.0,
+    "saltGrams": 0.0
+   },
+   "valueNotes": [
+    "per 100 ml derived from the per-portion values and the volume the name states"
+   ],
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/red-bull-sugarfree-025-l-7279118/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/red-bull-sugarfree-025-l-7279118/info",
+   "sha256": "70569f5030aa2897636cb026662fa96af5e904035ac82f9e256c7330d0bbd063"
+  },
+  {
+   "id": "ringelei-7279253",
+   "name": "Ringelei",
+   "category": "snack",
+   "siteCategories": [
+    "BEILAGEN & FINGERFOOD / FINGERFOOD"
+   ],
+   "valuesPer100g": {},
+   "valuesPerServing": {
+    "calories": 509.9,
+    "energyKJ": 2133.0,
+    "fat": 23.0,
+    "saturatedFat": 2.2,
+    "protein": 7.1,
+    "carbs": 66.4,
+    "sugar": 6.4,
+    "saltGrams": 3.0
+   },
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/ringelei-7279253/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/ringelei-7279253/info",
+   "sha256": "c3d8785ed91913559fd1c921b702ca52934186fa7451f21ea7e1fc3e7cc53831"
+  },
+  {
+   "id": "rohkoestlich-7282805",
+   "name": "Rohköstlich",
+   "category": "salad",
+   "siteCategories": [
+    "SALATE & BOWLS / SALATE"
+   ],
+   "valuesPer100g": {},
+   "valuesPerServing": {
+    "calories": 400.2,
+    "energyKJ": 1675.0,
+    "fat": 25.9,
+    "saturatedFat": 2.7,
+    "protein": 8.5,
+    "carbs": 32.7,
+    "sugar": 12.9,
+    "saltGrams": 2.6
+   },
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/rohkoestlich-7282805/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/rohkoestlich-7282805/info",
+   "sha256": "071b6e5f8244dcd75179bea1bac931cc774a9dd382f8443769c37c2f4a2dbf80"
+  },
+  {
+   "id": "scharfe-chili-mayo-7279310",
+   "name": "Scharfe Chili-Mayo",
+   "category": "sauce",
+   "siteCategories": [
+    "BEILAGEN & FINGERFOOD / DIPS"
+   ],
+   "valuesPer100g": {},
+   "valuesPerServing": {
+    "calories": 247.8,
+    "energyKJ": 1037.0,
+    "fat": 24.5,
+    "saturatedFat": 2.0,
+    "protein": 0.3,
+    "carbs": 6.4,
+    "sugar": 5.1,
+    "saltGrams": 1.2
+   },
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/scharfe-chili-mayo-7279310/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/scharfe-chili-mayo-7279310/info",
+   "sha256": "20cf81a0eeacb166c4f5a918c8fc333d67187c1f1e3f10443368436736533f6e"
+  },
+  {
+   "id": "schlingel-7279649",
+   "name": "Schlingel",
+   "category": "dessert",
+   "siteCategories": [
+    "NACHSPEISEN / NACHSPEISEN"
+   ],
+   "valuesPer100g": {},
+   "valuesPerServing": {
+    "calories": 501.7,
+    "energyKJ": 2099.0,
+    "fat": 19.8,
+    "saturatedFat": 2.3,
+    "protein": 7.1,
+    "carbs": 71.2,
+    "sugar": 28.0,
+    "saltGrams": 1.4
+   },
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/schlingel-7279649/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/schlingel-7279649/info",
+   "sha256": "87a5603eb7ba50a4929aea98fe32e236247429c9a84bba8352d6009edc836e98"
+  },
+  {
+   "id": "seelenheil-7282976",
+   "name": "Seelenheil",
+   "category": "burger",
+   "siteCategories": [
+    "BURGER / BURGER VEGETARISCH"
+   ],
+   "valuesPer100g": {},
+   "valuesPerServing": {
+    "calories": 709.3,
+    "energyKJ": 2968.0,
+    "fat": 36.1,
+    "saturatedFat": 12.6,
+    "protein": 19.6,
+    "carbs": 74.0,
+    "sugar": 13.4,
+    "saltGrams": 3.7
+   },
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/seelenheil-7282976/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/seelenheil-7282976/info",
+   "sha256": "12dd838e43bb8cdb6dd17e81c8a8dd3c9c1b38428729ed26a0b2b9b1e528127d"
+  },
+  {
+   "id": "single-smash-7324466",
+   "name": "Single Smash",
+   "category": "burger",
+   "siteCategories": [
+    "BURGER / SMASH BURGER"
+   ],
+   "valuesPer100g": {},
+   "valuesPerServing": {
+    "calories": 512.2,
+    "energyKJ": 2143.0,
+    "fat": 25.2,
+    "saturatedFat": 9.8,
+    "protein": 23.9,
+    "carbs": 43.0,
+    "sugar": 15.5,
+    "saltGrams": 2.7
+   },
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/single-smash-7324466/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/single-smash-7324466/info",
+   "sha256": "1711edfd760aa85a5ef5cc6cb7e6ff1b1226c458dd8874206cd82a0fa980dcba"
+  },
+  {
+   "id": "smokey-cheddar-fritten-7279265",
+   "name": "Smokey-Cheddar-Fritten",
+   "category": "fries",
+   "siteCategories": [
+    "BEILAGEN & FINGERFOOD / LOADED FRITTEN"
+   ],
+   "valuesPer100g": {},
+   "valuesPerServing": {
+    "calories": 577.6,
+    "energyKJ": 2417.0,
+    "fat": 28.3,
+    "saturatedFat": 6.9,
+    "protein": 12.7,
+    "carbs": 67.5,
+    "sugar": 8.7,
+    "saltGrams": 2.6
+   },
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/smokey-cheddar-fritten-7279265/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/smokey-cheddar-fritten-7279265/info",
+   "sha256": "4df9810b3c20acf7c40bb2be1d28b8d3472810d6f2bcd252641c66bf28fe5ddc"
+  },
+  {
+   "id": "smokey-cheddar-suesskartoffeln-7279268",
+   "name": "Smokey-Cheddar-Süsskartoffeln",
+   "category": "fries",
+   "siteCategories": [
+    "BEILAGEN & FINGERFOOD / LOADED FRITTEN"
+   ],
+   "valuesPer100g": {},
+   "valuesPerServing": {
+    "calories": 535.2,
+    "energyKJ": 2239.0,
+    "fat": 28.6,
+    "saturatedFat": 6.8,
+    "protein": 10.6,
+    "carbs": 54.3,
+    "sugar": 28.5,
+    "saltGrams": 3.0
+   },
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/smokey-cheddar-suesskartoffeln-7279268/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/smokey-cheddar-suesskartoffeln-7279268/info",
+   "sha256": "2864fc299aa2c36561fd770a34f7c92f97a06dcb69945b38271525612de6dfde"
+  },
+  {
+   "id": "smokey-roesti-7324508",
+   "name": "Smokey Rösti",
+   "category": "burger",
+   "siteCategories": [
+    "BURGER / BURGER RINDFLEISCH"
+   ],
+   "valuesPer100g": {},
+   "valuesPerServing": {
+    "calories": 905.5,
+    "energyKJ": 3788.0,
+    "fat": 48.8,
+    "saturatedFat": 16.9,
+    "protein": 45.2,
+    "carbs": 69.0,
+    "sugar": 15.7,
+    "saltGrams": 4.5
+   },
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/smokey-roesti-7324508/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/smokey-roesti-7324508/info",
+   "sha256": "a2ada2c11be409bd2db6bf54c7149e107b467f14fdd3bbd8a77909bdcc483740"
+  },
+  {
+   "id": "snack-bundle-7279319",
+   "name": "Snack Bundle",
+   "category": "fries",
+   "siteCategories": [
+    "BEILAGEN & FINGERFOOD / BEILAGEN"
+   ],
+   "valuesPer100g": {},
+   "valuesPerServing": {
+    "calories": 816.9,
+    "energyKJ": 3418.0,
+    "fat": 40.0,
+    "saturatedFat": 3.5,
+    "protein": 7.7,
+    "carbs": 102.2,
+    "sugar": 21.0,
+    "saltGrams": 1.5
+   },
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/snack-bundle-7279319/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/snack-bundle-7279319/info",
+   "sha256": "cc1863b50ed017c1f21a6605183f05607a04bf3f6e9b6e37c414a54c8c395b18"
+  },
+  {
+   "id": "snack-mix-7279325",
+   "name": "Snack Mix",
+   "category": "fries",
+   "siteCategories": [
+    "BEILAGEN & FINGERFOOD / BEILAGEN"
+   ],
+   "valuesPer100g": {},
+   "valuesPerServing": {
+    "calories": 1328.9,
+    "energyKJ": 5560.0,
+    "fat": 78.7,
+    "saturatedFat": 7.9,
+    "protein": 22.5,
+    "carbs": 125.6,
+    "sugar": 22.7,
+    "saltGrams": 5.6
+   },
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/snack-mix-7279325/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/snack-mix-7279325/info",
+   "sha256": "9f801b3c5dfa7524a81dc9cbfcc399d364cd215ca7390ea8be1cbed4f8b05093"
+  },
+  {
+   "id": "sommerwind-04-l-7672556",
+   "name": "Sommerwind 0,4 l",
+   "category": "drink",
+   "siteCategories": [
+    "APERITIFS & COCKTAILS OHNE ALKOHOL / COCKTAILS  OHNE ALKOHOL"
+   ],
+   "servingGrams": 400,
+   "servingUnit": "ml",
+   "portionMilliliters": 400,
+   "volumeSource": "name",
+   "valuesPer100g": {
+    "energyKJ": 197.0,
+    "calories": 47.12,
+    "fat": 0.2,
+    "saturatedFat": 0.05,
+    "carbs": 10.55,
+    "sugar": 10.55,
+    "protein": 0.35,
+    "saltGrams": 0.0
+   },
+   "valuesPerServing": {
+    "calories": 188.5,
+    "energyKJ": 788.0,
+    "fat": 0.8,
+    "saturatedFat": 0.2,
+    "protein": 1.4,
+    "carbs": 42.2,
+    "sugar": 42.2,
+    "saltGrams": 0.0
+   },
+   "valueNotes": [
+    "per 100 ml derived from the per-portion values and the volume the name states"
+   ],
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/sommerwind-04-l-7672556/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/sommerwind-04-l-7672556/info",
+   "sha256": "31eb1bca42ba3726458a730bf4103e0bf6137e093c7a8af995009dea58b9f4a0"
+  },
+  {
+   "id": "sour-cream-7302100",
+   "name": "Sour Cream",
+   "category": "sauce",
+   "siteCategories": [
+    "BEILAGEN & FINGERFOOD / DIPS"
+   ],
+   "valuesPer100g": {},
+   "valuesPerServing": {
+    "calories": 143.2,
+    "energyKJ": 599.0,
+    "fat": 14.0,
+    "saturatedFat": 8.7,
+    "protein": 1.6,
+    "carbs": 2.6,
+    "sugar": 2.2,
+    "saltGrams": 0.6
+   },
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/sour-cream-7302100/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/sour-cream-7302100/info",
+   "sha256": "1acd1cf771aafc5879cf80874abf346ec2ba7a30966094d166e74a85561b3b71"
+  },
+  {
+   "id": "sprite-033-l-7279109",
+   "name": "Sprite 0,33 l",
+   "category": "drink",
+   "siteCategories": [
+    "SOFTDRINKS"
+   ],
+   "servingGrams": 330,
+   "servingUnit": "ml",
+   "portionMilliliters": 330,
+   "volumeSource": "name",
+   "valuesPer100g": {
+    "energyKJ": 138.18,
+    "calories": 33.0,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "carbs": 8.09,
+    "sugar": 8.09,
+    "protein": 0.0,
+    "saltGrams": 0.0
+   },
+   "valuesPerServing": {
+    "calories": 108.9,
+    "energyKJ": 456.0,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "protein": 0.0,
+    "carbs": 26.7,
+    "sugar": 26.7,
+    "saltGrams": 0.0
+   },
+   "valueNotes": [
+    "per 100 ml derived from the per-portion values and the volume the name states"
+   ],
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/sprite-033-l-7279109/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/sprite-033-l-7279109/info",
+   "sha256": "eda23154f4a728444743f9548ab4d7eedaa655058854e5f1706f4e7b02ff034d"
+  },
+  {
+   "id": "sprudel-mineral-025-l-7279070",
+   "name": "Sprudel Mineral 0,25 l",
+   "category": "drink",
+   "siteCategories": [
+    "SOFTDRINKS"
+   ],
+   "servingGrams": 250,
+   "servingUnit": "ml",
+   "portionMilliliters": 250,
+   "volumeSource": "name",
+   "valuesPer100g": {
+    "energyKJ": 0.0,
+    "calories": 0.0,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "carbs": 0.0,
+    "sugar": 0.0,
+    "protein": 0.0,
+    "saltGrams": 0.0
+   },
+   "valuesPerServing": {
+    "calories": 0.0,
+    "energyKJ": 0.0,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "protein": 0.0,
+    "carbs": 0.0,
+    "sugar": 0.0,
+    "saltGrams": 0.0
+   },
+   "valueNotes": [
+    "per 100 ml derived from the per-portion values and the volume the name states"
+   ],
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/sprudel-mineral-025-l-7279070/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/sprudel-mineral-025-l-7279070/info",
+   "sha256": "69f90a031eec63517390f0204ac8710d6d89fbeb529d54ec642effefecdec042"
+  },
+  {
+   "id": "sticks-dips-17463072",
+   "name": "Sticks & Dips",
+   "category": "fries",
+   "siteCategories": [
+    "BEILAGEN & FINGERFOOD / BEILAGEN"
+   ],
+   "valuesPer100g": {},
+   "valuesPerServing": {
+    "calories": 592.5,
+    "energyKJ": 2479.0,
+    "fat": 45.7,
+    "saturatedFat": 13.6,
+    "protein": 8.4,
+    "carbs": 35.0,
+    "sugar": 6.7,
+    "saltGrams": 2.8
+   },
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/sticks-dips-17463072/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/sticks-dips-17463072/info",
+   "sha256": "47aa96230d5392c21ef9e1414d162a86e975190541494bd0deee68ec98147326"
+  },
+  {
+   "id": "still-mineral-025-l-7279067",
+   "name": "Still Mineral 0,25 l",
+   "category": "drink",
+   "siteCategories": [
+    "SOFTDRINKS"
+   ],
+   "servingGrams": 250,
+   "servingUnit": "ml",
+   "portionMilliliters": 250,
+   "volumeSource": "name",
+   "valuesPer100g": {
+    "energyKJ": 0.0,
+    "calories": 0.0,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "carbs": 0.0,
+    "sugar": 0.0,
+    "protein": 0.0,
+    "saltGrams": 0.0
+   },
+   "valuesPerServing": {
+    "calories": 0.0,
+    "energyKJ": 0.0,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "protein": 0.0,
+    "carbs": 0.0,
+    "sugar": 0.0,
+    "saltGrams": 0.0
+   },
+   "valueNotes": [
+    "per 100 ml derived from the per-portion values and the volume the name states"
+   ],
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/still-mineral-025-l-7279067/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/still-mineral-025-l-7279067/info",
+   "sha256": "b2ad4bdab0004d7f9303c4c16df38d6406e81c339bcb21e9fd02c880e97da6b2"
+  },
+  {
+   "id": "still-mineral-075-l-7279085",
+   "name": "Still Mineral 0,75 l",
+   "category": "drink",
+   "siteCategories": [
+    "SOFTDRINKS"
+   ],
+   "servingGrams": 750,
+   "servingUnit": "ml",
+   "portionMilliliters": 750,
+   "volumeSource": "name",
+   "valuesPer100g": {
+    "energyKJ": 0.0,
+    "calories": 0.0,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "carbs": 0.0,
+    "sugar": 0.0,
+    "protein": 0.0,
+    "saltGrams": 0.0
+   },
+   "valuesPerServing": {
+    "calories": 0.0,
+    "energyKJ": 0.0,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "protein": 0.0,
+    "carbs": 0.0,
+    "sugar": 0.0,
+    "saltGrams": 0.0
+   },
+   "valueNotes": [
+    "per 100 ml derived from the per-portion values and the volume the name states"
+   ],
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/still-mineral-075-l-7279085/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/still-mineral-075-l-7279085/info",
+   "sha256": "8121b3996987a08c14a08f86b318eee49be236a8696834df74cebcbdf1124bfa"
+  },
+  {
+   "id": "stille-limo-brombeer-rosmarin-05-l-7281431",
+   "name": "Stille Limo Brombeer-Rosmarin 0,5 l",
+   "category": "drink",
+   "siteCategories": [
+    "DURSTLÖSCHER / STILLE LIMO"
+   ],
+   "servingGrams": 500,
+   "servingUnit": "ml",
+   "portionMilliliters": 500,
+   "volumeSource": "name",
+   "valuesPer100g": {
+    "energyKJ": 157.2,
+    "calories": 37.6,
+    "fat": 0.04,
+    "saturatedFat": 0.0,
+    "carbs": 8.7,
+    "sugar": 8.58,
+    "protein": 0.06,
+    "saltGrams": 0.0
+   },
+   "valuesPerServing": {
+    "calories": 188.0,
+    "energyKJ": 786.0,
+    "fat": 0.2,
+    "saturatedFat": 0.0,
+    "protein": 0.3,
+    "carbs": 43.5,
+    "sugar": 42.9,
+    "saltGrams": 0.0
+   },
+   "valueNotes": [
+    "per 100 ml derived from the per-portion values and the volume the name states"
+   ],
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/stille-limo-brombeer-rosmarin-05-l-7281431/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/stille-limo-brombeer-rosmarin-05-l-7281431/info",
+   "sha256": "ff7b351965936ab5412b7023257fa5ba2613310e2a09ba92d63b2a1a5d94e189"
+  },
+  {
+   "id": "stille-limo-holunder-ingwer-05-l-7281434",
+   "name": "Stille Limo Holunder-Ingwer 0,5 l",
+   "category": "drink",
+   "siteCategories": [
+    "DURSTLÖSCHER / STILLE LIMO"
+   ],
+   "servingGrams": 500,
+   "servingUnit": "ml",
+   "portionMilliliters": 500,
+   "volumeSource": "name",
+   "valuesPer100g": {
+    "energyKJ": 163.0,
+    "calories": 38.96,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "carbs": 9.22,
+    "sugar": 9.22,
+    "protein": 0.0,
+    "saltGrams": 0.0
+   },
+   "valuesPerServing": {
+    "calories": 194.8,
+    "energyKJ": 815.0,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "protein": 0.0,
+    "carbs": 46.1,
+    "sugar": 46.1,
+    "saltGrams": 0.0
+   },
+   "valueNotes": [
+    "per 100 ml derived from the per-portion values and the volume the name states"
+   ],
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/stille-limo-holunder-ingwer-05-l-7281434/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/stille-limo-holunder-ingwer-05-l-7281434/info",
+   "sha256": "152dcd92cb4ab5e5c160ddbfc979938d335bca1f73a6401a4dd5df74c2cd75b1"
+  },
+  {
+   "id": "stille-limo-matcha-vanille-05-l-7281437",
+   "name": "Stille Limo Matcha-Vanille 0,5 l",
+   "category": "drink",
+   "siteCategories": [
+    "DURSTLÖSCHER / STILLE LIMO"
+   ],
+   "servingGrams": 500,
+   "servingUnit": "ml",
+   "portionMilliliters": 500,
+   "volumeSource": "name",
+   "valuesPer100g": {
+    "energyKJ": 185.4,
+    "calories": 44.3,
+    "fat": 0.02,
+    "saturatedFat": 0.0,
+    "carbs": 10.52,
+    "sugar": 10.34,
+    "protein": 0.1,
+    "saltGrams": 0.0
+   },
+   "valuesPerServing": {
+    "calories": 221.5,
+    "energyKJ": 927.0,
+    "fat": 0.1,
+    "saturatedFat": 0.0,
+    "protein": 0.5,
+    "carbs": 52.6,
+    "sugar": 51.7,
+    "saltGrams": 0.0
+   },
+   "valueNotes": [
+    "per 100 ml derived from the per-portion values and the volume the name states"
+   ],
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/stille-limo-matcha-vanille-05-l-7281437/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/stille-limo-matcha-vanille-05-l-7281437/info",
+   "sha256": "053521f89ac81b1966d6d4ed6e2a1ce80cc8c6eaa87a1a596d36d1f154690c7f"
+  },
+  {
+   "id": "suesskartoffel-fritten-7279229",
+   "name": "Süsskartoffel-Fritten",
+   "category": "fries",
+   "siteCategories": [
+    "BEILAGEN & FINGERFOOD / FINGERFOOD"
+   ],
+   "valuesPer100g": {},
+   "valuesPerServing": {
+    "calories": 387.2,
+    "energyKJ": 1620.0,
+    "fat": 20.1,
+    "saturatedFat": 1.7,
+    "protein": 2.8,
+    "carbs": 44.5,
+    "sugar": 20.4,
+    "saltGrams": 0.9
+   },
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/suesskartoffel-fritten-7279229/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/suesskartoffel-fritten-7279229/info",
+   "sha256": "7bd7d2c2b5a852d3d26cae7840a4780a1ba096265ca87706c683c490c33f46e2"
+  },
+  {
+   "id": "suesskartoffel-fritten-gross-11747956",
+   "name": "Süsskartoffel-Fritten Gross",
+   "category": "fries",
+   "siteCategories": [
+    "BEILAGEN & FINGERFOOD / FINGERFOOD"
+   ],
+   "valuesPer100g": {},
+   "valuesPerServing": {
+    "calories": 1144.0,
+    "energyKJ": 4786.0,
+    "fat": 59.5,
+    "saturatedFat": 5.0,
+    "protein": 8.3,
+    "carbs": 131.5,
+    "sugar": 60.3,
+    "saltGrams": 2.7
+   },
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/suesskartoffel-fritten-gross-11747956/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/suesskartoffel-fritten-gross-11747956/info",
+   "sha256": "6053d584e44b2e5007940b5e2278ed3dc44ccbc82303c725f7aea35f644d19d5"
+  },
+  {
+   "id": "tafelwasser-sprudel-05-l-7279076",
+   "name": "Tafelwasser Sprudel 0,5 l",
+   "category": "drink",
+   "siteCategories": [
+    "SOFTDRINKS"
+   ],
+   "servingGrams": 500,
+   "servingUnit": "ml",
+   "portionMilliliters": 500,
+   "volumeSource": "name",
+   "valuesPer100g": {
+    "energyKJ": 0.0,
+    "calories": 0.0,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "carbs": 0.0,
+    "sugar": 0.0,
+    "protein": 0.0,
+    "saltGrams": 0.0
+   },
+   "valuesPerServing": {
+    "calories": 0.0,
+    "energyKJ": 0.0,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "protein": 0.0,
+    "carbs": 0.0,
+    "sugar": 0.0,
+    "saltGrams": 0.0
+   },
+   "valueNotes": [
+    "per 100 ml derived from the per-portion values and the volume the name states"
+   ],
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/tafelwasser-sprudel-05-l-7279076/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/tafelwasser-sprudel-05-l-7279076/info",
+   "sha256": "08998ce25352f935a4d023dff2615dfed7bb3c90d8a265cec4f3b967a7a97cde"
+  },
+  {
+   "id": "tafelwasser-sprudel-1-l-7279079",
+   "name": "Tafelwasser Sprudel 1 l",
+   "category": "drink",
+   "siteCategories": [
+    "SOFTDRINKS"
+   ],
+   "servingGrams": 1000,
+   "servingUnit": "ml",
+   "portionMilliliters": 1000,
+   "volumeSource": "name",
+   "valuesPer100g": {
+    "energyKJ": 0.2,
+    "calories": 0.04,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "carbs": 0.0,
+    "sugar": 0.0,
+    "protein": 0.0,
+    "saltGrams": 0.0
+   },
+   "valuesPerServing": {
+    "calories": 0.4,
+    "energyKJ": 2.0,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "protein": 0.0,
+    "carbs": 0.0,
+    "sugar": 0.0,
+    "saltGrams": 0.0
+   },
+   "valueNotes": [
+    "per 100 ml derived from the per-portion values and the volume the name states"
+   ],
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/tafelwasser-sprudel-1-l-7279079/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/tafelwasser-sprudel-1-l-7279079/info",
+   "sha256": "9ca2bc9fe8dbd53be5d54c76aab17a08b7f1938337e7f21a80d2a8d829fdf737"
+  },
+  {
+   "id": "tafelwasser-still-05-l-7279073",
+   "name": "Tafelwasser Still 0,5 l",
+   "category": "drink",
+   "siteCategories": [
+    "SOFTDRINKS"
+   ],
+   "servingGrams": 500,
+   "servingUnit": "ml",
+   "portionMilliliters": 500,
+   "volumeSource": "name",
+   "valuesPer100g": {
+    "energyKJ": 0.0,
+    "calories": 0.0,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "carbs": 0.0,
+    "sugar": 0.0,
+    "protein": 0.0,
+    "saltGrams": 0.0
+   },
+   "valuesPerServing": {
+    "calories": 0.0,
+    "energyKJ": 0.0,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "protein": 0.0,
+    "carbs": 0.0,
+    "sugar": 0.0,
+    "saltGrams": 0.0
+   },
+   "valueNotes": [
+    "per 100 ml derived from the per-portion values and the volume the name states"
+   ],
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/tafelwasser-still-05-l-7279073/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/tafelwasser-still-05-l-7279073/info",
+   "sha256": "3443272e6476f7f8fbbab78e3d5dc2ef256bb31f4f780c4819a95ebe2a6924d1"
+  },
+  {
+   "id": "tafelwasser-still-1-l-7279082",
+   "name": "Tafelwasser Still 1 l",
+   "category": "drink",
+   "siteCategories": [
+    "SOFTDRINKS"
+   ],
+   "servingGrams": 1000,
+   "servingUnit": "ml",
+   "portionMilliliters": 1000,
+   "volumeSource": "name",
+   "valuesPer100g": {
+    "energyKJ": 0.2,
+    "calories": 0.04,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "carbs": 0.0,
+    "sugar": 0.0,
+    "protein": 0.0,
+    "saltGrams": 0.0
+   },
+   "valuesPerServing": {
+    "calories": 0.4,
+    "energyKJ": 2.0,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "protein": 0.0,
+    "carbs": 0.0,
+    "sugar": 0.0,
+    "saltGrams": 0.0
+   },
+   "valueNotes": [
+    "per 100 ml derived from the per-portion values and the volume the name states"
+   ],
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/tafelwasser-still-1-l-7279082/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/tafelwasser-still-1-l-7279082/info",
+   "sha256": "3660df585951d8a60e9ea476c769321330d1c31a38ba55be1d8108a77c67ed23"
+  },
+  {
+   "id": "toskana-7282808",
+   "name": "Toskana",
+   "category": "salad",
+   "siteCategories": [
+    "SALATE & BOWLS / SALATE"
+   ],
+   "valuesPer100g": {},
+   "valuesPerServing": {
+    "calories": 609.4,
+    "energyKJ": 2550.0,
+    "fat": 34.2,
+    "saturatedFat": 8.4,
+    "protein": 22.6,
+    "carbs": 54.5,
+    "sugar": 14.1,
+    "saltGrams": 4.5
+   },
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/toskana-7282808/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/toskana-7282808/info",
+   "sha256": "6972bc33ff1a1ea1f7ddd04968047aec2e3ef86b8c550207bfecb9eb50a083e2"
+  },
+  {
+   "id": "triple-smash-7324472",
+   "name": "Triple Smash",
+   "category": "burger",
+   "siteCategories": [
+    "BURGER / SMASH BURGER"
+   ],
+   "valuesPer100g": {},
+   "valuesPerServing": {
+    "calories": 1056.9,
+    "energyKJ": 4422.0,
+    "fat": 66.5,
+    "saturatedFat": 27.4,
+    "protein": 56.2,
+    "carbs": 54.1,
+    "sugar": 13.5,
+    "saltGrams": 5.1
+   },
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/triple-smash-7324472/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/triple-smash-7324472/info",
+   "sha256": "33a3c6b411bac1f01d74a0986af6262c82794007bb841535d041ecbb54c8c9a6"
+  },
+  {
+   "id": "trueffel-fritten-7279274",
+   "name": "Trüffel Fritten",
+   "category": "fries",
+   "siteCategories": [
+    "BEILAGEN & FINGERFOOD / LOADED FRITTEN"
+   ],
+   "valuesPer100g": {},
+   "valuesPerServing": {
+    "calories": 619.2,
+    "energyKJ": 2591.0,
+    "fat": 38.0,
+    "saturatedFat": 3.7,
+    "protein": 7.4,
+    "carbs": 60.7,
+    "sugar": 2.7,
+    "saltGrams": 1.9
+   },
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/trueffel-fritten-7279274/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/trueffel-fritten-7279274/info",
+   "sha256": "375b2399eab48d82a89fcdb22481006bea5c0f2f0d52be7c5cd40a249e19388e"
+  },
+  {
+   "id": "trueffel-mayo-7279316",
+   "name": "Trüffel-Mayo",
+   "category": "sauce",
+   "siteCategories": [
+    "BEILAGEN & FINGERFOOD / DIPS"
+   ],
+   "valuesPer100g": {},
+   "valuesPerServing": {
+    "calories": 240.0,
+    "energyKJ": 1004.0,
+    "fat": 24.7,
+    "saturatedFat": 2.1,
+    "protein": 0.2,
+    "carbs": 4.1,
+    "sugar": 2.6,
+    "saltGrams": 1.7
+   },
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/trueffel-mayo-7279316/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/trueffel-mayo-7279316/info",
+   "sha256": "bd073f770487c6cfb6a4f2fd839c751cd718737f4b7af29e3dfc0975d5a7f024"
+  },
+  {
+   "id": "trueffel-suesskartoffeln-7279283",
+   "name": "Trüffel-Süsskartoffeln",
+   "category": "fries",
+   "siteCategories": [
+    "BEILAGEN & FINGERFOOD / LOADED FRITTEN"
+   ],
+   "valuesPer100g": {},
+   "valuesPerServing": {
+    "calories": 574.5,
+    "energyKJ": 2404.0,
+    "fat": 38.1,
+    "saturatedFat": 3.5,
+    "protein": 5.2,
+    "carbs": 47.2,
+    "sugar": 22.4,
+    "saltGrams": 2.2
+   },
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/trueffel-suesskartoffeln-7279283/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/trueffel-suesskartoffeln-7279283/info",
+   "sha256": "b43911f33a74bdab6285504109fc9df7e7dd46b22f38afe660d9ec50ab28221b"
+  },
+  {
+   "id": "vegane-nuggets-7279244",
+   "name": "Vegane Nuggets",
+   "category": "chicken",
+   "siteCategories": [
+    "BEILAGEN & FINGERFOOD / FINGERFOOD",
+    "KINDERKARTE"
+   ],
+   "valuesPer100g": {},
+   "valuesPerServing": {
+    "calories": 404.8,
+    "energyKJ": 1694.0,
+    "fat": 22.0,
+    "saturatedFat": 1.6,
+    "protein": 25.2,
+    "carbs": 22.4,
+    "sugar": 1.5,
+    "saltGrams": 2.2
+   },
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/vegane-nuggets-7279244/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/vegane-nuggets-7279244/info",
+   "sha256": "a9dd82f5c9c54f7e3afd294d835c95dfc632efd37427d25cbdf5a3a2f4eccc14"
+  },
+  {
+   "id": "virgin-brombeere-04-l-7672523",
+   "name": "Virgin Brombeere 0,4 l",
+   "category": "drink",
+   "siteCategories": [
+    "APERITIFS & COCKTAILS OHNE ALKOHOL / COCKTAILS  OHNE ALKOHOL"
+   ],
+   "servingGrams": 400,
+   "servingUnit": "ml",
+   "portionMilliliters": 400,
+   "volumeSource": "name",
+   "valuesPer100g": {
+    "energyKJ": 135.75,
+    "calories": 32.42,
+    "fat": 0.35,
+    "saturatedFat": 0.05,
+    "carbs": 5.8,
+    "sugar": 5.62,
+    "protein": 0.15,
+    "saltGrams": 0.0
+   },
+   "valuesPerServing": {
+    "calories": 129.7,
+    "energyKJ": 543.0,
+    "fat": 1.4,
+    "saturatedFat": 0.2,
+    "protein": 0.6,
+    "carbs": 23.2,
+    "sugar": 22.5,
+    "saltGrams": 0.0
+   },
+   "valueNotes": [
+    "per 100 ml derived from the per-portion values and the volume the name states"
+   ],
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/virgin-brombeere-04-l-7672523/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/virgin-brombeere-04-l-7672523/info",
+   "sha256": "d0bfc17430c83721bb5c88830780ec93478725a5c376bcd4c7125021d5bdf485"
+  },
+  {
+   "id": "virgin-fizz-03-l-7672559",
+   "name": "Virgin Fizz 0,3 l",
+   "category": "drink",
+   "siteCategories": [
+    "APERITIFS & COCKTAILS OHNE ALKOHOL / ALKOHOLFREIE CLASSICS"
+   ],
+   "servingGrams": 300,
+   "servingUnit": "ml",
+   "portionMilliliters": 300,
+   "volumeSource": "name",
+   "valuesPer100g": {
+    "energyKJ": 119.67,
+    "calories": 28.63,
+    "fat": 0.03,
+    "saturatedFat": 0.0,
+    "carbs": 6.1,
+    "sugar": 6.1,
+    "protein": 0.07,
+    "saltGrams": 0.0
+   },
+   "valuesPerServing": {
+    "calories": 85.9,
+    "energyKJ": 359.0,
+    "fat": 0.1,
+    "saturatedFat": 0.0,
+    "protein": 0.2,
+    "carbs": 18.3,
+    "sugar": 18.3,
+    "saltGrams": 0.0
+   },
+   "valueNotes": [
+    "per 100 ml derived from the per-portion values and the volume the name states"
+   ],
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/virgin-fizz-03-l-7672559/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/virgin-fizz-03-l-7672559/info",
+   "sha256": "e7592fcf5ee2dc2a1a51765cb4b129f07ce25cdfe923196a6053cfd6e53342db"
+  },
+  {
+   "id": "virgin-gruenschnabel-04-l-7672535",
+   "name": "Virgin Grünschnabel 0,4 l",
+   "category": "drink",
+   "siteCategories": [
+    "APERITIFS & COCKTAILS OHNE ALKOHOL / COCKTAILS  OHNE ALKOHOL"
+   ],
+   "servingGrams": 400,
+   "servingUnit": "ml",
+   "portionMilliliters": 400,
+   "volumeSource": "name",
+   "valuesPer100g": {
+    "energyKJ": 98.75,
+    "calories": 23.6,
+    "fat": 0.12,
+    "saturatedFat": 0.03,
+    "carbs": 4.65,
+    "sugar": 4.28,
+    "protein": 0.3,
+    "saltGrams": 0.03
+   },
+   "valuesPerServing": {
+    "calories": 94.4,
+    "energyKJ": 395.0,
+    "fat": 0.5,
+    "saturatedFat": 0.1,
+    "protein": 1.2,
+    "carbs": 18.6,
+    "sugar": 17.1,
+    "saltGrams": 0.1
+   },
+   "valueNotes": [
+    "per 100 ml derived from the per-portion values and the volume the name states"
+   ],
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/virgin-gruenschnabel-04-l-7672535/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/virgin-gruenschnabel-04-l-7672535/info",
+   "sha256": "cc998cefc0604513d8d676ebb0e353138ead84d6d1a1deb5d72f4b9a2d54078f"
+  },
+  {
+   "id": "virgin-hugo-03-l-7672454",
+   "name": "Virgin Hugo 0,3 l",
+   "category": "drink",
+   "siteCategories": [
+    "APERITIFS & COCKTAILS OHNE ALKOHOL / APERITIFS OHNE ALKOHOL"
+   ],
+   "servingGrams": 300,
+   "servingUnit": "ml",
+   "portionMilliliters": 300,
+   "volumeSource": "name",
+   "valuesPer100g": {
+    "energyKJ": 148.33,
+    "calories": 35.43,
+    "fat": 0.1,
+    "saturatedFat": 0.0,
+    "carbs": 8.1,
+    "sugar": 8.1,
+    "protein": 0.03,
+    "saltGrams": 0.0
+   },
+   "valuesPerServing": {
+    "calories": 106.3,
+    "energyKJ": 445.0,
+    "fat": 0.3,
+    "saturatedFat": 0.0,
+    "protein": 0.1,
+    "carbs": 24.3,
+    "sugar": 24.3,
+    "saltGrams": 0.0
+   },
+   "valueNotes": [
+    "per 100 ml derived from the per-portion values and the volume the name states"
+   ],
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/virgin-hugo-03-l-7672454/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/virgin-hugo-03-l-7672454/info",
+   "sha256": "47658db53cd18f75cb55263b9008032648e54c302c87e62acdbd6e1f051ba6ca"
+  },
+  {
+   "id": "virgin-libre-03-l-7672562",
+   "name": "Virgin Libre 0,3 l",
+   "category": "drink",
+   "siteCategories": [
+    "APERITIFS & COCKTAILS OHNE ALKOHOL / ALKOHOLFREIE CLASSICS"
+   ],
+   "servingGrams": 300,
+   "servingUnit": "ml",
+   "portionMilliliters": 300,
+   "volumeSource": "name",
+   "valuesPer100g": {
+    "energyKJ": 110.0,
+    "calories": 26.27,
+    "fat": 0.17,
+    "saturatedFat": 0.03,
+    "carbs": 5.8,
+    "sugar": 5.8,
+    "protein": 0.03,
+    "saltGrams": 0.0
+   },
+   "valuesPerServing": {
+    "calories": 78.8,
+    "energyKJ": 330.0,
+    "fat": 0.5,
+    "saturatedFat": 0.1,
+    "protein": 0.1,
+    "carbs": 17.4,
+    "sugar": 17.4,
+    "saltGrams": 0.0
+   },
+   "valueNotes": [
+    "per 100 ml derived from the per-portion values and the volume the name states"
+   ],
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/virgin-libre-03-l-7672562/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/virgin-libre-03-l-7672562/info",
+   "sha256": "417832505f5642f9345f1de4f69b82478f05075b0586a34b8162cd11b42e16d2"
+  },
+  {
+   "id": "virgin-stormy-03-l-7672565",
+   "name": "Virgin Stormy 0,3 l",
+   "category": "drink",
+   "siteCategories": [
+    "APERITIFS & COCKTAILS OHNE ALKOHOL / ALKOHOLFREIE CLASSICS"
+   ],
+   "servingGrams": 300,
+   "servingUnit": "ml",
+   "portionMilliliters": 300,
+   "volumeSource": "name",
+   "valuesPer100g": {
+    "energyKJ": 147.67,
+    "calories": 35.33,
+    "fat": 0.17,
+    "saturatedFat": 0.03,
+    "carbs": 7.6,
+    "sugar": 7.6,
+    "protein": 0.03,
+    "saltGrams": 0.0
+   },
+   "valuesPerServing": {
+    "calories": 106.0,
+    "energyKJ": 443.0,
+    "fat": 0.5,
+    "saturatedFat": 0.1,
+    "protein": 0.1,
+    "carbs": 22.8,
+    "sugar": 22.8,
+    "saltGrams": 0.0
+   },
+   "valueNotes": [
+    "per 100 ml derived from the per-portion values and the volume the name states"
+   ],
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/virgin-stormy-03-l-7672565/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/virgin-stormy-03-l-7672565/info",
+   "sha256": "fafa1698ba1a68d8a1073c0d8bb744e6606defcab2235cac29381a283072c4dd"
+  },
+  {
+   "id": "virgin-wild-berry-03-l-7672448",
+   "name": "Virgin Wild Berry 0,3 l",
+   "category": "drink",
+   "siteCategories": [
+    "APERITIFS & COCKTAILS OHNE ALKOHOL / APERITIFS OHNE ALKOHOL"
+   ],
+   "servingGrams": 300,
+   "servingUnit": "ml",
+   "portionMilliliters": 300,
+   "volumeSource": "name",
+   "valuesPer100g": {
+    "energyKJ": 183.33,
+    "calories": 43.83,
+    "fat": 0.13,
+    "saturatedFat": 0.0,
+    "carbs": 9.83,
+    "sugar": 9.67,
+    "protein": 0.2,
+    "saltGrams": 0.0
+   },
+   "valuesPerServing": {
+    "calories": 131.5,
+    "energyKJ": 550.0,
+    "fat": 0.4,
+    "saturatedFat": 0.0,
+    "protein": 0.6,
+    "carbs": 29.5,
+    "sugar": 29.0,
+    "saltGrams": 0.0
+   },
+   "valueNotes": [
+    "per 100 ml derived from the per-portion values and the volume the name states"
+   ],
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/virgin-wild-berry-03-l-7672448/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/virgin-wild-berry-03-l-7672448/info",
+   "sha256": "74737f7a58be7e268a33aa8ef5b048359ba7edfec8966f0ec4b3fd1ad1e5a1cb"
+  },
+  {
+   "id": "vogelfrei-7282811",
+   "name": "Vogelfrei",
+   "category": "salad",
+   "siteCategories": [
+    "SALATE & BOWLS / SALATE"
+   ],
+   "valuesPer100g": {},
+   "valuesPerServing": {
+    "calories": 1057.3,
+    "energyKJ": 4424.0,
+    "fat": 64.9,
+    "saturatedFat": 9.7,
+    "protein": 41.8,
+    "carbs": 65.8,
+    "sugar": 17.6,
+    "saltGrams": 6.3
+   },
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/vogelfrei-7282811/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/vogelfrei-7282811/info",
+   "sha256": "2064c6e4de5e8a6c862ce32116cf2f5b7f5b0519f5bd45fbe3157e23495ff97d"
+  },
+  {
+   "id": "vollmundig-7324511",
+   "name": "Vollmundig",
+   "category": "burger",
+   "siteCategories": [
+    "BURGER / BURGER RINDFLEISCH"
+   ],
+   "valuesPer100g": {},
+   "valuesPerServing": {
+    "calories": 830.3,
+    "energyKJ": 3474.0,
+    "fat": 47.3,
+    "saturatedFat": 15.2,
+    "protein": 44.1,
+    "carbs": 54.2,
+    "sugar": 13.1,
+    "saltGrams": 4.2
+   },
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/vollmundig-7324511/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/vollmundig-7324511/info",
+   "sha256": "6b03723747015e91cf4136566e80f5763dfeca5c70e54df679319a0ea27c8aa5"
+  },
+  {
+   "id": "waldfruechte-basilikum-froozy-7324544",
+   "name": "Waldfrüchte-Basilikum Froozy",
+   "category": "dessert",
+   "siteCategories": [
+    "NACHSPEISEN / FROOZYS"
+   ],
+   "valuesPer100g": {},
+   "valuesPerServing": {
+    "calories": 192.1,
+    "energyKJ": 804.0,
+    "fat": 0.1,
+    "saturatedFat": 0.0,
+    "protein": 0.3,
+    "carbs": 45.4,
+    "sugar": 45.4,
+    "saltGrams": 0.1
+   },
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/waldfruechte-basilikum-froozy-7324544/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/waldfruechte-basilikum-froozy-7324544/info",
+   "sha256": "6d4ee3fac4ca428048dbfe341f2c02bd57a04733f22887d657856cb301f73adc"
+  },
+  {
+   "id": "waldfruechte-joghurt-froozy-7324541",
+   "name": "Waldfrüchte-Joghurt Froozy",
+   "category": "dessert",
+   "siteCategories": [
+    "NACHSPEISEN / FROOZYS"
+   ],
+   "valuesPer100g": {},
+   "valuesPerServing": {
+    "calories": 295.1,
+    "energyKJ": 1235.0,
+    "fat": 1.1,
+    "saturatedFat": 0.8,
+    "protein": 4.6,
+    "carbs": 63.9,
+    "sugar": 61.7,
+    "saltGrams": 0.3
+   },
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/waldfruechte-joghurt-froozy-7324541/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/waldfruechte-joghurt-froozy-7324541/info",
+   "sha256": "68f47e214306b4760134edd348d3aa9da73d2f3c59ee30dab1ac87e9e6765fbc"
+  },
+  {
+   "id": "weltenbummler-7282997",
+   "name": "Weltenbummler",
+   "category": "burger",
+   "siteCategories": [
+    "BURGER / BURGER VEGAN"
+   ],
+   "valuesPer100g": {},
+   "valuesPerServing": {
+    "calories": 732.6,
+    "energyKJ": 3065.0,
+    "fat": 37.5,
+    "saturatedFat": 7.2,
+    "protein": 17.8,
+    "carbs": 74.4,
+    "sugar": 12.1,
+    "saltGrams": 4.1
+   },
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/weltenbummler-7282997/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/weltenbummler-7282997/info",
+   "sha256": "0c0d017792752f2c1fcd5c1a6f7c64fbad817328bfb3b37b0f86cea6cb5f50e6"
+  },
+  {
+   "id": "wilder-westen-7324514",
+   "name": "Wilder Westen",
+   "category": "burger",
+   "siteCategories": [
+    "BURGER / BURGER RINDFLEISCH"
+   ],
+   "valuesPer100g": {},
+   "valuesPerServing": {
+    "calories": 931.6,
+    "energyKJ": 3898.0,
+    "fat": 49.3,
+    "saturatedFat": 17.0,
+    "protein": 43.7,
+    "carbs": 75.7,
+    "sugar": 20.6,
+    "saltGrams": 4.7
+   },
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/wilder-westen-7324514/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/wilder-westen-7324514/info",
+   "sha256": "7e069fc88e6e64dc62aa1d242d63b6045cd7810d9a7db31a19df00f074870164"
+  },
+  {
+   "id": "wohltat-7282814",
+   "name": "Wohltat",
+   "category": "salad",
+   "siteCategories": [
+    "SALATE & BOWLS / SALATE"
+   ],
+   "valuesPer100g": {},
+   "valuesPerServing": {
+    "calories": 565.5,
+    "energyKJ": 2366.0,
+    "fat": 37.6,
+    "saturatedFat": 4.0,
+    "protein": 13.5,
+    "carbs": 39.5,
+    "sugar": 18.4,
+    "saltGrams": 4.0
+   },
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/wohltat-7282814/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/wohltat-7282814/info",
+   "sha256": "e4a4c038fc59df919defed1a56cfe82c40c6062c78537e5ebdaec6ad297ac2ab"
+  },
+  {
+   "id": "wolpertinger-7282994",
+   "name": "Wolpertinger",
+   "category": "burger",
+   "siteCategories": [
+    "BURGER / BURGER VEGAN"
+   ],
+   "valuesPer100g": {},
+   "valuesPerServing": {
+    "calories": 815.1,
+    "energyKJ": 3410.0,
+    "fat": 38.2,
+    "saturatedFat": 10.6,
+    "protein": 14.1,
+    "carbs": 98.1,
+    "sugar": 11.6,
+    "saltGrams": 4.9
+   },
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/wolpertinger-7282994/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/wolpertinger-7282994/info",
+   "sha256": "c5035ecf668ffd5a1d78331c04ed57c2d81806d714c2169118f6e4adc8f00e0b"
+  },
+  {
+   "id": "zeitgeist-7283000",
+   "name": "Zeitgeist",
+   "category": "burger",
+   "siteCategories": [
+    "BURGER / BURGER VEGAN"
+   ],
+   "valuesPer100g": {},
+   "valuesPerServing": {
+    "calories": 830.2,
+    "energyKJ": 3474.0,
+    "fat": 49.1,
+    "saturatedFat": 8.1,
+    "protein": 23.4,
+    "carbs": 68.1,
+    "sugar": 10.2,
+    "saltGrams": 4.7
+   },
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/zeitgeist-7283000/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/zeitgeist-7283000/info",
+   "sha256": "d9725545107c97a01d9e7fc6c8926aee55b4269ec40ab29c76c1658cb3739bed"
+  },
+  {
+   "id": "ziegenhirte-7324532",
+   "name": "Ziegenhirte",
+   "category": "burger",
+   "siteCategories": [
+    "BURGER / BURGER HÄHNCHENBRUSTFILET"
+   ],
+   "valuesPer100g": {},
+   "valuesPerServing": {
+    "calories": 692.5,
+    "energyKJ": 2897.0,
+    "fat": 27.9,
+    "saturatedFat": 8.9,
+    "protein": 46.9,
+    "carbs": 61.9,
+    "sugar": 20.9,
+    "saltGrams": 3.5
+   },
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/ziegenhirte-7324532/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/ziegenhirte-7324532/info",
+   "sha256": "19f316c4a3482d6dde95aedc2096571c7d1de39bd106a4457fcbafb30cb91acd"
+  },
+  {
+   "id": "ziegenmaid-7282817",
+   "name": "Ziegenmaid",
+   "category": "salad",
+   "siteCategories": [
+    "SALATE & BOWLS / SALATE"
+   ],
+   "valuesPer100g": {},
+   "valuesPerServing": {
+    "calories": 707.8,
+    "energyKJ": 2962.0,
+    "fat": 50.1,
+    "saturatedFat": 13.2,
+    "protein": 19.5,
+    "carbs": 42.3,
+    "sugar": 21.7,
+    "saltGrams": 3.2
+   },
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/ziegenmaid-7282817/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/ziegenmaid-7282817/info",
+   "sha256": "5b68abc435ceff7fc46444bfd3f95d028c84fee05aac1797cf94fc00344e3bba"
+  },
+  {
+   "id": "zwergenlimo-03-l-7279682",
+   "name": "Zwergenlimo 0,3 l",
+   "category": "drink",
+   "siteCategories": [
+    "KINDERKARTE"
+   ],
+   "servingGrams": 300,
+   "servingUnit": "ml",
+   "portionMilliliters": 300,
+   "volumeSource": "name",
+   "valuesPer100g": {
+    "energyKJ": 117.0,
+    "calories": 28.0,
+    "fat": 0.1,
+    "saturatedFat": 0.0,
+    "carbs": 6.97,
+    "sugar": 6.93,
+    "protein": 0.17,
+    "saltGrams": 0.0
+   },
+   "valuesPerServing": {
+    "calories": 84.0,
+    "energyKJ": 351.0,
+    "fat": 0.3,
+    "saturatedFat": 0.0,
+    "protein": 0.5,
+    "carbs": 20.9,
+    "sugar": 20.8,
+    "saltGrams": 0.0
+   },
+   "valueNotes": [
+    "per 100 ml derived from the per-portion values and the volume the name states"
+   ],
+   "pageURL": "https://menu.hansimglueck-burgergrill.de/details/zwergenlimo-03-l-7279682/info",
+   "dataURL": "https://menu.hansimglueck-burgergrill.de/details/zwergenlimo-03-l-7279682/info",
+   "sha256": "958e9fd3de7b8034b575d88c95f5ab86bf3574c7080738befe002433ccc3a509"
+  }
+ ],
+ "excluded": [
+  {
+   "id": "aperol-sour-01-l-7324940",
+   "name": "Aperol Sour 0,1 l",
+   "section": "APERITIFS & COCKTAILS MIT ALKOHOL / CLASSICS",
+   "reason": "an alcoholic drink; the chain catalogue carries non-alcoholic items only"
+  },
+  {
+   "id": "aperol-spritz-03-l-7279691",
+   "name": "Aperol Spritz 0,3 l",
+   "section": "APERITIFS & COCKTAILS MIT ALKOHOL / APERITIFS",
+   "reason": "an alcoholic drink; the chain catalogue carries non-alcoholic items only"
+  },
+  {
+   "id": "berry-white-04-l-7324946",
+   "name": "Berry White 0,4 l",
+   "section": "APERITIFS & COCKTAILS MIT ALKOHOL / COCKTAILS",
+   "reason": "an alcoholic drink; the chain catalogue carries non-alcoholic items only"
+  },
+  {
+   "id": "brombeere-04-l-7324943",
+   "name": "Brombeere 0,4 l",
+   "section": "APERITIFS & COCKTAILS MIT ALKOHOL / COCKTAILS",
+   "reason": "an alcoholic drink; the chain catalogue carries non-alcoholic items only"
+  },
+  {
+   "id": "caipirinha-04-l-7324949",
+   "name": "Caipirinha 0,4 l",
+   "section": "APERITIFS & COCKTAILS MIT ALKOHOL / CLASSICS",
+   "reason": "an alcoholic drink; the chain catalogue carries non-alcoholic items only"
+  },
+  {
+   "id": "cuba-libre-03-l-13446458",
+   "name": "Cuba Libre 0,3 l",
+   "section": "APERITIFS & COCKTAILS MIT ALKOHOL / CLASSICS",
+   "reason": "an alcoholic drink; the chain catalogue carries non-alcoholic items only"
+  },
+  {
+   "id": "drachenflieger-04-l-7324952",
+   "name": "Drachenflieger 0,4 l",
+   "section": "APERITIFS & COCKTAILS MIT ALKOHOL / COCKTAILS",
+   "reason": "an alcoholic drink; the chain catalogue carries non-alcoholic items only"
+  },
+  {
+   "id": "engelstrompete-04-l-7324955",
+   "name": "Engelstrompete 0,4 l",
+   "section": "APERITIFS & COCKTAILS MIT ALKOHOL / COCKTAILS",
+   "reason": "an alcoholic drink; the chain catalogue carries non-alcoholic items only"
+  },
+  {
+   "id": "espresso-martini-01-l-7324958",
+   "name": "Espresso Martini 0,1 l",
+   "section": "APERITIFS & COCKTAILS MIT ALKOHOL / CLASSICS",
+   "reason": "an alcoholic drink; the chain catalogue carries non-alcoholic items only"
+  },
+  {
+   "id": "frozen-daiquiri-02-l-7324961",
+   "name": "Frozen Daiquiri 0,2 l",
+   "section": "APERITIFS & COCKTAILS MIT ALKOHOL / CLASSICS",
+   "reason": "an alcoholic drink; the chain catalogue carries non-alcoholic items only"
+  },
+  {
+   "id": "gin-tonic-03-l-13446455",
+   "name": "Gin Tonic 0,3 l",
+   "section": "APERITIFS & COCKTAILS MIT ALKOHOL / CLASSICS",
+   "reason": "an alcoholic drink; the chain catalogue carries non-alcoholic items only"
+  },
+  {
+   "id": "glitter-spritz-15702029",
+   "name": "Glitter Spritz",
+   "section": "APERITIFS & COCKTAILS MIT ALKOHOL / APERITIFS",
+   "reason": "an alcoholic drink; the chain catalogue carries non-alcoholic items only"
+  },
+  {
+   "id": "gluecksbringer-04-l-7324964",
+   "name": "Glücksbringer 0,4 l",
+   "section": "APERITIFS & COCKTAILS MIT ALKOHOL / COCKTAILS",
+   "reason": "an alcoholic drink; the chain catalogue carries non-alcoholic items only"
+  },
+  {
+   "id": "goldregen-04-l-7324967",
+   "name": "Goldregen 0,4 l",
+   "section": "APERITIFS & COCKTAILS MIT ALKOHOL / COCKTAILS",
+   "reason": "an alcoholic drink; the chain catalogue carries non-alcoholic items only"
+  },
+  {
+   "id": "goldstueckchen-04-l-7324973",
+   "name": "Goldstückchen 0,4 l",
+   "section": "APERITIFS & COCKTAILS MIT ALKOHOL / COCKTAILS",
+   "reason": "an alcoholic drink; the chain catalogue carries non-alcoholic items only"
+  },
+  {
+   "id": "grazie-pistazie-mit-heissgetraenk-15947559",
+   "name": "Grazie Pistazie mit Heissgetränk",
+   "section": "NACHSPEISEN / NACHSPEISEN",
+   "reason": "a combination of items the menu lists on their own (a dessert with a hot drink, or the kids' menu)"
+  },
+  {
+   "id": "gruenschnabel-04-l-7324970",
+   "name": "Grünschnabel 0,4 l",
+   "section": "APERITIFS & COCKTAILS MIT ALKOHOL / COCKTAILS",
+   "reason": "an alcoholic drink; the chain catalogue carries non-alcoholic items only"
+  },
+  {
+   "id": "hans-mule-04-l-7324979",
+   "name": "Hans Mule 0,4 l",
+   "section": "APERITIFS & COCKTAILS MIT ALKOHOL / COCKTAILS",
+   "reason": "an alcoholic drink; the chain catalogue carries non-alcoholic items only"
+  },
+  {
+   "id": "himbeergold-04-l-7324976",
+   "name": "Himbeergold 0,4 l",
+   "section": "APERITIFS & COCKTAILS MIT ALKOHOL / COCKTAILS",
+   "reason": "an alcoholic drink; the chain catalogue carries non-alcoholic items only"
+  },
+  {
+   "id": "lillet-wild-berry-03-l-7279697",
+   "name": "Lillet Wild Berry 0,3 l",
+   "section": "APERITIFS & COCKTAILS MIT ALKOHOL / APERITIFS",
+   "reason": "an alcoholic drink; the chain catalogue carries non-alcoholic items only"
+  },
+  {
+   "id": "limoncello-spritz-03-l-7279694",
+   "name": "Limoncello Spritz 0,3 l",
+   "section": "APERITIFS & COCKTAILS MIT ALKOHOL / APERITIFS",
+   "reason": "an alcoholic drink; the chain catalogue carries non-alcoholic items only"
+  },
+  {
+   "id": "menue-zwergenschmaus-7451430",
+   "name": "Menü Zwergenschmaus",
+   "section": "KINDERKARTE",
+   "reason": "a combination of items the menu lists on their own (a dessert with a hot drink, or the kids' menu)"
+  },
+  {
+   "id": "mint-julep-03-l-7324985",
+   "name": "Mint Julep 0,3 l",
+   "section": "APERITIFS & COCKTAILS MIT ALKOHOL / CLASSICS",
+   "reason": "an alcoholic drink; the chain catalogue carries non-alcoholic items only"
+  },
+  {
+   "id": "mojito-04-l-7324982",
+   "name": "Mojito 0,4 l",
+   "section": "APERITIFS & COCKTAILS MIT ALKOHOL / CLASSICS",
+   "reason": "an alcoholic drink; the chain catalogue carries non-alcoholic items only"
+  },
+  {
+   "id": "omas-geheimnis-mit-heissgetraenk-15947562",
+   "name": "Omas Geheimnis mit Heissgetränk",
+   "section": "NACHSPEISEN / NACHSPEISEN",
+   "reason": "a combination of items the menu lists on their own (a dessert with a hot drink, or the kids' menu)"
+  },
+  {
+   "id": "paloma-04-l-7324994",
+   "name": "Paloma 0,4 l",
+   "section": "APERITIFS & COCKTAILS MIT ALKOHOL / CLASSICS",
+   "reason": "an alcoholic drink; the chain catalogue carries non-alcoholic items only"
+  },
+  {
+   "id": "paradiesvogel-04-l-7324991",
+   "name": "Paradiesvogel 0,4 l",
+   "section": "APERITIFS & COCKTAILS MIT ALKOHOL / COCKTAILS",
+   "reason": "an alcoholic drink; the chain catalogue carries non-alcoholic items only"
+  },
+  {
+   "id": "pfirsich-maracuja-spritz-03-l-7279703",
+   "name": "Pfirsich Maracuja Spritz 0,3 l",
+   "section": "APERITIFS & COCKTAILS MIT ALKOHOL / APERITIFS",
+   "reason": "an alcoholic drink; the chain catalogue carries non-alcoholic items only"
+  },
+  {
+   "id": "pornstar-martini-02-l-7324988",
+   "name": "Pornstar Martini 0,2 l",
+   "section": "APERITIFS & COCKTAILS MIT ALKOHOL / CLASSICS",
+   "reason": "an alcoholic drink; the chain catalogue carries non-alcoholic items only"
+  },
+  {
+   "id": "sarti-spritz-03-l-7279700",
+   "name": "Sarti Spritz 0,3 l",
+   "section": "APERITIFS & COCKTAILS MIT ALKOHOL / APERITIFS",
+   "reason": "an alcoholic drink; the chain catalogue carries non-alcoholic items only"
+  },
+  {
+   "id": "schlingel-mit-heissgetraenk-15947565",
+   "name": "Schlingel mit Heissgetränk",
+   "section": "NACHSPEISEN / NACHSPEISEN",
+   "reason": "a combination of items the menu lists on their own (a dessert with a hot drink, or the kids' menu)"
+  },
+  {
+   "id": "st-germain-spritz-17906575",
+   "name": "St-Germain Spritz",
+   "section": "APERITIFS & COCKTAILS MIT ALKOHOL / Aktion",
+   "reason": "an alcoholic drink; the chain catalogue carries non-alcoholic items only"
+  },
+  {
+   "id": "waldhimbeere-04-l-7324997",
+   "name": "Waldhimbeere 0,4 l",
+   "section": "APERITIFS & COCKTAILS MIT ALKOHOL / COCKTAILS",
+   "reason": "an alcoholic drink; the chain catalogue carries non-alcoholic items only"
+  }
+ ]
+}

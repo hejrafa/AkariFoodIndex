@@ -1,0 +1,76 @@
+{
+  "id": "akari:label:protein-water",
+  "name": "Protein water",
+  "identity": "Clear ready-to-drink whey isolate water, about 4 g protein per 100 ml and no sugar; always flavoured.",
+  "rule": "Per 100 g, each value is the median of the three labels below that declare it, and a value enters only when at least three labels declare it (flavoured by nature). Salt becomes sodium (salt in g × 400 = sodium in mg). Nothing a label leaves out becomes zero. Labels read on 2026-10-30 from Open Food Facts through Akari's proxy, as the beef protein isolate was.",
+  "nutrients": {
+    "calories": 17.37,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "carbs": 0.0,
+    "sugar": 0.0,
+    "protein": 4.0,
+    "sodium": 4.0
+  },
+  "portions": [
+    {
+      "grams": 500,
+      "label": "1 bottle"
+    }
+  ],
+  "labels": [
+    {
+      "brand": "XXL Nutrition",
+      "product": "Protein Water",
+      "read": "Open Food Facts 8719881010580 through https://api.joinakari.com/v1/off/product/8719881010580",
+      "date": "2026-10-30",
+      "ingredients": "Water, whey protein isolate (MILK), acidity regulator: phosphoric acid and trisodium, aroma, sweetener: sucralose.",
+      "serving": "500 gram",
+      "per100g": {
+        "energyKJ": 69.0,
+        "energyKcal": 17.0,
+        "fat": 0.01,
+        "saturates": 0.0,
+        "carbohydrate": 0.01,
+        "sugars": 0.01,
+        "protein": 4.0,
+        "salt": 0.01
+      }
+    },
+    {
+      "brand": "BSC",
+      "product": "Protein Water",
+      "read": "Open Food Facts 9330171017653 through https://api.joinakari.com/v1/off/product/9330171017653",
+      "date": "2026-10-30",
+      "ingredients": "not stated in the entry",
+      "serving": "1 can (355 ml)",
+      "per100g": {
+        "energyKcal": 17.37,
+        "fat": 0.0,
+        "saturates": 0.0,
+        "carbohydrate": 0.0,
+        "sugars": 0.0,
+        "protein": 4.28,
+        "salt": 0.01
+      }
+    },
+    {
+      "brand": "Freeway",
+      "product": "High Protein Clear Whey Drink",
+      "read": "Open Food Facts 4056489887003 through https://api.joinakari.com/v1/off/product/4056489887003",
+      "date": "2026-10-30",
+      "ingredients": "not stated in the entry",
+      "serving": "100 ml",
+      "per100g": {
+        "energyKJ": 72.0,
+        "energyKcal": 18.0,
+        "fat": 0.0,
+        "saturates": 0.0,
+        "carbohydrate": 0.0,
+        "sugars": 0.0,
+        "protein": 4.0,
+        "salt": 0.06
+      }
+    }
+  ]
+}

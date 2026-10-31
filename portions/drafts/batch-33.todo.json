@@ -1,0 +1,145 @@
+{
+ "batch": 33,
+ "identities": [
+  {
+   "key": "vermouth dry",
+   "names": [
+    "vermouth dry",
+    "wermut trocken",
+    "dry vermouth",
+    "extra dry vermouth",
+    "trockener wermut",
+    "wermut extra dry",
+    "noilly prat",
+    "martini extra dry"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:P341300",
+     "name": "Vermouth dry"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "tequila sunrise",
+   "names": [
+    "tequila sunrise",
+    "sunrise cocktail"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:P9A6000",
+     "name": "Cocktail, Tequila sunrise"
+    },
+    {
+     "id": "usda:2710678",
+     "name": "Tequila Sunrise"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2710678",
+     "label": "1 fl oz",
+     "grams": 30
+    },
+    {
+     "reference": "usda:2710678",
+     "label": "1 drink",
+     "grams": 225
+    }
+   ]
+  },
+  {
+   "key": "mai tai",
+   "names": [
+    "mai tai"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "usda:2710677",
+     "name": "Mai Tai"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2710677",
+     "label": "1 fl oz",
+     "grams": 30
+    },
+    {
+     "reference": "usda:2710677",
+     "label": "1 drink",
+     "grams": 180
+    }
+   ]
+  },
+  {
+   "key": "michelada",
+   "names": [
+    "michelada",
+    "mexican beer cocktail",
+    "bier cocktail mexikanisch"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "usda:2710641",
+     "name": "Michelada"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2710641",
+     "label": "1 fl oz",
+     "grams": 30
+    },
+    {
+     "reference": "usda:2710641",
+     "label": "1 drink",
+     "grams": 225
+    }
+   ]
+  },
+  {
+   "key": "shirley temple",
+   "names": [
+    "shirley temple",
+    "kinder cocktail",
+    "ginger ale with grenadine"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "usda:2710611",
+     "name": "Shirley Temple"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2710611",
+     "label": "1 fl oz",
+     "grams": 30
+    },
+    {
+     "reference": "usda:2710611",
+     "label": "1 drink",
+     "grams": 225
+    }
+   ]
+  }
+ ]
+}

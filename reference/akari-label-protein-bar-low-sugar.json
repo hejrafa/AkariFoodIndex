@@ -1,0 +1,77 @@
+{
+  "id": "akari:label:protein-bar-low-sugar",
+  "name": "Protein bar, low sugar",
+  "identity": "Coated protein bar with 30 to 40 g protein and under 3 g sugar per 100 g; bars are always flavoured, so the flavours stand for the bar.",
+  "rule": "Per 100 g, each value is the median of the three labels below that declare it, and a value enters only when at least three labels declare it (flavoured by nature). Salt becomes sodium (salt in g × 400 = sodium in mg). Nothing a label leaves out becomes zero. Labels read on 2026-10-30 from Open Food Facts through Akari's proxy, as the beef protein isolate was.",
+  "nutrients": {
+    "calories": 339.0,
+    "fat": 10.0,
+    "saturatedFat": 4.7,
+    "carbs": 30.0,
+    "sugar": 2.6,
+    "protein": 35.0,
+    "sodium": 280.0
+  },
+  "portions": [
+    {
+      "grams": 60,
+      "label": "1 bar"
+    }
+  ],
+  "labels": [
+    {
+      "brand": "Grenade",
+      "product": "Grenade High Protein Cookie Dough",
+      "read": "Open Food Facts 5060811382394 through https://api.joinakari.com/v1/off/product/5060811382394",
+      "date": "2026-10-30",
+      "ingredients": "Protein Blend (Calcium Caseinate NL - Milk), Whey Protein (Milk), Milk Protein), Milk Chocolate (melk). with Sweetener (20%) (Sweetener: Maltitol; Cocoa Butter, zoetstof Whole Milk Powder, Cocoa Mass, Emulsifier: Soy Lecithin; melkpoe Natural Flavouring), Bovine Collagen Hydrolysate, natuurlij Sweet",
+      "serving": "1 serving (60 g)",
+      "per100g": {
+        "energyKJ": 1593.67,
+        "energyKcal": 346.0,
+        "fat": 13.0,
+        "saturates": 6.0,
+        "carbohydrate": 31.0,
+        "sugars": 2.3,
+        "protein": 35.0,
+        "salt": 1.04
+      }
+    },
+    {
+      "brand": "MYPROTEIN",
+      "product": "Skinny protein bar",
+      "read": "Open Food Facts 5056104552179 through https://api.joinakari.com/v1/off/product/5056104552179",
+      "date": "2026-10-30",
+      "ingredients": "Pâte à biscuits: Mélange de protéines (27%) (protéines de lait, isolat de protéines de soja, concentré de protéines de whey (lait)), gélatin hydrolysée, enrobage saveur chocolat (lait) (14%) (édulcorants (isomalt, sucralose), huile de noyau de palmiste et de palme non hydrogènée, whey en poudre (lai",
+      "serving": "45 g",
+      "per100g": {
+        "energyKJ": 1562.0,
+        "energyKcal": 339.0,
+        "fat": 10.0,
+        "saturates": 4.7,
+        "carbohydrate": 24.0,
+        "sugars": 2.6,
+        "protein": 40.0,
+        "salt": 0.7
+      }
+    },
+    {
+      "brand": "PowerBar",
+      "product": "Protein Plus chai Latte Vanille",
+      "read": "Open Food Facts 4029679670204 through https://api.joinakari.com/v1/off/product/4029679670204",
+      "date": "2026-10-30",
+      "ingredients": "Agent de charge (polydextrose), humectants (sorbitol, glycérol), chocolat au lait de couverture avec édulcorant (18 %) [édulcorant (maltitol), beurre de cacao, lait entier en poudre, pâte de cacao, émulsifiant (lécithine de soja), arome), caséinates de caldum (du lait) (18%), protéines de petit-lait",
+      "serving": "35 g",
+      "per100g": {
+        "energyKJ": 1475.8,
+        "energyKcal": 310.0,
+        "fat": 8.4,
+        "saturates": 4.2,
+        "carbohydrate": 30.0,
+        "sugars": 2.7,
+        "protein": 31.0,
+        "salt": 0.28
+      }
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "version": 47,
+  "version": 58,
   "description": "Akari presentation classification. Unambiguous complete food names can correct contradictory source categories; otherwise exact source categories come first. Product-line rules apply only when the entire remaining name is a reviewed qualifier. Never infer nutrients, allergens, alcohol counts or verified status.",
   "taxonomySource": "https://openfoodfacts.github.io/documentation/docs/Product-Opener/schemas/schemas/product_tags/",
   "rules": [
@@ -115,7 +115,11 @@
         "almond spread",
         "nut butter",
         "nut spread",
-        "ジャム"
+        "ジャム",
+        "protein spread",
+        "protein-creme",
+        "proteincreme",
+        "protein cream"
       ]
     },
     {
@@ -229,7 +233,12 @@
         "weißweinessig",
         "apple cider vinegar",
         "sambal",
-        "sambal oelek"
+        "sambal oelek",
+        "cheese sauce",
+        "käsesauce",
+        "garlic sauce",
+        "knoblauchsoße",
+        "knoblauchsauce"
       ],
       "compoundSuffixes": [
         "sauce",
@@ -265,7 +274,8 @@
         "小麦粉",
         "bread flour",
         "cake flour",
-        "pastry flour"
+        "pastry flour",
+        "lupinenmehl"
       ]
     },
     {
@@ -429,7 +439,11 @@
         "yaourts",
         "yaourt nature",
         "yaourt grec",
-        "yaourt à la grecque"
+        "yaourt à la grecque",
+        "high protein yogurt",
+        "high-protein-joghurt",
+        "protein yogurt",
+        "proteinjoghurt"
       ],
       "compoundSuffixes": [
         "joghurt",
@@ -561,7 +575,16 @@
       ],
       "terms": [
         "vegan cheese",
-        "käsealternative"
+        "käsealternative",
+        "frischcreme",
+        "vegane frischcreme",
+        "vegan cream cheese alternative",
+        "cream cheese alternative",
+        "mozzarella alternative",
+        "vegan mozzarella",
+        "cashew cheese",
+        "cashewkäse",
+        "pizzaschmelz"
       ]
     },
     {
@@ -661,7 +684,12 @@
         "trex",
         "frying fat",
         "deep frying fat",
-        "frittierfett"
+        "frittierfett",
+        "veganes schmalz",
+        "vegan lard substitute",
+        "vegan lard",
+        "lard substitute",
+        "pflanzenschmalz"
       ],
       "ingredientCategories": [
         "oil"
@@ -687,7 +715,11 @@
         "sorbet",
         "speiseeis",
         "frozen yogurt",
-        "frozen yoghurt"
+        "frozen yoghurt",
+        "high protein ice cream",
+        "high-protein-eis",
+        "protein ice cream",
+        "proteineis"
       ],
       "compoundSuffixes": [
         "eiscreme"
@@ -772,7 +804,11 @@
         "kugelhopf",
         "kougelhopf",
         "napfkuchen",
-        "tiramisu"
+        "tiramisu",
+        "eierschecke",
+        "prinzregententorte",
+        "buttercremetorte",
+        "sahnetorte"
       ],
       "compoundSuffixes": [
         "kuchen",
@@ -849,7 +885,24 @@
         "sponge fingers",
         "savoiardi",
         "löffelbiskuits",
-        "löffelbiskuit"
+        "löffelbiskuit",
+        "mandelhörnchen",
+        "almond crescent",
+        "almond crescents",
+        "palmier",
+        "palmiers",
+        "schweineohr",
+        "schweineohren",
+        "schweinsohr",
+        "schweinsohren",
+        "spritzgebäck",
+        "printen",
+        "aachener printen",
+        "mutzen",
+        "rheinische mutzen",
+        "mutzenmandeln",
+        "meringue",
+        "baiser"
       ],
       "compoundSuffixes": [
         "keks",
@@ -1033,7 +1086,14 @@
         "leinsamen",
         "getreidebrei",
         "milchbrei",
-        "trinkbrei"
+        "trinkbrei",
+        "protein porridge",
+        "protein-porridge",
+        "protein granola",
+        "protein-granola",
+        "protein muesli",
+        "protein-müsli",
+        "protein oats"
       ],
       "compoundSuffixes": [
         "flocken"
@@ -1093,7 +1153,23 @@
         "muesli bar",
         "muesli bars",
         "barre céréalière",
-        "barres céréalières"
+        "barres céréalières",
+        "meal replacement bar",
+        "mahlzeitersatzriegel",
+        "nutrition bar",
+        "nährstoffriegel",
+        "sports bar",
+        "protein wafer",
+        "proteinwaffel",
+        "protein-waffel",
+        "protein balls",
+        "protein-balls",
+        "protein bites",
+        "proteinkugeln",
+        "energy chews",
+        "energy-chews",
+        "energy gel",
+        "energiegel"
       ],
       "compoundSuffixes": [
         "riegel"
@@ -2026,7 +2102,20 @@
         "pon haus",
         "panhas",
         "pannhas",
-        "cordon bleu"
+        "cordon bleu",
+        "dönerfleisch",
+        "doner kebab meat",
+        "doner meat",
+        "kebab meat",
+        "gyros",
+        "gyrosfleisch",
+        "shashlik",
+        "schaschlik",
+        "pork kebab",
+        "fleischspieß",
+        "wiener schnitzel",
+        "oxtail",
+        "ochsenschwanz"
       ],
       "ingredientCategories": [
         "tofu"
@@ -2182,7 +2271,12 @@
         "pigeon",
         "fowl",
         "鳥肉類",
-        "にわとり"
+        "にわとり",
+        "chicken doner meat",
+        "hähnchen-dönerfleisch",
+        "geflügel-dönerfleisch",
+        "fried chicken",
+        "chicken, breaded, fried"
       ],
       "ingredientCategories": [
         "tofu"
@@ -2389,7 +2483,9 @@
         "zander",
         "zanderfilet",
         "walleye",
-        "seeaal"
+        "seeaal",
+        "tench",
+        "schleie"
       ]
     },
     {
@@ -2438,7 +2534,11 @@
         "cafe",
         "latte",
         "caffè",
-        "コーヒー"
+        "コーヒー",
+        "chai latte powder",
+        "chai-latte-pulver",
+        "chai latte pulver",
+        "chai-latte-powder"
       ]
     },
     {
@@ -2457,7 +2557,21 @@
         "gruner tee",
         "schwarzer tee",
         "the noir",
-        "the vert"
+        "the vert",
+        "ingwertee",
+        "schwarztee",
+        "früchtetee",
+        "kräutertee",
+        "eisteepulver",
+        "teepulver",
+        "iced tea mix",
+        "instant tea powder",
+        "bubble tea",
+        "boba tea",
+        "milchtee",
+        "milk tea",
+        "thai iced tea",
+        "london fog"
       ]
     },
     {
@@ -2578,7 +2692,11 @@
         "hard seltzers",
         "spiked seltzer",
         "alcoholic seltzer",
-        "alkohol seltzer"
+        "alkohol seltzer",
+        "electrolyte solution",
+        "elektrolytlösung",
+        "sports drink powder",
+        "sportgetränkepulver"
       ]
     },
     {
@@ -2601,7 +2719,10 @@
         "sparkling water",
         "still water",
         "tafelwasser",
-        "trinkwasser"
+        "trinkwasser",
+        "protein water",
+        "protein-wasser",
+        "proteinwasser"
       ]
     },
     {
@@ -2964,7 +3085,11 @@
         "röstkartoffeln",
         "kartoffelspalten",
         "kartoffelecken",
-        "potato wedges"
+        "potato wedges",
+        "baked potato",
+        "ofenkartoffel",
+        "jacket potato",
+        "kumpir"
       ]
     },
     {
@@ -3111,7 +3236,11 @@
         "cacahuates",
         "arachidi",
         "erdnuss",
-        "erdnusse"
+        "erdnusse",
+        "peanut butter powder",
+        "erdnussbutterpulver",
+        "powdered peanut butter",
+        "peanut flour"
       ]
     },
     {
@@ -3467,7 +3596,9 @@
         "mulberry",
         "mulberries",
         "maulbeere",
-        "maulbeeren"
+        "maulbeeren",
+        "rose hips",
+        "hagebutten"
       ]
     },
     {
@@ -3682,7 +3813,9 @@
         "papaya",
         "papayas",
         "papayafrucht",
-        "trockenpapaya"
+        "trockenpapaya",
+        "jackfruit",
+        "jackfrucht"
       ]
     },
     {
@@ -3792,7 +3925,8 @@
         "maize",
         "sweet corn",
         "sweetcorn",
-        "とうもろこし"
+        "とうもろこし",
+        "masa harina"
       ]
     },
     {
@@ -3959,7 +4093,11 @@
         "mairübe",
         "mairüben",
         "mairübchen",
-        "teltower rübchen"
+        "teltower rübchen",
+        "burdock root",
+        "klettenwurzel",
+        "lotus root",
+        "lotuswurzel"
       ]
     },
     {
@@ -4101,7 +4239,9 @@
         "rosmarin",
         "rosemary sprig",
         "rosmarinzweig",
-        "rosmarinnadeln"
+        "rosmarinnadeln",
+        "bitter melon",
+        "rettichblätter"
       ]
     },
     {
@@ -4241,7 +4381,11 @@
         "fokaccia",
         "focacciabrot",
         "crumpet",
-        "crumpets"
+        "crumpets",
+        "langos",
+        "lángos",
+        "langosch",
+        "dosa"
       ]
     },
     {
@@ -4271,7 +4415,11 @@
         "pancakes",
         "pfannkuchen",
         "eierkuchen",
-        "kaiserschmarrn"
+        "kaiserschmarrn",
+        "crêpe",
+        "crêpes",
+        "crepe",
+        "crepes"
       ],
       "ingredientCategories": [
         "egg",
@@ -4325,7 +4473,14 @@
         "veggie sausage",
         "meat free sausages",
         "vegetarische würstchen",
-        "vegane würstchen"
+        "vegane würstchen",
+        "knacker",
+        "berliner knacker",
+        "vegetarian bratwurst",
+        "vegetarische bratwurst",
+        "vegane bratwurst",
+        "vegan bratwurst",
+        "veggie bratwurst"
       ]
     },
     {
@@ -4340,7 +4495,10 @@
         "tortilla-chips",
         "tortilla chip",
         "nachos",
-        "nacho"
+        "nacho",
+        "taco shell",
+        "taco-schale",
+        "taco shells"
       ]
     },
     {
@@ -4360,7 +4518,18 @@
         "vegane nuggets",
         "vegetarische nuggets",
         "vegane chicken nuggets",
-        "soja nuggets"
+        "soja nuggets",
+        "vegetable patties",
+        "veggie patties",
+        "gemüsebratlinge",
+        "gemüsebratling",
+        "lentil patties",
+        "linsenbratlinge",
+        "linsenbratling",
+        "bratlinge",
+        "bratling",
+        "gemüsefrikadellen",
+        "linsenfrikadellen"
       ]
     },
     {
@@ -4561,7 +4730,10 @@
         "scallop",
         "scallops",
         "coquille saint jacques",
-        "貝類"
+        "貝類",
+        "snails",
+        "schnecken",
+        "escargots"
       ]
     },
     {
@@ -4599,7 +4771,9 @@
         "jam doughnut",
         "jam doughnuts",
         "jelly doughnut",
-        "jelly doughnuts"
+        "jelly doughnuts",
+        "churros",
+        "churro"
       ],
       "exactTerms": [
         "berliner"
@@ -4664,7 +4838,9 @@
         "yufkateig",
         "cornish pasty",
         "pasty",
-        "pasties"
+        "pasties",
+        "shortcrust pastry",
+        "mürbeteig"
       ]
     },
     {
@@ -4711,7 +4887,11 @@
         "crema catalana",
         "milchdessert",
         "milk dessert",
-        "babydessert"
+        "babydessert",
+        "plum pudding",
+        "plumpudding",
+        "christmas pudding",
+        "weihnachtspudding"
       ],
       "compoundSuffixes": [
         "pudding"
@@ -4778,7 +4958,9 @@
         "baileys",
         "sangria",
         "sangrias",
-        "tinto de verano"
+        "tinto de verano",
+        "erdbeerbowle",
+        "strawberry punch"
       ]
     },
     {
@@ -4864,7 +5046,8 @@
         "teewurst",
         "streichwurst",
         "frischkäsepastete",
-        "liver sausage"
+        "liver sausage",
+        "mettwurst"
       ]
     },
     {
@@ -4951,7 +5134,16 @@
         "veganes schnitzel",
         "vegane schnitzel",
         "vegetarisches schnitzel",
-        "veggie schnitzel"
+        "veggie schnitzel",
+        "quorn",
+        "quorn pieces",
+        "mycoprotein",
+        "quorn-stücke",
+        "veganer bacon",
+        "vegan bacon strips",
+        "vegane baconstreifen",
+        "meatless bacon",
+        "bacon strip, meatless"
       ],
       "exactTerms": [
         "seitan"
@@ -5595,7 +5787,13 @@
         "rakı",
         "anisschnaps",
         "aniseed spirit",
-        "anise spirit"
+        "anise spirit",
+        "cachaça",
+        "cachaca",
+        "sugarcane spirit",
+        "zuckerrohrbrand",
+        "brand aus zuckerrohr",
+        "grappa"
       ]
     },
     {
@@ -5697,7 +5895,28 @@
         "babygläschen",
         "gläschen",
         "beikost",
-        "babynahrung"
+        "babynahrung",
+        "toddler meal",
+        "kleinkindmenü",
+        "toddler puffs",
+        "baby-puffs",
+        "baby puffs",
+        "toddler crackers",
+        "kleinkind-cracker",
+        "fruit pouch",
+        "fruchtquetschie",
+        "quetschie",
+        "baby toddler",
+        "purée, baby",
+        "puree, baby",
+        "purée baby",
+        "puree baby",
+        "getreidebrei",
+        "getreide-brei",
+        "obst-gemüse-getreide-brei",
+        "gemüse-getreide-brei",
+        "obst-getreide-brei",
+        "fruit and vegetables, with grain"
       ]
     },
     {
@@ -5997,10 +6216,179 @@
         "rinderprotein",
         "rinderproteinpulver",
         "rinderprotein-pulver",
-        "rinderprotein-isolat"
+        "rinderprotein-isolat",
+        "protein isolate",
+        "proteinisolat",
+        "sojaproteinisolat",
+        "soy protein isolate",
+        "egg white powder",
+        "eiklarpulver",
+        "sojaproteinpulver",
+        "soy protein powder",
+        "whey protein isolate",
+        "whey isolate",
+        "clear whey",
+        "casein",
+        "micellar casein",
+        "pea protein",
+        "rice protein",
+        "hemp protein",
+        "vegan protein",
+        "plant protein powder",
+        "mass gainer",
+        "weight gainer",
+        "gainer",
+        "amino acid powder",
+        "eaa",
+        "bcaa",
+        "maltodextrin",
+        "cluster dextrin",
+        "recovery shake powder",
+        "recovery shake",
+        "erbsenprotein",
+        "reisprotein",
+        "hanfprotein",
+        "veganes proteinpulver",
+        "aminosäurenpulver",
+        "casein-protein",
+        "protein pancake mix",
+        "protein-pancake-mix",
+        "nährstoffpulver"
       ],
       "overridesCategories": [
         "powder"
+      ]
+    },
+    {
+      "id": "supplement",
+      "artworkID": "jar",
+      "priority": 103,
+      "tags": [
+        "en:dietary-supplements",
+        "en:vitamins"
+      ],
+      "terms": [
+        "supplement",
+        "supplements",
+        "nahrungsergänzung",
+        "nahrungsergänzungsmittel",
+        "dietary supplement",
+        "effervescent tablet",
+        "brausetablette",
+        "chewable tablet",
+        "kautablette",
+        "depot tablet",
+        "depot-tablette",
+        "depot capsule",
+        "depot-kapsel",
+        "tablet or capsule",
+        "lozenge",
+        "lutschtablette",
+        "direct granulate",
+        "direktgranulat",
+        "drink ampoule",
+        "trinkampulle",
+        "multivitamin",
+        "multivitamintablette",
+        "vitamin tablet",
+        "vitamintablette",
+        "vitamin capsule",
+        "vitamin drops",
+        "vitamin-d3-tropfen",
+        "vitamin d3 drops",
+        "vitamin d3 + k2 drops",
+        "vitamin d3 tablet",
+        "vitamin d3 + k2 tablet",
+        "vitamin c powder",
+        "vitamin-c-pulver",
+        "vitamin c 1000 tablet",
+        "vitamin c depot capsule",
+        "vitamin c lozenge",
+        "vitamin c effervescent tablet",
+        "vitamin b12 tablet",
+        "vitamin b12 effervescent tablet",
+        "vitamin b complex tablet",
+        "folic acid tablet",
+        "folsäuretablette",
+        "magnesium tablet",
+        "magnesiumtablette",
+        "magnesium capsule",
+        "magnesiumkapsel",
+        "magnesium effervescent tablet",
+        "magnesium direct granulate stick",
+        "magnesium 500 depot tablet",
+        "magnesium + potassium tablet",
+        "magnesium + calcium + d3 tablet",
+        "magnesium + calcium effervescent tablet",
+        "zinc tablet",
+        "zinktablette",
+        "zinc + vitamin c tablet",
+        "zinc + vitamin c effervescent tablet",
+        "selenium tablet",
+        "selentablette",
+        "iron tablet",
+        "eisentablette",
+        "iron effervescent tablet",
+        "iron direct granulate stick",
+        "calcium + d3 tablet",
+        "calcium effervescent tablet",
+        "calcium chewable tablet",
+        "electrolyte effervescent tablet",
+        "electrolyte powder stick",
+        "elektrolyt-pulverstick",
+        "immune effervescent tablet",
+        "immune complex tablet",
+        "immune direct stick",
+        "immun-direktstick",
+        "pregnancy multivitamin",
+        "schwangerschaftsvitamine",
+        "hair, skin and nails tablet",
+        "haut-haare-nägel-tablette",
+        "senior multivitamin tablet",
+        "collagen powder",
+        "kollagenpulver",
+        "collagen drink ampoule",
+        "eye vitamin capsule",
+        "augenvitamin-kapsel",
+        "glucosamine joint tablet",
+        "glucosamin-gelenktablette",
+        "kids' multivitamin gummies",
+        "kids' multivitamin chewable tablet",
+        "vitamin d gummy or chewable tablet",
+        "capsule or tablet",
+        "kapsel oder tablette",
+        "mg tablet",
+        "d3 tablette",
+        "k2 tablette",
+        "zink vitamin c tablette",
+        "vitamin c 1000 tablette",
+        "calcium d3 tablette",
+        "b komplex tablette",
+        "b12 tablette",
+        "magnesium kalium tablette",
+        "magnesium calcium d3 tablette",
+        "k2 tropfen",
+        "d3 tropfen",
+        "vitamin d3 tropfen",
+        "vitamin d tropfen",
+        "immun komplex tablette",
+        "immun komplex",
+        "immune complex",
+        "fish oil capsule",
+        "fischölkapsel",
+        "fischöl-kapsel",
+        "omega-3 capsule",
+        "omega-3-kapsel",
+        "omega-3 kapseln",
+        "lachsölkapsel",
+        "salmon oil capsule",
+        "seefischöl kapsel",
+        "algae oil capsule",
+        "algenölkapsel",
+        "algenöl-kapsel",
+        "algal oil capsule",
+        "vegan omega-3 capsule",
+        "omega-3 vegan kapsel"
       ]
     },
     {

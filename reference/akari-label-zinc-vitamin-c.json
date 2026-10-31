@@ -1,0 +1,63 @@
+{
+  "id": "akari:label:zinc-vitamin-c",
+  "name": "Zinc + vitamin C capsule or tablet",
+  "identity": "One-a-day zinc with vitamin C, 5 to 15 mg zinc and 100 to 300 mg vitamin C; the dose is one unit.",
+  "rule": "Per 100 g of the product, each value is the median of the labels below that declare it, and a value enters only when at least three declare it; a label states its nutrients per dose, so the file converts them with the dose's weight (the pack's net content divided by its count of tablets, capsules, sticks or drops, or the stated dose weight). Salt becomes sodium (salt in g × 400 = sodium in mg). Fewer than three labels declare energy, so the row stands at 0 kcal under the verification policy's clause for label generics with a micronutrient. Nothing a label leaves out becomes zero. Labels read on 2026-10-30 from dm.de, rossmann.de and shop-apotheke.com product pages.",
+  "nutrients": {
+    "zinc": 1388.89,
+    "vitaminC": 38461.5,
+    "calories": 0
+  },
+  "portions": [
+    {
+      "grams": 0.78,
+      "label": "1 capsule or tablet"
+    }
+  ],
+  "labels": [
+    {
+      "brand": "Mivolis",
+      "product": "Zink + C Kapseln 60 St, 38 g",
+      "read": "https://www.dm.de/p/d/3104237/ (dm.de product page, Nährwerte and Zutaten panels; GTIN not stated)",
+      "date": "2026-10-30",
+      "ingredients": "L-Ascorbinsäure (Vitamin C), Zucker, Gelatine (Rind), Überzugsmittel Schellack, Maisstärke, Zinksulfat, Glucosesirup, pflanzliches Öl (Kokos), Trennmittel Talkum",
+      "serving": "1 Stück: 60 units weigh 38 g, so the dose is 0.633 g; the label declares per dose: zincMg 5, vitaminCMg 300; per 100 g 718 kJ / 171 kcal, fat 0.5 g, saturates 0.5 g, carbohydrate 28 g, sugars 25 g, protein 13 g, salt 0 g",
+      "per100g": {
+        "zincMg": 789.474,
+        "vitaminCMg": 47368.4,
+        "energyKcal": 171.0,
+        "fat": 0.5,
+        "saturates": 0.5,
+        "carbohydrate": 28.0,
+        "sugars": 25.0,
+        "protein": 13.0,
+        "salt": 0.0
+      }
+    },
+    {
+      "brand": "Doppelherz",
+      "product": "Zink + Histidin + Vitamin C Depot Tabletten 100 St, 108 g",
+      "read": "https://www.dm.de/p/d/1711502/ (dm.de product page, Nährwerte and Zutaten panels; GTIN not stated)",
+      "date": "2026-10-30",
+      "ingredients": "L-Ascorbinsäure, Füllstoff mikrokristalline Cellulose, Füllstoff Dicalciumphosphat, Überzugsmittel Hydroxypropylmethylcellulose, Zinkgluconat, L-Histidin, modifizierte Stärke, Trennmittel Speisefettsäuren, Trennmittel Magnesiumsalze der Speisefettsäuren, Füllstoff Polyethylenglycol, Stärke, Trennmittel Zuckerester von Speisefettsäuren, Trennmittel Talkum, Trennmittel Siliciumdioxid, Farbstoff Eisenoxide und Eisenhydroxide",
+      "serving": "1 Tablette: 100 units weigh 108 g, so the dose is 1.08 g; the label declares per dose: zincMg 15, vitaminCMg 300; histidin 100 mg; no energy or macros declared",
+      "per100g": {
+        "zincMg": 1388.89,
+        "vitaminCMg": 27777.8
+      }
+    },
+    {
+      "brand": "taxofit",
+      "product": "Zink+ Histidin + Vitamin C + Selen Tabletten 40 St, 31,2 g",
+      "read": "https://www.dm.de/p/d/1675646/ (dm.de product page, Nährwerte and Zutaten panels; GTIN not stated)",
+      "date": "2026-10-30",
+      "ingredients": "L-Ascorbinsäure (Vitamin C), Füllstoffe (Cellulose, Calciumphosphate, Isomalt, vernetzte Carboxymethylcellulose), Aminosäure L-Histidin, Trennmittel (Fettsäuren, Magnesiumsalze der Speisefettsäuren, Siliciumdioxid, Talkum), Zinksulfat, Geliermittel Hydroxypropylmethylcellulose, Stabilisator Hydroxypropylcellulose, Rapsöl ganz gehärtet, Farbstoff Calciumcarbonat, Überzugsmittel Carnaubawachs, Natriumselenat",
+      "serving": "1 Tablette: 40 units weigh 31.2 g, so the dose is 0.78 g; the label declares per dose: seleniumUg 100, zincMg 15, vitaminCMg 300; histidin 100 mg; no energy or macros declared",
+      "per100g": {
+        "seleniumUg": 12820.5,
+        "zincMg": 1923.08,
+        "vitaminCMg": 38461.5
+      }
+    }
+  ]
+}

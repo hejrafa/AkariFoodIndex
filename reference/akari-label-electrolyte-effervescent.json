@@ -1,0 +1,69 @@
+{
+  "id": "akari:label:electrolyte-effervescent",
+  "name": "Electrolyte effervescent tablet",
+  "identity": "Electrolyte effervescent tablets with sodium, potassium and magnesium dissolved in water after sweating or illness; the dose is the label's daily tablet or tablets.",
+  "rule": "Per 100 g of the product, each value is the median of the labels below that declare it, and a value enters only when at least three declare it; a label states its nutrients per dose, so the file converts them with the dose's weight (the pack's net content divided by its count of tablets, capsules, sticks or drops, or the stated dose weight). Salt becomes sodium (salt in g × 400 = sodium in mg). Fewer than three labels declare energy, so the row stands at 0 kcal under the verification policy's clause for label generics with a micronutrient. Nothing a label leaves out becomes zero. Labels read on 2026-10-30 from dm.de, rossmann.de and shop-apotheke.com product pages.",
+  "nutrients": {
+    "potassium": 3658.54,
+    "magnesium": 1371.95,
+    "sodium": 8170.72,
+    "calories": 0
+  },
+  "portions": [
+    {
+      "grams": 8.2,
+      "label": "1 daily dose of effervescent tablets"
+    }
+  ],
+  "labels": [
+    {
+      "brand": "Doppelherz",
+      "product": "Elektrolyte Brausetabletten 15 St, zuckerfrei, 97,5 g",
+      "read": "https://www.dm.de/p/d/3069223/ (dm.de product page, Nährwerte and Zutaten panels; GTIN not stated)",
+      "date": "2026-10-30",
+      "ingredients": "Säuerungsmittel Citronensäure, Natriumbicarbonat, Feuchthaltemittel Sorbit, Natriumchlorid, Kaliumbicarbonat, Magnesiumcarbonat, Natriumcarbonat, Inulin, Calciumcarbonat, Calciumsalze der Orthophosphorsäure, Süßungsmittel Natriumcyclamat, Aromen, Süßungsmittel Natriumsaccharin, Maltodextrin, Rote-Bete-Saftkonzentrat, Farbstoff Riboflavin-5'-phosphat",
+      "serving": "2 Stück: 15 units weigh 97.5 g, so the dose is 13 g; the label declares per dose: sodiumMg 1000, calciumMg 120, potassiumMg 300, magnesiumMg 120; chloride 600 mg per 2 tablets; no energy or macros declared",
+      "per100g": {
+        "calciumMg": 923.077,
+        "potassiumMg": 2307.69,
+        "magnesiumMg": 923.077,
+        "salt": 19.2308
+      }
+    },
+    {
+      "brand": "sanotact",
+      "product": "Elektrolyte Aktiv Brausetabletten, 20 Stück, 82 g",
+      "read": "https://www.rossmann.de/de/gesundheit-sanotact-elektrolyte-aktiv-brausetabletten/p/4003087442257 (rossmann.de product page, Zutaten and Nährwerte sections; GTIN 4003087442257)",
+      "date": "2026-10-30",
+      "ingredients": "Säuerungsmittel Citronensäure, Natriumhydrogencarbonat, Füllstoff Sorbitol, Natriumchlorid, Inulin, Kaliumchlorid, Magnesiumcarbonat, Aromen, Kaliumhydrogencarbonat, Rote Bete Saftpulver, Süßungsmittel Sucralose, Pyridoxinhydrochlorid (Vitamin B6), Riboflavin (Vitamin B2), Thiaminmononitrat (Vitamin B1)",
+      "serving": "2 Tabletten: 20 units weigh 82 g, so the dose is 8.2 g; the label declares per dose: sodiumMg 670, potassiumMg 300, magnesiumMg 112.5; chloride 630 mg, B1 0.6 mg, B2 0.7 mg, B6 0.9 mg per 2 tablets; no energy or macros declared",
+      "per100g": {
+        "potassiumMg": 3658.54,
+        "magnesiumMg": 1371.95,
+        "salt": 20.4268
+      }
+    },
+    {
+      "brand": "Sportness",
+      "product": "Elektrolyte Sport Orangen-Geschmack, Brausetabletten (20 Stück), 82 g",
+      "read": "https://www.dm.de/p/d/3113293/ (dm.de product page, Nährwerte and Zutaten panels; GTIN not stated)",
+      "date": "2026-10-30",
+      "ingredients": "Säuerungsmittel Citronensäure, Säureregulator Natriumhydrogencarbonat, Magnesiumcarbonat, Natriumchlorid, Kaliumchlorid, Füllstoff Sorbitol, Füllstoff Calciumcarbonat, Aromen, Süßungsmittel Natriumsaccharin, Maltodextrin, Farbstoff Riboflavin, Calcium-D-pantothenat, Chrom(III)-chlorid, Cholecalciferol (Vitamin D3), Cyanocobalamin (Vitamin B12)",
+      "serving": "1 Tablette: 20 units weigh 82 g, so the dose is 4.1 g; the label declares per dose: sodiumMg 700, calciumMg 120, potassiumMg 310, magnesiumMg 300, vitaminB12Ug 2.5, vitaminDUg 5; chloride 800 mg, chromium 20 µg, pantothenic acid 6 mg; per 100 g 592 kJ / 137 kcal, fat < 0.5 g, saturates < 0.1 g, carbohydrate 7.8 g, sugars < 0.5 g, protein < 0.5 g, salt 21.8 g; under-values counted at half the threshold; the page's table states no dose count; taken as one unit, the one-a-day form the pack size implies",
+      "per100g": {
+        "calciumMg": 2926.83,
+        "potassiumMg": 7560.98,
+        "magnesiumMg": 7317.07,
+        "vitaminB12Ug": 60.9756,
+        "vitaminDUg": 121.951,
+        "energyKcal": 137.0,
+        "fat": 0.25,
+        "saturates": 0.05,
+        "carbohydrate": 7.8,
+        "sugars": 0.25,
+        "protein": 0.25,
+        "salt": 42.683
+      }
+    }
+  ]
+}

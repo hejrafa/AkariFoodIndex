@@ -1,0 +1,669 @@
+{
+ "batch": 40,
+ "identities": [
+  {
+   "key": "mixed berries with sour cherries unsweetened",
+   "names": [
+    "mixed berries with sour cherries unsweetened",
+    "beerenmischung mit sauerkirschen ungesußt"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:F092100",
+     "name": "Berry mix with sour cherries, unsweetened, raw"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "saithe steamed",
+   "names": [
+    "saithe steamed",
+    "seelachs gedunstet"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:T207152",
+     "name": "Saithe/pollack, stewed"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "redfish braised",
+   "names": [
+    "redfish braised",
+    "rotbarsch gedunstet"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:T615152",
+     "name": "Ocean perch/redfish, stewed"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "american biscuit homemade",
+   "names": [
+    "american biscuit homemade",
+    "amerikanisches biscuit selbst gemacht"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "usda:2707804",
+     "name": "Biscuit, home recipe"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2707804",
+     "label": "1 biscuit",
+     "grams": 45
+    },
+    {
+     "reference": "usda:2707804",
+     "label": "1 cubic inch",
+     "grams": 8.5
+    }
+   ]
+  },
+  {
+   "key": "porcini stewed",
+   "names": [
+    "porcini stewed",
+    "steinpilze gedunstet"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:K718152",
+     "name": "Porcini mushroom stewed"
+    },
+    {
+     "id": "bls:X513063",
+     "name": "Porcini mushrooms stewed"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "artichoke boiled",
+   "names": [
+    "artichoke boiled",
+    "artischocke gekocht"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:G410132",
+     "name": "Artichokes boiled"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "potato dough raw",
+   "names": [
+    "potato dough raw",
+    "kartoffelteig roh"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:X6A5000",
+     "name": "Potato dough (from boiled potatoes) raw"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "fruit cocktail in juice canned drained",
+   "names": [
+    "fruit cocktail in juice canned drained",
+    "fruchtcocktail in fruchtsaft dose abgetropft"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:F091902",
+     "name": "Fruit mix/fruit cocktail, in juice, canned, drained"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "calamari cooked",
+   "names": [
+    "calamari cooked",
+    "calamari gegart"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "usda:2706333",
+     "name": "Calamari, cooked"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2706333",
+     "label": "1 item",
+     "grams": 15
+    },
+    {
+     "reference": "usda:2706333",
+     "label": "1 cup",
+     "grams": 135
+    }
+   ]
+  },
+  {
+   "key": "shortcrust pastry raw",
+   "names": [
+    "shortcrust pastry raw",
+    "murbeteig roh"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "cofid:11-1017",
+     "name": "Pastry, shortcrust, uncooked, homemade"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "baked beans in tomato sauce canned",
+   "names": [
+    "baked beans in tomato sauce canned",
+    "weiße bohnen in tomatensauce dose"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "cofid:13-532",
+     "name": "Baked beans, canned in tomato sauce"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "poularde with skin roasted no added fat",
+   "names": [
+    "poularde with skin roasted no added fat",
+    "poularde mit haut ofengebraten ohne fett"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:V444162",
+     "name": "Poulard meat, with skin, fried without fat (oven)"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "sour cherries stewed",
+   "names": [
+    "sour cherries stewed",
+    "sauerkirschen gedunstet"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:F212152",
+     "name": "Sour cherry stewed"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "berliner knacker raw cured",
+   "names": [
+    "berliner knacker raw cured",
+    "berliner knacker"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:W182000",
+     "name": "Berlin Knacker sausage raw, small, firm"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "burdock root cooked",
+   "names": [
+    "burdock root cooked",
+    "klettenwurzel gegart"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "usda:2709886",
+     "name": "Burdock, cooked"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2709886",
+     "label": "1 cup",
+     "grams": 130
+    }
+   ]
+  },
+  {
+   "key": "crispy duck chinese style with skin",
+   "names": [
+    "crispy duck chinese style with skin",
+    "knusprige ente chinesische art mit haut"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "cofid:18-490",
+     "name": "Duck, crispy, chinese style, meat and skin"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "polish sausage kielbasa",
+   "names": [
+    "polish sausage kielbasa",
+    "polnische wurst kielbasa"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "usda:2706188",
+     "name": "Polish sausage"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2706188",
+     "label": "1 patty",
+     "grams": 35
+    },
+    {
+     "reference": "usda:2706188",
+     "label": "1 cocktail or miniature link",
+     "grams": 10
+    },
+    {
+     "reference": "usda:2706188",
+     "label": "1 breakfast size link",
+     "grams": 20
+    },
+    {
+     "reference": "usda:2706188",
+     "label": "1 bun-size or griller link",
+     "grams": 75
+    },
+    {
+     "reference": "usda:2706188",
+     "label": "1 sausage (10\" long x 1-1/4\" dia)",
+     "grams": 227
+    },
+    {
+     "reference": "usda:2706188",
+     "label": "1 slice",
+     "grams": 15
+    },
+    {
+     "reference": "usda:2706188",
+     "label": "1 piece",
+     "grams": 75
+    },
+    {
+     "reference": "usda:2706188",
+     "label": "1 cup, NFS",
+     "grams": 138
+    },
+    {
+     "reference": "usda:2706188",
+     "label": "1 oz, cooked",
+     "grams": 28.35
+    },
+    {
+     "reference": "usda:2706188",
+     "label": "1 cubic inch",
+     "grams": 21
+    }
+   ]
+  },
+  {
+   "key": "roast chicken oven roasted",
+   "names": [
+    "roast chicken oven roasted",
+    "brathahnchen im ofen gebraten"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:Y560322",
+     "name": "Chicken fried in oven (roast chicken)"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "bremer pinkel oat groat sausage",
+   "names": [
+    "bremer pinkel oat groat sausage",
+    "bremer pinkel"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:W383700",
+     "name": "Bremer Pinkel pork sausage with oat groats"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "wiener schnitzel fried",
+   "names": [
+    "wiener schnitzel fried",
+    "wiener schnitzel gebraten"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:Y231322",
+     "name": "Viennese schnitzel fried"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "red pepper baked",
+   "names": [
+    "red pepper baked",
+    "rote paprika gebacken"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:G543162",
+     "name": "Sweet pepper red, baked"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "black pudding heated",
+   "names": [
+    "black pudding heated",
+    "blutwurst erwarmt"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:Y024113",
+     "name": "Blood sausages heated"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "beef heart braised no fat",
+   "names": [
+    "beef heart braised no fat",
+    "rinderherz geschmort ohne fett"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:V511142",
+     "name": "Beef heart, braised without fat"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "beef tripe boiled",
+   "names": [
+    "beef tripe boiled",
+    "rinderkutteln gekocht"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:V551132",
+     "name": "Beef stomach/tripe, boiled"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "veal loin steak pan fried without fat",
+   "names": [
+    "veal loin steak pan fried without fat",
+    "kalbsruckensteak ohne fett in der pfanne gebraten"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:U331182",
+     "name": "Veal steak (loin) fried without fat (pan)"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "pork medallions pan fried without fat",
+   "names": [
+    "pork medallions pan fried without fat",
+    "schweinefiletmedaillons ohne fett in der pfanne gebraten"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:U511182",
+     "name": "Pork fillet medaillon, fried without fat (pan)"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "pork butterfly steak pan fried without fat",
+   "names": [
+    "pork butterfly steak pan fried without fat",
+    "schmetterlingssteak vom schwein ohne fett in der pfanne gebraten"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:U533182",
+     "name": "Pork steak (loin) fried without fat (pan)"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "trout pan fried without fat",
+   "names": [
+    "trout pan fried without fat",
+    "forelle ohne fett gebraten pfanne"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:T420182",
+     "name": "Trout fried without fat (pan)"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "soft macaron jam or cream filled",
+   "names": [
+    "soft macaron jam or cream filled",
+    "macaron",
+    "macarons",
+    "french macaron",
+    "pariser macaron",
+    "soft macaron"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "ciqual:23024",
+     "name": "Macaron moelleux fourré à la confiture ou à la crème"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "bakewell tart iced",
+   "names": [
+    "bakewell tart iced",
+    "bakewell tart",
+    "bakewell tarts",
+    "cherry bakewell"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "cofid:11-845",
+     "name": "Tarts, bakewell, iced, retail"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "jackfruit",
+   "names": [
+    "jackfruit",
+    "jackfrucht",
+    "jack fruit",
+    "young jackfruit",
+    "jackfruit roh",
+    "jackfrucht roh"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:F549100",
+     "name": "Jackfruit raw"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "quorn pieces",
+   "names": [
+    "quorn pieces",
+    "quorn stucke",
+    "quorn",
+    "mycoprotein",
+    "mycoprotein pieces",
+    "quorn geschnetzeltes",
+    "mykoprotein"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "cofid:13-574",
+     "name": "Quorn, pieces, as purchased"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "masa harina cooked",
+   "names": [
+    "masa harina cooked"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2708376",
+     "name": "Masa harina, cooked"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2708376",
+     "label": "1 cup, cooked",
+     "grams": 240
+    }
+   ]
+  }
+ ]
+}

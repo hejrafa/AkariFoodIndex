@@ -1,0 +1,68 @@
+{
+  "id": "akari:label:immune-complex-tablet",
+  "name": "Immune complex capsule or tablet",
+  "identity": "One-a-day tablet with high-dose vitamin C, zinc, selenium and vitamin D sold for the immune system; the dose is one tablet.",
+  "rule": "Per 100 g of the product, each value is the median of the labels below that declare it, and a value enters only when at least three declare it; a label states its nutrients per dose, so the file converts them with the dose's weight (the pack's net content divided by its count of tablets, capsules, sticks or drops, or the stated dose weight). Salt becomes sodium (salt in g × 400 = sodium in mg). Fewer than three labels declare energy, so the row stands at 0 kcal under the verification policy's clause for label generics with a micronutrient. Nothing a label leaves out becomes zero. Labels read on 2026-10-30 from dm.de, rossmann.de and shop-apotheke.com product pages.",
+  "nutrients": {
+    "vitaminC": 27108.4,
+    "vitaminD": 1984.13,
+    "calories": 0
+  },
+  "portions": [
+    {
+      "grams": 1.10667,
+      "label": "1 dose, tablet or capsules"
+    }
+  ],
+  "labels": [
+    {
+      "brand": "tetesept",
+      "product": "Immusan C Complex Tabletten 20 St., 25,2 g",
+      "read": "https://www.dm.de/p/d/1458495/ (dm.de product page, Nährwerte and Zutaten panels; GTIN not stated)",
+      "date": "2026-10-30",
+      "ingredients": "Ascorbinsäure (Vitamin C); Füllstoffe Hydroxypropylmethylcellulose, Mikrokristalline Cellulose, Calciumcarbonat; Zinkoxid; Trennmittel Magnesiumsalz der Speisefettsäuren; Überzugsmittel Hydroxypropylcellulose; Saccharose; Maltodextrin; modifizierte Stärke; Füllstoff Gummi Arabicum; Trennmittel Talkum; Öl pflanzlich (Kokosnuss); Maisstärke; Trennmittel Speisefettsäure; Füllstoff Mannit; Farbstoff Eisenoxid gelb; Natriumselenat; Trennmittel Tricalciumphosphat; Cholecalciferol (Vitamin D3); Antioxidationsmittel DL-alpha-Tocopherol; Cyanocobalamin (Vitamin B12)",
+      "serving": "1 Tablette: 20 units weigh 25.2 g, so the dose is 1.26 g; the label declares per dose: seleniumUg 55, zincMg 10, vitaminB12Ug 10, vitaminCMg 800, vitaminDUg 25; no energy or macros declared; the page's table states no dose count; taken as one unit, the one-a-day form the pack size implies",
+      "per100g": {
+        "seleniumUg": 4365.08,
+        "zincMg": 793.651,
+        "vitaminB12Ug": 793.651,
+        "vitaminCMg": 63492.1,
+        "vitaminDUg": 1984.13
+      }
+    },
+    {
+      "brand": "altapharma",
+      "product": "Immun Komplex mit natürlichem Vitamin C, 60 Kapseln, 33 g",
+      "read": "https://www.rossmann.de/de/gesundheit-altapharma-immun-komplex-mit-natuerlichem-vitamin-c/p/4068134099440 (rossmann.de product page, Zutaten and Nährwerte sections; GTIN 4068134099440)",
+      "date": "2026-10-30",
+      "ingredients": "Maltodextrin, Acerola Fruchtextrakt, Hagebutten-Fruchtextrakt, Echinacea purpurea Kraut Extrakt (4:1), Überzugsmittel Hydroxypropylmethylcellulose, Füllstoff mikrokristalline Cellulose, Trennmittel Magnesiumsalze der Speisefettsäuren, Calciumsilikat, Siliciumdioxid, Zinkoxid, Natriumselenat, Cholecalciferol",
+      "serving": "2 Kapseln: 60 units weigh 33 g, so the dose is 1.1 g; the label declares per dose: zincMg 3.5, seleniumUg 45, vitaminDUg 15, vitaminCMg 100; per 100 g 1184 kJ / 279 kcal, fat 0.5 g, saturates 0 g, carbohydrate 69 g, sugars 2.3 g, protein 0.5 g, salt 0.11 g",
+      "per100g": {
+        "zincMg": 318.182,
+        "seleniumUg": 4090.91,
+        "vitaminDUg": 1363.64,
+        "vitaminCMg": 9090.91,
+        "energyKcal": 279.0,
+        "fat": 0.5,
+        "saturates": 0.0,
+        "carbohydrate": 69.0,
+        "sugars": 2.3,
+        "protein": 0.5,
+        "salt": 0.11
+      }
+    },
+    {
+      "brand": "Doppelherz",
+      "product": "aktiv B12 + C + D3 Energie + Immun Depot, 30 Tabletten, 33,2 g",
+      "read": "https://www.rossmann.de/de/gesundheit-doppelherz-aktiv-b12--c--d3-energie--immun-depot/p/4009932131888 (rossmann.de product page, Zutaten and Nährwerte sections; GTIN 4009932131888)",
+      "date": "2026-10-30",
+      "ingredients": "Füllstoff mikrokristalline Cellulose, L-Ascorbinsäure, Füllstoff Dicalciumphosphat, Füllstoff Hydroxypropylmethylcellulose, modifizierte Stärke, Trennmittel Speisefettsäuren, Trennmittel Magnesiumsalze der Speisefettsäuren, Stärke, Trennmittel Talkum, Trennmittel Siliciumdioxid, Feuchthaltemittel Glycerin, Farbstoff Eisenoxide und Eisenhydroxide, Cyanocobalamin, Cholecalciferol",
+      "serving": "1 Tablette: 30 units weigh 33.2 g, so the dose is 1.11 g; the label declares per dose: vitaminDUg 37.5, vitaminCMg 300, vitaminB12Ug 200; no energy or macros declared",
+      "per100g": {
+        "vitaminDUg": 3388.55,
+        "vitaminCMg": 27108.4,
+        "vitaminB12Ug": 18072.3
+      }
+    }
+  ]
+}

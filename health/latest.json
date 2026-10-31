@@ -1,108 +1,124 @@
 {
   "format": 1,
-  "generatedAt": "2026-10-30T16:39:49Z",
-  "auditFinishedAt": "2026-10-30T16:35:24Z",
-  "commit": "1e60589a02e8aa8ec0ec62a9fd9ce53dcaf6c420",
-  "dataContentHash": "22afae9fd0fba4df4e1340fbc8ba023ace35f83f48f0b244501136ea16b4b743",
+  "generatedAt": "2026-10-31T01:27:22Z",
+  "auditFinishedAt": "2026-10-31T01:14:21Z",
+  "commit": "0e9f76ed1f52ad78472c922ebbab2122b0940d7f",
+  "dataContentHash": "1fb2b21a56a0394a2de40ab5dabb8782f39055d76f74669bc6b24f8b1a0e8dff",
   "catalogue": {
-    "rows": 21513,
-    "namedBoth": 21513,
+    "rows": 21603,
+    "namedBoth": 21603,
     "namedEnglishOnly": 0,
     "namedGermanOnly": 0,
     "unnamed": 0,
     "sources": {
-      "akariLabel": 1,
+      "akariLabel": 81,
       "bls": 7106,
       "ciqual": 3281,
       "cofid": 2845,
       "mext": 2526,
-      "usda": 5754
+      "usda": 5764
     },
-    "references": 1690,
-    "namedOnly": 19823,
+    "references": 2005,
+    "namedOnly": 19598,
     "verifiedDrinks": 216,
     "artwork": {
-      "withFamily": 18723,
-      "none": 2790
+      "withFamily": 18908,
+      "none": 2695
     }
   },
   "dishes": {
     "chains": {
-      "mcdonaldsDe": 114
+      "byChain": {
+        "backwerkDe": 52,
+        "burgerkingDe": 142,
+        "deananddavidDe": 94,
+        "fiveguysDe": 15,
+        "greggsUk": 222,
+        "hansimglueckDe": 153,
+        "kfcDe": 155,
+        "mcdonaldsDe": 114,
+        "nordseeDe": 41,
+        "subwayDe": 106
+      },
+      "byKind": {
+        "fastFood": 532,
+        "restaurant": 288,
+        "bakery": 274
+      }
     },
     "recipes": {
-      "total": 1501,
-      "reviewed": 24,
-      "verified": 1068
+      "total": 1562,
+      "reviewed": 85,
+      "verified": 1459
     },
     "globalDishes": 468,
     "cafe": {
       "generic": 216,
       "starbucks": 1161,
-      "verified": 74
+      "verified": 197
     }
   },
   "nutrients": {
     "overall": [
       {
         "key": "fiber",
-        "share": 0.959
+        "share": 0.956
       },
       {
         "key": "sugar",
-        "share": 0.844
+        "share": 0.842
       },
       {
         "key": "saturatedFat",
-        "share": 0.833
+        "share": 0.832
       },
       {
         "key": "calcium",
-        "share": 0.96
-      },
-      {
-        "key": "iron",
-        "share": 0.947
-      },
-      {
-        "key": "magnesium",
-        "share": 0.953
-      },
-      {
-        "key": "potassium",
         "share": 0.957
       },
       {
+        "key": "iron",
+        "share": 0.944
+      },
+      {
+        "key": "magnesium",
+        "share": 0.95
+      },
+      {
+        "key": "potassium",
+        "share": 0.954
+      },
+      {
         "key": "zinc",
-        "share": 0.931
+        "share": 0.928
       },
       {
         "key": "iodine",
-        "share": 0.471
+        "share": 0.469
       },
       {
         "key": "selenium",
-        "share": 0.463
+        "share": 0.462
       },
       {
         "key": "vitaminA",
-        "share": 0.866
+        "share": 0.864
       },
       {
         "key": "vitaminD",
-        "share": 0.851
+        "share": 0.849
       },
       {
         "key": "vitaminB12",
-        "share": 0.887
+        "share": 0.884
       },
       {
         "key": "folate",
-        "share": 0.909
+        "share": 0.907
       },
       {
         "key": "vitaminC",
-        "share": 0.846
+        "share": 0.844
       }
     ],
     "bySource": {
@@ -125,7 +141,7 @@
       },
       "usda": {
         "fiber": 0.972,
-        "sugar": 0.965,
+        "sugar": 0.964,
         "saturatedFat": 0.961,
         "calcium": 0.999,
         "iron": 0.999,
@@ -151,7 +167,7 @@
         "zinc": 0.698,
         "iodine": 0.374,
         "selenium": 0.337,
-        "vitaminA": 0.557,
+        "vitaminA": 0.558,
         "vitaminD": 0.411,
         "vitaminB12": 0.591,
         "folate": 0.679,
@@ -194,14 +210,14 @@
     }
   },
   "portions": {
-    "total": 1942,
+    "total": 2132,
     "origin": {
-      "generated": 1914,
+      "generated": 2104,
       "reviewed": 28
     },
     "weightSource": {
-      "estimate": 1839,
-      "householdMeasure": 103
+      "estimate": 2023,
+      "householdMeasure": 109
     },
     "webCheck": {
       "checkedOn": "2026-10-30",
@@ -213,32 +229,32 @@
     }
   },
   "staples": {
-    "foods": 1389,
-    "verified": 1389,
+    "foods": 1601,
+    "verified": 1601,
     "categories": [
       {
         "key": "bread",
         "en": "Bread and bakery",
         "de": "Brot und Backwaren",
-        "foods": 98
+        "foods": 100
       },
       {
         "key": "vegetables",
         "en": "Vegetables",
         "de": "Gemüse",
-        "foods": 133
+        "foods": 134
       },
       {
         "key": "fruit",
         "en": "Fruit",
         "de": "Obst",
-        "foods": 68
+        "foods": 66
       },
       {
         "key": "dairy",
         "en": "Dairy and eggs",
         "de": "Milchprodukte und Eier",
-        "foods": 98
+        "foods": 114
       },
       {
         "key": "meat",
@@ -250,7 +266,7 @@
         "key": "fish",
         "en": "Fish and seafood",
         "de": "Fisch und Meeresfrüchte",
-        "foods": 69
+        "foods": 70
       },
       {
         "key": "sausages",
@@ -262,50 +278,56 @@
         "key": "grains",
         "en": "Grains, pasta, rice and cereals",
         "de": "Getreide, Nudeln, Reis und Cerealien",
-        "foods": 114
+        "foods": 111
       },
       {
         "key": "legumes-nuts",
         "en": "Legumes, nuts and seeds",
         "de": "Hülsenfrüchte, Nüsse und Samen",
-        "foods": 62
+        "foods": 66
       },
       {
         "key": "fats-spices",
         "en": "Fats, oils, spices and condiments",
         "de": "Fette, Öle, Gewürze und Saucen",
-        "foods": 158
+        "foods": 146
       },
       {
         "key": "drinks",
         "en": "Drinks",
         "de": "Getränke",
-        "foods": 94
+        "foods": 184
       },
       {
         "key": "sweets-snacks",
         "en": "Sweets, snacks, cakes and spreads",
         "de": "Süßes, Snacks, Kuchen und Aufstriche",
-        "foods": 137
+        "foods": 152
       },
       {
         "key": "convenience",
         "en": "Convenience foods (sealed products)",
         "de": "Fertigprodukte",
-        "foods": 115
+        "foods": 158
       },
       {
         "key": "baby-food",
         "en": "Baby food",
         "de": "Babynahrung",
-        "foods": 47
+        "foods": 54
+      },
+      {
+        "key": "supplements",
+        "en": "Supplements",
+        "de": "Nahrungsergänzung",
+        "foods": 50
       }
     ],
-    "rowsChecked": 1791,
+    "rowsChecked": 1999,
     "gaps": 0
   },
   "drinks": {
-    "sourceRecords": 21513,
+    "sourceRecords": 21603,
     "measured": 1413,
     "withoutVolume": 0
   },
@@ -335,7 +357,7 @@
       "meals": 66,
       "dishesBuilt": 47,
       "ingredientsVerified": {
-        "right": 209,
+        "right": 205,
         "of": 215
       },
       "foods": 324,
@@ -350,15 +372,15 @@
       "quantityAccuracyPercent": 100.0,
       "unresolvedRatePercent": 0.0,
       "englishOnlyInGerman": 0,
-      "averageAnalysisMs": 148.6
+      "averageAnalysisMs": 150.4
     },
     "portionPicker": {
-      "products": 22890
+      "products": 22980
     }
   },
   "tests": {
     "dataLane": {
-      "executed": 260,
+      "executed": 267,
       "failures": 0
     }
   },
@@ -397,8 +419,8 @@
       "en": "Supermarket basics",
       "de": "Grundnahrungsmittel",
       "sticker": "egg",
-      "count": 1389,
-      "verified": 1389
+      "count": 1601,
+      "verified": 1601
     },
     {
       "key": "baking",
@@ -406,8 +428,622 @@
       "en": "Cakes and pastries",
       "de": "Kuchen und Gebäck",
       "sticker": "shortcake",
-      "count": 867,
-      "verified": 48
+      "count": 102,
+      "verified": 102,
+      "members": [
+        {
+          "en": "Braided sweet bread",
+          "de": "Hefezopf",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Stollen",
+          "de": "Christstollen",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Hot cross bun",
+          "de": "Hot Cross Bun",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Croissant",
+          "de": "Croissant",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Chocolate croissant",
+          "de": "Schokocroissant",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Nougat croissant",
+          "de": "Nougatcroissant",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Franzbrötchen",
+          "de": "Franzbrötchen",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Cinnamon roll",
+          "de": "Zimtschnecke",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Nut swirl",
+          "de": "Nussschnecke",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Custard swirl",
+          "de": "Puddingschnecke",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Raisin swirl",
+          "de": "Rosinenschnecke",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Poppy seed swirl",
+          "de": "Mohnschnecke",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Streusel swirl",
+          "de": "Streuselschnecke",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Danish pastry",
+          "de": "Plunderteilchen",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Cheese danish",
+          "de": "Quarktasche",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Apple turnover",
+          "de": "Apfeltasche",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Jam doughnut",
+          "de": "Berliner",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Doughnut",
+          "de": "Donut",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Quark balls",
+          "de": "Quarkbällchen",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Amerikaner",
+          "de": "Amerikaner",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Muffin",
+          "de": "Muffin",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Blueberry muffin",
+          "de": "Blaubeermuffin",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Chocolate muffin",
+          "de": "Schokomuffin",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Scone",
+          "de": "Scone",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Waffle",
+          "de": "Waffel",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Cream puff",
+          "de": "Windbeutel",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Chocolate éclair",
+          "de": "Schoko-Eclair",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Baklava",
+          "de": "Baklava",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Apple strudel",
+          "de": "Apfelstrudel",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Quark strudel",
+          "de": "Quarkstrudel",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Pumpkin pie",
+          "de": "Kürbis-Pie",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Pecan pie",
+          "de": "Pekannuss-Pie",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Cheesecake",
+          "de": "Käsekuchen",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "New York cheesecake",
+          "de": "New York Cheesecake",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Quark cream cake",
+          "de": "Käsesahnetorte",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Apple cake",
+          "de": "Apfelkuchen",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Apple pie",
+          "de": "Gedeckter Apfelkuchen",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Apple crumble cake",
+          "de": "Apfelstreuselkuchen",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Streusel cake",
+          "de": "Streuselkuchen",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Bee sting cake",
+          "de": "Bienenstich",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Butter cake",
+          "de": "Butterkuchen",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Plum cake",
+          "de": "Zwetschgenkuchen",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Strawberry cake",
+          "de": "Erdbeerkuchen",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Fruit flan",
+          "de": "Obstkuchen",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Rhubarb cake",
+          "de": "Rhabarberkuchen",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Black Forest gateau",
+          "de": "Schwarzwälder Kirschtorte",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Marble cake",
+          "de": "Marmorkuchen",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Pound cake",
+          "de": "Rührkuchen",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Gugelhupf",
+          "de": "Gugelhupf",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Danube wave cake",
+          "de": "Donauwelle",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Frankfurt crown cake",
+          "de": "Frankfurter Kranz",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Sacher torte",
+          "de": "Sachertorte",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Linzer torte",
+          "de": "Linzer Torte",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Carrot cake",
+          "de": "Karottenkuchen",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Chocolate cake",
+          "de": "Schokoladenkuchen",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Lemon cake",
+          "de": "Zitronenkuchen",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Nut cake",
+          "de": "Nusskuchen",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Swiss roll",
+          "de": "Biskuitrolle",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Baumkuchen",
+          "de": "Baumkuchen",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Brownie",
+          "de": "Brownie",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Cupcake",
+          "de": "Cupcake",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Fruit cake",
+          "de": "Englischer Kuchen",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Banana bread",
+          "de": "Bananenbrot",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Victoria sponge",
+          "de": "Victoria Sponge",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Lebkuchen",
+          "de": "Lebkuchen",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Dominosteine",
+          "de": "Dominosteine",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Speculoos",
+          "de": "Spekulatius",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Vanilla crescents",
+          "de": "Vanillekipferl",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Cinnamon stars",
+          "de": "Zimtsterne",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Pfeffernüsse",
+          "de": "Pfeffernüsse",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Butter cookies",
+          "de": "Butterplätzchen",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Coconut macaroons",
+          "de": "Kokosmakronen",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Nut triangle",
+          "de": "Nussecke",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Butter biscuit",
+          "de": "Butterkeks",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Chocolate biscuit",
+          "de": "Schokoladenkeks",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Digestive biscuit",
+          "de": "Digestive-Keks",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Chocolate digestive",
+          "de": "Schoko-Digestive",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Shortbread",
+          "de": "Shortbread",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Chocolate chip cookie",
+          "de": "Schoko-Cookie",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Oat cookie",
+          "de": "Haferkeks",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Chocolate sandwich cookie",
+          "de": "Doppelkeks",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Wafer biscuits",
+          "de": "Waffelkekse",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Jaffa cakes",
+          "de": "Jaffa Cakes",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Ginger biscuit",
+          "de": "Ingwerkeks",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Graham crackers",
+          "de": "Graham-Cracker",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Biscotti",
+          "de": "Cantuccini",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Flapjack",
+          "de": "Flapjack",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Ladyfingers",
+          "de": "Löffelbiskuits",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Cherry cake",
+          "de": "Kirschkuchen",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Cream cake",
+          "de": "Sahnetorte",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Strawberry cream cake",
+          "de": "Erdbeersahnetorte",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Buttercream cake",
+          "de": "Buttercremetorte",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Prinzregententorte",
+          "de": "Prinzregententorte",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Eierschecke",
+          "de": "Eierschecke",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Poppy seed cake",
+          "de": "Mohnkuchen",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Crêpe",
+          "de": "Crêpe",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Almond crescent",
+          "de": "Mandelhörnchen",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Palmier",
+          "de": "Schweineohr",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Spritz cookies",
+          "de": "Spritzgebäck",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Printen",
+          "de": "Printen",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Mutzen",
+          "de": "Mutzen",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Bakewell tart",
+          "de": "Bakewell Tart",
+          "kind": "staple",
+          "verified": true
+        }
+      ]
     },
     {
       "key": "plant-based",
@@ -415,8 +1051,364 @@
       "en": "Plant-based",
       "de": "Pflanzlich",
       "sticker": "seedling",
-      "count": 185,
-      "verified": 14
+      "count": 59,
+      "verified": 59,
+      "members": [
+        {
+          "en": "Edamame",
+          "de": "Edamame",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Oat milk",
+          "de": "Haferdrink",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Barista oat drink",
+          "de": "Barista-Haferdrink",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Soy milk",
+          "de": "Sojadrink",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Almond milk",
+          "de": "Mandeldrink",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Rice milk",
+          "de": "Reisdrink",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Coconut drink",
+          "de": "Kokosdrink",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Soy yogurt",
+          "de": "Sojajoghurt",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Coconut yogurt",
+          "de": "Kokosjoghurt",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Vegan cheese",
+          "de": "Veganer Käse",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Chocolate soy milk",
+          "de": "Sojadrink Schoko",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Sweetened soy milk",
+          "de": "Sojadrink, gesüßt",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Flavoured soy drink",
+          "de": "Sojadrink Vanille",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Flavoured oat drink",
+          "de": "Haferdrink Vanille",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Fortified oat drink",
+          "de": "Haferdrink mit Calcium",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Fortified soy drink",
+          "de": "Sojadrink mit Calcium",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Fortified almond drink",
+          "de": "Mandeldrink mit Calcium",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Flavoured almond drink",
+          "de": "Mandeldrink Vanille",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Chocolate almond milk",
+          "de": "Mandeldrink Schoko",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Flavoured soy yogurt",
+          "de": "Sojajoghurt Vanille",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Plant-based pudding",
+          "de": "Sojapudding",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Vegan cream cheese",
+          "de": "Vegane Frischcreme",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Cashew cheese",
+          "de": "Cashewkäse",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Vegan mozzarella",
+          "de": "Veganer Mozzarella",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Chickpeas",
+          "de": "Kichererbsen",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Red lentils",
+          "de": "Rote Linsen",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Lentils",
+          "de": "Linsen",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Soybeans",
+          "de": "Sojabohnen",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Hummus",
+          "de": "Hummus",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Tofu",
+          "de": "Tofu",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Silken tofu",
+          "de": "Seidentofu",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Seitan",
+          "de": "Seitan",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Textured soy protein",
+          "de": "Sojagranulat",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Soy cream",
+          "de": "Sojakochcreme",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Veggie burger patty",
+          "de": "Veggie-Patty",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Vegetarian sausages",
+          "de": "Vegetarische Würstchen",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Veggie nuggets",
+          "de": "Vegetarische Nuggets",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Vegan meatballs",
+          "de": "Vegane Hackbällchen",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Vegan chicken pieces",
+          "de": "Vegane Hähnchenstücke",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Coconut milk",
+          "de": "Kokosmilch",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Tahini",
+          "de": "Tahin",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Peanut butter",
+          "de": "Erdnussbutter",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Almond butter",
+          "de": "Mandelmus",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Hazelnut butter",
+          "de": "Haselnussmus",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Cashew butter",
+          "de": "Cashewmus",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Vegan sausage spread",
+          "de": "Vegane Streichwurst",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Vegan bacon",
+          "de": "Veganer Bacon",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Vegetable patties",
+          "de": "Gemüsebratlinge",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Lentil patties",
+          "de": "Linsenbratlinge",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Lupin flour",
+          "de": "Lupinenmehl",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Vegetable spread",
+          "de": "Gemüseaufstrich",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Jackfruit",
+          "de": "Jackfrucht",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Vegetarian bratwurst",
+          "de": "Vegetarische Bratwurst",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Margarine",
+          "de": "Margarine",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Nutritional yeast",
+          "de": "Hefeflocken",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Vegan mayonnaise",
+          "de": "Vegane Mayonnaise",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Vegan lard",
+          "de": "Veganes Schmalz",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Sorbet",
+          "de": "Sorbet",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Falafel",
+          "de": "Falafel",
+          "kind": "staple",
+          "verified": true
+        }
+      ]
     },
     {
       "key": "baby-food",
@@ -424,8 +1416,334 @@
       "en": "Baby food",
       "de": "Babynahrung",
       "sticker": "baby-bottle",
-      "count": 186,
-      "verified": 56
+      "count": 54,
+      "verified": 54,
+      "members": [
+        {
+          "en": "Infant formula, first stage",
+          "de": "Anfangsmilch (Pre)",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Follow-on formula",
+          "de": "Folgemilch",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Toddler milk",
+          "de": "Kindermilch",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Baby cereal, oats",
+          "de": "Babybrei Hafer",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Baby cereal, rice",
+          "de": "Babybrei Reis",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Baby cereal, multigrain",
+          "de": "Babybrei Mehrkorn",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Baby cereal",
+          "de": "Getreidebrei",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Instant milk cereal",
+          "de": "Milchbrei-Pulver",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Milk cereal purée",
+          "de": "Milchbrei",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Grain and fruit purée",
+          "de": "Getreide-Obst-Brei",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Baby cereal milk drink",
+          "de": "Trinkbrei",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Vegetable purée",
+          "de": "Gemüsebrei",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Carrot purée",
+          "de": "Karottenbrei",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Pumpkin purée",
+          "de": "Kürbisbrei",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Sweet potato purée",
+          "de": "Süßkartoffelbrei",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Pea purée, baby",
+          "de": "Erbsenbrei, Baby",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Green bean purée",
+          "de": "Grüne-Bohnen-Brei",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Mixed vegetable purée",
+          "de": "Gemüse-Allerlei",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Vegetable, potato and chicken purée",
+          "de": "Gemüse-Kartoffel-Hühnchen-Brei",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Vegetable, potato and beef purée",
+          "de": "Gemüse-Kartoffel-Rind-Brei",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Vegetable, potato and pork purée",
+          "de": "Gemüse-Kartoffel-Schwein-Brei",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Vegetable, potato and salmon purée",
+          "de": "Gemüse-Kartoffel-Lachs-Brei",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Potato and fennel purée",
+          "de": "Kartoffel-Fenchel-Brei",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Potato and courgette purée",
+          "de": "Kartoffel-Zucchini-Brei",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Potato and spinach purée",
+          "de": "Kartoffel-Spinat-Brei",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Potato, carrot and pumpkin purée",
+          "de": "Kartoffel-Karotten-Kürbis-Brei",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Potato, carrot and parsnip purée",
+          "de": "Kartoffel-Karotten-Pastinaken-Brei",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Baby meal jar",
+          "de": "Menügläschen",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Fruit purée",
+          "de": "Obstbrei",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Apple purée, baby",
+          "de": "Apfelbrei, Baby",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Pear purée, baby",
+          "de": "Birnenbrei, Baby",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Banana purée, baby",
+          "de": "Bananenbrei, Baby",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Peach purée, baby",
+          "de": "Pfirsichbrei, Baby",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Mango purée, baby",
+          "de": "Mangobrei, Baby",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Mixed fruit purée, baby",
+          "de": "Früchte-Allerlei",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Fruit and vegetable purée, baby",
+          "de": "Obst-Gemüse-Brei",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Fruit purée with yogurt, baby",
+          "de": "Frucht & Joghurt",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Baby yogurt",
+          "de": "Kinderjoghurt",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Baby milk dessert",
+          "de": "Milchdessert, Baby",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Baby pudding",
+          "de": "Babypudding",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Meat purée, baby",
+          "de": "Fleischbrei",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Chicken purée, baby",
+          "de": "Hühnchenbrei",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Turkey purée, baby",
+          "de": "Putenbrei",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Beef purée, baby",
+          "de": "Rindfleischbrei",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Baby juice",
+          "de": "Babysaft",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Baby biscuit",
+          "de": "Babykeks",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Yogurt melts",
+          "de": "Joghurt-Drops",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Fruit pouch, apple and banana",
+          "de": "Fruchtquetschie Apfel-Banane",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Toddler puffs",
+          "de": "Baby-Puffs",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Toddler crackers",
+          "de": "Kleinkind-Cracker",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Baby rusk",
+          "de": "Babyzwieback",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Baby tea",
+          "de": "Babytee",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Toddler meal",
+          "de": "Kleinkindmenü",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Fruit, vegetable and grain purée, baby",
+          "de": "Obst-Gemüse-Getreide-Brei",
+          "kind": "staple",
+          "verified": true
+        }
+      ]
     },
     {
       "key": "recipes",
@@ -433,8 +1751,8 @@
       "en": "Dishes",
       "de": "Gerichte",
       "sticker": "spaghetti",
-      "count": 1501,
-      "verified": 1068
+      "count": 1562,
+      "verified": 1459
     },
     {
       "key": "takeaway",
@@ -442,8 +1760,754 @@
       "en": "Takeaway and street food",
       "de": "Imbiss und Streetfood",
       "sticker": "pizza",
-      "count": 266,
-      "verified": 13
+      "count": 124,
+      "verified": 124,
+      "members": [
+        {
+          "en": "Naan",
+          "de": "Naan",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Potato pancakes",
+          "de": "Kartoffelpuffer",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Chicken nuggets",
+          "de": "Chicken Nuggets",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "French fries",
+          "de": "Pommes frites",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Potato wedges",
+          "de": "Kartoffelspalten",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Onion rings",
+          "de": "Zwiebelringe",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Dumplings",
+          "de": "Dumplings",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Pizza margherita",
+          "de": "Pizza Margherita",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Burrito bowl",
+          "de": "Burrito Bowl",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Currywurst",
+          "de": "Currywurst",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Pizza salami",
+          "de": "Pizza Salami",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Pizza funghi",
+          "de": "Pizza Funghi",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Pizza Hawaii",
+          "de": "Pizza Hawaii",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Pizza quattro formaggi",
+          "de": "Pizza Quattro Formaggi",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Pizza tonno",
+          "de": "Pizza Tonno",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Pizza diavola",
+          "de": "Pizza Diavolo",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Calzone",
+          "de": "Calzone",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Salmon nigiri",
+          "de": "Lachs-Nigiri",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "California roll",
+          "de": "California Roll",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Salmon maki",
+          "de": "Lachs-Maki",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Tuna maki",
+          "de": "Thunfisch-Maki",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Salmon onigiri",
+          "de": "Onigiri mit Lachs",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Chicken chow mein",
+          "de": "Gebratene Nudeln mit Hähnchen",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Egg fried rice",
+          "de": "Gebratener Reis mit Ei",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Chicken fried rice",
+          "de": "Gebratener Reis mit Hähnchen",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Char siu bao",
+          "de": "Char Siu Bao",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Korean fried chicken",
+          "de": "Koreanisches Fried Chicken",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Kimchi fried rice",
+          "de": "Gebratener Kimchi-Reis",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Pad Thai",
+          "de": "Pad Thai",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Pho bo",
+          "de": "Pho Bo",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Pho ga",
+          "de": "Pho Ga",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Chicken tikka masala",
+          "de": "Chicken Tikka Masala",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Butter chicken",
+          "de": "Butter Chicken",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Chicken biryani",
+          "de": "Hähnchen-Biryani",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Vegetable biryani",
+          "de": "Gemüse-Biryani",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Chicken tikka",
+          "de": "Chicken Tikka",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Seekh kebab",
+          "de": "Seekh Kebab",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Vegetable samosas",
+          "de": "Gemüse-Samosas",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Beef tacos",
+          "de": "Rindfleisch-Tacos",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Chicken tacos",
+          "de": "Hähnchen-Tacos",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Fish tacos",
+          "de": "Fisch-Tacos",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Tacos al pastor",
+          "de": "Tacos al Pastor",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Carnitas tacos",
+          "de": "Carnitas-Tacos",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Birria tacos",
+          "de": "Birria-Tacos",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Chicken burrito",
+          "de": "Hähnchen-Burrito",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Beef burrito",
+          "de": "Rindfleisch-Burrito",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Bean burrito",
+          "de": "Bohnen-Burrito",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Chicken quesadilla",
+          "de": "Hähnchen-Quesadilla",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Cheese quesadilla",
+          "de": "Käse-Quesadilla",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Nachos with cheese",
+          "de": "Nachos mit Käse",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Loaded nachos",
+          "de": "Loaded Nachos",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Taco salad",
+          "de": "Taco-Salat",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Falafel wrap",
+          "de": "Falafel-Wrap",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Falafel plate",
+          "de": "Falafel-Teller",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Chicken shawarma wrap",
+          "de": "Chicken-Shawarma-Wrap",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Döner kebab",
+          "de": "Döner Kebab",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Chicken döner",
+          "de": "Hähnchen-Döner",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Dürüm kebab",
+          "de": "Dürüm",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Döner plate",
+          "de": "Dönerteller",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Döner box",
+          "de": "Dönerbox",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Lahmacun",
+          "de": "Lahmacun",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Pide with minced meat",
+          "de": "Pide mit Hackfleisch",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Kumpir",
+          "de": "Kumpir",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Gyros plate",
+          "de": "Gyrosteller",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Gyros pita",
+          "de": "Gyros Pita",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Gyros Metaxa",
+          "de": "Gyros Metaxa",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Pork souvlaki",
+          "de": "Souvlaki",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Chicken souvlaki",
+          "de": "Hähnchen-Souvlaki",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Cheeseburger",
+          "de": "Cheeseburger",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Hamburger",
+          "de": "Hamburger",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Bacon cheeseburger",
+          "de": "Bacon-Cheeseburger",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Veggie burger",
+          "de": "Veggie-Burger",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Chicken burger",
+          "de": "Hähnchenburger",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Fried chicken sandwich",
+          "de": "Fried Chicken Sandwich",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Meatball sub",
+          "de": "Meatball-Sandwich",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Hot dog",
+          "de": "Hot Dog",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Buffalo wings",
+          "de": "Buffalo Wings",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Fried chicken",
+          "de": "Fried Chicken",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Chili cheese fries",
+          "de": "Chili-Cheese-Fries",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Fish and chips",
+          "de": "Fish and Chips",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Pork schnitzel with fries",
+          "de": "Schweineschnitzel mit Pommes",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Breakfast burrito",
+          "de": "Frühstücks-Burrito",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Salmon poke bowl",
+          "de": "Poke Bowl mit Lachs",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Tuna poke bowl",
+          "de": "Poke Bowl mit Thunfisch",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Falafel bowl",
+          "de": "Falafel-Bowl",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Churros with chocolate",
+          "de": "Churros mit Schokolade",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Leberkäse roll",
+          "de": "Brötchen mit Fleischkäse",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Vegan vegetable sushi",
+          "de": "Veganes Gemüse-Sushi",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Pizza baguette with ham and cheese",
+          "de": "Pizzabaguette mit Schinken und Käse",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Vegetarian mushroom burrito",
+          "de": "Vegetarischer Burrito mit Pilzen",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Matjes herring roll",
+          "de": "Matjesbrötchen",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Fried fish roll",
+          "de": "Backfischbrötchen",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Fries with ketchup",
+          "de": "Pommes mit Ketchup",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Double cheeseburger",
+          "de": "Doppelter Cheeseburger",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Frikadelle in a roll with ketchup",
+          "de": "Frikadelle mit Brötchen und Ketchup",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Frikadelle with fries and ketchup",
+          "de": "Frikadelle mit Pommes",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Currywurst with a roll",
+          "de": "Currywurst mit Brötchen",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Currywurst with fries",
+          "de": "Currywurst mit Pommes",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Shashlik with fries and ketchup",
+          "de": "Schaschlik mit Pommes",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Gyros burger",
+          "de": "Gyrosburger",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Beef samosas",
+          "de": "Samosas mit Rindfleisch",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Pork and chicken chow mein",
+          "de": "Gebratene Nudeln mit Schweinefleisch und Hähnchen",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Menchi katsu",
+          "de": "Menchi Katsu",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Cheeseburger sliders",
+          "de": "Cheeseburger-Slider",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Hamburger sliders",
+          "de": "Hamburger-Slider",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Double hamburger",
+          "de": "Doppelter Hamburger",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Dessert pizza",
+          "de": "Dessert-Pizza",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Mexican pizza",
+          "de": "Mexikanische Pizza",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Vegetarian taco salad",
+          "de": "Vegetarischer Taco-Salat",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Cheese pizza",
+          "de": "Käsepizza",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Pepperoni pizza",
+          "de": "Peperoni-Pizza",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Meat lovers pizza",
+          "de": "Pizza mit viel Fleisch",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Supreme pizza",
+          "de": "Supreme-Pizza",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Pizza rolls",
+          "de": "Pizza-Rolls",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Pad Thai with chicken",
+          "de": "Pad Thai mit Hähnchen",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Pad Thai with beef",
+          "de": "Pad Thai mit Rindfleisch",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Avocado maki",
+          "de": "Avocado-Maki",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Poke bowl",
+          "de": "Poke Bowl",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Fries with ketchup and mayonnaise",
+          "de": "Pommes rot-weiß",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Salmon sashimi",
+          "de": "Lachs-Sashimi",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Halloumi wrap",
+          "de": "Halloumi-Wrap",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Bismarck herring roll",
+          "de": "Bismarckbrötchen",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Half roast chicken with fries",
+          "de": "Halbes Hähnchen mit Pommes",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Chicken nuggets with fries",
+          "de": "Chicken Nuggets mit Pommes",
+          "kind": "recipe",
+          "verified": true
+        }
+      ]
     },
     {
       "key": "cafe-chains",
@@ -452,7 +2516,13 @@
       "de": "Caféketten",
       "sticker": "cup-with-straw",
       "count": 1161,
-      "verified": 1161
+      "verified": 1161,
+      "members": [
+        {
+          "name": "Starbucks Germany",
+          "items": 1161
+        }
+      ]
     },
     {
       "key": "fast-food",
@@ -460,8 +2530,30 @@
       "en": "Fast food chains",
       "de": "Fast-Food-Ketten",
       "sticker": "hamburger",
-      "count": 114,
-      "verified": 114
+      "count": 532,
+      "verified": 532,
+      "members": [
+        {
+          "name": "Burger King Deutschland",
+          "items": 142
+        },
+        {
+          "name": "Five Guys Deutschland",
+          "items": 15
+        },
+        {
+          "name": "KFC Deutschland",
+          "items": 155
+        },
+        {
+          "name": "McDonald's Deutschland",
+          "items": 114
+        },
+        {
+          "name": "Subway Deutschland",
+          "items": 106
+        }
+      ]
     },
     {
       "key": "restaurant-chains",
@@ -469,8 +2561,22 @@
       "en": "Restaurant chains",
       "de": "Restaurantketten",
       "sticker": "fork-and-knife-with-plate",
-      "count": null,
-      "verified": null
+      "count": 288,
+      "verified": 288,
+      "members": [
+        {
+          "name": "dean&david",
+          "items": 94
+        },
+        {
+          "name": "Hans im Glück",
+          "items": 153
+        },
+        {
+          "name": "Nordsee Deutschland",
+          "items": 41
+        }
+      ]
     },
     {
       "key": "bakery-chains",
@@ -478,8 +2584,18 @@
       "en": "Bakery chains",
       "de": "Bäckereiketten",
       "sticker": "bagel",
-      "count": null,
-      "verified": null
+      "count": 274,
+      "verified": 274,
+      "members": [
+        {
+          "name": "BackWerk",
+          "items": 52
+        },
+        {
+          "name": "Greggs",
+          "items": 222
+        }
+      ]
     },
     {
       "key": "cafe",
@@ -488,7 +2604,7 @@
       "de": "Cafégetränke",
       "sticker": "hot-beverage",
       "count": 216,
-      "verified": 74
+      "verified": 197
     },
     {
       "key": "drinks",
@@ -505,8 +2621,316 @@
       "en": "Tea",
       "de": "Tee",
       "sticker": "teacup-without-handle",
-      "count": 90,
-      "verified": 7
+      "count": 51,
+      "verified": 51,
+      "members": [
+        {
+          "en": "Iced tea",
+          "de": "Eistee",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Black tea",
+          "de": "Schwarztee",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Green tea",
+          "de": "Grüner Tee",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Herbal tea",
+          "de": "Kräutertee",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Peppermint tea",
+          "de": "Pfefferminztee",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Fruit tea",
+          "de": "Früchtetee",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Rooibos tea",
+          "de": "Rooibostee",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Chamomile tea",
+          "de": "Kamillentee",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Chai tea",
+          "de": "Chai-Tee",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Earl Grey",
+          "de": "Earl Grey",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Darjeeling",
+          "de": "Darjeeling",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Assam tea",
+          "de": "Assam",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "English breakfast tea",
+          "de": "English Breakfast Tea",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Ceylon tea",
+          "de": "Ceylontee",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "East Frisian tea",
+          "de": "Ostfriesentee",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Turkish tea",
+          "de": "Türkischer Çay",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Sencha",
+          "de": "Sencha",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Jasmine tea",
+          "de": "Jasmintee",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "White tea",
+          "de": "Weißer Tee",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Hojicha",
+          "de": "Hojicha",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Fennel tea",
+          "de": "Fencheltee",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Sage tea",
+          "de": "Salbeitee",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Nettle tea",
+          "de": "Brennnesseltee",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Lemon balm tea",
+          "de": "Melissentee",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Linden tea",
+          "de": "Lindenblütentee",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Rosehip tea",
+          "de": "Hagebuttentee",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Tea with milk",
+          "de": "Tee mit Milch",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Tea with milk and sugar",
+          "de": "Tee mit Milch und Zucker",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Peach iced tea",
+          "de": "Pfirsich-Eistee",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Lemon iced tea",
+          "de": "Zitronen-Eistee",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Ginger tea",
+          "de": "Ingwertee",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Hibiscus tea",
+          "de": "Hibiskustee",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Oolong tea",
+          "de": "Oolong-Tee",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Decaf black tea",
+          "de": "Entkoffeinierter Schwarztee",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Bubble tea",
+          "de": "Bubble Tea",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Sweetened fruit tea",
+          "de": "Früchtetee mit Zucker",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Tea with sugar",
+          "de": "Tee mit Zucker",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Tea with lemon",
+          "de": "Tee mit Zitrone",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "East Frisian tea with cream",
+          "de": "Ostfriesentee mit Kluntje und Sahne",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Sweetened herbal tea",
+          "de": "Kräutertee mit Zucker",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Unsweetened iced tea",
+          "de": "Ungesüßter Eistee",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Sugar-free iced tea",
+          "de": "Eistee zuckerfrei",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Instant tea powder",
+          "de": "Instant-Teepulver",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Green iced tea",
+          "de": "Grüner Eistee",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Iced tea",
+          "de": "Eistee",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Tea with honey",
+          "de": "Tee mit Honig",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Moroccan mint tea",
+          "de": "Marokkanischer Minztee",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Ginger lemon honey tea",
+          "de": "Ingwer-Zitrone-Honig-Tee",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Hong Kong milk tea",
+          "de": "Hongkong-Milchtee",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Thai iced tea",
+          "de": "Thai-Eistee",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "London fog",
+          "de": "London Fog",
+          "kind": "recipe",
+          "verified": true
+        }
+      ]
     },
     {
       "key": "alcohol",
@@ -514,8 +2938,514 @@
       "en": "Beer, wine and spirits",
       "de": "Bier, Wein und Spirituosen",
       "sticker": "wine-glass",
-      "count": 201,
-      "verified": 30
+      "count": 84,
+      "verified": 84,
+      "members": [
+        {
+          "en": "Malt drink",
+          "de": "Malzbier",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Beer",
+          "de": "Bier",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Non-alcoholic beer",
+          "de": "Alkoholfreies Bier",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Stout",
+          "de": "Stout",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Bock beer",
+          "de": "Bockbier",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Kölsch",
+          "de": "Kölsch",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Altbier",
+          "de": "Altbier",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Radler",
+          "de": "Radler",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Beer with cola",
+          "de": "Colabier",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Berliner Weisse",
+          "de": "Berliner Weiße",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Wine",
+          "de": "Wein",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Wine spritzer",
+          "de": "Weinschorle",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Mulled wine",
+          "de": "Glühwein",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Sparkling wine",
+          "de": "Sekt",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Prosecco",
+          "de": "Prosecco",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Champagne",
+          "de": "Champagner",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Federweißer",
+          "de": "Federweißer",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Cider",
+          "de": "Apfelwein",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Port",
+          "de": "Portwein",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Sherry",
+          "de": "Sherry",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Vermouth",
+          "de": "Wermut",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Vodka",
+          "de": "Wodka",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Gin",
+          "de": "Gin",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Rum",
+          "de": "Rum",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Whisky",
+          "de": "Whisky",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Brandy",
+          "de": "Weinbrand",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Schnaps",
+          "de": "Schnaps",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Tequila",
+          "de": "Tequila",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Korn",
+          "de": "Korn",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Ouzo",
+          "de": "Ouzo",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Aquavit",
+          "de": "Aquavit",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Liqueur",
+          "de": "Likör",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Apfelkorn",
+          "de": "Apfelkorn",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Bitter aperitif",
+          "de": "Aperol",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Hard seltzer",
+          "de": "Hard Seltzer",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Helles",
+          "de": "Helles",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Lager",
+          "de": "Lagerbier",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Export beer",
+          "de": "Exportbier",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Schwarzbier",
+          "de": "Schwarzbier",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Riesling",
+          "de": "Riesling",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Grauburgunder",
+          "de": "Grauburgunder",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Spätburgunder",
+          "de": "Spätburgunder",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Cava",
+          "de": "Cava",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Kirschwasser",
+          "de": "Kirschwasser",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Grappa",
+          "de": "Grappa",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Obstler",
+          "de": "Obstler",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Irish whiskey",
+          "de": "Irish Whiskey",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Herbal liqueur",
+          "de": "Kräuterlikör",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Cream liqueur",
+          "de": "Sahnelikör",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Amaretto",
+          "de": "Amaretto",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Limoncello",
+          "de": "Limoncello",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Egg liqueur",
+          "de": "Eierlikör",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Coffee liqueur",
+          "de": "Kaffeelikör",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Campari",
+          "de": "Campari",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Lillet",
+          "de": "Lillet",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Raki",
+          "de": "Raki",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Alcohol-free pilsner 0.0",
+          "de": "Pils 0,0 %",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Alcohol-free wheat beer 0.0",
+          "de": "Weizen 0,0 %",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Doppelbock",
+          "de": "Doppelbock",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Strong beer",
+          "de": "Starkbier",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Craft beer",
+          "de": "Craftbier",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Alcohol-free wheat radler",
+          "de": "Alkoholfreies Weizen-Radler",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Sour radler",
+          "de": "Radler sauer",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Medium sweet red wine",
+          "de": "Rotwein lieblich",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Sweet red wine",
+          "de": "Rotwein süß",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Medium sweet white wine",
+          "de": "Weißwein lieblich",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Sweet white wine",
+          "de": "Weißwein süß",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Medium dry sparkling wine",
+          "de": "Sekt halbtrocken",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Brut sparkling wine",
+          "de": "Sekt brut",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Sweet sparkling wine",
+          "de": "Sekt süß",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Dessert wine",
+          "de": "Dessertwein",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Ice wine",
+          "de": "Eiswein",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Madeira",
+          "de": "Madeira",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Cognac",
+          "de": "Cognac",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Calvados",
+          "de": "Calvados",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Scotch whisky",
+          "de": "Scotch Whisky",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Bourbon",
+          "de": "Bourbon",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Cachaça",
+          "de": "Cachaça",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Sake",
+          "de": "Sake",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Pastis",
+          "de": "Pastis",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Alcopop",
+          "de": "Alkopop",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Dry vermouth",
+          "de": "Trockener Wermut",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Crème de cassis",
+          "de": "Crème de Cassis",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Strawberry punch",
+          "de": "Erdbeerbowle",
+          "kind": "staple",
+          "verified": true
+        }
+      ]
     },
     {
       "key": "cocktails",
@@ -523,8 +3453,316 @@
       "en": "Cocktails",
       "de": "Cocktails",
       "sticker": "tropical-drink",
-      "count": null,
-      "verified": null
+      "count": 51,
+      "verified": 51,
+      "members": [
+        {
+          "en": "Sangria",
+          "de": "Sangria",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Gin and tonic",
+          "de": "Gin Tonic",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Hugo",
+          "de": "Hugo",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Cuba libre",
+          "de": "Cuba Libre",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Mojito",
+          "de": "Mojito",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Caipirinha",
+          "de": "Caipirinha",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Piña colada",
+          "de": "Piña Colada",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Margarita",
+          "de": "Margarita",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Campari orange",
+          "de": "Campari Orange",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Eggnog",
+          "de": "Eierpunsch",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Tequila Sunrise",
+          "de": "Tequila Sunrise",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Mai Tai",
+          "de": "Mai Tai",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Michelada",
+          "de": "Michelada",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Shirley Temple",
+          "de": "Shirley Temple",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Aperol Spritz",
+          "de": "Aperol Spritz",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Lillet Wild Berry",
+          "de": "Lillet Wild Berry",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Whisky cola",
+          "de": "Whisky-Cola",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Vodka energy",
+          "de": "Wodka-Energy",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Sex on the Beach",
+          "de": "Sex on the Beach",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Long Island iced tea",
+          "de": "Long Island Iced Tea",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Cosmopolitan",
+          "de": "Cosmopolitan",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Daiquiri",
+          "de": "Daiquiri",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Espresso martini",
+          "de": "Espresso Martini",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Whiskey sour",
+          "de": "Whiskey Sour",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Amaretto sour",
+          "de": "Amaretto Sour",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Old Fashioned",
+          "de": "Old Fashioned",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Negroni",
+          "de": "Negroni",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Manhattan",
+          "de": "Manhattan",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Gin martini",
+          "de": "Gin-Martini",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Bloody Mary",
+          "de": "Bloody Mary",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Caipiroska",
+          "de": "Caipiroska",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Swimming Pool",
+          "de": "Swimming Pool",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Mint julep",
+          "de": "Mint Julep",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "White Russian",
+          "de": "White Russian",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Black Russian",
+          "de": "Black Russian",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Irish coffee",
+          "de": "Irish Coffee",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Kir Royal",
+          "de": "Kir Royal",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Kir",
+          "de": "Kir",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Bellini",
+          "de": "Bellini",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Mimosa",
+          "de": "Mimosa",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Tom Collins",
+          "de": "Tom Collins",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Gin fizz",
+          "de": "Gin Fizz",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "French 75",
+          "de": "French 75",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Sidecar",
+          "de": "Sidecar",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Gin basil smash",
+          "de": "Gin Basil Smash",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Bramble",
+          "de": "Bramble",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Pornstar martini",
+          "de": "Pornstar Martini",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Tinto de verano",
+          "de": "Tinto de Verano",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Limoncello spritz",
+          "de": "Limoncello Spritz",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Virgin mojito",
+          "de": "Virgin Mojito",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Virgin colada",
+          "de": "Virgin Colada",
+          "kind": "recipe",
+          "verified": true
+        }
+      ]
     },
     {
       "key": "supplements",
@@ -532,8 +3770,310 @@
       "en": "Supplements",
       "de": "Supplemente",
       "sticker": "pill",
-      "count": 1,
-      "verified": 1
+      "count": 50,
+      "verified": 50,
+      "members": [
+        {
+          "en": "Magnesium tablet",
+          "de": "Magnesiumtablette",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Vitamin D3 tablet",
+          "de": "Vitamin-D3-Tablette",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Vitamin D3 + K2 tablet",
+          "de": "Vitamin-D3-K2-Tablette",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Magnesium effervescent tablet",
+          "de": "Magnesium-Brausetablette",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Vitamin C depot capsule",
+          "de": "Vitamin-C-Depot-Kapsel",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Zinc + vitamin C tablet",
+          "de": "Zink-Vitamin-C-Tablette",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Zinc + vitamin C effervescent tablet",
+          "de": "Zink-Vitamin-C-Brausetablette",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Vitamin C 1000 tablet",
+          "de": "Vitamin-C-1000-Tablette",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Iron tablet",
+          "de": "Eisentablette",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Calcium + D3 tablet",
+          "de": "Calcium-D3-Tablette",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Multivitamin A–Z tablet",
+          "de": "A–Z-Multivitamintablette",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Kids' multivitamin gummies",
+          "de": "Multivitamin-Gummibärchen für Kinder",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Folic acid tablet",
+          "de": "Folsäuretablette",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Vitamin B complex tablet",
+          "de": "Vitamin-B-Komplex-Tablette",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Vitamin B12 tablet",
+          "de": "Vitamin-B12-Tablette",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Vitamin B12 effervescent tablet",
+          "de": "Vitamin-B12-Brausetablette",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Magnesium + potassium tablet",
+          "de": "Magnesium-Kalium-Tablette",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Electrolyte effervescent tablet",
+          "de": "Elektrolyt-Brausetablette",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Magnesium + calcium + D3 tablet",
+          "de": "Magnesium-Calcium-D3-Tablette",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Selenium tablet",
+          "de": "Selentablette",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Immune effervescent tablet",
+          "de": "Immun-Brausetablette",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Immune complex tablet",
+          "de": "Immun-Komplex-Tablette",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Pregnancy multivitamin",
+          "de": "Schwangerschaftsvitamine",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Hair, skin and nails tablet",
+          "de": "Haut-Haare-Nägel-Tablette",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Zinc tablet",
+          "de": "Zinktablette",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Senior multivitamin tablet",
+          "de": "Multivitamintablette 50 plus",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Collagen powder",
+          "de": "Kollagenpulver",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Kids' multivitamin chewable tablet",
+          "de": "Multivitamin-Kautablette für Kinder",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Magnesium + calcium effervescent tablet",
+          "de": "Magnesium-Calcium-Brausetablette",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Vitamin D3 + K2 drops",
+          "de": "Vitamin-D3-K2-Tropfen",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Vitamin C lozenge",
+          "de": "Vitamin-C-Lutschtablette",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Magnesium direct granulate stick",
+          "de": "Magnesium-Direktgranulat",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Iron direct granulate stick",
+          "de": "Eisen-Direktgranulat",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Magnesium 500 depot tablet",
+          "de": "Magnesium-500-Depot-Tablette",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Collagen drink ampoule",
+          "de": "Kollagen-Trinkampulle",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Multivitamin + mineral effervescent tablet",
+          "de": "Multivitamin-Mineral-Brausetablette",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Magnesium capsule",
+          "de": "Magnesiumkapsel",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Vitamin D gummy or chewable tablet",
+          "de": "Vitamin-D-Gummi oder -Kautablette",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Eye vitamin capsule",
+          "de": "Augenvitamin-Kapsel",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Electrolyte powder stick",
+          "de": "Elektrolyt-Pulverstick",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Glucosamine joint tablet",
+          "de": "Glucosamin-Gelenktablette",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Vitamin C powder",
+          "de": "Vitamin-C-Pulver",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Vitamin C effervescent tablet",
+          "de": "Vitamin-C-Brausetablette",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Iron effervescent tablet",
+          "de": "Eisen-Brausetablette",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Calcium effervescent tablet",
+          "de": "Calcium-Brausetablette",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Calcium chewable tablet",
+          "de": "Calcium-Kautablette",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Vitamin D3 drops",
+          "de": "Vitamin-D3-Tropfen",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Immune direct stick",
+          "de": "Immun-Direktstick",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Fish oil capsule",
+          "de": "Fischölkapsel",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Algae oil capsule",
+          "de": "Algenölkapsel",
+          "kind": "staple",
+          "verified": true
+        }
+      ]
     },
     {
       "key": "sports",
@@ -541,8 +4081,310 @@
       "en": "Sports nutrition",
       "de": "Sportnahrung",
       "sticker": "flexed-biceps",
-      "count": 49,
-      "verified": 6
+      "count": 50,
+      "verified": 50,
+      "members": [
+        {
+          "en": "Protein bread",
+          "de": "Eiweißbrot",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Protein roll",
+          "de": "Eiweißbrötchen",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Energy drink",
+          "de": "Energydrink",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Sports drink",
+          "de": "Sportgetränk",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Protein bar",
+          "de": "Proteinriegel",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Protein shake, ready meal",
+          "de": "Proteinshake, Fertiggericht",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Meal replacement shake",
+          "de": "Trinkmahlzeit",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Whey protein",
+          "de": "Whey-Protein",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Beef protein isolate",
+          "de": "Beef-Protein-Isolat",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Soy protein powder",
+          "de": "Sojaproteinpulver",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Protein powder",
+          "de": "Proteinpulver",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Soy protein isolate",
+          "de": "Sojaproteinisolat",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Energy bar",
+          "de": "Energieriegel",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Protein shake, light",
+          "de": "Proteinshake, light",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Sports drink powder",
+          "de": "Sportgetränkepulver",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Sports drink, low calorie",
+          "de": "Sportgetränk, kalorienarm",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Electrolyte drink",
+          "de": "Elektrolytgetränk",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Meal replacement bar",
+          "de": "Mahlzeitersatzriegel",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Egg white powder",
+          "de": "Eiweißpulver aus Eiklar",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Whey protein isolate",
+          "de": "Whey-Protein-Isolat",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Clear whey",
+          "de": "Clear Whey",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Casein protein",
+          "de": "Casein-Protein",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Pea protein",
+          "de": "Erbsenprotein",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Rice protein",
+          "de": "Reisprotein",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Hemp protein",
+          "de": "Hanfprotein",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Vegan protein blend",
+          "de": "Veganes Proteinpulver",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Mass gainer",
+          "de": "Mass Gainer",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Protein bar, low sugar",
+          "de": "Proteinriegel, zuckerarm",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Protein cookie",
+          "de": "Protein-Cookie",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "High protein pudding",
+          "de": "High-Protein-Pudding",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Protein pancake mix",
+          "de": "Protein-Pancake-Mix",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Protein porridge",
+          "de": "Protein-Porridge",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "High protein ice cream",
+          "de": "High-Protein-Eis",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Energy gel",
+          "de": "Energiegel",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Energy chews",
+          "de": "Energy-Chews",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Amino acid powder",
+          "de": "Aminosäurenpulver (EAA/BCAA)",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Maltodextrin",
+          "de": "Maltodextrin",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Cluster dextrin",
+          "de": "Cluster Dextrin",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Recovery shake powder",
+          "de": "Recovery-Shake-Pulver",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Peanut butter powder",
+          "de": "Erdnussbutterpulver",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "High protein yogurt",
+          "de": "High-Protein-Joghurt",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Protein granola",
+          "de": "Protein-Granola",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Protein muesli",
+          "de": "Protein-Müsli",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Protein balls",
+          "de": "Protein-Balls",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Protein water",
+          "de": "Protein-Wasser",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Protein wafer",
+          "de": "Protein-Waffel",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Protein spread",
+          "de": "Protein-Creme",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Protein powder, light",
+          "de": "Proteinpulver, light",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Energy bar with nut cream",
+          "de": "Energieriegel mit Nusscreme",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "High-protein nutritional powder",
+          "de": "Nährstoffpulver, proteinreich",
+          "kind": "staple",
+          "verified": true
+        }
+      ]
     },
     {
       "key": "seasonal",
@@ -550,8 +4392,484 @@
       "en": "Seasonal and festive",
       "de": "Saisonal und festlich",
       "sticker": "christmas-tree",
-      "count": null,
-      "verified": null
+      "count": 79,
+      "verified": 79,
+      "members": [
+        {
+          "en": "Braided sweet bread",
+          "de": "Hefezopf",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Stollen",
+          "de": "Christstollen",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Pretzel",
+          "de": "Brezel",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Hot cross bun",
+          "de": "Hot Cross Bun",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Jam doughnut",
+          "de": "Berliner",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Langos",
+          "de": "Langos",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Easter bread",
+          "de": "Osterbrot",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Potato pancakes",
+          "de": "Kartoffelpuffer",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Asparagus",
+          "de": "Spargel",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Corn on the cob",
+          "de": "Maiskolben",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Halloumi",
+          "de": "Halloumi",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Raclette cheese",
+          "de": "Raclette-Käse",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Obatzda",
+          "de": "Obatzda",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Easter eggs",
+          "de": "Ostereier",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Pork knuckle",
+          "de": "Schweinshaxe",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Duck",
+          "de": "Ente",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Goose",
+          "de": "Gans",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Roast chicken",
+          "de": "Brathendl",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Carp",
+          "de": "Karpfen",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Steckerlfisch",
+          "de": "Steckerlfisch",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Bratwurst",
+          "de": "Bratwurst",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Weisswurst",
+          "de": "Weißwurst",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Leberkäse",
+          "de": "Leberkäse",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Schupfnudeln",
+          "de": "Schupfnudeln",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Hot chocolate",
+          "de": "Heiße Schokolade",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Beer",
+          "de": "Bier",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Mulled wine",
+          "de": "Glühwein",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Sparkling wine",
+          "de": "Sekt",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Eggnog",
+          "de": "Eierpunsch",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Strawberry punch",
+          "de": "Erdbeerbowle",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Candied almonds",
+          "de": "Gebrannte Mandeln",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Pumpkin pie",
+          "de": "Kürbis-Pie",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Strawberry cake",
+          "de": "Erdbeerkuchen",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Lebkuchen",
+          "de": "Lebkuchen",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Dominosteine",
+          "de": "Dominosteine",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Speculoos",
+          "de": "Spekulatius",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Vanilla crescents",
+          "de": "Vanillekipferl",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Cinnamon stars",
+          "de": "Zimtsterne",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Butter cookies",
+          "de": "Butterplätzchen",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Printen",
+          "de": "Printen",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Mutzen",
+          "de": "Mutzen",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Plum pudding",
+          "de": "Plumpudding",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Chocolate Santa",
+          "de": "Schoko-Nikolaus",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Chocolate Easter bunny",
+          "de": "Schoko-Osterhase",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Marzipan potatoes",
+          "de": "Marzipankartoffeln",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Simnel cake",
+          "de": "Simnel Cake",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "Easter lamb cake",
+          "de": "Osterlamm",
+          "kind": "staple",
+          "verified": true
+        },
+        {
+          "en": "German potato salad",
+          "de": "Kartoffelsalat",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Roast pork with dumplings",
+          "de": "Schweinebraten mit Knödeln",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Weisswurst with pretzel",
+          "de": "Weißwurst mit Brezel",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Flammkuchen",
+          "de": "Flammkuchen",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Potato salad with sausages",
+          "de": "Kartoffelsalat mit Würstchen",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Potato pancakes with apple sauce",
+          "de": "Kartoffelpuffer mit Apfelmus",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "White asparagus with hollandaise",
+          "de": "Spargel mit Sauce Hollandaise",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "German pasta salad",
+          "de": "Nudelsalat",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Kaiserschmarrn",
+          "de": "Kaiserschmarrn",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Chocolate hazelnut crêpe",
+          "de": "Crêpe mit Nuss-Nougat-Creme",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Cheese fondue",
+          "de": "Käsefondue",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Raclette",
+          "de": "Raclette",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Leberkäse roll",
+          "de": "Brötchen mit Fleischkäse",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Pretzel with butter",
+          "de": "Laugenbrezel mit Butter",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Cream of asparagus soup",
+          "de": "Spargelcremesuppe",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Pumpkin soup",
+          "de": "Kürbiscremesuppe",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Sweet Dampfnudeln",
+          "de": "Dampfnudeln süß",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Stuffed baked apple",
+          "de": "Bratapfel gefüllt",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Baked apple",
+          "de": "Bratapfel",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Bratwurst in a roll",
+          "de": "Bratwurst im Brötchen",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Feuerzangenbowle",
+          "de": "Feuerzangenbowle",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Kinderpunsch",
+          "de": "Kinderpunsch",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Lumumba",
+          "de": "Lumumba",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Hot chocolate with whipped cream",
+          "de": "Heiße Schokolade mit Sahne",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Christmas goose with red cabbage and dumplings",
+          "de": "Weihnachtsgans mit Rotkohl und Klößen",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Roast duck with red cabbage and dumplings",
+          "de": "Entenbraten mit Rotkohl und Klößen",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Roast turkey with trimmings",
+          "de": "Putenbraten mit Beilagen",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Pigs in blankets",
+          "de": "Pigs in Blankets",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Asparagus with hollandaise and ham",
+          "de": "Spargel mit Sauce Hollandaise und Schinken",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Mushroom pan with garlic cream",
+          "de": "Champignonpfanne mit Knoblauchsauce",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Chocolate-dipped strawberries",
+          "de": "Schokofrüchte",
+          "kind": "recipe",
+          "verified": true
+        },
+        {
+          "en": "Langos with sour cream and cheese",
+          "de": "Langos mit Sauerrahm und Käse",
+          "kind": "recipe",
+          "verified": true
+        }
+      ]
     }
   ],
   "cuisines": [
@@ -577,7 +4895,7 @@
     },
     {
       "key": "japanese",
-      "count": 28
+      "count": 29
     },
     {
       "key": "mexican",
@@ -652,9 +4970,8 @@
       "count": null
     }
   ],
-  "cuisinesWithoutRecipe": 9,
+  "cuisinesWithoutRecipe": 8,
   "missingRecipes": [
-    "Salmon sashimi",
     "Tteokbokki",
     "Chicken curry",
     "Dolmades",

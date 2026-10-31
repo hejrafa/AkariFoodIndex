@@ -1,0 +1,74 @@
+{
+  "id": "akari:label:energy-chews",
+  "name": "Energy chews",
+  "identity": "Sugar and tapioca syrup chews for endurance sport, about 80 g carbohydrate per 100 g; always flavoured.",
+  "rule": "Per 100 g, each value is the median of the three labels below that declare it, and a value enters only when at least three labels declare it (flavoured by nature). Salt becomes sodium (salt in g × 400 = sodium in mg). Nothing a label leaves out becomes zero. Labels read on 2026-10-30 from Open Food Facts through Akari's proxy, as the beef protein isolate was.",
+  "nutrients": {
+    "calories": 320.0,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "carbs": 80.0,
+    "sugar": 54.0,
+    "protein": 0.0,
+    "sodium": 168.0
+  },
+  "portions": [
+    {
+      "grams": 30,
+      "label": "1 serving, 3 chews"
+    }
+  ],
+  "labels": [
+    {
+      "brand": "Honey Stinger",
+      "product": "Energy chews",
+      "read": "Open Food Facts 0810815020915 through https://api.joinakari.com/v1/off/product/0810815020915",
+      "date": "2026-10-30",
+      "ingredients": "Organic tapioca syrup, organic evaporated cane juice, organic honey, (organic grape juice concentrate, ascorbic acid), pectin, citric acid, organic turmeric color, natural flavor, potassium citrate, white tea extract, organic sunflower oil, carnauba wax.",
+      "serving": "1 PACKET (50 g)",
+      "per100g": {
+        "energyKcal": 320.0,
+        "fat": 0.0,
+        "saturates": 0.0,
+        "carbohydrate": 78.0,
+        "sugars": 54.0,
+        "protein": 2.0,
+        "salt": 0.4
+      }
+    },
+    {
+      "brand": "Skratch Labs Inc.",
+      "product": "Energy Chews",
+      "read": "Open Food Facts 0856231005235 through https://api.joinakari.com/v1/off/product/0856231005235",
+      "date": "2026-10-30",
+      "ingredients": "Sugar, tapioca syrup, grape juice concentrate, pectin, citric acid, fumaric acid, raspberry powder, sea salt, sodium citrate.",
+      "serving": "5 PIECES (25 g)",
+      "per100g": {
+        "energyKcal": 320.0,
+        "fat": 0.0,
+        "saturates": 0.0,
+        "carbohydrate": 80.0,
+        "sugars": 56.0,
+        "protein": 0.0,
+        "salt": 0.8
+      }
+    },
+    {
+      "brand": "Clif",
+      "product": "Bloks energy chews",
+      "read": "Open Food Facts 0722252180698 through https://api.joinakari.com/v1/off/product/0722252180698",
+      "date": "2026-10-30",
+      "ingredients": "not stated in the entry",
+      "serving": "not stated",
+      "per100g": {
+        "energyKcal": 333.33,
+        "fat": 0.0,
+        "saturates": 0.0,
+        "carbohydrate": 80.0,
+        "sugars": 40.0,
+        "protein": 0.0,
+        "salt": 0.42
+      }
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "akari:label:kids-multivitamin-gummies",
+  "name": "Kids' multivitamin gummy bears",
+  "identity": "Gummies with vitamins for children, two to four a day; the dose is the label's daily dose.",
+  "rule": "Per 100 g of the product, each value is the median of the labels below that declare it, and a value enters only when at least three declare it; a label states its nutrients per dose, so the file converts them with the dose's weight (the pack's net content divided by its count of tablets, capsules, sticks or drops, or the stated dose weight). Salt becomes sodium (salt in g × 400 = sodium in mg). Fewer than three labels declare energy, so the row stands at 0 kcal under the verification policy's clause for label generics with a micronutrient. Nothing a label leaves out becomes zero. Labels read on 2026-10-30 from dm.de, rossmann.de and shop-apotheke.com product pages.",
+  "nutrients": {
+    "vitaminB12": 16.6667,
+    "vitaminC": 500,
+    "vitaminD": 41.6667,
+    "calories": 0
+  },
+  "portions": [
+    {
+      "grams": 6.0,
+      "label": "1 daily dose of gummies"
+    }
+  ],
+  "labels": [
+    {
+      "brand": "Mivolis",
+      "product": "Multivitamin-Bärchen für Kinder 60 St, 120 g",
+      "read": "https://www.dm.de/p/d/3104247/ (dm.de product page, Nährwerte and Zutaten panels; GTIN not stated)",
+      "date": "2026-10-30",
+      "ingredients": "Zucker, Glukosesirup, Gelatine (Schwein), L-Ascorbinsäure (Vitamin C), Riboflavin (Vitamin B2), Nicotinamid (Niacin), DL-alpha-Tocopherylacetat (Vitamin E), Pyridoxinhydrochlorid (Vitamin B6), Thiaminhydrochlorid (Vitamin B1), Biotin, Cholecalciferol (Vitamin D), Cyanocobalamin (Vitamin B12), Apfelsaftkonzentrat, färbende Lebensmittel: Saflorkonzentrat, schwarze Johannisbeerekonzentrat, Karottenkonzentrat; natürliches Mandarinenaroma, natürliches Zitronenaroma, natürliche Aromen, pflanzliche Öle (Kokos, Raps), Überzugsmittel: Bienenwachs (weiß) und Carnaubawachs, Säuerungsmittel: Citronensäure",
+      "serving": "3 Bärchen: 60 units weigh 120 g, so the dose is 6 g; the label declares per dose: vitaminB12Ug 1, vitaminCMg 30, vitaminDUg 2.5; niacin 6 mg, biotin 9.4 µg, B2 0.5 mg, B1 0.4 mg, B6 0.4 mg, vitamin E 4.5 mg per 3 bears; per 100 g 1413 kJ / 332 kcal, fat < 0.5 g, saturates < 0.2 g, carbohydrate 73 g, sugars 59 g, protein 7.5 g, salt < 0.11 g; under-values counted at half the threshold",
+      "per100g": {
+        "vitaminB12Ug": 16.6667,
+        "vitaminCMg": 500.0,
+        "vitaminDUg": 41.6667,
+        "energyKcal": 332.0,
+        "fat": 0.25,
+        "saturates": 0.1,
+        "carbohydrate": 73.0,
+        "sugars": 59.0,
+        "protein": 7.5,
+        "salt": 0.055
+      }
+    },
+    {
+      "brand": "altapharma",
+      "product": "Multivitamin Gummies für Kinder, 60 Gummies, 120 g",
+      "read": "https://www.rossmann.de/de/baby-und-spielzeug-altapharma-multivitamin-gummies-fuer-kinder/p/4068134149404 (rossmann.de product page, Zutaten and Nährwerte sections; GTIN 4068134149404)",
+      "date": "2026-10-30",
+      "ingredients": "Süßungsmittel Maltit, Isomalt, Xylit; Geliermittel Pektin; Wasser; L-Ascorbinsäure; Säureregulator Natriumcitrat, Citronensäure; färbendes Lebensmittelkonzentrat (Paprika, Karotte); Aroma; DL-α-Tocopherylacetat; Sonnenblumenöl; Nicotinamid; mittelkettige Triglyceride; Cholecalciferol; Überzugsmittel Carnaubawachs; Thiaminhydrochlorid; Riboflavin; Pyridoxinhydrochlorid; Cyanocobalamin; D-Biotin",
+      "serving": "4 Gummies: 60 units weigh 120 g, so the dose is 8 g; the label declares per dose: vitaminDUg 2.5, vitaminCMg 40, vitaminB12Ug 1.3; vitamin E 6 mg, B1 0.55 mg, B2 0.7 mg, niacin 8 mg, B6 0.5 mg, biotin 12.5 µg per 4 gummies; no energy or macros declared",
+      "per100g": {
+        "vitaminDUg": 31.25,
+        "vitaminCMg": 500.0,
+        "vitaminB12Ug": 16.25
+      }
+    },
+    {
+      "brand": "sanostol",
+      "product": "Multi-Vitamin Bärchen 60 St, 120 g",
+      "read": "https://www.dm.de/p/d/1626213/ (dm.de product page, Nährwerte and Zutaten panels; GTIN not stated)",
+      "date": "2026-10-30",
+      "ingredients": "Süßungsmittel Maltit, modifizierte Stärke, Vitamin C, Säuerungsmittel Citronensäure, Niacin, färbende Lebensmittelkonzentrate (Karotte, Apfel, schwarze Johannisbeere, Kirsche), Vitamin E, natürliches Orangenaroma, natürliche Aromen, pflanzliche Öle (Kokosnuss, Raps), Vitamin B6, Süßungsmittel Sucralose, Überzugsmittel Carnaubawachs, Vitamin A, Folsäure, Biotin, Vitamin D, Vitamin B12",
+      "serving": "2 Stück: 60 units weigh 120 g, so the dose is 4 g; the label declares per dose: folateUg 180, vitaminAUg 400, vitaminB12Ug 2.5, vitaminCMg 60, vitaminDUg 10; niacin 16 mg, biotin 50 µg, B6 1.4 mg, vitamin E 12 mg per 2 gummies; no energy or macros declared",
+      "per100g": {
+        "folateUg": 4500.0,
+        "vitaminAUg": 10000.0,
+        "vitaminB12Ug": 62.5,
+        "vitaminCMg": 1500.0,
+        "vitaminDUg": 250.0
+      }
+    }
+  ]
+}

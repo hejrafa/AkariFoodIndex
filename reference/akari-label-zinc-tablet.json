@@ -1,0 +1,61 @@
+{
+  "id": "akari:label:zinc-tablet",
+  "name": "Zinc tablet",
+  "identity": "One-a-day zinc tablet of 6.5 to 15 mg zinc, often with histidine; the dose is one tablet.",
+  "rule": "Per 100 g of the product, each value is the median of the labels below that declare it, and a value enters only when at least three declare it; a label states its nutrients per dose, so the file converts them with the dose's weight (the pack's net content divided by its count of tablets, capsules, sticks or drops, or the stated dose weight). Salt becomes sodium (salt in g × 400 = sodium in mg). Fewer than three labels declare energy, so the row stands at 0 kcal under the verification policy's clause for label generics with a micronutrient. Nothing a label leaves out becomes zero. Labels read on 2026-10-30 from dm.de, rossmann.de and shop-apotheke.com product pages.",
+  "nutrients": {
+    "zinc": 3000,
+    "calories": 0
+  },
+  "portions": [
+    {
+      "grams": 0.475,
+      "label": "1 tablet"
+    }
+  ],
+  "labels": [
+    {
+      "brand": "tetesept",
+      "product": "Zink 15 Depot Tabletten 40 St, 20 g",
+      "read": "https://www.dm.de/p/d/3157322/ (dm.de product page, Nährwerte and Zutaten panels; GTIN not stated)",
+      "date": "2026-10-30",
+      "ingredients": "Füllstoffe: Mikrokristalline Cellulose, Hydroxypropylmethylcellulose; L-Histidin (20,3%); Ascorbinsäure (Vitamin C); Zinkoxid; Maltodextrin; modifizierte Stärke; Trennmittel: Magnesiumsalze der Speisefettsäure; Farbstoff: Calciumcarbonat; Saccharose; Überzugsmittel: Hydroxypropylcellulose; Trennmittel: Speisefettsäure; Natriumselenat; Cholecalciferol (Vitamin D3)",
+      "serving": "1 Tablette: 40 units weigh 20 g, so the dose is 0.5 g; the label declares per dose: zincMg 15, seleniumUg 100, vitaminCMg 50, vitaminDUg 25; histidin 100 mg; no energy declared",
+      "per100g": {
+        "zincMg": 3000.0,
+        "seleniumUg": 20000.0,
+        "vitaminCMg": 10000.0,
+        "vitaminDUg": 5000.0
+      }
+    },
+    {
+      "brand": "Mivolis",
+      "product": "Zink 15 + Histidin + Cystein Tabletten 40 St, 19 g",
+      "read": "https://www.dm.de/p/d/3104220/ (dm.de product page, Nährwerte and Zutaten panels; GTIN not stated)",
+      "date": "2026-10-30",
+      "ingredients": "L-Histidin-Hydrochlorid, Zinkgluconat, Füllstoffe mikrokristalline Cellulose und Natrium-Carboxymethylcellulose, Überzugsmittel Hydroxypropylmethylcellulose, L-Cystein-Hydrochlorid, Trennmittel Talkum, Siliciumdioxid und Magnesiumsalze der Speisefettsäuren, Überzugsmittel Polyethylenglycol",
+      "serving": "1 Stück: 40 units weigh 19 g, so the dose is 0.475 g; the label declares per dose: zincMg 15; histidin 100 mg, cystein 19 mg; per 100 g 574 kJ / 139 kcal, fat 0.8 g, saturates 0.6 g, carbohydrate 19 g, sugars 0 g, protein 0 g, salt 1.1 g",
+      "per100g": {
+        "zincMg": 3157.89,
+        "energyKcal": 139.0,
+        "fat": 0.8,
+        "saturates": 0.6,
+        "carbohydrate": 19.0,
+        "sugars": 0.0,
+        "protein": 0.0,
+        "salt": 1.1
+      }
+    },
+    {
+      "brand": "Lebepur",
+      "product": "Zink Tabletten 180 St, 45 g",
+      "read": "https://www.dm.de/p/d/3129126/ (dm.de product page, Nährwerte and Zutaten panels; GTIN not stated)",
+      "date": "2026-10-30",
+      "ingredients": "Akazienfaser, Mikrokristalline Cellulose, Zink-Bisglycinat",
+      "serving": "1 Tablette: 180 units weigh 45 g, so the dose is 0.25 g; the label declares per dose: zincMg 6.5; no energy or macros declared; the page's table states no dose count; taken as one unit, the one-a-day form the pack size implies",
+      "per100g": {
+        "zincMg": 2600.0
+      }
+    }
+  ]
+}

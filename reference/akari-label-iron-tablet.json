@@ -1,0 +1,97 @@
+{
+  "id": "akari:label:iron-tablet",
+  "name": "Iron tablet or capsule",
+  "identity": "One-a-day iron supplement, 14 to 45 mg iron usually with vitamin C and sometimes folate and B12; the dose is one unit.",
+  "rule": "Per 100 g of the product, each value is the median of the labels below that declare it, and a value enters only when at least three declare it; a label states its nutrients per dose, so the file converts them with the dose's weight (the pack's net content divided by its count of tablets, capsules, sticks or drops, or the stated dose weight). Salt becomes sodium (salt in g × 400 = sodium in mg). Fewer than three labels declare energy, so the row stands at 0 kcal under the verification policy's clause for label generics with a micronutrient. Nothing a label leaves out becomes zero. Labels read on 2026-10-30 from dm.de, rossmann.de and shop-apotheke.com product pages.",
+  "nutrients": {
+    "iron": 2187.5,
+    "vitaminC": 12500,
+    "calories": 0
+  },
+  "portions": [
+    {
+      "grams": 0.71,
+      "label": "1 tablet or capsule"
+    }
+  ],
+  "labels": [
+    {
+      "brand": "Mivolis",
+      "product": "Eisen + C + B-Vitamine Tabletten 40 St, 24 g",
+      "read": "https://www.dm.de/p/d/3104215/ (dm.de product page, Nährwerte and Zutaten panels; GTIN not stated)",
+      "date": "2026-10-30",
+      "ingredients": "L-Ascorbinsäure (Vitamin C); Maltodextrin; Eisengluconat; Füllstoff Mikrokristalline Cellulose; Überzugsmittel: Hydroxypropylmethylcellulose, Hydroxypropylcellulose; Trennmittel: Magnesiumcarbonat, Calciumphosphat, Magnesiumsalze der Speisefettsäuren, Siliciumdioxid; mittelkettige Triglyceride (Kokos); Farbstoffe Eisenoxide; Pteroylmonoglutaminsäure (Folsäure); pflanzliches Fett (ganz gehärtet, Raps); Pyridoxinhydrochlorid (Vitamin B6); Cyanocobalamin (Vitamin B12)",
+      "serving": "1 Stück: 40 units weigh 24 g, so the dose is 0.6 g; the label declares per dose: ironMg 14, folateUg 200, vitaminB12Ug 3, vitaminCMg 180; vitamin B6 4.5 mg; per 100 g 875 kJ / 209 kcal, fat 1.7 g, saturates 1.7 g, carbohydrate 32 g, sugars 1.7 g, protein < 0.5 g, salt < 0.06 g; under-values counted at half the threshold",
+      "per100g": {
+        "ironMg": 2333.33,
+        "folateUg": 33333.3,
+        "vitaminB12Ug": 500.0,
+        "vitaminCMg": 30000.0,
+        "energyKcal": 209.0,
+        "fat": 1.7,
+        "saturates": 1.7,
+        "carbohydrate": 32.0,
+        "sugars": 1.7,
+        "protein": 0.25,
+        "salt": 0.03
+      }
+    },
+    {
+      "brand": "ESN",
+      "product": "Eisen Tabletten 30 St, 24 g",
+      "read": "https://www.dm.de/p/d/3105518/ (dm.de product page, Nährwerte and Zutaten panels; GTIN not stated)",
+      "date": "2026-10-30",
+      "ingredients": "Füllstoff (mikrokristalline Cellulose), Eisenbisglycinat, L-Ascorbinsäure, Überzug (Überzugsmittel (Hypromellose, Hydroxypropylcellulose), Füllstoff (Talkum), modifizierte Stärke, Stabilisator (mittelkettige Triglyceride)), Pflanzenölpulver (MCT reiches Pulver aus Kokosnuss)",
+      "serving": "1 Tablette: 30 units weigh 24 g, so the dose is 0.8 g; the label declares per dose: ironMg 45, vitaminCMg 100; no energy or macros declared",
+      "per100g": {
+        "ironMg": 5625.0,
+        "vitaminCMg": 12500.0
+      }
+    },
+    {
+      "brand": "altapharma",
+      "product": "Eisen + C Tabletten, 60 Tabletten, 38,4 g",
+      "read": "https://www.rossmann.de/de/gesundheit-altapharma-eisen-c-tabletten/p/4305615619613 (rossmann.de product page, Zutaten and Nährwerte sections; GTIN 4305615619613)",
+      "date": "2026-10-30",
+      "ingredients": "L-Ascorbinsäure (Vitamin C), Füllstoff mikrokristalline Cellulose, Eisengluconat, Überzugsmittel Hydroxypropylmethylcellulose, Farbstoff Calciumcarbonat, Trennmittel Siliciumdioxid, Magnesiumsalze der Speisefettsäuren, Talkum, Pyridoxinhydrochlorid, Füllstoff vernetzte Carboxymethylcellulose, Riboflavin, Verdickungsmittel Gummi arabicum, Emulgator Polysorbat 80, Farbstoff Eisenoxide und -hydroxide, Pteroylmonoglutaminsäure, Süßungsmittel Saccharin, Cyanocobalamin",
+      "serving": "1 Tablette: 60 units weigh 38.4 g, so the dose is 0.64 g; the label declares per dose: ironMg 14, vitaminCMg 240, folateUg 200, vitaminB12Ug 7.5; B2 1.4 mg, B6 0.9 mg; per 100 g 1208 kJ / 289 kcal, fat 0.7 g, saturates 0.7 g, carbohydrate 50 g, sugars < 0.5 g, fibre 40 g, protein < 0.5 g, salt 0 g; under-values counted at half the threshold",
+      "per100g": {
+        "ironMg": 2187.5,
+        "vitaminCMg": 37500.0,
+        "folateUg": 31250.0,
+        "vitaminB12Ug": 1171.88,
+        "energyKcal": 289.0,
+        "fat": 0.7,
+        "saturates": 0.7,
+        "carbohydrate": 50.0,
+        "sugars": 0.25,
+        "protein": 0.25,
+        "salt": 0.0
+      }
+    },
+    {
+      "brand": "Eisen Verla",
+      "product": "C purKaps, 60 Kapseln = 42,6 g",
+      "read": "https://www.shop-apotheke.com/arzneimittel/8116450/eisen-verla-c-purkaps.htm (shop-apotheke.com product page, Pflichtangaben and Weitere Produktinformationen; GTIN not stated)",
+      "date": "2026-10-30",
+      "ingredients": "Acerolafruchtpulver (Acerola-Extrakt, Vitamin C), Eisen(II)-gluconat, Hydroxypropylmethylcellulose (Kapselhülle 12 %), Geliermittel Gellan, Trennmittel Magnesiumsalze der Speisefettsäuren",
+      "serving": "1 Kapsel: 60 units weigh 42.6 g, so the dose is 0.71 g; the label declares per dose: ironMg 10, vitaminCMg 80; no energy or macros declared; PZN 08116450",
+      "per100g": {
+        "ironMg": 1408.45,
+        "vitaminCMg": 11267.6
+      }
+    },
+    {
+      "brand": "INNONATURE",
+      "product": "Eisen Kapseln 60 St, 46,08 g",
+      "read": "https://www.dm.de/p/d/3160344/ (dm.de product page, Nährwerte and Zutaten panels; GTIN not stated)",
+      "date": "2026-10-30",
+      "ingredients": "Curryblatt Extrakt 60,8 %, Hagebutten Extrakt 23,2 %, Überzugsmittel Hydroxypropylmethylcellulose (Kapselhülle)",
+      "serving": "1 Kapsel: 60 units weigh 46.08 g, so the dose is 0.768 g; the label declares per dose: ironMg 14, vitaminCMg 80; no energy or macros declared",
+      "per100g": {
+        "ironMg": 1822.92,
+        "vitaminCMg": 10416.7
+      }
+    }
+  ]
+}

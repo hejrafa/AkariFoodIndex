@@ -1,0 +1,62 @@
+{
+  "id": "akari:label:magnesium-effervescent",
+  "name": "Magnesium effervescent tablet",
+  "identity": "Magnesium effervescent tablet dissolved in a glass of water, 190 to 400 mg magnesium per tablet with citric acid, bicarbonate and sweeteners; the dose is one tablet.",
+  "rule": "Per 100 g of the product, each value is the median of the labels below that declare it, and a value enters only when at least three declare it; a label states its nutrients per dose, so the file converts them with the dose's weight (the pack's net content divided by its count of tablets, capsules, sticks or drops, or the stated dose weight). Salt becomes sodium (salt in g × 400 = sodium in mg). Fewer than three labels declare energy, so the row stands at 0 kcal under the verification policy's clause for label generics with a micronutrient. Nothing a label leaves out becomes zero. Labels read on 2026-10-30 from dm.de, rossmann.de and shop-apotheke.com product pages.",
+  "nutrients": {
+    "magnesium": 4573.17,
+    "calories": 0
+  },
+  "portions": [
+    {
+      "grams": 6.5,
+      "label": "1 effervescent tablet"
+    }
+  ],
+  "labels": [
+    {
+      "brand": "Mivolis",
+      "product": "Magnesium Brausetabletten 20 St, 82 g",
+      "read": "https://www.dm.de/p/d/3104280/ (dm.de product page, Nährwerte and Zutaten panels; GTIN not stated)",
+      "date": "2026-10-30",
+      "ingredients": "Säuerungsmittel Citronensäure, Säureregulator Natriumhydrogencarbonat, Magnesiumcarbonat, Füllstoff Sorbit, Maisstärke, Aroma, Süßungsmittel Natriumcyclamat und Natriumsaccharin, Farbstoff Riboflavin",
+      "serving": "1 Brausetablette: 20 units weigh 82 g, so the dose is 4.1 g; the label declares per dose: magnesiumMg 187.5; per 100 g the label prints 738 kJ / 171 kcal, fat < 0.5 g, saturates < 0.1 g, carbohydrate 13 g, sugars < 0.5 g, protein < 0.5 g, salt 15.3 g; the under-values are counted at half the threshold",
+      "per100g": {
+        "magnesiumMg": 4573.17,
+        "energyKcal": 171.0,
+        "fat": 0.25,
+        "saturates": 0.05,
+        "carbohydrate": 13.0,
+        "sugars": 0.25,
+        "protein": 0.25,
+        "salt": 15.3
+      }
+    },
+    {
+      "brand": "Doppelherz",
+      "product": "Magnesium 400 + Vitamine B6 + B12 + Folsäure Brausetabletten 15 St, 97,5 g",
+      "read": "https://www.dm.de/p/d/1257432/ (dm.de product page, Nährwerte and Zutaten panels; GTIN not stated)",
+      "date": "2026-10-30",
+      "ingredients": "Säuerungsmittel Citronensäure, Magnesiumcarbonat, Säureregulatoren Natriumhydrogencarbonat und Natriumcarbonat, Trimagnesiumdicitrat, Süßungsmittel Natriumcyclamat und Natriumsaccharin, Aroma, Stärke, Vitamin B6, Vitamin B1, Folsäure, Farbstoff Riboflavin-5'-Phosphat, Vitamin B12",
+      "serving": "1 Brausetablette: 15 units weigh 97.5 g, so the dose is 6.5 g; the label declares per dose: magnesiumMg 400, folateUg 600, vitaminB12Ug 5; Vitamin B1 1.1 mg, B6 4.2 mg (not tracked); no energy declared on the page",
+      "per100g": {
+        "magnesiumMg": 6153.85,
+        "folateUg": 9230.77,
+        "vitaminB12Ug": 76.9231
+      }
+    },
+    {
+      "brand": "Doppelherz",
+      "product": "Magnesium Kalium Sport Brausetabletten 15 St, 99 g",
+      "read": "https://www.dm.de/p/d/1551162/ (dm.de product page, Nährwerte and Zutaten panels; GTIN not stated)",
+      "date": "2026-10-30",
+      "ingredients": "Säuerungsmittel Citronensäure, Magnesiumcarbonat, Kaliumbicarbonat, Säureregulatoren Natriumhydrogencarbonat und Natriumcarbonat, Stärke, Trennmittel Tricalciumphosphat, Süßungsmittel Natriumcyclamat und Natriumsaccharin, Aroma, Vitamin B6, Farbstoff Riboflavin-5'-Phosphat, Vitamin B12",
+      "serving": "1 Brausetablette: 15 units weigh 99 g, so the dose is 6.6 g; the label declares per dose: magnesiumMg 300, potassiumMg 300, vitaminB12Ug 5; Vitamin B6 4.2 mg (not tracked); no energy declared on the page",
+      "per100g": {
+        "magnesiumMg": 4545.45,
+        "potassiumMg": 4545.45,
+        "vitaminB12Ug": 75.7576
+      }
+    }
+  ]
+}

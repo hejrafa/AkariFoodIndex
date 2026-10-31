@@ -1,0 +1,86 @@
+{
+  "id": "akari:label:hair-skin-nails-tablet",
+  "name": "Hair, skin and nails tablet",
+  "identity": "Beauty complex tablet with biotin, zinc, selenium and vitamins, often with collagen peptides; the dose is one tablet.",
+  "rule": "Per 100 g of the product, each value is the median of the labels below that declare it, and a value enters only when at least three declare it; a label states its nutrients per dose, so the file converts them with the dose's weight (the pack's net content divided by its count of tablets, capsules, sticks or drops, or the stated dose weight). Salt becomes sodium (salt in g × 400 = sodium in mg). Fewer than three labels declare energy, so the row stands at 0 kcal under the verification policy's clause for label generics with a micronutrient. Nothing a label leaves out becomes zero. Labels read on 2026-10-30 from dm.de, rossmann.de and shop-apotheke.com product pages.",
+  "nutrients": {
+    "folate": 23611.1,
+    "zinc": 752.9235,
+    "vitaminB12": 197.368,
+    "calories": 0
+  },
+  "portions": [
+    {
+      "grams": 1.08333,
+      "label": "1 daily dose of tablets"
+    }
+  ],
+  "labels": [
+    {
+      "brand": "Schaebens",
+      "product": "Haut Haare Nägel Beauty-Komplex Tabletten 30 St, 24 g",
+      "read": "https://www.dm.de/p/d/3117169/ (dm.de product page, Nährwerte and Zutaten panels; GTIN not stated)",
+      "date": "2026-10-30",
+      "ingredients": "Maltodextrin, Maisstärke, Füllstoff mikrokristalline Cellulose, Vitamin C, Kollagenpeptide (6,18 %), Siliciumdioxid, Vitamin E, Vitamin B3, Natriumhyaluronat (0,43 %), Coenzym Q10 (0,25 %), Vitamin A, Vitamin B6, Vitamin B2, Vitamin B1, Vitamin B12, Biotin, Folsäure, Pantothensäure, Zinkoxid, Kupfersulfat, Natriumselenat, Trennmittel Speisefettsäuren, Magnesiumsalze der Speisefettsäuren, Überzugsmittel Hydroxypropylmethylcellulose, Farbstoff Eisenoxide und Eisenhydroxide, pflanzliches Öl (Kokos- und Palmöl), Trennmittel Siliciumdioxid, Feuchthaltemittel Polydextrose, Farbstoff Calciumcarbonat",
+      "serving": "1 Tablette: 30 units weigh 24 g, so the dose is 0.8 g; the label declares per dose: folateUg 200, seleniumUg 55, zincMg 10, vitaminAUg 400, vitaminB12Ug 2.5, vitaminCMg 80; silicon 19 mg, coenzyme Q10 2 mg, collagen hydrolysate 50 mg, hyaluronic acid 4 mg, copper 1 mg, niacin 16 mg, pantothenic acid 6 mg, biotin 2000 µg, B2 2.8 mg, B1 2.2 mg, B6 2.8 mg, vitamin E 12 mg; no energy or macros declared; the page's table states no dose count; taken as one unit, the one-a-day form the pack size implies",
+      "per100g": {
+        "folateUg": 25000.0,
+        "seleniumUg": 6875.0,
+        "zincMg": 1250.0,
+        "vitaminAUg": 50000.0,
+        "vitaminB12Ug": 312.5,
+        "vitaminCMg": 10000.0
+      }
+    },
+    {
+      "brand": "altapharma",
+      "product": "Haar Intensiv, 30 Tabletten, 38 g",
+      "read": "https://www.rossmann.de/de/gesundheit-altapharma-haar-intensiv/p/4305615990484 (rossmann.de product page, Zutaten and Nährwerte sections; GTIN 4305615990484)",
+      "date": "2026-10-30",
+      "ingredients": "Füllstoff Calciumcarbonat; Maltodextrin, Stabilisator Sorbit; L-Cysteinhydrochlorid, Ackerschachtelhalmextrakt, Überzugsmittel Hydroxypropylmethylcellulose, Polyethylenglycol; Niacin, Trennmittel Magnesiumsalze der Speisefettsäuren; Thiaminmononitrat, Riboflavin, Cyanocobalamin, Pyridoxinhydrochlorid, Folsäure, Biotin, Calcium-D-pantothenat, Zinkoxid, Kupfergluconat, Natriumselenit, Farbstoff Kupferkomplexe der Chlorophylle",
+      "serving": "1 Tablette: 30 units weigh 38 g, so the dose is 1.27 g; the label declares per dose: zincMg 5, seleniumUg 25, folateUg 200, vitaminB12Ug 2.5; copper 1 mg, B1 1.1 mg, B2 1.4 mg, niacin 16 mg, B6 1.4 mg, biotin 150 µg, pantothenic acid 6 mg, horsetail extract 50 mg, L-cysteine 50 mg; per 100 g 663 kJ / 157 kcal, fat 1.2 g, saturates 0.9 g, carbohydrate 35 g, sugars 0.9 g, protein 4.5 g, salt 0.01 g",
+      "per100g": {
+        "zincMg": 394.737,
+        "seleniumUg": 1973.68,
+        "folateUg": 15789.5,
+        "vitaminB12Ug": 197.368,
+        "energyKcal": 157.0,
+        "fat": 1.2,
+        "saturates": 0.9,
+        "carbohydrate": 35.0,
+        "sugars": 0.9,
+        "protein": 4.5,
+        "salt": 0.01
+      }
+    },
+    {
+      "brand": "hübner",
+      "product": "HaarGlück Tabletten, 30 Tabletten, 27 g",
+      "read": "https://www.rossmann.de/de/gesundheit-huebner-haarglueck-tabletten/p/4010160002970 (rossmann.de product page, Zutaten and Nährwerte sections; GTIN 4010160002970)",
+      "date": "2026-10-30",
+      "ingredients": "L-Cystin, Extrakt aus Venushaarkraut, Siliciumdioxid, Füllstoff Cellulose, L-Methionin, Zink, Pantothensäure, Vitamin B6, L-Arginin, Vitamin D3, Kupfer, Biotin, Folsäure, Verdickungsmittel vernetzte Carboxymethylcellulose, Überzugsmittel Hydroxypropylmethylcellulose, Hydroxypropylcellulose; Trennmittel Mono- und Diglyceride von Speisefettsäuren, Speisefettsäuren, Magnesiumsalze der Speisefettsäuren; Farbstoff Calciumcarbonat, Zuckerkulör",
+      "serving": "1 Tablette: 30 units weigh 27 g, so the dose is 0.9 g; the label declares per dose: zincMg 10, vitaminDUg 5, folateUg 200; copper 1 mg, B6 5.4 mg, biotin 450 µg, pantothenic acid 6 mg; no energy or macros declared",
+      "per100g": {
+        "zincMg": 1111.11,
+        "vitaminDUg": 555.556,
+        "folateUg": 22222.2
+      }
+    },
+    {
+      "brand": "Merz Spezial",
+      "product": "Haut-Haare-Nägel Dragees, 120 Dragees, 80,3 g",
+      "read": "https://www.rossmann.de/de/gesundheit-merz-spezial-haut-haare-naegel-dragees/p/4008491108997 (rossmann.de product page, Zutaten and Nährwerte sections; GTIN 4008491108997)",
+      "date": "2026-10-30",
+      "ingredients": "Füllstoff Laktose; Saccharose; Trennmittel Talkum; L-Ascorbinsäure (Vitamin C); Füllstoff mikrokristalline Cellulose; Nicotinamid (Niacin); Füllstoff Gummi Arabicum; DL-alpha-Tocopherylacetat (Vitamin E); Eisenfumarat; Öl, pflanzlich (Palmöl); Farbstoff Calciumcarbonat; Calcium-D-Pantothenat; Füllstoff Mannitol; modifizierte Stärke; Zinkoxid; Maisstärke; Pyridoxinhydrochlorid (Vitamin B6); Trennmittel Magnesiumsalz der Speisefettsäure; Glucosesirup; Thiaminmononitrat (Vitamin B1); Riboflavin (Vitamin B2); Trennmittel Siliciumdioxid; Gelatine (Schwein); Retinylacetat",
+      "serving": "2 Dragees: 120 units weigh 80.3 g, so the dose is 1.34 g; the label declares per dose: ironMg 5, zincMg 5, vitaminAUg 800, vitaminCMg 120, folateUg 400, vitaminB12Ug 2; vitamin E 13.4 mg, B1 2.4 mg, B2 2.6 mg, niacin 30 mg, B6 3.2 mg, biotin 60 µg, pantothenic acid 8 mg per 2 dragees; no energy or macros declared",
+      "per100g": {
+        "ironMg": 373.599,
+        "zincMg": 373.599,
+        "vitaminAUg": 59775.8,
+        "vitaminCMg": 8966.38,
+        "folateUg": 29887.9,
+        "vitaminB12Ug": 149.44
+      }
+    }
+  ]
+}

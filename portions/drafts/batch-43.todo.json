@@ -1,0 +1,73 @@
+{
+  "batch": 43,
+  "identities": [
+    {
+      "key": "barista oat drink",
+      "names": [
+        "barista oat drink",
+        "barista haferdrink",
+        "barista oat milk",
+        "oat drink barista",
+        "barista oat",
+        "oat milk barista edition",
+        "foamable oat drink",
+        "haferdrink barista",
+        "barista hafer",
+        "hafer barista",
+        "barista hafermilch"
+      ],
+      "origins": [
+        "verified-food"
+      ],
+      "references": [
+        {
+          "id": "akari:label:oat-drink-barista",
+          "name": "Barista oat drink"
+        }
+      ],
+      "measures": [
+        {
+          "reference": "akari:label:oat-drink-barista",
+          "label": "1 glass",
+          "grams": 200
+        }
+      ]
+    },
+    {
+      "key": "edamame",
+      "names": [
+        "edamame",
+        "cooked edamame",
+        "soybeans in pods",
+        "green soybeans",
+        "edamame cooked",
+        "edamame gekocht"
+      ],
+      "origins": [
+        "recipe-ingredient"
+      ],
+      "references": [
+        {
+          "id": "usda:2707436",
+          "name": "Edamame, cooked"
+        },
+        {
+          "id": "bls:G750100",
+          "name": "Soya bean immature (edamame) raw"
+        }
+      ],
+      "measures": [
+        {
+          "reference": "usda:2707436",
+          "label": "1 pod, yields",
+          "grams": 2
+        },
+        {
+          "reference": "usda:2707436",
+          "label": "1 cup",
+          "grams": 160
+        }
+      ]
+    }
+  ]
+}

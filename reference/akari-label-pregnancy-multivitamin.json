@@ -1,0 +1,82 @@
+{
+  "id": "akari:label:pregnancy-multivitamin",
+  "name": "Pregnancy multivitamin tablet",
+  "identity": "One-a-day tablet for planning, pregnancy and breastfeeding with 800 µg folate, iodine, iron or zinc, selenium and vitamins D and B12; the dose is one tablet.",
+  "rule": "Per 100 g of the product, each value is the median of the labels below that declare it, and a value enters only when at least three declare it; a label states its nutrients per dose, so the file converts them with the dose's weight (the pack's net content divided by its count of tablets, capsules, sticks or drops, or the stated dose weight). Salt becomes sodium (salt in g × 400 = sodium in mg). Fewer than three labels declare energy, so the row stands at 0 kcal under the verification policy's clause for label generics with a micronutrient. Nothing a label leaves out becomes zero. Labels read on 2026-10-30 from dm.de, rossmann.de and shop-apotheke.com product pages.",
+  "nutrients": {
+    "folate": 109091,
+    "iodine": 20454.5,
+    "zinc": 1363.64,
+    "vitaminB12": 477.273,
+    "vitaminD": 2727.27,
+    "calories": 0
+  },
+  "portions": [
+    {
+      "grams": 0.733333,
+      "label": "1 daily dose, tablet or capsules"
+    }
+  ],
+  "labels": [
+    {
+      "brand": "Mivolis",
+      "product": "Mama & Baby 1, Tabletten 30 St, 22 g",
+      "read": "https://www.dm.de/p/d/3115332/ (dm.de product page, Nährwerte and Zutaten panels; GTIN not stated)",
+      "date": "2026-10-30",
+      "ingredients": "Füllstoff Calciumcarbonat, L-Ascorbinsäure (Vitamin C), Maltodextrin, Füllstoff Sorbitol, Eisenfumarat, DL-alpha-Tocopherylacetat (Vitamin E), Überzugsmittel Hydroxypropylmethylcellulose, Nicotinamid, Zinkoxid, Füllstoff Hydroxypropylcellulose, ganz gehärtetes pflanzliches Fett (Raps), Calcium-D-Pantothenat, Trennmittel Magnesiumsalze der Speisefettsäuren, Pyridoxinhydrochlorid (Vitamin B6), Riboflavin (Vitamin B2), Thiaminmononitrat (Vitamin B1), Rote-Bete-Pulver, Pteroylmonoglutaminsäure (Folsäure), Kaliumiodid, Natriumselenit, Farbstoff Indigotin, D-Biotin, Cholecalciferol (Vitamin D3), Cyanocobalamin (Vitamin B12)",
+      "serving": "1 Stück: 30 units weigh 22 g, so the dose is 0.733 g; the label declares per dose: ironMg 15, folateUg 800, iodineUg 150, seleniumUg 55, zincMg 10, vitaminB12Ug 3.5, vitaminCMg 110, vitaminDUg 20; niacin 15 mg, pantothenic acid 6 mg, biotin 60 µg, B2 1.6 mg, B1 1.2 mg, B6 1.9 mg, vitamin E 13 mg; per 100 g 574 kJ / 142 kcal, fat 1.6 g, saturates 1.1 g, carbohydrate 20 g, sugars < 0.5 g, protein < 0.5 g, salt < 0.76 g; under-values counted at half the threshold",
+      "per100g": {
+        "ironMg": 2045.45,
+        "folateUg": 109091.0,
+        "iodineUg": 20454.5,
+        "seleniumUg": 7500.0,
+        "zincMg": 1363.64,
+        "vitaminB12Ug": 477.273,
+        "vitaminCMg": 15000.0,
+        "vitaminDUg": 2727.27,
+        "energyKcal": 142.0,
+        "fat": 1.6,
+        "saturates": 1.1,
+        "carbohydrate": 20.0,
+        "sugars": 0.25,
+        "protein": 0.25,
+        "salt": 0.38
+      }
+    },
+    {
+      "brand": "femibion",
+      "product": "Babyplanung 0 Tabletten 56 St, 25 g",
+      "read": "https://www.dm.de/p/d/1699916/ (dm.de product page, Nährwerte and Zutaten panels; GTIN not stated)",
+      "date": "2026-10-30",
+      "ingredients": "Füllstoff mikrokristalline Cellulose; Zinkoxid; Maltodextrin; Vitamin E (DL-α-Tocopherylacetat); Trennmittel Calciumphosphate; Zucker; Emulgator Gummi arabicum; Glukosesirup; modifizierte Stärke; Überzugsmittel Hydroxypropylcellulose; Stärke; Überzugsmittel Hydroxypropylmethylcellulose; Füllstoff vernetzte Natriumcarboxymethylcellulose; Kupfersulfat; Vitamin B6; Vitamin B2; Vitamin B1; Trennmittel Magnesiumsalze der Speisefettsäuren; Calcium-L-methylfolat; Folsäure; Kaliumiodid; Natriumselenat; Farbstoff Eisenoxide und Eisenhydroxide; Biotin; Vitamin D; Vitamin B12",
+      "serving": "1 Tablette: 56 units weigh 25 g, so the dose is 0.446 g; the label declares per dose: folateUg 800, iodineUg 150, seleniumUg 55, zincMg 10, vitaminB12Ug 4.5, vitaminDUg 20; copper 1 mg, biotin 50 µg, B2 1.4 mg, B1 1.1 mg, B6 1.4 mg, vitamin E 4.8 mg; no energy or macros declared",
+      "per100g": {
+        "folateUg": 179200.0,
+        "iodineUg": 33600.0,
+        "seleniumUg": 12320.0,
+        "zincMg": 2240.0,
+        "vitaminB12Ug": 1008.0,
+        "vitaminDUg": 4480.0
+      }
+    },
+    {
+      "brand": "Doppelherz",
+      "product": "aktiv Mama plus+, 30 Kapseln, 38,4 g",
+      "read": "https://www.rossmann.de/de/baby-und-spielzeug-doppelherz-aktiv-mama-plus/p/4009932131093 (rossmann.de product page, Zutaten and Nährwerte sections; GTIN 4009932131093)",
+      "date": "2026-10-30",
+      "ingredients": "Seefischöl 24,4 %, Calciumcarbonat, Gelatine (Rind), Sojaöl (teilweise gehärtet), Feuchthaltemittel Glycerin und Sorbit, Magnesiumoxid, L-Ascorbinsäure, Eisenfumarat, Stabilisator Bienenwachs, Emulgator Sojalecithine, Nicotinamid, D-alpha-Tocopherol, Zinkoxid, Calcium-D-pantothenat, Farbstoff Eisenoxide und Eisenhydroxide, Pyridoxinhydrochlorid, Beta-Carotin, Riboflavin, Thiaminmononitrat, Pteroylmonoglutaminsäure, Kaliumiodid, D-Biotin, Cholecalciferol, Cyanocobalamin",
+      "serving": "2 Kapseln: 30 units weigh 38.4 g, so the dose is 2.56 g; the label declares per dose: calciumMg 110, magnesiumMg 90, ironMg 15, zincMg 10, iodineUg 100, vitaminDUg 5, vitaminCMg 110, folateUg 600, vitaminB12Ug 3.5; vitamin E 13 mg, B1 1.2 mg, B2 1.5 mg, niacin 15 mg, B6 1.9 mg, biotin 60 µg, pantothenic acid 6 mg per 2 capsules; the page prints 'Vitamin A 2 mg 42 %', which does not fit the 800 µg reference and reads as beta-carotene, so vitamin A is left out; no energy or macros declared",
+      "per100g": {
+        "calciumMg": 4296.88,
+        "magnesiumMg": 3515.62,
+        "ironMg": 585.938,
+        "zincMg": 390.625,
+        "iodineUg": 3906.25,
+        "vitaminDUg": 195.312,
+        "vitaminCMg": 4296.88,
+        "folateUg": 23437.5,
+        "vitaminB12Ug": 136.719
+      }
+    }
+  ]
+}

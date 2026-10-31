@@ -1,0 +1,78 @@
+{
+  "id": "akari:label:vitamin-c-effervescent",
+  "name": "Vitamin C effervescent tablet",
+  "identity": "Vitamin C effervescent tablet dissolved in a glass of water, 240 mg to 1 g vitamin C with citric acid, bicarbonate and sweeteners; the dose is one tablet.",
+  "rule": "Per 100 g of the product, each value is the median of the labels below that declare it, and a value enters only when at least three declare it; a label states its nutrients per dose, so the file converts them with the dose's weight (the pack's net content divided by its count of tablets, capsules, sticks or drops, or the stated dose weight). Salt becomes sodium (salt in g × 400 = sodium in mg). Nothing a label leaves out becomes zero. Labels read on 2026-10-30 from dm.de, rossmann.de and shop-apotheke.com product pages.",
+  "nutrients": {
+    "vitaminC": 4500,
+    "calories": 211,
+    "fat": 0.25,
+    "saturatedFat": 0.2,
+    "carbs": 13,
+    "sugar": 0.25,
+    "protein": 0.25,
+    "sodium": 7520
+  },
+  "portions": [
+    {
+      "grams": 4.1,
+      "label": "1 effervescent tablet"
+    }
+  ],
+  "labels": [
+    {
+      "brand": "Mivolis",
+      "product": "Vitamin C Brausetabletten, 20 St, 82 g",
+      "read": "https://www.dm.de/p/d/3104290/ (dm.de product page, Nährwerte and Zutaten panels; GTIN not stated)",
+      "date": "2026-10-30",
+      "ingredients": "Säuerungsmittel Citronensäure, Säureregulator Natriumhydrogencarbonat, Füllstoff Sorbit, L-Ascorbinsäure (Vitamin C), Aromen, Rote-Bete-Pulver, Maisstärke, Süßungsmittel Natriumcyclamat und Natriumsaccharin, Farbstoff Riboflavin",
+      "serving": "1 Stück: 20 units weigh 82 g, so the dose is 4.1 g; the label declares per dose: vitaminCMg 240; per 100 g 906 kJ / 211 kcal, fat < 0.5 g, saturates < 0.4 g, carbohydrate 17 g, sugars 1.2 g, protein < 0.5 g, salt 20.2 g; the under-values are counted at half the threshold",
+      "per100g": {
+        "vitaminCMg": 5853.66,
+        "energyKcal": 211.0,
+        "fat": 0.25,
+        "saturates": 0.2,
+        "carbohydrate": 17.0,
+        "sugars": 1.2,
+        "protein": 0.25,
+        "salt": 20.2
+      }
+    },
+    {
+      "brand": "altapharma",
+      "product": "Brausetablette Vitamin C, 20 Brausetabletten, 82 g",
+      "read": "https://www.rossmann.de/de/gesundheit-altapharma-brausetablette-vitamin-c/p/4068134212757 (rossmann.de product page, Zutaten and Nährwerte sections; GTIN 4068134212757)",
+      "date": "2026-10-30",
+      "ingredients": "Säuerungsmittel Citronensäure, Säureregulator Natriumhydrogencarbonat, Füllstoff Sorbitol, L-Ascorbinsäure (Vitamin C), Aromen, Süßungsmittel Natriumcyclamat, Süßungsmittel Natriumsaccharin, Farbstoff Riboflavin-5-phosphat",
+      "serving": "1 Stück: 20 units weigh 82 g, so the dose is 4.1 g; the label declares per dose: vitaminCMg 180; per 100 g 912 kJ / 212 kcal, fat < 0.5 g, saturates 0.3 g, carbohydrate 13 g, sugars < 0.5 g, protein < 0.5 g, salt 18.8 g, vitamin C 4390 mg; under-values counted at half the threshold",
+      "per100g": {
+        "vitaminCMg": 4390.0,
+        "energyKcal": 212.0,
+        "fat": 0.25,
+        "saturates": 0.3,
+        "carbohydrate": 13.0,
+        "sugars": 0.25,
+        "protein": 0.25,
+        "salt": 18.8
+      }
+    },
+    {
+      "brand": "TEMA (AmosVital)",
+      "product": "Vitamin C Brausetabletten, 20 Brausetabletten = 80 g",
+      "read": "https://www.shop-apotheke.com/arzneimittel/8715891/tema-vitamin-c-brausetabletten.htm (shop-apotheke.com product page, Pflichtangaben and Weitere Produktinformationen; GTIN not stated)",
+      "date": "2026-10-30",
+      "ingredients": "Säuerungsmittel Citronensäure, Säureregulator Natriumhydrogencarbonat, Säureregulator Natriumcarbonat, L-Ascorbinsäure, Trennmittel Tricalciumphosphat, Säureregulator Calciumcarbonat, Stärke, Inulin, Süßstoff Natrium-Cyclamat, Aroma, Säuerungsmittel Äpfelsäure, Süßstoff Saccharin-Natrium, Farbstoff Riboflavin-5'-phosphat-Natrium",
+      "serving": "1 Tablette (4 g): 20 units weigh 80 g, so the dose is 4 g; the label declares per dose: vitaminCMg 180; per 100 g 821 kJ / 196 kcal, fat 0 g, saturates 0 g, carbohydrate 2.4 g, sugars 0.2 g, fibre 2.3 g, protein 0 g, sodium 7.5 g, salt 18.8 g, vitamin C 4500 mg; PZN 08715891",
+      "per100g": {
+        "vitaminCMg": 4500.0,
+        "energyKcal": 196.0,
+        "fat": 0.0,
+        "saturates": 0.0,
+        "carbohydrate": 2.4,
+        "sugars": 0.2,
+        "protein": 0.0,
+        "salt": 18.8
+      }
+    }
+  ]
+}

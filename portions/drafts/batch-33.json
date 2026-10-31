@@ -1,0 +1,45 @@
+{
+ "batch": 33,
+ "drafted": "2026-10-30",
+ "drafter": "Claude in the Akari Nutrient-fill sweep session (cocktail collection)",
+ "entries": [
+  {
+   "key": "vermouth dry",
+   "unit": "glass",
+   "milliliters": 50,
+   "typical": 1,
+   "reason": "a 5 cl aperitif glass, as the vermouth portion"
+  },
+  {
+   "key": "tequila sunrise",
+   "unit": "glass",
+   "milliliters": 200,
+   "typical": 1,
+   "reason": "one long drink; USDA's \"1 drink\" is 225 g",
+   "excludeReferences": [
+    "bls:P9A6000"
+   ]
+  },
+  {
+   "key": "mai tai",
+   "unit": "glass",
+   "milliliters": 150,
+   "typical": 1,
+   "reason": "one tumbler; USDA's \"1 drink\" is 180 g"
+  },
+  {
+   "key": "michelada",
+   "unit": "glass",
+   "milliliters": 250,
+   "typical": 1,
+   "reason": "one beer glass; USDA's \"1 drink\" is 225 g"
+  },
+  {
+   "key": "shirley temple",
+   "unit": "glass",
+   "milliliters": 200,
+   "typical": 1,
+   "reason": "one long drink; USDA's \"1 drink\" is 225 g"
+  }
+ ]
+}

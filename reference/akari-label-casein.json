@@ -1,0 +1,75 @@
+{
+  "id": "akari:label:casein",
+  "name": "Casein protein powder",
+  "identity": "Micellar casein powder, 75 to 85 g protein per 100 g; the labels are the makers' default flavour because casein is rarely sold unflavoured.",
+  "rule": "Per 100 g, each value is the median of the three labels below that declare it, and a value enters only when at least three labels declare it (default flavours). Salt becomes sodium (salt in g × 400 = sodium in mg). Nothing a label leaves out becomes zero. Labels read on 2026-10-30 from Open Food Facts through Akari's proxy, as the beef protein isolate was.",
+  "nutrients": {
+    "calories": 366.67,
+    "fat": 1.89,
+    "saturatedFat": 1.89,
+    "carbs": 6.67,
+    "sugar": 2.64,
+    "protein": 80.0,
+    "sodium": 136.0
+  },
+  "portions": [
+    {
+      "grams": 30,
+      "label": "1 scoop"
+    }
+  ],
+  "labels": [
+    {
+      "brand": "My protein",
+      "product": "Impact Casein",
+      "read": "Open Food Facts 5056704574632 through https://api.joinakari.com/v1/off/product/5056704574632",
+      "date": "2026-10-30",
+      "ingredients": "not stated in the entry",
+      "serving": "1 sooop (30 g)",
+      "per100g": {
+        "energyKcal": 366.67,
+        "fat": 0.0,
+        "saturates": 0.0,
+        "carbohydrate": 6.67,
+        "sugars": 3.33,
+        "protein": 80.0,
+        "salt": 0.17
+      }
+    },
+    {
+      "brand": "Prozis",
+      "product": "Casein Prime",
+      "read": "Open Food Facts 5600380897631 through https://api.joinakari.com/v1/off/product/5600380897631",
+      "date": "2026-10-30",
+      "ingredients": "not stated in the entry",
+      "serving": "30 g",
+      "per100g": {
+        "energyKJ": 1589.0,
+        "energyKcal": 380.0,
+        "fat": 3.4,
+        "saturates": 2.0,
+        "carbohydrate": 2.3,
+        "sugars": 1.8,
+        "protein": 85.0,
+        "salt": 0.34
+      }
+    },
+    {
+      "brand": "EVL Casein Protein",
+      "product": "Casein",
+      "read": "Open Food Facts 0818901029132 through https://api.joinakari.com/v1/off/product/0818901029132",
+      "date": "2026-10-30",
+      "ingredients": "not stated in the entry",
+      "serving": "1 scoop (26.5 g)",
+      "per100g": {
+        "energyKcal": 339.62,
+        "fat": 1.89,
+        "saturates": 1.89,
+        "carbohydrate": 7.55,
+        "sugars": 2.64,
+        "protein": 75.47,
+        "salt": 1.51
+      }
+    }
+  ]
+}

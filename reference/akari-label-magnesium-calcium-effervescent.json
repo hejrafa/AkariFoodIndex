@@ -1,0 +1,61 @@
+{
+  "id": "akari:label:magnesium-calcium-effervescent",
+  "name": "Magnesium + calcium effervescent tablet",
+  "identity": "Effervescent tablet with magnesium, calcium and vitamin D3 dissolved in water; the dose is one tablet.",
+  "rule": "Per 100 g of the product, each value is the median of the labels below that declare it, and a value enters only when at least three declare it; a label states its nutrients per dose, so the file converts them with the dose's weight (the pack's net content divided by its count of tablets, capsules, sticks or drops, or the stated dose weight). Salt becomes sodium (salt in g × 400 = sodium in mg). Fewer than three labels declare energy, so the row stands at 0 kcal under the verification policy's clause for label generics with a micronutrient. Nothing a label leaves out becomes zero. Labels read on 2026-10-30 from dm.de, rossmann.de and shop-apotheke.com product pages.",
+  "nutrients": {
+    "calcium": 8247.42,
+    "magnesium": 5051.55,
+    "vitaminD": 103.093,
+    "calories": 0
+  },
+  "portions": [
+    {
+      "grams": 4.85,
+      "label": "1 effervescent tablet"
+    }
+  ],
+  "labels": [
+    {
+      "brand": "altapharma",
+      "product": "Magnesium + Calcium + D3 Brausetabletten, 20 Brausetabletten, 88 g",
+      "read": "https://www.rossmann.de/de/gesundheit-altapharma-magnesium--calcium--d3-brausetabletten/p/4305615614434 (rossmann.de product page, Zutaten and Nährwerte sections; GTIN 4305615614434)",
+      "date": "2026-10-30",
+      "ingredients": "Säuerungsmittel Äpfelsäure, Calciumcarbonat, Magnesiumcarbonat, Säuerungsmittel Citronensäure, Feuchthaltemittel Sorbit, Säureregulator Natriumhydrogencarbonat, Inulin, Trennmittel Tricalciumphosphat, Süßungsmittel Natriumcyclamat, Stärke, Aroma, Rote-Bete-Saftpulver, Süßungsmittel Natriumsaccharin, Farbstoff Riboflavin-5'-phosphat Natrium, Cholecalciferol (Vitamin D3)",
+      "serving": "1 Tablette: 20 units weigh 88 g, so the dose is 4.4 g; the label declares per dose: calciumMg 480, magnesiumMg 187.5, vitaminDUg 5; no energy or macros declared",
+      "per100g": {
+        "calciumMg": 10909.1,
+        "magnesiumMg": 4261.36,
+        "vitaminDUg": 113.636
+      }
+    },
+    {
+      "brand": "Kneipp",
+      "product": "Brausetabletten Magnesium + Calcium + Vitamin D3, 20 Brausetabletten, 97 g",
+      "read": "https://www.rossmann.de/de/gesundheit-kneipp-brausetabletten-magnesium--calcium--vitamin-d3/p/4008233179674 (rossmann.de product page, Zutaten and Nährwerte sections; GTIN 4008233179674)",
+      "date": "2026-10-30",
+      "ingredients": "Säuerungsmittel Citronensäure; Calciumcarbonat, Magnesiumcarbonat, Säureregulator Natriumhydrogencarbonat; Maltodextrin, Aromen, Maisstärke, Süßungsmittel Natriumcyclamat; L-Ascorbinsäure, modifizierte Stärke, Süßungsmittel Natriumsaccharin; Farbstoff Carotin; Cholecalciferol",
+      "serving": "1 Stück: 20 units weigh 97 g, so the dose is 4.85 g; the label declares per dose: calciumMg 400, magnesiumMg 245, vitaminDUg 5, vitaminCMg 37; no energy or macros declared",
+      "per100g": {
+        "calciumMg": 8247.42,
+        "magnesiumMg": 5051.55,
+        "vitaminDUg": 103.093,
+        "vitaminCMg": 762.887
+      }
+    },
+    {
+      "brand": "Doppelherz",
+      "product": "Magnesium Calcium Kalium + Vitamine B6 + D3 Brausetabletten 15 St, 100,5 g",
+      "read": "https://www.dm.de/p/d/1710934/ (dm.de product page, Nährwerte and Zutaten panels; GTIN not stated)",
+      "date": "2026-10-30",
+      "ingredients": "Säuerungsmittel Citronensäure, Magnesiumcarbonat, Kaliumbicarbonat, Säuerungsmittel Äpfelsäure, Säureregulator Natriumhydrogencarbonat, Calciumcarbonat, Feuchthaltemittel Sorbit, Inulin, Aroma, Süßungsmittel Natriumcyclamat, Calciumsalze der Orthophosphorsäure, Süßungsmittel Natriumsaccharin, Vitamin B6, Farbstoff Riboflavin-5'-phosphat, Vitamin D",
+      "serving": "1 Stück: 15 units weigh 100.5 g, so the dose is 6.7 g; the label declares per dose: calciumMg 120, potassiumMg 300, magnesiumMg 400, vitaminDUg 5; vitamin B6 1.4 mg; no energy or macros declared",
+      "per100g": {
+        "calciumMg": 1791.04,
+        "potassiumMg": 4477.61,
+        "magnesiumMg": 5970.15,
+        "vitaminDUg": 74.6269
+      }
+    }
+  ]
+}

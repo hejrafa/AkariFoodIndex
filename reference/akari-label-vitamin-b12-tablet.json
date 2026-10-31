@@ -1,0 +1,58 @@
+{
+  "id": "akari:label:vitamin-b12-tablet",
+  "name": "Vitamin B12 tablet",
+  "identity": "High-dose vitamin B12 tablet, 350 to 1,000 µg cyanocobalamin, one a day; the dose is one tablet.",
+  "rule": "Per 100 g of the product, each value is the median of the labels below that declare it, and a value enters only when at least three declare it; a label states its nutrients per dose, so the file converts them with the dose's weight (the pack's net content divided by its count of tablets, capsules, sticks or drops, or the stated dose weight). Salt becomes sodium (salt in g × 400 = sodium in mg). Fewer than three labels declare energy, so the row stands at 0 kcal under the verification policy's clause for label generics with a micronutrient. Nothing a label leaves out becomes zero. Labels read on 2026-10-30 from dm.de, rossmann.de and shop-apotheke.com product pages.",
+  "nutrients": {
+    "vitaminB12": 124481,
+    "calories": 0
+  },
+  "portions": [
+    {
+      "grams": 0.401667,
+      "label": "1 tablet"
+    }
+  ],
+  "labels": [
+    {
+      "brand": "Mivolis",
+      "product": "Vitamin B12 350 Mini-Tabletten 30 St, 6 g",
+      "read": "https://www.dm.de/p/d/3104287/ (dm.de product page, Nährwerte and Zutaten panels; GTIN not stated)",
+      "date": "2026-10-30",
+      "ingredients": "Füllstoff Calciumcarbonat, Füllstoff Sorbitol, Füllstoff Hydroxypropylmethylcellulose, Maltodextrin, Trennmittel Magnesiumsalze der Speisefettsäuren, Cyanocobalamin (Vitamin B12)",
+      "serving": "1 Tablette: 30 units weigh 6 g, so the dose is 0.2 g; the label declares per dose: vitaminB12Ug 350; per 100 g 257 kJ / 62 kcal, fat 0.5 g, saturates 0.5 g, carbohydrate 14 g, sugars < 0.5 g, protein < 0.5 g, salt 0.08 g; under-values counted at half the threshold",
+      "per100g": {
+        "vitaminB12Ug": 175000.0,
+        "energyKcal": 62.0,
+        "fat": 0.5,
+        "saturates": 0.5,
+        "carbohydrate": 14.0,
+        "sugars": 0.25,
+        "protein": 0.25,
+        "salt": 0.08
+      }
+    },
+    {
+      "brand": "Doppelherz",
+      "product": "Vitamin B12 500 Tabletten 120 St, 48,2 g",
+      "read": "https://www.dm.de/p/d/1704966/ (dm.de product page, Nährwerte and Zutaten panels; GTIN not stated)",
+      "date": "2026-10-30",
+      "ingredients": "Füllstoff Dicalciumphosphat, Füllstoff mikrokristalline Cellulose, Überzugsmittel Hydroxypropylmethylcellulose, Trennmittel Siliciumdioxid, Füllstoff vernetzte Carboxymethylcellulose, Trennmittel Magnesiumsalze der Speisefettsäuren, Trennmittel Speisefettsäuren, Farbstoff Eisenoxide und Eisenhydroxide, Trennmittel Talkum, Vitamin B12",
+      "serving": "1 Tablette: 120 units weigh 48.2 g, so the dose is 0.402 g; the label declares per dose: vitaminB12Ug 500; no energy or macros declared",
+      "per100g": {
+        "vitaminB12Ug": 124481.0
+      }
+    },
+    {
+      "brand": "altapharma",
+      "product": "Vitamin B12 hochdosiert 60 Minitabletten, 16,8 g",
+      "read": "https://www.rossmann.de/de/gesundheit-altapharma-vitamin-b12-hochdosiert-60-minitabletten/p/4305615749136 (rossmann.de product page, Zutaten and Nährwerte sections; GTIN 4305615749136)",
+      "date": "2026-10-30",
+      "ingredients": "Füllstoff mikrokristalline Cellulose; L-Glutamin; Füllstoff Polyvinylpyrrolidon; L-Serin, Trennmittel Tricalciumphosphat, Siliciumdioxid, Magnesiumsalze der Speisefettsäuren; Cyanocobalamin; Riboflavin-5-phosphat-Natrium; Pyridoxinhydrochlorid; Thiaminhydrochlorid",
+      "serving": "2 Minitabletten: 60 units weigh 16.8 g, so the dose is 0.56 g; the label declares per dose: vitaminB12Ug 500; B1 0.17 mg, B2 0.21 mg, B6 0.21 mg per 2 tablets; no energy or macros declared",
+      "per100g": {
+        "vitaminB12Ug": 89285.7
+      }
+    }
+  ]
+}

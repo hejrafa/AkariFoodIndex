@@ -1,0 +1,76 @@
+{
+  "id": "akari:label:protein-spread",
+  "name": "Protein spread, hazelnut",
+  "identity": "Hazelnut or peanut protein spread with 20 to 22 g protein per 100 g in place of a sugar-sweetened nut spread.",
+  "rule": "Per 100 g, each value is the median of the three labels below that declare it, and a value enters only when at least three labels declare it (default flavours). Salt becomes sodium (salt in g × 400 = sodium in mg). Nothing a label leaves out becomes zero. Labels read on 2026-10-30 from Open Food Facts through Akari's proxy, as the beef protein isolate was.",
+  "nutrients": {
+    "calories": 540.0,
+    "fat": 40.0,
+    "saturatedFat": 8.5,
+    "carbs": 33.0,
+    "sugar": 5.2,
+    "protein": 21.0,
+    "sodium": 88.0
+  },
+  "portions": [
+    {
+      "grams": 15,
+      "label": "1 tablespoon"
+    }
+  ],
+  "labels": [
+    {
+      "brand": "MYPROTEIN",
+      "product": "Protein spread",
+      "read": "Open Food Facts 5056185748751 through https://api.joinakari.com/v1/off/product/5056185748751",
+      "date": "2026-10-30",
+      "ingredients": "sweet whey spread with added whey protein with sweetener, serving size: 15g, servings per container: 24 nutritional information: per 100g (15g), energy: 2239k/",
+      "serving": "not stated",
+      "per100g": {
+        "energyKJ": 2415.0,
+        "energyKcal": 540.0,
+        "fat": 40.0,
+        "saturates": 10.0,
+        "carbohydrate": 33.0,
+        "sugars": 6.8,
+        "protein": 22.0,
+        "salt": 0.22
+      }
+    },
+    {
+      "brand": "Mister Choc",
+      "product": "Protein Spread Peanut",
+      "read": "Open Food Facts 4056489917953 through https://api.joinakari.com/v1/off/product/4056489917953",
+      "date": "2026-10-30",
+      "ingredients": "pâte de cacahuète maltilol glucoside de steviol huiles végétales (tournesol, graines de coton) protéines de poids cacao maigre en poudre émulsifiant lécithine sel",
+      "serving": "100",
+      "per100g": {
+        "energyKJ": 2297.0,
+        "energyKcal": 552.0,
+        "fat": 36.0,
+        "saturates": 6.6,
+        "carbohydrate": 34.0,
+        "sugars": 1.1,
+        "protein": 21.0,
+        "salt": 0.3
+      }
+    },
+    {
+      "brand": "Grenade",
+      "product": "Protein spread, hazel nutter",
+      "read": "Open Food Facts 0847534003363 through https://api.joinakari.com/v1/off/product/0847534003363",
+      "date": "2026-10-30",
+      "ingredients": "not stated in the entry",
+      "serving": "360g",
+      "per100g": {
+        "energyKcal": 531.0,
+        "fat": 40.0,
+        "saturates": 8.5,
+        "carbohydrate": 33.0,
+        "sugars": 5.2,
+        "protein": 20.0,
+        "salt": 0.2
+      }
+    }
+  ]
+}

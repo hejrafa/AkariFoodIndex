@@ -1,0 +1,69 @@
+{
+  "id": "akari:label:vitamin-c-depot-capsule",
+  "name": "Vitamin C depot tablet or capsule",
+  "identity": "One-a-day vitamin C depot of 300 to 400 mg with zinc, released slowly; the dose is one unit.",
+  "rule": "Per 100 g of the product, each value is the median of the labels below that declare it, and a value enters only when at least three declare it; a label states its nutrients per dose, so the file converts them with the dose's weight (the pack's net content divided by its count of tablets, capsules, sticks or drops, or the stated dose weight). Salt becomes sodium (salt in g × 400 = sodium in mg). Fewer than three labels declare energy, so the row stands at 0 kcal under the verification policy's clause for label generics with a micronutrient. Nothing a label leaves out becomes zero. Labels read on 2026-10-30 from dm.de, rossmann.de and shop-apotheke.com product pages.",
+  "nutrients": {
+    "vitaminC": 48000,
+    "calories": 0
+  },
+  "portions": [
+    {
+      "grams": 0.625,
+      "label": "1 tablet or capsule"
+    }
+  ],
+  "labels": [
+    {
+      "brand": "Mivolis",
+      "product": "Vitamin C Depot Kapseln 40 St, 22 g",
+      "read": "https://www.dm.de/p/d/3104235/ (dm.de product page, Nährwerte and Zutaten panels; GTIN not stated)",
+      "date": "2026-10-30",
+      "ingredients": "L-Ascorbinsäure (Vitamin C), Zucker, Gelatine (Rind), Überzugsmittel Schellack, Maisstärke, Glukosesirup, pflanzliches Öl (Kokos), Trennmittel Talkum, Farbstoff Eisenoxide und Eisenhydroxide",
+      "serving": "1 Stück: 40 units weigh 22 g, so the dose is 0.55 g; the label declares per dose: vitaminCMg 300; per 100 g 666 kJ / 159 kcal, fat 0.5 g, saturates 0.5 g, carbohydrate 23 g, sugars 21 g, protein 15 g, salt 0 g",
+      "per100g": {
+        "vitaminCMg": 54545.5,
+        "energyKcal": 159.0,
+        "fat": 0.5,
+        "saturates": 0.5,
+        "carbohydrate": 23.0,
+        "sugars": 21.0,
+        "protein": 15.0,
+        "salt": 0.0
+      }
+    },
+    {
+      "brand": "altapharma",
+      "product": "Vitamin C + Zink Depot, 60 Kapseln, 37,5 g",
+      "read": "https://www.rossmann.de/de/gesundheit-altapharma-vitamin-c--zink-depot/p/4068134093547 (rossmann.de product page, Zutaten and Nährwerte sections; GTIN 4068134093547)",
+      "date": "2026-10-30",
+      "ingredients": "L-Ascorbinsäure, Hydroxypropylmethylcellulose, Zucker, Füllstoff mikrokristalline Cellulose; Zinkgluconat, Stabilisator Ethylcellulose",
+      "serving": "1 Kapsel: 60 units weigh 37.5 g, so the dose is 0.625 g; the label declares per dose: energyKcal 1, fat 0.25, saturates 0.05, carbohydrate 0.25, sugars 0.25, protein 0.25, salt 0.005, zincMg 5, vitaminCMg 300; per capsule 4 kJ / 1 kcal, fat < 0.5 g, saturates < 0.1 g, carbohydrate < 0.5 g, sugars < 0.5 g, protein < 0.5 g, salt < 0.01 g; under-values counted at half the threshold",
+      "per100g": {
+        "energyKcal": 160.0,
+        "fat": 40.0,
+        "saturates": 8.0,
+        "carbohydrate": 40.0,
+        "sugars": 40.0,
+        "protein": 40.0,
+        "salt": 0.8,
+        "zincMg": 800.0,
+        "vitaminCMg": 48000.0
+      }
+    },
+    {
+      "brand": "Doppelherz",
+      "product": "aktiv C+Zink+E 400 Depot, 40 Tabletten, 55,2 g",
+      "read": "https://www.rossmann.de/de/gesundheit-doppelherz-aktiv-czinke-400-depot/p/4009932003543 (rossmann.de product page, Zutaten and Nährwerte sections; GTIN 4009932003543)",
+      "date": "2026-10-30",
+      "ingredients": "Füllstoff Dicalciumphosphat, L-Ascorbinsäure, Füllstoff Cellulose, Überzugsmittel Hydroxypropylmethylcellulose, DL-alpha-Tocopherylacetat, modifizierte Stärke, Zinkgluconat, Trennmittel Speisefettsäuren, Trennmittel Talkum, Trennmittel Magnesiumsalze der Speisefettsäuren, Trennmittel Siliciumdioxid, Farbstoff Titandioxid, Überzugsmittel Hydroxypropylcellulose, Kokosöl, Folsäure, Natriumselenit",
+      "serving": "1 Stück: 40 units weigh 55.2 g, so the dose is 1.38 g; the label declares per dose: zincMg 5, seleniumUg 30, vitaminCMg 400, folateUg 400; vitamin E 36 mg; no energy or macros declared",
+      "per100g": {
+        "zincMg": 362.319,
+        "seleniumUg": 2173.91,
+        "vitaminCMg": 28985.5,
+        "folateUg": 28985.5
+      }
+    }
+  ]
+}

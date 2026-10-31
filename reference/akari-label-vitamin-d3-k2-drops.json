@@ -1,0 +1,51 @@
+{
+  "id": "akari:label:vitamin-d3-k2-drops",
+  "name": "Vitamin D3 + K2 drops",
+  "identity": "Vitamin D3 with vitamin K2 in MCT oil taken as drops, 1,000 to 2,000 IU vitamin D per daily drop; the dose is one drop.",
+  "rule": "Per 100 g of the product, each value is the median of the labels below that declare it, and a value enters only when at least three declare it; a label states its nutrients per dose, so the file converts them with the dose's weight (the pack's net content divided by its count of tablets, capsules, sticks or drops, or the stated dose weight). Salt becomes sodium (salt in g × 400 = sodium in mg). Fewer than three labels declare energy, so the row stands at 0 kcal under the verification policy's clause for label generics with a micronutrient. Liquid labels give volumes; each label's serving note names the density that turns them into grams. Nothing a label leaves out becomes zero. Labels read on 2026-10-30 from dm.de, rossmann.de and shop-apotheke.com product pages.",
+  "nutrients": {
+    "vitaminD": 89473.7,
+    "calories": 0
+  },
+  "portions": [
+    {
+      "grams": 0.0258503,
+      "label": "1 drop"
+    }
+  ],
+  "labels": [
+    {
+      "brand": "Nature Love",
+      "product": "Vitamin D3 & K2 Tropfen, 30 ml, ca. 1.020 Tropfen",
+      "read": "https://www.rossmann.de/de/gesundheit-nature-love-vitamin-d3-und-k2-tropfen/p/4260488132563 (rossmann.de product page, Zutaten and Nährwerte sections; GTIN 4260488132563)",
+      "date": "2026-10-30",
+      "ingredients": "Mittelkettige Triglyceride aus Kokosöl, Cholecalciferol, Menachinon",
+      "serving": "1 Tropfen: 1020 units weigh 28.5 g (30 ml), so the dose is 0.0279 g; the label declares per dose: vitaminDUg 25; vitamin K 20 µg per drop; no energy or macros declared; the dose is one drop; the pack's drop count gives the drop's volume, and the oil's mass follows at 0.95 g per ml, the density of MCT (coconut) oil the drops are made of",
+      "per100g": {
+        "vitaminDUg": 89473.7
+      }
+    },
+    {
+      "brand": "altapharma",
+      "product": "D3+K2 Tropfen, 15 ml",
+      "read": "https://www.rossmann.de/de/gesundheit-altapharma-d3k2-tropfen/p/4068134074874 (rossmann.de product page, Zutaten and Nährwerte sections; GTIN 4068134074874)",
+      "date": "2026-10-30",
+      "ingredients": "Mittelkettige Triglyceride, Menachinon, Cholecalciferol",
+      "serving": "1 Tropfen: 555.6 units weigh 14.25 g (15 ml), so the dose is 0.0256 g; the label declares per dose: vitaminDUg 7.7; the label's dose is 5 drops = 0.135 ml with vitamin D 38.5 µg and vitamin K 80 µg, so one drop of 0.027 ml carries 7.7 µg vitamin D and 16 µg vitamin K; no energy or macros declared; the dose is one drop; the pack's drop count gives the drop's volume, and the oil's mass follows at 0.95 g per ml, the density of MCT (coconut) oil the drops are made of",
+      "per100g": {
+        "vitaminDUg": 30021.9
+      }
+    },
+    {
+      "brand": "N1",
+      "product": "Vitamin D3 + K2, 20 ml, 735 Tropfen",
+      "read": "https://www.rossmann.de/de/gesundheit-n1-vitamin-d3--k2/p/4260355840225 (rossmann.de product page, Zutaten and Nährwerte sections; GTIN 4260355840225)",
+      "date": "2026-10-30",
+      "ingredients": "Cholecalciferol, Menachinon-7, mittelkettige angereicherte Triglyceride",
+      "serving": "1 Tropfen: 735 units weigh 19 g (20 ml), so the dose is 0.0259 g; the label declares per dose: vitaminDUg 25; vitamin K 7.5 µg per drop; no energy or macros declared; the dose is one drop; the pack's drop count gives the drop's volume, and the oil's mass follows at 0.95 g per ml, the density of MCT (coconut) oil the drops are made of",
+      "per100g": {
+        "vitaminDUg": 96710.5
+      }
+    }
+  ]
+}

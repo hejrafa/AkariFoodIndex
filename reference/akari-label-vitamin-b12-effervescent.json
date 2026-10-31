@@ -1,0 +1,59 @@
+{
+  "id": "akari:label:vitamin-b12-effervescent",
+  "name": "Vitamin B12 effervescent tablet",
+  "identity": "Vitamin B12 effervescent tablet dissolved in a glass of water; the dose is one tablet.",
+  "rule": "Per 100 g of the product, each value is the median of the labels below that declare it, and a value enters only when at least three declare it; a label states its nutrients per dose, so the file converts them with the dose's weight (the pack's net content divided by its count of tablets, capsules, sticks or drops, or the stated dose weight). Salt becomes sodium (salt in g × 400 = sodium in mg). Fewer than three labels declare energy, so the row stands at 0 kcal under the verification policy's clause for label generics with a micronutrient. Nothing a label leaves out becomes zero. Labels read on 2026-10-30 from dm.de, rossmann.de and shop-apotheke.com product pages.",
+  "nutrients": {
+    "vitaminB12": 697.674,
+    "calories": 0
+  },
+  "portions": [
+    {
+      "grams": 4.3,
+      "label": "1 effervescent tablet"
+    }
+  ],
+  "labels": [
+    {
+      "brand": "Mivolis",
+      "product": "Vitamin B12 Brausetabletten 20 St, 82 g",
+      "read": "https://www.dm.de/p/d/3104288/ (dm.de product page, Nährwerte and Zutaten panels; GTIN not stated)",
+      "date": "2026-10-30",
+      "ingredients": "Säuerungsmittel Citronensäure, Säureregulator Natriumhydrogencarbonat, Füllstoff Sorbit, Aromen, Maisstärke, Rote-Bete-Pulver, Süßungsmittel Natriumcyclamat und Natriumsaccharin, Maltodextrin, Farbstoff Riboflavin, Cyanocobalamin (Vitamin B12)",
+      "serving": "1 Stück: 20 units weigh 82 g, so the dose is 4.1 g; the label declares per dose: vitaminB12Ug 12.5; per 100 g 858 kJ / 200 kcal, fat < 0.5 g, saturates 0.3 g, carbohydrate 16 g, sugars 0.6 g, protein < 0.5 g, salt 22.3 g; under-values counted at half the threshold",
+      "per100g": {
+        "vitaminB12Ug": 304.878,
+        "energyKcal": 200.0,
+        "fat": 0.25,
+        "saturates": 0.3,
+        "carbohydrate": 16.0,
+        "sugars": 0.6,
+        "protein": 0.25,
+        "salt": 22.3
+      }
+    },
+    {
+      "brand": "altapharma",
+      "product": "Brausetablette Vitamin B12 hochdosiert, 20 Brausetabletten, 86 g",
+      "read": "https://www.rossmann.de/de/gesundheit-altapharma-brausetablette-vitamin-b12-hochdosiert/p/4305615614410 (rossmann.de product page, Zutaten and Nährwerte sections; GTIN 4305615614410)",
+      "date": "2026-10-30",
+      "ingredients": "Säuerungsmittel Citronensäure, Säureregulator Natriumhydrogencarbonat, Maltodextrin, Feuchthaltemittel Sorbit, Inulin, Säureregulator Natriumcarbonat, Süßungsmittel Natriumcyclamat, Aromen, Süßungsmittel Natriumsaccharin, färbendes Lebensmittel Rote Bete-Saftpulver, Farbstoff Riboflavin-5'-phosphat Natrium, Vitamin B12",
+      "serving": "1 Tablette: 20 units weigh 86 g, so the dose is 4.3 g; the label declares per dose: vitaminB12Ug 30; no energy or macros declared",
+      "per100g": {
+        "vitaminB12Ug": 697.674
+      }
+    },
+    {
+      "brand": "Doppelherz",
+      "product": "B12 + D3 Energie + Immun Brausetabletten, 15 Tabletten, 97,5 g",
+      "read": "https://www.rossmann.de/de/gesundheit-doppelherz-b12--d3-energie--immun-brausetabletten/p/4009932133684 (rossmann.de product page, Zutaten and Nährwerte sections; GTIN 4009932133684)",
+      "date": "2026-10-30",
+      "ingredients": "Säuerungsmittel Citronensäure, Säureregulator Natriumhydrogencarbonat, Feuchthaltemittel Sorbit, Maltodextrin, Inulin, Säureregulator Natriumcarbonat, Stärke, Trennmittel Tricalciumphosphat, Aromen, Rote Bete Saftpulver, Süßungsmittel Natriumcyclamat, Süßungsmittel Natriumsaccharin, Farbstoff Riboflavin-5'-Phosphat, Vitamin B12, Vitamin D",
+      "serving": "1 Brausetablette: 15 units weigh 97.5 g, so the dose is 6.5 g; the label declares per dose: vitaminDUg 20, vitaminB12Ug 300; no energy or macros declared",
+      "per100g": {
+        "vitaminDUg": 307.692,
+        "vitaminB12Ug": 4615.38
+      }
+    }
+  ]
+}

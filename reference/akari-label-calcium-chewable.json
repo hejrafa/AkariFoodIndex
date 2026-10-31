@@ -1,0 +1,60 @@
+{
+  "id": "akari:label:calcium-chewable",
+  "name": "Calcium + D3 chewable tablet",
+  "identity": "Chewable calcium carbonate tablets, plain or with vitamin D3 or C, 200 to 1,000 mg calcium per daily dose; the dose is the label's daily tablets.",
+  "rule": "Per 100 g of the product, each value is the median of the labels below that declare it, and a value enters only when at least three declare it; a label states its nutrients per dose, so the file converts them with the dose's weight (the pack's net content divided by its count of tablets, capsules, sticks or drops, or the stated dose weight). Salt becomes sodium (salt in g × 400 = sodium in mg). Fewer than three labels declare energy, so the row stands at 0 kcal under the verification policy's clause for label generics with a micronutrient. Nothing a label leaves out becomes zero. Labels read on 2026-10-30 from dm.de, rossmann.de and shop-apotheke.com product pages.",
+  "nutrients": {
+    "calcium": 19230.8,
+    "calories": 0
+  },
+  "portions": [
+    {
+      "grams": 3.76667,
+      "label": "1 daily dose of chewable tablets"
+    }
+  ],
+  "labels": [
+    {
+      "brand": "Abtei",
+      "product": "Calcium 1.000 + Vitamin D3 800 I.E. Kautabletten, 30 Tabletten, 113 g",
+      "read": "https://www.rossmann.de/de/gesundheit-abtei-calcium-1000--vitamin-d3-800-ie-kautabletten/p/4026600533614 (rossmann.de product page, Zutaten and Nährwerte sections; GTIN 4026600533614)",
+      "date": "2026-10-30",
+      "ingredients": "Calciumcarbonat; Süßungsmittel Sorbit; ganz gehärtetes pflanzliches Öl (Raps); Aroma; Trennmittel Magnesiumsalze der Speisefettsäuren; teilweise gehärtete pflanzliche Öle (Palmkern, Kokos, Raps), Vitamin D3",
+      "serving": "1 Stück: 30 units weigh 113 g, so the dose is 3.77 g; the label declares per dose: calciumMg 1000, vitaminDUg 20; no energy or macros declared",
+      "per100g": {
+        "calciumMg": 26548.7,
+        "vitaminDUg": 530.973
+      }
+    },
+    {
+      "brand": "Warnke",
+      "product": "Calciumcarbonat 500 Kautabletten, 100 Kautabletten, 104 g",
+      "read": "https://www.shop-apotheke.com/arzneimittel/3465900/calciumcarbonat-500-kautabletten.htm (shop-apotheke.com product page, Pflichtangaben and Weitere Produktinformationen; GTIN not stated)",
+      "date": "2026-10-30",
+      "ingredients": "Calciumcarbonat (48 %), Saccharose, Trennmittel Magnesiumsalze von Speisefettsäuren",
+      "serving": "1 Kautablette: 100 units weigh 104 g, so the dose is 1.04 g; the label declares per dose: calciumMg 200; per 100 g 862 kJ / 206 kcal, fat < 0.1 g, saturates < 0.1 g, carbohydrate 50.2 g, sugars 50.2 g, polyols < 0.1 g, protein < 0.1 g, salt < 500 mg; under-values counted at half the threshold; the page names 4 to 6 tablets a day, so the label is taken per single tablet; PZN 03465900",
+      "per100g": {
+        "calciumMg": 19230.8,
+        "energyKcal": 206.0,
+        "fat": 0.05,
+        "saturates": 0.05,
+        "carbohydrate": 50.2,
+        "sugars": 50.2,
+        "protein": 0.05,
+        "salt": 0.25
+      }
+    },
+    {
+      "brand": "Endima",
+      "product": "Calcium 750 Kautabletten, 90 Kautabletten = 180 g",
+      "read": "https://www.shop-apotheke.com/arzneimittel/12909187/endima-calcium-750.htm (shop-apotheke.com product page, Pflichtangaben and Weitere Produktinformationen; GTIN not stated)",
+      "date": "2026-10-30",
+      "ingredients": "Zuckeraustauschstoff Sorbit, Calciumcarbonat, Säuerungsmittel Zitronensäure, Trennmittel Magnesiumsalze von Speisefettsäuren, Siliciumoxid, Vitamin C, Aroma, Süßungsmittel Saccharin und Natriumcyclamat, Vitamin B2",
+      "serving": "3 Tabletten: 90 units weigh 180 g, so the dose is 6 g; the label declares per dose: calciumMg 900, vitaminCMg 100; vitamin B2 1.5 mg per 3 tablets; no energy or macros declared; PZN 12909187",
+      "per100g": {
+        "calciumMg": 15000.0,
+        "vitaminCMg": 1666.67
+      }
+    }
+  ]
+}

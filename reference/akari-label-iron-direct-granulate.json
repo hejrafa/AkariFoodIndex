@@ -1,0 +1,61 @@
+{
+  "id": "akari:label:iron-direct-granulate",
+  "name": "Iron direct granulate stick",
+  "identity": "Iron granulate or stick taken without water, 14 to 20 mg iron with vitamin C and folate; the dose is one stick.",
+  "rule": "Per 100 g of the product, each value is the median of the labels below that declare it, and a value enters only when at least three declare it; a label states its nutrients per dose, so the file converts them with the dose's weight (the pack's net content divided by its count of tablets, capsules, sticks or drops, or the stated dose weight). Salt becomes sodium (salt in g × 400 = sodium in mg). Fewer than three labels declare energy, so the row stands at 0 kcal under the verification policy's clause for label generics with a micronutrient. Nothing a label leaves out becomes zero. Labels read on 2026-10-30 from dm.de, rossmann.de and shop-apotheke.com product pages.",
+  "nutrients": {
+    "iron": 1272.73,
+    "folate": 27272.7,
+    "vitaminC": 7272.73,
+    "calories": 0
+  },
+  "portions": [
+    {
+      "grams": 1.1,
+      "label": "1 stick"
+    }
+  ],
+  "labels": [
+    {
+      "brand": "taxofit",
+      "product": "Eisen + Folsäure + Vitamin C direkt Granulat (20 Stück), 22 g",
+      "read": "https://www.dm.de/p/d/1306558/ (dm.de product page, Nährwerte and Zutaten panels; GTIN not stated)",
+      "date": "2026-10-30",
+      "ingredients": "Süßungsmittel (Sorbit, Xylit), L-Ascorbinsäure (Vitamin C), Eisen-III-pyrophosphat, Magnesiumsalze der Citronensäure, Säureregulator Natriumcitrat, färbendes Lebensmittel Rote Bete Pulver, Trennmittel Magnesiumsalze der Speisefettsäuren, Süßungsmittel (Aspartam, Acesulfam K), Pteroylmonoglutaminsäure (Folsäure), Aroma",
+      "serving": "1 Stück: 20 units weigh 22 g, so the dose is 1.1 g; the label declares per dose: ironMg 14, folateUg 400, vitaminCMg 80; no energy or macros declared",
+      "per100g": {
+        "ironMg": 1272.73,
+        "folateUg": 36363.6,
+        "vitaminCMg": 7272.73
+      }
+    },
+    {
+      "brand": "More Nutrition",
+      "product": "Eisen+ Sticks 14 St, Rote Beeren Geschmack, 56 g",
+      "read": "https://www.dm.de/p/d/3138728/ (dm.de product page, Nährwerte and Zutaten panels; GTIN not stated)",
+      "date": "2026-10-30",
+      "ingredients": "L-Glycin, Süßungsmittel (Xylit, Erythrit), mikronisiertes Eisenpulver (Maisstärke, Eisenpyrophosphat, Emulgatoren Lecithine), Vitamin C (L-Ascorbinsäure), Lactoferrin (aus Milch), natürliches Aroma, Säuerungsmittel Citronensäure, färbende Lebensmittel (Rote Beete Saftpulver), Vitamin B2 (Riboflavin), Folsäure (Calcium-L-Methylfolat), Vitamin B12 (Methylcobalamin)",
+      "serving": "1 Stick: 14 units weigh 56 g, so the dose is 4 g; the label declares per dose: ironMg 20, folateUg 100, vitaminB12Ug 2.5, vitaminCMg 126; B2 0.7 mg; no energy or macros declared; the page's table states no dose count; taken as one stick, the one-a-day form the 14-stick pack implies",
+      "per100g": {
+        "ironMg": 500.0,
+        "folateUg": 2500.0,
+        "vitaminB12Ug": 62.5,
+        "vitaminCMg": 3150.0
+      }
+    },
+    {
+      "brand": "Doppelherz",
+      "product": "Eisen Femin Beutel 60 St, 66 g",
+      "read": "https://www.dm.de/p/d/3083855/ (dm.de product page, Nährwerte and Zutaten panels; GTIN not stated)",
+      "date": "2026-10-30",
+      "ingredients": "Füllstoff Sorbit, Vitamin C, Eisenpyrophosphat, Säureregulator Natriumcitrate, Verdickungsmittel Natrium-Carboxymethylcellulose, Aromen, Vitamin B6, Trennmittel Magnesiumsalze der Speisefettsäuren, Süßungsmittel Aspartam, Süßungsmittel Acesulfam K, Folsäure, Vitamin B12",
+      "serving": "1 Stück: 60 units weigh 66 g, so the dose is 1.1 g; the label declares per dose: ironMg 14, folateUg 300, vitaminB12Ug 2.5, vitaminCMg 80; vitamin B6 1.4 mg; no energy or macros declared",
+      "per100g": {
+        "ironMg": 1272.73,
+        "folateUg": 27272.7,
+        "vitaminB12Ug": 227.273,
+        "vitaminCMg": 7272.73
+      }
+    }
+  ]
+}

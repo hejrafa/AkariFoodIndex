@@ -13,15 +13,15 @@
   "shareDifferencePoints": 15
  },
  "summary": {
-  "dishes": 1501,
+  "dishes": 1562,
   "withTableRow": 1084,
-  "flagged": 193,
+  "flagged": 218,
   "flags": {
-   "energy ratio": 24,
+   "energy ratio": 25,
    "fat share": 61,
-   "missing": 91,
+   "missing": 99,
    "protein share": 10,
-   "serving": 40
+   "serving": 61
   }
  },
  "dishes": [
@@ -94,8 +94,8 @@
    "name": "Caesar salad",
    "origin": "reviewed",
    "servingGrams": 335,
-   "kcalPerServing": 546.8,
-   "kcalPer100g": 163.2
+   "kcalPerServing": 506.2,
+   "kcalPer100g": 151.1
   },
   {
    "id": "akari:recipe:greek-salad:v1",
@@ -110,8 +110,8 @@
    "name": "Burrito bowl",
    "origin": "reviewed",
    "servingGrams": 600,
-   "kcalPerServing": 819.2,
-   "kcalPer100g": 136.5
+   "kcalPerServing": 787.1,
+   "kcalPer100g": 131.2
   },
   {
    "id": "akari:recipe:chicken-curry-with-rice:v1",
@@ -182,8 +182,8 @@
    "name": "Smoothie bowl",
    "origin": "reviewed",
    "servingGrams": 390,
-   "kcalPerServing": 362.8,
-   "kcalPer100g": 93.0
+   "kcalPerServing": 351.8,
+   "kcalPer100g": 90.2
   },
   {
    "id": "akari:recipe:chicken-blt:v1",
@@ -221,14 +221,10 @@
    "name": "Almond croissant",
    "origin": "reviewed",
    "servingGrams": 97,
-   "kcalPerServing": 418.5,
-   "kcalPer100g": 431.5,
-   "missingCore": [
-    "water"
-   ],
+   "kcalPerServing": 418.3,
+   "kcalPer100g": 431.2,
    "flags": [
-    "serving 97 g outside 120–900 g",
-    "missing water"
+    "serving 97 g outside 120–900 g"
    ]
   },
   {
@@ -237,13 +233,7 @@
    "origin": "generated",
    "servingGrams": 352,
    "kcalPerServing": 693.2,
-   "kcalPer100g": 196.9,
-   "missingCore": [
-    "sugar"
-   ],
-   "flags": [
-    "missing sugar"
-   ]
+   "kcalPer100g": 196.9
   },
   {
    "id": "akari:recipe:currywurst:v1",
@@ -301,14 +291,8 @@
    "name": "Cacio e pepe",
    "origin": "generated",
    "servingGrams": 262,
-   "kcalPerServing": 504.7,
-   "kcalPer100g": 192.6,
-   "missingCore": [
-    "sugar"
-   ],
-   "flags": [
-    "missing sugar"
-   ]
+   "kcalPerServing": 503.6,
+   "kcalPer100g": 192.2
   },
   {
    "id": "akari:recipe:fettuccine-alfredo:v1",
@@ -355,8 +339,8 @@
    "name": "Spinach and ricotta cannelloni",
    "origin": "generated",
    "servingGrams": 485,
-   "kcalPerServing": 583.5,
-   "kcalPer100g": 120.3
+   "kcalPerServing": 587.0,
+   "kcalPer100g": 121.0
   },
   {
    "id": "akari:recipe:tortellini-alla-panna:v1",
@@ -411,11 +395,11 @@
    "name": "Pizza quattro formaggi",
    "origin": "generated",
    "servingGrams": 445,
-   "kcalPerServing": 1047.0,
-   "kcalPer100g": 235.3,
+   "kcalPerServing": 1044.9,
+   "kcalPer100g": 234.8,
    "tableRow": "bls:X912233",
    "tableKcalPer100g": 354,
-   "ratio": 0.665,
+   "ratio": 0.663,
    "flags": [
     "energy ratio 0.66 to the table row"
    ]
@@ -532,8 +516,8 @@
    "name": "Tonkotsu ramen",
    "origin": "generated",
    "servingGrams": 648,
-   "kcalPerServing": 743.3,
-   "kcalPer100g": 114.7,
+   "kcalPerServing": 745.3,
+   "kcalPer100g": 115.0,
    "missingCore": [
     "sugar",
     "saturatedFat"
@@ -1178,14 +1162,8 @@
    "name": "Char siu bao",
    "origin": "generated",
    "servingGrams": 190,
-   "kcalPerServing": 495.8,
-   "kcalPer100g": 261.0,
-   "missingCore": [
-    "saturatedFat"
-   ],
-   "flags": [
-    "missing saturatedFat"
-   ]
+   "kcalPerServing": 496.2,
+   "kcalPer100g": 261.2
   },
   {
    "id": "akari:recipe:dan-dan-noodles:v1",
@@ -1506,8 +1484,8 @@
    "name": "Com tam",
    "origin": "generated",
    "servingGrams": 533,
-   "kcalPerServing": 761.8,
-   "kcalPer100g": 142.9
+   "kcalPerServing": 730.6,
+   "kcalPer100g": 137.1
   },
   {
    "id": "akari:recipe:banh-xeo:v1",
@@ -1798,8 +1776,8 @@
    "name": "Fish tacos",
    "origin": "generated",
    "servingGrams": 286,
-   "kcalPerServing": 533.0,
-   "kcalPer100g": 186.4
+   "kcalPerServing": 544.0,
+   "kcalPer100g": 190.2
   },
   {
    "id": "akari:recipe:tacos-al-pastor:v1",
@@ -2034,8 +2012,8 @@
    "name": "Fattoush",
    "origin": "generated",
    "servingGrams": 293,
-   "kcalPerServing": 257.0,
-   "kcalPer100g": 87.7
+   "kcalPerServing": 251.4,
+   "kcalPer100g": 85.8
   },
   {
    "id": "akari:recipe:mujaddara:v1",
@@ -2082,8 +2060,8 @@
    "name": "Vegetable couscous",
    "origin": "generated",
    "servingGrams": 637,
-   "kcalPerServing": 618.1,
-   "kcalPer100g": 97.0
+   "kcalPerServing": 621.4,
+   "kcalPer100g": 97.6
   },
   {
    "id": "akari:recipe:doner-kebab:v1",
@@ -2178,8 +2156,8 @@
    "name": "Kumpir",
    "origin": "generated",
    "servingGrams": 510,
-   "kcalPerServing": 788.5,
-   "kcalPer100g": 154.6
+   "kcalPerServing": 813.0,
+   "kcalPer100g": 159.4
   },
   {
    "id": "akari:recipe:moussaka:v1",
@@ -2296,19 +2274,22 @@
    "name": "Smash burger",
    "origin": "generated",
    "servingGrams": 265,
-   "kcalPerServing": 674.9,
-   "kcalPer100g": 254.7
+   "kcalPerServing": 681.5,
+   "kcalPer100g": 257.2
   },
   {
    "id": "akari:recipe:veggie-burger:v1",
    "name": "Veggie burger",
    "origin": "generated",
    "servingGrams": 225,
-   "kcalPerServing": 422.5,
-   "kcalPer100g": 187.8,
+   "kcalPerServing": 521.5,
+   "kcalPer100g": 231.8,
    "tableRow": "usda:2707481",
    "tableKcalPer100g": 224,
-   "ratio": 0.838
+   "ratio": 1.035,
+   "flags": [
+    "fat share differs by +28 points"
+   ]
   },
   {
    "id": "akari:recipe:chicken-burger:v1",
@@ -2361,11 +2342,11 @@
    "name": "Reuben",
    "origin": "generated",
    "servingGrams": 250,
-   "kcalPerServing": 539.5,
-   "kcalPer100g": 215.8,
+   "kcalPerServing": 548.3,
+   "kcalPer100g": 219.3,
    "tableRow": "usda:2706952",
    "tableKcalPer100g": 282,
-   "ratio": 0.765
+   "ratio": 0.778
   },
   {
    "id": "akari:recipe:grilled-cheese:v1",
@@ -2492,8 +2473,8 @@
    "name": "Chicken Caesar wrap",
    "origin": "generated",
    "servingGrams": 235,
-   "kcalPerServing": 521.4,
-   "kcalPer100g": 221.9
+   "kcalPerServing": 518.6,
+   "kcalPer100g": 220.7
   },
   {
    "id": "akari:recipe:hot-dog:v1",
@@ -2527,8 +2508,8 @@
    "name": "Buffalo wings",
    "origin": "generated",
    "servingGrams": 307,
-   "kcalPerServing": 811.2,
-   "kcalPer100g": 264.2
+   "kcalPerServing": 691.2,
+   "kcalPer100g": 225.1
   },
   {
    "id": "akari:recipe:fried-chicken:v1",
@@ -2543,8 +2524,8 @@
    "name": "BBQ ribs",
    "origin": "generated",
    "servingGrams": 280,
-   "kcalPerServing": 806.6,
-   "kcalPer100g": 288.1
+   "kcalPerServing": 621.6,
+   "kcalPer100g": 222.0
   },
   {
    "id": "akari:recipe:meatloaf:v1",
@@ -2567,16 +2548,16 @@
    "name": "Loaded baked potato",
    "origin": "generated",
    "servingGrams": 405,
-   "kcalPerServing": 592.3,
-   "kcalPer100g": 146.2
+   "kcalPerServing": 613.3,
+   "kcalPer100g": 151.4
   },
   {
    "id": "akari:recipe:clam-chowder:v1",
    "name": "Clam chowder",
    "origin": "generated",
    "servingGrams": 403,
-   "kcalPerServing": 498.5,
-   "kcalPer100g": 123.7
+   "kcalPerServing": 476.9,
+   "kcalPer100g": 118.3
   },
   {
    "id": "akari:recipe:jambalaya:v1",
@@ -2591,11 +2572,11 @@
    "name": "Fish and chips",
    "origin": "generated",
    "servingGrams": 420,
-   "kcalPerServing": 956.4,
-   "kcalPer100g": 227.7,
+   "kcalPerServing": 976.2,
+   "kcalPer100g": 232.4,
    "tableRow": "bls:Y693932",
    "tableKcalPer100g": 221,
-   "ratio": 1.03
+   "ratio": 1.052
   },
   {
    "id": "akari:recipe:shepherd-s-pie:v1",
@@ -2699,8 +2680,8 @@
    "name": "Haggis, neeps and tatties",
    "origin": "generated",
    "servingGrams": 480,
-   "kcalPerServing": 743.8,
-   "kcalPer100g": 155.0,
+   "kcalPerServing": 724.6,
+   "kcalPer100g": 151.0,
    "missingCore": [
     "sugar"
    ],
@@ -2713,8 +2694,8 @@
    "name": "Cornish pasty",
    "origin": "generated",
    "servingGrams": 270,
-   "kcalPerServing": 620.3,
-   "kcalPer100g": 229.7
+   "kcalPerServing": 615.5,
+   "kcalPer100g": 228.0
   },
   {
    "id": "akari:recipe:scotch-egg:v1",
@@ -2753,8 +2734,8 @@
    "name": "Jacket potato with beans and cheese",
    "origin": "generated",
    "servingGrams": 500,
-   "kcalPerServing": 623.2,
-   "kcalPer100g": 124.6
+   "kcalPerServing": 644.2,
+   "kcalPer100g": 128.8
   },
   {
    "id": "akari:recipe:chip-butty:v1",
@@ -2938,8 +2919,8 @@
    "name": "Salade niçoise",
    "origin": "generated",
    "servingGrams": 413,
-   "kcalPerServing": 366.4,
-   "kcalPer100g": 88.7
+   "kcalPerServing": 352.0,
+   "kcalPer100g": 85.2
   },
   {
    "id": "akari:recipe:duck-confit:v1",
@@ -3096,8 +3077,8 @@
    "name": "Fabada asturiana",
    "origin": "generated",
    "servingGrams": 430,
-   "kcalPerServing": 654.0,
-   "kcalPer100g": 152.1
+   "kcalPerServing": 621.2,
+   "kcalPer100g": 144.5
   },
   {
    "id": "akari:recipe:bratwurst-with-sauerkraut:v1",
@@ -3179,8 +3160,8 @@
    "name": "Roast pork with dumplings",
    "origin": "generated",
    "servingGrams": 480,
-   "kcalPerServing": 802.2,
-   "kcalPer100g": 167.1
+   "kcalPerServing": 724.2,
+   "kcalPer100g": 150.9
   },
   {
    "id": "akari:recipe:pork-knuckle:v1",
@@ -3270,8 +3251,8 @@
    "name": "Potato pancakes with apple sauce",
    "origin": "generated",
    "servingGrams": 435,
-   "kcalPerServing": 562.3,
-   "kcalPer100g": 129.3
+   "kcalPerServing": 568.3,
+   "kcalPer100g": 130.6
   },
   {
    "id": "akari:recipe:potatoes-with-herb-quark:v1",
@@ -3348,8 +3329,14 @@
    "name": "German pasta salad",
    "origin": "generated",
    "servingGrams": 310,
-   "kcalPerServing": 691.6,
-   "kcalPer100g": 223.1
+   "kcalPerServing": 701.6,
+   "kcalPer100g": 226.3,
+   "missingCore": [
+    "fiber"
+   ],
+   "flags": [
+    "missing fiber"
+   ]
   },
   {
    "id": "akari:recipe:wiener-schnitzel:v1",
@@ -3367,8 +3354,8 @@
    "name": "Tafelspitz",
    "origin": "generated",
    "servingGrams": 433,
-   "kcalPerServing": 361.9,
-   "kcalPer100g": 83.6
+   "kcalPerServing": 370.7,
+   "kcalPer100g": 85.6
   },
   {
    "id": "akari:recipe:backhendl:v1",
@@ -3632,16 +3619,16 @@
    "name": "Cobb salad",
    "origin": "generated",
    "servingGrams": 400,
-   "kcalPerServing": 530.8,
-   "kcalPer100g": 132.7
+   "kcalPerServing": 504.1,
+   "kcalPer100g": 126.0
   },
   {
    "id": "akari:recipe:chef-s-salad:v1",
    "name": "Chef's salad",
    "origin": "generated",
    "servingGrams": 360,
-   "kcalPerServing": 420.9,
-   "kcalPer100g": 116.9
+   "kcalPerServing": 434.1,
+   "kcalPer100g": 120.6
   },
   {
    "id": "akari:recipe:waldorf-salad:v1",
@@ -3656,16 +3643,16 @@
    "name": "Salad with chicken strips",
    "origin": "generated",
    "servingGrams": 390,
-   "kcalPerServing": 412.3,
-   "kcalPer100g": 105.7
+   "kcalPerServing": 390.7,
+   "kcalPer100g": 100.2
   },
   {
    "id": "akari:recipe:salad-with-warm-goat-s-cheese:v1",
    "name": "Salad with warm goat's cheese",
    "origin": "generated",
    "servingGrams": 280,
-   "kcalPerServing": 646.2,
-   "kcalPer100g": 230.8
+   "kcalPerServing": 565.0,
+   "kcalPer100g": 201.8
   },
   {
    "id": "akari:recipe:halloumi-salad:v1",
@@ -3889,8 +3876,8 @@
    "name": "Sticky toffee pudding",
    "origin": "generated",
    "servingGrams": 150,
-   "kcalPerServing": 594.2,
-   "kcalPer100g": 396.1
+   "kcalPerServing": 575.7,
+   "kcalPer100g": 383.8
   },
   {
    "id": "akari:recipe:eton-mess:v1",
@@ -3977,8 +3964,8 @@
    "name": "Chocolate hazelnut crêpe",
    "origin": "generated",
    "servingGrams": 105,
-   "kcalPerServing": 311.7,
-   "kcalPer100g": 296.9,
+   "kcalPerServing": 313.9,
+   "kcalPer100g": 299.0,
    "flags": [
     "serving 105 g outside 120–900 g"
    ]
@@ -4015,8 +4002,8 @@
    "name": "Baklava",
    "origin": "generated",
    "servingGrams": 100,
-   "kcalPerServing": 421.6,
-   "kcalPer100g": 421.6,
+   "kcalPerServing": 426.2,
+   "kcalPer100g": 426.2,
    "flags": [
     "serving 100 g outside 120–900 g"
    ]
@@ -4026,8 +4013,8 @@
    "name": "Künefe",
    "origin": "generated",
    "servingGrams": 150,
-   "kcalPerServing": 422.0,
-   "kcalPer100g": 281.3
+   "kcalPerServing": 429.4,
+   "kcalPer100g": 286.3
   },
   {
    "id": "akari:recipe:mango-sticky-rice:v1",
@@ -4042,8 +4029,8 @@
    "name": "Gulab jamun",
    "origin": "generated",
    "servingGrams": 95,
-   "kcalPerServing": 360.7,
-   "kcalPer100g": 379.6,
+   "kcalPerServing": 365.6,
+   "kcalPer100g": 384.9,
    "flags": [
     "serving 95 g outside 120–900 g"
    ]
@@ -4165,8 +4152,8 @@
    "name": "Horchata",
    "origin": "generated",
    "servingGrams": 245,
-   "kcalPerServing": 191.6,
-   "kcalPer100g": 78.2
+   "kcalPerServing": 218.0,
+   "kcalPer100g": 89.0
   },
   {
    "id": "akari:recipe:nasi-goreng:v1",
@@ -4731,14 +4718,14 @@
    "name": "Swiss sausage salad",
    "origin": "generated",
    "servingGrams": 215,
-   "kcalPerServing": 597.5,
-   "kcalPer100g": 277.9,
+   "kcalPerServing": 583.1,
+   "kcalPer100g": 271.2,
    "missingCore": [
     "fiber"
    ],
    "tableRow": "bls:X1A7030",
    "tableKcalPer100g": 287,
-   "ratio": 0.968,
+   "ratio": 0.945,
    "flags": [
     "missing fiber"
    ]
@@ -4748,11 +4735,11 @@
    "name": "Budapest salad",
    "origin": "generated",
    "servingGrams": 285,
-   "kcalPerServing": 314.5,
-   "kcalPer100g": 110.4,
+   "kcalPerServing": 296.5,
+   "kcalPer100g": 104.1,
    "tableRow": "bls:X203560",
    "tableKcalPer100g": 99,
-   "ratio": 1.115
+   "ratio": 1.051
   },
   {
    "id": "akari:recipe:endive-salad-with-vinaigrette:v1",
@@ -4803,16 +4790,12 @@
    "name": "Frankfurt green sauce with eggs and potatoes",
    "origin": "generated",
    "servingGrams": 466,
-   "kcalPerServing": 465.0,
+   "kcalPerServing": 464.9,
    "kcalPer100g": 99.8,
-   "missingCore": [
-    "sodium"
-   ],
    "tableRow": "bls:X382160",
    "tableKcalPer100g": 244,
    "ratio": 0.409,
    "flags": [
-    "missing sodium",
     "energy ratio 0.41 to the table row",
     "fat share differs by -39 points"
    ]
@@ -5348,13 +5331,13 @@
    "name": "Beetroot soup with apple and horseradish",
    "origin": "generated",
    "servingGrams": 300,
-   "kcalPerServing": 101.2,
-   "kcalPer100g": 33.7,
+   "kcalPerServing": 105.5,
+   "kcalPer100g": 35.2,
    "tableRow": "bls:X446813",
    "tableKcalPer100g": 29,
-   "ratio": 1.163,
+   "ratio": 1.213,
    "flags": [
-    "fat share differs by -24 points"
+    "fat share differs by -20 points"
    ]
   },
   {
@@ -5456,11 +5439,11 @@
    "name": "Sour potato soup with blood and liver sausage",
    "origin": "generated",
    "servingGrams": 418,
-   "kcalPerServing": 427.3,
-   "kcalPer100g": 102.2,
+   "kcalPerServing": 394.5,
+   "kcalPer100g": 94.4,
    "tableRow": "bls:X450243",
    "tableKcalPer100g": 119,
-   "ratio": 0.859
+   "ratio": 0.793
   },
   {
    "id": "akari:recipe:cream-cheese-and-leek-soup:v1",
@@ -5594,11 +5577,11 @@
    "name": "Mecklenburg barley soup with duck and prunes",
    "origin": "generated",
    "servingGrams": 400,
-   "kcalPerServing": 261.8,
-   "kcalPer100g": 65.4,
+   "kcalPerServing": 261.3,
+   "kcalPer100g": 65.3,
    "tableRow": "bls:X454812",
    "tableKcalPer100g": 80,
-   "ratio": 0.818
+   "ratio": 0.816
   },
   {
    "id": "akari:recipe:grisons-barley-soup:v1",
@@ -5718,11 +5701,11 @@
    "name": "Lobster bisque",
    "origin": "generated",
    "servingGrams": 340,
-   "kcalPerServing": 232.9,
-   "kcalPer100g": 68.5,
+   "kcalPerServing": 226.1,
+   "kcalPer100g": 66.5,
    "tableRow": "bls:X459263",
    "tableKcalPer100g": 64,
-   "ratio": 1.07
+   "ratio": 1.039
   },
   {
    "id": "akari:recipe:crayfish-soup:v1",
@@ -5886,11 +5869,11 @@
    "name": "Köthen-style potato, pork and pear bake",
    "origin": "generated",
    "servingGrams": 465,
-   "kcalPerServing": 462.6,
-   "kcalPer100g": 99.5,
+   "kcalPerServing": 471.6,
+   "kcalPer100g": 101.4,
    "tableRow": "bls:X462743",
    "tableKcalPer100g": 99,
-   "ratio": 1.005
+   "ratio": 1.024
   },
   {
    "id": "akari:recipe:lentils-with-spaetzle-and-frankfurters:v1",
@@ -5922,11 +5905,11 @@
    "name": "Lentil stew with prunes and blood sausage",
    "origin": "generated",
    "servingGrams": 445,
-   "kcalPerServing": 590.0,
-   "kcalPer100g": 132.6,
+   "kcalPerServing": 540.8,
+   "kcalPer100g": 121.5,
    "tableRow": "bls:X463813",
    "tableKcalPer100g": 142,
-   "ratio": 0.934
+   "ratio": 0.856
   },
   {
    "id": "akari:recipe:pea-soup-with-bacon-and-frankfurters:v1",
@@ -5937,10 +5920,7 @@
    "kcalPer100g": 100.5,
    "tableRow": "bls:X464433",
    "tableKcalPer100g": 103,
-   "ratio": 0.976,
-   "flags": [
-    "fat share differs by -15 points"
-   ]
+   "ratio": 0.976
   },
   {
    "id": "akari:recipe:green-pea-soup-with-semolina-dumplings:v1",
@@ -6030,11 +6010,11 @@
    "name": "Tomato stew with broad beans and bacon",
    "origin": "generated",
    "servingGrams": 520,
-   "kcalPerServing": 349.1,
-   "kcalPer100g": 67.1,
+   "kcalPerServing": 320.1,
+   "kcalPer100g": 61.6,
    "tableRow": "bls:X465363",
    "tableKcalPer100g": 74,
-   "ratio": 0.907
+   "ratio": 0.832
   },
   {
    "id": "akari:recipe:green-bean-soup-with-potatoes:v1",
@@ -6177,33 +6157,33 @@
    "name": "Kale stew with potatoes and pork belly",
    "origin": "generated",
    "servingGrams": 460,
-   "kcalPerServing": 521.5,
-   "kcalPer100g": 113.4,
+   "kcalPerServing": 509.5,
+   "kcalPer100g": 110.8,
    "tableRow": "bls:X466443",
    "tableKcalPer100g": 110,
-   "ratio": 1.031
+   "ratio": 1.007
   },
   {
    "id": "akari:recipe:kale-stew-with-potatoes-and-pinkel-sausage:v1",
    "name": "Kale stew with potatoes and Pinkel sausage",
    "origin": "generated",
    "servingGrams": 460,
-   "kcalPerServing": 283.1,
-   "kcalPer100g": 61.5,
+   "kcalPerServing": 271.1,
+   "kcalPer100g": 58.9,
    "tableRow": "bls:X466513",
    "tableKcalPer100g": 80,
-   "ratio": 0.769
+   "ratio": 0.737
   },
   {
    "id": "akari:recipe:hamburg-style-swede-and-potato-stew:v1",
    "name": "Hamburg-style swede and potato stew",
    "origin": "generated",
    "servingGrams": 543,
-   "kcalPerServing": 356.6,
-   "kcalPer100g": 65.7,
+   "kcalPerServing": 324.6,
+   "kcalPer100g": 59.8,
    "tableRow": "bls:X468263",
    "tableKcalPer100g": 64,
-   "ratio": 1.026
+   "ratio": 0.934
   },
   {
    "id": "akari:recipe:westphalian-bean-stew:v1",
@@ -7042,18 +7022,11 @@
    "name": "Kale with mettwurst sausage",
    "origin": "generated",
    "servingGrams": 346,
-   "kcalPerServing": 444.4,
-   "kcalPer100g": 128.5,
-   "missingCore": [
-    "sugar",
-    "saturatedFat"
-   ],
+   "kcalPerServing": 445.8,
+   "kcalPer100g": 128.8,
    "tableRow": "bls:X534133",
    "tableKcalPer100g": 141,
-   "ratio": 0.911,
-   "flags": [
-    "missing sugar, saturatedFat"
-   ]
+   "ratio": 0.914
   },
   {
    "id": "akari:recipe:kale-with-bacon:v1",
@@ -8047,11 +8020,11 @@
    "name": "Baked caraway potatoes",
    "origin": "generated",
    "servingGrams": 260,
-   "kcalPerServing": 322.5,
-   "kcalPer100g": 124.0,
+   "kcalPerServing": 340.0,
+   "kcalPer100g": 130.8,
    "tableRow": "bls:X651443",
    "tableKcalPer100g": 138,
-   "ratio": 0.899
+   "ratio": 0.948
   },
   {
    "id": "akari:recipe:stewed-potatoes-with-bacon:v1",
@@ -8069,11 +8042,11 @@
    "name": "Rhenish potato pancakes with apple sauce and lingonberries",
    "origin": "generated",
    "servingGrams": 430,
-   "kcalPerServing": 630.1,
-   "kcalPer100g": 146.5,
+   "kcalPerServing": 646.1,
+   "kcalPer100g": 150.2,
    "tableRow": "bls:X655112",
    "tableKcalPer100g": 175,
-   "ratio": 0.837
+   "ratio": 0.859
   },
   {
    "id": "akari:recipe:potato-and-vegetable-bake:v1",
@@ -8135,11 +8108,14 @@
    "name": "Fried potato dumplings with egg",
    "origin": "generated",
    "servingGrams": 310,
-   "kcalPerServing": 588.2,
-   "kcalPer100g": 189.7,
+   "kcalPerServing": 510.2,
+   "kcalPer100g": 164.6,
    "tableRow": "bls:X673252",
    "tableKcalPer100g": 267,
-   "ratio": 0.711
+   "ratio": 0.616,
+   "flags": [
+    "energy ratio 0.62 to the table row"
+   ]
   },
   {
    "id": "akari:recipe:wickelklo-e-rolled-potato-dumplings:v1",
@@ -8223,11 +8199,11 @@
    "name": "Pumpkin and potato mash",
    "origin": "generated",
    "servingGrams": 286,
-   "kcalPerServing": 181.5,
-   "kcalPer100g": 63.4,
+   "kcalPerServing": 192.0,
+   "kcalPer100g": 67.1,
    "tableRow": "bls:X698212",
    "tableKcalPer100g": 78,
-   "ratio": 0.813
+   "ratio": 0.861
   },
   {
    "id": "akari:recipe:potato-souffle-with-bacon:v1",
@@ -8402,13 +8378,13 @@
    "name": "Pasta with ricotta, tomatoes and spinach",
    "origin": "generated",
    "servingGrams": 385,
-   "kcalPerServing": 468.7,
-   "kcalPer100g": 121.7,
+   "kcalPerServing": 470.7,
+   "kcalPer100g": 122.2,
    "tableRow": "bls:X730243",
    "tableKcalPer100g": 138,
-   "ratio": 0.882,
+   "ratio": 0.886,
    "flags": [
-    "fat share differs by -16 points"
+    "fat share differs by -18 points"
    ]
   },
   {
@@ -8438,11 +8414,11 @@
    "name": "Pasta with four cheeses",
    "origin": "generated",
    "servingGrams": 295,
-   "kcalPerServing": 555.0,
-   "kcalPer100g": 188.2,
+   "kcalPerServing": 554.0,
+   "kcalPer100g": 187.8,
    "tableRow": "bls:X742233",
    "tableKcalPer100g": 196,
-   "ratio": 0.96
+   "ratio": 0.958
   },
   {
    "id": "akari:recipe:fried-egg-noodles-with-vegetables-and-egg:v1",
@@ -8570,11 +8546,11 @@
    "name": "Asparagus and ricotta ravioli",
    "origin": "generated",
    "servingGrams": 226,
-   "kcalPerServing": 258.1,
-   "kcalPer100g": 114.2,
+   "kcalPerServing": 259.7,
+   "kcalPer100g": 114.9,
    "tableRow": "bls:X7A3030",
    "tableKcalPer100g": 113,
-   "ratio": 1.01
+   "ratio": 1.017
   },
   {
    "id": "akari:recipe:rice-pudding-with-raisins-and-pistachios:v1",
@@ -9501,17 +9477,11 @@
    "name": "Savoury vegetable muffins",
    "origin": "generated",
    "servingGrams": 263,
-   "kcalPerServing": 474.5,
-   "kcalPer100g": 180.4,
-   "missingCore": [
-    "saturatedFat"
-   ],
+   "kcalPerServing": 475.1,
+   "kcalPer100g": 180.6,
    "tableRow": "bls:X9A3040",
    "tableKcalPer100g": 198,
-   "ratio": 0.911,
-   "flags": [
-    "missing saturatedFat"
-   ]
+   "ratio": 0.912
   },
   {
    "id": "akari:recipe:vegetarian-mushroom-burrito:v1",
@@ -9697,11 +9667,11 @@
    "name": "Beef fillet steak with herb butter",
    "origin": "generated",
    "servingGrams": 195,
-   "kcalPerServing": 375.3,
-   "kcalPer100g": 192.5,
+   "kcalPerServing": 370.6,
+   "kcalPer100g": 190.1,
    "tableRow": "bls:Y114012",
    "tableKcalPer100g": 227,
-   "ratio": 0.848
+   "ratio": 0.837
   },
   {
    "id": "akari:recipe:roast-beef-with-roasted-vegetables:v1",
@@ -9730,11 +9700,11 @@
    "name": "Steak with herb butter",
    "origin": "generated",
    "servingGrams": 215,
-   "kcalPerServing": 424.7,
-   "kcalPer100g": 197.5,
+   "kcalPerServing": 420.1,
+   "kcalPer100g": 195.4,
    "tableRow": "bls:Y135132",
    "tableKcalPer100g": 229,
-   "ratio": 0.863
+   "ratio": 0.853
   },
   {
    "id": "akari:recipe:hungarian-beef-goulash:v1",
@@ -10509,11 +10479,11 @@
    "name": "Chicken cordon bleu",
    "origin": "generated",
    "servingGrams": 248,
-   "kcalPerServing": 574.9,
-   "kcalPer100g": 231.8,
+   "kcalPerServing": 586.1,
+   "kcalPer100g": 236.3,
    "tableRow": "bls:Y563112",
    "tableKcalPer100g": 215,
-   "ratio": 1.078
+   "ratio": 1.099
   },
   {
    "id": "akari:recipe:turkey-cordon-bleu:v1",
@@ -10619,11 +10589,11 @@
    "name": "Cornflake-crusted chicken breast",
    "origin": "generated",
    "servingGrams": 200,
-   "kcalPerServing": 443.1,
-   "kcalPer100g": 221.5,
+   "kcalPerServing": 454.3,
+   "kcalPer100g": 227.1,
    "tableRow": "bls:Y5A1000",
    "tableKcalPer100g": 191,
-   "ratio": 1.16
+   "ratio": 1.189
   },
   {
    "id": "akari:recipe:chicken-patties-with-mushrooms:v1",
@@ -10674,11 +10644,11 @@
    "name": "Fried fish roll",
    "origin": "generated",
    "servingGrams": 190,
-   "kcalPerServing": 439.2,
-   "kcalPer100g": 231.2,
+   "kcalPerServing": 449.1,
+   "kcalPer100g": 236.4,
    "tableRow": "bls:Y610712",
    "tableKcalPer100g": 228,
-   "ratio": 1.014
+   "ratio": 1.037
   },
   {
    "id": "akari:recipe:herring-in-cream-sauce:v1",
@@ -10938,11 +10908,11 @@
    "name": "Carp au bleu",
    "origin": "generated",
    "servingGrams": 260,
-   "kcalPerServing": 275.9,
-   "kcalPer100g": 106.1,
+   "kcalPerServing": 284.6,
+   "kcalPer100g": 109.5,
    "tableRow": "bls:Y650412",
    "tableKcalPer100g": 96,
-   "ratio": 1.105
+   "ratio": 1.14
   },
   {
    "id": "akari:recipe:carp-polish-style:v1",
@@ -11006,9 +10976,15 @@
    "servingGrams": 216,
    "kcalPerServing": 243.9,
    "kcalPer100g": 112.9,
+   "missingCore": [
+    "water"
+   ],
    "tableRow": "bls:Y661012",
    "tableKcalPer100g": 97,
-   "ratio": 1.164
+   "ratio": 1.164,
+   "flags": [
+    "missing water"
+   ]
   },
   {
    "id": "akari:recipe:redfish-polish-style:v1",
@@ -11061,9 +11037,15 @@
    "servingGrams": 198,
    "kcalPerServing": 246.5,
    "kcalPer100g": 124.5,
+   "missingCore": [
+    "water"
+   ],
    "tableRow": "bls:Y663232",
    "tableKcalPer100g": 107,
-   "ratio": 1.164
+   "ratio": 1.164,
+   "flags": [
+    "missing water"
+   ]
   },
   {
    "id": "akari:recipe:eel-in-red-wine:v1",
@@ -11219,11 +11201,11 @@
    "name": "Redfish ragout",
    "origin": "generated",
    "servingGrams": 350,
-   "kcalPerServing": 325.7,
-   "kcalPer100g": 93.0,
+   "kcalPerServing": 349.6,
+   "kcalPer100g": 99.9,
    "tableRow": "bls:Y691123",
    "tableKcalPer100g": 106,
-   "ratio": 0.878
+   "ratio": 0.942
   },
   {
    "id": "akari:recipe:saithe-fishcakes:v1",
@@ -11232,20 +11214,26 @@
    "servingGrams": 192,
    "kcalPerServing": 281.7,
    "kcalPer100g": 146.7,
+   "missingCore": [
+    "water"
+   ],
    "tableRow": "bls:Y691432",
    "tableKcalPer100g": 124,
-   "ratio": 1.183
+   "ratio": 1.183,
+   "flags": [
+    "missing water"
+   ]
   },
   {
    "id": "akari:recipe:hake-fricassee:v1",
    "name": "Hake fricassee",
    "origin": "generated",
    "servingGrams": 356,
-   "kcalPerServing": 366.5,
-   "kcalPer100g": 103.0,
+   "kcalPerServing": 390.5,
+   "kcalPer100g": 109.7,
    "tableRow": "bls:Y691913",
    "tableKcalPer100g": 129,
-   "ratio": 0.798
+   "ratio": 0.85
   },
   {
    "id": "akari:recipe:redfish-dumplings:v1",
@@ -11296,11 +11284,11 @@
    "name": "Ragoût fin with redfish",
    "origin": "generated",
    "servingGrams": 278,
-   "kcalPerServing": 245.9,
-   "kcalPer100g": 88.5,
+   "kcalPerServing": 269.9,
+   "kcalPer100g": 97.1,
    "tableRow": "bls:Y692943",
    "tableKcalPer100g": 106,
-   "ratio": 0.835
+   "ratio": 0.916
   },
   {
    "id": "akari:recipe:sole-in-butter-with-vegetables-and-potatoes:v1",
@@ -11342,9 +11330,15 @@
    "servingGrams": 198,
    "kcalPerServing": 393.0,
    "kcalPer100g": 198.5,
+   "missingCore": [
+    "water"
+   ],
    "tableRow": "bls:Y6A1000",
    "tableKcalPer100g": 188,
-   "ratio": 1.056
+   "ratio": 1.056,
+   "flags": [
+    "missing water"
+   ]
   },
   {
    "id": "akari:recipe:tuna-steak-with-ham:v1",
@@ -11714,11 +11708,11 @@
    "name": "Fried breaded Camembert",
    "origin": "generated",
    "servingGrams": 145,
-   "kcalPerServing": 483.5,
-   "kcalPer100g": 333.4,
+   "kcalPerServing": 440.4,
+   "kcalPer100g": 303.8,
    "tableRow": "bls:Y780863",
    "tableKcalPer100g": 294,
-   "ratio": 1.134
+   "ratio": 1.033
   },
   {
    "id": "akari:recipe:fried-breaded-mozzarella:v1",
@@ -11783,11 +11777,11 @@
    "name": "Baked cheese with garlic and thyme",
    "origin": "generated",
    "servingGrams": 132,
-   "kcalPerServing": 381.7,
-   "kcalPer100g": 289.2,
+   "kcalPerServing": 328.0,
+   "kcalPer100g": 248.5,
    "tableRow": "bls:Y7A2030",
    "tableKcalPer100g": 270,
-   "ratio": 1.071
+   "ratio": 0.92
   },
   {
    "id": "akari:recipe:baked-feta-with-tomatoes-and-olives:v1",
@@ -11849,11 +11843,11 @@
    "name": "Rum baba",
    "origin": "generated",
    "servingGrams": 127,
-   "kcalPerServing": 416.4,
-   "kcalPer100g": 327.9,
+   "kcalPerServing": 414.7,
+   "kcalPer100g": 326.5,
    "tableRow": "bls:Y813262",
    "tableKcalPer100g": 315,
-   "ratio": 1.041
+   "ratio": 1.037
   },
   {
    "id": "akari:recipe:sweet-dampfnudeln:v1",
@@ -12102,15 +12096,15 @@
    "name": "Christmas pudding",
    "origin": "generated",
    "servingGrams": 175,
-   "kcalPerServing": 577.3,
-   "kcalPer100g": 329.9,
+   "kcalPerServing": 583.6,
+   "kcalPer100g": 333.5,
    "missingCore": [
     "saturatedFat",
     "water"
    ],
    "tableRow": "bls:Y835463",
    "tableKcalPer100g": 282,
-   "ratio": 1.17,
+   "ratio": 1.183,
    "flags": [
     "missing saturatedFat, water"
    ]
@@ -12186,11 +12180,11 @@
    "name": "Apple snow with rum",
    "origin": "generated",
    "servingGrams": 200,
-   "kcalPerServing": 144.7,
-   "kcalPer100g": 72.3,
+   "kcalPerServing": 143.8,
+   "kcalPer100g": 71.9,
    "tableRow": "bls:Y845643",
    "tableKcalPer100g": 61,
-   "ratio": 1.186
+   "ratio": 1.179
   },
   {
    "id": "akari:recipe:stewed-apples-with-vanilla-sauce:v1",
@@ -12343,11 +12337,11 @@
    "name": "Russian cream",
    "origin": "generated",
    "servingGrams": 173,
-   "kcalPerServing": 397.1,
-   "kcalPer100g": 229.6,
+   "kcalPerServing": 395.4,
+   "kcalPer100g": 228.6,
    "tableRow": "bls:Y859440",
    "tableKcalPer100g": 205,
-   "ratio": 1.12
+   "ratio": 1.115
   },
   {
    "id": "akari:recipe:lemon-jelly:v1",
@@ -12486,11 +12480,11 @@
    "name": "Chocolate cream with rum",
    "origin": "generated",
    "servingGrams": 175,
-   "kcalPerServing": 479.9,
-   "kcalPer100g": 274.3,
+   "kcalPerServing": 478.6,
+   "kcalPer100g": 273.5,
    "tableRow": "bls:Y870363",
    "tableKcalPer100g": 247,
-   "ratio": 1.11
+   "ratio": 1.107
   },
   {
    "id": "akari:recipe:hazelnut-cream:v1",
@@ -12552,11 +12546,11 @@
    "name": "Chocolate mousse with rum",
    "origin": "generated",
    "servingGrams": 150,
-   "kcalPerServing": 503.5,
-   "kcalPer100g": 335.7,
+   "kcalPerServing": 502.6,
+   "kcalPer100g": 335.1,
    "tableRow": "bls:Y871363",
    "tableKcalPer100g": 322,
-   "ratio": 1.042
+   "ratio": 1.041
   },
   {
    "id": "akari:recipe:strawberry-cream:v1",
@@ -12607,11 +12601,11 @@
    "name": "Ambrosia cream",
    "origin": "generated",
    "servingGrams": 178,
-   "kcalPerServing": 263.2,
-   "kcalPer100g": 147.9,
+   "kcalPerServing": 262.3,
+   "kcalPer100g": 147.4,
    "tableRow": "bls:Y875140",
    "tableKcalPer100g": 131,
-   "ratio": 1.129
+   "ratio": 1.125
   },
   {
    "id": "akari:recipe:cream-pudding-with-fruit:v1",
@@ -12673,17 +12667,11 @@
    "name": "Quark doughnut balls",
    "origin": "generated",
    "servingGrams": 188,
-   "kcalPerServing": 546.1,
-   "kcalPer100g": 290.5,
-   "missingCore": [
-    "saturatedFat"
-   ],
+   "kcalPerServing": 546.7,
+   "kcalPer100g": 290.8,
    "tableRow": "bls:Y880763",
    "tableKcalPer100g": 340,
-   "ratio": 0.854,
-   "flags": [
-    "missing saturatedFat"
-   ]
+   "ratio": 0.855
   },
   {
    "id": "akari:recipe:quark-bake:v1",
@@ -12723,11 +12711,17 @@
    "name": "Raspberry quark",
    "origin": "generated",
    "servingGrams": 245,
-   "kcalPerServing": 276.2,
-   "kcalPer100g": 112.8,
+   "kcalPerServing": 265.1,
+   "kcalPer100g": 108.2,
+   "missingCore": [
+    "sodium"
+   ],
    "tableRow": "bls:Y881610",
    "tableKcalPer100g": 112,
-   "ratio": 1.007
+   "ratio": 0.966,
+   "flags": [
+    "missing sodium"
+   ]
   },
   {
    "id": "akari:recipe:quark-pudding-steamed:v1",
@@ -13055,11 +13049,11 @@
    "name": "Double-decker burger",
    "origin": "generated",
    "servingGrams": 250,
-   "kcalPerServing": 583.6,
-   "kcalPer100g": 233.4,
+   "kcalPerServing": 594.6,
+   "kcalPer100g": 237.8,
    "tableRow": "bls:Y911360",
    "tableKcalPer100g": 240,
-   "ratio": 0.973
+   "ratio": 0.991
   },
   {
    "id": "akari:recipe:frikadelle-with-mustard:v1",
@@ -13375,11 +13369,17 @@
    "name": "Peach Melba",
    "origin": "generated",
    "servingGrams": 300,
-   "kcalPerServing": 380.6,
-   "kcalPer100g": 126.8,
+   "kcalPerServing": 374.9,
+   "kcalPer100g": 125.0,
+   "missingCore": [
+    "sodium"
+   ],
    "tableRow": "bls:Y995240",
    "tableKcalPer100g": 170,
-   "ratio": 0.746
+   "ratio": 0.735,
+   "flags": [
+    "missing sodium"
+   ]
   },
   {
    "id": "akari:recipe:iced-coffee-with-ice-cream:v1",
@@ -13397,11 +13397,17 @@
    "name": "Meringue ice cream cake",
    "origin": "generated",
    "servingGrams": 140,
-   "kcalPerServing": 310.0,
-   "kcalPer100g": 221.4,
+   "kcalPerServing": 307.9,
+   "kcalPer100g": 219.9,
+   "missingCore": [
+    "sodium"
+   ],
    "tableRow": "bls:Y999242",
    "tableKcalPer100g": 277,
-   "ratio": 0.799
+   "ratio": 0.794,
+   "flags": [
+    "missing sodium"
+   ]
   },
   {
    "id": "akari:recipe:fish-burger-with-saithe:v1",
@@ -13787,11 +13793,11 @@
    "name": "Potato salad with vinaigrette",
    "origin": "generated",
    "servingGrams": 243,
-   "kcalPerServing": 265.8,
-   "kcalPer100g": 109.4,
+   "kcalPerServing": 247.8,
+   "kcalPer100g": 102.0,
    "tableRow": "ciqual:25606",
    "tableKcalPer100g": 127,
-   "ratio": 0.861
+   "ratio": 0.803
   },
   {
    "id": "akari:recipe:cheese-and-salad-wrap:v1",
@@ -13833,11 +13839,15 @@
    "servingGrams": 115,
    "kcalPerServing": 480.4,
    "kcalPer100g": 417.7,
+   "missingCore": [
+    "water"
+   ],
    "tableRow": "cofid:15-208",
    "tableKcalPer100g": 351,
    "ratio": 1.19,
    "flags": [
-    "serving 115 g outside 120–900 g"
+    "serving 115 g outside 120–900 g",
+    "missing water"
    ]
   },
   {
@@ -14962,11 +14972,11 @@
    "name": "Roast beef sandwich",
    "origin": "generated",
    "servingGrams": 170,
-   "kcalPerServing": 304.6,
-   "kcalPer100g": 179.1,
+   "kcalPerServing": 308.9,
+   "kcalPer100g": 181.7,
    "tableRow": "usda:2706953",
    "tableKcalPer100g": 194,
-   "ratio": 0.923
+   "ratio": 0.937
   },
   {
    "id": "akari:recipe:french-dip-sandwich:v1",
@@ -14995,11 +15005,11 @@
    "name": "Hamburger wrap",
    "origin": "generated",
    "servingGrams": 185,
-   "kcalPerServing": 440.3,
-   "kcalPer100g": 238.0,
+   "kcalPerServing": 446.9,
+   "kcalPer100g": 241.6,
    "tableRow": "usda:2706963",
    "tableKcalPer100g": 299,
-   "ratio": 0.796
+   "ratio": 0.808
   },
   {
    "id": "akari:recipe:ham-sandwich:v1",
@@ -15149,11 +15159,11 @@
    "name": "Fish wrap",
    "origin": "generated",
    "servingGrams": 195,
-   "kcalPerServing": 423.4,
-   "kcalPer100g": 217.2,
+   "kcalPerServing": 432.3,
+   "kcalPer100g": 221.7,
    "tableRow": "usda:2707032",
    "tableKcalPer100g": 262,
-   "ratio": 0.829
+   "ratio": 0.846
   },
   {
    "id": "akari:recipe:sardine-sandwich:v1",
@@ -15193,13 +15203,17 @@
    "name": "Bologna sandwich",
    "origin": "generated",
    "servingGrams": 115,
-   "kcalPerServing": 274.3,
-   "kcalPer100g": 238.5,
+   "kcalPerServing": 284.2,
+   "kcalPer100g": 247.2,
+   "missingCore": [
+    "fiber"
+   ],
    "tableRow": "usda:2707040",
    "tableKcalPer100g": 274,
-   "ratio": 0.87,
+   "ratio": 0.902,
    "flags": [
-    "serving 115 g outside 120–900 g"
+    "serving 115 g outside 120–900 g",
+    "missing fiber"
    ]
   },
   {
@@ -15221,11 +15235,11 @@
    "name": "Italian sub",
    "origin": "generated",
    "servingGrams": 240,
-   "kcalPerServing": 632.6,
-   "kcalPer100g": 263.6,
+   "kcalPerServing": 621.8,
+   "kcalPer100g": 259.1,
    "tableRow": "usda:2707052",
    "tableKcalPer100g": 313,
-   "ratio": 0.842
+   "ratio": 0.828
   },
   {
    "id": "akari:recipe:italian-sausage-sandwich:v1",
@@ -15287,11 +15301,11 @@
    "name": "Lobster gumbo",
    "origin": "generated",
    "servingGrams": 463,
-   "kcalPerServing": 251.8,
-   "kcalPer100g": 54.4,
+   "kcalPerServing": 233.1,
+   "kcalPer100g": 50.3,
    "tableRow": "usda:2707141",
    "tableKcalPer100g": 59,
-   "ratio": 0.922
+   "ratio": 0.853
   },
   {
    "id": "akari:recipe:shrimp-gumbo:v1",
@@ -15389,11 +15403,17 @@
    "name": "Egg white omelette",
    "origin": "generated",
    "servingGrams": 179,
-   "kcalPerServing": 133.7,
-   "kcalPer100g": 74.7,
+   "kcalPerServing": 146.2,
+   "kcalPer100g": 81.7,
+   "missingCore": [
+    "fiber"
+   ],
    "tableRow": "usda:2707284",
    "tableKcalPer100g": 86,
-   "ratio": 0.869
+   "ratio": 0.95,
+   "flags": [
+    "missing fiber"
+   ]
   },
   {
    "id": "akari:recipe:fried-egg-sandwich:v1",
@@ -15411,11 +15431,11 @@
    "name": "Pancake breakfast sandwich with egg",
    "origin": "generated",
    "servingGrams": 155,
-   "kcalPerServing": 415.9,
-   "kcalPer100g": 268.4,
+   "kcalPerServing": 405.4,
+   "kcalPer100g": 261.6,
    "tableRow": "usda:2707332",
    "tableKcalPer100g": 242,
-   "ratio": 1.109
+   "ratio": 1.081
   },
   {
    "id": "akari:recipe:egg-white-breakfast-sandwich:v1",
@@ -15486,11 +15506,11 @@
    "name": "Pancake breakfast sandwich with sausage",
    "origin": "generated",
    "servingGrams": 120,
-   "kcalPerServing": 324.2,
-   "kcalPer100g": 270.2,
+   "kcalPerServing": 313.7,
+   "kcalPer100g": 261.5,
    "tableRow": "usda:2707342",
    "tableKcalPer100g": 278,
-   "ratio": 0.972
+   "ratio": 0.94
   },
   {
    "id": "akari:recipe:black-bean-salad:v1",
@@ -15566,11 +15586,11 @@
    "name": "Almond butter sandwich",
    "origin": "generated",
    "servingGrams": 92,
-   "kcalPerServing": 361.7,
-   "kcalPer100g": 393.2,
+   "kcalPerServing": 335.5,
+   "kcalPer100g": 364.7,
    "tableRow": "usda:2707562",
    "tableKcalPer100g": 397,
-   "ratio": 0.99,
+   "ratio": 0.919,
    "flags": [
     "serving 92 g outside 120–900 g"
    ]
@@ -15580,11 +15600,11 @@
    "name": "Almond butter and jelly sandwich",
    "origin": "generated",
    "servingGrams": 105,
-   "kcalPerServing": 363.6,
-   "kcalPer100g": 346.3,
+   "kcalPerServing": 343.1,
+   "kcalPer100g": 326.8,
    "tableRow": "usda:2707564",
    "tableKcalPer100g": 374,
-   "ratio": 0.926,
+   "ratio": 0.874,
    "flags": [
     "serving 105 g outside 120–900 g"
    ]
@@ -15594,11 +15614,11 @@
    "name": "Chocolate hazelnut spread sandwich",
    "origin": "generated",
    "servingGrams": 90,
-   "kcalPerServing": 315.6,
-   "kcalPer100g": 350.7,
+   "kcalPerServing": 318.3,
+   "kcalPer100g": 353.7,
    "tableRow": "usda:2707566",
    "tableKcalPer100g": 362,
-   "ratio": 0.969,
+   "ratio": 0.977,
    "flags": [
     "serving 90 g outside 120–900 g"
    ]
@@ -15619,18 +15639,11 @@
    "name": "Sweet tamale",
    "origin": "generated",
    "servingGrams": 126,
-   "kcalPerServing": 289.0,
-   "kcalPer100g": 229.3,
-   "missingCore": [
-    "sugar",
-    "saturatedFat"
-   ],
+   "kcalPerServing": 291.4,
+   "kcalPer100g": 231.2,
    "tableRow": "usda:2708038",
    "tableKcalPer100g": 259,
-   "ratio": 0.886,
-   "flags": [
-    "missing sugar, saturatedFat"
-   ]
+   "ratio": 0.893
   },
   {
    "id": "akari:recipe:fruit-empanada:v1",
@@ -15754,11 +15767,11 @@
    "name": "White pizza",
    "origin": "generated",
    "servingGrams": 214,
-   "kcalPerServing": 481.4,
-   "kcalPer100g": 225.0,
+   "kcalPerServing": 483.0,
+   "kcalPer100g": 225.7,
    "tableRow": "usda:2708676",
    "tableKcalPer100g": 285,
-   "ratio": 0.789
+   "ratio": 0.792
   },
   {
    "id": "akari:recipe:pizza-rolls:v1",
@@ -15810,11 +15823,11 @@
    "name": "Gnocchi with cheese sauce",
    "origin": "generated",
    "servingGrams": 290,
-   "kcalPerServing": 602.5,
-   "kcalPer100g": 207.8,
+   "kcalPerServing": 601.5,
+   "kcalPer100g": 207.4,
    "tableRow": "usda:2708721",
    "tableKcalPer100g": 178,
-   "ratio": 1.167
+   "ratio": 1.165
   },
   {
    "id": "akari:recipe:spinach-quiche:v1",
@@ -15843,22 +15856,22 @@
    "name": "Lasagne with meat and spinach",
    "origin": "generated",
    "servingGrams": 395,
-   "kcalPerServing": 604.5,
-   "kcalPer100g": 153.1,
+   "kcalPerServing": 606.2,
+   "kcalPer100g": 153.5,
    "tableRow": "usda:2708755",
    "tableKcalPer100g": 207,
-   "ratio": 0.739
+   "ratio": 0.741
   },
   {
    "id": "akari:recipe:chicken-lasagne:v1",
    "name": "Chicken lasagne",
    "origin": "generated",
    "servingGrams": 375,
-   "kcalPerServing": 607.0,
-   "kcalPer100g": 161.9,
+   "kcalPerServing": 608.6,
+   "kcalPer100g": 162.3,
    "tableRow": "usda:2708756",
    "tableKcalPer100g": 205,
-   "ratio": 0.79
+   "ratio": 0.792
   },
   {
    "id": "akari:recipe:tortellini-with-tomato-sauce:v1",
@@ -16242,11 +16255,11 @@
    "name": "Gelatin salad with vegetables",
    "origin": "generated",
    "servingGrams": 170,
-   "kcalPerServing": 87.4,
-   "kcalPer100g": 51.4,
+   "kcalPerServing": 111.3,
+   "kcalPer100g": 65.5,
    "tableRow": "usda:2710312",
    "tableKcalPer100g": 61,
-   "ratio": 0.842
+   "ratio": 1.074
   },
   {
    "id": "akari:recipe:poke-bowl:v1",
@@ -16255,6 +16268,583 @@
    "servingGrams": 427,
    "kcalPerServing": 606.2,
    "kcalPer100g": 142.0
+  },
+  {
+   "id": "akari:recipe:tea-with-honey:v1",
+   "name": "Tea with honey",
+   "origin": "reviewed",
+   "servingGrams": 260,
+   "kcalPerServing": 32.9,
+   "kcalPer100g": 12.7
+  },
+  {
+   "id": "akari:recipe:moroccan-mint-tea:v1",
+   "name": "Moroccan mint tea",
+   "origin": "reviewed",
+   "servingGrams": 218,
+   "kcalPerServing": 63.6,
+   "kcalPer100g": 29.2
+  },
+  {
+   "id": "akari:recipe:ginger-lemon-honey-tea:v1",
+   "name": "Ginger lemon honey tea",
+   "origin": "reviewed",
+   "servingGrams": 270,
+   "kcalPerServing": 35.1,
+   "kcalPer100g": 13.0
+  },
+  {
+   "id": "akari:recipe:hong-kong-milk-tea:v1",
+   "name": "Hong Kong milk tea",
+   "origin": "reviewed",
+   "servingGrams": 230,
+   "kcalPerServing": 94.5,
+   "kcalPer100g": 41.1
+  },
+  {
+   "id": "akari:recipe:thai-iced-tea:v1",
+   "name": "Thai iced tea",
+   "origin": "reviewed",
+   "servingGrams": 210,
+   "kcalPerServing": 164.4,
+   "kcalPer100g": 78.3
+  },
+  {
+   "id": "akari:recipe:london-fog:v1",
+   "name": "London fog",
+   "origin": "reviewed",
+   "servingGrams": 260,
+   "kcalPerServing": 103.4,
+   "kcalPer100g": 39.8
+  },
+  {
+   "id": "akari:recipe:aperol-spritz:v1",
+   "name": "Aperol Spritz",
+   "origin": "reviewed",
+   "servingGrams": 181,
+   "kcalPerServing": 157.1,
+   "kcalPer100g": 86.8
+  },
+  {
+   "id": "akari:recipe:lillet-wild-berry:v1",
+   "name": "Lillet Wild Berry",
+   "origin": "reviewed",
+   "servingGrams": 171,
+   "kcalPerServing": 113.0,
+   "kcalPer100g": 66.1
+  },
+  {
+   "id": "akari:recipe:whisky-cola:v1",
+   "name": "Whisky cola",
+   "origin": "reviewed",
+   "servingGrams": 158,
+   "kcalPerServing": 138.2,
+   "kcalPer100g": 87.5
+  },
+  {
+   "id": "akari:recipe:vodka-energy:v1",
+   "name": "Vodka energy",
+   "origin": "reviewed",
+   "servingGrams": 288,
+   "kcalPerServing": 193.0,
+   "kcalPer100g": 67.0
+  },
+  {
+   "id": "akari:recipe:sex-on-the-beach:v1",
+   "name": "Sex on the Beach",
+   "origin": "reviewed",
+   "servingGrams": 143,
+   "kcalPerServing": 168.0,
+   "kcalPer100g": 117.5
+  },
+  {
+   "id": "akari:recipe:long-island-iced-tea:v1",
+   "name": "Long Island iced tea",
+   "origin": "reviewed",
+   "servingGrams": 217,
+   "kcalPerServing": 289.8,
+   "kcalPer100g": 133.5
+  },
+  {
+   "id": "akari:recipe:cosmopolitan:v1",
+   "name": "Cosmopolitan",
+   "origin": "reviewed",
+   "servingGrams": 101,
+   "kcalPerServing": 136.9,
+   "kcalPer100g": 135.5,
+   "flags": [
+    "serving 101 g outside 120–900 g"
+   ]
+  },
+  {
+   "id": "akari:recipe:daiquiri:v1",
+   "name": "Daiquiri",
+   "origin": "reviewed",
+   "servingGrams": 85,
+   "kcalPerServing": 156.8,
+   "kcalPer100g": 184.5,
+   "flags": [
+    "serving 85 g outside 120–900 g"
+   ]
+  },
+  {
+   "id": "akari:recipe:espresso-martini:v1",
+   "name": "Espresso martini",
+   "origin": "reviewed",
+   "servingGrams": 116,
+   "kcalPerServing": 242.9,
+   "kcalPer100g": 209.4,
+   "missingCore": [
+    "saturatedFat"
+   ],
+   "flags": [
+    "serving 116 g outside 120–900 g",
+    "missing saturatedFat"
+   ]
+  },
+  {
+   "id": "akari:recipe:whiskey-sour:v1",
+   "name": "Whiskey sour",
+   "origin": "reviewed",
+   "servingGrams": 96,
+   "kcalPerServing": 162.4,
+   "kcalPer100g": 169.2,
+   "flags": [
+    "serving 96 g outside 120–900 g"
+   ]
+  },
+  {
+   "id": "akari:recipe:amaretto-sour:v1",
+   "name": "Amaretto sour",
+   "origin": "reviewed",
+   "servingGrams": 97,
+   "kcalPerServing": 203.0,
+   "kcalPer100g": 209.3,
+   "missingCore": [
+    "saturatedFat"
+   ],
+   "flags": [
+    "serving 97 g outside 120–900 g",
+    "missing saturatedFat"
+   ]
+  },
+  {
+   "id": "akari:recipe:old-fashioned:v1",
+   "name": "Old Fashioned",
+   "origin": "reviewed",
+   "servingGrams": 46,
+   "kcalPerServing": 113.0,
+   "kcalPer100g": 245.6,
+   "flags": [
+    "serving 46 g outside 120–900 g"
+   ]
+  },
+  {
+   "id": "akari:recipe:negroni:v1",
+   "name": "Negroni",
+   "origin": "reviewed",
+   "servingGrams": 91,
+   "kcalPerServing": 202.5,
+   "kcalPer100g": 222.5,
+   "flags": [
+    "serving 91 g outside 120–900 g"
+   ]
+  },
+  {
+   "id": "akari:recipe:manhattan:v1",
+   "name": "Manhattan",
+   "origin": "reviewed",
+   "servingGrams": 67,
+   "kcalPerServing": 136.6,
+   "kcalPer100g": 203.8,
+   "flags": [
+    "serving 67 g outside 120–900 g"
+   ]
+  },
+  {
+   "id": "akari:recipe:gin-martini:v1",
+   "name": "Gin martini",
+   "origin": "reviewed",
+   "servingGrams": 66,
+   "kcalPerServing": 148.3,
+   "kcalPer100g": 224.6,
+   "flags": [
+    "serving 66 g outside 120–900 g"
+   ]
+  },
+  {
+   "id": "akari:recipe:bloody-mary:v1",
+   "name": "Bloody Mary",
+   "origin": "reviewed",
+   "servingGrams": 155.5,
+   "kcalPerServing": 117.2,
+   "kcalPer100g": 75.4
+  },
+  {
+   "id": "akari:recipe:caipiroska:v1",
+   "name": "Caipiroska",
+   "origin": "reviewed",
+   "servingGrams": 132,
+   "kcalPerServing": 206.6,
+   "kcalPer100g": 156.5
+  },
+  {
+   "id": "akari:recipe:swimming-pool:v1",
+   "name": "Swimming Pool",
+   "origin": "reviewed",
+   "servingGrams": 201,
+   "kcalPerServing": 333.8,
+   "kcalPer100g": 166.1
+  },
+  {
+   "id": "akari:recipe:mint-julep:v1",
+   "name": "Mint julep",
+   "origin": "reviewed",
+   "servingGrams": 64,
+   "kcalPerServing": 147.6,
+   "kcalPer100g": 230.7,
+   "flags": [
+    "serving 64 g outside 120–900 g"
+   ]
+  },
+  {
+   "id": "akari:recipe:white-russian:v1",
+   "name": "White Russian",
+   "origin": "reviewed",
+   "servingGrams": 99,
+   "kcalPerServing": 271.9,
+   "kcalPer100g": 274.6,
+   "missingCore": [
+    "saturatedFat"
+   ],
+   "flags": [
+    "serving 99 g outside 120–900 g",
+    "missing saturatedFat"
+   ]
+  },
+  {
+   "id": "akari:recipe:black-russian:v1",
+   "name": "Black Russian",
+   "origin": "reviewed",
+   "servingGrams": 69,
+   "kcalPerServing": 179.5,
+   "kcalPer100g": 260.1,
+   "missingCore": [
+    "saturatedFat"
+   ],
+   "flags": [
+    "serving 69 g outside 120–900 g",
+    "missing saturatedFat"
+   ]
+  },
+  {
+   "id": "akari:recipe:irish-coffee:v1",
+   "name": "Irish coffee",
+   "origin": "reviewed",
+   "servingGrams": 221,
+   "kcalPerServing": 279.7,
+   "kcalPer100g": 126.6
+  },
+  {
+   "id": "akari:recipe:kir-royal:v1",
+   "name": "Kir Royal",
+   "origin": "reviewed",
+   "servingGrams": 100,
+   "kcalPerServing": 94.7,
+   "kcalPer100g": 94.7,
+   "flags": [
+    "serving 100 g outside 120–900 g"
+   ]
+  },
+  {
+   "id": "akari:recipe:kir:v1",
+   "name": "Kir",
+   "origin": "reviewed",
+   "servingGrams": 100,
+   "kcalPerServing": 99.9,
+   "kcalPer100g": 99.9,
+   "flags": [
+    "serving 100 g outside 120–900 g"
+   ]
+  },
+  {
+   "id": "akari:recipe:bellini:v1",
+   "name": "Bellini",
+   "origin": "reviewed",
+   "servingGrams": 149,
+   "kcalPerServing": 90.8,
+   "kcalPer100g": 60.9
+  },
+  {
+   "id": "akari:recipe:mimosa:v1",
+   "name": "Mimosa",
+   "origin": "reviewed",
+   "servingGrams": 152,
+   "kcalPerServing": 89.9,
+   "kcalPer100g": 59.2
+  },
+  {
+   "id": "akari:recipe:tom-collins:v1",
+   "name": "Tom Collins",
+   "origin": "reviewed",
+   "servingGrams": 143,
+   "kcalPerServing": 150.0,
+   "kcalPer100g": 104.9
+  },
+  {
+   "id": "akari:recipe:gin-fizz:v1",
+   "name": "Gin fizz",
+   "origin": "reviewed",
+   "servingGrams": 109,
+   "kcalPerServing": 134.1,
+   "kcalPer100g": 123.0,
+   "flags": [
+    "serving 109 g outside 120–900 g"
+   ]
+  },
+  {
+   "id": "akari:recipe:french-75:v1",
+   "name": "French 75",
+   "origin": "reviewed",
+   "servingGrams": 113,
+   "kcalPerServing": 157.2,
+   "kcalPer100g": 139.1,
+   "flags": [
+    "serving 113 g outside 120–900 g"
+   ]
+  },
+  {
+   "id": "akari:recipe:sidecar:v1",
+   "name": "Sidecar",
+   "origin": "reviewed",
+   "servingGrams": 89,
+   "kcalPerServing": 157.8,
+   "kcalPer100g": 177.3,
+   "flags": [
+    "serving 89 g outside 120–900 g"
+   ]
+  },
+  {
+   "id": "akari:recipe:gin-basil-smash:v1",
+   "name": "Gin basil smash",
+   "origin": "reviewed",
+   "servingGrams": 99,
+   "kcalPerServing": 203.8,
+   "kcalPer100g": 205.9,
+   "flags": [
+    "serving 99 g outside 120–900 g"
+   ]
+  },
+  {
+   "id": "akari:recipe:bramble:v1",
+   "name": "Bramble",
+   "origin": "reviewed",
+   "servingGrams": 97,
+   "kcalPerServing": 190.9,
+   "kcalPer100g": 196.8,
+   "flags": [
+    "serving 97 g outside 120–900 g"
+   ]
+  },
+  {
+   "id": "akari:recipe:pornstar-martini:v1",
+   "name": "Pornstar martini",
+   "origin": "reviewed",
+   "servingGrams": 175,
+   "kcalPerServing": 252.9,
+   "kcalPer100g": 144.5
+  },
+  {
+   "id": "akari:recipe:tinto-de-verano:v1",
+   "name": "Tinto de verano",
+   "origin": "reviewed",
+   "servingGrams": 199,
+   "kcalPerServing": 117.1,
+   "kcalPer100g": 58.9
+  },
+  {
+   "id": "akari:recipe:limoncello-spritz:v1",
+   "name": "Limoncello spritz",
+   "origin": "reviewed",
+   "servingGrams": 172,
+   "kcalPerServing": 188.6,
+   "kcalPer100g": 109.7
+  },
+  {
+   "id": "akari:recipe:virgin-mojito:v1",
+   "name": "Virgin mojito",
+   "origin": "reviewed",
+   "servingGrams": 155,
+   "kcalPerServing": 40.4,
+   "kcalPer100g": 26.1
+  },
+  {
+   "id": "akari:recipe:virgin-colada:v1",
+   "name": "Virgin colada",
+   "origin": "reviewed",
+   "servingGrams": 134,
+   "kcalPerServing": 123.2,
+   "kcalPer100g": 92.0
+  },
+  {
+   "id": "akari:recipe:feuerzangenbowle:v1",
+   "name": "Feuerzangenbowle",
+   "origin": "reviewed",
+   "servingGrams": 265,
+   "kcalPerServing": 286.7,
+   "kcalPer100g": 108.2
+  },
+  {
+   "id": "akari:recipe:kinderpunsch:v1",
+   "name": "Kinderpunsch",
+   "origin": "reviewed",
+   "servingGrams": 250,
+   "kcalPerServing": 96.0,
+   "kcalPer100g": 38.4
+  },
+  {
+   "id": "akari:recipe:lumumba:v1",
+   "name": "Lumumba",
+   "origin": "reviewed",
+   "servingGrams": 240,
+   "kcalPerServing": 286.4,
+   "kcalPer100g": 119.3
+  },
+  {
+   "id": "akari:recipe:hot-chocolate-with-cream:v1",
+   "name": "Hot chocolate with whipped cream",
+   "origin": "reviewed",
+   "servingGrams": 225,
+   "kcalPerServing": 259.0,
+   "kcalPer100g": 115.1
+  },
+  {
+   "id": "akari:recipe:christmas-goose-with-red-cabbage-and-dumplings:v1",
+   "name": "Christmas goose with red cabbage and dumplings",
+   "origin": "reviewed",
+   "servingGrams": 550,
+   "kcalPerServing": 780.5,
+   "kcalPer100g": 141.9
+  },
+  {
+   "id": "akari:recipe:roast-duck-with-red-cabbage-and-dumplings:v1",
+   "name": "Roast duck with red cabbage and dumplings",
+   "origin": "reviewed",
+   "servingGrams": 550,
+   "kcalPerServing": 672.5,
+   "kcalPer100g": 122.3
+  },
+  {
+   "id": "akari:recipe:roast-turkey-with-trimmings:v1",
+   "name": "Roast turkey with trimmings",
+   "origin": "reviewed",
+   "servingGrams": 435,
+   "kcalPerServing": 732.4,
+   "kcalPer100g": 168.4
+  },
+  {
+   "id": "akari:recipe:pigs-in-blankets:v1",
+   "name": "Pigs in blankets",
+   "origin": "reviewed",
+   "servingGrams": 80,
+   "kcalPerServing": 198.8,
+   "kcalPer100g": 248.5,
+   "flags": [
+    "serving 80 g outside 120–900 g"
+   ]
+  },
+  {
+   "id": "akari:recipe:asparagus-with-hollandaise-and-ham:v1",
+   "name": "Asparagus with hollandaise and ham",
+   "origin": "reviewed",
+   "servingGrams": 420,
+   "kcalPerServing": 436.8,
+   "kcalPer100g": 104.0
+  },
+  {
+   "id": "akari:recipe:champignonpfanne:v1",
+   "name": "Mushroom pan with garlic cream",
+   "origin": "reviewed",
+   "servingGrams": 280,
+   "kcalPerServing": 270.6,
+   "kcalPer100g": 96.6,
+   "missingCore": [
+    "water"
+   ],
+   "flags": [
+    "missing water"
+   ]
+  },
+  {
+   "id": "akari:recipe:chocolate-dipped-strawberries:v1",
+   "name": "Chocolate-dipped strawberries",
+   "origin": "reviewed",
+   "servingGrams": 130,
+   "kcalPerServing": 203.0,
+   "kcalPer100g": 156.2
+  },
+  {
+   "id": "akari:recipe:langos-with-sour-cream-and-cheese:v1",
+   "name": "Langos with sour cream and cheese",
+   "origin": "reviewed",
+   "servingGrams": 220,
+   "kcalPerServing": 702.1,
+   "kcalPer100g": 319.1
+  },
+  {
+   "id": "akari:recipe:fries-red-and-white:v1",
+   "name": "Fries with ketchup and mayonnaise",
+   "origin": "reviewed",
+   "servingGrams": 190,
+   "kcalPerServing": 530.3,
+   "kcalPer100g": 279.1
+  },
+  {
+   "id": "akari:recipe:salmon-sashimi:v1",
+   "name": "Salmon sashimi",
+   "origin": "reviewed",
+   "servingGrams": 110,
+   "kcalPerServing": 186.6,
+   "kcalPer100g": 169.6,
+   "missingCore": [
+    "fiber"
+   ],
+   "flags": [
+    "serving 110 g outside 120–900 g",
+    "missing fiber"
+   ]
+  },
+  {
+   "id": "akari:recipe:halloumi-wrap:v1",
+   "name": "Halloumi wrap",
+   "origin": "reviewed",
+   "servingGrams": 240,
+   "kcalPerServing": 481.1,
+   "kcalPer100g": 200.5
+  },
+  {
+   "id": "akari:recipe:bismarck-herring-roll:v1",
+   "name": "Bismarck herring roll",
+   "origin": "reviewed",
+   "servingGrams": 145,
+   "kcalPerServing": 330.6,
+   "kcalPer100g": 228.0
+  },
+  {
+   "id": "akari:recipe:half-roast-chicken-with-fries:v1",
+   "name": "Half roast chicken with fries",
+   "origin": "reviewed",
+   "servingGrams": 400,
+   "kcalPerServing": 956.0,
+   "kcalPer100g": 239.0
+  },
+  {
+   "id": "akari:recipe:chicken-nuggets-with-fries:v1",
+   "name": "Chicken nuggets with fries",
+   "origin": "reviewed",
+   "servingGrams": 290,
+   "kcalPerServing": 737.9,
+   "kcalPer100g": 254.4
   }
  ]
 }

@@ -5,7 +5,7 @@ import tempfile
 import unittest
 sys.path.insert(0,str(pathlib.Path(__file__).resolve().parent))
 from prepare_release import prepare
-from verify_release import verify_reference_coverage
+from verify_release import verify_reference_coverage, verify_rejections
 
 
 class ReferenceCoverageTests(unittest.TestCase):
@@ -39,6 +39,21 @@ class ReferenceCoverageTests(unittest.TestCase):
             verify_reference_coverage(self.source_counts, self.verified_counts)
 
 class ReleaseCompatibilityTests(unittest.TestCase):
+    def test_reported_rejections_need_a_matching_sidecar(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root=pathlib.Path(tmp)
+            asset={'filename':'akari-food-de.sqlite','rejected':{'implausible-nutrition':2,'unscanned-unbranded':0}}
+            lines=[{'code':'4000000000001','rule':'implausible-nutrition'},{'code':'4000000000002','rule':'implausible-nutrition'}]
+            sidecar=root/'rejected-de.jsonl'
+            with self.assertRaises(ValueError):
+                verify_rejections(root,'DE',asset)
+            sidecar.write_text(''.join(json.dumps(line)+'\n' for line in lines))
+            verify_rejections(root,'DE',asset)
+            verify_rejections(root,'DE',{'filename':'akari-food-de.sqlite'})
+            sidecar.write_text(json.dumps(lines[0])+'\n')
+            with self.assertRaises(ValueError):
+                verify_rejections(root,'DE',asset)
+
     def test_old_apps_keep_immutable_catalogue_and_new_apps_get_v4(self):
         with tempfile.TemporaryDirectory() as tmp:
             root=pathlib.Path(tmp)

@@ -1,0 +1,75 @@
+{
+ "batch": 29,
+ "drafted": "2026-10-30",
+ "drafter": "Claude in the Akari Nutrient-fill sweep session (baking collection)",
+ "entries": [
+  {
+   "key": "cherry cake",
+   "unit": "slice",
+   "gramsPerUnit": 120,
+   "typical": 1,
+   "reason": "one piece of a tray-baked cherry cake, about 120 g"
+  },
+  {
+   "key": "cream cake",
+   "unit": "slice",
+   "gramsPerUnit": 150,
+   "typical": 1,
+   "reason": "one Tortenstück of a cream torte, about 150 g",
+   "ignoreMeasures": "USDA's 200 g slice is a US bakery portion; a German Tortenstück is about 150 g"
+  },
+  {
+   "key": "strawberry cream cake",
+   "unit": "slice",
+   "gramsPerUnit": 150,
+   "typical": 1,
+   "reason": "one Tortenstück of a strawberry cream torte, about 150 g"
+  },
+  {
+   "key": "buttercream cake",
+   "unit": "slice",
+   "gramsPerUnit": 120,
+   "typical": 1,
+   "reason": "one Tortenstück of a buttercream torte, about 120 g"
+  },
+  {
+   "key": "prinzregententorte",
+   "unit": "slice",
+   "gramsPerUnit": 120,
+   "typical": 1,
+   "reason": "one Tortenstück of the thin-layered Prinzregententorte, about 120 g"
+  },
+  {
+   "key": "eierschecke",
+   "unit": "slice",
+   "gramsPerUnit": 120,
+   "typical": 1,
+   "reason": "one piece from a tray of Eierschecke, about 120 g"
+  },
+  {
+   "key": "poppy seed cake",
+   "unit": "slice",
+   "gramsPerUnit": 120,
+   "typical": 1,
+   "reason": "one piece of a tray-baked poppy seed cake, about 120 g"
+  },
+  {
+   "key": "crepe",
+   "skip": "usda:2708342 already carries a portion through the \"crepe plain\" identity (2 crêpes of 60 g)"
+  },
+  {
+   "key": "almond crescent",
+   "unit": "piece",
+   "gramsPerUnit": 70,
+   "typical": 1,
+   "reason": "one bakery Mandelhörnchen, about 70 g"
+  },
+  {
+   "key": "palmier",
+   "unit": "piece",
+   "gramsPerUnit": 35,
+   "typical": 1,
+   "reason": "one bakery Schweineohr, about 35 g"
+  }
+ ]
+}

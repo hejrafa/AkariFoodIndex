@@ -1,0 +1,143 @@
+{
+ "batch": 32,
+ "drafted": "2026-10-30",
+ "drafter": "Claude in the Akari Nutrient-fill sweep session (alcohol collection)",
+ "entries": [
+  {
+   "key": "wheat beer alcohol free 0 0",
+   "unit": "bottle",
+   "milliliters": 500,
+   "typical": 1,
+   "reason": "one 0.5 l bottle, the German wheat beer size"
+  },
+  {
+   "key": "craft or abbey beer",
+   "unit": "bottle",
+   "milliliters": 330,
+   "typical": 1,
+   "reason": "one 0.33 l bottle, the size craft and abbey beers sell in"
+  },
+  {
+   "key": "wheat beer shandy alcohol free",
+   "unit": "bottle",
+   "milliliters": 500,
+   "typical": 1,
+   "reason": "one 0.5 l bottle"
+  },
+  {
+   "key": "pilsner with mineral water",
+   "unit": "glass",
+   "milliliters": 500,
+   "typical": 1,
+   "reason": "one Halbe, the glass a Radler sauer is served in"
+  },
+  {
+   "key": "red wine medium sweet",
+   "unit": "glass",
+   "milliliters": 150,
+   "typical": 1,
+   "reason": "one wine glass, as the red wine portion"
+  },
+  {
+   "key": "red wine sweet",
+   "unit": "glass",
+   "milliliters": 150,
+   "typical": 1,
+   "reason": "one wine glass, as the red wine portion"
+  },
+  {
+   "key": "white wine medium sweet",
+   "unit": "glass",
+   "milliliters": 150,
+   "typical": 1,
+   "reason": "one wine glass, as the white wine portion"
+  },
+  {
+   "key": "white wine sweet",
+   "unit": "glass",
+   "milliliters": 150,
+   "typical": 1,
+   "reason": "one wine glass, as the white wine portion"
+  },
+  {
+   "key": "sparkling wine medium dry",
+   "unit": "glass",
+   "milliliters": 100,
+   "typical": 1,
+   "reason": "one flute, as the sparkling wine portion"
+  },
+  {
+   "key": "sparkling wine brut",
+   "unit": "glass",
+   "milliliters": 100,
+   "typical": 1,
+   "reason": "one flute, as the sparkling wine portion"
+  },
+  {
+   "key": "sparkling wine sweet",
+   "unit": "glass",
+   "milliliters": 100,
+   "typical": 1,
+   "reason": "one flute, as the sparkling wine portion"
+  },
+  {
+   "key": "dessert wine sweet",
+   "skip": "usda:2710692 already carries a portion through the \"wine dessert sweet\" identity (a 100 ml glass)"
+  },
+  {
+   "key": "ice wine",
+   "unit": "glass",
+   "milliliters": 50,
+   "typical": 1,
+   "reason": "ice wine is poured in 5 cl"
+  },
+  {
+   "key": "madeira wine",
+   "unit": "glass",
+   "milliliters": 50,
+   "typical": 1,
+   "reason": "a fortified wine glass, as the port portion"
+  },
+  {
+   "key": "calvados",
+   "unit": "glass",
+   "milliliters": 20,
+   "typical": 1,
+   "reason": "one 2 cl Schnapsglas, as the fruit brandy portion",
+   "excludeReferences": [
+    "bls:P752100"
+   ]
+  },
+  {
+   "key": "cachaca",
+   "unit": "glass",
+   "milliliters": 40,
+   "typical": 1,
+   "reason": "one 4 cl measure, as the rum and vodka portions",
+   "excludeReferences": [
+    "bls:P741000"
+   ]
+  },
+  {
+   "key": "alcopop",
+   "unit": "bottle",
+   "milliliters": 275,
+   "typical": 1,
+   "reason": "the 275 ml bottle alcopops sell in"
+  },
+  {
+   "key": "pilsner alcohol free 0 0",
+   "unit": "bottle",
+   "milliliters": 500,
+   "typical": 1,
+   "reason": "one 0.5 l bottle, as the beer portion"
+  },
+  {
+   "key": "scotch whisky",
+   "unit": "glass",
+   "milliliters": 40,
+   "typical": 1,
+   "reason": "one 4 cl measure, as the whisky portion; USDA's shot is 42 g"
+  }
+ ]
+}

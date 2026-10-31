@@ -1,0 +1,64 @@
+{
+  "id": "akari:label:magnesium-potassium-tablet",
+  "name": "Magnesium + potassium tablet",
+  "identity": "Large mineral tablet with 400 to 500 mg magnesium and 300 to 400 mg potassium, often with calcium or B vitamins, taken for muscles and cramps; the dose is one tablet.",
+  "rule": "Per 100 g of the product, each value is the median of the labels below that declare it, and a value enters only when at least three declare it; a label states its nutrients per dose, so the file converts them with the dose's weight (the pack's net content divided by its count of tablets, capsules, sticks or drops, or the stated dose weight). Salt becomes sodium (salt in g × 400 = sodium in mg). Fewer than three labels declare energy, so the row stands at 0 kcal under the verification policy's clause for label generics with a micronutrient. Nothing a label leaves out becomes zero. Labels read on 2026-10-30 from dm.de, rossmann.de and shop-apotheke.com product pages.",
+  "nutrients": {
+    "potassium": 17500,
+    "magnesium": 20000,
+    "calories": 0
+  },
+  "portions": [
+    {
+      "grams": 2.1,
+      "label": "1 tablet"
+    }
+  ],
+  "labels": [
+    {
+      "brand": "Doppelherz",
+      "product": "Magnesium 500 + Calcium + Kalium Tabletten 30 St, 69,6 g",
+      "read": "https://www.dm.de/p/d/1551148/ (dm.de product page, Nährwerte and Zutaten panels; GTIN not stated)",
+      "date": "2026-10-30",
+      "ingredients": "Magnesiumoxid, Calciumcarbonat, Kaliumchlorid, Füllstoff mikrokristalline Cellulose, Überzugsmittel Hydroxypropylmethylcellulose, Füllstoff Polyvinylpyrrolidon, Trennmittel Speisefettsäuren, Trennmittel Magnesiumsalze der Speisefettsäuren, Füllstoff Polyethylenglycol, Stärke, Trennmittel Zuckerester von Speisefettsäuren, Trennmittel Talkum, Pyridoxinhydrochlorid, Farbstoff Eisenoxide und Eisenhydroxide, Cholecalciferol",
+      "serving": "1 Tablette: 30 units weigh 69.6 g, so the dose is 2.32 g; the label declares per dose: calciumMg 250, potassiumMg 300, magnesiumMg 500, vitaminDUg 20; vitamin B6 1.4 mg; no energy or macros declared",
+      "per100g": {
+        "calciumMg": 10775.9,
+        "potassiumMg": 12931.0,
+        "magnesiumMg": 21551.7,
+        "vitaminDUg": 862.069
+      }
+    },
+    {
+      "brand": "taxofit",
+      "product": "Magnesium 400 + Kalium Tabletten 30 St, 63 g",
+      "read": "https://www.dm.de/p/d/1689687/ (dm.de product page, Nährwerte and Zutaten panels; GTIN not stated)",
+      "date": "2026-10-30",
+      "ingredients": "Kaliumchlorid, Magnesiumoxid, Füllstoff Cellulose, Trennmittel (Fettsäuren, Magnesiumsalze der Speisefettsäuren, Talkum), Geliermittel Hydroxypropylmethylcellulose, Eisenfumarat, Pyridoxinhydrochlorid, Zinkoxid, Überzugsmittel (Glycerin, Carnaubawachs), Cyanocobalamin (Vitamin B12)",
+      "serving": "1 Tablette: 30 units weigh 63 g, so the dose is 2.1 g; the label declares per dose: ironMg 4, potassiumMg 400, magnesiumMg 400, zincMg 5, vitaminB12Ug 50; vitamin B6 6 mg; no energy or macros declared",
+      "per100g": {
+        "ironMg": 190.476,
+        "potassiumMg": 19047.6,
+        "magnesiumMg": 19047.6,
+        "zincMg": 238.095,
+        "vitaminB12Ug": 2380.95
+      }
+    },
+    {
+      "brand": "Abtei",
+      "product": "Magnesium 400 + Kalium Aktiv Plus Tabletten, 30 Tabletten, 60 g",
+      "read": "https://www.rossmann.de/de/gesundheit-abtei-magnesium-400--kalium-aktiv-plus-tabletten/p/4250752204584 (rossmann.de product page, Zutaten and Nährwerte sections; GTIN 4250752204584)",
+      "date": "2026-10-30",
+      "ingredients": "Kaliumchlorid; Magnesiumoxid; Magnesiumhydroxid; Füllstoff Hydroxypropylmethylcellulose; Maltodextrin; Trennmittel Speisefettsäuren, Siliciumdioxid, Magnesiumsalze der Speisefettsäuren, Talkum; Eisenfumarat; Überzugsmittel Hydroxypropylmethylcellulose, Hydroxypropylcellulose; Farbstoff Calciumcarbonat; Nicotinamid; Zinkoxid; Mangansulfat; Stabilisator Speisefettsäuren; Kupfersulfat; Vitamin B6; Kaliumiodid; Biotin; Vitamin B12",
+      "serving": "1 Tablette: 30 units weigh 60 g, so the dose is 2 g; the label declares per dose: potassiumMg 350, magnesiumMg 400, ironMg 14, zincMg 10, iodineUg 150, vitaminB12Ug 2.5; copper 1 mg, manganese 2 mg, niacin 16 mg, B6 1.4 mg, biotin 50 µg; no energy or macros declared",
+      "per100g": {
+        "potassiumMg": 17500.0,
+        "magnesiumMg": 20000.0,
+        "ironMg": 700.0,
+        "zincMg": 500.0,
+        "iodineUg": 7500.0,
+        "vitaminB12Ug": 125.0
+      }
+    }
+  ]
+}

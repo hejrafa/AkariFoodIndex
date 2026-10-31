@@ -1,0 +1,67 @@
+{
+  "id": "akari:label:collagen-drink-ampoule",
+  "name": "Collagen drink ampoule",
+  "identity": "Collagen hydrolysate drink in a 10 to 25 ml ampoule or stick with vitamin C or zinc, one a day; the dose is one ampoule.",
+  "rule": "Per 100 g of the product, each value is the median of the labels below that declare it, and a value enters only when at least three declare it; a label states its nutrients per dose, so the file converts them with the dose's weight (the pack's net content divided by its count of tablets, capsules, sticks or drops, or the stated dose weight). Salt becomes sodium (salt in g × 400 = sodium in mg). Fewer than three labels declare energy, so the row stands at 0 kcal under the verification policy's clause for label generics with a micronutrient. Liquid labels give volumes; each label's serving note names the density that turns them into grams. Nothing a label leaves out becomes zero. Labels read on 2026-10-30 from dm.de, rossmann.de and shop-apotheke.com product pages.",
+  "nutrients": {
+    "zinc": 16,
+    "vitaminC": 320,
+    "calories": 0
+  },
+  "portions": [
+    {
+      "grams": 17.5,
+      "label": "1 ampoule"
+    }
+  ],
+  "labels": [
+    {
+      "brand": "Doppelherz",
+      "product": "aktiv Kollagen 3000 Liquid, 14 Sticks, 140 ml",
+      "read": "https://www.rossmann.de/de/gesundheit-doppelherz-aktiv-kollagen-3000-liquid/p/4009932131161 (rossmann.de product page, Zutaten and Nährwerte sections; GTIN 4009932131161)",
+      "date": "2026-10-30",
+      "ingredients": "Wasser, Kollagenhydrolysat, Säuerungsmittel Citronensäure, Aroma, Verdickungsmittel Xanthan, Antioxidationsmittel Ascorbinsäure, Zinkgluconat, Konservierungsstoff Kaliumsorbat, Konservierungsstoff Natriumbenzoat, DL-alpha-Tocopherylacetat, Nicotinamid, Mangangluconat, Süßungsmittel Acesulfam K, Süßungsmittel Sucralose, Retinylacetat, Kupfergluconat, Riboflavin, D-Biotin",
+      "serving": "1 Beutel (10 ml): 14 units weigh 140 g (140 ml), so the dose is 10 g; the label declares per dose: zincMg 1.5, vitaminAUg 120; copper 150 µg, manganese 0.3 mg, vitamin E 1.8 mg, B2 0.21 mg, niacin 2.4 mg, biotin 50 µg, collagen 3000 mg; no energy or macros declared; a watery drink taken at 1 g per ml",
+      "per100g": {
+        "zincMg": 15.0,
+        "vitaminAUg": 1200.0
+      }
+    },
+    {
+      "brand": "Doppelherz",
+      "product": "aktiv Kollagen 5000 Liquid, 14 Sticks, 140 g",
+      "read": "https://www.rossmann.de/de/gesundheit-doppelherz-aktiv-kollagen-5000-liquid/p/4009932131703 (rossmann.de product page, Zutaten and Nährwerte sections; GTIN 4009932131703)",
+      "date": "2026-10-30",
+      "ingredients": "Wasser, Kollagenhydrolysat, Säuerungsmittel Milchsäure, Chondroitinsulfat, Säuerungsmittel Citronensäure, Vitamin C, Mangangluconat, Aroma, Verdickungsmittel Xanthan, Konservierungsstoff Kaliumsorbat, Konservierungsstoff Natriumbenzoat, Vitamin E, Süßungsmittel Sucralose, Vitamin D",
+      "serving": "1 Stick (10 g): 14 units weigh 140 g, so the dose is 10 g; the label declares per dose: vitaminDUg 20, vitaminCMg 12; manganese 2 mg, vitamin E 1.8 mg, collagen 5000 mg; no energy or macros declared",
+      "per100g": {
+        "vitaminDUg": 200.0,
+        "vitaminCMg": 120.0
+      }
+    },
+    {
+      "brand": "Merz Spezial",
+      "product": "Kollagen Schönheits-Formel Trinkampullen, 18 Trinkampullen à 25 ml, 450 ml",
+      "read": "https://www.rossmann.de/de/gesundheit-merz-spezial-kollagen-schoenheits-formel-trinkampullen/p/4008491117524 (rossmann.de product page, Zutaten and Nährwerte sections; GTIN 4008491117524)",
+      "date": "2026-10-30",
+      "ingredients": "Wasser; Kollagenhydrolysat (9,2 %); Fructose; Ascorbinsäure (Vitamin C); Säuerungsmittel Citronensäure; Verdickungsmittel Natrium-Carboxymethylcellulose; modifizierte Stärke; Himbeeraroma; färbendes Lebensmittel (Karotte, Hibiskus); Konservierungsstoff Natriumbenzoat; Zinkgluconat; Konservierungsstoff Kaliumsorbat; Nicotinamid; DL-alpha-Tocopherylacetat; D-Biotin; Trennmittel Siliciumdioxid",
+      "serving": "1 Ampulle (25 ml): 18 units weigh 450 g (450 ml), so the dose is 25 g; the label declares per dose: zincMg 4, vitaminCMg 80; vitamin E 6 mg; the table prints energy and every macro as 0 per ampoule beside 9.2 % collagen and fructose, a placeholder, so none is taken; a watery drink taken at 1 g per ml",
+      "per100g": {
+        "zincMg": 16.0,
+        "vitaminCMg": 320.0
+      }
+    },
+    {
+      "brand": "Doppelherz",
+      "product": "Kollagen + Biotin + Ceramide Trinkampullen, 10 Trinkampullen à 25 ml, 250 ml",
+      "read": "https://www.rossmann.de/de/gesundheit-doppelherz-kollagen--biotin--ceramide-trinkampullen/p/4009932132632 (rossmann.de product page, Zutaten and Nährwerte sections; GTIN 4009932132632)",
+      "date": "2026-10-30",
+      "ingredients": "Wasser, Fructose, Stabilisator Glycerin, Kollagenhydrolysat, Emulgator Gummi arabicum, Orangensaftkonzentrat, Mangosaftkonzentrat, Vitamin C, Säuerungsmittel Citronensäure, Verdickungsmittel Xanthan, Aromen, Zinkgluconat, ceramidehaltiger Weizensamenextrakt, Konservierungsstoff Kaliumsorbat, Konservierungsstoff Natriumbenzoat, Niacin, Kupfergluconat, Mangansulfat, Biotin",
+      "serving": "1 Trinkampulle (25 ml): 10 units weigh 250 g (250 ml), so the dose is 25 g; the label declares per dose: zincMg 5, vitaminCMg 80; copper 0.2 mg, manganese 0.4 mg, niacin 16 mg, biotin 600 µg, collagen 1 g; no energy or macros declared; a watery drink taken at 1 g per ml",
+      "per100g": {
+        "zincMg": 20.0,
+        "vitaminCMg": 320.0
+      }
+    }
+  ]
+}

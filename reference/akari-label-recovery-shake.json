@@ -1,0 +1,77 @@
+{
+  "id": "akari:label:recovery-shake",
+  "name": "Recovery shake powder",
+  "identity": "Carbohydrate and protein recovery drink powder, about 60 to 73 g carbohydrate and 18 to 30 g protein per 100 g; sold flavoured.",
+  "rule": "Per 100 g, each value is the median of the three labels below that declare it, and a value enters only when at least three labels declare it (flavoured by nature). Salt becomes sodium (salt in g × 400 = sodium in mg). Nothing a label leaves out becomes zero. Labels read on 2026-10-30 from Open Food Facts through Akari's proxy, as the beef protein isolate was.",
+  "nutrients": {
+    "calories": 375.0,
+    "fat": 0.94,
+    "saturatedFat": 0.35,
+    "carbs": 60.0,
+    "sugar": 36.0,
+    "protein": 25.0,
+    "sodium": 380.0
+  },
+  "portions": [
+    {
+      "grams": 60,
+      "label": "1 serving"
+    }
+  ],
+  "labels": [
+    {
+      "brand": "Etixx",
+      "product": "Recovery shake etixx",
+      "read": "Open Food Facts 5425000677710 through https://api.joinakari.com/v1/off/product/5425000677710",
+      "date": "2026-10-30",
+      "ingredients": "not stated in the entry",
+      "serving": "100 g",
+      "per100g": {
+        "energyKJ": 1581.78,
+        "energyKcal": 381.7,
+        "fat": 0.94,
+        "saturates": 0.58,
+        "carbohydrate": 73.0,
+        "sugars": 36.0,
+        "protein": 18.0,
+        "salt": 0.09
+      }
+    },
+    {
+      "brand": "Sponser",
+      "product": "Recovery shake",
+      "read": "Open Food Facts 7611174035250 through https://api.joinakari.com/v1/off/product/7611174035250",
+      "date": "2026-10-30",
+      "ingredients": "not stated in the entry",
+      "serving": "40.0g",
+      "per100g": {
+        "energyKJ": 1531.7,
+        "energyKcal": 357.0,
+        "fat": 0.7,
+        "saturates": 0.3,
+        "carbohydrate": 60.0,
+        "sugars": 50.0,
+        "protein": 25.0,
+        "salt": 0.98
+      }
+    },
+    {
+      "brand": "6D",
+      "product": "Recovery shake",
+      "read": "Open Food Facts 5425039527192 through https://api.joinakari.com/v1/off/product/5425039527192",
+      "date": "2026-10-30",
+      "ingredients": "Weiproteïne-isolaat (bevat melk); maltodextrine; sucrose; fructose; magere cacaopoeder (Theobroma cacao L.); trinatriumcitraat; natuurlijke smaakstoffen; emulgator: sojalecithine melk, soja, gluten, ei, vis, schaaldieren en sulfiet verwerkt worden. kaliumchloride; trimagnesiumcitraat; antiklontermid",
+      "serving": "100 g",
+      "per100g": {
+        "energyKJ": 1574.02,
+        "energyKcal": 375.0,
+        "fat": 1.13,
+        "saturates": 0.35,
+        "carbohydrate": 59.95,
+        "sugars": 33.28,
+        "protein": 30.18,
+        "salt": 0.95
+      }
+    }
+  ]
+}

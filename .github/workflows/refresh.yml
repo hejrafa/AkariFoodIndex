@@ -226,6 +226,7 @@ jobs:
             case "$file" in
               *.sqlite) type=application/octet-stream ;;
               *.json) type=application/json ;;
+              *.jsonl) type=application/x-ndjson ;;
               *) echo "::error::No content type for $file"; exit 1 ;;
             esac
             aws s3 cp "$file" "s3://$R2_BUCKET/$key" --content-type "$type" --no-progress "$@"

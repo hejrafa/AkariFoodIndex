@@ -1,0 +1,76 @@
+{
+  "id": "akari:label:eye-vitamin-capsule",
+  "name": "Eye vitamin capsule",
+  "identity": "Capsule with lutein, zeaxanthin, vitamin A, vitamin C and zinc sold for eyesight; the dose is one capsule.",
+  "rule": "Per 100 g of the product, each value is the median of the labels below that declare it, and a value enters only when at least three declare it; a label states its nutrients per dose, so the file converts them with the dose's weight (the pack's net content divided by its count of tablets, capsules, sticks or drops, or the stated dose weight). Salt becomes sodium (salt in g × 400 = sodium in mg). Fewer than three labels declare energy, so the row stands at 0 kcal under the verification policy's clause for label generics with a micronutrient. Nothing a label leaves out becomes zero. Labels read on 2026-10-30 from dm.de, rossmann.de and shop-apotheke.com product pages.",
+  "nutrients": {
+    "zinc": 937.5,
+    "vitaminA": 134210.5,
+    "vitaminC": 14907.4,
+    "calories": 0
+  },
+  "portions": [
+    {
+      "grams": 0.536667,
+      "label": "1 capsule"
+    }
+  ],
+  "labels": [
+    {
+      "brand": "Doppelherz",
+      "product": "Augen Vital Sehkraft Kapseln 90 St, 60,8 g",
+      "read": "https://www.dm.de/p/d/3083972/ (dm.de product page, Nährwerte and Zutaten panels; GTIN not stated)",
+      "date": "2026-10-30",
+      "ingredients": "Gelatine (Rind), Sojaöl, Kokosöl, Vitamin C, Olivenöl, lutein- und zeaxanthinhaltiges Konzentrat aus Studentenblumen, Feuchthaltemittel Glycerin, Feuchthaltemittel Sorbit, Zinkgluconat, Emulgator Mono- und Diglyceride von Speisefettsäuren, Vitamin E, Emulgator Lecithine (Soja), Vitamin A, Erdnussöl, Farbstoff Eisenoxide und Eisenhydroxide",
+      "serving": "1 Stück: 90 units weigh 60.8 g, so the dose is 0.676 g; the label declares per dose: zincMg 2.5, vitaminAUg 800, vitaminCMg 80; lutein 20 mg, zeaxanthin 1 mg, vitamin E 12 mg; no energy or macros declared",
+      "per100g": {
+        "zincMg": 370.066,
+        "vitaminAUg": 118421.0,
+        "vitaminCMg": 11842.1
+      }
+    },
+    {
+      "brand": "taxofit",
+      "product": "Augen Sehkraft Tag+Nacht Kapseln 30 St, 15,3 g",
+      "read": "https://www.dm.de/p/d/1573241/ (dm.de product page, Nährwerte and Zutaten panels; GTIN not stated)",
+      "date": "2026-10-30",
+      "ingredients": "pflanzliche Öle (Distel, Soja, Kokos, Sonnenblumen), L-Ascorbinsäure (Vitamin C), Gelatine (Rind), Feuchthaltemittel Glycerin, natürliches Lutein, natürliches Vitamin E, pflanzliches Fett (Soja, ganz gehärtet), Zinkoxid, Emulgator Sojalecithine, Riboflavin (Vitamin B2), Retinylpalmitat, natürliches Zeaxanthin, Natriumselenat, Farbstoff Eisenoxide und Eisenhydroxide",
+      "serving": "1 Stück: 30 units weigh 15.3 g, so the dose is 0.51 g; the label declares per dose: seleniumUg 55, zincMg 6, vitaminAUg 800, vitaminCMg 80; lutein 25 mg, zeaxanthin 1250 µg, B2 1.4 mg, vitamin E 12 mg; no energy or macros declared",
+      "per100g": {
+        "seleniumUg": 10784.3,
+        "zincMg": 1176.47,
+        "vitaminAUg": 156863.0,
+        "vitaminCMg": 15686.3
+      }
+    },
+    {
+      "brand": "Doppelherz",
+      "product": "Augen Extra Tag + Nacht Kapseln 30 St., 16,2 g",
+      "read": "https://www.dm.de/p/d/1309985/ (dm.de product page, Nährwerte and Zutaten panels; GTIN not stated)",
+      "date": "2026-10-30",
+      "ingredients": "L-Ascorbinsäure, Olivenöl, Gelatine (Rind), Kokosöl, Heidelbeerfrüchteextrakt, lutein- und zeaxanthinhaltiges Konzentrat aus Studentenblumen, Feuchthaltemittel Glycerin, DL-alpha-Tocopherylacetat, Feuchthaltemittel Sorbit, Emulgator Lecithine (Soja), Emulgator Mono- und Diglyceride von Speisefettsäuren, Zinkoxid, Pyridoxinhydrochlorid, Farbstoff Eisenoxide und Eisenhydroxide, Retinylpalmitat, Kupfersulfat, Pteroylmonoglutaminsäure, Cyanocobalamin",
+      "serving": "1 Stück: 30 units weigh 16.2 g, so the dose is 0.54 g; the label declares per dose: folateUg 400, vitaminAUg 400, vitaminB12Ug 2.5, vitaminCMg 80; lutein 20 mg, zeaxanthin 1 mg, copper 0.3 mg, B6 2 mg, vitamin E 12 mg; the page prints 'Zink 0,3 mg 50 %', which does not fit the 10 mg reference, so zinc is left out; no energy or macros declared",
+      "per100g": {
+        "folateUg": 74074.1,
+        "vitaminAUg": 74074.1,
+        "vitaminB12Ug": 462.963,
+        "vitaminCMg": 14814.8
+      }
+    },
+    {
+      "brand": "Mivolis",
+      "product": "Augen Extra Sehkraft + Schutz, Tag + Nacht, Kapseln, 30 St, 16 g",
+      "read": "https://www.dm.de/p/d/3104257/ (dm.de product page, Nährwerte and Zutaten panels; GTIN not stated)",
+      "date": "2026-10-30",
+      "ingredients": "Lutein- und zeaxanthinhaltiger Extrakt aus Studentenblumen, Überzugsmittel Hydroxypropylmethylcellulose, Füllstoff mikrokristalline Cellulose, L-Ascorbinsäure, Heidelbeerextrakt, Maltodextrin, Zinkgluconat, DL-alpha-Tocopherylacetat (Vitamin E), Retinylacetat (Vitamin A), Pyridoxinhydrochlorid (Vitamin B6), Kupfergluconat, Riboflavin (Vitamin B2), Farbstoff Eisenoxide und -hydroxide, Pteroylmonoglutaminsäure (Folsäure), Cyanocobalamin (Vitamin B12)",
+      "serving": "1 Stück: 30 units weigh 16 g, so the dose is 0.533 g; the label declares per dose: folateUg 400, zincMg 5, vitaminAUg 800, vitaminB12Ug 25, vitaminCMg 80; lutein 25 mg, zeaxanthin 1250 µg, copper < 0.3 mg, B2 < 1.4 mg, B6 2 mg, vitamin E 12 mg; no energy or macros declared",
+      "per100g": {
+        "folateUg": 75000.0,
+        "zincMg": 937.5,
+        "vitaminAUg": 150000.0,
+        "vitaminB12Ug": 4687.5,
+        "vitaminCMg": 15000.0
+      }
+    }
+  ]
+}

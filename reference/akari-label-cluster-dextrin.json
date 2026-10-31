@@ -1,0 +1,76 @@
+{
+  "id": "akari:label:cluster-dextrin",
+  "name": "Cluster dextrin",
+  "identity": "Highly branched cyclic dextrin powder, 97 to 100 g carbohydrate per 100 g, unflavoured.",
+  "rule": "Per 100 g, each value is the median of the three labels below that declare it, and a value enters only when at least three labels declare it (unflavoured). Salt becomes sodium (salt in g × 400 = sodium in mg). Nothing a label leaves out becomes zero. Labels read on 2026-10-30 from Open Food Facts through Akari's proxy, as the beef protein isolate was.",
+  "nutrients": {
+    "calories": 392.0,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "carbs": 98.0,
+    "sugar": 0.0,
+    "protein": 0.0,
+    "sodium": 0.0
+  },
+  "portions": [
+    {
+      "grams": 30,
+      "label": "1 serving"
+    }
+  ],
+  "labels": [
+    {
+      "brand": "NP Nutrition",
+      "product": "Cluster Dextrin",
+      "read": "Open Food Facts 4260511690336 through https://api.joinakari.com/v1/off/product/4260511690336",
+      "date": "2026-10-30",
+      "ingredients": "not stated in the entry",
+      "serving": "50g",
+      "per100g": {
+        "energyKJ": 1672.0,
+        "energyKcal": 400.0,
+        "fat": 0.0,
+        "saturates": 0.0,
+        "carbohydrate": 100.0,
+        "sugars": 0.0,
+        "protein": 0.0,
+        "salt": 0.0
+      }
+    },
+    {
+      "brand": "Prozis",
+      "product": "Cluster Dextrin",
+      "read": "Open Food Facts 5600499551646 through https://api.joinakari.com/v1/off/product/5600499551646",
+      "date": "2026-10-30",
+      "ingredients": "not stated in the entry",
+      "serving": "30 g",
+      "per100g": {
+        "energyKcal": 388.0,
+        "fat": 0.0,
+        "saturates": 0.0,
+        "carbohydrate": 97.0,
+        "sugars": 2.0,
+        "protein": 0.0,
+        "salt": 0.0
+      }
+    },
+    {
+      "brand": "Bulk",
+      "product": "Highly Branched Cyclic Dextrin Unflavoured",
+      "read": "Open Food Facts 5060343349414 through https://api.joinakari.com/v1/off/product/5060343349414",
+      "date": "2026-10-30",
+      "ingredients": "not stated in the entry",
+      "serving": "25 g",
+      "per100g": {
+        "energyKJ": 1640.0,
+        "energyKcal": 392.0,
+        "fat": 0.0,
+        "saturates": 0.0,
+        "carbohydrate": 98.0,
+        "sugars": 0.0,
+        "protein": 0.0,
+        "salt": 0.03
+      }
+    }
+  ]
+}

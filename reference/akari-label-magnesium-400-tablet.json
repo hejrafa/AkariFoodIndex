@@ -1,0 +1,59 @@
+{
+  "id": "akari:label:magnesium-400-tablet",
+  "name": "Magnesium 400 mg tablet",
+  "identity": "One-a-day magnesium tablet with 400 mg magnesium (107 % NRV), the dm, Rossmann and pharmacy standard; the dose is one tablet.",
+  "rule": "Per 100 g of the product, each value is the median of the labels below that declare it, and a value enters only when at least three declare it; a label states its nutrients per dose, so the file converts them with the dose's weight (the pack's net content divided by its count of tablets, capsules, sticks or drops, or the stated dose weight). Salt becomes sodium (salt in g × 400 = sodium in mg). Fewer than three labels declare energy, so the row stands at 0 kcal under the verification policy's clause for label generics with a micronutrient. Nothing a label leaves out becomes zero. Labels read on 2026-10-30 from dm.de, rossmann.de and shop-apotheke.com product pages.",
+  "nutrients": {
+    "magnesium": 31088.1,
+    "calories": 0
+  },
+  "portions": [
+    {
+      "grams": 1.28667,
+      "label": "1 tablet"
+    }
+  ],
+  "labels": [
+    {
+      "brand": "Doppelherz",
+      "product": "Magnesium 400 mg Tabletten, 30 St, 38,9 g",
+      "read": "https://www.dm.de/p/d/1170030/ (dm.de product page, Nährwerte and Zutaten panels; GTIN 4009932004731)",
+      "date": "2026-10-30",
+      "ingredients": "Magnesiumoxid, Füllstoff mikrokristalline Cellulose, Füllstoff vernetzte Carboxymethylcellulose, Trennmittel Siliciumdioxid, Füllstoff Cellulosepulver, Überzugsmittel Hydroxypropylmethylcellulose, Palmfett (ganz gehärtet), Farbstoff Calciumcarbonat, Trennmittel Magnesiumhydroxidcarbonat, Trennmittel Calciumsalze der Speisefettsäuren, Pyridoxinhydrochlorid, Emulgator Mono- und Diglyceride von Speisefettsäuren, Thiaminmononitrat, Trennmittel Talkum, Füllstoff Hydroxypropylcellulose, Überzugsmittel Polyethylenglycol, Pteroylmonoglutaminsäure, Cyanocobalamin",
+      "serving": "1 Tablette: 30 units weigh 38.9 g, so the dose is 1.3 g; the label declares per dose: magnesiumMg 400, folateUg 600, vitaminB12Ug 5; Vitamin B1 4,2 mg, Vitamin B6 5 mg (not tracked by Akari); no energy declared",
+      "per100g": {
+        "magnesiumMg": 30848.3,
+        "folateUg": 46272.5,
+        "vitaminB12Ug": 385.604
+      }
+    },
+    {
+      "brand": "Mivolis",
+      "product": "Magnesium 400, Tabletten 60 St, 48 g",
+      "read": "https://www.dm.de/p/d/3104277/ (dm.de product page, Nährwerte and Zutaten panels; GTIN not stated)",
+      "date": "2026-10-30",
+      "ingredients": "Magnesiumoxid, Füllstoff Cellulose, ganz gehärtetes pflanzliches Fett (Raps), Überzugsmittel Hydroxypropylmethylcellulose, Füllstoff Hydroxypropylcellulose, Farbstoff Calciumcarbonat, Maltodextrin, Füllstoff vernetzte Carboxymethylcellulose, Trennmittel Magnesiumsalze der Speisefettsäuren, Trennmittel Siliziumdioxid",
+      "serving": "1 Tablette: 60 units weigh 48 g, so the dose is 0.8 g; the label declares per dose: magnesiumMg 400; per 100 g the label prints 206 kJ / 50 kcal, fat 2.6 g, saturates 2.6 g, carbohydrate 0.9 g, sugars < 0.5 g (not counted), protein < 0.5 g (counted as 0.25), salt 0.03 g",
+      "per100g": {
+        "magnesiumMg": 50000.0,
+        "energyKcal": 50.0,
+        "fat": 2.6,
+        "saturates": 2.6,
+        "carbohydrate": 0.9,
+        "protein": 0.25,
+        "salt": 0.03
+      }
+    },
+    {
+      "brand": "Abtei",
+      "product": "Magnesium 400 Tabletten 30 St, 38,6 g",
+      "read": "https://www.dm.de/p/d/1674194/ (dm.de product page, Nährwerte and Zutaten panels; GTIN not stated)",
+      "date": "2026-10-30",
+      "ingredients": "Magnesiumoxid; Füllstoff mikrokristalline Cellulose; Überzugmittel Hydroxypropylmethylcellulose, Hydroxypropylcellulose; Trennmittel Magnesiumsalze der Speisefettsäuren, Siliciumdioxid; Farbstoff Calciumcarbonat; Füllstoffe Magnesiumcarbonate, vernetzte Natriumcarboxymethylcellulose; Stabilisatoren Speisefettsäuren, Polyethylenglycol, Glycerin",
+      "serving": "1 Stück: 30 units weigh 38.6 g, so the dose is 1.29 g; the label declares per dose: magnesiumMg 400; no energy declared",
+      "per100g": {
+        "magnesiumMg": 31088.1
+      }
+    }
+  ]
+}

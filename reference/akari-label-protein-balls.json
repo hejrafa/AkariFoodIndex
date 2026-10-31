@@ -1,0 +1,76 @@
+{
+  "id": "akari:label:protein-balls",
+  "name": "Protein balls",
+  "identity": "Date, nut and protein energy balls, 20 to 26 g protein per 100 g.",
+  "rule": "Per 100 g, each value is the median of the three labels below that declare it, and a value enters only when at least three labels declare it (default flavours). Salt becomes sodium (salt in g × 400 = sodium in mg). Nothing a label leaves out becomes zero. Labels read on 2026-10-30 from Open Food Facts through Akari's proxy, as the beef protein isolate was.",
+  "nutrients": {
+    "calories": 400.0,
+    "fat": 12.0,
+    "saturatedFat": 2.86,
+    "carbs": 47.0,
+    "sugar": 30.0,
+    "protein": 23.0,
+    "sodium": 160.0
+  },
+  "portions": [
+    {
+      "grams": 40,
+      "label": "2 balls"
+    }
+  ],
+  "labels": [
+    {
+      "brand": "KoRo",
+      "product": "Protein Ball",
+      "read": "Open Food Facts 4260654785982 through https://api.joinakari.com/v1/off/product/4260654785982",
+      "date": "2026-10-30",
+      "ingredients": "not stated in the entry",
+      "serving": "100.0g",
+      "per100g": {
+        "energyKJ": 1615.0,
+        "energyKcal": 356.0,
+        "fat": 12.0,
+        "saturates": 2.1,
+        "carbohydrate": 47.0,
+        "sugars": 42.0,
+        "protein": 20.0,
+        "salt": 0.4
+      }
+    },
+    {
+      "brand": "Bulk",
+      "product": "Protein balls",
+      "read": "Open Food Facts 5055950617339 through https://api.joinakari.com/v1/off/product/5055950617339",
+      "date": "2026-10-30",
+      "ingredients": "not stated in the entry",
+      "serving": "45 g",
+      "per100g": {
+        "energyKJ": 1864.8,
+        "energyKcal": 447.0,
+        "fat": 23.0,
+        "saturates": 5.4,
+        "carbohydrate": 34.0,
+        "sugars": 30.0,
+        "protein": 23.0,
+        "salt": 0.15
+      }
+    },
+    {
+      "brand": "Kodiak",
+      "product": "Protein balls",
+      "read": "Open Food Facts 0705599015700 through https://api.joinakari.com/v1/off/product/0705599015700",
+      "date": "2026-10-30",
+      "ingredients": "100% whole grain rolled oats, milk protein concentrate, sprinkles (sugar, palm kernel oil, palm oil, corn starch, colored with beet juice, vegetable juice, annatto extract, spirulina extract, turmeric, beta-carotene, paprika oleoresin), sunflower lecithin, carnauba wax, pea protein concentrate with ",
+      "serving": "0.25 cup (35 g)",
+      "per100g": {
+        "energyKcal": 400.0,
+        "fat": 7.14,
+        "saturates": 2.86,
+        "carbohydrate": 57.14,
+        "sugars": 5.71,
+        "protein": 25.71,
+        "salt": 0.46
+      }
+    }
+  ]
+}

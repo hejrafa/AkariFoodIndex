@@ -1,0 +1,76 @@
+{
+  "id": "akari:label:pea-protein",
+  "name": "Pea protein isolate powder",
+  "identity": "Pea protein isolate powder, 78 to 85 g protein per 100 g; Star Nutrition's lists an aroma, the other two are plain.",
+  "rule": "Per 100 g, each value is the median of the three labels below that declare it, and a value enters only when at least three labels declare it (plain, one lightly flavoured). Salt becomes sodium (salt in g × 400 = sodium in mg). Nothing a label leaves out becomes zero. Labels read on 2026-10-30 from Open Food Facts through Akari's proxy, as the beef protein isolate was.",
+  "nutrients": {
+    "calories": 415.0,
+    "fat": 8.0,
+    "saturatedFat": 2.1,
+    "carbs": 2.4,
+    "sugar": 0.0,
+    "protein": 80.0,
+    "sodium": 944.0
+  },
+  "portions": [
+    {
+      "grams": 30,
+      "label": "1 scoop"
+    }
+  ],
+  "labels": [
+    {
+      "brand": "Bulk",
+      "product": "Pea protein isolate",
+      "read": "Open Food Facts 5055950619685 through https://api.joinakari.com/v1/off/product/5055950619685",
+      "date": "2026-10-30",
+      "ingredients": "not stated in the entry",
+      "serving": "23.0g",
+      "per100g": {
+        "energyKJ": 1605.5,
+        "energyKcal": 381.0,
+        "fat": 5.5,
+        "saturates": 1.1,
+        "carbohydrate": 4.0,
+        "sugars": 0.0,
+        "protein": 78.0,
+        "salt": 2.26
+      }
+    },
+    {
+      "brand": "Star Nutrition",
+      "product": "Pea Protein Isolate",
+      "read": "Open Food Facts 7340028807148 through https://api.joinakari.com/v1/off/product/7340028807148",
+      "date": "2026-10-30",
+      "ingredients": "Pea protein isolate, aroma, thickener (cellulose gum), color (beetroot red), acidity regulator (citric acid), emulsifier (sunflower lecithin), sweeteners (sucralose, acesulfame K).",
+      "serving": "100 g",
+      "per100g": {
+        "energyKcal": 415.0,
+        "fat": 9.5,
+        "saturates": 2.3,
+        "carbohydrate": 2.4,
+        "sugars": 0.5,
+        "protein": 80.0,
+        "salt": 2.36
+      }
+    },
+    {
+      "brand": "HSN",
+      "product": "Pea protein isolate 2.0",
+      "read": "Open Food Facts 5060326273781 through https://api.joinakari.com/v1/off/product/5060326273781",
+      "date": "2026-10-30",
+      "ingredients": "not stated in the entry",
+      "serving": "30 g",
+      "per100g": {
+        "energyKJ": 1766.5,
+        "energyKcal": 423.0,
+        "fat": 8.0,
+        "saturates": 2.1,
+        "carbohydrate": 1.5,
+        "sugars": 0.0,
+        "protein": 85.0,
+        "salt": 2.46
+      }
+    }
+  ]
+}

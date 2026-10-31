@@ -1,0 +1,62 @@
+{
+  "id": "akari:label:vitamin-d3-drops",
+  "name": "Vitamin D3 drops",
+  "identity": "Vitamin D3 in MCT or olive oil taken as drops, 500 to 1,000 IU per drop; the dose is one drop.",
+  "rule": "Per 100 g of the product, each value is the median of the labels below that declare it, and a value enters only when at least three declare it; a label states its nutrients per dose, so the file converts them with the dose's weight (the pack's net content divided by its count of tablets, capsules, sticks or drops, or the stated dose weight). Salt becomes sodium (salt in g × 400 = sodium in mg). Fewer than three labels declare energy, so the row stands at 0 kcal under the verification policy's clause for label generics with a micronutrient. Liquid labels give volumes; each label's serving note names the density that turns them into grams. Nothing a label leaves out becomes zero. Labels read on 2026-10-30 from dm.de, rossmann.de and shop-apotheke.com product pages.",
+  "nutrients": {
+    "vitaminD": 90789.5,
+    "calories": 0
+  },
+  "portions": [
+    {
+      "grams": 0.027542,
+      "label": "1 drop"
+    }
+  ],
+  "labels": [
+    {
+      "brand": "Nature Love",
+      "product": "Vitamin D3 Tropfen, 30 ml, ca. 1.020 Tropfen",
+      "read": "https://www.rossmann.de/de/gesundheit-nature-love-vitamin-d3-tropfen/p/4260488132570 (rossmann.de product page, Zutaten and Nährwerte sections; GTIN 4260488132570)",
+      "date": "2026-10-30",
+      "ingredients": "Mittelkettige Triglyceride aus Kokosöl, Cholecalciferol",
+      "serving": "1 Tropfen: 1020 units weigh 28.5 g (30 ml), so the dose is 0.0279 g; the label declares per dose: vitaminDUg 25; no energy or macros declared; the dose is one drop; the pack's drop count gives the drop's volume, and the oil's mass follows at 0.95 g per ml, the density of MCT (coconut) oil the drops are made of",
+      "per100g": {
+        "vitaminDUg": 89473.7
+      }
+    },
+    {
+      "brand": "Vigantolvit (P&G)",
+      "product": "Vitamin D3 Öl, 500 I.E. pro Tropfen, 10 ml, 306 Tropfen",
+      "read": "https://www.shop-apotheke.com/arzneimittel/18192939/vigantolvit-vitamin-d3-oel.htm (shop-apotheke.com product page, Pflichtangaben and Weitere Produktinformationen; GTIN not stated)",
+      "date": "2026-10-30",
+      "ingredients": "Olivenöl; Cholecalciferol (Vitamin D3); Antioxidationsmittel Alpha-Tocopherol",
+      "serving": "1 Tropfen: 306 units weigh 9.1 g (10 ml), so the dose is 0.0297 g; the label declares per dose: vitaminDUg 12.5; the page states 500 I.E. per drop, 25 µg per 2 drops and 306 drops per 10 ml bottle; adults take 4 drops; no energy or macros declared; the dose is one drop; the pack's drop count gives the drop's volume, and the oil's mass follows at 0.95 g per ml for MCT (coconut) oil or 0.91 g per ml for olive oil; PZN 18192939",
+      "per100g": {
+        "vitaminDUg": 42033.0
+      }
+    },
+    {
+      "brand": "ZeinPharma",
+      "product": "Vitamin D3 Tropfen 1.000 I.E., 50 ml, ca. 2.100 Tropfen",
+      "read": "https://www.shop-apotheke.com/arzneimittel/13971969/zeinpharma-vitamin-d3-tropfen-1-000-i-e.htm (shop-apotheke.com product page, Pflichtangaben and Weitere Produktinformationen; GTIN not stated)",
+      "date": "2026-10-30",
+      "ingredients": "MCT-Öl (Kokosölbasis), Cholecalciferol (Vitamin D3), Antioxidationsmittel stark tocopherolhaltige Extrakte",
+      "serving": "1 Tropfen: 2100 units weigh 47.5 g (50 ml), so the dose is 0.0226 g; the label declares per dose: vitaminDUg 25; 1000 I.E. = 25 µg per drop; no energy or macros declared; the dose is one drop; the pack's drop count gives the drop's volume, and the oil's mass follows at 0.95 g per ml for MCT (coconut) oil or 0.91 g per ml for olive oil; PZN 13971969",
+      "per100g": {
+        "vitaminDUg": 110526.0
+      }
+    },
+    {
+      "brand": "Vitamaze",
+      "product": "Vitamin D3 Tropfen 1.000 I.E., 50 ml = ca. 1.750 Tropfen",
+      "read": "https://www.shop-apotheke.com/arzneimittel/14439633/vitamin-d3-tropfen-1-000-i-e.htm (shop-apotheke.com product page, Pflichtangaben and Weitere Produktinformationen; GTIN not stated)",
+      "date": "2026-10-30",
+      "ingredients": "Cholecalciferol (Vitamin D3), MCT Öl",
+      "serving": "1 Tropfen (0,029 ml): 1750 units weigh 47.5 g (50 ml), so the dose is 0.0271 g; the label declares per dose: vitaminDUg 25; 25 µg per drop of 0.029 ml; no energy or macros declared; the dose is one drop; the pack's drop count gives the drop's volume, and the oil's mass follows at 0.95 g per ml for MCT (coconut) oil or 0.91 g per ml for olive oil; PZN 14439633",
+      "per100g": {
+        "vitaminDUg": 92105.3
+      }
+    }
+  ]
+}

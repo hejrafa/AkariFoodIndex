@@ -1,0 +1,77 @@
+{
+  "id": "akari:label:peanut-butter-powder",
+  "name": "Peanut butter powder",
+  "identity": "Defatted peanut flour sold as powdered peanut butter, about 50 g protein and 12 to 14 g fat per 100 g; one plain, two with a little sugar and salt.",
+  "rule": "Per 100 g, each value is the median of the three labels below that declare it, and a value enters only when at least three labels declare it (plain or lightly sweetened). Salt becomes sodium (salt in g × 400 = sodium in mg). Nothing a label leaves out becomes zero. Labels read on 2026-10-30 from Open Food Facts through Akari's proxy, as the beef protein isolate was.",
+  "nutrients": {
+    "calories": 433.33,
+    "fat": 12.5,
+    "saturatedFat": 2.0,
+    "carbs": 31.25,
+    "sugar": 12.5,
+    "protein": 49.7,
+    "sodium": 732.0
+  },
+  "portions": [
+    {
+      "grams": 16,
+      "label": "2 tablespoons"
+    }
+  ],
+  "labels": [
+    {
+      "brand": "Prozis",
+      "product": "Peanut butter Powder",
+      "read": "Open Food Facts 5600961150988 through https://api.joinakari.com/v1/off/product/5600961150988",
+      "date": "2026-10-30",
+      "ingredients": "ARACHIDES Grillées (100%).",
+      "serving": "14 g",
+      "per100g": {
+        "energyKJ": 1732.0,
+        "energyKcal": 414.0,
+        "fat": 14.0,
+        "saturates": 2.0,
+        "carbohydrate": 18.0,
+        "sugars": 8.8,
+        "protein": 47.0,
+        "salt": 0.03
+      }
+    },
+    {
+      "brand": "PBfit",
+      "product": "Peanut butter powder",
+      "read": "Open Food Facts 0856260006500 through https://api.joinakari.com/v1/off/product/0856260006500",
+      "date": "2026-10-30",
+      "ingredients": "Peanuts (83.5%), coconut palm sugar, salt",
+      "serving": "1 serving (16 g)",
+      "per100g": {
+        "energyKJ": 1993.75,
+        "energyKcal": 443.75,
+        "fat": 12.5,
+        "saturates": 0.0,
+        "carbohydrate": 31.25,
+        "sugars": 12.5,
+        "protein": 50.0,
+        "salt": 2.45
+      }
+    },
+    {
+      "brand": "Peanut Hottie",
+      "product": "Peanut Butter Powder",
+      "read": "Open Food Facts 5060308361192 through https://api.joinakari.com/v1/off/product/5060308361192",
+      "date": "2026-10-30",
+      "ingredients": "Peanut Flour (91%), Sugar, Salt.",
+      "serving": "9 g",
+      "per100g": {
+        "energyKJ": 1896.9,
+        "energyKcal": 433.33,
+        "fat": 11.7,
+        "saturates": 3.2,
+        "carbohydrate": 31.9,
+        "sugars": 15.0,
+        "protein": 49.7,
+        "salt": 1.83
+      }
+    }
+  ]
+}

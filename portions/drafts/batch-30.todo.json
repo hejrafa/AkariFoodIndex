@@ -1,0 +1,527 @@
+{
+ "batch": 30,
+ "identities": [
+  {
+   "key": "soy milk chocolate",
+   "names": [
+    "soy milk chocolate",
+    "sojadrink schoko",
+    "chocolate soy milk",
+    "chocolate soy drink",
+    "schoko sojadrink",
+    "sojadrink schokolade",
+    "soja schokodrink"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "usda:2705406",
+     "name": "Soy milk, chocolate"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2705406",
+     "label": "1 cup",
+     "grams": 244
+    },
+    {
+     "reference": "usda:2705406",
+     "label": "1 fl oz",
+     "grams": 30.5
+    }
+   ]
+  },
+  {
+   "key": "soy milk sweetened",
+   "names": [
+    "soy milk sweetened",
+    "sojadrink gesußt",
+    "sweetened soy milk",
+    "sweetened soy drink",
+    "sojadrink mit zucker",
+    "gesußter sojadrink",
+    "sojadrink original"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "usda:2705404",
+     "name": "Soy milk, sweetened"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2705404",
+     "label": "1 cup",
+     "grams": 244
+    },
+    {
+     "reference": "usda:2705404",
+     "label": "1 fl oz",
+     "grams": 30.5
+    }
+   ]
+  },
+  {
+   "key": "soy drink sweetened flavoured",
+   "names": [
+    "soy drink sweetened flavoured",
+    "sojadrink gesußt aromatisiert",
+    "vanilla soy drink",
+    "vanilla soy milk",
+    "sojadrink vanille",
+    "vanille sojadrink",
+    "sojadrink banane"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:H842400",
+     "name": "Soya drink sweetened, flavoured"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "oat drink sweetened flavoured",
+   "names": [
+    "oat drink sweetened flavoured",
+    "haferdrink gesußt aromatisiert",
+    "vanilla oat drink",
+    "chocolate oat drink",
+    "haferdrink vanille",
+    "haferdrink schoko",
+    "hafer schokodrink"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:C660300",
+     "name": "Oat drink sweetened, flavoured"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "oat drink unsweetened fortified",
+   "names": [
+    "oat drink unsweetened fortified",
+    "haferdrink ungesußt angereichert",
+    "oat drink with calcium",
+    "fortified oat milk",
+    "haferdrink mit calcium",
+    "haferdrink angereichert",
+    "haferdrink calcium"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:C660200",
+     "name": "Oat drink unsweetened, fortified with vitamins, calcium and iodine"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "soy drink unsweetened fortified",
+   "names": [
+    "soy drink unsweetened fortified",
+    "sojadrink ungesußt angereichert",
+    "soy drink with calcium",
+    "fortified soy milk",
+    "sojadrink mit calcium",
+    "sojadrink angereichert",
+    "sojadrink calcium"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:H841400",
+     "name": "Soya drink unsweetened, fortified with vitamins and calcium"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "almond drink unsweetened fortified",
+   "names": [
+    "almond drink unsweetened fortified",
+    "mandeldrink ungesußt angereichert",
+    "almond drink with calcium",
+    "fortified almond milk",
+    "mandeldrink mit calcium",
+    "mandeldrink angereichert"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:H800100",
+     "name": "Almond drink unsweetened, fortified with vitamins and calcium"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "almond drink sweetened flavoured",
+   "names": [
+    "almond drink sweetened flavoured",
+    "mandeldrink gesußt aromatisiert",
+    "vanilla almond drink",
+    "vanilla almond milk",
+    "mandeldrink vanille",
+    "vanille mandeldrink"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:H800200",
+     "name": "Almond drink sweetened, flavoured"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "almond milk chocolate",
+   "names": [
+    "almond milk chocolate",
+    "mandeldrink schoko",
+    "chocolate almond milk",
+    "chocolate almond drink",
+    "schoko mandeldrink",
+    "mandeldrink schokolade"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "usda:2705408",
+     "name": "Almond milk, chocolate"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2705408",
+     "label": "1 cup",
+     "grams": 244
+    },
+    {
+     "reference": "usda:2705408",
+     "label": "1 fl oz",
+     "grams": 30.5
+    }
+   ]
+  },
+  {
+   "key": "vegan cream cheese alternative",
+   "names": [
+    "vegan cream cheese alternative",
+    "vegane frischcreme",
+    "vegan cream cheese",
+    "plant based cream cheese",
+    "almond cream cheese",
+    "veganer frischkase",
+    "frischkase alternative",
+    "vegane frischkasealternative",
+    "mandel frischcreme"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:H882100",
+     "name": "Plant-based soft cream cheese alternative, almond-based, vegan"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "vegan cheese alternative cashew based",
+   "names": [
+    "vegan cheese alternative cashew based",
+    "vegane kasealternative auf cashewbasis",
+    "cashew cheese",
+    "vegan cashew cheese",
+    "cashewkase",
+    "cashew kasealternative",
+    "veganer cashewkase"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:H882000",
+     "name": "Plant-based cheese alternative, cashew-based, vegan"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "vegan mozzarella alternative",
+   "names": [
+    "vegan mozzarella alternative",
+    "vegane mozzarella alternative",
+    "vegan mozzarella",
+    "plant based mozzarella",
+    "veganer mozzarella",
+    "mozzarella alternative",
+    "pizzaschmelz"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:X5A8040",
+     "name": "Cheese alternative Mozzarella style, vegan"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "vegan sausage spread",
+   "names": [
+    "vegan sausage spread",
+    "vegane streichwurst",
+    "vegan spreadable sausage",
+    "plant based sausage spread",
+    "vegane teewurst",
+    "vegetarische streichwurst",
+    "vegane soja streichwurst",
+    "streichwurst vegan"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:H930100",
+     "name": "Soya spreadable sausage alternative, vegan"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "vegan lard substitute",
+   "names": [
+    "vegan lard substitute",
+    "veganes schmalz",
+    "vegan lard",
+    "plant based lard",
+    "vegetarisches schmalz",
+    "griebenschmalz vegan",
+    "pflanzenschmalz",
+    "veganes griebenschmalz"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:Q902000",
+     "name": "Plant-based lard substitute, vegetable fat based, vegan"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "lupin flour",
+   "names": [
+    "lupin flour",
+    "lupinenmehl",
+    "lupine flour",
+    "sweet lupin flour",
+    "sußlupinenmehl",
+    "lupinen",
+    "lupinenprotein"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:H731400",
+     "name": "Lupin flour"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "plant based pudding fortified",
+   "names": [
+    "plant based pudding fortified",
+    "pflanzlicher pudding angereichert",
+    "soy pudding",
+    "soya dessert",
+    "vegan pudding",
+    "plant based dessert",
+    "sojapudding",
+    "soja dessert",
+    "veganer pudding",
+    "pflanzlicher pudding",
+    "sojadessert"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:H843300",
+     "name": "Plant-based dessert/pudding alternative, fortified with vitamins and calcium"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "vegetable spread plant based",
+   "names": [
+    "vegetable spread plant based",
+    "gemuseaufstrich pflanzlich",
+    "vegetable spread",
+    "vegan sandwich spread",
+    "plant based spread",
+    "gemuseaufstrich",
+    "veganer brotaufstrich",
+    "vegetarischer brotaufstrich",
+    "gemusecreme"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:G940100",
+     "name": "Vegetable spread"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "vegan bacon strips",
+   "names": [
+    "vegan bacon strips",
+    "veganer bacon",
+    "vegan bacon",
+    "meatless bacon",
+    "plant based bacon",
+    "vegetarian bacon",
+    "vegetarischer bacon",
+    "bacon alternative",
+    "veganer speck",
+    "veggie bacon"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "usda:2707465",
+     "name": "Bacon strip, meatless"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2707465",
+     "label": "1 strip",
+     "grams": 5
+    },
+    {
+     "reference": "usda:2707465",
+     "label": "1 oz, raw (yield after cooking)",
+     "grams": 16
+    }
+   ]
+  },
+  {
+   "key": "vegetable patties vegan",
+   "names": [
+    "vegetable patties vegan",
+    "gemusebratlinge vegan",
+    "vegetable patties",
+    "veggie patties",
+    "vegetable patty",
+    "gemusebratlinge",
+    "gemusebratling",
+    "gemusefrikadellen",
+    "vegane bratlinge"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:X5A1000",
+     "name": "Vegetable patties vegan, fried"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "lentil patties vegan",
+   "names": [
+    "lentil patties vegan",
+    "linsenbratlinge vegan",
+    "lentil patties",
+    "lentil patty",
+    "lentil burgers",
+    "linsenbratlinge",
+    "linsenbratling",
+    "linsenfrikadellen",
+    "linsenburger"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:X5A1050",
+     "name": "Lentil patties vegan, fried"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "soy yogurt sweetened flavoured",
+   "names": [
+    "soy yogurt sweetened flavoured",
+    "sojajoghurt gesußt aromatisiert",
+    "fruit soy yogurt",
+    "vanilla soy yogurt",
+    "flavoured soy yogurt",
+    "sojajoghurt vanille",
+    "sojajoghurt frucht",
+    "sojajoghurt erdbeere",
+    "soja fruchtjoghurt"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:H844400",
+     "name": "Plant-based yogurt alternative, made from soya, sweetened, flavoured"
+    }
+   ],
+   "measures": []
+  }
+ ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "akari:label:glucosamine-tablet",
+  "name": "Glucosamine joint tablet or capsule",
+  "identity": "Glucosamine and chondroitin tablets or capsules for joints with vitamin C and often vitamin D; the dose is the label's daily tablets or capsules.",
+  "rule": "Per 100 g of the product, each value is the median of the labels below that declare it, and a value enters only when at least three declare it; a label states its nutrients per dose, so the file converts them with the dose's weight (the pack's net content divided by its count of tablets, capsules, sticks or drops, or the stated dose weight). Salt becomes sodium (salt in g × 400 = sodium in mg). Fewer than three labels declare energy, so the row stands at 0 kcal under the verification policy's clause for label generics with a micronutrient. Nothing a label leaves out becomes zero. Labels read on 2026-10-30 from dm.de, rossmann.de and shop-apotheke.com product pages.",
+  "nutrients": {
+    "vitaminC": 3174.6,
+    "vitaminD": 793.651,
+    "calories": 0
+  },
+  "portions": [
+    {
+      "grams": 1.58,
+      "label": "1 daily dose of tablets or capsules"
+    }
+  ],
+  "labels": [
+    {
+      "brand": "Doppelherz",
+      "product": "Glucosamin 1200 Tabletten 40 St, 63,2 g",
+      "read": "https://www.dm.de/p/d/3128391/ (dm.de product page, Nährwerte and Zutaten panels; GTIN not stated)",
+      "date": "2026-10-30",
+      "ingredients": "Glucosaminhydrochlorid (aus Garnelen), Vitamin C, Füllstoff Polyvinylpyrrolidon, Füllstoff Cellulosepulver, Überzugsmittel Hydroxypropylmethylcellulose, Trennmittel Siliciumdioxid, Trennmittel Magnesiumsalze der Speisefettsäuren, Füllstoff vernetzte Carboxymethylcellulose, Trennmittel Magnesiumhydroxidcarbonat, Farbstoff Calciumcarbonat, Trennmittel Talkum, Füllstoff Hydroxypropylcellulose, Überzugsmittel Polyethylenglycol, Füllstoff mikrokristalline Cellulose, Vitamin E, Vitamin K, Vitamin D",
+      "serving": "1 Tablette: 40 units weigh 63.2 g, so the dose is 1.58 g; the label declares per dose: vitaminCMg 80, vitaminDUg 20; glucosamine hydrochloride 1200 mg, vitamin E 3 mg, vitamin K 40 µg; no energy or macros declared",
+      "per100g": {
+        "vitaminCMg": 5063.29,
+        "vitaminDUg": 1265.82
+      }
+    },
+    {
+      "brand": "Doppelherz",
+      "product": "Glucosamin 1650 Kapseln 100 St, 113 g",
+      "read": "https://www.dm.de/p/d/3152228/ (dm.de product page, Nährwerte and Zutaten panels; GTIN not stated)",
+      "date": "2026-10-30",
+      "ingredients": "Glucosaminsulfat-Kaliumchlorid aus Bestandteilen von Garnelen, Gelatine (Rind), Kollagenhydrolysat, Vitamin C, Chondroitinsulfat (Rind), Methylsulfonylmethan, Trennmittel Magnesiumsalze der Speisefettsäuren, Farbstoff Eisenoxide und Eisenhydroxide, Vitamin K",
+      "serving": "2 Stück: 100 units weigh 113 g, so the dose is 2.26 g; the label declares per dose: vitaminCMg 60, vitaminDUg 10; chondroitin sulfate 60 mg, collagen hydrolysate 125 mg, glucosamine 962 mg, vitamin K 40 µg per 2 capsules; no energy or macros declared",
+      "per100g": {
+        "vitaminCMg": 2654.87,
+        "vitaminDUg": 442.478
+      }
+    },
+    {
+      "brand": "tetesept",
+      "product": "Glucosamin 1650 Tabletten, 40 Tabletten, 50,4 g",
+      "read": "https://www.rossmann.de/de/gesundheit-tetesept-glucosamin-1650-tabletten/p/4008491117203 (rossmann.de product page, Zutaten and Nährwerte sections; GTIN 4008491117203)",
+      "date": "2026-10-30",
+      "ingredients": "Glucosaminsulfat-Kaliumchlorid (Krebstiere, Weichtiere) (65,4 %); Füllstoff mikrokristalline Cellulose; Stabilisator Polyvinylpyrrolidon; L-Ascorbinsäure (Vitamin C); Natrium-Chondroitinsulfat (Rind) (2,2 %); Überzugsmittel Hydroxypropylmethylcellulose; Trennmittel Magnesiumsalze der Speisefettsäuren, Überzugsmittel Hydroxypropylcellulose; Trennmittel Talkum; Farbstoffe Eisenoxid rot, Calciumcarbonat; Natriumhyaluronat (0,2 %); Öl, pflanzlich (Raps, Kokosnuss); modifizierte Stärke",
+      "serving": "1 Portion: 40 units weigh 50.4 g, so the dose is 1.26 g; the label declares per dose: zincMg 1.5, vitaminDUg 10, vitaminCMg 40; copper 0.15 mg; no energy or macros declared; the page's table states no dose count; taken as one tablet, the one-a-day form the pack size implies",
+      "per100g": {
+        "zincMg": 119.048,
+        "vitaminDUg": 793.651,
+        "vitaminCMg": 3174.6
+      }
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "akari:label:vegan-protein",
+  "name": "Vegan protein blend powder",
+  "identity": "Plant protein blend powder (pea, soy, rice, sunflower blends), 71 to 81 g protein per 100 g; two plain labels and the makers' default flavour of the third.",
+  "rule": "Per 100 g, each value is the median of the three labels below that declare it, and a value enters only when at least three labels declare it (mostly plain). Salt becomes sodium (salt in g × 400 = sodium in mg). Nothing a label leaves out becomes zero. Labels read on 2026-10-30 from Open Food Facts through Akari's proxy, as the beef protein isolate was.",
+  "nutrients": {
+    "calories": 356.0,
+    "fat": 2.3,
+    "saturatedFat": 0.5,
+    "carbs": 6.0,
+    "sugar": 0.7,
+    "protein": 80.0,
+    "sodium": 720.0
+  },
+  "portions": [
+    {
+      "grams": 30,
+      "label": "1 scoop"
+    }
+  ],
+  "labels": [
+    {
+      "brand": "MYPROTEIN",
+      "product": "Vegan Protein Blend",
+      "read": "Open Food Facts 5059883107134 through https://api.joinakari.com/v1/off/product/5059883107134",
+      "date": "2026-10-30",
+      "ingredients": "not stated in the entry",
+      "serving": "30.0g",
+      "per100g": {
+        "energyKJ": 1500.9,
+        "energyKcal": 354.0,
+        "fat": 1.2,
+        "saturates": 0.2,
+        "carbohydrate": 9.5,
+        "sugars": 1.2,
+        "protein": 71.0,
+        "salt": 1.8
+      }
+    },
+    {
+      "brand": "The Protein Works",
+      "product": "Vegan protein",
+      "read": "Open Food Facts 5060802523010 through https://api.joinakari.com/v1/off/product/5060802523010",
+      "date": "2026-10-30",
+      "ingredients": "not stated in the entry",
+      "serving": "1 portion (35 g)",
+      "per100g": {
+        "energyKJ": 1576.9,
+        "energyKcal": 356.0,
+        "fat": 2.3,
+        "saturates": 0.5,
+        "carbohydrate": 6.0,
+        "sugars": 0.0,
+        "protein": 81.0,
+        "salt": 0.01
+      }
+    },
+    {
+      "brand": "WellMix",
+      "product": "Veganes Protein",
+      "read": "Open Food Facts 4305615606736 through https://api.joinakari.com/v1/off/product/4305615606736",
+      "date": "2026-10-30",
+      "ingredients": "Sojaeiweißisolat, 5,5% Erbseneiweiß, 2,4% Hanfprotein, NEIselweiß, Aroma, Magnesiumhydroxid, Verdickungsmittel Guarkei - , Kurkumapulver, Emulgator Sojalecithine, L-Ascorbinsauie L-Ascorbinsäure, Nicotinamid, DL-alphaȚocopherylacetat, Süßungsmittel Sucralose, Trennmittel Siliciumdioxid, Calcium-D-Pa",
+      "serving": "20g",
+      "per100g": {
+        "energyKJ": 1540.1,
+        "energyKcal": 362.0,
+        "fat": 2.8,
+        "saturates": 1.1,
+        "carbohydrate": 4.5,
+        "sugars": 0.7,
+        "protein": 80.0,
+        "salt": 3.1
+      }
+    }
+  ]
+}

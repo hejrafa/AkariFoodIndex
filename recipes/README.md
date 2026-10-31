@@ -163,3 +163,16 @@ its own match. Search lists a dish in the Generic group when the
 query is one of its names or the start of one; a lone ingredient word
 ("egg", "Käse") lists only a dish of exactly that name. Choosing a dish
 stages it with its ingredients, shown under the lexicon's reviewed names.
+
+## Dishes outside their collection (31 October 2026)
+
+A collection lists what Akari vouches for, so a tagged dish leaves its
+collection while one of its rows is below the nutrient floor (20 of 23
+tracked nutrients, FoodIndex/verified-foods.json), and returns when the row
+reaches it. Nine takeaway dishes are untagged for that reason and keep their
+recipes: Ramen, Miso ramen, Tonkotsu ramen, Tantanmen ramen, Beef ramen and
+Chicken ramen (MEXT cooked ramen noodles mext:01048, 18 of 22), Tonkatsu and
+Chicken katsu sandwich (MEXT tonkatsu sauce mext:17003, 16 of 22), Lamb biryani
+(CoFID garam masala cofid:13-829, 16 of 22). No national table carries a fuller
+row of these three foods; when one does, or a label generic is written for
+them, tag the dishes again.

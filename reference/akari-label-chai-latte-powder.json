@@ -1,0 +1,77 @@
+{
+  "id": "akari:label:chai-latte-powder",
+  "name": "Chai latte powder",
+  "identity": "Instant chai latte drink powder (sugar, whey or milk powder, tea extract and spices) as the supermarket and coffee-pod makers sell it, 75 to 78 g carbohydrate per 100 g; sold only as the spiced sweet mix, so its default flavour stands for it.",
+  "rule": "Per 100 g, each value is the median of the three labels below that declare it, and a value enters only when at least three labels declare it (the spiced sweet mix itself). Salt becomes sodium (salt in g × 400 = sodium in mg). Nothing a label leaves out becomes zero. Labels read on 2026-10-30 from Open Food Facts through Akari's proxy, as the beef protein isolate was.",
+  "nutrients": {
+    "calories": 424.0,
+    "fat": 10.0,
+    "saturatedFat": 9.2,
+    "carbs": 77.0,
+    "sugar": 69.0,
+    "protein": 7.8,
+    "sodium": 400.0
+  },
+  "portions": [
+    {
+      "grams": 20,
+      "label": "1 serving, 2 heaped teaspoons"
+    }
+  ],
+  "labels": [
+    {
+      "brand": "Laudatio",
+      "product": "Chai Latte",
+      "read": "Open Food Facts 4305615684895 through https://api.joinakari.com/v1/off/product/4305615684895",
+      "date": "2026-10-30",
+      "ingredients": "O Zubereitung für ein Teegetränk, aromatisiert mit Vanille - und Zimtgeschmack, Typ Chai Latte. Chai Latte ist ein traditioneles indisches Teegetränk, bestehend aus Schwarztee-Extrakt und mit einem leckeren Vanille - und Zimt - geschmack aromatisiert. Ein orientalischer Genuss für die kleine Auszeit",
+      "serving": "1pcs",
+      "per100g": {
+        "energyKJ": 1772.5,
+        "energyKcal": 424.0,
+        "fat": 10.0,
+        "saturates": 9.4,
+        "carbohydrate": 78.0,
+        "sugars": 69.0,
+        "protein": 4.5,
+        "salt": 1.0
+      }
+    },
+    {
+      "brand": "Coop",
+      "product": "Chai Latte",
+      "read": "Open Food Facts 7613331322197 through https://api.joinakari.com/v1/off/product/7613331322197",
+      "date": "2026-10-30",
+      "ingredients": "Molkenpulver (Deutschland, Polen, Grossbritannien)\nZucker, Kokosfett, Magermilchpulver 5% (Deutschland), \nGrünteextrakt 0,8%, Stabilisator (E 339), Aroma",
+      "serving": "8 g",
+      "per100g": {
+        "energyKJ": 1780.0,
+        "energyKcal": 423.0,
+        "fat": 9.2,
+        "saturates": 7.9,
+        "carbohydrate": 77.0,
+        "sugars": 70.0,
+        "protein": 8.1,
+        "salt": 1.0
+      }
+    },
+    {
+      "brand": "Kaffekapslen",
+      "product": "Chai Latte",
+      "read": "Open Food Facts 8003012012919 through https://api.joinakari.com/v1/off/product/8003012012919",
+      "date": "2026-10-30",
+      "ingredients": "not stated in the entry",
+      "serving": "220.0g",
+      "per100g": {
+        "energyKJ": 1791.8,
+        "energyKcal": 425.0,
+        "fat": 10.2,
+        "saturates": 9.2,
+        "carbohydrate": 75.4,
+        "sugars": 60.8,
+        "protein": 7.8,
+        "salt": 1.24
+      }
+    }
+  ]
+}

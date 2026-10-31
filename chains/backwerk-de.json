@@ -1,0 +1,1366 @@
+{
+ "chain": "BackWerk",
+ "kind": "bakery",
+ "sourceURL": "https://www.back-werk.de/de/sortiment",
+ "sourceNote": "BackWerk's range (https://www.back-werk.de/de/sortiment, filters Belegte Brötchen, Backwaren, Heiße Snacks, Süßes Gebäck and Getränke; the page loads further products as it scrolls) links each product to a page whose \"Nährwertangaben\" tab states its values per 100 g, or per 100 ml for the hot drinks: energy in kcal and kJ, carbohydrate, sugar, fat, saturated fat, protein and salt, with the allergens; no page states a piece weight, so every item is per 100 g (or 100 ml) and opens at that amount. The values are the page's own data (nutritionPer, energyKcal …), rendered on the server; each row records its page and the SHA-256 of the page as retrieved. A kJ figure that disagrees with a kcal figure that fits the macronutrients is left out; a row whose figures contradict themselves is left out.",
+ "retrievedOn": "2026-10-30",
+ "checkedDate": "2026-10-30",
+ "rows": [
+  {
+   "id": "pane-caprese-1466",
+   "name": "Pane Caprese",
+   "category": "sandwich",
+   "siteCategories": [
+    "Belegte Brötchen"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 832,
+    "calories": 198.3,
+    "fat": 7.7,
+    "saturatedFat": 3.3,
+    "carbs": 23.2,
+    "sugar": 1.7,
+    "protein": 5.9,
+    "saltGrams": 1.01
+   },
+   "description": "Pane (helles Weizen- oder dunkles Körnerbrötchen) mit Saaten, Tomate, Mozzarella, Basilikum, Pesto-Spread, Rucola.",
+   "allergens": "Enthält: Weizen, Roggen, Ei, Senf, Gerste, Milch",
+   "pageURL": "https://back-werk.de/de/sortiment/pane-caprese-id1466",
+   "dataURL": "https://back-werk.de/de/sortiment/pane-caprese-id1466",
+   "sha256": "c3fd99a869df9413e675e8309322e62a38eafd03911526487c0b3f085d1b5240"
+  },
+  {
+   "id": "pane-vitale-1468",
+   "name": "Pane Vitale",
+   "category": "sandwich",
+   "siteCategories": [
+    "Belegte Brötchen"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 847.2,
+    "calories": 202.1,
+    "fat": 8.8,
+    "saturatedFat": 2.8,
+    "carbs": 20.1,
+    "sugar": 1.2,
+    "protein": 7.9,
+    "saltGrams": 1.07
+   },
+   "description": "Pane (helles Weizen- oder dunkles Mehrkornbrötchen), herzhaft belegt mit Gouda, Putenschinken und Ei, verfeinert mit fruchtigen Tomaten, frischer Gurke und Romana Salat.",
+   "allergens": "Enthält: Weizen, Roggen, Milch, Sesam, Hafer, Ei, Senf, Gerste",
+   "pageURL": "https://back-werk.de/de/sortiment/pane-vitale-id1468",
+   "dataURL": "https://back-werk.de/de/sortiment/pane-vitale-id1468",
+   "sha256": "637d6d210dc3faf5fa129753023052f2c812aaa585b42bf4d8a55b8c15f38a67"
+  },
+  {
+   "id": "pane-ei-673",
+   "name": "Pane Ei",
+   "category": "sandwich",
+   "siteCategories": [
+    "Belegte Brötchen"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 831.1,
+    "calories": 198.3,
+    "fat": 8.6,
+    "saturatedFat": 1.6,
+    "carbs": 21.2,
+    "sugar": 0.9,
+    "protein": 6.1,
+    "saltGrams": 0.92
+   },
+   "description": "Pane (helles Weizen oder dunkles Mehrkorn) mit Ei, Schnittlauch, Romanasalat, Remoulade",
+   "allergens": "Enthält: Weizen, Roggen, Sesam, Hafer, Ei, Senf, Gerste",
+   "pageURL": "https://back-werk.de/de/sortiment/pane-ei-id673",
+   "dataURL": "https://back-werk.de/de/sortiment/pane-ei-id673",
+   "sha256": "e9ef4be8cb59b8c73a92d112882cf150ba355b2e8761c6e41839a4a5613bb194"
+  },
+  {
+   "id": "pane-avocado-hummus-1591",
+   "name": "Pane Avocado-Hummus",
+   "category": "sandwich",
+   "siteCategories": [
+    "Belegte Brötchen"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 955.7,
+    "calories": 227.9,
+    "fat": 8.6,
+    "saturatedFat": 1.5,
+    "carbs": 30.3,
+    "sugar": 2.8,
+    "protein": 3.1,
+    "saltGrams": 1.2
+   },
+   "description": "Dunkles, kerniges Weizen-Baguettebrötchen mit Hummus bestrichen und dann mit cremiger Avocado und gegrillter Paprika belegt. Herzhafte Tomaten-Salsa sorgt für einen geschmacklichen Twist.",
+   "allergens": "Enthält: Weizen, Roggen, Sesam, Hafer, Gerste",
+   "pageURL": "https://back-werk.de/de/sortiment/pane-avocado-hummus-id1591",
+   "dataURL": "https://back-werk.de/de/sortiment/pane-avocado-hummus-id1591",
+   "sha256": "038334c51c802e480b2ba80276a94cab41a200fd0d844225aa672a46e77d8b00"
+  },
+  {
+   "id": "laugenspitz-tomate-mozzarella-2113",
+   "name": "Laugenspitz Tomate Mozzarella",
+   "category": "sandwich",
+   "siteCategories": [
+    "Belegte Brötchen"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 1348.6,
+    "calories": 323.4,
+    "fat": 20,
+    "saturatedFat": 11.2,
+    "carbs": 25.4,
+    "sugar": 3.7,
+    "protein": 9.7,
+    "saltGrams": 1.08
+   },
+   "description": "Butter-Plunder (belaugt, mit Sesam bestreut), Tomate, Mozzarella, Pesto-Spread, Rucola",
+   "allergens": "Enthält: Weizen, Sesam, Ei, Senf, Milch",
+   "pageURL": "https://back-werk.de/de/sortiment/laugenspitz-tomate-mozzarella-id2113",
+   "dataURL": "https://back-werk.de/de/sortiment/laugenspitz-tomate-mozzarella-id2113",
+   "sha256": "aec84e601a2ab3d91c844144ef476df6ff62bc39b73f8cb91679a798ab3ba880"
+  },
+  {
+   "id": "baguettino-schnitzel-2112",
+   "name": "Baguettino Schnitzel",
+   "category": "sandwich",
+   "siteCategories": [
+    "Belegte Brötchen"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 859.53,
+    "calories": 203.98,
+    "fat": 5.38,
+    "saturatedFat": 0.61,
+    "carbs": 29.01,
+    "sugar": 1.51,
+    "protein": 9.41,
+    "saltGrams": 1.17
+   },
+   "description": "Baguette herzhaft belegt mit Gouda, Putenschinken und Ei, verfeinert mit fruchtigen Tomaten, frischer Gurke und Romana Salat.",
+   "allergens": "Enthält: Senf, Weizen",
+   "pageURL": "https://back-werk.de/de/sortiment/baguettino-schnitzel-id2112",
+   "dataURL": "https://back-werk.de/de/sortiment/baguettino-schnitzel-id2112",
+   "sha256": "03fbc3ac83f1ee3113903c201a9a68bcccb59305e15b6fe1ef4928c84dfbf3d2"
+  },
+  {
+   "id": "crunchy-chicken-539",
+   "name": "Crunchy Chicken",
+   "category": "sandwich",
+   "siteCategories": [
+    "Belegte Brötchen"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 785.8,
+    "calories": 186.8,
+    "fat": 5.4,
+    "saturatedFat": 1.5,
+    "carbs": 24.1,
+    "sugar": 2.4,
+    "protein": 9.7,
+    "saltGrams": 1.16
+   },
+   "description": "Weizenbrötchen, Hähnchenpatty (paniert, flüssiggewürzt, aus Stücken zusammengefügt), Kräutercreme, Romanasalat, Tomate",
+   "allergens": "Enthält: Weizen, Senf, Gerste",
+   "pageURL": "https://back-werk.de/de/sortiment/crunchy-chicken-id539",
+   "dataURL": "https://back-werk.de/de/sortiment/crunchy-chicken-id539",
+   "sha256": "ad92b9462866ea0e6b6c25276c8d1b66f226149633b10142c70df95ecaeaf311"
+  },
+  {
+   "id": "crunchy-chicken-kaese-540",
+   "name": "Crunchy Chicken Käse",
+   "category": "sandwich",
+   "siteCategories": [
+    "Belegte Brötchen"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 862.9,
+    "calories": 205.6,
+    "fat": 7.6,
+    "saturatedFat": 3.3,
+    "carbs": 22.3,
+    "sugar": 2.2,
+    "protein": 11.2,
+    "saltGrams": 1.25
+   },
+   "description": "Brötchen, Hähnchenpatty (paniert, flüssiggewürzt, aus Stücken zusammengefügt), Kräutercreme, Salat, Tomate, Käse",
+   "allergens": "Enthält: Weizen, Senf, Gerste, Milch",
+   "pageURL": "https://back-werk.de/de/sortiment/crunchy-chicken-kaese-id540",
+   "dataURL": "https://back-werk.de/de/sortiment/crunchy-chicken-kaese-id540",
+   "sha256": "e5dae62d90c5cab013d9f237a25516182a8da83e7080ae4831483683251bdc42"
+  },
+  {
+   "id": "plant-based-crunchy-chicken-2122",
+   "name": "Plant Based Crunchy Chicken",
+   "category": "sandwich",
+   "siteCategories": [
+    "Belegte Brötchen"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 1001.4,
+    "calories": 239.7,
+    "fat": 9.2,
+    "saturatedFat": 0.9,
+    "carbs": 32.6,
+    "sugar": 2.1,
+    "protein": 5.5,
+    "saltGrams": 1.44
+   },
+   "description": "Unser Klassiker in der veganen Version. Ein Patty auf Reisbasis in einer mit Tomate, Salat und veganer Kräutercreme belegten soften Boule.",
+   "allergens": "Enthält: Weizen, Senf, Gerste",
+   "pageURL": "https://back-werk.de/de/sortiment/plant-based-crunchy-chicken-id2122",
+   "dataURL": "https://back-werk.de/de/sortiment/plant-based-crunchy-chicken-id2122",
+   "sha256": "1bde47f6a9a447961b632d638e1551bb7fecbf6d0f03a3fef886e5df218e23f7"
+  },
+  {
+   "id": "boule-falafel-1469",
+   "name": "Boule Falafel",
+   "category": "sandwich",
+   "siteCategories": [
+    "Belegte Brötchen"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 1032.9,
+    "calories": 247.7,
+    "fat": 9.7,
+    "saturatedFat": 0.9,
+    "carbs": 33.1,
+    "sugar": 3.7,
+    "protein": 6,
+    "saltGrams": 1.33
+   },
+   "description": "Unser softes Lieblingsbrötchen wird mit herzhafter Kräutercreme bestrichen und dann mit würzigen Falafelbällchen, knackigem Rucola und frischem Karottensalat belegt.",
+   "allergens": "Enthält: Weizen, Walnüsse",
+   "pageURL": "https://back-werk.de/de/sortiment/boule-falafel-id1469",
+   "dataURL": "https://back-werk.de/de/sortiment/boule-falafel-id1469",
+   "sha256": "277e797fb13418fb9ea22d299f40f5cdd341125f0bc24e94d827e3a52cd693eb"
+  },
+  {
+   "id": "baguette-thunfisch-2572",
+   "name": "Baguette Thunfisch",
+   "category": "sandwich",
+   "siteCategories": [
+    "Belegte Brötchen"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 793.78,
+    "calories": 188.26,
+    "fat": 3.98,
+    "saturatedFat": 0.45,
+    "carbs": 28.38,
+    "sugar": 2.5,
+    "protein": 8.94,
+    "saltGrams": 1.42
+   },
+   "description": "Helles Weizen- oder dunkles Körnerbaguette mit unserem exklusiven Thunfischsalat mit Apfel- und Tomatenstückchen auf frischem Romanasalat und garniert mit roten Zwiebeln.",
+   "allergens": "Enthält: Ei, Fisch, Senf, Weizen",
+   "pageURL": "https://back-werk.de/de/sortiment/baguette-thunfisch-id2572",
+   "dataURL": "https://back-werk.de/de/sortiment/baguette-thunfisch-id2572",
+   "sha256": "a1dd878442127b39d660e8b834907536acaefe84c8154b019e44ec5d4103b753"
+  },
+  {
+   "id": "kaiserbroetchen-gouda-2574",
+   "name": "Kaiserbrötchen Gouda",
+   "category": "sandwich",
+   "siteCategories": [
+    "Belegte Brötchen"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 1102.25,
+    "calories": 263.63,
+    "fat": 13.33,
+    "saturatedFat": 8.85,
+    "carbs": 25.33,
+    "sugar": 1.99,
+    "protein": 9.75,
+    "saltGrams": 1.16
+   },
+   "description": "Milder Gouda, saftige Tomaten und knackiger Romanasalat in einem mit Butter bestrichenem Kaiserbrötchen.",
+   "allergens": "Enthält: Milch, Weizen",
+   "pageURL": "https://back-werk.de/de/sortiment/kaiserbroetchen-gouda-id2574",
+   "dataURL": "https://back-werk.de/de/sortiment/kaiserbroetchen-gouda-id2574",
+   "sha256": "c52bff937f3f322e3d399b3c6ce54d0a41e3285b6e528f05a019420137655c6f"
+  },
+  {
+   "id": "kaiserbroetchen-roesti-2573",
+   "name": "Kaiserbrötchen Rösti",
+   "category": "sandwich",
+   "siteCategories": [
+    "Belegte Brötchen"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 1295.05,
+    "calories": 308.31,
+    "fat": 11.47,
+    "saturatedFat": 0.94,
+    "carbs": 43.78,
+    "sugar": 3.4,
+    "protein": 5.95,
+    "saltGrams": 1.77
+   },
+   "description": "Goldbraun gebackene Röstitaler, unsere Kräutercreme und frischer Romanasalat in einem innen weichen und außen knusprigen Kaiserbrötchen.",
+   "allergens": "Enthält: Senf, Weizen",
+   "pageURL": "https://back-werk.de/de/sortiment/kaiserbroetchen-roesti-id2573",
+   "dataURL": "https://back-werk.de/de/sortiment/kaiserbroetchen-roesti-id2573",
+   "sha256": "bcadbc2e482a462a669ee43f9222692b7a39660f557cf75bee8cd8eb7c46c0ec"
+  },
+  {
+   "id": "butter-croissant-525",
+   "name": "Butter-Croissant",
+   "category": "bakery",
+   "siteCategories": [
+    "Backwaren"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 1583.2,
+    "calories": 378.9,
+    "fat": 22,
+    "saturatedFat": 14.5,
+    "carbs": 35.9,
+    "sugar": 7.6,
+    "protein": 8.4,
+    "saltGrams": 0.95
+   },
+   "description": "blättriger Butter-Croissantteig",
+   "allergens": "Enthält: Weizen, Ei, Milch",
+   "pageURL": "https://back-werk.de/de/sortiment/butter-croissant-id525",
+   "dataURL": "https://back-werk.de/de/sortiment/butter-croissant-id525",
+   "sha256": "f601e2b9149f6d4c2a3d0eaf38a60bc031f9ffd0c7d51769c53f79dc6f9984a1"
+  },
+  {
+   "id": "baguettino-seelachsfilet-2570",
+   "name": "Baguettino Seelachsfilet",
+   "category": "sandwich",
+   "siteCategories": [
+    "Belegte Brötchen"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 1068.23,
+    "calories": 254.69,
+    "fat": 9.93,
+    "saturatedFat": 1.06,
+    "carbs": 32.46,
+    "sugar": 1.15,
+    "protein": 8.16,
+    "saltGrams": 1.07
+   },
+   "description": "Baguette mit Romanasalat, paniertes Seelachs-Fischfilet, Remoulade",
+   "allergens": "Enthält: Ei, Fisch, Senf, Weizen",
+   "pageURL": "https://back-werk.de/de/sortiment/baguettino-seelachsfilet-id2570",
+   "dataURL": "https://back-werk.de/de/sortiment/baguettino-seelachsfilet-id2570",
+   "sha256": "6dc0c7d5b8e8f905dbda64142ca6a9ed1de849d2acad0f15c7ba49a686005f43"
+  },
+  {
+   "id": "baguette-bbq-chicken-675",
+   "name": "Baguette BBQ Chicken",
+   "category": "sandwich",
+   "siteCategories": [
+    "Belegte Brötchen"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 777.9,
+    "calories": 184.2,
+    "fat": 3.8,
+    "saturatedFat": 0.5,
+    "carbs": 27,
+    "sugar": 2.2,
+    "protein": 10,
+    "saltGrams": 1.06
+   },
+   "description": "Baguette, Hähnchen, Salat, Tomate, BBQ-Sauce, Honig-Senf-Spread",
+   "allergens": "Enthält: Weizen, Milch, Ei, Senf",
+   "pageURL": "https://back-werk.de/de/sortiment/baguette-bbq-chicken-id675",
+   "dataURL": "https://back-werk.de/de/sortiment/baguette-bbq-chicken-id675",
+   "sha256": "7186305c7c68a62c7bad411cd63596df9bf0bbe1451732b1222bfc282346093e"
+  },
+  {
+   "id": "hot-sandwich-caprese-2115",
+   "name": "Hot Sandwich Caprese",
+   "category": "snack",
+   "siteCategories": [
+    "Heiße Snacks"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 907.7,
+    "calories": 216.4,
+    "fat": 8.5,
+    "saturatedFat": 3.6,
+    "carbs": 25,
+    "sugar": 1.9,
+    "protein": 9.6,
+    "saltGrams": 1.32
+   },
+   "description": "Focaccia-Brötchen, Tomate, Mozzarella, Pesto-Spread, Basilikum",
+   "allergens": "Enthält: Weizen, Ei, Senf, Milch",
+   "pageURL": "https://back-werk.de/de/sortiment/hot-sandwich-caprese-id2115",
+   "dataURL": "https://back-werk.de/de/sortiment/hot-sandwich-caprese-id2115",
+   "sha256": "cef0c404707b14846852d4355dee689f731f6edd282aa9a5649006f402cdda7f"
+  },
+  {
+   "id": "hot-sandwich-omelett-mit-putenschinken-1474",
+   "name": "Hot Sandwich Omelett mit Putenschinken",
+   "category": "snack",
+   "siteCategories": [
+    "Heiße Snacks"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 828.5,
+    "calories": 197.2,
+    "fat": 7.1,
+    "saturatedFat": 1.7,
+    "carbs": 22.8,
+    "sugar": 1.2,
+    "protein": 10.4,
+    "saltGrams": 1.45
+   },
+   "description": "Focaccia-Brötchen, Omelett, Putenschinken, Sandwichcreme, Schnittlauch, Petersilie",
+   "allergens": "Enthält: Weizen, Sellerie, Ei, Senf, Soja, Milch",
+   "pageURL": "https://back-werk.de/de/sortiment/hot-sandwich-omelett-mit-putenschinken-id1474",
+   "dataURL": "https://back-werk.de/de/sortiment/hot-sandwich-omelett-mit-putenschinken-id1474",
+   "sha256": "1b429a320c93b0e7862d31edeeb06289a2afa669809d5eff9e1343ac507db583"
+  },
+  {
+   "id": "hot-sandwich-chicken-kebab-1470",
+   "name": "Hot Sandwich Chicken Kebab",
+   "category": "snack",
+   "siteCategories": [
+    "Heiße Snacks"
+   ],
+   "valuesPer100g": {
+    "calories": 268.1,
+    "fat": 7.8,
+    "saturatedFat": 1.7,
+    "carbs": 26,
+    "sugar": 3.2,
+    "protein": 10.8,
+    "saltGrams": 1.77
+   },
+   "description": "Focaccia-Brötchen, Hähnchen-Kebab, Krautsalat (mit Süßungsmittel), Muhammara-Paste, Tsatsiki",
+   "allergens": "Enthält: Weizen, Sellerie, Soja, Milch, Walnüsse",
+   "valueNotes": [
+    "energyKJ left out: 873.3 kJ does not match 268.1 kcal, which fits the macronutrients"
+   ],
+   "pageURL": "https://back-werk.de/de/sortiment/hot-sandwich-chicken-kebab-id1470",
+   "dataURL": "https://back-werk.de/de/sortiment/hot-sandwich-chicken-kebab-id1470",
+   "sha256": "c5a4524dfeb23ae4a7225b03c1441d4e045e01808ef0e125f8527522895809aa"
+  },
+  {
+   "id": "saatenbrezel-2583",
+   "name": "Saatenbrezel",
+   "category": "bakery",
+   "siteCategories": [
+    "Backwaren"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 1413.26,
+    "calories": 335.65,
+    "fat": 12.46,
+    "saturatedFat": 1.83,
+    "carbs": 44.08,
+    "sugar": 2.92,
+    "protein": 10.81,
+    "saltGrams": 1.66
+   },
+   "description": "Laugenbrezel, Cheese & Onion-Würzpaste, Sonnenblumenkerne",
+   "allergens": "Enthält: Milch, Weizen",
+   "pageURL": "https://back-werk.de/de/sortiment/saatenbrezel-id2583",
+   "dataURL": "https://back-werk.de/de/sortiment/saatenbrezel-id2583",
+   "sha256": "519323e7eb9d742ea698bbaee576b5d9a7bc81bb3745024fbf7792b80979a1ce"
+  },
+  {
+   "id": "simit-2588",
+   "name": "Simit",
+   "category": "bakery",
+   "siteCategories": [
+    "Backwaren"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 1383.85,
+    "calories": 329,
+    "fat": 13.1,
+    "saturatedFat": 1.4,
+    "carbs": 41.9,
+    "sugar": 5.1,
+    "protein": 9.9,
+    "saltGrams": 0.8
+   },
+   "description": "Weizenkleingebäck mit Sesam bestreut",
+   "allergens": "Enthält: Gerste, Sesam, Soja, Weizen",
+   "pageURL": "https://back-werk.de/de/sortiment/simit-id2588",
+   "dataURL": "https://back-werk.de/de/sortiment/simit-id2588",
+   "sha256": "3af56101dccd9c47504696baf3b6f75124072f42cc246f89f09711828cc4b76c"
+  },
+  {
+   "id": "boerek-kaese-638",
+   "name": "Börek Käse",
+   "category": "snack",
+   "siteCategories": [
+    "Heiße Snacks"
+   ],
+   "valuesPer100g": {
+    "calories": 272.7,
+    "fat": 15.1,
+    "saturatedFat": 3.5,
+    "carbs": 28.2,
+    "sugar": 1.4,
+    "protein": 5.8,
+    "saltGrams": 1.8
+   },
+   "description": "Snack nach orientalischer Art, gefüllt mit Käse, bestreut mit Sesam",
+   "allergens": "Enthält: Weizen, Sesam, Milch",
+   "valueNotes": [
+    "energyKJ left out: 2037.2 kJ does not match 272.7 kcal, which fits the macronutrients"
+   ],
+   "pageURL": "https://back-werk.de/de/sortiment/boerek-kaese-id638",
+   "dataURL": "https://back-werk.de/de/sortiment/boerek-kaese-id638",
+   "sha256": "e5ab2c9025b00cb38776a59914ecebddfe8c7766907e7cdbe03c8a77bfa43287"
+  },
+  {
+   "id": "boerekstange-spinat-2116",
+   "name": "Börekstange Spinat",
+   "category": "snack",
+   "siteCategories": [
+    "Heiße Snacks"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 1053.2,
+    "calories": 251.8,
+    "fat": 13.5,
+    "saturatedFat": 1.8,
+    "carbs": 26.3,
+    "sugar": 1.2,
+    "protein": 5.6,
+    "saltGrams": 1
+   },
+   "description": "herzhafter Strudelteig nach orientalischer Art mit Spinatfüllung, bestreut mit Sesam",
+   "allergens": "Enthält: Weizen, Sesam",
+   "pageURL": "https://back-werk.de/de/sortiment/boerekstange-spinat-id2116",
+   "dataURL": "https://back-werk.de/de/sortiment/boerekstange-spinat-id2116",
+   "sha256": "378ef76f3587634af7e948517ad732974dbbb6a52d1ae118c438bf6c8e691e95"
+  },
+  {
+   "id": "tomaten-paprika-snack-555",
+   "name": "Tomaten-Paprika-Snack",
+   "category": "snack",
+   "siteCategories": [
+    "Heiße Snacks"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 1288,
+    "calories": 307,
+    "fat": 17,
+    "saturatedFat": 11,
+    "carbs": 32,
+    "sugar": 2.8,
+    "protein": 7.3,
+    "saltGrams": 1
+   },
+   "description": "mit herzhafter Tomaten-Paprika-Füllung",
+   "allergens": "Enthält: Weizen, Ei, Milch",
+   "pageURL": "https://back-werk.de/de/sortiment/tomaten-paprika-snack-id555",
+   "dataURL": "https://back-werk.de/de/sortiment/tomaten-paprika-snack-id555",
+   "sha256": "65298cb910fb8a536bac60bd81af1fd48dca9894e21db9c68e2e3ae4ba9a773a"
+  },
+  {
+   "id": "spinat-feta-snack-556",
+   "name": "Spinat-Feta-Snack",
+   "category": "snack",
+   "siteCategories": [
+    "Heiße Snacks"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 1342.6,
+    "calories": 321.4,
+    "fat": 20.5,
+    "saturatedFat": 13.8,
+    "carbs": 30.1,
+    "sugar": 9.2,
+    "protein": 8.5,
+    "saltGrams": 1.14
+   },
+   "description": "mit herzhafter Spinat-Käse-Füllung",
+   "allergens": "Enthält: Weizen, Sesam, Ei, Milch",
+   "pageURL": "https://back-werk.de/de/sortiment/spinat-feta-snack-id556",
+   "dataURL": "https://back-werk.de/de/sortiment/spinat-feta-snack-id556",
+   "sha256": "6152a7ef4081368d2ebc2940a76dc2cfe1783185916216d3d2416084e025a535"
+  },
+  {
+   "id": "franzbroetchen-2584",
+   "name": "Franzbrötchen",
+   "category": "dessert",
+   "siteCategories": [
+    "Süßes Gebäck"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 1566.3,
+    "calories": 373.4,
+    "fat": 15.2,
+    "saturatedFat": 7.5,
+    "carbs": 54.7,
+    "sugar": 28.1,
+    "protein": 4.6,
+    "saltGrams": 0.71
+   },
+   "description": "mit Zimt verfeinert",
+   "allergens": "Enthält: Weizen, Ei, Milch",
+   "pageURL": "https://back-werk.de/de/sortiment/franzbroetchen-id2584",
+   "dataURL": "https://back-werk.de/de/sortiment/franzbroetchen-id2584",
+   "sha256": "8a45de3a94d6bb3692d4e8dc9ca52d19c4d04c437d6c7a8bb933961b1c4f67ad"
+  },
+  {
+   "id": "chocolate-chunk-cookie-2580",
+   "name": "Chocolate Chunk Cookie",
+   "category": "dessert",
+   "siteCategories": [
+    "Süßes Gebäck"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 1916,
+    "calories": 457,
+    "fat": 20.91,
+    "saturatedFat": 10.8,
+    "carbs": 61,
+    "sugar": 36.8,
+    "protein": 5,
+    "saltGrams": 0.6
+   },
+   "description": "Außen knusprig, innen herrlich soft und mit großzügigen Stücken zartschmelzender Schokolade – der perfekte Genussmoment für zwischendurch.",
+   "allergens": "Enthält: Ei, Soja, Weizen",
+   "pageURL": "https://back-werk.de/de/sortiment/chocolate-chunk-cookie-id2580",
+   "dataURL": "https://back-werk.de/de/sortiment/chocolate-chunk-cookie-id2580",
+   "sha256": "8e3b93b2340a3b882d8621e7539f3788ca2008c4fcbb2efb9db509960a860cfa"
+  },
+  {
+   "id": "pinkie-donut-2120",
+   "name": "Pinkie Donut",
+   "category": "dessert",
+   "siteCategories": [
+    "Süßes Gebäck"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 1667,
+    "calories": 398,
+    "fat": 19,
+    "saturatedFat": 12,
+    "carbs": 50,
+    "sugar": 18,
+    "protein": 4.8,
+    "saltGrams": 1
+   },
+   "description": "Hefeteigring mit pinkfarbener Fettglasur und weißen Zuckerstreuseln überzogen",
+   "allergens": "Enthält: Weizen, Milch",
+   "pageURL": "https://back-werk.de/de/sortiment/pinkie-donut-id2120",
+   "dataURL": "https://back-werk.de/de/sortiment/pinkie-donut-id2120",
+   "sha256": "c37feb5302d474fbf859eb3b56b338b88e9d91042dae96876382f8572201d720"
+  },
+  {
+   "id": "laugenbrezel-1505",
+   "name": "Laugenbrezel",
+   "category": "bakery",
+   "siteCategories": [
+    "Backwaren"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 1192,
+    "calories": 282,
+    "fat": 4.1,
+    "saturatedFat": 0.8,
+    "carbs": 50.6,
+    "sugar": 3.4,
+    "protein": 9.3,
+    "saltGrams": 1.74
+   },
+   "description": "frisch gebackene Laugenbrezel nach schwäbischer Art mit Salz",
+   "allergens": "Enthält: Weizen",
+   "pageURL": "https://back-werk.de/de/sortiment/laugenbrezel-id1505",
+   "dataURL": "https://back-werk.de/de/sortiment/laugenbrezel-id1505",
+   "sha256": "b7fdf60e9b3b5a4a130ec63c5bd57e335832b679b6368b317e9cca95d2702529"
+  },
+  {
+   "id": "frischkaesebrezel-1465",
+   "name": "Frischkäsebrezel",
+   "category": "bakery",
+   "siteCategories": [
+    "Backwaren"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 1047.9,
+    "calories": 249,
+    "fat": 7.2,
+    "saturatedFat": 3.4,
+    "carbs": 36.2,
+    "sugar": 3.4,
+    "protein": 8.8,
+    "saltGrams": 1.43
+   },
+   "description": "Brezel nach schwäbischer Art mit Hagelsalz, bestrichen mit einer hauseigenen Kräuterfrischkäsezubereitung",
+   "allergens": "Enthält: Weizen, Milch",
+   "pageURL": "https://back-werk.de/de/sortiment/frischkaesebrezel-id1465",
+   "dataURL": "https://back-werk.de/de/sortiment/frischkaesebrezel-id1465",
+   "sha256": "40284be8e7cc062badb95e61d1d68a5c1d7761a3f8e588e774f7ae8c645eb146"
+  },
+  {
+   "id": "vanillestange-1458",
+   "name": "Vanillestange",
+   "category": "dessert",
+   "siteCategories": [
+    "Süßes Gebäck"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 1218,
+    "calories": 292,
+    "fat": 18,
+    "saturatedFat": 8.5,
+    "carbs": 28.3,
+    "sugar": 7.2,
+    "protein": 3.5,
+    "saltGrams": 0.56
+   },
+   "description": "Blätterteigstange gefüllt mit veganer Vanillecreme",
+   "allergens": "Enthält: Weizen",
+   "pageURL": "https://back-werk.de/de/sortiment/vanillestange-id1458",
+   "dataURL": "https://back-werk.de/de/sortiment/vanillestange-id1458",
+   "sha256": "248476113a8e3fdfd7b390169babf73f87df65d9445c16065e0f7643b37a78f4"
+  },
+  {
+   "id": "pizza-margherita-647",
+   "name": "Pizza Margherita",
+   "category": "snack",
+   "siteCategories": [
+    "Heiße Snacks"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 1075,
+    "calories": 255,
+    "fat": 6.5,
+    "saturatedFat": 3.4,
+    "carbs": 37.2,
+    "sugar": 3,
+    "protein": 10.7,
+    "saltGrams": 3.33
+   },
+   "description": "Der Klassiker - jetzt noch luftiger, lockerer...leckerer!",
+   "allergens": "Enthält: Weizen, Milch",
+   "pageURL": "https://back-werk.de/de/sortiment/pizza-margherita-id647",
+   "dataURL": "https://back-werk.de/de/sortiment/pizza-margherita-id647",
+   "sha256": "8b1716f8adad779bc6fd1799c98e864fe3eee8afa86fe07679428f1ee6bb5ccc"
+  },
+  {
+   "id": "pizza-gefluegel-salami-646",
+   "name": "Pizza Geflügel-Salami",
+   "category": "snack",
+   "siteCategories": [
+    "Heiße Snacks"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 1131.8,
+    "calories": 269.3,
+    "fat": 9.7,
+    "saturatedFat": 5,
+    "carbs": 32.4,
+    "sugar": 2.7,
+    "protein": 12.1,
+    "saltGrams": 2.97
+   },
+   "description": "Pizza mit Putensalami (mit Rinderfett) und Gouda überbacken",
+   "allergens": "Enthält: Weizen, Milch",
+   "pageURL": "https://back-werk.de/de/sortiment/pizza-gefluegel-salami-id646",
+   "dataURL": "https://back-werk.de/de/sortiment/pizza-gefluegel-salami-id646",
+   "sha256": "727bcb478d72afcb6b675392839d9ece9f671021e9270fb9660d9642029d962b"
+  },
+  {
+   "id": "hot-dog-classic-645",
+   "name": "Hot Dog Classic",
+   "category": "snack",
+   "siteCategories": [
+    "Heiße Snacks"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 1138.3,
+    "calories": 272.2,
+    "fat": 12.6,
+    "saturatedFat": 5.4,
+    "carbs": 29.5,
+    "sugar": 7.6,
+    "protein": 9.8,
+    "saltGrams": 0.79
+   },
+   "description": "Soft Bun, Geflügelwürstchen, rote Zwiebeln, eingelegte Gurken, Ketchup, Remoulade (mit Süßungsmittel), Käse",
+   "allergens": "Enthält: Weizen, Ei, Senf, Sellerie, Soja, Milch",
+   "pageURL": "https://back-werk.de/de/sortiment/hot-dog-classic-id645",
+   "dataURL": "https://back-werk.de/de/sortiment/hot-dog-classic-id645",
+   "sha256": "4d576de65fac784be12d3bf50c04477864b458ced67740735003a602b4d0eb31"
+  },
+  {
+   "id": "gefluegelrolle-mit-kaese-640",
+   "name": "Geflügelrolle mit Käse",
+   "category": "snack",
+   "siteCategories": [
+    "Heiße Snacks"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 1188.5,
+    "calories": 285.6,
+    "fat": 20.7,
+    "saturatedFat": 9.9,
+    "carbs": 18.9,
+    "sugar": 1.6,
+    "protein": 9.6,
+    "saltGrams": 1.69
+   },
+   "description": "Geflügelrolle (aus Separatorenfleisch) in mit Käse überbackenem Teigmantel",
+   "allergens": "Enthält: Weizen, Ei, Soja, Milch",
+   "pageURL": "https://back-werk.de/de/sortiment/gefluegelrolle-mit-kaese-id640",
+   "dataURL": "https://back-werk.de/de/sortiment/gefluegelrolle-mit-kaese-id640",
+   "sha256": "96987e65347df084b3fe3dc08c6a281d3d46190818402984348a09f94b0a0074"
+  },
+  {
+   "id": "gefluegelrolle-639",
+   "name": "Geflügelrolle",
+   "category": "snack",
+   "siteCategories": [
+    "Heiße Snacks"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 1153,
+    "calories": 277,
+    "fat": 19.7,
+    "saturatedFat": 8.6,
+    "carbs": 21.2,
+    "sugar": 1.8,
+    "protein": 7.9,
+    "saltGrams": 1.67
+   },
+   "description": "im Teigmantel, verfeinert mit Kräutern und Gewürzen, aus Separatorenfleisch",
+   "allergens": "Enthält: Weizen, Ei, Soja, Milch",
+   "pageURL": "https://back-werk.de/de/sortiment/gefluegelrolle-id639",
+   "dataURL": "https://back-werk.de/de/sortiment/gefluegelrolle-id639",
+   "sha256": "75c5e60331b644134e7cd330e56767893f1ec8c9752cbe75e34d04d61d1789c8"
+  },
+  {
+   "id": "kirschkoerbchen-xl-534",
+   "name": "Kirschkörbchen XL",
+   "category": "dessert",
+   "siteCategories": [
+    "Süßes Gebäck"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 1251.2,
+    "calories": 299,
+    "fat": 11.4,
+    "saturatedFat": 5.4,
+    "carbs": 43.6,
+    "sugar": 16.5,
+    "protein": 4.3,
+    "saltGrams": 0.76
+   },
+   "description": "Plundergebäck mit Sauerkirschfüllung veredelt mit heller Glasurmasse",
+   "allergens": "Enthält: Weizen",
+   "pageURL": "https://back-werk.de/de/sortiment/kirschkoerbchen-xl-id534",
+   "dataURL": "https://back-werk.de/de/sortiment/kirschkoerbchen-xl-id534",
+   "sha256": "dc431c27e9770b52f51955865db3c71df63c1485a7b6e92ca86cbe5657db88bd"
+  },
+  {
+   "id": "apfelkoerbchen-xl-630",
+   "name": "Apfelkörbchen XL",
+   "category": "dessert",
+   "siteCategories": [
+    "Süßes Gebäck"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 1149,
+    "calories": 275.1,
+    "fat": 11.5,
+    "saturatedFat": 5.4,
+    "carbs": 38,
+    "sugar": 13.9,
+    "protein": 5.3,
+    "saltGrams": 0.76
+   },
+   "description": "Plundergebäck mit saftiger Apfelfüllung veredelt mit heller Glasurmasse",
+   "allergens": "Enthält: Weizen",
+   "pageURL": "https://back-werk.de/de/sortiment/apfelkoerbchen-xl-id630",
+   "dataURL": "https://back-werk.de/de/sortiment/apfelkoerbchen-xl-id630",
+   "sha256": "3f1473ea7e1cf0b4aeee4bb3af1dc96d796bf55ebec023a576153522440d3e5b"
+  },
+  {
+   "id": "blueberry-muffin-533",
+   "name": "Blueberry Muffin",
+   "category": "dessert",
+   "siteCategories": [
+    "Süßes Gebäck"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 1551,
+    "calories": 370,
+    "fat": 15.5,
+    "saturatedFat": 1.6,
+    "carbs": 53.2,
+    "sugar": 34.1,
+    "protein": 5.3,
+    "saltGrams": 0.39
+   },
+   "description": "ofenfrisches Küchlein mit extra vielen Blaubeeren",
+   "allergens": "Enthält: Weizen, Ei, Milch",
+   "pageURL": "https://back-werk.de/de/sortiment/blueberry-muffin-id533",
+   "dataURL": "https://back-werk.de/de/sortiment/blueberry-muffin-id533",
+   "sha256": "0036fa14ee6f7b18464d1044961262f56c185de3680e8c66c06d8a4030da6cc6"
+  },
+  {
+   "id": "chocolate-muffin-532",
+   "name": "Chocolate Muffin",
+   "category": "dessert",
+   "siteCategories": [
+    "Süßes Gebäck"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 1676,
+    "calories": 400,
+    "fat": 19.6,
+    "saturatedFat": 5.3,
+    "carbs": 53.3,
+    "sugar": 33.3,
+    "protein": 5.4,
+    "saltGrams": 0.41
+   },
+   "description": "ofenfrisches Küchlein mit Kakao und extra vielen Schokoladenstückchen",
+   "allergens": "Enthält: Weizen, Ei, Soja, Milch",
+   "pageURL": "https://back-werk.de/de/sortiment/chocolate-muffin-id532",
+   "dataURL": "https://back-werk.de/de/sortiment/chocolate-muffin-id532",
+   "sha256": "eed3cbdf0e868a965bded6f538b01beac73e56b538ac56374efb979b36c9b1cc"
+  },
+  {
+   "id": "schoggi-donut-628",
+   "name": "Schoggi-Donut",
+   "category": "dessert",
+   "siteCategories": [
+    "Süßes Gebäck"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 1800,
+    "calories": 431,
+    "fat": 26,
+    "saturatedFat": 14,
+    "carbs": 42,
+    "sugar": 11,
+    "protein": 6.5,
+    "saltGrams": 1.1
+   },
+   "description": "Hefeteigring mit kakaohaltiger Fettglasur",
+   "allergens": "Enthält: Weizen, Soja, Milch",
+   "pageURL": "https://back-werk.de/de/sortiment/schoggi-donut-id628",
+   "dataURL": "https://back-werk.de/de/sortiment/schoggi-donut-id628",
+   "sha256": "2a932f560b7771f5d12eb51e4f5d3766d112ae7308c1ee1c86ea379662abc9a3"
+  },
+  {
+   "id": "butter-schoggibroetchen-627",
+   "name": "Butter-Schoggibrötchen",
+   "category": "dessert",
+   "siteCategories": [
+    "Süßes Gebäck"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 1534.4,
+    "calories": 367.4,
+    "fat": 20.2,
+    "saturatedFat": 13.2,
+    "carbs": 38.2,
+    "sugar": 15.1,
+    "protein": 7,
+    "saltGrams": 0.76
+   },
+   "description": "Gebäck mit Schokofüllung veredelt mit kakaohaltiger Glasurmasse",
+   "allergens": "Enthält: Weizen, Ei, Soja, Milch",
+   "pageURL": "https://back-werk.de/de/sortiment/butter-schoggibroetchen-id627",
+   "dataURL": "https://back-werk.de/de/sortiment/butter-schoggibroetchen-id627",
+   "sha256": "cae0d32f70ed40417d6d11073e5e50c9d18ddba8971828d72e3cb42861a59bb4"
+  },
+  {
+   "id": "schokocreme-croissant-626",
+   "name": "Schokocreme-Croissant",
+   "category": "dessert",
+   "siteCategories": [
+    "Süßes Gebäck"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 1499.7,
+    "calories": 358.3,
+    "fat": 17.3,
+    "saturatedFat": 9.5,
+    "carbs": 42.4,
+    "sugar": 15.8,
+    "protein": 7,
+    "saltGrams": 0.86
+   },
+   "description": "gefüllt mit leckerer Schokocreme und mit kakaohaltiger Glasurmasse veredelt",
+   "allergens": "Enthält: Weizen, Ei, Milch",
+   "pageURL": "https://back-werk.de/de/sortiment/schokocreme-croissant-id626",
+   "dataURL": "https://back-werk.de/de/sortiment/schokocreme-croissant-id626",
+   "sha256": "d71bb49fe089716c67482a615fae9964c825a64825c3119f956fb255e8cd5e1e"
+  },
+  {
+   "id": "apfelecke-536",
+   "name": "Apfelecke",
+   "category": "dessert",
+   "siteCategories": [
+    "Süßes Gebäck"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 1181,
+    "calories": 281,
+    "fat": 17,
+    "saturatedFat": 9,
+    "carbs": 29,
+    "sugar": 12,
+    "protein": 3,
+    "saltGrams": 0.5
+   },
+   "description": "Blätterteig mit Apfelfüllung",
+   "allergens": "Enthält: Weizen, Ei",
+   "pageURL": "https://back-werk.de/de/sortiment/apfelecke-id536",
+   "dataURL": "https://back-werk.de/de/sortiment/apfelecke-id536",
+   "sha256": "e1930592b80c14b16e764030c367abf4d68b4ff4c9f23000861be724900ca9a0"
+  },
+  {
+   "id": "kaesebroetchen-623",
+   "name": "Käsebrötchen",
+   "category": "bakery",
+   "siteCategories": [
+    "Backwaren"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 1018.6,
+    "calories": 242.2,
+    "fat": 6.9,
+    "saturatedFat": 4.2,
+    "carbs": 33.6,
+    "sugar": 2,
+    "protein": 10.4,
+    "saltGrams": 1.32
+   },
+   "description": "Weizenbrötchen mit Gouda überbacken",
+   "allergens": "Enthält: Weizen, Milch",
+   "pageURL": "https://back-werk.de/de/sortiment/kaesebroetchen-id623",
+   "dataURL": "https://back-werk.de/de/sortiment/kaesebroetchen-id623",
+   "sha256": "1648b63e88da4302168826f56c040efb47c86442a40bfecedc115ddd68a6d419"
+  },
+  {
+   "id": "kaiserbroetchen-622",
+   "name": "Kaiserbrötchen",
+   "category": "bakery",
+   "siteCategories": [
+    "Backwaren"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 1032,
+    "calories": 244,
+    "fat": 1.5,
+    "saturatedFat": 0.2,
+    "carbs": 48,
+    "sugar": 3,
+    "protein": 8,
+    "saltGrams": 1.4
+   },
+   "description": "klassisches Weizenbrötchen",
+   "allergens": "Enthält: Weizen",
+   "pageURL": "https://back-werk.de/de/sortiment/kaiserbroetchen-id622",
+   "dataURL": "https://back-werk.de/de/sortiment/kaiserbroetchen-id622",
+   "sha256": "cc0ec96e3f20639fe2d54705c8c0c6892f5bb621a2e7a8adddade66f62173f52"
+  },
+  {
+   "id": "cappuccino-567",
+   "name": "Cappuccino",
+   "category": "coffee",
+   "siteCategories": [
+    "Getränke"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 186.6,
+    "calories": 44.7,
+    "fat": 2.2,
+    "saturatedFat": 1.4,
+    "carbs": 4.2,
+    "sugar": 3,
+    "protein": 2.1,
+    "saltGrams": 0.07
+   },
+   "per100Unit": "ml",
+   "description": "$undefined",
+   "allergens": "Enthält: Milch",
+   "pageURL": "https://back-werk.de/de/sortiment/cappuccino-id567",
+   "dataURL": "https://back-werk.de/de/sortiment/cappuccino-id567",
+   "sha256": "1f5db159bc6dd57a631df0ebea72d2ef9a923a58f491c2b9f88880a441fe970c"
+  },
+  {
+   "id": "latte-macchiato-564",
+   "name": "Latte Macchiato",
+   "category": "coffee",
+   "siteCategories": [
+    "Getränke"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 181.6,
+    "calories": 43.5,
+    "fat": 2.1,
+    "saturatedFat": 1.4,
+    "carbs": 4.2,
+    "sugar": 2.8,
+    "protein": 2,
+    "saltGrams": 0.07
+   },
+   "per100Unit": "ml",
+   "description": "$undefined",
+   "allergens": "Enthält: Milch",
+   "pageURL": "https://back-werk.de/de/sortiment/latte-macchiato-id564",
+   "dataURL": "https://back-werk.de/de/sortiment/latte-macchiato-id564",
+   "sha256": "31dbf0624d63c0966ace98bb9cb4bb03d0d019d4b7485131776cad94bffbcbad"
+  },
+  {
+   "id": "milchkaffee-621",
+   "name": "Milchkaffee",
+   "category": "coffee",
+   "siteCategories": [
+    "Getränke"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 214.3,
+    "calories": 51.3,
+    "fat": 2.5,
+    "saturatedFat": 1.6,
+    "carbs": 5,
+    "sugar": 3.4,
+    "protein": 2.3,
+    "saltGrams": 0.08
+   },
+   "per100Unit": "ml",
+   "description": "$undefined",
+   "allergens": "Enthält: Milch",
+   "pageURL": "https://back-werk.de/de/sortiment/milchkaffee-id621",
+   "dataURL": "https://back-werk.de/de/sortiment/milchkaffee-id621",
+   "sha256": "fa0e8ce194a152f823dd23305ca7d9aee89e2a3cdba156faf71b919ceea8cdc2"
+  },
+  {
+   "id": "kaffee-schwarz-619",
+   "name": "Kaffee Schwarz",
+   "category": "coffee",
+   "siteCategories": [
+    "Getränke"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 31.1,
+    "calories": 7.4,
+    "carbs": 1.8
+   },
+   "per100Unit": "ml",
+   "description": "$undefined",
+   "allergens": "Enthält: $undefined",
+   "valueNotes": [
+    "fat, protein, sugar not stated on the page"
+   ],
+   "pageURL": "https://back-werk.de/de/sortiment/kaffee-schwarz-id619",
+   "dataURL": "https://back-werk.de/de/sortiment/kaffee-schwarz-id619",
+   "sha256": "ebb9c66ba9194ab800696003e974b37cbd12bf22cbe48273178c178828157b7f"
+  },
+  {
+   "id": "mocca-schoko-620",
+   "name": "Mocca Schoko",
+   "category": "coffee",
+   "siteCategories": [
+    "Getränke"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 25.7,
+    "calories": 6.1,
+    "fat": 0.1,
+    "saturatedFat": 0.1,
+    "carbs": 1.1,
+    "sugar": 0.8,
+    "protein": 0.2,
+    "saltGrams": 0.01
+   },
+   "per100Unit": "ml",
+   "description": "$undefined",
+   "allergens": "Enthält: Milch",
+   "pageURL": "https://back-werk.de/de/sortiment/mocca-schoko-id620",
+   "dataURL": "https://back-werk.de/de/sortiment/mocca-schoko-id620",
+   "sha256": "60690b258bcd9e6a4d29dc4b3a4dcde13798e47797ce6cb7a70ae7c21e6f674a"
+  },
+  {
+   "id": "kakao-565",
+   "name": "Kakao",
+   "category": "coffee",
+   "siteCategories": [
+    "Getränke"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 372.1,
+    "calories": 88.2,
+    "fat": 1.7,
+    "saturatedFat": 1.3,
+    "carbs": 14.7,
+    "sugar": 12.1,
+    "protein": 2.8,
+    "saltGrams": 0.24
+   },
+   "per100Unit": "ml",
+   "description": "$undefined",
+   "allergens": "Enthält: Milch",
+   "pageURL": "https://back-werk.de/de/sortiment/kakao-id565",
+   "dataURL": "https://back-werk.de/de/sortiment/kakao-id565",
+   "sha256": "81ad3c8121b34b3db60158606ee4d34c989cc537e79a01aa25027ad2f5c4342e"
+  }
+ ],
+ "excluded": [
+  {
+   "id": "boerekstange-haehnchenkebab-2582",
+   "name": "Börekstange Hähnchenkebab",
+   "section": "Heiße Snacks",
+   "reason": "its energy does not fit its macronutrients (286 kcal per 100 g, but 12 g fat, 287 g carbohydrate and 7.4 g protein give 1286)"
+  },
+  {
+   "id": "tee-678",
+   "name": "Tee",
+   "section": "Getränke",
+   "reason": "its page states no nutrition values"
+  },
+  {
+   "id": "lift-apfelschorle-05l-614",
+   "name": "Lift Apfelschorle 0,5l",
+   "section": "Getränke",
+   "reason": "its page states no nutrition values"
+  },
+  {
+   "id": "vio-05l-613",
+   "name": "ViO 0,5l",
+   "section": "Getränke",
+   "reason": "its page states no nutrition values"
+  },
+  {
+   "id": "vio-medium-05l-612",
+   "name": "ViO medium 0,5l",
+   "section": "Getränke",
+   "reason": "its page states no nutrition values"
+  },
+  {
+   "id": "vio-spritzig-05l-611",
+   "name": "ViO spritzig 0,5l",
+   "section": "Getränke",
+   "reason": "its page states no nutrition values"
+  },
+  {
+   "id": "vio-bio-zitrone-limette-05l-610",
+   "name": "ViO Bio Zitrone-Limette 0,5l",
+   "section": "Getränke",
+   "reason": "its page states no nutrition values"
+  },
+  {
+   "id": "vio-bio-orange-05l-609",
+   "name": "ViO Bio Orange 0,5l",
+   "section": "Getränke",
+   "reason": "its page states no nutrition values"
+  },
+  {
+   "id": "fuze-tea-peach-04l-607",
+   "name": "FUZE Tea Peach 0,4l",
+   "section": "Getränke",
+   "reason": "its page states no nutrition values"
+  },
+  {
+   "id": "fuze-tea-lemon-04l-606",
+   "name": "FUZE Tea Lemon 0,4l",
+   "section": "Getränke",
+   "reason": "its page states no nutrition values"
+  },
+  {
+   "id": "fuze-tea-pfirsich-hibiskus-04l-605",
+   "name": "FUZE Tea Pfirsich Hibiskus 0,4l",
+   "section": "Getränke",
+   "reason": "its page states no nutrition values"
+  },
+  {
+   "id": "ok-energy-drink-025l-604",
+   "name": "ok.– Energy Drink 0,25l",
+   "section": "Getränke",
+   "reason": "its page states no nutrition values"
+  },
+  {
+   "id": "ok-energy-drink-blueberry-025l-1454",
+   "name": "ok.– Energy Drink Blueberry 0,25l",
+   "section": "Getränke",
+   "reason": "its page states no nutrition values"
+  },
+  {
+   "id": "ok-energy-drink-wild-cherry-025l-1453",
+   "name": "ok.– Energy Drink Wild Cherry 0,25l",
+   "section": "Getränke",
+   "reason": "its page states no nutrition values"
+  },
+  {
+   "id": "ok-energy-drink-light-025l-603",
+   "name": "ok.– Energy Drink Light 0,25l",
+   "section": "Getränke",
+   "reason": "its page states no nutrition values"
+  },
+  {
+   "id": "capri-sun-02l-602",
+   "name": "Capri-Sun 0,2l",
+   "section": "Getränke",
+   "reason": "its page states no nutrition values"
+  },
+  {
+   "id": "durstloescher-05l-601",
+   "name": "Durstlöscher 0,5l",
+   "section": "Getränke",
+   "reason": "its page states no nutrition values"
+  },
+  {
+   "id": "sprite-05l-584",
+   "name": "Sprite 0,5l",
+   "section": "Getränke",
+   "reason": "its page states no nutrition values"
+  },
+  {
+   "id": "mezzo-mix-05l-583",
+   "name": "Mezzo Mix 0,5l",
+   "section": "Getränke",
+   "reason": "its page states no nutrition values"
+  },
+  {
+   "id": "coca-cola-light-05l-581",
+   "name": "Coca-Cola Light 0,5l",
+   "section": "Getränke",
+   "reason": "its page states no nutrition values"
+  },
+  {
+   "id": "fanta-orange-05l-574",
+   "name": "Fanta Orange 0,5l",
+   "section": "Getränke",
+   "reason": "its page states no nutrition values"
+  },
+  {
+   "id": "coca-cola-zero-05l-573",
+   "name": "Coca-Cola Zero 0,5l",
+   "section": "Getränke",
+   "reason": "its page states no nutrition values"
+  },
+  {
+   "id": "coca-cola-classic-05l-572",
+   "name": "Coca-Cola Classic 0,5l",
+   "section": "Getränke",
+   "reason": "its page states no nutrition values"
+  },
+  {
+   "id": "red-bull-025l-571",
+   "name": "Red Bull 0,25l",
+   "section": "Getränke",
+   "reason": "its page states no nutrition values"
+  },
+  {
+   "id": "kakao-05l-2585",
+   "name": "Kakao 0,5l",
+   "section": "Getränke",
+   "reason": "its page states no nutrition values"
+  }
+ ]
+}

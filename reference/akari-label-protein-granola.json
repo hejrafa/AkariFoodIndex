@@ -1,0 +1,77 @@
+{
+  "id": "akari:label:protein-granola",
+  "name": "Protein granola",
+  "identity": "Baked oat granola enriched with protein, 22 to 27 g protein per 100 g.",
+  "rule": "Per 100 g, each value is the median of the three labels below that declare it, and a value enters only when at least three labels declare it (default flavours). Salt becomes sodium (salt in g × 400 = sodium in mg). Nothing a label leaves out becomes zero. Labels read on 2026-10-30 from Open Food Facts through Akari's proxy, as the beef protein isolate was.",
+  "nutrients": {
+    "calories": 441.0,
+    "fat": 15.0,
+    "saturatedFat": 2.0,
+    "carbs": 48.0,
+    "sugar": 14.0,
+    "protein": 23.0,
+    "sodium": 260.0
+  },
+  "portions": [
+    {
+      "grams": 50,
+      "label": "1 serving"
+    }
+  ],
+  "labels": [
+    {
+      "brand": "Prozis",
+      "product": "Protein granola forest fruits",
+      "read": "Open Food Facts 5600961112559 through https://api.joinakari.com/v1/off/product/5600961112559",
+      "date": "2026-10-30",
+      "ingredients": "wholegrain oat flakes (52%), soya protein isolate (13%), fibres (polydextrose, resistant maltodex - trin, inulin), bran crisps (8%) (wheat bran, wheat flour, rice flour, oat bran), sunflower oil, oat bran, sweeteners (isomalt, steviol glyco - sides), freeze-dried forest fruits (3%)(strawberry, black",
+      "serving": "not stated",
+      "per100g": {
+        "energyKJ": 1914.0,
+        "energyKcal": 455.0,
+        "fat": 15.0,
+        "saturates": 2.0,
+        "carbohydrate": 48.0,
+        "sugars": 3.4,
+        "protein": 23.0,
+        "salt": 0.65
+      }
+    },
+    {
+      "brand": "Gym beam",
+      "product": "Protein granola",
+      "read": "Open Food Facts 8586022215490 through https://api.joinakari.com/v1/off/product/8586022215490",
+      "date": "2026-10-30",
+      "ingredients": "not stated in the entry",
+      "serving": "30.0g",
+      "per100g": {
+        "energyKJ": 1845.0,
+        "energyKcal": 435.0,
+        "fat": 15.0,
+        "saturates": 1.6,
+        "carbohydrate": 52.0,
+        "sugars": 14.0,
+        "protein": 22.0,
+        "salt": 0.3
+      }
+    },
+    {
+      "brand": "Harvest Morn",
+      "product": "protein granola",
+      "read": "Open Food Facts 4977344048783 through https://api.joinakari.com/v1/off/product/4977344048783",
+      "date": "2026-10-30",
+      "ingredients": "Wholegrain Oat Flakes, Sugar, Soya Protein Isolate, Pumpkin Seeds, Rice Flour, Rapeseed Oil, Oat Bran, Almonds, Walnuts, Soya Flour, Desiccated Coconut, Honey, SWEETENED FREEZE-DRIED APRICOT PIECES (0.5%) (Dried Apricots, Sugar), FREEZE DRIED CRANBERRIES (0.5%), FREEZE DRIED RASPBERRIES (0.5%), Salt",
+      "serving": "400",
+      "per100g": {
+        "energyKJ": 1851.0,
+        "energyKcal": 441.0,
+        "fat": 16.3,
+        "saturates": 2.7,
+        "carbohydrate": 44.1,
+        "sugars": 18.3,
+        "protein": 26.5,
+        "salt": 0.91
+      }
+    }
+  ]
+}

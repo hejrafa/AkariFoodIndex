@@ -1,0 +1,236 @@
+{
+ "batch": 29,
+ "identities": [
+  {
+   "key": "cherry cake",
+   "names": [
+    "cherry cake",
+    "kirschkuchen",
+    "cherry torte",
+    "kirschtorte",
+    "kirschkuchen vom blech"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:D281100",
+     "name": "Cherry torte (shortcrust pastry and cake batter)"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "cream cake",
+   "names": [
+    "cream cake",
+    "sahnetorte",
+    "cream torte",
+    "cream gateau",
+    "sahnekuchen",
+    "tortenstuck mit sahne"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "usda:2707872",
+     "name": "Cake, cream"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2707872",
+     "label": "1 cupcake, any size",
+     "grams": 90
+    },
+    {
+     "reference": "usda:2707872",
+     "label": "1 piece/slice, any size",
+     "grams": 200
+    },
+    {
+     "reference": "usda:2707872",
+     "label": "1 cup",
+     "grams": 120
+    }
+   ]
+  },
+  {
+   "key": "strawberry cream cake",
+   "names": [
+    "strawberry cream cake",
+    "erdbeersahnetorte",
+    "strawberry cream torte",
+    "strawberry cream gateau",
+    "erdbeer sahnetorte",
+    "erdbeersahne torte"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:D313300",
+     "name": "Strawberry cream torte (water sponge cake)"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "buttercream cake",
+   "names": [
+    "buttercream cake",
+    "buttercremetorte",
+    "buttercream torte",
+    "buttercream gateau",
+    "buttercreme torte",
+    "buttercremekuchen"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:D311200",
+     "name": "Butter cream torte (sponge cake)"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "prinzregententorte",
+   "names": [
+    "prinzregententorte",
+    "prince regent cake",
+    "prinzregenten torte"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:D330400",
+     "name": "\"Prinzregententorte\" torte (sponge cake)"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "eierschecke",
+   "names": [
+    "eierschecke",
+    "saxon custard cheesecake",
+    "dresdner eierschecke",
+    "sachsische eierschecke"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:D4A6000",
+     "name": "\"Eierschecke\" cheesecake (yeast dough) with egg cream"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "poppy seed cake",
+   "names": [
+    "poppy seed cake",
+    "mohnkuchen",
+    "thuringian poppy seed cake",
+    "thuringer mohnkuchen",
+    "mohnkuchen vom blech"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:D4A6300",
+     "name": "Thuringian poppy seed cake (yeast dough)"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "crepe",
+   "names": [
+    "crepe",
+    "crepes",
+    "plain crepe",
+    "french pancake",
+    "crepe natur",
+    "dunner pfannkuchen"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "usda:2708342",
+     "name": "Crepe, plain"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2708342",
+     "label": "1 crepe, any size",
+     "grams": 65
+    },
+    {
+     "reference": "usda:2708342",
+     "label": "1 surface inch",
+     "grams": 1.3
+    }
+   ]
+  },
+  {
+   "key": "almond crescent",
+   "names": [
+    "almond crescent",
+    "mandelhornchen",
+    "almond crescents",
+    "almond horn",
+    "mandelhornchen vom backer"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:D755300",
+     "name": "Almond crescent roll (cake batter)"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "palmier",
+   "names": [
+    "palmier",
+    "schweineohr",
+    "palmiers",
+    "pig ear pastry",
+    "schweineohren",
+    "schweinsohr",
+    "schweinsohren",
+    "blatterteig schweineohr"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:D770300",
+     "name": "Pig ear pastry (puff pastry)"
+    }
+   ],
+   "measures": []
+  }
+ ]
+}

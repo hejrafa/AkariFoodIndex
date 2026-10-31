@@ -90,7 +90,10 @@
         }
       ],
       "notes": "One home-made 30 cm pizza: BLS raw pizza dough, passata, one 125 g ball of mozzarella, a few basil leaves and a spoon of olive oil. Water lost from the dough while baking is not modelled, as in the café recipes. USDA mozzarella is used because the BLS rows leave fibre undeclared, which would drop fibre from the whole dish.",
-      "origin": "reviewed"
+      "origin": "reviewed",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:spaghetti-bolognese:v1",
@@ -367,11 +370,11 @@
       },
       "ingredients": [
         {
-          "reference": "usda:2709590",
+          "reference": "bls:G107100",
           "grams": 150
         },
         {
-          "reference": "bls:V421072",
+          "reference": "bls:V4A6172",
           "grams": 120
         },
         {
@@ -474,7 +477,7 @@
           "grams": 100
         },
         {
-          "reference": "bls:V421072",
+          "reference": "bls:V4A6172",
           "grams": 120
         },
         {
@@ -486,7 +489,7 @@
           "grams": 50
         },
         {
-          "reference": "usda:2709590",
+          "reference": "bls:G107100",
           "grams": 30
         },
         {
@@ -503,7 +506,10 @@
         }
       ],
       "notes": "A restaurant-style bowl made at home: rice, canned black beans, grilled chicken, sweetcorn, red salsa, lettuce, cheddar, sour cream and guacamole. It is a large serving on purpose; most people's bowls are.",
-      "origin": "reviewed"
+      "origin": "reviewed",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:chicken-curry-with-rice:v1",
@@ -741,7 +747,10 @@
         }
       ],
       "notes": "The southern German style with broth, onion, vinegar and oil rather than mayonnaise, as a main-course side. The oil is olive oil for the same water-coverage reason as the curry. A mayonnaise salad is noticeably richer and is left to editing.",
-      "origin": "reviewed"
+      "origin": "reviewed",
+      "collections": [
+        "seasonal"
+      ]
     },
     {
       "id": "akari:recipe:linsensuppe:v1",
@@ -908,7 +917,7 @@
           "grams": 100
         },
         {
-          "reference": "usda:2705418",
+          "reference": "bls:M141300",
           "grams": 100
         },
         {
@@ -1125,7 +1134,7 @@
           "grams": 6
         },
         {
-          "reference": "bls:S111100",
+          "reference": "usda:2710259",
           "grams": 2
         }
       ],
@@ -1172,7 +1181,7 @@
           "grams": 17
         },
         {
-          "reference": "ciqual:12122",
+          "reference": "bls:M410700",
           "grams": 15
         },
         {
@@ -1224,7 +1233,10 @@
       ],
       "origin": "generated",
       "date": "2026-10-01",
-      "draft": "batch-1"
+      "draft": "batch-1",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:spaghetti-aglio-e-olio:v1",
@@ -1534,11 +1546,11 @@
           "grams": 220
         },
         {
-          "reference": "ciqual:12122",
+          "reference": "bls:M410700",
           "grams": 40
         },
         {
-          "reference": "bls:R258100",
+          "reference": "usda:170931",
           "grams": 2
         }
       ],
@@ -1851,7 +1863,7 @@
           "grams": 120
         },
         {
-          "reference": "cofid:12-176",
+          "reference": "usda:2705750",
           "grams": 90
         },
         {
@@ -2088,7 +2100,10 @@
       ],
       "origin": "generated",
       "date": "2026-10-01",
-      "draft": "batch-1"
+      "draft": "batch-1",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:pizza-funghi:v1",
@@ -2138,7 +2153,10 @@
       ],
       "origin": "generated",
       "date": "2026-10-01",
-      "draft": "batch-1"
+      "draft": "batch-1",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:pizza-hawaii:v1",
@@ -2188,7 +2206,10 @@
       ],
       "origin": "generated",
       "date": "2026-10-01",
-      "draft": "batch-1"
+      "draft": "batch-1",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:pizza-quattro-formaggi:v1",
@@ -2232,7 +2253,7 @@
           "grams": 30
         },
         {
-          "reference": "usda:2705705",
+          "reference": "bls:M502700",
           "grams": 30
         },
         {
@@ -2247,7 +2268,10 @@
       "origin": "generated",
       "date": "2026-10-01",
       "draft": "batch-1",
-      "tableRow": "bls:X912233"
+      "tableRow": "bls:X912233",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:pizza-tonno:v1",
@@ -2299,7 +2323,10 @@
       ],
       "origin": "generated",
       "date": "2026-10-01",
-      "draft": "batch-1"
+      "draft": "batch-1",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:pizza-diavola:v1",
@@ -2352,7 +2379,10 @@
       ],
       "origin": "generated",
       "date": "2026-10-01",
-      "draft": "batch-1"
+      "draft": "batch-1",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:calzone:v1",
@@ -2411,7 +2441,10 @@
       "origin": "generated",
       "date": "2026-10-01",
       "draft": "batch-1",
-      "tableRow": "usda:2708684"
+      "tableRow": "usda:2708684",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:minestrone:v1",
@@ -2884,7 +2917,7 @@
           "grams": 300
         },
         {
-          "reference": "mext:14016",
+          "reference": "usda:2710166",
           "grams": 12
         },
         {
@@ -3968,7 +4001,10 @@
       ],
       "origin": "generated",
       "date": "2026-10-01",
-      "draft": "batch-1"
+      "draft": "batch-1",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:california-roll:v1",
@@ -4026,7 +4062,10 @@
       ],
       "origin": "generated",
       "date": "2026-10-01",
-      "draft": "batch-1"
+      "draft": "batch-1",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:salmon-maki:v1",
@@ -4068,7 +4107,10 @@
       ],
       "origin": "generated",
       "date": "2026-10-01",
-      "draft": "batch-1"
+      "draft": "batch-1",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:tuna-maki:v1",
@@ -4110,7 +4152,10 @@
       ],
       "origin": "generated",
       "date": "2026-10-01",
-      "draft": "batch-1"
+      "draft": "batch-1",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:salmon-onigiri:v1",
@@ -4153,7 +4198,10 @@
       ],
       "origin": "generated",
       "date": "2026-10-01",
-      "draft": "batch-1"
+      "draft": "batch-1",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:miso-soup:v1",
@@ -5037,7 +5085,10 @@
       ],
       "origin": "generated",
       "date": "2026-10-01",
-      "draft": "batch-1"
+      "draft": "batch-1",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:vegetable-fried-noodles:v1",
@@ -5159,7 +5210,10 @@
       ],
       "origin": "generated",
       "date": "2026-10-01",
-      "draft": "batch-1"
+      "draft": "batch-1",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:chicken-fried-rice:v1",
@@ -5221,7 +5275,10 @@
       ],
       "origin": "generated",
       "date": "2026-10-01",
-      "draft": "batch-1"
+      "draft": "batch-1",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:beef-with-broccoli:v1",
@@ -6190,13 +6247,16 @@
           "grams": 3
         },
         {
-          "reference": "bls:R421100",
+          "reference": "ciqual:11046",
           "grams": 2
         }
       ],
       "origin": "generated",
       "date": "2026-10-01",
-      "draft": "batch-1"
+      "draft": "batch-1",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:dan-dan-noodles:v1",
@@ -6529,7 +6589,10 @@
       ],
       "origin": "generated",
       "date": "2026-10-01",
-      "draft": "batch-1"
+      "draft": "batch-1",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:kimchi-jjigae:v1",
@@ -6797,7 +6860,10 @@
       ],
       "origin": "generated",
       "date": "2026-10-01",
-      "draft": "batch-1"
+      "draft": "batch-1",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:kimbap:v1",
@@ -7142,7 +7208,10 @@
       "origin": "generated",
       "date": "2026-10-01",
       "draft": "batch-2",
-      "tableRow": "usda:2708804"
+      "tableRow": "usda:2708804",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:thai-green-curry-with-chicken:v1",
@@ -8020,7 +8089,10 @@
       ],
       "origin": "generated",
       "date": "2026-10-01",
-      "draft": "batch-2"
+      "draft": "batch-2",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:pho-ga:v1",
@@ -8096,7 +8168,10 @@
       ],
       "origin": "generated",
       "date": "2026-10-01",
-      "draft": "batch-2"
+      "draft": "batch-2",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:bun-bo-hue:v1",
@@ -8499,7 +8574,7 @@
           "grams": 220
         },
         {
-          "reference": "bls:Y321222",
+          "reference": "bls:U522182",
           "grams": 130
         },
         {
@@ -8703,7 +8778,10 @@
       ],
       "origin": "generated",
       "date": "2026-10-01",
-      "draft": "batch-2"
+      "draft": "batch-2",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:butter-chicken:v1",
@@ -8783,7 +8861,10 @@
       ],
       "origin": "generated",
       "date": "2026-10-01",
-      "draft": "batch-2"
+      "draft": "batch-2",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:chicken-korma:v1",
@@ -9871,7 +9952,10 @@
       ],
       "origin": "generated",
       "date": "2026-10-01",
-      "draft": "batch-2"
+      "draft": "batch-2",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:vegetable-biryani:v1",
@@ -9946,7 +10030,10 @@
       ],
       "origin": "generated",
       "date": "2026-10-01",
-      "draft": "batch-2"
+      "draft": "batch-2",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:tandoori-chicken:v1",
@@ -10084,7 +10171,10 @@
       ],
       "origin": "generated",
       "date": "2026-10-01",
-      "draft": "batch-2"
+      "draft": "batch-2",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:seekh-kebab:v1",
@@ -10150,7 +10240,10 @@
       ],
       "origin": "generated",
       "date": "2026-10-01",
-      "draft": "batch-2"
+      "draft": "batch-2",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:vegetable-samosas:v1",
@@ -10220,7 +10313,10 @@
       ],
       "origin": "generated",
       "date": "2026-10-01",
-      "draft": "batch-2"
+      "draft": "batch-2",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:onion-bhaji:v1",
@@ -10422,7 +10518,8 @@
         "idli mit sambhar",
         "reisküchlein mit sambar"
       ],
-      "artworkID": "plate",
+      "artworkID": "rice-cracker",
+      "familyArtworkID": "plate",
       "serving": {
         "label": {
           "en": "3 idli with sambar",
@@ -10860,7 +10957,10 @@
       ],
       "origin": "generated",
       "date": "2026-10-01",
-      "draft": "batch-2"
+      "draft": "batch-2",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:chicken-tacos:v1",
@@ -10919,7 +11019,10 @@
       ],
       "origin": "generated",
       "date": "2026-10-01",
-      "draft": "batch-2"
+      "draft": "batch-2",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:fish-tacos:v1",
@@ -10948,7 +11051,7 @@
       },
       "ingredients": [
         {
-          "reference": "cofid:16-369",
+          "reference": "cofid:16-368",
           "grams": 100
         },
         {
@@ -10982,7 +11085,10 @@
       ],
       "origin": "generated",
       "date": "2026-10-01",
-      "draft": "batch-2"
+      "draft": "batch-2",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:tacos-al-pastor:v1",
@@ -11039,7 +11145,10 @@
       ],
       "origin": "generated",
       "date": "2026-10-01",
-      "draft": "batch-2"
+      "draft": "batch-2",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:carnitas-tacos:v1",
@@ -11096,7 +11205,10 @@
       ],
       "origin": "generated",
       "date": "2026-10-01",
-      "draft": "batch-2"
+      "draft": "batch-2",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:birria-tacos:v1",
@@ -11161,7 +11273,10 @@
       ],
       "origin": "generated",
       "date": "2026-10-01",
-      "draft": "batch-2"
+      "draft": "batch-2",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:chicken-burrito:v1",
@@ -11224,7 +11339,10 @@
       ],
       "origin": "generated",
       "date": "2026-10-01",
-      "draft": "batch-2"
+      "draft": "batch-2",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:beef-burrito:v1",
@@ -11288,7 +11406,10 @@
       ],
       "origin": "generated",
       "date": "2026-10-01",
-      "draft": "batch-2"
+      "draft": "batch-2",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:bean-burrito:v1",
@@ -11345,7 +11466,10 @@
       ],
       "origin": "generated",
       "date": "2026-10-01",
-      "draft": "batch-2"
+      "draft": "batch-2",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:chicken-quesadilla:v1",
@@ -11408,7 +11532,10 @@
       ],
       "origin": "generated",
       "date": "2026-10-01",
-      "draft": "batch-2"
+      "draft": "batch-2",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:cheese-quesadilla:v1",
@@ -11455,7 +11582,10 @@
       ],
       "origin": "generated",
       "date": "2026-10-01",
-      "draft": "batch-2"
+      "draft": "batch-2",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:chicken-fajitas:v1",
@@ -11674,7 +11804,10 @@
       ],
       "origin": "generated",
       "date": "2026-10-01",
-      "draft": "batch-2"
+      "draft": "batch-2",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:loaded-nachos:v1",
@@ -11737,7 +11870,10 @@
       ],
       "origin": "generated",
       "date": "2026-10-01",
-      "draft": "batch-2"
+      "draft": "batch-2",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:chimichanga:v1",
@@ -11922,7 +12058,10 @@
       ],
       "origin": "generated",
       "date": "2026-10-01",
-      "draft": "batch-2"
+      "draft": "batch-2",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:chilaquiles:v1",
@@ -12323,7 +12462,10 @@
       ],
       "origin": "generated",
       "date": "2026-10-01",
-      "draft": "batch-2"
+      "draft": "batch-2",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:falafel-plate:v1",
@@ -12386,7 +12528,10 @@
       ],
       "origin": "generated",
       "date": "2026-10-01",
-      "draft": "batch-2"
+      "draft": "batch-2",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:chicken-shawarma-wrap:v1",
@@ -12444,7 +12589,10 @@
       ],
       "origin": "generated",
       "date": "2026-10-01",
-      "draft": "batch-2"
+      "draft": "batch-2",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:shakshuka:v1",
@@ -12601,7 +12749,7 @@
       },
       "ingredients": [
         {
-          "reference": "usda:2709590",
+          "reference": "bls:G107100",
           "grams": 80
         },
         {
@@ -13017,7 +13165,7 @@
           "grams": 60
         },
         {
-          "reference": "ciqual:20141",
+          "reference": "usda:2709694",
           "grams": 50
         },
         {
@@ -13037,7 +13185,7 @@
           "grams": 10
         },
         {
-          "reference": "ciqual:11112",
+          "reference": "bls:R146100",
           "grams": 5
         }
       ],
@@ -13105,7 +13253,10 @@
       ],
       "origin": "generated",
       "date": "2026-10-01",
-      "draft": "batch-2"
+      "draft": "batch-2",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:chicken-doner:v1",
@@ -13167,7 +13318,10 @@
       ],
       "origin": "generated",
       "date": "2026-10-01",
-      "draft": "batch-2"
+      "draft": "batch-2",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:durum-kebab:v1",
@@ -13226,7 +13380,10 @@
       ],
       "origin": "generated",
       "date": "2026-10-01",
-      "draft": "batch-2"
+      "draft": "batch-2",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:doner-plate:v1",
@@ -13289,7 +13446,10 @@
       ],
       "origin": "generated",
       "date": "2026-10-01",
-      "draft": "batch-2"
+      "draft": "batch-2",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:doner-box:v1",
@@ -13343,7 +13503,10 @@
       ],
       "origin": "generated",
       "date": "2026-10-01",
-      "draft": "batch-2"
+      "draft": "batch-2",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:lahmacun:v1",
@@ -13410,7 +13573,10 @@
       ],
       "origin": "generated",
       "date": "2026-10-01",
-      "draft": "batch-2"
+      "draft": "batch-2",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:pide-with-minced-meat:v1",
@@ -13474,7 +13640,10 @@
       ],
       "origin": "generated",
       "date": "2026-10-01",
-      "draft": "batch-2"
+      "draft": "batch-2",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:kofte:v1",
@@ -13751,7 +13920,7 @@
       },
       "ingredients": [
         {
-          "reference": "usda:2709524",
+          "reference": "bls:K120164",
           "grams": 350
         },
         {
@@ -13785,7 +13954,10 @@
       ],
       "origin": "generated",
       "date": "2026-10-01",
-      "draft": "batch-3"
+      "draft": "batch-3",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:moussaka:v1",
@@ -13963,7 +14135,10 @@
       ],
       "origin": "generated",
       "date": "2026-10-01",
-      "draft": "batch-3"
+      "draft": "batch-3",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:gyros-pita:v1",
@@ -14018,7 +14193,10 @@
       ],
       "origin": "generated",
       "date": "2026-10-01",
-      "draft": "batch-3"
+      "draft": "batch-3",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:gyros-metaxa:v1",
@@ -14069,7 +14247,10 @@
       ],
       "origin": "generated",
       "date": "2026-10-01",
-      "draft": "batch-3"
+      "draft": "batch-3",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:pork-souvlaki:v1",
@@ -14120,7 +14301,10 @@
       ],
       "origin": "generated",
       "date": "2026-10-01",
-      "draft": "batch-3"
+      "draft": "batch-3",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:chicken-souvlaki:v1",
@@ -14170,7 +14354,10 @@
       ],
       "origin": "generated",
       "date": "2026-10-01",
-      "draft": "batch-3"
+      "draft": "batch-3",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:bifteki:v1",
@@ -14407,7 +14594,10 @@
       "origin": "generated",
       "date": "2026-10-01",
       "draft": "batch-3",
-      "tableRow": "bls:Y911160"
+      "tableRow": "bls:Y911160",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:hamburger:v1",
@@ -14471,7 +14661,10 @@
       "origin": "generated",
       "date": "2026-10-01",
       "draft": "batch-3",
-      "tableRow": "bls:Y911060"
+      "tableRow": "bls:Y911060",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:bacon-cheeseburger:v1",
@@ -14537,7 +14730,10 @@
       ],
       "origin": "generated",
       "date": "2026-10-01",
-      "draft": "batch-3"
+      "draft": "batch-3",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:smash-burger:v1",
@@ -14575,7 +14771,7 @@
           "grams": 40
         },
         {
-          "reference": "usda:2710213",
+          "reference": "bls:X357312",
           "grams": 15
         },
         {
@@ -14623,7 +14819,7 @@
       },
       "ingredients": [
         {
-          "reference": "usda:2707473",
+          "reference": "bls:H926100",
           "grams": 90
         },
         {
@@ -14654,7 +14850,10 @@
       "origin": "generated",
       "date": "2026-10-01",
       "draft": "batch-3",
-      "tableRow": "usda:2707481"
+      "tableRow": "usda:2707481",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:chicken-burger:v1",
@@ -14705,7 +14904,10 @@
       "origin": "generated",
       "date": "2026-10-01",
       "draft": "batch-3",
-      "tableRow": "bls:Y9A1000"
+      "tableRow": "bls:Y9A1000",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:fried-chicken-sandwich:v1",
@@ -14736,7 +14938,7 @@
           "grams": 140
         },
         {
-          "reference": "usda:2707682",
+          "reference": "bls:D461602",
           "grams": 70
         },
         {
@@ -14754,7 +14956,10 @@
       ],
       "origin": "generated",
       "date": "2026-10-01",
-      "draft": "batch-3"
+      "draft": "batch-3",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:pulled-pork-sandwich:v1",
@@ -14785,7 +14990,7 @@
           "grams": 120
         },
         {
-          "reference": "usda:2707682",
+          "reference": "bls:D461602",
           "grams": 70
         },
         {
@@ -14955,7 +15160,7 @@
           "grams": 30
         },
         {
-          "reference": "usda:2710213",
+          "reference": "bls:X357312",
           "grams": 20
         },
         {
@@ -15468,7 +15673,10 @@
       ],
       "origin": "generated",
       "date": "2026-10-01",
-      "draft": "batch-3"
+      "draft": "batch-3",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:lobster-roll:v1",
@@ -15626,7 +15834,7 @@
           "grams": 70
         },
         {
-          "reference": "usda:2709590",
+          "reference": "bls:G107100",
           "grams": 40
         },
         {
@@ -15695,7 +15903,10 @@
       "origin": "generated",
       "date": "2026-10-01",
       "draft": "batch-3",
-      "tableRow": "bls:Y021512"
+      "tableRow": "bls:Y021512",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:chili-dog:v1",
@@ -15832,7 +16043,7 @@
       },
       "ingredients": [
         {
-          "reference": "bls:V417172",
+          "reference": "bls:V417162",
           "grams": 200
         },
         {
@@ -15854,7 +16065,10 @@
       ],
       "origin": "generated",
       "date": "2026-10-01",
-      "draft": "batch-3"
+      "draft": "batch-3",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:fried-chicken:v1",
@@ -15894,7 +16108,10 @@
       ],
       "origin": "generated",
       "date": "2026-10-01",
-      "draft": "batch-3"
+      "draft": "batch-3",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:bbq-ribs:v1",
@@ -15926,7 +16143,7 @@
       },
       "ingredients": [
         {
-          "reference": "cofid:19-670",
+          "reference": "bls:U564162",
           "grams": 250
         },
         {
@@ -16046,7 +16263,10 @@
       ],
       "origin": "generated",
       "date": "2026-10-01",
-      "draft": "batch-3"
+      "draft": "batch-3",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:loaded-baked-potato:v1",
@@ -16075,7 +16295,7 @@
       },
       "ingredients": [
         {
-          "reference": "usda:2709524",
+          "reference": "bls:K120164",
           "grams": 300
         },
         {
@@ -16138,7 +16358,7 @@
           "grams": 80
         },
         {
-          "reference": "usda:2706342",
+          "reference": "bls:T797132",
           "grams": 60
         },
         {
@@ -16277,7 +16497,7 @@
           "grams": 200
         },
         {
-          "reference": "cofid:16-369",
+          "reference": "cofid:16-368",
           "grams": 180
         },
         {
@@ -16292,7 +16512,10 @@
       "origin": "generated",
       "date": "2026-10-01",
       "draft": "batch-3",
-      "tableRow": "bls:Y693932"
+      "tableRow": "bls:Y693932",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:shepherd-s-pie:v1",
@@ -16938,7 +17161,7 @@
           "grams": 150
         },
         {
-          "reference": "bls:G611132",
+          "reference": "bls:G611152",
           "grams": 120
         },
         {
@@ -16993,7 +17216,7 @@
           "grams": 50
         },
         {
-          "reference": "bls:G611132",
+          "reference": "bls:G611152",
           "grams": 30
         },
         {
@@ -17243,7 +17466,7 @@
       },
       "ingredients": [
         {
-          "reference": "usda:2709524",
+          "reference": "bls:K120164",
           "grams": 300
         },
         {
@@ -18370,7 +18593,7 @@
           "grams": 40
         },
         {
-          "reference": "ciqual:11108",
+          "reference": "bls:X351040",
           "grams": 20
         },
         {
@@ -19369,7 +19592,7 @@
           "grams": 40
         },
         {
-          "reference": "usda:2706173",
+          "reference": "cofid:19-114",
           "grams": 40
         },
         {
@@ -19473,7 +19696,10 @@
       ],
       "origin": "generated",
       "date": "2026-10-01",
-      "draft": "batch-4"
+      "draft": "batch-4",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:hunter-s-schnitzel:v1",
@@ -19879,7 +20105,7 @@
       },
       "ingredients": [
         {
-          "reference": "bls:X673042",
+          "reference": "bls:K241232",
           "grams": 200
         },
         {
@@ -19893,7 +20119,10 @@
       ],
       "origin": "generated",
       "date": "2026-10-01",
-      "draft": "batch-4"
+      "draft": "batch-4",
+      "collections": [
+        "seasonal"
+      ]
     },
     {
       "id": "akari:recipe:pork-knuckle:v1",
@@ -19975,7 +20204,10 @@
       ],
       "origin": "generated",
       "date": "2026-10-01",
-      "draft": "batch-4"
+      "draft": "batch-4",
+      "collections": [
+        "seasonal"
+      ]
     },
     {
       "id": "akari:recipe:flammkuchen:v1",
@@ -20029,7 +20261,10 @@
       ],
       "origin": "generated",
       "date": "2026-10-01",
-      "draft": "batch-4"
+      "draft": "batch-4",
+      "collections": [
+        "seasonal"
+      ]
     },
     {
       "id": "akari:recipe:maultaschen:v1",
@@ -20214,7 +20449,10 @@
       ],
       "origin": "generated",
       "date": "2026-10-01",
-      "draft": "batch-4"
+      "draft": "batch-4",
+      "collections": [
+        "seasonal"
+      ]
     },
     {
       "id": "akari:recipe:fried-potatoes-with-fried-egg:v1",
@@ -20447,7 +20685,7 @@
       },
       "ingredients": [
         {
-          "reference": "bls:K110100",
+          "reference": "bls:K120100",
           "grams": 200
         },
         {
@@ -20473,7 +20711,10 @@
       ],
       "origin": "generated",
       "date": "2026-10-01",
-      "draft": "batch-4"
+      "draft": "batch-4",
+      "collections": [
+        "seasonal"
+      ]
     },
     {
       "id": "akari:recipe:potatoes-with-herb-quark:v1",
@@ -20811,7 +21052,10 @@
       ],
       "origin": "generated",
       "date": "2026-10-01",
-      "draft": "batch-4"
+      "draft": "batch-4",
+      "collections": [
+        "seasonal"
+      ]
     },
     {
       "id": "akari:recipe:german-potato-soup:v1",
@@ -20906,7 +21150,7 @@
           "grams": 200
         },
         {
-          "reference": "usda:2707420",
+          "reference": "bls:G760432",
           "grams": 150
         },
         {
@@ -20968,7 +21212,7 @@
           "grams": 40
         },
         {
-          "reference": "bls:W231100",
+          "reference": "bls:W234000",
           "grams": 40
         },
         {
@@ -20986,7 +21230,10 @@
       ],
       "origin": "generated",
       "date": "2026-10-01",
-      "draft": "batch-4"
+      "draft": "batch-4",
+      "collections": [
+        "seasonal"
+      ]
     },
     {
       "id": "akari:recipe:wiener-schnitzel:v1",
@@ -21088,7 +21335,7 @@
           "grams": 20
         },
         {
-          "reference": "bls:G630100",
+          "reference": "bls:G898300",
           "grams": 10
         },
         {
@@ -21364,7 +21611,10 @@
       ],
       "origin": "generated",
       "date": "2026-10-01",
-      "draft": "batch-4"
+      "draft": "batch-4",
+      "collections": [
+        "seasonal"
+      ]
     },
     {
       "id": "akari:recipe:apple-strudel:v1",
@@ -22457,7 +22707,10 @@
       ],
       "origin": "generated",
       "date": "2026-10-01",
-      "draft": "batch-4"
+      "draft": "batch-4",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:biscuits-and-gravy:v1",
@@ -22732,7 +22985,7 @@
       },
       "ingredients": [
         {
-          "reference": "usda:2709590",
+          "reference": "bls:G107100",
           "grams": 100
         },
         {
@@ -22752,11 +23005,11 @@
           "grams": 50
         },
         {
-          "reference": "usda:2705705",
+          "reference": "bls:M502700",
           "grams": 25
         },
         {
-          "reference": "ciqual:11108",
+          "reference": "bls:X351040",
           "grams": 25
         },
         {
@@ -22821,7 +23074,7 @@
           "grams": 30
         },
         {
-          "reference": "usda:2710213",
+          "reference": "bls:X357312",
           "grams": 30
         }
       ],
@@ -22932,7 +23185,7 @@
           "grams": 30
         },
         {
-          "reference": "ciqual:11108",
+          "reference": "bls:X351040",
           "grams": 30
         },
         {
@@ -22976,7 +23229,7 @@
           "grams": 80
         },
         {
-          "reference": "usda:2705716",
+          "reference": "bls:M6A9600",
           "grams": 80
         },
         {
@@ -22988,7 +23241,7 @@
           "grams": 30
         },
         {
-          "reference": "ciqual:11108",
+          "reference": "bls:X351040",
           "grams": 25
         },
         {
@@ -23555,7 +23808,10 @@
       ],
       "origin": "generated",
       "date": "2026-10-01",
-      "draft": "batch-4"
+      "draft": "batch-4",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:tuna-poke-bowl:v1",
@@ -23630,7 +23886,10 @@
       ],
       "origin": "generated",
       "date": "2026-10-01",
-      "draft": "batch-4"
+      "draft": "batch-4",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:buddha-bowl:v1",
@@ -23821,7 +24080,10 @@
       ],
       "origin": "generated",
       "date": "2026-10-01",
-      "draft": "batch-4"
+      "draft": "batch-4",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:tiramisu:v1",
@@ -24500,7 +24762,7 @@
       },
       "ingredients": [
         {
-          "reference": "bls:F504400",
+          "reference": "usda:2709203",
           "grams": 25
         },
         {
@@ -25007,13 +25269,16 @@
           "grams": 80
         },
         {
-          "reference": "bls:S145000",
+          "reference": "usda:2710289",
           "grams": 25
         }
       ],
       "origin": "generated",
       "date": "2026-10-01",
-      "draft": "batch-5"
+      "draft": "batch-5",
+      "collections": [
+        "seasonal"
+      ]
     },
     {
       "id": "akari:recipe:pavlova:v1",
@@ -25171,7 +25436,10 @@
       ],
       "origin": "generated",
       "date": "2026-10-01",
-      "draft": "batch-5"
+      "draft": "batch-5",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:baklava:v1",
@@ -25215,8 +25483,12 @@
           "grams": 15
         },
         {
-          "reference": "usda:2710278",
-          "grams": 30
+          "reference": "ciqual:31016",
+          "grams": 15
+        },
+        {
+          "reference": "usda:2710706",
+          "grams": 15
         }
       ],
       "origin": "generated",
@@ -25258,8 +25530,12 @@
           "grams": 15
         },
         {
-          "reference": "usda:2710278",
-          "grams": 35
+          "reference": "ciqual:31016",
+          "grams": 18
+        },
+        {
+          "reference": "usda:2710706",
+          "grams": 17
         },
         {
           "reference": "bls:H250100",
@@ -25355,8 +25631,12 @@
           "grams": 12
         },
         {
-          "reference": "usda:2710278",
-          "grams": 45
+          "reference": "ciqual:31016",
+          "grams": 22
+        },
+        {
+          "reference": "usda:2710706",
+          "grams": 23
         }
       ],
       "origin": "generated",
@@ -25739,7 +26019,10 @@
       ],
       "origin": "generated",
       "date": "2026-10-01",
-      "draft": "batch-5"
+      "draft": "batch-5",
+      "collections": [
+        "tea"
+      ]
     },
     {
       "id": "akari:recipe:homemade-lemonade:v1",
@@ -25990,7 +26273,7 @@
       },
       "ingredients": [
         {
-          "reference": "usda:2705411",
+          "reference": "bls:C650200",
           "grams": 220
         },
         {
@@ -26567,7 +26850,10 @@
       "origin": "generated",
       "date": "2026-10-01",
       "draft": "batch-5",
-      "tableRow": "bls:Y780163"
+      "tableRow": "bls:Y780163",
+      "collections": [
+        "seasonal"
+      ]
     },
     {
       "id": "akari:recipe:raclette:v1",
@@ -26613,7 +26899,10 @@
       ],
       "origin": "generated",
       "date": "2026-10-01",
-      "draft": "batch-5"
+      "draft": "batch-5",
+      "collections": [
+        "seasonal"
+      ]
     },
     {
       "id": "akari:recipe:poutine:v1",
@@ -26859,7 +27148,11 @@
       "origin": "generated",
       "date": "2026-10-01",
       "draft": "batch-5",
-      "tableRow": "bls:X041910"
+      "tableRow": "bls:X041910",
+      "collections": [
+        "seasonal",
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:baguette-roll-with-ham-cheese-tomato-and-remoulade:v1",
@@ -27044,7 +27337,10 @@
       "origin": "generated",
       "date": "2026-10-01",
       "draft": "batch-5",
-      "tableRow": "bls:X061410"
+      "tableRow": "bls:X061410",
+      "collections": [
+        "seasonal"
+      ]
     },
     {
       "id": "akari:recipe:baked-baguette-with-ham-cream-cheese-tomato-and-mushrooms:v1",
@@ -28730,7 +29026,7 @@
           "grams": 25
         },
         {
-          "reference": "ciqual:11108",
+          "reference": "bls:X351040",
           "grams": 20
         }
       ],
@@ -28789,7 +29085,7 @@
           "grams": 30
         },
         {
-          "reference": "ciqual:11108",
+          "reference": "bls:X351040",
           "grams": 25
         }
       ],
@@ -28825,7 +29121,7 @@
       },
       "ingredients": [
         {
-          "reference": "cofid:13-240",
+          "reference": "bls:G102100",
           "grams": 100
         },
         {
@@ -29081,7 +29377,7 @@
           "grams": 5
         },
         {
-          "reference": "bls:G263100",
+          "reference": "ciqual:20111",
           "grams": 5
         },
         {
@@ -30758,7 +31054,10 @@
       "origin": "generated",
       "date": "2026-10-01",
       "draft": "batch-7",
-      "tableRow": "bls:X444453"
+      "tableRow": "bls:X444453",
+      "collections": [
+        "seasonal"
+      ]
     },
     {
       "id": "akari:recipe:cream-of-cucumber-soup:v1",
@@ -31220,7 +31519,10 @@
       "origin": "generated",
       "date": "2026-10-01",
       "draft": "batch-7",
-      "tableRow": "bls:X445863"
+      "tableRow": "bls:X445863",
+      "collections": [
+        "seasonal"
+      ]
     },
     {
       "id": "akari:recipe:carrot-soup:v1",
@@ -31359,7 +31661,7 @@
           "grams": 20
         },
         {
-          "reference": "bls:G630100",
+          "reference": "bls:G898300",
           "grams": 5
         },
         {
@@ -31881,7 +32183,7 @@
           "grams": 15
         },
         {
-          "reference": "usda:2706173",
+          "reference": "cofid:19-114",
           "grams": 40
         },
         {
@@ -32505,7 +32807,7 @@
           "grams": 20
         },
         {
-          "reference": "cofid:18-372",
+          "reference": "ciqual:36202",
           "grams": 50
         },
         {
@@ -33161,7 +33463,7 @@
       },
       "ingredients": [
         {
-          "reference": "usda:2706349",
+          "reference": "bls:T730132",
           "grams": 40
         },
         {
@@ -34056,7 +34358,7 @@
           "grams": 200
         },
         {
-          "reference": "bls:U632172",
+          "reference": "bls:U532172",
           "grams": 100
         },
         {
@@ -34236,7 +34538,7 @@
           "grams": 200
         },
         {
-          "reference": "usda:2706173",
+          "reference": "cofid:19-114",
           "grams": 60
         },
         {
@@ -34297,7 +34599,7 @@
       },
       "ingredients": [
         {
-          "reference": "usda:2707420",
+          "reference": "bls:G760432",
           "grams": 180
         },
         {
@@ -34415,7 +34717,7 @@
       },
       "ingredients": [
         {
-          "reference": "usda:2707420",
+          "reference": "bls:G760432",
           "grams": 150
         },
         {
@@ -34483,7 +34785,7 @@
       },
       "ingredients": [
         {
-          "reference": "usda:2707420",
+          "reference": "bls:G760432",
           "grams": 160
         },
         {
@@ -34805,7 +35107,7 @@
           "grams": 150
         },
         {
-          "reference": "cofid:13-648",
+          "reference": "bls:G730132",
           "grams": 100
         },
         {
@@ -35455,7 +35757,7 @@
       },
       "ingredients": [
         {
-          "reference": "usda:2709600",
+          "reference": "bls:G322132",
           "grams": 150
         },
         {
@@ -35505,7 +35807,7 @@
       },
       "ingredients": [
         {
-          "reference": "usda:2709600",
+          "reference": "bls:G322132",
           "grams": 150
         },
         {
@@ -35555,7 +35857,7 @@
       },
       "ingredients": [
         {
-          "reference": "bls:G611132",
+          "reference": "bls:G611152",
           "grams": 200
         },
         {
@@ -39422,7 +39724,7 @@
           "grams": 30
         },
         {
-          "reference": "mext:14016",
+          "reference": "usda:2710166",
           "grams": 8
         },
         {
@@ -43556,7 +43858,7 @@
       },
       "ingredients": [
         {
-          "reference": "usda:2709524",
+          "reference": "bls:K120164",
           "grams": 250
         },
         {
@@ -43638,7 +43940,7 @@
       },
       "ingredients": [
         {
-          "reference": "bls:K110100",
+          "reference": "bls:K120100",
           "grams": 230
         },
         {
@@ -43662,7 +43964,7 @@
           "grams": 80
         },
         {
-          "reference": "bls:Y840563",
+          "reference": "bls:F401902",
           "grams": 25
         }
       ],
@@ -43947,7 +44249,7 @@
       },
       "ingredients": [
         {
-          "reference": "bls:X673042",
+          "reference": "bls:K241232",
           "grams": 200
         },
         {
@@ -44320,7 +44622,7 @@
       },
       "ingredients": [
         {
-          "reference": "ciqual:20141",
+          "reference": "usda:2709694",
           "grams": 120
         },
         {
@@ -45125,7 +45427,7 @@
           "grams": 180
         },
         {
-          "reference": "cofid:12-176",
+          "reference": "usda:2705750",
           "grams": 50
         },
         {
@@ -45287,7 +45589,7 @@
           "grams": 40
         },
         {
-          "reference": "usda:2705705",
+          "reference": "bls:M502700",
           "grams": 15
         },
         {
@@ -45910,7 +46212,7 @@
           "grams": 130
         },
         {
-          "reference": "cofid:12-176",
+          "reference": "usda:2705750",
           "grams": 40
         },
         {
@@ -47630,7 +47932,7 @@
           "grams": 70
         },
         {
-          "reference": "bls:C650000",
+          "reference": "bls:C650200",
           "grams": 200
         },
         {
@@ -47899,7 +48201,10 @@
       "origin": "generated",
       "date": "2026-10-01",
       "draft": "batch-11",
-      "tableRow": "bls:X8A1090"
+      "tableRow": "bls:X8A1090",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:swabian-onion-tart-with-bacon:v1",
@@ -49466,7 +49771,10 @@
       "origin": "generated",
       "date": "2026-10-01",
       "draft": "batch-11",
-      "tableRow": "bls:X987112"
+      "tableRow": "bls:X987112",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:pizza-baguette-with-vegetables-and-feta:v1",
@@ -50212,7 +50520,7 @@
           "grams": 25
         },
         {
-          "reference": "bls:R421100",
+          "reference": "ciqual:11046",
           "grams": 3
         }
       ],
@@ -50288,7 +50596,10 @@
       "origin": "generated",
       "date": "2026-10-01",
       "draft": "batch-11",
-      "tableRow": "bls:X9A4010"
+      "tableRow": "bls:X9A4010",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:pancake-bake-with-spinach:v1",
@@ -51081,7 +51392,7 @@
           "grams": 180
         },
         {
-          "reference": "bls:Y790160",
+          "reference": "bls:Q656000",
           "grams": 15
         }
       ],
@@ -51215,7 +51526,7 @@
           "grams": 200
         },
         {
-          "reference": "bls:Y790160",
+          "reference": "bls:Q656000",
           "grams": 15
         }
       ],
@@ -54657,7 +54968,7 @@
       },
       "ingredients": [
         {
-          "reference": "bls:V416182",
+          "reference": "bls:Y562032",
           "grams": 140
         },
         {
@@ -55195,7 +55506,7 @@
       },
       "ingredients": [
         {
-          "reference": "bls:V416182",
+          "reference": "bls:Y562032",
           "grams": 140
         },
         {
@@ -55377,7 +55688,10 @@
       "origin": "generated",
       "date": "2026-10-01",
       "draft": "batch-13",
-      "tableRow": "bls:Y610512"
+      "tableRow": "bls:Y610512",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:matjes-herring-with-onions:v1",
@@ -55447,7 +55761,7 @@
           "grams": 60
         },
         {
-          "reference": "cofid:16-369",
+          "reference": "cofid:16-368",
           "grams": 90
         },
         {
@@ -55462,7 +55776,10 @@
       "origin": "generated",
       "date": "2026-10-01",
       "draft": "batch-13",
-      "tableRow": "bls:Y610712"
+      "tableRow": "bls:Y610712",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:herring-in-cream-sauce:v1",
@@ -56669,7 +56986,7 @@
           "grams": 250
         },
         {
-          "reference": "bls:G630100",
+          "reference": "bls:G898300",
           "grams": 10
         }
       ],
@@ -56970,7 +57287,7 @@
           "grams": 8
         },
         {
-          "reference": "usda:2710188",
+          "reference": "bls:Q180000",
           "grams": 3
         },
         {
@@ -57231,7 +57548,7 @@
           "grams": 10
         },
         {
-          "reference": "usda:2710188",
+          "reference": "bls:Q180000",
           "grams": 3
         },
         {
@@ -57716,7 +58033,8 @@
         "schnecken mit kräuterbutter",
         "burgunder schnecken"
       ],
-      "artworkID": "plate",
+      "artworkID": "oyster",
+      "familyArtworkID": "plate",
       "serving": {
         "label": {
           "en": "1 portion",
@@ -57939,7 +58257,7 @@
           "grams": 200
         },
         {
-          "reference": "bls:X320053",
+          "reference": "bls:X320243",
           "grams": 80
         },
         {
@@ -58011,7 +58329,7 @@
           "grams": 3
         },
         {
-          "reference": "usda:2710188",
+          "reference": "bls:Q180000",
           "grams": 4
         }
       ],
@@ -58048,7 +58366,7 @@
           "grams": 200
         },
         {
-          "reference": "bls:X320053",
+          "reference": "bls:X320243",
           "grams": 80
         },
         {
@@ -58335,7 +58653,7 @@
           "grams": 140
         },
         {
-          "reference": "bls:X320053",
+          "reference": "bls:X320243",
           "grams": 80
         },
         {
@@ -58540,7 +58858,7 @@
           "grams": 10
         },
         {
-          "reference": "usda:2710188",
+          "reference": "bls:Q180000",
           "grams": 8
         }
       ],
@@ -60192,7 +60510,7 @@
       },
       "ingredients": [
         {
-          "reference": "usda:2705707",
+          "reference": "bls:M602600",
           "grams": 100
         },
         {
@@ -60499,7 +60817,7 @@
       },
       "ingredients": [
         {
-          "reference": "usda:2705707",
+          "reference": "bls:M602600",
           "grams": 125
         },
         {
@@ -60837,7 +61155,7 @@
           "grams": 10
         },
         {
-          "reference": "usda:2710703",
+          "reference": "bls:P741000",
           "grams": 10
         },
         {
@@ -60900,7 +61218,10 @@
       "origin": "generated",
       "date": "2026-10-01",
       "draft": "batch-15",
-      "tableRow": "bls:Y813442"
+      "tableRow": "bls:Y813442",
+      "collections": [
+        "seasonal"
+      ]
     },
     {
       "id": "akari:recipe:savoury-dampfnudeln:v1",
@@ -62055,7 +62376,7 @@
           "grams": 40
         },
         {
-          "reference": "cofid:14-074",
+          "reference": "bls:F840300",
           "grams": 15
         },
         {
@@ -62295,7 +62616,10 @@
       "origin": "generated",
       "date": "2026-10-01",
       "draft": "batch-15",
-      "tableRow": "bls:Y845143"
+      "tableRow": "bls:Y845143",
+      "collections": [
+        "seasonal"
+      ]
     },
     {
       "id": "akari:recipe:baked-apple:v1",
@@ -62335,7 +62659,10 @@
       "origin": "generated",
       "date": "2026-10-01",
       "draft": "batch-15",
-      "tableRow": "bls:Y845163"
+      "tableRow": "bls:Y845163",
+      "collections": [
+        "seasonal"
+      ]
     },
     {
       "id": "akari:recipe:apple-schmarren:v1",
@@ -62435,7 +62762,7 @@
           "grams": 10
         },
         {
-          "reference": "usda:2710703",
+          "reference": "bls:P741000",
           "grams": 5
         },
         {
@@ -63119,7 +63446,7 @@
           "grams": 3
         },
         {
-          "reference": "usda:2710703",
+          "reference": "bls:P741000",
           "grams": 10
         }
       ],
@@ -63778,7 +64105,7 @@
           "grams": 2
         },
         {
-          "reference": "usda:2710703",
+          "reference": "bls:P741000",
           "grams": 8
         }
       ],
@@ -64097,7 +64424,7 @@
           "grams": 5
         },
         {
-          "reference": "usda:2710703",
+          "reference": "bls:P741000",
           "grams": 5
         }
       ],
@@ -64342,7 +64669,7 @@
           "grams": 3
         },
         {
-          "reference": "usda:2710703",
+          "reference": "bls:P741000",
           "grams": 5
         }
       ],
@@ -64626,7 +64953,7 @@
           "grams": 15
         },
         {
-          "reference": "bls:R421100",
+          "reference": "ciqual:11046",
           "grams": 3
         },
         {
@@ -64834,7 +65161,7 @@
           "grams": 20
         },
         {
-          "reference": "usda:2709281",
+          "reference": "bls:F302100",
           "grams": 80
         },
         {
@@ -66126,7 +66453,10 @@
       "origin": "generated",
       "date": "2026-10-01",
       "draft": "batch-16",
-      "tableRow": "bls:Y910030"
+      "tableRow": "bls:Y910030",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:double-cheeseburger:v1",
@@ -66183,7 +66513,10 @@
       "origin": "generated",
       "date": "2026-10-01",
       "draft": "batch-16",
-      "tableRow": "bls:Y911260"
+      "tableRow": "bls:Y911260",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:double-decker-burger:v1",
@@ -66225,7 +66558,7 @@
           "grams": 20
         },
         {
-          "reference": "usda:2710213",
+          "reference": "bls:X357312",
           "grams": 25
         },
         {
@@ -66320,7 +66653,10 @@
       "origin": "generated",
       "date": "2026-10-01",
       "draft": "batch-16",
-      "tableRow": "bls:Y912060"
+      "tableRow": "bls:Y912060",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:frikadelle-with-potato-salad:v1",
@@ -66404,7 +66740,10 @@
       "origin": "generated",
       "date": "2026-10-01",
       "draft": "batch-16",
-      "tableRow": "bls:Y912160"
+      "tableRow": "bls:Y912160",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:frikadelle-with-fried-potatoes-and-ketchup:v1",
@@ -66890,7 +67229,10 @@
       "origin": "generated",
       "date": "2026-10-01",
       "draft": "batch-16",
-      "tableRow": "bls:Y942062"
+      "tableRow": "bls:Y942062",
+      "collections": [
+        "seasonal"
+      ]
     },
     {
       "id": "akari:recipe:bratwurst-with-potato-salad:v1",
@@ -66974,7 +67316,10 @@
       "origin": "generated",
       "date": "2026-10-01",
       "draft": "batch-16",
-      "tableRow": "bls:Y943062"
+      "tableRow": "bls:Y943062",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:currywurst-with-fries:v1",
@@ -67015,7 +67360,10 @@
       "origin": "generated",
       "date": "2026-10-01",
       "draft": "batch-16",
-      "tableRow": "bls:Y944062"
+      "tableRow": "bls:Y944062",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:rostbratwurst-with-mustard:v1",
@@ -67221,7 +67569,10 @@
       "origin": "generated",
       "date": "2026-10-01",
       "draft": "batch-16",
-      "tableRow": "bls:Y946162"
+      "tableRow": "bls:Y946162",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:vanilla-ice-cream-with-whipped-cream:v1",
@@ -67382,7 +67733,7 @@
           "grams": 100
         },
         {
-          "reference": "usda:2709281",
+          "reference": "bls:F302100",
           "grams": 40
         },
         {
@@ -67483,7 +67834,7 @@
           "grams": 10
         },
         {
-          "reference": "usda:2709281",
+          "reference": "bls:F302100",
           "grams": 15
         }
       ],
@@ -67597,7 +67948,10 @@
       "origin": "generated",
       "date": "2026-10-01",
       "draft": "batch-17",
-      "tableRow": "bls:Y9A1020"
+      "tableRow": "bls:Y9A1020",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:vegan-tofu-burger:v1",
@@ -69169,7 +69523,10 @@
       "origin": "generated",
       "date": "2026-10-01",
       "draft": "batch-17",
-      "tableRow": "ciqual:25558"
+      "tableRow": "ciqual:25558",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:potato-brik:v1",
@@ -69359,7 +69716,7 @@
           "grams": 200
         },
         {
-          "reference": "ciqual:11108",
+          "reference": "bls:X351040",
           "grams": 25
         },
         {
@@ -69605,7 +69962,7 @@
           "grams": 15
         },
         {
-          "reference": "usda:2710192",
+          "reference": "bls:Q320000",
           "grams": 10
         }
       ],
@@ -69786,7 +70143,10 @@
       "origin": "generated",
       "date": "2026-10-01",
       "draft": "batch-17",
-      "tableRow": "cofid:19-614"
+      "tableRow": "cofid:19-614",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:shrimp-macaroni-gratin:v1",
@@ -70201,7 +70561,10 @@
       "origin": "generated",
       "date": "2026-10-01",
       "draft": "batch-17",
-      "tableRow": "mext:18022"
+      "tableRow": "mext:18022",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:spinach-shiraae:v1",
@@ -74324,7 +74687,10 @@
       "origin": "generated",
       "date": "2026-10-01",
       "draft": "batch-19",
-      "tableRow": "usda:2706887"
+      "tableRow": "usda:2706887",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:hamburger-sliders:v1",
@@ -74378,7 +74744,10 @@
       "origin": "generated",
       "date": "2026-10-01",
       "draft": "batch-19",
-      "tableRow": "usda:2706919"
+      "tableRow": "usda:2706919",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:double-hamburger:v1",
@@ -74434,7 +74803,10 @@
       "origin": "generated",
       "date": "2026-10-01",
       "draft": "batch-19",
-      "tableRow": "usda:2706936"
+      "tableRow": "usda:2706936",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:meatloaf-sandwich:v1",
@@ -74620,7 +74992,7 @@
           "grams": 20
         },
         {
-          "reference": "bls:G630100",
+          "reference": "bls:G898300",
           "grams": 5
         },
         {
@@ -74781,7 +75153,7 @@
           "grams": 5
         },
         {
-          "reference": "usda:2710213",
+          "reference": "bls:X357312",
           "grams": 15
         }
       ],
@@ -75505,7 +75877,7 @@
           "grams": 65
         },
         {
-          "reference": "cofid:16-369",
+          "reference": "cofid:16-368",
           "grams": 80
         },
         {
@@ -75709,7 +76081,7 @@
           "grams": 60
         },
         {
-          "reference": "usda:2706176",
+          "reference": "bls:W234000",
           "grams": 40
         },
         {
@@ -75833,7 +76205,7 @@
           "grams": 10
         },
         {
-          "reference": "ciqual:11108",
+          "reference": "bls:X351040",
           "grams": 15
         }
       ],
@@ -76144,7 +76516,7 @@
       },
       "ingredients": [
         {
-          "reference": "usda:2706349",
+          "reference": "bls:T730132",
           "grams": 110
         },
         {
@@ -76736,7 +77108,7 @@
           "grams": 150
         },
         {
-          "reference": "usda:2710158",
+          "reference": "bls:Q400000",
           "grams": 9
         },
         {
@@ -76818,7 +77190,7 @@
       },
       "ingredients": [
         {
-          "reference": "usda:2708304",
+          "reference": "bls:X929212",
           "grams": 70
         },
         {
@@ -77077,7 +77449,7 @@
       },
       "ingredients": [
         {
-          "reference": "usda:2708304",
+          "reference": "bls:X929212",
           "grams": 70
         },
         {
@@ -77487,7 +77859,7 @@
           "grams": 60
         },
         {
-          "reference": "usda:2707533",
+          "reference": "bls:H212800",
           "grams": 32
         }
       ],
@@ -77527,7 +77899,7 @@
           "grams": 60
         },
         {
-          "reference": "usda:2707533",
+          "reference": "bls:H212800",
           "grams": 25
         },
         {
@@ -77571,7 +77943,7 @@
           "grams": 60
         },
         {
-          "reference": "bls:S145000",
+          "reference": "usda:2710289",
           "grams": 30
         }
       ],
@@ -77635,7 +78007,10 @@
       "origin": "generated",
       "date": "2026-10-01",
       "draft": "batch-19",
-      "tableRow": "usda:2708008"
+      "tableRow": "usda:2708008",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:sweet-tamale:v1",
@@ -77668,7 +78043,7 @@
           "grams": 90
         },
         {
-          "reference": "mext:14016",
+          "reference": "usda:2710166",
           "grams": 14
         },
         {
@@ -77853,7 +78228,10 @@
       "origin": "generated",
       "date": "2026-10-01",
       "draft": "batch-20",
-      "tableRow": "usda:2708507"
+      "tableRow": "usda:2708507",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:vegetarian-taco-salad:v1",
@@ -77918,7 +78296,10 @@
       "origin": "generated",
       "date": "2026-10-01",
       "draft": "batch-20",
-      "tableRow": "usda:2708510"
+      "tableRow": "usda:2708510",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:tamale-pie:v1",
@@ -78025,7 +78406,10 @@
       "origin": "generated",
       "date": "2026-10-01",
       "draft": "batch-20",
-      "tableRow": "usda:2708615"
+      "tableRow": "usda:2708615",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:pepperoni-pizza:v1",
@@ -78071,7 +78455,10 @@
       "origin": "generated",
       "date": "2026-10-01",
       "draft": "batch-20",
-      "tableRow": "usda:2708639"
+      "tableRow": "usda:2708639",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:meat-lovers-pizza:v1",
@@ -78131,7 +78518,10 @@
       "origin": "generated",
       "date": "2026-10-01",
       "draft": "batch-20",
-      "tableRow": "usda:2708657"
+      "tableRow": "usda:2708657",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:supreme-pizza:v1",
@@ -78198,7 +78588,10 @@
       "origin": "generated",
       "date": "2026-10-01",
       "draft": "batch-20",
-      "tableRow": "usda:2708663"
+      "tableRow": "usda:2708663",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:bean-and-vegetable-pizza:v1",
@@ -78294,7 +78687,7 @@
           "grams": 50
         },
         {
-          "reference": "cofid:12-176",
+          "reference": "usda:2705750",
           "grams": 40
         },
         {
@@ -78364,7 +78757,10 @@
       "origin": "generated",
       "date": "2026-10-01",
       "draft": "batch-20",
-      "tableRow": "usda:2708686"
+      "tableRow": "usda:2708686",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:breakfast-pizza:v1",
@@ -78514,7 +78910,7 @@
           "grams": 20
         },
         {
-          "reference": "usda:2705705",
+          "reference": "bls:M502700",
           "grams": 15
         },
         {
@@ -78679,7 +79075,7 @@
           "grams": 60
         },
         {
-          "reference": "cofid:12-176",
+          "reference": "usda:2705750",
           "grams": 40
         },
         {
@@ -78736,7 +79132,7 @@
           "grams": 100
         },
         {
-          "reference": "cofid:12-176",
+          "reference": "usda:2705750",
           "grams": 40
         },
         {
@@ -78941,7 +79337,10 @@
       "origin": "generated",
       "date": "2026-10-01",
       "draft": "batch-20",
-      "tableRow": "usda:2708806"
+      "tableRow": "usda:2708806",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:pad-thai-with-beef:v1",
@@ -79017,7 +79416,10 @@
       "origin": "generated",
       "date": "2026-10-01",
       "draft": "batch-20",
-      "tableRow": "usda:2708808"
+      "tableRow": "usda:2708808",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:macaroni-salad:v1",
@@ -79121,7 +79523,10 @@
       "origin": "generated",
       "date": "2026-10-01",
       "draft": "batch-20",
-      "tableRow": "usda:2708960"
+      "tableRow": "usda:2708960",
+      "collections": [
+        "takeaway"
+      ]
     },
     {
       "id": "akari:recipe:asopao-de-pollo:v1",
@@ -80546,7 +80951,7 @@
       },
       "ingredients": [
         {
-          "reference": "usda:2710310",
+          "reference": "bls:Y860212",
           "grams": 120
         },
         {
@@ -80625,7 +81030,2564 @@
       ],
       "origin": "generated",
       "date": "2026-10-22",
-      "draft": "batch-21"
+      "draft": "batch-21",
+      "collections": [
+        "takeaway"
+      ]
+    },
+    {
+      "id": "akari:recipe:tea-with-honey:v1",
+      "names": {
+        "en": "Tea with honey",
+        "de": "Tee mit Honig"
+      },
+      "aliases": [
+        "tea with honey",
+        "honey tea",
+        "black tea with honey",
+        "tee mit honig",
+        "schwarztee mit honig",
+        "honigtee"
+      ],
+      "artworkID": "tea",
+      "serving": {
+        "label": {
+          "en": "1 cup",
+          "de": "1 Tasse"
+        },
+        "count": 1
+      },
+      "ingredients": [
+        {
+          "reference": "usda:2710488",
+          "grams": 250
+        },
+        {
+          "reference": "usda:2710281",
+          "grams": 10
+        }
+      ],
+      "notes": "One 250 ml cup of brewed black tea sweetened with half a tablespoon (10 g) of honey.",
+      "origin": "reviewed",
+      "collections": [
+        "tea"
+      ]
+    },
+    {
+      "id": "akari:recipe:moroccan-mint-tea:v1",
+      "names": {
+        "en": "Moroccan mint tea",
+        "de": "Marokkanischer Minztee"
+      },
+      "aliases": [
+        "moroccan mint tea",
+        "maghrebi mint tea",
+        "touareg tea",
+        "mint tea with sugar",
+        "marokkanischer minztee",
+        "minztee mit zucker",
+        "marokkanischer tee",
+        "nana-minztee"
+      ],
+      "artworkID": "tea",
+      "serving": {
+        "label": {
+          "en": "1 glass",
+          "de": "1 Glas"
+        },
+        "count": 1
+      },
+      "ingredients": [
+        {
+          "reference": "usda:2710490",
+          "grams": 200
+        },
+        {
+          "reference": "ciqual:31016",
+          "grams": 15
+        },
+        {
+          "reference": "ciqual:11027",
+          "grams": 3
+        }
+      ],
+      "notes": "One 200 ml glass of green (gunpowder) tea brewed with a sprig of fresh mint (3 g) and sweetened the Moroccan way with about 15 g of sugar.",
+      "origin": "reviewed",
+      "collections": [
+        "tea"
+      ]
+    },
+    {
+      "id": "akari:recipe:ginger-lemon-honey-tea:v1",
+      "names": {
+        "en": "Ginger lemon honey tea",
+        "de": "Ingwer-Zitrone-Honig-Tee"
+      },
+      "aliases": [
+        "ginger lemon honey tea",
+        "ginger lemon tea",
+        "ginger tea with lemon and honey",
+        "hot ginger lemon",
+        "ingwer-zitrone-honig",
+        "ingwer zitrone honig",
+        "ingwertee mit zitrone und honig",
+        "ingwertee mit honig",
+        "heiße zitrone mit ingwer"
+      ],
+      "artworkID": "tea",
+      "serving": {
+        "label": {
+          "en": "1 cup",
+          "de": "1 Tasse"
+        },
+        "count": 1
+      },
+      "ingredients": [
+        {
+          "reference": "usda:2710507",
+          "grams": 250
+        },
+        {
+          "reference": "usda:2709181",
+          "grams": 10
+        },
+        {
+          "reference": "usda:2710281",
+          "grams": 10
+        }
+      ],
+      "notes": "One 250 ml cup of ginger tea with a dash (10 g) of lemon juice and half a tablespoon (10 g) of honey.",
+      "origin": "reviewed",
+      "collections": [
+        "tea"
+      ]
+    },
+    {
+      "id": "akari:recipe:hong-kong-milk-tea:v1",
+      "names": {
+        "en": "Hong Kong milk tea",
+        "de": "Hongkong-Milchtee"
+      },
+      "aliases": [
+        "hong kong milk tea",
+        "hong kong style milk tea",
+        "hk milk tea",
+        "silk stocking milk tea",
+        "hongkong milchtee",
+        "hong-kong-milchtee",
+        "milchtee nach hongkong-art"
+      ],
+      "artworkID": "tea",
+      "serving": {
+        "label": {
+          "en": "1 cup",
+          "de": "1 Tasse"
+        },
+        "count": 1
+      },
+      "ingredients": [
+        {
+          "reference": "usda:2710488",
+          "grams": 180
+        },
+        {
+          "reference": "bls:M182400",
+          "grams": 40
+        },
+        {
+          "reference": "ciqual:31016",
+          "grams": 10
+        }
+      ],
+      "notes": "A 230 ml cup of strong black tea (180 ml) with evaporated milk (40 g, about a fifth of the cup, the Hong Kong ratio) and two teaspoons (10 g) of sugar.",
+      "origin": "reviewed",
+      "collections": [
+        "tea"
+      ]
+    },
+    {
+      "id": "akari:recipe:thai-iced-tea:v1",
+      "names": {
+        "en": "Thai iced tea",
+        "de": "Thai-Eistee"
+      },
+      "aliases": [
+        "thai iced tea",
+        "cha yen",
+        "thai tea",
+        "thai milk tea",
+        "thai-eistee",
+        "thailändischer eistee",
+        "thai-milchtee"
+      ],
+      "artworkID": "tea",
+      "serving": {
+        "label": {
+          "en": "1 glass",
+          "de": "1 Glas"
+        },
+        "count": 1
+      },
+      "ingredients": [
+        {
+          "reference": "usda:2710488",
+          "grams": 150
+        },
+        {
+          "reference": "bls:M181400",
+          "grams": 30
+        },
+        {
+          "reference": "bls:M182400",
+          "grams": 20
+        },
+        {
+          "reference": "ciqual:31016",
+          "grams": 10
+        }
+      ],
+      "notes": "One glass of strong black tea (150 ml, the spiced Thai tea blend is black tea) poured over ice with sweetened condensed milk (30 g), a top of evaporated milk (20 g) and two teaspoons (10 g) of sugar; the ice is water and not counted.",
+      "origin": "reviewed",
+      "collections": [
+        "tea"
+      ]
+    },
+    {
+      "id": "akari:recipe:london-fog:v1",
+      "names": {
+        "en": "London fog",
+        "de": "London Fog"
+      },
+      "aliases": [
+        "london fog",
+        "london fog latte",
+        "earl grey latte",
+        "earl grey tea latte",
+        "earl grey milchtee"
+      ],
+      "artworkID": "tea",
+      "serving": {
+        "label": {
+          "en": "1 cup",
+          "de": "1 Tasse"
+        },
+        "count": 1
+      },
+      "ingredients": [
+        {
+          "reference": "usda:2710488",
+          "grams": 150
+        },
+        {
+          "reference": "bls:M111300",
+          "grams": 100
+        },
+        {
+          "reference": "ciqual:31016",
+          "grams": 10
+        }
+      ],
+      "notes": "A 260 ml cup of Earl Grey (black tea, 150 ml) topped with steamed whole milk (100 ml) and vanilla syrup, counted as its 10 g of sugar; the vanilla flavour carries no nutrients.",
+      "origin": "reviewed",
+      "collections": [
+        "tea"
+      ]
+    },
+    {
+      "id": "akari:recipe:aperol-spritz:v1",
+      "names": {
+        "en": "Aperol Spritz",
+        "de": "Aperol Spritz"
+      },
+      "aliases": [
+        "aperol spritz",
+        "aperol sprizz",
+        "spritz",
+        "spritz veneziano",
+        "aperitivo spritz",
+        "aperol-spritz"
+      ],
+      "artworkID": "cocktail",
+      "serving": {
+        "label": {
+          "en": "1 glass",
+          "de": "1 Glas"
+        },
+        "count": 1
+      },
+      "ingredients": [
+        {
+          "reference": "bls:P2A6100",
+          "grams": 89
+        },
+        {
+          "reference": "bls:P560100",
+          "grams": 62
+        },
+        {
+          "reference": "usda:2710539",
+          "grams": 30
+        }
+      ],
+      "notes": "Aperol's own 3-2-1 serve (aperol.com/en-int/aperol-spritz, read 2026-10-30): 90 ml Prosecco, 60 ml Aperol, 30 ml soda water over ice. Aperol is the bitter aperitif row (bls:P560100).",
+      "origin": "reviewed",
+      "collections": [
+        "cocktails"
+      ]
+    },
+    {
+      "id": "akari:recipe:lillet-wild-berry:v1",
+      "names": {
+        "en": "Lillet Wild Berry",
+        "de": "Lillet Wild Berry"
+      },
+      "aliases": [
+        "lillet wild berry",
+        "lillet berry",
+        "lillet tonic",
+        "wild berry"
+      ],
+      "artworkID": "cocktail",
+      "serving": {
+        "label": {
+          "en": "1 glass",
+          "de": "1 Glas"
+        },
+        "count": 1
+      },
+      "ingredients": [
+        {
+          "reference": "bls:P341600",
+          "grams": 51
+        },
+        {
+          "reference": "usda:2710538",
+          "grams": 100
+        },
+        {
+          "reference": "bls:F301100",
+          "grams": 20
+        }
+      ],
+      "notes": "Lillet's serve is 5 cl Lillet Blanc topped with 10 cl Schweppes Russian Wild Berry and a few berries (lillet.com, which refused the request on 2026-10-30; the 5 cl + 10 cl ratio is the one printed on the bottle collar). Lillet Blanc is an aromatised wine and uses the vermouth row (bls:P341600); the berry tonic is counted as tonic water with 20 g of strawberries.",
+      "origin": "reviewed",
+      "collections": [
+        "cocktails"
+      ]
+    },
+    {
+      "id": "akari:recipe:whisky-cola:v1",
+      "names": {
+        "en": "Whisky cola",
+        "de": "Whisky-Cola"
+      },
+      "aliases": [
+        "whisky cola",
+        "whiskey cola",
+        "whisky and cola",
+        "whiskey and coke",
+        "jack cola",
+        "jacky cola",
+        "whisky-cola"
+      ],
+      "artworkID": "cocktail",
+      "serving": {
+        "label": {
+          "en": "1 glass",
+          "de": "1 Glas"
+        },
+        "count": 1
+      },
+      "ingredients": [
+        {
+          "reference": "bls:P733000",
+          "grams": 38
+        },
+        {
+          "reference": "usda:2710541",
+          "grams": 120
+        }
+      ],
+      "notes": "The German bar highball: 4 cl whisky topped with 12 cl cola over ice; no official recipe, the 1:3 ratio is the one bars pour.",
+      "origin": "reviewed",
+      "collections": [
+        "cocktails"
+      ]
+    },
+    {
+      "id": "akari:recipe:vodka-energy:v1",
+      "names": {
+        "en": "Vodka energy",
+        "de": "Wodka-Energy"
+      },
+      "aliases": [
+        "vodka energy",
+        "vodka energy drink",
+        "wodka energy",
+        "wodka e",
+        "vodka e",
+        "vodka red bull",
+        "wodka red bull",
+        "vodka bull"
+      ],
+      "artworkID": "cocktail",
+      "serving": {
+        "label": {
+          "en": "1 glass",
+          "de": "1 Glas"
+        },
+        "count": 1
+      },
+      "ingredients": [
+        {
+          "reference": "bls:P712000",
+          "grams": 38
+        },
+        {
+          "reference": "usda:2710756",
+          "grams": 250
+        }
+      ],
+      "notes": "4 cl vodka with one 250 ml can of energy drink, the way it is sold at German bars; no official recipe.",
+      "origin": "reviewed",
+      "collections": [
+        "cocktails"
+      ]
+    },
+    {
+      "id": "akari:recipe:sex-on-the-beach:v1",
+      "names": {
+        "en": "Sex on the Beach",
+        "de": "Sex on the Beach"
+      },
+      "aliases": [
+        "sex on the beach",
+        "sex on the beach cocktail"
+      ],
+      "artworkID": "cocktail",
+      "serving": {
+        "label": {
+          "en": "1 glass",
+          "de": "1 Glas"
+        },
+        "count": 1
+      },
+      "ingredients": [
+        {
+          "reference": "bls:P712000",
+          "grams": 38
+        },
+        {
+          "reference": "bls:P510000",
+          "grams": 21
+        },
+        {
+          "reference": "usda:2709186",
+          "grams": 42
+        },
+        {
+          "reference": "usda:2709324",
+          "grams": 42
+        }
+      ],
+      "notes": "IBA (https://iba-world.com/iba-cocktail/sex-on-the-beach/, read 2026-10-30): 40 ml vodka, 20 ml peach schnapps, 40 ml orange juice, 40 ml cranberry juice, built over ice. Peach schnapps is the fruit liqueur row.",
+      "origin": "reviewed",
+      "collections": [
+        "cocktails"
+      ]
+    },
+    {
+      "id": "akari:recipe:long-island-iced-tea:v1",
+      "names": {
+        "en": "Long Island iced tea",
+        "de": "Long Island Iced Tea"
+      },
+      "aliases": [
+        "long island iced tea",
+        "long island ice tea",
+        "long island",
+        "lit cocktail"
+      ],
+      "artworkID": "cocktail",
+      "serving": {
+        "label": {
+          "en": "1 glass",
+          "de": "1 Glas"
+        },
+        "count": 1
+      },
+      "ingredients": [
+        {
+          "reference": "bls:P712000",
+          "grams": 14
+        },
+        {
+          "reference": "bls:P7A4000",
+          "grams": 14
+        },
+        {
+          "reference": "bls:P741000",
+          "grams": 14
+        },
+        {
+          "reference": "bls:P722000",
+          "grams": 14
+        },
+        {
+          "reference": "bls:P510000",
+          "grams": 16
+        },
+        {
+          "reference": "usda:2709181",
+          "grams": 26
+        },
+        {
+          "reference": "ciqual:31016",
+          "grams": 19
+        },
+        {
+          "reference": "usda:2710541",
+          "grams": 100
+        }
+      ],
+      "notes": "IBA (https://iba-world.com/iba-cocktail/long-island-iced-tea/, read 2026-10-30): 15 ml each of vodka, tequila, white rum, gin and Cointreau, 25 ml lemon juice, 30 ml simple syrup, topped with cola (100 ml here). Cointreau is the fruit liqueur row. Sugar syrup is counted as its sugar (1:1 syrup, about 0.65 g sugar per ml); the water and the ice are not counted.",
+      "origin": "reviewed",
+      "collections": [
+        "cocktails"
+      ]
+    },
+    {
+      "id": "akari:recipe:cosmopolitan:v1",
+      "names": {
+        "en": "Cosmopolitan",
+        "de": "Cosmopolitan"
+      },
+      "aliases": [
+        "cosmopolitan",
+        "cosmo",
+        "cosmopolitan cocktail"
+      ],
+      "artworkID": "cocktail",
+      "serving": {
+        "label": {
+          "en": "1 glass",
+          "de": "1 Glas"
+        },
+        "count": 1
+      },
+      "ingredients": [
+        {
+          "reference": "bls:P712000",
+          "grams": 38
+        },
+        {
+          "reference": "bls:P510000",
+          "grams": 16
+        },
+        {
+          "reference": "bls:F602600",
+          "grams": 16
+        },
+        {
+          "reference": "usda:2709324",
+          "grams": 31
+        }
+      ],
+      "notes": "IBA (https://iba-world.com/iba-cocktail/cosmopolitan/, read 2026-10-30): 40 ml vodka citron, 15 ml Cointreau, 15 ml lime juice, 30 ml cranberry juice, shaken. Citron vodka is counted as vodka, Cointreau as the fruit liqueur row.",
+      "origin": "reviewed",
+      "collections": [
+        "cocktails"
+      ]
+    },
+    {
+      "id": "akari:recipe:daiquiri:v1",
+      "names": {
+        "en": "Daiquiri",
+        "de": "Daiquiri"
+      },
+      "aliases": [
+        "daiquiri",
+        "daiquiri cocktail",
+        "rum daiquiri",
+        "classic daiquiri"
+      ],
+      "artworkID": "cocktail",
+      "serving": {
+        "label": {
+          "en": "1 glass",
+          "de": "1 Glas"
+        },
+        "count": 1
+      },
+      "ingredients": [
+        {
+          "reference": "bls:P741000",
+          "grams": 56
+        },
+        {
+          "reference": "bls:F602600",
+          "grams": 21
+        },
+        {
+          "reference": "ciqual:31016",
+          "grams": 8
+        }
+      ],
+      "notes": "IBA (https://iba-world.com/iba-cocktail/daiquiri/, read 2026-10-30): 60 ml white rum, 20 ml lime juice, 2 bar spoons of superfine sugar (8 g), shaken.",
+      "origin": "reviewed",
+      "collections": [
+        "cocktails"
+      ]
+    },
+    {
+      "id": "akari:recipe:espresso-martini:v1",
+      "names": {
+        "en": "Espresso martini",
+        "de": "Espresso Martini"
+      },
+      "aliases": [
+        "espresso martini",
+        "espresso-martini",
+        "vodka espresso",
+        "coffee martini"
+      ],
+      "artworkID": "cocktail",
+      "serving": {
+        "label": {
+          "en": "1 glass",
+          "de": "1 Glas"
+        },
+        "count": 1
+      },
+      "ingredients": [
+        {
+          "reference": "bls:P712000",
+          "grams": 47
+        },
+        {
+          "reference": "bls:P550000",
+          "grams": 33
+        },
+        {
+          "reference": "ciqual:31016",
+          "grams": 6
+        },
+        {
+          "reference": "usda:2710378",
+          "grams": 30
+        }
+      ],
+      "notes": "IBA (https://iba-world.com/iba-cocktail/espresso-martini/, read 2026-10-30): 50 ml vodka, 30 ml Kahlúa, 10 ml sugar syrup, one strong espresso (30 ml), shaken. Kahlúa is the coffee liqueur row. Sugar syrup is counted as its sugar (1:1 syrup, about 0.65 g sugar per ml); the water and the ice are not counted.",
+      "origin": "reviewed",
+      "collections": [
+        "cocktails"
+      ]
+    },
+    {
+      "id": "akari:recipe:whiskey-sour:v1",
+      "names": {
+        "en": "Whiskey sour",
+        "de": "Whiskey Sour"
+      },
+      "aliases": [
+        "whiskey sour",
+        "whisky sour",
+        "bourbon sour"
+      ],
+      "artworkID": "cocktail",
+      "serving": {
+        "label": {
+          "en": "1 glass",
+          "de": "1 Glas"
+        },
+        "count": 1
+      },
+      "ingredients": [
+        {
+          "reference": "usda:2710700",
+          "grams": 42
+        },
+        {
+          "reference": "usda:2709181",
+          "grams": 26
+        },
+        {
+          "reference": "ciqual:31016",
+          "grams": 13
+        },
+        {
+          "reference": "usda:2707168",
+          "grams": 15,
+          "role": "optional"
+        }
+      ],
+      "notes": "IBA (https://iba-world.com/iba-cocktail/whiskey-sour/, read 2026-10-30): 45 ml bourbon, 25 ml lemon juice, 20 ml sugar syrup, optional egg white (half a white, 15 g), shaken. Sugar syrup is counted as its sugar (1:1 syrup, about 0.65 g sugar per ml); the water and the ice are not counted.",
+      "origin": "reviewed",
+      "collections": [
+        "cocktails"
+      ]
+    },
+    {
+      "id": "akari:recipe:amaretto-sour:v1",
+      "names": {
+        "en": "Amaretto sour",
+        "de": "Amaretto Sour"
+      },
+      "aliases": [
+        "amaretto sour",
+        "disaronno sour",
+        "amaretto-sour"
+      ],
+      "artworkID": "cocktail",
+      "serving": {
+        "label": {
+          "en": "1 glass",
+          "de": "1 Glas"
+        },
+        "count": 1
+      },
+      "ingredients": [
+        {
+          "reference": "bls:P540100",
+          "grams": 53
+        },
+        {
+          "reference": "usda:2709181",
+          "grams": 26
+        },
+        {
+          "reference": "ciqual:31016",
+          "grams": 3
+        },
+        {
+          "reference": "usda:2707168",
+          "grams": 15,
+          "role": "optional"
+        }
+      ],
+      "notes": "Disaronno's own recipe (disaronno.com/en/cocktails/disaronno-sour, read 2026-10-30): 50 ml Disaronno, 25 ml lemon juice, 5 ml sugar syrup, optional egg white, shaken. Disaronno is the almond liqueur row. Sugar syrup is counted as its sugar (1:1 syrup, about 0.65 g sugar per ml); the water and the ice are not counted.",
+      "origin": "reviewed",
+      "collections": [
+        "cocktails"
+      ]
+    },
+    {
+      "id": "akari:recipe:old-fashioned:v1",
+      "names": {
+        "en": "Old Fashioned",
+        "de": "Old Fashioned"
+      },
+      "aliases": [
+        "old fashioned",
+        "old-fashioned",
+        "whiskey old fashioned",
+        "bourbon old fashioned"
+      ],
+      "artworkID": "cocktail",
+      "serving": {
+        "label": {
+          "en": "1 glass",
+          "de": "1 Glas"
+        },
+        "count": 1
+      },
+      "ingredients": [
+        {
+          "reference": "usda:2710700",
+          "grams": 42
+        },
+        {
+          "reference": "ciqual:31016",
+          "grams": 4
+        }
+      ],
+      "notes": "IBA (https://iba-world.com/iba-cocktail/old-fashioned/, read 2026-10-30): 45 ml bourbon or rye, one sugar cube (4 g), a few dashes of Angostura bitters and water, stirred over ice; the dashes carry no nutrients worth counting.",
+      "origin": "reviewed",
+      "collections": [
+        "cocktails"
+      ]
+    },
+    {
+      "id": "akari:recipe:negroni:v1",
+      "names": {
+        "en": "Negroni",
+        "de": "Negroni"
+      },
+      "aliases": [
+        "negroni",
+        "negroni cocktail"
+      ],
+      "artworkID": "cocktail",
+      "serving": {
+        "label": {
+          "en": "1 glass",
+          "de": "1 Glas"
+        },
+        "count": 1
+      },
+      "ingredients": [
+        {
+          "reference": "bls:P722000",
+          "grams": 28
+        },
+        {
+          "reference": "bls:P560000",
+          "grams": 32
+        },
+        {
+          "reference": "bls:P341600",
+          "grams": 31
+        }
+      ],
+      "notes": "IBA (https://iba-world.com/iba-cocktail/negroni/, read 2026-10-30): 30 ml gin, 30 ml Campari, 30 ml sweet red vermouth, stirred over ice. Campari is the herbal and bitter liqueur row (bls:P560000).",
+      "origin": "reviewed",
+      "collections": [
+        "cocktails"
+      ]
+    },
+    {
+      "id": "akari:recipe:manhattan:v1",
+      "names": {
+        "en": "Manhattan",
+        "de": "Manhattan"
+      },
+      "aliases": [
+        "manhattan",
+        "manhattan cocktail",
+        "rye manhattan"
+      ],
+      "artworkID": "cocktail",
+      "serving": {
+        "label": {
+          "en": "1 glass",
+          "de": "1 Glas"
+        },
+        "count": 1
+      },
+      "ingredients": [
+        {
+          "reference": "usda:2710700",
+          "grams": 47
+        },
+        {
+          "reference": "bls:P341600",
+          "grams": 20
+        }
+      ],
+      "notes": "IBA (https://iba-world.com/iba-cocktail/manhattan/, read 2026-10-30): 50 ml rye whiskey, 20 ml sweet red vermouth, a dash of Angostura, stirred. Rye is the American whiskey row (usda:2710700).",
+      "origin": "reviewed",
+      "collections": [
+        "cocktails"
+      ]
+    },
+    {
+      "id": "akari:recipe:gin-martini:v1",
+      "names": {
+        "en": "Gin martini",
+        "de": "Gin-Martini"
+      },
+      "aliases": [
+        "gin martini",
+        "martini cocktail",
+        "classic gin martini",
+        "extra dry martini",
+        "martini dry",
+        "gin and vermouth"
+      ],
+      "artworkID": "cocktail",
+      "serving": {
+        "label": {
+          "en": "1 glass",
+          "de": "1 Glas"
+        },
+        "count": 1
+      },
+      "ingredients": [
+        {
+          "reference": "bls:P722000",
+          "grams": 56
+        },
+        {
+          "reference": "bls:P341300",
+          "grams": 10
+        }
+      ],
+      "notes": "IBA (https://iba-world.com/iba-cocktail/dry-martini/, read 2026-10-30): 60 ml gin, 10 ml dry vermouth, stirred and strained.",
+      "origin": "reviewed",
+      "collections": [
+        "cocktails"
+      ]
+    },
+    {
+      "id": "akari:recipe:bloody-mary:v1",
+      "names": {
+        "en": "Bloody Mary",
+        "de": "Bloody Mary"
+      },
+      "aliases": [
+        "bloody mary",
+        "bloody-mary",
+        "tomato juice cocktail with vodka"
+      ],
+      "artworkID": "cocktail",
+      "serving": {
+        "label": {
+          "en": "1 glass",
+          "de": "1 Glas"
+        },
+        "count": 1
+      },
+      "ingredients": [
+        {
+          "reference": "bls:P712000",
+          "grams": 42
+        },
+        {
+          "reference": "bls:G560600",
+          "grams": 93
+        },
+        {
+          "reference": "usda:2709181",
+          "grams": 16
+        },
+        {
+          "reference": "usda:2707447",
+          "grams": 3
+        },
+        {
+          "reference": "usda:2710093",
+          "grams": 1
+        },
+        {
+          "reference": "usda:173468",
+          "grams": 0.5
+        }
+      ],
+      "notes": "IBA (https://iba-world.com/iba-cocktail/bloody-mary/, read 2026-10-30): 45 ml vodka, 90 ml tomato juice, 15 ml lemon juice, 2 dashes Worcestershire sauce, Tabasco, celery salt and pepper to taste, stirred over ice.",
+      "origin": "reviewed",
+      "collections": [
+        "cocktails"
+      ]
+    },
+    {
+      "id": "akari:recipe:caipiroska:v1",
+      "names": {
+        "en": "Caipiroska",
+        "de": "Caipiroska"
+      },
+      "aliases": [
+        "caipiroska",
+        "caipivodka",
+        "vodka caipirinha",
+        "wodka caipirinha"
+      ],
+      "artworkID": "cocktail",
+      "serving": {
+        "label": {
+          "en": "1 glass",
+          "de": "1 Glas"
+        },
+        "count": 1
+      },
+      "ingredients": [
+        {
+          "reference": "bls:P712000",
+          "grams": 56
+        },
+        {
+          "reference": "bls:F602100",
+          "grams": 60
+        },
+        {
+          "reference": "ciqual:31016",
+          "grams": 16
+        }
+      ],
+      "notes": "The IBA Caipirinha (https://iba-world.com/iba-cocktail/caipirinha/) made with vodka: 60 ml vodka, one lime cut in wedges (60 g), 4 teaspoons of sugar (16 g), muddled and topped with crushed ice.",
+      "origin": "reviewed",
+      "collections": [
+        "cocktails"
+      ]
+    },
+    {
+      "id": "akari:recipe:swimming-pool:v1",
+      "names": {
+        "en": "Swimming Pool",
+        "de": "Swimming Pool"
+      },
+      "aliases": [
+        "swimming pool",
+        "swimming pool cocktail",
+        "swimmingpool"
+      ],
+      "artworkID": "cocktail",
+      "serving": {
+        "label": {
+          "en": "1 glass",
+          "de": "1 Glas"
+        },
+        "count": 1
+      },
+      "ingredients": [
+        {
+          "reference": "bls:P712000",
+          "grams": 38
+        },
+        {
+          "reference": "bls:P741000",
+          "grams": 19
+        },
+        {
+          "reference": "usda:2709329",
+          "grams": 83
+        },
+        {
+          "reference": "bls:M173800",
+          "grams": 30
+        },
+        {
+          "reference": "bls:H154000",
+          "grams": 20
+        },
+        {
+          "reference": "bls:P510000",
+          "grams": 11
+        }
+      ],
+      "notes": "Charles Schumann's 1979 Munich creation as German bars pour it: 4 cl vodka, 2 cl white rum, 8 cl pineapple juice, 3 cl cream, 2 cl coconut cream, 1 cl Blue Curaçao, shaken. No maker page exists; coconut cream is counted as coconut milk and Blue Curaçao as the fruit liqueur row.",
+      "origin": "reviewed",
+      "collections": [
+        "cocktails"
+      ]
+    },
+    {
+      "id": "akari:recipe:mint-julep:v1",
+      "names": {
+        "en": "Mint julep",
+        "de": "Mint Julep"
+      },
+      "aliases": [
+        "mint julep",
+        "julep",
+        "bourbon julep"
+      ],
+      "artworkID": "cocktail",
+      "serving": {
+        "label": {
+          "en": "1 glass",
+          "de": "1 Glas"
+        },
+        "count": 1
+      },
+      "ingredients": [
+        {
+          "reference": "usda:2710700",
+          "grams": 56
+        },
+        {
+          "reference": "ciqual:11027",
+          "grams": 4
+        },
+        {
+          "reference": "ciqual:31016",
+          "grams": 4
+        }
+      ],
+      "notes": "IBA (https://iba-world.com/iba-cocktail/mint-julep/, read 2026-10-30): 60 ml bourbon, 4 mint sprigs (4 g), 1 teaspoon powdered sugar (4 g), 2 teaspoons of water, over cracked ice.",
+      "origin": "reviewed",
+      "collections": [
+        "cocktails"
+      ]
+    },
+    {
+      "id": "akari:recipe:white-russian:v1",
+      "names": {
+        "en": "White Russian",
+        "de": "White Russian"
+      },
+      "aliases": [
+        "white russian",
+        "white-russian"
+      ],
+      "artworkID": "cocktail",
+      "serving": {
+        "label": {
+          "en": "1 glass",
+          "de": "1 Glas"
+        },
+        "count": 1
+      },
+      "ingredients": [
+        {
+          "reference": "bls:P712000",
+          "grams": 47
+        },
+        {
+          "reference": "bls:P550000",
+          "grams": 22
+        },
+        {
+          "reference": "bls:M173800",
+          "grams": 30
+        }
+      ],
+      "notes": "IBA (https://iba-world.com/iba-cocktail/black-russian/, read 2026-10-30) gives the White Russian as the Black Russian with fresh cream floated on top: 50 ml vodka, 20 ml coffee liqueur and a 30 ml float of cream, the usual bar pour since the page states no cream measure.",
+      "origin": "reviewed",
+      "collections": [
+        "cocktails"
+      ]
+    },
+    {
+      "id": "akari:recipe:black-russian:v1",
+      "names": {
+        "en": "Black Russian",
+        "de": "Black Russian"
+      },
+      "aliases": [
+        "black russian",
+        "black-russian"
+      ],
+      "artworkID": "cocktail",
+      "serving": {
+        "label": {
+          "en": "1 glass",
+          "de": "1 Glas"
+        },
+        "count": 1
+      },
+      "ingredients": [
+        {
+          "reference": "bls:P712000",
+          "grams": 47
+        },
+        {
+          "reference": "bls:P550000",
+          "grams": 22
+        }
+      ],
+      "notes": "IBA (https://iba-world.com/iba-cocktail/black-russian/, read 2026-10-30): 50 ml vodka, 20 ml coffee liqueur, built over ice.",
+      "origin": "reviewed",
+      "collections": [
+        "cocktails"
+      ]
+    },
+    {
+      "id": "akari:recipe:irish-coffee:v1",
+      "names": {
+        "en": "Irish coffee",
+        "de": "Irish Coffee"
+      },
+      "aliases": [
+        "irish coffee",
+        "irish-coffee",
+        "whiskey coffee"
+      ],
+      "artworkID": "cocktail",
+      "serving": {
+        "label": {
+          "en": "1 glass",
+          "de": "1 Glas"
+        },
+        "count": 1
+      },
+      "ingredients": [
+        {
+          "reference": "bls:P733000",
+          "grams": 47
+        },
+        {
+          "reference": "usda:2710375",
+          "grams": 120
+        },
+        {
+          "reference": "bls:M173800",
+          "grams": 50
+        },
+        {
+          "reference": "ciqual:31016",
+          "grams": 4
+        }
+      ],
+      "notes": "IBA (https://iba-world.com/iba-cocktail/irish-coffee/, read 2026-10-30): 50 ml Irish whiskey, 120 ml hot coffee, 50 ml chilled cream floated on top, 1 teaspoon of sugar. Irish whiskey is the BLS whisky row.",
+      "origin": "reviewed",
+      "collections": [
+        "cocktails"
+      ]
+    },
+    {
+      "id": "akari:recipe:kir-royal:v1",
+      "names": {
+        "en": "Kir Royal",
+        "de": "Kir Royal"
+      },
+      "aliases": [
+        "kir royal",
+        "kir royale",
+        "champagne with cassis",
+        "sekt mit cassis"
+      ],
+      "artworkID": "cocktail",
+      "serving": {
+        "label": {
+          "en": "1 glass",
+          "de": "1 Glas"
+        },
+        "count": 1
+      },
+      "ingredients": [
+        {
+          "reference": "ciqual:5207",
+          "grams": 89
+        },
+        {
+          "reference": "ciqual:1021",
+          "grams": 11
+        }
+      ],
+      "notes": "IBA (https://iba-world.com/iba-cocktail/kir/, read 2026-10-30): the Kir Royal is the Kir with Champagne instead of white wine: 10 ml crème de cassis topped with 90 ml Champagne.",
+      "origin": "reviewed",
+      "collections": [
+        "cocktails"
+      ]
+    },
+    {
+      "id": "akari:recipe:kir:v1",
+      "names": {
+        "en": "Kir",
+        "de": "Kir"
+      },
+      "aliases": [
+        "kir cocktail",
+        "white wine with cassis",
+        "weißwein mit cassis",
+        "kir aperitif"
+      ],
+      "artworkID": "cocktail",
+      "serving": {
+        "label": {
+          "en": "1 glass",
+          "de": "1 Glas"
+        },
+        "count": 1
+      },
+      "ingredients": [
+        {
+          "reference": "usda:2710689",
+          "grams": 89
+        },
+        {
+          "reference": "ciqual:1021",
+          "grams": 11
+        }
+      ],
+      "notes": "IBA (https://iba-world.com/iba-cocktail/kir/, read 2026-10-30): 10 ml crème de cassis topped with 90 ml dry white wine.",
+      "origin": "reviewed",
+      "collections": [
+        "cocktails"
+      ]
+    },
+    {
+      "id": "akari:recipe:bellini:v1",
+      "names": {
+        "en": "Bellini",
+        "de": "Bellini"
+      },
+      "aliases": [
+        "bellini",
+        "bellini cocktail",
+        "peach bellini",
+        "pfirsich bellini"
+      ],
+      "artworkID": "cocktail",
+      "serving": {
+        "label": {
+          "en": "1 glass",
+          "de": "1 Glas"
+        },
+        "count": 1
+      },
+      "ingredients": [
+        {
+          "reference": "bls:P2A6100",
+          "grams": 99
+        },
+        {
+          "reference": "bls:F203100",
+          "grams": 50
+        }
+      ],
+      "notes": "IBA (https://iba-world.com/iba-cocktail/bellini/, read 2026-10-30): 100 ml Prosecco over 50 ml white peach purée, stirred; the purée is counted as fresh peach.",
+      "origin": "reviewed",
+      "collections": [
+        "cocktails"
+      ]
+    },
+    {
+      "id": "akari:recipe:mimosa:v1",
+      "names": {
+        "en": "Mimosa",
+        "de": "Mimosa"
+      },
+      "aliases": [
+        "mimosa",
+        "mimosa cocktail",
+        "bucks fizz",
+        "buck's fizz",
+        "sekt orange",
+        "orange sekt"
+      ],
+      "artworkID": "cocktail",
+      "serving": {
+        "label": {
+          "en": "1 glass",
+          "de": "1 Glas"
+        },
+        "count": 1
+      },
+      "ingredients": [
+        {
+          "reference": "usda:2709186",
+          "grams": 78
+        },
+        {
+          "reference": "bls:P2A6100",
+          "grams": 74
+        }
+      ],
+      "notes": "IBA (https://iba-world.com/iba-cocktail/mimosa/, read 2026-10-30): 75 ml freshly squeezed orange juice and 75 ml Prosecco in a flute; also known as Buck's Fizz.",
+      "origin": "reviewed",
+      "collections": [
+        "cocktails"
+      ]
+    },
+    {
+      "id": "akari:recipe:tom-collins:v1",
+      "names": {
+        "en": "Tom Collins",
+        "de": "Tom Collins"
+      },
+      "aliases": [
+        "tom collins",
+        "john collins",
+        "collins",
+        "gin collins"
+      ],
+      "artworkID": "cocktail",
+      "serving": {
+        "label": {
+          "en": "1 glass",
+          "de": "1 Glas"
+        },
+        "count": 1
+      },
+      "ingredients": [
+        {
+          "reference": "bls:P722000",
+          "grams": 42
+        },
+        {
+          "reference": "usda:2709181",
+          "grams": 31
+        },
+        {
+          "reference": "ciqual:31016",
+          "grams": 10
+        },
+        {
+          "reference": "usda:2710539",
+          "grams": 60
+        }
+      ],
+      "notes": "IBA John Collins (https://iba-world.com/iba-cocktail/john-collins/, read 2026-10-30), which the page makes a Tom Collins with Old Tom gin: 45 ml gin, 30 ml lemon juice, 15 ml simple syrup, 60 ml soda water, built over ice. Sugar syrup is counted as its sugar (1:1 syrup, about 0.65 g sugar per ml); the water and the ice are not counted.",
+      "origin": "reviewed",
+      "collections": [
+        "cocktails"
+      ]
+    },
+    {
+      "id": "akari:recipe:gin-fizz:v1",
+      "names": {
+        "en": "Gin fizz",
+        "de": "Gin Fizz"
+      },
+      "aliases": [
+        "gin fizz",
+        "gin-fizz",
+        "fizz"
+      ],
+      "artworkID": "cocktail",
+      "serving": {
+        "label": {
+          "en": "1 glass",
+          "de": "1 Glas"
+        },
+        "count": 1
+      },
+      "ingredients": [
+        {
+          "reference": "bls:P722000",
+          "grams": 42
+        },
+        {
+          "reference": "usda:2709181",
+          "grams": 31
+        },
+        {
+          "reference": "ciqual:31016",
+          "grams": 6
+        },
+        {
+          "reference": "usda:2710539",
+          "grams": 30
+        }
+      ],
+      "notes": "IBA (https://iba-world.com/iba-cocktail/gin-fizz/, read 2026-10-30): 45 ml gin, 30 ml lemon juice, 10 ml simple syrup, shaken, topped with a splash of soda water (30 ml here). Sugar syrup is counted as its sugar (1:1 syrup, about 0.65 g sugar per ml); the water and the ice are not counted.",
+      "origin": "reviewed",
+      "collections": [
+        "cocktails"
+      ]
+    },
+    {
+      "id": "akari:recipe:french-75:v1",
+      "names": {
+        "en": "French 75",
+        "de": "French 75"
+      },
+      "aliases": [
+        "french 75",
+        "french seventy five",
+        "soixante quinze",
+        "gin and champagne cocktail"
+      ],
+      "artworkID": "cocktail",
+      "serving": {
+        "label": {
+          "en": "1 glass",
+          "de": "1 Glas"
+        },
+        "count": 1
+      },
+      "ingredients": [
+        {
+          "reference": "bls:P722000",
+          "grams": 28
+        },
+        {
+          "reference": "usda:2709181",
+          "grams": 16
+        },
+        {
+          "reference": "ciqual:31016",
+          "grams": 10
+        },
+        {
+          "reference": "ciqual:5207",
+          "grams": 59
+        }
+      ],
+      "notes": "IBA (https://iba-world.com/iba-cocktail/french-75/, read 2026-10-30): 30 ml gin, 15 ml lemon juice, 15 ml sugar syrup, shaken, topped with 60 ml Champagne. Sugar syrup is counted as its sugar (1:1 syrup, about 0.65 g sugar per ml); the water and the ice are not counted.",
+      "origin": "reviewed",
+      "collections": [
+        "cocktails"
+      ]
+    },
+    {
+      "id": "akari:recipe:sidecar:v1",
+      "names": {
+        "en": "Sidecar",
+        "de": "Sidecar"
+      },
+      "aliases": [
+        "sidecar",
+        "side car",
+        "sidecar cocktail",
+        "cognac sour"
+      ],
+      "artworkID": "cocktail",
+      "serving": {
+        "label": {
+          "en": "1 glass",
+          "de": "1 Glas"
+        },
+        "count": 1
+      },
+      "ingredients": [
+        {
+          "reference": "bls:P610000",
+          "grams": 47
+        },
+        {
+          "reference": "bls:P510000",
+          "grams": 21
+        },
+        {
+          "reference": "usda:2709181",
+          "grams": 21
+        }
+      ],
+      "notes": "IBA (https://iba-world.com/iba-cocktail/sidecar/, read 2026-10-30): 50 ml cognac, 20 ml triple sec, 20 ml lemon juice, shaken. Triple sec is the fruit liqueur row.",
+      "origin": "reviewed",
+      "collections": [
+        "cocktails"
+      ]
+    },
+    {
+      "id": "akari:recipe:gin-basil-smash:v1",
+      "names": {
+        "en": "Gin basil smash",
+        "de": "Gin Basil Smash"
+      },
+      "aliases": [
+        "gin basil smash",
+        "basil smash",
+        "gin-basil-smash",
+        "basil gin smash"
+      ],
+      "artworkID": "cocktail",
+      "serving": {
+        "label": {
+          "en": "1 glass",
+          "de": "1 Glas"
+        },
+        "count": 1
+      },
+      "ingredients": [
+        {
+          "reference": "bls:P722000",
+          "grams": 56
+        },
+        {
+          "reference": "usda:2709181",
+          "grams": 23
+        },
+        {
+          "reference": "ciqual:31016",
+          "grams": 15
+        },
+        {
+          "reference": "bls:G061000",
+          "grams": 5
+        }
+      ],
+      "notes": "IBA (https://iba-world.com/iba-cocktail/gin-basil-smash/, read 2026-10-30): 60 ml gin, 22.5 ml lemon juice, 22.5 ml sugar syrup, 10 basil leaves (5 g), shaken. Sugar syrup is counted as its sugar (1:1 syrup, about 0.65 g sugar per ml); the water and the ice are not counted.",
+      "origin": "reviewed",
+      "collections": [
+        "cocktails"
+      ]
+    },
+    {
+      "id": "akari:recipe:bramble:v1",
+      "names": {
+        "en": "Bramble",
+        "de": "Bramble"
+      },
+      "aliases": [
+        "bramble",
+        "bramble cocktail",
+        "blackberry gin cocktail",
+        "brombeer gin"
+      ],
+      "artworkID": "cocktail",
+      "serving": {
+        "label": {
+          "en": "1 glass",
+          "de": "1 Glas"
+        },
+        "count": 1
+      },
+      "ingredients": [
+        {
+          "reference": "bls:P722000",
+          "grams": 47
+        },
+        {
+          "reference": "usda:2709181",
+          "grams": 26
+        },
+        {
+          "reference": "ciqual:31016",
+          "grams": 8
+        },
+        {
+          "reference": "bls:P510000",
+          "grams": 16
+        }
+      ],
+      "notes": "IBA (https://iba-world.com/iba-cocktail/bramble/, read 2026-10-30): 50 ml gin, 25 ml lemon juice, 12.5 ml sugar syrup, 15 ml crème de mûre poured over crushed ice. Crème de mûre is the fruit liqueur row. Sugar syrup is counted as its sugar (1:1 syrup, about 0.65 g sugar per ml); the water and the ice are not counted.",
+      "origin": "reviewed",
+      "collections": [
+        "cocktails"
+      ]
+    },
+    {
+      "id": "akari:recipe:pornstar-martini:v1",
+      "names": {
+        "en": "Pornstar martini",
+        "de": "Pornstar Martini"
+      },
+      "aliases": [
+        "pornstar martini",
+        "porn star martini",
+        "passion fruit martini",
+        "maracuja martini"
+      ],
+      "artworkID": "cocktail",
+      "serving": {
+        "label": {
+          "en": "1 glass",
+          "de": "1 Glas"
+        },
+        "count": 1
+      },
+      "ingredients": [
+        {
+          "reference": "bls:P712000",
+          "grams": 47
+        },
+        {
+          "reference": "bls:P510000",
+          "grams": 21
+        },
+        {
+          "reference": "bls:F508100",
+          "grams": 50
+        },
+        {
+          "reference": "bls:S114000",
+          "grams": 8
+        },
+        {
+          "reference": "ciqual:5207",
+          "grams": 49
+        }
+      ],
+      "notes": "IBA (https://iba-world.com/iba-cocktail/porn-star-martini/, read 2026-10-30): 50 ml vanilla vodka, 20 ml passion fruit liqueur, 50 ml passion fruit purée, 2 bar spoons vanilla sugar, with a 50 ml shot of Champagne on the side. Vanilla vodka is counted as vodka, the liqueur as the fruit liqueur row, the purée as passion fruit pulp.",
+      "origin": "reviewed",
+      "collections": [
+        "cocktails"
+      ]
+    },
+    {
+      "id": "akari:recipe:tinto-de-verano:v1",
+      "names": {
+        "en": "Tinto de verano",
+        "de": "Tinto de Verano"
+      },
+      "aliases": [
+        "tinto de verano",
+        "tinto verano",
+        "red wine with lemon soda",
+        "rotwein mit zitronenlimonade",
+        "rotweinschorle süß"
+      ],
+      "artworkID": "cocktail",
+      "serving": {
+        "label": {
+          "en": "1 glass",
+          "de": "1 Glas"
+        },
+        "count": 1
+      },
+      "ingredients": [
+        {
+          "reference": "usda:2710688",
+          "grams": 99
+        },
+        {
+          "reference": "ciqual:18010",
+          "grams": 100
+        }
+      ],
+      "notes": "The Spanish summer pour, red wine and lemon soda one to one over ice: 100 ml of each; a home drink with no official recipe.",
+      "origin": "reviewed",
+      "collections": [
+        "cocktails"
+      ]
+    },
+    {
+      "id": "akari:recipe:limoncello-spritz:v1",
+      "names": {
+        "en": "Limoncello spritz",
+        "de": "Limoncello Spritz"
+      },
+      "aliases": [
+        "limoncello spritz",
+        "limoncello sprizz",
+        "lemon spritz"
+      ],
+      "artworkID": "cocktail",
+      "serving": {
+        "label": {
+          "en": "1 glass",
+          "de": "1 Glas"
+        },
+        "count": 1
+      },
+      "ingredients": [
+        {
+          "reference": "bls:P510000",
+          "grams": 53
+        },
+        {
+          "reference": "bls:P2A6100",
+          "grams": 89
+        },
+        {
+          "reference": "usda:2710539",
+          "grams": 30
+        }
+      ],
+      "notes": "Poured like the Aperol Spritz with limoncello in place of the bitter: 5 cl limoncello, 9 cl Prosecco, 3 cl soda water over ice; limoncello is the fruit liqueur row. No maker publishes a single standard; the 5-9-3 pour is the one Italian bars and the spritz makers print.",
+      "origin": "reviewed",
+      "collections": [
+        "cocktails"
+      ]
+    },
+    {
+      "id": "akari:recipe:virgin-mojito:v1",
+      "names": {
+        "en": "Virgin mojito",
+        "de": "Virgin Mojito"
+      },
+      "aliases": [
+        "virgin mojito",
+        "nojito",
+        "mojito ohne alkohol",
+        "alkoholfreier mojito",
+        "mojito alkoholfrei",
+        "non-alcoholic mojito"
+      ],
+      "artworkID": "cocktail",
+      "serving": {
+        "label": {
+          "en": "1 glass",
+          "de": "1 Glas"
+        },
+        "count": 1
+      },
+      "ingredients": [
+        {
+          "reference": "bls:F602600",
+          "grams": 21
+        },
+        {
+          "reference": "ciqual:11027",
+          "grams": 6
+        },
+        {
+          "reference": "ciqual:31016",
+          "grams": 8
+        },
+        {
+          "reference": "usda:2710539",
+          "grams": 120
+        }
+      ],
+      "notes": "The IBA Mojito (https://iba-world.com/iba-cocktail/mojito/) without the rum: 20 ml lime juice, 6 mint leaves (6 g), 2 teaspoons of sugar (8 g), muddled and topped with soda water (120 ml here).",
+      "origin": "reviewed",
+      "collections": [
+        "cocktails"
+      ]
+    },
+    {
+      "id": "akari:recipe:virgin-colada:v1",
+      "names": {
+        "en": "Virgin colada",
+        "de": "Virgin Colada"
+      },
+      "aliases": [
+        "virgin colada",
+        "virgin pina colada",
+        "virgin piña colada",
+        "pina colada ohne alkohol",
+        "alkoholfreie pina colada",
+        "piña colada alkoholfrei"
+      ],
+      "artworkID": "tropical-drink",
+      "serving": {
+        "label": {
+          "en": "1 glass",
+          "de": "1 Glas"
+        },
+        "count": 1
+      },
+      "ingredients": [
+        {
+          "reference": "usda:2709329",
+          "grams": 104
+        },
+        {
+          "reference": "bls:H154000",
+          "grams": 30
+        }
+      ],
+      "notes": "The IBA Piña Colada (https://iba-world.com/iba-cocktail/pina-colada/) without the rum: 100 ml pineapple juice and 30 ml coconut cream, blended with ice; coconut cream is counted as coconut milk.",
+      "origin": "reviewed",
+      "collections": [
+        "cocktails"
+      ]
+    },
+    {
+      "id": "akari:recipe:feuerzangenbowle:v1",
+      "names": {
+        "en": "Feuerzangenbowle",
+        "de": "Feuerzangenbowle"
+      },
+      "aliases": [
+        "feuerzangenbowle",
+        "fire tongs punch",
+        "rum sugar loaf punch"
+      ],
+      "artworkID": "wine",
+      "serving": {
+        "label": {
+          "en": "1 mug",
+          "de": "1 Becher"
+        },
+        "count": 1
+      },
+      "ingredients": [
+        {
+          "reference": "usda:2710688",
+          "grams": 200
+        },
+        {
+          "reference": "bls:P741000",
+          "grams": 20
+        },
+        {
+          "reference": "ciqual:31016",
+          "grams": 15
+        },
+        {
+          "reference": "usda:2709186",
+          "grams": 30
+        }
+      ],
+      "notes": "One mug: 200 ml red wine mulled with orange juice (30 ml, for the orange slices), a 15 g share of the rum-soaked sugar loaf (counted as sugar) and 20 ml of the rum that burns into it; the spices carry no nutrients worth counting.",
+      "origin": "reviewed",
+      "collections": [
+        "seasonal"
+      ]
+    },
+    {
+      "id": "akari:recipe:kinderpunsch:v1",
+      "names": {
+        "en": "Kinderpunsch",
+        "de": "Kinderpunsch"
+      },
+      "aliases": [
+        "kinderpunsch",
+        "children's punch",
+        "alcohol-free punch",
+        "alkoholfreier punsch",
+        "kinder punsch",
+        "christmas market punch alcohol-free"
+      ],
+      "artworkID": "juice",
+      "serving": {
+        "label": {
+          "en": "1 mug",
+          "de": "1 Becher"
+        },
+        "count": 1
+      },
+      "ingredients": [
+        {
+          "reference": "usda:2709320",
+          "grams": 150
+        },
+        {
+          "reference": "usda:2709186",
+          "grams": 50
+        },
+        {
+          "reference": "usda:2710488",
+          "grams": 50
+        }
+      ],
+      "notes": "One 250 ml mug of hot apple juice (150 ml) and orange juice (50 ml) stretched with black tea (50 ml) and mulling spices, the Christmas market pour.",
+      "origin": "reviewed",
+      "collections": [
+        "seasonal"
+      ]
+    },
+    {
+      "id": "akari:recipe:lumumba:v1",
+      "names": {
+        "en": "Lumumba",
+        "de": "Lumumba"
+      },
+      "aliases": [
+        "lumumba",
+        "tote tante",
+        "hot chocolate with rum",
+        "kakao mit rum",
+        "heiße schokolade mit rum"
+      ],
+      "artworkID": "coffee",
+      "serving": {
+        "label": {
+          "en": "1 mug",
+          "de": "1 Becher"
+        },
+        "count": 1
+      },
+      "ingredients": [
+        {
+          "reference": "usda:2705473",
+          "grams": 200
+        },
+        {
+          "reference": "bls:P741000",
+          "grams": 20
+        },
+        {
+          "reference": "bls:M173800",
+          "grams": 20
+        }
+      ],
+      "notes": "One mug: 200 ml hot chocolate with 2 cl brown rum and a 20 g cap of whipped cream, the Christmas market Lumumba.",
+      "origin": "reviewed",
+      "collections": [
+        "seasonal"
+      ]
+    },
+    {
+      "id": "akari:recipe:hot-chocolate-with-cream:v1",
+      "names": {
+        "en": "Hot chocolate with whipped cream",
+        "de": "Heiße Schokolade mit Sahne"
+      },
+      "aliases": [
+        "hot chocolate with cream",
+        "hot chocolate with whipped cream",
+        "heiße schokolade mit schlagsahne",
+        "kakao mit sahne",
+        "heisse schokolade mit sahne"
+      ],
+      "artworkID": "coffee",
+      "serving": {
+        "label": {
+          "en": "1 mug",
+          "de": "1 Becher"
+        },
+        "count": 1
+      },
+      "ingredients": [
+        {
+          "reference": "usda:2705473",
+          "grams": 200
+        },
+        {
+          "reference": "bls:M173800",
+          "grams": 25
+        }
+      ],
+      "notes": "One 200 ml mug of hot chocolate topped with 25 g of whipped cream.",
+      "origin": "reviewed",
+      "collections": [
+        "seasonal"
+      ]
+    },
+    {
+      "id": "akari:recipe:christmas-goose-with-red-cabbage-and-dumplings:v1",
+      "names": {
+        "en": "Christmas goose with red cabbage and dumplings",
+        "de": "Weihnachtsgans mit Rotkohl und Klößen"
+      },
+      "aliases": [
+        "christmas goose",
+        "roast goose with red cabbage and dumplings",
+        "weihnachtsgans",
+        "gänsebraten mit rotkohl und klößen",
+        "gänsebraten mit rotkohl",
+        "martinsgans"
+      ],
+      "artworkID": "poultry",
+      "serving": {
+        "label": {
+          "en": "1 plate",
+          "de": "1 Teller"
+        },
+        "count": 1
+      },
+      "ingredients": [
+        {
+          "reference": "bls:V474162",
+          "grams": 200
+        },
+        {
+          "reference": "bls:X537063",
+          "grams": 150
+        },
+        {
+          "reference": "bls:K241232",
+          "grams": 150
+        },
+        {
+          "reference": "usda:2707149",
+          "grams": 50
+        }
+      ],
+      "notes": "One plate: 200 g roast goose, 150 g apple red cabbage, 150 g potato dumplings and 50 g gravy, the Christmas and St Martin's dinner.",
+      "origin": "reviewed",
+      "collections": [
+        "seasonal"
+      ]
+    },
+    {
+      "id": "akari:recipe:roast-duck-with-red-cabbage-and-dumplings:v1",
+      "names": {
+        "en": "Roast duck with red cabbage and dumplings",
+        "de": "Entenbraten mit Rotkohl und Klößen"
+      },
+      "aliases": [
+        "roast duck with red cabbage",
+        "entenbraten mit rotkohl",
+        "ente mit rotkohl und klößen",
+        "weihnachtsente",
+        "christmas duck"
+      ],
+      "artworkID": "poultry",
+      "serving": {
+        "label": {
+          "en": "1 plate",
+          "de": "1 Teller"
+        },
+        "count": 1
+      },
+      "ingredients": [
+        {
+          "reference": "bls:V464162",
+          "grams": 200
+        },
+        {
+          "reference": "bls:X537063",
+          "grams": 150
+        },
+        {
+          "reference": "bls:K241232",
+          "grams": 150
+        },
+        {
+          "reference": "usda:2707149",
+          "grams": 50
+        }
+      ],
+      "notes": "One plate: 200 g roast duck, 150 g apple red cabbage, 150 g potato dumplings and 50 g gravy.",
+      "origin": "reviewed",
+      "collections": [
+        "seasonal"
+      ]
+    },
+    {
+      "id": "akari:recipe:roast-turkey-with-trimmings:v1",
+      "names": {
+        "en": "Roast turkey with trimmings",
+        "de": "Putenbraten mit Beilagen"
+      },
+      "aliases": [
+        "roast turkey with trimmings",
+        "christmas turkey",
+        "christmas dinner",
+        "turkey dinner",
+        "weihnachtspute",
+        "truthahn mit beilagen",
+        "thanksgiving turkey"
+      ],
+      "artworkID": "poultry",
+      "serving": {
+        "label": {
+          "en": "1 plate",
+          "de": "1 Teller"
+        },
+        "count": 1
+      },
+      "ingredients": [
+        {
+          "reference": "bls:V484162",
+          "grams": 150
+        },
+        {
+          "reference": "usda:2709405",
+          "grams": 150
+        },
+        {
+          "reference": "usda:2709280",
+          "grams": 30
+        },
+        {
+          "reference": "usda:2707149",
+          "grams": 50
+        },
+        {
+          "reference": "bls:W874200",
+          "grams": 40
+        },
+        {
+          "reference": "bls:W415082",
+          "grams": 15
+        }
+      ],
+      "notes": "One plate of the British Christmas dinner: 150 g roast turkey, 150 g roast potatoes, 50 g gravy, 30 g cranberry sauce and two pigs in blankets (cocktail sausages wrapped in bacon); the stuffing and sprouts are left to the diary.",
+      "origin": "reviewed",
+      "collections": [
+        "seasonal"
+      ]
+    },
+    {
+      "id": "akari:recipe:pigs-in-blankets:v1",
+      "names": {
+        "en": "Pigs in blankets",
+        "de": "Pigs in Blankets"
+      },
+      "aliases": [
+        "pigs in blankets",
+        "sausages wrapped in bacon",
+        "würstchen im speckmantel",
+        "bacon-wrapped sausages"
+      ],
+      "artworkID": "hot-dog",
+      "serving": {
+        "label": {
+          "en": "1 portion",
+          "de": "1 Portion"
+        },
+        "count": 1
+      },
+      "ingredients": [
+        {
+          "reference": "bls:W874200",
+          "grams": 60
+        },
+        {
+          "reference": "bls:W415082",
+          "grams": 20
+        }
+      ],
+      "notes": "Three cocktail sausages (60 g) wrapped in streaky bacon (20 g, fried), the Christmas side.",
+      "origin": "reviewed",
+      "collections": [
+        "seasonal"
+      ]
+    },
+    {
+      "id": "akari:recipe:asparagus-with-hollandaise-and-ham:v1",
+      "names": {
+        "en": "Asparagus with hollandaise and ham",
+        "de": "Spargel mit Sauce Hollandaise und Schinken"
+      },
+      "aliases": [
+        "asparagus with hollandaise and ham",
+        "spargel mit hollandaise und schinken",
+        "spargel mit schinken",
+        "white asparagus with ham and hollandaise",
+        "spargelessen"
+      ],
+      "artworkID": "greens",
+      "serving": {
+        "label": {
+          "en": "1 plate",
+          "de": "1 Teller"
+        },
+        "count": 1
+      },
+      "ingredients": [
+        {
+          "reference": "bls:G450132",
+          "grams": 300
+        },
+        {
+          "reference": "bls:X371043",
+          "grams": 60
+        },
+        {
+          "reference": "bls:W424000",
+          "grams": 60
+        }
+      ],
+      "notes": "The Spargelzeit plate: 300 g white asparagus, 60 g hollandaise and 60 g cooked ham; the potatoes are logged separately.",
+      "origin": "reviewed",
+      "collections": [
+        "seasonal"
+      ]
+    },
+    {
+      "id": "akari:recipe:champignonpfanne:v1",
+      "names": {
+        "en": "Mushroom pan with garlic cream",
+        "de": "Champignonpfanne mit Knoblauchsauce"
+      },
+      "aliases": [
+        "champignonpfanne",
+        "mushroom pan",
+        "christmas market mushrooms",
+        "pilzpfanne",
+        "champignons mit knoblauchsoße",
+        "pilzpfanne vom weihnachtsmarkt"
+      ],
+      "artworkID": "mushroom",
+      "serving": {
+        "label": {
+          "en": "1 portion",
+          "de": "1 Portion"
+        },
+        "count": 1
+      },
+      "ingredients": [
+        {
+          "reference": "bls:K701172",
+          "grams": 200
+        },
+        {
+          "reference": "bls:G480100",
+          "grams": 30
+        },
+        {
+          "reference": "bls:Q180000",
+          "grams": 10
+        },
+        {
+          "reference": "bls:M172700",
+          "grams": 40
+        }
+      ],
+      "notes": "The Christmas market mushroom pan: 200 g mushrooms and 30 g onions fried in 10 g oil with 40 g of Schmand garlic sauce (counted as Schmand; the garlic carries no nutrients worth counting).",
+      "origin": "reviewed",
+      "collections": [
+        "seasonal"
+      ]
+    },
+    {
+      "id": "akari:recipe:chocolate-dipped-strawberries:v1",
+      "names": {
+        "en": "Chocolate-dipped strawberries",
+        "de": "Schokofrüchte"
+      },
+      "aliases": [
+        "chocolate dipped strawberries",
+        "chocolate strawberries",
+        "schokofrüchte",
+        "schokoladenerdbeeren",
+        "erdbeeren mit schokolade",
+        "schoko-erdbeeren",
+        "chocolate fruit skewer",
+        "schokospieß"
+      ],
+      "artworkID": "strawberry",
+      "serving": {
+        "label": {
+          "en": "1 skewer",
+          "de": "1 Spieß"
+        },
+        "count": 1
+      },
+      "ingredients": [
+        {
+          "reference": "bls:F301100",
+          "grams": 100
+        },
+        {
+          "reference": "usda:2710336",
+          "grams": 30
+        }
+      ],
+      "notes": "One skewer of the Christmas market: 100 g strawberries in 30 g of dark chocolate.",
+      "origin": "reviewed",
+      "collections": [
+        "seasonal"
+      ]
+    },
+    {
+      "id": "akari:recipe:langos-with-sour-cream-and-cheese:v1",
+      "names": {
+        "en": "Langos with sour cream and cheese",
+        "de": "Langos mit Sauerrahm und Käse"
+      },
+      "aliases": [
+        "langos with sour cream and cheese",
+        "langos mit knoblauch sauerrahm und käse",
+        "lángos with cheese",
+        "langos mit käse",
+        "langosch mit sauerrahm"
+      ],
+      "artworkID": "flatbread",
+      "serving": {
+        "label": {
+          "en": "1 langos",
+          "de": "1 Langos"
+        },
+        "count": 1
+      },
+      "ingredients": [
+        {
+          "reference": "bls:D7A6700",
+          "grams": 150
+        },
+        {
+          "reference": "usda:2705614",
+          "grams": 40
+        },
+        {
+          "reference": "bls:M402600",
+          "grams": 30
+        }
+      ],
+      "notes": "One fairground langos (150 g fried dough) with 40 g sour cream and 30 g grated Gouda; the garlic oil is in the dough row.",
+      "origin": "reviewed",
+      "collections": [
+        "seasonal"
+      ]
+    },
+    {
+      "id": "akari:recipe:fries-red-and-white:v1",
+      "names": {
+        "en": "Fries with ketchup and mayonnaise",
+        "de": "Pommes rot-weiß"
+      },
+      "aliases": [
+        "fries red and white",
+        "pommes rot weiss",
+        "pommes rot-weiß",
+        "pommes schranke",
+        "fries with ketchup and mayo",
+        "chips with ketchup and mayonnaise"
+      ],
+      "artworkID": "fries",
+      "serving": {
+        "label": {
+          "en": "1 portion",
+          "de": "1 Portion"
+        },
+        "count": 1
+      },
+      "ingredients": [
+        {
+          "reference": "bls:X654042",
+          "grams": 150
+        },
+        {
+          "reference": "usda:2709733",
+          "grams": 20
+        },
+        {
+          "reference": "bls:Q991000",
+          "grams": 20
+        }
+      ],
+      "notes": "One portion of fries (150 g) with a tablespoon each of ketchup (20 g) and mayonnaise (20 g), the German snack-bar Pommes rot-weiß.",
+      "origin": "reviewed",
+      "collections": [
+        "takeaway"
+      ]
+    },
+    {
+      "id": "akari:recipe:salmon-sashimi:v1",
+      "names": {
+        "en": "Salmon sashimi",
+        "de": "Lachs-Sashimi"
+      },
+      "aliases": [
+        "salmon sashimi",
+        "sashimi",
+        "sashimi lachs",
+        "sashimi salmon",
+        "raw salmon slices",
+        "lachs sashimi"
+      ],
+      "artworkID": "sushi",
+      "serving": {
+        "label": {
+          "en": "1 portion",
+          "de": "1 Portion"
+        },
+        "count": 1
+      },
+      "ingredients": [
+        {
+          "reference": "bls:T410100",
+          "grams": 100
+        },
+        {
+          "reference": "bls:R143000",
+          "grams": 10
+        }
+      ],
+      "notes": "Six to eight slices of raw salmon (100 g) with soy sauce for dipping (10 g); the wasabi and pickled ginger are left to the diary.",
+      "origin": "reviewed",
+      "collections": [
+        "takeaway"
+      ]
+    },
+    {
+      "id": "akari:recipe:halloumi-wrap:v1",
+      "names": {
+        "en": "Halloumi wrap",
+        "de": "Halloumi-Wrap"
+      },
+      "aliases": [
+        "halloumi wrap",
+        "grilled halloumi wrap",
+        "halloumi dürüm",
+        "halloumi-dürüm",
+        "halloumi tortilla"
+      ],
+      "artworkID": "burrito",
+      "serving": {
+        "label": {
+          "en": "1 wrap",
+          "de": "1 Wrap"
+        },
+        "count": 1
+      },
+      "ingredients": [
+        {
+          "reference": "usda:2707824",
+          "grams": 60
+        },
+        {
+          "reference": "bls:M524572",
+          "grams": 80
+        },
+        {
+          "reference": "bls:G103100",
+          "grams": 30
+        },
+        {
+          "reference": "bls:G561100",
+          "grams": 30
+        },
+        {
+          "reference": "cofid:12-547",
+          "grams": 40
+        }
+      ],
+      "notes": "One 60 g flour tortilla rolled with 80 g grilled halloumi, iceberg lettuce (30 g), tomato (30 g) and 40 g tzatziki, the vegetarian takeaway wrap.",
+      "origin": "reviewed",
+      "collections": [
+        "takeaway"
+      ]
+    },
+    {
+      "id": "akari:recipe:bismarck-herring-roll:v1",
+      "names": {
+        "en": "Bismarck herring roll",
+        "de": "Bismarckbrötchen"
+      },
+      "aliases": [
+        "bismarck herring roll",
+        "bismarckbrötchen",
+        "bismarck roll",
+        "fischbrötchen bismarck"
+      ],
+      "artworkID": "fish",
+      "serving": {
+        "label": {
+          "en": "1 roll",
+          "de": "1 Brötchen"
+        },
+        "count": 1
+      },
+      "ingredients": [
+        {
+          "reference": "bls:B511000",
+          "grams": 60
+        },
+        {
+          "reference": "bls:T820802",
+          "grams": 70
+        },
+        {
+          "reference": "bls:G480100",
+          "grams": 15
+        }
+      ],
+      "notes": "One 60 g bread roll with a 70 g Bismarck herring fillet and onion rings (15 g), the North Sea fish-stand roll.",
+      "origin": "reviewed",
+      "collections": [
+        "takeaway"
+      ]
+    },
+    {
+      "id": "akari:recipe:half-roast-chicken-with-fries:v1",
+      "names": {
+        "en": "Half roast chicken with fries",
+        "de": "Halbes Hähnchen mit Pommes"
+      },
+      "aliases": [
+        "half roast chicken with fries",
+        "half chicken with fries",
+        "halbes hähnchen mit pommes",
+        "halbes hendl mit pommes",
+        "grillhähnchen mit pommes",
+        "half a chicken and chips"
+      ],
+      "artworkID": "poultry",
+      "serving": {
+        "label": {
+          "en": "1 plate",
+          "de": "1 Teller"
+        },
+        "count": 1
+      },
+      "ingredients": [
+        {
+          "reference": "bls:V414172",
+          "grams": 250
+        },
+        {
+          "reference": "bls:X654042",
+          "grams": 150
+        }
+      ],
+      "notes": "Half a rotisserie chicken (250 g with skin) with a portion of fries (150 g), the Imbiss and Wiesn plate.",
+      "origin": "reviewed",
+      "collections": [
+        "takeaway"
+      ]
+    },
+    {
+      "id": "akari:recipe:chicken-nuggets-with-fries:v1",
+      "names": {
+        "en": "Chicken nuggets with fries",
+        "de": "Chicken Nuggets mit Pommes"
+      },
+      "aliases": [
+        "chicken nuggets with fries",
+        "nuggets with fries",
+        "nuggets and chips",
+        "nuggets mit pommes",
+        "chicken nuggets und pommes",
+        "nuggets menü"
+      ],
+      "artworkID": "poultry",
+      "serving": {
+        "label": {
+          "en": "1 portion",
+          "de": "1 Portion"
+        },
+        "count": 1
+      },
+      "ingredients": [
+        {
+          "reference": "usda:2706096",
+          "grams": 120
+        },
+        {
+          "reference": "bls:X654042",
+          "grams": 150
+        },
+        {
+          "reference": "usda:2709733",
+          "grams": 20
+        }
+      ],
+      "notes": "Six chicken nuggets (120 g) with a portion of fries (150 g) and ketchup (20 g).",
+      "origin": "reviewed",
+      "collections": [
+        "takeaway"
+      ]
     }
   ]
 }

@@ -1,0 +1,80 @@
+{
+  "id": "akari:label:immune-effervescent",
+  "name": "Immune effervescent tablet",
+  "identity": "Effervescent tablet with high-dose vitamin C, zinc, selenium and vitamin D dissolved in water, sold for the immune system; the dose is one tablet.",
+  "rule": "Per 100 g of the product, each value is the median of the labels below that declare it, and a value enters only when at least three declare it; a label states its nutrients per dose, so the file converts them with the dose's weight (the pack's net content divided by its count of tablets, capsules, sticks or drops, or the stated dose weight). Salt becomes sodium (salt in g × 400 = sodium in mg). Fewer than three labels declare energy, so the row stands at 0 kcal under the verification policy's clause for label generics with a micronutrient. Nothing a label leaves out becomes zero. Labels read on 2026-10-30 from dm.de, rossmann.de and shop-apotheke.com product pages.",
+  "nutrients": {
+    "selenium": 1125,
+    "zinc": 158.73,
+    "vitaminC": 10000,
+    "vitaminD": 396.825,
+    "calories": 0
+  },
+  "portions": [
+    {
+      "grams": 4.5,
+      "label": "1 effervescent tablet"
+    }
+  ],
+  "labels": [
+    {
+      "brand": "Mivolis",
+      "product": "Immun Fit Brausetabletten 20St, 80 g",
+      "read": "https://www.dm.de/p/d/3104246/ (dm.de product page, Nährwerte and Zutaten panels; GTIN not stated)",
+      "date": "2026-10-30",
+      "ingredients": "Säuerungsmittel Citronensäure, Säureregulator Natriumhydrogencarbonat, Füllstoff Sorbit, L-Ascorbinsäure (Vitamin C), Trennmittel Polyethylenglykol, Maltodextrin, Zinkcitrat, Süßungsmittel Acesulfam K und Natrium-Saccharin, natürliches Aroma, Stabilisator Gummi arabicum, modifizierte Stärke, Farbstoffe Riboflavin, Betanin, Natriumselenit, Cyanocobalamin (Vitamin B12), Cholecalciferol (Vitamin D3)",
+      "serving": "1 Stück: 20 units weigh 80 g, so the dose is 4 g; the label declares per dose: seleniumUg 45, zincMg 6.5, vitaminB12Ug 25, vitaminCMg 400, vitaminDUg 20; per 100 g 816 kJ / 190 kcal, fat < 0.5 g, saturates < 0.1 g, carbohydrate 17 g, sugars < 0.5 g, protein < 0.5 g, salt 16.8 g; under-values counted at half the threshold",
+      "per100g": {
+        "seleniumUg": 1125.0,
+        "zincMg": 162.5,
+        "vitaminB12Ug": 625.0,
+        "vitaminCMg": 10000.0,
+        "vitaminDUg": 500.0,
+        "energyKcal": 190.0,
+        "fat": 0.25,
+        "saturates": 0.05,
+        "carbohydrate": 17.0,
+        "sugars": 0.25,
+        "protein": 0.25,
+        "salt": 16.8
+      }
+    },
+    {
+      "brand": "altapharma",
+      "product": "Brausetabletten Immun-Aktiv, 20 Brausetabletten, 90 g",
+      "read": "https://www.rossmann.de/de/gesundheit-altapharma-brausetabletten-immun-aktiv/p/4305615642437 (rossmann.de product page, Zutaten and Nährwerte sections; GTIN 4305615642437)",
+      "date": "2026-10-30",
+      "ingredients": "Säuerungsmittel Citronensäure, Säureregulator Natriumhydrogencarbonat, Feuchthaltemittel Sorbit, Säureregulator Natriumcarbonat, Vitamin C, Inulin, Grüntee-Extrakt, Aromen, Süßungsmittel Natriumcyclamat, Stärke, Zinksulfat, Süßungsmittel Natriumsaccharin, Vitamin A, Farbstoff Riboflavin-5'-phosphat-Natrium, Natriumselenat, Vitamin D3",
+      "serving": "1 Tablette: 20 units weigh 90 g, so the dose is 4.5 g; the label declares per dose: energyKcal 8.4, fat 0.005, saturates 0.005, carbohydrate 0.56, sugars 0.009, protein 0.023, salt 1.02, zincMg 5, seleniumUg 55, vitaminAUg 800, vitaminDUg 5, vitaminCMg 160; per tablet 35.4 kJ / 8.4 kcal, fat 0.005 g, saturates 0.005 g, carbohydrate 0.56 g, sugars < 0.018 g, fibre 0.14 g, protein 0.023 g, salt 1.02 g; under-values counted at half the threshold",
+      "per100g": {
+        "energyKcal": 186.667,
+        "fat": 0.111111,
+        "saturates": 0.111111,
+        "carbohydrate": 12.4444,
+        "sugars": 0.2,
+        "protein": 0.511111,
+        "salt": 22.6667,
+        "zincMg": 111.111,
+        "seleniumUg": 1222.22,
+        "vitaminAUg": 17777.8,
+        "vitaminDUg": 111.111,
+        "vitaminCMg": 3555.56
+      }
+    },
+    {
+      "brand": "Doppelherz",
+      "product": "Abwehr aktiv Brausetabletten, 15 Tabletten, 94,5 g",
+      "read": "https://www.rossmann.de/de/gesundheit-doppelherz-abwehr-aktiv-brausetabletten/p/4009932006766 (rossmann.de product page, Zutaten and Nährwerte sections; GTIN 4009932006766)",
+      "date": "2026-10-30",
+      "ingredients": "Säuerungsmittel Citronensäure, Säureregulator Natriumhydrogencarbonat, L-Ascorbinsäure, Feuchthaltemittel Sorbit, Maltodextrin, Säureregulator Natriumcarbonat, Inulin, Zinkgluconat, Trennmittel Tricalciumphosphat, Stärke, Süßungsmittel Natriumcyclamat, Aroma, Süßungsmittel Natriumsaccharin, Natriumselenat, Farbstoff Riboflavin-5'-phosphat, Cyanocobalamin, Cholecalciferol",
+      "serving": "1 Brausetablette: 15 units weigh 94.5 g, so the dose is 6.3 g; the label declares per dose: zincMg 10, seleniumUg 55, vitaminDUg 25, vitaminCMg 800, vitaminB12Ug 30; no energy or macros declared",
+      "per100g": {
+        "zincMg": 158.73,
+        "seleniumUg": 873.016,
+        "vitaminDUg": 396.825,
+        "vitaminCMg": 12698.4,
+        "vitaminB12Ug": 476.19
+      }
+    }
+  ]
+}

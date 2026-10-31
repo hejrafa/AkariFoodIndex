@@ -1,0 +1,77 @@
+{
+  "id": "akari:label:clear-whey",
+  "name": "Clear whey protein powder",
+  "identity": "Hydrolysed whey isolate powder that mixes to a clear, fruit-flavoured drink; it is sold only flavoured, so the flavoured labels stand for the product.",
+  "rule": "Per 100 g, each value is the median of the three labels below that declare it, and a value enters only when at least three labels declare it (flavoured by nature). Salt becomes sodium (salt in g × 400 = sodium in mg). Nothing a label leaves out becomes zero. Labels read on 2026-10-30 from Open Food Facts through Akari's proxy, as the beef protein isolate was.",
+  "nutrients": {
+    "calories": 352.0,
+    "fat": 0.2,
+    "saturatedFat": 0.16,
+    "carbs": 2.4,
+    "sugar": 1.6,
+    "protein": 84.4,
+    "sodium": 40.0
+  },
+  "portions": [
+    {
+      "grams": 25,
+      "label": "1 scoop"
+    }
+  ],
+  "labels": [
+    {
+      "brand": "Foodspring",
+      "product": "Clear whey",
+      "read": "Open Food Facts 4260701927488 through https://api.joinakari.com/v1/off/product/4260701927488",
+      "date": "2026-10-30",
+      "ingredients": "not stated in the entry",
+      "serving": "30 g",
+      "per100g": {
+        "energyKJ": 1521.67,
+        "energyKcal": 370.0,
+        "fat": 1.0,
+        "saturates": 0.33,
+        "carbohydrate": 4.0,
+        "sugars": 1.67,
+        "protein": 83.33,
+        "salt": 0.1
+      }
+    },
+    {
+      "brand": "VAST",
+      "product": "Clear Whey",
+      "read": "Open Food Facts 9120107992082 through https://api.joinakari.com/v1/off/product/9120107992082",
+      "date": "2026-10-30",
+      "ingredients": "not stated in the entry",
+      "serving": "not stated",
+      "per100g": {
+        "energyKJ": 1477.6,
+        "energyKcal": 348.0,
+        "fat": 0.1,
+        "saturates": 0.1,
+        "carbohydrate": 1.7,
+        "sugars": 1.6,
+        "protein": 85.0,
+        "salt": 0.25
+      }
+    },
+    {
+      "brand": "Vilgain",
+      "product": "Clear Whey Isolate",
+      "read": "Open Food Facts 8595717709848 through https://api.joinakari.com/v1/off/product/8595717709848",
+      "date": "2026-10-30",
+      "ingredients": "not stated in the entry",
+      "serving": "25 g",
+      "per100g": {
+        "energyKJ": 1472.0,
+        "energyKcal": 352.0,
+        "fat": 0.2,
+        "saturates": 0.16,
+        "carbohydrate": 2.4,
+        "sugars": 1.48,
+        "protein": 84.4,
+        "salt": 0.04
+      }
+    }
+  ]
+}

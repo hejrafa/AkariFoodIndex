@@ -1,0 +1,83 @@
+{
+ "batch": 39,
+ "identities": [
+  {
+   "key": "instant coffee prepared unsweetened",
+   "names": [
+    "instant coffee prepared unsweetened",
+    "instant coffee prepared",
+    "instantkaffee zubereitet",
+    "instant coffee",
+    "instant coffee black",
+    "soluble coffee",
+    "loslicher kaffee",
+    "instantkaffee",
+    "instant kaffee",
+    "nescafe schwarz",
+    "pulverkaffee zubereitet"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "ciqual:18073",
+     "name": "Café, instantané, sans sucres ajoutés, prêt à boire"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "instant coffee decaf prepared",
+   "names": [
+    "instant coffee decaf prepared",
+    "decaf instant coffee prepared",
+    "instantkaffee entkoffeiniert zubereitet",
+    "decaf instant coffee",
+    "decaffeinated instant coffee",
+    "entkoffeinierter instantkaffee",
+    "instantkaffee koffeinfrei",
+    "loslicher kaffee entkoffeiniert"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:N440100",
+     "name": "Coffee (infusion) made from decaffeinated instant powder"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "chai latte powder",
+   "names": [
+    "chai latte powder",
+    "chai latte pulver",
+    "chai latte mix",
+    "instant chai latte",
+    "chai latte instant powder",
+    "chai powder",
+    "chai pulver",
+    "instant chai"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "akari:label:chai-latte-powder",
+     "name": "Chai latte powder"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "akari:label:chai-latte-powder",
+     "label": "1 serving, 2 heaped teaspoons",
+     "grams": 20
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "akari:label:amino-acid-powder",
+  "name": "Amino acid powder, EAA or BCAA",
+  "identity": "Essential or branched-chain amino acid drink powder, 64 to 83 g amino acids declared as protein per 100 g; sold flavoured.",
+  "rule": "Per 100 g, each value is the median of the three labels below that declare it, and a value enters only when at least three labels declare it (flavoured by nature). Salt becomes sodium (salt in g × 400 = sodium in mg). Nothing a label leaves out becomes zero. Labels read on 2026-10-30 from Open Food Facts through Akari's proxy, as the beef protein isolate was.",
+  "nutrients": {
+    "calories": 329.0,
+    "fat": 0.4,
+    "saturatedFat": 0.0,
+    "carbs": 0.9,
+    "sugar": 0.2,
+    "protein": 72.9,
+    "sodium": 40.0
+  },
+  "portions": [
+    {
+      "grams": 10,
+      "label": "1 scoop"
+    }
+  ],
+  "labels": [
+    {
+      "brand": "Core",
+      "product": "EAA+BCAA",
+      "read": "Open Food Facts 9354782001283 through https://api.joinakari.com/v1/off/product/9354782001283",
+      "date": "2026-10-30",
+      "ingredients": "not stated in the entry",
+      "serving": "1 scoop (8 g)",
+      "per100g": {
+        "energyKJ": 1287.5,
+        "energyKcal": 306.25,
+        "fat": 0.0,
+        "saturates": 0.0,
+        "carbohydrate": 0.0,
+        "sugars": 0.0,
+        "protein": 63.75,
+        "salt": 2.81
+      }
+    },
+    {
+      "brand": "Nutriathletics",
+      "product": "Eaa bcaa powder",
+      "read": "Open Food Facts 7640145040764 through https://api.joinakari.com/v1/off/product/7640145040764",
+      "date": "2026-10-30",
+      "ingredients": "not stated in the entry",
+      "serving": "8.0g",
+      "per100g": {
+        "energyKJ": 1436.3,
+        "energyKcal": 343.0,
+        "fat": 0.5,
+        "saturates": 0.1,
+        "carbohydrate": 0.9,
+        "sugars": 0.5,
+        "protein": 82.5,
+        "salt": 0.1
+      }
+    },
+    {
+      "brand": "Nutrend",
+      "product": "BCAA Mega Strong Powder pomeranč",
+      "read": "Open Food Facts 8594073179975 through https://api.joinakari.com/v1/off/product/8594073179975",
+      "date": "2026-10-30",
+      "ingredients": "parfum Orange: mélange diacides aminés à chaînes ramifiées(L leucine, L isoleucine, L valine, émulsifiant lécithine de soja), L glutamine, correcteur d'acidité:acide citrique, arôme, édulcorants: sucralose, acésulfame K antiagglomérants: phosphate de calcium, dioxyde de silicium : colorant: bêta-car",
+      "serving": "300 g",
+      "per100g": {
+        "energyKJ": 1324.6,
+        "energyKcal": 329.0,
+        "fat": 0.4,
+        "saturates": 0.0,
+        "carbohydrate": 4.1,
+        "sugars": 0.2,
+        "protein": 72.9,
+        "salt": 0.1
+      }
+    }
+  ]
+}

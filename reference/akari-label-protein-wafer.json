@@ -1,0 +1,77 @@
+{
+  "id": "akari:label:protein-wafer",
+  "name": "Protein wafer",
+  "identity": "Cream-filled protein wafer bar, 20 to 31 g protein and about 33 g fat per 100 g; always flavoured.",
+  "rule": "Per 100 g, each value is the median of the three labels below that declare it, and a value enters only when at least three labels declare it (flavoured by nature). Salt becomes sodium (salt in g × 400 = sodium in mg). Nothing a label leaves out becomes zero. Labels read on 2026-10-30 from Open Food Facts through Akari's proxy, as the beef protein isolate was.",
+  "nutrients": {
+    "calories": 502.0,
+    "fat": 33.33,
+    "saturatedFat": 17.0,
+    "carbs": 24.0,
+    "sugar": 2.78,
+    "protein": 27.77,
+    "sodium": 108.0
+  },
+  "portions": [
+    {
+      "grams": 40,
+      "label": "1 wafer bar"
+    }
+  ],
+  "labels": [
+    {
+      "brand": "GymQueen",
+      "product": "Protein Wafer",
+      "read": "Open Food Facts 4260571870983 through https://api.joinakari.com/v1/off/product/4260571870983",
+      "date": "2026-10-30",
+      "ingredients": "not stated in the entry",
+      "serving": "100.0g",
+      "per100g": {
+        "energyKJ": 2179.0,
+        "energyKcal": 502.0,
+        "fat": 34.0,
+        "saturates": 17.0,
+        "carbohydrate": 29.0,
+        "sugars": 4.2,
+        "protein": 20.0,
+        "salt": 0.26
+      }
+    },
+    {
+      "brand": "Body&fit",
+      "product": "Protein wafers",
+      "read": "Open Food Facts 8718774020385 through https://api.joinakari.com/v1/off/product/8718774020385",
+      "date": "2026-10-30",
+      "ingredients": "not stated in the entry",
+      "serving": "40g",
+      "per100g": {
+        "energyKJ": 2157.7,
+        "energyKcal": 505.0,
+        "fat": 33.0,
+        "saturates": 15.0,
+        "carbohydrate": 24.0,
+        "sugars": 0.6,
+        "protein": 31.1,
+        "salt": 0.27
+      }
+    },
+    {
+      "brand": "ATKINS Anytime Snacks",
+      "product": "PROTEIN WAFER CRISPS CHOCOLATE CRÈME",
+      "read": "Open Food Facts 0637480000710 through https://api.joinakari.com/v1/off/product/0637480000710",
+      "date": "2026-10-30",
+      "ingredients": "protein blend, milk protein isolate, palm kernel oil, canola oil, cocoa, whey protein isolate, whey protein concentrate, soy protein isolate, nonfat dry milk, sugar, corn syrup, glycerin, maltitol syrup, polydextrose, fructose, maltodextrin, natural flavors, soy lecithin, salt, cocoa processed with ",
+      "serving": "1 bar (36.004 g)",
+      "per100g": {
+        "energyKJ": 2194.2,
+        "energyKcal": 472.22,
+        "fat": 33.33,
+        "saturates": 19.44,
+        "carbohydrate": 22.22,
+        "sugars": 2.78,
+        "protein": 27.77,
+        "salt": 0.52
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "batch": 45,
+  "drafted": "2026-10-30",
+  "drafter": "Claude Fable 5.1, b212 follow-up: the omega-3 fish oil and algae oil capsules' doses from their label files",
+  "entries": [
+    {
+      "key": "omega 3 fish oil capsule",
+      "unit": "piece",
+      "typical": 1,
+      "gramsPerUnit": 1.41667,
+      "reason": "1 capsule, the label file's own dose (1.41667 g, the median capsule of six labels)"
+    },
+    {
+      "key": "omega 3 algae oil capsule",
+      "unit": "piece",
+      "typical": 1,
+      "gramsPerUnit": 0.715833,
+      "reason": "1 capsule, the label file's own dose (0.715833 g, the median capsule of three labels)"
+    }
+  ]
+}

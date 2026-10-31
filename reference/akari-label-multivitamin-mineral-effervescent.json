@@ -1,0 +1,117 @@
+{
+  "id": "akari:label:multivitamin-mineral-effervescent",
+  "name": "Multivitamin + mineral effervescent tablet",
+  "identity": "A to Z effervescent tablet with vitamins and minerals such as calcium, magnesium and zinc dissolved in a glass of water; the dose is one tablet.",
+  "rule": "Per 100 g of the product, each value is the median of the labels below that declare it, and a value enters only when at least three declare it; a label states its nutrients per dose, so the file converts them with the dose's weight (the pack's net content divided by its count of tablets, capsules, sticks or drops, or the stated dose weight). Salt becomes sodium (salt in g × 400 = sodium in mg). Fewer than three labels declare energy, so the row stands at 0 kcal under the verification policy's clause for label generics with a micronutrient. Nothing a label leaves out becomes zero. Labels read on 2026-10-30 from dm.de, rossmann.de and shop-apotheke.com product pages.",
+  "nutrients": {
+    "folate": 5380.175,
+    "vitaminB12": 60.4839,
+    "vitaminC": 1864.39,
+    "calcium": 4661.245,
+    "magnesium": 1952.79,
+    "zinc": 80.6452,
+    "calories": 0
+  },
+  "portions": [
+    {
+      "grams": 4.5,
+      "label": "1 effervescent tablet"
+    }
+  ],
+  "labels": [
+    {
+      "brand": "altapharma",
+      "product": "Brausetablette Multivitamin, 20 Brausetabletten, 82 g",
+      "read": "https://www.rossmann.de/de/gesundheit-altapharma-brausetablette-multivitamin/p/4068134212764 (rossmann.de product page, Zutaten and Nährwerte sections; GTIN 4068134212764)",
+      "date": "2026-10-30",
+      "ingredients": "Säuerungsmittel Citronensäure, Säureregulator Natriumhydrogencarbonat, Füllstoff Sorbitol, Aromen, Maisstärke, L-Ascorbinsäure (Vitamin C), Maltodextrin, Rote-Bete Saftpulver, Süßungsmittel Natriumcyclamat, DL-alpha-Tocopherylacetat (Vitamin E), Nicotinamid, Süßungsmittel Natriumsaccharin, Calcium-D-pantothenat, Pyridoxinhydrochlorid (Vitamin B6), Riboflavin (Vitamin B2), Thiaminmononitrat (Vitamin B1), Farbstoff Riboflavin-5'-phosphat, Pteroylmonoglutaminsäure (Folsäure), D-Biotin, Cyanocobalamin (Vitamin B12)",
+      "serving": "1 Stück: 20 units weigh 82 g, so the dose is 4.1 g; the label declares per dose: folateUg 200, vitaminB12Ug 2.5, vitaminCMg 80; vitamin E 12 mg, B1 1.1 mg, B2 1.4 mg, niacin 16 mg, B6 1.4 mg, biotin 50 µg, pantothenic acid 6 mg per tablet; per 100 g 916 kJ (219 kcal by 4.184), fat < 0.5 g, saturates < 0.3 g, carbohydrate 17 g, sugars < 0.6 g, protein < 0.5 g, salt 19.1 g, folate 4878 µg, B12 61 µg, vitamin C 1951 mg; under-values counted at half the threshold",
+      "per100g": {
+        "folateUg": 4878.0,
+        "vitaminB12Ug": 61.0,
+        "vitaminCMg": 1951.0,
+        "energyKcal": 219.0,
+        "fat": 0.25,
+        "saturates": 0.15,
+        "carbohydrate": 17.0,
+        "sugars": 0.3,
+        "protein": 0.25,
+        "salt": 19.1
+      }
+    },
+    {
+      "brand": "Kneipp",
+      "product": "Frauen Mineralstoffe Brausetabletten mit Eisen, Jod und Folsäure 15 St, 102 g",
+      "read": "https://www.dm.de/p/d/3049842/ (dm.de product page, Nährwerte and Zutaten panels; GTIN not stated)",
+      "date": "2026-10-30",
+      "ingredients": "Säuerungsmittel Citronensäure; Dolomit, Calciumcarbonat, Säureregulator Natriumhydrogencarbonat; Magnesiumcarbonat, Maltodextrin, natürliche Aromen, Maisstärke, L-Ascorbinsäure, Rote Bete Saftpulver, Süßungsmittel Natriumcyclamat; Eisen-II-Glukonat, Süßungsmittel Natriumsaccharin; Zinksulfat, Farbstoff Riboflavin-5'-Phosphat; Pteroylmonoglutaminsäure, Kaliumiodat, Cholecalciferol",
+      "serving": "1 Tablette: 15 units weigh 102 g, so the dose is 6.8 g; the label declares per dose: calciumMg 600, ironMg 5, folateUg 400, iodineUg 100, magnesiumMg 300, zincMg 5, vitaminCMg 80, vitaminDUg 5; no energy or macros declared",
+      "per100g": {
+        "calciumMg": 8823.53,
+        "ironMg": 73.5294,
+        "folateUg": 5882.35,
+        "iodineUg": 1470.59,
+        "magnesiumMg": 4411.76,
+        "zincMg": 73.5294,
+        "vitaminCMg": 1176.47,
+        "vitaminDUg": 73.5294
+      }
+    },
+    {
+      "brand": "Mivolis",
+      "product": "Multi-Mineral Brausetabletten 20 St, 82 g",
+      "read": "https://www.dm.de/p/d/3104285/ (dm.de product page, Nährwerte and Zutaten panels; GTIN not stated)",
+      "date": "2026-10-30",
+      "ingredients": "Säuerungsmittel Citronensäure, Säureregulator Natriumhydrogencarbonat, Calciumcarbonat, Magnesiumcarbonat, Füllstoff Sorbit, Aromen, Süßungsmittel Natriumcyclamat und Natriumsaccharin, Maltodextrin, Rote-Bete-Pulver, Zinkcitrat, Farbstoff Riboflavin, Mangansulfat, Kupfercitrat, Chrom-III-chlorid, Natriummolybdat, Natriumselenit",
+      "serving": "1 Stück: 20 units weigh 82 g, so the dose is 4.1 g; the label declares per dose: calciumMg 200, magnesiumMg 94, seleniumUg 28, zincMg 5; chromium 20 µg, copper 0.5 mg, manganese 1 mg, molybdenum 25 µg; per 100 g 779 kJ / 181 kcal, fat < 0.5 g, saturates 0.4 g, carbohydrate 15 g, sugars 0.7 g, protein < 0.5 g, salt 11 g; under-values counted at half the threshold",
+      "per100g": {
+        "calciumMg": 4878.05,
+        "magnesiumMg": 2292.68,
+        "seleniumUg": 682.927,
+        "zincMg": 121.951,
+        "energyKcal": 181.0,
+        "fat": 0.25,
+        "saturates": 0.4,
+        "carbohydrate": 15.0,
+        "sugars": 0.7,
+        "protein": 0.25,
+        "salt": 11.0
+      }
+    },
+    {
+      "brand": "altapharma",
+      "product": "Brausetabletten Multivitamin + Mineral, 20 Brausetabletten, 90 g",
+      "read": "https://www.rossmann.de/de/gesundheit-altapharma-brausetabletten-multivitamin--mineral/p/4305615614397 (rossmann.de product page, Zutaten and Nährwerte sections; GTIN 4305615614397)",
+      "date": "2026-10-30",
+      "ingredients": "Säuerungsmittel Citronensäure, Monokaliumphosphat, Calciumcarbonat, Säureregulator Natriumhydrogencarbonat, Magnesiumcarbonat, Feuchthaltemittel Sorbit, Stärke, Säuerungsmittel Äpfelsäure, Inulin, L-Ascorbinsäure, Trennmittel Tricalciumphosphat, Süßungsmittel Natriumcyclamat, Aroma, Rote Bete-Saftpulver, DL-a-Tocopherylacetat, Nicotinamid, Süßungsmittel Natriumsaccharin, Calcium-D-Pantothenat, Riboflavin-5'-phosphat-Natrium, Pyridoxinhydrochlorid, Thiaminhydrochlorid, Pteroylmonoglutaminsäure, D-Biotin, Cyanocobalamin",
+      "serving": "1 Tablette: 20 units weigh 90 g, so the dose is 4.5 g; the label declares per dose: calciumMg 200, magnesiumMg 56.25, folateUg 200, vitaminB12Ug 2.5, vitaminCMg 80; phosphorus 120 mg, vitamin E 12 mg, B1 1.1 mg, B2 1.4 mg, niacin 16 mg, B6 1.4 mg, biotin 50 µg, pantothenic acid 6 mg; no energy or macros declared",
+      "per100g": {
+        "calciumMg": 4444.44,
+        "magnesiumMg": 1250.0,
+        "folateUg": 4444.44,
+        "vitaminB12Ug": 55.5556,
+        "vitaminCMg": 1777.78
+      }
+    },
+    {
+      "brand": "Doppelherz",
+      "product": "A-Z Multivitamin + Mineralien Brausetabletten, 15 Brausetabletten, 93 g",
+      "read": "https://www.rossmann.de/de/gesundheit-doppelherz-a-z-multivitamin--mineralien-brausetabletten/p/4009932007312 (rossmann.de product page, Zutaten and Nährwerte sections; GTIN 4009932007312)",
+      "date": "2026-10-30",
+      "ingredients": "Säuerungsmittel Äpfelsäure und Citronensäure, Säureregulatoren Natriumhydrogencarbonat und Natriumcarbonat, Kaliumdihydrogenphosphat, Calciumcarbonat, Magnesiumcarbonat, Feuchthaltemittel Sorbit, Vitamin C, Aroma, Stärke, Süßungsmittel Natriumcyclamat und Saccharin-Natrium, Maltodextrin, Niacin, Vitamin E, Rote Bete Saftpulver, Zinksulfat, Pantothensäure, Vitamin B2, Vitamin B6, Vitamin B1, Vitamin A, Folsäure, Kaliumjodat, Biotin, Chrom-III-Chlorid, Natriumselenat, Natriummolybdat, Vitamin D, Vitamin K, Vitamin B12",
+      "serving": "1 Brausetablette: 15 units weigh 93 g, so the dose is 6.2 g; the label declares per dose: calciumMg 200, magnesiumMg 100, zincMg 5, seleniumUg 30, iodineUg 100, vitaminAUg 400, vitaminDUg 5, vitaminCMg 200, folateUg 400, vitaminB12Ug 3.75; phosphorus 125 mg, chromium 12 µg, molybdenum 12.5 µg, vitamin E 12 mg, vitamin K 20 µg, B1 1.65 mg, B2 2.1 mg, niacin 16 mg, B6 2.1 mg, biotin 75 µg, pantothenic acid 6 mg; no energy or macros declared",
+      "per100g": {
+        "calciumMg": 3225.81,
+        "magnesiumMg": 1612.9,
+        "zincMg": 80.6452,
+        "seleniumUg": 483.871,
+        "iodineUg": 1612.9,
+        "vitaminAUg": 6451.61,
+        "vitaminDUg": 80.6452,
+        "vitaminCMg": 3225.81,
+        "folateUg": 6451.61,
+        "vitaminB12Ug": 60.4839
+      }
+    }
+  ]
+}

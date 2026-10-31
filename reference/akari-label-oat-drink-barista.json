@@ -1,0 +1,108 @@
+{
+  "id": "akari:label:oat-drink-barista",
+  "name": "Barista oat drink",
+  "identity": "Foamable barista oat drink as cafés pour it (Oatly Barista Edition, Alpro Barista, the drugstore barista oats), 10 to 11 % oats with added oil, 50 to 61 kcal per 100 ml; the plain retail oat drink stays on BLS C660000 at 29 kcal.",
+  "rule": "Per 100 g, each value is the median of the five labels below that declare it, and a value enters only when at least three labels declare it. The labels state their panel per 100 ml (Oatly per 100 g); the file takes 100 ml as 100 g, an oat drink's density being within 3 % of water, and the verified row carries the volume measure at 1.0 g per ml. Salt becomes sodium (salt in g × 400 = sodium in mg). Nothing a label leaves out becomes zero. Labels read on 2026-10-30 from the maker's page (Alpro) and dm.de and rossmann.de product pages.",
+  "nutrients": {
+    "calories": 54,
+    "fat": 2,
+    "saturatedFat": 0.3,
+    "carbs": 6.7,
+    "sugar": 3.4,
+    "protein": 1.1,
+    "sodium": 52
+  },
+  "portions": [
+    {
+      "grams": 200,
+      "label": "1 glass"
+    }
+  ],
+  "labels": [
+    {
+      "brand": "Oatly",
+      "product": "Haferdrink Barista Edition, 1 l",
+      "read": "https://www.dm.de/p/d/1523388/ (dm.de product page, Nährwerte and Zutaten panels, per 100 g)",
+      "ingredients": "Wasser, Hafer 10 %, Rapsöl, Säureregulator (Dikaliumphosphat), Mineralien (Calciumcarbonat, Kaliumiodid), Salz, Vitamine (D2, Riboflavin, B12)",
+      "serving": "poured into coffee; the panel is per 100 g: 257 kJ / 61 kcal, fat 3 g, saturates 0.3 g, carbohydrate 7.1 g, sugars 3.4 g, fibre 0.8 g, protein 1.1 g, salt 0.1 g",
+      "per100g": {
+        "energyKcal": 61,
+        "fat": 3,
+        "saturates": 0.3,
+        "carbohydrate": 7.1,
+        "sugars": 3.4,
+        "protein": 1.1,
+        "salt": 0.1
+      },
+      "date": "2026-10-30"
+    },
+    {
+      "brand": "dmBio",
+      "product": "Haferdrink Barista, 1 l",
+      "read": "https://www.dm.de/p/d/1697279/ (dm.de product page, Nährwerte and Zutaten panels, per 100 ml)",
+      "ingredients": "Wasser, 11 % Vollkornhafer fermentiert, Sonnenblumenöl, Säureregulatoren Kaliumcarbonate, Natriumcitrate",
+      "serving": "per 100 ml: 228 kJ / 54 kcal, fat 2 g, saturates 0.3 g, carbohydrate 8.1 g, sugars 3.4 g, fibre < 0.5 g, protein 0.8 g, salt 0.04 g",
+      "per100g": {
+        "energyKcal": 54,
+        "fat": 2,
+        "saturates": 0.3,
+        "carbohydrate": 8.1,
+        "sugars": 3.4,
+        "protein": 0.8,
+        "salt": 0.04
+      },
+      "date": "2026-10-30"
+    },
+    {
+      "brand": "enerBiO",
+      "product": "Barista Hafer, 1 l",
+      "read": "https://www.rossmann.de/de/lebensmittel-enerbio-barista-hafer/p/4068134066275 (rossmann.de product page, Zutaten and Nährwerte sections, per 100 ml; GTIN 4068134066275)",
+      "ingredients": "Trinkwasser, 10 % Vollkornhafer, 2 % Sojabohnen, Sonnenblumenöl, Meersalz",
+      "serving": "per 100 ml: 211 kJ / 50 kcal, fat 2.0 g, saturates 0.3 g, monounsaturates 0.6 g, polyunsaturates 1.1 g, carbohydrate 6.3 g, sugars 4.3 g, fibre 0.6 g, protein 1.5 g, salt 0.14 g",
+      "per100g": {
+        "energyKcal": 50,
+        "fat": 2.0,
+        "saturates": 0.3,
+        "carbohydrate": 6.3,
+        "sugars": 4.3,
+        "protein": 1.5,
+        "salt": 0.14
+      },
+      "date": "2026-10-30"
+    },
+    {
+      "brand": "Alnatura",
+      "product": "Bio Haferdrink Barista mit Soja, 1 l",
+      "read": "https://www.rossmann.de/de/lebensmittel-alnatura-bio-haferdrink-barista-mit-soja/p/4104420224889 (rossmann.de product page, Zutaten and Nährwerte sections, per 100 ml; GTIN 4104420224889)",
+      "ingredients": "Wasser, Hafervollkorn 10 %, Sojabohnen 2 %, Sonnenblumenöl, Meersalz",
+      "serving": "per 100 ml: 211 kJ / 50 kcal, fat 2.0 g, saturates 0.3 g, carbohydrate 6.3 g, sugars 4.3 g, fibre 0.6 g, protein 1.5 g, salt 0.14 g",
+      "per100g": {
+        "energyKcal": 50,
+        "fat": 2.0,
+        "saturates": 0.3,
+        "carbohydrate": 6.3,
+        "sugars": 4.3,
+        "protein": 1.5,
+        "salt": 0.14
+      },
+      "date": "2026-10-30"
+    },
+    {
+      "brand": "Alpro",
+      "product": "Barista Hafer, 1 l",
+      "read": "https://www.alpro.com/de-de/products/drinks/barista-oat-1l (maker's product page, Zutaten and Nährwertangaben pro 100 ml)",
+      "ingredients": "Wasser, Hafer (10 %), Sonnenblumenöl, Zichorienwurzelfasern, Erbsenprotein, Säureregulator (Kaliumphosphate), Meersalz, Vitamine B2, D2",
+      "serving": "per 100 ml: 248 kJ / 59 kcal, fat 3.1 g, saturates 0.3 g, carbohydrate 6.7 g, sugars 3.3 g, fibre 1.0 g, protein 0.8 g, salt 0.13 g",
+      "per100g": {
+        "energyKcal": 59,
+        "fat": 3.1,
+        "saturates": 0.3,
+        "carbohydrate": 6.7,
+        "sugars": 3.3,
+        "protein": 0.8,
+        "salt": 0.13
+      },
+      "date": "2026-10-30"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "akari:label:protein-ice-cream",
+  "name": "High protein ice cream",
+  "identity": "High-protein, reduced-sugar ice cream of the supermarket pint, 7 to 11 g protein per 100 g; always flavoured.",
+  "rule": "Per 100 g, each value is the median of the three labels below that declare it, and a value enters only when at least three labels declare it (flavoured by nature). Salt becomes sodium (salt in g × 400 = sodium in mg). Nothing a label leaves out becomes zero. Labels read on 2026-10-30 from Open Food Facts through Akari's proxy, as the beef protein isolate was.",
+  "nutrients": {
+    "calories": 143.1,
+    "fat": 3.0,
+    "saturatedFat": 2.0,
+    "carbs": 19.0,
+    "sugar": 11.0,
+    "protein": 10.0,
+    "sodium": 132.0
+  },
+  "portions": [
+    {
+      "grams": 100,
+      "label": "1 portion"
+    }
+  ],
+  "labels": [
+    {
+      "brand": "REWE Beste Wahl",
+      "product": "High Protein Eis Cookies & Cream",
+      "read": "Open Food Facts 4337256342100 through https://api.joinakari.com/v1/off/product/4337256342100",
+      "date": "2026-10-30",
+      "ingredients": "Eingedickte entrahmte Milch, Schlagsahne 4,8%, Inulin, Weizenmehl, Süßungsmittel (Erythrit, Steviolglycoside aus Stevia), Molkeneiweißpulver 3,6%; Zucker, Milcheiweißpulver 2,2%, Margarine (Palmfett, Wasser), Glukosesirup, fettarmes Kakaopulver', Emulgator (Mono - und Diglyceride von Speisefettsäure",
+      "serving": "1 serving (100 g)",
+      "per100g": {
+        "energyKJ": 676.3,
+        "energyKcal": 143.1,
+        "fat": 3.5,
+        "saturates": 2.2,
+        "carbohydrate": 19.0,
+        "sugars": 11.0,
+        "protein": 11.0,
+        "salt": 0.23
+      }
+    },
+    {
+      "brand": "Aldi",
+      "product": "Salted Caramel High Protein Ice Cream",
+      "read": "Open Food Facts 4088600077130 through https://api.joinakari.com/v1/off/product/4088600077130",
+      "date": "2026-10-30",
+      "ingredients": "not stated in the entry",
+      "serving": "not stated",
+      "per100g": {
+        "energyKJ": 462.9,
+        "energyKcal": 113.0,
+        "fat": 3.0,
+        "saturates": 2.0,
+        "carbohydrate": 14.0,
+        "sugars": 11.0,
+        "protein": 6.7,
+        "salt": 0.33
+      }
+    },
+    {
+      "brand": "Dzik",
+      "product": "Protein Ice Cream Toffee",
+      "read": "Open Food Facts 5904988310241 through https://api.joinakari.com/v1/off/product/5904988310241",
+      "date": "2026-10-30",
+      "ingredients": "not stated in the entry",
+      "serving": "1 portion (300 g)",
+      "per100g": {
+        "energyKJ": 621.0,
+        "energyKcal": 153.0,
+        "fat": 3.0,
+        "saturates": 2.0,
+        "carbohydrate": 20.0,
+        "sugars": 8.33,
+        "protein": 10.0,
+        "salt": 0.5
+      }
+    }
+  ]
+}

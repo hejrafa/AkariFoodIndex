@@ -1,0 +1,77 @@
+{
+  "id": "akari:label:kids-multivitamin-chewable",
+  "name": "Kids' multivitamin chewable tablet",
+  "identity": "Sorbitol chewable tablets with vitamins for children, two a day; the dose is two tablets.",
+  "rule": "Per 100 g of the product, each value is the median of the labels below that declare it, and a value enters only when at least three declare it; a label states its nutrients per dose, so the file converts them with the dose's weight (the pack's net content divided by its count of tablets, capsules, sticks or drops, or the stated dose weight). Salt becomes sodium (salt in g × 400 = sodium in mg). Fewer than three labels declare energy, so the row stands at 0 kcal under the verification policy's clause for label generics with a micronutrient. Nothing a label leaves out becomes zero. Labels read on 2026-10-30 from dm.de, rossmann.de and shop-apotheke.com product pages.",
+  "nutrients": {
+    "vitaminC": 2142.86,
+    "folate": 10000,
+    "vitaminB12": 107.143,
+    "calories": 0
+  },
+  "portions": [
+    {
+      "grams": 1.4,
+      "label": "1 daily dose of chewable tablets"
+    }
+  ],
+  "labels": [
+    {
+      "brand": "altapharma",
+      "product": "Multivitamine für Kinder Kautabletten, 30 Kautabletten, 21 g",
+      "read": "https://www.rossmann.de/de/baby-und-spielzeug-altapharma-multivitamine-fuer-kinder-kautabletten/p/4068134200952 (rossmann.de product page, Zutaten and Nährwerte sections; GTIN 4068134200952)",
+      "date": "2026-10-30",
+      "ingredients": "Süßungsmittel Sorbit; L-Ascorbinsäure (Vitamin C), Säuerungsmittel Citronensäure; Trennmittel Magnesiumsalze der Speisefettsäuren; Nicotinamid (Niacin), natürliches Aroma, Kokosöl, Calcium-D-pantothenat, DL-alpha-Tocopherylacetat (Vitamin E), Cholecalciferol (Vitamin D3), Cyanocobalamin (Vitamin B12), Süßungsmittel Sucralose; D-Biotin, Thiaminmononitrat (Vitamin B1), Riboflavin (Vitamin B2), Pyridoxinhydrochlorid (Vitamin B6), Folsäure",
+      "serving": "2 Kautabletten: 30 units weigh 21 g, so the dose is 1.4 g; the label declares per dose: vitaminCMg 30, folateUg 140, vitaminB12Ug 1.5; vitamin E 8 mg, B1 0.7 mg, B2 0.8 mg, niacin 9 mg, B6 0.5 mg, biotin 15 µg, pantothenic acid 4 mg per 2 tablets; the page prints vitamin D as '5,0 mg 30 %', a unit error, so vitamin D is left out; per 100 g 998 kJ / 239 kcal, fat 1.4 g, saturates 1.4 g, carbohydrate 92 g, sugars < 0.5 g, protein < 0.5 g, salt 0.01 g; under-values counted at half the threshold",
+      "per100g": {
+        "vitaminCMg": 2142.86,
+        "folateUg": 10000.0,
+        "vitaminB12Ug": 107.143,
+        "energyKcal": 239.0,
+        "fat": 1.4,
+        "saturates": 1.4,
+        "carbohydrate": 92.0,
+        "sugars": 0.25,
+        "protein": 0.25,
+        "salt": 0.01
+      }
+    },
+    {
+      "brand": "Sanostol",
+      "product": "Lutsch-Tabletten + Calcium, 75 Lutsch-Tabletten, 90 g",
+      "read": "https://www.rossmann.de/de/gesundheit-sanostol-lutsch-tabletten--calcium/p/4043027007436 (rossmann.de product page, Zutaten and Nährwerte sections; GTIN 4043027007436)",
+      "date": "2026-10-30",
+      "ingredients": "Süßungsmittel Sorbit, Calciumcarbonat, Säuerungsmittel Citronensäure, Natriumhydrogencarbonat, Vitamin C, Vitamin A, Vitamin B1, Vitamin B2, Vitamin B6, Vitamin B12, Vitamin D, Vitamin E, Pantothensäure, Niacin, Folsäure, Biotin, Trennmittel Magnesiumsalze der Speisefettsäuren, Aromen, Süßungsmittel (Aspartam, Acesulfam K)",
+      "serving": "3 Tabletten: 75 units weigh 90 g, so the dose is 3.6 g; the label declares per dose: calciumMg 300, vitaminAUg 800, vitaminDUg 5, vitaminCMg 80, folateUg 300, vitaminB12Ug 1.8; vitamin E 10 mg, B1 1 mg, B2 1.1 mg, niacin 12 mg, B6 0.7 mg, biotin 20 µg, pantothenic acid 5 mg per 3 tablets, the dose for older children; no energy or macros declared",
+      "per100g": {
+        "calciumMg": 8333.33,
+        "vitaminAUg": 22222.2,
+        "vitaminDUg": 138.889,
+        "vitaminCMg": 2222.22,
+        "folateUg": 8333.33,
+        "vitaminB12Ug": 50.0
+      }
+    },
+    {
+      "brand": "Mivolis",
+      "product": "Multivitamine für Kinder Kautabletten 20 St, 14 g",
+      "read": "https://www.dm.de/p/d/3104222/ (dm.de product page, Nährwerte and Zutaten panels; GTIN not stated)",
+      "date": "2026-10-30",
+      "ingredients": "Füllstoff Sorbit, L-Ascorbinsäure (Vitamin C), Säureregulator Natriumcitrat, Säuerungsmittel Apfelsäure, DL-alpha-Tocopherylacetat (Vitamin E), Nicotinamid (Niacin), Trennmittel Magnesiumsalze der Speisefettsäuren, Aroma (Orange), Calcium-D-Pantothenat, Süßungsmittel Sucralose, Thiaminhydrochlorid (Vitamin B1), Riboflavin (Vitamin B2), Pyridoxinhydrochlorid (Vitamin B6), Pteroylmonoglutaminsäure (Folsäure), D-Biotin, Cholecalciferol (Vitamin D3), Cyanocobalamin (Vitamin B12)",
+      "serving": "2 Tabletten: 20 units weigh 14 g, so the dose is 1.4 g; the label declares per dose: folateUg 140, vitaminB12Ug 1.5, vitaminCMg 30, vitaminDUg 5; niacin 9 mg, pantothenic acid 4 mg, biotin 15 µg, B2 0.8 mg, B1 0.7 mg, B6 0.5 mg, vitamin E 8 mg per 2 tablets; per 100 g 1021 kJ / 244 kcal, fat 1 g, saturates 0.9 g, carbohydrate 89 g, sugars < 0.5 g, protein < 0.5 g, salt 1.4 g; under-values counted at half the threshold",
+      "per100g": {
+        "folateUg": 10000.0,
+        "vitaminB12Ug": 107.143,
+        "vitaminCMg": 2142.86,
+        "vitaminDUg": 357.143,
+        "energyKcal": 244.0,
+        "fat": 1.0,
+        "saturates": 0.9,
+        "carbohydrate": 89.0,
+        "sugars": 0.25,
+        "protein": 0.25,
+        "salt": 1.4
+      }
+    }
+  ]
+}

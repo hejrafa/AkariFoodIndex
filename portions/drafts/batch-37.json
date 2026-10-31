@@ -1,0 +1,23 @@
+{
+ "batch": 37,
+ "drafted": "2026-10-30",
+ "drafter": "Claude in the Akari Nutrient-fill sweep session (takeaway collection)",
+ "entries": [
+  {
+   "key": "pork kebab grilled with fat",
+   "skip": "cofid:18-541 already carries a portion through the \"pork diced kebabs grilled lean and fat\" identity"
+  },
+  {
+   "key": "pork shashlik grilled",
+   "skip": "bls:Y336022 already carries a portion through the \"shashlik with pork grilled\" identity"
+  },
+  {
+   "key": "taco shell corn",
+   "unit": "piece",
+   "gramsPerUnit": 13,
+   "typical": 2,
+   "reason": "two hard taco shells; USDA's '1 shell' is 13 g for the standard shell (the 28 g measure is the large one)",
+   "ignoreMeasures": "USDA's medium shell is 28 g; the hard shells sold in Germany weigh 13 g each"
+  }
+ ]
+}

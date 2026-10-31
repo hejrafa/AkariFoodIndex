@@ -161,7 +161,10 @@
           "de": "Eiweißbrot",
           "rows": {
             "plain": "bls:B881100"
-          }
+          },
+          "collections": [
+            "sports"
+          ]
         },
         {
           "en": "Gluten-free bread",
@@ -182,14 +185,22 @@
           "de": "Hefezopf",
           "rows": {
             "plain": "bls:D4A6100"
-          }
+          },
+          "collections": [
+            "baking",
+            "seasonal"
+          ]
         },
         {
           "en": "Stollen",
           "de": "Christstollen",
           "rows": {
             "plain": "bls:D463100"
-          }
+          },
+          "collections": [
+            "baking",
+            "seasonal"
+          ]
         },
         {
           "en": "Soda bread",
@@ -381,7 +392,10 @@
           "de": "Brezel",
           "rows": {
             "plain": "bls:B723000"
-          }
+          },
+          "collections": [
+            "seasonal"
+          ]
         },
         {
           "en": "Pretzel roll",
@@ -430,7 +444,10 @@
           "de": "Eiweißbrötchen",
           "rows": {
             "plain": "bls:B881200"
-          }
+          },
+          "collections": [
+            "sports"
+          ]
         },
         {
           "en": "Hamburger bun",
@@ -486,161 +503,232 @@
           "de": "Hot Cross Bun",
           "rows": {
             "plain": "cofid:11-1084"
-          }
+          },
+          "collections": [
+            "baking",
+            "seasonal"
+          ]
         },
         {
           "en": "Croissant",
           "de": "Croissant",
           "rows": {
             "plain": "usda:2707678"
-          }
+          },
+          "collections": [
+            "baking"
+          ]
         },
         {
           "en": "Chocolate croissant",
           "de": "Schokocroissant",
           "rows": {
             "plain": "usda:2707680"
-          }
+          },
+          "collections": [
+            "baking"
+          ]
         },
         {
           "en": "Nougat croissant",
           "de": "Nougatcroissant",
           "rows": {
             "plain": "bls:D771700"
-          }
+          },
+          "collections": [
+            "baking"
+          ]
         },
         {
           "en": "Franzbrötchen",
           "de": "Franzbrötchen",
           "rows": {
             "plain": "bls:D7A7200"
-          }
+          },
+          "collections": [
+            "baking"
+          ]
         },
         {
           "en": "Cinnamon roll",
           "de": "Zimtschnecke",
           "rows": {
             "plain": "bls:D7A5300"
-          }
+          },
+          "collections": [
+            "baking"
+          ]
         },
         {
           "en": "Nut swirl",
           "de": "Nussschnecke",
           "rows": {
             "plain": "bls:D7A5100"
-          }
+          },
+          "collections": [
+            "baking"
+          ]
         },
         {
           "en": "Custard swirl",
           "de": "Puddingschnecke",
           "rows": {
             "plain": "bls:D7A5200"
-          }
+          },
+          "collections": [
+            "baking"
+          ]
         },
         {
           "en": "Raisin swirl",
           "de": "Rosinenschnecke",
           "rows": {
             "plain": "bls:D752100"
-          }
+          },
+          "collections": [
+            "baking"
+          ]
         },
         {
           "en": "Poppy seed swirl",
           "de": "Mohnschnecke",
           "rows": {
             "plain": "bls:D770100"
-          }
+          },
+          "collections": [
+            "baking"
+          ]
         },
         {
           "en": "Streusel swirl",
           "de": "Streuselschnecke",
           "rows": {
             "plain": "bls:D750200"
-          }
+          },
+          "collections": [
+            "baking"
+          ]
         },
         {
           "en": "Danish pastry",
           "de": "Plunderteilchen",
           "rows": {
             "plain": "cofid:11-841"
-          }
+          },
+          "collections": [
+            "baking"
+          ]
         },
         {
           "en": "Cheese danish",
           "de": "Quarktasche",
           "rows": {
             "plain": "bls:D7A7500"
-          }
+          },
+          "collections": [
+            "baking"
+          ]
         },
         {
           "en": "Apple turnover",
           "de": "Apfeltasche",
           "rows": {
             "plain": "bls:D7A5000"
-          }
+          },
+          "collections": [
+            "baking"
+          ]
         },
         {
           "en": "Jam doughnut",
           "de": "Berliner",
           "rows": {
             "plain": "bls:D7A6200"
-          }
+          },
+          "collections": [
+            "baking",
+            "seasonal"
+          ]
         },
         {
           "en": "Doughnut",
           "de": "Donut",
           "rows": {
             "plain": "bls:D741600"
-          }
+          },
+          "collections": [
+            "baking"
+          ]
         },
         {
           "en": "Quark balls",
           "de": "Quarkbällchen",
           "rows": {
             "plain": "bls:D7A6600"
-          }
+          },
+          "collections": [
+            "baking"
+          ]
         },
         {
           "en": "Amerikaner",
           "de": "Amerikaner",
           "rows": {
             "plain": "bls:D750100"
-          }
+          },
+          "collections": [
+            "baking"
+          ]
         },
         {
           "en": "Muffin",
           "de": "Muffin",
           "rows": {
             "plain": "usda:2707841"
-          }
+          },
+          "collections": [
+            "baking"
+          ]
         },
         {
           "en": "Blueberry muffin",
           "de": "Blaubeermuffin",
           "rows": {
             "plain": "bls:D400800"
-          }
+          },
+          "collections": [
+            "baking"
+          ]
         },
         {
           "en": "Chocolate muffin",
           "de": "Schokomuffin",
           "rows": {
             "plain": "bls:D400400"
-          }
+          },
+          "collections": [
+            "baking"
+          ]
         },
         {
           "en": "Scone",
           "de": "Scone",
           "rows": {
             "plain": "bls:D7A3000"
-          }
+          },
+          "collections": [
+            "baking"
+          ]
         },
         {
           "en": "Waffle",
           "de": "Waffel",
           "rows": {
             "plain": "bls:D621000"
-          }
+          },
+          "collections": [
+            "baking"
+          ]
         },
         {
           "en": "Flatbread",
@@ -661,7 +749,10 @@
           "de": "Naan",
           "rows": {
             "plain": "usda:2707613"
-          }
+          },
+          "collections": [
+            "takeaway"
+          ]
         },
         {
           "en": "Flour tortilla",
@@ -697,6 +788,26 @@
           "rows": {
             "plain": "cofid:11-1104"
           }
+        },
+        {
+          "en": "Langos",
+          "de": "Langos",
+          "rows": {
+            "plain": "bls:D7A6700"
+          },
+          "collections": [
+            "seasonal"
+          ]
+        },
+        {
+          "en": "Easter bread",
+          "de": "Osterbrot",
+          "rows": {
+            "plain": "bls:D4A6100"
+          },
+          "collections": [
+            "seasonal"
+          ]
         }
       ]
     },
@@ -782,7 +893,11 @@
           "de": "Kartoffelpuffer",
           "rows": {
             "cooked": "bls:X655022"
-          }
+          },
+          "collections": [
+            "seasonal",
+            "takeaway"
+          ]
         },
         {
           "en": "Potato dumplings",
@@ -1219,7 +1334,10 @@
             "raw": "bls:G450100",
             "cooked": "bls:G450132",
             "canned": "bls:G450902"
-          }
+          },
+          "collections": [
+            "seasonal"
+          ]
         },
         {
           "en": "Green asparagus",
@@ -1497,8 +1615,11 @@
           "en": "Edamame",
           "de": "Edamame",
           "rows": {
-            "cooked": "bls:G750432"
-          }
+            "plain": "bls:G750100"
+          },
+          "collections": [
+            "plant-based"
+          ]
         },
         {
           "en": "Mushy peas",
@@ -1630,8 +1751,7 @@
           "en": "Dill",
           "de": "Dill",
           "rows": {
-            "raw": "ciqual:11093",
-            "dried": "cofid:13-825"
+            "raw": "ciqual:11093"
           }
         },
         {
@@ -1675,7 +1795,7 @@
           "en": "Sage",
           "de": "Salbei",
           "rows": {
-            "dried": "cofid:13-854"
+            "dried": "ciqual:11037"
           }
         },
         {
@@ -1698,6 +1818,16 @@
           "rows": {
             "dried": "bls:G995000"
           }
+        },
+        {
+          "en": "Corn on the cob",
+          "de": "Maiskolben",
+          "rows": {
+            "plain": "bls:G570132"
+          },
+          "collections": [
+            "seasonal"
+          ]
         }
       ]
     },
@@ -1734,7 +1864,7 @@
           "en": "Nashi pear",
           "de": "Nashi-Birne",
           "rows": {
-            "raw": "cofid:14-205"
+            "raw": "usda:2709255"
           }
         },
         {
@@ -1797,13 +1927,6 @@
           "de": "Mirabelle",
           "rows": {
             "raw": "bls:F224100"
-          }
-        },
-        {
-          "en": "Greengage",
-          "de": "Reneklode",
-          "rows": {
-            "raw": "cofid:14-111"
           }
         },
         {
@@ -2127,7 +2250,7 @@
           "en": "Dragon fruit",
           "de": "Drachenfrucht",
           "rows": {
-            "raw": "mext:07111"
+            "raw": "usda:2709234"
           }
         },
         {
@@ -2177,13 +2300,6 @@
           "de": "Honigmelone",
           "rows": {
             "raw": "bls:F533100"
-          }
-        },
-        {
-          "en": "Galia melon",
-          "de": "Galiamelone",
-          "rows": {
-            "raw": "cofid:14-159"
           }
         },
         {
@@ -2521,7 +2637,10 @@
           "rows": {
             "plain": "bls:M524500",
             "grilled": "bls:M524572"
-          }
+          },
+          "collections": [
+            "seasonal"
+          ]
         },
         {
           "en": "Goat cheese",
@@ -2627,7 +2746,10 @@
           "de": "Raclette-Käse",
           "rows": {
             "plain": "bls:M307700"
-          }
+          },
+          "collections": [
+            "seasonal"
+          ]
         },
         {
           "en": "Fontina",
@@ -2830,63 +2952,100 @@
           "de": "Obatzda",
           "rows": {
             "plain": "bls:M863000"
-          }
+          },
+          "collections": [
+            "seasonal"
+          ]
         },
         {
           "en": "Oat milk",
           "de": "Haferdrink",
           "rows": {
             "unsweetened": "bls:C660000"
-          }
+          },
+          "collections": [
+            "plant-based"
+          ]
+        },
+        {
+          "en": "Barista oat drink",
+          "de": "Barista-Haferdrink",
+          "rows": {
+            "plain": "akari:label:oat-drink-barista"
+          },
+          "collections": [
+            "plant-based"
+          ]
         },
         {
           "en": "Soy milk",
           "de": "Sojadrink",
           "rows": {
             "unsweetened": "usda:2705405"
-          }
+          },
+          "collections": [
+            "plant-based"
+          ]
         },
         {
           "en": "Almond milk",
           "de": "Mandeldrink",
           "rows": {
             "unsweetened": "bls:H800000"
-          }
+          },
+          "collections": [
+            "plant-based"
+          ]
         },
         {
           "en": "Rice milk",
           "de": "Reisdrink",
           "rows": {
             "unsweetened": "bls:C650200"
-          }
+          },
+          "collections": [
+            "plant-based"
+          ]
         },
         {
           "en": "Coconut drink",
           "de": "Kokosdrink",
           "rows": {
             "plain": "usda:2705413"
-          }
+          },
+          "collections": [
+            "plant-based"
+          ]
         },
         {
           "en": "Soy yogurt",
           "de": "Sojajoghurt",
           "rows": {
             "plain": "bls:H844000"
-          }
+          },
+          "collections": [
+            "plant-based"
+          ]
         },
         {
           "en": "Coconut yogurt",
           "de": "Kokosjoghurt",
           "rows": {
             "plain": "usda:2707569"
-          }
+          },
+          "collections": [
+            "plant-based"
+          ]
         },
         {
           "en": "Vegan cheese",
           "de": "Veganer Käse",
           "rows": {
             "plain": "bls:Q590000"
-          }
+          },
+          "collections": [
+            "plant-based"
+          ]
         },
         {
           "en": "Egg",
@@ -2928,6 +3087,156 @@
           "rows": {
             "raw": "bls:E131100"
           }
+        },
+        {
+          "en": "Chocolate soy milk",
+          "de": "Sojadrink Schoko",
+          "rows": {
+            "plain": "usda:2705406"
+          },
+          "collections": [
+            "plant-based"
+          ]
+        },
+        {
+          "en": "Sweetened soy milk",
+          "de": "Sojadrink, gesüßt",
+          "rows": {
+            "plain": "usda:2705404"
+          },
+          "collections": [
+            "plant-based"
+          ]
+        },
+        {
+          "en": "Flavoured soy drink",
+          "de": "Sojadrink Vanille",
+          "rows": {
+            "plain": "bls:H842400"
+          },
+          "collections": [
+            "plant-based"
+          ]
+        },
+        {
+          "en": "Flavoured oat drink",
+          "de": "Haferdrink Vanille",
+          "rows": {
+            "plain": "bls:C660300"
+          },
+          "collections": [
+            "plant-based"
+          ]
+        },
+        {
+          "en": "Fortified oat drink",
+          "de": "Haferdrink mit Calcium",
+          "rows": {
+            "plain": "bls:C660200"
+          },
+          "collections": [
+            "plant-based"
+          ]
+        },
+        {
+          "en": "Fortified soy drink",
+          "de": "Sojadrink mit Calcium",
+          "rows": {
+            "plain": "bls:H841400"
+          },
+          "collections": [
+            "plant-based"
+          ]
+        },
+        {
+          "en": "Fortified almond drink",
+          "de": "Mandeldrink mit Calcium",
+          "rows": {
+            "plain": "bls:H800100"
+          },
+          "collections": [
+            "plant-based"
+          ]
+        },
+        {
+          "en": "Flavoured almond drink",
+          "de": "Mandeldrink Vanille",
+          "rows": {
+            "plain": "bls:H800200"
+          },
+          "collections": [
+            "plant-based"
+          ]
+        },
+        {
+          "en": "Chocolate almond milk",
+          "de": "Mandeldrink Schoko",
+          "rows": {
+            "plain": "usda:2705408"
+          },
+          "collections": [
+            "plant-based"
+          ]
+        },
+        {
+          "en": "Flavoured soy yogurt",
+          "de": "Sojajoghurt Vanille",
+          "rows": {
+            "plain": "bls:H844400"
+          },
+          "collections": [
+            "plant-based"
+          ]
+        },
+        {
+          "en": "Plant-based pudding",
+          "de": "Sojapudding",
+          "rows": {
+            "plain": "bls:H843300"
+          },
+          "collections": [
+            "plant-based"
+          ]
+        },
+        {
+          "en": "Vegan cream cheese",
+          "de": "Vegane Frischcreme",
+          "rows": {
+            "plain": "bls:H882100"
+          },
+          "collections": [
+            "plant-based"
+          ]
+        },
+        {
+          "en": "Cashew cheese",
+          "de": "Cashewkäse",
+          "rows": {
+            "plain": "bls:H882000"
+          },
+          "collections": [
+            "plant-based"
+          ]
+        },
+        {
+          "en": "Vegan mozzarella",
+          "de": "Veganer Mozzarella",
+          "rows": {
+            "plain": "bls:X5A8040"
+          },
+          "collections": [
+            "plant-based"
+          ]
+        },
+        {
+          "en": "Easter eggs",
+          "de": "Ostereier",
+          "rows": {
+            "plain": "bls:E111132"
+          },
+          "collections": [
+            "seasonal"
+          ]
         }
       ]
     },
@@ -3266,7 +3575,7 @@
           "en": "Pork mince",
           "de": "Schweinehackfleisch",
           "rows": {
-            "raw": "bls:U020100",
+            "raw": "cofid:18-606",
             "cooked": "bls:U020182"
           }
         },
@@ -3323,7 +3632,7 @@
           "en": "Pork belly",
           "de": "Schweinebauch",
           "rows": {
-            "raw": "bls:U642100",
+            "raw": "cofid:18-557",
             "cooked": "bls:U57A172"
           }
         },
@@ -3363,14 +3672,7 @@
           "en": "Pork shoulder",
           "de": "Schweineschulter",
           "rows": {
-            "raw": "bls:U666100"
-          }
-        },
-        {
-          "en": "Pork breast",
-          "de": "Schweinebrust",
-          "rows": {
-            "raw": "bls:U651100"
+            "raw": "ciqual:28001"
           }
         },
         {
@@ -3384,17 +3686,19 @@
           "en": "Pork rump",
           "de": "Schweinehüfte",
           "rows": {
-            "raw": "bls:U685100"
+            "raw": "bls:U576100"
           }
         },
         {
           "en": "Pork knuckle",
           "de": "Schweinshaxe",
           "rows": {
-            "raw": "bls:U693100",
             "cooked": "bls:U693162",
             "dish": "bls:W620000"
-          }
+          },
+          "collections": [
+            "seasonal"
+          ]
         },
         {
           "en": "Eisbein",
@@ -3809,7 +4113,10 @@
           "rows": {
             "raw": "bls:V464100",
             "cooked": "bls:V464162"
-          }
+          },
+          "collections": [
+            "seasonal"
+          ]
         },
         {
           "en": "Duck breast",
@@ -3839,7 +4146,10 @@
           "rows": {
             "raw": "bls:V474100",
             "cooked": "bls:V474162"
-          }
+          },
+          "collections": [
+            "seasonal"
+          ]
         },
         {
           "en": "Goose leg",
@@ -3855,6 +4165,16 @@
           "rows": {
             "raw": "bls:V636100"
           }
+        },
+        {
+          "en": "Roast chicken",
+          "de": "Brathendl",
+          "rows": {
+            "plain": "bls:V414172"
+          },
+          "collections": [
+            "seasonal"
+          ]
         }
       ]
     },
@@ -3884,7 +4204,7 @@
           "en": "Wild salmon",
           "de": "Wildlachs",
           "rows": {
-            "raw": "usda:2684440",
+            "raw": "bls:T417100",
             "cooked": "bls:T417182",
             "smoked": "bls:T417600"
           }
@@ -4158,7 +4478,10 @@
           "rows": {
             "raw": "bls:T501100",
             "cooked": "bls:T501182"
-          }
+          },
+          "collections": [
+            "seasonal"
+          ]
         },
         {
           "en": "Pike",
@@ -4204,7 +4527,6 @@
           "en": "Tilapia",
           "de": "Tilapia",
           "rows": {
-            "raw": "usda:2684442",
             "cooked": "usda:2706323"
           }
         },
@@ -4330,7 +4652,8 @@
           "en": "Octopus",
           "de": "Oktopus",
           "rows": {
-            "raw": "ciqual:10018"
+            "raw": "ciqual:10018",
+            "cooked": "usda:2706331"
           }
         },
         {
@@ -4406,6 +4729,16 @@
           "rows": {
             "dried": "ciqual:20990"
           }
+        },
+        {
+          "en": "Steckerlfisch",
+          "de": "Steckerlfisch",
+          "rows": {
+            "plain": "bls:T107172"
+          },
+          "collections": [
+            "seasonal"
+          ]
         }
       ]
     },
@@ -4420,7 +4753,10 @@
           "rows": {
             "raw": "bls:W222100",
             "cooked": "bls:Y021312"
-          }
+          },
+          "collections": [
+            "seasonal"
+          ]
         },
         {
           "en": "Thuringian sausage",
@@ -4496,7 +4832,10 @@
           "de": "Weißwurst",
           "rows": {
             "cooked": "bls:W224032"
-          }
+          },
+          "collections": [
+            "seasonal"
+          ]
         },
         {
           "en": "Frankfurter",
@@ -4621,7 +4960,7 @@
           "en": "Mett",
           "de": "Mett",
           "rows": {
-            "plain": "bls:U020100"
+            "plain": "cofid:18-606"
           }
         },
         {
@@ -4734,7 +5073,10 @@
           "de": "Leberkäse",
           "rows": {
             "plain": "bls:W256100"
-          }
+          },
+          "collections": [
+            "seasonal"
+          ]
         },
         {
           "en": "Luncheon meat",
@@ -5195,7 +5537,10 @@
           "de": "Schupfnudeln",
           "rows": {
             "cooked": "bls:E605032"
-          }
+          },
+          "collections": [
+            "seasonal"
+          ]
         },
         {
           "en": "Semolina dumplings",
@@ -5225,27 +5570,6 @@
           "rows": {
             "raw": "bls:H030400",
             "cooked": "bls:H030432"
-          }
-        },
-        {
-          "en": "Udon noodles",
-          "de": "Udon-Nudeln",
-          "rows": {
-            "cooked": "mext:01039"
-          }
-        },
-        {
-          "en": "Ramen noodles",
-          "de": "Ramen-Nudeln",
-          "rows": {
-            "cooked": "mext:01048"
-          }
-        },
-        {
-          "en": "Soba noodles",
-          "de": "Soba-Nudeln",
-          "rows": {
-            "cooked": "mext:01128"
           }
         },
         {
@@ -5823,7 +6147,10 @@
             "dry": "bls:G770400",
             "cooked": "bls:G770432",
             "canned": "bls:H720902"
-          }
+          },
+          "collections": [
+            "plant-based"
+          ]
         },
         {
           "en": "Red lentils",
@@ -5831,7 +6158,10 @@
           "rows": {
             "dry": "cofid:13-657",
             "cooked": "bls:H730032"
-          }
+          },
+          "collections": [
+            "plant-based"
+          ]
         },
         {
           "en": "Lentils",
@@ -5840,7 +6170,10 @@
             "dry": "bls:H725100",
             "cooked": "usda:2707425",
             "canned": "bls:H730902"
-          }
+          },
+          "collections": [
+            "plant-based"
+          ]
         },
         {
           "en": "Kidney beans",
@@ -5910,7 +6243,10 @@
             "dry": "bls:G750400",
             "cooked": "bls:G750432",
             "roasted": "bls:H760600"
-          }
+          },
+          "collections": [
+            "plant-based"
+          ]
         },
         {
           "en": "Split peas",
@@ -5953,35 +6289,40 @@
           "de": "Hummus",
           "rows": {
             "plain": "bls:H960000"
-          }
+          },
+          "collections": [
+            "plant-based"
+          ]
         },
         {
           "en": "Tofu",
           "de": "Tofu",
           "rows": {
             "plain": "bls:H861032"
-          }
+          },
+          "collections": [
+            "plant-based"
+          ]
         },
         {
           "en": "Silken tofu",
           "de": "Seidentofu",
           "rows": {
             "plain": "bls:H861100"
-          }
-        },
-        {
-          "en": "Tempeh",
-          "de": "Tempeh",
-          "rows": {
-            "plain": "cofid:13-118"
-          }
+          },
+          "collections": [
+            "plant-based"
+          ]
         },
         {
           "en": "Seitan",
           "de": "Seitan",
           "rows": {
             "plain": "bls:C558000"
-          }
+          },
+          "collections": [
+            "plant-based"
+          ]
         },
         {
           "en": "Textured soy protein",
@@ -5989,7 +6330,10 @@
           "rows": {
             "dry": "bls:H765000",
             "cooked": "bls:H765082"
-          }
+          },
+          "collections": [
+            "plant-based"
+          ]
         },
         {
           "en": "Miso",
@@ -6003,56 +6347,60 @@
           "de": "Sojakochcreme",
           "rows": {
             "plain": "bls:H845000"
-          }
+          },
+          "collections": [
+            "plant-based"
+          ]
         },
         {
           "en": "Veggie burger patty",
           "de": "Veggie-Patty",
           "rows": {
             "plain": "bls:H926100"
-          }
+          },
+          "collections": [
+            "plant-based"
+          ]
         },
         {
           "en": "Vegetarian sausages",
           "de": "Vegetarische Würstchen",
           "rows": {
             "plain": "bls:H014900"
-          }
-        },
-        {
-          "en": "Vegan schnitzel",
-          "de": "Veganes Schnitzel",
-          "rows": {
-            "plain": "bls:H910400"
-          }
-        },
-        {
-          "en": "Vegan cold cuts",
-          "de": "Veganer Aufschnitt",
-          "rows": {
-            "plain": "bls:H930000"
-          }
+          },
+          "collections": [
+            "plant-based"
+          ]
         },
         {
           "en": "Veggie nuggets",
           "de": "Vegetarische Nuggets",
           "rows": {
             "plain": "ciqual:25226"
-          }
+          },
+          "collections": [
+            "plant-based"
+          ]
         },
         {
           "en": "Vegan meatballs",
           "de": "Vegane Hackbällchen",
           "rows": {
             "plain": "usda:2707472"
-          }
+          },
+          "collections": [
+            "plant-based"
+          ]
         },
         {
           "en": "Vegan chicken pieces",
           "de": "Vegane Hähnchenstücke",
           "rows": {
             "plain": "usda:2707468"
-          }
+          },
+          "collections": [
+            "plant-based"
+          ]
         },
         {
           "en": "Almonds",
@@ -6186,7 +6534,10 @@
           "de": "Kokosmilch",
           "rows": {
             "plain": "bls:H154000"
-          }
+          },
+          "collections": [
+            "plant-based"
+          ]
         },
         {
           "en": "Trail mix",
@@ -6238,46 +6589,134 @@
           }
         },
         {
-          "en": "Hemp seeds",
-          "de": "Hanfsamen",
-          "rows": {
-            "plain": "ciqual:15063"
-          }
-        },
-        {
           "en": "Tahini",
           "de": "Tahin",
           "rows": {
             "plain": "usda:2707587"
-          }
+          },
+          "collections": [
+            "plant-based"
+          ]
         },
         {
           "en": "Peanut butter",
           "de": "Erdnussbutter",
           "rows": {
             "plain": "usda:2707537"
-          }
+          },
+          "collections": [
+            "plant-based"
+          ]
         },
         {
           "en": "Almond butter",
           "de": "Mandelmus",
           "rows": {
             "plain": "bls:H212800"
-          }
+          },
+          "collections": [
+            "plant-based"
+          ]
         },
         {
           "en": "Hazelnut butter",
           "de": "Haselnussmus",
           "rows": {
             "plain": "bls:H130800"
-          }
+          },
+          "collections": [
+            "plant-based"
+          ]
         },
         {
           "en": "Cashew butter",
           "de": "Cashewmus",
           "rows": {
             "plain": "bls:F960800"
-          }
+          },
+          "collections": [
+            "plant-based"
+          ]
+        },
+        {
+          "en": "Vegan sausage spread",
+          "de": "Vegane Streichwurst",
+          "rows": {
+            "plain": "bls:H930100"
+          },
+          "collections": [
+            "plant-based"
+          ]
+        },
+        {
+          "en": "Vegan bacon",
+          "de": "Veganer Bacon",
+          "rows": {
+            "plain": "usda:2707465"
+          },
+          "collections": [
+            "plant-based"
+          ]
+        },
+        {
+          "en": "Vegetable patties",
+          "de": "Gemüsebratlinge",
+          "rows": {
+            "plain": "bls:X5A1000"
+          },
+          "collections": [
+            "plant-based"
+          ]
+        },
+        {
+          "en": "Lentil patties",
+          "de": "Linsenbratlinge",
+          "rows": {
+            "plain": "bls:X5A1050"
+          },
+          "collections": [
+            "plant-based"
+          ]
+        },
+        {
+          "en": "Lupin flour",
+          "de": "Lupinenmehl",
+          "rows": {
+            "plain": "bls:H731400"
+          },
+          "collections": [
+            "plant-based"
+          ]
+        },
+        {
+          "en": "Vegetable spread",
+          "de": "Gemüseaufstrich",
+          "rows": {
+            "plain": "bls:G940100"
+          },
+          "collections": [
+            "plant-based"
+          ]
+        },
+        {
+          "en": "Jackfruit",
+          "de": "Jackfrucht",
+          "rows": {
+            "plain": "bls:F549100"
+          },
+          "collections": [
+            "plant-based"
+          ]
+        },
+        {
+          "en": "Vegetarian bratwurst",
+          "de": "Vegetarische Bratwurst",
+          "rows": {
+            "plain": "bls:H910300"
+          },
+          "collections": [
+            "plant-based"
+          ]
         }
       ]
     },
@@ -6364,13 +6803,6 @@
           }
         },
         {
-          "en": "Rice vinegar",
-          "de": "Reisessig",
-          "rows": {
-            "plain": "mext:17016"
-          }
-        },
-        {
           "en": "Salt",
           "de": "Salz",
           "rows": {
@@ -6416,7 +6848,7 @@
           "en": "Baking powder",
           "de": "Backpulver",
           "rows": {
-            "plain": "bls:R421100"
+            "plain": "ciqual:11046"
           }
         },
         {
@@ -6431,13 +6863,6 @@
           "de": "Kakaopulver",
           "rows": {
             "plain": "bls:S711000"
-          }
-        },
-        {
-          "en": "Black pepper",
-          "de": "Schwarzer Pfeffer",
-          "rows": {
-            "plain": "bls:R258100"
           }
         },
         {
@@ -6490,13 +6915,6 @@
           }
         },
         {
-          "en": "Coriander seed",
-          "de": "Koriandersamen",
-          "rows": {
-            "plain": "ciqual:11026"
-          }
-        },
-        {
           "en": "Ground ginger",
           "de": "Ingwer, gemahlen",
           "rows": {
@@ -6515,13 +6933,6 @@
           "de": "Gewürznelken",
           "rows": {
             "plain": "ciqual:11052"
-          }
-        },
-        {
-          "en": "Cardamom",
-          "de": "Kardamom",
-          "rows": {
-            "plain": "ciqual:11075"
           }
         },
         {
@@ -6546,13 +6957,6 @@
           }
         },
         {
-          "en": "Garam masala",
-          "de": "Garam Masala",
-          "rows": {
-            "plain": "cofid:13-829"
-          }
-        },
-        {
           "en": "Bay leaf",
           "de": "Lorbeerblatt",
           "rows": {
@@ -6570,7 +6974,7 @@
           "en": "Sage",
           "de": "Salbei",
           "rows": {
-            "dried": "cofid:13-854"
+            "dried": "ciqual:11037"
           }
         },
         {
@@ -6749,13 +7153,6 @@
           }
         },
         {
-          "en": "Mint sauce",
-          "de": "Minzsauce",
-          "rows": {
-            "plain": "cofid:17-811"
-          }
-        },
-        {
           "en": "Gravy",
           "de": "Bratensoße",
           "rows": {
@@ -6831,8 +7228,7 @@
           "en": "Dill",
           "de": "Dill",
           "rows": {
-            "fresh": "ciqual:11093",
-            "dried": "cofid:13-825"
+            "fresh": "ciqual:11093"
           }
         },
         {
@@ -6856,7 +7252,7 @@
           "de": "Minze",
           "rows": {
             "fresh": "ciqual:11027",
-            "dried": "ciqual:11029"
+            "dried": "usda:172239"
           }
         },
         {
@@ -6864,7 +7260,7 @@
           "de": "Koriander",
           "rows": {
             "fresh": "usda:2709782",
-            "dried": "cofid:13-818"
+            "dried": "usda:170921"
           }
         },
         {
@@ -6872,7 +7268,7 @@
           "de": "Schnittlauch",
           "rows": {
             "fresh": "bls:G081100",
-            "dried": "bls:G081400"
+            "dried": "usda:170075"
           }
         },
         {
@@ -6908,7 +7304,10 @@
           "de": "Margarine",
           "rows": {
             "plain": "bls:Q400000"
-          }
+          },
+          "collections": [
+            "plant-based"
+          ]
         },
         {
           "en": "Light margarine",
@@ -6957,13 +7356,6 @@
           "de": "Haselnussöl",
           "rows": {
             "plain": "bls:Q140000"
-          }
-        },
-        {
-          "en": "Pumpkin seed oil",
-          "de": "Kürbiskernöl",
-          "rows": {
-            "plain": "bls:Q250000"
           }
         },
         {
@@ -7020,13 +7412,6 @@
           "de": "Mandelöl",
           "rows": {
             "plain": "bls:Q190000"
-          }
-        },
-        {
-          "en": "Balsamic vinegar",
-          "de": "Balsamico-Essig",
-          "rows": {
-            "plain": "mext:17091"
           }
         },
         {
@@ -7093,24 +7478,10 @@
           }
         },
         {
-          "en": "Chili flakes",
-          "de": "Chiliflocken",
-          "rows": {
-            "plain": "mext:17073"
-          }
-        },
-        {
           "en": "Onion powder",
           "de": "Zwiebelpulver",
           "rows": {
             "plain": "bls:G480400"
-          }
-        },
-        {
-          "en": "Allspice",
-          "de": "Piment",
-          "rows": {
-            "plain": "mext:17055"
           }
         },
         {
@@ -7121,13 +7492,6 @@
           }
         },
         {
-          "en": "Fenugreek seed",
-          "de": "Bockshornklee",
-          "rows": {
-            "plain": "ciqual:11077"
-          }
-        },
-        {
           "en": "Herbes de Provence",
           "de": "Kräuter der Provence",
           "rows": {
@@ -7135,59 +7499,20 @@
           }
         },
         {
-          "en": "Italian herbs",
-          "de": "Italienische Kräuter",
-          "rows": {
-            "plain": "cofid:13-884"
-          }
-        },
-        {
-          "en": "Vanilla extract",
-          "de": "Vanilleextrakt",
-          "rows": {
-            "plain": "ciqual:11065"
-          }
-        },
-        {
-          "en": "Mixed spice",
-          "de": "Lebkuchengewürz",
-          "rows": {
-            "plain": "ciqual:11056"
-          }
-        },
-        {
-          "en": "Mustard seeds",
-          "de": "Senfkörner",
-          "rows": {
-            "plain": "cofid:17-362"
-          }
-        },
-        {
           "en": "Nutritional yeast",
           "de": "Hefeflocken",
           "rows": {
             "plain": "bls:K762400"
-          }
+          },
+          "collections": [
+            "plant-based"
+          ]
         },
         {
           "en": "Yeast extract",
           "de": "Hefeextrakt",
           "rows": {
             "plain": "usda:2710006"
-          }
-        },
-        {
-          "en": "Tarragon",
-          "de": "Estragon",
-          "rows": {
-            "dried": "ciqual:11050"
-          }
-        },
-        {
-          "en": "Savory",
-          "de": "Bohnenkraut",
-          "rows": {
-            "dried": "ciqual:11062"
           }
         },
         {
@@ -7230,7 +7555,10 @@
           "de": "Vegane Mayonnaise",
           "rows": {
             "plain": "usda:2710205"
-          }
+          },
+          "collections": [
+            "plant-based"
+          ]
         },
         {
           "en": "Salad cream",
@@ -7268,13 +7596,6 @@
           }
         },
         {
-          "en": "Brown sauce",
-          "de": "Brown Sauce",
-          "rows": {
-            "plain": "cofid:17-706"
-          }
-        },
-        {
           "en": "Peanut sauce",
           "de": "Erdnusssoße",
           "rows": {
@@ -7303,24 +7624,10 @@
           }
         },
         {
-          "en": "Sweet pickle",
-          "de": "Sweet Pickle",
-          "rows": {
-            "plain": "cofid:17-718"
-          }
-        },
-        {
           "en": "Cranberry sauce",
           "de": "Cranberrysoße",
           "rows": {
             "plain": "usda:2709280"
-          }
-        },
-        {
-          "en": "Mirin",
-          "de": "Mirin",
-          "rows": {
-            "plain": "mext:17054"
           }
         },
         {
@@ -7398,6 +7705,65 @@
           "de": "Hühnerbrühwürfel",
           "rows": {
             "plain": "bls:R822000"
+          }
+        },
+        {
+          "en": "Vegan lard",
+          "de": "Veganes Schmalz",
+          "rows": {
+            "plain": "bls:Q902000"
+          },
+          "collections": [
+            "plant-based"
+          ]
+        },
+        {
+          "en": "Black pepper",
+          "de": "Schwarzer Pfeffer",
+          "rows": {
+            "plain": "usda:170931"
+          }
+        },
+        {
+          "en": "Coriander seed",
+          "de": "Koriandersamen",
+          "rows": {
+            "plain": "usda:170922"
+          }
+        },
+        {
+          "en": "Allspice",
+          "de": "Piment",
+          "rows": {
+            "plain": "usda:171315"
+          }
+        },
+        {
+          "en": "Fenugreek seed",
+          "de": "Bockshornklee",
+          "rows": {
+            "plain": "usda:171324"
+          }
+        },
+        {
+          "en": "Vanilla extract",
+          "de": "Vanilleextrakt",
+          "rows": {
+            "plain": "usda:173471"
+          }
+        },
+        {
+          "en": "Mustard seeds",
+          "de": "Senfkörner",
+          "rows": {
+            "plain": "usda:170929"
+          }
+        },
+        {
+          "en": "Tarragon",
+          "de": "Estragon",
+          "rows": {
+            "dried": "usda:170937"
           }
         }
       ]
@@ -7671,7 +8037,10 @@
           "de": "Malzbier",
           "rows": {
             "plain": "bls:P122000"
-          }
+          },
+          "collections": [
+            "alcohol"
+          ]
         },
         {
           "en": "Energy drink",
@@ -7679,21 +8048,30 @@
           "rows": {
             "regular": "usda:2710756",
             "sugar-free": "usda:2710768"
-          }
+          },
+          "collections": [
+            "sports"
+          ]
         },
         {
           "en": "Sports drink",
           "de": "Sportgetränk",
           "rows": {
             "plain": "usda:2710771"
-          }
+          },
+          "collections": [
+            "sports"
+          ]
         },
         {
           "en": "Iced tea",
           "de": "Eistee",
           "rows": {
             "plain": "usda:2710527"
-          }
+          },
+          "collections": [
+            "tea"
+          ]
         },
         {
           "en": "Coffee",
@@ -7718,63 +8096,90 @@
             "plain": "usda:2710488",
             "with milk": "bls:N630200",
             "with milk and sugar": "bls:N630300"
-          }
+          },
+          "collections": [
+            "tea"
+          ]
         },
         {
           "en": "Green tea",
           "de": "Grüner Tee",
           "rows": {
             "plain": "usda:2710490"
-          }
+          },
+          "collections": [
+            "tea"
+          ]
         },
         {
           "en": "Herbal tea",
           "de": "Kräutertee",
           "rows": {
             "plain": "usda:2710502"
-          }
+          },
+          "collections": [
+            "tea"
+          ]
         },
         {
           "en": "Peppermint tea",
           "de": "Pfefferminztee",
           "rows": {
             "plain": "usda:2710502"
-          }
+          },
+          "collections": [
+            "tea"
+          ]
         },
         {
           "en": "Fruit tea",
           "de": "Früchtetee",
           "rows": {
             "plain": "usda:2710502"
-          }
+          },
+          "collections": [
+            "tea"
+          ]
         },
         {
           "en": "Rooibos tea",
           "de": "Rooibostee",
           "rows": {
             "plain": "usda:2710502"
-          }
+          },
+          "collections": [
+            "tea"
+          ]
         },
         {
           "en": "Chamomile tea",
           "de": "Kamillentee",
           "rows": {
             "plain": "usda:2710505"
-          }
+          },
+          "collections": [
+            "tea"
+          ]
         },
         {
           "en": "Chai tea",
           "de": "Chai-Tee",
           "rows": {
             "plain": "usda:2710488"
-          }
+          },
+          "collections": [
+            "tea"
+          ]
         },
         {
           "en": "Hot chocolate",
           "de": "Heiße Schokolade",
           "rows": {
             "plain": "usda:2705473"
-          }
+          },
+          "collections": [
+            "seasonal"
+          ]
         },
         {
           "en": "Beer",
@@ -7785,7 +8190,11 @@
             "light": "bls:P1A4000",
             "non-alcoholic": "bls:P163100",
             "non-alcoholic wheat": "bls:P151110"
-          }
+          },
+          "collections": [
+            "alcohol",
+            "seasonal"
+          ]
         },
         {
           "en": "Non-alcoholic beer",
@@ -7793,35 +8202,50 @@
           "rows": {
             "pils": "bls:P163100",
             "wheat": "bls:P151110"
-          }
+          },
+          "collections": [
+            "alcohol"
+          ]
         },
         {
           "en": "Stout",
           "de": "Stout",
           "rows": {
             "plain": "bls:P177000"
-          }
+          },
+          "collections": [
+            "alcohol"
+          ]
         },
         {
           "en": "Bock beer",
           "de": "Bockbier",
           "rows": {
             "plain": "bls:P172000"
-          }
+          },
+          "collections": [
+            "alcohol"
+          ]
         },
         {
           "en": "Kölsch",
           "de": "Kölsch",
           "rows": {
             "plain": "bls:P154000"
-          }
+          },
+          "collections": [
+            "alcohol"
+          ]
         },
         {
           "en": "Altbier",
           "de": "Altbier",
           "rows": {
             "plain": "bls:P153000"
-          }
+          },
+          "collections": [
+            "alcohol"
+          ]
         },
         {
           "en": "Radler",
@@ -7830,21 +8254,30 @@
             "plain": "bls:P192000",
             "non-alcoholic": "bls:P1A3100",
             "wheat": "bls:P1A1130"
-          }
+          },
+          "collections": [
+            "alcohol"
+          ]
         },
         {
           "en": "Beer with cola",
           "de": "Colabier",
           "rows": {
             "plain": "bls:P1A3000"
-          }
+          },
+          "collections": [
+            "alcohol"
+          ]
         },
         {
           "en": "Berliner Weisse",
           "de": "Berliner Weiße",
           "rows": {
             "plain": "bls:P196000"
-          }
+          },
+          "collections": [
+            "alcohol"
+          ]
         },
         {
           "en": "Wine",
@@ -7854,21 +8287,31 @@
             "white": "usda:2710689",
             "rose": "bls:P273000",
             "non-alcoholic": "bls:N014000"
-          }
+          },
+          "collections": [
+            "alcohol"
+          ]
         },
         {
           "en": "Wine spritzer",
           "de": "Weinschorle",
           "rows": {
             "plain": "bls:P285000"
-          }
+          },
+          "collections": [
+            "alcohol"
+          ]
         },
         {
           "en": "Mulled wine",
           "de": "Glühwein",
           "rows": {
-            "plain": "cofid:17-812"
-          }
+            "plain": "usda:2710698"
+          },
+          "collections": [
+            "alcohol",
+            "seasonal"
+          ]
         },
         {
           "en": "Sparkling wine",
@@ -7876,133 +8319,191 @@
           "rows": {
             "plain": "bls:P2A6100",
             "non-alcoholic": "bls:N005000"
-          }
+          },
+          "collections": [
+            "alcohol",
+            "seasonal"
+          ]
         },
         {
           "en": "Prosecco",
           "de": "Prosecco",
           "rows": {
             "plain": "bls:P2A6100"
-          }
+          },
+          "collections": [
+            "alcohol"
+          ]
         },
         {
           "en": "Champagne",
           "de": "Champagner",
           "rows": {
-            "plain": "bls:P2A6100"
-          }
+            "plain": "ciqual:5207"
+          },
+          "collections": [
+            "alcohol"
+          ]
         },
         {
           "en": "Federweißer",
           "de": "Federweißer",
           "rows": {
             "plain": "bls:P289000"
-          }
+          },
+          "collections": [
+            "alcohol"
+          ]
         },
         {
           "en": "Cider",
           "de": "Apfelwein",
           "rows": {
             "plain": "bls:P353100"
-          }
+          },
+          "collections": [
+            "alcohol"
+          ]
         },
         {
           "en": "Port",
           "de": "Portwein",
           "rows": {
             "plain": "bls:P431000"
-          }
+          },
+          "collections": [
+            "alcohol"
+          ]
         },
         {
           "en": "Sherry",
           "de": "Sherry",
           "rows": {
             "plain": "bls:P461000"
-          }
+          },
+          "collections": [
+            "alcohol"
+          ]
         },
         {
           "en": "Vermouth",
           "de": "Wermut",
           "rows": {
             "plain": "bls:P341600"
-          }
+          },
+          "collections": [
+            "alcohol"
+          ]
         },
         {
           "en": "Sangria",
           "de": "Sangria",
           "rows": {
             "plain": "usda:2710695"
-          }
+          },
+          "collections": [
+            "cocktails"
+          ]
         },
         {
           "en": "Vodka",
           "de": "Wodka",
           "rows": {
             "plain": "bls:P712000"
-          }
+          },
+          "collections": [
+            "alcohol"
+          ]
         },
         {
           "en": "Gin",
           "de": "Gin",
           "rows": {
             "plain": "bls:P722000"
-          }
+          },
+          "collections": [
+            "alcohol"
+          ]
         },
         {
           "en": "Rum",
           "de": "Rum",
           "rows": {
             "plain": "bls:P741000"
-          }
+          },
+          "collections": [
+            "alcohol"
+          ]
         },
         {
           "en": "Whisky",
           "de": "Whisky",
           "rows": {
             "plain": "bls:P733000"
-          }
+          },
+          "collections": [
+            "alcohol"
+          ]
         },
         {
           "en": "Brandy",
           "de": "Weinbrand",
           "rows": {
             "plain": "usda:2710699"
-          }
+          },
+          "collections": [
+            "alcohol"
+          ]
         },
         {
           "en": "Schnaps",
           "de": "Schnaps",
           "rows": {
             "plain": "bls:P752100"
-          }
+          },
+          "collections": [
+            "alcohol"
+          ]
         },
         {
           "en": "Tequila",
           "de": "Tequila",
           "rows": {
             "plain": "bls:P7A4000"
-          }
+          },
+          "collections": [
+            "alcohol"
+          ]
         },
         {
           "en": "Korn",
           "de": "Korn",
           "rows": {
             "plain": "bls:P730000"
-          }
+          },
+          "collections": [
+            "alcohol"
+          ]
         },
         {
           "en": "Ouzo",
           "de": "Ouzo",
           "rows": {
             "plain": "bls:P7A1000"
-          }
+          },
+          "collections": [
+            "alcohol"
+          ]
         },
         {
           "en": "Aquavit",
           "de": "Aquavit",
           "rows": {
             "plain": "bls:P7A3000"
-          }
+          },
+          "collections": [
+            "alcohol"
+          ]
         },
         {
           "en": "Liqueur",
@@ -8014,90 +8515,1025 @@
             "coffee": "bls:P550000",
             "herbal": "bls:P560000",
             "almond": "bls:P540100"
-          }
+          },
+          "collections": [
+            "alcohol"
+          ]
         },
         {
           "en": "Apfelkorn",
           "de": "Apfelkorn",
           "rows": {
             "plain": "bls:P571000"
-          }
+          },
+          "collections": [
+            "alcohol"
+          ]
         },
         {
           "en": "Bitter aperitif",
           "de": "Aperol",
           "rows": {
             "plain": "bls:P560100"
-          }
+          },
+          "collections": [
+            "alcohol"
+          ]
         },
         {
           "en": "Gin and tonic",
           "de": "Gin Tonic",
           "rows": {
             "plain": "usda:2710633"
-          }
+          },
+          "collections": [
+            "cocktails"
+          ]
         },
         {
           "en": "Hugo",
           "de": "Hugo",
           "rows": {
             "plain": "bls:P9A8100"
-          }
+          },
+          "collections": [
+            "cocktails"
+          ]
         },
         {
           "en": "Cuba libre",
           "de": "Cuba Libre",
           "rows": {
             "plain": "bls:P9A7100"
-          }
+          },
+          "collections": [
+            "cocktails"
+          ]
         },
         {
           "en": "Mojito",
           "de": "Mojito",
           "rows": {
             "plain": "bls:P9A7110"
-          }
+          },
+          "collections": [
+            "cocktails"
+          ]
         },
         {
           "en": "Caipirinha",
           "de": "Caipirinha",
           "rows": {
             "plain": "bls:P9A9000"
-          }
+          },
+          "collections": [
+            "cocktails"
+          ]
         },
         {
           "en": "Piña colada",
           "de": "Piña Colada",
           "rows": {
             "plain": "usda:2710662"
-          }
+          },
+          "collections": [
+            "cocktails"
+          ]
         },
         {
           "en": "Margarita",
           "de": "Margarita",
           "rows": {
             "plain": "usda:2710638"
-          }
+          },
+          "collections": [
+            "cocktails"
+          ]
         },
         {
           "en": "Campari orange",
           "de": "Campari Orange",
           "rows": {
             "plain": "bls:P9B1000"
-          }
+          },
+          "collections": [
+            "cocktails"
+          ]
         },
         {
           "en": "Eggnog",
           "de": "Eierpunsch",
           "rows": {
             "plain": "bls:P8A3000"
-          }
+          },
+          "collections": [
+            "cocktails",
+            "seasonal"
+          ]
         },
         {
           "en": "Hard seltzer",
           "de": "Hard Seltzer",
           "rows": {
             "plain": "usda:2710622"
+          },
+          "collections": [
+            "alcohol"
+          ]
+        },
+        {
+          "en": "Earl Grey",
+          "de": "Earl Grey",
+          "rows": {
+            "plain": "usda:2710488"
+          },
+          "collections": [
+            "tea"
+          ]
+        },
+        {
+          "en": "Darjeeling",
+          "de": "Darjeeling",
+          "rows": {
+            "plain": "usda:2710488"
+          },
+          "collections": [
+            "tea"
+          ]
+        },
+        {
+          "en": "Assam tea",
+          "de": "Assam",
+          "rows": {
+            "plain": "usda:2710488"
+          },
+          "collections": [
+            "tea"
+          ]
+        },
+        {
+          "en": "English breakfast tea",
+          "de": "English Breakfast Tea",
+          "rows": {
+            "plain": "usda:2710488"
+          },
+          "collections": [
+            "tea"
+          ]
+        },
+        {
+          "en": "Ceylon tea",
+          "de": "Ceylontee",
+          "rows": {
+            "plain": "usda:2710488"
+          },
+          "collections": [
+            "tea"
+          ]
+        },
+        {
+          "en": "East Frisian tea",
+          "de": "Ostfriesentee",
+          "rows": {
+            "plain": "usda:2710488"
+          },
+          "collections": [
+            "tea"
+          ]
+        },
+        {
+          "en": "Turkish tea",
+          "de": "Türkischer Çay",
+          "rows": {
+            "plain": "usda:2710488"
+          },
+          "collections": [
+            "tea"
+          ]
+        },
+        {
+          "en": "Sencha",
+          "de": "Sencha",
+          "rows": {
+            "plain": "usda:2710490"
+          },
+          "collections": [
+            "tea"
+          ]
+        },
+        {
+          "en": "Jasmine tea",
+          "de": "Jasmintee",
+          "rows": {
+            "plain": "usda:2710490"
+          },
+          "collections": [
+            "tea"
+          ]
+        },
+        {
+          "en": "White tea",
+          "de": "Weißer Tee",
+          "rows": {
+            "plain": "usda:2710490"
+          },
+          "collections": [
+            "tea"
+          ]
+        },
+        {
+          "en": "Hojicha",
+          "de": "Hojicha",
+          "rows": {
+            "plain": "usda:2710490"
+          },
+          "collections": [
+            "tea"
+          ]
+        },
+        {
+          "en": "Fennel tea",
+          "de": "Fencheltee",
+          "rows": {
+            "plain": "usda:2710502"
+          },
+          "collections": [
+            "tea"
+          ]
+        },
+        {
+          "en": "Sage tea",
+          "de": "Salbeitee",
+          "rows": {
+            "plain": "usda:2710502"
+          },
+          "collections": [
+            "tea"
+          ]
+        },
+        {
+          "en": "Nettle tea",
+          "de": "Brennnesseltee",
+          "rows": {
+            "plain": "usda:2710502"
+          },
+          "collections": [
+            "tea"
+          ]
+        },
+        {
+          "en": "Lemon balm tea",
+          "de": "Melissentee",
+          "rows": {
+            "plain": "usda:2710502"
+          },
+          "collections": [
+            "tea"
+          ]
+        },
+        {
+          "en": "Linden tea",
+          "de": "Lindenblütentee",
+          "rows": {
+            "plain": "usda:2710502"
+          },
+          "collections": [
+            "tea"
+          ]
+        },
+        {
+          "en": "Rosehip tea",
+          "de": "Hagebuttentee",
+          "rows": {
+            "plain": "usda:2710502"
+          },
+          "collections": [
+            "tea"
+          ]
+        },
+        {
+          "en": "Tea with milk",
+          "de": "Tee mit Milch",
+          "rows": {
+            "plain": "bls:N630200"
+          },
+          "collections": [
+            "tea"
+          ]
+        },
+        {
+          "en": "Tea with milk and sugar",
+          "de": "Tee mit Milch und Zucker",
+          "rows": {
+            "plain": "bls:N630300"
+          },
+          "collections": [
+            "tea"
+          ]
+        },
+        {
+          "en": "Peach iced tea",
+          "de": "Pfirsich-Eistee",
+          "rows": {
+            "plain": "usda:2710527"
+          },
+          "collections": [
+            "tea"
+          ]
+        },
+        {
+          "en": "Lemon iced tea",
+          "de": "Zitronen-Eistee",
+          "rows": {
+            "plain": "usda:2710527"
+          },
+          "collections": [
+            "tea"
+          ]
+        },
+        {
+          "en": "Ginger tea",
+          "de": "Ingwertee",
+          "rows": {
+            "plain": "usda:2710507"
+          },
+          "collections": [
+            "tea"
+          ]
+        },
+        {
+          "en": "Hibiscus tea",
+          "de": "Hibiskustee",
+          "rows": {
+            "plain": "usda:2710502"
+          },
+          "collections": [
+            "tea"
+          ]
+        },
+        {
+          "en": "Oolong tea",
+          "de": "Oolong-Tee",
+          "rows": {
+            "plain": "usda:2710492"
+          },
+          "collections": [
+            "tea"
+          ]
+        },
+        {
+          "en": "Decaf black tea",
+          "de": "Entkoffeinierter Schwarztee",
+          "rows": {
+            "plain": "usda:2710489"
+          },
+          "collections": [
+            "tea"
+          ]
+        },
+        {
+          "en": "Bubble tea",
+          "de": "Bubble Tea",
+          "rows": {
+            "plain": "usda:2710508"
+          },
+          "collections": [
+            "tea"
+          ]
+        },
+        {
+          "en": "Sweetened fruit tea",
+          "de": "Früchtetee mit Zucker",
+          "rows": {
+            "plain": "bls:N710600"
+          },
+          "collections": [
+            "tea"
+          ]
+        },
+        {
+          "en": "Tea with sugar",
+          "de": "Tee mit Zucker",
+          "rows": {
+            "plain": "bls:N630600"
+          },
+          "collections": [
+            "tea"
+          ]
+        },
+        {
+          "en": "Tea with lemon",
+          "de": "Tee mit Zitrone",
+          "rows": {
+            "plain": "bls:N630700"
+          },
+          "collections": [
+            "tea"
+          ]
+        },
+        {
+          "en": "East Frisian tea with cream",
+          "de": "Ostfriesentee mit Kluntje und Sahne",
+          "rows": {
+            "plain": "bls:N630500"
+          },
+          "collections": [
+            "tea"
+          ]
+        },
+        {
+          "en": "Sweetened herbal tea",
+          "de": "Kräutertee mit Zucker",
+          "rows": {
+            "plain": "bls:N720600"
+          },
+          "collections": [
+            "tea"
+          ]
+        },
+        {
+          "en": "Unsweetened iced tea",
+          "de": "Ungesüßter Eistee",
+          "rows": {
+            "plain": "usda:2710517"
+          },
+          "collections": [
+            "tea"
+          ]
+        },
+        {
+          "en": "Sugar-free iced tea",
+          "de": "Eistee zuckerfrei",
+          "rows": {
+            "plain": "ciqual:18065"
+          },
+          "collections": [
+            "tea"
+          ]
+        },
+        {
+          "en": "Instant tea powder",
+          "de": "Instant-Teepulver",
+          "rows": {
+            "plain": "usda:2710511"
+          },
+          "collections": [
+            "tea"
+          ]
+        },
+        {
+          "en": "Green iced tea",
+          "de": "Grüner Eistee",
+          "rows": {
+            "plain": "usda:2710533"
+          },
+          "collections": [
+            "tea"
+          ]
+        },
+        {
+          "en": "Helles",
+          "de": "Helles",
+          "rows": {
+            "plain": "bls:P161000"
+          },
+          "collections": [
+            "alcohol"
+          ]
+        },
+        {
+          "en": "Lager",
+          "de": "Lagerbier",
+          "rows": {
+            "plain": "bls:P161000"
+          },
+          "collections": [
+            "alcohol"
+          ]
+        },
+        {
+          "en": "Export beer",
+          "de": "Exportbier",
+          "rows": {
+            "plain": "bls:P161000"
+          },
+          "collections": [
+            "alcohol"
+          ]
+        },
+        {
+          "en": "Schwarzbier",
+          "de": "Schwarzbier",
+          "rows": {
+            "plain": "bls:P165000"
+          },
+          "collections": [
+            "alcohol"
+          ]
+        },
+        {
+          "en": "Riesling",
+          "de": "Riesling",
+          "rows": {
+            "plain": "usda:2710689"
+          },
+          "collections": [
+            "alcohol"
+          ]
+        },
+        {
+          "en": "Grauburgunder",
+          "de": "Grauburgunder",
+          "rows": {
+            "plain": "usda:2710689"
+          },
+          "collections": [
+            "alcohol"
+          ]
+        },
+        {
+          "en": "Spätburgunder",
+          "de": "Spätburgunder",
+          "rows": {
+            "plain": "usda:2710688"
+          },
+          "collections": [
+            "alcohol"
+          ]
+        },
+        {
+          "en": "Cava",
+          "de": "Cava",
+          "rows": {
+            "plain": "bls:P2A6100"
+          },
+          "collections": [
+            "alcohol"
+          ]
+        },
+        {
+          "en": "Kirschwasser",
+          "de": "Kirschwasser",
+          "rows": {
+            "plain": "bls:P752100"
+          },
+          "collections": [
+            "alcohol"
+          ]
+        },
+        {
+          "en": "Grappa",
+          "de": "Grappa",
+          "rows": {
+            "plain": "bls:P752100"
+          },
+          "collections": [
+            "alcohol"
+          ]
+        },
+        {
+          "en": "Obstler",
+          "de": "Obstler",
+          "rows": {
+            "plain": "bls:P752100"
+          },
+          "collections": [
+            "alcohol"
+          ]
+        },
+        {
+          "en": "Irish whiskey",
+          "de": "Irish Whiskey",
+          "rows": {
+            "plain": "bls:P733000"
+          },
+          "collections": [
+            "alcohol"
+          ]
+        },
+        {
+          "en": "Herbal liqueur",
+          "de": "Kräuterlikör",
+          "rows": {
+            "plain": "bls:P560000"
+          },
+          "collections": [
+            "alcohol"
+          ]
+        },
+        {
+          "en": "Cream liqueur",
+          "de": "Sahnelikör",
+          "rows": {
+            "plain": "bls:P5A1000"
+          },
+          "collections": [
+            "alcohol"
+          ]
+        },
+        {
+          "en": "Amaretto",
+          "de": "Amaretto",
+          "rows": {
+            "plain": "bls:P540100"
+          },
+          "collections": [
+            "alcohol"
+          ]
+        },
+        {
+          "en": "Limoncello",
+          "de": "Limoncello",
+          "rows": {
+            "plain": "bls:P510000"
+          },
+          "collections": [
+            "alcohol"
+          ]
+        },
+        {
+          "en": "Egg liqueur",
+          "de": "Eierlikör",
+          "rows": {
+            "plain": "bls:P546000"
+          },
+          "collections": [
+            "alcohol"
+          ]
+        },
+        {
+          "en": "Coffee liqueur",
+          "de": "Kaffeelikör",
+          "rows": {
+            "plain": "bls:P550000"
+          },
+          "collections": [
+            "alcohol"
+          ]
+        },
+        {
+          "en": "Campari",
+          "de": "Campari",
+          "rows": {
+            "plain": "bls:P560000"
+          },
+          "collections": [
+            "alcohol"
+          ]
+        },
+        {
+          "en": "Lillet",
+          "de": "Lillet",
+          "rows": {
+            "plain": "bls:P341600"
+          },
+          "collections": [
+            "alcohol"
+          ]
+        },
+        {
+          "en": "Raki",
+          "de": "Raki",
+          "rows": {
+            "plain": "bls:P7A1000"
+          },
+          "collections": [
+            "alcohol"
+          ]
+        },
+        {
+          "en": "Alcohol-free pilsner 0.0",
+          "de": "Pils 0,0 %",
+          "rows": {
+            "plain": "bls:P163110"
+          },
+          "collections": [
+            "alcohol"
+          ]
+        },
+        {
+          "en": "Alcohol-free wheat beer 0.0",
+          "de": "Weizen 0,0 %",
+          "rows": {
+            "plain": "bls:P151120"
+          },
+          "collections": [
+            "alcohol"
+          ]
+        },
+        {
+          "en": "Doppelbock",
+          "de": "Doppelbock",
+          "rows": {
+            "plain": "bls:P174000"
+          },
+          "collections": [
+            "alcohol"
+          ]
+        },
+        {
+          "en": "Strong beer",
+          "de": "Starkbier",
+          "rows": {
+            "plain": "usda:2710618"
+          },
+          "collections": [
+            "alcohol"
+          ]
+        },
+        {
+          "en": "Craft beer",
+          "de": "Craftbier",
+          "rows": {
+            "plain": "ciqual:5011"
+          },
+          "collections": [
+            "alcohol"
+          ]
+        },
+        {
+          "en": "Alcohol-free wheat radler",
+          "de": "Alkoholfreies Weizen-Radler",
+          "rows": {
+            "plain": "bls:P1A1120"
+          },
+          "collections": [
+            "alcohol"
+          ]
+        },
+        {
+          "en": "Sour radler",
+          "de": "Radler sauer",
+          "rows": {
+            "plain": "bls:P1A3110"
+          },
+          "collections": [
+            "alcohol"
+          ]
+        },
+        {
+          "en": "Medium sweet red wine",
+          "de": "Rotwein lieblich",
+          "rows": {
+            "plain": "bls:P2A2000"
+          },
+          "collections": [
+            "alcohol"
+          ]
+        },
+        {
+          "en": "Sweet red wine",
+          "de": "Rotwein süß",
+          "rows": {
+            "plain": "bls:P2A1000"
+          },
+          "collections": [
+            "alcohol"
+          ]
+        },
+        {
+          "en": "Medium sweet white wine",
+          "de": "Weißwein lieblich",
+          "rows": {
+            "plain": "bls:P230000"
+          },
+          "collections": [
+            "alcohol"
+          ]
+        },
+        {
+          "en": "Sweet white wine",
+          "de": "Weißwein süß",
+          "rows": {
+            "plain": "bls:P231000"
+          },
+          "collections": [
+            "alcohol"
+          ]
+        },
+        {
+          "en": "Medium dry sparkling wine",
+          "de": "Sekt halbtrocken",
+          "rows": {
+            "plain": "bls:P2A7100"
+          },
+          "collections": [
+            "alcohol"
+          ]
+        },
+        {
+          "en": "Brut sparkling wine",
+          "de": "Sekt brut",
+          "rows": {
+            "plain": "bls:P2A6110"
+          },
+          "collections": [
+            "alcohol"
+          ]
+        },
+        {
+          "en": "Sweet sparkling wine",
+          "de": "Sekt süß",
+          "rows": {
+            "plain": "bls:P2A7000"
+          },
+          "collections": [
+            "alcohol"
+          ]
+        },
+        {
+          "en": "Dessert wine",
+          "de": "Dessertwein",
+          "rows": {
+            "plain": "usda:2710692"
+          },
+          "collections": [
+            "alcohol"
+          ]
+        },
+        {
+          "en": "Ice wine",
+          "de": "Eiswein",
+          "rows": {
+            "plain": "bls:P219000"
+          },
+          "collections": [
+            "alcohol"
+          ]
+        },
+        {
+          "en": "Madeira",
+          "de": "Madeira",
+          "rows": {
+            "plain": "bls:P432000"
+          },
+          "collections": [
+            "alcohol"
+          ]
+        },
+        {
+          "en": "Cognac",
+          "de": "Cognac",
+          "rows": {
+            "plain": "bls:P610000"
+          },
+          "collections": [
+            "alcohol"
+          ]
+        },
+        {
+          "en": "Calvados",
+          "de": "Calvados",
+          "rows": {
+            "plain": "bls:P640000"
+          },
+          "collections": [
+            "alcohol"
+          ]
+        },
+        {
+          "en": "Scotch whisky",
+          "de": "Scotch Whisky",
+          "rows": {
+            "plain": "usda:2710701"
+          },
+          "collections": [
+            "alcohol"
+          ]
+        },
+        {
+          "en": "Bourbon",
+          "de": "Bourbon",
+          "rows": {
+            "plain": "usda:2710700"
+          },
+          "collections": [
+            "alcohol"
+          ]
+        },
+        {
+          "en": "Cachaça",
+          "de": "Cachaça",
+          "rows": {
+            "plain": "bls:P740000"
+          },
+          "collections": [
+            "alcohol"
+          ]
+        },
+        {
+          "en": "Sake",
+          "de": "Sake",
+          "rows": {
+            "plain": "ciqual:1026"
+          },
+          "collections": [
+            "alcohol"
+          ]
+        },
+        {
+          "en": "Pastis",
+          "de": "Pastis",
+          "rows": {
+            "plain": "ciqual:1000"
+          },
+          "collections": [
+            "alcohol"
+          ]
+        },
+        {
+          "en": "Alcopop",
+          "de": "Alkopop",
+          "rows": {
+            "plain": "bls:P8A2000"
+          },
+          "collections": [
+            "alcohol"
+          ]
+        },
+        {
+          "en": "Tequila Sunrise",
+          "de": "Tequila Sunrise",
+          "rows": {
+            "plain": "usda:2710678"
+          },
+          "collections": [
+            "cocktails"
+          ]
+        },
+        {
+          "en": "Mai Tai",
+          "de": "Mai Tai",
+          "rows": {
+            "plain": "usda:2710677"
+          },
+          "collections": [
+            "cocktails"
+          ]
+        },
+        {
+          "en": "Michelada",
+          "de": "Michelada",
+          "rows": {
+            "plain": "usda:2710641"
+          },
+          "collections": [
+            "cocktails"
+          ]
+        },
+        {
+          "en": "Shirley Temple",
+          "de": "Shirley Temple",
+          "rows": {
+            "plain": "usda:2710611"
+          },
+          "collections": [
+            "cocktails"
+          ]
+        },
+        {
+          "en": "Dry vermouth",
+          "de": "Trockener Wermut",
+          "rows": {
+            "plain": "bls:P341300"
+          },
+          "collections": [
+            "alcohol"
+          ]
+        },
+        {
+          "en": "Crème de cassis",
+          "de": "Crème de Cassis",
+          "rows": {
+            "plain": "ciqual:1021"
+          },
+          "collections": [
+            "alcohol"
+          ]
+        },
+        {
+          "en": "Strawberry punch",
+          "de": "Erdbeerbowle",
+          "rows": {
+            "plain": "bls:P288100"
+          },
+          "collections": [
+            "seasonal",
+            "alcohol"
+          ]
+        },
+        {
+          "en": "Instant coffee",
+          "de": "Instantkaffee",
+          "rows": {
+            "plain": "ciqual:18073"
+          }
+        },
+        {
+          "en": "Decaf instant coffee",
+          "de": "Instantkaffee, entkoffeiniert",
+          "rows": {
+            "plain": "bls:N440100"
           }
         }
       ]
@@ -8133,20 +9569,6 @@
           "de": "Pfefferminzschokolade",
           "rows": {
             "plain": "bls:S570800"
-          }
-        },
-        {
-          "en": "Peanut caramel bar",
-          "de": "Erdnuss-Karamell-Riegel",
-          "rows": {
-            "plain": "bls:S581100"
-          }
-        },
-        {
-          "en": "Chocolate caramel bar",
-          "de": "Karamell-Schokoriegel",
-          "rows": {
-            "plain": "bls:S582500"
           }
         },
         {
@@ -8220,13 +9642,6 @@
           }
         },
         {
-          "en": "Chocolate marshmallow",
-          "de": "Schokokuss",
-          "rows": {
-            "plain": "bls:S582200"
-          }
-        },
-        {
           "en": "Marzipan",
           "de": "Marzipan",
           "rows": {
@@ -8244,7 +9659,7 @@
           "en": "Liquorice",
           "de": "Lakritz",
           "rows": {
-            "plain": "bls:S410000"
+            "plain": "usda:2710352"
           }
         },
         {
@@ -8294,14 +9709,10 @@
           "de": "Gebrannte Mandeln",
           "rows": {
             "plain": "bls:S465000"
-          }
-        },
-        {
-          "en": "Turkish delight",
-          "de": "Lokum",
-          "rows": {
-            "plain": "cofid:17-122"
-          }
+          },
+          "collections": [
+            "seasonal"
+          ]
         },
         {
           "en": "Chocolate ice cream",
@@ -8343,7 +9754,10 @@
           "de": "Sorbet",
           "rows": {
             "plain": "ciqual:39524"
-          }
+          },
+          "collections": [
+            "plant-based"
+          ]
         },
         {
           "en": "Frozen yogurt",
@@ -8462,434 +9876,618 @@
           "de": "Windbeutel",
           "rows": {
             "plain": "bls:D720200"
-          }
+          },
+          "collections": [
+            "baking"
+          ]
         },
         {
           "en": "Chocolate éclair",
           "de": "Schoko-Eclair",
           "rows": {
             "plain": "cofid:11-844"
-          }
+          },
+          "collections": [
+            "baking"
+          ]
         },
         {
           "en": "Baklava",
           "de": "Baklava",
           "rows": {
             "plain": "bls:D702000"
-          }
+          },
+          "collections": [
+            "baking"
+          ]
         },
         {
           "en": "Apple strudel",
           "de": "Apfelstrudel",
           "rows": {
             "plain": "bls:D540200"
-          }
+          },
+          "collections": [
+            "baking"
+          ]
         },
         {
           "en": "Quark strudel",
           "de": "Quarkstrudel",
           "rows": {
             "plain": "bls:D540400"
-          }
-        },
-        {
-          "en": "Mince pie",
-          "de": "Mince Pie",
-          "rows": {
-            "plain": "cofid:11-848"
-          }
+          },
+          "collections": [
+            "baking"
+          ]
         },
         {
           "en": "Pumpkin pie",
           "de": "Kürbis-Pie",
           "rows": {
             "plain": "usda:2708011"
-          }
+          },
+          "collections": [
+            "baking",
+            "seasonal"
+          ]
         },
         {
           "en": "Pecan pie",
           "de": "Pekannuss-Pie",
           "rows": {
             "plain": "usda:2708015"
-          }
+          },
+          "collections": [
+            "baking"
+          ]
         },
         {
           "en": "Cheesecake",
           "de": "Käsekuchen",
           "rows": {
             "plain": "bls:D480200"
-          }
+          },
+          "collections": [
+            "baking"
+          ]
         },
         {
           "en": "New York cheesecake",
           "de": "New York Cheesecake",
           "rows": {
             "plain": "usda:2707861"
-          }
+          },
+          "collections": [
+            "baking"
+          ]
         },
         {
           "en": "Quark cream cake",
           "de": "Käsesahnetorte",
           "rows": {
             "plain": "bls:D310300"
-          }
+          },
+          "collections": [
+            "baking"
+          ]
         },
         {
           "en": "Apple cake",
           "de": "Apfelkuchen",
           "rows": {
             "plain": "bls:D131200"
-          }
+          },
+          "collections": [
+            "baking"
+          ]
         },
         {
           "en": "Apple pie",
           "de": "Gedeckter Apfelkuchen",
           "rows": {
             "plain": "bls:D731200"
-          }
+          },
+          "collections": [
+            "baking"
+          ]
         },
         {
           "en": "Apple crumble cake",
           "de": "Apfelstreuselkuchen",
           "rows": {
             "plain": "bls:D1A1000"
-          }
+          },
+          "collections": [
+            "baking"
+          ]
         },
         {
           "en": "Streusel cake",
           "de": "Streuselkuchen",
           "rows": {
             "plain": "bls:D461500"
-          }
+          },
+          "collections": [
+            "baking"
+          ]
         },
         {
           "en": "Bee sting cake",
           "de": "Bienenstich",
           "rows": {
             "plain": "bls:D461300"
-          }
+          },
+          "collections": [
+            "baking"
+          ]
         },
         {
           "en": "Butter cake",
           "de": "Butterkuchen",
           "rows": {
             "plain": "bls:D461700"
-          }
+          },
+          "collections": [
+            "baking"
+          ]
         },
         {
           "en": "Plum cake",
           "de": "Zwetschgenkuchen",
           "rows": {
             "plain": "bls:D482200"
-          }
+          },
+          "collections": [
+            "baking"
+          ]
         },
         {
           "en": "Strawberry cake",
           "de": "Erdbeerkuchen",
           "rows": {
             "plain": "bls:D200300"
-          }
+          },
+          "collections": [
+            "baking",
+            "seasonal"
+          ]
         },
         {
           "en": "Fruit flan",
           "de": "Obstkuchen",
           "rows": {
             "plain": "bls:D1A4100"
-          }
+          },
+          "collections": [
+            "baking"
+          ]
         },
         {
           "en": "Rhubarb cake",
           "de": "Rhabarberkuchen",
           "rows": {
             "plain": "bls:D237100"
-          }
+          },
+          "collections": [
+            "baking"
+          ]
         },
         {
           "en": "Black Forest gateau",
           "de": "Schwarzwälder Kirschtorte",
           "rows": {
             "plain": "bls:D300600"
-          }
+          },
+          "collections": [
+            "baking"
+          ]
         },
         {
           "en": "Marble cake",
           "de": "Marmorkuchen",
           "rows": {
             "plain": "bls:D431100"
-          }
+          },
+          "collections": [
+            "baking"
+          ]
         },
         {
           "en": "Pound cake",
           "de": "Rührkuchen",
           "rows": {
             "plain": "bls:D422600"
-          }
+          },
+          "collections": [
+            "baking"
+          ]
         },
         {
           "en": "Gugelhupf",
           "de": "Gugelhupf",
           "rows": {
             "plain": "bls:D461400"
-          }
+          },
+          "collections": [
+            "baking"
+          ]
         },
         {
           "en": "Danube wave cake",
           "de": "Donauwelle",
           "rows": {
             "plain": "bls:D431400"
-          }
+          },
+          "collections": [
+            "baking"
+          ]
         },
         {
           "en": "Frankfurt crown cake",
           "de": "Frankfurter Kranz",
           "rows": {
             "plain": "bls:D441300"
-          }
+          },
+          "collections": [
+            "baking"
+          ]
         },
         {
           "en": "Sacher torte",
           "de": "Sachertorte",
           "rows": {
             "plain": "bls:D300200"
-          }
+          },
+          "collections": [
+            "baking"
+          ]
         },
         {
           "en": "Linzer torte",
           "de": "Linzer Torte",
           "rows": {
             "plain": "bls:D300500"
-          }
+          },
+          "collections": [
+            "baking"
+          ]
         },
         {
           "en": "Carrot cake",
           "de": "Karottenkuchen",
           "rows": {
             "plain": "bls:D4A8400"
-          }
+          },
+          "collections": [
+            "baking"
+          ]
         },
         {
           "en": "Chocolate cake",
           "de": "Schokoladenkuchen",
           "rows": {
             "plain": "bls:D433300"
-          }
+          },
+          "collections": [
+            "baking"
+          ]
         },
         {
           "en": "Lemon cake",
           "de": "Zitronenkuchen",
           "rows": {
             "plain": "bls:D4A8700"
-          }
+          },
+          "collections": [
+            "baking"
+          ]
         },
         {
           "en": "Nut cake",
           "de": "Nusskuchen",
           "rows": {
             "plain": "bls:D430500"
-          }
+          },
+          "collections": [
+            "baking"
+          ]
         },
         {
           "en": "Swiss roll",
           "de": "Biskuitrolle",
           "rows": {
             "plain": "bls:D310400"
-          }
+          },
+          "collections": [
+            "baking"
+          ]
         },
         {
           "en": "Baumkuchen",
           "de": "Baumkuchen",
           "rows": {
             "plain": "bls:D431500"
-          }
+          },
+          "collections": [
+            "baking"
+          ]
         },
         {
           "en": "Brownie",
           "de": "Brownie",
           "rows": {
             "plain": "bls:D4A2000"
-          }
+          },
+          "collections": [
+            "baking"
+          ]
         },
         {
           "en": "Cupcake",
           "de": "Cupcake",
           "rows": {
             "plain": "usda:2707853"
-          }
+          },
+          "collections": [
+            "baking"
+          ]
         },
         {
           "en": "Fruit cake",
           "de": "Englischer Kuchen",
           "rows": {
             "plain": "bls:D440700"
-          }
+          },
+          "collections": [
+            "baking"
+          ]
         },
         {
           "en": "Banana bread",
           "de": "Bananenbrot",
           "rows": {
-            "plain": "cofid:11-1029"
-          }
+            "plain": "usda:2707856"
+          },
+          "collections": [
+            "baking"
+          ]
         },
         {
           "en": "Victoria sponge",
           "de": "Victoria Sponge",
           "rows": {
             "plain": "cofid:11-831"
-          }
+          },
+          "collections": [
+            "baking"
+          ]
         },
         {
           "en": "Lebkuchen",
           "de": "Lebkuchen",
           "rows": {
             "plain": "bls:D652400"
-          }
+          },
+          "collections": [
+            "baking",
+            "seasonal"
+          ]
         },
         {
           "en": "Dominosteine",
           "de": "Dominosteine",
           "rows": {
             "plain": "bls:D650100"
-          }
+          },
+          "collections": [
+            "baking",
+            "seasonal"
+          ]
         },
         {
           "en": "Speculoos",
           "de": "Spekulatius",
           "rows": {
             "plain": "bls:D730600"
-          }
+          },
+          "collections": [
+            "baking",
+            "seasonal"
+          ]
         },
         {
           "en": "Vanilla crescents",
           "de": "Vanillekipferl",
           "rows": {
             "plain": "bls:D753500"
-          }
+          },
+          "collections": [
+            "baking",
+            "seasonal"
+          ]
         },
         {
           "en": "Cinnamon stars",
           "de": "Zimtsterne",
           "rows": {
             "plain": "bls:D610500"
-          }
+          },
+          "collections": [
+            "baking",
+            "seasonal"
+          ]
         },
         {
           "en": "Pfeffernüsse",
           "de": "Pfeffernüsse",
           "rows": {
             "plain": "bls:D652300"
-          }
+          },
+          "collections": [
+            "baking"
+          ]
         },
         {
           "en": "Butter cookies",
           "de": "Butterplätzchen",
           "rows": {
             "plain": "bls:D734600"
-          }
+          },
+          "collections": [
+            "baking",
+            "seasonal"
+          ]
         },
         {
           "en": "Coconut macaroons",
           "de": "Kokosmakronen",
           "rows": {
             "plain": "bls:D660300"
-          }
+          },
+          "collections": [
+            "baking"
+          ]
         },
         {
           "en": "Nut triangle",
           "de": "Nussecke",
           "rows": {
             "plain": "bls:D733600"
-          }
+          },
+          "collections": [
+            "baking"
+          ]
         },
         {
           "en": "Butter biscuit",
           "de": "Butterkeks",
           "rows": {
-            "plain": "bls:D630400"
-          }
+            "plain": "usda:2707970"
+          },
+          "collections": [
+            "baking"
+          ]
         },
         {
           "en": "Chocolate biscuit",
           "de": "Schokoladenkeks",
           "rows": {
             "plain": "bls:D630500"
-          }
+          },
+          "collections": [
+            "baking"
+          ]
         },
         {
           "en": "Digestive biscuit",
           "de": "Digestive-Keks",
           "rows": {
             "plain": "cofid:11-799"
-          }
+          },
+          "collections": [
+            "baking"
+          ]
         },
         {
           "en": "Chocolate digestive",
           "de": "Schoko-Digestive",
           "rows": {
             "plain": "cofid:11-807"
-          }
+          },
+          "collections": [
+            "baking"
+          ]
         },
         {
           "en": "Shortbread",
           "de": "Shortbread",
           "rows": {
             "plain": "cofid:11-802"
-          }
+          },
+          "collections": [
+            "baking"
+          ]
         },
         {
           "en": "Chocolate chip cookie",
           "de": "Schoko-Cookie",
           "rows": {
             "plain": "bls:D7A2000"
-          }
+          },
+          "collections": [
+            "baking"
+          ]
         },
         {
           "en": "Oat cookie",
           "de": "Haferkeks",
           "rows": {
             "plain": "bls:D701600"
-          }
+          },
+          "collections": [
+            "baking"
+          ]
         },
         {
           "en": "Chocolate sandwich cookie",
           "de": "Doppelkeks",
           "rows": {
             "plain": "usda:2707920"
-          }
+          },
+          "collections": [
+            "baking"
+          ]
         },
         {
           "en": "Wafer biscuits",
           "de": "Waffelkekse",
           "rows": {
             "plain": "bls:D630700"
-          }
+          },
+          "collections": [
+            "baking"
+          ]
         },
         {
           "en": "Jaffa cakes",
           "de": "Jaffa Cakes",
           "rows": {
             "plain": "cofid:11-739"
-          }
+          },
+          "collections": [
+            "baking"
+          ]
         },
         {
           "en": "Ginger biscuit",
           "de": "Ingwerkeks",
           "rows": {
             "plain": "cofid:11-798"
-          }
+          },
+          "collections": [
+            "baking"
+          ]
         },
         {
           "en": "Graham crackers",
           "de": "Graham-Cracker",
           "rows": {
             "plain": "usda:2708133"
-          }
+          },
+          "collections": [
+            "baking"
+          ]
         },
         {
           "en": "Biscotti",
           "de": "Cantuccini",
           "rows": {
             "plain": "usda:2707902"
-          }
+          },
+          "collections": [
+            "baking"
+          ]
         },
         {
           "en": "Orange marmalade",
@@ -8959,14 +10557,20 @@
           "de": "Proteinriegel",
           "rows": {
             "plain": "usda:2708124"
-          }
+          },
+          "collections": [
+            "sports"
+          ]
         },
         {
           "en": "Flapjack",
           "de": "Flapjack",
           "rows": {
             "plain": "cofid:11-814"
-          }
+          },
+          "collections": [
+            "baking"
+          ]
         },
         {
           "en": "Dark chocolate",
@@ -8979,7 +10583,7 @@
           "en": "Gummy bears",
           "de": "Gummibärchen",
           "rows": {
-            "plain": "bls:S361000"
+            "plain": "usda:2710359"
           }
         },
         {
@@ -9056,7 +10660,7 @@
           "en": "Cereal bar",
           "de": "Müsliriegel",
           "rows": {
-            "plain": "cofid:11-819"
+            "plain": "bls:S830000"
           }
         },
         {
@@ -9064,7 +10668,212 @@
           "de": "Löffelbiskuits",
           "rows": {
             "plain": "bls:D710200"
-          }
+          },
+          "collections": [
+            "baking"
+          ]
+        },
+        {
+          "en": "Cherry cake",
+          "de": "Kirschkuchen",
+          "rows": {
+            "plain": "bls:D281100"
+          },
+          "collections": [
+            "baking"
+          ]
+        },
+        {
+          "en": "Cream cake",
+          "de": "Sahnetorte",
+          "rows": {
+            "plain": "usda:2707872"
+          },
+          "collections": [
+            "baking"
+          ]
+        },
+        {
+          "en": "Strawberry cream cake",
+          "de": "Erdbeersahnetorte",
+          "rows": {
+            "plain": "bls:D313300"
+          },
+          "collections": [
+            "baking"
+          ]
+        },
+        {
+          "en": "Buttercream cake",
+          "de": "Buttercremetorte",
+          "rows": {
+            "plain": "bls:D311200"
+          },
+          "collections": [
+            "baking"
+          ]
+        },
+        {
+          "en": "Prinzregententorte",
+          "de": "Prinzregententorte",
+          "rows": {
+            "plain": "bls:D330400"
+          },
+          "collections": [
+            "baking"
+          ]
+        },
+        {
+          "en": "Eierschecke",
+          "de": "Eierschecke",
+          "rows": {
+            "plain": "bls:D4A6000"
+          },
+          "collections": [
+            "baking"
+          ]
+        },
+        {
+          "en": "Poppy seed cake",
+          "de": "Mohnkuchen",
+          "rows": {
+            "plain": "bls:D4A6300"
+          },
+          "collections": [
+            "baking"
+          ]
+        },
+        {
+          "en": "Crêpe",
+          "de": "Crêpe",
+          "rows": {
+            "plain": "usda:2708342"
+          },
+          "collections": [
+            "baking"
+          ]
+        },
+        {
+          "en": "Almond crescent",
+          "de": "Mandelhörnchen",
+          "rows": {
+            "plain": "bls:D755300"
+          },
+          "collections": [
+            "baking"
+          ]
+        },
+        {
+          "en": "Palmier",
+          "de": "Schweineohr",
+          "rows": {
+            "plain": "bls:D770300"
+          },
+          "collections": [
+            "baking"
+          ]
+        },
+        {
+          "en": "Spritz cookies",
+          "de": "Spritzgebäck",
+          "rows": {
+            "plain": "bls:D7B8000"
+          },
+          "collections": [
+            "baking"
+          ]
+        },
+        {
+          "en": "Printen",
+          "de": "Printen",
+          "rows": {
+            "plain": "bls:D651300"
+          },
+          "collections": [
+            "seasonal",
+            "baking"
+          ]
+        },
+        {
+          "en": "Mutzen",
+          "de": "Mutzen",
+          "rows": {
+            "plain": "bls:D754100"
+          },
+          "collections": [
+            "seasonal",
+            "baking"
+          ]
+        },
+        {
+          "en": "Plum pudding",
+          "de": "Plumpudding",
+          "rows": {
+            "plain": "bls:Y835463"
+          },
+          "collections": [
+            "seasonal"
+          ]
+        },
+        {
+          "en": "Chocolate Santa",
+          "de": "Schoko-Nikolaus",
+          "rows": {
+            "plain": "bls:S530000"
+          },
+          "collections": [
+            "seasonal"
+          ]
+        },
+        {
+          "en": "Chocolate Easter bunny",
+          "de": "Schoko-Osterhase",
+          "rows": {
+            "plain": "bls:S530000"
+          },
+          "collections": [
+            "seasonal"
+          ]
+        },
+        {
+          "en": "Marzipan potatoes",
+          "de": "Marzipankartoffeln",
+          "rows": {
+            "plain": "bls:S420000"
+          },
+          "collections": [
+            "seasonal"
+          ]
+        },
+        {
+          "en": "Simnel cake",
+          "de": "Simnel Cake",
+          "rows": {
+            "plain": "bls:D440700"
+          },
+          "collections": [
+            "seasonal"
+          ]
+        },
+        {
+          "en": "Easter lamb cake",
+          "de": "Osterlamm",
+          "rows": {
+            "plain": "bls:D422600"
+          },
+          "collections": [
+            "seasonal"
+          ]
+        },
+        {
+          "en": "Bakewell tart",
+          "de": "Bakewell Tart",
+          "rows": {
+            "plain": "cofid:11-845"
+          },
+          "collections": [
+            "baking"
+          ]
         }
       ]
     },
@@ -9533,7 +11342,10 @@
           "de": "Chicken Nuggets",
           "rows": {
             "plain": "usda:2706096"
-          }
+          },
+          "collections": [
+            "takeaway"
+          ]
         },
         {
           "en": "Chicken strips",
@@ -9568,14 +11380,20 @@
           "de": "Proteinshake, Fertiggericht",
           "rows": {
             "plain": "usda:2710726"
-          }
+          },
+          "collections": [
+            "sports"
+          ]
         },
         {
           "en": "Meal replacement shake",
           "de": "Trinkmahlzeit",
           "rows": {
             "plain": "usda:2710725"
-          }
+          },
+          "collections": [
+            "sports"
+          ]
         },
         {
           "en": "Pasta salad, ready meal",
@@ -9701,7 +11519,10 @@
           "de": "Pommes frites",
           "rows": {
             "plain": "bls:X654042"
-          }
+          },
+          "collections": [
+            "takeaway"
+          ]
         },
         {
           "en": "Frozen fries",
@@ -9736,14 +11557,20 @@
           "de": "Kartoffelspalten",
           "rows": {
             "plain": "cofid:13-483"
-          }
+          },
+          "collections": [
+            "takeaway"
+          ]
         },
         {
           "en": "Onion rings",
           "de": "Zwiebelringe",
           "rows": {
             "plain": "usda:2710055"
-          }
+          },
+          "collections": [
+            "takeaway"
+          ]
         },
         {
           "en": "Spring roll",
@@ -9757,21 +11584,20 @@
           "de": "Dumplings",
           "rows": {
             "plain": "usda:2708705"
-          }
+          },
+          "collections": [
+            "takeaway"
+          ]
         },
         {
           "en": "Falafel",
           "de": "Falafel",
           "rows": {
             "plain": "bls:Y9A1050"
-          }
-        },
-        {
-          "en": "Onigiri",
-          "de": "Onigiri",
-          "rows": {
-            "plain": "mext:01111"
-          }
+          },
+          "collections": [
+            "plant-based"
+          ]
         },
         {
           "en": "Garlic bread",
@@ -9847,7 +11673,7 @@
           "en": "Cereal bar",
           "de": "Müsliriegel",
           "rows": {
-            "plain": "cofid:11-819"
+            "plain": "bls:S830000"
           }
         },
         {
@@ -9877,6 +11703,443 @@
           "rows": {
             "plain": "bls:X987112"
           }
+        },
+        {
+          "en": "Whey protein",
+          "de": "Whey-Protein",
+          "rows": {
+            "plain": "usda:2710742"
+          },
+          "collections": [
+            "sports"
+          ]
+        },
+        {
+          "en": "Beef protein isolate",
+          "de": "Beef-Protein-Isolat",
+          "rows": {
+            "plain": "akari:label:beef-protein-isolate"
+          },
+          "collections": [
+            "sports"
+          ]
+        },
+        {
+          "en": "Soy protein powder",
+          "de": "Sojaproteinpulver",
+          "rows": {
+            "plain": "usda:2710743"
+          },
+          "collections": [
+            "sports"
+          ]
+        },
+        {
+          "en": "Protein powder",
+          "de": "Proteinpulver",
+          "rows": {
+            "plain": "usda:2710745"
+          },
+          "collections": [
+            "sports"
+          ]
+        },
+        {
+          "en": "Soy protein isolate",
+          "de": "Sojaproteinisolat",
+          "rows": {
+            "plain": "bls:H011000"
+          },
+          "collections": [
+            "sports"
+          ]
+        },
+        {
+          "en": "Energy bar",
+          "de": "Energieriegel",
+          "rows": {
+            "plain": "bls:S820100"
+          },
+          "collections": [
+            "sports"
+          ]
+        },
+        {
+          "en": "Protein shake, light",
+          "de": "Proteinshake, light",
+          "rows": {
+            "plain": "usda:2710727"
+          },
+          "collections": [
+            "sports"
+          ]
+        },
+        {
+          "en": "Sports drink powder",
+          "de": "Sportgetränkepulver",
+          "rows": {
+            "plain": "usda:2710615"
+          },
+          "collections": [
+            "sports"
+          ]
+        },
+        {
+          "en": "Sports drink, low calorie",
+          "de": "Sportgetränk, kalorienarm",
+          "rows": {
+            "plain": "usda:2710774"
+          },
+          "collections": [
+            "sports"
+          ]
+        },
+        {
+          "en": "Electrolyte drink",
+          "de": "Elektrolytgetränk",
+          "rows": {
+            "plain": "usda:2710775"
+          },
+          "collections": [
+            "sports"
+          ]
+        },
+        {
+          "en": "Meal replacement bar",
+          "de": "Mahlzeitersatzriegel",
+          "rows": {
+            "plain": "usda:2708127"
+          },
+          "collections": [
+            "sports"
+          ]
+        },
+        {
+          "en": "Egg white powder",
+          "de": "Eiweißpulver aus Eiklar",
+          "rows": {
+            "plain": "ciqual:22004"
+          },
+          "collections": [
+            "sports"
+          ]
+        },
+        {
+          "en": "Whey protein isolate",
+          "de": "Whey-Protein-Isolat",
+          "rows": {
+            "plain": "akari:label:whey-protein-isolate"
+          },
+          "collections": [
+            "sports"
+          ]
+        },
+        {
+          "en": "Clear whey",
+          "de": "Clear Whey",
+          "rows": {
+            "plain": "akari:label:clear-whey"
+          },
+          "collections": [
+            "sports"
+          ]
+        },
+        {
+          "en": "Casein protein",
+          "de": "Casein-Protein",
+          "rows": {
+            "plain": "akari:label:casein"
+          },
+          "collections": [
+            "sports"
+          ]
+        },
+        {
+          "en": "Pea protein",
+          "de": "Erbsenprotein",
+          "rows": {
+            "plain": "akari:label:pea-protein"
+          },
+          "collections": [
+            "sports"
+          ]
+        },
+        {
+          "en": "Rice protein",
+          "de": "Reisprotein",
+          "rows": {
+            "plain": "akari:label:rice-protein"
+          },
+          "collections": [
+            "sports"
+          ]
+        },
+        {
+          "en": "Hemp protein",
+          "de": "Hanfprotein",
+          "rows": {
+            "plain": "akari:label:hemp-protein"
+          },
+          "collections": [
+            "sports"
+          ]
+        },
+        {
+          "en": "Vegan protein blend",
+          "de": "Veganes Proteinpulver",
+          "rows": {
+            "plain": "akari:label:vegan-protein"
+          },
+          "collections": [
+            "sports"
+          ]
+        },
+        {
+          "en": "Mass gainer",
+          "de": "Mass Gainer",
+          "rows": {
+            "plain": "akari:label:mass-gainer"
+          },
+          "collections": [
+            "sports"
+          ]
+        },
+        {
+          "en": "Protein bar, low sugar",
+          "de": "Proteinriegel, zuckerarm",
+          "rows": {
+            "plain": "akari:label:protein-bar-low-sugar"
+          },
+          "collections": [
+            "sports"
+          ]
+        },
+        {
+          "en": "Protein cookie",
+          "de": "Protein-Cookie",
+          "rows": {
+            "plain": "akari:label:protein-cookie"
+          },
+          "collections": [
+            "sports"
+          ]
+        },
+        {
+          "en": "High protein pudding",
+          "de": "High-Protein-Pudding",
+          "rows": {
+            "plain": "akari:label:protein-pudding"
+          },
+          "collections": [
+            "sports"
+          ]
+        },
+        {
+          "en": "Protein pancake mix",
+          "de": "Protein-Pancake-Mix",
+          "rows": {
+            "plain": "akari:label:protein-pancake-mix"
+          },
+          "collections": [
+            "sports"
+          ]
+        },
+        {
+          "en": "Protein porridge",
+          "de": "Protein-Porridge",
+          "rows": {
+            "plain": "akari:label:protein-porridge"
+          },
+          "collections": [
+            "sports"
+          ]
+        },
+        {
+          "en": "High protein ice cream",
+          "de": "High-Protein-Eis",
+          "rows": {
+            "plain": "akari:label:protein-ice-cream"
+          },
+          "collections": [
+            "sports"
+          ]
+        },
+        {
+          "en": "Energy gel",
+          "de": "Energiegel",
+          "rows": {
+            "plain": "akari:label:energy-gel"
+          },
+          "collections": [
+            "sports"
+          ]
+        },
+        {
+          "en": "Energy chews",
+          "de": "Energy-Chews",
+          "rows": {
+            "plain": "akari:label:energy-chews"
+          },
+          "collections": [
+            "sports"
+          ]
+        },
+        {
+          "en": "Amino acid powder",
+          "de": "Aminosäurenpulver (EAA/BCAA)",
+          "rows": {
+            "plain": "akari:label:amino-acid-powder"
+          },
+          "collections": [
+            "sports"
+          ]
+        },
+        {
+          "en": "Maltodextrin",
+          "de": "Maltodextrin",
+          "rows": {
+            "plain": "akari:label:maltodextrin"
+          },
+          "collections": [
+            "sports"
+          ]
+        },
+        {
+          "en": "Cluster dextrin",
+          "de": "Cluster Dextrin",
+          "rows": {
+            "plain": "akari:label:cluster-dextrin"
+          },
+          "collections": [
+            "sports"
+          ]
+        },
+        {
+          "en": "Recovery shake powder",
+          "de": "Recovery-Shake-Pulver",
+          "rows": {
+            "plain": "akari:label:recovery-shake"
+          },
+          "collections": [
+            "sports"
+          ]
+        },
+        {
+          "en": "Peanut butter powder",
+          "de": "Erdnussbutterpulver",
+          "rows": {
+            "plain": "akari:label:peanut-butter-powder"
+          },
+          "collections": [
+            "sports"
+          ]
+        },
+        {
+          "en": "High protein yogurt",
+          "de": "High-Protein-Joghurt",
+          "rows": {
+            "plain": "akari:label:high-protein-yogurt"
+          },
+          "collections": [
+            "sports"
+          ]
+        },
+        {
+          "en": "Protein granola",
+          "de": "Protein-Granola",
+          "rows": {
+            "plain": "akari:label:protein-granola"
+          },
+          "collections": [
+            "sports"
+          ]
+        },
+        {
+          "en": "Protein muesli",
+          "de": "Protein-Müsli",
+          "rows": {
+            "plain": "akari:label:protein-muesli"
+          },
+          "collections": [
+            "sports"
+          ]
+        },
+        {
+          "en": "Protein balls",
+          "de": "Protein-Balls",
+          "rows": {
+            "plain": "akari:label:protein-balls"
+          },
+          "collections": [
+            "sports"
+          ]
+        },
+        {
+          "en": "Protein water",
+          "de": "Protein-Wasser",
+          "rows": {
+            "plain": "akari:label:protein-water"
+          },
+          "collections": [
+            "sports"
+          ]
+        },
+        {
+          "en": "Protein wafer",
+          "de": "Protein-Waffel",
+          "rows": {
+            "plain": "akari:label:protein-wafer"
+          },
+          "collections": [
+            "sports"
+          ]
+        },
+        {
+          "en": "Protein spread",
+          "de": "Protein-Creme",
+          "rows": {
+            "plain": "akari:label:protein-spread"
+          },
+          "collections": [
+            "sports"
+          ]
+        },
+        {
+          "en": "Protein powder, light",
+          "de": "Proteinpulver, light",
+          "rows": {
+            "plain": "usda:2710744"
+          },
+          "collections": [
+            "sports"
+          ]
+        },
+        {
+          "en": "Energy bar with nut cream",
+          "de": "Energieriegel mit Nusscreme",
+          "rows": {
+            "plain": "bls:S820000"
+          },
+          "collections": [
+            "sports"
+          ]
+        },
+        {
+          "en": "High-protein nutritional powder",
+          "de": "Nährstoffpulver, proteinreich",
+          "rows": {
+            "plain": "usda:2710741"
+          },
+          "collections": [
+            "sports"
+          ]
+        },
+        {
+          "en": "Chai latte powder",
+          "de": "Chai-Latte-Pulver",
+          "rows": {
+            "plain": "akari:label:chai-latte-powder"
+          }
         }
       ]
     },
@@ -9891,21 +12154,30 @@
           "rows": {
             "powder": "ciqual:3000",
             "prepared": "ciqual:19013"
-          }
+          },
+          "collections": [
+            "baby-food"
+          ]
         },
         {
           "en": "Follow-on formula",
           "de": "Folgemilch",
           "rows": {
             "prepared": "ciqual:19014"
-          }
+          },
+          "collections": [
+            "baby-food"
+          ]
         },
         {
           "en": "Toddler milk",
           "de": "Kindermilch",
           "rows": {
             "plain": "usda:2705547"
-          }
+          },
+          "collections": [
+            "baby-food"
+          ]
         },
         {
           "en": "Baby cereal, oats",
@@ -9913,7 +12185,10 @@
           "rows": {
             "dry": "usda:2708492",
             "prepared": "usda:2708500"
-          }
+          },
+          "collections": [
+            "baby-food"
+          ]
         },
         {
           "en": "Baby cereal, rice",
@@ -9921,7 +12196,10 @@
           "rows": {
             "dry": "usda:2708493",
             "prepared": "usda:2708499"
-          }
+          },
+          "collections": [
+            "baby-food"
+          ]
         },
         {
           "en": "Baby cereal, multigrain",
@@ -9929,14 +12207,20 @@
           "rows": {
             "dry": "usda:2708496",
             "prepared": "usda:2708501"
-          }
+          },
+          "collections": [
+            "baby-food"
+          ]
         },
         {
           "en": "Baby cereal",
           "de": "Getreidebrei",
           "rows": {
             "dry": "usda:2708498"
-          }
+          },
+          "collections": [
+            "baby-food"
+          ]
         },
         {
           "en": "Instant milk cereal",
@@ -9944,140 +12228,200 @@
           "rows": {
             "from4Months": "ciqual:13167",
             "from6Months": "ciqual:13168"
-          }
+          },
+          "collections": [
+            "baby-food"
+          ]
         },
         {
           "en": "Milk cereal purée",
           "de": "Milchbrei",
           "rows": {
             "plain": "bls:X9A2040"
-          }
+          },
+          "collections": [
+            "baby-food"
+          ]
         },
         {
           "en": "Grain and fruit purée",
           "de": "Getreide-Obst-Brei",
           "rows": {
             "plain": "bls:X9A2030"
-          }
+          },
+          "collections": [
+            "baby-food"
+          ]
         },
         {
           "en": "Baby cereal milk drink",
           "de": "Trinkbrei",
           "rows": {
             "plain": "ciqual:13182"
-          }
+          },
+          "collections": [
+            "baby-food"
+          ]
         },
         {
           "en": "Vegetable purée",
           "de": "Gemüsebrei",
           "rows": {
             "plain": "usda:2710117"
-          }
+          },
+          "collections": [
+            "baby-food"
+          ]
         },
         {
           "en": "Carrot purée",
           "de": "Karottenbrei",
           "rows": {
             "plain": "usda:2710118"
-          }
+          },
+          "collections": [
+            "baby-food"
+          ]
         },
         {
           "en": "Pumpkin purée",
           "de": "Kürbisbrei",
           "rows": {
             "plain": "usda:2710120"
-          }
+          },
+          "collections": [
+            "baby-food"
+          ]
         },
         {
           "en": "Sweet potato purée",
           "de": "Süßkartoffelbrei",
           "rows": {
             "plain": "bls:X6A2000"
-          }
+          },
+          "collections": [
+            "baby-food"
+          ]
         },
         {
           "en": "Pea purée, baby",
           "de": "Erbsenbrei, Baby",
           "rows": {
             "plain": "usda:2710131"
-          }
+          },
+          "collections": [
+            "baby-food"
+          ]
         },
         {
           "en": "Green bean purée",
           "de": "Grüne-Bohnen-Brei",
           "rows": {
             "plain": "usda:2710124"
-          }
+          },
+          "collections": [
+            "baby-food"
+          ]
         },
         {
           "en": "Mixed vegetable purée",
           "de": "Gemüse-Allerlei",
           "rows": {
             "plain": "usda:2710127"
-          }
+          },
+          "collections": [
+            "baby-food"
+          ]
         },
         {
           "en": "Vegetable, potato and chicken purée",
           "de": "Gemüse-Kartoffel-Hühnchen-Brei",
           "rows": {
             "plain": "bls:X5B1010"
-          }
+          },
+          "collections": [
+            "baby-food"
+          ]
         },
         {
           "en": "Vegetable, potato and beef purée",
           "de": "Gemüse-Kartoffel-Rind-Brei",
           "rows": {
             "plain": "bls:X5B1020"
-          }
+          },
+          "collections": [
+            "baby-food"
+          ]
         },
         {
           "en": "Vegetable, potato and pork purée",
           "de": "Gemüse-Kartoffel-Schwein-Brei",
           "rows": {
             "plain": "bls:X5B1030"
-          }
+          },
+          "collections": [
+            "baby-food"
+          ]
         },
         {
           "en": "Vegetable, potato and salmon purée",
           "de": "Gemüse-Kartoffel-Lachs-Brei",
           "rows": {
             "plain": "bls:X5B1000"
-          }
+          },
+          "collections": [
+            "baby-food"
+          ]
         },
         {
           "en": "Potato and fennel purée",
           "de": "Kartoffel-Fenchel-Brei",
           "rows": {
             "plain": "bls:X5B1100"
-          }
+          },
+          "collections": [
+            "baby-food"
+          ]
         },
         {
           "en": "Potato and courgette purée",
           "de": "Kartoffel-Zucchini-Brei",
           "rows": {
             "plain": "bls:X5B1140"
-          }
+          },
+          "collections": [
+            "baby-food"
+          ]
         },
         {
           "en": "Potato and spinach purée",
           "de": "Kartoffel-Spinat-Brei",
           "rows": {
             "plain": "bls:X5B1130"
-          }
+          },
+          "collections": [
+            "baby-food"
+          ]
         },
         {
           "en": "Potato, carrot and pumpkin purée",
           "de": "Kartoffel-Karotten-Kürbis-Brei",
           "rows": {
             "plain": "bls:X5B1110"
-          }
+          },
+          "collections": [
+            "baby-food"
+          ]
         },
         {
           "en": "Potato, carrot and parsnip purée",
           "de": "Kartoffel-Karotten-Pastinaken-Brei",
           "rows": {
             "plain": "bls:X5B1120"
-          }
+          },
+          "collections": [
+            "baby-food"
+          ]
         },
         {
           "en": "Baby meal jar",
@@ -10085,70 +12429,100 @@
           "rows": {
             "from8Months": "ciqual:42604",
             "from6Months": "ciqual:42603"
-          }
+          },
+          "collections": [
+            "baby-food"
+          ]
         },
         {
           "en": "Fruit purée",
           "de": "Obstbrei",
           "rows": {
             "plain": "usda:2709352"
-          }
+          },
+          "collections": [
+            "baby-food"
+          ]
         },
         {
           "en": "Apple purée, baby",
           "de": "Apfelbrei, Baby",
           "rows": {
             "plain": "usda:2709363"
-          }
+          },
+          "collections": [
+            "baby-food"
+          ]
         },
         {
           "en": "Pear purée, baby",
           "de": "Birnenbrei, Baby",
           "rows": {
             "plain": "usda:2709369"
-          }
+          },
+          "collections": [
+            "baby-food"
+          ]
         },
         {
           "en": "Banana purée, baby",
           "de": "Bananenbrei, Baby",
           "rows": {
             "plain": "usda:2709365"
-          }
+          },
+          "collections": [
+            "baby-food"
+          ]
         },
         {
           "en": "Peach purée, baby",
           "de": "Pfirsichbrei, Baby",
           "rows": {
             "plain": "usda:2709367"
-          }
+          },
+          "collections": [
+            "baby-food"
+          ]
         },
         {
           "en": "Mango purée, baby",
           "de": "Mangobrei, Baby",
           "rows": {
             "plain": "usda:2709372"
-          }
+          },
+          "collections": [
+            "baby-food"
+          ]
         },
         {
           "en": "Mixed fruit purée, baby",
           "de": "Früchte-Allerlei",
           "rows": {
             "plain": "usda:2709353"
-          }
+          },
+          "collections": [
+            "baby-food"
+          ]
         },
         {
           "en": "Fruit and vegetable purée, baby",
           "de": "Obst-Gemüse-Brei",
           "rows": {
             "plain": "usda:2709357"
-          }
+          },
+          "collections": [
+            "baby-food"
+          ]
         },
         {
           "en": "Fruit purée with yogurt, baby",
           "de": "Frucht & Joghurt",
           "rows": {
             "plain": "usda:2709356"
-          }
+          },
+          "collections": [
+            "baby-food"
+          ]
         },
         {
           "en": "Baby yogurt",
@@ -10156,50 +12530,70 @@
           "rows": {
             "plain": "usda:2705464",
             "fruit": "usda:2705465"
-          }
+          },
+          "collections": [
+            "baby-food"
+          ]
         },
         {
           "en": "Baby milk dessert",
           "de": "Milchdessert, Baby",
           "rows": {
-            "plain": "ciqual:13166",
-            "grain": "ciqual:13165"
-          }
+            "plain": "ciqual:13166"
+          },
+          "collections": [
+            "baby-food"
+          ]
         },
         {
           "en": "Baby pudding",
           "de": "Babypudding",
           "rows": {
             "plain": "usda:2709380"
-          }
+          },
+          "collections": [
+            "baby-food"
+          ]
         },
         {
           "en": "Meat purée, baby",
           "de": "Fleischbrei",
           "rows": {
             "plain": "usda:2705821"
-          }
+          },
+          "collections": [
+            "baby-food"
+          ]
         },
         {
           "en": "Chicken purée, baby",
           "de": "Hühnchenbrei",
           "rows": {
             "plain": "usda:2706151"
-          }
+          },
+          "collections": [
+            "baby-food"
+          ]
         },
         {
           "en": "Turkey purée, baby",
           "de": "Putenbrei",
           "rows": {
             "plain": "usda:2706152"
-          }
+          },
+          "collections": [
+            "baby-food"
+          ]
         },
         {
           "en": "Beef purée, baby",
           "de": "Rindfleischbrei",
           "rows": {
             "plain": "usda:2705861"
-          }
+          },
+          "collections": [
+            "baby-food"
+          ]
         },
         {
           "en": "Baby juice",
@@ -10207,21 +12601,607 @@
           "rows": {
             "plain": "usda:2709373",
             "apple": "usda:2709374"
-          }
+          },
+          "collections": [
+            "baby-food"
+          ]
         },
         {
           "en": "Baby biscuit",
           "de": "Babykeks",
           "rows": {
             "plain": "usda:2708131"
-          }
+          },
+          "collections": [
+            "baby-food"
+          ]
         },
         {
           "en": "Yogurt melts",
           "de": "Joghurt-Drops",
           "rows": {
             "plain": "usda:2709381"
-          }
+          },
+          "collections": [
+            "baby-food"
+          ]
+        },
+        {
+          "en": "Fruit pouch, apple and banana",
+          "de": "Fruchtquetschie Apfel-Banane",
+          "rows": {
+            "plain": "bls:Y8A3000"
+          },
+          "collections": [
+            "baby-food"
+          ]
+        },
+        {
+          "en": "Toddler puffs",
+          "de": "Baby-Puffs",
+          "rows": {
+            "plain": "usda:2708191"
+          },
+          "collections": [
+            "baby-food"
+          ]
+        },
+        {
+          "en": "Toddler crackers",
+          "de": "Kleinkind-Cracker",
+          "rows": {
+            "plain": "usda:2708190"
+          },
+          "collections": [
+            "baby-food"
+          ]
+        },
+        {
+          "en": "Baby rusk",
+          "de": "Babyzwieback",
+          "rows": {
+            "plain": "bls:D038000"
+          },
+          "collections": [
+            "baby-food"
+          ]
+        },
+        {
+          "en": "Baby tea",
+          "de": "Babytee",
+          "rows": {
+            "plain": "usda:2710502"
+          },
+          "collections": [
+            "baby-food"
+          ]
+        },
+        {
+          "en": "Toddler meal",
+          "de": "Kleinkindmenü",
+          "rows": {
+            "plain": "ciqual:20254"
+          },
+          "collections": [
+            "baby-food"
+          ]
+        },
+        {
+          "en": "Fruit, vegetable and grain purée, baby",
+          "de": "Obst-Gemüse-Getreide-Brei",
+          "rows": {
+            "plain": "usda:2709359"
+          },
+          "collections": [
+            "baby-food"
+          ]
+        }
+      ]
+    },
+    {
+      "key": "supplements",
+      "en": "Supplements",
+      "de": "Nahrungsergänzung",
+      "staples": [
+        {
+          "en": "Magnesium tablet",
+          "de": "Magnesiumtablette",
+          "rows": {
+            "plain": "akari:label:magnesium-400-tablet"
+          },
+          "collections": [
+            "supplements"
+          ]
+        },
+        {
+          "en": "Vitamin D3 tablet",
+          "de": "Vitamin-D3-Tablette",
+          "rows": {
+            "plain": "akari:label:vitamin-d3-2000-iu"
+          },
+          "collections": [
+            "supplements"
+          ]
+        },
+        {
+          "en": "Vitamin D3 + K2 tablet",
+          "de": "Vitamin-D3-K2-Tablette",
+          "rows": {
+            "plain": "akari:label:vitamin-d3-k2"
+          },
+          "collections": [
+            "supplements"
+          ]
+        },
+        {
+          "en": "Magnesium effervescent tablet",
+          "de": "Magnesium-Brausetablette",
+          "rows": {
+            "plain": "akari:label:magnesium-effervescent"
+          },
+          "collections": [
+            "supplements"
+          ]
+        },
+        {
+          "en": "Vitamin C depot capsule",
+          "de": "Vitamin-C-Depot-Kapsel",
+          "rows": {
+            "plain": "akari:label:vitamin-c-depot-capsule"
+          },
+          "collections": [
+            "supplements"
+          ]
+        },
+        {
+          "en": "Zinc + vitamin C tablet",
+          "de": "Zink-Vitamin-C-Tablette",
+          "rows": {
+            "plain": "akari:label:zinc-vitamin-c"
+          },
+          "collections": [
+            "supplements"
+          ]
+        },
+        {
+          "en": "Zinc + vitamin C effervescent tablet",
+          "de": "Zink-Vitamin-C-Brausetablette",
+          "rows": {
+            "plain": "akari:label:zinc-vitamin-c-effervescent"
+          },
+          "collections": [
+            "supplements"
+          ]
+        },
+        {
+          "en": "Vitamin C 1000 tablet",
+          "de": "Vitamin-C-1000-Tablette",
+          "rows": {
+            "plain": "akari:label:vitamin-c-1000-depot"
+          },
+          "collections": [
+            "supplements"
+          ]
+        },
+        {
+          "en": "Iron tablet",
+          "de": "Eisentablette",
+          "rows": {
+            "plain": "akari:label:iron-tablet"
+          },
+          "collections": [
+            "supplements"
+          ]
+        },
+        {
+          "en": "Calcium + D3 tablet",
+          "de": "Calcium-D3-Tablette",
+          "rows": {
+            "plain": "akari:label:calcium-d3-tablet"
+          },
+          "collections": [
+            "supplements"
+          ]
+        },
+        {
+          "en": "Multivitamin A–Z tablet",
+          "de": "A–Z-Multivitamintablette",
+          "rows": {
+            "plain": "akari:label:multivitamin-a-z-tablet"
+          },
+          "collections": [
+            "supplements"
+          ]
+        },
+        {
+          "en": "Kids' multivitamin gummies",
+          "de": "Multivitamin-Gummibärchen für Kinder",
+          "rows": {
+            "plain": "akari:label:kids-multivitamin-gummies"
+          },
+          "collections": [
+            "supplements"
+          ]
+        },
+        {
+          "en": "Folic acid tablet",
+          "de": "Folsäuretablette",
+          "rows": {
+            "plain": "akari:label:folic-acid-tablet"
+          },
+          "collections": [
+            "supplements"
+          ]
+        },
+        {
+          "en": "Vitamin B complex tablet",
+          "de": "Vitamin-B-Komplex-Tablette",
+          "rows": {
+            "plain": "akari:label:vitamin-b-complex-tablet"
+          },
+          "collections": [
+            "supplements"
+          ]
+        },
+        {
+          "en": "Vitamin B12 tablet",
+          "de": "Vitamin-B12-Tablette",
+          "rows": {
+            "plain": "akari:label:vitamin-b12-tablet"
+          },
+          "collections": [
+            "supplements"
+          ]
+        },
+        {
+          "en": "Vitamin B12 effervescent tablet",
+          "de": "Vitamin-B12-Brausetablette",
+          "rows": {
+            "plain": "akari:label:vitamin-b12-effervescent"
+          },
+          "collections": [
+            "supplements"
+          ]
+        },
+        {
+          "en": "Magnesium + potassium tablet",
+          "de": "Magnesium-Kalium-Tablette",
+          "rows": {
+            "plain": "akari:label:magnesium-potassium-tablet"
+          },
+          "collections": [
+            "supplements"
+          ]
+        },
+        {
+          "en": "Electrolyte effervescent tablet",
+          "de": "Elektrolyt-Brausetablette",
+          "rows": {
+            "plain": "akari:label:electrolyte-effervescent"
+          },
+          "collections": [
+            "supplements"
+          ]
+        },
+        {
+          "en": "Magnesium + calcium + D3 tablet",
+          "de": "Magnesium-Calcium-D3-Tablette",
+          "rows": {
+            "plain": "akari:label:magnesium-calcium-d3-tablet"
+          },
+          "collections": [
+            "supplements"
+          ]
+        },
+        {
+          "en": "Selenium tablet",
+          "de": "Selentablette",
+          "rows": {
+            "plain": "akari:label:selenium-tablet"
+          },
+          "collections": [
+            "supplements"
+          ]
+        },
+        {
+          "en": "Immune effervescent tablet",
+          "de": "Immun-Brausetablette",
+          "rows": {
+            "plain": "akari:label:immune-effervescent"
+          },
+          "collections": [
+            "supplements"
+          ]
+        },
+        {
+          "en": "Immune complex tablet",
+          "de": "Immun-Komplex-Tablette",
+          "rows": {
+            "plain": "akari:label:immune-complex-tablet"
+          },
+          "collections": [
+            "supplements"
+          ]
+        },
+        {
+          "en": "Pregnancy multivitamin",
+          "de": "Schwangerschaftsvitamine",
+          "rows": {
+            "plain": "akari:label:pregnancy-multivitamin"
+          },
+          "collections": [
+            "supplements"
+          ]
+        },
+        {
+          "en": "Hair, skin and nails tablet",
+          "de": "Haut-Haare-Nägel-Tablette",
+          "rows": {
+            "plain": "akari:label:hair-skin-nails-tablet"
+          },
+          "collections": [
+            "supplements"
+          ]
+        },
+        {
+          "en": "Zinc tablet",
+          "de": "Zinktablette",
+          "rows": {
+            "plain": "akari:label:zinc-tablet"
+          },
+          "collections": [
+            "supplements"
+          ]
+        },
+        {
+          "en": "Senior multivitamin tablet",
+          "de": "Multivitamintablette 50 plus",
+          "rows": {
+            "plain": "akari:label:senior-multivitamin"
+          },
+          "collections": [
+            "supplements"
+          ]
+        },
+        {
+          "en": "Collagen powder",
+          "de": "Kollagenpulver",
+          "rows": {
+            "plain": "akari:label:collagen-powder"
+          },
+          "collections": [
+            "supplements"
+          ]
+        },
+        {
+          "en": "Kids' multivitamin chewable tablet",
+          "de": "Multivitamin-Kautablette für Kinder",
+          "rows": {
+            "plain": "akari:label:kids-multivitamin-chewable"
+          },
+          "collections": [
+            "supplements"
+          ]
+        },
+        {
+          "en": "Magnesium + calcium effervescent tablet",
+          "de": "Magnesium-Calcium-Brausetablette",
+          "rows": {
+            "plain": "akari:label:magnesium-calcium-effervescent"
+          },
+          "collections": [
+            "supplements"
+          ]
+        },
+        {
+          "en": "Vitamin D3 + K2 drops",
+          "de": "Vitamin-D3-K2-Tropfen",
+          "rows": {
+            "plain": "akari:label:vitamin-d3-k2-drops"
+          },
+          "collections": [
+            "supplements"
+          ]
+        },
+        {
+          "en": "Vitamin C lozenge",
+          "de": "Vitamin-C-Lutschtablette",
+          "rows": {
+            "plain": "akari:label:vitamin-c-lozenge"
+          },
+          "collections": [
+            "supplements"
+          ]
+        },
+        {
+          "en": "Magnesium direct granulate stick",
+          "de": "Magnesium-Direktgranulat",
+          "rows": {
+            "plain": "akari:label:magnesium-direct-granulate"
+          },
+          "collections": [
+            "supplements"
+          ]
+        },
+        {
+          "en": "Iron direct granulate stick",
+          "de": "Eisen-Direktgranulat",
+          "rows": {
+            "plain": "akari:label:iron-direct-granulate"
+          },
+          "collections": [
+            "supplements"
+          ]
+        },
+        {
+          "en": "Magnesium 500 depot tablet",
+          "de": "Magnesium-500-Depot-Tablette",
+          "rows": {
+            "plain": "akari:label:magnesium-500-depot-tablet"
+          },
+          "collections": [
+            "supplements"
+          ]
+        },
+        {
+          "en": "Collagen drink ampoule",
+          "de": "Kollagen-Trinkampulle",
+          "rows": {
+            "plain": "akari:label:collagen-drink-ampoule"
+          },
+          "collections": [
+            "supplements"
+          ]
+        },
+        {
+          "en": "Multivitamin + mineral effervescent tablet",
+          "de": "Multivitamin-Mineral-Brausetablette",
+          "rows": {
+            "plain": "akari:label:multivitamin-mineral-effervescent"
+          },
+          "collections": [
+            "supplements"
+          ]
+        },
+        {
+          "en": "Magnesium capsule",
+          "de": "Magnesiumkapsel",
+          "rows": {
+            "plain": "akari:label:magnesium-capsule"
+          },
+          "collections": [
+            "supplements"
+          ]
+        },
+        {
+          "en": "Vitamin D gummy or chewable tablet",
+          "de": "Vitamin-D-Gummi oder -Kautablette",
+          "rows": {
+            "plain": "akari:label:vitamin-d-chewable"
+          },
+          "collections": [
+            "supplements"
+          ]
+        },
+        {
+          "en": "Eye vitamin capsule",
+          "de": "Augenvitamin-Kapsel",
+          "rows": {
+            "plain": "akari:label:eye-vitamin-capsule"
+          },
+          "collections": [
+            "supplements"
+          ]
+        },
+        {
+          "en": "Electrolyte powder stick",
+          "de": "Elektrolyt-Pulverstick",
+          "rows": {
+            "plain": "akari:label:electrolyte-sachet"
+          },
+          "collections": [
+            "supplements"
+          ]
+        },
+        {
+          "en": "Glucosamine joint tablet",
+          "de": "Glucosamin-Gelenktablette",
+          "rows": {
+            "plain": "akari:label:glucosamine-tablet"
+          },
+          "collections": [
+            "supplements"
+          ]
+        },
+        {
+          "en": "Vitamin C powder",
+          "de": "Vitamin-C-Pulver",
+          "rows": {
+            "plain": "akari:label:vitamin-c-powder"
+          },
+          "collections": [
+            "supplements"
+          ]
+        },
+        {
+          "en": "Vitamin C effervescent tablet",
+          "de": "Vitamin-C-Brausetablette",
+          "rows": {
+            "plain": "akari:label:vitamin-c-effervescent"
+          },
+          "collections": [
+            "supplements"
+          ]
+        },
+        {
+          "en": "Iron effervescent tablet",
+          "de": "Eisen-Brausetablette",
+          "rows": {
+            "plain": "akari:label:iron-effervescent"
+          },
+          "collections": [
+            "supplements"
+          ]
+        },
+        {
+          "en": "Calcium effervescent tablet",
+          "de": "Calcium-Brausetablette",
+          "rows": {
+            "plain": "akari:label:calcium-effervescent"
+          },
+          "collections": [
+            "supplements"
+          ]
+        },
+        {
+          "en": "Calcium chewable tablet",
+          "de": "Calcium-Kautablette",
+          "rows": {
+            "plain": "akari:label:calcium-chewable"
+          },
+          "collections": [
+            "supplements"
+          ]
+        },
+        {
+          "en": "Vitamin D3 drops",
+          "de": "Vitamin-D3-Tropfen",
+          "rows": {
+            "plain": "akari:label:vitamin-d3-drops"
+          },
+          "collections": [
+            "supplements"
+          ]
+        },
+        {
+          "en": "Immune direct stick",
+          "de": "Immun-Direktstick",
+          "rows": {
+            "plain": "akari:label:immune-direct-stick"
+          },
+          "collections": [
+            "supplements"
+          ]
+        },
+        {
+          "en": "Fish oil capsule",
+          "de": "Fischölkapsel",
+          "rows": {
+            "plain": "akari:label:omega-3-fish-oil-capsule"
+          },
+          "collections": [
+            "supplements"
+          ]
+        },
+        {
+          "en": "Algae oil capsule",
+          "de": "Algenölkapsel",
+          "rows": {
+            "plain": "akari:label:omega-3-algae-oil-capsule"
+          },
+          "collections": [
+            "supplements"
+          ]
         }
       ]
     }

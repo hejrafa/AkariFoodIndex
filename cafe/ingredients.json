@@ -28,9 +28,15 @@
       "polyunsaturatedFat": 0.49,
       "caffeine": 150.0
     },
-    "referenceCheck": {
+    "reference": {
+      "id": "bls:S711000",
       "checkedOn": "2026-10-30",
-      "result": "BLS S711000 cocoa powder has 19.8 g fat against AUSNUT 15.2, outside 3 g."
+      "plausibility": "Cocoa powder: BLS 365 kcal, 19.8 g fat against AUSNUT 319 and 15.2; outside the 3 g rule, mapped on the architect's instruction of 2026-10-30. The AUSNUT values for selenium, vitaminC, caffeine are filled and marked.",
+      "fills": {
+        "selenium": "ausnut:11904001",
+        "vitaminC": "ausnut:11904001",
+        "caffeine": "ausnut:11904001"
+      }
     }
   },
   "11102001": {
@@ -62,10 +68,7 @@
       "polyunsaturatedFat": 0.08,
       "caffeine": 0.0
     },
-    "referenceCheck": {
-      "checkedOn": "2026-10-30",
-      "result": "No sweetened chai-powder latte in the five tables."
-    }
+    "unusedSince": "2026-10-30: the drink is built from verified parts instead (see build_cafe_catalog.py)."
   },
   "11102002": {
     "id": "ausnut:11102002",
@@ -126,9 +129,13 @@
       "polyunsaturatedFat": 0.0,
       "caffeine": 33.0
     },
-    "referenceCheck": {
+    "reference": {
+      "id": "ciqual:18073",
       "checkedOn": "2026-10-30",
-      "result": "No verified prepared instant coffee: Ciqual 18073 and BLS N420100 are not curated references."
+      "plausibility": "Instant coffee: Ciqual 1.64 kcal, 0.1 g protein, 0.004 g fat, 0.3 g carbs against AUSNUT 1.9, 0.2, 0.0, 0.2; within the rules. The AUSNUT values for caffeine are filled and marked.",
+      "fills": {
+        "caffeine": "ausnut:11201001"
+      }
     }
   },
   "11203001": {
@@ -160,9 +167,14 @@
       "polyunsaturatedFat": 0.0,
       "caffeine": 1.0
     },
-    "referenceCheck": {
+    "reference": {
+      "id": "bls:N440100",
       "checkedOn": "2026-10-30",
-      "result": "No verified prepared decaf instant coffee."
+      "plausibility": "Decaf instant coffee: BLS 2 kcal, 0.33 g protein, 0 g fat, 0 g carbs against AUSNUT 1.9, 0.2, 0.0, 0.2; within the rules. The AUSNUT values for selenium, caffeine are filled and marked.",
+      "fills": {
+        "selenium": "ausnut:11203001",
+        "caffeine": "ausnut:11203001"
+      }
     }
   },
   "11201005": {
@@ -194,10 +206,7 @@
       "polyunsaturatedFat": 0.1,
       "caffeine": 304.0
     },
-    "referenceCheck": {
-      "checkedOn": "2026-10-30",
-      "result": "No Turkish coffee in the five tables."
-    }
+    "unusedSince": "2026-10-30: the drink is built from verified parts instead (see build_cafe_catalog.py)."
   },
   "11201002": {
     "id": "ausnut:11201002",
@@ -484,10 +493,7 @@
       "polyunsaturatedFat": 0.02,
       "caffeine": 58.0
     },
-    "referenceCheck": {
-      "checkedOn": "2026-10-30",
-      "result": "An AUSNUT recipe row (espresso and water); no verified long black, and espresso has no verified counterpart yet."
-    }
+    "unusedSince": "2026-10-30: the drink is built from verified parts instead (see build_cafe_catalog.py)."
   },
   "11201004": {
     "id": "ausnut:11201004",
@@ -518,10 +524,7 @@
       "polyunsaturatedFat": 0.04,
       "caffeine": 116.0
     },
-    "referenceCheck": {
-      "checkedOn": "2026-10-30",
-      "result": "An AUSNUT recipe row; see the single shot."
-    }
+    "unusedSince": "2026-10-30: the drink is built from verified parts instead (see build_cafe_catalog.py)."
   },
   "11203003": {
     "id": "ausnut:11203003",
@@ -552,10 +555,7 @@
       "polyunsaturatedFat": 0.02,
       "caffeine": 7.0
     },
-    "referenceCheck": {
-      "checkedOn": "2026-10-30",
-      "result": "An AUSNUT recipe row; see the single shot."
-    }
+    "unusedSince": "2026-10-30: the drink is built from verified parts instead (see build_cafe_catalog.py)."
   },
   "11101004": {
     "id": "ausnut:11101004",
@@ -586,9 +586,10 @@
       "polyunsaturatedFat": 0.0,
       "caffeine": 19.0
     },
-    "referenceCheck": {
+    "reference": {
+      "id": "usda:2710488",
       "checkedOn": "2026-10-30",
-      "result": "Brewed chai is spiced black tea; USDA 2710488 black tea (1 kcal) fails the 15 % calorie rule against 0.24 kcal only because both are near zero, and it is black tea, not chai."
+      "plausibility": "Chai: brewed spiced black tea; USDA black tea 1 kcal against AUSNUT 0.24 (both near zero), mapped on the architect's instruction of 2026-10-30."
     }
   },
   "11801005": {
@@ -837,9 +838,15 @@
       "polyunsaturatedFat": 0.32,
       "caffeine": 0.0
     },
-    "referenceCheck": {
+    "reference": {
+      "id": "bls:H800000",
       "checkedOn": "2026-10-30",
-      "result": "BLS H800000 almond milk has 24 kcal against AUSNUT 16, outside 15 %."
+      "plausibility": "Almond drink: BLS 24 kcal, 0.87 g protein, 2.16 g fat, 0.2 g carbs against AUSNUT 16, 0.5, 1.4, 0.0; outside the 15 % rule, mapped on the architect's instruction of 2026-10-30. The AUSNUT values for selenium, vitaminC, caffeine are filled and marked.",
+      "fills": {
+        "selenium": "ausnut:20105001",
+        "vitaminC": "ausnut:20105001",
+        "caffeine": "ausnut:20105001"
+      }
     }
   },
   "20105006": {
@@ -871,9 +878,13 @@
       "polyunsaturatedFat": 0.03,
       "caffeine": 0.0
     },
-    "referenceCheck": {
+    "reference": {
+      "id": "usda:2705413",
       "checkedOn": "2026-10-30",
-      "result": "USDA 2705413 coconut drink has 31 kcal against AUSNUT 25, outside 15 %."
+      "plausibility": "Coconut drink: USDA 31 kcal, 0.21 g protein, 2.08 g fat, 2.92 g carbs against AUSNUT 25, 0.2, 1.7, 2.4; outside the 15 % rule, mapped on the architect's instruction of 2026-10-30. The AUSNUT values for iodine are filled and marked.",
+      "fills": {
+        "iodine": "ausnut:20105006"
+      }
     }
   },
   "20103001": {
@@ -905,9 +916,14 @@
       "polyunsaturatedFat": 0.23,
       "caffeine": 0.0
     },
-    "referenceCheck": {
+    "reference": {
+      "id": "akari:label:oat-drink-barista",
       "checkedOn": "2026-10-30",
-      "result": "BLS C660000 oat milk has 29 kcal and 4 g carbs against AUSNUT 54 and 10.2: not the same product."
+      "plausibility": "Oat drink in cafés: the barista oat generic (median of five barista labels, 54 kcal, 1.1 g protein, 2.0 g fat, 6.7 g carbs per 100 ml) against AUSNUT 54, 1.3, 0.8, 10.2; energy within the 15 % rule. The plain retail oat drink staple stays on BLS C660000 (29 kcal), which cafés do not pour; an oat latte on that row was undercounted by about a third. The labels state no caffeine and no moisture, so the AUSNUT row's caffeine (0) and water are filled and marked, as the BLS mapping had them; the generic's own panel carries only what its labels declare.",
+      "fills": {
+        "caffeine": "ausnut:20103001",
+        "water": "ausnut:20103001"
+      }
     }
   },
   "20101002": {
@@ -939,9 +955,13 @@
       "polyunsaturatedFat": 1.5,
       "caffeine": 0.0
     },
-    "referenceCheck": {
+    "reference": {
+      "id": "usda:2705405",
       "checkedOn": "2026-10-30",
-      "result": "USDA 2705405 soy milk has 38 kcal and 1.3 g carbs against AUSNUT 59 and 4.8."
+      "plausibility": "Soy drink: USDA 38 kcal, 3.55 g protein, 2.12 g fat, 1.29 g carbs against AUSNUT 59, 3.7, 2.7, 4.8; outside the 15 % rule, mapped on the architect's instruction of 2026-10-30. The AUSNUT values for iodine are filled and marked.",
+      "fills": {
+        "iodine": "ausnut:20101002"
+      }
     }
   },
   "20205002": {
@@ -1036,10 +1056,7 @@
       "caffeine": 3200
     },
     "caffeineSource": "https://www.maff.go.jp/j/syouan/seisaku/risk_analysis/priority/hazard_chem/caffeine.html",
-    "referenceCheck": {
-      "checkedOn": "2026-10-30",
-      "result": "MEXT matcha powder is in the index but not a curated reference."
-    }
+    "verifiedNote": "mext:16035 is a curated reference since 2026-10-30 (17 nutrients; the app's thin-row list names it)."
   },
   "usda:2710375": {
     "id": "usda:2710375",
@@ -1095,6 +1112,16 @@
       "saturatedFat": 0,
       "polyunsaturatedFat": 0,
       "sugar": 8.8
+    }
+  },
+  "chai-latte-powder": {
+    "id": "akari:label:chai-latte-powder",
+    "name": "Chai latte powder",
+    "nutrients": {},
+    "reference": {
+      "id": "akari:label:chai-latte-powder",
+      "checkedOn": "2026-10-30",
+      "plausibility": "Akari's own label generic (FoodIndex/reference/akari-label-chai-latte-powder.json), the row itself."
     }
   }
 }

@@ -1,0 +1,76 @@
+{
+  "id": "akari:label:mass-gainer",
+  "name": "Mass gainer powder",
+  "identity": "Weight gainer powder, carbohydrate with 13 to 30 g protein per 100 g; sold flavoured, the makers' default flavours stand for it.",
+  "rule": "Per 100 g, each value is the median of the three labels below that declare it, and a value enters only when at least three labels declare it (flavoured by nature). Salt becomes sodium (salt in g × 400 = sodium in mg). Nothing a label leaves out becomes zero. Labels read on 2026-10-30 from Open Food Facts through Akari's proxy, as the beef protein isolate was.",
+  "nutrients": {
+    "calories": 392.0,
+    "fat": 3.0,
+    "saturatedFat": 1.5,
+    "carbs": 73.0,
+    "sugar": 1.9,
+    "protein": 14.88,
+    "sodium": 124.0
+  },
+  "portions": [
+    {
+      "grams": 100,
+      "label": "1 serving"
+    }
+  ],
+  "labels": [
+    {
+      "brand": "Optimum nutrition",
+      "product": "Mass gainer",
+      "read": "Open Food Facts 0748927063592 through https://api.joinakari.com/v1/off/product/0748927063592",
+      "date": "2026-10-30",
+      "ingredients": "not stated in the entry",
+      "serving": "1 serving (336 g)",
+      "per100g": {
+        "energyKcal": 372.62,
+        "fat": 1.19,
+        "saturates": 0.74,
+        "carbohydrate": 75.6,
+        "sugars": 1.77,
+        "protein": 14.88,
+        "salt": 0.31
+      }
+    },
+    {
+      "brand": "Prozis",
+      "product": "Mass Gainer",
+      "read": "Open Food Facts 5600380890045 through https://api.joinakari.com/v1/off/product/5600380890045",
+      "date": "2026-10-30",
+      "ingredients": "not stated in the entry",
+      "serving": "340 g",
+      "per100g": {
+        "energyKJ": 1639.0,
+        "energyKcal": 392.0,
+        "fat": 5.3,
+        "saturates": 1.5,
+        "carbohydrate": 73.0,
+        "sugars": 1.9,
+        "protein": 13.0,
+        "salt": 0.06
+      }
+    },
+    {
+      "brand": "Sponser",
+      "product": "Mass gainer",
+      "read": "Open Food Facts 7611174440313 through https://api.joinakari.com/v1/off/product/7611174440313",
+      "date": "2026-10-30",
+      "ingredients": "not stated in the entry",
+      "serving": "not stated",
+      "per100g": {
+        "energyKJ": 1678.8,
+        "energyKcal": 396.0,
+        "fat": 3.0,
+        "saturates": 1.5,
+        "carbohydrate": 61.0,
+        "sugars": 17.0,
+        "protein": 30.0,
+        "salt": 0.7
+      }
+    }
+  ]
+}

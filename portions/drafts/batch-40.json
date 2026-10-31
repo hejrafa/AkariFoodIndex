@@ -1,0 +1,160 @@
+{
+ "batch": 40,
+ "drafted": "2026-10-30",
+ "drafter": "Claude in the Akari Nutrient-fill sweep session (dish ingredients, batch A)",
+ "entries": [
+  {
+   "key": "mixed berries",
+   "skip": "bls:F092100 already carries a portion through the \"mixed berries\" identity"
+  },
+  {
+   "key": "saithe pollack stewed",
+   "skip": "bls:T207152 already carries a portion through the \"saithe pollack stewed\" identity"
+  },
+  {
+   "key": "ocean perch redfish stewed",
+   "skip": "bls:T615152 already carries a portion through the \"ocean perch redfish stewed\" identity"
+  },
+  {
+   "key": "biscuit home recipe",
+   "skip": "usda:2707804 already carries a portion through the \"biscuit home recipe\" identity"
+  },
+  {
+   "key": "porcini mushroom stewed",
+   "skip": "bls:K718152 already carries a portion through the \"porcini mushroom stewed\" identity"
+  },
+  {
+   "key": "cooked artichoke hearts",
+   "skip": "bls:G410132 already carries a portion through the \"cooked artichoke hearts\" identity"
+  },
+  {
+   "key": "potato dough raw",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one piece of about 60 g (heuristic draft for a recipe ingredient)",
+   "gramsPerUnit": 60
+  },
+  {
+   "key": "fruit mix fruit cocktail in juice canned drained",
+   "skip": "bls:F091902 already carries a portion through the \"fruit mix fruit cocktail in juice canned drained\" identity"
+  },
+  {
+   "key": "cooked squid",
+   "skip": "usda:2706333 already carries a portion through the \"cooked squid\" identity"
+  },
+  {
+   "key": "shortcrust pastry raw",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one piece of about 60 g (heuristic draft for a recipe ingredient)",
+   "gramsPerUnit": 60
+  },
+  {
+   "key": "baked beans",
+   "skip": "cofid:13-532 already carries a portion through the \"baked beans\" identity"
+  },
+  {
+   "key": "poulard meat with skin fried without fat oven",
+   "skip": "bls:V444162 already carries a portion through the \"poulard meat with skin fried without fat oven\" identity"
+  },
+  {
+   "key": "sour cherry stewed",
+   "skip": "bls:F212152 already carries a portion through the \"sour cherry stewed\" identity"
+  },
+  {
+   "key": "berlin knacker sausage raw small firm",
+   "skip": "bls:W182000 already carries a portion through the \"berlin knacker sausage raw small firm\" identity"
+  },
+  {
+   "key": "burdock cooked",
+   "skip": "usda:2709886 already carries a portion through the \"burdock cooked\" identity"
+  },
+  {
+   "key": "duck crispy chinese style meat and skin",
+   "skip": "cofid:18-490 already carries a portion through the \"duck crispy chinese style meat and skin\" identity"
+  },
+  {
+   "key": "polish sausage",
+   "skip": "usda:2706188 already carries a portion through the \"polish sausage\" identity"
+  },
+  {
+   "key": "roast chicken",
+   "skip": "bls:Y560322 already carries a portion through the \"roast chicken\" identity"
+  },
+  {
+   "key": "bremer pinkel pork sausage with oat groats",
+   "skip": "bls:W383700 already carries a portion through the \"bremer pinkel pork sausage with oat groats\" identity"
+  },
+  {
+   "key": "wiener schnitzel",
+   "skip": "bls:Y231322 already carries a portion through the \"wiener schnitzel\" identity"
+  },
+  {
+   "key": "roasted red pepper",
+   "skip": "bls:G543162 already carries a portion through the \"roasted red pepper\" identity"
+  },
+  {
+   "key": "blood sausages heated",
+   "skip": "bls:Y024113 already carries a portion through the \"blood sausages heated\" identity"
+  },
+  {
+   "key": "beef heart braised without fat",
+   "skip": "bls:V511142 already carries a portion through the \"beef heart braised without fat\" identity"
+  },
+  {
+   "key": "beef stomach tripe boiled",
+   "skip": "bls:V551132 already carries a portion through the \"beef stomach tripe boiled\" identity"
+  },
+  {
+   "key": "veal steak loin fried without fat pan",
+   "skip": "bls:U331182 already carries a portion through the \"veal steak loin fried without fat pan\" identity"
+  },
+  {
+   "key": "pork fillet medaillon fried without fat pan",
+   "skip": "bls:U511182 already carries a portion through the \"pork fillet medaillon fried without fat pan\" identity"
+  },
+  {
+   "key": "pork steak loin fried without fat pan",
+   "skip": "bls:U533182 already carries a portion through the \"pork steak loin fried without fat pan\" identity"
+  },
+  {
+   "key": "trout fried without fat pan",
+   "skip": "bls:T420182 already carries a portion through the \"trout fried without fat pan\" identity"
+  },
+  {
+   "key": "soft macaron jam or cream filled",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one piece of about 60 g (heuristic draft for a recipe ingredient)",
+   "gramsPerUnit": 60
+  },
+  {
+   "key": "bakewell tart iced",
+   "unit": "piece",
+   "typical": 1,
+   "reason": "one piece of about 60 g (heuristic draft for a recipe ingredient)",
+   "gramsPerUnit": 60
+  },
+  {
+   "key": "jackfruit",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one 100 g portion (heuristic draft for a recipe ingredient)",
+   "gramsPerUnit": 100
+  },
+  {
+   "key": "quorn pieces",
+   "unit": "portion",
+   "typical": 1,
+   "reason": "one 100 g portion (heuristic draft for a recipe ingredient)",
+   "gramsPerUnit": 100
+  },
+  {
+   "key": "masa harina cooked",
+   "unit": "portion",
+   "gramsPerUnit": 100,
+   "typical": 1,
+   "reason": "one 100 g portion (heuristic draft for a recipe ingredient)"
+  }
+ ]
+}

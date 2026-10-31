@@ -1,0 +1,101 @@
+{
+  "id": "akari:label:senior-multivitamin",
+  "name": "Senior multivitamin tablet",
+  "identity": "Multivitamin and mineral tablets for people over 65 with extra vitamin D, B12 and C, two a day; the dose is two tablets.",
+  "rule": "Per 100 g of the product, each value is the median of the labels below that declare it, and a value enters only when at least three declare it; a label states its nutrients per dose, so the file converts them with the dose's weight (the pack's net content divided by its count of tablets, capsules, sticks or drops, or the stated dose weight). Salt becomes sodium (salt in g × 400 = sodium in mg). Fewer than three labels declare energy, so the row stands at 0 kcal under the verification policy's clause for label generics with a micronutrient. Nothing a label leaves out becomes zero. Labels read on 2026-10-30 from dm.de, rossmann.de and shop-apotheke.com product pages.",
+  "nutrients": {
+    "calcium": 11764.7,
+    "folate": 14184.4,
+    "magnesium": 6535.95,
+    "selenium": 1950.35,
+    "zinc": 159.574,
+    "vitaminA": 14184.4,
+    "vitaminB12": 265.957,
+    "vitaminC": 8510.64,
+    "vitaminD": 354.61,
+    "calories": 0
+  },
+  "portions": [
+    {
+      "grams": 1.53,
+      "label": "1 daily dose of tablets"
+    }
+  ],
+  "labels": [
+    {
+      "brand": "Mivolis",
+      "product": "Aktiv 65+ Tabletten 60 St, 51 g",
+      "read": "https://www.dm.de/p/d/3104225/ (dm.de product page, Nährwerte and Zutaten panels; GTIN not stated)",
+      "date": "2026-10-30",
+      "ingredients": "Calciumcarbonat, L-Ascorbinsäure (Vitamin C), Verdickungsmittel Hydroxypropylmethylcellulose, Füllstoff Mikrokristalline Cellulose, Magnesiumoxid, DL-α-Tocopherylacetat (Vitamin E), Ginsengwurzel-Extrakt, Füllstoff Hydroxypropylcellulose, Eisenfumarat, Cholecalciferol (Vitamin D3), Retinylacetat (Vitamin A), Zinkoxid, Coenzym Q10, Riboflavin (Vitamin B2), Thiaminmononitrat (Vitamin B1), Natriumselenat, Cyanocobalamin (Vitamin B12), Pteroylmonoglutaminsäure (Folsäure), D-Biotin, Überzugmittel Hydroxypropylmethylcellulose, Feuchthaltemittel Glycerin, Trennmittel Siliciumdioxid, Stearinsäure, Talkum und Magnesiumsalze der Speisefettsäuren",
+      "serving": "2 Stück: 60 units weigh 51 g, so the dose is 1.7 g; the label declares per dose: calciumMg 200, ironMg 4.2, folateUg 300, magnesiumMg 93, seleniumUg 41, zincMg 5, vitaminAUg 600, vitaminB12Ug 7.5, vitaminCMg 240, vitaminDUg 15; coenzyme Q10 5 mg, biotin 75 µg, B2 2.8 mg, B1 2.2 mg, vitamin E 30 mg per 2 tablets; per 100 g 316 kJ / 75 kcal, fat 1.1 g, saturates 1 g, carbohydrate 8 g, sugars < 0.5 g, protein < 0.5 g, salt 0.05 g; under-values counted at half the threshold",
+      "per100g": {
+        "calciumMg": 11764.7,
+        "ironMg": 247.059,
+        "folateUg": 17647.1,
+        "magnesiumMg": 5470.59,
+        "seleniumUg": 2411.76,
+        "zincMg": 294.118,
+        "vitaminAUg": 35294.1,
+        "vitaminB12Ug": 441.176,
+        "vitaminCMg": 14117.6,
+        "vitaminDUg": 882.353,
+        "energyKcal": 75.0,
+        "fat": 1.1,
+        "saturates": 1.0,
+        "carbohydrate": 8.0,
+        "sugars": 0.25,
+        "protein": 0.25,
+        "salt": 0.05
+      }
+    },
+    {
+      "brand": "altapharma",
+      "product": "A-Z Depot ab 50, 100 Tabletten, 141 g",
+      "read": "https://www.rossmann.de/de/gesundheit-altapharma-a-z-depot-ab-50/p/4305615887050 (rossmann.de product page, Zutaten and Nährwerte sections; GTIN 4305615887050)",
+      "date": "2026-10-30",
+      "ingredients": "Calciumsalze der Orthophosphorsäure, Magnesiumoxid, L-Ascorbinsäure, Calciumcarbonat, Füllstoffe (mikrokristalline Cellulose, Hydroxypropylmethylcellulose), DL-α-Tocopherylacetat, Nicotinamid, Überzugsmittel Hydroxypropylmethylcellulose, Calcium-D-pantothenat, Trennmittel (Magnesiumsalze der Speisefettsäuren, Siliciumdioxid), Füllstoff Isomalt, Maltodextrin, Farbstoffe (Calciumcarbonat, Eisenoxide und Eisenhydroxide), Zinkoxid, Thiaminhydrochlorid, Riboflavin, mittelkettige Triglyceride (Kokos), Lutein, Pyridoxinhydrochlorid, Chrom-(III)-Chlorid, Retinylacetat, Pteroylmonoglutaminsäure, Natriummolybdat, Kaliumiodid, D-Biotin, Phyllochinon, Natriumselenat, Cholecalciferol, Cyanocobalamin",
+      "serving": "1 Tablette: 100 units weigh 141 g, so the dose is 1.41 g; the label declares per dose: calciumMg 170, magnesiumMg 150, zincMg 2.25, seleniumUg 27.5, iodineUg 75, vitaminAUg 200, vitaminDUg 5, vitaminCMg 120, folateUg 200, vitaminB12Ug 3.75; phosphorus 105 mg, chromium 60 µg, molybdenum 75 µg, vitamin E 12 mg, vitamin K 75 µg, B1 1.65 mg, B2 2.1 mg, niacin 16 mg, B6 0.9 mg, biotin 75 µg, pantothenic acid 9 mg; no energy or macros declared",
+      "per100g": {
+        "calciumMg": 12056.7,
+        "magnesiumMg": 10638.3,
+        "zincMg": 159.574,
+        "seleniumUg": 1950.35,
+        "iodineUg": 5319.15,
+        "vitaminAUg": 14184.4,
+        "vitaminDUg": 354.61,
+        "vitaminCMg": 8510.64,
+        "folateUg": 14184.4,
+        "vitaminB12Ug": 265.957
+      }
+    },
+    {
+      "brand": "Mivolis",
+      "product": "A-Z Komplett Depot ab 50, Tabletten, 100 St, 153 g",
+      "read": "https://www.dm.de/p/d/3104284/ (dm.de product page, Nährwerte and Zutaten panels; GTIN not stated)",
+      "date": "2026-10-30",
+      "ingredients": "Calciumphosphat, Magnesiumoxid, Füllstoff Hydroxypropylmethylcellulose, L-Ascorbinsäure (Vitamin C), Füllstoff mikrokristalline Cellulose, Maltodextrin, Calciumcarbonat, DL-α-Tocopherylacetat (Vitamin E), Eisenfumarat, Nicotinamid, Zinkcitrat, Calcium-D-pantothenat, Trennmittel Magnesiumsalze der Speisefettsäuren, Pyridoxinhydrochlorid (Vitamin B6), Kupfersulfat, Riboflavin (Vitamin B2), Thiaminmononitrat (Vitamin B1), Mangansulfat, Trennmittel Siliciumdioxid, Lutein, Farbstoff Eisenoxide und Hydroxide, Retinylacetat (Vitamin A), Pteroylmonoglutaminsäure (Folsäure), Chrom(III)-chlorid, Kaliumiodat, Natriummolybdat, D-Biotin, Natriumselenit, Phylloquinon (Vitamin K1), Cholecalciferol (Vitamin D3), Cyanocobalamin (Vitamin B12)",
+      "serving": "1 Stück: 100 units weigh 153 g, so the dose is 1.53 g; the label declares per dose: calciumMg 180, ironMg 6, folateUg 200, iodineUg 100, magnesiumMg 100, seleniumUg 25, zincMg 2.25, vitaminAUg 200, vitaminB12Ug 3, vitaminCMg 120, vitaminDUg 5; lutein 1000 µg, chromium 40 µg, copper 1 mg, manganese 0.5 mg, molybdenum 50 µg, niacin 16 mg, pantothenic acid 6 mg, phosphorus 125 mg, biotin 50 µg, B2 2.1 mg, B1 1.65 mg, B6 2.1 mg, vitamin E 12 mg, vitamin K 30 µg; per 100 g 324 kJ / 78 kcal, fat < 0.5 g, saturates 0.4 g, carbohydrate 4.1 g, sugars < 0.5 g, protein < 0.5 g, salt 0.07 g; under-values counted at half the threshold",
+      "per100g": {
+        "calciumMg": 11764.7,
+        "ironMg": 392.157,
+        "folateUg": 13071.9,
+        "iodineUg": 6535.95,
+        "magnesiumMg": 6535.95,
+        "seleniumUg": 1633.99,
+        "zincMg": 147.059,
+        "vitaminAUg": 13071.9,
+        "vitaminB12Ug": 196.078,
+        "vitaminCMg": 7843.14,
+        "vitaminDUg": 326.797,
+        "energyKcal": 78.0,
+        "fat": 0.25,
+        "saturates": 0.4,
+        "carbohydrate": 4.1,
+        "sugars": 0.25,
+        "protein": 0.25,
+        "salt": 0.07
+      }
+    }
+  ]
+}

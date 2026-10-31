@@ -1,0 +1,110 @@
+{
+  "id": "akari:label:omega-3-fish-oil-capsule",
+  "name": "Omega-3 fish oil capsule",
+  "identity": "Soft gelatine capsule of about 1 g concentrated sea fish or salmon oil with 300 to 500 mg omega-3 fatty acids, as dm, Rossmann and pharmacies sell it; the dose is one capsule.",
+  "rule": "Per 100 g of the product, each value is the median of the labels below that declare it, and a value enters only when at least three declare it. A fish oil capsule's label states its content as oil (1,000 or 1,400 mg sea fish oil per capsule, or the oil's share of the capsule), and by that it declares the oil's nutrients: the oil mass is the fat, its energy is 9 kcal per gram, and the oil carries 0 g carbohydrate and 0 g protein; the gelatine shell is left unstated. The two labels with a full table per 100 g, Mivolis and altapharma, are the check on that understatement: they put the shell at 18 to 21 g protein and 4.5 to 7 g carbohydrate per 100 g, a quarter of a gram of protein per capsule, so the capsule's energy, the point of logging it, is within a few percent either way. EPA, DHA and vitamin E are not tracked and stay out. The capsule weight is the pack's net content divided by its count. Labels read on 2026-10-30 from dm.de, rossmann.de and shop-apotheke.com product pages; nothing a label leaves out becomes zero.",
+  "nutrients": {
+    "fat": 70.85,
+    "calories": 640.148,
+    "carbs": 0,
+    "protein": 0
+  },
+  "portions": [
+    {
+      "grams": 1.41667,
+      "label": "1 capsule"
+    }
+  ],
+  "labels": [
+    {
+      "brand": "Doppelherz",
+      "product": "Omega-3 Seefischöl 1000, Kapseln, 240 St",
+      "read": "https://www.dm.de/p/d/3108828/ (dm.de product page, Zusammensetzung table and price line 0,3497 kg for 240 capsules; GTIN 4009932133622)",
+      "date": "2026-10-30",
+      "ingredients": "not shown on the page as read; the composition table gives sea fish oil 1,000 mg, EPA 180 mg, DHA 120 mg, omega-3 fatty acids 300 mg and vitamin E 12 mg per capsule",
+      "serving": "1 capsule: 240 capsules weigh 349.7 g, so a capsule is 1.457 g; the label states its content as 1000 mg fish oil, so the oil is 68.6303 g fat and 617.672 kcal per 100 g, with 0 g carbohydrate and 0 g protein for the oil and the gelatine shell left unstated; one capsule a day; vitamin E 12 mg is not tracked",
+      "per100g": {
+        "fat": 68.6303,
+        "energyKcal": 617.672,
+        "carbohydrate": 0,
+        "protein": 0
+      }
+    },
+    {
+      "brand": "Doppelherz",
+      "product": "Omega-3 1400 Kapseln 90 St, 171,3 g",
+      "read": "https://www.dm.de/p/d/1626057/ (dm.de product page, Zusammensetzung table; GTIN 4009932005097)",
+      "date": "2026-10-30",
+      "ingredients": "not shown on the page as read; the composition table gives sea fish oil 1,400 mg, EPA 285 mg, DHA 190 mg, omega-3 fatty acids 485 mg and vitamin E 20 mg per capsule",
+      "serving": "1 capsule: 90 capsules weigh 171.3 g, so a capsule is 1.903 g; the label states its content as 1400 mg fish oil, so the oil is 73.5552 g fat and 661.996 kcal per 100 g, with 0 g carbohydrate and 0 g protein for the oil and the gelatine shell left unstated; one capsule a day; vitamin E 20 mg is not tracked",
+      "per100g": {
+        "fat": 73.5552,
+        "energyKcal": 661.996,
+        "carbohydrate": 0,
+        "protein": 0
+      }
+    },
+    {
+      "brand": "Doppelherz aktiv",
+      "product": "Omega-3 Seefischöl 1000, 80 Kapseln, 113,2 g",
+      "read": "https://www.rossmann.de/de/gesundheit-doppelherz-aktiv-omega-3-seefischoel-1000/p/4009932003215 (rossmann.de product page, Zutaten and Nährwerte sections; GTIN 4009932003215)",
+      "date": "2026-10-30",
+      "ingredients": "Öl aus SEEFISCHEN 68,7 %, Gelatine (Rind), Feuchthaltemittel Glycerin, DL-alpha-Tocopherol",
+      "serving": "1 capsule: 80 capsules weigh 113.2 g, so a capsule is 1.415 g; the label states its content as 972 mg fish oil, so the oil is 68.7 g fat and 618.3 kcal per 100 g, with 0 g carbohydrate and 0 g protein for the oil and the gelatine shell left unstated; the ingredient line states the oil as 68.7 % of the capsule, 0.97 g; the table gives vitamin E 12 mg per portion, not tracked",
+      "per100g": {
+        "fat": 68.7,
+        "energyKcal": 618.3,
+        "carbohydrate": 0,
+        "protein": 0
+      }
+    },
+    {
+      "brand": "Hirundo Products",
+      "product": "Omega 3 Fischöl 1000 mg Kapseln, 120 St, 162 g",
+      "read": "https://www.shop-apotheke.com/arzneimittel/1159435/omega-3-fischoel-1000-mg-kapseln.htm (shop-apotheke.com product page, Pflichtangaben with Zutaten, Zusammensetzung per capsule and per 100 g, Nettofüllmenge; PZN 01159435)",
+      "date": "2026-10-30",
+      "ingredients": "Fischöl (Lachsöl-Mischkonzentrat), Gelatine, Glycerin, natürliches Vitamin E",
+      "serving": "1 capsule: 120 capsules weigh 162.0 g, so a capsule is 1.35 g; the label states its content as 1000 mg fish oil, so the oil is 74.0741 g fat and 666.667 kcal per 100 g, with 0 g carbohydrate and 0 g protein for the oil and the gelatine shell left unstated; the page itself states fish oil 74.1 g per 100 g; three capsules a day, the dose here is one capsule; vitamin E 10 mg is not tracked",
+      "per100g": {
+        "fat": 74.0741,
+        "energyKcal": 666.667,
+        "carbohydrate": 0,
+        "protein": 0
+      }
+    },
+    {
+      "brand": "Mivolis",
+      "product": "Omega-3 1000, Kapseln 60 St, 85,1 g",
+      "read": "https://www.dm.de/p/d/3104251/ (dm.de product page, Nährwerte and Zutaten panels)",
+      "date": "2026-10-30",
+      "ingredients": "70,5 % Omega-3-Konzentrat aus Seefischöl, Gelatine (Rind), Feuchthaltemittel Glycerin, D-alpha-Tocopherol (Vitamin E)",
+      "serving": "1 capsule: 60 capsules weigh 85.1 g, so a capsule is 1.418 g; the label declares a full table per 100 g (3110 kJ / 753 kcal, fat 73 g, saturates 12 g, carbohydrate 4.5 g, sugars < 0.5 g counted at half the threshold, protein 21 g, salt 0.19 g; the protein is the gelatine shell)",
+      "per100g": {
+        "energyKcal": 753,
+        "fat": 73,
+        "saturates": 12,
+        "carbohydrate": 4.5,
+        "sugars": 0.25,
+        "protein": 21,
+        "salt": 0.19
+      }
+    },
+    {
+      "brand": "altapharma",
+      "product": "Omega-3 Seefischöl 1000 + B-Vitamine + Folsäure + Magnesium + Vitamin E, 60 Kapseln, 65 g",
+      "read": "https://www.rossmann.de/de/gesundheit-altapharma-omega-3-seefischoel-1000-b-vitamine--folsaeure--magnesium--vitamin-e/p/4305615946771 (rossmann.de product page, Zutaten and Nährwerte sections; GTIN 4305615946771)",
+      "date": "2026-10-30",
+      "ingredients": "49,8 % Fischölkonzentrat, Gelatine (Rind), Magnesiumoxid, Feuchthaltemittel Glycerin, Bienenwachs (gelb), Feuchthaltemittel Sorbit, Emulgator Soja-Lecithine, D-alpha-Tocopherol, Cyanocobalamin, Thiaminmononitrat, Folsäure, Farbstoff Eisenoxide und Eisenhydroxide",
+      "serving": "1 capsule: 60 capsules weigh 65.0 g, so a capsule is 1.083 g; the label declares a full table per 100 g (2515 kJ / 608 kcal, fat 56 g, saturates 3.8 g, carbohydrate 7 g, sugars < 0.5 g counted at half the threshold, protein 18 g, salt 0.22 g; the micronutrients are given per 1–2 capsules, an ambiguous dose, and are not taken)",
+      "per100g": {
+        "energyKcal": 608,
+        "fat": 56,
+        "saturates": 3.8,
+        "carbohydrate": 7,
+        "sugars": 0.25,
+        "protein": 18,
+        "salt": 0.22
+      }
+    }
+  ]
+}

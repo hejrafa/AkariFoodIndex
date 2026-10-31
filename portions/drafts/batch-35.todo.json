@@ -1,0 +1,926 @@
+{
+ "batch": 35,
+ "identities": [
+  {
+   "key": "whey protein isolate powder",
+   "names": [
+    "whey protein isolate powder",
+    "whey protein isolat",
+    "whey isolate",
+    "whey protein isolate",
+    "iso whey",
+    "whey isolate powder",
+    "molkenproteinisolat",
+    "whey isolat",
+    "isolat pulver"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "akari:label:whey-protein-isolate",
+     "name": "Whey protein isolate powder, unflavoured"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "akari:label:whey-protein-isolate",
+     "label": "1 scoop",
+     "grams": 30
+    }
+   ]
+  },
+  {
+   "key": "clear whey protein powder",
+   "names": [
+    "clear whey protein powder",
+    "clear whey",
+    "clear whey isolate",
+    "clear protein powder",
+    "clear whey isolat",
+    "klares whey",
+    "clear whey pulver"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "akari:label:clear-whey",
+     "name": "Clear whey protein powder"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "akari:label:clear-whey",
+     "label": "1 scoop",
+     "grams": 25
+    }
+   ]
+  },
+  {
+   "key": "casein protein powder",
+   "names": [
+    "casein protein powder",
+    "casein protein",
+    "casein",
+    "micellar casein",
+    "casein powder",
+    "kasein",
+    "casein pulver",
+    "caseinpulver",
+    "nachtprotein"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "akari:label:casein",
+     "name": "Casein protein powder"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "akari:label:casein",
+     "label": "1 scoop",
+     "grams": 30
+    }
+   ]
+  },
+  {
+   "key": "pea protein isolate powder",
+   "names": [
+    "pea protein isolate powder",
+    "erbsenprotein",
+    "pea protein",
+    "pea protein isolate",
+    "pea protein powder",
+    "erbsenproteinisolat",
+    "erbsenprotein pulver",
+    "erbseneiweiß",
+    "erbsenproteinpulver"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "akari:label:pea-protein",
+     "name": "Pea protein isolate powder"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "akari:label:pea-protein",
+     "label": "1 scoop",
+     "grams": 30
+    }
+   ]
+  },
+  {
+   "key": "rice protein powder",
+   "names": [
+    "rice protein powder",
+    "reisprotein",
+    "rice protein",
+    "brown rice protein",
+    "rice protein isolate",
+    "reisproteinpulver",
+    "reiseiweiß",
+    "reisprotein pulver"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "akari:label:rice-protein",
+     "name": "Rice protein powder"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "akari:label:rice-protein",
+     "label": "1 scoop",
+     "grams": 30
+    }
+   ]
+  },
+  {
+   "key": "hemp protein powder",
+   "names": [
+    "hemp protein powder",
+    "hanfprotein",
+    "hemp protein",
+    "hemp protein isolate",
+    "hanfproteinpulver",
+    "hanfeiweiß",
+    "hanfprotein pulver"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "akari:label:hemp-protein",
+     "name": "Hemp protein powder"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "akari:label:hemp-protein",
+     "label": "1 scoop",
+     "grams": 30
+    }
+   ]
+  },
+  {
+   "key": "vegan protein blend powder",
+   "names": [
+    "vegan protein blend powder",
+    "veganes proteinpulver",
+    "vegan protein",
+    "vegan protein blend",
+    "plant protein powder",
+    "plant based protein powder",
+    "veganes protein",
+    "pflanzenprotein",
+    "pflanzliches proteinpulver",
+    "vegan blend",
+    "veganer proteinshake pulver"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "akari:label:vegan-protein",
+     "name": "Vegan protein blend powder"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "akari:label:vegan-protein",
+     "label": "1 scoop",
+     "grams": 30
+    }
+   ]
+  },
+  {
+   "key": "mass gainer powder",
+   "names": [
+    "mass gainer powder",
+    "mass gainer",
+    "weight gainer",
+    "gainer",
+    "gainer powder",
+    "gainer pulver",
+    "massgainer",
+    "masseaufbau shake"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "akari:label:mass-gainer",
+     "name": "Mass gainer powder"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "akari:label:mass-gainer",
+     "label": "1 serving",
+     "grams": 100
+    }
+   ]
+  },
+  {
+   "key": "protein bar low sugar",
+   "names": [
+    "protein bar low sugar",
+    "proteinriegel zuckerarm",
+    "low sugar protein bar",
+    "low carb protein bar",
+    "zero sugar protein bar",
+    "protein bar low carb",
+    "low carb proteinriegel",
+    "proteinriegel ohne zucker",
+    "eiweißriegel zuckerarm",
+    "proteinriegel low carb"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "akari:label:protein-bar-low-sugar",
+     "name": "Protein bar, low sugar"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "akari:label:protein-bar-low-sugar",
+     "label": "1 bar",
+     "grams": 60
+    }
+   ]
+  },
+  {
+   "key": "protein cookie",
+   "names": [
+    "protein cookie",
+    "protein cookies",
+    "soft protein cookie",
+    "proteinkeks",
+    "proteincookie",
+    "eiweiß cookie",
+    "protein keks"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "akari:label:protein-cookie",
+     "name": "Protein cookie"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "akari:label:protein-cookie",
+     "label": "1 cookie",
+     "grams": 60
+    }
+   ]
+  },
+  {
+   "key": "high protein pudding",
+   "names": [
+    "high protein pudding",
+    "protein pudding",
+    "proteinpudding",
+    "eiweißpudding"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "akari:label:protein-pudding",
+     "name": "High protein pudding"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "akari:label:protein-pudding",
+     "label": "1 cup",
+     "grams": 200
+    }
+   ]
+  },
+  {
+   "key": "protein pancake mix dry",
+   "names": [
+    "protein pancake mix dry",
+    "protein pancake mix",
+    "protein pancakes mix",
+    "protein pancake powder",
+    "protein pfannkuchen mix",
+    "proteinpancakes pulver",
+    "eiweiß pancake mix",
+    "protein pancakes"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "akari:label:protein-pancake-mix",
+     "name": "Protein pancake mix, dry"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "akari:label:protein-pancake-mix",
+     "label": "1 serving",
+     "grams": 50
+    }
+   ]
+  },
+  {
+   "key": "protein porridge dry",
+   "names": [
+    "protein porridge dry",
+    "protein porridge",
+    "protein oats",
+    "protein oatmeal",
+    "proteinporridge",
+    "protein haferbrei",
+    "eiweiß porridge"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "akari:label:protein-porridge",
+     "name": "Protein porridge, dry"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "akari:label:protein-porridge",
+     "label": "1 serving",
+     "grams": 60
+    }
+   ]
+  },
+  {
+   "key": "high protein ice cream",
+   "names": [
+    "high protein ice cream",
+    "high protein eis",
+    "protein ice cream",
+    "proteineis",
+    "protein eis",
+    "eiweiß eis"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "akari:label:protein-ice-cream",
+     "name": "High protein ice cream"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "akari:label:protein-ice-cream",
+     "label": "1 portion",
+     "grams": 100
+    }
+   ]
+  },
+  {
+   "key": "energy gel",
+   "names": [
+    "energy gel",
+    "energiegel",
+    "energy gels",
+    "sports gel",
+    "carb gel",
+    "carbohydrate gel",
+    "isotonic gel",
+    "kohlenhydratgel",
+    "sportgel",
+    "gel fur laufer"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "akari:label:energy-gel",
+     "name": "Energy gel"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "akari:label:energy-gel",
+     "label": "1 gel",
+     "grams": 40
+    }
+   ]
+  },
+  {
+   "key": "energy chews",
+   "names": [
+    "energy chews",
+    "sport chews",
+    "energy gummies",
+    "energy blocks",
+    "energiegummis",
+    "sportgummis",
+    "energie kaubonbons"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "akari:label:energy-chews",
+     "name": "Energy chews"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "akari:label:energy-chews",
+     "label": "1 serving, 3 chews",
+     "grams": 30
+    }
+   ]
+  },
+  {
+   "key": "amino acid powder eaa or bcaa",
+   "names": [
+    "amino acid powder eaa or bcaa",
+    "aminosaurenpulver eaa bcaa",
+    "eaa",
+    "bcaa",
+    "eaa powder",
+    "bcaa powder",
+    "essential amino acids",
+    "branched chain amino acids",
+    "amino acid drink powder",
+    "aminos",
+    "aminosauren pulver",
+    "eaa pulver",
+    "bcaa pulver",
+    "aminosaurenpulver"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "akari:label:amino-acid-powder",
+     "name": "Amino acid powder, EAA or BCAA"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "akari:label:amino-acid-powder",
+     "label": "1 scoop",
+     "grams": 10
+    }
+   ]
+  },
+  {
+   "key": "maltodextrin",
+   "names": [
+    "maltodextrin",
+    "malto",
+    "maltodextrine",
+    "maltodextrin powder",
+    "maltodextrinpulver",
+    "malto pulver",
+    "maltodextrin 19"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "akari:label:maltodextrin",
+     "name": "Maltodextrin"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "akari:label:maltodextrin",
+     "label": "1 serving",
+     "grams": 50
+    }
+   ]
+  },
+  {
+   "key": "cluster dextrin",
+   "names": [
+    "cluster dextrin",
+    "highly branched cyclic dextrin",
+    "hbcd",
+    "cyclic dextrin",
+    "zyklisches dextrin",
+    "clusterdextrin"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "akari:label:cluster-dextrin",
+     "name": "Cluster dextrin"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "akari:label:cluster-dextrin",
+     "label": "1 serving",
+     "grams": 30
+    }
+   ]
+  },
+  {
+   "key": "recovery shake powder",
+   "names": [
+    "recovery shake powder",
+    "recovery shake pulver",
+    "recovery shake",
+    "recovery drink powder",
+    "recovery protein",
+    "post workout shake powder",
+    "regenerationsshake",
+    "recovery drink",
+    "post workout shake"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "akari:label:recovery-shake",
+     "name": "Recovery shake powder"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "akari:label:recovery-shake",
+     "label": "1 serving",
+     "grams": 60
+    }
+   ]
+  },
+  {
+   "key": "peanut butter powder",
+   "names": [
+    "peanut butter powder",
+    "erdnussbutterpulver",
+    "powdered peanut butter",
+    "peanut flour",
+    "pb powder",
+    "defatted peanut flour",
+    "erdnusspulver",
+    "erdnussmehl entolt",
+    "erdnussbutter pulver"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "akari:label:peanut-butter-powder",
+     "name": "Peanut butter powder"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "akari:label:peanut-butter-powder",
+     "label": "2 tablespoons",
+     "grams": 16
+    }
+   ]
+  },
+  {
+   "key": "high protein yogurt",
+   "names": [
+    "high protein yogurt",
+    "high protein joghurt",
+    "protein yogurt",
+    "protein yoghurt",
+    "proteinjoghurt",
+    "eiweißjoghurt",
+    "protein joghurt",
+    "skyr protein joghurt"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "akari:label:high-protein-yogurt",
+     "name": "High protein yogurt"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "akari:label:high-protein-yogurt",
+     "label": "1 cup",
+     "grams": 200
+    }
+   ]
+  },
+  {
+   "key": "protein granola",
+   "names": [
+    "protein granola",
+    "protein crunchy",
+    "protein crunchy muesli",
+    "protein knuspermusli",
+    "proteingranola"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "akari:label:protein-granola",
+     "name": "Protein granola"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "akari:label:protein-granola",
+     "label": "1 serving",
+     "grams": 50
+    }
+   ]
+  },
+  {
+   "key": "protein muesli",
+   "names": [
+    "protein muesli",
+    "protein musli",
+    "high protein muesli",
+    "proteinmusli",
+    "eiweißmusli"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "akari:label:protein-muesli",
+     "name": "Protein muesli"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "akari:label:protein-muesli",
+     "label": "1 serving",
+     "grams": 50
+    }
+   ]
+  },
+  {
+   "key": "protein balls",
+   "names": [
+    "protein balls",
+    "protein bites",
+    "energy balls",
+    "protein ball",
+    "proteinkugeln",
+    "energiekugeln",
+    "proteinballchen"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "akari:label:protein-balls",
+     "name": "Protein balls"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "akari:label:protein-balls",
+     "label": "2 balls",
+     "grams": 40
+    }
+   ]
+  },
+  {
+   "key": "protein water",
+   "names": [
+    "protein water",
+    "protein wasser",
+    "clear protein drink",
+    "clear protein water",
+    "ready to drink clear whey",
+    "proteinwasser",
+    "klarer proteindrink",
+    "clear whey drink"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "akari:label:protein-water",
+     "name": "Protein water"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "akari:label:protein-water",
+     "label": "1 bottle",
+     "grams": 500
+    }
+   ]
+  },
+  {
+   "key": "protein wafer",
+   "names": [
+    "protein wafer",
+    "protein waffel",
+    "protein wafers",
+    "protein wafer bar",
+    "proteinwaffel",
+    "eiweißwaffel"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "akari:label:protein-wafer",
+     "name": "Protein wafer"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "akari:label:protein-wafer",
+     "label": "1 wafer bar",
+     "grams": 40
+    }
+   ]
+  },
+  {
+   "key": "protein spread hazelnut",
+   "names": [
+    "protein spread hazelnut",
+    "protein creme",
+    "protein spread",
+    "protein cream",
+    "protein nut spread",
+    "protein hazelnut spread",
+    "protein aufstrich",
+    "proteincreme",
+    "eiweiß creme",
+    "protein nuss nougat creme"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "akari:label:protein-spread",
+     "name": "Protein spread, hazelnut"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "akari:label:protein-spread",
+     "label": "1 tablespoon",
+     "grams": 15
+    }
+   ]
+  },
+  {
+   "key": "protein powder light",
+   "names": [
+    "protein powder light",
+    "proteinpulver light",
+    "diet protein powder",
+    "light protein powder",
+    "diat proteinpulver",
+    "eiweißpulver light"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "usda:2710744",
+     "name": "Nutritional powder mix, protein, light, NFS"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2710744",
+     "label": "1 scoop, NFS",
+     "grams": 8
+    },
+    {
+     "reference": "usda:2710744",
+     "label": "1 scoop Reliv Now",
+     "grams": 9.1
+    },
+    {
+     "reference": "usda:2710744",
+     "label": "1 scoop/packet Beneprotein",
+     "grams": 7
+    },
+    {
+     "reference": "usda:2710744",
+     "label": "1 tablespoon",
+     "grams": 4
+    }
+   ]
+  },
+  {
+   "key": "energy bar nut cream filling",
+   "names": [
+    "energy bar nut cream filling",
+    "energieriegel mit nusscremefullung",
+    "filled energy bar",
+    "energy bar with nut cream",
+    "energieriegel gefullt",
+    "energieriegel mit nusscreme",
+    "nusscreme energieriegel"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:S820000",
+     "name": "Energy bar with hazelnut cream"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "nutritional powder mix high protein",
+   "names": [
+    "nutritional powder mix high protein",
+    "nahrstoffpulver proteinreich",
+    "high protein nutritional powder",
+    "high protein drink powder",
+    "protein breakfast powder",
+    "proteinreiches nahrstoffpulver",
+    "protein fruhstucksdrink pulver"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "usda:2710741",
+     "name": "Nutritional powder mix, high protein, NFS"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2710741",
+     "label": "1 packet",
+     "grams": 44
+    },
+    {
+     "reference": "usda:2710741",
+     "label": "1 scoop, NFS",
+     "grams": 44
+    },
+    {
+     "reference": "usda:2710741",
+     "label": "1 scoop Joe Weider's",
+     "grams": 45
+    },
+    {
+     "reference": "usda:2710741",
+     "label": "1 packet D.E.L.T.A",
+     "grams": 42
+    },
+    {
+     "reference": "usda:2710741",
+     "label": "1 serving Monster Milk (2 scoops)",
+     "grams": 84
+    }
+   ]
+  }
+ ]
+}

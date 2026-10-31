@@ -1,0 +1,73 @@
+{
+  "id": "akari:label:iron-effervescent",
+  "name": "Iron effervescent tablet",
+  "identity": "Iron effervescent tablet with vitamin C dissolved in water; the dose is one tablet.",
+  "rule": "Per 100 g of the product, each value is the median of the labels below that declare it, and a value enters only when at least three declare it; a label states its nutrients per dose, so the file converts them with the dose's weight (the pack's net content divided by its count of tablets, capsules, sticks or drops, or the stated dose weight). Salt becomes sodium (salt in g × 400 = sodium in mg). Fewer than three labels declare energy, so the row stands at 0 kcal under the verification policy's clause for label generics with a micronutrient. Nothing a label leaves out becomes zero. Labels read on 2026-10-30 from dm.de, rossmann.de and shop-apotheke.com product pages.",
+  "nutrients": {
+    "iron": 311,
+    "vitaminC": 1778,
+    "calories": 0
+  },
+  "portions": [
+    {
+      "grams": 4.1,
+      "label": "1 effervescent tablet"
+    }
+  ],
+  "labels": [
+    {
+      "brand": "Mivolis",
+      "product": "Eisen + C Brausetabletten 20 St, 82 g",
+      "read": "https://www.dm.de/p/d/3104061/ (dm.de product page, Nährwerte and Zutaten panels; GTIN not stated)",
+      "date": "2026-10-30",
+      "ingredients": "Säuerungsmittel Citronensäure, Säureregulator Natriumhydrogencarbonat, Füllstoff Sorbit, Aromen, Maisstärke, Rote Bete Pulver, L-Ascorbinsäure (Vitamin C), Süßungsmittel Natriumcyclamat und Saccharin-Natrium, Eisen-II-lactat, Farbstoff Riboflavin",
+      "serving": "1 Stück: 20 units weigh 82 g, so the dose is 4.1 g; the label declares per dose: ironMg 7, vitaminCMg 67; per 100 g 923 kJ / 215 kcal, fat < 0.5 g, saturates 0.4 g, carbohydrate 16 g, sugars 0.8 g, protein < 0.5 g, salt 19 g; under-values counted at half the threshold",
+      "per100g": {
+        "ironMg": 170.732,
+        "vitaminCMg": 1634.15,
+        "energyKcal": 215.0,
+        "fat": 0.25,
+        "saturates": 0.4,
+        "carbohydrate": 16.0,
+        "sugars": 0.8,
+        "protein": 0.25,
+        "salt": 19.0
+      }
+    },
+    {
+      "brand": "altapharma",
+      "product": "Brausetabletten Eisen + Vitamine, 20 Brausetabletten, 80 g",
+      "read": "https://www.rossmann.de/de/gesundheit-altapharma-brausetabletten-eisen--vitamine/p/4305615614359 (rossmann.de product page, Zutaten and Nährwerte sections; GTIN 4305615614359)",
+      "date": "2026-10-30",
+      "ingredients": "Säuerungsmittel Citronensäure, Säureregulator Natriumhydrogencarbonat, Feuchthaltemittel Sorbit, Säureregulator Natriumcarbonat, Maltodextrin, Eisengluconat, Vitamin C, färbendes Lebensmittel Rote-Bete-Saftpulver, Süßungsmittel Natriumcyclamat, Inulin, Aroma, Süßungsmittel Natriumsaccharin, Farbstoff Riboflavin-5'-phosphat Natrium, Folsäure, Vitamin B12",
+      "serving": "1 Tablette (4,0 g): 20 units weigh 80 g, so the dose is 4 g; the label declares per dose: ironMg 14, vitaminCMg 80, folateUg 200, vitaminB12Ug 2.5; no energy or macros declared",
+      "per100g": {
+        "ironMg": 350.0,
+        "vitaminCMg": 2000.0,
+        "folateUg": 5000.0,
+        "vitaminB12Ug": 62.5
+      }
+    },
+    {
+      "brand": "AmosVital",
+      "product": "Eisen + Vitamine Brausetabletten, 20 Brausetabletten = 90 g",
+      "read": "https://www.shop-apotheke.com/arzneimittel/3772648/amosvital-eisen-vitamine.htm (shop-apotheke.com product page, Pflichtangaben and Weitere Produktinformationen; GTIN not stated)",
+      "date": "2026-10-30",
+      "ingredients": "Natriumhydrogencarbonat, Säuerungsmittel Citronensäure und Äpfelsäure, Eisen-II-Gluconat, Stärke, Vitamin C, Süßstoff Saccharin, Farbstoff Rote-Bete-Saft-Pulver, Aroma, Folsäure und Vitamin B12",
+      "serving": "1 Tablette: 20 units weigh 90 g, so the dose is 4.5 g; the label declares per dose: ironMg 14, vitaminCMg 80, folateUg 200, vitaminB12Ug 2.5; per 100 g 686 kJ / 208 kcal, protein 0 g, carbohydrate 8 g, sugars 0.4 g, fat 0 g, saturates 0 g, fibre 1.8 g, sodium 0.1 g, iron 311 mg, vitamin C 1778 mg, folate 4444 µg, B12 56 µg; PZN 03772648",
+      "per100g": {
+        "ironMg": 311.0,
+        "vitaminCMg": 1778.0,
+        "folateUg": 4444.0,
+        "vitaminB12Ug": 56.0,
+        "energyKcal": 208.0,
+        "fat": 0.0,
+        "saturates": 0.0,
+        "carbohydrate": 8.0,
+        "sugars": 0.4,
+        "protein": 0.0,
+        "salt": 0.25
+      }
+    }
+  ]
+}

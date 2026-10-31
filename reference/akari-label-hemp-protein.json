@@ -1,0 +1,76 @@
+{
+  "id": "akari:label:hemp-protein",
+  "name": "Hemp protein powder",
+  "identity": "Hemp seed protein powder, 49 to 62 g protein per 100 g with the seed's fibre and oil, unflavoured.",
+  "rule": "Per 100 g, each value is the median of the three labels below that declare it, and a value enters only when at least three labels declare it (unflavoured). Salt becomes sodium (salt in g × 400 = sodium in mg). Nothing a label leaves out becomes zero. Labels read on 2026-10-30 from Open Food Facts through Akari's proxy, as the beef protein isolate was.",
+  "nutrients": {
+    "calories": 360.0,
+    "fat": 11.0,
+    "saturatedFat": 1.1,
+    "carbs": 11.0,
+    "sugar": 3.3,
+    "protein": 50.0,
+    "sodium": 40.0
+  },
+  "portions": [
+    {
+      "grams": 30,
+      "label": "1 scoop"
+    }
+  ],
+  "labels": [
+    {
+      "brand": "Linwoods",
+      "product": "Hemp protein +",
+      "read": "Open Food Facts 5016887004876 through https://api.joinakari.com/v1/off/product/5016887004876",
+      "date": "2026-10-30",
+      "ingredients": "not stated in the entry",
+      "serving": "100 g",
+      "per100g": {
+        "energyKJ": 1629.0,
+        "energyKcal": 410.0,
+        "fat": 16.0,
+        "saturates": 2.5,
+        "carbohydrate": 11.0,
+        "sugars": 3.3,
+        "protein": 50.0,
+        "salt": 0.9
+      }
+    },
+    {
+      "brand": "naturya",
+      "product": "organic HEMP PROTEIN powder",
+      "read": "Open Food Facts 5060238480048 through https://api.joinakari.com/v1/off/product/5060238480048",
+      "date": "2026-10-30",
+      "ingredients": "100% Organic Hemp Protein.\n\nAllergens: May contain gluten. Packed in a facility that also handles peanuts and nuts.",
+      "serving": "20g",
+      "per100g": {
+        "energyKJ": 1520.0,
+        "energyKcal": 360.0,
+        "fat": 11.0,
+        "saturates": 1.1,
+        "carbohydrate": 10.0,
+        "sugars": 5.9,
+        "protein": 49.0,
+        "salt": 0.1
+      }
+    },
+    {
+      "brand": "Hemp Connect",
+      "product": "Hemp Protein Powder",
+      "read": "Open Food Facts 9421905630191 through https://api.joinakari.com/v1/off/product/9421905630191",
+      "date": "2026-10-30",
+      "ingredients": "not stated in the entry",
+      "serving": "not stated",
+      "per100g": {
+        "energyKcal": 346.56,
+        "fat": 2.1,
+        "saturates": 0.4,
+        "carbohydrate": 18.2,
+        "sugars": 1.2,
+        "protein": 62.3,
+        "salt": 0.01
+      }
+    }
+  ]
+}

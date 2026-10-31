@@ -1,0 +1,64 @@
+{
+  "id": "akari:label:folic-acid-tablet",
+  "name": "Folic acid tablet",
+  "identity": "Small folic acid tablet of 600 to 800 µg folate with vitamin B12 and often iodine or other B vitamins, taken when planning or in pregnancy; the dose is one tablet.",
+  "rule": "Per 100 g of the product, each value is the median of the labels below that declare it, and a value enters only when at least three declare it; a label states its nutrients per dose, so the file converts them with the dose's weight (the pack's net content divided by its count of tablets, capsules, sticks or drops, or the stated dose weight). Salt becomes sodium (salt in g × 400 = sodium in mg). Fewer than three labels declare energy, so the row stands at 0 kcal under the verification policy's clause for label generics with a micronutrient. Nothing a label leaves out becomes zero. Labels read on 2026-10-30 from dm.de, rossmann.de and shop-apotheke.com product pages.",
+  "nutrients": {
+    "folate": 252632,
+    "vitaminB12": 9803.92,
+    "calories": 0
+  },
+  "portions": [
+    {
+      "grams": 0.316667,
+      "label": "1 tablet"
+    }
+  ],
+  "labels": [
+    {
+      "brand": "Mivolis",
+      "product": "Folsäure 800 + B-Vitamine Tabletten 60 St, 19 g",
+      "read": "https://www.dm.de/p/d/3104232/ (dm.de product page, Nährwerte and Zutaten panels; GTIN not stated)",
+      "date": "2026-10-30",
+      "ingredients": "Füllstoffe mikrokristalline Cellulose und Hydroxypropylmethylcellulose, Pyridoxinhydrochlorid (Vitamin B6), Thiaminhydrochlorid (Vitamin B1), Trennmittel Polyvinylpyrrolidon und Magnesiumsalze der Speisefettsäuren, Pteroylmonoglutaminsäure (Folsäure), Cyanocobalamin (Vitamin B12)",
+      "serving": "1 Stück: 60 units weigh 19 g, so the dose is 0.317 g; the label declares per dose: folateUg 800, vitaminB12Ug 7.5; B1 3.3 mg, B6 4.2 mg; per 100 g 754 kJ / 180 kcal, fat 0.9 g, saturates 0.9 g, carbohydrate 3.2 g, sugars < 0.5 g, protein 0 g, salt 0.18 g; under-values counted at half the threshold",
+      "per100g": {
+        "folateUg": 252632.0,
+        "vitaminB12Ug": 2368.42,
+        "energyKcal": 180.0,
+        "fat": 0.9,
+        "saturates": 0.9,
+        "carbohydrate": 3.2,
+        "sugars": 0.25,
+        "protein": 0.0,
+        "salt": 0.18
+      }
+    },
+    {
+      "brand": "Doppelherz",
+      "product": "Jod + Folsäure + Eisen Tabletten 45 St, 20,4 g",
+      "read": "https://www.dm.de/p/d/1185949/ (dm.de product page, Nährwerte and Zutaten panels; GTIN not stated)",
+      "date": "2026-10-30",
+      "ingredients": "Füllstoff Dicalciumphosphat, Füllstoff mikrokristalline Cellulose, Eisenfumarat, Überzugsmittel Hydroxypropylmethylcellulose, Trennmittel Siliciumdioxid, Trennmittel Magnesiumsalze der Speisefettsäuren, Trennmittel Speisefettsäuren, Trennmittel Talkum, Farbstoff Eisenoxide und Eisenhydroxide, Pteroylmonoglutaminsäure, Kaliumiodid, Cyanocobalamin",
+      "serving": "1 Tablette: 45 units weigh 20.4 g, so the dose is 0.453 g; the label declares per dose: ironMg 10, folateUg 600, iodineUg 100, vitaminB12Ug 50; no energy or macros declared",
+      "per100g": {
+        "ironMg": 2205.88,
+        "folateUg": 132353.0,
+        "iodineUg": 22058.8,
+        "vitaminB12Ug": 11029.4
+      }
+    },
+    {
+      "brand": "tetesept",
+      "product": "Folsäure 800 Depot 60 Mini-Tabletten, 15,3 g",
+      "read": "https://www.rossmann.de/de/gesundheit-tetesept-folsaeure-800-depot-60-mini-tabletten/p/4008491105385 (rossmann.de product page, Zutaten and Nährwerte sections; GTIN 4008491105385)",
+      "date": "2026-10-30",
+      "ingredients": "Füllstoff mikrokristalline Cellulose; Nicotinamid (Niacin); Füllstoff Hydroxypropylmethylcellulose; Pyridoxinhydrochlorid (Vitamin B6); Füllstoff Natrium-Carboxymethylcellulose; Calcium-D-Pantothenat; Thiaminmononitrat (Vitamin B1); Farbstoff Calciumcarbonat; Riboflavin (Vitamin B2); Pteroylmonoglutaminsäure (Folsäure); Trennmittel Magnesiumsalz der Speisefettsäure, Speisefettsäure; Überzugsmittel Hydroxypropylcellulose; D-Biotin; Cyanocobalamin (Vitamin B12)",
+      "serving": "1 Tablette: 60 units weigh 15.3 g, so the dose is 0.255 g; the label declares per dose: folateUg 800, vitaminB12Ug 25; B1 5 mg, B2 1.4 mg, niacin 36 mg, B6 7 mg, biotin 50 µg, pantothenic acid 6 mg; the table prints energy and every macro as 0 per dose, which gives no per-100 g value, so none is taken",
+      "per100g": {
+        "folateUg": 313725.0,
+        "vitaminB12Ug": 9803.92
+      }
+    }
+  ]
+}

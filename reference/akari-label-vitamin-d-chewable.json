@@ -1,0 +1,69 @@
+{
+  "id": "akari:label:vitamin-d-chewable",
+  "name": "Vitamin D gummy or chewable tablet",
+  "identity": "Vitamin D3 as a sugar or sorbitol gummy, soft chew or chewable tablet, for children and adults; the dose is the label's daily piece or pieces.",
+  "rule": "Per 100 g of the product, each value is the median of the labels below that declare it, and a value enters only when at least three declare it; a label states its nutrients per dose, so the file converts them with the dose's weight (the pack's net content divided by its count of tablets, capsules, sticks or drops, or the stated dose weight). Salt becomes sodium (salt in g × 400 = sodium in mg). Fewer than three labels declare energy, so the row stands at 0 kcal under the verification policy's clause for label generics with a micronutrient. Nothing a label leaves out becomes zero. Labels read on 2026-10-30 from dm.de, rossmann.de and shop-apotheke.com product pages.",
+  "nutrients": {
+    "vitaminD": 972.8505,
+    "calories": 0
+  },
+  "portions": [
+    {
+      "grams": 2.15,
+      "label": "1 daily dose of gummies or chewables"
+    }
+  ],
+  "labels": [
+    {
+      "brand": "Doppelherz",
+      "product": "Vitamin D 2000 I.E. Gums, 40 Gums, 120 g",
+      "read": "https://www.rossmann.de/de/gesundheit-doppelherz-vitamin-d-2000-ie-gums/p/4009932134483 (rossmann.de product page, Zutaten and Nährwerte sections; GTIN 4009932134483)",
+      "date": "2026-10-30",
+      "ingredients": "Glucosesirup, Zucker, modifizierte Stärke, Säuerungsmittel Citronensäure, Säureregulator Natriumcitrate, Vitamin D, natürliches Aroma, Kurkumawurzelkonzentrat, Kokosöl, Überzugsmittel Carnaubawachs",
+      "serving": "1 Gum: 40 units weigh 120 g, so the dose is 3 g; the label declares per dose: vitaminDUg 50; no energy or macros declared",
+      "per100g": {
+        "vitaminDUg": 1666.67
+      }
+    },
+    {
+      "brand": "Sanostol",
+      "product": "Vitamin D3 Bärchen, 60 Stück, 150 g",
+      "read": "https://www.rossmann.de/de/gesundheit-sanostol-vitamin-d3-baerchen/p/4043027007955 (rossmann.de product page, Zutaten and Nährwerte sections; GTIN 4043027007955)",
+      "date": "2026-10-30",
+      "ingredients": "Süßungsmittel (Maltit, Sorbit), Geliermittel Pektin, Säuerungsmittel Citronensäure, färbendes Lebensmittel Kurkuma, natürliches Aroma, Trennmittel Carnaubawachs, Kokosöl, Vitamin D3",
+      "serving": "2 Bärchen: 60 units weigh 150 g, so the dose is 5 g; the label declares per dose: vitaminDUg 20; no energy or macros declared",
+      "per100g": {
+        "vitaminDUg": 400.0
+      }
+    },
+    {
+      "brand": "Mivolis",
+      "product": "Vitamin D3 für Kinder Kautabletten 60 St, 51 g",
+      "read": "https://www.dm.de/p/d/3104297/ (dm.de product page, Nährwerte and Zutaten panels; GTIN not stated)",
+      "date": "2026-10-30",
+      "ingredients": "Süßungsmittel Sorbit; Säuerungsmittel Citronensäure, Natriumcitrat; Trennmittel Magnesiumsalze der Speisefettsäuren; natürliche Aromen, Kokosöl, Süßungsmittel Sucralose, Cholecalciferol (Vitamin D3), Farbstoff Riboflavin",
+      "serving": "1 Tablette: 60 units weigh 51 g, so the dose is 0.85 g; the label declares per dose: vitaminDUg 10; per 100 g 1056 kJ / 253 kcal, fat 1.9 g, saturates 1.9 g, carbohydrate 95 g, sugars < 0.5 g, protein < 0.5 g, salt 0.03 g; under-values counted at half the threshold",
+      "per100g": {
+        "vitaminDUg": 1176.47,
+        "energyKcal": 253.0,
+        "fat": 1.9,
+        "saturates": 1.9,
+        "carbohydrate": 95.0,
+        "sugars": 0.25,
+        "protein": 0.25,
+        "salt": 0.03
+      }
+    },
+    {
+      "brand": "Doppelherz",
+      "product": "Vitamin D3 400 I.E. Kids Gel-Tabs 27 St, 35,1 g",
+      "read": "https://www.dm.de/p/d/3106558/ (dm.de product page, Nährwerte and Zutaten panels; GTIN not stated)",
+      "date": "2026-10-30",
+      "ingredients": "Süßungsmittel Xylit, Sonnenblumenöl, Wasser, Süßungsmittel Sorbit, Gelatine (Rind), Verdickungsmittel Gummi arabicum, Säureregulator Natriumcitrate, natürliches Zitronenaroma mit anderen natürlichen Aromen, Säureregulator Citronensäure, natürliches Orangenaroma, Emulgator Lecithine, Farbstoff Carotin, Vitamin D",
+      "serving": "1 Stück: 27 units weigh 35.1 g, so the dose is 1.3 g; the label declares per dose: vitaminDUg 10; no energy or macros declared",
+      "per100g": {
+        "vitaminDUg": 769.231
+      }
+    }
+  ]
+}

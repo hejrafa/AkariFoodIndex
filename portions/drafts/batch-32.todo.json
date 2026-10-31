@@ -1,0 +1,461 @@
+{
+ "batch": 32,
+ "identities": [
+  {
+   "key": "wheat beer alcohol free 0 0",
+   "names": [
+    "wheat beer alcohol free 0 0",
+    "weizenbier alkoholfrei 0 0",
+    "0 0 wheat beer",
+    "alcohol free wheat beer 0 0",
+    "weizen 0 0",
+    "weißbier 0 0",
+    "hefeweizen 0 0"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:P151120",
+     "name": "Wheat beer 0.0 % vol"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "craft or abbey beer",
+   "names": [
+    "craft or abbey beer",
+    "craft oder abteibier",
+    "craft beer",
+    "abbey beer",
+    "pale ale",
+    "ipa",
+    "india pale ale",
+    "craftbier",
+    "craft bier",
+    "abteibier",
+    "klosterbier",
+    "trappistenbier"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "ciqual:5011",
+     "name": "Bière \"de spécialités\" ou d'abbaye, régionales ou d'une brasserie (degré d'alcool variable)"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "wheat beer shandy alcohol free",
+   "names": [
+    "wheat beer shandy alcohol free",
+    "wheat beer radler alcohol free",
+    "weizen radler alkoholfrei",
+    "alcohol free wheat radler",
+    "non alcoholic wheat shandy",
+    "alkoholfreies weizen radler",
+    "weizenradler alkoholfrei",
+    "alkoholfreier weizenradler"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:P1A1120",
+     "name": "Wheat beer, alcohol-free, mixed with carbonated lemonade"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "pilsner with mineral water",
+   "names": [
+    "pilsner with mineral water",
+    "beer with mineral water",
+    "radler sauer",
+    "sour radler",
+    "beer with sparkling water",
+    "saures radler",
+    "bier mit mineralwasser",
+    "alster sauer"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:P1A3110",
+     "name": "Pilsner beer mixed with mineral water"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "red wine medium sweet",
+   "names": [
+    "red wine medium sweet",
+    "rotwein lieblich",
+    "medium sweet red wine",
+    "semi sweet red wine",
+    "lieblicher rotwein",
+    "rotwein halbsuß",
+    "dornfelder lieblich"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:P2A2000",
+     "name": "Red wine medium sweet"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "red wine sweet",
+   "names": [
+    "red wine sweet",
+    "rotwein suß",
+    "sweet red wine",
+    "sußer rotwein",
+    "rotwein mild",
+    "lambrusco dolce"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:P2A1000",
+     "name": "Red wine sweet"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "white wine medium sweet",
+   "names": [
+    "white wine medium sweet",
+    "weißwein lieblich",
+    "medium sweet white wine",
+    "semi sweet white wine",
+    "lieblicher weißwein",
+    "weißwein halbsuß",
+    "riesling lieblich",
+    "weißwein halbtrocken",
+    "medium dry white wine"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:P230000",
+     "name": "White wine medium sweet"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "white wine sweet",
+   "names": [
+    "white wine sweet",
+    "weißwein suß",
+    "sweet white wine",
+    "sußer weißwein",
+    "weißwein mild",
+    "auslese suß"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:P231000",
+     "name": "White wine sweet"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "sparkling wine medium dry",
+   "names": [
+    "sparkling wine medium dry",
+    "sekt halbtrocken",
+    "medium dry sparkling wine",
+    "demi sec",
+    "halbtrockener sekt",
+    "sekt demi sec",
+    "prosecco halbtrocken"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:P2A7100",
+     "name": "Quality sparkling wine medium dry"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "sparkling wine brut",
+   "names": [
+    "sparkling wine brut",
+    "sekt brut",
+    "brut",
+    "brut sparkling wine",
+    "sekt herb",
+    "herber sekt",
+    "sekt extra brut",
+    "prosecco brut"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:P2A6110",
+     "name": "Quality sparkling wine brut"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "sparkling wine sweet",
+   "names": [
+    "sparkling wine sweet",
+    "sekt suß",
+    "sweet sparkling wine",
+    "doux",
+    "sußer sekt",
+    "sekt mild",
+    "asti dolce"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:P2A7000",
+     "name": "Quality sparkling wine sweet"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "dessert wine sweet",
+   "names": [
+    "dessert wine sweet",
+    "dessertwein suß",
+    "dessert wine",
+    "sweet dessert wine",
+    "dessertwein",
+    "sußwein",
+    "likorwein",
+    "sauternes",
+    "tokajer",
+    "pedro ximenez"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "usda:2710692",
+     "name": "Wine, dessert, sweet"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2710692",
+     "label": "1 fl oz",
+     "grams": 30
+    },
+    {
+     "reference": "usda:2710692",
+     "label": "1 glass",
+     "grams": 105
+    }
+   ]
+  },
+  {
+   "key": "ice wine",
+   "names": [
+    "ice wine",
+    "eiswein",
+    "icewine",
+    "eisweine"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:P219000",
+     "name": "Ice wine"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "madeira wine",
+   "names": [
+    "madeira wine",
+    "madeira",
+    "madeirawein",
+    "madeira wein"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:P432000",
+     "name": "Madeira wine"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "calvados",
+   "names": [
+    "calvados",
+    "apple brandy",
+    "apfelbrand",
+    "apfelbranntwein"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:P640000",
+     "name": "Calvados"
+    },
+    {
+     "id": "bls:P752100",
+     "name": "Fruit spirit"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "cachaca",
+   "names": [
+    "cachaca",
+    "zuckerrohrschnaps",
+    "pitu"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:P740000",
+     "name": "Sugarcane spirit"
+    },
+    {
+     "id": "bls:P741000",
+     "name": "Rum 37.5/40 % vol"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "alcopop",
+   "names": [
+    "alcopop",
+    "alkopop",
+    "alcopops",
+    "premix",
+    "pre mixed spirit drink",
+    "alkopops",
+    "mischgetrank mit spirituose",
+    "smirnoff ice",
+    "bacardi breezer"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:P8A2000",
+     "name": "Alcopops"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "pilsner alcohol free 0 0",
+   "names": [
+    "pilsner alcohol free 0 0",
+    "pils alkoholfrei 0 0",
+    "0 0 pils",
+    "alcohol free pilsner 0 0",
+    "pils 0 0",
+    "alkoholfreies pils 0 0"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:P163110",
+     "name": "Pilsner beer 0.0 % vol"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "scotch whisky",
+   "names": [
+    "scotch whisky",
+    "single malt",
+    "single malt whisky",
+    "malt whisky",
+    "blended scotch",
+    "schottischer whisky"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "usda:2710701",
+     "name": "Scotch"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2710701",
+     "label": "1 fl oz (no ice)",
+     "grams": 28
+    },
+    {
+     "reference": "usda:2710701",
+     "label": "1 shot",
+     "grams": 42
+    },
+    {
+     "reference": "usda:2710701",
+     "label": "1 jigger",
+     "grams": 42
+    },
+    {
+     "reference": "usda:2710701",
+     "label": "1 drink",
+     "grams": 63
+    }
+   ]
+  }
+ ]
+}

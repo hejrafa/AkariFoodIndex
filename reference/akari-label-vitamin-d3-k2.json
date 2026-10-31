@@ -1,0 +1,51 @@
+{
+  "id": "akari:label:vitamin-d3-k2",
+  "name": "Vitamin D3 + K2 tablet",
+  "identity": "One-a-day vitamin D3 with vitamin K2 (menaquinone); the labels declare 25 to 75 µg vitamin D and 50 to 100 µg vitamin K2, which Akari does not track, so the row carries the vitamin D alone; the dose is one tablet or capsule.",
+  "rule": "Per 100 g of the product, each value is the median of the labels below that declare it, and a value enters only when at least three declare it; a label states its nutrients per dose, so the file converts them with the dose's weight (the pack's net content divided by its count of tablets, capsules, sticks or drops, or the stated dose weight). Salt becomes sodium (salt in g × 400 = sodium in mg). Fewer than three labels declare energy, so the row stands at 0 kcal under the verification policy's clause for label generics with a micronutrient. Nothing a label leaves out becomes zero. Labels read on 2026-10-30 from dm.de, rossmann.de and shop-apotheke.com product pages.",
+  "nutrients": {
+    "vitaminD": 17142.9,
+    "calories": 0
+  },
+  "portions": [
+    {
+      "grams": 0.436667,
+      "label": "1 tablet or capsule"
+    }
+  ],
+  "labels": [
+    {
+      "brand": "Doppelherz",
+      "product": "Vitamin K2 + D3 1000 I.E. Tabletten 120 St, 52,4 g",
+      "read": "https://www.dm.de/p/d/1679242/ (dm.de product page, Nährwerte and Zutaten panels; GTIN not stated)",
+      "date": "2026-10-30",
+      "ingredients": "Füllstoff Calciumcarbonat, Füllstoff mikrokristalline Cellulose, Maltodextrin, Überzugsmittel Hydroxypropylmethylcellulose, Füllstoff Isomalt, Trennmittel Magnesiumsalze der Speisefettsäuren, Mittelkettige Triglyceride, Menachinon, Cholecalciferol, Überzugsmittel Carnaubawachs",
+      "serving": "1 Tablette: 120 units weigh 52.4 g, so the dose is 0.437 g; the label declares per dose: vitaminDUg 25; Vitamin K 100 µg (not tracked by Akari); no energy declared",
+      "per100g": {
+        "vitaminDUg": 5725.19
+      }
+    },
+    {
+      "brand": "tetesept",
+      "product": "Vitamin K2 + D3 3000 Mini-Tabletten 30 St, 9,2 g",
+      "read": "https://www.dm.de/p/d/3090740/ (dm.de product page, Nährwerte and Zutaten panels; GTIN not stated)",
+      "date": "2026-10-30",
+      "ingredients": "Füllstoff: Mikrokristalline Cellulose; Maltodextrin; Modifizierte Stärke; Saccharose; Überzugsmittel: Hydroxypropylcellulose, Hydroxypropylmethylcellulose; Trennmittel: Magnesiumsalz der Speisefettsäure; Farbstoff: Calciumcarbonat; Öl, pflanzlich (Kokosnuss); Trennmittel: Talkum, Speisefettsäure; Menachinon-7 (Vitamin K2); Cholecalciferol (Vitamin D3); Farbstoff: Eisenoxid gelb",
+      "serving": "1 Mini-Tablette: 30 units weigh 9.2 g, so the dose is 0.307 g; the label declares per dose: vitaminDUg 75; Vitamin K 80 µg (not tracked); no energy declared",
+      "per100g": {
+        "vitaminDUg": 24456.5
+      }
+    },
+    {
+      "brand": "ESN",
+      "product": "Vitamin D3 + K2 Depot Kapseln 60 St, 49 g",
+      "read": "https://www.dm.de/p/d/3138742/ (dm.de product page, Nährwerte and Zutaten panels; GTIN not stated)",
+      "date": "2026-10-30",
+      "ingredients": "Dextrin, Reisstärke, Kapselhülle (Hydroxypropylmethylcellulose), Vitamin K (K2/Menachinon-7), Vitamin D (D3/Cholecalciferol)",
+      "serving": "1 Kapsel: 60 units weigh 49 g, so the dose is 0.817 g; the label declares per dose: vitaminDUg 140; Vitamin K 200 µg (not tracked); no energy declared; a depot capsule for several days",
+      "per100g": {
+        "vitaminDUg": 17142.9
+      }
+    }
+  ]
+}

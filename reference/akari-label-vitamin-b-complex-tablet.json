@@ -1,0 +1,63 @@
+{
+  "id": "akari:label:vitamin-b-complex-tablet",
+  "name": "Vitamin B complex tablet",
+  "identity": "One-a-day tablet with all eight B vitamins, folate and B12 above the reference intake; the dose is one tablet.",
+  "rule": "Per 100 g of the product, each value is the median of the labels below that declare it, and a value enters only when at least three declare it; a label states its nutrients per dose, so the file converts them with the dose's weight (the pack's net content divided by its count of tablets, capsules, sticks or drops, or the stated dose weight). Salt becomes sodium (salt in g × 400 = sodium in mg). Fewer than three labels declare energy, so the row stands at 0 kcal under the verification policy's clause for label generics with a micronutrient. Nothing a label leaves out becomes zero. Labels read on 2026-10-30 from dm.de, rossmann.de and shop-apotheke.com product pages.",
+  "nutrients": {
+    "folate": 196507,
+    "vitaminB12": 2812.5,
+    "calories": 0
+  },
+  "portions": [
+    {
+      "grams": 0.305333,
+      "label": "1 tablet"
+    }
+  ],
+  "labels": [
+    {
+      "brand": "Doppelherz",
+      "product": "B-Komplex + Folsäure Depot Mini-Tabletten 150 St, 45,8 g",
+      "read": "https://www.dm.de/p/d/3083894/ (dm.de product page, Nährwerte and Zutaten panels; GTIN not stated)",
+      "date": "2026-10-30",
+      "ingredients": "Lactose, Füllstoff Hydroxypropylmethylcellulose, Stärke, Niacin, Pantothensäure, Vitamin B6, Vitamin B1, Vitamin B2, Trennmittel Siliciumdioxid, Trennmittel Magnesiumsalze der Speisefettsäuren, Trennmittel Magnesiumhydroxidcarbonat, Farbstoff Calciumcarbonat, Füllstoff Hydroxypropylcellulose, Überzugsmittel Polyethylenglycol, Trennmittel Talkum, Folsäure, Farbstoff Eisenoxide und Eisenhydroxide, Biotin, Vitamin B12",
+      "serving": "1 Stück: 150 units weigh 45.8 g, so the dose is 0.305 g; the label declares per dose: folateUg 600, vitaminB12Ug 3; niacin 21.6 mg, pantothenic acid 18 mg, biotin 150 µg, B2 4.8 mg, B1 4.2 mg, B6 6 mg; no energy or macros declared",
+      "per100g": {
+        "folateUg": 196507.0,
+        "vitaminB12Ug": 982.533
+      }
+    },
+    {
+      "brand": "Lebepur",
+      "product": "Vitamin B Komplex Tabletten 60 St, 30 g",
+      "read": "https://www.dm.de/p/d/3129140/ (dm.de product page, Nährwerte and Zutaten panels; GTIN not stated)",
+      "date": "2026-10-30",
+      "ingredients": "Akazienfaser (Gummi Arabicum), Inositol, Nicotinamid, Ascorbinsäure, Trimethylglycin (TMG) Betain, PABA (p-Aminobenzoesäure), Cholinbitartrat, Calcium-D-Pantothenat, Riboflavin-5-Phosphat, Thiaminhydrochlorid, Pyridoxal-5-Phosphat, (6S)-5-Methyltetrahydrofolat-Glucosaminsalz, D-Biotin, Methylcobalamin, Hydroxocobalamin, Adenosylcobalamin",
+      "serving": "1 Tablette: 60 units weigh 30 g, so the dose is 0.5 g; the label declares per dose: folateUg 200, vitaminB12Ug 25, vitaminCMg 40; betaine 37.5 mg, choline 20 mg, inositol 50 mg, niacin 40 mg, pantothenic acid 18 mg, biotin 150 µg, B2 4.3 mg, B1 3.3 mg, B6 0.9 mg; no energy or macros declared",
+      "per100g": {
+        "folateUg": 40000.0,
+        "vitaminB12Ug": 5000.0,
+        "vitaminCMg": 8000.0
+      }
+    },
+    {
+      "brand": "altapharma",
+      "product": "B-Komplex Depot Tabletten, 60 Tabletten, 16 g",
+      "read": "https://www.rossmann.de/de/gesundheit-altapharma-b-komplex-depot-tabletten/p/4305615619484 (rossmann.de product page, Zutaten and Nährwerte sections; GTIN 4305615619484)",
+      "date": "2026-10-30",
+      "ingredients": "Maltodextrin, Calcium-D-Pantothenat, Nicotinamid, Füllstoffe mikrokristalline Cellulose, Hydroxypropylmethylcellulose, Thiaminhydrochlorid, Riboflavin, Pyridoxinhydrochlorid, Überzugmittel Hydroxypropylmethylcellulose, Trennmittel Magnesiumsalze der Speisefettsäuren, Calciumsilikat, Siliciumdioxid, Füllstoff Isomalt, Farbstoffe Calciumcarbonat, Eisenoxide und Eisenhydroxide, Pteroylmonoglutaminsäure, mittelkettige Triglyceride (Kokos), D-Biotin, Cyanocobalamin",
+      "serving": "1 Tablette: 60 units weigh 16 g, so the dose is 0.267 g; the label declares per dose: folateUg 600, vitaminB12Ug 7.5; B1 3.3 mg, B2 4.2 mg, niacin 16 mg, B6 3.5 mg, biotin 150 µg, pantothenic acid 18 mg; per 100 g 1577 kJ / 371 kcal, fat 0.7 g, saturates 0.6 g, carbohydrate 75 g, sugars 3.3 g, protein 17 g, salt 0.07 g",
+      "per100g": {
+        "folateUg": 225000.0,
+        "vitaminB12Ug": 2812.5,
+        "energyKcal": 371.0,
+        "fat": 0.7,
+        "saturates": 0.6,
+        "carbohydrate": 75.0,
+        "sugars": 3.3,
+        "protein": 17.0,
+        "salt": 0.07
+      }
+    }
+  ]
+}

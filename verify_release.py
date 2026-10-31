@@ -41,6 +41,30 @@ def verify_reference_coverage(source_counts, verified_counts):
         )
 
 
+def verify_rejections(directory, market, asset):
+    """A market that reports rejected products (b220) ships the sidecar that
+    lists them, one JSON line per barcode with its rule, and the lines match
+    the counts, so a wrong rejection can always be looked up."""
+    rejected = asset.get('rejected')
+    if rejected is None:
+        return
+    filename = asset.get('rejectedFilename') or f'rejected-{market.lower()}.jsonl'
+    if Path(filename).name != filename: raise ValueError('Invalid sidecar filename: '+market)
+    path = directory / filename
+    if not path.exists(): raise ValueError('Missing rejection sidecar: '+market)
+    counts = {}
+    with path.open(encoding='utf-8') as handle:
+        for line in handle:
+            if not line.strip():
+                continue
+            entry = json.loads(line)
+            if not entry.get('code') or not entry.get('rule'):
+                raise ValueError('Malformed rejection line: '+market)
+            counts[entry['rule']] = counts.get(entry['rule'], 0) + 1
+    if counts != {rule: count for rule, count in rejected.items() if count}:
+        raise ValueError('Rejection sidecar does not match the manifest counts: '+market)
+
+
 def verify(directory):
     manifest=json.loads((directory/'manifest.json').read_text())
     if manifest.get('schemaVersion')!=4:raise ValueError('Expected schema 4')
@@ -65,6 +89,7 @@ def verify(directory):
             if db.execute(f'SELECT count(*) FROM {table}').fetchone()[0]!=asset[key]:raise ValueError('Wrong count')
         if db.execute('SELECT count(*) FROM sku WHERE NOT json_valid(nutrients_json)').fetchone()[0]:raise ValueError('Malformed nutrients')
         db.close()
+        verify_rejections(directory, market, asset)
     return manifest
 
 if __name__=='__main__':

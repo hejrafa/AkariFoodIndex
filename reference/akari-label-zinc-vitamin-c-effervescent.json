@@ -1,0 +1,62 @@
+{
+  "id": "akari:label:zinc-vitamin-c-effervescent",
+  "name": "Zinc + vitamin C effervescent tablet",
+  "identity": "Zinc with vitamin C as an effervescent tablet dissolved in water, about 3 to 10 mg zinc and 300 to 500 mg vitamin C; the dose is one tablet.",
+  "rule": "Per 100 g of the product, each value is the median of the labels below that declare it, and a value enters only when at least three declare it; a label states its nutrients per dose, so the file converts them with the dose's weight (the pack's net content divided by its count of tablets, capsules, sticks or drops, or the stated dose weight). Salt becomes sodium (salt in g × 400 = sodium in mg). Fewer than three labels declare energy, so the row stands at 0 kcal under the verification policy's clause for label generics with a micronutrient. Nothing a label leaves out becomes zero. Labels read on 2026-10-30 from dm.de, rossmann.de and shop-apotheke.com product pages.",
+  "nutrients": {
+    "zinc": 81.2195,
+    "vitaminC": 9523.81,
+    "calories": 0
+  },
+  "portions": [
+    {
+      "grams": 4.1,
+      "label": "1 effervescent tablet"
+    }
+  ],
+  "labels": [
+    {
+      "brand": "Mivolis",
+      "product": "Zink + C Brausetabletten 20 St, 82 g",
+      "read": "https://www.dm.de/p/d/3104291/ (dm.de product page, Nährwerte and Zutaten panels; GTIN not stated)",
+      "date": "2026-10-30",
+      "ingredients": "Säuerungsmittel Citronensäure, Säureregulator Natriumhydrogencarbonat, L-Ascorbinsäure, Füllstoff Sorbit, Aromen, Süßungsmittel Natriumcyclamat und Natriumsaccharin, Zinkcitrat, Farbstoff Riboflavin",
+      "serving": "1 Stück: 20 units weigh 82 g, so the dose is 4.1 g; the label declares per dose: zincMg 3.33, vitaminCMg 400; per 100 g 873 kJ / 201 kcal, fat < 0.5 g, saturates 0.3 g, carbohydrate 11 g, sugars < 0.5 g, protein < 0.5 g, salt 21.5 g; under-values counted at half the threshold",
+      "per100g": {
+        "zincMg": 81.2195,
+        "vitaminCMg": 9756.1,
+        "energyKcal": 201.0,
+        "fat": 0.25,
+        "saturates": 0.3,
+        "carbohydrate": 11.0,
+        "sugars": 0.25,
+        "protein": 0.25,
+        "salt": 21.5
+      }
+    },
+    {
+      "brand": "altapharma",
+      "product": "Brausetablette Zink + Vitamin C, 20 Brausetabletten, 82 g",
+      "read": "https://www.rossmann.de/de/gesundheit-altapharma-brausetablette-zink-vitamin-c/p/4068134212771 (rossmann.de product page, Zutaten and Nährwerte sections; GTIN 4068134212771)",
+      "date": "2026-10-30",
+      "ingredients": "Säuerungsmittel Citronensäure, Säureregulator Natriumhydrogencarbonat, Füllstoff Sorbitol, L-Ascorbinsäure (Vitamin C), Aromen, Rote Bete Saftpulver, Süßungsmittel Natriumcyclamat, Zinksulfat, Holunderbeerensaftpulver, Süßungsmittel Natriumsaccharin",
+      "serving": "1 Tablette: 20 units weigh 82 g, so the dose is 4.1 g; the label declares per dose: zincMg 5, vitaminCMg 300; no energy or macros declared",
+      "per100g": {
+        "zincMg": 121.951,
+        "vitaminCMg": 7317.07
+      }
+    },
+    {
+      "brand": "Doppelherz",
+      "product": "Vitamin C Zink Brausetabletten, 15 Tabletten, 94,5 g",
+      "read": "https://www.rossmann.de/de/gesundheit-doppelherz-vitamin-c-zink/p/4009932009132 (rossmann.de product page, Zutaten and Nährwerte sections; GTIN 4009932009132)",
+      "date": "2026-10-30",
+      "ingredients": "Säuerungsmittel Citronensäure, Säureregulatoren Natriumhydrogencarbonat und Natriumcarbonat, Feuchthaltemittel Sorbit, Inulin, Stärke, Trennmittel Tricalciumphosphat, Aroma, Süßungsmittel Natriumcyclamat und Natriumsaccharin, Zinkgluconat, Maltodextrin, Rote Bete Saftpulver, Farbstoff Riboflavin-5'-Phosphat",
+      "serving": "1 Brausetablette: 15 units weigh 94.5 g, so the dose is 6.3 g; the label declares per dose: zincMg 5, vitaminCMg 600; no energy or macros declared",
+      "per100g": {
+        "zincMg": 79.3651,
+        "vitaminCMg": 9523.81
+      }
+    }
+  ]
+}

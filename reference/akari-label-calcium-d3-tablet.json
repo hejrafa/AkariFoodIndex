@@ -1,0 +1,95 @@
+{
+  "id": "akari:label:calcium-d3-tablet",
+  "name": "Calcium + vitamin D3 tablet",
+  "identity": "Calcium carbonate tablet with vitamin D3, 270 to 900 mg calcium per tablet, sometimes with vitamin K or folate; the dose is one tablet.",
+  "rule": "Per 100 g of the product, each value is the median of the labels below that declare it, and a value enters only when at least three declare it; a label states its nutrients per dose, so the file converts them with the dose's weight (the pack's net content divided by its count of tablets, capsules, sticks or drops, or the stated dose weight). Salt becomes sodium (salt in g × 400 = sodium in mg). Nothing a label leaves out becomes zero. Labels read on 2026-10-30 from dm.de, rossmann.de and shop-apotheke.com product pages.",
+  "nutrients": {
+    "calcium": 35509.75,
+    "vitaminD": 247.2765,
+    "calories": 37,
+    "fat": 0.5,
+    "saturatedFat": 0.5,
+    "carbs": 7.4,
+    "sugar": 0.25,
+    "protein": 0,
+    "sodium": 24
+  },
+  "portions": [
+    {
+      "grams": 2.11833,
+      "label": "1 daily dose of tablets"
+    }
+  ],
+  "labels": [
+    {
+      "brand": "Doppelherz",
+      "product": "Calcium 900 + D3 Tabletten 80 St, 205,6 g",
+      "read": "https://www.dm.de/p/d/1711662/ (dm.de product page, Nährwerte and Zutaten panels; GTIN not stated)",
+      "date": "2026-10-30",
+      "ingredients": "Calciumcarbonat, Füllstoff mikrokristalline Cellulose, Überzugsmittel Hydroxypropylmethylcellulose, Füllstoff Polyvinylpyrrolidon, Trennmittel Speisefettsäuren, Trennmittel vernetzte Carboxymethylcellulose, Trennmittel Magnesiumsalze der Speisefettsäuren, Füllstoff Polyethylenglycol, Stärke, Trennmittel Talkum, Trennmittel Zuckerester von Speisefettsäuren, Pteroylmonoglutaminsäure, Farbstoff Eisenoxide und Eisenhydroxide, D-Biotin, Cholecalciferol",
+      "serving": "1 Tablette: 80 units weigh 205.6 g, so the dose is 2.57 g; the label declares per dose: calciumMg 900, folateUg 400, vitaminDUg 5; biotin 150 µg; no energy or macros declared",
+      "per100g": {
+        "calciumMg": 35019.5,
+        "folateUg": 15564.2,
+        "vitaminDUg": 194.553
+      }
+    },
+    {
+      "brand": "Mivolis",
+      "product": "Calcium + D3 Tabletten 300 St, 264 g",
+      "read": "https://www.dm.de/p/d/3104263/ (dm.de product page, Nährwerte and Zutaten panels; GTIN not stated)",
+      "date": "2026-10-30",
+      "ingredients": "Calciumcarbonat, Füllstoff mikrokristalline Cellulose, Füllstoff Sorbitol, Maltodextrin, Trennmittel Magnesiumsalze der Speisefettsäuren, Cholecalciferol (Vitamin D3)",
+      "serving": "1 Stück: 300 units weigh 264 g, so the dose is 0.88 g; the label declares per dose: calciumMg 267, vitaminDUg 1.7; per 100 g 238 kJ / 58 kcal, fat < 0.5 g, saturates 0.4 g, carbohydrate 12 g, sugars < 0.5 g, protein < 0.5 g, salt < 0.01 g; under-values counted at half the threshold",
+      "per100g": {
+        "calciumMg": 30340.9,
+        "vitaminDUg": 193.182,
+        "energyKcal": 58.0,
+        "fat": 0.25,
+        "saturates": 0.4,
+        "carbohydrate": 12.0,
+        "sugars": 0.25,
+        "protein": 0.25,
+        "salt": 0.005
+      }
+    },
+    {
+      "brand": "Mivolis",
+      "product": "Calcium 600 + D3 + K1 + K2 Tabletten 30 St, 50 g",
+      "read": "https://www.dm.de/p/d/3104211/ (dm.de product page, Nährwerte and Zutaten panels; GTIN not stated)",
+      "date": "2026-10-30",
+      "ingredients": "Calciumcarbonat, Füllstoff mikrokristalline Cellulose, Trennmittel Magnesiumsalze der Speisefettsäuren, Menachinon (Vitamin K2), Überzugsmittel Hydroxypropylmethylcellulose, Cholecalciferol (Vitamin D3), Phytomenadion (Vitamin K1), Stabilisator modifizierte Stärke, Trennmittel Talkum, pflanzliches Öl (Kokos), Überzugsmittel Hydroxypropylcellulose",
+      "serving": "1 Tablette: 30 units weigh 50 g, so the dose is 1.67 g; the label declares per dose: calciumMg 600, vitaminDUg 5; vitamin K 80 µg; per 100 g 156 kJ / 37 kcal, fat 0.62 g, saturates 0.62 g, carbohydrate 7.4 g, sugars < 0.63 g, protein 0 g, salt 0.06 g; under-values counted at half the threshold",
+      "per100g": {
+        "calciumMg": 36000.0,
+        "vitaminDUg": 300.0,
+        "energyKcal": 37.0,
+        "fat": 0.62,
+        "saturates": 0.62,
+        "carbohydrate": 7.4,
+        "sugars": 0.315,
+        "protein": 0.0,
+        "salt": 0.06
+      }
+    },
+    {
+      "brand": "altapharma",
+      "product": "Calcium 1000 + Vitamin D3, 300 Tabletten, 270 g",
+      "read": "https://www.rossmann.de/de/gesundheit-altapharma-calcium-1000--vitamin-d3/p/4305615619361 (rossmann.de product page, Zutaten and Nährwerte sections; GTIN 4305615619361)",
+      "date": "2026-10-30",
+      "ingredients": "Calciumcarbonat, Füllstoffe vernetzte Carboxymethylcellulose und Maltodextrin, Trennmittel Magnesiumsalze der Speisefettsäuren, Cholecalciferol (Vitamin D)",
+      "serving": "3 Tabletten: 300 units weigh 270 g, so the dose is 2.7 g; the label declares per dose: calciumMg 1000, vitaminDUg 20; per 100 g 107 kJ / 25 kcal, fat 0.5 g, saturates 0.5 g, carbohydrate 5.3 g, sugars < 0.5 g, protein 0 g, salt 0.23 g; under-values counted at half the threshold",
+      "per100g": {
+        "calciumMg": 37037.0,
+        "vitaminDUg": 740.741,
+        "energyKcal": 25.0,
+        "fat": 0.5,
+        "saturates": 0.5,
+        "carbohydrate": 5.3,
+        "sugars": 0.25,
+        "protein": 0.0,
+        "salt": 0.23
+      }
+    }
+  ]
+}

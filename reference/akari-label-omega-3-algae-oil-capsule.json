@@ -1,0 +1,68 @@
+{
+  "id": "akari:label:omega-3-algae-oil-capsule",
+  "name": "Omega-3 algae oil capsule",
+  "identity": "Vegan soft capsule of about 0.5 g microalgae (Schizochytrium) oil with 250 to 300 mg DHA and EPA, as dm and Rossmann sell it; the dose is one capsule.",
+  "rule": "Per 100 g of the product, each value is the median of the labels below that declare it, and a value enters only when at least three declare it. An algae oil capsule's label states its content as oil (500 mg microalgae oil per capsule on the maker's page), and by that it declares the oil's nutrients: the oil mass is the fat, its energy is 9 kcal per gram, and the oil carries 0 g carbohydrate and 0 g protein; the vegan starch shell is left unstated. The two labels with a full table per 100 g, Mivolis and altapharma, are the check on that understatement: they put the shell at 23 to 32 g carbohydrate and under 0.5 g protein per 100 g, under a fifth of a gram of carbohydrate per capsule, so the capsule's energy, the point of logging it, is within a few percent either way. EPA and DHA are not tracked and stay out. The capsule weight is the pack's net content divided by its count. Labels read on 2026-10-30 from doppelherz.de, dm.de and rossmann.de product pages; nothing a label leaves out becomes zero.",
+  "nutrients": {
+    "fat": 69.8487,
+    "calories": 638,
+    "carbs": 23,
+    "protein": 0.25
+  },
+  "portions": [
+    {
+      "grams": 0.715833,
+      "label": "1 capsule"
+    }
+  ],
+  "labels": [
+    {
+      "brand": "Doppelherz aktiv",
+      "product": "Omega-3 1000 vegan, Kapseln, 120 St, 85,9 g",
+      "read": "https://www.doppelherz.de/produkte/doppelherz-aktiv-omega-3-1000-vegan (maker page: \"1000 mg Algenöl davon 500 mg EPA/DHA bei 2 Kapseln täglich\", Zutaten) and https://www.dm.de/p/d/1458900/ (dm.de product page for the pack count and net weight; GTIN 4009932132793)",
+      "date": "2026-10-30",
+      "ingredients": "DHA- und EPA-reiches Öl aus der Mikroalge Schizochytrium sp., modifizierte Stärke, Feuchthaltemittel Glycerin, Geliermittel Carrageen, Säureregulator Dinatriumphosphat, Antioxidationsmittel stark tocopherolhaltige Extrakte",
+      "serving": "1 capsule: 120 capsules weigh 85.9 g, so a capsule is 0.7158 g; the maker states 1,000 mg algae oil per two capsules, 500 mg per capsule, so the oil is 69.8487 g fat and 628.638 kcal per 100 g, with 0 g carbohydrate and 0 g protein for the oil and the starch shell left unstated; two capsules a day, the dose here is one capsule; EPA and DHA (500 mg per two capsules) are not tracked",
+      "per100g": {
+        "fat": 69.8487,
+        "energyKcal": 628.638,
+        "carbohydrate": 0,
+        "protein": 0
+      }
+    },
+    {
+      "brand": "Mivolis",
+      "product": "Omega-3 Algenöl Kapseln 30 St, 21,6 g",
+      "read": "https://www.dm.de/p/d/3104304/ (dm.de product page, Nährwerte and Zutaten panels; GTIN not stated)",
+      "date": "2026-10-30",
+      "ingredients": "Öl aus der Mikroalge Schizochytrium sp. (50 %), modifizierte Stärke (Kapselhülle), DHA- und EPA-reiches Öl aus der Mikroalge Schizochytrium sp. (13 %), Feuchthaltemittel Glycerin, Antioxidationsmittel stark tocopherolhaltige Extrakte, Extrakt aus Rosmarin, Ascorbylpalmitat",
+      "serving": "1 capsule: 30 capsules weigh 21.6 g, so a capsule is 0.72 g; the label declares a full table per 100 g (DHA 250 mg, EPA 15 mg, omega-3 275 mg per capsule; per 100 g 2626 kJ / 638 kcal, fat 62 g, saturates 8.7 g, carbohydrate 32 g, sugars < 0.5 g, protein < 0.5 g, salt < 0.01 g; under-values counted at half the threshold)",
+      "per100g": {
+        "energyKcal": 638.0,
+        "fat": 62.0,
+        "saturates": 8.7,
+        "carbohydrate": 32.0,
+        "sugars": 0.25,
+        "protein": 0.25,
+        "salt": 0.005
+      }
+    },
+    {
+      "brand": "altapharma",
+      "product": "Omega-3 Algenöl, 30 Kapseln, 20 g",
+      "read": "https://www.rossmann.de/de/gesundheit-altapharma-omega-3-algenoel/p/4305615808970 (rossmann.de product page, Zutaten and Nährwerte sections; GTIN 4305615808970)",
+      "date": "2026-10-30",
+      "ingredients": "DHA- und EPA-reiches Öl aus der Mikroalge Schizochytrium sp. (70 %), modifizierte Stärke, Feuchthaltemittel Glycerin, Sonnenblumenöl, Verdickungsmittel Carrageen, Antioxidationsmittel stark tocopherolhaltige Extrakte und L-Ascorbylpalmitat, Aroma Rosmarinextrakt, Säureregulator Natriumcarbonat",
+      "serving": "1 capsule: 30 capsules weigh 20 g, so a capsule is 0.6667 g; the label declares a full table per 100 g (per 100 g 3769 kJ / 774 kcal, fat 72 g, saturates 17 g, carbohydrate 23 g, sugars 0 g, protein < 0.5 g, salt 1 g; under-values counted at half the threshold)",
+      "per100g": {
+        "energyKcal": 774.0,
+        "fat": 72.0,
+        "saturates": 17.0,
+        "carbohydrate": 23.0,
+        "sugars": 0.0,
+        "protein": 0.25,
+        "salt": 1.0
+      }
+    }
+  ]
+}

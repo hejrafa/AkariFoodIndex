@@ -1,0 +1,580 @@
+{
+ "batch": 31,
+ "identities": [
+  {
+   "key": "ginger tea",
+   "names": [
+    "ginger tea",
+    "ingwertee",
+    "ginger infusion",
+    "fresh ginger tea",
+    "ingwer tee",
+    "ingweraufguss",
+    "ingwerwasser"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "usda:2710507",
+     "name": "Tea, ginger"
+    },
+    {
+     "id": "usda:2710502",
+     "name": "Tea, hot, herbal"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2710507",
+     "label": "1 fl oz",
+     "grams": 30
+    },
+    {
+     "reference": "usda:2710507",
+     "label": "1 small",
+     "grams": 360
+    },
+    {
+     "reference": "usda:2710507",
+     "label": "1 medium",
+     "grams": 480
+    },
+    {
+     "reference": "usda:2710507",
+     "label": "1 large",
+     "grams": 600
+    },
+    {
+     "reference": "usda:2710507",
+     "label": "1 cup",
+     "grams": 240
+    },
+    {
+     "reference": "usda:2710502",
+     "label": "1 fl oz",
+     "grams": 30
+    },
+    {
+     "reference": "usda:2710502",
+     "label": "1 cup",
+     "grams": 240
+    },
+    {
+     "reference": "usda:2710502",
+     "label": "1 small",
+     "grams": 360
+    },
+    {
+     "reference": "usda:2710502",
+     "label": "1 medium",
+     "grams": 480
+    },
+    {
+     "reference": "usda:2710502",
+     "label": "1 large",
+     "grams": 600
+    }
+   ]
+  },
+  {
+   "key": "oolong tea",
+   "names": [
+    "oolong tea",
+    "oolong tee",
+    "oolong",
+    "oolongtee",
+    "wulong tea"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "usda:2710492",
+     "name": "Tea, hot, leaf, oolong"
+    },
+    {
+     "id": "usda:2710490",
+     "name": "Tea, hot, leaf, green"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2710492",
+     "label": "1 fl oz",
+     "grams": 30
+    },
+    {
+     "reference": "usda:2710492",
+     "label": "1 cup",
+     "grams": 240
+    },
+    {
+     "reference": "usda:2710492",
+     "label": "1 small",
+     "grams": 360
+    },
+    {
+     "reference": "usda:2710492",
+     "label": "1 medium",
+     "grams": 480
+    },
+    {
+     "reference": "usda:2710492",
+     "label": "1 large",
+     "grams": 600
+    },
+    {
+     "reference": "usda:2710490",
+     "label": "1 fl oz",
+     "grams": 30
+    },
+    {
+     "reference": "usda:2710490",
+     "label": "1 cup",
+     "grams": 240
+    },
+    {
+     "reference": "usda:2710490",
+     "label": "1 small",
+     "grams": 360
+    },
+    {
+     "reference": "usda:2710490",
+     "label": "1 medium",
+     "grams": 480
+    },
+    {
+     "reference": "usda:2710490",
+     "label": "1 large",
+     "grams": 600
+    }
+   ]
+  },
+  {
+   "key": "black tea decaf",
+   "names": [
+    "black tea decaf",
+    "schwarztee entkoffeiniert",
+    "decaf black tea",
+    "decaffeinated black tea",
+    "decaf tea",
+    "entkoffeinierter schwarztee",
+    "entkoffeinierter tee",
+    "schwarztee koffeinfrei"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "usda:2710489",
+     "name": "Tea, hot, leaf, black, decaffeinated"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2710489",
+     "label": "1 fl oz",
+     "grams": 30
+    },
+    {
+     "reference": "usda:2710489",
+     "label": "1 cup",
+     "grams": 240
+    },
+    {
+     "reference": "usda:2710489",
+     "label": "1 small",
+     "grams": 360
+    },
+    {
+     "reference": "usda:2710489",
+     "label": "1 medium",
+     "grams": 480
+    },
+    {
+     "reference": "usda:2710489",
+     "label": "1 large",
+     "grams": 600
+    }
+   ]
+  },
+  {
+   "key": "bubble tea",
+   "names": [
+    "bubble tea",
+    "boba tea",
+    "boba",
+    "bubble milk tea",
+    "pearl milk tea",
+    "milchtee mit tapioka",
+    "tapioka milchtee",
+    "boba tee"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "usda:2710508",
+     "name": "Tea, bubble"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2710508",
+     "label": "1 fl oz",
+     "grams": 30
+    },
+    {
+     "reference": "usda:2710508",
+     "label": "1 item, any size",
+     "grams": 435
+    },
+    {
+     "reference": "usda:2710508",
+     "label": "1 cup",
+     "grams": 240
+    }
+   ]
+  },
+  {
+   "key": "fruit tea with sugar",
+   "names": [
+    "fruit tea with sugar",
+    "fruchtetee mit zucker",
+    "sweetened fruit tea",
+    "gesußter fruchtetee",
+    "fruchtetee gesußt"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:N710600",
+     "name": "Fruit tea (infusion) with sugar"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "black tea with sugar",
+   "names": [
+    "black tea with sugar",
+    "schwarztee mit zucker",
+    "tea with sugar",
+    "sweetened black tea",
+    "tee mit zucker",
+    "gesußter schwarztee",
+    "cay mit zucker"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:N630600",
+     "name": "Black tea (infusion) with sugar"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "black tea with lemon and sugar",
+   "names": [
+    "black tea with lemon and sugar",
+    "schwarztee mit zitrone und zucker",
+    "tea with lemon",
+    "tea with lemon and sugar",
+    "lemon tea",
+    "tee mit zitrone",
+    "zitronentee",
+    "tee mit zitrone und zucker",
+    "schwarztee mit zitrone"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:N630700",
+     "name": "Black tea (infusion) with lemon juice and sugar"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "black tea with cream and sugar",
+   "names": [
+    "black tea with cream and sugar",
+    "schwarztee mit sahne und zucker",
+    "east frisian tea with cream",
+    "east frisian tea with rock sugar and cream",
+    "tea with cream and sugar",
+    "ostfriesentee mit kluntje und sahne",
+    "ostfriesentee mit kluntje",
+    "ostfriesentee mit sahne",
+    "tee mit sahne und zucker",
+    "teetied"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:N630500",
+     "name": "Black tea (infusion) with cream 30 % fat and sugar"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "herbal tea with sugar",
+   "names": [
+    "herbal tea with sugar",
+    "krautertee mit zucker",
+    "sweetened herbal tea",
+    "gesußter krautertee",
+    "pfefferminztee mit zucker",
+    "fencheltee mit zucker"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:N720600",
+     "name": "Herbal tea (infusion) with sugar"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "iced tea black bottled unsweetened",
+   "names": [
+    "iced tea black bottled unsweetened",
+    "iced tea unsweetened",
+    "eistee ungesußt",
+    "unsweetened iced tea",
+    "iced tea no sugar",
+    "ungesußter eistee",
+    "eistee ohne zucker"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "usda:2710531",
+     "name": "Tea, iced, bottled, black, unsweetened"
+    },
+    {
+     "id": "usda:2710517",
+     "name": "Tea, iced, brewed, black, unsweetened"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2710531",
+     "label": "1 fl oz (no ice)",
+     "grams": 30
+    },
+    {
+     "reference": "usda:2710531",
+     "label": "1 fl oz (with ice)",
+     "grams": 23
+    },
+    {
+     "reference": "usda:2710531",
+     "label": "1 fl oz (NFS)",
+     "grams": 30
+    },
+    {
+     "reference": "usda:2710531",
+     "label": "1 can or bottle (12 fl oz)",
+     "grams": 360
+    },
+    {
+     "reference": "usda:2710531",
+     "label": "1 can or bottle (16.9 fl oz)",
+     "grams": 507
+    },
+    {
+     "reference": "usda:2710531",
+     "label": "1 can or bottle (20 fl oz)",
+     "grams": 600
+    },
+    {
+     "reference": "usda:2710531",
+     "label": "1 child/senior drink",
+     "grams": 270
+    },
+    {
+     "reference": "usda:2710531",
+     "label": "1 small drink",
+     "grams": 360
+    },
+    {
+     "reference": "usda:2710531",
+     "label": "1 medium drink",
+     "grams": 495
+    },
+    {
+     "reference": "usda:2710531",
+     "label": "1 large drink",
+     "grams": 720
+    },
+    {
+     "reference": "usda:2710531",
+     "label": "1 extra large drink",
+     "grams": 979
+    }
+   ]
+  },
+  {
+   "key": "iced tea sugar free with sweeteners",
+   "names": [
+    "iced tea sugar free with sweeteners",
+    "iced tea sugar free",
+    "eistee zuckerfrei",
+    "sugar free iced tea",
+    "diet iced tea",
+    "zero iced tea",
+    "eistee zero",
+    "eistee light",
+    "eistee mit sußstoff"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "ciqual:18065",
+     "name": "Boisson au thé, aromatisée, sans sucres ajoutés, avec édulcorants"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "iced tea mix black sweetened dry",
+   "names": [
+    "iced tea mix black sweetened dry",
+    "instant tea powder sweetened",
+    "instant teepulver gesußt",
+    "instant tea powder",
+    "instant iced tea",
+    "iced tea powder",
+    "iced tea mix",
+    "instant teepulver",
+    "instanttee",
+    "eisteepulver",
+    "teepulver",
+    "instant eistee"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "usda:2710511",
+     "name": "Tea, iced, instant, black, pre-sweetened, dry"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2710511",
+     "label": "1 teaspoon, dry",
+     "grams": 4.8
+    }
+   ]
+  },
+  {
+   "key": "iced tea green bottled",
+   "names": [
+    "iced tea green bottled",
+    "green iced tea",
+    "gruner eistee",
+    "green tea iced tea",
+    "iced green tea",
+    "gruntee eistee",
+    "eistee gruntee",
+    "eistee gruner tee"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "usda:2710533",
+     "name": "Tea, iced, bottled, green"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2710533",
+     "label": "1 fl oz (no ice)",
+     "grams": 31
+    },
+    {
+     "reference": "usda:2710533",
+     "label": "1 fl oz (with ice)",
+     "grams": 23
+    },
+    {
+     "reference": "usda:2710533",
+     "label": "1 fl oz (NFS)",
+     "grams": 31
+    },
+    {
+     "reference": "usda:2710533",
+     "label": "1 can or bottle (12 fl oz)",
+     "grams": 372
+    },
+    {
+     "reference": "usda:2710533",
+     "label": "1 Snapple bottle (16 fl oz)",
+     "grams": 496
+    },
+    {
+     "reference": "usda:2710533",
+     "label": "1 can or bottle (16.9 fl oz)",
+     "grams": 524
+    },
+    {
+     "reference": "usda:2710533",
+     "label": "1 can or bottle (20 fl oz)",
+     "grams": 620
+    },
+    {
+     "reference": "usda:2710533",
+     "label": "1 child/senior drink",
+     "grams": 279
+    },
+    {
+     "reference": "usda:2710533",
+     "label": "1 small drink",
+     "grams": 372
+    },
+    {
+     "reference": "usda:2710533",
+     "label": "1 medium drink",
+     "grams": 512
+    },
+    {
+     "reference": "usda:2710533",
+     "label": "1 large drink",
+     "grams": 744
+    },
+    {
+     "reference": "usda:2710533",
+     "label": "1 extra large drink",
+     "grams": 1023
+    }
+   ]
+  }
+ ]
+}

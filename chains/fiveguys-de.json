@@ -1,0 +1,805 @@
+{
+ "chain": "Five Guys Deutschland",
+ "kind": "fast-food",
+ "sourceURL": "https://www.fiveguys.de",
+ "sourceNote": "Five Guys Deutschland publishes one PDF, \"Allergen-and-Nutrition-Info.pdf\" (four pages, made with PDF24 on 15 June 2026): an allergen table, a table of raw materials valid in Germany only, and on pages 3 and 4 \"Nährwertangaben – Five Guys Deutschland\" (FGDE, 15/06/2026), which states per portion and per 100 g: energy in kJ and kcal, fat, saturated fat, carbohydrate, sugar, fibre, protein and salt, but no portion weight. The sheet lists a burger, a hot dog and a shake by their parts (patty, bun, bacon, toppings, sauces, mix-ins), which the file leaves under excluded, and the complete items people order: the fries in four sizes, curry style and loaded fries, the veggie sandwiches, grilled cheese, the BLT, the burger in a lettuce wrap, the plain milkshake in two sizes and the free peanuts. With no stated weight, an item is one portion with the chain's per-portion values; the peanuts, which the sheet states per 100 g only, are per 100 g. The sheet says the values are representative figures from suppliers, public sources or industry-standard software and accredited laboratories, and that hand-made portions vary.",
+ "pdfURL": "https://www.fiveguys.de/wp-content/uploads/sites/33/2026/06/Allergen-and-Nutrition-Info.pdf",
+ "pdfSha256": "03c2cb991cfd8d0174eec551d4e3f0a51bc83cca17b4bbfc8bbc74bd689eecf7",
+ "retrievedOn": "2026-10-30",
+ "checkedDate": "2026-10-30",
+ "sha256": "03c2cb991cfd8d0174eec551d4e3f0a51bc83cca17b4bbfc8bbc74bd689eecf7",
+ "sha256Note": "SHA-256 of the PDF as downloaded; every row comes from its pages 3 and 4.",
+ "rows": [
+  {
+   "id": "mini-fries",
+   "name": "Mini Fries",
+   "category": "fries",
+   "siteCategories": [
+    "FRIES"
+   ],
+   "sheetName": "Mini Fries - frittiert in Erdnuss Öl",
+   "valuesPer100g": {
+    "energyKJ": 1128.0,
+    "calories": 271.0,
+    "fat": 16.0,
+    "saturatedFat": 2.2,
+    "carbs": 29.0,
+    "sugar": 0.4,
+    "fiber": 2.6,
+    "protein": 4.1,
+    "saltGrams": 0.43
+   },
+   "valuesPerServing": {
+    "energyKJ": 1455.0,
+    "calories": 350.0,
+    "fat": 21.0,
+    "saturatedFat": 2.8,
+    "carbs": 37.0,
+    "sugar": 0.5,
+    "fiber": 3.4,
+    "protein": 5.0,
+    "saltGrams": 0.56
+   },
+   "pdfPage": 3,
+   "pageURL": "https://www.fiveguys.de/wp-content/uploads/sites/33/2026/06/Allergen-and-Nutrition-Info.pdf",
+   "dataURL": "https://www.fiveguys.de/wp-content/uploads/sites/33/2026/06/Allergen-and-Nutrition-Info.pdf",
+   "sha256": "03c2cb991cfd8d0174eec551d4e3f0a51bc83cca17b4bbfc8bbc74bd689eecf7"
+  },
+  {
+   "id": "little-fries",
+   "name": "Little Fries",
+   "category": "fries",
+   "siteCategories": [
+    "FRIES"
+   ],
+   "sheetName": "Little Fries - frittiert in Erdnuss Öl",
+   "valuesPer100g": {
+    "energyKJ": 1128.0,
+    "calories": 271.0,
+    "fat": 16.0,
+    "saturatedFat": 2.2,
+    "carbs": 29.0,
+    "sugar": 0.4,
+    "fiber": 2.6,
+    "protein": 4.1,
+    "saltGrams": 0.43
+   },
+   "valuesPerServing": {
+    "energyKJ": 2741.0,
+    "calories": 659.0,
+    "fat": 39.0,
+    "saturatedFat": 5.4,
+    "carbs": 70.0,
+    "sugar": 1.0,
+    "fiber": 6.3,
+    "protein": 10.0,
+    "saltGrams": 1.1
+   },
+   "pdfPage": 3,
+   "pageURL": "https://www.fiveguys.de/wp-content/uploads/sites/33/2026/06/Allergen-and-Nutrition-Info.pdf",
+   "dataURL": "https://www.fiveguys.de/wp-content/uploads/sites/33/2026/06/Allergen-and-Nutrition-Info.pdf",
+   "sha256": "03c2cb991cfd8d0174eec551d4e3f0a51bc83cca17b4bbfc8bbc74bd689eecf7"
+  },
+  {
+   "id": "regular-fries",
+   "name": "Regular Fries",
+   "category": "fries",
+   "siteCategories": [
+    "FRIES"
+   ],
+   "sheetName": "Reg Fries - frittiert in Erdnuss Öl",
+   "valuesPer100g": {
+    "energyKJ": 1128.0,
+    "calories": 271.0,
+    "fat": 16.0,
+    "saturatedFat": 2.2,
+    "carbs": 29.0,
+    "sugar": 0.4,
+    "fiber": 2.6,
+    "protein": 4.1,
+    "saltGrams": 0.43
+   },
+   "valuesPerServing": {
+    "energyKJ": 4467.0,
+    "calories": 1073.0,
+    "fat": 63.0,
+    "saturatedFat": 8.7,
+    "carbs": 115.0,
+    "sugar": 1.6,
+    "fiber": 10.0,
+    "protein": 16.0,
+    "saltGrams": 1.7
+   },
+   "aliases": [
+    "Reg Fries"
+   ],
+   "pdfPage": 3,
+   "pageURL": "https://www.fiveguys.de/wp-content/uploads/sites/33/2026/06/Allergen-and-Nutrition-Info.pdf",
+   "dataURL": "https://www.fiveguys.de/wp-content/uploads/sites/33/2026/06/Allergen-and-Nutrition-Info.pdf",
+   "sha256": "03c2cb991cfd8d0174eec551d4e3f0a51bc83cca17b4bbfc8bbc74bd689eecf7"
+  },
+  {
+   "id": "large-fries",
+   "name": "Large Fries",
+   "category": "fries",
+   "siteCategories": [
+    "FRIES"
+   ],
+   "sheetName": "Large Fries - frittiert in Erdnuss Öl",
+   "valuesPer100g": {
+    "energyKJ": 1128.0,
+    "calories": 271.0,
+    "fat": 16.0,
+    "saturatedFat": 2.2,
+    "carbs": 29.0,
+    "sugar": 0.4,
+    "fiber": 2.6,
+    "protein": 4.1,
+    "saltGrams": 0.43
+   },
+   "valuesPerServing": {
+    "energyKJ": 6283.0,
+    "calories": 1509.0,
+    "fat": 89.0,
+    "saturatedFat": 12.0,
+    "carbs": 162.0,
+    "sugar": 2.2,
+    "fiber": 14.0,
+    "protein": 23.0,
+    "saltGrams": 2.4
+   },
+   "pdfPage": 3,
+   "pageURL": "https://www.fiveguys.de/wp-content/uploads/sites/33/2026/06/Allergen-and-Nutrition-Info.pdf",
+   "dataURL": "https://www.fiveguys.de/wp-content/uploads/sites/33/2026/06/Allergen-and-Nutrition-Info.pdf",
+   "sha256": "03c2cb991cfd8d0174eec551d4e3f0a51bc83cca17b4bbfc8bbc74bd689eecf7"
+  },
+  {
+   "id": "curry-style-fries",
+   "name": "Curry Style Fries",
+   "category": "fries",
+   "siteCategories": [
+    "FRIES"
+   ],
+   "sheetName": "Curry Style Fries",
+   "valuesPer100g": {
+    "energyKJ": 1022.0,
+    "calories": 245.0,
+    "fat": 12.9,
+    "saturatedFat": 2.8,
+    "carbs": 27.3,
+    "sugar": 8.8,
+    "fiber": 1.9,
+    "protein": 5.1,
+    "saltGrams": 1.09
+   },
+   "valuesPerServing": {
+    "energyKJ": 4252.0,
+    "calories": 1019.0,
+    "fat": 54.0,
+    "saturatedFat": 12.0,
+    "carbs": 114.0,
+    "sugar": 37.0,
+    "fiber": 7.9,
+    "protein": 21.0,
+    "saltGrams": 4.53
+   },
+   "pdfPage": 3,
+   "pageURL": "https://www.fiveguys.de/wp-content/uploads/sites/33/2026/06/Allergen-and-Nutrition-Info.pdf",
+   "dataURL": "https://www.fiveguys.de/wp-content/uploads/sites/33/2026/06/Allergen-and-Nutrition-Info.pdf",
+   "sha256": "03c2cb991cfd8d0174eec551d4e3f0a51bc83cca17b4bbfc8bbc74bd689eecf7"
+  },
+  {
+   "id": "loaded-fries",
+   "name": "Loaded Fries",
+   "category": "fries",
+   "siteCategories": [
+    "LOADED FRIES"
+   ],
+   "sheetName": "Loaded Fries",
+   "valuesPer100g": {
+    "energyKJ": 947.0,
+    "calories": 227.0,
+    "fat": 12.3,
+    "saturatedFat": 2.7,
+    "carbs": 23.3,
+    "sugar": 1.3,
+    "fiber": 2.7,
+    "protein": 4.0,
+    "saltGrams": 1.2
+   },
+   "valuesPerServing": {
+    "energyKJ": 3135.0,
+    "calories": 751.0,
+    "fat": 41.0,
+    "saturatedFat": 8.9,
+    "carbs": 77.0,
+    "sugar": 4.3,
+    "fiber": 8.9,
+    "protein": 14.0,
+    "saltGrams": 3.97
+   },
+   "pdfPage": 3,
+   "pageURL": "https://www.fiveguys.de/wp-content/uploads/sites/33/2026/06/Allergen-and-Nutrition-Info.pdf",
+   "dataURL": "https://www.fiveguys.de/wp-content/uploads/sites/33/2026/06/Allergen-and-Nutrition-Info.pdf",
+   "sha256": "03c2cb991cfd8d0174eec551d4e3f0a51bc83cca17b4bbfc8bbc74bd689eecf7"
+  },
+  {
+   "id": "loaded-cajun-fries",
+   "name": "Loaded Cajun Fries",
+   "category": "fries",
+   "siteCategories": [
+    "LOADED FRIES"
+   ],
+   "sheetName": "Loaded Cajun fries",
+   "valuesPer100g": {
+    "energyKJ": 975.0,
+    "calories": 233.0,
+    "fat": 12.7,
+    "saturatedFat": 2.76,
+    "carbs": 23.9,
+    "sugar": 1.2,
+    "fiber": 2.8,
+    "protein": 4.0,
+    "saltGrams": 1.15
+   },
+   "valuesPerServing": {
+    "energyKJ": 3227.0,
+    "calories": 771.0,
+    "fat": 42.0,
+    "saturatedFat": 9.1,
+    "carbs": 79.0,
+    "sugar": 4.0,
+    "fiber": 9.0,
+    "protein": 15.0,
+    "saltGrams": 3.81
+   },
+   "pdfPage": 3,
+   "pageURL": "https://www.fiveguys.de/wp-content/uploads/sites/33/2026/06/Allergen-and-Nutrition-Info.pdf",
+   "dataURL": "https://www.fiveguys.de/wp-content/uploads/sites/33/2026/06/Allergen-and-Nutrition-Info.pdf",
+   "sha256": "03c2cb991cfd8d0174eec551d4e3f0a51bc83cca17b4bbfc8bbc74bd689eecf7"
+  },
+  {
+   "id": "milchshake",
+   "name": "Milchshake",
+   "category": "drink",
+   "siteCategories": [
+    "MILKSHAKES (MIX-INS)"
+   ],
+   "sheetName": "Five Guys Milchshake Basis",
+   "valuesPer100g": {
+    "energyKJ": 737.0,
+    "calories": 176.0,
+    "fat": 9.4,
+    "saturatedFat": 6.2,
+    "carbs": 21.0,
+    "sugar": 20.0,
+    "fiber": 0.0,
+    "protein": 2.2,
+    "saltGrams": 0.2
+   },
+   "valuesPerServing": {
+    "energyKJ": 2616.0,
+    "calories": 625.0,
+    "fat": 33.0,
+    "saturatedFat": 22.0,
+    "carbs": 75.0,
+    "sugar": 69.0,
+    "fiber": 0.0,
+    "protein": 7.8,
+    "saltGrams": 0.71
+   },
+   "aliases": [
+    "Milkshake"
+   ],
+   "pdfPage": 3,
+   "pageURL": "https://www.fiveguys.de/wp-content/uploads/sites/33/2026/06/Allergen-and-Nutrition-Info.pdf",
+   "dataURL": "https://www.fiveguys.de/wp-content/uploads/sites/33/2026/06/Allergen-and-Nutrition-Info.pdf",
+   "sha256": "03c2cb991cfd8d0174eec551d4e3f0a51bc83cca17b4bbfc8bbc74bd689eecf7"
+  },
+  {
+   "id": "veggie-sandwich",
+   "name": "Veggie Sandwich",
+   "category": "sandwich",
+   "siteCategories": [
+    "SONSTIGES"
+   ],
+   "sheetName": "Veggie Sandwich",
+   "valuesPer100g": {
+    "energyKJ": 540.0,
+    "calories": 129.0,
+    "fat": 2.9,
+    "saturatedFat": 1.0,
+    "carbs": 20.0,
+    "sugar": 5.2,
+    "fiber": 2.1,
+    "protein": 3.9,
+    "saltGrams": 0.47
+   },
+   "valuesPerServing": {
+    "energyKJ": 1381.0,
+    "calories": 330.0,
+    "fat": 7.4,
+    "saturatedFat": 2.4,
+    "carbs": 52.0,
+    "sugar": 13.0,
+    "fiber": 5.4,
+    "protein": 10.0,
+    "saltGrams": 1.2
+   },
+   "pdfPage": 3,
+   "pageURL": "https://www.fiveguys.de/wp-content/uploads/sites/33/2026/06/Allergen-and-Nutrition-Info.pdf",
+   "dataURL": "https://www.fiveguys.de/wp-content/uploads/sites/33/2026/06/Allergen-and-Nutrition-Info.pdf",
+   "sha256": "03c2cb991cfd8d0174eec551d4e3f0a51bc83cca17b4bbfc8bbc74bd689eecf7"
+  },
+  {
+   "id": "veggie-sandwich-mit-kaese",
+   "name": "Veggie Sandwich mit Käse",
+   "category": "sandwich",
+   "siteCategories": [
+    "SONSTIGES"
+   ],
+   "sheetName": "Veggie Sandwich mit Käse",
+   "valuesPer100g": {
+    "energyKJ": 611.0,
+    "calories": 146.0,
+    "fat": 4.7,
+    "saturatedFat": 2.0,
+    "carbs": 20.0,
+    "sugar": 5.0,
+    "fiber": 2.0,
+    "protein": 4.8,
+    "saltGrams": 0.86
+   },
+   "valuesPerServing": {
+    "energyKJ": 1791.0,
+    "calories": 428.0,
+    "fat": 14.0,
+    "saturatedFat": 5.9,
+    "carbs": 57.0,
+    "sugar": 15.0,
+    "fiber": 5.9,
+    "protein": 14.0,
+    "saltGrams": 2.5
+   },
+   "aliases": [
+    "Cheese Veggie Sandwich"
+   ],
+   "pdfPage": 3,
+   "pageURL": "https://www.fiveguys.de/wp-content/uploads/sites/33/2026/06/Allergen-and-Nutrition-Info.pdf",
+   "dataURL": "https://www.fiveguys.de/wp-content/uploads/sites/33/2026/06/Allergen-and-Nutrition-Info.pdf",
+   "sha256": "03c2cb991cfd8d0174eec551d4e3f0a51bc83cca17b4bbfc8bbc74bd689eecf7"
+  },
+  {
+   "id": "grilled-cheese",
+   "name": "Grilled Cheese",
+   "category": "sandwich",
+   "siteCategories": [
+    "SONSTIGES"
+   ],
+   "sheetName": "Grilled Cheese",
+   "valuesPer100g": {
+    "energyKJ": 1540.0,
+    "calories": 368.0,
+    "fat": 20.0,
+    "saturatedFat": 6.4,
+    "carbs": 36.0,
+    "sugar": 6.2,
+    "fiber": 1.9,
+    "protein": 11.0,
+    "saltGrams": 1.9
+   },
+   "valuesPerServing": {
+    "energyKJ": 1816.0,
+    "calories": 434.0,
+    "fat": 24.0,
+    "saturatedFat": 7.6,
+    "carbs": 42.0,
+    "sugar": 7.3,
+    "fiber": 2.2,
+    "protein": 12.0,
+    "saltGrams": 2.2
+   },
+   "pdfPage": 3,
+   "pageURL": "https://www.fiveguys.de/wp-content/uploads/sites/33/2026/06/Allergen-and-Nutrition-Info.pdf",
+   "dataURL": "https://www.fiveguys.de/wp-content/uploads/sites/33/2026/06/Allergen-and-Nutrition-Info.pdf",
+   "sha256": "03c2cb991cfd8d0174eec551d4e3f0a51bc83cca17b4bbfc8bbc74bd689eecf7"
+  },
+  {
+   "id": "blt",
+   "name": "BLT",
+   "category": "sandwich",
+   "siteCategories": [
+    "SONSTIGES"
+   ],
+   "sheetName": "BLT",
+   "valuesPer100g": {
+    "energyKJ": 1364.0,
+    "calories": 326.0,
+    "fat": 20.0,
+    "saturatedFat": 5.0,
+    "carbs": 23.0,
+    "sugar": 4.4,
+    "fiber": 1.8,
+    "protein": 11.0,
+    "saltGrams": 1.3
+   },
+   "valuesPerServing": {
+    "energyKJ": 2728.0,
+    "calories": 652.0,
+    "fat": 41.0,
+    "saturatedFat": 9.9,
+    "carbs": 45.0,
+    "sugar": 8.8,
+    "fiber": 3.6,
+    "protein": 22.0,
+    "saltGrams": 2.67
+   },
+   "pdfPage": 3,
+   "pageURL": "https://www.fiveguys.de/wp-content/uploads/sites/33/2026/06/Allergen-and-Nutrition-Info.pdf",
+   "dataURL": "https://www.fiveguys.de/wp-content/uploads/sites/33/2026/06/Allergen-and-Nutrition-Info.pdf",
+   "sha256": "03c2cb991cfd8d0174eec551d4e3f0a51bc83cca17b4bbfc8bbc74bd689eecf7"
+  },
+  {
+   "id": "erdnuesse",
+   "name": "Erdnüsse",
+   "category": "snack",
+   "siteCategories": [
+    "SONSTIGES"
+   ],
+   "sheetName": "Erdnüsse ohne Schale",
+   "valuesPer100g": {
+    "energyKJ": 2462.0,
+    "calories": 594.0,
+    "fat": 43.0,
+    "saturatedFat": 7.0,
+    "carbs": 25.0,
+    "sugar": 5.0,
+    "fiber": 11.0,
+    "protein": 25.0,
+    "saltGrams": 1.9
+   },
+   "aliases": [
+    "Peanuts"
+   ],
+   "pdfPage": 3,
+   "pageURL": "https://www.fiveguys.de/wp-content/uploads/sites/33/2026/06/Allergen-and-Nutrition-Info.pdf",
+   "dataURL": "https://www.fiveguys.de/wp-content/uploads/sites/33/2026/06/Allergen-and-Nutrition-Info.pdf",
+   "sha256": "03c2cb991cfd8d0174eec551d4e3f0a51bc83cca17b4bbfc8bbc74bd689eecf7"
+  },
+  {
+   "id": "burger-im-salat-wrap",
+   "name": "Burger im Salat Wrap",
+   "category": "burger",
+   "siteCategories": [
+    "SONSTIGES"
+   ],
+   "sheetName": "Burger im Salat Wrap",
+   "valuesPer100g": {
+    "energyKJ": 393.0,
+    "calories": 94.0,
+    "fat": 5.0,
+    "saturatedFat": 2.0,
+    "carbs": 2.0,
+    "sugar": 1.0,
+    "fiber": 0.7,
+    "protein": 9.1,
+    "saltGrams": 0.29
+   },
+   "aliases": [
+    "Lettuce Wrap Burger"
+   ],
+   "valueNotes": [
+    "per-portion values left out: 246 kcal per portion do not fit 14 g fat, 5 g carbohydrate and 2.4 g protein, while the per-100 g column fits"
+   ],
+   "pdfPage": 3,
+   "pageURL": "https://www.fiveguys.de/wp-content/uploads/sites/33/2026/06/Allergen-and-Nutrition-Info.pdf",
+   "dataURL": "https://www.fiveguys.de/wp-content/uploads/sites/33/2026/06/Allergen-and-Nutrition-Info.pdf",
+   "sha256": "03c2cb991cfd8d0174eec551d4e3f0a51bc83cca17b4bbfc8bbc74bd689eecf7"
+  },
+  {
+   "id": "milchshake-klein",
+   "name": "Milchshake Klein",
+   "category": "drink",
+   "siteCategories": [
+    "LITTLE MILKSHAKES (MIX-INS)"
+   ],
+   "sheetName": "Five Guys Milchshake Basis Klein",
+   "valuesPer100g": {
+    "energyKJ": 737.0,
+    "calories": 176.0,
+    "fat": 9.4,
+    "saturatedFat": 6.2,
+    "carbs": 21.0,
+    "sugar": 20.0,
+    "fiber": 0.0,
+    "protein": 2.2,
+    "saltGrams": 0.2
+   },
+   "valuesPerServing": {
+    "energyKJ": 1312.0,
+    "calories": 313.0,
+    "fat": 17.0,
+    "saturatedFat": 11.0,
+    "carbs": 37.0,
+    "sugar": 35.0,
+    "fiber": 0.0,
+    "protein": 3.9,
+    "saltGrams": 0.36
+   },
+   "aliases": [
+    "Little Milkshake"
+   ],
+   "pdfPage": 4,
+   "pageURL": "https://www.fiveguys.de/wp-content/uploads/sites/33/2026/06/Allergen-and-Nutrition-Info.pdf",
+   "dataURL": "https://www.fiveguys.de/wp-content/uploads/sites/33/2026/06/Allergen-and-Nutrition-Info.pdf",
+   "sha256": "03c2cb991cfd8d0174eec551d4e3f0a51bc83cca17b4bbfc8bbc74bd689eecf7"
+  }
+ ],
+ "excluded": [
+  {
+   "id": "bacon",
+   "name": "Bacon",
+   "reason": "a part, topping or mix-in a burger, hot dog or shake is built from, not a menu item"
+  },
+  {
+   "id": "rindfleisch-burgerpatty",
+   "name": "Rindfleisch-Burgerpatty",
+   "reason": "a part, topping or mix-in a burger, hot dog or shake is built from, not a menu item"
+  },
+  {
+   "id": "hot-dog",
+   "name": "Hot Dog",
+   "reason": "a part, topping or mix-in a burger, hot dog or shake is built from, not a menu item"
+  },
+  {
+   "id": "burger-broetchen",
+   "name": "Burger-Brötchen",
+   "reason": "a part, topping or mix-in a burger, hot dog or shake is built from, not a menu item"
+  },
+  {
+   "id": "hot-dog-broetchen",
+   "name": "Hot Dog-Brötchen",
+   "reason": "a part, topping or mix-in a burger, hot dog or shake is built from, not a menu item"
+  },
+  {
+   "id": "currywurst-style-loaded-fries",
+   "name": "Currywurst Style Loaded Fries",
+   "reason": "its line breaks across two lines in the PDF with one figure too many, so its per-100 g values cannot be read unambiguously"
+  },
+  {
+   "id": "gewuerfelte-gruene-paprika",
+   "name": "Gewürfelte grüne Paprika",
+   "reason": "a part, topping or mix-in a burger, hot dog or shake is built from, not a menu item"
+  },
+  {
+   "id": "zwiebeln",
+   "name": "Zwiebeln",
+   "reason": "a part, topping or mix-in a burger, hot dog or shake is built from, not a menu item"
+  },
+  {
+   "id": "gewuerfelte-jalape-os",
+   "name": "Gewürfelte Jalapeños",
+   "reason": "a part, topping or mix-in a burger, hot dog or shake is built from, not a menu item"
+  },
+  {
+   "id": "gewuerfelte-tomaten",
+   "name": "Gewürfelte Tomaten",
+   "reason": "a part, topping or mix-in a burger, hot dog or shake is built from, not a menu item"
+  },
+  {
+   "id": "curry-sauce",
+   "name": "Curry Sauce",
+   "reason": "a part, topping or mix-in a burger, hot dog or shake is built from, not a menu item"
+  },
+  {
+   "id": "bbq-sauce",
+   "name": "BBQ Sauce",
+   "reason": "a part, topping or mix-in a burger, hot dog or shake is built from, not a menu item"
+  },
+  {
+   "id": "kaese-aus-pasteurisierter-milch",
+   "name": "Käse aus pasteurisierter Milch",
+   "reason": "a part, topping or mix-in a burger, hot dog or shake is built from, not a menu item"
+  },
+  {
+   "id": "gruene-paprika",
+   "name": "Grüne Paprika",
+   "reason": "a part, topping or mix-in a burger, hot dog or shake is built from, not a menu item"
+  },
+  {
+   "id": "gegrillte-champignons",
+   "name": "Gegrillte Champignons",
+   "reason": "a part, topping or mix-in a burger, hot dog or shake is built from, not a menu item"
+  },
+  {
+   "id": "hot-sauce",
+   "name": "Hot Sauce",
+   "reason": "a part, topping or mix-in a burger, hot dog or shake is built from, not a menu item"
+  },
+  {
+   "id": "steak-sauce",
+   "name": "Steak Sauce",
+   "reason": "a part, topping or mix-in a burger, hot dog or shake is built from, not a menu item"
+  },
+  {
+   "id": "jalape-o-peppers",
+   "name": "Jalapeño Peppers",
+   "reason": "a part, topping or mix-in a burger, hot dog or shake is built from, not a menu item"
+  },
+  {
+   "id": "tomato-ketchup",
+   "name": "Tomato Ketchup",
+   "reason": "a part, topping or mix-in a burger, hot dog or shake is built from, not a menu item"
+  },
+  {
+   "id": "eisbergsalat",
+   "name": "Eisbergsalat",
+   "reason": "a part, topping or mix-in a burger, hot dog or shake is built from, not a menu item"
+  },
+  {
+   "id": "mayonnaise",
+   "name": "Mayonnaise",
+   "reason": "a part, topping or mix-in a burger, hot dog or shake is built from, not a menu item"
+  },
+  {
+   "id": "senf",
+   "name": "Senf",
+   "reason": "a part, topping or mix-in a burger, hot dog or shake is built from, not a menu item"
+  },
+  {
+   "id": "zwiebeln",
+   "name": "Zwiebeln",
+   "reason": "a part, topping or mix-in a burger, hot dog or shake is built from, not a menu item"
+  },
+  {
+   "id": "gegrillte-zwiebeln",
+   "name": "Gegrillte Zwiebeln",
+   "reason": "a part, topping or mix-in a burger, hot dog or shake is built from, not a menu item"
+  },
+  {
+   "id": "gewuerzgurken",
+   "name": "Gewürzgurken",
+   "reason": "a part, topping or mix-in a burger, hot dog or shake is built from, not a menu item"
+  },
+  {
+   "id": "relish",
+   "name": "Relish",
+   "reason": "a part, topping or mix-in a burger, hot dog or shake is built from, not a menu item"
+  },
+  {
+   "id": "tomaten",
+   "name": "Tomaten",
+   "reason": "a part, topping or mix-in a burger, hot dog or shake is built from, not a menu item"
+  },
+  {
+   "id": "roestzwiebeln",
+   "name": "Röstzwiebeln",
+   "reason": "a part, topping or mix-in a burger, hot dog or shake is built from, not a menu item"
+  },
+  {
+   "id": "schlagsahne",
+   "name": "Schlagsahne",
+   "reason": "a part, topping or mix-in a burger, hot dog or shake is built from, not a menu item"
+  },
+  {
+   "id": "banane",
+   "name": "Banane",
+   "reason": "a part, topping or mix-in a burger, hot dog or shake is built from, not a menu item"
+  },
+  {
+   "id": "schokolade",
+   "name": "Schokolade",
+   "reason": "a part, topping or mix-in a burger, hot dog or shake is built from, not a menu item"
+  },
+  {
+   "id": "biscoff",
+   "name": "Biscoff®",
+   "reason": "a part, topping or mix-in a burger, hot dog or shake is built from, not a menu item"
+  },
+  {
+   "id": "oreo-cookie",
+   "name": "Oreo® Cookie",
+   "reason": "a part, topping or mix-in a burger, hot dog or shake is built from, not a menu item"
+  },
+  {
+   "id": "reese-s-peanut-butter-cups",
+   "name": "Reese’s Peanut Butter Cups",
+   "reason": "a part, topping or mix-in a burger, hot dog or shake is built from, not a menu item"
+  },
+  {
+   "id": "erdnussbutter",
+   "name": "Erdnussbutter",
+   "reason": "a part, topping or mix-in a burger, hot dog or shake is built from, not a menu item"
+  },
+  {
+   "id": "gesalzenes-karamell",
+   "name": "Gesalzenes Karamell",
+   "reason": "a part, topping or mix-in a burger, hot dog or shake is built from, not a menu item"
+  },
+  {
+   "id": "erdbeere",
+   "name": "Erdbeere",
+   "reason": "a part, topping or mix-in a burger, hot dog or shake is built from, not a menu item"
+  },
+  {
+   "id": "cinnamon-bun",
+   "name": "Cinnamon Bun",
+   "reason": "a part, topping or mix-in a burger, hot dog or shake is built from, not a menu item"
+  },
+  {
+   "id": "iced-coffee",
+   "name": "Iced Coffee",
+   "reason": "a part, topping or mix-in a burger, hot dog or shake is built from, not a menu item"
+  },
+  {
+   "id": "pistazie",
+   "name": "Pistazie",
+   "reason": "a part, topping or mix-in a burger, hot dog or shake is built from, not a menu item"
+  },
+  {
+   "id": "cajun-seasoning",
+   "name": "Cajun seasoning",
+   "reason": "a part, topping or mix-in a burger, hot dog or shake is built from, not a menu item"
+  },
+  {
+   "id": "schlagsahne-klein",
+   "name": "Schlagsahne Klein",
+   "reason": "a part, topping or mix-in a burger, hot dog or shake is built from, not a menu item"
+  },
+  {
+   "id": "banane-klein",
+   "name": "Banane Klein",
+   "reason": "a part, topping or mix-in a burger, hot dog or shake is built from, not a menu item"
+  },
+  {
+   "id": "schokolade-klein",
+   "name": "Schokolade Klein",
+   "reason": "a part, topping or mix-in a burger, hot dog or shake is built from, not a menu item"
+  },
+  {
+   "id": "biscoff-klein",
+   "name": "Biscoff® Klein",
+   "reason": "a part, topping or mix-in a burger, hot dog or shake is built from, not a menu item"
+  },
+  {
+   "id": "oreo-cookie-klein",
+   "name": "Oreo® Cookie Klein",
+   "reason": "a part, topping or mix-in a burger, hot dog or shake is built from, not a menu item"
+  },
+  {
+   "id": "reese-s-peanut-butter-cups-klein",
+   "name": "Reese’s Peanut Butter Cups Klein",
+   "reason": "a part, topping or mix-in a burger, hot dog or shake is built from, not a menu item"
+  },
+  {
+   "id": "erdnussbutter-klein",
+   "name": "Erdnussbutter Klein",
+   "reason": "a part, topping or mix-in a burger, hot dog or shake is built from, not a menu item"
+  },
+  {
+   "id": "gesalzenes-karamell-klein",
+   "name": "Gesalzenes Karamell Klein",
+   "reason": "a part, topping or mix-in a burger, hot dog or shake is built from, not a menu item"
+  },
+  {
+   "id": "erdbeere-klein",
+   "name": "Erdbeere Klein",
+   "reason": "a part, topping or mix-in a burger, hot dog or shake is built from, not a menu item"
+  },
+  {
+   "id": "cinnamon-bun-klein",
+   "name": "Cinnamon Bun Klein",
+   "reason": "a part, topping or mix-in a burger, hot dog or shake is built from, not a menu item"
+  },
+  {
+   "id": "iced-coffee-klein",
+   "name": "Iced Coffee Klein",
+   "reason": "a part, topping or mix-in a burger, hot dog or shake is built from, not a menu item"
+  },
+  {
+   "id": "pistazie-klein",
+   "name": "Pistazie Klein",
+   "reason": "a part, topping or mix-in a burger, hot dog or shake is built from, not a menu item"
+  }
+ ]
+}

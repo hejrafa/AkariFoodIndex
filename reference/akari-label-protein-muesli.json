@@ -1,0 +1,76 @@
+{
+  "id": "akari:label:protein-muesli",
+  "name": "Protein muesli",
+  "identity": "Muesli enriched with protein flakes or crisps, 15 to 30 g protein per 100 g.",
+  "rule": "Per 100 g, each value is the median of the three labels below that declare it, and a value enters only when at least three labels declare it (default flavours). Salt becomes sodium (salt in g × 400 = sodium in mg). Nothing a label leaves out becomes zero. Labels read on 2026-10-30 from Open Food Facts through Akari's proxy, as the beef protein isolate was.",
+  "nutrients": {
+    "calories": 377.0,
+    "fat": 10.0,
+    "saturatedFat": 1.8,
+    "carbs": 48.0,
+    "sugar": 16.0,
+    "protein": 29.0,
+    "sodium": 8.0
+  },
+  "portions": [
+    {
+      "grams": 50,
+      "label": "1 serving"
+    }
+  ],
+  "labels": [
+    {
+      "brand": "Seitenbacher",
+      "product": "Protein Muesli 2",
+      "read": "Open Food Facts 0039545007892 through https://api.joinakari.com/v1/off/product/0039545007892",
+      "date": "2026-10-30",
+      "ingredients": "not stated in the entry",
+      "serving": "1 cup (100 g)",
+      "per100g": {
+        "energyKcal": 450.0,
+        "fat": 15.0,
+        "saturates": 5.0,
+        "carbohydrate": 48.0,
+        "sugars": 16.0,
+        "protein": 30.0,
+        "salt": 0.25
+      }
+    },
+    {
+      "brand": "Foodspring",
+      "product": "Protein Muesli Heidelbeere - Tigernuss",
+      "read": "Open Food Facts 4260363481212 through https://api.joinakari.com/v1/off/product/4260363481212",
+      "date": "2026-10-30",
+      "ingredients": "Defatted soy flakes, spelt flakes, dried apples, tigernut flakes (8%), freeze-dried blueberries (8%), cashews, freeze-dried strawberries, puffed quinoa, chia seeds.",
+      "serving": "not stated",
+      "per100g": {
+        "energyKJ": 1473.0,
+        "energyKcal": 354.0,
+        "fat": 9.0,
+        "saturates": 1.2,
+        "carbohydrate": 31.0,
+        "sugars": 16.0,
+        "protein": 29.0,
+        "salt": 0.01
+      }
+    },
+    {
+      "brand": "Tribe",
+      "product": "Protein Muesli",
+      "read": "Open Food Facts 5060468522884 through https://api.joinakari.com/v1/off/product/5060468522884",
+      "date": "2026-10-30",
+      "ingredients": "not stated in the entry",
+      "serving": "1 portion (100 g)",
+      "per100g": {
+        "energyKJ": 1690.0,
+        "energyKcal": 377.0,
+        "fat": 10.0,
+        "saturates": 1.8,
+        "carbohydrate": 57.0,
+        "sugars": 8.2,
+        "protein": 15.0,
+        "salt": 0.02
+      }
+    }
+  ]
+}

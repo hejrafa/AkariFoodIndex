@@ -1,0 +1,176 @@
+{
+ "batch": 38,
+ "identities": [
+  {
+   "key": "apple banana and pear puree unsweetened",
+   "names": [
+    "apple banana and pear puree unsweetened",
+    "fruit pouch apple and banana",
+    "fruchtquetschie apfel banane",
+    "fruit pouch",
+    "squeeze pouch",
+    "fruit squeeze pouch",
+    "apple banana pouch",
+    "quetschie",
+    "quetschbeutel",
+    "fruchtquetschbeutel",
+    "quetschie apfel banane",
+    "apfel bananen birnenmus"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:Y8A3000",
+     "name": "Apple-banana-pear sauce unsweetened"
+    },
+    {
+     "id": "bls:Y814210",
+     "name": "Apple-banana-pear sauce raw"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "toddler puffs fruit",
+   "names": [
+    "toddler puffs fruit",
+    "toddler puffs",
+    "baby puffs",
+    "baby snack puffs",
+    "melt in the mouth puffs",
+    "knabberpuffs",
+    "babypuffs",
+    "kleinkind puffs",
+    "knusperringe fur babys"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "usda:2708191",
+     "name": "Baby Toddler puffs, fruit"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2708191",
+     "label": "1 puff",
+     "grams": 0.1
+    },
+    {
+     "reference": "usda:2708191",
+     "label": "1 cup",
+     "grams": 15
+    }
+   ]
+  },
+  {
+   "key": "toddler crackers",
+   "names": [
+    "toddler crackers",
+    "kleinkind cracker",
+    "baby crackers",
+    "toddler cracker",
+    "baby rice crackers",
+    "baby rice cakes",
+    "babycracker",
+    "baby reiswaffeln",
+    "kinder reiswaffeln",
+    "knabbercracker baby"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "usda:2708190",
+     "name": "Baby Toddler crackers"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2708190",
+     "label": "1 cracker",
+     "grams": 1
+    },
+    {
+     "reference": "usda:2708190",
+     "label": "1 cup",
+     "grams": 60
+    }
+   ]
+  },
+  {
+   "key": "toddler meal vegetables starch milk from 18 months",
+   "names": [
+    "toddler meal vegetables starch milk from 18 months",
+    "toddler meal from 18 months",
+    "kleinkindmenu ab 18 monaten",
+    "toddler meal",
+    "toddler dinner",
+    "toddler ready meal",
+    "kleinkindmenu",
+    "kindermenu ab 1 jahr",
+    "kleinkindteller",
+    "kinderteller fertiggericht"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "ciqual:20254",
+     "name": "Plat légumes, avec féculent et lait/crème, dès 18 mois"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "baby food fruit and vegetables with grain",
+   "names": [
+    "baby food fruit and vegetables with grain",
+    "fruit vegetable and grain puree baby",
+    "obst gemuse getreide brei",
+    "fruit vegetable grain puree",
+    "baby fruit and vegetable with cereal",
+    "obst gemuse getreidebrei",
+    "frucht gemuse getreide brei",
+    "getreide obst gemuse brei"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "usda:2709359",
+     "name": "Baby Toddler fruit and vegetables, with grain"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2709359",
+     "label": "1 tablespoon",
+     "grams": 15
+    },
+    {
+     "reference": "usda:2709359",
+     "label": "1 jar",
+     "grams": 110
+    },
+    {
+     "reference": "usda:2709359",
+     "label": "1 tub",
+     "grams": 110
+    },
+    {
+     "reference": "usda:2709359",
+     "label": "1 pouch",
+     "grams": 110
+    }
+   ]
+  }
+ ]
+}

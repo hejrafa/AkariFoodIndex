@@ -1,0 +1,51 @@
+{
+  "id": "akari:label:vitamin-d3-2000-iu",
+  "name": "Vitamin D3 2,000 IU tablet or capsule",
+  "identity": "One-a-day vitamin D3 at 2,000 IU (50 µg, 1,000 % NRV) as tablet, mini tablet or softgel; the dose is one unit.",
+  "rule": "Per 100 g of the product, each value is the median of the labels below that declare it, and a value enters only when at least three declare it; a label states its nutrients per dose, so the file converts them with the dose's weight (the pack's net content divided by its count of tablets, capsules, sticks or drops, or the stated dose weight). Salt becomes sodium (salt in g × 400 = sodium in mg). Fewer than three labels declare energy, so the row stands at 0 kcal under the verification policy's clause for label generics with a micronutrient. Nothing a label leaves out becomes zero. Labels read on 2026-10-30 from dm.de, rossmann.de and shop-apotheke.com product pages.",
+  "nutrients": {
+    "vitaminD": 16339.9,
+    "calories": 0
+  },
+  "portions": [
+    {
+      "grams": 0.306,
+      "label": "1 tablet or capsule"
+    }
+  ],
+  "labels": [
+    {
+      "brand": "Doppelherz",
+      "product": "Vitamin D3 2000 I.E. Mini Tabletten 60 St, 24,9 g",
+      "read": "https://www.dm.de/p/d/1582081/ (dm.de product page, Nährwerte and Zutaten panels; GTIN not stated)",
+      "date": "2026-10-30",
+      "ingredients": "Füllstoff Calciumcarbonat, Füllstoff mikrokristalline Cellulose, Maltodextrin, Überzugsmittel Hydroxypropylmethylcellulose, Füllstoff Isomalt, Trennmittel Magnesiumsalze der Speisefettsäuren, mittelkettige Triglyceride, Vitamin D, Überzugsmittel Carnaubawachs",
+      "serving": "1 Tablette: 60 units weigh 24.9 g, so the dose is 0.415 g; the label declares per dose: vitaminDUg 50; no energy declared",
+      "per100g": {
+        "vitaminDUg": 12048.2
+      }
+    },
+    {
+      "brand": "tetesept",
+      "product": "Vitamin D3 2000 I.E Tabletten 50 St, 15,3 g",
+      "read": "https://www.dm.de/p/d/1521264/ (dm.de product page, Nährwerte and Zutaten panels; GTIN not stated)",
+      "date": "2026-10-30",
+      "ingredients": "Füllstoff: Mikro-kristalline Cellulose; Maltodextrin; modifizierte Stärke; Trennmittel: Magnesiumsalze der Speisefettsäuren; Überzugsmittel: Hydroxypropylcellulose, Hydroxypropylmethylcellulose; Saccharose; Farbstoff: Calciumcarbonat; Trennmittel: Talkum, Speisefettsäure; Öl, pflanzlich (Kokosnuss); Farbstoff: Eisenoxid gelb; Cholecalciferol (Vitamin D3)",
+      "serving": "1 Portion (1 Tablette): 50 units weigh 15.3 g, so the dose is 0.306 g; the label declares per dose: vitaminDUg 50; no energy declared",
+      "per100g": {
+        "vitaminDUg": 16339.9
+      }
+    },
+    {
+      "brand": "Vigantolvit",
+      "product": "Vitamin D3 2000 I.E. 60 Weichkapseln, 10,8 g",
+      "read": "https://www.dm.de/p/d/1612747/ (dm.de product page, Nährwerte and Zutaten panels; GTIN not stated)",
+      "date": "2026-10-30",
+      "ingredients": "Mittelkettige Triglyceride (aus Kokosnuss- und Palmöl), Rindergelatine, Festigungsmittel: Glycerin, Antioxidationsmittel: Alpha-Tocopherol, Cholecalciferol (Vitamin D3)",
+      "serving": "1 Weichkapsel (0,18 g): 60 units weigh 10.8 g, so the dose is 0.18 g; the label declares per dose: vitaminDUg 50; no energy declared",
+      "per100g": {
+        "vitaminDUg": 27777.8
+      }
+    }
+  ]
+}

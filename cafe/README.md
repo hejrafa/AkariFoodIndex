@@ -1,6 +1,6 @@
 # Café catalog audit — 6 September 2026
 
-Akari now bundles a café-specific catalog alongside its national tables and Open Food Facts. It contains 213 generic recipe/average entries and 1,161 Starbucks Germany drink–milk–size entries. These counts include variants, not distinct drink families. No new server or API subscription is required. The public FoodIndex release is unchanged; this catalog ships with the app.
+Akari now bundles a café-specific catalog alongside its national tables and Open Food Facts. It contains 216 generic recipe/average entries and 1,161 Starbucks Germany drink–milk–size entries. These counts include variants, not distinct drink families. No new server or API subscription is required. The public FoodIndex release is unchanged; this catalog ships with the app.
 
 ## Sources and decisions
 
@@ -27,7 +27,7 @@ unmeasured powder displacement and foam. Mocha recipes use the finished mocha
 reference (AUSNUT 11202013, 1.02 g/ml), rather than adding dry cocoa/sugar bulk
 volumes to a liquid. Iced recipe volumes describe liquid after ice melts.
 
-All 213 generic drinks now have an explicitly approximate conversion. New café
+All 216 generic drinks now have an explicitly approximate conversion. New café
 servings use practical defaults: nearest 25 ml for drinks of at least 100 ml,
 nearest 5 ml for smaller drinks. Nutrition is scaled to that displayed volume;
 we do not display a rounded amount while secretly logging the original recipe
@@ -88,3 +88,45 @@ python3 -m unittest discover -s Scripts -p 'test_cafe_catalog.py'
 ```
 
 `ingredients.json`, `liquid-measures.json`, and `starbucks-de.json` are the reviewed input facts, not generated nutrition guesses. `Scripts/import_cafe_sources.py` can reproduce their source extraction from locally downloaded official workbooks and PDF (openpyxl/pdfplumber required). Review source changes before regenerating. `CafeDrinkCatalogTests` exercises offline coverage, strict milk/brand matching, group pagination, independent brand portions, matcha units, artwork, and HealthKit quantity metadata/relogging. See `Akari/CafeData-LICENSE.txt` for source reuse/attribution.
+
+## Verified counterparts, second pass (30 October 2026, evening)
+
+On the architect's instruction of 30 October 2026 the six AUSNUT ingredients
+that failed the 15 % rule are mapped to the verified row of the same food in
+the same state anyway, because the drink's values then come from that
+measured row and the AUSNUT value is no longer used: oat beverage 20103001 →
+BLS C660000 (the oat-drink family's median serving falls from 38.7 to
+22.3 kcal per 100 g, 54 → 29 kcal for the drink itself), soy beverage
+20101002 → USDA 2705405 (42.5 → 28.3; 59 → 38), almond beverage 20105001 →
+BLS H800000 (13.4 → 19.0; 16 → 24), coconut beverage 20105006 → USDA 2705413
+(19.9 → 23.7; 25 → 31), cocoa powder 11904001 → BLS S711000 (mochas with cow's
+milk 61.2 → 62.2; the powder 319 → 365 kcal) and brewed chai 11101004 → USDA
+black tea 2710488 (chai lattes 24.9 → 25.2). The AUSNUT values each reference
+lacks (caffeine, iodine, selenium, vitamin C) are filled and marked, as the
+espresso rows' iodine was. MEXT matcha 16035 is a curated reference itself
+(17 nutrients; the app's thin-row list names it), so the 19 matcha drinks keep
+their values. Instant coffee 11201001 maps to Ciqual 18073 and decaf instant
+11203001 to BLS N440100, both within the rules. The long blacks, the sweetened
+Turkish coffee and the powder chai latte had AUSNUT recipe rows with no
+counterpart; they are now built from verified parts in
+`build_cafe_catalog.py`: espresso and water (30 + 220 g, 60 + 190 g, decaf
+30 + 220 g), espresso, water and sugar (40 + 16 + 4 g) and 20 g of Akari's
+chai latte powder generic (`FoodIndex/reference/akari-label-chai-latte-powder.json`,
+three supermarket labels) in 230 g whole milk; that drink declares no water,
+since labels state no moisture. With this every one of the 216 generic drinks
+is verified: `dishes.cafe.verified` equals `dishes.cafe.generic`.
+
+## Barista oat drink (30 October 2026, b216 follow-up)
+
+Cafés pour barista oat drinks, not the unsweetened retail oat drink: Oatly
+Barista Edition, Alpro Barista Hafer, dmBio, enerBiO and Alnatura Barista
+state 50 to 61 kcal per 100 ml, the BLS C660000 row 29 kcal, so an oat latte
+on the BLS row was undercounted by about a third. The oat ingredient now maps
+to `akari:label:oat-drink-barista` (FoodIndex/reference), the median of those
+five labels: 54 kcal, 2.0 g fat, 6.7 g carbohydrate, 3.4 g sugar, 1.1 g
+protein, 52 mg sodium per 100 ml, with the AUSNUT row's caffeine and water filled and marked as before; the plain oat drink staple
+keeps BLS C660000 and the barista generic is a plant-based staple of its own.
+Per 100 ml the other milks' barista labels sit within the 15 % rule of the
+measured rows and stay: Alpro Barista Sojadrink 42 kcal against USDA 2705405
+at 38; Alpro Barista Mandel 24 and Natumi Mandeldrink Barista 19 against BLS
+H800000 at 24; Alpro Barista Kokosnuss 33 against USDA 2705413 at 31.

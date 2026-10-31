@@ -1,0 +1,85 @@
+{
+ "batch": 37,
+ "identities": [
+  {
+   "key": "pork kebab grilled with fat",
+   "names": [
+    "pork kebab grilled with fat",
+    "pork kebab skewer grilled",
+    "schweinefleischspieß gegrillt",
+    "pork kebab",
+    "pork skewer",
+    "souvlaki pork skewer",
+    "grilled pork kebab",
+    "fleischspieß schwein",
+    "souvlaki spieß",
+    "schweinespieß"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "cofid:18-541",
+     "name": "Pork, diced, kebabs, grilled, lean and fat"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "pork shashlik grilled",
+   "names": [
+    "pork shashlik grilled",
+    "shashlik pork grilled",
+    "schaschlik schwein gegrillt",
+    "shashlik",
+    "schaschlik",
+    "pork shashlik",
+    "schaschlikspieß",
+    "schaschlik vom schwein"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:Y336022",
+     "name": "Shashlik with pork grilled"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "taco shell corn",
+   "names": [
+    "taco shell corn"
+   ],
+   "origins": [
+    "recipe-ingredient"
+   ],
+   "references": [
+    {
+     "id": "usda:2707826",
+     "name": "Taco shell, corn"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2707826",
+     "label": "1 miniature",
+     "grams": 7
+    },
+    {
+     "reference": "usda:2707826",
+     "label": "1 small",
+     "grams": 18
+    },
+    {
+     "reference": "usda:2707826",
+     "label": "1 medium",
+     "grams": 28
+    }
+   ]
+  }
+ ]
+}

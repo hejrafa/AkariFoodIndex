@@ -1,5 +1,6 @@
 {
  "chain": "McDonald's Deutschland",
+ "kind": "fast-food",
  "sourceURL": "https://www.mcdonalds.com/de/de-de/produkte/alle-produkte.html",
  "sourceNote": "McDonald's Deutschland publishes its nutrition per product on each product page (Nährwerte per 100 g and per portion with the portion's weight, and allergens); https://www.mcdonalds.com/de/de-de/produkte/naehrwert-und-allergeninformationen.html says the values are rounded European averages from accredited laboratories for standard recipes and portions. There is no PDF: each page reads its table from the site's own item data service, named in the page as data-product-api-url, recorded per row as dataURL with the SHA-256 of the response text. portionMilliliters is set only where the site itself states the sold volume, in the product's name or the page address; the McCafé Small, Regular and Grande cups have no stated volume on the site and keep only the table's portion weight.",
  "retrievedOn": "2026-10-30",

@@ -1,0 +1,86 @@
+{
+  "id": "akari:label:electrolyte-sachet",
+  "name": "Electrolyte powder stick",
+  "identity": "Electrolyte powder sticks stirred into water, with sodium, potassium and magnesium and usually glucose; the dose is the label's daily sticks.",
+  "rule": "Per 100 g of the product, each value is the median of the labels below that declare it, and a value enters only when at least three declare it; a label states its nutrients per dose, so the file converts them with the dose's weight (the pack's net content divided by its count of tablets, capsules, sticks or drops, or the stated dose weight). Salt becomes sodium (salt in g × 400 = sodium in mg). Fewer than three labels declare energy, so the row stands at 0 kcal under the verification policy's clause for label generics with a micronutrient. Nothing a label leaves out becomes zero. Labels read on 2026-10-30 from dm.de, rossmann.de and shop-apotheke.com product pages.",
+  "nutrients": {
+    "potassium": 2583.33,
+    "magnesium": 1250,
+    "sodium": 5291.66,
+    "calories": 0
+  },
+  "portions": [
+    {
+      "grams": 12.0,
+      "label": "1 daily dose of sticks"
+    }
+  ],
+  "labels": [
+    {
+      "brand": "sanotact",
+      "product": "Elektrolyte plus, 20 Sticks, 120 g",
+      "read": "https://www.rossmann.de/de/gesundheit-sanotact-elektrolyte-plus/p/4003087445807 (rossmann.de product page, Zutaten and Nährwerte sections; GTIN 4003087445807)",
+      "date": "2026-10-30",
+      "ingredients": "Dextrose, Magnesiumcitrat, Natriumchlorid, Natriumcitrat, Säuerungsmittel Citronensäure, Kaliumchlorid, Aroma, Süßungsmittel Natriumcyclamat, Süßungsmittel Natriumsaccharin",
+      "serving": "2 Sticks: 20 units weigh 120 g, so the dose is 12 g; the label declares per dose: sodiumMg 640, potassiumMg 300, magnesiumMg 150; glucose 6000 mg, chloride 870 mg per 2 sticks; no energy or macros declared",
+      "per100g": {
+        "potassiumMg": 2500.0,
+        "magnesiumMg": 1250.0,
+        "salt": 13.3333
+      }
+    },
+    {
+      "brand": "altapharma",
+      "product": "Isotrans Elektrolyte Komplex, 20 Sachets à 6 g, 120 g",
+      "read": "https://www.rossmann.de/de/gesundheit-altapharma-isotrans-elektrolyte-komplex/p/4305615996448 (rossmann.de product page, Zutaten and Nährwerte sections; GTIN 4305615996448)",
+      "date": "2026-10-30",
+      "ingredients": "Dextrose, Säuerungsmittel Citronensäure, Natriumcitrat, Magnesiumcitrat, Natriumchlorid, Kaliumchlorid, Aroma, Süßungsmittel Sucralose",
+      "serving": "2 Sachets: 20 units weigh 120 g, so the dose is 12 g; the label declares per dose: sodiumMg 630, potassiumMg 310, magnesiumMg 150; chloride 800 mg per 2 sachets; per 100 g 1253 kJ / 295 kcal, fat < 0.5 g, saturates 0 g, carbohydrate 74 g, sugars 45 g, protein < 0.5 g, salt 14.4 g; under-values counted at half the threshold",
+      "per100g": {
+        "potassiumMg": 2583.33,
+        "magnesiumMg": 1250.0,
+        "energyKcal": 295.0,
+        "fat": 0.25,
+        "saturates": 0.0,
+        "carbohydrate": 74.0,
+        "sugars": 45.0,
+        "protein": 0.25,
+        "salt": 13.125
+      }
+    },
+    {
+      "brand": "Mivolis",
+      "product": "Elektrolyte Sticks 20St, 120 g",
+      "read": "https://www.dm.de/p/d/3104272/ (dm.de product page, Nährwerte and Zutaten panels; GTIN not stated)",
+      "date": "2026-10-30",
+      "ingredients": "Dextrose, Magnesiumcitrat, Natriumchlorid, Natriumcitrat, Kaliumchlorid, Säuerungsmittel Citronensäure, Aroma, Süßungsmittel Natriumsaccharin, Rote Bete Saftpulver, L-Ascorbinsäure (Vitamin C)",
+      "serving": "2 Sticks: 20 units weigh 120 g, so the dose is 12 g; the label declares per dose: sodiumMg 640, potassiumMg 310, magnesiumMg 150, vitaminCMg 12; glucose 6000 mg, chloride 860 mg per dose; per 100 g 1227 kJ / 288 kcal, fat < 0.5 g, saturates 0.1 g, carbohydrate 59 g, sugars 58 g, protein < 0.5 g, salt 13.3 g; under-values counted at half the threshold; the page's table states no dose count, and the dose is taken as two 6 g sticks because 13.3 g salt per 100 g gives the declared 640 mg sodium only at 12 g",
+      "per100g": {
+        "potassiumMg": 2583.33,
+        "magnesiumMg": 1250.0,
+        "vitaminCMg": 100.0,
+        "energyKcal": 288.0,
+        "fat": 0.25,
+        "saturates": 0.1,
+        "carbohydrate": 59.0,
+        "sugars": 58.0,
+        "protein": 0.25,
+        "salt": 13.3333
+      }
+    },
+    {
+      "brand": "ESN",
+      "product": "Daily Drip Hydration Electrolyte Boost Sticks 7 St, Fresh Lemon, 91 g",
+      "read": "https://www.dm.de/p/d/3150596/ (dm.de product page, Nährwerte and Zutaten panels; GTIN not stated)",
+      "date": "2026-10-30",
+      "ingredients": "Natriumcitrat, Kokoswasserpulver, L-Carnitin-L-Tartrat, Aroma, Säuerungsmittel (Citronensäure, Äpfelsäure), Dextrin, Kaliumcitrat, Calciumcitrat, Magnesiumcitrat, Natriumbicarbonat, Trennmittel Siliciumdioxid, Süßungsmittel (Sucralose, Steviolglycoside aus Stevia), Farbstoffe Carotin, Vitamin B6",
+      "serving": "1 Stick: 7 units weigh 91 g, so the dose is 13 g; the label declares per dose: sodiumMg 650, calciumMg 220, potassiumMg 420, magnesiumMg 114; carnitine 1100 mg, B6 1.5 mg; no energy or macros declared; the page's table states no dose count; taken as one stick, the one-a-day form the 7-stick pack implies",
+      "per100g": {
+        "calciumMg": 1692.31,
+        "potassiumMg": 3230.77,
+        "magnesiumMg": 876.923,
+        "salt": 12.5
+      }
+    }
+  ]
+}

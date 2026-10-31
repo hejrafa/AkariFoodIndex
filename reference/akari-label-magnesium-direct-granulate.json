@@ -1,0 +1,87 @@
+{
+  "id": "akari:label:magnesium-direct-granulate",
+  "name": "Magnesium direct granulate stick",
+  "identity": "Magnesium granulate taken straight from the stick without water, 400 mg magnesium with B vitamins; the dose is one stick.",
+  "rule": "Per 100 g of the product, each value is the median of the labels below that declare it, and a value enters only when at least three declare it; a label states its nutrients per dose, so the file converts them with the dose's weight (the pack's net content divided by its count of tablets, capsules, sticks or drops, or the stated dose weight). Salt becomes sodium (salt in g × 400 = sodium in mg). Fewer than three labels declare energy, so the row stands at 0 kcal under the verification policy's clause for label generics with a micronutrient. Nothing a label leaves out becomes zero. Labels read on 2026-10-30 from dm.de, rossmann.de and shop-apotheke.com product pages.",
+  "nutrients": {
+    "magnesium": 20000,
+    "vitaminB12": 375,
+    "calories": 0
+  },
+  "portions": [
+    {
+      "grams": 2.0,
+      "label": "1 stick"
+    }
+  ],
+  "labels": [
+    {
+      "brand": "Doppelherz",
+      "product": "Magnesium 400 + Vitamine B6 + B12 + Folsäure Direktgranulat 20 St., 24 g",
+      "read": "https://www.dm.de/p/d/1143219/ (dm.de product page, Nährwerte and Zutaten panels; GTIN not stated)",
+      "date": "2026-10-30",
+      "ingredients": "Magnesiumoxid, Füllstoff Sorbit, Säureregulator Mononatriumcitrat, Säuerungsmittel Citronensäure, Verdickungsmittel Natrium-Carboxymethylcellulose, Aroma, Pyridoxinhydrochlorid, mittelkettige Triglyceride, Süßungsmittel Aspartam, Trennmittel Magnesiumsalze der Speisefettsäuren, Süßungsmittel Acesulfam K, Pteroylmonoglutaminsäure, Cyanocobalamin",
+      "serving": "1 Stück: 20 units weigh 24 g, so the dose is 1.2 g; the label declares per dose: magnesiumMg 400, folateUg 400, vitaminB12Ug 3; vitamin B6 6 mg; no energy or macros declared",
+      "per100g": {
+        "magnesiumMg": 33333.3,
+        "folateUg": 33333.3,
+        "vitaminB12Ug": 250.0
+      }
+    },
+    {
+      "brand": "taxofit",
+      "product": "Magnesium 400 + B1 + B6 + B12 + Folsäure 800 Direkt-Granulat 20 St., 40 g",
+      "read": "https://www.dm.de/p/d/1370713/ (dm.de product page, Nährwerte and Zutaten panels; GTIN not stated)",
+      "date": "2026-10-30",
+      "ingredients": "Süßungsmittel Sorbit, Magnesiumoxid, Säuerungsmittel Citronensäure, Aroma, Trennmittel Magnesiumsalze der Speisefettsäuren, Füllstoff Calciumphosphate, Pyridoxinhydrochlorid, Thiaminhydrochlorid, Süßungsmittel (Aspartam, Sucralose, Acesulfam-K), Pteroylmonoglutaminsäure (Folsäure), Cyanocobalamin",
+      "serving": "1 Stück: 20 units weigh 40 g, so the dose is 2 g; the label declares per dose: magnesiumMg 400, folateUg 800, vitaminB12Ug 7.5; B1 4.2 mg, B6 6 mg; no energy or macros declared",
+      "per100g": {
+        "magnesiumMg": 20000.0,
+        "folateUg": 40000.0,
+        "vitaminB12Ug": 375.0
+      }
+    },
+    {
+      "brand": "Mivolis",
+      "product": "Magnesium Citrat 400 Granulat Sticks 20 St, 120 g",
+      "read": "https://www.dm.de/p/d/3104281/ (dm.de product page, Nährwerte and Zutaten panels; GTIN not stated)",
+      "date": "2026-10-30",
+      "ingredients": "Magnesium-Citrat, Säuerungsmittel Citronensäure, Füllstoff Isomalt, Säureregulator Natriumhydrogencarbonat, Aroma, Rote-Bete-Pulver, Süßungsmittel Natriumcyclamat und Natriumsaccharin, Farbstoff Riboflavin-5-phosphat",
+      "serving": "1 Stick (6 g): 20 units weigh 120 g, so the dose is 6 g; the label declares per dose: magnesiumMg 400; per 100 g 1040 kJ / 241 kcal, fat < 0.5 g, saturates < 0.1 g, carbohydrate 13 g, sugars 11 g, protein 0.5 g, salt < 5.9 g; under-values counted at half the threshold; a citrate stick stirred into water rather than taken dry",
+      "per100g": {
+        "magnesiumMg": 6666.67,
+        "energyKcal": 241.0,
+        "fat": 0.25,
+        "saturates": 0.05,
+        "carbohydrate": 13.0,
+        "sugars": 11.0,
+        "protein": 0.5,
+        "salt": 2.95
+      }
+    },
+    {
+      "brand": "Magnesium Verla",
+      "product": "Magnesium 400 Zitrone Direkt-Granulat Sticks 50 St, 125 g",
+      "read": "https://www.dm.de/p/d/1457866/ (dm.de product page, Nährwerte and Zutaten panels; GTIN not stated)",
+      "date": "2026-10-30",
+      "ingredients": "Süßungsmittel Xylit, Magnesiumcitrat (27 %), Magnesiumoxid (24 %), Säuerungsmittel Zitronensäure, Trennmittel (Magnesiumsalze der Speisefettsäuren, Siliciumdioxid), natürliches Aroma (Zitronengeschmack), Maracujaaroma",
+      "serving": "1 Stück: 50 units weigh 125 g, so the dose is 2.5 g; the label declares per dose: magnesiumMg 400; no energy or macros declared",
+      "per100g": {
+        "magnesiumMg": 16000.0
+      }
+    },
+    {
+      "brand": "Doppelherz",
+      "product": "Magnesium 500 +B12 +D3 Direktgranulat 20 St, 32 g",
+      "read": "https://www.dm.de/p/d/1622748/ (dm.de product page, Nährwerte and Zutaten panels; GTIN not stated)",
+      "date": "2026-10-30",
+      "ingredients": "Magnesiumoxid, Füllstoff Sorbit, Säureregulator Mononatriumcitrat, Palmfett (ganz gehärtet), Füllstoff Xylit, Säuerungsmittel Citronensäure, Verdickungsmittel Natrium-Carboxymethylcellulose, Aroma, Magnesiumcitrat, Süßungsmittel Aspartam, Süßungsmittel Acesulfam-K, Trennmittel Magnesiumsalze der Speisefettsäuren, Cyanocobalamin, Cholecalciferol",
+      "serving": "1 Stück: 20 units weigh 32 g, so the dose is 1.6 g; the label declares per dose: magnesiumMg 500, vitaminB12Ug 20, vitaminDUg 10; no energy or macros declared",
+      "per100g": {
+        "magnesiumMg": 31250.0,
+        "vitaminB12Ug": 1250.0,
+        "vitaminDUg": 625.0
+      }
+    }
+  ]
+}

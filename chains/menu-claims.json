@@ -1,0 +1,2261 @@
+{
+  "format": 1,
+  "about": "Rule 4 of the market packs (build_index.py): a product whose normalized name equals or begins with one of these menu names, whose per-100 g values match the chain's within the tolerances below, whose brand is neither the chain nor named in the item, and that nobody has scanned in the market, is another company's menu item and stays out. Names made only of generic food words are already left out.",
+  "rules": {
+    "energyToleranceShare": 0.2,
+    "energyToleranceKcal": 12.0,
+    "gramCeilingPer100": 100.0,
+    "popularityFloorCompleteness": 0.5,
+    "chainMatchMinCalories": 50.0,
+    "chainMatchCalorieShare": 0.1,
+    "chainMatchCalorieKcal": 10.0,
+    "chainMatchMacroShare": 0.15,
+    "chainMatchMacroGrams": 1.5
+  },
+  "claims": [
+    {
+      "name": "15er flame wings",
+      "chainKey": "burgerking-de",
+      "chain": "Burger King Deutschland",
+      "per100g": {
+        "calories": 242.0,
+        "fat": 14.2,
+        "carbs": 5.4,
+        "protein": 23.0
+      }
+    },
+    {
+      "name": "2 mcgriddles pancakes",
+      "chainKey": "mcdonalds-de",
+      "chain": "McDonald's Deutschland",
+      "per100g": {
+        "calories": 335.0,
+        "fat": 15.0,
+        "carbs": 45.0,
+        "protein": 4.7
+      }
+    },
+    {
+      "name": "20 mcplant nuggets",
+      "chainKey": "mcdonalds-de",
+      "chain": "McDonald's Deutschland",
+      "per100g": {
+        "calories": 287.0,
+        "fat": 16.0,
+        "carbs": 21.0,
+        "protein": 13.0
+      }
+    },
+    {
+      "name": "4 mcp nuggets",
+      "chainKey": "mcdonalds-de",
+      "chain": "McDonald's Deutschland",
+      "per100g": {
+        "calories": 287.0,
+        "fat": 16.0,
+        "carbs": 21.0,
+        "protein": 13.0
+      }
+    },
+    {
+      "name": "6 mcplant nuggets",
+      "chainKey": "mcdonalds-de",
+      "chain": "McDonald's Deutschland",
+      "per100g": {
+        "calories": 287.0,
+        "fat": 16.0,
+        "carbs": 21.0,
+        "protein": 13.0
+      }
+    },
+    {
+      "name": "6er flame wings",
+      "chainKey": "burgerking-de",
+      "chain": "Burger King Deutschland",
+      "per100g": {
+        "calories": 242.0,
+        "fat": 14.2,
+        "carbs": 5.4,
+        "protein": 23.0
+      }
+    },
+    {
+      "name": "9 mcplant nuggets",
+      "chainKey": "mcdonalds-de",
+      "chain": "McDonald's Deutschland",
+      "per100g": {
+        "calories": 287.0,
+        "fat": 16.0,
+        "carbs": 21.0,
+        "protein": 13.0
+      }
+    },
+    {
+      "name": "9er flame wings",
+      "chainKey": "burgerking-de",
+      "chain": "Burger King Deutschland",
+      "per100g": {
+        "calories": 242.0,
+        "fat": 14.2,
+        "carbs": 5.4,
+        "protein": 23.0
+      }
+    },
+    {
+      "name": "acai sunrise smoothie",
+      "chainKey": "deananddavid-de",
+      "chain": "dean&david",
+      "per100g": {
+        "calories": 51.0,
+        "fat": 0.3,
+        "carbs": 10.6,
+        "protein": 0.8
+      }
+    },
+    {
+      "name": "apfel bananen quetschie 85g",
+      "chainKey": "burgerking-de",
+      "chain": "Burger King Deutschland",
+      "per100g": {
+        "calories": 60.0,
+        "fat": 0.2,
+        "carbs": 13.0,
+        "protein": 0.4
+      }
+    },
+    {
+      "name": "apfelecke",
+      "chainKey": "backwerk-de",
+      "chain": "BackWerk",
+      "per100g": {
+        "calories": 281.0,
+        "fat": 17.0,
+        "carbs": 29.0,
+        "protein": 3.0
+      }
+    },
+    {
+      "name": "apfelkorbchen xl",
+      "chainKey": "backwerk-de",
+      "chain": "BackWerk",
+      "per100g": {
+        "calories": 275.1,
+        "fat": 11.5,
+        "carbs": 38.0,
+        "protein": 5.3
+      }
+    },
+    {
+      "name": "avocado planted chicken bowl",
+      "chainKey": "deananddavid-de",
+      "chain": "dean&david",
+      "per100g": {
+        "calories": 131.0,
+        "fat": 6.8,
+        "carbs": 11.8,
+        "protein": 5.1
+      }
+    },
+    {
+      "name": "bacon and lorne breakfast roll",
+      "chainKey": "greggs-uk",
+      "chain": "Greggs",
+      "per100g": {
+        "calories": 271.0,
+        "fat": 12.0,
+        "carbs": 25.0,
+        "protein": 15.0
+      }
+    },
+    {
+      "name": "bacon lorne breakfast baguette",
+      "chainKey": "greggs-uk",
+      "chain": "Greggs",
+      "per100g": {
+        "calories": 274.0,
+        "fat": 10.0,
+        "carbs": 30.0,
+        "protein": 15.0
+      }
+    },
+    {
+      "name": "baguettino schnitzel",
+      "chainKey": "backwerk-de",
+      "chain": "BackWerk",
+      "per100g": {
+        "calories": 203.98,
+        "fat": 5.38,
+        "carbs": 29.01,
+        "protein": 9.41
+      }
+    },
+    {
+      "name": "baguettino seelachsfilet",
+      "chainKey": "backwerk-de",
+      "chain": "BackWerk",
+      "per100g": {
+        "calories": 254.69,
+        "fat": 9.93,
+        "carbs": 32.46,
+        "protein": 8.16
+      }
+    },
+    {
+      "name": "balsamico ahorn dressing",
+      "chainKey": "deananddavid-de",
+      "chain": "dean&david",
+      "per100g": {
+        "calories": 286.0,
+        "fat": 26.0,
+        "carbs": 11.0,
+        "protein": 0.5
+      }
+    },
+    {
+      "name": "beef texicana",
+      "chainKey": "subway-de",
+      "chain": "Subway Deutschland",
+      "per100g": {
+        "calories": 181.0,
+        "fat": 7.9,
+        "carbs": 17.0,
+        "protein": 11.0
+      }
+    },
+    {
+      "name": "big chicken salad",
+      "chainKey": "mcdonalds-de",
+      "chain": "McDonald's Deutschland",
+      "per100g": {
+        "calories": 103.0,
+        "fat": 5.6,
+        "carbs": 7.0,
+        "protein": 5.3
+      }
+    },
+    {
+      "name": "big easy beef salad",
+      "chainKey": "deananddavid-de",
+      "chain": "dean&david",
+      "per100g": {
+        "calories": 107.0,
+        "fat": 6.3,
+        "carbs": 3.6,
+        "protein": 8.3
+      }
+    },
+    {
+      "name": "big king",
+      "chainKey": "burgerking-de",
+      "chain": "Burger King Deutschland",
+      "per100g": {
+        "calories": 261.0,
+        "fat": 15.3,
+        "carbs": 15.8,
+        "protein": 13.8
+      }
+    },
+    {
+      "name": "big king xxl",
+      "chainKey": "burgerking-de",
+      "chain": "Burger King Deutschland",
+      "per100g": {
+        "calories": 259.0,
+        "fat": 15.7,
+        "carbs": 13.9,
+        "protein": 14.8
+      }
+    },
+    {
+      "name": "big mac",
+      "chainKey": "mcdonalds-de",
+      "chain": "McDonald's Deutschland",
+      "per100g": {
+        "calories": 235.0,
+        "fat": 12.0,
+        "carbs": 18.0,
+        "protein": 12.0
+      }
+    },
+    {
+      "name": "big morning chicken",
+      "chainKey": "mcdonalds-de",
+      "chain": "McDonald's Deutschland",
+      "per100g": {
+        "calories": 228.0,
+        "fat": 11.0,
+        "carbs": 18.0,
+        "protein": 9.3
+      }
+    },
+    {
+      "name": "big morning egg",
+      "chainKey": "mcdonalds-de",
+      "chain": "McDonald's Deutschland",
+      "per100g": {
+        "calories": 232.0,
+        "fat": 12.0,
+        "carbs": 19.0,
+        "protein": 11.0
+      }
+    },
+    {
+      "name": "big morning farmer",
+      "chainKey": "mcdonalds-de",
+      "chain": "McDonald's Deutschland",
+      "per100g": {
+        "calories": 275.0,
+        "fat": 15.0,
+        "carbs": 19.0,
+        "protein": 13.0
+      }
+    },
+    {
+      "name": "big veggie salad",
+      "chainKey": "mcdonalds-de",
+      "chain": "McDonald's Deutschland",
+      "per100g": {
+        "calories": 73.0,
+        "fat": 2.6,
+        "carbs": 6.1,
+        "protein": 5.2
+      }
+    },
+    {
+      "name": "bio apfeltute 60g",
+      "chainKey": "mcdonalds-de",
+      "chain": "McDonald's Deutschland",
+      "per100g": {
+        "calories": 57.0,
+        "fat": 0.2,
+        "carbs": 13.0,
+        "protein": 0.2
+      }
+    },
+    {
+      "name": "boule falafel",
+      "chainKey": "backwerk-de",
+      "chain": "BackWerk",
+      "per100g": {
+        "calories": 247.7,
+        "fat": 9.7,
+        "carbs": 33.1,
+        "protein": 6.0
+      }
+    },
+    {
+      "name": "bremer",
+      "chainKey": "nordsee-de",
+      "chain": "Nordsee Deutschland",
+      "per100g": {
+        "calories": 215.0,
+        "fat": 5.5,
+        "carbs": 31.0,
+        "protein": 8.8
+      }
+    },
+    {
+      "name": "brookie cookie cup",
+      "chainKey": "subway-de",
+      "chain": "Subway Deutschland",
+      "per100g": {
+        "calories": 475.0,
+        "fat": 23.2,
+        "carbs": 50.0,
+        "protein": 4.8
+      }
+    },
+    {
+      "name": "cheese onion stottie",
+      "chainKey": "greggs-uk",
+      "chain": "Greggs",
+      "per100g": {
+        "calories": 244.0,
+        "fat": 8.9,
+        "carbs": 30.0,
+        "protein": 9.8
+      }
+    },
+    {
+      "name": "chicken vitality salad",
+      "chainKey": "deananddavid-de",
+      "chain": "dean&david",
+      "per100g": {
+        "calories": 116.0,
+        "fat": 7.5,
+        "carbs": 2.6,
+        "protein": 9.5
+      }
+    },
+    {
+      "name": "chipotle ranch dip 25ml",
+      "chainKey": "burgerking-de",
+      "chain": "Burger King Deutschland",
+      "per100g": {
+        "calories": 265.0,
+        "fat": 21.9,
+        "carbs": 14.7,
+        "protein": 0.5
+      }
+    },
+    {
+      "name": "chipotle southwest sauce",
+      "chainKey": "subway-de",
+      "chain": "Subway Deutschland",
+      "per100g": {
+        "calories": 440.0,
+        "fat": 45.0,
+        "carbs": 9.0,
+        "protein": 1.0
+      }
+    },
+    {
+      "name": "chocolate chip mit rainbow candy cookie",
+      "chainKey": "subway-de",
+      "chain": "Subway Deutschland",
+      "per100g": {
+        "calories": 475.0,
+        "fat": 22.0,
+        "carbs": 63.0,
+        "protein": 4.9
+      }
+    },
+    {
+      "name": "chocolate chunk cookie",
+      "chainKey": "subway-de",
+      "chain": "Subway Deutschland",
+      "per100g": {
+        "calories": 476.0,
+        "fat": 23.0,
+        "carbs": 62.0,
+        "protein": 5.0
+      }
+    },
+    {
+      "name": "classic zinger burger",
+      "chainKey": "kfc-de",
+      "chain": "KFC Deutschland",
+      "per100g": {
+        "calories": 245.0,
+        "fat": 11.0,
+        "carbs": 23.0,
+        "protein": 13.0
+      }
+    },
+    {
+      "name": "colonel original burger",
+      "chainKey": "kfc-de",
+      "chain": "KFC Deutschland",
+      "per100g": {
+        "calories": 234.0,
+        "fat": 11.0,
+        "carbs": 20.0,
+        "protein": 12.0
+      }
+    },
+    {
+      "name": "colonel veggie burger",
+      "chainKey": "kfc-de",
+      "chain": "KFC Deutschland",
+      "per100g": {
+        "calories": 221.0,
+        "fat": 11.0,
+        "carbs": 22.0,
+        "protein": 8.0
+      }
+    },
+    {
+      "name": "cream iced finger",
+      "chainKey": "greggs-uk",
+      "chain": "Greggs",
+      "per100g": {
+        "calories": 335.0,
+        "fat": 16.0,
+        "carbs": 42.0,
+        "protein": 5.1
+      }
+    },
+    {
+      "name": "crunchy planted chicken bowl",
+      "chainKey": "deananddavid-de",
+      "chain": "dean&david",
+      "per100g": {
+        "calories": 161.0,
+        "fat": 8.8,
+        "carbs": 13.9,
+        "protein": 5.7
+      }
+    },
+    {
+      "name": "curcuma aioli dip",
+      "chainKey": "deananddavid-de",
+      "chain": "dean&david",
+      "per100g": {
+        "calories": 559.0,
+        "fat": 59.2,
+        "carbs": 4.8,
+        "protein": 1.2
+      }
+    },
+    {
+      "name": "dolicious chicken baked potato",
+      "chainKey": "subway-de",
+      "chain": "Subway Deutschland",
+      "per100g": {
+        "calories": 141.0,
+        "fat": 6.7,
+        "carbs": 13.0,
+        "protein": 7.6
+      }
+    },
+    {
+      "name": "doritos loaded bag spicy",
+      "chainKey": "kfc-de",
+      "chain": "KFC Deutschland",
+      "per100g": {
+        "calories": 299.0,
+        "fat": 16.0,
+        "carbs": 27.0,
+        "protein": 10.0
+      }
+    },
+    {
+      "name": "doritos loaded bag texmex",
+      "chainKey": "kfc-de",
+      "chain": "KFC Deutschland",
+      "per100g": {
+        "calories": 287.0,
+        "fat": 14.0,
+        "carbs": 29.0,
+        "protein": 10.0
+      }
+    },
+    {
+      "name": "doritos loaded bag texmex veggie",
+      "chainKey": "kfc-de",
+      "chain": "KFC Deutschland",
+      "per100g": {
+        "calories": 183.0,
+        "fat": 7.0,
+        "carbs": 20.0,
+        "protein": 10.0
+      }
+    },
+    {
+      "name": "doritos nacho cheese",
+      "chainKey": "subway-de",
+      "chain": "Subway Deutschland",
+      "per100g": {
+        "calories": 500.0,
+        "fat": 26.0,
+        "carbs": 58.0,
+        "protein": 6.5
+      }
+    },
+    {
+      "name": "doritos sweet chili pepper",
+      "chainKey": "subway-de",
+      "chain": "Subway Deutschland",
+      "per100g": {
+        "calories": 499.0,
+        "fat": 25.0,
+        "carbs": 59.0,
+        "protein": 6.5
+      }
+    },
+    {
+      "name": "double colonel burger",
+      "chainKey": "kfc-de",
+      "chain": "KFC Deutschland",
+      "per100g": {
+        "calories": 235.0,
+        "fat": 12.0,
+        "carbs": 17.0,
+        "protein": 14.0
+      }
+    },
+    {
+      "name": "double hamburger royal ts",
+      "chainKey": "mcdonalds-de",
+      "chain": "McDonald's Deutschland",
+      "per100g": {
+        "calories": 242.0,
+        "fat": 15.0,
+        "carbs": 11.0,
+        "protein": 16.0
+      }
+    },
+    {
+      "name": "double kentucky bbq zinger burger",
+      "chainKey": "kfc-de",
+      "chain": "KFC Deutschland",
+      "per100g": {
+        "calories": 233.0,
+        "fat": 11.0,
+        "carbs": 18.0,
+        "protein": 16.0
+      }
+    },
+    {
+      "name": "double whopper",
+      "chainKey": "burgerking-de",
+      "chain": "Burger King Deutschland",
+      "per100g": {
+        "calories": 233.0,
+        "fat": 13.6,
+        "carbs": 14.1,
+        "protein": 13.0
+      }
+    },
+    {
+      "name": "empire biscuit",
+      "chainKey": "greggs-uk",
+      "chain": "Greggs",
+      "per100g": {
+        "calories": 414.0,
+        "fat": 14.0,
+        "carbs": 65.0,
+        "protein": 3.4
+      }
+    },
+    {
+      "name": "fiesta fajita",
+      "chainKey": "subway-de",
+      "chain": "Subway Deutschland",
+      "per100g": {
+        "calories": 198.0,
+        "fat": 9.9,
+        "carbs": 20.0,
+        "protein": 11.0
+      }
+    },
+    {
+      "name": "fruchtquatsch 80g",
+      "chainKey": "mcdonalds-de",
+      "chain": "McDonald's Deutschland",
+      "per100g": {
+        "calories": 51.0,
+        "fat": 0.6,
+        "carbs": 9.8,
+        "protein": 0.5
+      }
+    },
+    {
+      "name": "furious chicken",
+      "chainKey": "subway-de",
+      "chain": "Subway Deutschland",
+      "per100g": {
+        "calories": 194.0,
+        "fat": 8.4,
+        "carbs": 19.0,
+        "protein": 9.9
+      }
+    },
+    {
+      "name": "gebackene limanda aspera",
+      "chainKey": "nordsee-de",
+      "chain": "Nordsee Deutschland",
+      "per100g": {
+        "calories": 326.0,
+        "fat": 18.0,
+        "carbs": 26.0,
+        "protein": 15.0
+      }
+    },
+    {
+      "name": "geflugelrolle",
+      "chainKey": "backwerk-de",
+      "chain": "BackWerk",
+      "per100g": {
+        "calories": 277.0,
+        "fat": 19.7,
+        "carbs": 21.2,
+        "protein": 7.9
+      }
+    },
+    {
+      "name": "geflugelrolle mit kase",
+      "chainKey": "backwerk-de",
+      "chain": "BackWerk",
+      "per100g": {
+        "calories": 285.6,
+        "fat": 20.7,
+        "carbs": 18.9,
+        "protein": 9.6
+      }
+    },
+    {
+      "name": "gingerbread men",
+      "chainKey": "greggs-uk",
+      "chain": "Greggs",
+      "per100g": {
+        "calories": 420.0,
+        "fat": 11.0,
+        "carbs": 71.0,
+        "protein": 5.7
+      }
+    },
+    {
+      "name": "goldfink 0 4 l",
+      "chainKey": "hansimglueck-de",
+      "chain": "Hans im Glück",
+      "per100g": {
+        "calories": 52.15,
+        "fat": 0.3,
+        "carbs": 11.8,
+        "protein": 0.55
+      }
+    },
+    {
+      "name": "good greens salad",
+      "chainKey": "deananddavid-de",
+      "chain": "dean&david",
+      "per100g": {
+        "calories": 103.0,
+        "fat": 5.4,
+        "carbs": 11.0,
+        "protein": 2.3
+      }
+    },
+    {
+      "name": "greggs mature cheddar onion hand cooked crisps 40g",
+      "chainKey": "greggs-uk",
+      "chain": "Greggs",
+      "per100g": {
+        "calories": 500.0,
+        "fat": 26.0,
+        "carbs": 57.0,
+        "protein": 7.6
+      }
+    },
+    {
+      "name": "greggs sea salt cider vinegar hand cooked crisps 40g",
+      "chainKey": "greggs-uk",
+      "chain": "Greggs",
+      "per100g": {
+        "calories": 500.0,
+        "fat": 26.0,
+        "carbs": 58.0,
+        "protein": 6.7
+      }
+    },
+    {
+      "name": "greggs thai sweet chilli flavour hand cooked crisps 40g",
+      "chainKey": "greggs-uk",
+      "chain": "Greggs",
+      "per100g": {
+        "calories": 502.0,
+        "fat": 26.0,
+        "carbs": 58.0,
+        "protein": 7.1
+      }
+    },
+    {
+      "name": "grosse king pommes",
+      "chainKey": "burgerking-de",
+      "chain": "Burger King Deutschland",
+      "per100g": {
+        "calories": 270.0,
+        "fat": 12.3,
+        "carbs": 36.0,
+        "protein": 3.4
+      }
+    },
+    {
+      "name": "halber maiskolben",
+      "chainKey": "kfc-de",
+      "chain": "KFC Deutschland",
+      "per100g": {
+        "calories": 111.0,
+        "fat": 2.0,
+        "carbs": 20.0,
+        "protein": 4.0
+      }
+    },
+    {
+      "name": "hamburger royal ts",
+      "chainKey": "mcdonalds-de",
+      "chain": "McDonald's Deutschland",
+      "per100g": {
+        "calories": 223.0,
+        "fat": 12.0,
+        "carbs": 15.0,
+        "protein": 13.0
+      }
+    },
+    {
+      "name": "heisses kakaogetrank grande",
+      "chainKey": "mcdonalds-de",
+      "chain": "McDonald's Deutschland",
+      "per100g": {
+        "calories": 108.0,
+        "fat": 4.1,
+        "carbs": 13.0,
+        "protein": 4.1
+      }
+    },
+    {
+      "name": "hot blondie",
+      "chainKey": "burgerking-de",
+      "chain": "Burger King Deutschland",
+      "per100g": {
+        "calories": 442.0,
+        "fat": 24.3,
+        "carbs": 49.9,
+        "protein": 6.5
+      }
+    },
+    {
+      "name": "hot blondie mit eis",
+      "chainKey": "burgerking-de",
+      "chain": "Burger King Deutschland",
+      "per100g": {
+        "calories": 323.0,
+        "fat": 16.3,
+        "carbs": 39.1,
+        "protein": 5.1
+      }
+    },
+    {
+      "name": "hot sandwich omelett mit putenschinken",
+      "chainKey": "backwerk-de",
+      "chain": "BackWerk",
+      "per100g": {
+        "calories": 197.2,
+        "fat": 7.1,
+        "carbs": 22.8,
+        "protein": 10.4
+      }
+    },
+    {
+      "name": "hot western sauce",
+      "chainKey": "mcdonalds-de",
+      "chain": "McDonald's Deutschland",
+      "per100g": {
+        "calories": 134.0,
+        "fat": 1.3,
+        "carbs": 29.0,
+        "protein": 0.9
+      }
+    },
+    {
+      "name": "hot wings oberflugel",
+      "chainKey": "kfc-de",
+      "chain": "KFC Deutschland",
+      "per100g": {
+        "calories": 322.0,
+        "fat": 22.0,
+        "carbs": 12.0,
+        "protein": 19.0
+      }
+    },
+    {
+      "name": "hot wings unterflugel",
+      "chainKey": "kfc-de",
+      "chain": "KFC Deutschland",
+      "per100g": {
+        "calories": 312.0,
+        "fat": 21.0,
+        "carbs": 11.0,
+        "protein": 19.0
+      }
+    },
+    {
+      "name": "hot yum yums",
+      "chainKey": "greggs-uk",
+      "chain": "Greggs",
+      "per100g": {
+        "calories": 396.0,
+        "fat": 22.0,
+        "carbs": 44.0,
+        "protein": 4.7
+      }
+    },
+    {
+      "name": "italian b m t salat",
+      "chainKey": "subway-de",
+      "chain": "Subway Deutschland",
+      "per100g": {
+        "calories": 72.0,
+        "fat": 4.5,
+        "carbs": 2.7,
+        "protein": 4.9
+      }
+    },
+    {
+      "name": "italian b m t sub",
+      "chainKey": "subway-de",
+      "chain": "Subway Deutschland",
+      "per100g": {
+        "calories": 170.0,
+        "fat": 7.2,
+        "carbs": 17.0,
+        "protein": 9.6
+      }
+    },
+    {
+      "name": "italian b m t wrap",
+      "chainKey": "subway-de",
+      "chain": "Subway Deutschland",
+      "per100g": {
+        "calories": 192.0,
+        "fat": 7.7,
+        "carbs": 22.0,
+        "protein": 8.0
+      }
+    },
+    {
+      "name": "jammy heart biscuit",
+      "chainKey": "greggs-uk",
+      "chain": "Greggs",
+      "per100g": {
+        "calories": 459.0,
+        "fat": 22.0,
+        "carbs": 59.0,
+        "protein": 5.3
+      }
+    },
+    {
+      "name": "kentucky bbq zinger burger",
+      "chainKey": "kfc-de",
+      "chain": "KFC Deutschland",
+      "per100g": {
+        "calories": 223.0,
+        "fat": 9.0,
+        "carbs": 22.0,
+        "protein": 13.0
+      }
+    },
+    {
+      "name": "king fusion have it your way",
+      "chainKey": "burgerking-de",
+      "chain": "Burger King Deutschland",
+      "per100g": {
+        "calories": 132.0,
+        "fat": 3.5,
+        "carbs": 21.8,
+        "protein": 2.9
+      }
+    },
+    {
+      "name": "king fusion oreo",
+      "chainKey": "burgerking-de",
+      "chain": "Burger King Deutschland",
+      "per100g": {
+        "calories": 185.0,
+        "fat": 6.0,
+        "carbs": 29.1,
+        "protein": 3.3
+      }
+    },
+    {
+      "name": "king shake vanillegeschmack large",
+      "chainKey": "burgerking-de",
+      "chain": "Burger King Deutschland",
+      "per100g": {
+        "calories": 100.0,
+        "fat": 2.5,
+        "carbs": 16.3,
+        "protein": 3.1
+      }
+    },
+    {
+      "name": "king shake vanillegeschmack medium",
+      "chainKey": "burgerking-de",
+      "chain": "Burger King Deutschland",
+      "per100g": {
+        "calories": 100.0,
+        "fat": 2.5,
+        "carbs": 16.3,
+        "protein": 3.1
+      }
+    },
+    {
+      "name": "king shake vanillegeschmack small",
+      "chainKey": "burgerking-de",
+      "chain": "Burger King Deutschland",
+      "per100g": {
+        "calories": 100.0,
+        "fat": 2.5,
+        "carbs": 16.3,
+        "protein": 3.1
+      }
+    },
+    {
+      "name": "king sundae smarties",
+      "chainKey": "burgerking-de",
+      "chain": "Burger King Deutschland",
+      "per100g": {
+        "calories": 177.0,
+        "fat": 5.5,
+        "carbs": 28.0,
+        "protein": 3.3
+      }
+    },
+    {
+      "name": "kirschkorbchen xl",
+      "chainKey": "backwerk-de",
+      "chain": "BackWerk",
+      "per100g": {
+        "calories": 299.0,
+        "fat": 11.4,
+        "carbs": 43.6,
+        "protein": 4.3
+      }
+    },
+    {
+      "name": "kitkat sundae",
+      "chainKey": "kfc-de",
+      "chain": "KFC Deutschland",
+      "per100g": {
+        "calories": 188.0,
+        "fat": 6.0,
+        "carbs": 30.0,
+        "protein": 3.0
+      }
+    },
+    {
+      "name": "kwench caramel iced latte",
+      "chainKey": "kfc-de",
+      "chain": "KFC Deutschland",
+      "per100g": {
+        "calories": 72.0,
+        "fat": 1.0,
+        "carbs": 12.0,
+        "protein": 3.0
+      }
+    },
+    {
+      "name": "kwench caramel iced oat latte",
+      "chainKey": "kfc-de",
+      "chain": "KFC Deutschland",
+      "per100g": {
+        "calories": 81.0,
+        "fat": 2.0,
+        "carbs": 14.0,
+        "protein": 1.0
+      }
+    },
+    {
+      "name": "kwench caramel krunch shake",
+      "chainKey": "kfc-de",
+      "chain": "KFC Deutschland",
+      "per100g": {
+        "calories": 160.0,
+        "fat": 5.0,
+        "carbs": 26.0,
+        "protein": 3.0
+      }
+    },
+    {
+      "name": "kwench chocolate krunch shake",
+      "chainKey": "kfc-de",
+      "chain": "KFC Deutschland",
+      "per100g": {
+        "calories": 159.0,
+        "fat": 5.0,
+        "carbs": 25.0,
+        "protein": 3.0
+      }
+    },
+    {
+      "name": "kwench iced latte",
+      "chainKey": "kfc-de",
+      "chain": "KFC Deutschland",
+      "per100g": {
+        "calories": 100.0,
+        "fat": 1.0,
+        "carbs": 19.0,
+        "protein": 3.0
+      }
+    },
+    {
+      "name": "kwench iced oat latte",
+      "chainKey": "kfc-de",
+      "chain": "KFC Deutschland",
+      "per100g": {
+        "calories": 58.0,
+        "fat": 2.0,
+        "carbs": 8.0,
+        "protein": 1.0
+      }
+    },
+    {
+      "name": "kwench strawberry boba refresher",
+      "chainKey": "kfc-de",
+      "chain": "KFC Deutschland",
+      "per100g": {
+        "calories": 54.0,
+        "fat": 0.0,
+        "carbs": 14.0,
+        "protein": 0.0
+      }
+    },
+    {
+      "name": "kwench strawberry krunch shake",
+      "chainKey": "kfc-de",
+      "chain": "KFC Deutschland",
+      "per100g": {
+        "calories": 158.0,
+        "fat": 5.0,
+        "carbs": 26.0,
+        "protein": 3.0
+      }
+    },
+    {
+      "name": "kwench tiramisu iced latte",
+      "chainKey": "kfc-de",
+      "chain": "KFC Deutschland",
+      "per100g": {
+        "calories": 88.0,
+        "fat": 1.0,
+        "carbs": 16.0,
+        "protein": 3.0
+      }
+    },
+    {
+      "name": "kwench tiramisu iced oat latte",
+      "chainKey": "kfc-de",
+      "chain": "KFC Deutschland",
+      "per100g": {
+        "calories": 97.0,
+        "fat": 2.0,
+        "carbs": 18.0,
+        "protein": 1.0
+      }
+    },
+    {
+      "name": "laugenspitz tomate mozzarella",
+      "chainKey": "backwerk-de",
+      "chain": "BackWerk",
+      "per100g": {
+        "calories": 323.4,
+        "fat": 20.0,
+        "carbs": 25.4,
+        "protein": 9.7
+      }
+    },
+    {
+      "name": "lay s chips paprika",
+      "chainKey": "subway-de",
+      "chain": "Subway Deutschland",
+      "per100g": {
+        "calories": 529.0,
+        "fat": 32.0,
+        "carbs": 52.0,
+        "protein": 6.1
+      }
+    },
+    {
+      "name": "lay s chips salted",
+      "chainKey": "subway-de",
+      "chain": "Subway Deutschland",
+      "per100g": {
+        "calories": 539.0,
+        "fat": 34.0,
+        "carbs": 52.0,
+        "protein": 6.1
+      }
+    },
+    {
+      "name": "lite mayonnaise",
+      "chainKey": "subway-de",
+      "chain": "Subway Deutschland",
+      "per100g": {
+        "calories": 329.0,
+        "fat": 35.0,
+        "carbs": 4.0,
+        "protein": 0.0
+      }
+    },
+    {
+      "name": "lorne breakfast baguette",
+      "chainKey": "greggs-uk",
+      "chain": "Greggs",
+      "per100g": {
+        "calories": 268.0,
+        "fat": 9.8,
+        "carbs": 31.0,
+        "protein": 13.0
+      }
+    },
+    {
+      "name": "lorne breakfast roll",
+      "chainKey": "greggs-uk",
+      "chain": "Greggs",
+      "per100g": {
+        "calories": 262.0,
+        "fat": 10.0,
+        "carbs": 30.0,
+        "protein": 12.0
+      }
+    },
+    {
+      "name": "lorne omelette breakfast baguette",
+      "chainKey": "greggs-uk",
+      "chain": "Greggs",
+      "per100g": {
+        "calories": 242.0,
+        "fat": 9.2,
+        "carbs": 27.0,
+        "protein": 12.0
+      }
+    },
+    {
+      "name": "lorne omelette breakfast roll",
+      "chainKey": "greggs-uk",
+      "chain": "Greggs",
+      "per100g": {
+        "calories": 233.0,
+        "fat": 10.0,
+        "carbs": 23.0,
+        "protein": 12.0
+      }
+    },
+    {
+      "name": "mango planted chicken curry",
+      "chainKey": "deananddavid-de",
+      "chain": "dean&david",
+      "per100g": {
+        "calories": 149.0,
+        "fat": 6.1,
+        "carbs": 16.9,
+        "protein": 5.7
+      }
+    },
+    {
+      "name": "mature cheddar cheese ploughman s oval bite",
+      "chainKey": "greggs-uk",
+      "chain": "Greggs",
+      "per100g": {
+        "calories": 201.0,
+        "fat": 7.7,
+        "carbs": 23.0,
+        "protein": 8.6
+      }
+    },
+    {
+      "name": "mature cheddar cheese salad baguette",
+      "chainKey": "greggs-uk",
+      "chain": "Greggs",
+      "per100g": {
+        "calories": 210.0,
+        "fat": 6.8,
+        "carbs": 28.0,
+        "protein": 8.4
+      }
+    },
+    {
+      "name": "mcdouble chili cheese",
+      "chainKey": "mcdonalds-de",
+      "chain": "McDonald's Deutschland",
+      "per100g": {
+        "calories": 252.0,
+        "fat": 14.0,
+        "carbs": 16.0,
+        "protein": 15.0
+      }
+    },
+    {
+      "name": "mcfreezy erdbeer",
+      "chainKey": "mcdonalds-de",
+      "chain": "McDonald's Deutschland",
+      "per100g": {
+        "calories": 55.0,
+        "fat": 0.1,
+        "carbs": 12.0,
+        "protein": 0.4
+      }
+    },
+    {
+      "name": "mcpops mit nutella",
+      "chainKey": "mcdonalds-de",
+      "chain": "McDonald's Deutschland",
+      "per100g": {
+        "calories": 488.0,
+        "fat": 28.0,
+        "carbs": 50.0,
+        "protein": 7.2
+      }
+    },
+    {
+      "name": "mcsmart double beef classic",
+      "chainKey": "mcdonalds-de",
+      "chain": "McDonald's Deutschland",
+      "per100g": {
+        "calories": 263.0,
+        "fat": 15.0,
+        "carbs": 20.0,
+        "protein": 12.0
+      }
+    },
+    {
+      "name": "mcsundae original",
+      "chainKey": "mcdonalds-de",
+      "chain": "McDonald's Deutschland",
+      "per100g": {
+        "calories": 136.0,
+        "fat": 3.6,
+        "carbs": 22.0,
+        "protein": 3.5
+      }
+    },
+    {
+      "name": "mcsundae original mit karamell sauce",
+      "chainKey": "mcdonalds-de",
+      "chain": "McDonald's Deutschland",
+      "per100g": {
+        "calories": 186.0,
+        "fat": 3.9,
+        "carbs": 35.0,
+        "protein": 3.0
+      }
+    },
+    {
+      "name": "mcsundae original mit schoko sauce",
+      "chainKey": "mcdonalds-de",
+      "chain": "McDonald's Deutschland",
+      "per100g": {
+        "calories": 188.0,
+        "fat": 5.5,
+        "carbs": 31.0,
+        "protein": 3.6
+      }
+    },
+    {
+      "name": "mctoast bacon cheese",
+      "chainKey": "mcdonalds-de",
+      "chain": "McDonald's Deutschland",
+      "per100g": {
+        "calories": 318.0,
+        "fat": 14.0,
+        "carbs": 31.0,
+        "protein": 15.0
+      }
+    },
+    {
+      "name": "mctoast cheese",
+      "chainKey": "mcdonalds-de",
+      "chain": "McDonald's Deutschland",
+      "per100g": {
+        "calories": 305.0,
+        "fat": 12.0,
+        "carbs": 35.0,
+        "protein": 13.0
+      }
+    },
+    {
+      "name": "mcveggie smoky",
+      "chainKey": "mcdonalds-de",
+      "chain": "McDonald's Deutschland",
+      "per100g": {
+        "calories": 202.0,
+        "fat": 7.9,
+        "carbs": 22.0,
+        "protein": 9.0
+      }
+    },
+    {
+      "name": "mcveggie ts",
+      "chainKey": "mcdonalds-de",
+      "chain": "McDonald's Deutschland",
+      "per100g": {
+        "calories": 192.0,
+        "fat": 7.3,
+        "carbs": 22.0,
+        "protein": 8.7
+      }
+    },
+    {
+      "name": "mcwrap chicken sweet chili",
+      "chainKey": "mcdonalds-de",
+      "chain": "McDonald's Deutschland",
+      "per100g": {
+        "calories": 235.0,
+        "fat": 9.6,
+        "carbs": 28.0,
+        "protein": 8.9
+      }
+    },
+    {
+      "name": "mcwrap ruhrei bacon",
+      "chainKey": "mcdonalds-de",
+      "chain": "McDonald's Deutschland",
+      "per100g": {
+        "calories": 239.0,
+        "fat": 14.0,
+        "carbs": 16.0,
+        "protein": 11.0
+      }
+    },
+    {
+      "name": "mcwrap ruhrei cheese",
+      "chainKey": "mcdonalds-de",
+      "chain": "McDonald's Deutschland",
+      "per100g": {
+        "calories": 194.0,
+        "fat": 11.0,
+        "carbs": 15.0,
+        "protein": 8.8
+      }
+    },
+    {
+      "name": "mcwrap veggie honig senf",
+      "chainKey": "mcdonalds-de",
+      "chain": "McDonald's Deutschland",
+      "per100g": {
+        "calories": 191.0,
+        "fat": 8.0,
+        "carbs": 20.0,
+        "protein": 7.8
+      }
+    },
+    {
+      "name": "mcwrap veggie sweet chili",
+      "chainKey": "mcdonalds-de",
+      "chain": "McDonald's Deutschland",
+      "per100g": {
+        "calories": 194.0,
+        "fat": 5.5,
+        "carbs": 26.0,
+        "protein": 8.2
+      }
+    },
+    {
+      "name": "mexican chicken oval bite",
+      "chainKey": "greggs-uk",
+      "chain": "Greggs",
+      "per100g": {
+        "calories": 213.0,
+        "fat": 4.8,
+        "carbs": 29.0,
+        "protein": 12.0
+      }
+    },
+    {
+      "name": "milchshake erdbeergeschmack 0 4l",
+      "chainKey": "mcdonalds-de",
+      "chain": "McDonald's Deutschland",
+      "per100g": {
+        "calories": 114.0,
+        "fat": 2.1,
+        "carbs": 21.0,
+        "protein": 2.9
+      }
+    },
+    {
+      "name": "milchshake schokogeschmack 0 4l",
+      "chainKey": "mcdonalds-de",
+      "chain": "McDonald's Deutschland",
+      "per100g": {
+        "calories": 117.0,
+        "fat": 2.3,
+        "carbs": 21.0,
+        "protein": 3.3
+      }
+    },
+    {
+      "name": "milchshake vanillegeschmack 0 4l",
+      "chainKey": "mcdonalds-de",
+      "chain": "McDonald's Deutschland",
+      "per100g": {
+        "calories": 113.0,
+        "fat": 2.1,
+        "carbs": 21.0,
+        "protein": 2.9
+      }
+    },
+    {
+      "name": "milk chocolate caramel shortbread offcuts",
+      "chainKey": "greggs-uk",
+      "chain": "Greggs",
+      "per100g": {
+        "calories": 473.0,
+        "fat": 24.0,
+        "carbs": 58.0,
+        "protein": 5.7
+      }
+    },
+    {
+      "name": "milk chocolate caramel shortbreads",
+      "chainKey": "greggs-uk",
+      "chain": "Greggs",
+      "per100g": {
+        "calories": 464.0,
+        "fat": 23.0,
+        "carbs": 58.0,
+        "protein": 5.7
+      }
+    },
+    {
+      "name": "mini bremer der klassische",
+      "chainKey": "nordsee-de",
+      "chain": "Nordsee Deutschland",
+      "per100g": {
+        "calories": 262.0,
+        "fat": 8.9,
+        "carbs": 35.0,
+        "protein": 9.4
+      }
+    },
+    {
+      "name": "mini bremer der pikante",
+      "chainKey": "nordsee-de",
+      "chain": "Nordsee Deutschland",
+      "per100g": {
+        "calories": 290.0,
+        "fat": 13.0,
+        "carbs": 32.0,
+        "protein": 9.2
+      }
+    },
+    {
+      "name": "mini bremer der scharfe",
+      "chainKey": "nordsee-de",
+      "chain": "Nordsee Deutschland",
+      "per100g": {
+        "calories": 301.0,
+        "fat": 14.0,
+        "carbs": 34.0,
+        "protein": 9.4
+      }
+    },
+    {
+      "name": "mini bremer der suss scharfe",
+      "chainKey": "nordsee-de",
+      "chain": "Nordsee Deutschland",
+      "per100g": {
+        "calories": 307.0,
+        "fat": 15.0,
+        "carbs": 33.0,
+        "protein": 9.3
+      }
+    },
+    {
+      "name": "n y style cheesecake mit oreo topping und schoko",
+      "chainKey": "mcdonalds-de",
+      "chain": "McDonald's Deutschland",
+      "per100g": {
+        "calories": 351.0,
+        "fat": 19.0,
+        "carbs": 38.0,
+        "protein": 5.3
+      }
+    },
+    {
+      "name": "novelty bun pink",
+      "chainKey": "greggs-uk",
+      "chain": "Greggs",
+      "per100g": {
+        "calories": 396.0,
+        "fat": 18.0,
+        "carbs": 53.0,
+        "protein": 3.3
+      }
+    },
+    {
+      "name": "novelty bun white",
+      "chainKey": "greggs-uk",
+      "chain": "Greggs",
+      "per100g": {
+        "calories": 396.0,
+        "fat": 18.0,
+        "carbs": 53.0,
+        "protein": 3.3
+      }
+    },
+    {
+      "name": "original hahnchenteile brust",
+      "chainKey": "kfc-de",
+      "chain": "KFC Deutschland",
+      "per100g": {
+        "calories": 213.0,
+        "fat": 11.0,
+        "carbs": 8.0,
+        "protein": 21.0
+      }
+    },
+    {
+      "name": "original hahnchenteile flugel",
+      "chainKey": "kfc-de",
+      "chain": "KFC Deutschland",
+      "per100g": {
+        "calories": 276.0,
+        "fat": 15.5,
+        "carbs": 10.0,
+        "protein": 24.1
+      }
+    },
+    {
+      "name": "original hahnchenteile oberkeule",
+      "chainKey": "kfc-de",
+      "chain": "KFC Deutschland",
+      "per100g": {
+        "calories": 272.0,
+        "fat": 18.0,
+        "carbs": 11.0,
+        "protein": 16.0
+      }
+    },
+    {
+      "name": "original hahnchenteile rippe",
+      "chainKey": "kfc-de",
+      "chain": "KFC Deutschland",
+      "per100g": {
+        "calories": 245.0,
+        "fat": 14.0,
+        "carbs": 9.0,
+        "protein": 20.0
+      }
+    },
+    {
+      "name": "original hahnchenteile unterkeule",
+      "chainKey": "kfc-de",
+      "chain": "KFC Deutschland",
+      "per100g": {
+        "calories": 233.0,
+        "fat": 13.0,
+        "carbs": 7.0,
+        "protein": 21.0
+      }
+    },
+    {
+      "name": "oval bites",
+      "chainKey": "greggs-uk",
+      "chain": "Greggs",
+      "per100g": {
+        "calories": 263.0,
+        "fat": 3.7,
+        "carbs": 44.0,
+        "protein": 11.0
+      }
+    },
+    {
+      "name": "pane avocado hummus",
+      "chainKey": "backwerk-de",
+      "chain": "BackWerk",
+      "per100g": {
+        "calories": 227.9,
+        "fat": 8.6,
+        "carbs": 30.3,
+        "protein": 3.1
+      }
+    },
+    {
+      "name": "pane caprese",
+      "chainKey": "backwerk-de",
+      "chain": "BackWerk",
+      "per100g": {
+        "calories": 198.3,
+        "fat": 7.7,
+        "carbs": 23.2,
+        "protein": 5.9
+      }
+    },
+    {
+      "name": "pane ei",
+      "chainKey": "backwerk-de",
+      "chain": "BackWerk",
+      "per100g": {
+        "calories": 198.3,
+        "fat": 8.6,
+        "carbs": 21.2,
+        "protein": 6.1
+      }
+    },
+    {
+      "name": "pane vitale",
+      "chainKey": "backwerk-de",
+      "chain": "BackWerk",
+      "per100g": {
+        "calories": 202.1,
+        "fat": 8.8,
+        "carbs": 20.1,
+        "protein": 7.9
+      }
+    },
+    {
+      "name": "pazifisches schollenfilet vom grill",
+      "chainKey": "nordsee-de",
+      "chain": "Nordsee Deutschland",
+      "per100g": {
+        "calories": 171.0,
+        "fat": 10.0,
+        "carbs": 12.0,
+        "protein": 6.7
+      }
+    },
+    {
+      "name": "pecannuss caramel muffin",
+      "chainKey": "mcdonalds-de",
+      "chain": "McDonald's Deutschland",
+      "per100g": {
+        "calories": 446.0,
+        "fat": 28.0,
+        "carbs": 41.0,
+        "protein": 5.8
+      }
+    },
+    {
+      "name": "peperoni salami cheese footlong dipper",
+      "chainKey": "subway-de",
+      "chain": "Subway Deutschland",
+      "per100g": {
+        "calories": 314.0,
+        "fat": 14.0,
+        "carbs": 35.0,
+        "protein": 11.0
+      }
+    },
+    {
+      "name": "pink breeze 0 3 l",
+      "chainKey": "hansimglueck-de",
+      "chain": "Hans im Glück",
+      "per100g": {
+        "calories": 57.73,
+        "fat": 0.03,
+        "carbs": 11.83,
+        "protein": 0.03
+      }
+    },
+    {
+      "name": "pink jammie doughnut",
+      "chainKey": "greggs-uk",
+      "chain": "Greggs",
+      "per100g": {
+        "calories": 343.0,
+        "fat": 13.0,
+        "carbs": 51.0,
+        "protein": 4.6
+      }
+    },
+    {
+      "name": "pinkie donut",
+      "chainKey": "backwerk-de",
+      "chain": "BackWerk",
+      "per100g": {
+        "calories": 398.0,
+        "fat": 19.0,
+        "carbs": 50.0,
+        "protein": 4.8
+      }
+    },
+    {
+      "name": "plant based backvisch brotchen",
+      "chainKey": "nordsee-de",
+      "chain": "Nordsee Deutschland",
+      "per100g": {
+        "calories": 292.0,
+        "fat": 15.0,
+        "carbs": 32.0,
+        "protein": 6.0
+      }
+    },
+    {
+      "name": "plant based big king",
+      "chainKey": "burgerking-de",
+      "chain": "Burger King Deutschland",
+      "per100g": {
+        "calories": 230.0,
+        "fat": 11.4,
+        "carbs": 16.6,
+        "protein": 13.1
+      }
+    },
+    {
+      "name": "plant based big king xxl",
+      "chainKey": "burgerking-de",
+      "chain": "Burger King Deutschland",
+      "per100g": {
+        "calories": 221.0,
+        "fat": 11.6,
+        "carbs": 14.3,
+        "protein": 12.8
+      }
+    },
+    {
+      "name": "plant based dolicious chicken baked potato",
+      "chainKey": "subway-de",
+      "chain": "Subway Deutschland",
+      "per100g": {
+        "calories": 139.0,
+        "fat": 6.0,
+        "carbs": 14.0,
+        "protein": 7.3
+      }
+    },
+    {
+      "name": "plant based whopper",
+      "chainKey": "burgerking-de",
+      "chain": "Burger King Deutschland",
+      "per100g": {
+        "calories": 194.0,
+        "fat": 9.0,
+        "carbs": 18.2,
+        "protein": 8.5
+      }
+    },
+    {
+      "name": "plant based whopper cheese tortilla",
+      "chainKey": "burgerking-de",
+      "chain": "Burger King Deutschland",
+      "per100g": {
+        "calories": 213.0,
+        "fat": 11.3,
+        "carbs": 16.9,
+        "protein": 9.7
+      }
+    },
+    {
+      "name": "plant based whopper jr",
+      "chainKey": "burgerking-de",
+      "chain": "Burger King Deutschland",
+      "per100g": {
+        "calories": 200.0,
+        "fat": 8.6,
+        "carbs": 20.4,
+        "protein": 8.4
+      }
+    },
+    {
+      "name": "plant based x tra long chili cheese",
+      "chainKey": "burgerking-de",
+      "chain": "Burger King Deutschland",
+      "per100g": {
+        "calories": 237.0,
+        "fat": 12.2,
+        "carbs": 16.9,
+        "protein": 12.6
+      }
+    },
+    {
+      "name": "planted caesar chicken salad",
+      "chainKey": "deananddavid-de",
+      "chain": "dean&david",
+      "per100g": {
+        "calories": 132.0,
+        "fat": 7.3,
+        "carbs": 5.4,
+        "protein": 10.3
+      }
+    },
+    {
+      "name": "planted chicken teriyaki bowl",
+      "chainKey": "deananddavid-de",
+      "chain": "dean&david",
+      "per100g": {
+        "calories": 149.0,
+        "fat": 5.7,
+        "carbs": 18.5,
+        "protein": 5.2
+      }
+    },
+    {
+      "name": "planted chicken vitality salad",
+      "chainKey": "deananddavid-de",
+      "chain": "dean&david",
+      "per100g": {
+        "calories": 137.0,
+        "fat": 9.5,
+        "carbs": 2.4,
+        "protein": 10.0
+      }
+    },
+    {
+      "name": "red thai planted chicken curry",
+      "chainKey": "deananddavid-de",
+      "chain": "dean&david",
+      "per100g": {
+        "calories": 136.0,
+        "fat": 5.0,
+        "carbs": 16.5,
+        "protein": 5.5
+      }
+    },
+    {
+      "name": "roast chicken with honey mustard mayonnaise oval bite",
+      "chainKey": "greggs-uk",
+      "chain": "Greggs",
+      "per100g": {
+        "calories": 181.0,
+        "fat": 4.4,
+        "carbs": 22.0,
+        "protein": 12.0
+      }
+    },
+    {
+      "name": "schoggi donut",
+      "chainKey": "backwerk-de",
+      "chain": "BackWerk",
+      "per100g": {
+        "calories": 431.0,
+        "fat": 26.0,
+        "carbs": 42.0,
+        "protein": 6.5
+      }
+    },
+    {
+      "name": "simply creamy porridge",
+      "chainKey": "greggs-uk",
+      "chain": "Greggs",
+      "per100g": {
+        "calories": 109.0,
+        "fat": 1.8,
+        "carbs": 19.0,
+        "protein": 3.3
+      }
+    },
+    {
+      "name": "smoky bbq dip",
+      "chainKey": "greggs-uk",
+      "chain": "Greggs",
+      "per100g": {
+        "calories": 187.0,
+        "fat": 0.0,
+        "carbs": 44.0,
+        "protein": 1.4
+      }
+    },
+    {
+      "name": "smoky beast panini",
+      "chainKey": "subway-de",
+      "chain": "Subway Deutschland",
+      "per100g": {
+        "calories": 204.0,
+        "fat": 7.7,
+        "carbs": 19.0,
+        "protein": 14.0
+      }
+    },
+    {
+      "name": "softeis sundae mini ohne sauce",
+      "chainKey": "kfc-de",
+      "chain": "KFC Deutschland",
+      "per100g": {
+        "calories": 125.0,
+        "fat": 5.0,
+        "carbs": 18.0,
+        "protein": 3.0
+      }
+    },
+    {
+      "name": "softeis sundae ohne sauce",
+      "chainKey": "kfc-de",
+      "chain": "KFC Deutschland",
+      "per100g": {
+        "calories": 125.0,
+        "fat": 5.0,
+        "carbs": 18.0,
+        "protein": 3.0
+      }
+    },
+    {
+      "name": "softeis sundae schokolade",
+      "chainKey": "kfc-de",
+      "chain": "KFC Deutschland",
+      "per100g": {
+        "calories": 203.0,
+        "fat": 11.0,
+        "carbs": 23.0,
+        "protein": 3.0
+      }
+    },
+    {
+      "name": "softeis sundae strawberry",
+      "chainKey": "kfc-de",
+      "chain": "KFC Deutschland",
+      "per100g": {
+        "calories": 140.0,
+        "fat": 4.0,
+        "carbs": 24.0,
+        "protein": 2.0
+      }
+    },
+    {
+      "name": "softeis sundae toffee",
+      "chainKey": "kfc-de",
+      "chain": "KFC Deutschland",
+      "per100g": {
+        "calories": 151.0,
+        "fat": 4.0,
+        "carbs": 26.0,
+        "protein": 3.0
+      }
+    },
+    {
+      "name": "southern fried chicken goujons",
+      "chainKey": "greggs-uk",
+      "chain": "Greggs",
+      "per100g": {
+        "calories": 250.0,
+        "fat": 11.0,
+        "carbs": 20.0,
+        "protein": 17.0
+      }
+    },
+    {
+      "name": "stotties",
+      "chainKey": "greggs-uk",
+      "chain": "Greggs",
+      "per100g": {
+        "calories": 244.0,
+        "fat": 1.7,
+        "carbs": 47.0,
+        "protein": 8.7
+      }
+    },
+    {
+      "name": "sugar strand doughnut",
+      "chainKey": "greggs-uk",
+      "chain": "Greggs",
+      "per100g": {
+        "calories": 379.0,
+        "fat": 17.0,
+        "carbs": 50.0,
+        "protein": 5.8
+      }
+    },
+    {
+      "name": "tasty bacon",
+      "chainKey": "mcdonalds-de",
+      "chain": "McDonald's Deutschland",
+      "per100g": {
+        "calories": 254.0,
+        "fat": 16.0,
+        "carbs": 14.0,
+        "protein": 14.0
+      }
+    },
+    {
+      "name": "tasty tandoori",
+      "chainKey": "subway-de",
+      "chain": "Subway Deutschland",
+      "per100g": {
+        "calories": 195.0,
+        "fat": 7.2,
+        "carbs": 20.0,
+        "protein": 13.0
+      }
+    },
+    {
+      "name": "the bbq master",
+      "chainKey": "subway-de",
+      "chain": "Subway Deutschland",
+      "per100g": {
+        "calories": 209.0,
+        "fat": 11.0,
+        "carbs": 19.0,
+        "protein": 8.6
+      }
+    },
+    {
+      "name": "tiramisu creme mit biscoff topping und biscoff biscuit crumbs",
+      "chainKey": "nordsee-de",
+      "chain": "Nordsee Deutschland",
+      "per100g": {
+        "calories": 297.0,
+        "fat": 23.0,
+        "carbs": 19.0,
+        "protein": 3.0
+      }
+    },
+    {
+      "name": "tottenham cake",
+      "chainKey": "greggs-uk",
+      "chain": "Greggs",
+      "per100g": {
+        "calories": 413.0,
+        "fat": 16.0,
+        "carbs": 62.0,
+        "protein": 4.7
+      }
+    },
+    {
+      "name": "triple cheese footlong dipper",
+      "chainKey": "subway-de",
+      "chain": "Subway Deutschland",
+      "per100g": {
+        "calories": 306.0,
+        "fat": 13.0,
+        "carbs": 33.0,
+        "protein": 12.0
+      }
+    },
+    {
+      "name": "tuna crunch baguette",
+      "chainKey": "greggs-uk",
+      "chain": "Greggs",
+      "per100g": {
+        "calories": 175.0,
+        "fat": 2.2,
+        "carbs": 27.0,
+        "protein": 11.0
+      }
+    },
+    {
+      "name": "tuna crunch roll",
+      "chainKey": "greggs-uk",
+      "chain": "Greggs",
+      "per100g": {
+        "calories": 170.0,
+        "fat": 3.2,
+        "carbs": 23.0,
+        "protein": 11.0
+      }
+    },
+    {
+      "name": "tuna mayonnaise stottie",
+      "chainKey": "greggs-uk",
+      "chain": "Greggs",
+      "per100g": {
+        "calories": 191.0,
+        "fat": 3.5,
+        "carbs": 27.0,
+        "protein": 12.0
+      }
+    },
+    {
+      "name": "twister crispy twister",
+      "chainKey": "kfc-de",
+      "chain": "KFC Deutschland",
+      "per100g": {
+        "calories": 194.0,
+        "fat": 9.0,
+        "carbs": 19.0,
+        "protein": 9.0
+      }
+    },
+    {
+      "name": "veggie delite baked potato",
+      "chainKey": "subway-de",
+      "chain": "Subway Deutschland",
+      "per100g": {
+        "calories": 117.0,
+        "fat": 5.5,
+        "carbs": 13.0,
+        "protein": 3.8
+      }
+    },
+    {
+      "name": "veggie delite sub",
+      "chainKey": "subway-de",
+      "chain": "Subway Deutschland",
+      "per100g": {
+        "calories": 140.0,
+        "fat": 3.3,
+        "carbs": 21.0,
+        "protein": 6.6
+      }
+    },
+    {
+      "name": "veggie delite wrap",
+      "chainKey": "subway-de",
+      "chain": "Subway Deutschland",
+      "per100g": {
+        "calories": 177.0,
+        "fat": 4.9,
+        "carbs": 27.0,
+        "protein": 5.2
+      }
+    },
+    {
+      "name": "veggie twister",
+      "chainKey": "kfc-de",
+      "chain": "KFC Deutschland",
+      "per100g": {
+        "calories": 186.0,
+        "fat": 8.0,
+        "carbs": 20.0,
+        "protein": 7.0
+      }
+    },
+    {
+      "name": "whopper",
+      "chainKey": "burgerking-de",
+      "chain": "Burger King Deutschland",
+      "per100g": {
+        "calories": 217.0,
+        "fat": 11.6,
+        "carbs": 17.0,
+        "protein": 9.7
+      }
+    },
+    {
+      "name": "whopper cheese tortilla",
+      "chainKey": "burgerking-de",
+      "chain": "Burger King Deutschland",
+      "per100g": {
+        "calories": 236.0,
+        "fat": 13.7,
+        "carbs": 16.7,
+        "protein": 10.8
+      }
+    },
+    {
+      "name": "whopper jr",
+      "chainKey": "burgerking-de",
+      "chain": "Burger King Deutschland",
+      "per100g": {
+        "calories": 217.0,
+        "fat": 10.5,
+        "carbs": 20.2,
+        "protein": 9.2
+      }
+    },
+    {
+      "name": "x spicy chipotle sauce vegan",
+      "chainKey": "subway-de",
+      "chain": "Subway Deutschland",
+      "per100g": {
+        "calories": 429.0,
+        "fat": 44.0,
+        "carbs": 8.0,
+        "protein": 1.2
+      }
+    },
+    {
+      "name": "x tra long chili cheese",
+      "chainKey": "burgerking-de",
+      "chain": "Burger King Deutschland",
+      "per100g": {
+        "calories": 263.0,
+        "fat": 15.3,
+        "carbs": 16.1,
+        "protein": 14.0
+      }
+    },
+    {
+      "name": "zinger cheese bacon burger mit brioche style bun",
+      "chainKey": "kfc-de",
+      "chain": "KFC Deutschland",
+      "per100g": {
+        "calories": 246.0,
+        "fat": 12.0,
+        "carbs": 20.0,
+        "protein": 14.0
+      }
+    },
+    {
+      "name": "zinger cheese bacon burger mit chilibun",
+      "chainKey": "kfc-de",
+      "chain": "KFC Deutschland",
+      "per100g": {
+        "calories": 258.0,
+        "fat": 13.0,
+        "carbs": 20.0,
+        "protein": 15.0
+      }
+    },
+    {
+      "name": "zinger chicken",
+      "chainKey": "kfc-de",
+      "chain": "KFC Deutschland",
+      "per100g": {
+        "calories": 248.0,
+        "fat": 14.0,
+        "carbs": 9.0,
+        "protein": 23.0
+      }
+    }
+  ]
+}

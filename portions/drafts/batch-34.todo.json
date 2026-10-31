@@ -1,0 +1,366 @@
+{
+ "batch": 34,
+ "identities": [
+  {
+   "key": "protein powder soy based",
+   "names": [
+    "protein powder soy based",
+    "soy protein powder",
+    "sojaproteinpulver",
+    "soy protein",
+    "soya protein powder",
+    "soy protein shake powder",
+    "sojaprotein",
+    "soja proteinpulver",
+    "sojaeiweißpulver"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "usda:2710743",
+     "name": "Nutritional powder mix, protein, soy based, NFS"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2710743",
+     "label": "1 scoop Gold Standard",
+     "grams": 30
+    },
+    {
+     "reference": "usda:2710743",
+     "label": "1 scoop NOW Foods",
+     "grams": 45
+    },
+    {
+     "reference": "usda:2710743",
+     "label": "1 scoop, NFS",
+     "grams": 36
+    },
+    {
+     "reference": "usda:2710743",
+     "label": "1 tablespoon",
+     "grams": 18
+    }
+   ]
+  },
+  {
+   "key": "soy protein isolate",
+   "names": [
+    "soy protein isolate",
+    "sojaproteinisolat",
+    "soy isolate",
+    "soya protein isolate",
+    "soja isolat",
+    "sojaisolat",
+    "soja protein isolat"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:H011000",
+     "name": "Soya bean protein isolate"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "energy bar fortified",
+   "names": [
+    "energy bar fortified",
+    "energy bar",
+    "energieriegel",
+    "energy bars",
+    "sports bar",
+    "fortified energy bar",
+    "energie riegel",
+    "sportriegel",
+    "powerriegel"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "bls:S820100",
+     "name": "Energy bar fortified with vitamins and minerals"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "protein shake light ready to drink",
+   "names": [
+    "protein shake light ready to drink",
+    "proteinshake light trinkfertig",
+    "light protein shake",
+    "low sugar protein drink",
+    "ready to drink protein shake light",
+    "proteindrink light",
+    "proteinshake zuckerarm",
+    "trinkfertiger proteinshake"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "usda:2710727",
+     "name": "Nutritional drink or shake, high protein, light, ready-to-drink, NFS"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2710727",
+     "label": "1 cup",
+     "grams": 248
+    },
+    {
+     "reference": "usda:2710727",
+     "label": "1 fl oz",
+     "grams": 31
+    },
+    {
+     "reference": "usda:2710727",
+     "label": "1 bottle or box, NFS",
+     "grams": 341
+    },
+    {
+     "reference": "usda:2710727",
+     "label": "1 single serving box (11 fl oz) Myoplex Lite",
+     "grams": 341
+    }
+   ]
+  },
+  {
+   "key": "sports drink powder dry",
+   "names": [
+    "sports drink powder dry",
+    "sports drink powder",
+    "sportgetrankepulver",
+    "isotonic drink powder",
+    "isotonic powder",
+    "iso powder",
+    "iso pulver",
+    "isopulver",
+    "isotonisches getrankepulver",
+    "sportgetrank pulver"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "usda:2710615",
+     "name": "Sports drink, dry concentrate, not reconstituted"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2710615",
+     "label": "1 tablespoon",
+     "grams": 12.5
+    }
+   ]
+  },
+  {
+   "key": "sports drink low calorie",
+   "names": [
+    "sports drink low calorie",
+    "sportgetrank kalorienarm",
+    "zero sports drink",
+    "sugar free sports drink",
+    "low calorie isotonic drink",
+    "sportgetrank zero",
+    "sportgetrank zuckerfrei",
+    "iso zero",
+    "isotonisches getrank zuckerfrei"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "usda:2710774",
+     "name": "Sports drink, low calorie"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2710774",
+     "label": "1 cup",
+     "grams": 240
+    },
+    {
+     "reference": "usda:2710774",
+     "label": "1 fl oz",
+     "grams": 30
+    },
+    {
+     "reference": "usda:2710774",
+     "label": "1 bottle (12 fl oz)",
+     "grams": 360
+    },
+    {
+     "reference": "usda:2710774",
+     "label": "1 bottle (16.9 fl oz or 500 ml)",
+     "grams": 507
+    },
+    {
+     "reference": "usda:2710774",
+     "label": "1 bottle (20 fl oz)",
+     "grams": 600
+    },
+    {
+     "reference": "usda:2710774",
+     "label": "1 bottle (32 fl oz)",
+     "grams": 960
+    }
+   ]
+  },
+  {
+   "key": "nutrition or meal replacement bar unspecified",
+   "names": [
+    "nutrition or meal replacement bar unspecified",
+    "meal replacement bar",
+    "mahlzeitersatzriegel",
+    "nutrition bar",
+    "meal bar",
+    "diet bar",
+    "nahrstoffriegel",
+    "mahlzeitenriegel",
+    "diatriegel",
+    "ersatzmahlzeit riegel"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "usda:2708127",
+     "name": "Nutrition bar or meal replacement bar, NFS"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2708127",
+     "label": "1 bar",
+     "grams": 34
+    }
+   ]
+  },
+  {
+   "key": "egg white powder",
+   "names": [
+    "egg white powder",
+    "eiweißpulver aus eiklar",
+    "egg white protein",
+    "egg white protein powder",
+    "egg protein powder",
+    "dried egg white",
+    "eiklarpulver",
+    "eiprotein",
+    "eiproteinpulver",
+    "trockeneiweiß"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "ciqual:22004",
+     "name": "Oeuf, blanc (blanc d'oeuf), en poudre"
+    }
+   ],
+   "measures": []
+  },
+  {
+   "key": "whey protein powder",
+   "names": [
+    "whey protein powder",
+    "proteinpulver molke",
+    "protein powder",
+    "whey protein",
+    "whey",
+    "proteinpulver",
+    "eiweißpulver"
+   ],
+   "origins": [
+    "recipe-ingredient",
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "usda:2710742",
+     "name": "Nutritional powder mix, whey based, NFS"
+    },
+    {
+     "id": "usda:2710745",
+     "name": "Nutritional powder mix, protein, NFS"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "usda:2710742",
+     "label": "1 scoop, NFS",
+     "grams": 26
+    },
+    {
+     "reference": "usda:2710742",
+     "label": "1 scoop Gold Standard",
+     "grams": 20.5
+    },
+    {
+     "reference": "usda:2710742",
+     "label": "1 scoop NOW Foods",
+     "grams": 32
+    },
+    {
+     "reference": "usda:2710742",
+     "label": "1 tablespoon",
+     "grams": 13
+    }
+   ]
+  },
+  {
+   "key": "beef protein isolate powder",
+   "names": [
+    "beef protein isolate powder",
+    "beef protein isolat",
+    "beef protein isolate",
+    "beef protein powder",
+    "beef isolate",
+    "beef isolate protein",
+    "hydrolysed beef protein",
+    "hydrolyzed beef protein",
+    "hydrolysed beef protein isolate",
+    "hydrolyzed beef protein isolate",
+    "rinderprotein pulver",
+    "rinderprotein",
+    "rinderproteinpulver",
+    "rinderprotein isolat",
+    "beef protein pulver"
+   ],
+   "origins": [
+    "verified-food"
+   ],
+   "references": [
+    {
+     "id": "akari:label:beef-protein-isolate",
+     "name": "Beef protein isolate powder, unflavoured"
+    }
+   ],
+   "measures": [
+    {
+     "reference": "akari:label:beef-protein-isolate",
+     "label": "1 scoop",
+     "grams": 30
+    }
+   ]
+  }
+ ]
+}

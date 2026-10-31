@@ -1,0 +1,107 @@
+{
+ "batch": 31,
+ "drafted": "2026-10-30",
+ "drafter": "Claude in the Akari Nutrient-fill sweep session (tea collection)",
+ "entries": [
+  {
+   "key": "ginger tea",
+   "unit": "cup",
+   "milliliters": 250,
+   "typical": 1,
+   "reason": "one tea cup",
+   "excludeReferences": [
+    "usda:2710502"
+   ]
+  },
+  {
+   "key": "oolong tea",
+   "unit": "cup",
+   "milliliters": 200,
+   "typical": 1,
+   "reason": "one cup of oolong, brewed small like green tea",
+   "excludeReferences": [
+    "usda:2710490"
+   ]
+  },
+  {
+   "key": "black tea decaf",
+   "unit": "cup",
+   "milliliters": 250,
+   "typical": 1,
+   "reason": "one tea cup"
+  },
+  {
+   "key": "bubble tea",
+   "unit": "glass",
+   "milliliters": 500,
+   "typical": 1,
+   "reason": "one large bubble tea cup, 500 ml; USDA's \"1 item\" is 435 g"
+  },
+  {
+   "key": "fruit tea with sugar",
+   "unit": "cup",
+   "milliliters": 250,
+   "typical": 1,
+   "reason": "one tea cup"
+  },
+  {
+   "key": "black tea with sugar",
+   "unit": "cup",
+   "milliliters": 250,
+   "typical": 1,
+   "reason": "one tea cup"
+  },
+  {
+   "key": "black tea with lemon and sugar",
+   "unit": "cup",
+   "milliliters": 250,
+   "typical": 1,
+   "reason": "one tea cup"
+  },
+  {
+   "key": "black tea with cream and sugar",
+   "unit": "cup",
+   "milliliters": 150,
+   "typical": 1,
+   "reason": "an East Frisian tea cup is small, about 150 ml, and is refilled"
+  },
+  {
+   "key": "herbal tea with sugar",
+   "unit": "cup",
+   "milliliters": 250,
+   "typical": 1,
+   "reason": "one tea cup"
+  },
+  {
+   "key": "iced tea black bottled unsweetened",
+   "unit": "glass",
+   "milliliters": 300,
+   "typical": 1,
+   "reason": "one tall glass, as the iced tea portion",
+   "excludeReferences": [
+    "usda:2710531"
+   ]
+  },
+  {
+   "key": "iced tea sugar free with sweeteners",
+   "unit": "glass",
+   "milliliters": 300,
+   "typical": 1,
+   "reason": "one tall glass, as the iced tea portion"
+  },
+  {
+   "key": "iced tea mix black sweetened dry",
+   "unit": "teaspoon",
+   "gramsPerUnit": 5,
+   "typical": 2,
+   "reason": "two teaspoons of powder for a 250 ml glass; USDA's dry teaspoon is 4.8 g"
+  },
+  {
+   "key": "iced tea green bottled",
+   "unit": "glass",
+   "milliliters": 300,
+   "typical": 1,
+   "reason": "one tall glass, as the iced tea portion"
+  }
+ ]
+}

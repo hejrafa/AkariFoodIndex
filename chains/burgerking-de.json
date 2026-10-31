@@ -1,0 +1,5737 @@
+{
+ "chain": "Burger King Deutschland",
+ "kind": "fast-food",
+ "sourceURL": "https://www.burgerking.de/naehrwerte_allergene",
+ "sourceNote": "Burger King Deutschland's Nährwerte & Allergene page (https://www.burgerking.de/naehrwerte_allergene) publishes no table: it sends readers to each product under Menü, where \"Lebensmittelinformationen inkl. Allergenen und Nährwerte\" shows the values per 100 g/100 ml and per portion with the portion size, and the allergens; the page says the values come from its suppliers' food analyses, apply to Germany only, and that not every product is sold in every restaurant. The menu page (https://www.burgerking.de/menu) and the product pages read them from the site's own content service, Sanity dataset prod_bk_de at czqk28jt.apicdn.sanity.io (the page asks it per product with the GraphQL operation GetItem); each row records that service's public query for the item as dataURL and the SHA-256 of its result. The service also states fibre per portion and per 100 g, which the page table does not show; the file keeps it as the chain's own figure. For drinks the table's 100 g/100 ml column is per 100 ml and the portion figure is the sold volume; the file keeps the figures as stated (servingGrams is that figure, servingUnit ml). A per-100 value the service leaves empty is derived from the portion value and the stated portion weight. Where a stated per-100 value contradicts the portion's own figure, kJ against kcal decides the energy, the energy decides fat, carbohydrate and protein, and fibre, sugar, saturated fat and salt follow the side the energy chose or are left out when nothing decides; a row whose energy no check settles is left out. The energy must then fit the macronutrients (9 kcal per g fat, 4 per g carbohydrate and protein, 2 per g fibre, within 20 % or 12 kcal); a fibre figure that alone breaks the fit is left out, and a row that still does not fit is left out. Each such row says so in valueNotes. portionMilliliters is set where the chain states the volume, in the name or, for the King Shakes, in the description.",
+ "retrievedOn": "2026-10-30",
+ "checkedDate": "2026-10-30",
+ "sha256": "ee6e9ef474aa9463625ec234fa3c67aed64f1bfae70512835bd4d76f2210a8e6",
+ "sha256Note": "SHA-256 over the per-row sha256 values concatenated in ascending item id; each row sha256 is the SHA-256 of the query result as compact JSON with sorted keys (the response itself carries a timing field that changes per request).",
+ "menuSections": [
+  "Neu & Limitiert",
+  "Plant-based",
+  "Beef",
+  "Chicken",
+  "King Jr.® Meal",
+  "Snacks",
+  "Dips & Dressings",
+  "Drinks",
+  "Desserts",
+  "Frühstück"
+ ],
+ "rows": [
+  {
+   "id": "0047dec2-fcc3-4a20-8e85-ac0d54f3079f",
+   "name": "15er Churros Karamellsauce",
+   "category": "dessert",
+   "siteCategories": [
+    "Desserts"
+   ],
+   "servingGrams": 138,
+   "valuesPer100g": {
+    "energyKJ": 1181,
+    "calories": 282,
+    "fat": 10.6,
+    "saturatedFat": 0.9,
+    "carbs": 40.1,
+    "sugar": 10.1,
+    "fiber": 2.32,
+    "protein": 4.7,
+    "saltGrams": 1
+   },
+   "valuesPerServing": {
+    "energyKJ": 1630,
+    "calories": 390,
+    "fat": 14.6,
+    "saturatedFat": 1.3,
+    "carbs": 55.4,
+    "sugar": 13.9,
+    "fiber": 3.2,
+    "protein": 6.4,
+    "saltGrams": 1.4
+   },
+   "allergens": "Enthält: Gluten, Milch, Weizen",
+   "pageURL": "https://www.burgerking.de/menu/item-0047dec2-fcc3-4a20-8e85-ac0d54f3079f",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%220047dec2-fcc3-4a20-8e85-ac0d54f3079f%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "96d0c09f312ba202eafc166650a82e4e82d0f56f12bb3372fd7a73b12e3a5645",
+   "valueNotes": [
+    "fiber per 100 g derived from the portion and its stated weight"
+   ]
+  },
+  {
+   "id": "0283d31b-4974-4ca2-8a99-0668036c58aa",
+   "name": "King Toasty Egg",
+   "category": "breakfast",
+   "siteCategories": [
+    "Frühstück"
+   ],
+   "servingGrams": 128,
+   "valuesPer100g": {
+    "energyKJ": 1057,
+    "calories": 253,
+    "fat": 12.1,
+    "saturatedFat": 5.8,
+    "carbs": 21.6,
+    "sugar": 2.9,
+    "fiber": 2.9,
+    "protein": 12.7,
+    "saltGrams": 2.1
+   },
+   "valuesPerServing": {
+    "energyKJ": 1357,
+    "calories": 324,
+    "fat": 15.5,
+    "saturatedFat": 7.4,
+    "carbs": 27.7,
+    "sugar": 3.7,
+    "fiber": 3.7,
+    "protein": 16.3,
+    "saltGrams": 2.7
+   },
+   "allergens": "Enthält: Eier, Gluten, Milch, Sesam; Kann Spuren enthalten von: Soja",
+   "pageURL": "https://www.burgerking.de/menu/item-0283d31b-4974-4ca2-8a99-0668036c58aa",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%220283d31b-4974-4ca2-8a99-0668036c58aa%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "18eff776031f35f02f98b815830233b206886948225be77ca175255e894402fd"
+  },
+  {
+   "id": "11bcac8a-390e-417b-b8d8-d5c8cb82b278",
+   "name": "Essig & Öl Dressing 75ml",
+   "category": "sauce",
+   "siteCategories": [
+    "Dips & Dressings"
+   ],
+   "servingGrams": 75,
+   "valuesPer100g": {
+    "energyKJ": 1120,
+    "calories": 271,
+    "fat": 25.8,
+    "saturatedFat": 1.9,
+    "carbs": 8.6,
+    "sugar": 8.6,
+    "protein": 0.1,
+    "saltGrams": 2.2
+   },
+   "valuesPerServing": {
+    "energyKJ": 840,
+    "calories": 203,
+    "fat": 19.4,
+    "saturatedFat": 1.4,
+    "carbs": 6.5,
+    "sugar": 6.5,
+    "protein": 0.1,
+    "saltGrams": 1.7
+   },
+   "allergens": "",
+   "pageURL": "https://www.burgerking.de/menu/item-11bcac8a-390e-417b-b8d8-d5c8cb82b278",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%2211bcac8a-390e-417b-b8d8-d5c8cb82b278%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "919900c6e82ca8ee152aef844e8749b35b9e3388517ab0e6439683fd84654166"
+  },
+  {
+   "id": "141760e4-9581-40ec-9cc4-db6a7c3d3148",
+   "name": "Coca-Cola® Zero Cherry 0,4 l",
+   "category": "drink",
+   "siteCategories": [
+    "Drinks"
+   ],
+   "servingGrams": 400,
+   "valuesPer100g": {
+    "energyKJ": 0.9,
+    "calories": 0.2,
+    "fat": 0,
+    "saturatedFat": 0,
+    "carbs": 0,
+    "sugar": 0,
+    "fiber": 0.0,
+    "protein": 0,
+    "saltGrams": 0.03
+   },
+   "valuesPerServing": {
+    "energyKJ": 3.6,
+    "calories": 0.8,
+    "fat": 0,
+    "saturatedFat": 0,
+    "carbs": 0,
+    "sugar": 0,
+    "fiber": 0,
+    "protein": 0,
+    "saltGrams": 0.12
+   },
+   "allergens": "",
+   "pageURL": "https://www.burgerking.de/menu/item-141760e4-9581-40ec-9cc4-db6a7c3d3148",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22141760e4-9581-40ec-9cc4-db6a7c3d3148%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "c3a67e1a5c4c153da15bad134dda4c8c2c6bf4eae17c8b98e437098eaeae4970",
+   "portionMilliliters": 400.0,
+   "volumeSource": "name",
+   "servingUnit": "ml",
+   "valueNotes": [
+    "fiber per 100 g derived from the portion and its stated weight"
+   ]
+  },
+  {
+   "id": "1485538d-c526-4e4e-b4a1-35c579cb3113",
+   "name": "Cola-Mix 0,25 l",
+   "category": "drink",
+   "siteCategories": [
+    "Drinks"
+   ],
+   "servingGrams": 250,
+   "valuesPer100g": {
+    "energyKJ": 159,
+    "calories": 37,
+    "fat": 0,
+    "saturatedFat": 0,
+    "carbs": 9.4,
+    "sugar": 9.4,
+    "fiber": 0.0,
+    "protein": 0,
+    "saltGrams": 0
+   },
+   "valuesPerServing": {
+    "energyKJ": 398,
+    "calories": 93,
+    "fat": 0,
+    "saturatedFat": 0,
+    "carbs": 23.5,
+    "sugar": 23.5,
+    "fiber": 0,
+    "protein": 0,
+    "saltGrams": 0
+   },
+   "allergens": "",
+   "pageURL": "https://www.burgerking.de/menu/item-1485538d-c526-4e4e-b4a1-35c579cb3113",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%221485538d-c526-4e4e-b4a1-35c579cb3113%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "66e3fae17e048ad6d608aa3dde7692b342c4a53f7c61cf67dfb9033651851e2e",
+   "portionMilliliters": 250.0,
+   "volumeSource": "name",
+   "servingUnit": "ml",
+   "valueNotes": [
+    "fiber per 100 g derived from the portion and its stated weight"
+   ]
+  },
+  {
+   "id": "1d33831c-f990-4246-8760-480265eb2795",
+   "name": "Chili Cheese Beef Tortilla",
+   "category": "wrap",
+   "siteCategories": [
+    "Beef"
+   ],
+   "servingGrams": 284,
+   "valuesPer100g": {
+    "energyKJ": 1202,
+    "calories": 287,
+    "fat": 17.1,
+    "saturatedFat": 5.5,
+    "carbs": 20.1,
+    "sugar": 1.9,
+    "fiber": 1.41,
+    "protein": 12.3,
+    "saltGrams": 1.6
+   },
+   "valuesPerServing": {
+    "energyKJ": 3413,
+    "calories": 816,
+    "fat": 48.5,
+    "saturatedFat": 15.7,
+    "carbs": 57,
+    "sugar": 5.4,
+    "fiber": 4,
+    "protein": 35,
+    "saltGrams": 4.6
+   },
+   "allergens": "Enthält: Sellerie, Eier, Gluten, Milch, Senf; Kann Spuren enthalten von: Soja",
+   "pageURL": "https://www.burgerking.de/menu/item-1d33831c-f990-4246-8760-480265eb2795",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%221d33831c-f990-4246-8760-480265eb2795%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "149906d6422a35084b17a00a1a4bb165fb948b4ca6923a9e0470e1126af0927a",
+   "valueNotes": [
+    "fiber per 100 g derived from the portion and its stated weight"
+   ]
+  },
+  {
+   "id": "2671dd39-430b-4eb6-9cac-7844961e4eda",
+   "name": "Cola-Mix 0,4 l",
+   "category": "drink",
+   "siteCategories": [
+    "Drinks"
+   ],
+   "servingGrams": 400,
+   "valuesPer100g": {
+    "energyKJ": 159,
+    "calories": 37,
+    "fat": 0,
+    "saturatedFat": 0,
+    "carbs": 9.4,
+    "sugar": 9.4,
+    "fiber": 0.0,
+    "protein": 0,
+    "saltGrams": 0
+   },
+   "valuesPerServing": {
+    "energyKJ": 636,
+    "calories": 148,
+    "fat": 0,
+    "saturatedFat": 0,
+    "carbs": 37.6,
+    "sugar": 37.6,
+    "fiber": 0,
+    "protein": 0,
+    "saltGrams": 0
+   },
+   "allergens": "",
+   "pageURL": "https://www.burgerking.de/menu/item-2671dd39-430b-4eb6-9cac-7844961e4eda",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%222671dd39-430b-4eb6-9cac-7844961e4eda%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "53e2dff18386dc6a29bbf3dd3ced941dd15b66c0605037968f6dedcf4b56f15e",
+   "portionMilliliters": 400.0,
+   "volumeSource": "name",
+   "servingUnit": "ml",
+   "valueNotes": [
+    "fiber per 100 g derived from the portion and its stated weight"
+   ]
+  },
+  {
+   "id": "2a7a24be-9303-4d9f-aad6-030d952db405",
+   "name": "15er Churros Zimt&Zucker",
+   "category": "dessert",
+   "siteCategories": [
+    "Desserts"
+   ],
+   "servingGrams": 118,
+   "valuesPer100g": {
+    "energyKJ": 1194,
+    "calories": 286,
+    "fat": 12,
+    "saturatedFat": 1,
+    "carbs": 36,
+    "sugar": 1.6,
+    "fiber": 2.29,
+    "protein": 5,
+    "saltGrams": 1
+   },
+   "valuesPerServing": {
+    "energyKJ": 1409,
+    "calories": 337,
+    "fat": 14.1,
+    "saturatedFat": 1.2,
+    "carbs": 42.4,
+    "sugar": 1.9,
+    "fiber": 2.7,
+    "protein": 5.9,
+    "saltGrams": 1.2
+   },
+   "allergens": "Enthält: Gluten, Weizen",
+   "pageURL": "https://www.burgerking.de/menu/item-2a7a24be-9303-4d9f-aad6-030d952db405",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%222a7a24be-9303-4d9f-aad6-030d952db405%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "cd78b5bbf852d0579ac894eab20c918c0bce110edde35d688082ab2082ad02d2",
+   "valueNotes": [
+    "fiber per 100 g derived from the portion and its stated weight"
+   ]
+  },
+  {
+   "id": "393f9e3f-d9b4-41e2-9e0b-6169504e5c31",
+   "name": "Monster Energy® Ultra White 0,5l",
+   "category": "drink",
+   "siteCategories": [
+    "Drinks"
+   ],
+   "servingGrams": 500,
+   "valuesPer100g": {
+    "energyKJ": 10,
+    "calories": 2,
+    "fat": 0,
+    "saturatedFat": 0,
+    "carbs": 0.9,
+    "sugar": 0,
+    "fiber": 0.0,
+    "protein": 0,
+    "saltGrams": 0.2
+   },
+   "valuesPerServing": {
+    "energyKJ": 50,
+    "calories": 11,
+    "fat": 0,
+    "saturatedFat": 0,
+    "carbs": 4.4,
+    "sugar": 0,
+    "fiber": 0,
+    "protein": 0,
+    "saltGrams": 1
+   },
+   "allergens": "",
+   "pageURL": "https://www.burgerking.de/menu/item-393f9e3f-d9b4-41e2-9e0b-6169504e5c31",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22393f9e3f-d9b4-41e2-9e0b-6169504e5c31%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "b60fe1aa6b290fcd81461a4f2b2e34b180689e44b1ab20ccc1e25cc8c1888cf9",
+   "portionMilliliters": 500.0,
+   "volumeSource": "name",
+   "servingUnit": "ml",
+   "valueNotes": [
+    "fiber per 100 g derived from the portion and its stated weight"
+   ]
+  },
+  {
+   "id": "3bcd9616-37b3-4367-9de2-5be132022eee",
+   "name": "Plant-based Double Crispy Chicken",
+   "category": "burger",
+   "siteCategories": [
+    "Plant-based"
+   ],
+   "servingGrams": 241,
+   "valuesPer100g": {
+    "energyKJ": 1072,
+    "calories": 256,
+    "fat": 14.7,
+    "saturatedFat": 1.2,
+    "carbs": 22,
+    "sugar": 2.8,
+    "protein": 6.8,
+    "saltGrams": 1.1
+   },
+   "valuesPerServing": {
+    "energyKJ": 2584,
+    "calories": 618,
+    "fat": 35.4,
+    "saturatedFat": 2.8,
+    "carbs": 52.2,
+    "sugar": 6.7,
+    "protein": 16.5,
+    "saltGrams": 2.6
+   },
+   "allergens": "Enthält: Sellerie, Gluten, Sesam, Soja; Kann Spuren enthalten von: Eier, Milch, Senf",
+   "pageURL": "https://www.burgerking.de/menu/item-3bcd9616-37b3-4367-9de2-5be132022eee",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%223bcd9616-37b3-4367-9de2-5be132022eee%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "cd0aea2e6f7d01dfd717d82692df46689735e8121d60bddc16cac465da128358"
+  },
+  {
+   "id": "3ceebe0b-2fb0-41e2-a9a3-cc5d64733c15",
+   "name": "Chipotle Ranch Dip 25ml",
+   "category": "sauce",
+   "siteCategories": [
+    "Dips & Dressings"
+   ],
+   "servingGrams": 26,
+   "valuesPer100g": {
+    "energyKJ": 1109,
+    "calories": 265,
+    "fat": 21.9,
+    "saturatedFat": 1.6,
+    "carbs": 14.7,
+    "sugar": 9.1,
+    "fiber": 1.15,
+    "protein": 0.5,
+    "saltGrams": 1.8
+   },
+   "valuesPerServing": {
+    "energyKJ": 291,
+    "calories": 69,
+    "fat": 5.7,
+    "saturatedFat": 0.4,
+    "carbs": 3.8,
+    "sugar": 2.4,
+    "fiber": 0.3,
+    "protein": 0.1,
+    "saltGrams": 0.5
+   },
+   "allergens": "Enthält: Eier, Milch, Senf",
+   "pageURL": "https://www.burgerking.de/menu/item-3ceebe0b-2fb0-41e2-a9a3-cc5d64733c15",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%223ceebe0b-2fb0-41e2-a9a3-cc5d64733c15%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "c8a6c47d47b5cc52ed381988bc0a1829636ba019c22fc5a552d6cce3f4c5f5d2",
+   "valueNotes": [
+    "fiber per 100 g derived from the portion and its stated weight"
+   ]
+  },
+  {
+   "id": "40c25e32-a37f-4799-97d8-1ba07313c6de",
+   "name": "Cola-Mix 0,5 l",
+   "category": "drink",
+   "siteCategories": [
+    "Drinks"
+   ],
+   "servingGrams": 500,
+   "valuesPer100g": {
+    "energyKJ": 159,
+    "calories": 37,
+    "fat": 0,
+    "saturatedFat": 0,
+    "carbs": 9.4,
+    "sugar": 9.4,
+    "fiber": 0.0,
+    "protein": 0,
+    "saltGrams": 0
+   },
+   "valuesPerServing": {
+    "energyKJ": 795,
+    "calories": 185,
+    "fat": 0,
+    "saturatedFat": 0,
+    "carbs": 47,
+    "sugar": 47,
+    "fiber": 0,
+    "protein": 0,
+    "saltGrams": 0
+   },
+   "allergens": "",
+   "pageURL": "https://www.burgerking.de/menu/item-40c25e32-a37f-4799-97d8-1ba07313c6de",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%2240c25e32-a37f-4799-97d8-1ba07313c6de%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "ce7aea803a49b30288d8bce55f85d33ae8cc8d824c47b2d31280679462264807",
+   "portionMilliliters": 500.0,
+   "volumeSource": "name",
+   "servingUnit": "ml",
+   "valueNotes": [
+    "fiber per 100 g derived from the portion and its stated weight"
+   ]
+  },
+  {
+   "id": "424befce-c2f8-48d6-934a-97ae51399344",
+   "name": "Coca-Cola® Zero Cherry 0,5 l",
+   "category": "drink",
+   "siteCategories": [
+    "Drinks"
+   ],
+   "servingGrams": 500,
+   "valuesPer100g": {
+    "energyKJ": 0.9,
+    "calories": 0.2,
+    "fat": 0,
+    "saturatedFat": 0,
+    "carbs": 0,
+    "sugar": 0,
+    "fiber": 0.0,
+    "protein": 0,
+    "saltGrams": 0.03
+   },
+   "valuesPerServing": {
+    "energyKJ": 4.5,
+    "calories": 1,
+    "fat": 0,
+    "saturatedFat": 0,
+    "carbs": 0,
+    "sugar": 0,
+    "fiber": 0,
+    "protein": 0,
+    "saltGrams": 0.15
+   },
+   "allergens": "",
+   "pageURL": "https://www.burgerking.de/menu/item-424befce-c2f8-48d6-934a-97ae51399344",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22424befce-c2f8-48d6-934a-97ae51399344%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "71abfa16969f28c01fd7e4e98ffbe1d6cba58f7002df38a86807f733b123e286",
+   "portionMilliliters": 500.0,
+   "volumeSource": "name",
+   "servingUnit": "ml",
+   "valueNotes": [
+    "fiber per 100 g derived from the portion and its stated weight"
+   ]
+  },
+  {
+   "id": "4a798bdf-df71-4134-935e-86f68f055584",
+   "name": "8 Chicken Tenders",
+   "category": "chicken",
+   "siteCategories": [
+    "Chicken",
+    "Snacks"
+   ],
+   "servingGrams": 384,
+   "valuesPer100g": {
+    "energyKJ": 1063,
+    "calories": 254,
+    "fat": 12.4,
+    "saturatedFat": 1.2,
+    "carbs": 17.7,
+    "sugar": 0.3,
+    "fiber": 1.3,
+    "protein": 17.2,
+    "saltGrams": 1.7
+   },
+   "valuesPerServing": {
+    "energyKJ": 4081,
+    "calories": 975,
+    "fat": 47.6,
+    "saturatedFat": 4.6,
+    "carbs": 68,
+    "sugar": 1.1,
+    "fiber": 5,
+    "protein": 66.1,
+    "saltGrams": 6.4
+   },
+   "allergens": "Enthält: Gluten; Kann Spuren enthalten von: Sellerie, Eier, Milch, Senf, Soja",
+   "pageURL": "https://www.burgerking.de/menu/item-4a798bdf-df71-4134-935e-86f68f055584",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%224a798bdf-df71-4134-935e-86f68f055584%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "570e1051d56bd68be8df5905e65cb64243431256cb24ef4cbb3065e61625270e"
+  },
+  {
+   "id": "4c3d76eb-95bf-4fd5-bb35-1941e5bf86eb",
+   "name": "Crispy Chicken Tortilla",
+   "category": "wrap",
+   "siteCategories": [
+    "Chicken"
+   ],
+   "servingGrams": 243,
+   "valuesPer100g": {
+    "energyKJ": 1144,
+    "calories": 274,
+    "fat": 14.5,
+    "saturatedFat": 3.5,
+    "carbs": 26.2,
+    "sugar": 3.1,
+    "fiber": 1.23,
+    "protein": 8.9,
+    "saltGrams": 1.2
+   },
+   "valuesPerServing": {
+    "energyKJ": 2777,
+    "calories": 664,
+    "fat": 35.2,
+    "saturatedFat": 8.6,
+    "carbs": 63.5,
+    "sugar": 7.6,
+    "fiber": 3,
+    "protein": 21.7,
+    "saltGrams": 3
+   },
+   "allergens": "Enthält: Sellerie, Gluten, Milch; Kann Spuren enthalten von: Eier, Senf, Soja",
+   "pageURL": "https://www.burgerking.de/menu/item-4c3d76eb-95bf-4fd5-bb35-1941e5bf86eb",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%224c3d76eb-95bf-4fd5-bb35-1941e5bf86eb%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "1fd56a4f8a04c3b9698c9b9b6e0ed668b3810e011ab943b8e3bcb2c5c45476d8",
+   "valueNotes": [
+    "fiber per 100 g derived from the portion and its stated weight"
+   ]
+  },
+  {
+   "id": "5199332a-c3b1-48d8-ab4a-55a37213f3fa",
+   "name": "BBQ Cauli Wings",
+   "category": "snack",
+   "siteCategories": [
+    "Snacks"
+   ],
+   "servingGrams": 189,
+   "valuesPer100g": {
+    "energyKJ": 806,
+    "calories": 193,
+    "fat": 9.1,
+    "saturatedFat": 1.8,
+    "carbs": 24.5,
+    "sugar": 8,
+    "protein": 2.6,
+    "saltGrams": 1.7
+   },
+   "valuesPerServing": {
+    "energyKJ": 1523,
+    "calories": 364,
+    "fat": 17.2,
+    "saturatedFat": 3.3,
+    "carbs": 46.2,
+    "sugar": 15.1,
+    "protein": 4.8,
+    "saltGrams": 3.2
+   },
+   "allergens": "Enthält: Gluten, Senf; Kann Spuren enthalten von: Soja",
+   "pageURL": "https://www.burgerking.de/menu/item-5199332a-c3b1-48d8-ab4a-55a37213f3fa",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%225199332a-c3b1-48d8-ab4a-55a37213f3fa%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "bbb3ad68f4ae1804dd73c9057161f900e4d34eb105d224ec7830ac85fb6b279e"
+  },
+  {
+   "id": "52cac541-cfdb-48f9-bf00-992818326fac",
+   "name": "Coca-Cola® Zero Cherry 0,25 l",
+   "category": "drink",
+   "siteCategories": [
+    "Drinks"
+   ],
+   "servingGrams": 250,
+   "valuesPer100g": {
+    "energyKJ": 0.9,
+    "calories": 0.2,
+    "fat": 0,
+    "saturatedFat": 0,
+    "carbs": 0,
+    "sugar": 0,
+    "fiber": 0.0,
+    "protein": 0,
+    "saltGrams": 0.03
+   },
+   "valuesPerServing": {
+    "energyKJ": 2.3,
+    "calories": 0.5,
+    "fat": 0,
+    "saturatedFat": 0,
+    "carbs": 0.3,
+    "sugar": 0,
+    "fiber": 0,
+    "protein": 0.3,
+    "saltGrams": 0.08
+   },
+   "allergens": "",
+   "pageURL": "https://www.burgerking.de/menu/item-52cac541-cfdb-48f9-bf00-992818326fac",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%2252cac541-cfdb-48f9-bf00-992818326fac%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "b16a3c6e9b804144493fb7eca0930d97efd6ec4f97762a34e31b29aae9ba60ca",
+   "portionMilliliters": 250.0,
+   "volumeSource": "name",
+   "servingUnit": "ml",
+   "valueNotes": [
+    "fiber per 100 g derived from the portion and its stated weight"
+   ]
+  },
+  {
+   "id": "53071e29-85bc-4314-b5b8-b38529e5006e",
+   "name": "4 Chicken Tenders",
+   "category": "chicken",
+   "siteCategories": [
+    "Chicken",
+    "Snacks"
+   ],
+   "servingGrams": 192,
+   "valuesPer100g": {
+    "energyKJ": 1063,
+    "calories": 254,
+    "fat": 12.4,
+    "saturatedFat": 1.2,
+    "carbs": 17.7,
+    "sugar": 0.3,
+    "fiber": 1.3,
+    "protein": 17.2,
+    "saltGrams": 1.7
+   },
+   "valuesPerServing": {
+    "energyKJ": 2040,
+    "calories": 488,
+    "fat": 23.8,
+    "saturatedFat": 2.3,
+    "carbs": 34,
+    "sugar": 0.69,
+    "fiber": 2.5,
+    "protein": 33,
+    "saltGrams": 3.2
+   },
+   "allergens": "Enthält: Gluten; Kann Spuren enthalten von: Sellerie, Eier, Milch, Senf, Soja",
+   "pageURL": "https://www.burgerking.de/menu/item-53071e29-85bc-4314-b5b8-b38529e5006e",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%2253071e29-85bc-4314-b5b8-b38529e5006e%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "420b8946e4497d6d52fcae1dbb8aec22a38e94061d6cd3b4771cdd8c70ce855d"
+  },
+  {
+   "id": "5942c587-06a6-4bee-bf58-a314aec39d87",
+   "name": "30er Churros Schokosauce",
+   "category": "dessert",
+   "siteCategories": [
+    "Desserts"
+   ],
+   "servingGrams": 276,
+   "valuesPer100g": {
+    "energyKJ": 1190,
+    "calories": 285,
+    "fat": 10.6,
+    "saturatedFat": 0.9,
+    "carbs": 39.4,
+    "sugar": 10.1,
+    "fiber": 2.39,
+    "protein": 4.9,
+    "saltGrams": 0.9
+   },
+   "valuesPerServing": {
+    "energyKJ": 3286,
+    "calories": 786,
+    "fat": 29.2,
+    "saturatedFat": 2.6,
+    "carbs": 108.8,
+    "sugar": 27.8,
+    "fiber": 6.6,
+    "protein": 13.4,
+    "saltGrams": 2.4
+   },
+   "allergens": "Enthält: Gluten, Milch, Weizen; Kann Spuren enthalten von: Schalenfrüchte",
+   "pageURL": "https://www.burgerking.de/menu/item-5942c587-06a6-4bee-bf58-a314aec39d87",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%225942c587-06a6-4bee-bf58-a314aec39d87%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "8d8b16e56f1811e44bbc8830d7e19d8658f21ffd88477132682677e73c94fcb8",
+   "valueNotes": [
+    "fiber per 100 g derived from the portion and its stated weight"
+   ]
+  },
+  {
+   "id": "5b0c04e5-34d7-4570-9d8a-4762343984e0",
+   "name": "Whopper® Cheese Tortilla",
+   "category": "wrap",
+   "siteCategories": [
+    "Beef"
+   ],
+   "servingGrams": 301,
+   "valuesPer100g": {
+    "energyKJ": 985,
+    "calories": 236,
+    "fat": 13.7,
+    "saturatedFat": 4.7,
+    "carbs": 16.7,
+    "sugar": 2.5,
+    "fiber": 0.9,
+    "protein": 10.8,
+    "saltGrams": 1.1
+   },
+   "valuesPerServing": {
+    "energyKJ": 2970,
+    "calories": 710,
+    "fat": 41.4,
+    "saturatedFat": 14,
+    "carbs": 50.5,
+    "sugar": 7.7,
+    "fiber": 2.7,
+    "protein": 32.5,
+    "saltGrams": 3.3
+   },
+   "allergens": "Enthält: Sellerie, Gluten, Milch",
+   "pageURL": "https://www.burgerking.de/menu/item-5b0c04e5-34d7-4570-9d8a-4762343984e0",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%225b0c04e5-34d7-4570-9d8a-4762343984e0%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "427d43104dc851e73057ad58e3c0bc7cd9ed857c253ca92e922091d66c1dd3ff",
+   "valueNotes": [
+    "fiber per 100 g derived from the portion and its stated weight"
+   ]
+  },
+  {
+   "id": "5c452e2c-e2d4-4007-b9c7-07c7203412a5",
+   "name": "30er Churros Erdbeersauce",
+   "category": "dessert",
+   "siteCategories": [
+    "Desserts"
+   ],
+   "servingGrams": 276,
+   "valuesPer100g": {
+    "energyKJ": 1198,
+    "calories": 286,
+    "fat": 10.6,
+    "saturatedFat": 0.9,
+    "carbs": 40.8,
+    "sugar": 10.1,
+    "fiber": 2.32,
+    "protein": 4.7,
+    "saltGrams": 0.9
+   },
+   "valuesPerServing": {
+    "energyKJ": 3300,
+    "calories": 790,
+    "fat": 29.2,
+    "saturatedFat": 2.6,
+    "carbs": 112.8,
+    "sugar": 27.8,
+    "fiber": 6.4,
+    "protein": 12.8,
+    "saltGrams": 2.4
+   },
+   "allergens": "Enthält: Gluten, Weizen",
+   "pageURL": "https://www.burgerking.de/menu/item-5c452e2c-e2d4-4007-b9c7-07c7203412a5",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%225c452e2c-e2d4-4007-b9c7-07c7203412a5%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "a56d0b6087b550dd6cad89d635df7b535503075423bd51edb78275faeb114df4",
+   "valueNotes": [
+    "fiber per 100 g derived from the portion and its stated weight"
+   ]
+  },
+  {
+   "id": "66947c33-dd47-479a-a724-a0448c654027",
+   "name": "Plant-based Crispy Chicken",
+   "category": "burger",
+   "siteCategories": [
+    "Plant-based"
+   ],
+   "servingGrams": 171,
+   "valuesPer100g": {
+    "energyKJ": 1082,
+    "calories": 259,
+    "fat": 14.6,
+    "saturatedFat": 1.2,
+    "carbs": 23.5,
+    "sugar": 3.5,
+    "protein": 6.3,
+    "saltGrams": 1.1
+   },
+   "valuesPerServing": {
+    "energyKJ": 1852,
+    "calories": 443,
+    "fat": 24.9,
+    "saturatedFat": 2,
+    "carbs": 40.3,
+    "sugar": 5.9,
+    "protein": 10.7,
+    "saltGrams": 1.8
+   },
+   "allergens": "Enthält: Sellerie, Gluten, Sesam, Soja; Kann Spuren enthalten von: Eier, Milch, Senf",
+   "pageURL": "https://www.burgerking.de/menu/item-66947c33-dd47-479a-a724-a0448c654027",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%2266947c33-dd47-479a-a724-a0448c654027%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "efdfc4772469606b2a88fa7fcafa366bdf230872b2fdcfb932a30c26d30d6bbd"
+  },
+  {
+   "id": "6acc50eb-33f1-4ef2-bd32-c313aff4296c",
+   "name": "2 Chicken Tenders",
+   "category": "chicken",
+   "siteCategories": [
+    "Chicken",
+    "Snacks"
+   ],
+   "servingGrams": 96,
+   "valuesPer100g": {
+    "energyKJ": 1063,
+    "calories": 254,
+    "fat": 12.4,
+    "saturatedFat": 1.2,
+    "carbs": 17.7,
+    "sugar": 0.3,
+    "fiber": 1.3,
+    "protein": 17.2,
+    "saltGrams": 1.7
+   },
+   "valuesPerServing": {
+    "energyKJ": 1020,
+    "calories": 244,
+    "fat": 11.9,
+    "saturatedFat": 1.1,
+    "carbs": 17,
+    "sugar": 0.3,
+    "fiber": 1.3,
+    "protein": 16.5,
+    "saltGrams": 1.6
+   },
+   "allergens": "Enthält: Gluten; Kann Spuren enthalten von: Sellerie, Eier, Milch, Senf, Soja",
+   "pageURL": "https://www.burgerking.de/menu/item-6acc50eb-33f1-4ef2-bd32-c313aff4296c",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%226acc50eb-33f1-4ef2-bd32-c313aff4296c%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "148051ae9a0ff3cd712419b2af8e6ca27a057b460ee817fa9c3d3bb71699e284"
+  },
+  {
+   "id": "6ba0c1e8-08ba-4556-81ed-bc0c8817046b",
+   "name": "Fruit Whoop Apfel-Kirsche",
+   "category": "drink",
+   "siteCategories": [
+    "Drinks",
+    "King Jr.® Meal"
+   ],
+   "servingGrams": 200,
+   "valuesPer100g": {
+    "energyKJ": 146,
+    "calories": 35,
+    "fat": 0,
+    "saturatedFat": 0,
+    "carbs": 8.1,
+    "sugar": 7.7,
+    "fiber": 0,
+    "protein": 0.1,
+    "saltGrams": 0
+   },
+   "valuesPerServing": {
+    "energyKJ": 293,
+    "calories": 70,
+    "fat": 0,
+    "saturatedFat": 0,
+    "carbs": 16.3,
+    "sugar": 15.5,
+    "fiber": 0,
+    "protein": 0.1,
+    "saltGrams": 0
+   },
+   "allergens": "",
+   "pageURL": "https://www.burgerking.de/menu/item-6ba0c1e8-08ba-4556-81ed-bc0c8817046b",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%226ba0c1e8-08ba-4556-81ed-bc0c8817046b%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "b31d5305606cc8e58ef889100f993eb6c1b8c58cb7250c3cce7834102c680789"
+  },
+  {
+   "id": "6e10d1b1-af14-4038-997a-851a632a1449",
+   "name": "King Toasty Bacon",
+   "category": "breakfast",
+   "siteCategories": [
+    "Frühstück"
+   ],
+   "servingGrams": 81,
+   "valuesPer100g": {
+    "energyKJ": 1273,
+    "calories": 304,
+    "fat": 12.7,
+    "saturatedFat": 6.7,
+    "carbs": 32.3,
+    "sugar": 4,
+    "fiber": 3.3,
+    "protein": 13.1,
+    "saltGrams": 2.3
+   },
+   "valuesPerServing": {
+    "energyKJ": 1029,
+    "calories": 246,
+    "fat": 10.3,
+    "saturatedFat": 5.4,
+    "carbs": 26.1,
+    "sugar": 3.3,
+    "fiber": 2.7,
+    "protein": 10.6,
+    "saltGrams": 1.9
+   },
+   "allergens": "Enthält: Gluten, Milch, Sesam; Kann Spuren enthalten von: Eier, Soja",
+   "pageURL": "https://www.burgerking.de/menu/item-6e10d1b1-af14-4038-997a-851a632a1449",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%226e10d1b1-af14-4038-997a-851a632a1449%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "92e1f39e6fe1ec72222bb318ec876777f0110e3f82b038d6b3d96468dc880065"
+  },
+  {
+   "id": "6e8ed1fb-c83d-4290-993a-080d841f5c74",
+   "name": "King Toasty Bacon Egg",
+   "category": "breakfast",
+   "siteCategories": [
+    "Frühstück"
+   ],
+   "servingGrams": 133,
+   "valuesPer100g": {
+    "energyKJ": 1079,
+    "calories": 258,
+    "fat": 12.7,
+    "saturatedFat": 6,
+    "carbs": 20.8,
+    "sugar": 2.8,
+    "fiber": 2.8,
+    "protein": 13.4,
+    "saltGrams": 2.2
+   },
+   "valuesPerServing": {
+    "energyKJ": 1439,
+    "calories": 344,
+    "fat": 17,
+    "saturatedFat": 8,
+    "carbs": 27.8,
+    "sugar": 3.8,
+    "fiber": 3.7,
+    "protein": 17.9,
+    "saltGrams": 2.9
+   },
+   "allergens": "Enthält: Eier, Gluten, Milch, Sesam; Kann Spuren enthalten von: Soja",
+   "pageURL": "https://www.burgerking.de/menu/item-6e8ed1fb-c83d-4290-993a-080d841f5c74",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%226e8ed1fb-c83d-4290-993a-080d841f5c74%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "6a369d4b608ef1ad29ba77e940db1a90d5c5c195ff05aa0990cdf7bf25d0be7f"
+  },
+  {
+   "id": "733a335f-bb63-40eb-a484-54cbacba4337",
+   "name": "XXL Chili Cheese Dip",
+   "category": "sauce",
+   "siteCategories": [
+    "Dips & Dressings"
+   ],
+   "servingGrams": 120,
+   "valuesPer100g": {
+    "energyKJ": 1824,
+    "calories": 436,
+    "fat": 41.9,
+    "saturatedFat": 3.7,
+    "carbs": 12.2,
+    "sugar": 9.1,
+    "protein": 1.3,
+    "saltGrams": 1.7
+   },
+   "valuesPerServing": {
+    "energyKJ": 2189,
+    "calories": 523,
+    "fat": 50.2,
+    "saturatedFat": 4.4,
+    "carbs": 14.6,
+    "sugar": 10.9,
+    "protein": 1.6,
+    "saltGrams": 2.1
+   },
+   "allergens": "Enthält: Eier, Milch",
+   "pageURL": "https://www.burgerking.de/menu/item-733a335f-bb63-40eb-a484-54cbacba4337",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22733a335f-bb63-40eb-a484-54cbacba4337%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "667159d25873dfdbd4b6f545997ae178eb6d2e5109a3ecae4cccdec12ce2ec4f"
+  },
+  {
+   "id": "7ea99437-639d-4a06-801b-64627c28626e",
+   "name": "30er Churros Zimt&Zucker",
+   "category": "dessert",
+   "siteCategories": [
+    "Desserts"
+   ],
+   "servingGrams": 236,
+   "valuesPer100g": {
+    "energyKJ": 1194,
+    "calories": 286,
+    "fat": 12,
+    "saturatedFat": 1,
+    "carbs": 36,
+    "sugar": 1.6,
+    "fiber": 2.29,
+    "protein": 5,
+    "saltGrams": 1
+   },
+   "valuesPerServing": {
+    "energyKJ": 2818,
+    "calories": 674,
+    "fat": 28.2,
+    "saturatedFat": 2.4,
+    "carbs": 84.8,
+    "sugar": 3.8,
+    "fiber": 5.4,
+    "protein": 11.8,
+    "saltGrams": 2.4
+   },
+   "allergens": "Enthält: Gluten, Weizen",
+   "pageURL": "https://www.burgerking.de/menu/item-7ea99437-639d-4a06-801b-64627c28626e",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%227ea99437-639d-4a06-801b-64627c28626e%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "060743fe997cae3258fee19c1b09d5dfb1cdd9cf64710f13abeff32f8c58390b",
+   "valueNotes": [
+    "fiber per 100 g derived from the portion and its stated weight"
+   ]
+  },
+  {
+   "id": "8352fbf0-bcda-4135-829a-6ebfe97e0045",
+   "name": "15er Churros Schokosauce",
+   "category": "dessert",
+   "siteCategories": [
+    "Desserts"
+   ],
+   "servingGrams": 138,
+   "valuesPer100g": {
+    "energyKJ": 1190,
+    "calories": 285,
+    "fat": 10.6,
+    "saturatedFat": 0.9,
+    "carbs": 39.4,
+    "sugar": 10.1,
+    "fiber": 2.39,
+    "protein": 4.9,
+    "saltGrams": 0.9
+   },
+   "valuesPerServing": {
+    "energyKJ": 1643,
+    "calories": 393,
+    "fat": 14.6,
+    "saturatedFat": 1.3,
+    "carbs": 54.4,
+    "sugar": 13.9,
+    "fiber": 3.3,
+    "protein": 6.7,
+    "saltGrams": 1.2
+   },
+   "allergens": "Enthält: Gluten, Milch, Weizen; Kann Spuren enthalten von: Schalenfrüchte",
+   "pageURL": "https://www.burgerking.de/menu/item-8352fbf0-bcda-4135-829a-6ebfe97e0045",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%228352fbf0-bcda-4135-829a-6ebfe97e0045%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "7b3a9f90114d0be972edd49caf2bb9d1cba87592a1acb79445ac349ac4df61ab",
+   "valueNotes": [
+    "fiber per 100 g derived from the portion and its stated weight"
+   ]
+  },
+  {
+   "id": "870986f5-712e-41e6-8610-9ed20acb6481",
+   "name": "Breakfast King",
+   "category": "breakfast",
+   "siteCategories": [
+    "Beef",
+    "Frühstück"
+   ],
+   "servingGrams": 301,
+   "valuesPer100g": {
+    "energyKJ": 1141,
+    "calories": 273,
+    "fat": 16.6,
+    "saturatedFat": 5.7,
+    "carbs": 16,
+    "sugar": 3.1,
+    "fiber": 1.3,
+    "protein": 14.3,
+    "saltGrams": 1.2
+   },
+   "valuesPerServing": {
+    "energyKJ": 3432,
+    "calories": 820,
+    "fat": 49.9,
+    "saturatedFat": 17.2,
+    "carbs": 48.1,
+    "sugar": 9.3,
+    "fiber": 3.9,
+    "protein": 42.9,
+    "saltGrams": 3.7
+   },
+   "allergens": "Enthält: Eier, Gluten, Milch; Kann Spuren enthalten von: Sesam, Soja",
+   "pageURL": "https://www.burgerking.de/menu/item-870986f5-712e-41e6-8610-9ed20acb6481",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22870986f5-712e-41e6-8610-9ed20acb6481%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "6dd114f4532a3f3e10d713e6f916f2cd4aa789804295b46eabdd7a8804825959"
+  },
+  {
+   "id": "8cd4ef92-7bc6-49c4-a2b3-9692951b2caa",
+   "name": "XXL Cheese Dip",
+   "category": "sauce",
+   "siteCategories": [
+    "Dips & Dressings"
+   ],
+   "servingGrams": 120,
+   "valuesPer100g": {
+    "energyKJ": 996,
+    "calories": 238,
+    "fat": 18.2,
+    "saturatedFat": 13,
+    "carbs": 8.9,
+    "sugar": 6.3,
+    "fiber": 0.1,
+    "protein": 9.6,
+    "saltGrams": 2.8
+   },
+   "valuesPerServing": {
+    "energyKJ": 1195,
+    "calories": 285,
+    "fat": 21.9,
+    "saturatedFat": 15.3,
+    "carbs": 10.7,
+    "sugar": 7.5,
+    "fiber": 0.1,
+    "protein": 11.5,
+    "saltGrams": 3.3
+   },
+   "allergens": "Enthält: Milch",
+   "pageURL": "https://www.burgerking.de/menu/item-8cd4ef92-7bc6-49c4-a2b3-9692951b2caa",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%228cd4ef92-7bc6-49c4-a2b3-9692951b2caa%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "aa7b124f1f86b48f4f713b62abd7cc8ea6d5b729fd80af57e24d915d76021c18"
+  },
+  {
+   "id": "98488e68-40c9-491e-b76a-08da12b290ab",
+   "name": "Honig-Senf Dressing 75ml",
+   "category": "sauce",
+   "siteCategories": [
+    "Dips & Dressings"
+   ],
+   "servingGrams": 75,
+   "valuesPer100g": {
+    "energyKJ": 382,
+    "calories": 91,
+    "fat": 3.2,
+    "saturatedFat": 0.3,
+    "carbs": 13.2,
+    "sugar": 12.5,
+    "fiber": 0,
+    "protein": 1,
+    "saltGrams": 2
+   },
+   "valuesPerServing": {
+    "energyKJ": 287,
+    "calories": 68,
+    "fat": 2.4,
+    "saturatedFat": 0.2,
+    "carbs": 9.9,
+    "sugar": 9.4,
+    "fiber": 0,
+    "protein": 0.8,
+    "saltGrams": 1.5
+   },
+   "allergens": "Enthält: Senf",
+   "pageURL": "https://www.burgerking.de/menu/item-98488e68-40c9-491e-b76a-08da12b290ab",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%2298488e68-40c9-491e-b76a-08da12b290ab%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "8f37bc8c769f2f11fdeef831d24dbb4012e489afeeb7c15e52755bd6f300026e"
+  },
+  {
+   "id": "afa0555c-5722-4645-9a06-1e7f8d370aa3",
+   "name": "Breakfast Tortilla",
+   "category": "breakfast",
+   "siteCategories": [
+    "Chicken",
+    "Frühstück"
+   ],
+   "servingGrams": 310,
+   "valuesPer100g": {
+    "energyKJ": 1028,
+    "calories": 246,
+    "fat": 13.6,
+    "saturatedFat": 3.6,
+    "carbs": 20.8,
+    "sugar": 2.4,
+    "fiber": 1.3,
+    "protein": 9.4,
+    "saltGrams": 1.3
+   },
+   "valuesPerServing": {
+    "energyKJ": 3179,
+    "calories": 760,
+    "fat": 42,
+    "saturatedFat": 11.2,
+    "carbs": 64.5,
+    "sugar": 7.5,
+    "fiber": 4.1,
+    "protein": 29.1,
+    "saltGrams": 4
+   },
+   "allergens": "Enthält: Sellerie, Eier, Gluten, Milch, Senf; Kann Spuren enthalten von: Soja",
+   "pageURL": "https://www.burgerking.de/menu/item-afa0555c-5722-4645-9a06-1e7f8d370aa3",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22afa0555c-5722-4645-9a06-1e7f8d370aa3%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "31ba7ed032427c117aa287017a2c08cc229b81726078b16a63326ffd42412c8b"
+  },
+  {
+   "id": "afdd7bd2-bbf4-41c1-a8e5-6f99f576b9b7",
+   "name": "Chili Cheese Chicken Tortilla",
+   "category": "wrap",
+   "siteCategories": [
+    "Chicken"
+   ],
+   "servingGrams": 282,
+   "valuesPer100g": {
+    "energyKJ": 1200,
+    "calories": 287,
+    "fat": 16.1,
+    "saturatedFat": 4.4,
+    "carbs": 24.8,
+    "sugar": 2.1,
+    "fiber": 1.7,
+    "protein": 9.5,
+    "saltGrams": 2
+   },
+   "valuesPerServing": {
+    "energyKJ": 3383,
+    "calories": 809,
+    "fat": 45.5,
+    "saturatedFat": 12.3,
+    "carbs": 69.9,
+    "sugar": 5.8,
+    "fiber": 4.8,
+    "protein": 26.7,
+    "saltGrams": 5.5
+   },
+   "allergens": "Enthält: Sellerie, Eier, Gluten, Milch, Senf; Kann Spuren enthalten von: Soja",
+   "pageURL": "https://www.burgerking.de/menu/item-afdd7bd2-bbf4-41c1-a8e5-6f99f576b9b7",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22afdd7bd2-bbf4-41c1-a8e5-6f99f576b9b7%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "a431aaa0045822610449d12e39d22f33cff485d47bd485b5ec26c9b998da503f",
+   "valueNotes": [
+    "fiber per 100 g derived from the portion and its stated weight"
+   ]
+  },
+  {
+   "id": "b691a074-30b9-4c7e-ac90-df5e08ae37d4",
+   "name": "Monster Energy® Mango Loco 0,5l",
+   "category": "drink",
+   "siteCategories": [
+    "Drinks"
+   ],
+   "servingGrams": 500,
+   "valuesPer100g": {
+    "energyKJ": 203,
+    "calories": 48,
+    "fat": 0,
+    "saturatedFat": 0,
+    "carbs": 12,
+    "sugar": 11,
+    "fiber": 0.0,
+    "protein": 0,
+    "saltGrams": 0.1
+   },
+   "valuesPerServing": {
+    "energyKJ": 1014,
+    "calories": 239,
+    "fat": 0,
+    "saturatedFat": 0,
+    "carbs": 60,
+    "sugar": 56,
+    "fiber": 0,
+    "protein": 0,
+    "saltGrams": 0.2
+   },
+   "allergens": "",
+   "pageURL": "https://www.burgerking.de/menu/item-b691a074-30b9-4c7e-ac90-df5e08ae37d4",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22b691a074-30b9-4c7e-ac90-df5e08ae37d4%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "cfd3871365264d0fb802e5d49b98528b4bad7dd8bca1cec019ff955d256c4bc2",
+   "portionMilliliters": 500.0,
+   "volumeSource": "name",
+   "servingUnit": "ml",
+   "valueNotes": [
+    "fiber per 100 g derived from the portion and its stated weight"
+   ]
+  },
+  {
+   "id": "c561a0ae-5aed-4586-8f2d-3c650ab53a5d",
+   "name": "30er Churros Karamellsauce",
+   "category": "dessert",
+   "siteCategories": [
+    "Desserts"
+   ],
+   "servingGrams": 276,
+   "valuesPer100g": {
+    "energyKJ": 1181,
+    "calories": 282,
+    "fat": 10.6,
+    "saturatedFat": 0.9,
+    "carbs": 40.1,
+    "sugar": 10.1,
+    "fiber": 2.32,
+    "protein": 4.7,
+    "saltGrams": 1
+   },
+   "valuesPerServing": {
+    "energyKJ": 3260,
+    "calories": 780,
+    "fat": 29.2,
+    "saturatedFat": 2.6,
+    "carbs": 110.8,
+    "sugar": 27.8,
+    "fiber": 6.4,
+    "protein": 12.9,
+    "saltGrams": 2.8
+   },
+   "allergens": "Enthält: Gluten, Milch, Weizen",
+   "pageURL": "https://www.burgerking.de/menu/item-c561a0ae-5aed-4586-8f2d-3c650ab53a5d",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22c561a0ae-5aed-4586-8f2d-3c650ab53a5d%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "b076c242b5c1a7189947a04de5f7c5459b10d1c15f1b91cdd2c6a204ce98091d",
+   "valueNotes": [
+    "fiber per 100 g derived from the portion and its stated weight"
+   ]
+  },
+  {
+   "id": "d6192f43-e62b-4de4-9067-6c768fc58080",
+   "name": "King Toasty Cheese",
+   "category": "breakfast",
+   "siteCategories": [
+    "Frühstück"
+   ],
+   "servingGrams": 76,
+   "valuesPer100g": {
+    "energyKJ": 1248,
+    "calories": 298,
+    "fat": 11.6,
+    "saturatedFat": 6.3,
+    "carbs": 34.4,
+    "sugar": 4.3,
+    "fiber": 3.6,
+    "protein": 11.9,
+    "saltGrams": 2.2
+   },
+   "valuesPerServing": {
+    "energyKJ": 946,
+    "calories": 226,
+    "fat": 8.8,
+    "saturatedFat": 4.8,
+    "carbs": 26.1,
+    "sugar": 3.2,
+    "fiber": 2.7,
+    "protein": 9,
+    "saltGrams": 1.6
+   },
+   "allergens": "Enthält: Gluten, Milch, Sesam; Kann Spuren enthalten von: Eier, Soja",
+   "pageURL": "https://www.burgerking.de/menu/item-d6192f43-e62b-4de4-9067-6c768fc58080",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22d6192f43-e62b-4de4-9067-6c768fc58080%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "192407c44c7e8c11fcb478e2910418f387d1e732c40270340044152dfc8bb57b"
+  },
+  {
+   "id": "d92637a3-c74e-492a-98cf-3e7c6a8a3fa8",
+   "name": "Fruit Whoop Apfel-Orange-Karotte",
+   "category": "drink",
+   "siteCategories": [
+    "Drinks",
+    "King Jr.® Meal"
+   ],
+   "servingGrams": 200,
+   "valuesPer100g": {
+    "energyKJ": 133,
+    "calories": 32,
+    "fat": 0,
+    "saturatedFat": 0,
+    "carbs": 7.2,
+    "sugar": 6.8,
+    "fiber": 0.3,
+    "protein": 0.2,
+    "saltGrams": 0
+   },
+   "valuesPerServing": {
+    "energyKJ": 267,
+    "calories": 64,
+    "fat": 0,
+    "saturatedFat": 0,
+    "carbs": 14.4,
+    "sugar": 13.6,
+    "fiber": 0.6,
+    "protein": 0.4,
+    "saltGrams": 0
+   },
+   "allergens": "",
+   "pageURL": "https://www.burgerking.de/menu/item-d92637a3-c74e-492a-98cf-3e7c6a8a3fa8",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22d92637a3-c74e-492a-98cf-3e7c6a8a3fa8%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "979fae21847f64a26a19b7a39abdc37b5437e646ae03433351d8fcacf7d9effd"
+  },
+  {
+   "id": "da237d3a-47cc-40f5-8595-d8bec0649001",
+   "name": "15er Churros Erdbeersauce",
+   "category": "dessert",
+   "siteCategories": [
+    "Desserts"
+   ],
+   "servingGrams": 138,
+   "valuesPer100g": {
+    "energyKJ": 1198,
+    "calories": 286,
+    "fat": 10.6,
+    "saturatedFat": 0.9,
+    "carbs": 40.8,
+    "sugar": 10.1,
+    "fiber": 2.32,
+    "protein": 4.7,
+    "saltGrams": 0.9
+   },
+   "valuesPerServing": {
+    "energyKJ": 1650,
+    "calories": 395,
+    "fat": 14.6,
+    "saturatedFat": 1.3,
+    "carbs": 56.4,
+    "sugar": 13.9,
+    "fiber": 3.2,
+    "protein": 6.4,
+    "saltGrams": 1.2
+   },
+   "allergens": "Enthält: Gluten, Weizen",
+   "pageURL": "https://www.burgerking.de/menu/item-da237d3a-47cc-40f5-8595-d8bec0649001",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22da237d3a-47cc-40f5-8595-d8bec0649001%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "dde32ae36146071983069184d03632b919914bc0d747c0ab920020f6041fe15c",
+   "valueNotes": [
+    "fiber per 100 g derived from the portion and its stated weight"
+   ]
+  },
+  {
+   "id": "da8be621-f6a6-4f50-bc31-f54411e3e8f7",
+   "name": "Plant-based Chili Cheese Tortilla",
+   "category": "wrap",
+   "siteCategories": [
+    "Plant-based"
+   ],
+   "servingGrams": 293,
+   "valuesPer100g": {
+    "energyKJ": 1097,
+    "calories": 262,
+    "fat": 14.3,
+    "saturatedFat": 3.8,
+    "carbs": 20.2,
+    "sugar": 2.1,
+    "fiber": 3.72,
+    "protein": 11.1,
+    "saltGrams": 1.7
+   },
+   "valuesPerServing": {
+    "energyKJ": 3213,
+    "calories": 768,
+    "fat": 42,
+    "saturatedFat": 11,
+    "carbs": 59.1,
+    "sugar": 6.1,
+    "fiber": 10.9,
+    "protein": 32.6,
+    "saltGrams": 5.1
+   },
+   "allergens": "Enthält: Sellerie, Eier, Gluten, Milch, Senf, Soja",
+   "pageURL": "https://www.burgerking.de/menu/item-da8be621-f6a6-4f50-bc31-f54411e3e8f7",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22da8be621-f6a6-4f50-bc31-f54411e3e8f7%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "fbcfb6b3072f16c26fb0b1f791b7439c944809f944323231fcef7d844c47882d",
+   "valueNotes": [
+    "fiber per 100 g derived from the portion and its stated weight"
+   ]
+  },
+  {
+   "id": "effcc083-aa03-4be3-84a7-3c8b2e6bb940",
+   "name": "Plant-based Whopper® Cheese Tortilla",
+   "category": "wrap",
+   "siteCategories": [
+    "Plant-based"
+   ],
+   "servingGrams": 310,
+   "valuesPer100g": {
+    "energyKJ": 893,
+    "calories": 213,
+    "fat": 11.3,
+    "saturatedFat": 3,
+    "carbs": 16.9,
+    "sugar": 2.7,
+    "fiber": 3.1,
+    "protein": 9.7,
+    "saltGrams": 1.1
+   },
+   "valuesPerServing": {
+    "energyKJ": 2768,
+    "calories": 661,
+    "fat": 34.9,
+    "saturatedFat": 9.3,
+    "carbs": 52.5,
+    "sugar": 8.4,
+    "fiber": 9.6,
+    "protein": 30.1,
+    "saltGrams": 3.4
+   },
+   "allergens": "Enthält: Sellerie, Gluten, Milch, Soja; Kann Spuren enthalten von: Senf",
+   "pageURL": "https://www.burgerking.de/menu/item-effcc083-aa03-4be3-84a7-3c8b2e6bb940",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22effcc083-aa03-4be3-84a7-3c8b2e6bb940%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "80132bfb63af2bc0f4afbff0056164aae36bf7f1cef3eecef4cf668dc85c8a18",
+   "valueNotes": [
+    "fiber per 100 g derived from the portion and its stated weight"
+   ]
+  },
+  {
+   "id": "fccf6799-a9df-4c01-8a20-7f7808838bea",
+   "name": "Fruit Whoop Bubblegum",
+   "category": "drink",
+   "siteCategories": [
+    "Drinks",
+    "King Jr.® Meal"
+   ],
+   "servingGrams": 200,
+   "valuesPer100g": {
+    "energyKJ": 146,
+    "calories": 35,
+    "fat": 0,
+    "saturatedFat": 0,
+    "carbs": 8.1,
+    "sugar": 7.7,
+    "fiber": 0,
+    "protein": 0.1,
+    "saltGrams": 0
+   },
+   "valuesPerServing": {
+    "energyKJ": 293,
+    "calories": 70,
+    "fat": 0,
+    "saturatedFat": 0,
+    "carbs": 16.3,
+    "sugar": 15.5,
+    "fiber": 0,
+    "protein": 0.1,
+    "saltGrams": 0
+   },
+   "allergens": "",
+   "pageURL": "https://www.burgerking.de/menu/item-fccf6799-a9df-4c01-8a20-7f7808838bea",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22fccf6799-a9df-4c01-8a20-7f7808838bea%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "2f5e8fbcbc30b7ce0b54ea6f801a66c417d23c3adc2708b1b63e89f653ae7ce1"
+  },
+  {
+   "id": "item_11932",
+   "name": "King Shake® Schoko Medium",
+   "category": "drink",
+   "siteCategories": [
+    "Desserts"
+   ],
+   "servingGrams": 317,
+   "valuesPer100g": {
+    "energyKJ": 581,
+    "calories": 139,
+    "fat": 2.2,
+    "saturatedFat": 1.5,
+    "carbs": 26.8,
+    "sugar": 21.2,
+    "fiber": 0.3,
+    "protein": 2.7,
+    "saltGrams": 0.17
+   },
+   "valuesPerServing": {
+    "energyKJ": 1841,
+    "calories": 440,
+    "fat": 7,
+    "saturatedFat": 4.8,
+    "carbs": 84.9,
+    "sugar": 67,
+    "fiber": 1,
+    "protein": 8.6,
+    "saltGrams": 0.55
+   },
+   "allergens": "Enthält: Milch, Soja",
+   "pageURL": "https://www.burgerking.de/menu/item-item_11932",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22item_11932%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "6e6a930479f96c916b495bc34d4eadb6e9d3009ace666deb27fd5e849b997c17",
+   "portionMilliliters": 400.0,
+   "volumeSource": "description"
+  },
+  {
+   "id": "item_11933",
+   "name": "King Shake® Erdbeere Medium",
+   "category": "drink",
+   "siteCategories": [
+    "Desserts"
+   ],
+   "servingGrams": 311.8,
+   "valuesPer100g": {
+    "calories": 119.91,
+    "fat": 2.04,
+    "saturatedFat": 1.47,
+    "carbs": 22.83,
+    "sugar": 19.12,
+    "fiber": 0.02,
+    "protein": 2.55,
+    "saltGrams": 0.15
+   },
+   "valuesPerServing": {
+    "calories": 373.88,
+    "fat": 6.35,
+    "saturatedFat": 4.59,
+    "carbs": 71.19,
+    "sugar": 59.61,
+    "fiber": 0.05,
+    "protein": 7.94,
+    "saltGrams": 0.46
+   },
+   "allergens": "Enthält: Milch",
+   "pageURL": "https://www.burgerking.de/menu/item-item_11933",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22item_11933%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "0aada732be38189e751df46825c2f5dd4436932db7197d1d181996d155fdada4",
+   "portionMilliliters": 400.0,
+   "volumeSource": "description",
+   "valueNotes": [
+    "calories per 100 g derived from the portion and its stated weight",
+    "fat per 100 g derived from the portion and its stated weight",
+    "saturatedFat per 100 g derived from the portion and its stated weight",
+    "carbs per 100 g derived from the portion and its stated weight",
+    "sugar per 100 g derived from the portion and its stated weight",
+    "fiber per 100 g derived from the portion and its stated weight",
+    "protein per 100 g derived from the portion and its stated weight",
+    "saltGrams per 100 g derived from the portion and its stated weight"
+   ]
+  },
+  {
+   "id": "item_11934",
+   "name": "King Shake® Vanillegeschmack Medium",
+   "category": "drink",
+   "siteCategories": [
+    "Desserts"
+   ],
+   "servingGrams": 254,
+   "valuesPer100g": {
+    "energyKJ": 419,
+    "calories": 100,
+    "fat": 2.5,
+    "saturatedFat": 1.8,
+    "carbs": 16.3,
+    "sugar": 14.5,
+    "fiber": 0.02,
+    "protein": 3.1,
+    "saltGrams": 0.17
+   },
+   "valuesPerServing": {
+    "energyKJ": 983,
+    "calories": 254,
+    "fat": 6.4,
+    "saturatedFat": 4.6,
+    "carbs": 41.3,
+    "sugar": 36.7,
+    "fiber": 0.05,
+    "protein": 7.9,
+    "saltGrams": 0.42
+   },
+   "allergens": "Enthält: Milch",
+   "pageURL": "https://www.burgerking.de/menu/item-item_11934",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22item_11934%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "a47761ac319989cc8566def86094a35f49f565148271f0fa521e7f43dda1a822",
+   "portionMilliliters": 400.0,
+   "volumeSource": "description",
+   "valueNotes": [
+    "fiber per 100 g derived from the portion and its stated weight"
+   ]
+  },
+  {
+   "id": "item_11935",
+   "name": "King Shake® Schoko Small",
+   "category": "drink",
+   "siteCategories": [
+    "Desserts"
+   ],
+   "servingGrams": 167,
+   "valuesPer100g": {
+    "energyKJ": 578,
+    "calories": 138,
+    "fat": 2.2,
+    "saturatedFat": 1.5,
+    "carbs": 26.6,
+    "sugar": 21,
+    "fiber": 0.3,
+    "protein": 2.7,
+    "saltGrams": 0.17
+   },
+   "valuesPerServing": {
+    "energyKJ": 963,
+    "calories": 230,
+    "fat": 3.7,
+    "saturatedFat": 2.5,
+    "carbs": 44.3,
+    "sugar": 35.1,
+    "fiber": 0.6,
+    "protein": 4.5,
+    "saltGrams": 0.29
+   },
+   "allergens": "Enthält: Milch, Soja",
+   "pageURL": "https://www.burgerking.de/menu/item-item_11935",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22item_11935%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "fe201a19034854468fdf1751c2f9c92e82db489b7d231a50d4abf2e8c8264b9f",
+   "portionMilliliters": 250.0,
+   "volumeSource": "description"
+  },
+  {
+   "id": "item_12741",
+   "name": "Big King®",
+   "category": "burger",
+   "siteCategories": [
+    "Beef"
+   ],
+   "servingGrams": 192,
+   "valuesPer100g": {
+    "energyKJ": 1091,
+    "calories": 261,
+    "fat": 15.3,
+    "saturatedFat": 5.9,
+    "carbs": 15.8,
+    "sugar": 3.2,
+    "fiber": 1.67,
+    "protein": 13.8,
+    "saltGrams": 1.4
+   },
+   "valuesPerServing": {
+    "energyKJ": 2097,
+    "calories": 501,
+    "fat": 29.4,
+    "saturatedFat": 11.4,
+    "carbs": 30.4,
+    "sugar": 6.1,
+    "fiber": 3.2,
+    "protein": 26.5,
+    "saltGrams": 2.6
+   },
+   "allergens": "Enthält: Gluten, Milch, Senf, Sesam; Kann Spuren enthalten von: Sellerie, Eier, Soja",
+   "pageURL": "https://www.burgerking.de/menu/item-item_12741",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22item_12741%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "794353dcedc313ec09d10ac5ee271804dc443d2b6c207e8c1f21fd9f7533c543",
+   "valueNotes": [
+    "fiber per 100 g derived from the portion and its stated weight"
+   ]
+  },
+  {
+   "id": "item_12875",
+   "name": "Chili Cheese Burger",
+   "category": "burger",
+   "siteCategories": [
+    "Beef"
+   ],
+   "servingGrams": 139,
+   "valuesPer100g": {
+    "energyKJ": 1149,
+    "calories": 275,
+    "fat": 15.5,
+    "saturatedFat": 4.8,
+    "carbs": 20.7,
+    "sugar": 3.6,
+    "fiber": 2.4,
+    "protein": 11.3,
+    "saltGrams": 1.7
+   },
+   "valuesPerServing": {
+    "energyKJ": 1595,
+    "calories": 381,
+    "fat": 21.5,
+    "saturatedFat": 6.6,
+    "carbs": 28.8,
+    "sugar": 5.1,
+    "fiber": 3.4,
+    "protein": 15.7,
+    "saltGrams": 2.3
+   },
+   "allergens": "Enthält: Eier, Gluten, Milch, Sesam; Kann Spuren enthalten von: Soja",
+   "pageURL": "https://www.burgerking.de/menu/item-item_12875",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22item_12875%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "52a55cf0e46ab33738e2651f88228c3c7337bce2b5d02599f8cd6aa944ac6990"
+  },
+  {
+   "id": "item_12877",
+   "name": "Double Chili Cheese Burger",
+   "category": "burger",
+   "siteCategories": [
+    "Beef"
+   ],
+   "servingGrams": 173,
+   "valuesPer100g": {
+    "energyKJ": 1146,
+    "calories": 274,
+    "fat": 16.2,
+    "saturatedFat": 5.6,
+    "carbs": 16.7,
+    "sugar": 2.9,
+    "fiber": 2,
+    "protein": 14,
+    "saltGrams": 1.4
+   },
+   "valuesPerServing": {
+    "energyKJ": 1987,
+    "calories": 475,
+    "fat": 28.1,
+    "saturatedFat": 9.6,
+    "carbs": 28.9,
+    "sugar": 5.1,
+    "fiber": 3.1,
+    "protein": 24.3,
+    "saltGrams": 2.4
+   },
+   "allergens": "Enthält: Gluten, Milch, Sesam; Kann Spuren enthalten von: Eier, Soja",
+   "pageURL": "https://www.burgerking.de/menu/item-item_12877",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22item_12877%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "89d5e865ac6ac4fe59589109c8c8169365fbdc38c2ea1714f93cee64806c2e2e"
+  },
+  {
+   "id": "item_12881",
+   "name": "Donut",
+   "category": "dessert",
+   "siteCategories": [
+    "Desserts",
+    "Frühstück"
+   ],
+   "servingGrams": 67,
+   "valuesPer100g": {
+    "energyKJ": 1898,
+    "calories": 455,
+    "fat": 29,
+    "saturatedFat": 13,
+    "carbs": 42,
+    "sugar": 23,
+    "fiber": 2.84,
+    "protein": 6.6,
+    "saltGrams": 0.81
+   },
+   "valuesPerServing": {
+    "energyKJ": 1272,
+    "calories": 305,
+    "fat": 19,
+    "saturatedFat": 8.7,
+    "carbs": 28,
+    "sugar": 15,
+    "fiber": 1.9,
+    "protein": 4.4,
+    "saltGrams": 0.54
+   },
+   "allergens": "Enthält: Gluten, Milch, Soja; Kann Spuren enthalten von: Eier, Schalenfrüchte",
+   "pageURL": "https://www.burgerking.de/menu/item-item_12881",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22item_12881%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "ca148e47e9031d7d4501ed093becb028a3cff5d43bda7be039ac510808d50245",
+   "valueNotes": [
+    "fiber per 100 g derived from the portion and its stated weight"
+   ]
+  },
+  {
+   "id": "item_12883",
+   "name": "Hot Brownie",
+   "category": "dessert",
+   "siteCategories": [
+    "Desserts"
+   ],
+   "servingGrams": 80,
+   "valuesPer100g": {
+    "energyKJ": 1703,
+    "calories": 407,
+    "fat": 23.4,
+    "saturatedFat": 11.3,
+    "carbs": 41.3,
+    "sugar": 31.9,
+    "protein": 6,
+    "saltGrams": 0.08
+   },
+   "valuesPerServing": {
+    "energyKJ": 1362,
+    "calories": 326,
+    "fat": 18.7,
+    "saturatedFat": 9.1,
+    "carbs": 33,
+    "sugar": 25.5,
+    "protein": 4.8,
+    "saltGrams": 0.06
+   },
+   "allergens": "Enthält: Eier, Gluten, Milch, Soja; Kann Spuren enthalten von: Sesam, Schalenfrüchte",
+   "pageURL": "https://www.burgerking.de/menu/item-item_12883",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22item_12883%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "4e05685141e4fcabcb3c034afcfdc5154d274d59c63223e1c9f4aa9bde05f35a",
+   "valueNotes": [
+    "fiber left out: the chain states 0 per 100 g but 2.8 per 80 g"
+   ]
+  },
+  {
+   "id": "item_14709",
+   "name": "Coca-Cola® 0,25 l",
+   "category": "drink",
+   "siteCategories": [
+    "Drinks"
+   ],
+   "servingGrams": 250,
+   "valuesPer100g": {
+    "energyKJ": 180,
+    "calories": 42,
+    "fat": 0,
+    "saturatedFat": 0,
+    "carbs": 10.6,
+    "sugar": 10.6,
+    "fiber": 0.0,
+    "protein": 0,
+    "saltGrams": 0
+   },
+   "valuesPerServing": {
+    "energyKJ": 450,
+    "calories": 105,
+    "fat": 0,
+    "saturatedFat": 0,
+    "carbs": 26.5,
+    "sugar": 26.5,
+    "fiber": 0,
+    "protein": 0,
+    "saltGrams": 0
+   },
+   "allergens": "",
+   "pageURL": "https://www.burgerking.de/menu/item-item_14709",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22item_14709%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "740b15c825bf9205ab1d065dad40b38a58c0421886d8b0b0c9a6d336dccafdfd",
+   "portionMilliliters": 250.0,
+   "volumeSource": "name",
+   "servingUnit": "ml",
+   "valueNotes": [
+    "fiber per 100 g derived from the portion and its stated weight"
+   ]
+  },
+  {
+   "id": "item_14710",
+   "name": "Coca-Cola® 0,4 l",
+   "category": "drink",
+   "siteCategories": [
+    "Drinks"
+   ],
+   "servingGrams": 400,
+   "valuesPer100g": {
+    "energyKJ": 180,
+    "calories": 42,
+    "fat": 0,
+    "saturatedFat": 0,
+    "carbs": 10.6,
+    "sugar": 10.6,
+    "fiber": 0.0,
+    "protein": 0,
+    "saltGrams": 0
+   },
+   "valuesPerServing": {
+    "energyKJ": 720,
+    "calories": 168,
+    "fat": 0,
+    "saturatedFat": 0,
+    "carbs": 42.4,
+    "sugar": 42.4,
+    "fiber": 0,
+    "protein": 0,
+    "saltGrams": 0
+   },
+   "allergens": "",
+   "pageURL": "https://www.burgerking.de/menu/item-item_14710",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22item_14710%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "21ef28b5e534b04447d14aa840e4b9a9fb3a4f6883a74eb901f76ae54f450e96",
+   "portionMilliliters": 400.0,
+   "volumeSource": "name",
+   "servingUnit": "ml",
+   "valueNotes": [
+    "fiber per 100 g derived from the portion and its stated weight"
+   ]
+  },
+  {
+   "id": "item_14711",
+   "name": "Coca-Cola® 0,5 l",
+   "category": "drink",
+   "siteCategories": [
+    "Drinks"
+   ],
+   "servingGrams": 500,
+   "valuesPer100g": {
+    "energyKJ": 180,
+    "calories": 42,
+    "fat": 0,
+    "saturatedFat": 0,
+    "carbs": 10.6,
+    "sugar": 10.6,
+    "fiber": 0.0,
+    "protein": 0,
+    "saltGrams": 0
+   },
+   "valuesPerServing": {
+    "energyKJ": 900,
+    "calories": 210,
+    "fat": 0,
+    "saturatedFat": 0,
+    "carbs": 54,
+    "sugar": 54,
+    "fiber": 0,
+    "protein": 0
+   },
+   "allergens": "",
+   "pageURL": "https://www.burgerking.de/menu/item-item_14711",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22item_14711%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "9782c1d307fa0a35faffda6322939867c50a3262afac8a77284d4a617b7c5d4c",
+   "portionMilliliters": 500.0,
+   "volumeSource": "name",
+   "servingUnit": "ml",
+   "valueNotes": [
+    "fiber per 100 g derived from the portion and its stated weight"
+   ]
+  },
+  {
+   "id": "item_14712",
+   "name": "Coca-Cola® Zero 0,25 l",
+   "category": "drink",
+   "siteCategories": [
+    "Drinks"
+   ],
+   "servingGrams": 250,
+   "valuesPer100g": {
+    "energyKJ": 0.9,
+    "calories": 0.2,
+    "fat": 0,
+    "saturatedFat": 0,
+    "carbs": 0,
+    "sugar": 0,
+    "fiber": 0.0,
+    "protein": 0,
+    "saltGrams": 0.03
+   },
+   "valuesPerServing": {
+    "energyKJ": 2.3,
+    "calories": 0.5,
+    "fat": 0,
+    "saturatedFat": 0,
+    "carbs": 0.3,
+    "sugar": 0,
+    "fiber": 0,
+    "protein": 0.3,
+    "saltGrams": 0.08
+   },
+   "allergens": "",
+   "pageURL": "https://www.burgerking.de/menu/item-item_14712",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22item_14712%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "1336fc8ad179a2f452802441e97983ecbc69881a542bed7eba75d0c83db0d90d",
+   "portionMilliliters": 250.0,
+   "volumeSource": "name",
+   "servingUnit": "ml",
+   "valueNotes": [
+    "fiber per 100 g derived from the portion and its stated weight"
+   ]
+  },
+  {
+   "id": "item_14713",
+   "name": "Fanta® 0,25 l",
+   "category": "drink",
+   "siteCategories": [
+    "Drinks"
+   ],
+   "servingGrams": 250,
+   "valuesPer100g": {
+    "energyKJ": 138,
+    "calories": 32,
+    "fat": 0,
+    "saturatedFat": 0,
+    "carbs": 8,
+    "sugar": 8,
+    "fiber": 0.0,
+    "protein": 0,
+    "saltGrams": 0
+   },
+   "valuesPerServing": {
+    "energyKJ": 345,
+    "calories": 80,
+    "fat": 0,
+    "saturatedFat": 0,
+    "carbs": 20,
+    "sugar": 20,
+    "fiber": 0,
+    "protein": 0,
+    "saltGrams": 0
+   },
+   "allergens": "",
+   "pageURL": "https://www.burgerking.de/menu/item-item_14713",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22item_14713%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "b935807a18991318d88ad999b52ec32f842edd981e4c0e6e45836af36eaf1e7a",
+   "portionMilliliters": 250.0,
+   "volumeSource": "name",
+   "servingUnit": "ml",
+   "valueNotes": [
+    "fiber per 100 g derived from the portion and its stated weight"
+   ]
+  },
+  {
+   "id": "item_14714",
+   "name": "Sprite® 0,25 l",
+   "category": "drink",
+   "siteCategories": [
+    "Drinks"
+   ],
+   "servingGrams": 250,
+   "valuesPer100g": {
+    "energyKJ": 139,
+    "calories": 33,
+    "fat": 0,
+    "saturatedFat": 0,
+    "carbs": 7.9,
+    "sugar": 7.9,
+    "fiber": 0.0,
+    "protein": 0,
+    "saltGrams": 0.05
+   },
+   "valuesPerServing": {
+    "energyKJ": 348,
+    "calories": 83,
+    "fat": 0,
+    "saturatedFat": 0,
+    "carbs": 19.8,
+    "sugar": 19.8,
+    "fiber": 0,
+    "protein": 0,
+    "saltGrams": 0.13
+   },
+   "allergens": "",
+   "pageURL": "https://www.burgerking.de/menu/item-item_14714",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22item_14714%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "c0e8ac60ce7436a75eb9e891ab6951131b4f00d9c59e601fc2252ccea9db6a81",
+   "portionMilliliters": 250.0,
+   "volumeSource": "name",
+   "servingUnit": "ml",
+   "valueNotes": [
+    "fiber per 100 g derived from the portion and its stated weight"
+   ]
+  },
+  {
+   "id": "item_14717",
+   "name": "Sprite® 0,4 l",
+   "category": "drink",
+   "siteCategories": [
+    "Drinks"
+   ],
+   "servingGrams": 400,
+   "valuesPer100g": {
+    "energyKJ": 139,
+    "calories": 33,
+    "fat": 0,
+    "saturatedFat": 0,
+    "carbs": 7.9,
+    "sugar": 7.9,
+    "fiber": 0.0,
+    "protein": 0,
+    "saltGrams": 0.05
+   },
+   "valuesPerServing": {
+    "energyKJ": 695,
+    "calories": 132,
+    "fat": 0,
+    "saturatedFat": 0,
+    "carbs": 31.6,
+    "sugar": 31.6,
+    "fiber": 0,
+    "protein": 0,
+    "saltGrams": 0.2
+   },
+   "allergens": "",
+   "pageURL": "https://www.burgerking.de/menu/item-item_14717",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22item_14717%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "2ea0749c98507308ebfe5ca89a7e0d1fc873ec6ecdc1a2a0f283fbfd5ce57af3",
+   "portionMilliliters": 400.0,
+   "volumeSource": "name",
+   "servingUnit": "ml",
+   "valueNotes": [
+    "fiber per 100 g derived from the portion and its stated weight",
+    "energyKJ per 100 g 139: the chain states 139 per 100 g and 695 per 400 g; only the stated side has kJ and kcal that agree"
+   ]
+  },
+  {
+   "id": "item_14720",
+   "name": "Fanta® 0,4 l",
+   "category": "drink",
+   "siteCategories": [
+    "Drinks"
+   ],
+   "servingGrams": 400,
+   "valuesPer100g": {
+    "energyKJ": 138,
+    "calories": 32,
+    "fat": 0,
+    "saturatedFat": 0,
+    "carbs": 8,
+    "sugar": 8,
+    "fiber": 0.0,
+    "protein": 0,
+    "saltGrams": 0
+   },
+   "valuesPerServing": {
+    "energyKJ": 552,
+    "calories": 128,
+    "fat": 0,
+    "saturatedFat": 0,
+    "carbs": 32,
+    "sugar": 32,
+    "fiber": 0,
+    "protein": 0,
+    "saltGrams": 0
+   },
+   "allergens": "",
+   "pageURL": "https://www.burgerking.de/menu/item-item_14720",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22item_14720%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "60e275ef60996038b16238081bcc8eff5cae9a0ce53090865bc3d0a967e42739",
+   "portionMilliliters": 400.0,
+   "volumeSource": "name",
+   "servingUnit": "ml",
+   "valueNotes": [
+    "fiber per 100 g derived from the portion and its stated weight"
+   ]
+  },
+  {
+   "id": "item_14722",
+   "name": "Coca-Cola® Zero 0,4 l",
+   "category": "drink",
+   "siteCategories": [
+    "Drinks"
+   ],
+   "servingGrams": 400,
+   "valuesPer100g": {
+    "energyKJ": 0.9,
+    "calories": 0.2,
+    "fat": 0,
+    "saturatedFat": 0,
+    "carbs": 0,
+    "sugar": 0,
+    "fiber": 0.0,
+    "protein": 0,
+    "saltGrams": 0.03
+   },
+   "valuesPerServing": {
+    "energyKJ": 3.6,
+    "calories": 0.8,
+    "fat": 0,
+    "saturatedFat": 0,
+    "carbs": 0,
+    "sugar": 0,
+    "fiber": 0,
+    "protein": 0,
+    "saltGrams": 0.12
+   },
+   "allergens": "",
+   "pageURL": "https://www.burgerking.de/menu/item-item_14722",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22item_14722%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "754e351b39c0266ef563e919868c7eeeda532befd7a66b3e08db22140ab554d5",
+   "portionMilliliters": 400.0,
+   "volumeSource": "name",
+   "servingUnit": "ml",
+   "valueNotes": [
+    "fiber per 100 g derived from the portion and its stated weight"
+   ]
+  },
+  {
+   "id": "item_14723",
+   "name": "Sprite® 0,5 l",
+   "category": "drink",
+   "siteCategories": [
+    "Drinks"
+   ],
+   "servingGrams": 500,
+   "valuesPer100g": {
+    "energyKJ": 139,
+    "calories": 33,
+    "fat": 0,
+    "saturatedFat": 0,
+    "carbs": 7.9,
+    "sugar": 7.9,
+    "fiber": 0.0,
+    "protein": 0,
+    "saltGrams": 0.05
+   },
+   "valuesPerServing": {
+    "energyKJ": 695,
+    "calories": 165,
+    "fat": 0,
+    "saturatedFat": 0,
+    "carbs": 39.5,
+    "sugar": 39.5,
+    "fiber": 0,
+    "protein": 0,
+    "saltGrams": 0.25
+   },
+   "allergens": "",
+   "pageURL": "https://www.burgerking.de/menu/item-item_14723",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22item_14723%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "e7963d380c25d66ee8b97b4e45225896d2ec102f65bb96418856753e69c1c41e",
+   "portionMilliliters": 500.0,
+   "volumeSource": "name",
+   "servingUnit": "ml",
+   "valueNotes": [
+    "fiber per 100 g derived from the portion and its stated weight"
+   ]
+  },
+  {
+   "id": "item_14726",
+   "name": "Fanta® 0,5 l",
+   "category": "drink",
+   "siteCategories": [
+    "Drinks"
+   ],
+   "servingGrams": 500,
+   "valuesPer100g": {
+    "energyKJ": 138,
+    "calories": 32,
+    "fat": 0,
+    "saturatedFat": 0,
+    "carbs": 8,
+    "sugar": 8,
+    "fiber": 0.0,
+    "protein": 0,
+    "saltGrams": 0
+   },
+   "valuesPerServing": {
+    "energyKJ": 690,
+    "calories": 160,
+    "fat": 0,
+    "saturatedFat": 0,
+    "carbs": 40,
+    "sugar": 40,
+    "fiber": 0,
+    "protein": 0,
+    "saltGrams": 0
+   },
+   "allergens": "",
+   "pageURL": "https://www.burgerking.de/menu/item-item_14726",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22item_14726%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "884340772391af8e797cb521f02bc24b8a1dce3f48a8a833cb4143648bcf8220",
+   "portionMilliliters": 500.0,
+   "volumeSource": "name",
+   "servingUnit": "ml",
+   "valueNotes": [
+    "fiber per 100 g derived from the portion and its stated weight"
+   ]
+  },
+  {
+   "id": "item_14727",
+   "name": "Coca-Cola® Zero 0,5 l",
+   "category": "drink",
+   "siteCategories": [
+    "Drinks"
+   ],
+   "servingGrams": 500,
+   "valuesPer100g": {
+    "energyKJ": 0.9,
+    "calories": 0.2,
+    "fat": 0,
+    "saturatedFat": 0,
+    "carbs": 0,
+    "sugar": 0,
+    "fiber": 0.0,
+    "protein": 0,
+    "saltGrams": 0.03
+   },
+   "valuesPerServing": {
+    "energyKJ": 4.5,
+    "calories": 1,
+    "fat": 0,
+    "saturatedFat": 0,
+    "carbs": 0,
+    "sugar": 0,
+    "fiber": 0,
+    "protein": 0,
+    "saltGrams": 0.15
+   },
+   "allergens": "",
+   "pageURL": "https://www.burgerking.de/menu/item-item_14727",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22item_14727%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "c8539a581f84c1541697d6554b27e2096428636f8d43a5e3fb9a8d4b921649c9",
+   "portionMilliliters": 500.0,
+   "volumeSource": "name",
+   "servingUnit": "ml",
+   "valueNotes": [
+    "fiber per 100 g derived from the portion and its stated weight"
+   ]
+  },
+  {
+   "id": "item_15589",
+   "name": "X-tra Long Chili Cheese",
+   "category": "burger",
+   "siteCategories": [
+    "Beef"
+   ],
+   "servingGrams": 268,
+   "valuesPer100g": {
+    "energyKJ": 1101,
+    "calories": 263,
+    "fat": 15.3,
+    "saturatedFat": 5.6,
+    "carbs": 16.1,
+    "sugar": 3.1,
+    "fiber": 1.49,
+    "protein": 14,
+    "saltGrams": 1.5
+   },
+   "valuesPerServing": {
+    "energyKJ": 2944,
+    "calories": 703,
+    "fat": 40.9,
+    "saturatedFat": 14.9,
+    "carbs": 43.1,
+    "sugar": 8.2,
+    "fiber": 4,
+    "protein": 37.5,
+    "saltGrams": 4
+   },
+   "allergens": "Enthält: Eier, Gluten, Milch, Sesam; Kann Spuren enthalten von: Soja",
+   "pageURL": "https://www.burgerking.de/menu/item-item_15589",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22item_15589%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "78caaaa54efeaa1edd22b76308f8276f052176d16df67d9e72f67387eef8e30c",
+   "valueNotes": [
+    "fiber per 100 g derived from the portion and its stated weight"
+   ]
+  },
+  {
+   "id": "item_1814",
+   "name": "Cheeseburger",
+   "category": "burger",
+   "siteCategories": [
+    "Beef"
+   ],
+   "servingGrams": 128,
+   "valuesPer100g": {
+    "energyKJ": 1005,
+    "calories": 240,
+    "fat": 9.8,
+    "saturatedFat": 4.5,
+    "carbs": 24.2,
+    "sugar": 5.3,
+    "fiber": 2.5,
+    "protein": 12.3,
+    "saltGrams": 1.6
+   },
+   "valuesPerServing": {
+    "energyKJ": 1282,
+    "calories": 307,
+    "fat": 12.5,
+    "saturatedFat": 5.8,
+    "carbs": 30.8,
+    "sugar": 6.7,
+    "fiber": 3.2,
+    "protein": 15.6,
+    "saltGrams": 2
+   },
+   "allergens": "Enthält: Gluten, Milch, Senf, Sesam; Kann Spuren enthalten von: Eier, Soja",
+   "pageURL": "https://www.burgerking.de/menu/item-item_1814",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22item_1814%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "2c4b825bce6270a4fad0f46542171881191a4a4d0f83ca71a8dea90171ee045c",
+   "valueNotes": [
+    "fiber per 100 g derived from the portion and its stated weight"
+   ]
+  },
+  {
+   "id": "item_1815",
+   "name": "Double Whopper®",
+   "category": "burger",
+   "siteCategories": [
+    "Beef"
+   ],
+   "servingGrams": 363,
+   "valuesPer100g": {
+    "energyKJ": 974,
+    "calories": 233,
+    "fat": 13.6,
+    "saturatedFat": 4.6,
+    "carbs": 14.1,
+    "sugar": 3.4,
+    "fiber": 1.13,
+    "protein": 13,
+    "saltGrams": 0.81
+   },
+   "valuesPerServing": {
+    "energyKJ": 3539,
+    "calories": 846,
+    "fat": 49.6,
+    "saturatedFat": 16.9,
+    "carbs": 51.1,
+    "sugar": 12.4,
+    "fiber": 4.1,
+    "protein": 47.1,
+    "saltGrams": 3
+   },
+   "allergens": "Enthält: Gluten, Sesam; Kann Spuren enthalten von: Sellerie, Eier, Milch, Soja",
+   "pageURL": "https://www.burgerking.de/menu/item-item_1815",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22item_1815%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "f68e7f91c2f23ccd79d6eff1a2bcb1baa603ed0b3da962b58b89f9567e2a0617",
+   "valueNotes": [
+    "fiber per 100 g derived from the portion and its stated weight"
+   ]
+  },
+  {
+   "id": "item_1816",
+   "name": "Chicken Nugget Burger",
+   "category": "burger",
+   "siteCategories": [
+    "Chicken"
+   ],
+   "servingGrams": 141,
+   "valuesPer100g": {
+    "energyKJ": 1061,
+    "calories": 254,
+    "fat": 11.4,
+    "saturatedFat": 1.6,
+    "carbs": 27.5,
+    "sugar": 4.3,
+    "fiber": 2.7,
+    "protein": 8.9,
+    "saltGrams": 1.3
+   },
+   "valuesPerServing": {
+    "energyKJ": 1494,
+    "calories": 357,
+    "fat": 16,
+    "saturatedFat": 2.2,
+    "carbs": 38.7,
+    "sugar": 6,
+    "fiber": 3.8,
+    "protein": 12.5,
+    "saltGrams": 1.9
+   },
+   "allergens": "Enthält: Sellerie, Eier, Gluten, Sesam; Kann Spuren enthalten von: Milch, Senf, Soja",
+   "pageURL": "https://www.burgerking.de/menu/item-item_1816",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22item_1816%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "bdb2650d339f68f46541d04c40167a8969dea7588f2a2b065210a9d6c7166991",
+   "valueNotes": [
+    "fiber per 100 g derived from the portion and its stated weight"
+   ]
+  },
+  {
+   "id": "item_1817",
+   "name": "Long Chicken®",
+   "category": "burger",
+   "siteCategories": [
+    "Chicken"
+   ],
+   "servingGrams": 215,
+   "valuesPer100g": {
+    "energyKJ": 1158,
+    "calories": 277,
+    "fat": 14.6,
+    "saturatedFat": 1.4,
+    "carbs": 25.1,
+    "sugar": 3,
+    "fiber": 1.91,
+    "protein": 10.3,
+    "saltGrams": 1.5
+   },
+   "valuesPerServing": {
+    "energyKJ": 2490,
+    "calories": 595,
+    "fat": 31.4,
+    "saturatedFat": 2.9,
+    "carbs": 53.9,
+    "sugar": 6.5,
+    "fiber": 4.1,
+    "protein": 22.1,
+    "saltGrams": 3.3
+   },
+   "allergens": "Enthält: Sellerie, Gluten, Sesam; Kann Spuren enthalten von: Eier, Milch, Senf, Soja",
+   "pageURL": "https://www.burgerking.de/menu/item-item_1817",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22item_1817%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "5aa11a4621635345fc68c38054fb4afe8df0f8659f41e6284ccc560b7093233f",
+   "valueNotes": [
+    "fiber per 100 g derived from the portion and its stated weight"
+   ]
+  },
+  {
+   "id": "item_1818",
+   "name": "Hamburger",
+   "category": "burger",
+   "siteCategories": [
+    "Beef"
+   ],
+   "servingGrams": 116,
+   "valuesPer100g": {
+    "energyKJ": 963,
+    "calories": 230,
+    "fat": 8.1,
+    "saturatedFat": 3.2,
+    "carbs": 26.2,
+    "sugar": 5.5,
+    "fiber": 2.73,
+    "protein": 11.5,
+    "saltGrams": 1.4
+   },
+   "valuesPerServing": {
+    "energyKJ": 1119,
+    "calories": 267,
+    "fat": 9.4,
+    "saturatedFat": 3.7,
+    "carbs": 30.5,
+    "sugar": 6.4,
+    "fiber": 3,
+    "protein": 13.3,
+    "saltGrams": 1.6
+   },
+   "allergens": "Enthält: Sellerie, Gluten, Senf, Sesam, Weizen; Kann Spuren enthalten von: Eier, Milch, Soja",
+   "pageURL": "https://www.burgerking.de/menu/item-item_1818",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22item_1818%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "bf3b81af12fcd49b9529ed317e077c067deaf17f09dfb6e59be5dd43a5ddff29"
+  },
+  {
+   "id": "item_1819",
+   "name": "Whopper®",
+   "category": "burger",
+   "siteCategories": [
+    "Beef"
+   ],
+   "servingGrams": 282,
+   "valuesPer100g": {
+    "energyKJ": 909,
+    "calories": 217,
+    "fat": 11.6,
+    "saturatedFat": 3.2,
+    "carbs": 17,
+    "sugar": 4.4,
+    "fiber": 1.42,
+    "protein": 9.7,
+    "saltGrams": 0.99
+   },
+   "valuesPerServing": {
+    "energyKJ": 2566,
+    "calories": 613,
+    "fat": 32.6,
+    "saturatedFat": 9.1,
+    "carbs": 51,
+    "sugar": 12.4,
+    "fiber": 4,
+    "protein": 27.3,
+    "saltGrams": 2.8
+   },
+   "allergens": "Enthält: Gluten, Sesam; Kann Spuren enthalten von: Sellerie, Eier, Milch, Soja",
+   "pageURL": "https://www.burgerking.de/menu/item-item_1819",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22item_1819%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "406f540bbac8fd209cdc55c5e81c66c62a735d5bfaa6c46cc9536714832cf713",
+   "valueNotes": [
+    "fiber per 100 g derived from the portion and its stated weight"
+   ]
+  },
+  {
+   "id": "item_1820",
+   "name": "Crispy Chicken",
+   "category": "burger",
+   "siteCategories": [
+    "Chicken"
+   ],
+   "servingGrams": 179,
+   "valuesPer100g": {
+    "energyKJ": 1152,
+    "calories": 275,
+    "fat": 16,
+    "saturatedFat": 3.3,
+    "carbs": 22.8,
+    "sugar": 2.5,
+    "fiber": 2.2,
+    "protein": 9,
+    "saltGrams": 1.3
+   },
+   "valuesPerServing": {
+    "energyKJ": 2063,
+    "calories": 493,
+    "fat": 28.6,
+    "saturatedFat": 5.9,
+    "carbs": 40.8,
+    "sugar": 4.4,
+    "fiber": 4,
+    "protein": 16.2,
+    "saltGrams": 2.3
+   },
+   "allergens": "Enthält: Sellerie, Gluten, Senf, Sesam; Kann Spuren enthalten von: Eier, Milch, Soja",
+   "pageURL": "https://www.burgerking.de/menu/item-item_1820",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22item_1820%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "f2099d80a18d6d5b7e6e9ef366e0ba9e9c5abfcaf2baf83c1e22ccdc78cced08"
+  },
+  {
+   "id": "item_1823",
+   "name": "Große King Pommes",
+   "category": "fries",
+   "siteCategories": [
+    "Snacks"
+   ],
+   "servingGrams": 159,
+   "valuesPer100g": {
+    "energyKJ": 1130,
+    "calories": 270,
+    "fat": 12.3,
+    "saturatedFat": 0.3,
+    "carbs": 36,
+    "sugar": 0.3,
+    "fiber": 2.01,
+    "protein": 3.4,
+    "saltGrams": 0.9
+   },
+   "valuesPerServing": {
+    "energyKJ": 1796,
+    "calories": 429,
+    "fat": 19.6,
+    "saturatedFat": 0.5,
+    "carbs": 57.1,
+    "sugar": 0.5,
+    "fiber": 3.2,
+    "protein": 5.4,
+    "saltGrams": 0.5
+   },
+   "allergens": "",
+   "pageURL": "https://www.burgerking.de/menu/item-item_1823",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22item_1823%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "7f343b1c5eef2c3540c5d67dae39496ced31bf9244c7c1aed23741f3f1e73b95",
+   "valueNotes": [
+    "fiber per 100 g derived from the portion and its stated weight"
+   ]
+  },
+  {
+   "id": "item_1825",
+   "name": "King Shake® Schoko Large",
+   "category": "drink",
+   "siteCategories": [
+    "Desserts"
+   ],
+   "servingGrams": 397.06,
+   "valuesPer100g": {
+    "calories": 122.71,
+    "fat": 2.42,
+    "saturatedFat": 1.67,
+    "carbs": 22.33,
+    "sugar": 17.56,
+    "fiber": 0.35,
+    "protein": 2.71,
+    "saltGrams": 0.17
+   },
+   "valuesPerServing": {
+    "calories": 487.22,
+    "fat": 9.61,
+    "saturatedFat": 6.65,
+    "carbs": 88.67,
+    "sugar": 69.73,
+    "fiber": 1.39,
+    "protein": 10.78,
+    "saltGrams": 0.68
+   },
+   "allergens": "Enthält: Milch, Soja",
+   "pageURL": "https://www.burgerking.de/menu/item-item_1825",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22item_1825%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "d65e77be69ae4f9157496b62a127f0bcf1318ef45198026d6a20eced39c50336",
+   "portionMilliliters": 500.0,
+   "volumeSource": "description",
+   "valueNotes": [
+    "calories per 100 g derived from the portion and its stated weight",
+    "fat per 100 g derived from the portion and its stated weight",
+    "saturatedFat per 100 g derived from the portion and its stated weight",
+    "carbs per 100 g derived from the portion and its stated weight",
+    "sugar per 100 g derived from the portion and its stated weight",
+    "fiber per 100 g derived from the portion and its stated weight",
+    "protein per 100 g derived from the portion and its stated weight",
+    "saltGrams per 100 g derived from the portion and its stated weight"
+   ]
+  },
+  {
+   "id": "item_1829",
+   "name": "Whopper Jr.®",
+   "category": "burger",
+   "siteCategories": [
+    "Beef"
+   ],
+   "servingGrams": 145,
+   "valuesPer100g": {
+    "energyKJ": 907,
+    "calories": 217,
+    "fat": 10.5,
+    "saturatedFat": 2.9,
+    "carbs": 20.2,
+    "sugar": 3.6,
+    "fiber": 2.28,
+    "protein": 9.2,
+    "saltGrams": 1
+   },
+   "valuesPerServing": {
+    "energyKJ": 1319,
+    "calories": 315,
+    "fat": 15.3,
+    "saturatedFat": 4.2,
+    "carbs": 29.3,
+    "sugar": 5.3,
+    "fiber": 3.3,
+    "protein": 13.4,
+    "saltGrams": 1.5
+   },
+   "allergens": "Enthält: Gluten, Sesam; Kann Spuren enthalten von: Sellerie, Eier, Milch, Soja",
+   "pageURL": "https://www.burgerking.de/menu/item-item_1829",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22item_1829%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "971d52d614de62bdb4826cba3f8ee2a0c8190962ebba05605c54785ec6fe5bc1",
+   "valueNotes": [
+    "fiber per 100 g derived from the portion and its stated weight"
+   ]
+  },
+  {
+   "id": "item_1837",
+   "name": "Double Cheeseburger",
+   "category": "burger",
+   "siteCategories": [
+    "Beef"
+   ],
+   "servingGrams": 174,
+   "valuesPer100g": {
+    "energyKJ": 1045,
+    "calories": 250,
+    "fat": 12.7,
+    "saturatedFat": 6.2,
+    "carbs": 17.5,
+    "sugar": 4.3,
+    "fiber": 1.84,
+    "protein": 15.2,
+    "saltGrams": 1.4
+   },
+   "valuesPerServing": {
+    "energyKJ": 1820,
+    "calories": 435,
+    "fat": 22.1,
+    "saturatedFat": 10.9,
+    "carbs": 30.5,
+    "sugar": 7.4,
+    "fiber": 3.2,
+    "protein": 26.5,
+    "saltGrams": 2.5
+   },
+   "allergens": "Enthält: Gluten, Milch, Senf, Sesam; Kann Spuren enthalten von: Eier, Soja",
+   "pageURL": "https://www.burgerking.de/menu/item-item_1837",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22item_1837%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "39b4fcab562150e8acd1b8abfd51b307e7256c75984d797cd6f8a57973fd5db4",
+   "valueNotes": [
+    "fiber per 100 g derived from the portion and its stated weight"
+   ]
+  },
+  {
+   "id": "item_1838",
+   "name": "20er King Nuggets®",
+   "category": "chicken",
+   "siteCategories": [
+    "Chicken",
+    "Snacks"
+   ],
+   "servingGrams": 380,
+   "valuesPer100g": {
+    "energyKJ": 996,
+    "calories": 238,
+    "fat": 12.9,
+    "saturatedFat": 2,
+    "carbs": 16.1,
+    "sugar": 0.6,
+    "fiber": 1.29,
+    "protein": 13.8,
+    "saltGrams": 1.2
+   },
+   "valuesPerServing": {
+    "energyKJ": 3784,
+    "calories": 904,
+    "fat": 49,
+    "saturatedFat": 7.6,
+    "carbs": 61.2,
+    "sugar": 2.3,
+    "fiber": 4.9,
+    "protein": 52.4,
+    "saltGrams": 4.4
+   },
+   "allergens": "Enthält: Eier, Gluten; Kann Spuren enthalten von: Sellerie, Milch, Senf, Soja",
+   "pageURL": "https://www.burgerking.de/menu/item-item_1838",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22item_1838%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "cf2610ec2c141a9ff2853313769974fac20282383e8455264bd46cb4731f8e1e",
+   "valueNotes": [
+    "fiber per 100 g derived from the portion and its stated weight"
+   ]
+  },
+  {
+   "id": "item_1839",
+   "name": "6er Onion Rings",
+   "category": "fries",
+   "siteCategories": [
+    "Snacks"
+   ],
+   "servingGrams": 71,
+   "valuesPer100g": {
+    "energyKJ": 1008,
+    "calories": 241,
+    "fat": 11.6,
+    "saturatedFat": 5.2,
+    "carbs": 30.2,
+    "sugar": 4,
+    "fiber": 0.5,
+    "protein": 3.9,
+    "saltGrams": 0.9
+   },
+   "valuesPerServing": {
+    "energyKJ": 714,
+    "calories": 171,
+    "fat": 8.2,
+    "saturatedFat": 3.7,
+    "carbs": 21.4,
+    "sugar": 2.8,
+    "fiber": 0.4,
+    "protein": 2.8,
+    "saltGrams": 0.37
+   },
+   "allergens": "Enthält: Gluten",
+   "pageURL": "https://www.burgerking.de/menu/item-item_1839",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22item_1839%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "30819b7b7b78e1fb650f4549b7503d02df440e6805e76c0898cb9c49c7a5f08c"
+  },
+  {
+   "id": "item_1841",
+   "name": "9er Onion Rings",
+   "category": "fries",
+   "siteCategories": [
+    "Snacks"
+   ],
+   "servingGrams": 106,
+   "valuesPer100g": {
+    "energyKJ": 1008,
+    "calories": 241,
+    "fat": 11.6,
+    "saturatedFat": 5.2,
+    "carbs": 30.2,
+    "sugar": 4,
+    "fiber": 0.5,
+    "protein": 3.9,
+    "saltGrams": 0.5
+   },
+   "valuesPerServing": {
+    "energyKJ": 1071,
+    "calories": 256,
+    "fat": 12.3,
+    "saturatedFat": 5.5,
+    "carbs": 32.1,
+    "sugar": 4.3,
+    "fiber": 0.5,
+    "protein": 4.1,
+    "saltGrams": 0.55
+   },
+   "allergens": "Enthält: Gluten",
+   "pageURL": "https://www.burgerking.de/menu/item-item_1841",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22item_1841%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "2d6170edd970c214436a7d2b8ffff41b2c36691a1a2229843acbc99abdc0e6f9"
+  },
+  {
+   "id": "item_1842",
+   "name": "King Shake® Vanillegeschmack Small",
+   "category": "drink",
+   "siteCategories": [
+    "Desserts"
+   ],
+   "servingGrams": 134,
+   "valuesPer100g": {
+    "energyKJ": 419,
+    "calories": 100,
+    "fat": 2.5,
+    "saturatedFat": 1.8,
+    "carbs": 16.3,
+    "sugar": 14.5,
+    "fiber": 0.02,
+    "protein": 3.1,
+    "saltGrams": 0.16
+   },
+   "valuesPerServing": {
+    "energyKJ": 561,
+    "calories": 134,
+    "fat": 3.4,
+    "saturatedFat": 2.4,
+    "carbs": 21.8,
+    "sugar": 19.4,
+    "fiber": 0.03,
+    "protein": 4.2,
+    "saltGrams": 0.22
+   },
+   "allergens": "Enthält: Milch",
+   "pageURL": "https://www.burgerking.de/menu/item-item_1842",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22item_1842%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "7f89197c8703e6d0b0bd4eb64c11d1cce251d84a1a1c621c6e58af9b4a4577bc",
+   "portionMilliliters": 250.0,
+   "volumeSource": "description",
+   "valueNotes": [
+    "fiber per 100 g derived from the portion and its stated weight"
+   ]
+  },
+  {
+   "id": "item_1845",
+   "name": "King Shake® Erdbeere Large",
+   "category": "drink",
+   "siteCategories": [
+    "Desserts"
+   ],
+   "servingGrams": 388.94,
+   "valuesPer100g": {
+    "calories": 119.95,
+    "fat": 2.03,
+    "saturatedFat": 1.47,
+    "carbs": 22.84,
+    "sugar": 19.13,
+    "fiber": 0.02,
+    "protein": 2.55,
+    "saltGrams": 0.15
+   },
+   "valuesPerServing": {
+    "calories": 466.55,
+    "fat": 7.91,
+    "saturatedFat": 5.73,
+    "carbs": 88.85,
+    "sugar": 74.41,
+    "fiber": 0.06,
+    "protein": 9.91,
+    "saltGrams": 0.58
+   },
+   "allergens": "Enthält: Milch",
+   "pageURL": "https://www.burgerking.de/menu/item-item_1845",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22item_1845%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "c4b1336d7bc944b512f2e56accbc86a18fdb6b19287f913e5a5c6f059f415e05",
+   "portionMilliliters": 500.0,
+   "volumeSource": "description",
+   "valueNotes": [
+    "calories per 100 g derived from the portion and its stated weight",
+    "fat per 100 g derived from the portion and its stated weight",
+    "saturatedFat per 100 g derived from the portion and its stated weight",
+    "carbs per 100 g derived from the portion and its stated weight",
+    "sugar per 100 g derived from the portion and its stated weight",
+    "fiber per 100 g derived from the portion and its stated weight",
+    "protein per 100 g derived from the portion and its stated weight",
+    "saltGrams per 100 g derived from the portion and its stated weight"
+   ]
+  },
+  {
+   "id": "item_1848",
+   "name": "King Shake® Vanillegeschmack Large",
+   "category": "drink",
+   "siteCategories": [
+    "Desserts"
+   ],
+   "servingGrams": 316,
+   "valuesPer100g": {
+    "energyKJ": 419,
+    "calories": 100,
+    "fat": 2.5,
+    "saturatedFat": 1.8,
+    "carbs": 16.3,
+    "sugar": 14.5,
+    "fiber": 0.02,
+    "protein": 3.1,
+    "saltGrams": 0.16
+   },
+   "valuesPerServing": {
+    "energyKJ": 1226,
+    "calories": 317,
+    "fat": 7.9,
+    "saturatedFat": 5.7,
+    "carbs": 51.5,
+    "sugar": 45.8,
+    "fiber": 0.06,
+    "protein": 9.8,
+    "saltGrams": 0.52
+   },
+   "allergens": "Enthält: Milch",
+   "pageURL": "https://www.burgerking.de/menu/item-item_1848",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22item_1848%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "b0560b3cc71a1eb8c8eef727200e2b24c8a4f611012b8c6149f04ba939163fe2",
+   "portionMilliliters": 500.0,
+   "volumeSource": "description",
+   "valueNotes": [
+    "fiber per 100 g derived from the portion and its stated weight"
+   ]
+  },
+  {
+   "id": "item_1957",
+   "name": "King Shake® Erdbeere Small",
+   "category": "drink",
+   "siteCategories": [
+    "Desserts"
+   ],
+   "servingGrams": 163.92,
+   "valuesPer100g": {
+    "calories": 119.59,
+    "fat": 2.04,
+    "saturatedFat": 1.48,
+    "carbs": 22.72,
+    "sugar": 19.05,
+    "fiber": 0.02,
+    "protein": 2.56,
+    "saltGrams": 0.15
+   },
+   "valuesPerServing": {
+    "calories": 196.03,
+    "fat": 3.35,
+    "saturatedFat": 2.42,
+    "carbs": 37.25,
+    "sugar": 31.22,
+    "fiber": 0.03,
+    "protein": 4.19,
+    "saltGrams": 0.24
+   },
+   "allergens": "Enthält: Milch",
+   "pageURL": "https://www.burgerking.de/menu/item-item_1957",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22item_1957%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "1c791e47b556e59813f3f7c82566a6a61f5ce62f427ef05b4ca53fe4f367ec3b",
+   "portionMilliliters": 250.0,
+   "volumeSource": "description",
+   "valueNotes": [
+    "calories per 100 g derived from the portion and its stated weight",
+    "fat per 100 g derived from the portion and its stated weight",
+    "saturatedFat per 100 g derived from the portion and its stated weight",
+    "carbs per 100 g derived from the portion and its stated weight",
+    "sugar per 100 g derived from the portion and its stated weight",
+    "fiber per 100 g derived from the portion and its stated weight",
+    "protein per 100 g derived from the portion and its stated weight",
+    "saltGrams per 100 g derived from the portion and its stated weight"
+   ]
+  },
+  {
+   "id": "item_2158",
+   "name": "King Fusion Oreo®",
+   "category": "dessert",
+   "siteCategories": [
+    "Desserts"
+   ],
+   "servingGrams": 190,
+   "valuesPer100g": {
+    "energyKJ": 776,
+    "calories": 185,
+    "fat": 6,
+    "saturatedFat": 3,
+    "carbs": 29.1,
+    "sugar": 22.7,
+    "fiber": 0.8,
+    "protein": 3.3,
+    "saltGrams": 0.41
+   },
+   "valuesPerServing": {
+    "energyKJ": 1474,
+    "calories": 352,
+    "fat": 11.3,
+    "saturatedFat": 5.6,
+    "carbs": 55.2,
+    "sugar": 43.1,
+    "fiber": 1.6,
+    "protein": 6.2,
+    "saltGrams": 0.79
+   },
+   "allergens": "Enthält: Gluten, Milch, Soja",
+   "pageURL": "https://www.burgerking.de/menu/item-item_2158",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22item_2158%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "ab9d64a00134d15e145207a1968fef6def761b393ea801c0473886c65f066abe"
+  },
+  {
+   "id": "item_2163",
+   "name": "15er Flame Wings",
+   "category": "chicken",
+   "siteCategories": [
+    "Chicken",
+    "Snacks"
+   ],
+   "servingGrams": 540,
+   "valuesPer100g": {
+    "energyKJ": 1013,
+    "calories": 242,
+    "fat": 14.2,
+    "saturatedFat": 2.8,
+    "carbs": 5.4,
+    "sugar": 0.5,
+    "fiber": 0.5,
+    "protein": 23,
+    "saltGrams": 1.6
+   },
+   "valuesPerServing": {
+    "energyKJ": 5468,
+    "calories": 1307,
+    "fat": 76.7,
+    "saturatedFat": 15.1,
+    "carbs": 29.2,
+    "sugar": 2.7,
+    "fiber": 2.7,
+    "protein": 125.6,
+    "saltGrams": 8.7
+   },
+   "allergens": "Enthält: Gluten; Kann Spuren enthalten von: Sellerie, Eier, Milch, Senf, Soja",
+   "pageURL": "https://www.burgerking.de/menu/item-item_2163",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22item_2163%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "ca582715400ddc8f127f15c937a707628dce43bf219a7da847f8260acd6179a4",
+   "valueNotes": [
+    "fiber per 100 g derived from the portion and its stated weight"
+   ]
+  },
+  {
+   "id": "item_2165",
+   "name": "6er Flame Wings",
+   "category": "chicken",
+   "siteCategories": [
+    "Chicken",
+    "Snacks"
+   ],
+   "servingGrams": 216,
+   "valuesPer100g": {
+    "energyKJ": 1013,
+    "calories": 242,
+    "fat": 14.2,
+    "saturatedFat": 2.8,
+    "carbs": 5.4,
+    "sugar": 0.5,
+    "fiber": 0.51,
+    "protein": 23,
+    "saltGrams": 1.6
+   },
+   "valuesPerServing": {
+    "energyKJ": 2187,
+    "calories": 523,
+    "fat": 30.7,
+    "saturatedFat": 6.1,
+    "carbs": 11.7,
+    "sugar": 1.1,
+    "fiber": 1.1,
+    "protein": 50,
+    "saltGrams": 3.5
+   },
+   "allergens": "Enthält: Gluten; Kann Spuren enthalten von: Sellerie, Eier, Milch, Senf, Soja",
+   "pageURL": "https://www.burgerking.de/menu/item-item_2165",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22item_2165%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "f1d4ffcc041b2531f96313d8abe77c9503a531c82a7e87a49642265d0412897a",
+   "valueNotes": [
+    "fiber per 100 g derived from the portion and its stated weight"
+   ]
+  },
+  {
+   "id": "item_2166",
+   "name": "9er Flame Wings",
+   "category": "chicken",
+   "siteCategories": [
+    "Chicken",
+    "Snacks"
+   ],
+   "servingGrams": 324,
+   "valuesPer100g": {
+    "energyKJ": 1013,
+    "calories": 242,
+    "fat": 14.2,
+    "saturatedFat": 2.8,
+    "carbs": 5.4,
+    "sugar": 0.5,
+    "fiber": 0.49,
+    "protein": 23,
+    "saltGrams": 1.6
+   },
+   "valuesPerServing": {
+    "energyKJ": 3281,
+    "calories": 784,
+    "fat": 46,
+    "saturatedFat": 9.1,
+    "carbs": 17.5,
+    "sugar": 1.6,
+    "fiber": 1.6,
+    "protein": 75,
+    "saltGrams": 5.2
+   },
+   "allergens": "Enthält: Gluten; Kann Spuren enthalten von: Sellerie, Eier, Milch, Senf, Soja",
+   "pageURL": "https://www.burgerking.de/menu/item-item_2166",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22item_2166%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "7b07e4d410db4011dbbd22c4a038896149096b4e0f97145c2b99a6bbe90542b9",
+   "valueNotes": [
+    "fiber per 100 g derived from the portion and its stated weight"
+   ]
+  },
+  {
+   "id": "item_2167",
+   "name": "6er Chili Cheese Nuggets",
+   "category": "snack",
+   "siteCategories": [
+    "Snacks"
+   ],
+   "servingGrams": 111.66,
+   "valuesPer100g": {
+    "energyKJ": 1192,
+    "calories": 284.79,
+    "fat": 15,
+    "saturatedFat": 6.5,
+    "carbs": 27.9,
+    "sugar": 1.2,
+    "fiber": 1.43,
+    "protein": 9,
+    "saltGrams": 1.8
+   },
+   "valuesPerServing": {
+    "energyKJ": 1331,
+    "calories": 318,
+    "fat": 16.7,
+    "saturatedFat": 7.3,
+    "carbs": 31.1,
+    "sugar": 1.4,
+    "fiber": 1.6,
+    "protein": 10.1,
+    "saltGrams": 2.1
+   },
+   "allergens": "Enthält: Gluten, Milch",
+   "pageURL": "https://www.burgerking.de/menu/item-item_2167",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22item_2167%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "5ec0a04b2f7584cb88758b9527aec1b0d1d94ed9c45dc93440ce8e7b37c34c84",
+   "valueNotes": [
+    "fiber per 100 g derived from the portion and its stated weight",
+    "calories per 100 g 284.79: the chain states 185 per 100 g and 318 per 111.66 g; only the portion side has kJ and kcal that agree"
+   ]
+  },
+  {
+   "id": "item_2168",
+   "name": "9er Chili Cheese Nuggets",
+   "category": "snack",
+   "siteCategories": [
+    "Snacks"
+   ],
+   "servingGrams": 167.49,
+   "valuesPer100g": {
+    "energyKJ": 1192,
+    "calories": 285,
+    "fat": 15,
+    "saturatedFat": 6.5,
+    "carbs": 27.9,
+    "sugar": 1.2,
+    "fiber": 1.43,
+    "protein": 9,
+    "saltGrams": 1.8
+   },
+   "valuesPerServing": {
+    "energyKJ": 1997,
+    "calories": 477,
+    "fat": 25,
+    "saturatedFat": 10.9,
+    "carbs": 46.7,
+    "sugar": 2.1,
+    "fiber": 2.4,
+    "protein": 15.1,
+    "saltGrams": 3.1
+   },
+   "allergens": "Enthält: Gluten, Milch",
+   "pageURL": "https://www.burgerking.de/menu/item-item_2168",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22item_2168%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "89d9bdc865f2a45495a3e75d763deb55271a670a90eaebdc87318bacfc28d52a",
+   "valueNotes": [
+    "fiber per 100 g derived from the portion and its stated weight"
+   ]
+  },
+  {
+   "id": "item_25376",
+   "name": "Fries Chili Cheese Style",
+   "category": "fries",
+   "siteCategories": [
+    "Snacks"
+   ],
+   "servingGrams": 209,
+   "valuesPer100g": {
+    "energyKJ": 1078.89,
+    "calories": 257.86,
+    "fat": 17.18,
+    "saturatedFat": 3.69,
+    "carbs": 21.28,
+    "fiber": 4.11,
+    "protein": 2.47,
+    "saltGrams": 1.05
+   },
+   "valuesPerServing": {
+    "energyKJ": 2157.77,
+    "calories": 520.26,
+    "fat": 32.18,
+    "saturatedFat": 6.81,
+    "carbs": 47.35,
+    "fiber": 8.6,
+    "protein": 5.16,
+    "saltGrams": 2.31
+   },
+   "allergens": "Enthält: Eier, Milch",
+   "pageURL": "https://www.burgerking.de/menu/item-item_25376",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22item_25376%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "fa01d4a57cf1b0075978f8bbc3c77b0081f6a828da2f9245e7300d610c418743",
+   "valueNotes": [
+    "fiber per 100 g derived from the portion and its stated weight",
+    "sugar left out: the chain states 0.87 per 100 g but 4.12 per 209 g"
+   ]
+  },
+  {
+   "id": "item_28556",
+   "name": "King Sundae Schoko",
+   "category": "dessert",
+   "siteCategories": [
+    "Desserts"
+   ],
+   "servingGrams": 150,
+   "valuesPer100g": {
+    "energyKJ": 634,
+    "calories": 151,
+    "fat": 3.2,
+    "saturatedFat": 2.3,
+    "carbs": 27,
+    "sugar": 25.3,
+    "fiber": 0.8,
+    "protein": 3,
+    "saltGrams": 0.31
+   },
+   "valuesPerServing": {
+    "energyKJ": 951,
+    "calories": 227,
+    "fat": 4.8,
+    "saturatedFat": 3.4,
+    "carbs": 40.5,
+    "sugar": 38,
+    "fiber": 1.2,
+    "protein": 4.6,
+    "saltGrams": 0.47
+   },
+   "allergens": "Enthält: Milch; Kann Spuren enthalten von: Schalenfrüchte",
+   "pageURL": "https://www.burgerking.de/menu/item-item_28556",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22item_28556%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "4b6653b4f2431c205b7659a54704fb44dfe6049a5c68f9e12baa8a4e36ac1d93"
+  },
+  {
+   "id": "item_28557",
+   "name": "King Sundae Erdbeere",
+   "category": "dessert",
+   "siteCategories": [
+    "Desserts"
+   ],
+   "servingGrams": 150,
+   "valuesPer100g": {
+    "energyKJ": 638,
+    "calories": 153,
+    "fat": 3.1,
+    "saturatedFat": 2.2,
+    "carbs": 28.3,
+    "sugar": 25.2,
+    "fiber": 0.47,
+    "protein": 2.6,
+    "saltGrams": 0.31
+   },
+   "valuesPerServing": {
+    "energyKJ": 957,
+    "calories": 229,
+    "fat": 4.6,
+    "saturatedFat": 3.3,
+    "carbs": 42.4,
+    "sugar": 37.8,
+    "fiber": 0.7,
+    "protein": 3.8,
+    "saltGrams": 0.46
+   },
+   "allergens": "Enthält: Milch",
+   "pageURL": "https://www.burgerking.de/menu/item-item_28557",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22item_28557%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "ef6d0fcbb4e6cf69e173edd924e3a0e8a8f38947e72775aeb7167707a0ec02c7",
+   "valueNotes": [
+    "fiber per 100 g derived from the portion and its stated weight"
+   ]
+  },
+  {
+   "id": "item_28558",
+   "name": "King Sundae Vanille",
+   "category": "dessert",
+   "siteCategories": [
+    "Desserts"
+   ],
+   "servingGrams": 130,
+   "valuesPer100g": {
+    "energyKJ": 551.03,
+    "calories": 131.7,
+    "fat": 3.5,
+    "saturatedFat": 2.53,
+    "carbs": 21.75,
+    "sugar": 19.97,
+    "fiber": 0.43,
+    "protein": 2.92,
+    "saltGrams": 0.35
+   },
+   "valuesPerServing": {
+    "energyKJ": 716.34,
+    "calories": 171.21,
+    "fat": 4.55,
+    "saturatedFat": 3.29,
+    "carbs": 28.28,
+    "sugar": 25.96,
+    "fiber": 0.56,
+    "protein": 3.8,
+    "saltGrams": 0.46
+   },
+   "allergens": "Enthält: Milch",
+   "pageURL": "https://www.burgerking.de/menu/item-item_28558",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22item_28558%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "a225640eeebaf81e05ea226604af6d4ed12f8f24527bebb83d169138a55c850d",
+   "valueNotes": [
+    "fiber per 100 g derived from the portion and its stated weight"
+   ]
+  },
+  {
+   "id": "item_28572",
+   "name": "Cappuccino",
+   "category": "coffee",
+   "siteCategories": [
+    "Drinks",
+    "Frühstück"
+   ],
+   "servingGrams": 203,
+   "valuesPer100g": {
+    "calories": 32.51,
+    "fat": 1.77,
+    "saturatedFat": 0.0,
+    "carbs": 2.36,
+    "sugar": 2.36,
+    "fiber": 0.0,
+    "protein": 1.67
+   },
+   "valuesPerServing": {
+    "calories": 66,
+    "fat": 3.6,
+    "saturatedFat": 0,
+    "carbs": 4.8,
+    "sugar": 4.8,
+    "fiber": 0,
+    "protein": 3.4
+   },
+   "allergens": "Enthält: Milch",
+   "pageURL": "https://www.burgerking.de/menu/item-item_28572",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22item_28572%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "a2452d69f7121bd673e7acf396b100592146da26a4d6463d34327b04b20ebb5e",
+   "valueNotes": [
+    "calories per 100 g derived from the portion and its stated weight",
+    "fat per 100 g derived from the portion and its stated weight",
+    "saturatedFat per 100 g derived from the portion and its stated weight",
+    "carbs per 100 g derived from the portion and its stated weight",
+    "sugar per 100 g derived from the portion and its stated weight",
+    "fiber per 100 g derived from the portion and its stated weight",
+    "protein per 100 g derived from the portion and its stated weight"
+   ]
+  },
+  {
+   "id": "item_28581",
+   "name": "Coca-Cola® light 0,25 l",
+   "category": "drink",
+   "siteCategories": [
+    "Drinks"
+   ],
+   "servingGrams": 250,
+   "valuesPer100g": {
+    "calories": 0.24,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "carbs": 0.0,
+    "sugar": 0.0,
+    "fiber": 0.0,
+    "protein": 0.0
+   },
+   "valuesPerServing": {
+    "calories": 0.6,
+    "fat": 0,
+    "saturatedFat": 0,
+    "carbs": 0,
+    "sugar": 0,
+    "fiber": 0,
+    "protein": 0
+   },
+   "allergens": "",
+   "pageURL": "https://www.burgerking.de/menu/item-item_28581",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22item_28581%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "d266616c6aca2c450e2549feaa2ba975bffdbd231a21bd849346891ad8044c0a",
+   "portionMilliliters": 250.0,
+   "volumeSource": "name",
+   "servingUnit": "ml",
+   "valueNotes": [
+    "calories per 100 g derived from the portion and its stated weight",
+    "fat per 100 g derived from the portion and its stated weight",
+    "saturatedFat per 100 g derived from the portion and its stated weight",
+    "carbs per 100 g derived from the portion and its stated weight",
+    "sugar per 100 g derived from the portion and its stated weight",
+    "fiber per 100 g derived from the portion and its stated weight",
+    "protein per 100 g derived from the portion and its stated weight"
+   ]
+  },
+  {
+   "id": "item_28582",
+   "name": "Coca-Cola® light 0,4 l",
+   "category": "drink",
+   "siteCategories": [
+    "Drinks"
+   ],
+   "servingGrams": 400,
+   "valuesPer100g": {
+    "calories": 0.24,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "carbs": 0.0,
+    "sugar": 0.0,
+    "fiber": 0.0,
+    "protein": 0.0
+   },
+   "valuesPerServing": {
+    "calories": 0.96,
+    "fat": 0,
+    "saturatedFat": 0,
+    "carbs": 0,
+    "sugar": 0,
+    "fiber": 0,
+    "protein": 0
+   },
+   "allergens": "",
+   "pageURL": "https://www.burgerking.de/menu/item-item_28582",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22item_28582%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "cf9afee871cba69fceb9c470990e421267fbcaa48ec8f0206fac7b5fb9ee7e9e",
+   "portionMilliliters": 400.0,
+   "volumeSource": "name",
+   "servingUnit": "ml",
+   "valueNotes": [
+    "calories per 100 g derived from the portion and its stated weight",
+    "fat per 100 g derived from the portion and its stated weight",
+    "saturatedFat per 100 g derived from the portion and its stated weight",
+    "carbs per 100 g derived from the portion and its stated weight",
+    "sugar per 100 g derived from the portion and its stated weight",
+    "fiber per 100 g derived from the portion and its stated weight",
+    "protein per 100 g derived from the portion and its stated weight"
+   ]
+  },
+  {
+   "id": "item_28583",
+   "name": "Coca-Cola® light 0,5 l",
+   "category": "drink",
+   "siteCategories": [
+    "Drinks"
+   ],
+   "servingGrams": 500,
+   "valuesPer100g": {
+    "calories": 0.24,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "carbs": 0.0,
+    "sugar": 0.0,
+    "fiber": 0.0,
+    "protein": 0.0
+   },
+   "valuesPerServing": {
+    "calories": 1.2,
+    "fat": 0,
+    "saturatedFat": 0,
+    "carbs": 0,
+    "sugar": 0,
+    "fiber": 0,
+    "protein": 0
+   },
+   "allergens": "",
+   "pageURL": "https://www.burgerking.de/menu/item-item_28583",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22item_28583%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "84cf3d37dd79a22766061261dcb6ecd502f95bd628e7b2409cb2fdf17844ce80",
+   "portionMilliliters": 500.0,
+   "volumeSource": "name",
+   "servingUnit": "ml",
+   "valueNotes": [
+    "calories per 100 g derived from the portion and its stated weight",
+    "fat per 100 g derived from the portion and its stated weight",
+    "saturatedFat per 100 g derived from the portion and its stated weight",
+    "carbs per 100 g derived from the portion and its stated weight",
+    "sugar per 100 g derived from the portion and its stated weight",
+    "fiber per 100 g derived from the portion and its stated weight",
+    "protein per 100 g derived from the portion and its stated weight"
+   ]
+  },
+  {
+   "id": "item_30336",
+   "name": "Big King XXL®",
+   "category": "burger",
+   "siteCategories": [
+    "Beef"
+   ],
+   "servingGrams": 363,
+   "valuesPer100g": {
+    "energyKJ": 1082,
+    "calories": 259,
+    "fat": 15.7,
+    "saturatedFat": 6.3,
+    "carbs": 13.9,
+    "sugar": 3.3,
+    "fiber": 0.99,
+    "protein": 14.8,
+    "saltGrams": 1.2
+   },
+   "valuesPerServing": {
+    "energyKJ": 3934,
+    "calories": 940,
+    "fat": 57.2,
+    "saturatedFat": 22.9,
+    "carbs": 50.4,
+    "sugar": 12.1,
+    "fiber": 3.6,
+    "protein": 53.7,
+    "saltGrams": 4.3
+   },
+   "allergens": "Enthält: Gluten, Milch, Senf, Sesam; Kann Spuren enthalten von: Sellerie, Eier, Soja",
+   "pageURL": "https://www.burgerking.de/menu/item-item_30336",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22item_30336%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "e189241852f0b25410974087f6ec7f306b51c89eb2072383250bc25d3be830ef",
+   "valueNotes": [
+    "fiber per 100 g derived from the portion and its stated weight"
+   ]
+  },
+  {
+   "id": "item_33736",
+   "name": "Espresso",
+   "category": "coffee",
+   "siteCategories": [
+    "Drinks",
+    "Frühstück"
+   ],
+   "servingGrams": 55,
+   "valuesPer100g": {
+    "calories": 0.0,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "carbs": 0.0,
+    "sugar": 0.0,
+    "fiber": 0.0,
+    "protein": 0.0
+   },
+   "valuesPerServing": {
+    "calories": 0,
+    "fat": 0,
+    "saturatedFat": 0,
+    "carbs": 0,
+    "sugar": 0,
+    "fiber": 0,
+    "protein": 0
+   },
+   "allergens": "",
+   "pageURL": "https://www.burgerking.de/menu/item-item_33736",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22item_33736%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "04e4c983ff62873b7ce5ee5b71f7746fd5089392b083882a36eb788846387884",
+   "valueNotes": [
+    "calories per 100 g derived from the portion and its stated weight",
+    "fat per 100 g derived from the portion and its stated weight",
+    "saturatedFat per 100 g derived from the portion and its stated weight",
+    "carbs per 100 g derived from the portion and its stated weight",
+    "sugar per 100 g derived from the portion and its stated weight",
+    "fiber per 100 g derived from the portion and its stated weight",
+    "protein per 100 g derived from the portion and its stated weight"
+   ]
+  },
+  {
+   "id": "item_33737",
+   "name": "Caffè Crema",
+   "category": "coffee",
+   "siteCategories": [
+    "Drinks",
+    "Frühstück"
+   ],
+   "servingGrams": 260,
+   "valuesPer100g": {
+    "calories": 0.0,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "carbs": 0.0,
+    "sugar": 0.0,
+    "fiber": 0.0,
+    "protein": 0.0
+   },
+   "valuesPerServing": {
+    "calories": 0,
+    "fat": 0,
+    "saturatedFat": 0,
+    "carbs": 0,
+    "sugar": 0,
+    "fiber": 0,
+    "protein": 0
+   },
+   "allergens": "",
+   "pageURL": "https://www.burgerking.de/menu/item-item_33737",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22item_33737%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "87f1f5564b038c3bea69fc7e5ce007690a6f17d8fa2db69b2d8687c65d5640a6",
+   "valueNotes": [
+    "calories per 100 g derived from the portion and its stated weight",
+    "fat per 100 g derived from the portion and its stated weight",
+    "saturatedFat per 100 g derived from the portion and its stated weight",
+    "carbs per 100 g derived from the portion and its stated weight",
+    "sugar per 100 g derived from the portion and its stated weight",
+    "fiber per 100 g derived from the portion and its stated weight",
+    "protein per 100 g derived from the portion and its stated weight"
+   ]
+  },
+  {
+   "id": "item_36895",
+   "name": "20er Chili Cheese Nuggets",
+   "category": "snack",
+   "siteCategories": [
+    "Snacks"
+   ],
+   "servingGrams": 372.2,
+   "valuesPer100g": {
+    "energyKJ": 1204.99,
+    "calories": 288,
+    "fat": 16.2,
+    "saturatedFat": 6.4,
+    "carbs": 25.8,
+    "sugar": 1.6,
+    "fiber": 1.45,
+    "protein": 8.9,
+    "saltGrams": 1.9
+   },
+   "valuesPerServing": {
+    "energyKJ": 4217.47,
+    "calories": 1060.77,
+    "fat": 55.65,
+    "saturatedFat": 24.2,
+    "carbs": 103.66,
+    "sugar": 4.58,
+    "fiber": 5.4,
+    "protein": 33.5,
+    "saltGrams": 6.83
+   },
+   "allergens": "Enthält: Gluten, Milch",
+   "pageURL": "https://www.burgerking.de/menu/item-item_36895",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22item_36895%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "0bde1355162919b7509d8e53136145978d1015332cdbe697d69f6b7020c8074c",
+   "valueNotes": [
+    "fiber per 100 g derived from the portion and its stated weight"
+   ]
+  },
+  {
+   "id": "item_37668",
+   "name": "Vio® Still 0,5l",
+   "category": "drink",
+   "siteCategories": [
+    "Drinks"
+   ],
+   "servingGrams": 500,
+   "valuesPer100g": {
+    "energyKJ": 0,
+    "calories": 0,
+    "fat": 0,
+    "saturatedFat": 0,
+    "carbs": 0,
+    "sugar": 0,
+    "fiber": 0.0,
+    "protein": 0,
+    "saltGrams": 0
+   },
+   "valuesPerServing": {
+    "energyKJ": 0,
+    "calories": 0,
+    "fat": 0,
+    "saturatedFat": 0,
+    "carbs": 0,
+    "sugar": 0,
+    "fiber": 0,
+    "protein": 0,
+    "saltGrams": 0
+   },
+   "allergens": "",
+   "pageURL": "https://www.burgerking.de/menu/item-item_37668",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22item_37668%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "a10d902f52a67712c39f441175389ad99e32339fc3fb5b817e84cd485fb8f908",
+   "portionMilliliters": 500.0,
+   "volumeSource": "name",
+   "servingUnit": "ml",
+   "valueNotes": [
+    "fiber per 100 g derived from the portion and its stated weight"
+   ]
+  },
+  {
+   "id": "item_37669",
+   "name": "Fuze Tea 0,5 l",
+   "category": "drink",
+   "siteCategories": [
+    "Drinks"
+   ],
+   "servingGrams": 500,
+   "valuesPer100g": {
+    "energyKJ": 79.5,
+    "calories": 19,
+    "fat": 0,
+    "saturatedFat": 0,
+    "carbs": 4.4,
+    "sugar": 4.4,
+    "fiber": 0.0,
+    "protein": 0,
+    "saltGrams": 0
+   },
+   "valuesPerServing": {
+    "energyKJ": 409.4,
+    "calories": 150,
+    "fat": 0,
+    "saturatedFat": 0,
+    "carbs": 36,
+    "sugar": 36,
+    "fiber": 0,
+    "protein": 0,
+    "saltGrams": 0
+   },
+   "allergens": "",
+   "pageURL": "https://www.burgerking.de/menu/item-item_37669",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22item_37669%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "5c028e62cc791271bfcb825f44166b347e2b08b46b195e5e2ad5173f87396cb9",
+   "portionMilliliters": 500.0,
+   "volumeSource": "name",
+   "servingUnit": "ml",
+   "valueNotes": [
+    "fiber per 100 g derived from the portion and its stated weight",
+    "calories per 100 g 19: the chain states 19 per 100 g and 150 per 500 g; only the stated side has kJ and kcal that agree",
+    "carbs per 100 g 4.4: the chain states 4.4 per 100 g and 36 per 500 g; only 4.4 fits the energy",
+    "sugar per 100 g 4.4: from the stated side, as for the energy"
+   ]
+  },
+  {
+   "id": "item_37690",
+   "name": "Fuze Tea 0,4 l",
+   "category": "drink",
+   "siteCategories": [
+    "Drinks"
+   ],
+   "servingGrams": 400,
+   "valuesPer100g": {
+    "energyKJ": 79.5,
+    "calories": 19,
+    "fat": 0,
+    "saturatedFat": 0,
+    "carbs": 4.4,
+    "sugar": 4.4,
+    "fiber": 0.0,
+    "protein": 0,
+    "saltGrams": 0
+   },
+   "valuesPerServing": {
+    "energyKJ": 327.52,
+    "calories": 120,
+    "fat": 0,
+    "saturatedFat": 0,
+    "carbs": 28.8,
+    "sugar": 28.8,
+    "fiber": 0,
+    "protein": 0,
+    "saltGrams": 0
+   },
+   "allergens": "",
+   "pageURL": "https://www.burgerking.de/menu/item-item_37690",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22item_37690%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "5c05485eb84c6f7fdc8ddca29b7674fab12e01bf6de480ee3295bcdd8a4a1c70",
+   "portionMilliliters": 400.0,
+   "volumeSource": "name",
+   "servingUnit": "ml",
+   "valueNotes": [
+    "fiber per 100 g derived from the portion and its stated weight",
+    "calories per 100 g 19: the chain states 19 per 100 g and 120 per 400 g; only the stated side has kJ and kcal that agree",
+    "carbs per 100 g 4.4: the chain states 4.4 per 100 g and 28.8 per 400 g; only 4.4 fits the energy",
+    "sugar per 100 g 4.4: from the stated side, as for the energy"
+   ]
+  },
+  {
+   "id": "item_37691",
+   "name": "Fuze Tea 0,25 l",
+   "category": "drink",
+   "siteCategories": [
+    "Drinks"
+   ],
+   "servingGrams": 250,
+   "valuesPer100g": {
+    "energyKJ": 79.5,
+    "calories": 19,
+    "fat": 0,
+    "saturatedFat": 0,
+    "carbs": 4.4,
+    "sugar": 4.4,
+    "fiber": 0.0,
+    "protein": 0,
+    "saltGrams": 0
+   },
+   "valuesPerServing": {
+    "energyKJ": 204.7,
+    "calories": 75,
+    "fat": 0,
+    "saturatedFat": 0,
+    "carbs": 18,
+    "sugar": 18,
+    "fiber": 0,
+    "protein": 0,
+    "saltGrams": 0
+   },
+   "allergens": "",
+   "pageURL": "https://www.burgerking.de/menu/item-item_37691",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22item_37691%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "66a8268e1d58bd4c195d53d50266ce61b3ebdeee3673d616f820c19cda4228d4",
+   "portionMilliliters": 250.0,
+   "volumeSource": "name",
+   "servingUnit": "ml",
+   "valueNotes": [
+    "fiber per 100 g derived from the portion and its stated weight",
+    "calories per 100 g 19: the chain states 19 per 100 g and 75 per 250 g; only the stated side has kJ and kcal that agree",
+    "carbs per 100 g 4.4: the chain states 4.4 per 100 g and 18 per 250 g; only 4.4 fits the energy",
+    "sugar per 100 g 4.4: from the stated side, as for the energy"
+   ]
+  },
+  {
+   "id": "item_37763",
+   "name": "Bacon King",
+   "category": "burger",
+   "siteCategories": [
+    "Beef"
+   ],
+   "servingGrams": 339,
+   "valuesPer100g": {
+    "energyKJ": 1266,
+    "calories": 303,
+    "fat": 19,
+    "saturatedFat": 7.5,
+    "carbs": 14.6,
+    "sugar": 3.6,
+    "fiber": 0.97,
+    "protein": 17.6,
+    "saltGrams": 1.4
+   },
+   "valuesPerServing": {
+    "energyKJ": 4292,
+    "calories": 1026,
+    "fat": 64.6,
+    "saturatedFat": 25.5,
+    "carbs": 49.5,
+    "sugar": 12.3,
+    "fiber": 3.3,
+    "protein": 59.7,
+    "saltGrams": 4.6
+   },
+   "allergens": "Enthält: Sellerie, Gluten, Milch, Sesam; Kann Spuren enthalten von: Eier, Soja",
+   "pageURL": "https://www.burgerking.de/menu/item-item_37763",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22item_37763%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "62124c14a7da924f59a720e32c31ae6aa401cb8370588092e3ffd41efa9a7dfb",
+   "valueNotes": [
+    "fiber per 100 g derived from the portion and its stated weight"
+   ]
+  },
+  {
+   "id": "item_37950",
+   "name": "Vio® Medium 0,5l",
+   "category": "drink",
+   "siteCategories": [
+    "Drinks"
+   ],
+   "servingGrams": 500,
+   "valuesPer100g": {
+    "energyKJ": 0,
+    "calories": 0,
+    "fat": 0,
+    "saturatedFat": 0,
+    "carbs": 0,
+    "sugar": 0,
+    "fiber": 0.0,
+    "protein": 0,
+    "saltGrams": 0
+   },
+   "valuesPerServing": {
+    "energyKJ": 0,
+    "calories": 0,
+    "fat": 0,
+    "saturatedFat": 0,
+    "carbs": 0,
+    "sugar": 0,
+    "fiber": 0,
+    "protein": 0,
+    "saltGrams": 0
+   },
+   "allergens": "",
+   "pageURL": "https://www.burgerking.de/menu/item-item_37950",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22item_37950%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "e35cbb903bc65e3036d2a6ab172775978e4de0f9c37d816d6483edd8e86b13ad",
+   "portionMilliliters": 500.0,
+   "volumeSource": "name",
+   "servingUnit": "ml",
+   "valueNotes": [
+    "fiber per 100 g derived from the portion and its stated weight"
+   ]
+  },
+  {
+   "id": "item_39054",
+   "name": "Monster Energy® 0,5 l",
+   "category": "drink",
+   "siteCategories": [
+    "Drinks"
+   ],
+   "servingGrams": 500,
+   "valuesPer100g": {
+    "energyKJ": 197,
+    "calories": 47,
+    "fat": 0,
+    "saturatedFat": 0,
+    "carbs": 12,
+    "sugar": 11,
+    "fiber": 0.0,
+    "protein": 0,
+    "saltGrams": 0
+   },
+   "valuesPerServing": {
+    "energyKJ": 1005,
+    "calories": 235,
+    "fat": 0,
+    "saturatedFat": 0,
+    "carbs": 60,
+    "sugar": 55,
+    "fiber": 0,
+    "protein": 0,
+    "saltGrams": 0.95
+   },
+   "allergens": "",
+   "pageURL": "https://www.burgerking.de/menu/item-item_39054",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22item_39054%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "280f0f37935a4b40136418df8b89d56207095ba4ef96d6499dfbef56cb6b62e5",
+   "portionMilliliters": 500.0,
+   "volumeSource": "name",
+   "servingUnit": "ml",
+   "valueNotes": [
+    "fiber per 100 g derived from the portion and its stated weight"
+   ]
+  },
+  {
+   "id": "item_39890",
+   "name": "Hot Blondie",
+   "category": "dessert",
+   "siteCategories": [
+    "Desserts"
+   ],
+   "servingGrams": 80,
+   "valuesPer100g": {
+    "energyKJ": 1849,
+    "calories": 442,
+    "fat": 24.3,
+    "saturatedFat": 12.5,
+    "carbs": 49.9,
+    "sugar": 39.8,
+    "fiber": 1.4,
+    "protein": 6.5,
+    "saltGrams": 0.16
+   },
+   "valuesPerServing": {
+    "energyKJ": 1479,
+    "calories": 354,
+    "fat": 19.4,
+    "saturatedFat": 10,
+    "carbs": 39.9,
+    "sugar": 31.8,
+    "fiber": 1.1,
+    "protein": 5.2,
+    "saltGrams": 0.13
+   },
+   "allergens": "Enthält: Eier, Gluten, Milch, Soja; Kann Spuren enthalten von: Sesam, Schalenfrüchte",
+   "pageURL": "https://www.burgerking.de/menu/item-item_39890",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22item_39890%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "3d0592a7372cf04109227db579bcdb3c8607b539137ad9e116cd884b708131c6"
+  },
+  {
+   "id": "item_43039",
+   "name": "6er King Nuggets®",
+   "category": "chicken",
+   "siteCategories": [
+    "Chicken",
+    "Snacks"
+   ],
+   "servingGrams": 114,
+   "valuesPer100g": {
+    "energyKJ": 996,
+    "calories": 238,
+    "fat": 12.9,
+    "saturatedFat": 2,
+    "carbs": 16.1,
+    "sugar": 0.6,
+    "fiber": 1.32,
+    "protein": 13.8,
+    "saltGrams": 1.2
+   },
+   "valuesPerServing": {
+    "energyKJ": 1135,
+    "calories": 271,
+    "fat": 14.7,
+    "saturatedFat": 2.3,
+    "carbs": 18.4,
+    "sugar": 0.7,
+    "fiber": 1.5,
+    "protein": 15.7,
+    "saltGrams": 1.3
+   },
+   "allergens": "Enthält: Eier, Gluten; Kann Spuren enthalten von: Sellerie, Milch, Senf, Soja",
+   "pageURL": "https://www.burgerking.de/menu/item-item_43039",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22item_43039%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "1efb35698306ea62c4420ff8a7b93508fb6e166c650552691a32b1d031c8d4d0",
+   "valueNotes": [
+    "fiber per 100 g derived from the portion and its stated weight"
+   ]
+  },
+  {
+   "id": "item_43043",
+   "name": "9er King Nuggets®",
+   "category": "chicken",
+   "siteCategories": [
+    "Chicken",
+    "Snacks"
+   ],
+   "servingGrams": 171,
+   "valuesPer100g": {
+    "energyKJ": 996,
+    "calories": 238,
+    "fat": 12.9,
+    "saturatedFat": 2,
+    "carbs": 16.1,
+    "sugar": 0.6,
+    "fiber": 1.29,
+    "protein": 13.8,
+    "saltGrams": 1.2
+   },
+   "valuesPerServing": {
+    "energyKJ": 1703,
+    "calories": 407,
+    "fat": 22,
+    "saturatedFat": 3.4,
+    "carbs": 27.5,
+    "sugar": 1,
+    "fiber": 2.2,
+    "protein": 23.6,
+    "saltGrams": 2
+   },
+   "allergens": "Enthält: Eier, Gluten; Kann Spuren enthalten von: Sellerie, Milch, Senf, Soja",
+   "pageURL": "https://www.burgerking.de/menu/item-item_43043",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22item_43043%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "c0bb1c372aaa051da2ab89e7f337d5429e1bbc6a1cae67b41d55c0d027ad2438",
+   "valueNotes": [
+    "fiber per 100 g derived from the portion and its stated weight"
+   ]
+  },
+  {
+   "id": "item_53222",
+   "name": "King Sundae Karamell",
+   "category": "dessert",
+   "siteCategories": [
+    "Desserts"
+   ],
+   "servingGrams": 150,
+   "valuesPer100g": {
+    "energyKJ": 624,
+    "calories": 149,
+    "fat": 3,
+    "saturatedFat": 2.2,
+    "carbs": 27.3,
+    "sugar": 25.4,
+    "fiber": 0.4,
+    "protein": 2.8,
+    "saltGrams": 0.43
+   },
+   "valuesPerServing": {
+    "energyKJ": 936,
+    "calories": 224,
+    "fat": 4.6,
+    "saturatedFat": 3.3,
+    "carbs": 41,
+    "sugar": 38.1,
+    "fiber": 0.6,
+    "protein": 4.2,
+    "saltGrams": 0.65
+   },
+   "allergens": "Enthält: Milch",
+   "pageURL": "https://www.burgerking.de/menu/item-item_53222",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22item_53222%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "2c6e2ddff485ba29ed805afa140eda47d0a346ab0e9376c337ca33831829aea1",
+   "valueNotes": [
+    "fiber per 100 g derived from the portion and its stated weight"
+   ]
+  },
+  {
+   "id": "item_53597",
+   "name": "6er Plant-based Nuggets",
+   "category": "chicken",
+   "siteCategories": [
+    "Plant-based",
+    "Snacks"
+   ],
+   "servingGrams": 108,
+   "valuesPer100g": {
+    "energyKJ": 1100,
+    "calories": 263,
+    "fat": 13.9,
+    "saturatedFat": 1.3,
+    "carbs": 22.4,
+    "sugar": 0.9,
+    "fiber": 6.11,
+    "protein": 9,
+    "saltGrams": 1.1
+   },
+   "valuesPerServing": {
+    "energyKJ": 1188,
+    "calories": 284,
+    "fat": 15,
+    "saturatedFat": 1.4,
+    "carbs": 24.2,
+    "sugar": 1.2,
+    "fiber": 6.6,
+    "protein": 9.7,
+    "saltGrams": 1.2
+   },
+   "allergens": "Enthält: Gluten, Soja; Kann Spuren enthalten von: Sellerie, Senf, Sesam",
+   "pageURL": "https://www.burgerking.de/menu/item-item_53597",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22item_53597%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "aaf838f259b1abdd06c2943a8753c8c61b5c88c80e74052dae6082d8220081a7",
+   "valueNotes": [
+    "fiber per 100 g derived from the portion and its stated weight"
+   ]
+  },
+  {
+   "id": "item_53598",
+   "name": "9er Plant-based Nuggets",
+   "category": "chicken",
+   "siteCategories": [
+    "Plant-based",
+    "Snacks"
+   ],
+   "servingGrams": 162,
+   "valuesPer100g": {
+    "energyKJ": 1100,
+    "calories": 263,
+    "fat": 13.9,
+    "saturatedFat": 1.3,
+    "carbs": 22.4,
+    "sugar": 0.9,
+    "fiber": 6.11,
+    "protein": 9,
+    "saltGrams": 1.1
+   },
+   "valuesPerServing": {
+    "energyKJ": 1783,
+    "calories": 426,
+    "fat": 22.58,
+    "saturatedFat": 2.1,
+    "carbs": 36.3,
+    "sugar": 1.4,
+    "fiber": 9.9,
+    "protein": 14.6,
+    "saltGrams": 1.7
+   },
+   "allergens": "Enthält: Gluten, Soja, Weizen; Kann Spuren enthalten von: Sellerie, Senf, Sesam",
+   "pageURL": "https://www.burgerking.de/menu/item-item_53598",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22item_53598%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "9f539e3a7e21fc0b998a4ff9fcba23e2cfb484d81b69a74e456c3135165fa590",
+   "valueNotes": [
+    "fiber per 100 g derived from the portion and its stated weight"
+   ]
+  },
+  {
+   "id": "item_55768",
+   "name": "King Sundae Smarties®",
+   "category": "dessert",
+   "siteCategories": [
+    "Desserts"
+   ],
+   "servingGrams": 150,
+   "valuesPer100g": {
+    "energyKJ": 740,
+    "calories": 177,
+    "fat": 5.5,
+    "saturatedFat": 3.7,
+    "carbs": 28,
+    "sugar": 25.3,
+    "fiber": 0.6,
+    "protein": 3.3,
+    "saltGrams": 0.3
+   },
+   "valuesPerServing": {
+    "energyKJ": 1110,
+    "calories": 265,
+    "fat": 8.3,
+    "saturatedFat": 5.5,
+    "carbs": 42,
+    "sugar": 37.9,
+    "fiber": 0.9,
+    "protein": 4.9,
+    "saltGrams": 0.49
+   },
+   "allergens": "Enthält: Gluten, Milch",
+   "pageURL": "https://www.burgerking.de/menu/item-item_55768",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22item_55768%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "3ba5d76659613ee479572f9fcb251a88e5bc9c1c1a66d55f39f55b854ba7187c"
+  },
+  {
+   "id": "item_55807",
+   "name": "Apfel-Bananen Quetschie 85g",
+   "category": "dessert",
+   "siteCategories": [
+    "Desserts"
+   ],
+   "servingGrams": 85,
+   "valuesPer100g": {
+    "energyKJ": 251,
+    "calories": 60,
+    "fat": 0.2,
+    "saturatedFat": 0,
+    "carbs": 13,
+    "sugar": 12,
+    "fiber": 0.0,
+    "protein": 0.4,
+    "saltGrams": 0
+   },
+   "valuesPerServing": {
+    "energyKJ": 213,
+    "calories": 51,
+    "fat": 0.2,
+    "saturatedFat": 0,
+    "carbs": 11,
+    "sugar": 10.2,
+    "fiber": 0,
+    "protein": 0.3,
+    "saltGrams": 0
+   },
+   "allergens": "",
+   "pageURL": "https://www.burgerking.de/menu/item-item_55807",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22item_55807%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "32d482a89857bd7be3d7c746845950242fcc99584783cf0734ca580db697815a",
+   "valueNotes": [
+    "fiber per 100 g derived from the portion and its stated weight"
+   ]
+  },
+  {
+   "id": "item_56197",
+   "name": "20er Plant-based Nuggets",
+   "category": "chicken",
+   "siteCategories": [
+    "Plant-based",
+    "Snacks"
+   ],
+   "servingGrams": 360,
+   "valuesPer100g": {
+    "energyKJ": 941.4,
+    "calories": 225,
+    "fat": 11.9,
+    "saturatedFat": 0.8,
+    "carbs": 19.9,
+    "sugar": 0.8,
+    "fiber": 4.8,
+    "protein": 7.3,
+    "saltGrams": 1.12
+   },
+   "valuesPerServing": {
+    "energyKJ": 3389.04,
+    "calories": 810,
+    "fat": 42.84,
+    "saturatedFat": 2.88,
+    "carbs": 71.64,
+    "sugar": 2.88,
+    "fiber": 17.28,
+    "protein": 26.28,
+    "saltGrams": 4.03
+   },
+   "allergens": "Enthält: Gluten, Soja, Weizen; Kann Spuren enthalten von: Sellerie, Senf, Sesam",
+   "pageURL": "https://www.burgerking.de/menu/item-item_56197",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22item_56197%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "d80e1e90bffba9efc22a499c2b0fd48d05152ac7f391e22d41c557828e769691",
+   "valueNotes": [
+    "fiber per 100 g derived from the portion and its stated weight"
+   ]
+  },
+  {
+   "id": "item_56963",
+   "name": "Plant-based Hamburger",
+   "category": "burger",
+   "siteCategories": [
+    "Plant-based"
+   ],
+   "servingGrams": 120,
+   "valuesPer100g": {
+    "energyKJ": 883,
+    "calories": 211,
+    "fat": 5.9,
+    "saturatedFat": 1.6,
+    "carbs": 26.7,
+    "sugar": 5.7,
+    "fiber": 4.58,
+    "protein": 10.4,
+    "saltGrams": 1.6
+   },
+   "valuesPerServing": {
+    "energyKJ": 1057,
+    "calories": 253,
+    "fat": 7,
+    "saturatedFat": 1.9,
+    "carbs": 31.9,
+    "sugar": 6.8,
+    "fiber": 5.5,
+    "protein": 12.5,
+    "saltGrams": 1.9
+   },
+   "allergens": "Enthält: Gluten, Senf, Sesam, Soja; Kann Spuren enthalten von: Sellerie, Eier, Milch",
+   "pageURL": "https://www.burgerking.de/menu/item-item_56963",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22item_56963%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "18c4c1f75972edc34b4c71e4857d7eaa1f615ab99d0e251bfa122d046e222b83",
+   "valueNotes": [
+    "fiber per 100 g derived from the portion and its stated weight"
+   ]
+  },
+  {
+   "id": "item_56967",
+   "name": "Plant-based Cheeseburger",
+   "category": "burger",
+   "siteCategories": [
+    "Plant-based"
+   ],
+   "servingGrams": 131,
+   "valuesPer100g": {
+    "energyKJ": 931,
+    "calories": 222,
+    "fat": 7.7,
+    "saturatedFat": 3,
+    "carbs": 24.6,
+    "sugar": 5.5,
+    "fiber": 3.82,
+    "protein": 11.3,
+    "saltGrams": 1.8
+   },
+   "valuesPerServing": {
+    "energyKJ": 1221,
+    "calories": 292,
+    "fat": 10.1,
+    "saturatedFat": 4,
+    "carbs": 32.3,
+    "sugar": 7.2,
+    "fiber": 5,
+    "protein": 14.8,
+    "saltGrams": 2.3
+   },
+   "allergens": "Enthält: Gluten, Milch, Senf, Sesam, Soja; Kann Spuren enthalten von: Sellerie, Eier",
+   "pageURL": "https://www.burgerking.de/menu/item-item_56967",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22item_56967%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "2007a915cfcddaaa810529df02f7af798116f1f904ea0e988168782c00a62a6d",
+   "valueNotes": [
+    "fiber per 100 g derived from the portion and its stated weight"
+   ]
+  },
+  {
+   "id": "item_57063",
+   "name": "Plant-based Double Cheeseburger",
+   "category": "burger",
+   "siteCategories": [
+    "Plant-based"
+   ],
+   "servingGrams": 181,
+   "valuesPer100g": {
+    "energyKJ": 949,
+    "calories": 227,
+    "fat": 9.6,
+    "saturatedFat": 4,
+    "carbs": 18.9,
+    "sugar": 4.4,
+    "fiber": 4.1,
+    "protein": 13.7,
+    "saltGrams": 1.7
+   },
+   "valuesPerServing": {
+    "energyKJ": 1715,
+    "calories": 410,
+    "fat": 17.4,
+    "saturatedFat": 7.3,
+    "carbs": 34.2,
+    "sugar": 8,
+    "fiber": 7.7,
+    "protein": 24.8,
+    "saltGrams": 3.1
+   },
+   "allergens": "Enthält: Gluten, Milch, Senf, Sesam, Soja; Kann Spuren enthalten von: Sellerie, Eier",
+   "pageURL": "https://www.burgerking.de/menu/item-item_57063",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22item_57063%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "2287eb8af1b916f33a09ca005a00011c5b964f22d947a6f36fc97a84ae3d1032",
+   "valueNotes": [
+    "carbs per 100 g 18.9: the chain states 28.9 per 100 g and 34.2 per 181 g; only 18.9 fits the energy"
+   ]
+  },
+  {
+   "id": "item_57065",
+   "name": "Plant-based Chili Cheese Burger",
+   "category": "burger",
+   "siteCategories": [
+    "Plant-based"
+   ],
+   "servingGrams": 139,
+   "valuesPer100g": {
+    "energyKJ": 1077,
+    "calories": 257,
+    "fat": 13.4,
+    "saturatedFat": 3.4,
+    "carbs": 21.2,
+    "sugar": 3.9,
+    "fiber": 4,
+    "protein": 10.5,
+    "saltGrams": 1.8
+   },
+   "valuesPerServing": {
+    "energyKJ": 1533,
+    "calories": 366,
+    "fat": 19.1,
+    "saturatedFat": 4.8,
+    "carbs": 30.2,
+    "sugar": 5.5,
+    "fiber": 5.7,
+    "protein": 14.9,
+    "saltGrams": 2.6
+   },
+   "allergens": "Enthält: Eier, Gluten, Milch, Sesam, Soja; Kann Spuren enthalten von: Sellerie, Senf",
+   "pageURL": "https://www.burgerking.de/menu/item-item_57065",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22item_57065%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "fd3cc58dd2032365a92cf641ff505d00802db402ae026d1d896572fcc8b6832a"
+  },
+  {
+   "id": "item_57066",
+   "name": "Plant-based Double Chili Cheese Burger",
+   "category": "burger",
+   "siteCategories": [
+    "Plant-based"
+   ],
+   "servingGrams": 180,
+   "valuesPer100g": {
+    "energyKJ": 1033,
+    "calories": 247,
+    "fat": 12.9,
+    "saturatedFat": 3.3,
+    "carbs": 17.6,
+    "sugar": 3.3,
+    "fiber": 4.5,
+    "protein": 12.5,
+    "saltGrams": 1.6
+   },
+   "valuesPerServing": {
+    "energyKJ": 1864,
+    "calories": 445,
+    "fat": 23.3,
+    "saturatedFat": 6,
+    "carbs": 31.8,
+    "sugar": 5.9,
+    "fiber": 8.1,
+    "protein": 22.6,
+    "saltGrams": 2.9
+   },
+   "allergens": "Enthält: Eier, Gluten, Milch, Sesam, Soja; Kann Spuren enthalten von: Sellerie, Senf",
+   "pageURL": "https://www.burgerking.de/menu/item-item_57066",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22item_57066%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "76abea1d6130bcfd5cdd1575fe6537f26ee0db002eef79aeef0989fe17d55ec0"
+  },
+  {
+   "id": "item_57067",
+   "name": "Plant-based Whopper Jr.®",
+   "category": "burger",
+   "siteCategories": [
+    "Plant-based"
+   ],
+   "servingGrams": 149.27,
+   "valuesPer100g": {
+    "energyKJ": 836,
+    "calories": 200,
+    "fat": 8.6,
+    "saturatedFat": 1.6,
+    "carbs": 20.4,
+    "sugar": 3.9,
+    "fiber": 3.82,
+    "protein": 8.4,
+    "saltGrams": 1.2
+   },
+   "valuesPerServing": {
+    "energyKJ": 1248,
+    "calories": 298,
+    "fat": 12.9,
+    "saturatedFat": 2.3,
+    "carbs": 30.4,
+    "sugar": 5.6,
+    "fiber": 5.7,
+    "protein": 12.5,
+    "saltGrams": 1.7
+   },
+   "allergens": "Enthält: Sellerie, Gluten, Sesam, Soja, Weizen; Kann Spuren enthalten von: Eier, Milch",
+   "pageURL": "https://www.burgerking.de/menu/item-item_57067",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22item_57067%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "a0d2d6e1f38083659d73b8f953747b7c481e617886c0d350eb2317b3b83aa472",
+   "valueNotes": [
+    "fiber per 100 g derived from the portion and its stated weight"
+   ]
+  },
+  {
+   "id": "item_57158",
+   "name": "Plant-based X-tra long Chili Cheese",
+   "category": "burger",
+   "siteCategories": [
+    "Plant-based"
+   ],
+   "servingGrams": 278,
+   "valuesPer100g": {
+    "energyKJ": 992,
+    "calories": 237,
+    "fat": 12.2,
+    "saturatedFat": 3.4,
+    "carbs": 16.9,
+    "sugar": 3.4,
+    "fiber": 3.96,
+    "protein": 12.6,
+    "saltGrams": 1.7
+   },
+   "valuesPerServing": {
+    "energyKJ": 2759,
+    "calories": 659,
+    "fat": 34,
+    "saturatedFat": 9.4,
+    "carbs": 47,
+    "sugar": 9.4,
+    "fiber": 11,
+    "protein": 35,
+    "saltGrams": 4.7
+   },
+   "allergens": "Enthält: Eier, Gluten, Milch, Sesam, Soja; Kann Spuren enthalten von: Sellerie, Senf",
+   "pageURL": "https://www.burgerking.de/menu/item-item_57158",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22item_57158%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "a8ccf099c3e37c9ac0df5b31f033b74ac4fcc2f8ad8879d2f17d796305a63ba8",
+   "valueNotes": [
+    "fiber per 100 g derived from the portion and its stated weight"
+   ]
+  },
+  {
+   "id": "item_57161",
+   "name": "Plant-based Big King®",
+   "category": "burger",
+   "siteCategories": [
+    "Plant-based"
+   ],
+   "servingGrams": 189,
+   "valuesPer100g": {
+    "energyKJ": 962,
+    "calories": 230,
+    "fat": 11.4,
+    "saturatedFat": 4,
+    "carbs": 16.6,
+    "sugar": 3.1,
+    "fiber": 4.07,
+    "protein": 13.1,
+    "saltGrams": 1.5
+   },
+   "valuesPerServing": {
+    "energyKJ": 1819,
+    "calories": 435,
+    "fat": 21.5,
+    "saturatedFat": 7.6,
+    "carbs": 31.4,
+    "sugar": 5.8,
+    "fiber": 7.7,
+    "protein": 24.8,
+    "saltGrams": 2.9
+   },
+   "allergens": "Enthält: Gluten, Milch, Senf, Sesam, Soja; Kann Spuren enthalten von: Sellerie, Eier",
+   "pageURL": "https://www.burgerking.de/menu/item-item_57161",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22item_57161%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "f15289fa5ecb1283905cbd5ae7b8e084a3c86f732eb182a22e4c8be9965c2d9a",
+   "valueNotes": [
+    "fiber per 100 g derived from the portion and its stated weight"
+   ]
+  },
+  {
+   "id": "item_57162",
+   "name": "Plant-based Big King® XXL",
+   "category": "burger",
+   "siteCategories": [
+    "Plant-based"
+   ],
+   "servingGrams": 381,
+   "valuesPer100g": {
+    "energyKJ": 926,
+    "calories": 221,
+    "fat": 11.6,
+    "saturatedFat": 3.5,
+    "carbs": 14.3,
+    "sugar": 3.6,
+    "fiber": 4.6,
+    "protein": 12.8,
+    "saltGrams": 1.4
+   },
+   "valuesPerServing": {
+    "energyKJ": 3533,
+    "calories": 844,
+    "fat": 44.2,
+    "saturatedFat": 13.5,
+    "carbs": 54.6,
+    "sugar": 13.6,
+    "fiber": 17.5,
+    "protein": 48.9,
+    "saltGrams": 5.4
+   },
+   "allergens": "Enthält: Gluten, Milch, Senf, Sesam, Soja; Kann Spuren enthalten von: Sellerie, Eier",
+   "pageURL": "https://www.burgerking.de/menu/item-item_57162",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22item_57162%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "d0d60716713506d3b2d0325174244e209a5d7a40be45a0fa80702300d48b09e8"
+  },
+  {
+   "id": "item_57553",
+   "name": "Ketchup 17ml",
+   "category": "sauce",
+   "siteCategories": [
+    "Dips & Dressings"
+   ],
+   "servingGrams": 17,
+   "valuesPer100g": {
+    "energyKJ": 568,
+    "calories": 134,
+    "fat": 0.5,
+    "saturatedFat": 0,
+    "carbs": 31,
+    "sugar": 27,
+    "protein": 1.1,
+    "saltGrams": 2.2
+   },
+   "valuesPerServing": {
+    "energyKJ": 96,
+    "calories": 23,
+    "fat": 0.1,
+    "saturatedFat": 0,
+    "carbs": 5.3,
+    "sugar": 4.6,
+    "protein": 0.2,
+    "saltGrams": 0.4
+   },
+   "allergens": "Enthält: Sellerie",
+   "pageURL": "https://www.burgerking.de/menu/item-item_57553",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22item_57553%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "8b1edce2f561045f2acd3a91bbcd8d7d09cc90cdbe494c0bba002dfd80deb39d"
+  },
+  {
+   "id": "item_57554",
+   "name": "Pommes-Sauce 17ml",
+   "category": "sauce",
+   "siteCategories": [
+    "Dips & Dressings"
+   ],
+   "servingGrams": 17,
+   "valuesPer100g": {
+    "energyKJ": 1572,
+    "calories": 380,
+    "fat": 35,
+    "saturatedFat": 2.4,
+    "carbs": 17,
+    "sugar": 10,
+    "protein": 0.3,
+    "saltGrams": 1.9
+   },
+   "valuesPerServing": {
+    "energyKJ": 267,
+    "calories": 65,
+    "fat": 6,
+    "saturatedFat": 0.4,
+    "carbs": 2.9,
+    "sugar": 1.7,
+    "protein": 0.1,
+    "saltGrams": 0.3
+   },
+   "allergens": "Enthält: Sellerie, Senf",
+   "pageURL": "https://www.burgerking.de/menu/item-item_57554",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22item_57554%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "f881e1c6c655091f6e3e7aee957f5154f6d4cc349051a8d0a0e1739ef5acebf2"
+  },
+  {
+   "id": "item_57556",
+   "name": "BBQ Dip 25ml",
+   "category": "sauce",
+   "siteCategories": [
+    "Dips & Dressings"
+   ],
+   "servingGrams": 29,
+   "valuesPer100g": {
+    "energyKJ": 653,
+    "calories": 156,
+    "fat": 1,
+    "saturatedFat": 0,
+    "carbs": 36,
+    "sugar": 30.1,
+    "fiber": 0.69,
+    "protein": 1.1,
+    "saltGrams": 2.4
+   },
+   "valuesPerServing": {
+    "energyKJ": 190,
+    "calories": 45,
+    "fat": 0.3,
+    "saturatedFat": 0,
+    "carbs": 10.5,
+    "sugar": 8.8,
+    "fiber": 0.2,
+    "protein": 0.3,
+    "saltGrams": 0.7
+   },
+   "allergens": "Enthält: Senf",
+   "pageURL": "https://www.burgerking.de/menu/item-item_57556",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22item_57556%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "79dbfa60fb3ad84b7bbc3c0d4326b2ff9b3777f392f27cccece38a42f87eb90b",
+   "valueNotes": [
+    "fiber per 100 g derived from the portion and its stated weight"
+   ]
+  },
+  {
+   "id": "item_57559",
+   "name": "Sour Cream Dip 25ml",
+   "category": "sauce",
+   "siteCategories": [
+    "Dips & Dressings"
+   ],
+   "servingGrams": 27,
+   "valuesPer100g": {
+    "energyKJ": 962,
+    "calories": 230,
+    "fat": 17.9,
+    "saturatedFat": 2.2,
+    "carbs": 15.2,
+    "sugar": 10.4,
+    "protein": 1,
+    "saltGrams": 1.9
+   },
+   "valuesPerServing": {
+    "energyKJ": 256,
+    "calories": 61,
+    "fat": 4.8,
+    "saturatedFat": 0.6,
+    "carbs": 4,
+    "sugar": 2.8,
+    "protein": 0.3,
+    "saltGrams": 0.5
+   },
+   "allergens": "Enthält: Milch",
+   "pageURL": "https://www.burgerking.de/menu/item-item_57559",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22item_57559%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "f95de5ea0539cecce46461b44e7cf54be19e9128c7294e288bd599dc73ee4dde"
+  },
+  {
+   "id": "item_57561",
+   "name": "Sweet & Sour Dip 25ml",
+   "category": "sauce",
+   "siteCategories": [
+    "Dips & Dressings"
+   ],
+   "servingGrams": 25,
+   "valuesPer100g": {
+    "energyKJ": 786,
+    "calories": 186,
+    "fat": 3,
+    "saturatedFat": 0.2,
+    "carbs": 37,
+    "sugar": 33,
+    "protein": 0.3,
+    "saltGrams": 1.3
+   },
+   "valuesPerServing": {
+    "energyKJ": 197,
+    "calories": 47,
+    "fat": 0.8,
+    "saturatedFat": 0.1,
+    "carbs": 9.3,
+    "sugar": 8.3,
+    "protein": 0.1,
+    "saltGrams": 0.25
+   },
+   "allergens": "Enthält: Gluten, Soja",
+   "pageURL": "https://www.burgerking.de/menu/item-item_57561",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22item_57561%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "3209673b356541245b86824f53cb6cc26636e1d0a4d73b7816feb50cede098f5"
+  },
+  {
+   "id": "item_57565",
+   "name": "Joghurt Dressing 75ml",
+   "category": "sauce",
+   "siteCategories": [
+    "Dips & Dressings"
+   ],
+   "servingGrams": 50,
+   "valuesPer100g": {
+    "energyKJ": 986,
+    "calories": 238,
+    "fat": 22,
+    "saturatedFat": 2,
+    "carbs": 8.6,
+    "sugar": 7.1,
+    "fiber": 0.4,
+    "protein": 1.5,
+    "saltGrams": 1.8
+   },
+   "valuesPerServing": {
+    "energyKJ": 493,
+    "calories": 119,
+    "fat": 11,
+    "saturatedFat": 1,
+    "carbs": 4.3,
+    "sugar": 3.6,
+    "fiber": 0.2,
+    "protein": 0.8,
+    "saltGrams": 0.9
+   },
+   "allergens": "Enthält: Sellerie, Milch, Senf",
+   "pageURL": "https://www.burgerking.de/menu/item-item_57565",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22item_57565%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "760a2a5617d10bed066ef60a752fad8c9cffaa23a4c01ef2fd4c722326a9ba63",
+   "valueNotes": [
+    "fiber per 100 g derived from the portion and its stated weight"
+   ]
+  },
+  {
+   "id": "item_57569",
+   "name": "Lift Apfelschorle 0,25 l",
+   "category": "drink",
+   "siteCategories": [
+    "Drinks"
+   ],
+   "servingGrams": 250,
+   "valuesPer100g": {
+    "calories": 25.0,
+    "fat": 0.12,
+    "saturatedFat": 0.0,
+    "carbs": 6.0,
+    "sugar": 5.72,
+    "fiber": 0.0,
+    "protein": 0.12
+   },
+   "valuesPerServing": {
+    "calories": 62.5,
+    "fat": 0.3,
+    "saturatedFat": 0,
+    "carbs": 15,
+    "sugar": 14.3,
+    "fiber": 0,
+    "protein": 0.3
+   },
+   "allergens": "",
+   "pageURL": "https://www.burgerking.de/menu/item-item_57569",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22item_57569%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "507204177bd2528df56c18099391a6bb3b33c2c3e61d49fab64d024db02ca179",
+   "portionMilliliters": 250.0,
+   "volumeSource": "name",
+   "servingUnit": "ml",
+   "valueNotes": [
+    "calories per 100 g derived from the portion and its stated weight",
+    "fat per 100 g derived from the portion and its stated weight",
+    "saturatedFat per 100 g derived from the portion and its stated weight",
+    "carbs per 100 g derived from the portion and its stated weight",
+    "sugar per 100 g derived from the portion and its stated weight",
+    "fiber per 100 g derived from the portion and its stated weight",
+    "protein per 100 g derived from the portion and its stated weight"
+   ]
+  },
+  {
+   "id": "item_57571",
+   "name": "Lift Apfelschorle 0,4 l",
+   "category": "drink",
+   "siteCategories": [
+    "Drinks"
+   ],
+   "servingGrams": 400,
+   "valuesPer100g": {
+    "calories": 25.0,
+    "fat": 0.12,
+    "saturatedFat": 0.0,
+    "carbs": 6.0,
+    "sugar": 5.72,
+    "fiber": 0.0,
+    "protein": 0.12
+   },
+   "valuesPerServing": {
+    "calories": 100,
+    "fat": 0.48,
+    "saturatedFat": 0,
+    "carbs": 24,
+    "sugar": 22.88,
+    "fiber": 0,
+    "protein": 0.48
+   },
+   "allergens": "",
+   "pageURL": "https://www.burgerking.de/menu/item-item_57571",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22item_57571%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "288e05b87e5b04595e1683700cb2bffd414e12e4e284adc3c75b56b643b3c9ae",
+   "portionMilliliters": 400.0,
+   "volumeSource": "name",
+   "servingUnit": "ml",
+   "valueNotes": [
+    "calories per 100 g derived from the portion and its stated weight",
+    "fat per 100 g derived from the portion and its stated weight",
+    "saturatedFat per 100 g derived from the portion and its stated weight",
+    "carbs per 100 g derived from the portion and its stated weight",
+    "sugar per 100 g derived from the portion and its stated weight",
+    "fiber per 100 g derived from the portion and its stated weight",
+    "protein per 100 g derived from the portion and its stated weight"
+   ]
+  },
+  {
+   "id": "item_57572",
+   "name": "Lift Apfelschorle 0,5 l",
+   "category": "drink",
+   "siteCategories": [
+    "Drinks"
+   ],
+   "servingGrams": 500,
+   "valuesPer100g": {
+    "calories": 25.0,
+    "fat": 0.12,
+    "saturatedFat": 0.0,
+    "carbs": 6.0,
+    "sugar": 5.72,
+    "fiber": 0.0,
+    "protein": 0.12
+   },
+   "valuesPerServing": {
+    "calories": 125,
+    "fat": 0.6,
+    "saturatedFat": 0,
+    "carbs": 30,
+    "sugar": 28.6,
+    "fiber": 0,
+    "protein": 0.6
+   },
+   "allergens": "",
+   "pageURL": "https://www.burgerking.de/menu/item-item_57572",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22item_57572%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "2c7ff2b7fa9a7ee77336cd8a079a518225978e10faae825bac3daafbe9c74137",
+   "portionMilliliters": 500.0,
+   "volumeSource": "name",
+   "servingUnit": "ml",
+   "valueNotes": [
+    "calories per 100 g derived from the portion and its stated weight",
+    "fat per 100 g derived from the portion and its stated weight",
+    "saturatedFat per 100 g derived from the portion and its stated weight",
+    "carbs per 100 g derived from the portion and its stated weight",
+    "sugar per 100 g derived from the portion and its stated weight",
+    "fiber per 100 g derived from the portion and its stated weight",
+    "protein per 100 g derived from the portion and its stated weight"
+   ]
+  },
+  {
+   "id": "item_57920",
+   "name": "King Fusion - Have It Your Way®",
+   "category": "dessert",
+   "siteCategories": [
+    "Desserts"
+   ],
+   "servingGrams": 160,
+   "valuesPer100g": {
+    "energyKJ": 551,
+    "calories": 132,
+    "fat": 3.5,
+    "saturatedFat": 2.5,
+    "carbs": 21.8,
+    "sugar": 20,
+    "fiber": 0.4,
+    "protein": 2.9,
+    "saltGrams": 0.35
+   },
+   "valuesPerServing": {
+    "energyKJ": 882,
+    "calories": 211,
+    "fat": 5.6,
+    "saturatedFat": 4,
+    "carbs": 34.9,
+    "sugar": 32,
+    "fiber": 0.8,
+    "protein": 4.6,
+    "saltGrams": 0.56
+   },
+   "allergens": "Enthält: Milch",
+   "pageURL": "https://www.burgerking.de/menu/item-item_57920",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22item_57920%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "e12d28104df64e738c133edee2193b805b82173922fa5862416af2fe6b10f76b"
+  },
+  {
+   "id": "item_57992",
+   "name": "Plant-based Nugget Burger",
+   "category": "burger",
+   "siteCategories": [
+    "Plant-based"
+   ],
+   "servingGrams": 138,
+   "valuesPer100g": {
+    "energyKJ": 1103,
+    "calories": 264,
+    "fat": 11.8,
+    "saturatedFat": 1.3,
+    "carbs": 30.2,
+    "sugar": 4.5,
+    "fiber": 4.6,
+    "protein": 6.9,
+    "saltGrams": 1.3
+   },
+   "valuesPerServing": {
+    "energyKJ": 1521,
+    "calories": 364,
+    "fat": 16.2,
+    "saturatedFat": 1.8,
+    "carbs": 41.7,
+    "sugar": 6.1,
+    "fiber": 6.3,
+    "protein": 9.5,
+    "saltGrams": 1.8
+   },
+   "allergens": "Enthält: Sellerie, Gluten, Sesam, Soja, Weizen; Kann Spuren enthalten von: Eier, Milch, Senf",
+   "pageURL": "https://www.burgerking.de/menu/item-item_57992",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22item_57992%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "6ded496367a94e1426512d107663f8bdb95f37482f78a91960b279c94ddebb67"
+  },
+  {
+   "id": "item_59158",
+   "name": "Plant-based Long Chicken®",
+   "category": "burger",
+   "siteCategories": [
+    "Plant-based"
+   ],
+   "servingGrams": 215,
+   "valuesPer100g": {
+    "energyKJ": 1134,
+    "calories": 271,
+    "fat": 14.3,
+    "saturatedFat": 1.3,
+    "carbs": 25.6,
+    "sugar": 3.2,
+    "fiber": 4.37,
+    "protein": 7.6,
+    "saltGrams": 1.4
+   },
+   "valuesPerServing": {
+    "energyKJ": 2438,
+    "calories": 583,
+    "fat": 30.8,
+    "saturatedFat": 2.7,
+    "carbs": 55,
+    "sugar": 7,
+    "fiber": 9.4,
+    "protein": 16.3,
+    "saltGrams": 3.1
+   },
+   "allergens": "Enthält: Gluten, Sesam, Soja; Kann Spuren enthalten von: Sellerie, Eier, Milch, Senf",
+   "pageURL": "https://www.burgerking.de/menu/item-item_59158",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22item_59158%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "fa991a21e2408b419260c2ce27025a89c652e969ad7469af01b05bfd52dc1189",
+   "valueNotes": [
+    "fiber per 100 g derived from the portion and its stated weight"
+   ]
+  },
+  {
+   "id": "item_61086",
+   "name": "Hot Blondie mit Eis",
+   "category": "dessert",
+   "siteCategories": [
+    "Desserts"
+   ],
+   "servingGrams": 130,
+   "valuesPer100g": {
+    "energyKJ": 1350,
+    "calories": 323,
+    "fat": 16.3,
+    "saturatedFat": 8.7,
+    "carbs": 39.1,
+    "sugar": 32.2,
+    "fiber": 1,
+    "protein": 5.1,
+    "saltGrams": 0.24
+   },
+   "valuesPerServing": {
+    "energyKJ": 1755,
+    "calories": 419,
+    "fat": 21.2,
+    "saturatedFat": 11.3,
+    "carbs": 50.8,
+    "sugar": 41.8,
+    "fiber": 1.3,
+    "protein": 6.7,
+    "saltGrams": 0.31
+   },
+   "allergens": "Enthält: Eier, Gluten, Milch, Soja; Kann Spuren enthalten von: Sesam, Schalenfrüchte",
+   "pageURL": "https://www.burgerking.de/menu/item-item_61086",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22item_61086%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "efe08e55739a1cb8596da27ba63b51d2ca5a1fd91d4356e879cbc60b2239e287"
+  },
+  {
+   "id": "item_61141",
+   "name": "Plant-based Whopper®",
+   "category": "burger",
+   "siteCategories": [
+    "Plant-based"
+   ],
+   "servingGrams": 291,
+   "valuesPer100g": {
+    "energyKJ": 812,
+    "calories": 194,
+    "fat": 9,
+    "saturatedFat": 1.5,
+    "carbs": 18.2,
+    "sugar": 4.5,
+    "fiber": 3.75,
+    "protein": 8.5,
+    "saltGrams": 1.2
+   },
+   "valuesPerServing": {
+    "energyKJ": 2366,
+    "calories": 565,
+    "fat": 26.1,
+    "saturatedFat": 4.4,
+    "carbs": 53,
+    "sugar": 13.2,
+    "fiber": 10.9,
+    "protein": 24.9,
+    "saltGrams": 3.3
+   },
+   "allergens": "Enthält: Gluten, Sesam, Soja; Kann Spuren enthalten von: Sellerie, Eier, Milch, Senf",
+   "pageURL": "https://www.burgerking.de/menu/item-item_61141",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22item_61141%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "74b51457deb874eeb758190ad27e882cc1dedb207db07a70b80ac53399bd37a0",
+   "valueNotes": [
+    "fiber per 100 g derived from the portion and its stated weight"
+   ]
+  },
+  {
+   "id": "item_69492",
+   "name": "Snack Salat",
+   "category": "salad",
+   "siteCategories": [
+    "Plant-based",
+    "Snacks"
+   ],
+   "servingGrams": 100,
+   "valuesPer100g": {
+    "energyKJ": 63,
+    "calories": 15,
+    "fat": 0.2,
+    "saturatedFat": 0,
+    "carbs": 2.2,
+    "sugar": 1.8,
+    "fiber": 2.9,
+    "protein": 0.9,
+    "saltGrams": 0.03
+   },
+   "valuesPerServing": {
+    "energyKJ": 63,
+    "calories": 15,
+    "fat": 0.2,
+    "saturatedFat": 0,
+    "carbs": 2.2,
+    "sugar": 1.8,
+    "fiber": 2.9,
+    "protein": 0.9,
+    "saltGrams": 0.03
+   },
+   "allergens": "Kann Spuren enthalten von: Sellerie",
+   "pageURL": "https://www.burgerking.de/menu/item-item_69492",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22item_69492%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "a44d2c140a478732ccb418d1bd904523323a9e17a360390895b6f608385d45fb",
+   "valueNotes": [
+    "fiber per 100 g derived from the portion and its stated weight"
+   ]
+  },
+  {
+   "id": "item_69493",
+   "name": "King Salat",
+   "category": "salad",
+   "siteCategories": [
+    "Plant-based"
+   ],
+   "servingGrams": 181,
+   "valuesPer100g": {
+    "energyKJ": 64,
+    "calories": 15,
+    "fat": 0.2,
+    "saturatedFat": 0.1,
+    "carbs": 2.3,
+    "sugar": 1.8,
+    "fiber": 1.1,
+    "protein": 0.9,
+    "saltGrams": 0.03
+   },
+   "valuesPerServing": {
+    "energyKJ": 115,
+    "calories": 28,
+    "fat": 0.4,
+    "saturatedFat": 0.1,
+    "carbs": 4.2,
+    "sugar": 3.3,
+    "fiber": 2,
+    "protein": 1.6,
+    "saltGrams": 0.05
+   },
+   "allergens": "Kann Spuren enthalten von: Sellerie",
+   "pageURL": "https://www.burgerking.de/menu/item-item_69493",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22item_69493%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "e6fed440a54970c1df5cca998c4f29036ec68d2323018d002583371eaf387fb8",
+   "valueNotes": [
+    "fiber per 100 g derived from the portion and its stated weight"
+   ]
+  },
+  {
+   "id": "item_70113",
+   "name": "Teriyaki Dip 25ml",
+   "category": "sauce",
+   "siteCategories": [
+    "Dips & Dressings"
+   ],
+   "servingGrams": 29,
+   "valuesPer100g": {
+    "energyKJ": 502,
+    "calories": 120,
+    "fat": 0.7,
+    "saturatedFat": 0.1,
+    "carbs": 25.7,
+    "sugar": 25,
+    "fiber": 1.03,
+    "protein": 1.2,
+    "saltGrams": 2
+   },
+   "valuesPerServing": {
+    "energyKJ": 147,
+    "calories": 35,
+    "fat": 0.2,
+    "saturatedFat": 0,
+    "carbs": 7.5,
+    "sugar": 7.3,
+    "fiber": 0.3,
+    "protein": 0.4,
+    "saltGrams": 0.58
+   },
+   "allergens": "Enthält: Gluten, Sesam, Soja, Weizen",
+   "pageURL": "https://www.burgerking.de/menu/item-item_70113",
+   "dataURL": "https://czqk28jt.apicdn.sanity.io/v2023-08-01/data/query/prod_bk_de?query=%2A%5B_id%3D%3D%22item_70113%22%5D%5B0%5D%7B_id%2C_type%2C%22name%22%3Aname.de%2C%22nameEn%22%3Aname.en%2Cnutrition%2CproductHierarchy%2Callergens%2C%22description%22%3Apt%3A%3Atext%28description.de%29%2CchannelExclusions%7D",
+   "sha256": "ca53317604ef6397921a6ba8409b0ca3273e679454362a2fa307510ccba484e3",
+   "valueNotes": [
+    "fiber per 100 g derived from the portion and its stated weight"
+   ]
+  }
+ ],
+ "excluded": [
+  {
+   "id": "076de90d-311a-4a61-8efe-5589909e224f",
+   "name": "Double Crispy Chicken Curry",
+   "reason": "limited: the site files it under Neu & Limitiert"
+  },
+  {
+   "id": "0f3ffe98-b60d-4c06-865a-6288de776c0a",
+   "name": "Curly Fries",
+   "reason": "limited: the site files it under Neu & Limitiert"
+  },
+  {
+   "id": "10a0cabf-78ea-4d07-84b1-a2f52319dd0b",
+   "name": "Plant-based Double Long Chicken®",
+   "reason": "no nutrition values published in the item data"
+  },
+  {
+   "id": "134e8b28-b05a-419a-9052-93b6302b51c2",
+   "name": "Plant-based Crispy Butter Chicken Style",
+   "reason": "limited: the site files it under Neu & Limitiert"
+  },
+  {
+   "id": "1463a87a-3104-497f-9036-824d396f9302",
+   "name": "Tandoori Style Cauli Wings",
+   "reason": "part of the limited Indian line (Curry, Tandoori Style, Butter Chicken Style) the site files under Neu & Limitiert"
+  },
+  {
+   "id": "1aa19f4a-453f-457a-a1e7-cc2987bcdc81",
+   "name": "Iced Coffee Caramel",
+   "reason": "no nutrition values published in the item data"
+  },
+  {
+   "id": "21249809-f325-457b-9e8c-e634c22713a3",
+   "name": "3er Flame Wings",
+   "reason": "no nutrition values published in the item data"
+  },
+  {
+   "id": "213739ba-9f9a-4d82-8b9e-864a1fa30aa1",
+   "name": "King’s Steakhouse",
+   "reason": "limited: the site files it under Neu & Limitiert"
+  },
+  {
+   "id": "2d0fdb3a-3e83-407a-9001-685bf814ab4f",
+   "name": "Plant-based Crispy Chicken Tandoori Style",
+   "reason": "limited: the site files it under Neu & Limitiert"
+  },
+  {
+   "id": "34c1e4f1-6e72-4ade-9430-2aa0c236aac2",
+   "name": "Plant-based Whopper Jr.® BBQ",
+   "reason": "limited: the site files it under Neu & Limitiert"
+  },
+  {
+   "id": "3cbfa817-3830-42d9-a314-2d03c661f93e",
+   "name": "Double Crispy Butter Chicken Style",
+   "reason": "limited: the site files it under Neu & Limitiert"
+  },
+  {
+   "id": "43269dc6-1567-41ff-8827-ba997cbc5641",
+   "name": "Plant-based Double Crispy Chicken Curry",
+   "reason": "limited: the site files it under Neu & Limitiert"
+  },
+  {
+   "id": "4c834804-82d9-4f81-9504-9986a714b2d9",
+   "name": "Double Long Chicken®",
+   "reason": "no nutrition values published in the item data"
+  },
+  {
+   "id": "59eaf0e0-8e9d-4a7b-8268-c1289d875d97",
+   "name": "Plant-based Double Crispy Chicken Tandoori Style",
+   "reason": "limited: the site files it under Neu & Limitiert"
+  },
+  {
+   "id": "5a08eb98-d961-4f7e-8e0b-a3d367ec07a5",
+   "name": "King Float Tropical Mango",
+   "reason": "seasonal: the summer mango line (the King Float Tropical Mango is sold as summer in a cup)"
+  },
+  {
+   "id": "6cba2005-96ea-4610-ac77-9cca6f8fda06",
+   "name": "King’s Cheesy Bacon",
+   "reason": "limited: the site files it under Neu & Limitiert"
+  },
+  {
+   "id": "6d8f2cb6-ba4b-4b9f-8de1-641e92267712",
+   "name": "King’s Cheesy Bacon Chicken",
+   "reason": "limited: the site files it under Neu & Limitiert"
+  },
+  {
+   "id": "76899a5c-611b-4161-b7b3-9b5b973a0cd8",
+   "name": "King’s Steakhouse Chicken",
+   "reason": "limited: the site files it under Neu & Limitiert"
+  },
+  {
+   "id": "870d780c-23f3-4c7e-bb13-d1d0a554ad68",
+   "name": "King’s Steakhouse Double",
+   "reason": "limited: the site files it under Neu & Limitiert"
+  },
+  {
+   "id": "958189c5-447d-4720-8655-c7f1be684c9a",
+   "name": "Double Crispy Chicken",
+   "reason": "no nutrition values published in the item data"
+  },
+  {
+   "id": "9711c7e7-19d1-4d75-8542-9ee80c78aa5d",
+   "name": "Double Whopper Jr.® BBQ",
+   "reason": "limited: the site files it under Neu & Limitiert"
+  },
+  {
+   "id": "a24e16ca-3431-41c5-a7a3-e5f384054ae2",
+   "name": "Plant-based Double Crispy Butter Chicken Style",
+   "reason": "limited: the site files it under Neu & Limitiert"
+  },
+  {
+   "id": "ad810b8f-856f-461b-98b5-76333d9c2a84",
+   "name": "Crispy Butter Chicken Style Tortilla",
+   "reason": "limited: the site files it under Neu & Limitiert"
+  },
+  {
+   "id": "b19f39a4-871c-4f55-99fb-9b4bc024d4f7",
+   "name": "Plant-based Crispy Butter Chicken Style Tortilla",
+   "reason": "limited: the site files it under Neu & Limitiert"
+  },
+  {
+   "id": "b4b0badd-7f61-4464-82c9-2d499c7f0c9f",
+   "name": "Plant-based Double Whopper Jr.® BBQ",
+   "reason": "limited: the site files it under Neu & Limitiert"
+  },
+  {
+   "id": "b99bef13-7c20-42b8-b287-b52255a536d8",
+   "name": "Crispy Chicken Curry",
+   "reason": "limited: the site files it under Neu & Limitiert"
+  },
+  {
+   "id": "ba9be461-dbdf-49b2-8df4-e300c73ddaa4",
+   "name": "King’s Cheesy Bacon Double",
+   "reason": "limited: the site files it under Neu & Limitiert"
+  },
+  {
+   "id": "bfcfde79-8cab-47e8-9c79-9700d9c68a4d",
+   "name": "Whopper Jr.® BBQ",
+   "reason": "limited: the site files it under Neu & Limitiert"
+  },
+  {
+   "id": "c42ae5de-c313-4c09-903b-f6280c06f807",
+   "name": "King Shake® Espresso",
+   "reason": "no nutrition values published in the item data"
+  },
+  {
+   "id": "d45dd986-66d3-4ec0-ad83-093c04fdb467",
+   "name": "Curly Fries",
+   "reason": "limited: the site files it under Neu & Limitiert"
+  },
+  {
+   "id": "da6415f9-73f5-4a61-b02d-515ef0843f16",
+   "name": "Crispy Chicken Tandoori Style",
+   "reason": "limited: the site files it under Neu & Limitiert"
+  },
+  {
+   "id": "dd1681aa-4053-44de-b3c5-019c0d9206a4",
+   "name": "Double Crispy Chicken Tandoori Style",
+   "reason": "limited: the site files it under Neu & Limitiert"
+  },
+  {
+   "id": "e12d625f-de28-4a6d-813e-29ccd8f3f701",
+   "name": "XXL Whopper® Style Dip",
+   "reason": "limited: the site files it under Neu & Limitiert"
+  },
+  {
+   "id": "e65ff31a-2789-4ce4-ab00-5c75cd1b3aed",
+   "name": "Plant-based Crispy Chicken Curry",
+   "reason": "limited: the site files it under Neu & Limitiert"
+  },
+  {
+   "id": "e9a5deca-966b-4cd8-b00c-20467aed8739",
+   "name": "Crispy Butter Chicken Style",
+   "reason": "limited: the site files it under Neu & Limitiert"
+  },
+  {
+   "id": "eb2ccbac-3493-4d9d-af92-6a95be850bb1",
+   "name": "King Shake® Tropical Mango",
+   "reason": "seasonal: the summer mango line (the King Float Tropical Mango is sold as summer in a cup)"
+  },
+  {
+   "id": "f5f4b216-6fd3-4fba-9a66-dfdccc055008",
+   "name": "Hohes C Milde Orange 0,2l",
+   "reason": "no nutrition values published in the item data"
+  },
+  {
+   "id": "ff589b19-c781-421d-9594-ba3e9a7d7fd9",
+   "name": "XXL Butter Chicken Style Dip",
+   "reason": "part of the limited Indian line (Curry, Tandoori Style, Butter Chicken Style) the site files under Neu & Limitiert"
+  },
+  {
+   "id": "item_12572",
+   "name": "Fanta® 0,5l (BK Lieferservice)",
+   "reason": "delivery-only retail product, not sold in the restaurant"
+  },
+  {
+   "id": "item_12704",
+   "name": "Coca-Cola® zero 0,5l (BK Lieferservice)",
+   "reason": "delivery-only retail product, not sold in the restaurant"
+  },
+  {
+   "id": "item_12708",
+   "name": "Sprite® 0,5l (BK Lieferservice)",
+   "reason": "delivery-only retail product, not sold in the restaurant"
+  },
+  {
+   "id": "item_12765",
+   "name": "Coca-Cola® 0,5l (BK Lieferservice)",
+   "reason": "delivery-only retail product, not sold in the restaurant"
+  },
+  {
+   "id": "item_1833",
+   "name": "Hot Brownie mit Eis",
+   "reason": "the chain states contradicting energy per 100 g and per portion (270 vs 373.08 kcal per 100 g from the portion)"
+  },
+  {
+   "id": "item_28570",
+   "name": "Latte Macchiato",
+   "reason": "no nutrition values published in the item data"
+  },
+  {
+   "id": "item_33731",
+   "name": "Caffè Crema",
+   "reason": "second Caffè Crema size, not named on the site; the default 260 g Caffè Crema is kept"
+  },
+  {
+   "id": "item_38083",
+   "name": "Fuze Tea Pfirsich 0,4l (BK Lieferservice)",
+   "reason": "delivery-only retail product, not sold in the restaurant"
+  },
+  {
+   "id": "item_49321",
+   "name": "Ben & Jerry's Cookie Dough 465ml (BK Lieferservice)",
+   "reason": "delivery-only retail product, not sold in the restaurant"
+  },
+  {
+   "id": "item_49336",
+   "name": "Ben & Jerry's Strawberry Cheesecake 465ml (BK Lieferservice)",
+   "reason": "delivery-only retail product, not sold in the restaurant"
+  },
+  {
+   "id": "item_49337",
+   "name": "Ben & Jerry's Chocolate Fudge Brownie 465ml (BK Lieferservice)",
+   "reason": "delivery-only retail product, not sold in the restaurant"
+  },
+  {
+   "id": "item_49338",
+   "name": "Ben & Jerry's Peanut Butter Cup 465ml (BK Lieferservice)",
+   "reason": "delivery-only retail product, not sold in the restaurant"
+  },
+  {
+   "id": "item_51253",
+   "name": "Cheesy BBQ Fries",
+   "reason": "limited: the site files it under Neu & Limitiert"
+  },
+  {
+   "id": "item_57557",
+   "name": "Curry Dip 25ml",
+   "reason": "part of the limited Indian line (Curry, Tandoori Style, Butter Chicken Style) the site files under Neu & Limitiert"
+  },
+  {
+   "id": "item_57576",
+   "name": "Heineken® 0,33l",
+   "reason": "alcoholic beer; the chain catalogue carries non-alcoholic items only"
+  },
+  {
+   "id": "item_57612",
+   "name": "Fuze Tea Zitrone 0,4l (BK Lieferservice)",
+   "reason": "delivery-only retail product, not sold in the restaurant"
+  },
+  {
+   "id": "item_61621",
+   "name": "King Fusion Smarties® Erdbeere",
+   "reason": "seasonal: its description sells it as the taste of summer"
+  }
+ ]
+}

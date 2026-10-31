@@ -1,0 +1,68 @@
+{
+  "id": "akari:label:vitamin-c-lozenge",
+  "name": "Vitamin C lozenge",
+  "identity": "Sorbitol or sugar lozenges with vitamin C, often with zinc, sucked during a cold; the dose is the label's daily lozenges.",
+  "rule": "Per 100 g of the product, each value is the median of the labels below that declare it, and a value enters only when at least three declare it; a label states its nutrients per dose, so the file converts them with the dose's weight (the pack's net content divided by its count of tablets, capsules, sticks or drops, or the stated dose weight). Salt becomes sodium (salt in g × 400 = sodium in mg). Fewer than three labels declare energy, so the row stands at 0 kcal under the verification policy's clause for label generics with a micronutrient. Nothing a label leaves out becomes zero. Labels read on 2026-10-30 from dm.de, rossmann.de and shop-apotheke.com product pages.",
+  "nutrients": {
+    "vitaminC": 5882.35,
+    "calories": 0
+  },
+  "portions": [
+    {
+      "grams": 3.4,
+      "label": "1 daily dose of lozenges"
+    }
+  ],
+  "labels": [
+    {
+      "brand": "sanotact",
+      "product": "Zink + C + D Lutschtabletten 20 St., 34 g",
+      "read": "https://www.dm.de/p/d/1052236/ (dm.de product page, Nährwerte and Zutaten panels; GTIN not stated)",
+      "date": "2026-10-30",
+      "ingredients": "Süßungsmittel Sorbit, L-Ascorbinsäure (Vitamin C), Zitronenfruchtpulver (1 %), ganz gehärtetes pflanzliches Fett (Raps), Aroma, Zinkcitrat, Trennmittel Magnesiumsalze der Speisefettsäuren, Cholecalciferol (Vitamin D3)",
+      "serving": "2 Lutschtabletten: 20 units weigh 34 g, so the dose is 3.4 g; the label declares per dose: zincMg 5, vitaminCMg 200, vitaminDUg 10; per 100 g 1066 kJ / 255 kcal, fat 1.4 g, saturates 1.4 g, carbohydrate 91 g, sugars 0.9 g, protein 0.1 g, salt 0.01 g",
+      "per100g": {
+        "zincMg": 147.059,
+        "vitaminCMg": 5882.35,
+        "vitaminDUg": 294.118,
+        "energyKcal": 255.0,
+        "fat": 1.4,
+        "saturates": 1.4,
+        "carbohydrate": 91.0,
+        "sugars": 0.9,
+        "protein": 0.1,
+        "salt": 0.01
+      }
+    },
+    {
+      "brand": "Abtei",
+      "product": "Vitamin C + Zink Lutschtabletten, 30 Tabletten, 63 g",
+      "read": "https://www.rossmann.de/de/gesundheit-abtei-vitamin-c--zink-lutschtabletten/p/4026600499002 (rossmann.de product page, Zutaten and Nährwerte sections; GTIN 4026600499002)",
+      "date": "2026-10-30",
+      "ingredients": "Zucker, Vitamin C, Maltodextrin, Trennmittel Siliciumdioxid und Magnesiumsalze der Speisefettsäuren, Zinkcitrat, Himbeeraroma, Acerolaextrakt; Hagebuttenextrakt, Johannisbeerpulver",
+      "serving": "1 Stück: 30 units weigh 63 g, so the dose is 2.1 g; the label declares per dose: zincMg 5, vitaminCMg 250; no energy or macros declared",
+      "per100g": {
+        "zincMg": 238.095,
+        "vitaminCMg": 11904.8
+      }
+    },
+    {
+      "brand": "sanotact",
+      "product": "100 % natürliches Vitamin C Lutschtabletten, 30 Lutschtabletten, 51 g",
+      "read": "https://www.rossmann.de/de/gesundheit-sanotact-100--natuerliches-vitamin-c-lutschtabletten/p/4003087410652 (rossmann.de product page, Zutaten and Nährwerte sections; GTIN 4003087410652)",
+      "date": "2026-10-30",
+      "ingredients": "Süßungsmittel Sorbit, Maltodextrin, Acerola-Saftpulver (7,5 %), ganz gehärtetes pflanzliches Fett (Raps), Schwarze-Johannisbeere-Saftpulver, Säuerungsmittel Citronensäure, Trennmittel Magnesiumsalze der Speisefettsäuren, Aroma",
+      "serving": "2 Tabletten: 30 units weigh 51 g, so the dose is 3.4 g; the label declares per dose: vitaminCMg 80; per 100 g 1173 kJ / 281 kcal, fat 3.5 g, saturates 3.4 g, carbohydrate 88 g, sugars 2.9 g, protein 0.8 g, salt 0.03 g",
+      "per100g": {
+        "vitaminCMg": 2352.94,
+        "energyKcal": 281.0,
+        "fat": 3.5,
+        "saturates": 3.4,
+        "carbohydrate": 88.0,
+        "sugars": 2.9,
+        "protein": 0.8,
+        "salt": 0.03
+      }
+    }
+  ]
+}

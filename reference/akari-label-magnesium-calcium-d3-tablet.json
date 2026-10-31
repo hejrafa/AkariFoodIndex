@@ -1,0 +1,66 @@
+{
+  "id": "akari:label:magnesium-calcium-d3-tablet",
+  "name": "Magnesium + calcium + D3 tablet",
+  "identity": "Large tablet with 250 to 300 mg magnesium, 300 to 450 mg calcium and vitamin D3 for bones and muscles; the dose is one tablet.",
+  "rule": "Per 100 g of the product, each value is the median of the labels below that declare it, and a value enters only when at least three declare it; a label states its nutrients per dose, so the file converts them with the dose's weight (the pack's net content divided by its count of tablets, capsules, sticks or drops, or the stated dose weight). Salt becomes sodium (salt in g × 400 = sodium in mg). Fewer than three labels declare energy, so the row stands at 0 kcal under the verification policy's clause for label generics with a micronutrient. Nothing a label leaves out becomes zero. Labels read on 2026-10-30 from dm.de, rossmann.de and shop-apotheke.com product pages.",
+  "nutrients": {
+    "calcium": 23936.2,
+    "magnesium": 12626.3,
+    "vitaminD": 505.051,
+    "calories": 0
+  },
+  "portions": [
+    {
+      "grams": 1.98,
+      "label": "1 tablet"
+    }
+  ],
+  "labels": [
+    {
+      "brand": "Doppelherz",
+      "product": "Magnesium + Calcium + Vitamin D3 Tabletten 40 St., 79,2 g",
+      "read": "https://www.dm.de/p/d/1045494/ (dm.de product page, Nährwerte and Zutaten panels; GTIN not stated)",
+      "date": "2026-10-30",
+      "ingredients": "Calciumcarbonat, Magnesiumoxid, Füllstoff mikrokristalline Cellulose, Füllstoff Polyvinylpyrrolidon, Überzugsmittel Hydroxypropylmethylcellulose, Trennmittel Speisefettsäuren, Trennmittel vernetzte Natriumcarboxymethylcellulose, Trennmittel Magnesiumsalze der Speisefettsäuren, Füllstoff Polyethylenglycol, Cholecalciferol",
+      "serving": "1 Tablette: 40 units weigh 79.2 g, so the dose is 1.98 g; the label declares per dose: calciumMg 450, magnesiumMg 250, vitaminDUg 10; no energy or macros declared",
+      "per100g": {
+        "calciumMg": 22727.3,
+        "magnesiumMg": 12626.3,
+        "vitaminDUg": 505.051
+      }
+    },
+    {
+      "brand": "Mivolis",
+      "product": "Magnesium + Calcium + D3 Tabletten 45 St, 94 g",
+      "read": "https://www.dm.de/p/d/3104224/ (dm.de product page, Nährwerte and Zutaten panels; GTIN not stated)",
+      "date": "2026-10-30",
+      "ingredients": "Calciumcarbonat, Magnesiumoxid, Magnesiumcarbonat, Füllstoff mikrokristalline Cellulose, Trennmittel Magnesiumsalze der Speisefettsäuren, Polyethylenglycol und Talkum; Füllstoff Sorbit, Überzugsmittel Hydroxypropylmethylcellulose, Cholecalciferol (Vitamin D3), Stabilisator Hydroxypropylcellulose, modifizierte Stärke, pflanzliches Öl (Kokos)",
+      "serving": "1 Stück: 45 units weigh 94 g, so the dose is 2.09 g; the label declares per dose: calciumMg 500, magnesiumMg 250, vitaminDUg 10; per 100 g 121 kJ / 29 kcal, fat 0.9 g, saturates 0.9 g, carbohydrate 5.5 g, sugars < 0.5 g, protein 0 g, salt 0.03 g; under-values counted at half the threshold",
+      "per100g": {
+        "calciumMg": 23936.2,
+        "magnesiumMg": 11968.1,
+        "vitaminDUg": 478.723,
+        "energyKcal": 29.0,
+        "fat": 0.9,
+        "saturates": 0.9,
+        "carbohydrate": 5.5,
+        "sugars": 0.25,
+        "protein": 0.0,
+        "salt": 0.03
+      }
+    },
+    {
+      "brand": "tetesept",
+      "product": "Magnesium Calcium Vitamin K + D Tabletten 40 St, 73,2 g",
+      "read": "https://www.dm.de/p/d/1617377/ (dm.de product page, Nährwerte and Zutaten panels; GTIN not stated)",
+      "date": "2026-10-30",
+      "ingredients": "Calciumcarbonat; Magnesiumoxid; Füllstoff Gummi Arabicum; Überzugsmittel Hydroxypropylmethylcellulose; Trennmittel Magnesiumsalz der Speisefettsäuren; Maltodextrin; Stärke; Saccharose; Trennmittel Speisefettsäure; Überzugsmittel Hydroxypropylcellulose; Maisstärke; Öl, pflanzlich (Kokosnuss, Palmkern); Trennmittel Tricalciumphosphat; Cholecalciferol (Vitamin D3); Menachinon-7 (Vitamin K2)",
+      "serving": "1 Tablette: 40 units weigh 73.2 g, so the dose is 1.83 g; the label declares per dose: calciumMg 500, magnesiumMg 250, vitaminDUg 50; vitamin K 12 µg; no energy or macros declared; the page's table states no dose count; taken as one unit, the one-a-day form the pack size implies",
+      "per100g": {
+        "calciumMg": 27322.4,
+        "magnesiumMg": 13661.2,
+        "vitaminDUg": 2732.24
+      }
+    }
+  ]
+}

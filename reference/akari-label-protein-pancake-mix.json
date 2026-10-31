@@ -1,0 +1,76 @@
+{
+  "id": "akari:label:protein-pancake-mix",
+  "name": "Protein pancake mix, dry",
+  "identity": "Dry protein pancake mix, 39 to 72 g protein per 100 g of powder before milk or water is added.",
+  "rule": "Per 100 g, each value is the median of the three labels below that declare it, and a value enters only when at least three labels declare it (plain or default flavour). Salt becomes sodium (salt in g × 400 = sodium in mg). Nothing a label leaves out becomes zero. Labels read on 2026-10-30 from Open Food Facts through Akari's proxy, as the beef protein isolate was.",
+  "nutrients": {
+    "calories": 382.0,
+    "fat": 4.4,
+    "saturatedFat": 1.2,
+    "carbs": 32.0,
+    "sugar": 2.6,
+    "protein": 52.0,
+    "sodium": 392.0
+  },
+  "portions": [
+    {
+      "grams": 50,
+      "label": "1 serving"
+    }
+  ],
+  "labels": [
+    {
+      "brand": "Nu3",
+      "product": "Protein Pancake Mix",
+      "read": "Open Food Facts 4260289447866 through https://api.joinakari.com/v1/off/product/4260289447866",
+      "date": "2026-10-30",
+      "ingredients": "protéine de lait (44%), farine d'avoine, blanc d'oeuf de poule en poudre (10%), œuf entier en poudre (2,5%), édulcorant: xylitol, glucosides de stéviol issus de stevia; acidifiant acide citrique, poudre à lever: carbonates de sodium, vanilline",
+      "serving": "1 serving (50 g)",
+      "per100g": {
+        "energyKJ": 1600.0,
+        "energyKcal": 382.0,
+        "fat": 4.4,
+        "saturates": 1.2,
+        "carbohydrate": 32.0,
+        "sugars": 2.6,
+        "protein": 52.0,
+        "salt": 0.15
+      }
+    },
+    {
+      "brand": "Bulk",
+      "product": "Protein pancake mix",
+      "read": "Open Food Facts 5055950617131 through https://api.joinakari.com/v1/off/product/5055950617131",
+      "date": "2026-10-30",
+      "ingredients": "not stated in the entry",
+      "serving": "50 g",
+      "per100g": {
+        "energyKJ": 1559.1,
+        "energyKcal": 368.0,
+        "fat": 2.3,
+        "saturates": 0.5,
+        "carbohydrate": 14.0,
+        "sugars": 1.8,
+        "protein": 72.0,
+        "salt": 0.98
+      }
+    },
+    {
+      "brand": "About Time",
+      "product": "Protein Pancake Mix",
+      "read": "Open Food Facts 0814577020169 through https://api.joinakari.com/v1/off/product/0814577020169",
+      "date": "2026-10-30",
+      "ingredients": "Whey protein isolate, gluten free oat flour, buttermilk powder, flax seed powder, natural flavors, baking powder, salt, baking soda, xanthan gum, stevia.",
+      "serving": "0.5 cup (70 g)",
+      "per100g": {
+        "energyKcal": 386.0,
+        "fat": 10.0,
+        "saturates": 1.43,
+        "carbohydrate": 34.29,
+        "sugars": 11.43,
+        "protein": 38.57,
+        "salt": 2.27
+      }
+    }
+  ]
+}

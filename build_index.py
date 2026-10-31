@@ -12,6 +12,8 @@ reference overlay is intentionally not copied into this artifact.
 from __future__ import annotations
 
 import argparse
+import functools
+from collections import Counter
 import contextlib
 import csv
 import datetime as dt
@@ -310,6 +312,341 @@ TEST_ENTRY_MARKERS = {
     "testentry", "testeintrag", "testfood", "testscan", "testbarcode",
     "testnutriscan",
 }
+
+
+# Rules that keep user test entries and other companies' menu items out of a
+# market pack (b220, 30 October 2026). Every rejection is written to the
+# market's sidecar, rejected-<code>.jsonl, with its rule, so a wrong one can be
+# looked up; README.md lists the rules and the last run's counts.
+ENERGY_PER_GRAM = {"protein": 4.0, "fat": 9.0, "carbs": 4.0, "fiber": 2.0, "alcohol": 7.0,
+                   "polyols": 2.4, "organicAcids": 3.0}
+ALCOHOL_GRAMS_PER_PERCENT_VOLUME = 0.789
+# The rule constants, in one place; the live-search worker carries the same.
+ENERGY_TOLERANCE_SHARE = 0.20          # rule 1: declared energy within 20 % of its components' energy
+ENERGY_TOLERANCE_KCAL = 12.0           #         or within 12 kcal, whichever is larger
+GRAM_CEILING_PER_100 = 100.0           # rule 1: no nutrient above 100 g per 100 g or ml
+POPULARITY_FLOOR_COMPLETENESS = 0.5    # rule 3: an unbranded, unscanned record below this completeness is a stub
+CHAIN_MATCH_MIN_CALORIES = 50.0        # rule 4: a menu item below this per 100 g never identifies a copy
+CHAIN_MATCH_CALORIE_SHARE = 0.10       # rule 4: calories within 10 % of the chain's figure
+CHAIN_MATCH_CALORIE_KCAL = 10.0        #         or within 10 kcal
+CHAIN_MATCH_MACRO_SHARE = 0.15         # rule 4: fat, carbs and protein each within 15 %
+CHAIN_MATCH_MACRO_GRAMS = 1.5          #         or within 1.5 g
+PACK_RULE_NAMES = ("implausible-nutrition", "unscanned-unbranded", "chain-item-under-another-brand")
+MENU_CLAIMS_FILE = Path(__file__).resolve().parent / "chains" / "menu-claims.json"
+CHAIN_FILES = (
+    tuple(sorted((Path(__file__).resolve().parent / "chains").glob("*.json")))
+    + (Path(__file__).resolve().parent / "cafe" / "starbucks-de.json",)
+)
+GENERIC_NAME_FILES = (
+    (Path(__file__).resolve().parent / "staples.json",),
+    (Path(__file__).resolve().parent / "recipes" / "recipes.json",),
+    tuple(path for path in sorted((Path(__file__).resolve().parent / "cafe").glob("*.json"))
+          if path.name != "starbucks-de.json"),
+)
+MENU_NAME_STOPWORDS = {
+    "short", "tall", "grande", "venti", "small", "medium", "large", "regular",
+    "mini", "maxi", "xl", "xxl", "classic", "original", "menu", "meal", "klein",
+    "mittel", "gross", "mit", "ohne", "und", "and", "with", "oder", "or", "the",
+    "de", "la", "le", "au", "a", "l", "ml", "cl", "g", "kg", "st", "stk", "er",
+    "x", "halbfettmilch", "vollmilch", "magermilch", "hafer", "mandel", "soja",
+    "kokos", "haferdrink", "laktosefrei", "decaf", "iced", "hot", "blonde",
+    "ristretto", "flavour", "geschmack", "style", "plant", "based", "vegan",
+    "veggie", "double", "triple", "single", "footlong", "sub", "wrap", "bowl",
+    "box", "pack", "portion", "set", "deluxe", "extra", "neu", "new",
+}
+
+
+GENERIC_MENU_WORDS = {
+    # Café and counter words every maker uses; a chain's row with only these
+    # names no product of its own.
+    "americano", "espresso", "cappuccino", "latte", "macchiato", "mocha", "chai",
+    "matcha", "cocoa", "kakao", "kaffee", "coffee", "tea", "tee", "smoothie",
+    "lemonade", "limonade", "cooler", "shake", "milchshake", "milkshake",
+    "ketchup", "mayo", "mayonnaise", "dip", "dips", "sauce", "sosse", "dressing",
+    "sticks", "nuggets", "wings", "tenders", "fries", "pommes", "burger",
+    "cheeseburger", "hamburger", "salat", "salad", "wrap", "sandwich", "baguette",
+    "filet", "brezel", "breze", "brezn", "stange", "brot", "brotchen", "muffin",
+    "cookie", "cookies", "bagel", "donut", "doughnut", "brownie", "scone",
+    "croissant", "kuchen", "schnecke", "tasche", "taschen", "simit", "ciabatta",
+    "panini", "toast", "toasty", "egg", "ei", "cheese", "kase", "bacon", "chicken",
+    "hahnchen", "beef", "rind", "fish", "fisch", "veggie", "salmon", "lachs",
+    "crispy", "crispys", "onion", "rings", "ring", "wasser", "water", "mineral",
+    "sprudel", "cola", "orange", "apfel", "apple", "cherry", "kirsch", "lime",
+    "limette", "lemon", "zitrone", "vanilla", "vanille", "caramel", "karamell",
+    "chocolate", "schokolade", "schoko", "strawberry", "erdbeer", "erdbeere",
+    "banana", "banane", "mango", "coconut", "kokos", "kokosnus", "hazelnut",
+    "haselnuss", "pistachio", "pistazie", "oat", "soy", "almond", "zero", "sugar",
+    "zucker", "light", "diet", "sweet", "chili", "spicy", "honig", "honey", "senf",
+    "mustard", "bbq", "garlic", "knoblauch", "herb", "krauter", "pepper", "pfeffer",
+    "crema", "brew", "cold", "doppio", "biscuit", "biscuits", "gingerbread",
+    "brownies", "baguettes", "juice", "saft", "schorle", "einweg", "flasche",
+    "natural", "naturell", "classic", "zuckerfrei", "alkoholfrei", "free", "range",
+    "hand", "cooked", "crisps", "chips", "nacho", "potato", "kartoffel", "falafel",
+    "avocado", "hummus", "mezze", "omelett", "omelette", "porridge", "granola",
+    "yoghurt", "joghurt", "quark", "pancakes", "pancake", "waffle", "waffel",
+    "maiskolben", "fischsuppe", "suppe", "soup", "eis", "ice", "cream", "sahne",
+    "kakaogetrank", "gruntee", "aromatisierter", "fairtrade", "concentrate", "pot",
+    "nuggets", "nugget", "tortilla", "quesadilla", "burrito", "taco", "pizza", "pasta",
+    "caffe", "cafe", "balsamico", "balsamic", "vinaigrette", "mayonnaise", "aioli",
+    "ketchup", "senf", "mustard", "sweet", "sour", "chili", "curry", "garlic", "ranch",
+    "caesar", "joghurt", "yogurt", "milch", "milk", "wasser", "water", "tee", "tea",
+    "schwarz", "black", "white", "weiss", "gruner", "green", "classic", "klassik",
+    "original", "natur", "pur", "pure",
+}
+GENERIC_SUFFIXES = tuple(word for word in GENERIC_MENU_WORDS if len(word) >= 5)
+QUANTITY_TOKEN = re.compile(r"^\d+(?:ml|cl|l|g|kg|er|x|st|stk)?$")
+
+
+def normalized_tokens(value: Any) -> set[str]:
+    return {token for token in normalized_text(value).split() if token and not QUANTITY_TOKEN.match(token)}
+
+
+def generic_token(token: str, generic: frozenset[str]) -> bool:
+    return (token in generic or token in GENERIC_MENU_WORDS
+            or (len(token) > 7 and token.endswith(GENERIC_SUFFIXES)))
+
+
+@functools.lru_cache(maxsize=1)
+def generic_food_tokens() -> frozenset[str]:
+    """Every word of the index's own generic food names: staples, recipes and
+    the café's generic drinks; never the verified rows' aliases, which name
+    chain items themselves ("Big Mac, McDonald's")."""
+    tokens: set[str] = set()
+
+    def walk(value: Any) -> None:
+        if isinstance(value, str):
+            tokens.update(normalized_tokens(value))
+        elif isinstance(value, dict):
+            for key, item in value.items():
+                if key in {"id", "rows", "references", "collections", "about", "policy", "version"}:
+                    continue
+                walk(item)
+        elif isinstance(value, list):
+            for item in value:
+                walk(item)
+
+    for path in (path for group in GENERIC_NAME_FILES for path in group):
+        if path.exists():
+            walk(json.loads(path.read_text(encoding="utf-8")))
+    return frozenset(tokens)
+
+
+@functools.lru_cache(maxsize=1)
+def chain_menu_names() -> dict[str, str]:
+    """Menu item names that belong to one chain, normalized, with the chain's
+    normalized name. A name counts only when one of its words is no word of a
+    generic food in the index (Big Mac, Whopper, Frappuccino, McNuggets),
+    so a chain's "Coleslaw" or "Blueberry Muffin" never claims another maker's."""
+    generic = generic_food_tokens()
+    names: dict[str, tuple[str, dict[str, float]]] = {}
+    for path in CHAIN_FILES:
+        if not path.exists():
+            continue
+        payload = json.loads(path.read_text(encoding="utf-8"))
+        chain_name = payload.get("chain") or "Starbucks"
+        chain = normalized_text(chain_name)
+        for row in payload.get("rows", []):
+            name = normalized_text(row.get("name"))
+            tokens = normalized_tokens(name) - MENU_NAME_STOPWORDS
+            if not tokens or all(generic_token(token, generic) for token in tokens):
+                continue
+            per100 = row.get("valuesPer100g") if isinstance(row.get("valuesPer100g"), dict) else {}
+            values = {key: number for key in ("calories", "fat", "carbs", "protein")
+                      if (number := finite(per100.get(key))) is not None}
+            names[name] = (chain, values, path.stem, chain_name)
+    return names
+
+
+def menu_claims() -> dict[str, Any]:
+    """The finished claim list of rule 4 for the live-search worker: every menu
+    name that can identify a copy (generic names already left out, the four
+    values per 100 g present and the item substantial), with its chain."""
+    claims = []
+    for name, (_, values, key, chain_name) in sorted(chain_menu_names().items()):
+        if any(field not in values for field in ("calories", "fat", "carbs", "protein")):
+            continue
+        if values["calories"] < CHAIN_MATCH_MIN_CALORIES:
+            continue
+        claims.append({"name": name, "chainKey": key, "chain": chain_name,
+                       "per100g": {field: values[field] for field in ("calories", "fat", "carbs", "protein")}})
+    return {
+        "format": 1,
+        "about": ("Rule 4 of the market packs (build_index.py): a product whose normalized name equals or "
+                  "begins with one of these menu names, whose per-100 g values match the chain's within the "
+                  "tolerances below, whose brand is neither the chain nor named in the item, and that nobody has "
+                  "scanned in the market, is another company's menu item and stays out. Names made only of "
+                  "generic food words are already left out."),
+        "rules": {
+            "energyToleranceShare": ENERGY_TOLERANCE_SHARE, "energyToleranceKcal": ENERGY_TOLERANCE_KCAL,
+            "gramCeilingPer100": GRAM_CEILING_PER_100, "popularityFloorCompleteness": POPULARITY_FLOOR_COMPLETENESS,
+            "chainMatchMinCalories": CHAIN_MATCH_MIN_CALORIES, "chainMatchCalorieShare": CHAIN_MATCH_CALORIE_SHARE,
+            "chainMatchCalorieKcal": CHAIN_MATCH_CALORIE_KCAL, "chainMatchMacroShare": CHAIN_MATCH_MACRO_SHARE,
+            "chainMatchMacroGrams": CHAIN_MATCH_MACRO_GRAMS,
+        },
+        "claims": claims,
+    }
+
+
+def write_menu_claims(path: Path = MENU_CLAIMS_FILE) -> int:
+    payload = menu_claims()
+    path.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    return len(payload["claims"])
+
+
+def chain_item_claim(normalized_name: str) -> tuple[str, str, dict[str, float]] | None:
+    """The chain menu name a product name equals or starts with, with its chain
+    and the chain's published values per 100 g."""
+    menu = chain_menu_names()
+    if normalized_name in menu:
+        return (normalized_name, *menu[normalized_name][:2])
+    best = None
+    for name, (chain, values, _, _) in menu.items():
+        if normalized_name.startswith(name + " ") and (best is None or len(name) > len(best[0])):
+            best = (name, chain, values)
+    return best
+
+
+def carries_chain_values(nutrients: dict[str, float], values: dict[str, float]) -> bool:
+    """Whether a product's per-100 values are the chain's published ones: energy
+    within 10 % or 10 kcal and each macro within 15 % or 1.5 g. A product that
+    merely shares a menu item's name keeps its own label and stays."""
+    if "calories" not in values or any(key not in values for key in ("fat", "carbs", "protein")):
+        return False
+    if values["calories"] < CHAIN_MATCH_MIN_CALORIES:
+        # A drink's or dressing's few kilocalories match any other within the
+        # tolerance; only a substantial item's values identify a copy.
+        return False
+    if any(nutrients.get(key) is None for key in ("calories", "fat", "carbs", "protein")):
+        return False
+    if abs(nutrients["calories"] - values["calories"]) > max(CHAIN_MATCH_CALORIE_KCAL,
+                                                             CHAIN_MATCH_CALORIE_SHARE * values["calories"]):
+        return False
+    return all(abs(nutrients[key] - values[key]) <= max(CHAIN_MATCH_MACRO_GRAMS, CHAIN_MATCH_MACRO_SHARE * values[key])
+               for key in ("fat", "carbs", "protein"))
+
+
+def scan_count(record: dict[str, Any]) -> float:
+    return max(finite(record.get("unique_scans_n")) or 0.0, finite(record.get("scans_n")) or 0.0)
+
+
+def scanned_in_market(record: dict[str, Any], market: "Market") -> bool:
+    code = market.code.lower()
+    tags = string_list(record.get("popularity_tags"))
+    if any(f"-{code}-scans" in normalized_text(tag).replace(" ", "-") for tag in tags):
+        return True
+    return scan_count(record) > 0 and not tags
+
+
+def energy_components(product: "Product") -> dict[str, float] | None:
+    """The energy-bearing components of a product per 100 g or ml: the four
+    macros from the parsed nutrients, plus alcohol (% vol or g), polyols and
+    organic acids as the record declares them. None when a macro is missing or
+    an alcoholic product declares no alcohol, since its energy cannot be checked."""
+    nutrients = product.nutrients
+    if any(nutrients.get(key) is None for key in ("calories", "protein", "fat", "carbs")):
+        return None
+    raw = product.record.get("nutriments")
+    if not isinstance(raw, dict):
+        raw = product.record
+    components = {key: nutrients.get(key, 0.0) for key in ("protein", "fat", "carbs", "fiber")}
+    for key, name in (("alcohol", "alcohol"), ("polyols", "polyols"), ("organic-acids", "organicAcids")):
+        value = next((number for suffix in ("_100ml", "_100g")
+                      if (number := finite(raw.get(f"{key}{suffix}"))) is not None), None)
+        if value is not None:
+            components[name] = value
+    if "alcohol" in components:
+        unit = str(raw.get("alcohol_unit") or "% vol")
+        if "%" in unit or "vol" in unit.casefold():
+            components["alcohol"] *= ALCOHOL_GRAMS_PER_PERCENT_VOLUME
+    elif alcohol_classification(product.record) == "alcoholic":
+        return None
+    if "polyols" in components:
+        components["carbs"] = max(0.0, components["carbs"] - components["polyols"])
+    return components
+
+
+def calculated_energy(components: dict[str, float]) -> float:
+    return sum(value * ENERGY_PER_GRAM[key] for key, value in components.items() if key in ENERGY_PER_GRAM)
+
+
+def energy_fits_macros(product: "Product") -> tuple[bool, float] | None:
+    """Whether declared energy fits its components at 4/9/4 kcal per g, 2 for
+    fibre, 7 for alcohol, 2.4 for polyols and 3 for organic acids, within 20 %
+    or 12 kcal, with the calculated figure; None when it cannot be checked."""
+    components = energy_components(product)
+    if components is None:
+        return None
+    calories = product.nutrients["calories"]
+    calculated = calculated_energy(components)
+    return abs(calculated - calories) <= max(ENERGY_TOLERANCE_KCAL, calories * ENERGY_TOLERANCE_SHARE), calculated
+
+
+SUGAR_FREE_PHRASES = ("zuckerfrei", "sugar free", "sugarfree", "sans sucre", "senza zucchero",
+                      "sin azucar", "ohne zucker", "suikervrij", "kaugummi", "chewing gum",
+                      "polyol", "maltit", "sorbit", "xylit", "erythrit", "isomalt")
+
+
+def energy_gap_explained(product: "Product", calculated: float) -> bool:
+    """Whether a declared energy that misses the macronutrients' can still be
+    right: a drink with more energy than its macros carry may hold alcohol or
+    acids its record leaves out (wine, cider, vinegar); a sugar-free product
+    with less energy than its carbohydrates imply sweetens with polyols it does
+    not declare. Everything else is judged."""
+    calories = product.nutrients["calories"]
+    if calories > calculated:
+        if product.nutrition_basis == "per100Milliliters":
+            return True
+        # A beverage declared per 100 g (beer, wine, cider) carries the same doubt.
+        tags = " ".join(normalized_text(tag) for tag in string_list(product.record.get("categories_tags")))
+        return any(word in tags for word in ("beverage", "drink", "getrank", "boisson", "beer", "bier", "wine", "wein", "cider", "alcohol"))
+    haystack = " ".join(normalized_text(product.record.get(key)) for key in
+                        ("product_name", "generic_name", "ingredients_text", "categories", "labels"))
+    return any(phrase in haystack for phrase in SUGAR_FREE_PHRASES)
+
+
+def rejection(product: "Product", market: "Market") -> tuple[str, str] | None:
+    """The rule that keeps a parsed product out of a market pack, or None."""
+    record = product.record
+    nutrients = product.nutrients
+    over = sorted(key for key in GRAM_NUTRIENTS if nutrients.get(key, 0) > GRAM_CEILING_PER_100)
+    if over:
+        return "implausible-nutrition", f"{', '.join(over)} above 100 g per 100"
+    fit = energy_fits_macros(product)
+    if fit is not None and not fit[0] and not energy_gap_explained(product, fit[1]):
+        return "implausible-nutrition", (f"{nutrients['calories']:.0f} kcal declared, "
+                                          f"{fit[1]:.0f} kcal from the macronutrients")
+    completeness = finite(record.get("completeness")) or 0.0
+    if not product.brand and scan_count(record) <= 0 and completeness < POPULARITY_FLOOR_COMPLETENESS:
+        return "unscanned-unbranded", f"no brand, no scans, completeness {completeness:.2f}"
+    claim = chain_item_claim(product.normalized_name) or chain_item_claim(normalized_text(product.name))
+    if (claim and product.nutrition_basis == "per100Grams"
+            and carries_chain_values(nutrients, claim[2])
+            and not brand_is_chain(product.normalized_brand, claim[1])
+            and not brand_names_item(product.normalized_brand, claim[0])
+            and not scanned_in_market(record, market)):
+        return "chain-item-under-another-brand", (f"'{claim[0]}' is a {claim[1]} menu item with its published values; "
+                                                  f"brand {product.brand or 'none'}")
+    return None
+
+
+def brand_names_item(normalized_brand: str, menu_name: str) -> bool:
+    """Whether the menu item is the brand's own product that the chain merely
+    sells: a Coca-Cola or Pepsi row in a chain's file names its maker."""
+    brand_tokens = set(normalized_brand.split()) - MENU_NAME_STOPWORDS
+    return bool(brand_tokens) and not brand_tokens.isdisjoint(menu_name.split())
+
+
+def brand_is_chain(normalized_brand: str, chain: str) -> bool:
+    """Whether a product's brand names the chain: "McDonald's", "McDonalds" and
+    "McDonald's Deutschland" all own a Big Mac."""
+    chain_tokens = set(chain.split()) - {"deutschland", "germany", "uk", "de"}
+    brand_tokens = set(normalized_brand.split())
+    if chain_tokens and chain_tokens.issubset(brand_tokens):
+        return True
+    compact_chain = "".join(sorted(chain_tokens)) if len(chain_tokens) > 1 else "".join(chain_tokens)
+    compact_brand = normalized_brand.replace(" ", "")
+    return bool(compact_chain) and ("".join(chain.split()).replace("deutschland", "") in compact_brand
+                                    or compact_chain in compact_brand)
 
 
 def contains_test_entry_marker(value: str) -> bool:
@@ -910,12 +1247,14 @@ def write_manifest(output: Path, generated_at: str,
 
 def main() -> None:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--off-export", "--off-jsonl", dest="off_export",
-                        required=True, type=Path)
+    parser.add_argument("--menu-claims", type=Path, nargs="?", const=MENU_CLAIMS_FILE, default=None,
+                        help="write rule 4's finished claim list for the live-search worker to this file "
+                             "(default FoodIndex/chains/menu-claims.json) and stop")
+    parser.add_argument("--off-export", "--off-jsonl", dest="off_export", type=Path)
     parser.add_argument("--off-export-gzip", action="store_true",
                         help="Decompress a gzip export streamed on stdin")
-    parser.add_argument("--market", action="append", required=True, type=Market.parse)
-    parser.add_argument("--output-dir", required=True, type=Path)
+    parser.add_argument("--market", action="append", type=Market.parse)
+    parser.add_argument("--output-dir", type=Path)
     parser.add_argument("--schema", type=Path,
                         default=Path(__file__).with_name("schema.sql"))
     parser.add_argument("--base-url", default=(
@@ -923,6 +1262,11 @@ def main() -> None:
     parser.add_argument("--catalog-version")
     parser.add_argument("--allow-legacy-csv-for-audit", action="store_true", help="Audit only: CSV loses reported-versus-estimated provenance")
     args = parser.parse_args()
+    if args.menu_claims is not None:
+        print(f"Wrote {write_menu_claims(args.menu_claims):,} menu claims to {args.menu_claims}")
+        return
+    if args.off_export is None or not args.market or args.output_dir is None:
+        parser.error("--off-export, --market and --output-dir are required to build market packs")
     if args.off_export.name.endswith((".csv", ".csv.gz")) and not args.allow_legacy_csv_for_audit:
         parser.error("Use the official JSONL export. CSV mixes reported and estimated nutrient values without provenance.")
 
@@ -939,6 +1283,11 @@ def main() -> None:
         writer.connection.execute("INSERT OR REPLACE INTO metadata(key,value) VALUES('nutrition_provenance',?)",
             ("unverified-flat-csv" if args.allow_legacy_csv_for_audit else "reported-json-input-sets",))
     accepted = 0
+    rejections: dict[str, Counter[str]] = {market.code: Counter() for market in args.market}
+    sidecars = {
+        market.code: (args.output_dir / f"rejected-{market.code.lower()}.jsonl").open("w", encoding="utf-8")
+        for market in args.market
+    }
     try:
         for scanned, record in enumerate(open_export(
                 args.off_export, gzip_input=args.off_export_gzip), 1):
@@ -958,6 +1307,14 @@ def main() -> None:
             matched = False
             for market in args.market:
                 if market.country_tag in tags:
+                    rejected = rejection(product, market)
+                    if rejected:
+                        rule, detail = rejected
+                        rejections[market.code][rule] += 1
+                        sidecars[market.code].write(json.dumps(
+                            {"code": product.barcode, "name": product.name, "brand": product.brand,
+                             "rule": rule, "detail": detail}, ensure_ascii=False) + "\n")
+                        continue
                     writers[market.code].add(product)
                     matched = True
             accepted += int(matched)
@@ -966,11 +1323,24 @@ def main() -> None:
             with contextlib.suppress(Exception):
                 writer.connection.close()
         raise
+    finally:
+        for sidecar in sidecars.values():
+            sidecar.close()
 
     results = [writers[market.code].finish() for market in args.market]
+    for result in results:
+        result["rejected"] = dict(sorted(rejections[result["market"]].items()))
+        result["rejectedFilename"] = f"rejected-{result['market'].lower()}.jsonl"
     write_manifest(args.output_dir / "manifest.json", generated_at,
                    results, args.base_url)
+    (args.output_dir / "rejections.json").write_text(json.dumps(
+        {"generatedAt": generated_at,
+         "rules": list(PACK_RULE_NAMES),
+         "markets": {code: dict(sorted(counts.items())) for code, counts in rejections.items()}},
+        ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"Accepted {accepted:,} market product records")
+    for code, counts in rejections.items():
+        print(f"{code}: rejected " + (", ".join(f"{n:,} {rule}" for rule, n in sorted(counts.items())) or "nothing"))
     for result in results:
         print(f"{result['market']}: {result['familyCount']:,} families, "
               f"{result['skuCount']:,} SKUs, {result['bytes'] / 1_048_576:.1f} MiB")

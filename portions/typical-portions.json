@@ -127,6 +127,34 @@
    "draft": "batch-19"
   },
   {
+   "key": "alcopop",
+   "names": [
+    "alcopop",
+    "alkopop",
+    "alcopops",
+    "premix",
+    "pre mixed spirit drink",
+    "alkopops",
+    "mischgetrank mit spirituose",
+    "smirnoff ice",
+    "bacardi breezer"
+   ],
+   "references": [
+    "bls:P8A2000"
+   ],
+   "unit": "bottle",
+   "typical": 1,
+   "milliliters": 275,
+   "source": {
+    "kind": "estimate",
+    "reason": "the 275 ml bottle alcopops sell in"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-32"
+  },
+  {
    "key": "aldi naturjoghurt",
    "names": [
     "aldi naturjoghurt"
@@ -239,7 +267,8 @@
     "jamaikapfeffer"
    ],
    "references": [
-    "mext:17055"
+    "mext:17055",
+    "usda:171315"
    ],
    "unit": "teaspoon",
    "typical": 1,
@@ -298,6 +327,79 @@
    "draft": "batch-2"
   },
   {
+   "key": "almond crescent",
+   "names": [
+    "almond crescent",
+    "mandelhornchen",
+    "almond crescents",
+    "almond horn",
+    "mandelhornchen vom backer"
+   ],
+   "references": [
+    "bls:D755300"
+   ],
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 70,
+   "source": {
+    "kind": "estimate",
+    "reason": "one bakery Mandelhörnchen, about 70 g"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-29"
+  },
+  {
+   "key": "almond drink sweetened flavoured",
+   "names": [
+    "almond drink sweetened flavoured",
+    "mandeldrink gesußt aromatisiert",
+    "vanilla almond drink",
+    "vanilla almond milk",
+    "mandeldrink vanille"
+   ],
+   "references": [
+    "bls:H800200"
+   ],
+   "unit": "glass",
+   "typical": 1,
+   "milliliters": 250,
+   "source": {
+    "kind": "estimate",
+    "reason": "a regular drinking glass"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-30"
+  },
+  {
+   "key": "almond drink unsweetened fortified",
+   "names": [
+    "almond drink unsweetened fortified",
+    "mandeldrink ungesußt angereichert",
+    "almond drink with calcium",
+    "fortified almond milk",
+    "mandeldrink mit calcium",
+    "mandeldrink angereichert"
+   ],
+   "references": [
+    "bls:H800100"
+   ],
+   "unit": "glass",
+   "typical": 1,
+   "milliliters": 250,
+   "source": {
+    "kind": "estimate",
+    "reason": "a regular drinking glass"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-30"
+  },
+  {
    "key": "almond liqueur",
    "names": [
     "almond liqueur",
@@ -340,6 +442,29 @@
    "origin": "generated",
    "date": "2026-10-01",
    "draft": "batch-2"
+  },
+  {
+   "key": "almond milk chocolate",
+   "names": [
+    "almond milk chocolate",
+    "mandeldrink schoko",
+    "chocolate almond drink",
+    "mandeldrink schokolade"
+   ],
+   "references": [
+    "usda:2705408"
+   ],
+   "unit": "glass",
+   "typical": 1,
+   "milliliters": 250,
+   "source": {
+    "kind": "estimate",
+    "reason": "a regular drinking glass"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-30"
   },
   {
    "key": "almond oil",
@@ -533,6 +658,39 @@
    "draft": "batch-14"
   },
   {
+   "key": "amino acid powder eaa or bcaa",
+   "names": [
+    "amino acid powder eaa or bcaa",
+    "aminosaurenpulver eaa bcaa",
+    "eaa",
+    "bcaa",
+    "eaa powder",
+    "bcaa powder",
+    "essential amino acids",
+    "branched chain amino acids",
+    "amino acid drink powder",
+    "aminos",
+    "aminosauren pulver",
+    "eaa pulver",
+    "bcaa pulver",
+    "aminosaurenpulver"
+   ],
+   "references": [
+    "akari:label:amino-acid-powder"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 10,
+   "source": {
+    "kind": "estimate",
+    "reason": "one 10 g scoop, the file's own measure"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-35"
+  },
+  {
    "key": "ananas",
    "names": [
     "ananas",
@@ -710,6 +868,37 @@
    "origin": "generated",
    "date": "2026-10-24",
    "draft": "batch-17"
+  },
+  {
+   "key": "apple banana and pear puree unsweetened",
+   "names": [
+    "apple banana and pear puree unsweetened",
+    "fruit pouch apple and banana",
+    "fruchtquetschie apfel banane",
+    "fruit pouch",
+    "squeeze pouch",
+    "fruit squeeze pouch",
+    "apple banana pouch",
+    "quetschie",
+    "quetschbeutel",
+    "fruchtquetschbeutel",
+    "quetschie apfel banane",
+    "apfel bananen birnenmus"
+   ],
+   "references": [
+    "bls:Y8A3000"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 100,
+   "source": {
+    "kind": "estimate",
+    "reason": "one 100 g pouch, the usual squeeze pouch size"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-38"
   },
   {
    "key": "apple cake",
@@ -1706,6 +1895,32 @@
    "origin": "generated",
    "date": "2026-10-30",
    "draft": "batch-27"
+  },
+  {
+   "key": "baby food fruit and vegetables with grain",
+   "names": [
+    "baby food fruit and vegetables with grain",
+    "fruit vegetable and grain puree baby",
+    "obst gemuse getreide brei",
+    "fruit vegetable grain puree",
+    "baby fruit and vegetable with cereal",
+    "obst gemuse getreidebrei",
+    "frucht gemuse getreide brei"
+   ],
+   "references": [
+    "usda:2709359"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 125,
+   "source": {
+    "kind": "estimate",
+    "reason": "one 125 g jar"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-38"
   },
   {
    "key": "baby food fruit unspecified",
@@ -2767,13 +2982,37 @@
    "draft": "batch-13"
   },
   {
+   "key": "bakewell tart iced",
+   "names": [
+    "bakewell tart iced",
+    "bakewell tart",
+    "bakewell tarts",
+    "cherry bakewell"
+   ],
+   "references": [
+    "cofid:11-845"
+   ],
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 60,
+   "source": {
+    "kind": "estimate",
+    "reason": "one piece of about 60 g (heuristic draft for a recipe ingredient)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-40"
+  },
+  {
    "key": "baking powder",
    "names": [
     "baking powder",
     "backpulver"
    ],
    "references": [
-    "bls:R421100"
+    "bls:R421100",
+    "ciqual:11046"
    ],
    "unit": "teaspoon",
    "typical": 1,
@@ -2936,7 +3175,8 @@
     "bananenkuchen"
    ],
    "references": [
-    "cofid:11-1029"
+    "cofid:11-1029",
+    "usda:2707856"
    ],
    "unit": "slice",
    "typical": 1,
@@ -3072,6 +3312,33 @@
    "origin": "generated",
    "date": "2026-10-01",
    "draft": "batch-4"
+  },
+  {
+   "key": "barista oat drink",
+   "names": [
+    "barista oat drink",
+    "barista haferdrink",
+    "barista oat milk",
+    "barista oat",
+    "oat milk barista edition",
+    "foamable oat drink",
+    "barista hafer",
+    "barista hafermilch"
+   ],
+   "references": [
+    "akari:label:oat-drink-barista"
+   ],
+   "unit": "glass",
+   "typical": 1,
+   "milliliters": 200,
+   "source": {
+    "kind": "estimate",
+    "reason": "a 200 ml glass, the label file's own measure; in a latte the recipe sets the pour"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-43"
   },
   {
    "key": "barley",
@@ -3999,6 +4266,39 @@
    "draft": "batch-18"
   },
   {
+   "key": "beef protein isolate powder",
+   "names": [
+    "beef protein isolate powder",
+    "beef protein isolat",
+    "beef protein isolate",
+    "beef protein powder",
+    "beef isolate",
+    "hydrolysed beef protein",
+    "hydrolyzed beef protein",
+    "hydrolysed beef protein isolate",
+    "hydrolyzed beef protein isolate",
+    "rinderprotein pulver",
+    "rinderprotein",
+    "rinderproteinpulver",
+    "rinderprotein isolat",
+    "beef protein pulver"
+   ],
+   "references": [
+    "akari:label:beef-protein-isolate"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 30,
+   "source": {
+    "kind": "estimate",
+    "reason": "one 30 g scoop, as the whey protein portion and the file's own 1 scoop measure"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-34"
+  },
+  {
    "key": "beef roasting joint raw",
    "names": [
     "beef roasting joint raw",
@@ -4834,6 +5134,26 @@
    "draft": "batch-24"
   },
   {
+   "key": "bitter melon horseradish jute or radish leaves cooked",
+   "names": [
+    "bitter melon horseradish jute or radish leaves cooked"
+   ],
+   "references": [
+    "usda:2709641"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 100,
+   "source": {
+    "kind": "estimate",
+    "reason": "one 100 g portion (heuristic draft for a recipe ingredient)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-41"
+  },
+  {
    "key": "black bean sauce",
    "names": [
     "black bean sauce",
@@ -5055,7 +5375,8 @@
     "poivre noir"
    ],
    "references": [
-    "bls:R258100"
+    "bls:R258100",
+    "usda:170931"
    ],
    "unit": "teaspoon",
    "typical": 0.25,
@@ -5169,6 +5490,115 @@
    "origin": "generated",
    "date": "2026-10-01",
    "draft": "batch-2"
+  },
+  {
+   "key": "black tea decaf",
+   "names": [
+    "black tea decaf",
+    "schwarztee entkoffeiniert",
+    "decaffeinated black tea",
+    "decaf tea",
+    "entkoffeinierter schwarztee",
+    "entkoffeinierter tee",
+    "schwarztee koffeinfrei"
+   ],
+   "references": [
+    "usda:2710489"
+   ],
+   "unit": "cup",
+   "typical": 1,
+   "milliliters": 250,
+   "source": {
+    "kind": "estimate",
+    "reason": "one tea cup"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-31"
+  },
+  {
+   "key": "black tea with cream and sugar",
+   "names": [
+    "black tea with cream and sugar",
+    "schwarztee mit sahne und zucker",
+    "east frisian tea with cream",
+    "east frisian tea with rock sugar and cream",
+    "tea with cream and sugar",
+    "ostfriesentee mit kluntje und sahne",
+    "ostfriesentee mit kluntje",
+    "ostfriesentee mit sahne",
+    "tee mit sahne und zucker",
+    "teetied"
+   ],
+   "references": [
+    "bls:N630500"
+   ],
+   "unit": "cup",
+   "typical": 1,
+   "milliliters": 150,
+   "source": {
+    "kind": "estimate",
+    "reason": "an East Frisian tea cup is small, about 150 ml, and is refilled"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-31"
+  },
+  {
+   "key": "black tea with lemon and sugar",
+   "names": [
+    "black tea with lemon and sugar",
+    "schwarztee mit zitrone und zucker",
+    "tea with lemon",
+    "tea with lemon and sugar",
+    "lemon tea",
+    "tee mit zitrone",
+    "zitronentee",
+    "tee mit zitrone und zucker",
+    "schwarztee mit zitrone"
+   ],
+   "references": [
+    "bls:N630700"
+   ],
+   "unit": "cup",
+   "typical": 1,
+   "milliliters": 250,
+   "source": {
+    "kind": "estimate",
+    "reason": "one tea cup"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-31"
+  },
+  {
+   "key": "black tea with sugar",
+   "names": [
+    "black tea with sugar",
+    "schwarztee mit zucker",
+    "tea with sugar",
+    "sweetened black tea",
+    "tee mit zucker",
+    "gesußter schwarztee",
+    "cay mit zucker"
+   ],
+   "references": [
+    "bls:N630600"
+   ],
+   "unit": "cup",
+   "typical": 1,
+   "milliliters": 250,
+   "source": {
+    "kind": "estimate",
+    "reason": "one tea cup"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-31"
   },
   {
    "key": "blackberries frozen",
@@ -5465,7 +5895,9 @@
     "strong beer"
    ],
    "references": [
-    "bls:P172000"
+    "bls:P172000",
+    "bls:P174000",
+    "usda:2710618"
    ],
    "unit": "bottle",
    "typical": 1,
@@ -5913,7 +6345,8 @@
     "cognac"
    ],
    "references": [
-    "usda:2710699"
+    "usda:2710699",
+    "bls:P610000"
    ],
    "unit": "glass",
    "typical": 1,
@@ -6557,6 +6990,33 @@
    "draft": "batch-2"
   },
   {
+   "key": "bubble tea",
+   "names": [
+    "bubble tea",
+    "boba tea",
+    "boba",
+    "bubble milk tea",
+    "pearl milk tea",
+    "milchtee mit tapioka",
+    "tapioka milchtee",
+    "boba tee"
+   ],
+   "references": [
+    "usda:2710508"
+   ],
+   "unit": "glass",
+   "typical": 1,
+   "milliliters": 500,
+   "source": {
+    "kind": "estimate",
+    "reason": "one large bubble tea cup, 500 ml; USDA's \"1 item\" is 435 g"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-31"
+  },
+  {
    "key": "buchweizen",
    "names": [
     "buchweizen",
@@ -6949,7 +7409,8 @@
     "murbeteigplatzchen"
    ],
    "references": [
-    "bls:D734600"
+    "bls:D734600",
+    "bls:D7B8000"
    ],
    "unit": "cookie",
    "typical": 4,
@@ -6983,6 +7444,31 @@
    "origin": "generated",
    "date": "2026-10-01",
    "draft": "batch-4"
+  },
+  {
+   "key": "buttercream cake",
+   "names": [
+    "buttercream cake",
+    "buttercremetorte",
+    "buttercream torte",
+    "buttercream gateau",
+    "buttercreme torte",
+    "buttercremekuchen"
+   ],
+   "references": [
+    "bls:D311200"
+   ],
+   "unit": "slice",
+   "typical": 1,
+   "gramsPerUnit": 120,
+   "source": {
+    "kind": "estimate",
+    "reason": "one Tortenstück of a buttercream torte, about 120 g"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-29"
   },
   {
    "key": "butterkase",
@@ -7107,6 +7593,28 @@
    "draft": "batch-15"
   },
   {
+   "key": "cachaca",
+   "names": [
+    "cachaca",
+    "zuckerrohrschnaps",
+    "pitu"
+   ],
+   "references": [
+    "bls:P740000"
+   ],
+   "unit": "glass",
+   "typical": 1,
+   "milliliters": 40,
+   "source": {
+    "kind": "estimate",
+    "reason": "one 4 cl measure, as the rum and vodka portions"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-32"
+  },
+  {
    "key": "caerphilly",
    "names": [
     "caerphilly",
@@ -7197,6 +7705,108 @@
    "origin": "generated",
    "date": "2026-10-24",
    "draft": "batch-24"
+  },
+  {
+   "key": "calcium chewable tablet",
+   "names": [
+    "calcium chewable tablet",
+    "calcium kautablette",
+    "calcium chewable",
+    "calcium d3 chewable",
+    "calcium kautabletten",
+    "kalzium kautablette",
+    "calcium 1000 kautablette"
+   ],
+   "references": [
+    "akari:label:calcium-chewable"
+   ],
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 3.76667,
+   "source": {
+    "kind": "estimate",
+    "reason": "1 daily dose of chewable tablets, the label file's own dose (3.76667 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-42"
+  },
+  {
+   "key": "calcium d3 tablet",
+   "names": [
+    "calcium d3 tablet",
+    "calcium d3 tablette",
+    "calcium tablet",
+    "calcium d3",
+    "calcium vitamin d",
+    "calcium tablette",
+    "calcium 600",
+    "calcium 900",
+    "kalziumtablette"
+   ],
+   "references": [
+    "akari:label:calcium-d3-tablet"
+   ],
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 2.11833,
+   "source": {
+    "kind": "estimate",
+    "reason": "1 daily dose of tablets, the label file's own dose (2.11833 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-42"
+  },
+  {
+   "key": "calcium effervescent tablet",
+   "names": [
+    "calcium effervescent tablet",
+    "calcium brausetablette",
+    "calcium brause",
+    "calcium fizzy tablet",
+    "calcium 400 effervescent",
+    "kalzium brausetablette"
+   ],
+   "references": [
+    "akari:label:calcium-effervescent"
+   ],
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 4.5,
+   "source": {
+    "kind": "estimate",
+    "reason": "1 effervescent tablet, the label file's own dose (4.5 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-42"
+  },
+  {
+   "key": "calvados",
+   "names": [
+    "calvados",
+    "apple brandy",
+    "apfelbrand",
+    "apfelbranntwein"
+   ],
+   "references": [
+    "bls:P640000"
+   ],
+   "unit": "glass",
+   "typical": 1,
+   "milliliters": 20,
+   "source": {
+    "kind": "estimate",
+    "reason": "one 2 cl Schnapsglas, as the fruit brandy portion"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-32"
   },
   {
    "key": "calzone",
@@ -7829,6 +8439,34 @@
    "draft": "batch-5"
   },
   {
+   "key": "casein protein powder",
+   "names": [
+    "casein protein powder",
+    "casein protein",
+    "casein",
+    "micellar casein",
+    "casein powder",
+    "kasein",
+    "casein pulver",
+    "caseinpulver",
+    "nachtprotein"
+   ],
+   "references": [
+    "akari:label:casein"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 30,
+   "source": {
+    "kind": "estimate",
+    "reason": "one 30 g scoop, the file's own measure"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-35"
+  },
+  {
    "key": "cashew butter",
    "names": [
     "cashew butter",
@@ -8442,7 +9080,8 @@
     "getreideriegel"
    ],
    "references": [
-    "cofid:11-819"
+    "cofid:11-819",
+    "bls:S830000"
    ],
    "unit": "bar",
    "typical": 1,
@@ -8509,6 +9148,33 @@
    "origin": "generated",
    "date": "2026-10-24",
    "draft": "batch-20"
+  },
+  {
+   "key": "chai latte powder",
+   "names": [
+    "chai latte powder",
+    "chai latte pulver",
+    "chai latte mix",
+    "instant chai latte",
+    "chai latte instant powder",
+    "chai powder",
+    "chai pulver",
+    "instant chai"
+   ],
+   "references": [
+    "akari:label:chai-latte-powder"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 20,
+   "source": {
+    "kind": "estimate",
+    "reason": "two heaped teaspoons for one mug, the file's own measure"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-39"
   },
   {
    "key": "champignon",
@@ -9019,6 +9685,30 @@
    "origin": "generated",
    "date": "2026-10-24",
    "draft": "batch-16"
+  },
+  {
+   "key": "cherry cake",
+   "names": [
+    "cherry cake",
+    "kirschkuchen",
+    "cherry torte",
+    "kirschtorte",
+    "kirschkuchen vom blech"
+   ],
+   "references": [
+    "bls:D281100"
+   ],
+   "unit": "slice",
+   "typical": 1,
+   "gramsPerUnit": 120,
+   "source": {
+    "kind": "estimate",
+    "reason": "one piece of a tray-baked cherry cake, about 120 g"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-29"
   },
   {
    "key": "cherry nectar",
@@ -10453,7 +11143,8 @@
     "getrockneter schnittlauch"
    ],
    "references": [
-    "bls:G081400"
+    "bls:G081400",
+    "usda:170075"
    ],
    "unit": "teaspoon",
    "typical": 1,
@@ -11071,6 +11762,27 @@
    "draft": "batch-6"
   },
   {
+   "key": "chocolate sponge cake base",
+   "names": [
+    "chocolate sponge cake base",
+    "schokobiskuitboden"
+   ],
+   "references": [
+    "bls:D087000"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 100,
+   "source": {
+    "kind": "estimate",
+    "reason": "one 100 g portion (heuristic draft for a recipe ingredient)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-41"
+  },
+  {
    "key": "chocolate truffles",
    "names": [
     "chocolate truffles",
@@ -11430,6 +12142,32 @@
    "draft": "batch-6"
   },
   {
+   "key": "clear whey protein powder",
+   "names": [
+    "clear whey protein powder",
+    "clear whey",
+    "clear whey isolate",
+    "clear protein powder",
+    "clear whey isolat",
+    "klares whey",
+    "clear whey pulver"
+   ],
+   "references": [
+    "akari:label:clear-whey"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 25,
+   "source": {
+    "kind": "estimate",
+    "reason": "one 25 g scoop, the file's own measure"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-35"
+  },
+  {
    "key": "clotted cream",
    "names": [
     "clotted cream"
@@ -11499,6 +12237,31 @@
    "origin": "generated",
    "date": "2026-10-24",
    "draft": "batch-26"
+  },
+  {
+   "key": "cluster dextrin",
+   "names": [
+    "cluster dextrin",
+    "highly branched cyclic dextrin",
+    "hbcd",
+    "cyclic dextrin",
+    "zyklisches dextrin",
+    "clusterdextrin"
+   ],
+   "references": [
+    "akari:label:cluster-dextrin"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 30,
+   "source": {
+    "kind": "estimate",
+    "reason": "one 30 g serving, the file's own measure"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-35"
   },
   {
    "key": "coated peanuts",
@@ -12057,6 +12820,63 @@
    "origin": "generated",
    "date": "2026-10-18",
    "draft": "batch-8"
+  },
+  {
+   "key": "collagen drink ampoule",
+   "names": [
+    "collagen drink ampoule",
+    "kollagen trinkampulle",
+    "collagen drink",
+    "collagen shot",
+    "collagen liquid",
+    "collagen ampoule",
+    "kollagen drink",
+    "kollagen liquid",
+    "kollagen shot"
+   ],
+   "references": [
+    "akari:label:collagen-drink-ampoule"
+   ],
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 17.5,
+   "source": {
+    "kind": "estimate",
+    "reason": "1 ampoule, the label file's own dose (17.5 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-42"
+  },
+  {
+   "key": "collagen powder",
+   "names": [
+    "collagen powder",
+    "kollagenpulver",
+    "collagen",
+    "collagen hydrolysate",
+    "collagen peptides",
+    "kollagen",
+    "kollagen pulver",
+    "kollagenhydrolysat",
+    "kollagenpeptide",
+    "collagen pulver"
+   ],
+   "references": [
+    "akari:label:collagen-powder"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 10.0,
+   "source": {
+    "kind": "estimate",
+    "reason": "1 scoop, about 10 g, the label file's own dose (10.0 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-42"
   },
   {
    "key": "collard greens cooked",
@@ -13389,7 +14209,8 @@
     "koriandergrun getrocknet"
    ],
    "references": [
-    "cofid:13-818"
+    "cofid:13-818",
+    "usda:170921"
    ],
    "unit": "teaspoon",
    "typical": 1,
@@ -13884,6 +14705,37 @@
    "draft": "batch-9"
   },
   {
+   "key": "craft or abbey beer",
+   "names": [
+    "craft or abbey beer",
+    "craft oder abteibier",
+    "craft beer",
+    "abbey beer",
+    "pale ale",
+    "ipa",
+    "india pale ale",
+    "craftbier",
+    "craft bier",
+    "abteibier",
+    "klosterbier",
+    "trappistenbier"
+   ],
+   "references": [
+    "ciqual:5011"
+   ],
+   "unit": "bottle",
+   "typical": 1,
+   "milliliters": 330,
+   "source": {
+    "kind": "estimate",
+    "reason": "one 0.33 l bottle, the size craft and abbey beers sell in"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-32"
+  },
+  {
    "key": "cranberries",
    "names": [
     "cranberries",
@@ -14039,6 +14891,31 @@
    "origin": "generated",
    "date": "2026-10-01",
    "draft": "batch-5"
+  },
+  {
+   "key": "cream cake",
+   "names": [
+    "cream cake",
+    "sahnetorte",
+    "cream torte",
+    "cream gateau",
+    "sahnekuchen",
+    "tortenstuck mit sahne"
+   ],
+   "references": [
+    "usda:2707872"
+   ],
+   "unit": "slice",
+   "typical": 1,
+   "gramsPerUnit": 150,
+   "source": {
+    "kind": "estimate",
+    "reason": "one Tortenstück of a cream torte, about 150 g"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-29"
   },
   {
    "key": "cream cheese",
@@ -15330,7 +16207,8 @@
     "red dragon fruit"
    ],
    "references": [
-    "mext:07111"
+    "mext:07111",
+    "usda:2709234"
    ],
    "unit": "portion",
    "typical": 1,
@@ -15690,7 +16568,8 @@
     "edamame gekocht"
    ],
    "references": [
-    "usda:2707436"
+    "usda:2707436",
+    "bls:G750100"
    ],
    "unit": "portion",
    "typical": 1,
@@ -15703,6 +16582,25 @@
    "origin": "generated",
    "date": "2026-10-01",
    "draft": "batch-3"
+  },
+  {
+   "key": "edamame",
+   "names": [],
+   "references": [
+    "usda:2707436",
+    "bls:G750100"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 80,
+   "source": {
+    "kind": "estimate",
+    "reason": "a bowl of shelled edamame beans, the usual side, as the cooked edamame identity already has it"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-43"
   },
   {
    "key": "eel fried without fat pan",
@@ -15926,6 +16824,35 @@
    "draft": "batch-1"
   },
   {
+   "key": "egg white powder",
+   "names": [
+    "egg white powder",
+    "eiweißpulver aus eiklar",
+    "egg white protein",
+    "egg white protein powder",
+    "egg protein powder",
+    "dried egg white",
+    "eiklarpulver",
+    "eiprotein",
+    "eiproteinpulver",
+    "trockeneiweiß"
+   ],
+   "references": [
+    "ciqual:22004"
+   ],
+   "unit": "tablespoon",
+   "typical": 2,
+   "gramsPerUnit": 10,
+   "source": {
+    "kind": "estimate",
+    "reason": "two tablespoons, the amount for one shake or one egg white equivalent each"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-34"
+  },
+  {
    "key": "egg yolk",
    "names": [
     "egg yolk",
@@ -16002,6 +16929,29 @@
    "draft": "batch-15"
   },
   {
+   "key": "eierschecke",
+   "names": [
+    "eierschecke",
+    "saxon custard cheesecake",
+    "dresdner eierschecke",
+    "sachsische eierschecke"
+   ],
+   "references": [
+    "bls:D4A6000"
+   ],
+   "unit": "slice",
+   "typical": 1,
+   "gramsPerUnit": 120,
+   "source": {
+    "kind": "estimate",
+    "reason": "one piece from a tray of Eierschecke, about 120 g"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-29"
+  },
+  {
    "key": "eisbein",
    "names": [
     "eisbein",
@@ -16045,6 +16995,64 @@
    "origin": "generated",
    "date": "2026-10-24",
    "draft": "batch-16"
+  },
+  {
+   "key": "electrolyte effervescent tablet",
+   "names": [
+    "electrolyte effervescent tablet",
+    "elektrolyt brausetablette",
+    "electrolyte tablet",
+    "electrolytes",
+    "electrolyte brause",
+    "elektrolyte",
+    "elektrolyte brause",
+    "elektrolyte brausetablette",
+    "elektrolyttablette"
+   ],
+   "references": [
+    "akari:label:electrolyte-effervescent"
+   ],
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 8.2,
+   "source": {
+    "kind": "estimate",
+    "reason": "1 daily dose of effervescent tablets, the label file's own dose (8.2 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-42"
+  },
+  {
+   "key": "electrolyte powder stick",
+   "names": [
+    "electrolyte powder stick",
+    "elektrolyt pulverstick",
+    "electrolyte sachet",
+    "electrolyte sticks",
+    "electrolyte powder",
+    "hydration sticks",
+    "rehydration powder",
+    "elektrolyte sticks",
+    "elektrolyte pulver",
+    "elektrolyt beutel",
+    "elektrolyte sachet"
+   ],
+   "references": [
+    "akari:label:electrolyte-sachet"
+   ],
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 12.0,
+   "source": {
+    "kind": "estimate",
+    "reason": "1 daily dose of sticks, the label file's own dose (12.0 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-42"
   },
   {
    "key": "emmental",
@@ -16113,6 +17121,85 @@
    "draft": "batch-6"
   },
   {
+   "key": "energy bar fortified",
+   "names": [
+    "energy bar fortified",
+    "energy bar",
+    "energieriegel",
+    "energy bars",
+    "sports bar",
+    "energie riegel",
+    "sportriegel",
+    "powerriegel"
+   ],
+   "references": [
+    "bls:S820100"
+   ],
+   "unit": "bar",
+   "typical": 1,
+   "gramsPerUnit": 50,
+   "source": {
+    "kind": "estimate",
+    "reason": "one 50 g energy bar, the size PowerBar and Clif sell"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-34"
+  },
+  {
+   "key": "energy bar nut cream filling",
+   "names": [
+    "energy bar nut cream filling",
+    "energieriegel mit nusscremefullung",
+    "filled energy bar",
+    "energy bar with nut cream",
+    "energieriegel gefullt",
+    "energieriegel mit nusscreme",
+    "nusscreme energieriegel"
+   ],
+   "references": [
+    "bls:S820000"
+   ],
+   "unit": "bar",
+   "typical": 1,
+   "gramsPerUnit": 50,
+   "source": {
+    "kind": "estimate",
+    "reason": "one 50 g bar, as the energy bar portion"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-35"
+  },
+  {
+   "key": "energy chews",
+   "names": [
+    "energy chews",
+    "sport chews",
+    "energy gummies",
+    "energy blocks",
+    "energiegummis",
+    "sportgummis",
+    "energie kaubonbons"
+   ],
+   "references": [
+    "akari:label:energy-chews"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 30,
+   "source": {
+    "kind": "estimate",
+    "reason": "one serving of three chews, 30 g, the file's own measure"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-35"
+  },
+  {
    "key": "energy drink",
    "names": [
     "energy drink",
@@ -16163,6 +17250,35 @@
    "origin": "generated",
    "date": "2026-10-24",
    "draft": "batch-24"
+  },
+  {
+   "key": "energy gel",
+   "names": [
+    "energy gel",
+    "energiegel",
+    "energy gels",
+    "sports gel",
+    "carb gel",
+    "carbohydrate gel",
+    "isotonic gel",
+    "kohlenhydratgel",
+    "sportgel",
+    "gel fur laufer"
+   ],
+   "references": [
+    "akari:label:energy-gel"
+   ],
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 40,
+   "source": {
+    "kind": "estimate",
+    "reason": "one 40 g gel sachet, the file's own measure"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-35"
   },
   {
    "key": "english muffins toasties yeast dough fried without fat pan",
@@ -16460,6 +17576,36 @@
    "draft": "batch-17"
   },
   {
+   "key": "eye vitamin capsule",
+   "names": [
+    "eye vitamin capsule",
+    "augenvitamin kapsel",
+    "eye vitamins",
+    "eye capsule",
+    "lutein capsule",
+    "eyesight capsule",
+    "augen vitamine",
+    "augen kapsel",
+    "augenvitamine",
+    "lutein kapsel",
+    "augen sehkraft kapseln"
+   ],
+   "references": [
+    "akari:label:eye-vitamin-capsule"
+   ],
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 0.536667,
+   "source": {
+    "kind": "estimate",
+    "reason": "1 capsule, the label file's own dose (0.536667 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-42"
+  },
+  {
    "key": "falafel",
    "names": [
     "falafel",
@@ -16591,7 +17737,8 @@
     "bockshornkleesaat"
    ],
    "references": [
-    "ciqual:11077"
+    "ciqual:11077",
+    "usda:171324"
    ],
    "unit": "teaspoon",
    "typical": 1,
@@ -17149,6 +18296,35 @@
    "origin": "generated",
    "date": "2026-10-24",
    "draft": "batch-14"
+  },
+  {
+   "key": "folic acid tablet",
+   "names": [
+    "folic acid tablet",
+    "folsauretablette",
+    "folic acid",
+    "folate tablet",
+    "folic acid 800",
+    "folic acid 400",
+    "folsaure",
+    "folsaure 800",
+    "folsaure tablette",
+    "folio"
+   ],
+   "references": [
+    "akari:label:folic-acid-tablet"
+   ],
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 0.316667,
+   "source": {
+    "kind": "estimate",
+    "reason": "1 tablet, the label file's own dose (0.316667 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-42"
   },
   {
    "key": "follow on formula ready to drink",
@@ -18158,7 +19334,8 @@
     "blue curacao"
    ],
    "references": [
-    "bls:P510000"
+    "bls:P510000",
+    "ciqual:1021"
    ],
    "unit": "glass",
    "typical": 1,
@@ -18279,6 +19456,30 @@
    "origin": "generated",
    "date": "2026-10-24",
    "draft": "batch-25"
+  },
+  {
+   "key": "fruit tea with sugar",
+   "names": [
+    "fruit tea with sugar",
+    "fruchtetee mit zucker",
+    "sweetened fruit tea",
+    "gesußter fruchtetee",
+    "fruchtetee gesußt"
+   ],
+   "references": [
+    "bls:N710600"
+   ],
+   "unit": "cup",
+   "typical": 1,
+   "milliliters": 250,
+   "source": {
+    "kind": "estimate",
+    "reason": "one tea cup"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-31"
   },
   {
    "key": "fudge",
@@ -18836,6 +20037,32 @@
    "draft": "batch-25"
   },
   {
+   "key": "ginger tea",
+   "names": [
+    "ginger tea",
+    "ingwertee",
+    "ginger infusion",
+    "fresh ginger tea",
+    "ingwer tee",
+    "ingweraufguss",
+    "ingwerwasser"
+   ],
+   "references": [
+    "usda:2710507"
+   ],
+   "unit": "cup",
+   "typical": 1,
+   "milliliters": 250,
+   "source": {
+    "kind": "estimate",
+    "reason": "one tea cup"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-31"
+  },
+  {
    "key": "gizzard",
    "names": [
     "gizzard"
@@ -18876,6 +20103,36 @@
    "origin": "generated",
    "date": "2026-10-24",
    "draft": "batch-13"
+  },
+  {
+   "key": "glucosamine joint tablet",
+   "names": [
+    "glucosamine joint tablet",
+    "glucosamin gelenktablette",
+    "glucosamine",
+    "glucosamine capsule",
+    "joint tablet",
+    "glucosamine chondroitin",
+    "glucosamin",
+    "glucosamin tablette",
+    "glucosamin kapsel",
+    "gelenk tabletten",
+    "gelenkkapseln"
+   ],
+   "references": [
+    "akari:label:glucosamine-tablet"
+   ],
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 1.58,
+   "source": {
+    "kind": "estimate",
+    "reason": "1 daily dose of tablets or capsules, the label file's own dose (1.58 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-42"
   },
   {
    "key": "gluten free bread",
@@ -20053,6 +21310,27 @@
    "draft": "batch-24"
   },
   {
+   "key": "green spelt flour wholemeal",
+   "names": [
+    "green spelt flour wholemeal",
+    "grunkernmehl vollkorn"
+   ],
+   "references": [
+    "bls:C413000"
+   ],
+   "unit": "tablespoon",
+   "typical": 2,
+   "gramsPerUnit": 10,
+   "source": {
+    "kind": "estimate",
+    "reason": "two tablespoons (heuristic draft for a recipe ingredient)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-41"
+  },
+  {
    "key": "green spelt groats",
    "names": [
     "green spelt groats",
@@ -20395,7 +21673,8 @@
     "coriandre graine"
    ],
    "references": [
-    "ciqual:11026"
+    "ciqual:11026",
+    "usda:170922"
    ],
    "unit": "teaspoon",
    "typical": 0.5,
@@ -20596,7 +21875,8 @@
     "weingummi"
    ],
    "references": [
-    "bls:S361000"
+    "bls:S361000",
+    "usda:2710359"
    ],
    "unit": "portion",
    "typical": 1,
@@ -20828,6 +22108,36 @@
    "origin": "generated",
    "date": "2026-10-01",
    "draft": "batch-2"
+  },
+  {
+   "key": "hair skin and nails tablet",
+   "names": [
+    "hair skin and nails tablet",
+    "haut haare nagel tablette",
+    "hair vitamins",
+    "hair tablet",
+    "beauty complex",
+    "skin hair nails",
+    "haar vitamine",
+    "haut haare nagel",
+    "haarvitamine",
+    "haar tabletten",
+    "biotin tablette"
+   ],
+   "references": [
+    "akari:label:hair-skin-nails-tablet"
+   ],
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 1.08333,
+   "source": {
+    "kind": "estimate",
+    "reason": "1 daily dose of tablets, the label file's own dose (1.08333 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-42"
   },
   {
    "key": "hake pan fried",
@@ -21547,6 +22857,32 @@
    "draft": "batch-23"
   },
   {
+   "key": "hemp protein powder",
+   "names": [
+    "hemp protein powder",
+    "hanfprotein",
+    "hemp protein",
+    "hemp protein isolate",
+    "hanfproteinpulver",
+    "hanfeiweiß",
+    "hanfprotein pulver"
+   ],
+   "references": [
+    "akari:label:hemp-protein"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 30,
+   "source": {
+    "kind": "estimate",
+    "reason": "one 30 g scoop, the file's own measure"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-35"
+  },
+  {
    "key": "hemp seeds",
    "names": [
     "hemp seeds",
@@ -21712,6 +23048,31 @@
    "draft": "batch-4"
   },
   {
+   "key": "herbal tea with sugar",
+   "names": [
+    "herbal tea with sugar",
+    "krautertee mit zucker",
+    "sweetened herbal tea",
+    "gesußter krautertee",
+    "pfefferminztee mit zucker",
+    "fencheltee mit zucker"
+   ],
+   "references": [
+    "bls:N720600"
+   ],
+   "unit": "cup",
+   "typical": 1,
+   "milliliters": 250,
+   "source": {
+    "kind": "estimate",
+    "reason": "one tea cup"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-31"
+  },
+  {
    "key": "herbes de provence",
    "names": [
     "herbes de provence",
@@ -21854,6 +23215,83 @@
    "origin": "generated",
    "date": "2026-10-24",
    "draft": "batch-26"
+  },
+  {
+   "key": "high protein ice cream",
+   "names": [
+    "high protein ice cream",
+    "high protein eis",
+    "protein ice cream",
+    "proteineis",
+    "protein eis",
+    "eiweiß eis"
+   ],
+   "references": [
+    "akari:label:protein-ice-cream"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 100,
+   "source": {
+    "kind": "estimate",
+    "reason": "one 100 g portion, the file's own measure"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-35"
+  },
+  {
+   "key": "high protein pudding",
+   "names": [
+    "high protein pudding",
+    "protein pudding",
+    "proteinpudding",
+    "eiweißpudding"
+   ],
+   "references": [
+    "akari:label:protein-pudding"
+   ],
+   "unit": "cup",
+   "typical": 1,
+   "gramsPerUnit": 200,
+   "source": {
+    "kind": "household-measure",
+    "reference": "akari:label:protein-pudding",
+    "label": "1 cup"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-35"
+  },
+  {
+   "key": "high protein yogurt",
+   "names": [
+    "high protein yogurt",
+    "high protein joghurt",
+    "protein yogurt",
+    "protein yoghurt",
+    "proteinjoghurt",
+    "eiweißjoghurt",
+    "protein joghurt",
+    "skyr protein joghurt"
+   ],
+   "references": [
+    "akari:label:high-protein-yogurt"
+   ],
+   "unit": "cup",
+   "typical": 1,
+   "gramsPerUnit": 200,
+   "source": {
+    "kind": "household-measure",
+    "reference": "akari:label:high-protein-yogurt",
+    "label": "1 cup"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-35"
   },
   {
    "key": "hijiki boiled",
@@ -22482,6 +23920,29 @@
    "draft": "batch-25"
   },
   {
+   "key": "ice wine",
+   "names": [
+    "ice wine",
+    "eiswein",
+    "icewine",
+    "eisweine"
+   ],
+   "references": [
+    "bls:P219000"
+   ],
+   "unit": "glass",
+   "typical": 1,
+   "milliliters": 50,
+   "source": {
+    "kind": "estimate",
+    "reason": "ice wine is poured in 5 cl"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-32"
+  },
+  {
    "key": "iceberg lettuce",
    "names": [
     "iceberg lettuce",
@@ -22529,6 +23990,115 @@
    "date": "2026-10-03"
   },
   {
+   "key": "iced tea black bottled unsweetened",
+   "names": [
+    "iced tea black bottled unsweetened",
+    "iced tea unsweetened",
+    "eistee ungesußt",
+    "iced tea no sugar",
+    "ungesußter eistee",
+    "eistee ohne zucker"
+   ],
+   "references": [
+    "usda:2710517"
+   ],
+   "unit": "glass",
+   "typical": 1,
+   "milliliters": 300,
+   "source": {
+    "kind": "estimate",
+    "reason": "one tall glass, as the iced tea portion"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-31"
+  },
+  {
+   "key": "iced tea green bottled",
+   "names": [
+    "iced tea green bottled",
+    "green iced tea",
+    "gruner eistee",
+    "green tea iced tea",
+    "gruntee eistee",
+    "eistee gruner tee"
+   ],
+   "references": [
+    "usda:2710533"
+   ],
+   "unit": "glass",
+   "typical": 1,
+   "milliliters": 300,
+   "source": {
+    "kind": "estimate",
+    "reason": "one tall glass, as the iced tea portion"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-31"
+  },
+  {
+   "key": "iced tea mix black sweetened dry",
+   "names": [
+    "iced tea mix black sweetened dry",
+    "instant tea powder sweetened",
+    "instant teepulver gesußt",
+    "instant tea powder",
+    "instant iced tea",
+    "iced tea powder",
+    "iced tea mix",
+    "instant teepulver",
+    "instanttee",
+    "eisteepulver",
+    "teepulver",
+    "instant eistee"
+   ],
+   "references": [
+    "usda:2710511"
+   ],
+   "unit": "teaspoon",
+   "typical": 2,
+   "gramsPerUnit": 4.8,
+   "source": {
+    "kind": "household-measure",
+    "reference": "usda:2710511",
+    "label": "1 teaspoon, dry"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-31"
+  },
+  {
+   "key": "iced tea sugar free with sweeteners",
+   "names": [
+    "iced tea sugar free with sweeteners",
+    "iced tea sugar free",
+    "eistee zuckerfrei",
+    "diet iced tea",
+    "zero iced tea",
+    "eistee zero",
+    "eistee light",
+    "eistee mit sußstoff"
+   ],
+   "references": [
+    "ciqual:18065"
+   ],
+   "unit": "glass",
+   "typical": 1,
+   "milliliters": 300,
+   "source": {
+    "kind": "estimate",
+    "reason": "one tall glass, as the iced tea portion"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-31"
+  },
+  {
    "key": "idli",
    "names": [
     "idli"
@@ -22569,6 +24139,90 @@
    "origin": "generated",
    "date": "2026-10-01",
    "draft": "batch-4"
+  },
+  {
+   "key": "immune complex tablet",
+   "names": [
+    "immune complex tablet",
+    "immun komplex tablette",
+    "immune complex",
+    "immune capsule",
+    "immun komplex",
+    "immun kapsel",
+    "immusan",
+    "immun tablette",
+    "immune support tablet"
+   ],
+   "references": [
+    "akari:label:immune-complex-tablet"
+   ],
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 1.10667,
+   "source": {
+    "kind": "estimate",
+    "reason": "1 dose, tablet or capsules, the label file's own dose (1.10667 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-42"
+  },
+  {
+   "key": "immune direct stick",
+   "names": [
+    "immune direct stick",
+    "immun direktstick",
+    "immune stick",
+    "immune direct granulate",
+    "immune sachet",
+    "zinc selenium vitamin c stick",
+    "immun direkt",
+    "immun sticks",
+    "immun direktgranulat",
+    "abwehr sticks",
+    "immun portionsstick"
+   ],
+   "references": [
+    "akari:label:immune-direct-stick"
+   ],
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 1.95,
+   "source": {
+    "kind": "estimate",
+    "reason": "1 stick, the label file's own dose (1.95 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-42"
+  },
+  {
+   "key": "immune effervescent tablet",
+   "names": [
+    "immune effervescent tablet",
+    "immun brausetablette",
+    "immune brause",
+    "immun aktiv brause",
+    "immun brause",
+    "abwehr brausetablette",
+    "immun fit brause"
+   ],
+   "references": [
+    "akari:label:immune-effervescent"
+   ],
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 4.5,
+   "source": {
+    "kind": "estimate",
+    "reason": "1 effervescent tablet, the label file's own dose (4.5 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-42"
   },
   {
    "key": "infant formula first stage ready to drink",
@@ -22678,6 +24332,62 @@
    "origin": "generated",
    "date": "2026-10-30",
    "draft": "batch-27"
+  },
+  {
+   "key": "instant coffee decaf prepared",
+   "names": [
+    "instant coffee decaf prepared",
+    "instantkaffee entkoffeiniert zubereitet",
+    "decaf instant coffee",
+    "decaffeinated instant coffee",
+    "entkoffeinierter instantkaffee",
+    "instantkaffee koffeinfrei",
+    "loslicher kaffee entkoffeiniert"
+   ],
+   "references": [
+    "bls:N440100"
+   ],
+   "unit": "cup",
+   "typical": 1,
+   "milliliters": 250,
+   "source": {
+    "kind": "estimate",
+    "reason": "one 250 ml mug, as the coffee portion"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-39"
+  },
+  {
+   "key": "instant coffee prepared unsweetened",
+   "names": [
+    "instant coffee prepared unsweetened",
+    "instant coffee prepared",
+    "instantkaffee zubereitet",
+    "instant coffee",
+    "instant coffee black",
+    "soluble coffee",
+    "loslicher kaffee",
+    "instantkaffee",
+    "instant kaffee",
+    "nescafe schwarz",
+    "pulverkaffee zubereitet"
+   ],
+   "references": [
+    "ciqual:18073"
+   ],
+   "unit": "cup",
+   "typical": 1,
+   "milliliters": 250,
+   "source": {
+    "kind": "estimate",
+    "reason": "one 250 ml mug, as the coffee portion"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-39"
   },
   {
    "key": "instant mashed potatoes",
@@ -22818,6 +24528,90 @@
    "draft": "batch-26"
   },
   {
+   "key": "iron direct granulate stick",
+   "names": [
+    "iron direct granulate stick",
+    "eisen direktgranulat",
+    "iron stick",
+    "iron direct",
+    "iron sachet",
+    "eisen direkt",
+    "eisen sticks",
+    "eisen beutel",
+    "eisen femin"
+   ],
+   "references": [
+    "akari:label:iron-direct-granulate"
+   ],
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 1.1,
+   "source": {
+    "kind": "estimate",
+    "reason": "1 stick, the label file's own dose (1.1 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-42"
+  },
+  {
+   "key": "iron effervescent tablet",
+   "names": [
+    "iron effervescent tablet",
+    "eisen brausetablette",
+    "iron brause",
+    "iron fizzy tablet",
+    "iron vitamin c effervescent",
+    "eisen brause",
+    "eisen c brause",
+    "eisen vitamine brausetablette"
+   ],
+   "references": [
+    "akari:label:iron-effervescent"
+   ],
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 4.1,
+   "source": {
+    "kind": "estimate",
+    "reason": "1 effervescent tablet, the label file's own dose (4.1 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-42"
+  },
+  {
+   "key": "iron tablet",
+   "names": [
+    "iron tablet",
+    "eisentablette",
+    "iron capsule",
+    "iron vitamin c",
+    "iron supplement",
+    "eisen tablette",
+    "eisen kapsel",
+    "eisen c",
+    "eisentabletten",
+    "eisenpraparat"
+   ],
+   "references": [
+    "akari:label:iron-tablet"
+   ],
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 0.71,
+   "source": {
+    "kind": "estimate",
+    "reason": "1 tablet or capsule, the label file's own dose (0.71 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-42"
+  },
+  {
    "key": "italian dressing",
    "names": [
     "italian dressing",
@@ -22897,6 +24691,31 @@
    "origin": "generated",
    "date": "2026-10-01",
    "draft": "batch-3"
+  },
+  {
+   "key": "jackfruit",
+   "names": [
+    "jackfruit",
+    "jackfrucht",
+    "jack fruit",
+    "young jackfruit",
+    "jackfruit roh",
+    "jackfrucht roh"
+   ],
+   "references": [
+    "bls:F549100"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 100,
+   "source": {
+    "kind": "estimate",
+    "reason": "one 100 g portion (heuristic draft for a recipe ingredient)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-40"
   },
   {
    "key": "jaffa cakes",
@@ -23812,6 +25631,61 @@
    "draft": "batch-1"
   },
   {
+   "key": "kids multivitamin chewable tablet",
+   "names": [
+    "kids multivitamin chewable tablet",
+    "multivitamin kautablette fur kinder",
+    "kids chewable vitamins",
+    "kids vitamin tablet",
+    "kinder kautabletten",
+    "kinder vitamin kautablette",
+    "multivitamine kinder",
+    "sanostol lutschtablette"
+   ],
+   "references": [
+    "akari:label:kids-multivitamin-chewable"
+   ],
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 1.4,
+   "source": {
+    "kind": "estimate",
+    "reason": "1 daily dose of chewable tablets, the label file's own dose (1.4 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-42"
+  },
+  {
+   "key": "kids multivitamin gummies",
+   "names": [
+    "kids multivitamin gummies",
+    "multivitamin gummibarchen fur kinder",
+    "kids gummies",
+    "multivitamin bears",
+    "vitamin bears",
+    "vitamin barchen",
+    "multivitamin barchen",
+    "kinder gummies",
+    "kinder vitamine"
+   ],
+   "references": [
+    "akari:label:kids-multivitamin-gummies"
+   ],
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 6.0,
+   "source": {
+    "kind": "estimate",
+    "reason": "1 daily dose of gummies, the label file's own dose (6.0 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-42"
+  },
+  {
    "key": "kimchi",
    "names": [
     "kimchi",
@@ -24673,6 +26547,27 @@
    "draft": "batch-20"
   },
   {
+   "key": "langos yeast dough deep fried unfilled",
+   "names": [
+    "langos yeast dough deep fried unfilled",
+    "langos hefeteig frittiert ungefullt"
+   ],
+   "references": [
+    "bls:D7A6700"
+   ],
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 150,
+   "source": {
+    "kind": "estimate",
+    "reason": "one fairground langos, about 150 g of fried dough"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-36"
+  },
+  {
    "key": "langoustine raw",
    "names": [
     "langoustine raw",
@@ -25051,6 +26946,34 @@
    "origin": "generated",
    "date": "2026-10-18",
    "draft": "batch-8"
+  },
+  {
+   "key": "lentil patties vegan",
+   "names": [
+    "lentil patties vegan",
+    "linsenbratlinge vegan",
+    "lentil patties",
+    "lentil patty",
+    "lentil burgers",
+    "linsenbratlinge",
+    "linsenbratling",
+    "linsenfrikadellen",
+    "linsenburger"
+   ],
+   "references": [
+    "bls:X5A1050"
+   ],
+   "unit": "piece",
+   "typical": 2,
+   "gramsPerUnit": 75,
+   "source": {
+    "kind": "estimate",
+    "reason": "two patties of a chilled two-pack, about 75 g each"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-30"
   },
   {
    "key": "lentil soup",
@@ -25506,7 +27429,8 @@
     "lakritze schwarz"
    ],
    "references": [
-    "bls:S410000"
+    "bls:S410000",
+    "usda:2710352"
    ],
    "unit": "portion",
    "typical": 1,
@@ -25870,6 +27794,32 @@
    "draft": "batch-6"
   },
   {
+   "key": "lupin flour",
+   "names": [
+    "lupin flour",
+    "lupinenmehl",
+    "lupine flour",
+    "sweet lupin flour",
+    "sußlupinenmehl",
+    "lupinen",
+    "lupinenprotein"
+   ],
+   "references": [
+    "bls:H731400"
+   ],
+   "unit": "tablespoon",
+   "typical": 2,
+   "gramsPerUnit": 10,
+   "source": {
+    "kind": "estimate",
+    "reason": "two tablespoons stirred into a dough or shake"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-30"
+  },
+  {
    "key": "lychees",
    "names": [
     "lychees",
@@ -26124,6 +28074,256 @@
    "draft": "batch-5"
   },
   {
+   "key": "madeira wine",
+   "names": [
+    "madeira wine",
+    "madeira",
+    "madeirawein",
+    "madeira wein"
+   ],
+   "references": [
+    "bls:P432000"
+   ],
+   "unit": "glass",
+   "typical": 1,
+   "milliliters": 50,
+   "source": {
+    "kind": "estimate",
+    "reason": "a fortified wine glass, as the port portion"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-32"
+  },
+  {
+   "key": "magnesium 500 depot tablet",
+   "names": [
+    "magnesium 500 depot tablet",
+    "magnesium 500 depot tablette",
+    "magnesium 500",
+    "magnesium 600",
+    "magnesium depot",
+    "magnesium depot tablette",
+    "magnesium fur die nacht"
+   ],
+   "references": [
+    "akari:label:magnesium-500-depot-tablet"
+   ],
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 1.60333,
+   "source": {
+    "kind": "estimate",
+    "reason": "1 tablet, the label file's own dose (1.60333 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-42"
+  },
+  {
+   "key": "magnesium calcium d3 tablet",
+   "names": [
+    "magnesium calcium d3 tablet",
+    "magnesium calcium d3 tablette",
+    "magnesium calcium",
+    "magnesium calcium d3",
+    "magnesium calcium tablette",
+    "magnesium calcium vitamin d"
+   ],
+   "references": [
+    "akari:label:magnesium-calcium-d3-tablet"
+   ],
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 1.98,
+   "source": {
+    "kind": "estimate",
+    "reason": "1 tablet, the label file's own dose (1.98 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-42"
+  },
+  {
+   "key": "magnesium calcium effervescent tablet",
+   "names": [
+    "magnesium calcium effervescent tablet",
+    "magnesium calcium brausetablette",
+    "magnesium calcium brause",
+    "magnesium calcium d3 brausetablette"
+   ],
+   "references": [
+    "akari:label:magnesium-calcium-effervescent"
+   ],
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 4.85,
+   "source": {
+    "kind": "estimate",
+    "reason": "1 effervescent tablet, the label file's own dose (4.85 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-42"
+  },
+  {
+   "key": "magnesium capsule",
+   "names": [
+    "magnesium capsule",
+    "magnesiumkapsel",
+    "magnesium capsules",
+    "magnesium bisglycinate",
+    "magnesium complex capsule",
+    "magnesium citrate capsule",
+    "magnesium kapsel",
+    "magnesium kapseln",
+    "magnesiumbisglycinat",
+    "magnesium komplex kapseln",
+    "magnesiumcitrat kapsel"
+   ],
+   "references": [
+    "akari:label:magnesium-capsule"
+   ],
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 1.62222,
+   "source": {
+    "kind": "estimate",
+    "reason": "1 daily dose of capsules, the label file's own dose (1.62222 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-42"
+  },
+  {
+   "key": "magnesium direct granulate stick",
+   "names": [
+    "magnesium direct granulate stick",
+    "magnesium direktgranulat",
+    "magnesium stick",
+    "magnesium direct",
+    "magnesium granulate",
+    "magnesium citrate stick",
+    "magnesium direkt",
+    "magnesium sticks",
+    "magnesium granulat",
+    "magnesium citrat stick"
+   ],
+   "references": [
+    "akari:label:magnesium-direct-granulate"
+   ],
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 2.0,
+   "source": {
+    "kind": "estimate",
+    "reason": "1 stick, the label file's own dose (2.0 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-42"
+  },
+  {
+   "key": "magnesium effervescent tablet",
+   "names": [
+    "magnesium effervescent tablet",
+    "magnesium brausetablette",
+    "magnesium brause",
+    "magnesium fizzy tablet",
+    "magnesium 400 effervescent",
+    "magnesium brausetabletten"
+   ],
+   "references": [
+    "akari:label:magnesium-effervescent"
+   ],
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 6.5,
+   "source": {
+    "kind": "estimate",
+    "reason": "1 effervescent tablet, the label file's own dose (6.5 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-42"
+  },
+  {
+   "key": "magnesium potassium tablet",
+   "names": [
+    "magnesium potassium tablet",
+    "magnesium kalium tablette",
+    "magnesium potassium",
+    "magnesium kalium",
+    "magnesium calcium potassium"
+   ],
+   "references": [
+    "akari:label:magnesium-potassium-tablet"
+   ],
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 2.1,
+   "source": {
+    "kind": "estimate",
+    "reason": "1 tablet, the label file's own dose (2.1 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-42"
+  },
+  {
+   "key": "magnesium tablet",
+   "names": [
+    "magnesium tablet",
+    "magnesiumtablette",
+    "magnesium 400",
+    "magnesium tablet 400 mg",
+    "magnesiumtabletten",
+    "magnesium tablette"
+   ],
+   "references": [
+    "akari:label:magnesium-400-tablet"
+   ],
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 1.28667,
+   "source": {
+    "kind": "estimate",
+    "reason": "1 tablet, the label file's own dose (1.28667 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-42"
+  },
+  {
+   "key": "mai tai",
+   "names": [
+    "mai tai"
+   ],
+   "references": [
+    "usda:2710677"
+   ],
+   "unit": "glass",
+   "typical": 1,
+   "milliliters": 150,
+   "source": {
+    "kind": "estimate",
+    "reason": "one tumbler; USDA's \"1 drink\" is 180 g"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-33"
+  },
+  {
    "key": "maize flour",
    "names": [
     "maize flour",
@@ -26223,6 +28423,32 @@
    "origin": "generated",
    "date": "2026-10-24",
    "draft": "batch-25"
+  },
+  {
+   "key": "maltodextrin",
+   "names": [
+    "maltodextrin",
+    "malto",
+    "maltodextrine",
+    "maltodextrin powder",
+    "maltodextrinpulver",
+    "malto pulver",
+    "maltodextrin 19"
+   ],
+   "references": [
+    "akari:label:maltodextrin"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 50,
+   "source": {
+    "kind": "estimate",
+    "reason": "one 50 g serving for a bottle, the file's own measure"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-35"
   },
   {
    "key": "mandarin",
@@ -26615,6 +28841,26 @@
    "draft": "batch-5"
   },
   {
+   "key": "masa harina cooked",
+   "names": [
+    "masa harina cooked"
+   ],
+   "references": [
+    "usda:2708376"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 100,
+   "source": {
+    "kind": "estimate",
+    "reason": "one 100 g portion (heuristic draft for a recipe ingredient)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-40"
+  },
+  {
    "key": "mascarpone",
    "names": [
     "mascarpone",
@@ -26659,6 +28905,33 @@
    "origin": "generated",
    "date": "2026-10-01",
    "draft": "batch-2"
+  },
+  {
+   "key": "mass gainer powder",
+   "names": [
+    "mass gainer powder",
+    "mass gainer",
+    "weight gainer",
+    "gainer",
+    "gainer powder",
+    "gainer pulver",
+    "massgainer",
+    "masseaufbau shake"
+   ],
+   "references": [
+    "akari:label:mass-gainer"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 100,
+   "source": {
+    "kind": "estimate",
+    "reason": "one 100 g serving, the file's own measure"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-35"
   },
   {
    "key": "matcha",
@@ -26969,6 +29242,28 @@
    "origin": "generated",
    "date": "2026-10-01",
    "draft": "batch-5"
+  },
+  {
+   "key": "michelada",
+   "names": [
+    "michelada",
+    "mexican beer cocktail",
+    "bier cocktail mexikanisch"
+   ],
+   "references": [
+    "usda:2710641"
+   ],
+   "unit": "glass",
+   "typical": 1,
+   "milliliters": 250,
+   "source": {
+    "kind": "estimate",
+    "reason": "one beer glass; USDA's \"1 drink\" is 225 g"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-33"
   },
   {
    "key": "milk chocolate",
@@ -27313,7 +29608,8 @@
     "nane"
    ],
    "references": [
-    "ciqual:11029"
+    "ciqual:11029",
+    "usda:172239"
    ],
    "unit": "teaspoon",
    "typical": 1,
@@ -28245,7 +30541,8 @@
     "weihnachtsmarkt gluhwein"
    ],
    "references": [
-    "cofid:17-812"
+    "cofid:17-812",
+    "usda:2710698"
    ],
    "unit": "cup",
    "typical": 1,
@@ -28382,6 +30679,35 @@
    "draft": "batch-14"
   },
   {
+   "key": "multivitamin a z tablet",
+   "names": [
+    "multivitamin a z tablet",
+    "a z multivitamintablette",
+    "multivitamin tablet",
+    "a z tablet",
+    "a to z multivitamin",
+    "a z depot",
+    "a z komplett",
+    "multivitamin tablette",
+    "a z tablette",
+    "vitamintablette"
+   ],
+   "references": [
+    "akari:label:multivitamin-a-z-tablet"
+   ],
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 1.44,
+   "source": {
+    "kind": "estimate",
+    "reason": "1 tablet, the label file's own dose (1.44 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-42"
+  },
+  {
    "key": "multivitamin juice",
    "names": [
     "multivitamin juice",
@@ -28418,6 +30744,36 @@
    "origin": "generated",
    "date": "2026-10-24",
    "draft": "batch-24"
+  },
+  {
+   "key": "multivitamin mineral effervescent tablet",
+   "names": [
+    "multivitamin mineral effervescent tablet",
+    "multivitamin mineral brausetablette",
+    "multivitamin effervescent",
+    "multivitamin brause",
+    "a z brause",
+    "vitamin effervescent tablet",
+    "multivitamin brausetablette",
+    "a z brausetablette",
+    "multi mineral brause",
+    "vitamin brausetablette",
+    "mineralstoffe brausetablette"
+   ],
+   "references": [
+    "akari:label:multivitamin-mineral-effervescent"
+   ],
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 4.5,
+   "source": {
+    "kind": "estimate",
+    "reason": "1 effervescent tablet, the label file's own dose (4.5 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-42"
   },
   {
    "key": "mung bean sprouts cooked",
@@ -28496,6 +30852,27 @@
    "origin": "generated",
    "date": "2026-10-24",
    "draft": "batch-22"
+  },
+  {
+   "key": "munster cheese",
+   "names": [
+    "munster cheese",
+    "munsterkase"
+   ],
+   "references": [
+    "ciqual:12039"
+   ],
+   "unit": "slice",
+   "typical": 1,
+   "gramsPerUnit": 30,
+   "source": {
+    "kind": "estimate",
+    "reason": "one 30 g piece (heuristic draft for a recipe ingredient)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-41"
   },
   {
    "key": "mushrooms canned",
@@ -28645,7 +31022,8 @@
     "senfmehl"
    ],
    "references": [
-    "cofid:17-362"
+    "cofid:17-362",
+    "usda:170929"
    ],
    "unit": "teaspoon",
    "typical": 1,
@@ -28838,7 +31216,8 @@
     "sandbirne"
    ],
    "references": [
-    "cofid:14-205"
+    "cofid:14-205",
+    "usda:2709255"
    ],
    "unit": "piece",
    "typical": 1,
@@ -29238,6 +31617,61 @@
    "draft": "batch-2"
   },
   {
+   "key": "nutrition or meal replacement bar unspecified",
+   "names": [
+    "nutrition or meal replacement bar unspecified",
+    "meal replacement bar",
+    "mahlzeitersatzriegel",
+    "nutrition bar",
+    "meal bar",
+    "diet bar",
+    "nahrstoffriegel",
+    "mahlzeitenriegel",
+    "diatriegel",
+    "ersatzmahlzeit riegel"
+   ],
+   "references": [
+    "usda:2708127"
+   ],
+   "unit": "bar",
+   "typical": 1,
+   "gramsPerUnit": 60,
+   "source": {
+    "kind": "estimate",
+    "reason": "one 60 g meal replacement bar as sold in German pharmacies and drugstores"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-34"
+  },
+  {
+   "key": "nutritional powder mix high protein",
+   "names": [
+    "nutritional powder mix high protein",
+    "nahrstoffpulver proteinreich",
+    "high protein nutritional powder",
+    "high protein drink powder",
+    "protein breakfast powder",
+    "proteinreiches nahrstoffpulver",
+    "protein fruhstucksdrink pulver"
+   ],
+   "references": [
+    "usda:2710741"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 44,
+   "source": {
+    "kind": "estimate",
+    "reason": "one packet; USDA's packet and scoop are 44 g"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-35"
+  },
+  {
    "key": "nutritional powder mix whey based nfs",
    "names": [
     "nutritional powder mix whey based nfs"
@@ -29367,6 +31801,58 @@
    "origin": "generated",
    "date": "2026-10-24",
    "draft": "batch-25"
+  },
+  {
+   "key": "oat drink sweetened flavoured",
+   "names": [
+    "oat drink sweetened flavoured",
+    "haferdrink gesußt aromatisiert",
+    "vanilla oat drink",
+    "chocolate oat drink",
+    "haferdrink vanille",
+    "haferdrink schoko",
+    "hafer schokodrink"
+   ],
+   "references": [
+    "bls:C660300"
+   ],
+   "unit": "glass",
+   "typical": 1,
+   "milliliters": 250,
+   "source": {
+    "kind": "estimate",
+    "reason": "a regular drinking glass"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-30"
+  },
+  {
+   "key": "oat drink unsweetened fortified",
+   "names": [
+    "oat drink unsweetened fortified",
+    "haferdrink ungesußt angereichert",
+    "oat drink with calcium",
+    "fortified oat milk",
+    "haferdrink mit calcium",
+    "haferdrink angereichert",
+    "haferdrink calcium"
+   ],
+   "references": [
+    "bls:C660200"
+   ],
+   "unit": "glass",
+   "typical": 1,
+   "milliliters": 250,
+   "source": {
+    "kind": "estimate",
+    "reason": "a regular drinking glass"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-30"
   },
   {
    "key": "oat flour",
@@ -29630,6 +32116,68 @@
    "draft": "batch-2"
   },
   {
+   "key": "omega 3 algae oil capsule",
+   "names": [
+    "omega 3 algae oil capsule",
+    "omega 3 algenolkapsel",
+    "algae oil capsule",
+    "vegan omega 3 capsule",
+    "omega 3 vegan",
+    "algal oil capsule",
+    "algenolkapsel",
+    "algenol kapsel",
+    "omega 3 vegan kapsel",
+    "vegane omega 3 kapsel",
+    "omega 3 algenol"
+   ],
+   "references": [
+    "akari:label:omega-3-algae-oil-capsule"
+   ],
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 0.715833,
+   "source": {
+    "kind": "estimate",
+    "reason": "1 capsule, the label file's own dose (0.715833 g, the median capsule of three labels)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-45"
+  },
+  {
+   "key": "omega 3 fish oil capsule",
+   "names": [
+    "omega 3 fish oil capsule",
+    "omega 3 fischolkapsel",
+    "fish oil capsule",
+    "omega 3 capsule",
+    "omega 3 1000",
+    "salmon oil capsule",
+    "fischolkapsel",
+    "fischol kapsel",
+    "omega 3 kapsel",
+    "omega 3 kapseln",
+    "seefischol kapsel",
+    "lachsolkapsel",
+    "omega 3 fischol"
+   ],
+   "references": [
+    "akari:label:omega-3-fish-oil-capsule"
+   ],
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 1.41667,
+   "source": {
+    "kind": "estimate",
+    "reason": "1 capsule, the label file's own dose (1.41667 g, the median capsule of six labels)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-45"
+  },
+  {
    "key": "omelette",
    "names": [
     "omelette",
@@ -29766,6 +32314,30 @@
    "origin": "generated",
    "date": "2026-10-19",
    "draft": "batch-9"
+  },
+  {
+   "key": "oolong tea",
+   "names": [
+    "oolong tea",
+    "oolong tee",
+    "oolong",
+    "oolongtee",
+    "wulong tea"
+   ],
+   "references": [
+    "usda:2710492"
+   ],
+   "unit": "cup",
+   "typical": 1,
+   "milliliters": 200,
+   "source": {
+    "kind": "estimate",
+    "reason": "one cup of oolong, brewed small like green tea"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-31"
   },
   {
    "key": "orange",
@@ -29970,7 +32542,8 @@
     "anisette"
    ],
    "references": [
-    "bls:P7A1000"
+    "bls:P7A1000",
+    "ciqual:1000"
    ],
    "unit": "glass",
    "typical": 1,
@@ -30164,6 +32737,33 @@
    "origin": "generated",
    "date": "2026-10-24",
    "draft": "batch-26"
+  },
+  {
+   "key": "palmier",
+   "names": [
+    "palmier",
+    "schweineohr",
+    "palmiers",
+    "pig ear pastry",
+    "schweineohren",
+    "schweinsohr",
+    "schweinsohren",
+    "blatterteig schweineohr"
+   ],
+   "references": [
+    "bls:D770300"
+   ],
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 35,
+   "source": {
+    "kind": "estimate",
+    "reason": "one bakery Schweineohr, about 35 g"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-29"
   },
   {
    "key": "pan fried chicken breast",
@@ -30897,6 +33497,34 @@
    "draft": "batch-5"
   },
   {
+   "key": "pea protein isolate powder",
+   "names": [
+    "pea protein isolate powder",
+    "erbsenprotein",
+    "pea protein",
+    "pea protein isolate",
+    "pea protein powder",
+    "erbsenproteinisolat",
+    "erbsenprotein pulver",
+    "erbseneiweiß",
+    "erbsenproteinpulver"
+   ],
+   "references": [
+    "akari:label:pea-protein"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 30,
+   "source": {
+    "kind": "estimate",
+    "reason": "one 30 g scoop, the file's own measure"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-35"
+  },
+  {
    "key": "pea soup",
    "names": [
     "pea soup",
@@ -30996,6 +33624,34 @@
    "origin": "generated",
    "date": "2026-10-01",
    "draft": "batch-1"
+  },
+  {
+   "key": "peanut butter powder",
+   "names": [
+    "peanut butter powder",
+    "erdnussbutterpulver",
+    "powdered peanut butter",
+    "peanut flour",
+    "pb powder",
+    "defatted peanut flour",
+    "erdnusspulver",
+    "erdnussmehl entolt",
+    "erdnussbutter pulver"
+   ],
+   "references": [
+    "akari:label:peanut-butter-powder"
+   ],
+   "unit": "tablespoon",
+   "typical": 2,
+   "gramsPerUnit": 8,
+   "source": {
+    "kind": "estimate",
+    "reason": "two tablespoons, 16 g, the file's own measure"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-35"
   },
   {
    "key": "peanut caramel bar",
@@ -31849,6 +34505,56 @@
    "draft": "batch-19"
   },
   {
+   "key": "pilsner alcohol free 0 0",
+   "names": [
+    "pilsner alcohol free 0 0",
+    "pils alkoholfrei 0 0",
+    "0 0 pils",
+    "alkoholfreies pils 0 0"
+   ],
+   "references": [
+    "bls:P163110"
+   ],
+   "unit": "bottle",
+   "typical": 1,
+   "milliliters": 500,
+   "source": {
+    "kind": "estimate",
+    "reason": "one 0.5 l bottle, as the beer portion"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-32"
+  },
+  {
+   "key": "pilsner with mineral water",
+   "names": [
+    "pilsner with mineral water",
+    "beer with mineral water",
+    "radler sauer",
+    "sour radler",
+    "beer with sparkling water",
+    "saures radler",
+    "bier mit mineralwasser",
+    "alster sauer"
+   ],
+   "references": [
+    "bls:P1A3110"
+   ],
+   "unit": "glass",
+   "typical": 1,
+   "milliliters": 500,
+   "source": {
+    "kind": "estimate",
+    "reason": "one Halbe, the glass a Radler sauer is served in"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-32"
+  },
+  {
    "key": "pina colada",
    "names": [
     "pina colada",
@@ -32325,6 +35031,36 @@
    "draft": "batch-17"
   },
   {
+   "key": "plant based pudding fortified",
+   "names": [
+    "plant based pudding fortified",
+    "pflanzlicher pudding angereichert",
+    "soy pudding",
+    "soya dessert",
+    "vegan pudding",
+    "plant based dessert",
+    "sojapudding",
+    "soja dessert",
+    "veganer pudding",
+    "pflanzlicher pudding",
+    "sojadessert"
+   ],
+   "references": [
+    "bls:H843300"
+   ],
+   "unit": "cup",
+   "typical": 1,
+   "gramsPerUnit": 125,
+   "source": {
+    "kind": "estimate",
+    "reason": "one 125 g dessert cup, the usual soy dessert pot"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-30"
+  },
+  {
    "key": "plantain",
    "names": [
     "plantain",
@@ -32435,6 +35171,30 @@
    "origin": "generated",
    "date": "2026-10-24",
    "draft": "batch-25"
+  },
+  {
+   "key": "plum pudding",
+   "names": [
+    "plum pudding",
+    "plumpudding",
+    "english christmas pudding",
+    "figgy pudding",
+    "weihnachtspudding"
+   ],
+   "references": [
+    "bls:Y835463"
+   ],
+   "unit": "slice",
+   "typical": 1,
+   "gramsPerUnit": 100,
+   "source": {
+    "kind": "estimate",
+    "reason": "one 100 g slice of the pudding"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-36"
   },
   {
    "key": "pointed cabbage cooked",
@@ -32686,6 +35446,30 @@
    "draft": "batch-8"
   },
   {
+   "key": "poppy seed cake",
+   "names": [
+    "poppy seed cake",
+    "mohnkuchen",
+    "thuringian poppy seed cake",
+    "thuringer mohnkuchen",
+    "mohnkuchen vom blech"
+   ],
+   "references": [
+    "bls:D4A6300"
+   ],
+   "unit": "slice",
+   "typical": 1,
+   "gramsPerUnit": 120,
+   "source": {
+    "kind": "estimate",
+    "reason": "one piece of a tray-baked poppy seed cake, about 120 g"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-29"
+  },
+  {
    "key": "poppy seed roll",
    "names": [
     "poppy seed roll",
@@ -32864,6 +35648,31 @@
    "origin": "generated",
    "date": "2026-10-01",
    "draft": "batch-6"
+  },
+  {
+   "key": "pork belly raw",
+   "names": [
+    "pork belly raw",
+    "schweinebauch roh",
+    "bauchfleisch",
+    "wammerl",
+    "schweinswammerl",
+    "bauchspeck frisch"
+   ],
+   "references": [
+    "cofid:18-557"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 150,
+   "source": {
+    "kind": "estimate",
+    "reason": "raw pork belly for one person, as the BLS row had it"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-44"
   },
   {
    "key": "pork belly untrimmed fried in the oven without fat",
@@ -33417,7 +36226,8 @@
     "schweinehackfleisch roh"
    ],
    "references": [
-    "bls:U020100"
+    "bls:U020100",
+    "cofid:18-606"
    ],
    "unit": "portion",
    "typical": 1,
@@ -33723,6 +36533,30 @@
    "draft": "batch-18"
   },
   {
+   "key": "pork rump raw",
+   "names": [
+    "pork rump raw",
+    "schweinehufte roh",
+    "pork rump",
+    "pork rump roast raw",
+    "schweinebraten hufte roh"
+   ],
+   "references": [
+    "bls:U576100"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 160,
+   "source": {
+    "kind": "estimate",
+    "reason": "raw pork rump for one person, as the BLS row had it"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-44"
+  },
+  {
    "key": "pork sausage meat raw",
    "names": [
     "pork sausage meat raw",
@@ -33883,6 +36717,28 @@
    "origin": "generated",
    "date": "2026-10-01",
    "draft": "batch-6"
+  },
+  {
+   "key": "pork shoulder raw",
+   "names": [
+    "pork shoulder raw",
+    "schweineschulter roh",
+    "schweinebug"
+   ],
+   "references": [
+    "ciqual:28001"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 180,
+   "source": {
+    "kind": "estimate",
+    "reason": "raw pork shoulder for one person, as the BLS row had it"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-44"
   },
   {
    "key": "pork spare ribs barbecue style homemade",
@@ -34048,6 +36904,27 @@
    "origin": "generated",
    "date": "2026-10-24",
    "draft": "batch-15"
+  },
+  {
+   "key": "potato dough raw",
+   "names": [
+    "potato dough raw",
+    "kartoffelteig roh"
+   ],
+   "references": [
+    "bls:X6A5000"
+   ],
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 60,
+   "source": {
+    "kind": "estimate",
+    "reason": "one piece of about 60 g (heuristic draft for a recipe ingredient)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-40"
   },
   {
    "key": "potato dumplings",
@@ -34387,6 +37264,36 @@
    "draft": "batch-25"
   },
   {
+   "key": "pregnancy multivitamin",
+   "names": [
+    "pregnancy multivitamin",
+    "schwangerschaftsvitamine",
+    "prenatal vitamin",
+    "prenatal multivitamin",
+    "pregnancy vitamins",
+    "schwangerschaft vitamine",
+    "schwangerschaftsvitamin",
+    "femibion",
+    "mama vitamine",
+    "kinderwunsch vitamine",
+    "stillzeit vitamine"
+   ],
+   "references": [
+    "akari:label:pregnancy-multivitamin"
+   ],
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 0.733333,
+   "source": {
+    "kind": "estimate",
+    "reason": "1 daily dose, tablet or capsules, the label file's own dose (0.733333 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-42"
+  },
+  {
    "key": "pretzel roll",
    "names": [
     "pretzel roll",
@@ -34460,6 +37367,53 @@
    "origin": "generated",
    "date": "2026-10-19",
    "draft": "batch-9"
+  },
+  {
+   "key": "printen aachen gingerbread",
+   "names": [
+    "printen aachen gingerbread",
+    "printen",
+    "aachener printen",
+    "printen gingerbread",
+    "krauterprinten",
+    "aachen printen"
+   ],
+   "references": [
+    "bls:D651300"
+   ],
+   "unit": "piece",
+   "typical": 2,
+   "gramsPerUnit": 15,
+   "source": {
+    "kind": "estimate",
+    "reason": "two Printen, 15 g each"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-36"
+  },
+  {
+   "key": "prinzregententorte",
+   "names": [
+    "prinzregententorte",
+    "prince regent cake",
+    "prinzregenten torte"
+   ],
+   "references": [
+    "bls:D330400"
+   ],
+   "unit": "slice",
+   "typical": 1,
+   "gramsPerUnit": 120,
+   "source": {
+    "kind": "estimate",
+    "reason": "one Tortenstück of the thin-layered Prinzregententorte, about 120 g"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-29"
   },
   {
    "key": "probiotic yogurt drink",
@@ -34545,6 +37499,32 @@
    "draft": "batch-3"
   },
   {
+   "key": "protein balls",
+   "names": [
+    "protein balls",
+    "protein bites",
+    "energy balls",
+    "protein ball",
+    "proteinkugeln",
+    "energiekugeln",
+    "proteinballchen"
+   ],
+   "references": [
+    "akari:label:protein-balls"
+   ],
+   "unit": "piece",
+   "typical": 2,
+   "gramsPerUnit": 20,
+   "source": {
+    "kind": "estimate",
+    "reason": "two 20 g balls, the file's own measure"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-35"
+  },
+  {
    "key": "protein bar",
    "names": [
     "protein bar",
@@ -34572,6 +37552,33 @@
    "draft": "batch-25"
   },
   {
+   "key": "protein bar low sugar",
+   "names": [
+    "protein bar low sugar",
+    "proteinriegel zuckerarm",
+    "low carb protein bar",
+    "zero sugar protein bar",
+    "low carb proteinriegel",
+    "proteinriegel ohne zucker",
+    "eiweißriegel zuckerarm"
+   ],
+   "references": [
+    "akari:label:protein-bar-low-sugar"
+   ],
+   "unit": "bar",
+   "typical": 1,
+   "gramsPerUnit": 60,
+   "source": {
+    "kind": "household-measure",
+    "reference": "akari:label:protein-bar-low-sugar",
+    "label": "1 bar"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-35"
+  },
+  {
    "key": "protein bread",
    "names": [
     "protein bread",
@@ -34595,6 +37602,186 @@
    "origin": "generated",
    "date": "2026-10-24",
    "draft": "batch-14"
+  },
+  {
+   "key": "protein cookie",
+   "names": [
+    "protein cookie",
+    "protein cookies",
+    "soft protein cookie",
+    "proteinkeks",
+    "proteincookie",
+    "eiweiß cookie",
+    "protein keks"
+   ],
+   "references": [
+    "akari:label:protein-cookie"
+   ],
+   "unit": "cookie",
+   "typical": 1,
+   "gramsPerUnit": 60,
+   "source": {
+    "kind": "household-measure",
+    "reference": "akari:label:protein-cookie",
+    "label": "1 cookie"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-35"
+  },
+  {
+   "key": "protein granola",
+   "names": [
+    "protein granola",
+    "protein crunchy",
+    "protein crunchy muesli",
+    "protein knuspermusli",
+    "proteingranola"
+   ],
+   "references": [
+    "akari:label:protein-granola"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 50,
+   "source": {
+    "kind": "estimate",
+    "reason": "one 50 g bowl, the file's own measure"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-35"
+  },
+  {
+   "key": "protein muesli",
+   "names": [
+    "protein muesli",
+    "protein musli",
+    "high protein muesli",
+    "proteinmusli",
+    "eiweißmusli"
+   ],
+   "references": [
+    "akari:label:protein-muesli"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 50,
+   "source": {
+    "kind": "estimate",
+    "reason": "one 50 g bowl, the file's own measure"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-35"
+  },
+  {
+   "key": "protein pancake mix dry",
+   "names": [
+    "protein pancake mix dry",
+    "protein pancake mix",
+    "protein pancakes mix",
+    "protein pancake powder",
+    "protein pfannkuchen mix",
+    "proteinpancakes pulver",
+    "eiweiß pancake mix",
+    "protein pancakes"
+   ],
+   "references": [
+    "akari:label:protein-pancake-mix"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 50,
+   "source": {
+    "kind": "estimate",
+    "reason": "the dry mix for one serving, 50 g, the file's own measure"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-35"
+  },
+  {
+   "key": "protein porridge dry",
+   "names": [
+    "protein porridge dry",
+    "protein porridge",
+    "protein oats",
+    "protein oatmeal",
+    "proteinporridge",
+    "protein haferbrei",
+    "eiweiß porridge"
+   ],
+   "references": [
+    "akari:label:protein-porridge"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 60,
+   "source": {
+    "kind": "estimate",
+    "reason": "the dry mix for one bowl, 60 g, the file's own measure"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-35"
+  },
+  {
+   "key": "protein powder light",
+   "names": [
+    "protein powder light",
+    "proteinpulver light",
+    "diet protein powder",
+    "diat proteinpulver",
+    "eiweißpulver light"
+   ],
+   "references": [
+    "usda:2710744"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 30,
+   "source": {
+    "kind": "estimate",
+    "reason": "one 30 g scoop, as the other protein powders"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-35"
+  },
+  {
+   "key": "protein powder soy based",
+   "names": [
+    "protein powder soy based",
+    "soy protein powder",
+    "sojaproteinpulver",
+    "soy protein",
+    "soya protein powder",
+    "soy protein shake powder",
+    "sojaprotein",
+    "soja proteinpulver",
+    "sojaeiweißpulver"
+   ],
+   "references": [
+    "usda:2710743"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 30,
+   "source": {
+    "kind": "estimate",
+    "reason": "one 30 g scoop, as the whey protein portion; USDA's Gold Standard scoop is 30 g"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-34"
   },
   {
    "key": "protein roll",
@@ -34651,6 +37838,113 @@
    "origin": "generated",
    "date": "2026-10-24",
    "draft": "batch-26"
+  },
+  {
+   "key": "protein shake light ready to drink",
+   "names": [
+    "protein shake light ready to drink",
+    "proteinshake light trinkfertig",
+    "light protein shake",
+    "low sugar protein drink",
+    "proteindrink light",
+    "proteinshake zuckerarm",
+    "trinkfertiger proteinshake"
+   ],
+   "references": [
+    "usda:2710727"
+   ],
+   "unit": "bottle",
+   "typical": 1,
+   "milliliters": 330,
+   "source": {
+    "kind": "estimate",
+    "reason": "one 330 ml bottle; USDA's cup is 248 g"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-34"
+  },
+  {
+   "key": "protein spread hazelnut",
+   "names": [
+    "protein spread hazelnut",
+    "protein creme",
+    "protein spread",
+    "protein cream",
+    "protein nut spread",
+    "protein aufstrich",
+    "proteincreme",
+    "eiweiß creme",
+    "protein nuss nougat creme"
+   ],
+   "references": [
+    "akari:label:protein-spread"
+   ],
+   "unit": "tablespoon",
+   "typical": 1,
+   "gramsPerUnit": 15,
+   "source": {
+    "kind": "household-measure",
+    "reference": "akari:label:protein-spread",
+    "label": "1 tablespoon"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-35"
+  },
+  {
+   "key": "protein wafer",
+   "names": [
+    "protein wafer",
+    "protein waffel",
+    "protein wafers",
+    "protein wafer bar",
+    "proteinwaffel",
+    "eiweißwaffel"
+   ],
+   "references": [
+    "akari:label:protein-wafer"
+   ],
+   "unit": "bar",
+   "typical": 1,
+   "gramsPerUnit": 40,
+   "source": {
+    "kind": "estimate",
+    "reason": "one 40 g wafer bar, the file's own measure"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-35"
+  },
+  {
+   "key": "protein water",
+   "names": [
+    "protein water",
+    "protein wasser",
+    "clear protein drink",
+    "clear protein water",
+    "ready to drink clear whey",
+    "proteinwasser",
+    "klarer proteindrink",
+    "clear whey drink"
+   ],
+   "references": [
+    "akari:label:protein-water"
+   ],
+   "unit": "bottle",
+   "typical": 1,
+   "milliliters": 500,
+   "source": {
+    "kind": "estimate",
+    "reason": "one 500 ml bottle, the file's own measure"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-35"
   },
   {
    "key": "prunes",
@@ -34745,6 +38039,27 @@
    "origin": "generated",
    "date": "2026-10-24",
    "draft": "batch-13"
+  },
+  {
+   "key": "puff pastry egg free baked",
+   "names": [
+    "puff pastry egg free baked",
+    "blatterteig eifrei gebacken"
+   ],
+   "references": [
+    "bls:D072062"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 100,
+   "source": {
+    "kind": "estimate",
+    "reason": "one 100 g portion (heuristic draft for a recipe ingredient)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-41"
   },
   {
    "key": "puffed amaranth",
@@ -35433,6 +38748,32 @@
    "draft": "batch-21"
   },
   {
+   "key": "quorn pieces",
+   "names": [
+    "quorn pieces",
+    "quorn stucke",
+    "quorn",
+    "mycoprotein",
+    "mycoprotein pieces",
+    "quorn geschnetzeltes",
+    "mykoprotein"
+   ],
+   "references": [
+    "cofid:13-574"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 100,
+   "source": {
+    "kind": "estimate",
+    "reason": "one 100 g portion (heuristic draft for a recipe ingredient)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-40"
+  },
+  {
    "key": "rabbit",
    "names": [
     "rabbit"
@@ -36020,6 +39361,34 @@
    "draft": "batch-4"
   },
   {
+   "key": "recovery shake powder",
+   "names": [
+    "recovery shake powder",
+    "recovery shake pulver",
+    "recovery shake",
+    "recovery drink powder",
+    "recovery protein",
+    "post workout shake powder",
+    "regenerationsshake",
+    "recovery drink",
+    "post workout shake"
+   ],
+   "references": [
+    "akari:label:recovery-shake"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 60,
+   "source": {
+    "kind": "estimate",
+    "reason": "one 60 g serving, the file's own measure"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-35"
+  },
+  {
    "key": "red bell pepper",
    "names": [
     "red bell pepper",
@@ -36388,6 +39757,55 @@
    "draft": "batch-4"
   },
   {
+   "key": "red wine medium sweet",
+   "names": [
+    "red wine medium sweet",
+    "rotwein lieblich",
+    "semi sweet red wine",
+    "lieblicher rotwein",
+    "rotwein halbsuß",
+    "dornfelder lieblich"
+   ],
+   "references": [
+    "bls:P2A2000"
+   ],
+   "unit": "glass",
+   "typical": 1,
+   "milliliters": 150,
+   "source": {
+    "kind": "estimate",
+    "reason": "one wine glass, as the red wine portion"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-32"
+  },
+  {
+   "key": "red wine sweet",
+   "names": [
+    "red wine sweet",
+    "rotwein suß",
+    "sußer rotwein",
+    "rotwein mild",
+    "lambrusco dolce"
+   ],
+   "references": [
+    "bls:P2A1000"
+   ],
+   "unit": "glass",
+   "typical": 1,
+   "milliliters": 150,
+   "source": {
+    "kind": "estimate",
+    "reason": "one wine glass, as the red wine portion"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-32"
+  },
+  {
    "key": "redfish raw",
    "names": [
     "redfish raw",
@@ -36484,6 +39902,32 @@
    "origin": "generated",
    "date": "2026-10-01",
    "draft": "batch-5"
+  },
+  {
+   "key": "rheinische mutzen fried pastry",
+   "names": [
+    "rheinische mutzen fried pastry",
+    "mutzen",
+    "rheinische mutzen",
+    "mutzenmandeln",
+    "mutzen fried pastry",
+    "karnevalsgeback",
+    "carnival pastry"
+   ],
+   "references": [
+    "bls:D754100"
+   ],
+   "unit": "piece",
+   "typical": 3,
+   "gramsPerUnit": 25,
+   "source": {
+    "kind": "estimate",
+    "reason": "three Mutzen, 25 g each, a carnival bag"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-36"
   },
   {
    "key": "rhubarb",
@@ -36754,6 +40198,33 @@
    "draft": "batch-1"
   },
   {
+   "key": "rice protein powder",
+   "names": [
+    "rice protein powder",
+    "reisprotein",
+    "rice protein",
+    "brown rice protein",
+    "rice protein isolate",
+    "reisproteinpulver",
+    "reiseiweiß",
+    "reisprotein pulver"
+   ],
+   "references": [
+    "akari:label:rice-protein"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 30,
+   "source": {
+    "kind": "estimate",
+    "reason": "one 30 g scoop, the file's own measure"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-35"
+  },
+  {
    "key": "rice pudding sweetened with milk 3 5 fat",
    "names": [
     "rice pudding sweetened with milk 3 5 fat",
@@ -36809,7 +40280,8 @@
     "reiswein"
    ],
    "references": [
-    "usda:2710691"
+    "usda:2710691",
+    "ciqual:1026"
    ],
    "unit": "glass",
    "typical": 1,
@@ -37867,6 +41339,27 @@
    "draft": "batch-24"
   },
   {
+   "key": "rose hips",
+   "names": [
+    "rose hips",
+    "hagebutten"
+   ],
+   "references": [
+    "bls:F402100"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 150,
+   "source": {
+    "kind": "estimate",
+    "reason": "one 150 g portion of meat, fish or a prepared dish (heuristic draft for a recipe ingredient)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-41"
+  },
+  {
    "key": "rose wine",
    "names": [
     "rose wine",
@@ -38328,6 +41821,29 @@
    "origin": "generated",
    "date": "2026-10-01",
    "draft": "batch-2"
+  },
+  {
+   "key": "sage dried ground",
+   "names": [
+    "sage dried ground",
+    "salbei getrocknet",
+    "salbei gemahlen",
+    "sage dried"
+   ],
+   "references": [
+    "ciqual:11037"
+   ],
+   "unit": "teaspoon",
+   "typical": 0.5,
+   "gramsPerUnit": 0.7,
+   "source": {
+    "kind": "estimate",
+    "reason": "a level teaspoon of dried ground sage, as the CoFID row had it"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-44"
   },
   {
    "key": "saithe pollack breaded deep frozen deep fried",
@@ -39501,6 +43017,31 @@
    "draft": "batch-26"
   },
   {
+   "key": "scotch whisky",
+   "names": [
+    "scotch whisky",
+    "single malt",
+    "single malt whisky",
+    "malt whisky",
+    "blended scotch",
+    "schottischer whisky"
+   ],
+   "references": [
+    "usda:2710701"
+   ],
+   "unit": "glass",
+   "typical": 1,
+   "milliliters": 40,
+   "source": {
+    "kind": "estimate",
+    "reason": "one 4 cl measure, as the whisky portion; USDA's shot is 42 g"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-32"
+  },
+  {
    "key": "scrambled eggs",
    "names": [
     "scrambled eggs",
@@ -39805,6 +43346,34 @@
    "draft": "batch-22"
   },
   {
+   "key": "selenium tablet",
+   "names": [
+    "selenium tablet",
+    "selentablette",
+    "selenium",
+    "selenium capsule",
+    "selen",
+    "selen tablette",
+    "selen 100",
+    "selen 200",
+    "selen kapsel"
+   ],
+   "references": [
+    "akari:label:selenium-tablet"
+   ],
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 0.533333,
+   "source": {
+    "kind": "estimate",
+    "reason": "1 tablet or capsule, the label file's own dose (0.533333 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-42"
+  },
+  {
    "key": "self raising flour",
    "names": [
     "self raising flour",
@@ -39899,6 +43468,34 @@
    "origin": "generated",
    "date": "2026-10-01",
    "draft": "batch-6"
+  },
+  {
+   "key": "senior multivitamin tablet",
+   "names": [
+    "senior multivitamin tablet",
+    "multivitamintablette 50 plus",
+    "multivitamin 50",
+    "a z ab 50",
+    "senior vitamins",
+    "aktiv 65",
+    "a z 50 plus",
+    "vitamine ab 50",
+    "multivitamin senioren"
+   ],
+   "references": [
+    "akari:label:senior-multivitamin"
+   ],
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 1.53,
+   "source": {
+    "kind": "estimate",
+    "reason": "1 daily dose of tablets, the label file's own dose (1.53 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-42"
   },
   {
    "key": "sesame oil",
@@ -40169,6 +43766,28 @@
    "draft": "batch-4"
   },
   {
+   "key": "shirley temple",
+   "names": [
+    "shirley temple",
+    "kinder cocktail",
+    "ginger ale with grenadine"
+   ],
+   "references": [
+    "usda:2710611"
+   ],
+   "unit": "glass",
+   "typical": 1,
+   "milliliters": 200,
+   "source": {
+    "kind": "estimate",
+    "reason": "one long drink; USDA's \"1 drink\" is 225 g"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-33"
+  },
+  {
    "key": "shiso",
    "names": [
     "shiso"
@@ -40238,6 +43857,27 @@
    "origin": "generated",
    "date": "2026-10-24",
    "draft": "batch-13"
+  },
+  {
+   "key": "shortcrust pastry raw",
+   "names": [
+    "shortcrust pastry raw",
+    "murbeteig roh"
+   ],
+   "references": [
+    "cofid:11-1017"
+   ],
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 60,
+   "source": {
+    "kind": "estimate",
+    "reason": "one piece of about 60 g (heuristic draft for a recipe ingredient)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-40"
   },
   {
    "key": "shredded wheat",
@@ -41026,6 +44666,31 @@
    "draft": "batch-5"
   },
   {
+   "key": "soft macaron jam or cream filled",
+   "names": [
+    "soft macaron jam or cream filled",
+    "macaron",
+    "macarons",
+    "french macaron",
+    "pariser macaron",
+    "soft macaron"
+   ],
+   "references": [
+    "ciqual:23024"
+   ],
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 60,
+   "source": {
+    "kind": "estimate",
+    "reason": "one piece of about 60 g (heuristic draft for a recipe ingredient)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-40"
+  },
+  {
    "key": "sojagranulat",
    "names": [
     "sojagranulat",
@@ -41408,6 +45073,57 @@
    "draft": "batch-22"
   },
   {
+   "key": "soy drink sweetened flavoured",
+   "names": [
+    "soy drink sweetened flavoured",
+    "sojadrink gesußt aromatisiert",
+    "vanilla soy drink",
+    "vanilla soy milk",
+    "sojadrink vanille",
+    "sojadrink banane"
+   ],
+   "references": [
+    "bls:H842400"
+   ],
+   "unit": "glass",
+   "typical": 1,
+   "milliliters": 250,
+   "source": {
+    "kind": "estimate",
+    "reason": "a regular drinking glass"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-30"
+  },
+  {
+   "key": "soy drink unsweetened fortified",
+   "names": [
+    "soy drink unsweetened fortified",
+    "sojadrink ungesußt angereichert",
+    "soy drink with calcium",
+    "fortified soy milk",
+    "sojadrink mit calcium",
+    "sojadrink angereichert",
+    "sojadrink calcium"
+   ],
+   "references": [
+    "bls:H841400"
+   ],
+   "unit": "glass",
+   "typical": 1,
+   "milliliters": 250,
+   "source": {
+    "kind": "estimate",
+    "reason": "a regular drinking glass"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-30"
+  },
+  {
    "key": "soy milk",
    "names": [
     "soy milk",
@@ -41432,6 +45148,55 @@
    "origin": "generated",
    "date": "2026-10-01",
    "draft": "batch-1"
+  },
+  {
+   "key": "soy milk chocolate",
+   "names": [
+    "soy milk chocolate",
+    "sojadrink schoko",
+    "chocolate soy drink",
+    "sojadrink schokolade",
+    "soja schokodrink"
+   ],
+   "references": [
+    "usda:2705406"
+   ],
+   "unit": "glass",
+   "typical": 1,
+   "milliliters": 250,
+   "source": {
+    "kind": "estimate",
+    "reason": "a regular drinking glass"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-30"
+  },
+  {
+   "key": "soy milk sweetened",
+   "names": [
+    "soy milk sweetened",
+    "sojadrink gesußt",
+    "sweetened soy drink",
+    "sojadrink mit zucker",
+    "gesußter sojadrink",
+    "sojadrink original"
+   ],
+   "references": [
+    "usda:2705404"
+   ],
+   "unit": "glass",
+   "typical": 1,
+   "milliliters": 250,
+   "source": {
+    "kind": "estimate",
+    "reason": "a regular drinking glass"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-30"
   },
   {
    "key": "soy mince cooked",
@@ -41462,6 +45227,32 @@
    "draft": "batch-22"
   },
   {
+   "key": "soy protein isolate",
+   "names": [
+    "soy protein isolate",
+    "sojaproteinisolat",
+    "soy isolate",
+    "soya protein isolate",
+    "soja isolat",
+    "sojaisolat",
+    "soja protein isolat"
+   ],
+   "references": [
+    "bls:H011000"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 30,
+   "source": {
+    "kind": "estimate",
+    "reason": "one 30 g scoop, as the whey protein portion"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-34"
+  },
+  {
    "key": "soy sauce",
    "names": [
     "soy sauce",
@@ -41489,6 +45280,34 @@
    "origin": "generated",
    "date": "2026-10-01",
    "draft": "batch-1"
+  },
+  {
+   "key": "soy yogurt sweetened flavoured",
+   "names": [
+    "soy yogurt sweetened flavoured",
+    "sojajoghurt gesußt aromatisiert",
+    "fruit soy yogurt",
+    "vanilla soy yogurt",
+    "flavoured soy yogurt",
+    "sojajoghurt vanille",
+    "sojajoghurt frucht",
+    "sojajoghurt erdbeere",
+    "soja fruchtjoghurt"
+   ],
+   "references": [
+    "bls:H844400"
+   ],
+   "unit": "cup",
+   "typical": 1,
+   "gramsPerUnit": 150,
+   "source": {
+    "kind": "estimate",
+    "reason": "one 150 g pot of a fruit soy yogurt"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-30"
   },
   {
    "key": "soy yogurt unsweetened",
@@ -41721,7 +45540,8 @@
     "champagner"
    ],
    "references": [
-    "bls:P2A6100"
+    "bls:P2A6100",
+    "ciqual:5207"
    ],
    "unit": "glass",
    "typical": 1,
@@ -41734,6 +45554,82 @@
    "origin": "generated",
    "date": "2026-10-19",
    "draft": "batch-9"
+  },
+  {
+   "key": "sparkling wine brut",
+   "names": [
+    "sparkling wine brut",
+    "sekt brut",
+    "brut",
+    "sekt herb",
+    "herber sekt",
+    "sekt extra brut",
+    "prosecco brut"
+   ],
+   "references": [
+    "bls:P2A6110"
+   ],
+   "unit": "glass",
+   "typical": 1,
+   "milliliters": 100,
+   "source": {
+    "kind": "estimate",
+    "reason": "one flute, as the sparkling wine portion"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-32"
+  },
+  {
+   "key": "sparkling wine medium dry",
+   "names": [
+    "sparkling wine medium dry",
+    "sekt halbtrocken",
+    "demi sec",
+    "halbtrockener sekt",
+    "sekt demi sec",
+    "prosecco halbtrocken"
+   ],
+   "references": [
+    "bls:P2A7100"
+   ],
+   "unit": "glass",
+   "typical": 1,
+   "milliliters": 100,
+   "source": {
+    "kind": "estimate",
+    "reason": "one flute, as the sparkling wine portion"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-32"
+  },
+  {
+   "key": "sparkling wine sweet",
+   "names": [
+    "sparkling wine sweet",
+    "sekt suß",
+    "doux",
+    "sußer sekt",
+    "sekt mild",
+    "asti dolce"
+   ],
+   "references": [
+    "bls:P2A7000"
+   ],
+   "unit": "glass",
+   "typical": 1,
+   "milliliters": 100,
+   "source": {
+    "kind": "estimate",
+    "reason": "one flute, as the sparkling wine portion"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-32"
   },
   {
    "key": "speculoos",
@@ -42239,7 +46135,9 @@
     "sportdrink"
    ],
    "references": [
-    "usda:2710771"
+    "usda:2710771",
+    "bls:N259000",
+    "usda:2710775"
    ],
    "unit": "bottle",
    "typical": 1,
@@ -42252,6 +46150,63 @@
    "origin": "generated",
    "date": "2026-10-24",
    "draft": "batch-24"
+  },
+  {
+   "key": "sports drink low calorie",
+   "names": [
+    "sports drink low calorie",
+    "sportgetrank kalorienarm",
+    "zero sports drink",
+    "sugar free sports drink",
+    "low calorie isotonic drink",
+    "sportgetrank zero",
+    "sportgetrank zuckerfrei",
+    "iso zero",
+    "isotonisches getrank zuckerfrei"
+   ],
+   "references": [
+    "usda:2710774"
+   ],
+   "unit": "bottle",
+   "typical": 1,
+   "milliliters": 500,
+   "source": {
+    "kind": "estimate",
+    "reason": "one 500 ml bottle, as the sports drink portion"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-34"
+  },
+  {
+   "key": "sports drink powder dry",
+   "names": [
+    "sports drink powder dry",
+    "sports drink powder",
+    "sportgetrankepulver",
+    "isotonic drink powder",
+    "isotonic powder",
+    "iso powder",
+    "iso pulver",
+    "isopulver",
+    "isotonisches getrankepulver",
+    "sportgetrank pulver"
+   ],
+   "references": [
+    "usda:2710615"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 35,
+   "source": {
+    "kind": "estimate",
+    "reason": "the powder for one 500 ml bottle (about 7 g per 100 ml); USDA's tablespoon is 12.5 g"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-34"
   },
   {
    "key": "sprats in oil",
@@ -42635,6 +46590,31 @@
    "draft": "batch-25"
   },
   {
+   "key": "strawberry cream cake",
+   "names": [
+    "strawberry cream cake",
+    "erdbeersahnetorte",
+    "strawberry cream torte",
+    "strawberry cream gateau",
+    "erdbeer sahnetorte",
+    "erdbeersahne torte"
+   ],
+   "references": [
+    "bls:D313300"
+   ],
+   "unit": "slice",
+   "typical": 1,
+   "gramsPerUnit": 150,
+   "source": {
+    "kind": "estimate",
+    "reason": "one Tortenstück of a strawberry cream torte, about 150 g"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-29"
+  },
+  {
    "key": "strawberry ice cream",
    "names": [
     "strawberry ice cream",
@@ -42654,6 +46634,32 @@
    "origin": "generated",
    "date": "2026-10-01",
    "draft": "batch-6"
+  },
+  {
+   "key": "strawberry punch",
+   "names": [
+    "strawberry punch",
+    "erdbeerbowle",
+    "strawberry bowle",
+    "strawberry wine punch",
+    "erdbeer bowle",
+    "bowle mit erdbeeren",
+    "sommerbowle"
+   ],
+   "references": [
+    "bls:P288100"
+   ],
+   "unit": "glass",
+   "typical": 1,
+   "milliliters": 200,
+   "source": {
+    "kind": "estimate",
+    "reason": "one punch glass, 200 ml"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-36"
   },
   {
    "key": "streusel cake",
@@ -43502,6 +47508,26 @@
    "draft": "batch-19"
   },
   {
+   "key": "taco shell corn",
+   "names": [
+    "taco shell corn"
+   ],
+   "references": [
+    "usda:2707826"
+   ],
+   "unit": "piece",
+   "typical": 2,
+   "gramsPerUnit": 13,
+   "source": {
+    "kind": "estimate",
+    "reason": "two hard taco shells; USDA's '1 shell' is 13 g for the standard shell (the 28 g measure is the large one)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-37"
+  },
+  {
    "key": "tahini",
    "names": [
     "tahini",
@@ -43690,7 +47716,8 @@
     "getrockneter estragon"
    ],
    "references": [
-    "ciqual:11050"
+    "ciqual:11050",
+    "usda:170937"
    ],
    "unit": "teaspoon",
    "typical": 1,
@@ -43899,6 +47926,27 @@
    "origin": "generated",
    "date": "2026-10-24",
    "draft": "batch-24"
+  },
+  {
+   "key": "tequila sunrise",
+   "names": [
+    "tequila sunrise",
+    "sunrise cocktail"
+   ],
+   "references": [
+    "usda:2710678"
+   ],
+   "unit": "glass",
+   "typical": 1,
+   "milliliters": 200,
+   "source": {
+    "kind": "estimate",
+    "reason": "one long drink; USDA's \"1 drink\" is 225 g"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-33"
   },
   {
    "key": "teriyaki sauce",
@@ -44233,6 +48281,35 @@
    "draft": "batch-1"
   },
   {
+   "key": "toddler crackers",
+   "names": [
+    "toddler crackers",
+    "kleinkind cracker",
+    "baby crackers",
+    "toddler cracker",
+    "baby rice crackers",
+    "baby rice cakes",
+    "babycracker",
+    "baby reiswaffeln",
+    "kinder reiswaffeln",
+    "knabbercracker baby"
+   ],
+   "references": [
+    "usda:2708190"
+   ],
+   "unit": "piece",
+   "typical": 4,
+   "gramsPerUnit": 3,
+   "source": {
+    "kind": "estimate",
+    "reason": "four small crackers of about 3 g"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-38"
+  },
+  {
    "key": "toddler formula store brand starter or next stage",
    "names": [
     "toddler formula store brand starter or next stage",
@@ -44259,6 +48336,63 @@
    "origin": "generated",
    "date": "2026-10-30",
    "draft": "batch-27"
+  },
+  {
+   "key": "toddler meal vegetables starch milk from 18 months",
+   "names": [
+    "toddler meal vegetables starch milk from 18 months",
+    "toddler meal from 18 months",
+    "kleinkindmenu ab 18 monaten",
+    "toddler meal",
+    "toddler dinner",
+    "toddler ready meal",
+    "kleinkindmenu",
+    "kindermenu ab 1 jahr",
+    "kleinkindteller",
+    "kinderteller fertiggericht"
+   ],
+   "references": [
+    "ciqual:20254"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 200,
+   "source": {
+    "kind": "estimate",
+    "reason": "one 200 g toddler tray"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-38"
+  },
+  {
+   "key": "toddler puffs fruit",
+   "names": [
+    "toddler puffs fruit",
+    "toddler puffs",
+    "baby puffs",
+    "baby snack puffs",
+    "melt in the mouth puffs",
+    "knabberpuffs",
+    "babypuffs",
+    "kleinkind puffs",
+    "knusperringe fur babys"
+   ],
+   "references": [
+    "usda:2708191"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 7,
+   "source": {
+    "kind": "estimate",
+    "reason": "a small handful, 7 g, the serving the packs print"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-38"
   },
   {
    "key": "toffee",
@@ -45425,7 +49559,8 @@
     "vanille flussig"
    ],
    "references": [
-    "ciqual:11065"
+    "ciqual:11065",
+    "usda:173471"
    ],
    "unit": "teaspoon",
    "typical": 1,
@@ -45999,6 +50134,35 @@
    "draft": "batch-5"
   },
   {
+   "key": "vegan bacon strips",
+   "names": [
+    "vegan bacon strips",
+    "veganer bacon",
+    "vegan bacon",
+    "meatless bacon",
+    "plant based bacon",
+    "vegetarian bacon",
+    "vegetarischer bacon",
+    "bacon alternative",
+    "veganer speck",
+    "veggie bacon"
+   ],
+   "references": [
+    "usda:2707465"
+   ],
+   "unit": "slice",
+   "typical": 2,
+   "gramsPerUnit": 12,
+   "source": {
+    "kind": "estimate",
+    "reason": "two slices; a German 100 g pack of vegan bacon holds about 8"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-30"
+  },
+  {
    "key": "vegan cheese",
    "names": [
     "vegan cheese",
@@ -46026,6 +50190,32 @@
    "origin": "generated",
    "date": "2026-10-24",
    "draft": "batch-17"
+  },
+  {
+   "key": "vegan cheese alternative cashew based",
+   "names": [
+    "vegan cheese alternative cashew based",
+    "vegane kasealternative auf cashewbasis",
+    "cashew cheese",
+    "vegan cashew cheese",
+    "cashewkase",
+    "cashew kasealternative",
+    "veganer cashewkase"
+   ],
+   "references": [
+    "bls:H882000"
+   ],
+   "unit": "slice",
+   "typical": 2,
+   "gramsPerUnit": 20,
+   "source": {
+    "kind": "estimate",
+    "reason": "two slices of a cheese alternative on bread"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-30"
   },
   {
    "key": "vegan chicken pieces",
@@ -46087,6 +50277,61 @@
    "draft": "batch-22"
   },
   {
+   "key": "vegan cream cheese alternative",
+   "names": [
+    "vegan cream cheese alternative",
+    "vegane frischcreme",
+    "vegan cream cheese",
+    "plant based cream cheese",
+    "almond cream cheese",
+    "veganer frischkase",
+    "frischkase alternative",
+    "vegane frischkasealternative",
+    "mandel frischcreme"
+   ],
+   "references": [
+    "bls:H882100"
+   ],
+   "unit": "tablespoon",
+   "typical": 1,
+   "gramsPerUnit": 25,
+   "source": {
+    "kind": "estimate",
+    "reason": "the spread for one slice of bread"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-30"
+  },
+  {
+   "key": "vegan lard substitute",
+   "names": [
+    "vegan lard substitute",
+    "veganes schmalz",
+    "vegan lard",
+    "plant based lard",
+    "vegetarisches schmalz",
+    "griebenschmalz vegan",
+    "pflanzenschmalz",
+    "veganes griebenschmalz"
+   ],
+   "references": [
+    "bls:Q902000"
+   ],
+   "unit": "tablespoon",
+   "typical": 1,
+   "gramsPerUnit": 15,
+   "source": {
+    "kind": "estimate",
+    "reason": "the spread for one slice of bread"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-30"
+  },
+  {
    "key": "vegan mayonnaise",
    "names": [
     "vegan mayonnaise",
@@ -46144,6 +50389,32 @@
    "draft": "batch-22"
   },
   {
+   "key": "vegan mozzarella alternative",
+   "names": [
+    "vegan mozzarella alternative",
+    "vegane mozzarella alternative",
+    "vegan mozzarella",
+    "plant based mozzarella",
+    "veganer mozzarella",
+    "mozzarella alternative",
+    "pizzaschmelz"
+   ],
+   "references": [
+    "bls:X5A8040"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 60,
+   "source": {
+    "kind": "estimate",
+    "reason": "the topping for one pizza or salad, a third of a 200 g block"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-30"
+  },
+  {
    "key": "vegan naturjoghurt",
    "names": [
     "vegan naturjoghurt"
@@ -46162,6 +50433,36 @@
    "draft": "batch-1"
   },
   {
+   "key": "vegan protein blend powder",
+   "names": [
+    "vegan protein blend powder",
+    "veganes proteinpulver",
+    "vegan protein",
+    "vegan protein blend",
+    "plant protein powder",
+    "plant based protein powder",
+    "veganes protein",
+    "pflanzenprotein",
+    "pflanzliches proteinpulver",
+    "vegan blend",
+    "veganer proteinshake pulver"
+   ],
+   "references": [
+    "akari:label:vegan-protein"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 30,
+   "source": {
+    "kind": "estimate",
+    "reason": "one 30 g scoop, the file's own measure"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-35"
+  },
+  {
    "key": "vegan rinderhack",
    "names": [],
    "references": [],
@@ -46176,6 +50477,33 @@
    "origin": "generated",
    "date": "2026-10-01",
    "draft": "batch-1"
+  },
+  {
+   "key": "vegan sausage spread",
+   "names": [
+    "vegan sausage spread",
+    "vegane streichwurst",
+    "vegan spreadable sausage",
+    "plant based sausage spread",
+    "vegane teewurst",
+    "vegetarische streichwurst",
+    "vegane soja streichwurst",
+    "streichwurst vegan"
+   ],
+   "references": [
+    "bls:H930100"
+   ],
+   "unit": "tablespoon",
+   "typical": 1,
+   "gramsPerUnit": 20,
+   "source": {
+    "kind": "estimate",
+    "reason": "the spread for one slice of bread"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-30"
   },
   {
    "key": "vegan schnitzel",
@@ -46286,6 +50614,34 @@
    "draft": "batch-4"
   },
   {
+   "key": "vegetable patties vegan",
+   "names": [
+    "vegetable patties vegan",
+    "gemusebratlinge vegan",
+    "vegetable patties",
+    "veggie patties",
+    "vegetable patty",
+    "gemusebratlinge",
+    "gemusebratling",
+    "gemusefrikadellen",
+    "vegane bratlinge"
+   ],
+   "references": [
+    "bls:X5A1000"
+   ],
+   "unit": "piece",
+   "typical": 2,
+   "gramsPerUnit": 75,
+   "source": {
+    "kind": "estimate",
+    "reason": "two patties of a chilled two-pack, about 75 g each"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-30"
+  },
+  {
    "key": "vegetable shortening",
    "names": [
     "vegetable shortening",
@@ -46342,6 +50698,34 @@
    "origin": "generated",
    "date": "2026-10-24",
    "draft": "batch-26"
+  },
+  {
+   "key": "vegetable spread plant based",
+   "names": [
+    "vegetable spread plant based",
+    "gemuseaufstrich pflanzlich",
+    "vegetable spread",
+    "vegan sandwich spread",
+    "plant based spread",
+    "gemuseaufstrich",
+    "veganer brotaufstrich",
+    "vegetarischer brotaufstrich",
+    "gemusecreme"
+   ],
+   "references": [
+    "bls:G940100"
+   ],
+   "unit": "tablespoon",
+   "typical": 1,
+   "gramsPerUnit": 20,
+   "source": {
+    "kind": "estimate",
+    "reason": "the spread for one slice of bread"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-30"
   },
   {
    "key": "vegetable stew",
@@ -46461,7 +50845,8 @@
     "vegetarisches wurstchen"
    ],
    "references": [
-    "bls:H014900"
+    "bls:H014900",
+    "bls:H910300"
    ],
    "unit": "piece",
    "typical": 2,
@@ -46719,6 +51104,32 @@
    "draft": "batch-24"
   },
   {
+   "key": "vermouth dry",
+   "names": [
+    "vermouth dry",
+    "wermut trocken",
+    "extra dry vermouth",
+    "trockener wermut",
+    "wermut extra dry",
+    "noilly prat",
+    "martini extra dry"
+   ],
+   "references": [
+    "bls:P341300"
+   ],
+   "unit": "glass",
+   "typical": 1,
+   "milliliters": 50,
+   "source": {
+    "kind": "estimate",
+    "reason": "a 5 cl aperitif glass, as the vermouth portion"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-33"
+  },
+  {
    "key": "victoria sponge",
    "names": [
     "victoria sponge",
@@ -46770,6 +51181,352 @@
    "origin": "generated",
    "date": "2026-10-01",
    "draft": "batch-4"
+  },
+  {
+   "key": "vitamin b complex tablet",
+   "names": [
+    "vitamin b complex tablet",
+    "vitamin b komplex tablette",
+    "b complex",
+    "vitamin b complex",
+    "b komplex",
+    "b komplex tablette",
+    "b vitamine",
+    "vitamin b komplex"
+   ],
+   "references": [
+    "akari:label:vitamin-b-complex-tablet"
+   ],
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 0.305333,
+   "source": {
+    "kind": "estimate",
+    "reason": "1 tablet, the label file's own dose (0.305333 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-42"
+  },
+  {
+   "key": "vitamin b12 effervescent tablet",
+   "names": [
+    "vitamin b12 effervescent tablet",
+    "vitamin b12 brausetablette",
+    "b12 effervescent",
+    "b12 brause",
+    "vitamin b12 brause",
+    "b12 brausetablette",
+    "b12 d3 brause"
+   ],
+   "references": [
+    "akari:label:vitamin-b12-effervescent"
+   ],
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 4.3,
+   "source": {
+    "kind": "estimate",
+    "reason": "1 effervescent tablet, the label file's own dose (4.3 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-42"
+  },
+  {
+   "key": "vitamin b12 tablet",
+   "names": [
+    "vitamin b12 tablet",
+    "vitamin b12 tablette",
+    "b12 tablet",
+    "vitamin b12",
+    "b12 500",
+    "b12 mini tablet",
+    "b12 tablette",
+    "vitamin b12 500"
+   ],
+   "references": [
+    "akari:label:vitamin-b12-tablet"
+   ],
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 0.401667,
+   "source": {
+    "kind": "estimate",
+    "reason": "1 tablet, the label file's own dose (0.401667 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-42"
+  },
+  {
+   "key": "vitamin c 1000 tablet",
+   "names": [
+    "vitamin c 1000 tablet",
+    "vitamin c 1000 tablette",
+    "vitamin c 1000",
+    "vitamin c 1000 depot",
+    "vitamin c 1000 d3 zinc",
+    "vitamin c 1000 d3 zink",
+    "vitamin c 1200"
+   ],
+   "references": [
+    "akari:label:vitamin-c-1000-depot"
+   ],
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 1.4,
+   "source": {
+    "kind": "estimate",
+    "reason": "1 tablet, the label file's own dose (1.4 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-42"
+  },
+  {
+   "key": "vitamin c depot capsule",
+   "names": [
+    "vitamin c depot capsule",
+    "vitamin c depot kapsel",
+    "vitamin c depot",
+    "vitamin c 300",
+    "vitamin c zinc depot",
+    "vitamin c kapsel",
+    "vitamin c zink depot"
+   ],
+   "references": [
+    "akari:label:vitamin-c-depot-capsule"
+   ],
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 0.625,
+   "source": {
+    "kind": "estimate",
+    "reason": "1 tablet or capsule, the label file's own dose (0.625 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-42"
+  },
+  {
+   "key": "vitamin c effervescent tablet",
+   "names": [
+    "vitamin c effervescent tablet",
+    "vitamin c brausetablette",
+    "vitamin c brause",
+    "vitamin c fizzy tablet",
+    "vitamin c effervescent",
+    "vitamin c brausetabletten",
+    "vitamin c sprudeltablette"
+   ],
+   "references": [
+    "akari:label:vitamin-c-effervescent"
+   ],
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 4.1,
+   "source": {
+    "kind": "estimate",
+    "reason": "1 effervescent tablet, the label file's own dose (4.1 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-42"
+  },
+  {
+   "key": "vitamin c lozenge",
+   "names": [
+    "vitamin c lozenge",
+    "vitamin c lutschtablette",
+    "vitamin c lozenges",
+    "zinc lozenge",
+    "zinc vitamin c lozenge",
+    "vitamin c lutschtabletten",
+    "zink lutschtablette"
+   ],
+   "references": [
+    "akari:label:vitamin-c-lozenge"
+   ],
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 3.4,
+   "source": {
+    "kind": "estimate",
+    "reason": "1 daily dose of lozenges, the label file's own dose (3.4 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-42"
+  },
+  {
+   "key": "vitamin c powder",
+   "names": [
+    "vitamin c powder",
+    "vitamin c pulver",
+    "ascorbic acid",
+    "ascorbic acid powder",
+    "pure vitamin c powder",
+    "ascorbinsaure",
+    "ascorbinsaure pulver",
+    "reines vitamin c"
+   ],
+   "references": [
+    "akari:label:vitamin-c-powder"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 0.12,
+   "source": {
+    "kind": "estimate",
+    "reason": "1 measuring spoon, about 120 mg, the label file's own dose (0.12 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-42"
+  },
+  {
+   "key": "vitamin d gummy or chewable tablet",
+   "names": [
+    "vitamin d gummy or chewable tablet",
+    "vitamin d gummi oder kautablette",
+    "vitamin d gummies",
+    "vitamin d gummy",
+    "vitamin d chewable",
+    "vitamin d3 kids",
+    "vitamin d bears",
+    "vitamin d3 barchen",
+    "vitamin d kautablette",
+    "vitamin d3 kinder",
+    "vitamin d gums"
+   ],
+   "references": [
+    "akari:label:vitamin-d-chewable"
+   ],
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 2.15,
+   "source": {
+    "kind": "estimate",
+    "reason": "1 daily dose of gummies or chewables, the label file's own dose (2.15 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-42"
+  },
+  {
+   "key": "vitamin d3 drops",
+   "names": [
+    "vitamin d3 drops",
+    "vitamin d3 tropfen",
+    "vitamin d drops",
+    "vitamin d3 oil",
+    "vitamin d3 1000 drops",
+    "d3 drops",
+    "vitamin d tropfen",
+    "vitamin d3 ol",
+    "vigantolvit tropfen",
+    "d3 tropfen"
+   ],
+   "references": [
+    "akari:label:vitamin-d3-drops"
+   ],
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 0.027542,
+   "source": {
+    "kind": "estimate",
+    "reason": "1 drop, the label file's own dose (0.027542 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-42"
+  },
+  {
+   "key": "vitamin d3 k2 drops",
+   "names": [
+    "vitamin d3 k2 drops",
+    "vitamin d3 k2 tropfen",
+    "d3 k2 drops",
+    "vitamin d k2 drops",
+    "d3 k2 tropfen",
+    "vitamin d tropfen k2"
+   ],
+   "references": [
+    "akari:label:vitamin-d3-k2-drops"
+   ],
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 0.0258503,
+   "source": {
+    "kind": "estimate",
+    "reason": "1 drop, the label file's own dose (0.0258503 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-42"
+  },
+  {
+   "key": "vitamin d3 k2 tablet",
+   "names": [
+    "vitamin d3 k2 tablet",
+    "vitamin d3 k2 tablette",
+    "vitamin d3 k2",
+    "d3 k2",
+    "vitamin d3 k2 kapsel"
+   ],
+   "references": [
+    "akari:label:vitamin-d3-k2"
+   ],
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 0.436667,
+   "source": {
+    "kind": "estimate",
+    "reason": "1 tablet or capsule, the label file's own dose (0.436667 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-42"
+  },
+  {
+   "key": "vitamin d3 tablet",
+   "names": [
+    "vitamin d3 tablet",
+    "vitamin d3 tablette",
+    "vitamin d tablet",
+    "vitamin d3 2000",
+    "vitamin d3 capsule",
+    "vitamin d tablette",
+    "vitamin d3 2000 ie",
+    "vitamin d3 kapsel"
+   ],
+   "references": [
+    "akari:label:vitamin-d3-2000-iu"
+   ],
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 0.306,
+   "source": {
+    "kind": "estimate",
+    "reason": "1 tablet or capsule, the label file's own dose (0.306 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-42"
   },
   {
    "key": "vodka",
@@ -47230,6 +51987,31 @@
    "draft": "batch-17"
   },
   {
+   "key": "wheat beer alcohol free 0 0",
+   "names": [
+    "wheat beer alcohol free 0 0",
+    "weizenbier alkoholfrei 0 0",
+    "0 0 wheat beer",
+    "weizen 0 0",
+    "weißbier 0 0",
+    "hefeweizen 0 0"
+   ],
+   "references": [
+    "bls:P151120"
+   ],
+   "unit": "bottle",
+   "typical": 1,
+   "milliliters": 500,
+   "source": {
+    "kind": "estimate",
+    "reason": "one 0.5 l bottle, the German wheat beer size"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-32"
+  },
+  {
    "key": "wheat beer radler",
    "names": [
     "wheat beer radler",
@@ -47257,6 +52039,33 @@
    "origin": "generated",
    "date": "2026-10-24",
    "draft": "batch-24"
+  },
+  {
+   "key": "wheat beer shandy alcohol free",
+   "names": [
+    "wheat beer shandy alcohol free",
+    "wheat beer radler alcohol free",
+    "weizen radler alkoholfrei",
+    "alcohol free wheat radler",
+    "non alcoholic wheat shandy",
+    "alkoholfreies weizen radler",
+    "weizenradler alkoholfrei",
+    "alkoholfreier weizenradler"
+   ],
+   "references": [
+    "bls:P1A1120"
+   ],
+   "unit": "bottle",
+   "typical": 1,
+   "milliliters": 500,
+   "source": {
+    "kind": "estimate",
+    "reason": "one 0.5 l bottle"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-32"
   },
   {
    "key": "wheat berries cooked",
@@ -47468,6 +52277,61 @@
    "draft": "batch-21"
   },
   {
+   "key": "whey protein isolate powder",
+   "names": [
+    "whey protein isolate powder",
+    "whey protein isolat",
+    "whey isolate",
+    "whey protein isolate",
+    "iso whey",
+    "whey isolate powder",
+    "molkenproteinisolat",
+    "whey isolat",
+    "isolat pulver"
+   ],
+   "references": [
+    "akari:label:whey-protein-isolate"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 30,
+   "source": {
+    "kind": "estimate",
+    "reason": "one 30 g scoop, the file's own measure"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-35"
+  },
+  {
+   "key": "whey protein powder",
+   "names": [
+    "whey protein powder",
+    "proteinpulver molke",
+    "protein powder",
+    "whey protein",
+    "whey",
+    "proteinpulver",
+    "eiweißpulver"
+   ],
+   "references": [
+    "usda:2710742",
+    "usda:2710745"
+   ],
+   "unit": "portion",
+   "typical": 1,
+   "gramsPerUnit": 30,
+   "source": {
+    "kind": "estimate",
+    "reason": "one 30 g scoop, as the whey protein portion"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-34"
+  },
+  {
    "key": "whipped cream",
    "names": [
     "whipped cream",
@@ -47499,7 +52363,8 @@
     "scotch"
    ],
    "references": [
-    "bls:P733000"
+    "bls:P733000",
+    "usda:2710700"
    ],
    "unit": "glass",
    "typical": 1,
@@ -47820,6 +52685,57 @@
    "origin": "generated",
    "date": "2026-10-01",
    "draft": "batch-4"
+  },
+  {
+   "key": "white wine medium sweet",
+   "names": [
+    "white wine medium sweet",
+    "weißwein lieblich",
+    "semi sweet white wine",
+    "lieblicher weißwein",
+    "weißwein halbsuß",
+    "riesling lieblich",
+    "weißwein halbtrocken",
+    "medium dry white wine"
+   ],
+   "references": [
+    "bls:P230000"
+   ],
+   "unit": "glass",
+   "typical": 1,
+   "milliliters": 150,
+   "source": {
+    "kind": "estimate",
+    "reason": "one wine glass, as the white wine portion"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-32"
+  },
+  {
+   "key": "white wine sweet",
+   "names": [
+    "white wine sweet",
+    "weißwein suß",
+    "sußer weißwein",
+    "weißwein mild",
+    "auslese suß"
+   ],
+   "references": [
+    "bls:P231000"
+   ],
+   "unit": "glass",
+   "typical": 1,
+   "milliliters": 150,
+   "source": {
+    "kind": "estimate",
+    "reason": "one wine glass, as the white wine portion"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-32"
   },
   {
    "key": "whitefish raw",
@@ -49043,6 +53959,89 @@
    "origin": "generated",
    "date": "2026-10-01",
    "draft": "batch-4"
+  },
+  {
+   "key": "zinc tablet",
+   "names": [
+    "zinc tablet",
+    "zinktablette",
+    "zinc",
+    "zinc 15",
+    "zinc supplement",
+    "zinc capsule",
+    "zink",
+    "zink tablette",
+    "zink 15",
+    "zink kapsel",
+    "zinktabletten"
+   ],
+   "references": [
+    "akari:label:zinc-tablet"
+   ],
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 0.475,
+   "source": {
+    "kind": "estimate",
+    "reason": "1 tablet, the label file's own dose (0.475 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-42"
+  },
+  {
+   "key": "zinc vitamin c effervescent tablet",
+   "names": [
+    "zinc vitamin c effervescent tablet",
+    "zink vitamin c brausetablette",
+    "zinc c effervescent",
+    "zink c brause",
+    "zink c brausetablette",
+    "vitamin c zink brause"
+   ],
+   "references": [
+    "akari:label:zinc-vitamin-c-effervescent"
+   ],
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 4.1,
+   "source": {
+    "kind": "estimate",
+    "reason": "1 effervescent tablet, the label file's own dose (4.1 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-42"
+  },
+  {
+   "key": "zinc vitamin c tablet",
+   "names": [
+    "zinc vitamin c tablet",
+    "zink vitamin c tablette",
+    "zinc vitamin c",
+    "zinc c",
+    "zinc histidine vitamin c",
+    "zink c",
+    "zink vitamin c",
+    "zink histidin vitamin c",
+    "zink c kapsel"
+   ],
+   "references": [
+    "akari:label:zinc-vitamin-c"
+   ],
+   "unit": "piece",
+   "typical": 1,
+   "gramsPerUnit": 0.78,
+   "source": {
+    "kind": "estimate",
+    "reason": "1 capsule or tablet, the label file's own dose (0.78 g)"
+   },
+   "typicalSource": "estimate",
+   "origin": "generated",
+   "date": "2026-10-30",
+   "draft": "batch-42"
   },
   {
    "key": "zucchini",

@@ -1,0 +1,77 @@
+{
+  "id": "akari:label:energy-gel",
+  "name": "Energy gel",
+  "identity": "Carbohydrate gel for endurance sport, a maltodextrin and fruit sugar syrup, 38 to 71 g carbohydrate per 100 g; the isotonic kind is thinner and included.",
+  "rule": "Per 100 g, each value is the median of the three labels below that declare it, and a value enters only when at least three labels declare it (flavoured by nature). Salt becomes sodium (salt in g × 400 = sodium in mg). Nothing a label leaves out becomes zero. Labels read on 2026-10-30 from Open Food Facts through Akari's proxy, as the beef protein isolate was.",
+  "nutrients": {
+    "calories": 261.54,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "carbs": 64.0,
+    "sugar": 9.71,
+    "protein": 0.0,
+    "sodium": 116.0
+  },
+  "portions": [
+    {
+      "grams": 40,
+      "label": "1 gel"
+    }
+  ],
+  "labels": [
+    {
+      "brand": "Clif",
+      "product": "Shot Energy Gel",
+      "read": "Open Food Facts 0722252176226 through https://api.joinakari.com/v1/off/product/0722252176226",
+      "date": "2026-10-30",
+      "ingredients": "Organic maltodextrin, organic dried cane syrup, water, organic cocoa (processed with alkali), coffee extract (contains caffeine), natural flavor, sea salt, green tea extract (contains caffeine), potassium citrate.",
+      "serving": "1 PACKET (34 g)",
+      "per100g": {
+        "energyKJ": 1229.0,
+        "energyKcal": 294.12,
+        "fat": 0.0,
+        "saturates": 0.0,
+        "carbohydrate": 70.59,
+        "sugars": 35.29,
+        "protein": 0.0,
+        "salt": 0.44
+      }
+    },
+    {
+      "brand": "Pure Sports Nutrition",
+      "product": "Energy Gel",
+      "read": "Open Food Facts 9421905238861 through https://api.joinakari.com/v1/off/product/9421905238861",
+      "date": "2026-10-30",
+      "ingredients": "not stated in the entry",
+      "serving": "1 portion (35 g)",
+      "per100g": {
+        "energyKJ": 1094.29,
+        "energyKcal": 261.54,
+        "fat": 0.0,
+        "saturates": 0.0,
+        "carbohydrate": 64.0,
+        "sugars": 9.71,
+        "protein": 0.0,
+        "salt": 0.29
+      }
+    },
+    {
+      "brand": "Applied Nutrition",
+      "product": "Isotonic Energy Gel",
+      "read": "Open Food Facts 5056555201473 through https://api.joinakari.com/v1/off/product/5056555201473",
+      "date": "2026-10-30",
+      "ingredients": "not stated in the entry",
+      "serving": "1 portion (60 g)",
+      "per100g": {
+        "energyKJ": 665.0,
+        "energyKcal": 159.0,
+        "fat": 0.0,
+        "saturates": 0.0,
+        "carbohydrate": 38.5,
+        "sugars": 0.0,
+        "protein": 0.0,
+        "salt": 0.12
+      }
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "akari:label:calcium-effervescent",
+  "name": "Calcium effervescent tablet",
+  "identity": "Calcium effervescent tablet of 400 to 500 mg calcium dissolved in water; the dose is one tablet.",
+  "rule": "Per 100 g of the product, each value is the median of the labels below that declare it, and a value enters only when at least three declare it; a label states its nutrients per dose, so the file converts them with the dose's weight (the pack's net content divided by its count of tablets, capsules, sticks or drops, or the stated dose weight). Salt becomes sodium (salt in g × 400 = sodium in mg). Fewer than three labels declare energy, so the row stands at 0 kcal under the verification policy's clause for label generics with a micronutrient. Nothing a label leaves out becomes zero. Labels read on 2026-10-30 from dm.de, rossmann.de and shop-apotheke.com product pages.",
+  "nutrients": {
+    "calcium": 9756.1,
+    "calories": 0
+  },
+  "portions": [
+    {
+      "grams": 4.5,
+      "label": "1 effervescent tablet"
+    }
+  ],
+  "labels": [
+    {
+      "brand": "Mivolis",
+      "product": "Calcium Brausetabletten 20 St, 82 g",
+      "read": "https://www.dm.de/p/d/3104262/ (dm.de product page, Nährwerte and Zutaten panels; GTIN not stated)",
+      "date": "2026-10-30",
+      "ingredients": "Säuerungsmittel Citronensäure, Calciumcarbonat, Säureregulator Natriumhydrogencarbonat, Füllstoff Sorbit, Aromen, Maisstärke, Maltodextrin, Süßungsmittel Natriumcyclamat und Natriumsaccharin, Rote-Bete-Pulver, Farbstoff Riboflavin",
+      "serving": "1 Stück: 20 units weigh 82 g, so the dose is 4.1 g; the label declares per dose: calciumMg 400; per 100 g 785 kJ / 183 kcal, fat < 0.5 g, saturates < 0.4 g, carbohydrate 13 g, sugars 0.8 g, protein < 0.5 g, salt 9.6 g; under-values counted at half the threshold",
+      "per100g": {
+        "calciumMg": 9756.1,
+        "energyKcal": 183.0,
+        "fat": 0.25,
+        "saturates": 0.2,
+        "carbohydrate": 13.0,
+        "sugars": 0.8,
+        "protein": 0.25,
+        "salt": 9.6
+      }
+    },
+    {
+      "brand": "altapharma",
+      "product": "Brausetabletten Calcium mit Zitronengeschmack, 20 Brausetabletten, 90 g",
+      "read": "https://www.rossmann.de/de/gesundheit-altapharma-brausetabletten-calcium-mit-zitronengeschmack/p/4305615614335 (rossmann.de product page, Zutaten and Nährwerte sections; GTIN 4305615614335)",
+      "date": "2026-10-30",
+      "ingredients": "Säuerungsmittel Citronensäure, Calciumcarbonat, Säuerungsmittel Äpfelsäure, Säureregulator Natriumhydrogencarbonat, Säureregulator Natriumcarbonat, Trennmittel Tricalciumphosphat, Aroma, Stärke, Süßungsmittel Natriumcyclamat, Süßungsmittel Natriumsaccharin, Farbstoff Riboflavin-5'-phosphat-Natrium",
+      "serving": "1 Tablette: 20 units weigh 90 g, so the dose is 4.5 g; the label declares per dose: calciumMg 500; no energy or macros declared",
+      "per100g": {
+        "calciumMg": 11111.1
+      }
+    },
+    {
+      "brand": "TEMA (AmosVital)",
+      "product": "Calcium 400mg Brausetabletten, 20 Brausetabletten = 90 g",
+      "read": "https://www.shop-apotheke.com/arzneimittel/8715939/tema-calcium-400mg.htm (shop-apotheke.com product page, Pflichtangaben and Weitere Produktinformationen; GTIN not stated)",
+      "date": "2026-10-30",
+      "ingredients": "Säuerungsmittel Citronensäure, Calciumcarbonat, Säureregulator Natriumhydrogencarbonat, Feuchthaltemittel Sorbit, Stärke, Inulin, Trennmittel Tricalciumphosphat, Süßungsmittel Natrium-Cyclamat, Säuerungsmittel Äpfelsäure, Aroma, Süßungsmittel Saccharin-Natrium, Farbstoff Riboflavin-5'-phosphat-Natrium",
+      "serving": "1 Tablette (4,5 g): 20 units weigh 90 g, so the dose is 4.5 g; the label declares per dose: calciumMg 400; per 100 g 750 kJ / 179 kcal, fat 0 g, saturates 0 g, carbohydrate 8.2 g, sugars 0.2 g, fibre 1.8 g, protein 0 g, sodium 4.2 g, calcium 8889 mg; PZN 08715939",
+      "per100g": {
+        "calciumMg": 8889.0,
+        "energyKcal": 179.0,
+        "fat": 0.0,
+        "saturates": 0.0,
+        "carbohydrate": 8.2,
+        "sugars": 0.2,
+        "protein": 0.0,
+        "salt": 10.5
+      }
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "id": "akari:label:vitamin-c-1000-depot",
+  "name": "Vitamin C 1000 depot tablet",
+  "identity": "High-dose vitamin C depot tablet with 1,000 mg vitamin C, usually with vitamin D and zinc or selenium; the dose is one tablet.",
+  "rule": "Per 100 g of the product, each value is the median of the labels below that declare it, and a value enters only when at least three declare it; a label states its nutrients per dose, so the file converts them with the dose's weight (the pack's net content divided by its count of tablets, capsules, sticks or drops, or the stated dose weight). Salt becomes sodium (salt in g × 400 = sodium in mg). Fewer than three labels declare energy, so the row stands at 0 kcal under the verification policy's clause for label generics with a micronutrient. Nothing a label leaves out becomes zero. Labels read on 2026-10-30 from dm.de, rossmann.de and shop-apotheke.com product pages.",
+  "nutrients": {
+    "vitaminC": 72874.5,
+    "vitaminD": 1500,
+    "zinc": 821.918,
+    "calories": 0
+  },
+  "portions": [
+    {
+      "grams": 1.4,
+      "label": "1 tablet"
+    }
+  ],
+  "labels": [
+    {
+      "brand": "Doppelherz",
+      "product": "Vitamin C 1000 + D3 + Zink Depot Tabletten 30 St, 42,9 g",
+      "read": "https://www.dm.de/p/d/1541003/ (dm.de product page, Nährwerte and Zutaten panels; GTIN not stated)",
+      "date": "2026-10-30",
+      "ingredients": "L-Ascorbinsäure, Füllstoff Hydroxypropylmethylcellulose, modifizierte Stärke, Füllstoff mikrokristalline Cellulose, Zinksulfat, Trennmittel Speisefettsäuren, Trennmittel Talkum, Trennmittel Magnesiumsalze der Speisefettsäuren, Farbstoff Eisenoxide und Eisenhydroxide, Feuchthaltsmittel Glycerin, Cholecalciferol",
+      "serving": "1 Tablette: 30 units weigh 42.9 g, so the dose is 1.43 g; the label declares per dose: vitaminCMg 1000, vitaminDUg 25, zincMg 12; no energy or macros declared",
+      "per100g": {
+        "vitaminCMg": 69930.1,
+        "vitaminDUg": 1748.25,
+        "zincMg": 839.161
+      }
+    },
+    {
+      "brand": "Mivolis",
+      "product": "Vitamin C 1000 + D3 + Selen Depot 30 St, 42 g",
+      "read": "https://www.dm.de/p/d/3104289/ (dm.de product page, Nährwerte and Zutaten panels; GTIN not stated)",
+      "date": "2026-10-30",
+      "ingredients": "L-Ascorbinsäure (Vitamin C), Füllstoff Hydroxypropylmethylcellulose, Füllstoff mikrokristalline Cellulose, Maltodextrin, Füllstoff Hydroxypropylcellulose, ganz gehärtetes pflanzliches Fett (Raps), Trennmittel Siliciumdioxid, Trennmittel Magnesiumsalze der Speisefettsäuren, Natriumselenit, Cholecalciferol (Vitamin D)",
+      "serving": "1 Tablette: 30 units weigh 42 g, so the dose is 1.4 g; the label declares per dose: vitaminCMg 1000, vitaminDUg 20, seleniumUg 45; per 100 g 1237 kJ / 289 kcal, fat 1.7 g, saturates 1.7 g, carbohydrate 3.3 g, sugars < 0.5 g, protein < 0.5 g, salt < 0.29 g; under-values counted at half the threshold",
+      "per100g": {
+        "vitaminCMg": 71428.6,
+        "vitaminDUg": 1428.57,
+        "seleniumUg": 3214.29,
+        "energyKcal": 289.0,
+        "fat": 1.7,
+        "saturates": 1.7,
+        "carbohydrate": 3.3,
+        "sugars": 0.25,
+        "protein": 0.25,
+        "salt": 0.145
+      }
+    },
+    {
+      "brand": "sanotact",
+      "product": "Vitamin C+D+Selen Tabletten 180 St, 247 g",
+      "read": "https://www.dm.de/p/d/3070302/ (dm.de product page, Nährwerte and Zutaten panels; GTIN not stated)",
+      "date": "2026-10-30",
+      "ingredients": "Vitamin C (L-Ascorbinsäure), Hydroxypropylmethylcellulose (Füllstoff), Mikrokristalline Cellulose (Füllstoff), Maltodextrin, Hydroxypropylcellulose (Füllstoff), ganz gehärtetes pflanzliches Fett (Raps), Siliziumdioxid (Trennmittel), Magnesiumsalze der Speisefettsäuren (Trennmittel), Vitamin D3 (Cholecalciferol), Selen (Natriumselenit)",
+      "serving": "1 Tablette: 180 units weigh 247 g, so the dose is 1.37 g; the label declares per dose: vitaminCMg 1000, vitaminDUg 20, seleniumUg 45; no energy or macros declared",
+      "per100g": {
+        "vitaminCMg": 72874.5,
+        "vitaminDUg": 1457.49,
+        "seleniumUg": 3279.35
+      }
+    },
+    {
+      "brand": "altapharma",
+      "product": "Vitamin C 1000 Tabletten, 30 Stk., 40 g",
+      "read": "https://www.rossmann.de/de/gesundheit-altapharma-vitamin-c-1000-tabletten/p/4068134186539 (rossmann.de product page, Zutaten and Nährwerte sections; GTIN 4068134186539)",
+      "date": "2026-10-30",
+      "ingredients": "L-Ascorbinsäure (Vitamin C); Füllstoffe Hydroxypropylmethylcellulose, Mikrokristalline Cellulose; Zinkoxid; Cholecalciferol (Vitamin D3); Trennmittel Magnesiumsalze der Speisefettsäuren",
+      "serving": "1 Tablette: 30 units weigh 40 g, so the dose is 1.33 g; the label declares per dose: zincMg 10, vitaminDUg 20, vitaminCMg 1000; per 100 g 1209 kJ / 281 kcal, fat 0.7 g, saturates 0.7 g, carbohydrate 16 g, sugars < 0.5 g, protein 0 g, salt 0.11 g; under-values counted at half the threshold",
+      "per100g": {
+        "zincMg": 750.0,
+        "vitaminDUg": 1500.0,
+        "vitaminCMg": 75000.0,
+        "energyKcal": 281.0,
+        "fat": 0.7,
+        "saturates": 0.7,
+        "carbohydrate": 16.0,
+        "sugars": 0.25,
+        "protein": 0.0,
+        "salt": 0.11
+      }
+    },
+    {
+      "brand": "tetesept",
+      "product": "Vitamin C 1200 Depot Tabletten, 30 Tabletten, 43,8 g",
+      "read": "https://www.rossmann.de/de/gesundheit-tetesept-vitamin-c-1200-depot-tabletten/p/4008491105187 (rossmann.de product page, Zutaten and Nährwerte sections; GTIN 4008491105187)",
+      "date": "2026-10-30",
+      "ingredients": "L-Ascorbinsäure (Vitamin C); Füllstoff Hydroxypropylmethylcellulose; Zinkoxid; Füllstoff mikrokristalline Cellulose; Überzugsmittel Hydroxypropylcellulose; Trennmittel Magnesiumsalz der Speisefettsäure; Farbstoff Calciumcarbonat; Maltodextrin; Stärke; Trennmittel Talkum, Speisefettsäure; Öl, pflanzlich (Kokosnuss); Saccharose; Farbstoff Eisenoxid gelb; Cholecalciferol (Vitamin D3)",
+      "serving": "1 Tablette: 30 units weigh 43.8 g, so the dose is 1.46 g; the label declares per dose: zincMg 12, vitaminDUg 25, vitaminCMg 1200; no energy or macros declared; the page's table states no dose count; taken as one unit, the one-a-day form the pack size implies",
+      "per100g": {
+        "zincMg": 821.918,
+        "vitaminDUg": 1712.33,
+        "vitaminCMg": 82191.8
+      }
+    }
+  ]
+}

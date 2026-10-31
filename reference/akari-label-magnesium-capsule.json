@@ -1,0 +1,51 @@
+{
+  "id": "akari:label:magnesium-capsule",
+  "name": "Magnesium capsule",
+  "identity": "Magnesium capsules of oxide, bisglycinate or citrate, one or two a day for 300 to 400 mg magnesium; the dose is the label's daily capsules.",
+  "rule": "Per 100 g of the product, each value is the median of the labels below that declare it, and a value enters only when at least three declare it; a label states its nutrients per dose, so the file converts them with the dose's weight (the pack's net content divided by its count of tablets, capsules, sticks or drops, or the stated dose weight). Salt becomes sodium (salt in g × 400 = sodium in mg). Fewer than three labels declare energy, so the row stands at 0 kcal under the verification policy's clause for label generics with a micronutrient. Nothing a label leaves out becomes zero. Labels read on 2026-10-30 from dm.de, rossmann.de and shop-apotheke.com product pages.",
+  "nutrients": {
+    "magnesium": 25643.8,
+    "calories": 0
+  },
+  "portions": [
+    {
+      "grams": 1.62222,
+      "label": "1 daily dose of capsules"
+    }
+  ],
+  "labels": [
+    {
+      "brand": "Doppelherz",
+      "product": "Magnesium-Bisglycinat B6, 30 Kapseln, 28,9 g",
+      "read": "https://www.rossmann.de/de/gesundheit-doppelherz-magnesium-bisglycinat-b6/p/4009932136746 (rossmann.de product page, Zutaten and Nährwerte sections; GTIN 4009932136746)",
+      "date": "2026-10-30",
+      "ingredients": "Magnesiumbisglycinat, Magnesiumoxid, Hydroxypropylmethylcellulose, Trennmittel Magnesiumsalze der Speisefettsäuren, Vitamin B6",
+      "serving": "2 Kapseln: 30 units weigh 28.9 g, so the dose is 1.93 g; the label declares per dose: magnesiumMg 300; vitamin B6 3 mg per 2 capsules; no energy or macros declared",
+      "per100g": {
+        "magnesiumMg": 15570.9
+      }
+    },
+    {
+      "brand": "Nature Love",
+      "product": "Magnesium Komplex Kapseln, 90 Kapseln, 73 g",
+      "read": "https://www.rossmann.de/de/gesundheit-nature-love-magnesium-komplex-kapseln/p/4260488132310 (rossmann.de product page, Zutaten and Nährwerte sections; GTIN 4260488132310)",
+      "date": "2026-10-30",
+      "ingredients": "Magnesiumoxid, Tri-Magnesiumdicitrat, Überzugsmittel Hydroxypropylmethylcellulose; Magnesiumbisglycinat, Magnesiummalat, Magnesium-L-ascorbat",
+      "serving": "2 Kapseln: 90 units weigh 73 g, so the dose is 1.62 g; the label declares per dose: magnesiumMg 416; no energy or macros declared",
+      "per100g": {
+        "magnesiumMg": 25643.8
+      }
+    },
+    {
+      "brand": "Doppelherz",
+      "product": "Magnesium 400 Kapseln 60 St, 45,7 g",
+      "read": "https://www.dm.de/p/d/1555046/ (dm.de product page, Nährwerte and Zutaten panels; GTIN not stated)",
+      "date": "2026-10-30",
+      "ingredients": "Magnesiumoxid, Überzugsmittel Hydroxypropylmethylcellulose, Farbstoff Calciumcarbonat (pflanzliche Kapselhülle)",
+      "serving": "1 Stück: 60 units weigh 45.7 g, so the dose is 0.762 g; the label declares per dose: magnesiumMg 400; no energy or macros declared",
+      "per100g": {
+        "magnesiumMg": 52516.4
+      }
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "akari:label:magnesium-500-depot-tablet",
+  "name": "Magnesium 500 depot tablet",
+  "identity": "High-dose magnesium depot tablet of 500 to 600 mg magnesium with B vitamins, one a day; the dose is one tablet.",
+  "rule": "Per 100 g of the product, each value is the median of the labels below that declare it, and a value enters only when at least three declare it; a label states its nutrients per dose, so the file converts them with the dose's weight (the pack's net content divided by its count of tablets, capsules, sticks or drops, or the stated dose weight). Salt becomes sodium (salt in g × 400 = sodium in mg). Fewer than three labels declare energy, so the row stands at 0 kcal under the verification policy's clause for label generics with a micronutrient. Nothing a label leaves out becomes zero. Labels read on 2026-10-30 from dm.de, rossmann.de and shop-apotheke.com product pages.",
+  "nutrients": {
+    "magnesium": 34266.15,
+    "calories": 0
+  },
+  "portions": [
+    {
+      "grams": 1.60333,
+      "label": "1 tablet"
+    }
+  ],
+  "labels": [
+    {
+      "brand": "Mivolis",
+      "product": "Magnesium 500 + B-Vitamine 2-Phasen Depot Tabletten 30 St, 45 g",
+      "read": "https://www.dm.de/p/d/3104303/ (dm.de product page, Nährwerte and Zutaten panels; GTIN not stated)",
+      "date": "2026-10-30",
+      "ingredients": "Magnesiumoxid, Füllstoff Cellulose, Füllstoff Hydroxypropylmethylcellulose, Füllstoff Sorbitol, Nicotinamid, ganz gehärtetes pflanzliches Fett (Raps), Maltodextrin, Calcium-D-pantothenat, Trennmittel Siliciumdioxid, Trennmittel Magnesiumsalze der Speisefettsäuren, Pyridoxinhydrochlorid (Vitamin B6), Riboflavin (Vitamin B2), Thiaminmononitrat (Vitamin B1), Überzugmittel Hydroxypropylcellulose, Farbstoff Eisenoxide und Eisenhydroxide, Pteroylmonoglutaminsäure, D-Biotin, Cyanocobalamin (Vitamin B12)",
+      "serving": "1 Stück: 30 units weigh 45 g, so the dose is 1.5 g; the label declares per dose: folateUg 600, magnesiumMg 500, vitaminB12Ug 20; niacin 48 mg, pantothenic acid 18 mg, biotin 150 µg, B2 4.2 mg, B1 3.3 mg, B6 4.2 mg; per 100 g 388 kJ / 95 kcal, fat 2.5 g, saturates 2.5 g, carbohydrate 11 g, sugars < 0.5 g, protein < 0.5 g, salt 0.09 g; under-values counted at half the threshold",
+      "per100g": {
+        "folateUg": 40000.0,
+        "magnesiumMg": 33333.3,
+        "vitaminB12Ug": 1333.33,
+        "energyKcal": 95.0,
+        "fat": 2.5,
+        "saturates": 2.5,
+        "carbohydrate": 11.0,
+        "sugars": 0.25,
+        "protein": 0.25,
+        "salt": 0.09
+      }
+    },
+    {
+      "brand": "taxofit",
+      "product": "Magnesium 600 Forte Depot Tabletten 30 St, 51,2 g",
+      "read": "https://www.dm.de/p/d/1429596/ (dm.de product page, Nährwerte and Zutaten panels; GTIN not stated)",
+      "date": "2026-10-30",
+      "ingredients": "Magnesiumoxid, Füllstoff Cellulose, Magnesiumcarbonat, Trennmittel (Speisefettsäuren, Calciumphosphate, Magnesiumsalze der Speisefettsäuren, Calciumcarbonat, Talkum), Stabilisator Hydroxypropylcellulose, Überzugsmittel (Hydroxypropylmethylcellulose, Glycerin, Carnaubawachs), Pyridoxinhydrochlorid, Thiaminmononitrat, Cyanocobalamin",
+      "serving": "1 Tablette: 30 units weigh 51.2 g, so the dose is 1.71 g; the label declares per dose: magnesiumMg 600, vitaminB12Ug 125; B1 4.2 mg, B6 6 mg; no energy or macros declared",
+      "per100g": {
+        "magnesiumMg": 35156.2,
+        "vitaminB12Ug": 7324.22
+      }
+    },
+    {
+      "brand": "Doppelherz",
+      "product": "aktiv Magnesium 500 für die Nacht Depot-Tabletten, 30 Tabletten, 43,8 g",
+      "read": "https://www.rossmann.de/de/gesundheit-doppelherz-aktiv-magnesium-500-fuer-die-nacht-depot-tabletten/p/4009932134179 (rossmann.de product page, Zutaten and Nährwerte sections; GTIN 4009932134179)",
+      "date": "2026-10-30",
+      "ingredients": "Magnesiumoxid, Füllstoff mikrokristalline Cellulose, Melissenblätterextrakt, Füllstoff Hydroxypropylmethylcellulose, Trennmittel Speisefettsäuren, Füllstoff Polyvinylpyrrolidon, modifizierte Stärke, Niacin, Maltodextrin, Trennmittel Magnesiumsalze der Speisefettsäuren, Füllstoff Polyethylenglycol, Trennmittel Siliciumdioxid, Stärke, Trennmittel Zuckerester von Speisefettsäuren, Trennmittel Talkum, Lavendelöl, Vitamin B6, Vitamin B1, Farbstoff Eisenoxide und Eisenhydroxide, Vitamin D",
+      "serving": "1 Tablette: 30 units weigh 43.8 g, so the dose is 1.46 g; the label declares per dose: magnesiumMg 500, vitaminDUg 5; B1 1.1 mg, niacin 16 mg, B6 1.4 mg; no energy or macros declared",
+      "per100g": {
+        "magnesiumMg": 34246.6,
+        "vitaminDUg": 342.466
+      }
+    },
+    {
+      "brand": "Doppelherz",
+      "product": "Magnesium 600 Tag+Nacht, 30 Tabletten, 52,5 g",
+      "read": "https://www.rossmann.de/de/gesundheit-doppelherz-magnesium-600-tagnacht/p/4009932134926 (rossmann.de product page, Zutaten and Nährwerte sections; GTIN 4009932134926)",
+      "date": "2026-10-30",
+      "ingredients": "Magnesiumoxid, Füllstoff Dicalciumphosphat, Füllstoff mikrokristalline Cellulose, Füllstoff Isomalt, Füllstoff Hydroxypropylmethylcellulose, modifizierte Stärke, Füllstoff Polyvinylpyrrolidon, Farbstoff Eisenoxide und Eisenhydroxide, Trennmittel Speisefettsäuren, Trennmittel Magnesiumsalze der Speisefettsäuren, Überzugsmittel Hydroxypropylcellulose, Trennmittel vernetzte Carboxymethylcellulose, Trennmittel Talkum, Trennmittel Siliciumdioxid, Kokosöl",
+      "serving": "1 Tablette: 30 units weigh 52.5 g, so the dose is 1.75 g; the label declares per dose: magnesiumMg 600; no energy or macros declared",
+      "per100g": {
+        "magnesiumMg": 34285.7
+      }
+    }
+  ]
+}

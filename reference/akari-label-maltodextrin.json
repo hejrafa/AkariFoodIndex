@@ -1,0 +1,76 @@
+{
+  "id": "akari:label:maltodextrin",
+  "name": "Maltodextrin",
+  "identity": "Pure maltodextrin powder, 93 to 100 g carbohydrate per 100 g, unflavoured.",
+  "rule": "Per 100 g, each value is the median of the three labels below that declare it, and a value enters only when at least three labels declare it (unflavoured). Salt becomes sodium (salt in g × 400 = sodium in mg). Nothing a label leaves out becomes zero. Labels read on 2026-10-30 from Open Food Facts through Akari's proxy, as the beef protein isolate was.",
+  "nutrients": {
+    "calories": 400.0,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "carbs": 94.0,
+    "sugar": 0.0,
+    "protein": 0.0,
+    "sodium": 0.0
+  },
+  "portions": [
+    {
+      "grams": 50,
+      "label": "1 serving"
+    }
+  ],
+  "labels": [
+    {
+      "brand": "MYPROTEIN",
+      "product": "Maltodextrin",
+      "read": "Open Food Facts 5056307391322 through https://api.joinakari.com/v1/off/product/5056307391322",
+      "date": "2026-10-30",
+      "ingredients": "not stated in the entry",
+      "serving": "not stated",
+      "per100g": {
+        "energyKJ": 1700.0,
+        "energyKcal": 400.0,
+        "fat": 0.0,
+        "saturates": 0.0,
+        "carbohydrate": 100.0,
+        "sugars": 0.0,
+        "protein": 0.0,
+        "salt": 0.0
+      }
+    },
+    {
+      "brand": "Nutricost",
+      "product": "Maltodextrin",
+      "read": "Open Food Facts 0702669937436 through https://api.joinakari.com/v1/off/product/0702669937436",
+      "date": "2026-10-30",
+      "ingredients": "not stated in the entry",
+      "serving": "0.333 c (15 g)",
+      "per100g": {
+        "energyKcal": 400.0,
+        "fat": 0.0,
+        "saturates": 0.0,
+        "carbohydrate": 93.33,
+        "sugars": 0.0,
+        "protein": 0.0,
+        "salt": 0.0
+      }
+    },
+    {
+      "brand": "Endur'Activ",
+      "product": "Maltodextrine",
+      "read": "Open Food Facts 7640171250069 through https://api.joinakari.com/v1/off/product/7640171250069",
+      "date": "2026-10-30",
+      "ingredients": "Maltodextrine de Manioc biologique 93%, poudre de sirop d'agave biologique thiamine (vitamine B1)",
+      "serving": "not stated",
+      "per100g": {
+        "energyKJ": 1610.6,
+        "energyKcal": 379.0,
+        "fat": 0.1,
+        "saturates": 0.05,
+        "carbohydrate": 94.0,
+        "sugars": 12.0,
+        "protein": 0.1,
+        "salt": 0.13
+      }
+    }
+  ]
+}

@@ -1,0 +1,4303 @@
+{
+ "chain": "Subway Deutschland",
+ "kind": "fast-food",
+ "sourceURL": "https://www.subway.com/de-DE/MenuNutrition/Nutrition",
+ "sourceNote": "Subway Germany's Allergene und Nährwerte page (https://www.subway.com/de-DE/MenuNutrition/Nutrition) links its nutrition as a PDF, \"Germany Nutritional Information Full Menu C4 2026\" (three pages, made from an Excel sheet on 7 August 2026, headed \"Nährwertinformationen September 2026 Deutschland\"). It states per portion, with the portion weight, and per 100 g: energy in kJ and kcal, fat, saturated fat, carbohydrate, sugar, fibre, protein and salt. The values include the recommended bread or wrap, the chosen protein, the standard vegetables and sauce in the standard build; a sub is the 15 cm one, and the sheet says to double the values for a Footlong (salads excepted). Every row records the PDF page it stands on, the PDF address and its SHA-256. Where a stated per-100 value contradicts the portion's own figure, kJ against kcal decides the energy, the energy decides fat, carbohydrate and protein, and fibre, sugar, saturated fat and salt follow the side the energy chose or are left out when nothing decides; a row whose energy no check settles is left out. The energy must then fit the macronutrients (9 kcal per g fat, 4 per g carbohydrate and protein, 2 per g fibre, within 20 % or 12 kcal); a fibre figure that alone breaks the fit is left out, a row that still does not fit is left out, and a salt figure above 10 g per 100 g outside a sauce is left out. Each such row says so in valueNotes.",
+ "pdfURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+ "pdfSha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347",
+ "pdfTitle": "Germany Nutritional Information Full Menu C4 2026 (Nährwertinformationen September 2026)",
+ "retrievedOn": "2026-10-30",
+ "checkedDate": "2026-10-30",
+ "sha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347",
+ "sha256Note": "SHA-256 of the PDF as downloaded; every row comes from it.",
+ "rows": [
+  {
+   "id": "sandwich-chicken-teriyaki",
+   "name": "Chicken Teriyaki Sub",
+   "category": "sandwich",
+   "siteCategories": [
+    "Sandwich"
+   ],
+   "servingGrams": 227,
+   "valuesPer100g": {
+    "energyKJ": 498,
+    "calories": 119,
+    "fat": 1.5,
+    "saturatedFat": 0.6,
+    "carbs": 17,
+    "sugar": 4.4,
+    "fiber": 1.3,
+    "protein": 9.5,
+    "saltGrams": 0.6
+   },
+   "valuesPerServing": {
+    "energyKJ": 1130,
+    "calories": 270,
+    "fat": 3.3,
+    "saturatedFat": 1.4,
+    "carbs": 38,
+    "sugar": 10,
+    "fiber": 3,
+    "protein": 22,
+    "saltGrams": 1.3
+   },
+   "aliases": [
+    "Chicken Teriyaki",
+    "Chicken Teriyaki 15 cm",
+    "Chicken Teriyaki Sub 15 cm"
+   ],
+   "pdfPage": 1,
+   "pageURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "dataURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "sha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347"
+  },
+  {
+   "id": "sandwich-plant-based-chicken-teriyaki",
+   "name": "Plant-based Chicken Teriyaki Sub",
+   "category": "sandwich",
+   "siteCategories": [
+    "Sandwich"
+   ],
+   "servingGrams": 227,
+   "valuesPer100g": {
+    "energyKJ": 532,
+    "calories": 127,
+    "fat": 1.9,
+    "saturatedFat": 0.6,
+    "carbs": 19,
+    "sugar": 4.1,
+    "fiber": 2.8,
+    "protein": 8.2,
+    "saltGrams": 0.99
+   },
+   "valuesPerServing": {
+    "energyKJ": 1208,
+    "calories": 289,
+    "fat": 4.3,
+    "saturatedFat": 1.5,
+    "carbs": 42,
+    "sugar": 9.4,
+    "fiber": 6.4,
+    "protein": 19,
+    "saltGrams": 2.2
+   },
+   "aliases": [
+    "Plant-based Chicken Teriyaki",
+    "Plant-based Chicken Teriyaki 15 cm",
+    "Plant-based Chicken Teriyaki Sub 15 cm"
+   ],
+   "pdfPage": 1,
+   "pageURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "dataURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "sha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347"
+  },
+  {
+   "id": "sandwich-chicken-fajita",
+   "name": "Chicken Fajita Sub",
+   "category": "sandwich",
+   "siteCategories": [
+    "Sandwich"
+   ],
+   "servingGrams": 209,
+   "valuesPer100g": {
+    "energyKJ": 501,
+    "calories": 120,
+    "fat": 1.2,
+    "saturatedFat": 0.6,
+    "carbs": 17,
+    "sugar": 3.8,
+    "fiber": 1.4,
+    "protein": 9.9,
+    "saltGrams": 0.9
+   },
+   "valuesPerServing": {
+    "energyKJ": 1046,
+    "calories": 250,
+    "fat": 2.6,
+    "saturatedFat": 1.2,
+    "carbs": 36,
+    "sugar": 8,
+    "fiber": 3,
+    "protein": 21,
+    "saltGrams": 1.8
+   },
+   "aliases": [
+    "Chicken Fajita",
+    "Chicken Fajita 15 cm",
+    "Chicken Fajita Sub 15 cm"
+   ],
+   "pdfPage": 1,
+   "pageURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "dataURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "sha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347"
+  },
+  {
+   "id": "sandwich-rotisserie-style-chicken-pulled-chicken-breast",
+   "name": "Rotisserie-Style Chicken/Pulled Chicken Breast Sub",
+   "category": "sandwich",
+   "siteCategories": [
+    "Sandwich"
+   ],
+   "servingGrams": 209,
+   "valuesPer100g": {
+    "energyKJ": 521,
+    "calories": 125,
+    "fat": 1.9,
+    "saturatedFat": 0.6,
+    "carbs": 17,
+    "sugar": 3.4,
+    "fiber": 1.4,
+    "protein": 10,
+    "saltGrams": 0.6
+   },
+   "valuesPerServing": {
+    "energyKJ": 1089,
+    "calories": 260,
+    "fat": 4,
+    "saturatedFat": 1.2,
+    "carbs": 34,
+    "sugar": 7.1,
+    "fiber": 2.9,
+    "protein": 21,
+    "saltGrams": 1.1
+   },
+   "aliases": [
+    "Rotisserie-Style Chicken/Pulled Chicken Breast",
+    "Rotisserie-Style Chicken/Pulled Chicken Breast 15 cm",
+    "Rotisserie-Style Chicken/Pulled Chicken Breast Sub 15 cm",
+    "Rotisserie-Style Chicken",
+    "Rotisserie-Style Chicken Sub",
+    "Rotisserie-Style Chicken 15 cm",
+    "Rotisserie-Style Chicken Sub 15 cm",
+    "Pulled Chicken Breast",
+    "Pulled Chicken Breast Sub",
+    "Pulled Chicken Breast 15 cm",
+    "Pulled Chicken Breast Sub 15 cm"
+   ],
+   "pdfPage": 1,
+   "pageURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "dataURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "sha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347"
+  },
+  {
+   "id": "sandwich-chicken-tandoori",
+   "name": "Chicken Tandoori Sub",
+   "category": "sandwich",
+   "siteCategories": [
+    "Sandwich"
+   ],
+   "servingGrams": 199,
+   "valuesPer100g": {
+    "energyKJ": 817,
+    "calories": 195,
+    "fat": 7.2,
+    "saturatedFat": 2.9,
+    "carbs": 20,
+    "sugar": 5.2,
+    "fiber": 1.4,
+    "protein": 13,
+    "saltGrams": 1.1
+   },
+   "valuesPerServing": {
+    "energyKJ": 1625,
+    "calories": 388,
+    "fat": 14,
+    "saturatedFat": 5.9,
+    "carbs": 39,
+    "sugar": 10,
+    "fiber": 2.8,
+    "protein": 26,
+    "saltGrams": 2.3
+   },
+   "aliases": [
+    "Chicken Tandoori",
+    "Chicken Tandoori 15 cm",
+    "Chicken Tandoori Sub 15 cm"
+   ],
+   "pdfPage": 1,
+   "pageURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "dataURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "sha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347"
+  },
+  {
+   "id": "sandwich-tuna",
+   "name": "Tuna Sub",
+   "category": "sandwich",
+   "siteCategories": [
+    "Sandwich"
+   ],
+   "servingGrams": 227,
+   "valuesPer100g": {
+    "energyKJ": 615,
+    "calories": 147,
+    "fat": 5.3,
+    "saturatedFat": 0.8,
+    "carbs": 16,
+    "sugar": 3.5,
+    "fiber": 1.3,
+    "protein": 8.9,
+    "saltGrams": 0.7
+   },
+   "valuesPerServing": {
+    "energyKJ": 1397,
+    "calories": 334,
+    "fat": 12,
+    "saturatedFat": 1.8,
+    "carbs": 37,
+    "sugar": 8,
+    "fiber": 2.9,
+    "protein": 20,
+    "saltGrams": 1.6
+   },
+   "aliases": [
+    "Tuna",
+    "Tuna 15 cm",
+    "Tuna Sub 15 cm"
+   ],
+   "pdfPage": 1,
+   "pageURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "dataURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "sha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347"
+  },
+  {
+   "id": "sandwich-italian-b-m-t",
+   "name": "Italian B.M.T. Sub",
+   "category": "sandwich",
+   "siteCategories": [
+    "Sandwich"
+   ],
+   "servingGrams": 217,
+   "valuesPer100g": {
+    "energyKJ": 711,
+    "calories": 170,
+    "fat": 7.2,
+    "saturatedFat": 2.9,
+    "carbs": 17,
+    "sugar": 3.5,
+    "fiber": 1.5,
+    "protein": 9.6,
+    "saltGrams": 1.1
+   },
+   "valuesPerServing": {
+    "energyKJ": 1543,
+    "calories": 369,
+    "fat": 16,
+    "saturatedFat": 6.4,
+    "carbs": 36,
+    "sugar": 7.6,
+    "fiber": 3.2,
+    "protein": 21,
+    "saltGrams": 2.3
+   },
+   "aliases": [
+    "Italian B.M.T.",
+    "Italian B.M.T. 15 cm",
+    "Italian B.M.T. Sub 15 cm",
+    "Italian BMT",
+    "Italian BMT Sub",
+    "Italian BMT 15 cm",
+    "Italian BMT Sub 15 cm"
+   ],
+   "pdfPage": 1,
+   "pageURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "dataURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "sha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347"
+  },
+  {
+   "id": "sandwich-bbq-rib",
+   "name": "BBQ Rib Sub",
+   "category": "sandwich",
+   "siteCategories": [
+    "Sandwich"
+   ],
+   "servingGrams": 217,
+   "valuesPer100g": {
+    "energyKJ": 944,
+    "calories": 219,
+    "fat": 12,
+    "saturatedFat": 4.9,
+    "carbs": 17,
+    "sugar": 3.6,
+    "fiber": 1.8,
+    "protein": 10,
+    "saltGrams": 1.1
+   },
+   "valuesPerServing": {
+    "energyKJ": 2049,
+    "calories": 474,
+    "fat": 26,
+    "saturatedFat": 11,
+    "carbs": 38,
+    "sugar": 7.8,
+    "fiber": 3.9,
+    "protein": 23,
+    "saltGrams": 2.4
+   },
+   "aliases": [
+    "BBQ Rib",
+    "BBQ Rib 15 cm",
+    "BBQ Rib Sub 15 cm"
+   ],
+   "pdfPage": 1,
+   "pageURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "dataURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "sha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347"
+  },
+  {
+   "id": "sandwich-nacho-chicken",
+   "name": "Nacho Chicken Sub",
+   "category": "sandwich",
+   "siteCategories": [
+    "Sandwich"
+   ],
+   "servingGrams": 233,
+   "valuesPer100g": {
+    "energyKJ": 730,
+    "calories": 178,
+    "fat": 7.2,
+    "saturatedFat": 1.9,
+    "carbs": 20,
+    "sugar": 3.6,
+    "fiber": 1.6,
+    "protein": 8.1,
+    "saltGrams": 0.8
+   },
+   "valuesPerServing": {
+    "energyKJ": 1702,
+    "calories": 415,
+    "fat": 17,
+    "saturatedFat": 4.3,
+    "carbs": 47,
+    "sugar": 8.4,
+    "fiber": 3.6,
+    "protein": 19,
+    "saltGrams": 1.9
+   },
+   "aliases": [
+    "Nacho Chicken",
+    "Nacho Chicken 15 cm",
+    "Nacho Chicken Sub 15 cm"
+   ],
+   "pdfPage": 1,
+   "pageURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "dataURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "sha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347"
+  },
+  {
+   "id": "sandwich-philly-beef-cheese",
+   "name": "Philly Beef & Cheese Sub",
+   "category": "sandwich",
+   "siteCategories": [
+    "Sandwich"
+   ],
+   "servingGrams": 221,
+   "valuesPer100g": {
+    "energyKJ": 578,
+    "calories": 138,
+    "fat": 3.3,
+    "saturatedFat": 1.7,
+    "carbs": 18,
+    "sugar": 4.4,
+    "fiber": 1.5,
+    "protein": 9.2,
+    "saltGrams": 0.8
+   },
+   "valuesPerServing": {
+    "energyKJ": 1277,
+    "calories": 304,
+    "fat": 7.2,
+    "saturatedFat": 3.8,
+    "carbs": 39,
+    "sugar": 9.7,
+    "fiber": 3.3,
+    "protein": 20,
+    "saltGrams": 1.7
+   },
+   "aliases": [
+    "Philly Beef & Cheese",
+    "Philly Beef & Cheese 15 cm",
+    "Philly Beef & Cheese Sub 15 cm"
+   ],
+   "pdfPage": 1,
+   "pageURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "dataURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "sha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347"
+  },
+  {
+   "id": "sandwich-beef-chili",
+   "name": "Beef Chili Sub",
+   "category": "sandwich",
+   "siteCategories": [
+    "Sandwich"
+   ],
+   "servingGrams": 241,
+   "valuesPer100g": {
+    "energyKJ": 632,
+    "calories": 147,
+    "fat": 3.3,
+    "saturatedFat": 1.2,
+    "carbs": 20,
+    "sugar": 3.6,
+    "fiber": 1.9,
+    "protein": 9.1,
+    "saltGrams": 0.9
+   },
+   "valuesPerServing": {
+    "energyKJ": 1524,
+    "calories": 354,
+    "fat": 8,
+    "saturatedFat": 3,
+    "carbs": 48,
+    "sugar": 8.6,
+    "fiber": 4.6,
+    "protein": 22,
+    "saltGrams": 2.2
+   },
+   "aliases": [
+    "Beef Chili",
+    "Beef Chili 15 cm",
+    "Beef Chili Sub 15 cm"
+   ],
+   "pdfPage": 1,
+   "pageURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "dataURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "sha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347"
+  },
+  {
+   "id": "sandwich-bbq-pulled-pork",
+   "name": "BBQ Pulled Pork Sub",
+   "category": "sandwich",
+   "siteCategories": [
+    "Sandwich"
+   ],
+   "servingGrams": 183,
+   "valuesPer100g": {
+    "energyKJ": 818,
+    "calories": 190,
+    "fat": 4.2,
+    "saturatedFat": 1.7,
+    "carbs": 23,
+    "sugar": 4.5,
+    "fiber": 1.5,
+    "protein": 13.7,
+    "saltGrams": 0.9
+   },
+   "valuesPerServing": {
+    "energyKJ": 1497,
+    "calories": 347,
+    "fat": 7.6,
+    "saturatedFat": 3.2,
+    "carbs": 42.0,
+    "sugar": 8.3,
+    "fiber": 2.8,
+    "protein": 25,
+    "saltGrams": 1.6
+   },
+   "aliases": [
+    "BBQ Pulled Pork",
+    "BBQ Pulled Pork 15 cm",
+    "BBQ Pulled Pork Sub 15 cm"
+   ],
+   "pdfPage": 1,
+   "pageURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "dataURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "sha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347"
+  },
+  {
+   "id": "sandwich-salami",
+   "name": "Salami Sub",
+   "category": "sandwich",
+   "siteCategories": [
+    "Sandwich"
+   ],
+   "servingGrams": 169,
+   "valuesPer100g": {
+    "energyKJ": 628,
+    "calories": 150,
+    "fat": 4.5,
+    "saturatedFat": 1.9,
+    "carbs": 21,
+    "sugar": 4.2,
+    "fiber": 1.7,
+    "protein": 6.9,
+    "saltGrams": 0.7
+   },
+   "valuesPerServing": {
+    "energyKJ": 1061,
+    "calories": 254,
+    "fat": 7.6,
+    "saturatedFat": 3.3,
+    "carbs": 35,
+    "sugar": 7.1,
+    "fiber": 2.9,
+    "protein": 12,
+    "saltGrams": 1.2
+   },
+   "aliases": [
+    "Salami",
+    "Salami 15 cm",
+    "Salami Sub 15 cm"
+   ],
+   "pdfPage": 1,
+   "pageURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "dataURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "sha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347"
+  },
+  {
+   "id": "sandwich-ham",
+   "name": "Ham Sub",
+   "category": "sandwich",
+   "siteCategories": [
+    "Sandwich"
+   ],
+   "servingGrams": 195,
+   "valuesPer100g": {
+    "energyKJ": 515,
+    "calories": 123,
+    "fat": 1.9,
+    "saturatedFat": 0.7,
+    "carbs": 18,
+    "sugar": 3.9,
+    "fiber": 1.7,
+    "protein": 8.6,
+    "saltGrams": 0.6
+   },
+   "valuesPerServing": {
+    "energyKJ": 1005,
+    "calories": 240,
+    "fat": 3.6,
+    "saturatedFat": 1.4,
+    "carbs": 35,
+    "sugar": 7.6,
+    "fiber": 3.3,
+    "protein": 17,
+    "saltGrams": 1.2
+   },
+   "aliases": [
+    "Ham",
+    "Ham 15 cm",
+    "Ham Sub 15 cm"
+   ],
+   "pdfPage": 1,
+   "pageURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "dataURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "sha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347"
+  },
+  {
+   "id": "sandwich-spicy-vegan-patty",
+   "name": "Spicy Vegan Patty Sub",
+   "category": "sandwich",
+   "siteCategories": [
+    "Sandwich"
+   ],
+   "servingGrams": 238,
+   "valuesPer100g": {
+    "calories": 127,
+    "fat": 4,
+    "saturatedFat": 0.8,
+    "carbs": 18,
+    "sugar": 3.9,
+    "fiber": 2.7,
+    "protein": 8.8,
+    "saltGrams": 0.7
+   },
+   "valuesPerServing": {
+    "calories": 301,
+    "fat": 9.6,
+    "saturatedFat": 1.9,
+    "carbs": 44,
+    "sugar": 9.2,
+    "fiber": 6.5,
+    "protein": 21,
+    "saltGrams": 1.7
+   },
+   "aliases": [
+    "Spicy Vegan Patty",
+    "Spicy Vegan Patty 15 cm",
+    "Spicy Vegan Patty Sub 15 cm"
+   ],
+   "pdfPage": 1,
+   "pageURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "dataURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "sha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347",
+   "valueNotes": [
+    "energyKJ left out: 619 kJ does not match 127 kcal, which fits the macronutrients"
+   ]
+  },
+  {
+   "id": "sandwich-veggie-delite",
+   "name": "Veggie Delite Sub",
+   "category": "sandwich",
+   "siteCategories": [
+    "Sandwich"
+   ],
+   "servingGrams": 165,
+   "valuesPer100g": {
+    "energyKJ": 586,
+    "calories": 140,
+    "fat": 3.3,
+    "saturatedFat": 1.9,
+    "carbs": 21,
+    "sugar": 4.5,
+    "fiber": 1.8,
+    "protein": 6.6,
+    "saltGrams": 0.6
+   },
+   "valuesPerServing": {
+    "energyKJ": 968,
+    "calories": 231,
+    "fat": 5.5,
+    "saturatedFat": 3.1,
+    "carbs": 35,
+    "sugar": 7.4,
+    "fiber": 2.9,
+    "protein": 11,
+    "saltGrams": 0.9
+   },
+   "aliases": [
+    "Veggie Delite",
+    "Veggie Delite 15 cm",
+    "Veggie Delite Sub 15 cm"
+   ],
+   "pdfPage": 1,
+   "pageURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "dataURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "sha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347"
+  },
+  {
+   "id": "wraps-chicken-teriyaki",
+   "name": "Chicken Teriyaki Wrap",
+   "category": "wrap",
+   "siteCategories": [
+    "Wraps"
+   ],
+   "servingGrams": 250,
+   "valuesPer100g": {
+    "energyKJ": 622,
+    "calories": 149,
+    "fat": 2.8,
+    "saturatedFat": 0.5,
+    "carbs": 22,
+    "sugar": 3,
+    "fiber": 2,
+    "protein": 8.1,
+    "saltGrams": 0.8
+   },
+   "valuesPerServing": {
+    "energyKJ": 1555,
+    "calories": 372,
+    "fat": 7.1,
+    "saturatedFat": 1.2,
+    "carbs": 54,
+    "sugar": 7.5,
+    "fiber": 5,
+    "protein": 20,
+    "saltGrams": 1.9
+   },
+   "aliases": [],
+   "pdfPage": 1,
+   "pageURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "dataURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "sha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347"
+  },
+  {
+   "id": "wraps-plant-based-chicken-teriyaki",
+   "name": "Plant-based Chicken Teriyaki Wrap",
+   "category": "wrap",
+   "siteCategories": [
+    "Wraps"
+   ],
+   "servingGrams": 250,
+   "valuesPer100g": {
+    "energyKJ": 653,
+    "calories": 156,
+    "fat": 3.2,
+    "saturatedFat": 0.5,
+    "carbs": 23,
+    "sugar": 2.8,
+    "fiber": 3.3,
+    "protein": 6.9,
+    "saltGrams": 1.1
+   },
+   "valuesPerServing": {
+    "energyKJ": 1633,
+    "calories": 391,
+    "fat": 8.1,
+    "saturatedFat": 1.3,
+    "carbs": 58,
+    "sugar": 6.9,
+    "fiber": 8.4,
+    "protein": 17,
+    "saltGrams": 2.8
+   },
+   "aliases": [],
+   "pdfPage": 1,
+   "pageURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "dataURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "sha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347"
+  },
+  {
+   "id": "wraps-chicken-fajita",
+   "name": "Chicken Fajita Wrap",
+   "category": "wrap",
+   "siteCategories": [
+    "Wraps"
+   ],
+   "servingGrams": 232,
+   "valuesPer100g": {
+    "energyKJ": 634,
+    "calories": 152,
+    "fat": 2.8,
+    "saturatedFat": 0.4,
+    "carbs": 22,
+    "sugar": 2.4,
+    "fiber": 2.1,
+    "protein": 8.4,
+    "saltGrams": 1
+   },
+   "valuesPerServing": {
+    "energyKJ": 1471,
+    "calories": 352,
+    "fat": 6.4,
+    "saturatedFat": 1,
+    "carbs": 52,
+    "sugar": 5.5,
+    "fiber": 5,
+    "protein": 20,
+    "saltGrams": 2.4
+   },
+   "aliases": [],
+   "pdfPage": 1,
+   "pageURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "dataURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "sha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347"
+  },
+  {
+   "id": "wraps-rotisserie-style-chicken-pulled-chicken-breast",
+   "name": "Rotisserie-Style Chicken/Pulled Chicken Breast Wrap",
+   "category": "wrap",
+   "siteCategories": [
+    "Wraps"
+   ],
+   "servingGrams": 232,
+   "valuesPer100g": {
+    "energyKJ": 653,
+    "calories": 156,
+    "fat": 3.3,
+    "saturatedFat": 0.5,
+    "carbs": 22,
+    "sugar": 2,
+    "fiber": 2.1,
+    "protein": 8.5,
+    "saltGrams": 0.7
+   },
+   "valuesPerServing": {
+    "energyKJ": 1514,
+    "calories": 362,
+    "fat": 7.8,
+    "saturatedFat": 1.1,
+    "carbs": 50,
+    "sugar": 4.6,
+    "fiber": 4.9,
+    "protein": 20,
+    "saltGrams": 1.7
+   },
+   "aliases": [
+    "Rotisserie-Style Chicken Wrap",
+    "Pulled Chicken Breast Wrap"
+   ],
+   "pdfPage": 1,
+   "pageURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "dataURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "sha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347"
+  },
+  {
+   "id": "wraps-chicken-tandoori",
+   "name": "Chicken Tandoori Wrap",
+   "category": "wrap",
+   "siteCategories": [
+    "Wraps"
+   ],
+   "servingGrams": 258,
+   "valuesPer100g": {
+    "energyKJ": 765,
+    "calories": 183,
+    "fat": 6.7,
+    "saturatedFat": 1.4,
+    "carbs": 21,
+    "sugar": 2.8,
+    "fiber": 2,
+    "protein": 8.8,
+    "saltGrams": 1.0
+   },
+   "valuesPerServing": {
+    "energyKJ": 1974,
+    "calories": 472,
+    "fat": 17,
+    "saturatedFat": 3.7,
+    "carbs": 55,
+    "sugar": 7.3,
+    "fiber": 5.2,
+    "protein": 23,
+    "saltGrams": 2.6
+   },
+   "aliases": [],
+   "pdfPage": 1,
+   "pageURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "dataURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "sha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347"
+  },
+  {
+   "id": "wraps-tuna",
+   "name": "Tuna Wrap",
+   "category": "wrap",
+   "siteCategories": [
+    "Wraps"
+   ],
+   "servingGrams": 250,
+   "valuesPer100g": {
+    "energyKJ": 729,
+    "calories": 174,
+    "fat": 6.3,
+    "saturatedFat": 0.7,
+    "carbs": 21,
+    "sugar": 2.2,
+    "fiber": 1.9,
+    "protein": 7.6,
+    "saltGrams": 0.9
+   },
+   "valuesPerServing": {
+    "energyKJ": 1822,
+    "calories": 436,
+    "fat": 16,
+    "saturatedFat": 1.6,
+    "carbs": 53,
+    "sugar": 5.5,
+    "fiber": 4.9,
+    "protein": 19,
+    "saltGrams": 2.1
+   },
+   "aliases": [],
+   "pdfPage": 1,
+   "pageURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "dataURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "sha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347"
+  },
+  {
+   "id": "wraps-italian-b-m-t",
+   "name": "Italian B.M.T. Wrap",
+   "category": "wrap",
+   "siteCategories": [
+    "Wraps"
+   ],
+   "servingGrams": 236,
+   "valuesPer100g": {
+    "energyKJ": 805,
+    "calories": 192,
+    "fat": 7.7,
+    "saturatedFat": 2.4,
+    "carbs": 22,
+    "sugar": 2.2,
+    "fiber": 2.2,
+    "protein": 8,
+    "saltGrams": 1.2
+   },
+   "valuesPerServing": {
+    "energyKJ": 1900,
+    "calories": 454,
+    "fat": 18,
+    "saturatedFat": 5.6,
+    "carbs": 52,
+    "sugar": 5.1,
+    "fiber": 5.2,
+    "protein": 19,
+    "saltGrams": 2.7
+   },
+   "aliases": [
+    "Italian BMT Wrap"
+   ],
+   "pdfPage": 1,
+   "pageURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "dataURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "sha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347"
+  },
+  {
+   "id": "wraps-bbq-rib",
+   "name": "BBQ Rib Wrap",
+   "category": "wrap",
+   "siteCategories": [
+    "Wraps"
+   ],
+   "servingGrams": 240,
+   "valuesPer100g": {
+    "energyKJ": 1031,
+    "calories": 240,
+    "fat": 12,
+    "saturatedFat": 4.4,
+    "carbs": 22,
+    "sugar": 2.2,
+    "fiber": 2.4,
+    "protein": 8.9,
+    "saltGrams": 1.2
+   },
+   "valuesPerServing": {
+    "energyKJ": 2474,
+    "calories": 576,
+    "fat": 30,
+    "saturatedFat": 10,
+    "carbs": 53,
+    "sugar": 5.3,
+    "fiber": 5.9,
+    "protein": 21,
+    "saltGrams": 3
+   },
+   "aliases": [],
+   "pdfPage": 1,
+   "pageURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "dataURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "sha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347"
+  },
+  {
+   "id": "wraps-nacho-chicken",
+   "name": "Nacho Chicken Wrap",
+   "category": "wrap",
+   "siteCategories": [
+    "Wraps"
+   ],
+   "servingGrams": 256,
+   "valuesPer100g": {
+    "energyKJ": 853,
+    "calories": 207,
+    "fat": 8.6,
+    "saturatedFat": 1.7,
+    "carbs": 24,
+    "sugar": 2.4,
+    "fiber": 2.2,
+    "protein": 6.9,
+    "saltGrams": 1.0
+   },
+   "valuesPerServing": {
+    "energyKJ": 2183,
+    "calories": 530,
+    "fat": 22,
+    "saturatedFat": 4.3,
+    "carbs": 62,
+    "sugar": 6.2,
+    "fiber": 5.7,
+    "protein": 18,
+    "saltGrams": 2.5
+   },
+   "aliases": [],
+   "pdfPage": 1,
+   "pageURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "dataURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "sha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347"
+  },
+  {
+   "id": "wraps-philly-beef-cheese",
+   "name": "Philly Beef & Cheese Wrap",
+   "category": "wrap",
+   "siteCategories": [
+    "Wraps"
+   ],
+   "servingGrams": 244,
+   "valuesPer100g": {
+    "energyKJ": 697,
+    "calories": 166,
+    "fat": 4.5,
+    "saturatedFat": 1.5,
+    "carbs": 23,
+    "sugar": 3,
+    "fiber": 2.2,
+    "protein": 7.9,
+    "saltGrams": 0.9
+   },
+   "valuesPerServing": {
+    "energyKJ": 1702,
+    "calories": 406,
+    "fat": 11,
+    "saturatedFat": 3.7,
+    "carbs": 55,
+    "sugar": 7.2,
+    "fiber": 5.3,
+    "protein": 19,
+    "saltGrams": 2.2
+   },
+   "aliases": [],
+   "pdfPage": 1,
+   "pageURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "dataURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "sha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347"
+  },
+  {
+   "id": "wraps-beef-chili",
+   "name": "Beef Chili Wrap",
+   "category": "wrap",
+   "siteCategories": [
+    "Wraps"
+   ],
+   "servingGrams": 266,
+   "valuesPer100g": {
+    "energyKJ": 691,
+    "calories": 165,
+    "fat": 4.5,
+    "saturatedFat": 1.4,
+    "carbs": 23,
+    "sugar": 2.6,
+    "fiber": 2.4,
+    "protein": 7.9,
+    "saltGrams": 1.1
+   },
+   "valuesPerServing": {
+    "energyKJ": 1839,
+    "calories": 439,
+    "fat": 12,
+    "saturatedFat": 3.7,
+    "carbs": 60,
+    "sugar": 7,
+    "fiber": 6.4,
+    "protein": 21,
+    "saltGrams": 2.8
+   },
+   "aliases": [],
+   "pdfPage": 1,
+   "pageURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "dataURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "sha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347"
+  },
+  {
+   "id": "wraps-salami",
+   "name": "Salami Wrap",
+   "category": "wrap",
+   "siteCategories": [
+    "Wraps"
+   ],
+   "servingGrams": 192,
+   "valuesPer100g": {
+    "energyKJ": 774,
+    "calories": 185,
+    "fat": 5.9,
+    "saturatedFat": 1.6,
+    "carbs": 26,
+    "sugar": 2.4,
+    "fiber": 2.5,
+    "protein": 5.5,
+    "saltGrams": 0.9
+   },
+   "valuesPerServing": {
+    "energyKJ": 1486,
+    "calories": 355,
+    "fat": 11,
+    "saturatedFat": 3.1,
+    "carbs": 50,
+    "sugar": 4.6,
+    "fiber": 4.9,
+    "protein": 11,
+    "saltGrams": 1.8
+   },
+   "aliases": [],
+   "pdfPage": 1,
+   "pageURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "dataURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "sha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347"
+  },
+  {
+   "id": "wraps-ham",
+   "name": "Ham Wrap",
+   "category": "wrap",
+   "siteCategories": [
+    "Wraps"
+   ],
+   "servingGrams": 218,
+   "valuesPer100g": {
+    "energyKJ": 656,
+    "calories": 157,
+    "fat": 3.4,
+    "saturatedFat": 0.6,
+    "carbs": 23,
+    "sugar": 2.3,
+    "fiber": 2.4,
+    "protein": 7.1,
+    "saltGrams": 0.8
+   },
+   "valuesPerServing": {
+    "energyKJ": 1430,
+    "calories": 342,
+    "fat": 7.4,
+    "saturatedFat": 1.3,
+    "carbs": 51,
+    "sugar": 5.1,
+    "fiber": 5.3,
+    "protein": 16,
+    "saltGrams": 1.7
+   },
+   "aliases": [],
+   "pdfPage": 1,
+   "pageURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "dataURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "sha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347"
+  },
+  {
+   "id": "wraps-spicy-vegan-patty",
+   "name": "Spicy Vegan Patty Wrap",
+   "category": "wrap",
+   "siteCategories": [
+    "Wraps"
+   ],
+   "servingGrams": 261,
+   "valuesPer100g": {
+    "calories": 154,
+    "fat": 5.1,
+    "saturatedFat": 0.7,
+    "carbs": 23,
+    "sugar": 2.6,
+    "fiber": 3.2,
+    "protein": 7.6,
+    "saltGrams": 0.9
+   },
+   "valuesPerServing": {
+    "calories": 403,
+    "fat": 13,
+    "saturatedFat": 1.7,
+    "carbs": 60,
+    "sugar": 6.7,
+    "fiber": 8.4,
+    "protein": 20,
+    "saltGrams": 2.2
+   },
+   "aliases": [],
+   "pdfPage": 1,
+   "pageURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "dataURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "sha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347",
+   "valueNotes": [
+    "energyKJ left out: 727 kJ does not match 154 kcal, which fits the macronutrients"
+   ]
+  },
+  {
+   "id": "wraps-veggie-delite",
+   "name": "Veggie Delite Wrap",
+   "category": "wrap",
+   "siteCategories": [
+    "Wraps"
+   ],
+   "servingGrams": 188,
+   "valuesPer100g": {
+    "energyKJ": 741,
+    "calories": 177,
+    "fat": 4.9,
+    "saturatedFat": 1.6,
+    "carbs": 27,
+    "sugar": 2.6,
+    "fiber": 2.6,
+    "protein": 5.2,
+    "saltGrams": 0.8
+   },
+   "valuesPerServing": {
+    "energyKJ": 1393,
+    "calories": 333,
+    "fat": 9.3,
+    "saturatedFat": 3,
+    "carbs": 51,
+    "sugar": 4.9,
+    "fiber": 4.9,
+    "protein": 9.7,
+    "saltGrams": 1.5
+   },
+   "aliases": [],
+   "pdfPage": 1,
+   "pageURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "dataURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "sha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347"
+  },
+  {
+   "id": "salads-chicken-teriyaki",
+   "name": "Chicken Teriyaki Salat",
+   "category": "salad",
+   "siteCategories": [
+    "Salads"
+   ],
+   "servingGrams": 293,
+   "valuesPer100g": {
+    "energyKJ": 170,
+    "calories": 40,
+    "fat": 0.5,
+    "saturatedFat": 0.2,
+    "carbs": 3.4,
+    "sugar": 2.6,
+    "fiber": 1,
+    "protein": 5.2,
+    "saltGrams": 0.3
+   },
+   "valuesPerServing": {
+    "energyKJ": 498,
+    "calories": 118,
+    "fat": 1.6,
+    "saturatedFat": 0.5,
+    "carbs": 10,
+    "sugar": 7.7,
+    "fiber": 2.9,
+    "protein": 15,
+    "saltGrams": 0.73
+   },
+   "aliases": [
+    "Chicken Teriyaki Salad"
+   ],
+   "pdfPage": 1,
+   "pageURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "dataURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "sha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347"
+  },
+  {
+   "id": "salads-plant-based-chicken-teriyaki",
+   "name": "Plant-based Chicken Teriyaki Salat",
+   "category": "salad",
+   "siteCategories": [
+    "Salads"
+   ],
+   "servingGrams": 293,
+   "valuesPer100g": {
+    "energyKJ": 197,
+    "calories": 47,
+    "fat": 0.9,
+    "saturatedFat": 0.2,
+    "carbs": 4.8,
+    "sugar": 2.4,
+    "fiber": 2.2,
+    "protein": 4.1,
+    "saltGrams": 0.6
+   },
+   "valuesPerServing": {
+    "energyKJ": 577,
+    "calories": 137,
+    "fat": 2.6,
+    "saturatedFat": 0.6,
+    "carbs": 14,
+    "sugar": 7.1,
+    "fiber": 6.3,
+    "protein": 12,
+    "saltGrams": 1.6
+   },
+   "aliases": [
+    "Plant-based Chicken Teriyaki Salad"
+   ],
+   "pdfPage": 1,
+   "pageURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "dataURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "sha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347"
+  },
+  {
+   "id": "salads-chicken-fajita",
+   "name": "Chicken Fajita Salat",
+   "category": "salad",
+   "siteCategories": [
+    "Salads"
+   ],
+   "servingGrams": 275,
+   "valuesPer100g": {
+    "energyKJ": 151,
+    "calories": 36,
+    "fat": 0.3,
+    "saturatedFat": 0.1,
+    "carbs": 2.9,
+    "sugar": 2.1,
+    "fiber": 1.1,
+    "protein": 5.2,
+    "saltGrams": 0.4
+   },
+   "valuesPerServing": {
+    "energyKJ": 414,
+    "calories": 98,
+    "fat": 0.9,
+    "saturatedFat": 0.3,
+    "carbs": 7.9,
+    "sugar": 5.7,
+    "fiber": 2.9,
+    "protein": 14,
+    "saltGrams": 1.2
+   },
+   "aliases": [
+    "Chicken Fajita Salad"
+   ],
+   "pdfPage": 1,
+   "pageURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "dataURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "sha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347"
+  },
+  {
+   "id": "salads-rotisserie-style-chicken-pulled-chicken-breast",
+   "name": "Rotisserie-Style Chicken/Pulled Chicken Breast Salat",
+   "category": "salad",
+   "siteCategories": [
+    "Salads"
+   ],
+   "servingGrams": 290,
+   "valuesPer100g": {
+    "energyKJ": 161,
+    "calories": 38,
+    "fat": 0.8,
+    "saturatedFat": 0.1,
+    "carbs": 2.2,
+    "sugar": 1.7,
+    "fiber": 1,
+    "protein": 5,
+    "saltGrams": 0.2
+   },
+   "valuesPerServing": {
+    "energyKJ": 466,
+    "calories": 109,
+    "fat": 2.2,
+    "saturatedFat": 0.4,
+    "carbs": 6.4,
+    "sugar": 5,
+    "fiber": 3,
+    "protein": 15,
+    "saltGrams": 0.5
+   },
+   "aliases": [
+    "Rotisserie-Style Chicken/Pulled Chicken Breast Salad",
+    "Rotisserie-Style Chicken Salat",
+    "Rotisserie-Style Chicken Salad",
+    "Pulled Chicken Breast Salat",
+    "Pulled Chicken Breast Salad"
+   ],
+   "pdfPage": 1,
+   "pageURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "dataURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "sha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347"
+  },
+  {
+   "id": "salads-chicken-tandoori",
+   "name": "Chicken Tandoori Salat",
+   "category": "salad",
+   "siteCategories": [
+    "Salads"
+   ],
+   "servingGrams": 315,
+   "valuesPer100g": {
+    "energyKJ": 380,
+    "calories": 90,
+    "fat": 5.9,
+    "saturatedFat": 1.1,
+    "carbs": 3.7,
+    "sugar": 2.5,
+    "fiber": 1,
+    "protein": 5.6,
+    "saltGrams": 0.5
+   },
+   "valuesPerServing": {
+    "energyKJ": 1197,
+    "calories": 285,
+    "fat": 19,
+    "saturatedFat": 3.5,
+    "carbs": 12,
+    "sugar": 8,
+    "fiber": 3.2,
+    "protein": 18,
+    "saltGrams": 1.6
+   },
+   "aliases": [
+    "Chicken Tandoori Salad"
+   ],
+   "pdfPage": 1,
+   "pageURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "dataURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "sha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347"
+  },
+  {
+   "id": "salads-tuna",
+   "name": "Tuna Salat",
+   "category": "salad",
+   "siteCategories": [
+    "Salads"
+   ],
+   "servingGrams": 293,
+   "valuesPer100g": {
+    "energyKJ": 261,
+    "calories": 62,
+    "fat": 3.5,
+    "saturatedFat": 0.3,
+    "carbs": 2.9,
+    "sugar": 2,
+    "fiber": 1,
+    "protein": 4.7,
+    "saltGrams": 0.3
+   },
+   "valuesPerServing": {
+    "energyKJ": 765,
+    "calories": 182,
+    "fat": 10,
+    "saturatedFat": 1,
+    "carbs": 8.5,
+    "sugar": 5.7,
+    "fiber": 2.8,
+    "protein": 14,
+    "saltGrams": 1.0
+   },
+   "aliases": [
+    "Tuna Salad"
+   ],
+   "pdfPage": 1,
+   "pageURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "dataURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "sha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347"
+  },
+  {
+   "id": "salads-italian-b-m-t",
+   "name": "Italian B.M.T. Salat",
+   "category": "salad",
+   "siteCategories": [
+    "Salads"
+   ],
+   "servingGrams": 279,
+   "valuesPer100g": {
+    "energyKJ": 302,
+    "calories": 72,
+    "fat": 4.5,
+    "saturatedFat": 1.8,
+    "carbs": 2.7,
+    "sugar": 1.9,
+    "fiber": 1.1,
+    "protein": 4.9,
+    "saltGrams": 0.6
+   },
+   "valuesPerServing": {
+    "energyKJ": 843,
+    "calories": 200,
+    "fat": 13,
+    "saturatedFat": 5,
+    "carbs": 7.5,
+    "sugar": 5.3,
+    "fiber": 3.1,
+    "protein": 14,
+    "saltGrams": 1.6
+   },
+   "aliases": [
+    "Italian B.M.T. Salad",
+    "Italian BMT Salat",
+    "Italian BMT Salad"
+   ],
+   "pdfPage": 1,
+   "pageURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "dataURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "sha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347"
+  },
+  {
+   "id": "salads-bbq-rib",
+   "name": "BBQ Rib Salat",
+   "category": "salad",
+   "siteCategories": [
+    "Salads"
+   ],
+   "servingGrams": 234,
+   "valuesPer100g": {
+    "energyKJ": 516,
+    "calories": 116,
+    "fat": 8.8,
+    "saturatedFat": 3.3,
+    "carbs": 3.1,
+    "sugar": 1.8,
+    "fiber": 1.5,
+    "protein": 5.8,
+    "saltGrams": 0.6
+   },
+   "valuesPerServing": {
+    "energyKJ": 1208,
+    "calories": 271,
+    "fat": 20,
+    "saturatedFat": 7.7,
+    "carbs": 7.2,
+    "sugar": 4.1,
+    "fiber": 3.4,
+    "protein": 14,
+    "saltGrams": 1.5
+   },
+   "aliases": [
+    "BBQ Rib Salad"
+   ],
+   "pdfPage": 1,
+   "pageURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "dataURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "sha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347"
+  },
+  {
+   "id": "salads-nacho-chicken",
+   "name": "Nacho Chicken Salat",
+   "category": "salad",
+   "siteCategories": [
+    "Salads"
+   ],
+   "servingGrams": 313,
+   "valuesPer100g": {
+    "energyKJ": 442,
+    "calories": 108,
+    "fat": 7.3,
+    "saturatedFat": 1.3,
+    "carbs": 6.2,
+    "sugar": 2.3,
+    "fiber": 1.2,
+    "protein": 4,
+    "saltGrams": 0.5
+   },
+   "valuesPerServing": {
+    "energyKJ": 1384,
+    "calories": 337,
+    "fat": 23,
+    "saturatedFat": 4.1,
+    "carbs": 20,
+    "sugar": 7.2,
+    "fiber": 3.7,
+    "protein": 13,
+    "saltGrams": 1.5
+   },
+   "aliases": [
+    "Nacho Chicken Salad"
+   ],
+   "pdfPage": 1,
+   "pageURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "dataURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "sha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347"
+  },
+  {
+   "id": "salads-philly-beef-cheese",
+   "name": "Philly Beef & Cheese Salat",
+   "category": "salad",
+   "siteCategories": [
+    "Salads"
+   ],
+   "servingGrams": 287,
+   "valuesPer100g": {
+    "energyKJ": 225,
+    "calories": 53,
+    "fat": 1.9,
+    "saturatedFat": 1,
+    "carbs": 3.9,
+    "sugar": 2.6,
+    "fiber": 1.1,
+    "protein": 4.9,
+    "saltGrams": 0.4
+   },
+   "valuesPerServing": {
+    "energyKJ": 645,
+    "calories": 152,
+    "fat": 5.4,
+    "saturatedFat": 3,
+    "carbs": 11,
+    "sugar": 7.4,
+    "fiber": 3.2,
+    "protein": 14,
+    "saltGrams": 1.1
+   },
+   "aliases": [
+    "Philly Beef & Cheese Salad"
+   ],
+   "pdfPage": 1,
+   "pageURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "dataURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "sha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347"
+  },
+  {
+   "id": "salads-beef-chili",
+   "name": "Beef Chili Salat",
+   "category": "salad",
+   "siteCategories": [
+    "Salads"
+   ],
+   "servingGrams": 249,
+   "valuesPer100g": {
+    "energyKJ": 296,
+    "calories": 70,
+    "fat": 2.4,
+    "saturatedFat": 1.2,
+    "carbs": 5.6,
+    "sugar": 2.3,
+    "protein": 6.4,
+    "saltGrams": 0.6
+   },
+   "valuesPerServing": {
+    "energyKJ": 738,
+    "calories": 175,
+    "fat": 6,
+    "saturatedFat": 3,
+    "carbs": 14,
+    "sugar": 5.8,
+    "protein": 16,
+    "saltGrams": 1.6
+   },
+   "aliases": [
+    "Beef Chili Salad"
+   ],
+   "pdfPage": 1,
+   "pageURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "dataURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "sha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347",
+   "valueNotes": [
+    "fiber left out: 14 g per 100 g does not fit the energy and the other macronutrients"
+   ]
+  },
+  {
+   "id": "salads-salami",
+   "name": "Salami Salat",
+   "category": "salad",
+   "siteCategories": [
+    "Salads"
+   ],
+   "servingGrams": 235,
+   "valuesPer100g": {
+    "energyKJ": 183,
+    "calories": 43,
+    "fat": 2.5,
+    "saturatedFat": 1,
+    "carbs": 2.7,
+    "sugar": 2,
+    "fiber": 1.2,
+    "protein": 2.3,
+    "saltGrams": 0.3
+   },
+   "valuesPerServing": {
+    "energyKJ": 430,
+    "calories": 101,
+    "fat": 5.9,
+    "saturatedFat": 2.4,
+    "carbs": 6.4,
+    "sugar": 4.8,
+    "fiber": 2.8,
+    "protein": 5.3,
+    "saltGrams": 0.6
+   },
+   "aliases": [
+    "Salami Salad"
+   ],
+   "pdfPage": 1,
+   "pageURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "dataURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "sha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347"
+  },
+  {
+   "id": "salads-ham",
+   "name": "Ham Salat",
+   "category": "salad",
+   "siteCategories": [
+    "Salads"
+   ],
+   "servingGrams": 261,
+   "valuesPer100g": {
+    "energyKJ": 143,
+    "calories": 34,
+    "fat": 0.7,
+    "saturatedFat": 0.2,
+    "carbs": 2.7,
+    "sugar": 2,
+    "fiber": 1.2,
+    "protein": 3.9,
+    "saltGrams": 0.2
+   },
+   "valuesPerServing": {
+    "energyKJ": 373,
+    "calories": 88,
+    "fat": 1.9,
+    "saturatedFat": 0.6,
+    "carbs": 7.1,
+    "sugar": 5.3,
+    "fiber": 3.2,
+    "protein": 10,
+    "saltGrams": 0.6
+   },
+   "aliases": [
+    "Ham Salad"
+   ],
+   "pdfPage": 1,
+   "pageURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "dataURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "sha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347"
+  },
+  {
+   "id": "salads-veggie-delite",
+   "name": "Veggie Delite Salat",
+   "category": "salad",
+   "siteCategories": [
+    "Salads"
+   ],
+   "servingGrams": 231,
+   "valuesPer100g": {
+    "energyKJ": 145,
+    "calories": 34,
+    "fat": 1.6,
+    "saturatedFat": 1,
+    "carbs": 2.8,
+    "sugar": 2.2,
+    "fiber": 1.2,
+    "protein": 1.9,
+    "saltGrams": 0.1
+   },
+   "valuesPerServing": {
+    "energyKJ": 336,
+    "calories": 79,
+    "fat": 3.8,
+    "saturatedFat": 2.3,
+    "carbs": 6.5,
+    "sugar": 5.1,
+    "fiber": 2.8,
+    "protein": 4.5,
+    "saltGrams": 0.3
+   },
+   "aliases": [
+    "Veggie Delite Salad"
+   ],
+   "pdfPage": 1,
+   "pageURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "dataURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "sha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347"
+  },
+  {
+   "id": "unsere-kreationen-subs-the-bbq-master",
+   "name": "The BBQ Master",
+   "category": "sandwich",
+   "siteCategories": [
+    "\"Unsere Kreationen\" Subs"
+   ],
+   "servingGrams": 297,
+   "valuesPer100g": {
+    "energyKJ": 891,
+    "calories": 209,
+    "fat": 11,
+    "saturatedFat": 4.4,
+    "carbs": 19,
+    "sugar": 7.3,
+    "fiber": 1.8,
+    "protein": 8.6,
+    "saltGrams": 1.5
+   },
+   "valuesPerServing": {
+    "energyKJ": 2646,
+    "calories": 622,
+    "fat": 32,
+    "saturatedFat": 13,
+    "carbs": 56,
+    "sugar": 22,
+    "fiber": 5.3,
+    "protein": 26,
+    "saltGrams": 4.4
+   },
+   "aliases": [
+    "The BBQ Master Sub",
+    "BBQ Master"
+   ],
+   "pdfPage": 1,
+   "pageURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "dataURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "sha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347"
+  },
+  {
+   "id": "unsere-kreationen-subs-furious-chicken",
+   "name": "Furious Chicken",
+   "category": "sandwich",
+   "siteCategories": [
+    "\"Unsere Kreationen\" Subs"
+   ],
+   "servingGrams": 270,
+   "valuesPer100g": {
+    "energyKJ": 826,
+    "calories": 194,
+    "fat": 8.4,
+    "saturatedFat": 2.1,
+    "carbs": 19,
+    "sugar": 2.6,
+    "fiber": 2,
+    "protein": 9.9,
+    "saltGrams": 1.1
+   },
+   "valuesPerServing": {
+    "energyKJ": 2231,
+    "calories": 522,
+    "fat": 23,
+    "saturatedFat": 5.7,
+    "carbs": 50,
+    "sugar": 7,
+    "fiber": 5.4,
+    "protein": 27,
+    "saltGrams": 3
+   },
+   "aliases": [
+    "Furious Chicken Sub"
+   ],
+   "pdfPage": 1,
+   "pageURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "dataURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "sha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347"
+  },
+  {
+   "id": "unsere-kreationen-subs-fiesta-fajita",
+   "name": "Fiesta Fajita",
+   "category": "sandwich",
+   "siteCategories": [
+    "\"Unsere Kreationen\" Subs"
+   ],
+   "servingGrams": 255,
+   "valuesPer100g": {
+    "energyKJ": 870,
+    "calories": 198,
+    "fat": 9.9,
+    "saturatedFat": 2.2,
+    "carbs": 20,
+    "sugar": 3.3,
+    "fiber": 1.9,
+    "protein": 11,
+    "saltGrams": 1.3
+   },
+   "valuesPerServing": {
+    "energyKJ": 2218,
+    "calories": 506,
+    "fat": 25,
+    "saturatedFat": 5.7,
+    "carbs": 51,
+    "sugar": 8.5,
+    "fiber": 4.9,
+    "protein": 27,
+    "saltGrams": 3.4
+   },
+   "aliases": [
+    "Fiesta Fajita Sub"
+   ],
+   "pdfPage": 1,
+   "pageURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "dataURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "sha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347"
+  },
+  {
+   "id": "unsere-kreationen-subs-tasty-tandoori",
+   "name": "Tasty Tandoori",
+   "category": "sandwich",
+   "siteCategories": [
+    "\"Unsere Kreationen\" Subs"
+   ],
+   "servingGrams": 199,
+   "valuesPer100g": {
+    "energyKJ": 817,
+    "calories": 195,
+    "fat": 7.2,
+    "saturatedFat": 2.9,
+    "carbs": 20,
+    "sugar": 5.2,
+    "fiber": 1.4,
+    "protein": 13,
+    "saltGrams": 1.1
+   },
+   "valuesPerServing": {
+    "energyKJ": 1625,
+    "calories": 388,
+    "fat": 14,
+    "saturatedFat": 5.9,
+    "carbs": 39,
+    "sugar": 10,
+    "fiber": 2.8,
+    "protein": 26,
+    "saltGrams": 2.3
+   },
+   "aliases": [
+    "Tasty Tandoori Sub"
+   ],
+   "pdfPage": 1,
+   "pageURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "dataURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "sha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347"
+  },
+  {
+   "id": "unsere-kreationen-subs-beef-texicana",
+   "name": "Beef Texicana",
+   "category": "sandwich",
+   "siteCategories": [
+    "\"Unsere Kreationen\" Subs"
+   ],
+   "servingGrams": 248,
+   "valuesPer100g": {
+    "energyKJ": 759,
+    "calories": 181,
+    "fat": 7.9,
+    "saturatedFat": 3.8,
+    "carbs": 17,
+    "sugar": 4.6,
+    "fiber": 1.4,
+    "protein": 11,
+    "saltGrams": 1.1
+   },
+   "valuesPerServing": {
+    "energyKJ": 1882,
+    "calories": 449,
+    "fat": 20,
+    "saturatedFat": 9.4,
+    "carbs": 42,
+    "sugar": 11,
+    "fiber": 3.4,
+    "protein": 27,
+    "saltGrams": 2.7
+   },
+   "aliases": [
+    "Beef Texicana Sub"
+   ],
+   "pdfPage": 1,
+   "pageURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "dataURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "sha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347"
+  },
+  {
+   "id": "baked-potato-beef-chili-baked-potato",
+   "name": "Beef Chili Baked Potato",
+   "category": "potato",
+   "siteCategories": [
+    "Baked Potato"
+   ],
+   "servingGrams": 485,
+   "valuesPer100g": {
+    "energyKJ": 468,
+    "calories": 111,
+    "fat": 3.9,
+    "saturatedFat": 2,
+    "carbs": 13,
+    "sugar": 1.2,
+    "fiber": 2.1,
+    "protein": 5.6,
+    "saltGrams": 0.6
+   },
+   "valuesPerServing": {
+    "energyKJ": 2269,
+    "calories": 538,
+    "fat": 19,
+    "saturatedFat": 10,
+    "carbs": 63,
+    "sugar": 5.8,
+    "fiber": 10,
+    "protein": 27,
+    "saltGrams": 2.9
+   },
+   "aliases": [],
+   "pdfPage": 1,
+   "pageURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "dataURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "sha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347"
+  },
+  {
+   "id": "baked-potato-chicken-fajita-baked-potato",
+   "name": "Chicken Fajita Baked Potato",
+   "category": "potato",
+   "siteCategories": [
+    "Baked Potato"
+   ],
+   "servingGrams": 394,
+   "valuesPer100g": {
+    "energyKJ": 584,
+    "calories": 139,
+    "fat": 6.1,
+    "saturatedFat": 2.8,
+    "carbs": 14,
+    "sugar": 1.2,
+    "fiber": 1.9,
+    "protein": 6.9,
+    "saltGrams": 0.5
+   },
+   "valuesPerServing": {
+    "energyKJ": 2299,
+    "calories": 547,
+    "fat": 24,
+    "saturatedFat": 11,
+    "carbs": 54,
+    "sugar": 4.6,
+    "fiber": 7.6,
+    "protein": 27,
+    "saltGrams": 1.8
+   },
+   "aliases": [],
+   "pdfPage": 1,
+   "pageURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "dataURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "sha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347"
+  },
+  {
+   "id": "baked-potato-nacho-chicken-baked-potato",
+   "name": "Nacho Chicken Baked Potato",
+   "category": "potato",
+   "siteCategories": [
+    "Baked Potato"
+   ],
+   "servingGrams": 392,
+   "valuesPer100g": {
+    "energyKJ": 646,
+    "calories": 156,
+    "fat": 7.4,
+    "saturatedFat": 2.8,
+    "carbs": 16,
+    "sugar": 0.8,
+    "fiber": 2.1,
+    "protein": 5.9,
+    "saltGrams": 0.4
+   },
+   "valuesPerServing": {
+    "energyKJ": 2531,
+    "calories": 610,
+    "fat": 29,
+    "saturatedFat": 11,
+    "carbs": 62,
+    "sugar": 3.1,
+    "fiber": 8.3,
+    "protein": 23,
+    "saltGrams": 1.4
+   },
+   "aliases": [],
+   "pdfPage": 1,
+   "pageURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "dataURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "sha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347"
+  },
+  {
+   "id": "baked-potato-chicken-teriyaki-baked-potato",
+   "name": "Chicken Teriyaki Baked Potato",
+   "category": "potato",
+   "siteCategories": [
+    "Baked Potato"
+   ],
+   "servingGrams": 412,
+   "valuesPer100g": {
+    "energyKJ": 589,
+    "calories": 140,
+    "fat": 5.8,
+    "saturatedFat": 2.7,
+    "carbs": 14,
+    "sugar": 1.5,
+    "fiber": 1.8,
+    "protein": 7.8,
+    "saltGrams": 0.4
+   },
+   "valuesPerServing": {
+    "energyKJ": 2425,
+    "calories": 577,
+    "fat": 24,
+    "saturatedFat": 11,
+    "carbs": 56,
+    "sugar": 6.0,
+    "fiber": 7.6,
+    "protein": 32,
+    "saltGrams": 1.6
+   },
+   "aliases": [],
+   "pdfPage": 1,
+   "pageURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "dataURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "sha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347"
+  },
+  {
+   "id": "baked-potato-doelicious-chicken",
+   "name": "Dölicious Chicken Baked Potato",
+   "category": "potato",
+   "siteCategories": [
+    "Baked Potato"
+   ],
+   "servingGrams": 450,
+   "valuesPer100g": {
+    "energyKJ": 562,
+    "calories": 141,
+    "fat": 6.7,
+    "saturatedFat": 2.9,
+    "carbs": 13,
+    "sugar": 1.0,
+    "fiber": 2.0,
+    "protein": 7.6,
+    "saltGrams": 0.6
+   },
+   "valuesPerServing": {
+    "energyKJ": 2528,
+    "calories": 634,
+    "fat": 30,
+    "saturatedFat": 13,
+    "carbs": 59,
+    "sugar": 4.4,
+    "fiber": 9.1,
+    "protein": 34,
+    "saltGrams": 2.6
+   },
+   "aliases": [
+    "Dölicious Chicken"
+   ],
+   "pdfPage": 1,
+   "pageURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "dataURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "sha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347"
+  },
+  {
+   "id": "baked-potato-rotisserie-style-chicken-pulled-chicken-breast-baked-potato",
+   "name": "Rotisserie Style Chicken/Pulled Chicken Breast Baked Potato",
+   "category": "potato",
+   "siteCategories": [
+    "Baked Potato"
+   ],
+   "servingGrams": 394,
+   "valuesPer100g": {
+    "energyKJ": 583,
+    "calories": 139,
+    "fat": 6.3,
+    "saturatedFat": 2.8,
+    "carbs": 13,
+    "sugar": 0.7,
+    "fiber": 1.9,
+    "protein": 6.9,
+    "saltGrams": 0.3
+   },
+   "valuesPerServing": {
+    "energyKJ": 2297,
+    "calories": 546,
+    "fat": 25,
+    "saturatedFat": 11,
+    "carbs": 52,
+    "sugar": 2.7,
+    "fiber": 7.5,
+    "protein": 27,
+    "saltGrams": 1.2
+   },
+   "aliases": [
+    "Rotisserie Style Chicken Baked Potato",
+    "Pulled Chicken Breast Baked Potato"
+   ],
+   "pdfPage": 1,
+   "pageURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "dataURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "sha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347"
+  },
+  {
+   "id": "baked-potato-chicken-tandoori-baked-potato",
+   "name": "Chicken Tandoori Baked Potato",
+   "category": "potato",
+   "siteCategories": [
+    "Baked Potato"
+   ],
+   "servingGrams": 394,
+   "valuesPer100g": {
+    "energyKJ": 584,
+    "calories": 139,
+    "fat": 6.1,
+    "saturatedFat": 2.8,
+    "carbs": 14,
+    "sugar": 1.1,
+    "fiber": 2.0,
+    "protein": 7.1,
+    "saltGrams": 0.4
+   },
+   "valuesPerServing": {
+    "energyKJ": 2300,
+    "calories": 547,
+    "fat": 24,
+    "saturatedFat": 11,
+    "carbs": 55,
+    "sugar": 4.5,
+    "fiber": 7.8,
+    "protein": 28,
+    "saltGrams": 1.6
+   },
+   "aliases": [],
+   "pdfPage": 1,
+   "pageURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "dataURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "sha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347"
+  },
+  {
+   "id": "baked-potato-falafel-baked-potato",
+   "name": "Falafel Baked Potato",
+   "category": "potato",
+   "siteCategories": [
+    "Baked Potato"
+   ],
+   "servingGrams": 383,
+   "valuesPer100g": {
+    "energyKJ": 645,
+    "calories": 154,
+    "fat": 7.6,
+    "saturatedFat": 2.9,
+    "carbs": 17,
+    "sugar": 0.9,
+    "fiber": 3.4,
+    "protein": 4.7,
+    "saltGrams": 0.3
+   },
+   "valuesPerServing": {
+    "energyKJ": 2471,
+    "calories": 588,
+    "fat": 29,
+    "saturatedFat": 11,
+    "carbs": 65,
+    "sugar": 3.3,
+    "fiber": 13,
+    "protein": 18,
+    "saltGrams": 1.3
+   },
+   "aliases": [],
+   "pdfPage": 1,
+   "pageURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "dataURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "sha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347"
+  },
+  {
+   "id": "baked-potato-bbq-rib-baked-potato",
+   "name": "BBQ Rib Baked Potato",
+   "category": "potato",
+   "siteCategories": [
+    "Baked Potato"
+   ],
+   "servingGrams": 445,
+   "valuesPer100g": {
+    "energyKJ": 713,
+    "calories": 170,
+    "fat": 9.2,
+    "saturatedFat": 4.0,
+    "carbs": 15,
+    "sugar": 5.8,
+    "fiber": 1.9,
+    "protein": 3.6,
+    "saltGrams": 0.4
+   },
+   "valuesPerServing": {
+    "energyKJ": 3175,
+    "calories": 756,
+    "fat": 41,
+    "saturatedFat": 18,
+    "carbs": 66,
+    "sugar": 26.0,
+    "fiber": 8.6,
+    "protein": 16,
+    "saltGrams": 1.8
+   },
+   "aliases": [],
+   "pdfPage": 1,
+   "pageURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "dataURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "sha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347"
+  },
+  {
+   "id": "baked-potato-philly-beef-cheese-baked-potato",
+   "name": "Philly Beef & Cheese Baked Potato",
+   "category": "potato",
+   "siteCategories": [
+    "Baked Potato"
+   ],
+   "servingGrams": 394,
+   "valuesPer100g": {
+    "energyKJ": 586,
+    "calories": 139,
+    "fat": 6.1,
+    "saturatedFat": 2.8,
+    "carbs": 14,
+    "sugar": 1.2,
+    "fiber": 2.0,
+    "protein": 6.3,
+    "saltGrams": 0.4
+   },
+   "valuesPerServing": {
+    "energyKJ": 2308,
+    "calories": 547,
+    "fat": 24,
+    "saturatedFat": 11,
+    "carbs": 56,
+    "sugar": 4.9,
+    "fiber": 7.9,
+    "protein": 25,
+    "saltGrams": 1.4
+   },
+   "aliases": [],
+   "pdfPage": 1,
+   "pageURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "dataURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "sha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347"
+  },
+  {
+   "id": "baked-potato-tuna-baked-potato",
+   "name": "Tuna Baked Potato",
+   "category": "potato",
+   "siteCategories": [
+    "Baked Potato"
+   ],
+   "servingGrams": 412,
+   "valuesPer100g": {
+    "energyKJ": 632,
+    "calories": 150,
+    "fat": 8.0,
+    "saturatedFat": 2.7,
+    "carbs": 13,
+    "sugar": 0.9,
+    "fiber": 1.8,
+    "protein": 6.6,
+    "saltGrams": 0.4
+   },
+   "valuesPerServing": {
+    "energyKJ": 2605,
+    "calories": 620,
+    "fat": 33,
+    "saturatedFat": 11,
+    "carbs": 54,
+    "sugar": 3.6,
+    "fiber": 7.5,
+    "protein": 27,
+    "saltGrams": 1.6
+   },
+   "aliases": [],
+   "pdfPage": 1,
+   "pageURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "dataURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "sha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347"
+  },
+  {
+   "id": "baked-potato-salami-baked-potato",
+   "name": "Salami Baked Potato",
+   "category": "potato",
+   "siteCategories": [
+    "Baked Potato"
+   ],
+   "servingGrams": 356,
+   "valuesPer100g": {
+    "energyKJ": 647,
+    "calories": 154,
+    "fat": 8.1,
+    "saturatedFat": 3.7,
+    "carbs": 15,
+    "sugar": 0.8,
+    "fiber": 2.1,
+    "protein": 5.3,
+    "saltGrams": 0.4
+   },
+   "valuesPerServing": {
+    "energyKJ": 2303,
+    "calories": 547,
+    "fat": 29,
+    "saturatedFat": 13,
+    "carbs": 52,
+    "sugar": 2.7,
+    "fiber": 7.5,
+    "protein": 19,
+    "saltGrams": 1.4
+   },
+   "aliases": [],
+   "pdfPage": 1,
+   "pageURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "dataURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "sha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347"
+  },
+  {
+   "id": "baked-potato-italian-bmt-baked-potato",
+   "name": "Italian BMT Baked Potato",
+   "category": "potato",
+   "siteCategories": [
+    "Baked Potato"
+   ],
+   "servingGrams": 402,
+   "valuesPer100g": {
+    "energyKJ": 684,
+    "calories": 163,
+    "fat": 9.0,
+    "saturatedFat": 4.0,
+    "carbs": 13,
+    "sugar": 0.8,
+    "fiber": 1.9,
+    "protein": 6.7,
+    "saltGrams": 0.6
+   },
+   "valuesPerServing": {
+    "energyKJ": 2751,
+    "calories": 654,
+    "fat": 36,
+    "saturatedFat": 16,
+    "carbs": 53,
+    "sugar": 3.2,
+    "fiber": 7.8,
+    "protein": 27,
+    "saltGrams": 2.4
+   },
+   "aliases": [],
+   "pdfPage": 1,
+   "pageURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "dataURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "sha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347"
+  },
+  {
+   "id": "baked-potato-ham-baked-potato",
+   "name": "Ham Baked Potato",
+   "category": "potato",
+   "siteCategories": [
+    "Baked Potato"
+   ],
+   "servingGrams": 380,
+   "valuesPer100g": {
+    "energyKJ": 582,
+    "calories": 138,
+    "fat": 6.3,
+    "saturatedFat": 2.9,
+    "carbs": 14,
+    "sugar": 0.8,
+    "fiber": 2.1,
+    "protein": 6.1,
+    "saltGrams": 0.3
+   },
+   "valuesPerServing": {
+    "energyKJ": 2213,
+    "calories": 526,
+    "fat": 24,
+    "saturatedFat": 11,
+    "carbs": 53,
+    "sugar": 3.2,
+    "fiber": 7.9,
+    "protein": 23,
+    "saltGrams": 1.2
+   },
+   "aliases": [],
+   "pdfPage": 2,
+   "pageURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "dataURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "sha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347"
+  },
+  {
+   "id": "baked-potato-veggie-delite-baked-potato",
+   "name": "Veggie Delite Baked Potato",
+   "category": "potato",
+   "siteCategories": [
+    "Baked Potato"
+   ],
+   "servingGrams": 419,
+   "valuesPer100g": {
+    "energyKJ": 492,
+    "calories": 117,
+    "fat": 5.5,
+    "saturatedFat": 2.4,
+    "carbs": 13,
+    "sugar": 1.1,
+    "fiber": 2.0,
+    "protein": 3.8,
+    "saltGrams": 0.2
+   },
+   "valuesPerServing": {
+    "energyKJ": 2061,
+    "calories": 490,
+    "fat": 23,
+    "saturatedFat": 10,
+    "carbs": 54,
+    "sugar": 4.6,
+    "fiber": 8.5,
+    "protein": 16,
+    "saltGrams": 0.7
+   },
+   "aliases": [],
+   "pdfPage": 2,
+   "pageURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "dataURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "sha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347"
+  },
+  {
+   "id": "baked-potato-plant-based-chicken-teriyaki-baked-potato",
+   "name": "Plant-based Chicken Teriyaki Baked Potato",
+   "category": "potato",
+   "siteCategories": [
+    "Baked Potato"
+   ],
+   "servingGrams": 412,
+   "valuesPer100g": {
+    "energyKJ": 586,
+    "calories": 140,
+    "fat": 6.1,
+    "saturatedFat": 2.7,
+    "carbs": 15,
+    "sugar": 1.2,
+    "fiber": 2.7,
+    "protein": 6.1,
+    "saltGrams": 0.6
+   },
+   "valuesPerServing": {
+    "energyKJ": 2416,
+    "calories": 575,
+    "fat": 25,
+    "saturatedFat": 11,
+    "carbs": 60,
+    "sugar": 5.0,
+    "fiber": 11,
+    "protein": 25,
+    "saltGrams": 2.3
+   },
+   "aliases": [],
+   "pdfPage": 2,
+   "pageURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "dataURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "sha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347"
+  },
+  {
+   "id": "baked-potato-plant-based-doelicious-chicken",
+   "name": "Plant-based Dölicious Chicken Baked Potato",
+   "category": "potato",
+   "siteCategories": [
+    "Baked Potato"
+   ],
+   "servingGrams": 450,
+   "valuesPer100g": {
+    "energyKJ": 553,
+    "calories": 139,
+    "fat": 6.0,
+    "saturatedFat": 2.7,
+    "carbs": 14,
+    "sugar": 0.8,
+    "fiber": 2.9,
+    "protein": 7.3,
+    "saltGrams": 0.7
+   },
+   "valuesPerServing": {
+    "energyKJ": 2490,
+    "calories": 625,
+    "fat": 27,
+    "saturatedFat": 12,
+    "carbs": 62,
+    "sugar": 3.8,
+    "fiber": 13,
+    "protein": 33,
+    "saltGrams": 3.3
+   },
+   "aliases": [
+    "Plant-based Dölicious Chicken"
+   ],
+   "pdfPage": 2,
+   "pageURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "dataURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "sha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347"
+  },
+  {
+   "id": "baked-potato-spicy-vegan-patty-baked-potato",
+   "name": "Spicy Vegan Patty Baked Potato",
+   "category": "potato",
+   "siteCategories": [
+    "Baked Potato"
+   ],
+   "servingGrams": 423,
+   "valuesPer100g": {
+    "calories": 139,
+    "fat": 7.1,
+    "saturatedFat": 2.6,
+    "carbs": 14,
+    "sugar": 1.1,
+    "fiber": 2.6,
+    "protein": 6.6,
+    "saltGrams": 0.4
+   },
+   "valuesPerServing": {
+    "calories": 587,
+    "fat": 30,
+    "saturatedFat": 11,
+    "carbs": 61,
+    "sugar": 4.8,
+    "fiber": 11,
+    "protein": 28,
+    "saltGrams": 1.7
+   },
+   "aliases": [],
+   "pdfPage": 2,
+   "pageURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "dataURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "sha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347",
+   "valueNotes": [
+    "energyKJ left out: 634 kJ does not match 139 kcal, which fits the macronutrients"
+   ]
+  },
+  {
+   "id": "baked-potato-sour-cream-baked-potato",
+   "name": "Sour Cream Baked Potato",
+   "category": "potato",
+   "siteCategories": [
+    "Baked Potato"
+   ],
+   "servingGrams": 413,
+   "valuesPer100g": {
+    "energyKJ": 595,
+    "calories": 142,
+    "fat": 7.5,
+    "saturatedFat": 3.6,
+    "carbs": 13,
+    "sugar": 1.3,
+    "fiber": 1.8,
+    "protein": 5.3,
+    "saltGrams": 0.4
+   },
+   "valuesPerServing": {
+    "energyKJ": 2456,
+    "calories": 585,
+    "fat": 31,
+    "saturatedFat": 15,
+    "carbs": 55,
+    "sugar": 5.4,
+    "fiber": 7.5,
+    "protein": 22,
+    "saltGrams": 1.5
+   },
+   "aliases": [],
+   "pdfPage": 2,
+   "pageURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "dataURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "sha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347"
+  },
+  {
+   "id": "panini-chick-n-garlic",
+   "name": "Chick'n'Garlic Panini",
+   "category": "sandwich",
+   "siteCategories": [
+    "Panini"
+   ],
+   "servingGrams": 196,
+   "valuesPer100g": {
+    "energyKJ": 948,
+    "calories": 227,
+    "fat": 11,
+    "saturatedFat": 4.2,
+    "carbs": 18,
+    "sugar": 3.8,
+    "fiber": 1.2,
+    "protein": 14,
+    "saltGrams": 1.1
+   },
+   "valuesPerServing": {
+    "energyKJ": 1858,
+    "calories": 444,
+    "fat": 21,
+    "saturatedFat": 8.2,
+    "carbs": 35,
+    "sugar": 7.5,
+    "fiber": 2.3,
+    "protein": 27,
+    "saltGrams": 2.2
+   },
+   "aliases": [
+    "Chick'n'Garlic"
+   ],
+   "pdfPage": 2,
+   "pageURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "dataURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "sha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347"
+  },
+  {
+   "id": "panini-philly-supreme",
+   "name": "Philly Supreme Panini",
+   "category": "sandwich",
+   "siteCategories": [
+    "Panini"
+   ],
+   "servingGrams": 196,
+   "valuesPer100g": {
+    "energyKJ": 942,
+    "calories": 225,
+    "fat": 10,
+    "saturatedFat": 4.4,
+    "carbs": 20,
+    "sugar": 5.1,
+    "fiber": 1.4,
+    "protein": 13,
+    "saltGrams": 1.3
+   },
+   "valuesPerServing": {
+    "energyKJ": 1847,
+    "calories": 441,
+    "fat": 20,
+    "saturatedFat": 8.6,
+    "carbs": 40,
+    "sugar": 10,
+    "fiber": 2.7,
+    "protein": 25,
+    "saltGrams": 2.5
+   },
+   "aliases": [
+    "Philly Supreme"
+   ],
+   "pdfPage": 2,
+   "pageURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "dataURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "sha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347"
+  },
+  {
+   "id": "panini-smoky-beast",
+   "name": "Smoky Beast Panini",
+   "category": "sandwich",
+   "siteCategories": [
+    "Panini"
+   ],
+   "servingGrams": 207,
+   "valuesPer100g": {
+    "energyKJ": 848,
+    "calories": 204,
+    "fat": 7.7,
+    "saturatedFat": 3.9,
+    "carbs": 19,
+    "sugar": 5.6,
+    "fiber": 1.3,
+    "protein": 14,
+    "saltGrams": 1.2
+   },
+   "valuesPerServing": {
+    "energyKJ": 1755,
+    "calories": 421,
+    "fat": 16,
+    "saturatedFat": 8.1,
+    "carbs": 40,
+    "sugar": 12,
+    "fiber": 2.6,
+    "protein": 29,
+    "saltGrams": 2.5
+   },
+   "aliases": [
+    "Smoky Beast"
+   ],
+   "pdfPage": 2,
+   "pageURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "dataURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "sha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347"
+  },
+  {
+   "id": "footlong-sidekicks-peperoni-salami-cheese-footlong-dipper",
+   "name": "Peperoni-Salami & Cheese Footlong Dipper",
+   "category": "sandwich",
+   "siteCategories": [
+    "Footlong Sidekicks"
+   ],
+   "servingGrams": 138,
+   "valuesPer100g": {
+    "energyKJ": 1313,
+    "calories": 314,
+    "fat": 14,
+    "saturatedFat": 5.5,
+    "carbs": 35,
+    "sugar": 2.5,
+    "fiber": 2.8,
+    "protein": 11,
+    "saltGrams": 1.8
+   },
+   "valuesPerServing": {
+    "energyKJ": 1812,
+    "calories": 433,
+    "fat": 19,
+    "saturatedFat": 7.6,
+    "carbs": 49,
+    "sugar": 3.4,
+    "fiber": 3.9,
+    "protein": 15,
+    "saltGrams": 2.5
+   },
+   "aliases": [],
+   "pdfPage": 2,
+   "pageURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "dataURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "sha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347"
+  },
+  {
+   "id": "footlong-sidekicks-triple-cheese-footlong-dipper",
+   "name": "Triple Cheese Footlong Dipper",
+   "category": "sandwich",
+   "siteCategories": [
+    "Footlong Sidekicks"
+   ],
+   "servingGrams": 148,
+   "valuesPer100g": {
+    "energyKJ": 1279,
+    "calories": 306,
+    "fat": 13,
+    "saturatedFat": 6.4,
+    "carbs": 33,
+    "sugar": 2.3,
+    "fiber": 2.6,
+    "protein": 12,
+    "saltGrams": 1.4
+   },
+   "valuesPerServing": {
+    "energyKJ": 1892,
+    "calories": 453,
+    "fat": 19,
+    "saturatedFat": 9.5,
+    "carbs": 49,
+    "sugar": 3.3,
+    "fiber": 3.9,
+    "protein": 18,
+    "saltGrams": 2.1
+   },
+   "aliases": [],
+   "pdfPage": 2,
+   "pageURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "dataURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "sha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347"
+  },
+  {
+   "id": "beilagen-waffle-fries",
+   "name": "Waffle Fries",
+   "category": "fries",
+   "siteCategories": [
+    "Beilagen"
+   ],
+   "servingGrams": 100,
+   "valuesPer100g": {
+    "calories": 184,
+    "fat": 8.2,
+    "saturatedFat": 1.1,
+    "carbs": 23,
+    "sugar": 0.3,
+    "fiber": 4,
+    "protein": 2.8,
+    "saltGrams": 0.9
+   },
+   "valuesPerServing": {
+    "calories": 184,
+    "fat": 8.2,
+    "saturatedFat": 1.1,
+    "carbs": 23,
+    "sugar": 0.3,
+    "fiber": 4,
+    "protein": 2.8,
+    "saltGrams": 0.9
+   },
+   "aliases": [],
+   "pdfPage": 2,
+   "pageURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "dataURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "sha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347",
+   "valueNotes": [
+    "energyKJ left out: 1085 kJ does not match 184 kcal, which fits the macronutrients"
+   ]
+  },
+  {
+   "id": "beilagen-nacho-chicken-bites",
+   "name": "Nacho Chicken Bites",
+   "category": "chicken",
+   "siteCategories": [
+    "Beilagen"
+   ],
+   "servingGrams": 18,
+   "valuesPer100g": {
+    "energyKJ": 1046,
+    "calories": 250,
+    "fat": 11.8,
+    "saturatedFat": 1.6,
+    "carbs": 19.5,
+    "sugar": 0.8,
+    "fiber": 1.4,
+    "protein": 15,
+    "saltGrams": 1.3
+   },
+   "valuesPerServing": {
+    "energyKJ": 188,
+    "calories": 45,
+    "fat": 2.1,
+    "saturatedFat": 0.2,
+    "carbs": 3.5,
+    "sugar": 0.2,
+    "fiber": 0.3,
+    "protein": 2.6,
+    "saltGrams": 0.2
+   },
+   "aliases": [],
+   "pdfPage": 2,
+   "pageURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "dataURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "sha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347"
+  },
+  {
+   "id": "beilagen-mozzarella-cheddar-bites-x-5",
+   "name": "Mozzarella & Cheddar Bites x 5",
+   "category": "snack",
+   "siteCategories": [
+    "Beilagen"
+   ],
+   "servingGrams": 75,
+   "valuesPer100g": {
+    "energyKJ": 1423,
+    "calories": 340,
+    "fat": 20,
+    "saturatedFat": 8.1,
+    "carbs": 25,
+    "sugar": 1.7,
+    "fiber": 2.1,
+    "protein": 15,
+    "saltGrams": 1.7
+   },
+   "valuesPerServing": {
+    "energyKJ": 1067,
+    "calories": 255,
+    "fat": 15,
+    "saturatedFat": 6.1,
+    "carbs": 19,
+    "sugar": 1,
+    "fiber": 1.6,
+    "protein": 11,
+    "saltGrams": 1.3
+   },
+   "aliases": [],
+   "pdfPage": 2,
+   "pageURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "dataURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "sha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347"
+  },
+  {
+   "id": "beilagen-mozzarella-cheddar-bites-x-12",
+   "name": "Mozzarella & Cheddar Bites x 12",
+   "category": "snack",
+   "siteCategories": [
+    "Beilagen"
+   ],
+   "servingGrams": 180,
+   "valuesPer100g": {
+    "energyKJ": 1423,
+    "calories": 340,
+    "fat": 20,
+    "saturatedFat": 8.3,
+    "carbs": 25,
+    "sugar": 1.8,
+    "fiber": 2.1,
+    "protein": 14,
+    "saltGrams": 1.7
+   },
+   "valuesPerServing": {
+    "energyKJ": 2561,
+    "calories": 612,
+    "fat": 36,
+    "saturatedFat": 15.0,
+    "carbs": 45,
+    "sugar": 3,
+    "fiber": 3.8,
+    "protein": 26,
+    "saltGrams": 3.1
+   },
+   "aliases": [],
+   "pdfPage": 2,
+   "pageURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "dataURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "sha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347"
+  },
+  {
+   "id": "beilagen-coleslaw-regular",
+   "name": "Coleslaw regular",
+   "category": "salad",
+   "siteCategories": [
+    "Beilagen"
+   ],
+   "servingGrams": 40,
+   "valuesPer100g": {
+    "energyKJ": 623,
+    "calories": 150,
+    "fat": 13,
+    "saturatedFat": 1,
+    "carbs": 6,
+    "sugar": 5.3,
+    "fiber": 2,
+    "protein": 1,
+    "saltGrams": 0.6
+   },
+   "valuesPerServing": {
+    "energyKJ": 249,
+    "calories": 60,
+    "fat": 5.2,
+    "saturatedFat": 0.4,
+    "carbs": 2.4,
+    "sugar": 2.1,
+    "fiber": 0.8,
+    "protein": 0.4,
+    "saltGrams": 0.23
+   },
+   "aliases": [],
+   "pdfPage": 2,
+   "pageURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "dataURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "sha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347"
+  },
+  {
+   "id": "beilagen-coleslaw-large",
+   "name": "Coleslaw Large",
+   "category": "salad",
+   "siteCategories": [
+    "Beilagen"
+   ],
+   "servingGrams": 80,
+   "valuesPer100g": {
+    "energyKJ": 624,
+    "calories": 149,
+    "fat": 12.5,
+    "saturatedFat": 1,
+    "carbs": 6,
+    "sugar": 5.3,
+    "fiber": 2,
+    "protein": 1,
+    "saltGrams": 0.6
+   },
+   "valuesPerServing": {
+    "energyKJ": 499,
+    "calories": 119,
+    "fat": 10,
+    "saturatedFat": 0.8,
+    "carbs": 4.8,
+    "sugar": 4.2,
+    "fiber": 1.6,
+    "protein": 0.8,
+    "saltGrams": 0.46
+   },
+   "aliases": [],
+   "pdfPage": 2,
+   "pageURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "dataURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "sha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347"
+  },
+  {
+   "id": "beilagen-lay-s-chips-salted",
+   "name": "Lay's Chips Salted",
+   "category": "snack",
+   "siteCategories": [
+    "Beilagen"
+   ],
+   "servingGrams": 28,
+   "valuesPer100g": {
+    "energyKJ": 2256,
+    "calories": 539,
+    "fat": 34,
+    "saturatedFat": 2.7,
+    "carbs": 52,
+    "sugar": 0.3,
+    "fiber": 4.4,
+    "protein": 6.1,
+    "saltGrams": 1.3
+   },
+   "valuesPerServing": {
+    "energyKJ": 620,
+    "calories": 148,
+    "fat": 9.4,
+    "saturatedFat": 0.7,
+    "carbs": 14,
+    "sugar": 0.1,
+    "fiber": 1.2,
+    "protein": 1.7,
+    "saltGrams": 0.4
+   },
+   "aliases": [],
+   "pdfPage": 2,
+   "pageURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "dataURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "sha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347"
+  },
+  {
+   "id": "beilagen-lay-s-chips-paprika",
+   "name": "Lay's Chips Paprika",
+   "category": "snack",
+   "siteCategories": [
+    "Beilagen"
+   ],
+   "servingGrams": 28,
+   "valuesPer100g": {
+    "energyKJ": 2215,
+    "calories": 529,
+    "fat": 32,
+    "saturatedFat": 2.7,
+    "carbs": 52,
+    "sugar": 2.4,
+    "fiber": 4.6,
+    "protein": 6.1,
+    "saltGrams": 1.4
+   },
+   "valuesPerServing": {
+    "energyKJ": 609,
+    "calories": 146,
+    "fat": 8.8,
+    "saturatedFat": 0.7,
+    "carbs": 14,
+    "sugar": 0.7,
+    "fiber": 1.3,
+    "protein": 1.7,
+    "saltGrams": 0.4
+   },
+   "aliases": [],
+   "pdfPage": 2,
+   "pageURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "dataURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "sha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347"
+  },
+  {
+   "id": "beilagen-doritos-nacho-cheese",
+   "name": "Doritos Nacho Cheese",
+   "category": "snack",
+   "siteCategories": [
+    "Beilagen"
+   ],
+   "servingGrams": 44,
+   "valuesPer100g": {
+    "energyKJ": 2091,
+    "calories": 500,
+    "fat": 26,
+    "saturatedFat": 3.4,
+    "carbs": 58,
+    "sugar": 2.7,
+    "fiber": 5.6,
+    "protein": 6.5,
+    "saltGrams": 1.2
+   },
+   "valuesPerServing": {
+    "energyKJ": 920,
+    "calories": 220,
+    "fat": 11,
+    "saturatedFat": 1.5,
+    "carbs": 26,
+    "sugar": 1.2,
+    "fiber": 2.5,
+    "protein": 2.9,
+    "saltGrams": 0.5
+   },
+   "aliases": [],
+   "pdfPage": 2,
+   "pageURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "dataURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "sha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347"
+  },
+  {
+   "id": "beilagen-doritos-sweet-chili-pepper",
+   "name": "Doritos Sweet Chili Pepper",
+   "category": "snack",
+   "siteCategories": [
+    "Beilagen"
+   ],
+   "servingGrams": 44,
+   "valuesPer100g": {
+    "energyKJ": 2086,
+    "calories": 499,
+    "fat": 25,
+    "saturatedFat": 3.1,
+    "carbs": 59,
+    "sugar": 5.2,
+    "fiber": 5.7,
+    "protein": 6.5,
+    "saltGrams": 1.1
+   },
+   "valuesPerServing": {
+    "energyKJ": 918,
+    "calories": 219,
+    "fat": 11,
+    "saturatedFat": 1.4,
+    "carbs": 26,
+    "sugar": 2.3,
+    "fiber": 2.5,
+    "protein": 2.9,
+    "saltGrams": 0.5
+   },
+   "aliases": [],
+   "pdfPage": 2,
+   "pageURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "dataURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "sha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347"
+  },
+  {
+   "id": "getraenke-pepsi-zero-zucker",
+   "name": "Pepsi Zero Zucker",
+   "category": "drink",
+   "siteCategories": [
+    "Getränke"
+   ],
+   "servingGrams": 500,
+   "valuesPer100g": {
+    "energyKJ": 2,
+    "calories": 0,
+    "fat": 0,
+    "saturatedFat": 0,
+    "carbs": 0,
+    "sugar": 0,
+    "fiber": 0,
+    "protein": 0,
+    "saltGrams": 0
+   },
+   "valuesPerServing": {
+    "energyKJ": 10,
+    "calories": 2,
+    "fat": 0,
+    "saturatedFat": 0,
+    "carbs": 0,
+    "sugar": 0,
+    "fiber": 0.2,
+    "protein": 0,
+    "saltGrams": 0
+   },
+   "aliases": [],
+   "pdfPage": 2,
+   "pageURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "dataURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "sha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347"
+  },
+  {
+   "id": "getraenke-schwip-schwap-zero-orange",
+   "name": "Schwip Schwap Zero Orange",
+   "category": "drink",
+   "siteCategories": [
+    "Getränke"
+   ],
+   "servingGrams": 500,
+   "valuesPer100g": {
+    "energyKJ": 5,
+    "calories": 1.2,
+    "fat": 0,
+    "saturatedFat": 0,
+    "carbs": 0,
+    "sugar": 0,
+    "fiber": 0,
+    "protein": 0,
+    "saltGrams": 0
+   },
+   "valuesPerServing": {
+    "energyKJ": 25,
+    "calories": 6,
+    "fat": 0,
+    "saturatedFat": 0,
+    "carbs": 1,
+    "sugar": 1,
+    "fiber": 0,
+    "protein": 0,
+    "saltGrams": 0
+   },
+   "aliases": [],
+   "pdfPage": 2,
+   "pageURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "dataURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "sha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347"
+  },
+  {
+   "id": "getraenke-adelholzener-classic-flasche",
+   "name": "Adelholzener Classic Flasche",
+   "category": "drink",
+   "siteCategories": [
+    "Getränke"
+   ],
+   "servingGrams": 500,
+   "valuesPer100g": {
+    "energyKJ": 0,
+    "calories": 0,
+    "fat": 0,
+    "saturatedFat": 0,
+    "carbs": 0,
+    "sugar": 0,
+    "fiber": 0,
+    "protein": 0,
+    "saltGrams": 0
+   },
+   "valuesPerServing": {
+    "energyKJ": 0,
+    "calories": 0,
+    "fat": 0,
+    "saturatedFat": 0,
+    "carbs": 0,
+    "sugar": 0,
+    "fiber": 0,
+    "protein": 0,
+    "saltGrams": 0
+   },
+   "aliases": [],
+   "pdfPage": 2,
+   "pageURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "dataURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "sha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347"
+  },
+  {
+   "id": "getraenke-adelholzener-naturell-flasche",
+   "name": "Adelholzener Naturell Flasche",
+   "category": "drink",
+   "siteCategories": [
+    "Getränke"
+   ],
+   "servingGrams": 500,
+   "valuesPer100g": {
+    "energyKJ": 0,
+    "calories": 0,
+    "fat": 0,
+    "saturatedFat": 0,
+    "carbs": 0,
+    "sugar": 0,
+    "fiber": 0,
+    "protein": 0,
+    "saltGrams": 0
+   },
+   "valuesPerServing": {
+    "energyKJ": 0,
+    "calories": 0,
+    "fat": 0,
+    "saturatedFat": 0,
+    "carbs": 0,
+    "sugar": 0,
+    "fiber": 0,
+    "protein": 0,
+    "saltGrams": 0
+   },
+   "aliases": [],
+   "pdfPage": 2,
+   "pageURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "dataURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "sha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347"
+  },
+  {
+   "id": "saucen-bbq-sauce-vegan",
+   "name": "BBQ Sauce (vegan)",
+   "category": "sauce",
+   "siteCategories": [
+    "Saucen"
+   ],
+   "servingGrams": 14,
+   "valuesPer100g": {
+    "calories": 153,
+    "fat": 0.5,
+    "saturatedFat": 0.1,
+    "carbs": 36,
+    "sugar": 30,
+    "fiber": 2.1,
+    "protein": 0.9,
+    "saltGrams": 2.7
+   },
+   "valuesPerServing": {
+    "calories": 21,
+    "fat": 0,
+    "saturatedFat": 0,
+    "carbs": 4.9,
+    "sugar": 4.2,
+    "fiber": 0.3,
+    "protein": 0.1,
+    "saltGrams": 0.4
+   },
+   "aliases": [],
+   "pdfPage": 2,
+   "pageURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "dataURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "sha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347",
+   "valueNotes": [
+    "energyKJ left out: 598 kJ does not match 153 kcal, which fits the macronutrients"
+   ]
+  },
+  {
+   "id": "saucen-caesar-sauce",
+   "name": "Caesar Sauce",
+   "category": "sauce",
+   "siteCategories": [
+    "Saucen"
+   ],
+   "servingGrams": 14,
+   "valuesPer100g": {
+    "energyKJ": 1498,
+    "calories": 357,
+    "fat": 34,
+    "saturatedFat": 3.5,
+    "carbs": 8.4,
+    "sugar": 5.1,
+    "fiber": 0,
+    "protein": 2.6,
+    "saltGrams": 2.4
+   },
+   "valuesPerServing": {
+    "energyKJ": 210,
+    "calories": 50,
+    "fat": 4.8,
+    "saturatedFat": 0.5,
+    "carbs": 1.2,
+    "sugar": 0.7,
+    "fiber": 0,
+    "protein": 0.4,
+    "saltGrams": 0.3
+   },
+   "aliases": [],
+   "pdfPage": 2,
+   "pageURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "dataURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "sha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347"
+  },
+  {
+   "id": "saucen-chipotle-southwest-sauce",
+   "name": "Chipotle Southwest Sauce",
+   "category": "sauce",
+   "siteCategories": [
+    "Saucen"
+   ],
+   "servingGrams": 14,
+   "valuesPer100g": {
+    "energyKJ": 1841,
+    "calories": 440,
+    "fat": 45,
+    "saturatedFat": 3.4,
+    "carbs": 9,
+    "sugar": 5.9,
+    "fiber": 0.5,
+    "protein": 1,
+    "saltGrams": 1.7
+   },
+   "valuesPerServing": {
+    "energyKJ": 258,
+    "calories": 62,
+    "fat": 6.3,
+    "saturatedFat": 0.5,
+    "carbs": 1.3,
+    "sugar": 0.8,
+    "fiber": 0,
+    "protein": 0.1,
+    "saltGrams": 0.2
+   },
+   "aliases": [],
+   "pdfPage": 2,
+   "pageURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "dataURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "sha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347"
+  },
+  {
+   "id": "saucen-x-spicy-chipotle-sauce-vegan",
+   "name": "X-spicy Chipotle Sauce (vegan)",
+   "category": "sauce",
+   "siteCategories": [
+    "Saucen"
+   ],
+   "servingGrams": 14,
+   "valuesPer100g": {
+    "energyKJ": 1795,
+    "calories": 429,
+    "fat": 44,
+    "saturatedFat": 3.4,
+    "carbs": 8,
+    "sugar": 5,
+    "fiber": 0.7,
+    "protein": 1.2,
+    "saltGrams": 1.8
+   },
+   "valuesPerServing": {
+    "energyKJ": 251,
+    "calories": 60,
+    "fat": 6.1,
+    "saturatedFat": 0.5,
+    "carbs": 1.1,
+    "sugar": 0.7,
+    "fiber": 0.1,
+    "protein": 0.2,
+    "saltGrams": 0.3
+   },
+   "aliases": [],
+   "pdfPage": 2,
+   "pageURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "dataURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "sha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347"
+  },
+  {
+   "id": "saucen-honey-wholegrain-mustard-sauce",
+   "name": "Honey & Wholegrain Mustard Sauce",
+   "category": "sauce",
+   "siteCategories": [
+    "Saucen"
+   ],
+   "servingGrams": 14,
+   "valuesPer100g": {
+    "energyKJ": 870,
+    "calories": 208,
+    "fat": 14,
+    "saturatedFat": 0.9,
+    "carbs": 19,
+    "sugar": 17,
+    "fiber": 1.7,
+    "protein": 1.8,
+    "saltGrams": 1.4
+   },
+   "valuesPerServing": {
+    "energyKJ": 122,
+    "calories": 29,
+    "fat": 1.9,
+    "saturatedFat": 0.1,
+    "carbs": 2.7,
+    "sugar": 2.3,
+    "fiber": 0.2,
+    "protein": 0.3,
+    "saltGrams": 0.2
+   },
+   "aliases": [],
+   "pdfPage": 2,
+   "pageURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "dataURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "sha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347"
+  },
+  {
+   "id": "saucen-lite-mayonnaise",
+   "name": "Lite Mayonnaise",
+   "category": "sauce",
+   "siteCategories": [
+    "Saucen"
+   ],
+   "servingGrams": 14,
+   "valuesPer100g": {
+    "energyKJ": 1384,
+    "calories": 329,
+    "fat": 35,
+    "saturatedFat": 2.4,
+    "carbs": 4,
+    "sugar": 4,
+    "fiber": 0,
+    "protein": 0,
+    "saltGrams": 1.7
+   },
+   "valuesPerServing": {
+    "energyKJ": 194,
+    "calories": 46,
+    "fat": 4.9,
+    "saturatedFat": 0.3,
+    "carbs": 0.6,
+    "sugar": 0.6,
+    "fiber": 0,
+    "protein": 0,
+    "saltGrams": 0.2
+   },
+   "aliases": [],
+   "pdfPage": 2,
+   "pageURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "dataURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "sha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347"
+  },
+  {
+   "id": "saucen-joghurt",
+   "name": "Joghurt",
+   "category": "sauce",
+   "siteCategories": [
+    "Saucen"
+   ],
+   "servingGrams": 14,
+   "valuesPer100g": {
+    "energyKJ": 560,
+    "calories": 134,
+    "fat": 10,
+    "saturatedFat": 0.1,
+    "carbs": 9,
+    "sugar": 4.9,
+    "fiber": 0.2,
+    "protein": 1.2,
+    "saltGrams": 1.7
+   },
+   "valuesPerServing": {
+    "energyKJ": 78,
+    "calories": 18,
+    "fat": 1.4,
+    "saturatedFat": 0,
+    "carbs": 1.3,
+    "sugar": 0.6,
+    "fiber": 0,
+    "protein": 0.1,
+    "saltGrams": 0.2
+   },
+   "aliases": [],
+   "pdfPage": 2,
+   "pageURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "dataURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "sha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347"
+  },
+  {
+   "id": "saucen-sweet-onion-vegan",
+   "name": "Sweet Onion (vegan)",
+   "category": "sauce",
+   "siteCategories": [
+    "Saucen"
+   ],
+   "servingGrams": 14,
+   "valuesPer100g": {
+    "energyKJ": 648,
+    "calories": 155,
+    "fat": 1.4,
+    "saturatedFat": 0.1,
+    "carbs": 35,
+    "sugar": 31,
+    "fiber": 0.5,
+    "protein": 0.5,
+    "saltGrams": 0.7
+   },
+   "valuesPerServing": {
+    "energyKJ": 97,
+    "calories": 23,
+    "fat": 0.1,
+    "saturatedFat": 0,
+    "carbs": 5.6,
+    "sugar": 4.8,
+    "fiber": 0.1,
+    "protein": 0.1,
+    "saltGrams": 0.1
+   },
+   "aliases": [],
+   "pdfPage": 2,
+   "pageURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "dataURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "sha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347"
+  },
+  {
+   "id": "saucen-olivenoel-vegan",
+   "name": "Olivenöl (vegan)",
+   "category": "sauce",
+   "siteCategories": [
+    "Saucen"
+   ],
+   "servingGrams": 3.5,
+   "valuesPer100g": {
+    "energyKJ": 3765,
+    "calories": 900,
+    "fat": 100,
+    "saturatedFat": 13.3,
+    "carbs": 0,
+    "sugar": 0,
+    "fiber": 0,
+    "protein": 0,
+    "saltGrams": 0
+   },
+   "valuesPerServing": {
+    "energyKJ": 131,
+    "calories": 32,
+    "fat": 3.5,
+    "saturatedFat": 0.4,
+    "carbs": 0,
+    "sugar": 0,
+    "fiber": 0,
+    "protein": 0,
+    "saltGrams": 0
+   },
+   "aliases": [],
+   "pdfPage": 2,
+   "pageURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "dataURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "sha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347"
+  },
+  {
+   "id": "saucen-ketchup",
+   "name": "Ketchup",
+   "category": "sauce",
+   "siteCategories": [
+    "Saucen"
+   ],
+   "servingGrams": 14,
+   "valuesPer100g": {
+    "energyKJ": 531,
+    "calories": 127,
+    "fat": 0.1,
+    "saturatedFat": 0.1,
+    "carbs": 29,
+    "sugar": 23,
+    "fiber": 0.8,
+    "protein": 1.2,
+    "saltGrams": 3
+   },
+   "valuesPerServing": {
+    "energyKJ": 74,
+    "calories": 18,
+    "fat": 0,
+    "saturatedFat": 0,
+    "carbs": 4,
+    "sugar": 3.2,
+    "fiber": 0,
+    "protein": 0,
+    "saltGrams": 0.4
+   },
+   "aliases": [],
+   "pdfPage": 2,
+   "pageURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "dataURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "sha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347"
+  },
+  {
+   "id": "cookies-double-chocolate-cookie-vegan",
+   "name": "Double Chocolate Cookie (vegan)",
+   "category": "dessert",
+   "siteCategories": [
+    "Cookies"
+   ],
+   "servingGrams": 45,
+   "valuesPer100g": {
+    "energyKJ": 1946,
+    "calories": 465,
+    "fat": 21,
+    "saturatedFat": 12,
+    "carbs": 60,
+    "sugar": 39,
+    "fiber": 1.2,
+    "protein": 5.1,
+    "saltGrams": 1.0
+   },
+   "valuesPerServing": {
+    "energyKJ": 876,
+    "calories": 209,
+    "fat": 9.5,
+    "saturatedFat": 5.4,
+    "carbs": 27,
+    "sugar": 18,
+    "fiber": 0.5,
+    "protein": 2.3,
+    "saltGrams": 0.4
+   },
+   "aliases": [],
+   "pdfPage": 2,
+   "pageURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "dataURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "sha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347"
+  },
+  {
+   "id": "cookies-chocolate-chunk-cookie",
+   "name": "Chocolate Chunk Cookie",
+   "category": "dessert",
+   "siteCategories": [
+    "Cookies"
+   ],
+   "servingGrams": 45,
+   "valuesPer100g": {
+    "energyKJ": 1992,
+    "calories": 476,
+    "fat": 23,
+    "saturatedFat": 11,
+    "carbs": 62,
+    "sugar": 35,
+    "fiber": 2.7,
+    "protein": 5,
+    "saltGrams": 0.6
+   },
+   "valuesPerServing": {
+    "energyKJ": 896,
+    "calories": 214,
+    "fat": 10,
+    "saturatedFat": 5.1,
+    "carbs": 28,
+    "sugar": 16,
+    "fiber": 1.2,
+    "protein": 2.3,
+    "saltGrams": 0.3
+   },
+   "aliases": [],
+   "pdfPage": 2,
+   "pageURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "dataURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "sha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347"
+  },
+  {
+   "id": "cookies-chocolate-chip-mit-rainbow-candy-cookie",
+   "name": "Chocolate Chip mit Rainbow Candy Cookie",
+   "category": "dessert",
+   "siteCategories": [
+    "Cookies"
+   ],
+   "servingGrams": 45,
+   "valuesPer100g": {
+    "energyKJ": 1987,
+    "calories": 475,
+    "fat": 22,
+    "saturatedFat": 11,
+    "carbs": 63,
+    "sugar": 40,
+    "fiber": 3.4,
+    "protein": 4.9,
+    "saltGrams": 0.3
+   },
+   "valuesPerServing": {
+    "energyKJ": 894,
+    "calories": 214,
+    "fat": 9.8,
+    "saturatedFat": 5,
+    "carbs": 28,
+    "sugar": 18,
+    "fiber": 1.5,
+    "protein": 2.2,
+    "saltGrams": 0.1
+   },
+   "aliases": [],
+   "pdfPage": 2,
+   "pageURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "dataURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "sha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347"
+  },
+  {
+   "id": "cookies-white-chip-macadamia-nut-cookie",
+   "name": "White Chip Macadamia Nut Cookie",
+   "category": "dessert",
+   "siteCategories": [
+    "Cookies"
+   ],
+   "servingGrams": 45,
+   "valuesPer100g": {
+    "energyKJ": 2000,
+    "calories": 478,
+    "fat": 23,
+    "saturatedFat": 11,
+    "carbs": 61,
+    "sugar": 36,
+    "fiber": 1.2,
+    "protein": 5.2,
+    "saltGrams": 0.9
+   },
+   "valuesPerServing": {
+    "energyKJ": 900,
+    "calories": 215,
+    "fat": 10,
+    "saturatedFat": 5.1,
+    "carbs": 27,
+    "sugar": 16,
+    "fiber": 0.5,
+    "protein": 2.3,
+    "saltGrams": 0.4
+   },
+   "aliases": [],
+   "pdfPage": 2,
+   "pageURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "dataURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "sha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347"
+  },
+  {
+   "id": "cookies-raspberry-cheesecake-cookie",
+   "name": "Raspberry Cheesecake Cookie",
+   "category": "dessert",
+   "siteCategories": [
+    "Cookies"
+   ],
+   "servingGrams": 45,
+   "valuesPer100g": {
+    "energyKJ": 1936,
+    "calories": 463,
+    "fat": 21,
+    "saturatedFat": 12,
+    "carbs": 61,
+    "sugar": 36,
+    "fiber": 0.5,
+    "protein": 5.5,
+    "saltGrams": 0.7
+   },
+   "valuesPerServing": {
+    "energyKJ": 871,
+    "calories": 208,
+    "fat": 9.6,
+    "saturatedFat": 5.4,
+    "carbs": 27,
+    "sugar": 16,
+    "fiber": 0.2,
+    "protein": 2.5,
+    "saltGrams": 0.3
+   },
+   "aliases": [],
+   "pdfPage": 2,
+   "pageURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "dataURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "sha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347"
+  },
+  {
+   "id": "cookies-mini-chocolate-chip-cookies-with-caramel-dip",
+   "name": "Mini Chocolate Chip Cookies with Caramel Dip",
+   "category": "dessert",
+   "siteCategories": [
+    "Cookies"
+   ],
+   "servingGrams": 126,
+   "valuesPer100g": {
+    "calories": 422,
+    "fat": 17,
+    "saturatedFat": 8.5,
+    "carbs": 63,
+    "sugar": 38,
+    "fiber": 2.1,
+    "protein": 3.8,
+    "saltGrams": 0.6
+   },
+   "valuesPerServing": {
+    "calories": 532,
+    "fat": 21,
+    "saturatedFat": 11,
+    "carbs": 79,
+    "sugar": 48,
+    "fiber": 2.6,
+    "protein": 4.8,
+    "saltGrams": 0.8
+   },
+   "aliases": [],
+   "pdfPage": 2,
+   "pageURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "dataURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "sha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347",
+   "valueNotes": [
+    "energyKJ left out: 1423 kJ does not match 422 kcal, which fits the macronutrients"
+   ]
+  },
+  {
+   "id": "cookies-matcha-white-chocolate-chip-cookie",
+   "name": "Matcha & White Chocolate Chip Cookie",
+   "category": "dessert",
+   "siteCategories": [
+    "Cookies"
+   ],
+   "servingGrams": 45,
+   "valuesPer100g": {
+    "energyKJ": 1793,
+    "calories": 429,
+    "fat": 17.6,
+    "saturatedFat": 9.3,
+    "carbs": 61,
+    "sugar": 36,
+    "fiber": 1.9,
+    "protein": 5.3,
+    "saltGrams": 0.6
+   },
+   "valuesPerServing": {
+    "energyKJ": 807,
+    "calories": 193,
+    "fat": 7.9,
+    "saturatedFat": 4.2,
+    "carbs": 27.4,
+    "sugar": 16,
+    "fiber": 0.85,
+    "protein": 2.4,
+    "saltGrams": 0.3
+   },
+   "aliases": [],
+   "pdfPage": 2,
+   "pageURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "dataURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "sha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347"
+  },
+  {
+   "id": "cookies-brookie-cookie-cup",
+   "name": "Brookie Cookie Cup",
+   "category": "dessert",
+   "siteCategories": [
+    "Cookies"
+   ],
+   "servingGrams": 56,
+   "valuesPer100g": {
+    "calories": 475,
+    "fat": 23.2,
+    "saturatedFat": 11.1,
+    "carbs": 50,
+    "sugar": 36,
+    "fiber": 2.5,
+    "protein": 4.8
+   },
+   "valuesPerServing": {
+    "calories": 266,
+    "fat": 13,
+    "saturatedFat": 6.2,
+    "carbs": 28,
+    "sugar": 20,
+    "fiber": 1.4,
+    "protein": 2.7
+   },
+   "aliases": [],
+   "pdfPage": 2,
+   "pageURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "dataURL": "https://media.subway.com/dam/urn:aaid:aem:24d496bd-951b-4f8b-9887-acbee5d18960/original/as/Kopie%20von%20Germany%20Nutritional%20Information%20Full%20Menu%20C4%202026.pdf",
+   "sha256": "8d632251e18246a6f2b6d709439354c8bf70ba5ff1abdc9b62d7119d0cd89347",
+   "valueNotes": [
+    "energyKJ left out: 1600 kJ does not match 475 kcal, which fits the macronutrients",
+    "saltGrams left out: 24.1 g salt per 100 g is implausible outside a condiment"
+   ]
+  }
+ ],
+ "excluded": [
+  {
+   "id": "salads-spicy-vegan-patty",
+   "name": "Spicy Vegan Patty Salat",
+   "section": "Salads",
+   "reason": "its kJ and kcal disagree (277 kJ, 49 kcal) and nothing decides"
+  },
+  {
+   "id": "getraenke-pepsi-regular",
+   "name": "Pepsi regular",
+   "section": "Getränke",
+   "reason": "its values stand in the wrong columns of the PDF: the sugar of a soft drink sits under fat and saturated fat with no carbohydrate"
+  },
+  {
+   "id": "getraenke-schwip-schwap",
+   "name": "Schwip Schwap",
+   "section": "Getränke",
+   "reason": "its values stand in the wrong columns of the PDF: the sugar of a soft drink sits under fat and saturated fat with no carbohydrate"
+  },
+  {
+   "id": "getraenke-schwip-schwap-zero",
+   "name": "Schwip Schwap Zero",
+   "section": "Getränke",
+   "reason": "its values stand in the wrong columns of the PDF: the sugar of a soft drink sits under fat and saturated fat with no carbohydrate"
+  },
+  {
+   "id": "getraenke-7up-zero",
+   "name": "7UP Zero",
+   "section": "Getränke",
+   "reason": "its values stand in the wrong columns of the PDF: the sugar of a soft drink sits under fat and saturated fat with no carbohydrate"
+  },
+  {
+   "id": "getraenke-lipton-eistee-peach",
+   "name": "Lipton Eistee Peach",
+   "section": "Getränke",
+   "reason": "its values stand in the wrong columns of the PDF: the sugar of a soft drink sits under fat and saturated fat with no carbohydrate"
+  },
+  {
+   "id": "getraenke-lipton-eistee-lemon",
+   "name": "Lipton Eistee Lemon",
+   "section": "Getränke",
+   "reason": "the chain states contradicting carbs per 100 g and per portion (0 vs 3.0)"
+  },
+  {
+   "id": "getraenke-mountain-dew",
+   "name": "Mountain Dew",
+   "section": "Getränke",
+   "reason": "its values stand in the wrong columns of the PDF: the sugar of a soft drink sits under fat and saturated fat with no carbohydrate"
+  },
+  {
+   "id": "getraenke-capri-sun-fruit-crush-tropical",
+   "name": "Capri-Sun Fruit Crush Tropical",
+   "section": "Getränke",
+   "reason": "its values stand in the wrong columns of the PDF: the sugar of a soft drink sits under fat and saturated fat with no carbohydrate"
+  },
+  {
+   "id": "getraenke-buddyfruits-fruchtmousse",
+   "name": "BuddyFruits Fruchtmousse",
+   "section": "Getränke",
+   "reason": "its energy does not fit its macronutrients (62 kcal per 100 g, but 13 g fat, 1.9 g carbohydrate and 0 g protein give 125)"
+  },
+  {
+   "id": "saucen-garlic-herb-vegan",
+   "name": "Garlic & Herb (vegan)",
+   "section": "Saucen",
+   "reason": "the chain states contradicting energy per 100 g and per portion (570 vs 157.14 kcal per 100 g from the portion)"
+  },
+  {
+   "id": "saucen-balsamic-vinegar-vegan",
+   "name": "Balsamic Vinegar (vegan)",
+   "section": "Saucen",
+   "reason": "its energy does not fit its macronutrients (28 kcal per 100 g, but 0 g fat, 0 g carbohydrate and 0 g protein give 0)"
+  },
+  {
+   "id": "cookies-pumpkin-spiced-cookie",
+   "name": "Pumpkin Spiced Cookie",
+   "section": "Cookies",
+   "reason": "seasonal: the autumn pumpkin spice cookie"
+  },
+  {
+   "id": "kaese-scheibenkaese",
+   "name": "Scheibenkäse",
+   "section": "Käse",
+   "reason": "a component for building one's own sub (bread, cheese, topping or single filling), not a menu item"
+  },
+  {
+   "id": "kaese-mozzarella-emmental-mix",
+   "name": "Mozzarella-Emmental-Mix",
+   "section": "Käse",
+   "reason": "a component for building one's own sub (bread, cheese, topping or single filling), not a menu item"
+  },
+  {
+   "id": "kaese-frischkaese",
+   "name": "Frischkäse",
+   "section": "Käse",
+   "reason": "a component for building one's own sub (bread, cheese, topping or single filling), not a menu item"
+  },
+  {
+   "id": "kaese-cheddar",
+   "name": "Cheddar",
+   "section": "Käse",
+   "reason": "a component for building one's own sub (bread, cheese, topping or single filling), not a menu item"
+  },
+  {
+   "id": "kaese-vegan-slices-vegan",
+   "name": "Vegan Slices (vegan)",
+   "section": "Käse",
+   "reason": "a component for building one's own sub (bread, cheese, topping or single filling), not a menu item"
+  },
+  {
+   "id": "zutaten-toppings-jalape-os",
+   "name": "Jalapeños",
+   "section": "Zutaten/Toppings",
+   "reason": "a component for building one's own sub (bread, cheese, topping or single filling), not a menu item"
+  },
+  {
+   "id": "zutaten-toppings-oliven",
+   "name": "Oliven",
+   "section": "Zutaten/Toppings",
+   "reason": "a component for building one's own sub (bread, cheese, topping or single filling), not a menu item"
+  },
+  {
+   "id": "zutaten-toppings-gewu-rzgurken",
+   "name": "Gewürzgurken",
+   "section": "Zutaten/Toppings",
+   "reason": "a component for building one's own sub (bread, cheese, topping or single filling), not a menu item"
+  },
+  {
+   "id": "zutaten-toppings-mais",
+   "name": "Mais",
+   "section": "Zutaten/Toppings",
+   "reason": "a component for building one's own sub (bread, cheese, topping or single filling), not a menu item"
+  },
+  {
+   "id": "zutaten-toppings-salat",
+   "name": "Salat",
+   "section": "Zutaten/Toppings",
+   "reason": "a component for building one's own sub (bread, cheese, topping or single filling), not a menu item"
+  },
+  {
+   "id": "zutaten-toppings-tomaten",
+   "name": "Tomaten",
+   "section": "Zutaten/Toppings",
+   "reason": "a component for building one's own sub (bread, cheese, topping or single filling), not a menu item"
+  },
+  {
+   "id": "zutaten-toppings-gurken",
+   "name": "Gurken",
+   "section": "Zutaten/Toppings",
+   "reason": "a component for building one's own sub (bread, cheese, topping or single filling), not a menu item"
+  },
+  {
+   "id": "zutaten-toppings-paprika",
+   "name": "Paprika",
+   "section": "Zutaten/Toppings",
+   "reason": "a component for building one's own sub (bread, cheese, topping or single filling), not a menu item"
+  },
+  {
+   "id": "zutaten-toppings-zwiebeln",
+   "name": "Zwiebeln",
+   "section": "Zutaten/Toppings",
+   "reason": "a component for building one's own sub (bread, cheese, topping or single filling), not a menu item"
+  },
+  {
+   "id": "zutaten-toppings-rucola",
+   "name": "Rucola",
+   "section": "Zutaten/Toppings",
+   "reason": "a component for building one's own sub (bread, cheese, topping or single filling), not a menu item"
+  },
+  {
+   "id": "zutaten-toppings-nachos-doritos-nacho-cheese",
+   "name": "Nachos (Doritos® Nacho Cheese)",
+   "section": "Zutaten/Toppings",
+   "reason": "a component for building one's own sub (bread, cheese, topping or single filling), not a menu item"
+  },
+  {
+   "id": "zutaten-toppings-guacamole",
+   "name": "Guacamole",
+   "section": "Zutaten/Toppings",
+   "reason": "a component for building one's own sub (bread, cheese, topping or single filling), not a menu item"
+  },
+  {
+   "id": "zutaten-toppings-roestzwiebeln",
+   "name": "Röstzwiebeln",
+   "section": "Zutaten/Toppings",
+   "reason": "a component for building one's own sub (bread, cheese, topping or single filling), not a menu item"
+  },
+  {
+   "id": "brot-italian",
+   "name": "Italian",
+   "section": "Brot",
+   "reason": "a component for building one's own sub (bread, cheese, topping or single filling), not a menu item"
+  },
+  {
+   "id": "brot-sesam",
+   "name": "Sesam",
+   "section": "Brot",
+   "reason": "a component for building one's own sub (bread, cheese, topping or single filling), not a menu item"
+  },
+  {
+   "id": "brot-cheese-oregano",
+   "name": "Cheese Oregano",
+   "section": "Brot",
+   "reason": "a component for building one's own sub (bread, cheese, topping or single filling), not a menu item"
+  },
+  {
+   "id": "brot-honey-oat",
+   "name": "Honey Oat",
+   "section": "Brot",
+   "reason": "a component for building one's own sub (bread, cheese, topping or single filling), not a menu item"
+  },
+  {
+   "id": "brot-vollkornbrot",
+   "name": "Vollkornbrot",
+   "section": "Brot",
+   "reason": "a component for building one's own sub (bread, cheese, topping or single filling), not a menu item"
+  },
+  {
+   "id": "brot-weizenwrap",
+   "name": "Weizenwrap",
+   "section": "Brot",
+   "reason": "a component for building one's own sub (bread, cheese, topping or single filling), not a menu item"
+  },
+  {
+   "id": "brot-glutenfrei",
+   "name": "Glutenfrei",
+   "section": "Brot",
+   "reason": "a component for building one's own sub (bread, cheese, topping or single filling), not a menu item"
+  },
+  {
+   "id": "einzel-zutaten-peperoni-salami",
+   "name": "Peperoni-Salami",
+   "section": "Einzel-Zutaten",
+   "reason": "a component for building one's own sub (bread, cheese, topping or single filling), not a menu item"
+  },
+  {
+   "id": "einzel-zutaten-salami",
+   "name": "Salami",
+   "section": "Einzel-Zutaten",
+   "reason": "a component for building one's own sub (bread, cheese, topping or single filling), not a menu item"
+  },
+  {
+   "id": "einzel-zutaten-tuna-mit-lite-mayonnaise",
+   "name": "Tuna (mit Lite Mayonnaise)",
+   "section": "Einzel-Zutaten",
+   "reason": "a component for building one's own sub (bread, cheese, topping or single filling), not a menu item"
+  },
+  {
+   "id": "einzel-zutaten-philly-beef",
+   "name": "Philly Beef",
+   "section": "Einzel-Zutaten",
+   "reason": "a component for building one's own sub (bread, cheese, topping or single filling), not a menu item"
+  },
+  {
+   "id": "einzel-zutaten-beef-chili",
+   "name": "Beef Chili",
+   "section": "Einzel-Zutaten",
+   "reason": "a component for building one's own sub (bread, cheese, topping or single filling), not a menu item"
+  },
+  {
+   "id": "einzel-zutaten-rotisserie-style-chicken-pulled-chicken-breast",
+   "name": "Rotisserie-Style Chicken/Pulled Chicken Breast",
+   "section": "Einzel-Zutaten",
+   "reason": "a component for building one's own sub (bread, cheese, topping or single filling), not a menu item"
+  },
+  {
+   "id": "einzel-zutaten-chicken-teriyaki",
+   "name": "Chicken Teriyaki",
+   "section": "Einzel-Zutaten",
+   "reason": "a component for building one's own sub (bread, cheese, topping or single filling), not a menu item"
+  },
+  {
+   "id": "einzel-zutaten-chicken-fajita",
+   "name": "Chicken Fajita",
+   "section": "Einzel-Zutaten",
+   "reason": "a component for building one's own sub (bread, cheese, topping or single filling), not a menu item"
+  },
+  {
+   "id": "einzel-zutaten-chicken-tandoori",
+   "name": "Chicken Tandoori",
+   "section": "Einzel-Zutaten",
+   "reason": "a component for building one's own sub (bread, cheese, topping or single filling), not a menu item"
+  },
+  {
+   "id": "einzel-zutaten-ham",
+   "name": "Ham",
+   "section": "Einzel-Zutaten",
+   "reason": "a component for building one's own sub (bread, cheese, topping or single filling), not a menu item"
+  },
+  {
+   "id": "einzel-zutaten-bbq-rib",
+   "name": "BBQ Rib",
+   "section": "Einzel-Zutaten",
+   "reason": "a component for building one's own sub (bread, cheese, topping or single filling), not a menu item"
+  },
+  {
+   "id": "einzel-zutaten-bacon",
+   "name": "Bacon",
+   "section": "Einzel-Zutaten",
+   "reason": "a component for building one's own sub (bread, cheese, topping or single filling), not a menu item"
+  },
+  {
+   "id": "einzel-zutaten-spicy-vegan-patty",
+   "name": "Spicy Vegan Patty",
+   "section": "Einzel-Zutaten",
+   "reason": "a component for building one's own sub (bread, cheese, topping or single filling), not a menu item"
+  },
+  {
+   "id": "einzel-zutaten-plant-based-chicken-teriyaki",
+   "name": "Plant-based Chicken Teriyaki",
+   "section": "Einzel-Zutaten",
+   "reason": "a component for building one's own sub (bread, cheese, topping or single filling), not a menu item"
+  },
+  {
+   "id": "einzel-zutaten-omelette",
+   "name": "Omelette",
+   "section": "Einzel-Zutaten",
+   "reason": "a component for building one's own sub (bread, cheese, topping or single filling), not a menu item"
+  },
+  {
+   "id": "einzel-zutaten-nacho-chicken",
+   "name": "Nacho Chicken",
+   "section": "Einzel-Zutaten",
+   "reason": "a component for building one's own sub (bread, cheese, topping or single filling), not a menu item"
+  }
+ ]
+}

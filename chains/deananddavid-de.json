@@ -1,0 +1,3400 @@
+{
+ "chain": "dean&david",
+ "kind": "restaurant",
+ "sourceURL": "https://deananddavid.com",
+ "sourceNote": "dean&david publishes its \"Nährwerte dean&david, Stand: September 2026\" as a four-page PDF (2026-09-dd-Naehrwertuebersicht.pdf, made on 18 September 2026), recorded with its address and SHA-256. It states per 100 g/ml and per portion: energy in kJ and kcal, fat, saturated fat, carbohydrate, sugar, protein and salt, no fibre, and no portion weight except the volumes of the smoothies (0,4 l) and the lemonade (0,3 l). An item without a stated weight is one serving of its per-portion figures, which must fit their own energy; a smoothie or lemonade is its stated volume, its per-100 column per 100 ml. The sheet calls its values calculated averages and says not every product is sold in every store. Salads are without dressing and bread, as the sheet says; bowls include their base and sauce. Left out: the catering curries and wraps, the components for mixing one's own salad or bowl, the add-ons, the bar's Crodino Spritz, the autumn pumpkin spice line and the specials sold only in participating stores.",
+ "pdfURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+ "pdfSha256": "de1d86d89cd5814d1048e704d22a6620f25b84cd6f3ec52d757c2abfa9a0804d",
+ "retrievedOn": "2026-10-30",
+ "checkedDate": "2026-10-30",
+ "sha256": "de1d86d89cd5814d1048e704d22a6620f25b84cd6f3ec52d757c2abfa9a0804d",
+ "sha256Note": "SHA-256 of the PDF as downloaded; every row comes from it.",
+ "rows": [
+  {
+   "id": "salads-side-salad",
+   "name": "Side Salad",
+   "category": "salad",
+   "siteCategories": [
+    "Salads"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 91.0,
+    "calories": 22.0,
+    "fat": 0.2,
+    "saturatedFat": 0.1,
+    "carbs": 3.5,
+    "sugar": 2.0,
+    "protein": 1.2,
+    "saltGrams": 0.0
+   },
+   "valuesPerServing": {
+    "energyKJ": 46.0,
+    "calories": 11.0,
+    "fat": 0.1,
+    "saturatedFat": 0.0,
+    "carbs": 1.8,
+    "sugar": 1.0,
+    "protein": 0.6,
+    "saltGrams": 0.0
+   },
+   "pageURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "dataURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "sha256": "de1d86d89cd5814d1048e704d22a6620f25b84cd6f3ec52d757c2abfa9a0804d"
+  },
+  {
+   "id": "salads-good-greens",
+   "name": "Good Greens Salad",
+   "category": "salad",
+   "siteCategories": [
+    "Salads"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 429.0,
+    "calories": 103.0,
+    "fat": 5.4,
+    "saturatedFat": 0.5,
+    "carbs": 11.0,
+    "sugar": 4.0,
+    "protein": 2.3,
+    "saltGrams": 0.1
+   },
+   "valuesPerServing": {
+    "energyKJ": 1284.0,
+    "calories": 309.0,
+    "fat": 16.1,
+    "saturatedFat": 1.4,
+    "carbs": 32.8,
+    "sugar": 11.9,
+    "protein": 7.0,
+    "saltGrams": 0.4
+   },
+   "pageURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "dataURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "sha256": "de1d86d89cd5814d1048e704d22a6620f25b84cd6f3ec52d757c2abfa9a0804d"
+  },
+  {
+   "id": "salads-falafel-tahini",
+   "name": "Falafel Tahini Salad",
+   "category": "salad",
+   "siteCategories": [
+    "Salads"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 472.0,
+    "calories": 113.0,
+    "fat": 5.5,
+    "saturatedFat": 0.6,
+    "carbs": 11.7,
+    "sugar": 3.3,
+    "protein": 3.3,
+    "saltGrams": 0.5
+   },
+   "valuesPerServing": {
+    "energyKJ": 1886.0,
+    "calories": 453.0,
+    "fat": 21.9,
+    "saturatedFat": 2.2,
+    "carbs": 46.6,
+    "sugar": 13.2,
+    "protein": 13.3,
+    "saltGrams": 1.9
+   },
+   "pageURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "dataURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "sha256": "de1d86d89cd5814d1048e704d22a6620f25b84cd6f3ec52d757c2abfa9a0804d"
+  },
+  {
+   "id": "salads-paris",
+   "name": "Paris Salad",
+   "category": "salad",
+   "siteCategories": [
+    "Salads"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 567.0,
+    "calories": 137.0,
+    "fat": 9.8,
+    "saturatedFat": 4.3,
+    "carbs": 5.7,
+    "sugar": 4.2,
+    "protein": 6.6,
+    "saltGrams": 0.4
+   },
+   "valuesPerServing": {
+    "energyKJ": 1390.0,
+    "calories": 335.0,
+    "fat": 23.9,
+    "saturatedFat": 10.6,
+    "carbs": 14.0,
+    "sugar": 10.4,
+    "protein": 16.2,
+    "saltGrams": 1.0
+   },
+   "pageURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "dataURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "sha256": "de1d86d89cd5814d1048e704d22a6620f25b84cd6f3ec52d757c2abfa9a0804d"
+  },
+  {
+   "id": "salads-avocado-halloumi",
+   "name": "Avocado Halloumi Salad",
+   "category": "salad",
+   "siteCategories": [
+    "Salads"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 503.0,
+    "calories": 121.0,
+    "fat": 8.8,
+    "saturatedFat": 4.3,
+    "carbs": 3.0,
+    "sugar": 1.9,
+    "protein": 7.2,
+    "saltGrams": 0.7
+   },
+   "valuesPerServing": {
+    "energyKJ": 1527.0,
+    "calories": 367.0,
+    "fat": 26.6,
+    "saturatedFat": 13.0,
+    "carbs": 9.0,
+    "sugar": 5.9,
+    "protein": 21.9,
+    "saltGrams": 2.0
+   },
+   "pageURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "dataURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "sha256": "de1d86d89cd5814d1048e704d22a6620f25b84cd6f3ec52d757c2abfa9a0804d"
+  },
+  {
+   "id": "salads-big-easy-beef",
+   "name": "Big Easy Beef Salad",
+   "category": "salad",
+   "siteCategories": [
+    "Salads"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 447.0,
+    "calories": 107.0,
+    "fat": 6.3,
+    "saturatedFat": 1.1,
+    "carbs": 3.6,
+    "sugar": 2.0,
+    "protein": 8.3,
+    "saltGrams": 0.4
+   },
+   "valuesPerServing": {
+    "energyKJ": 1289.0,
+    "calories": 309.0,
+    "fat": 18.3,
+    "saturatedFat": 3.2,
+    "carbs": 10.4,
+    "sugar": 5.7,
+    "protein": 23.8,
+    "saltGrams": 1.1
+   },
+   "pageURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "dataURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "sha256": "de1d86d89cd5814d1048e704d22a6620f25b84cd6f3ec52d757c2abfa9a0804d"
+  },
+  {
+   "id": "salads-caesar-chicken",
+   "name": "Caesar Chicken Salad",
+   "category": "salad",
+   "siteCategories": [
+    "Salads"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 443.0,
+    "calories": 106.0,
+    "fat": 4.9,
+    "saturatedFat": 1.7,
+    "carbs": 5.6,
+    "sugar": 1.0,
+    "protein": 9.8,
+    "saltGrams": 0.7
+   },
+   "valuesPerServing": {
+    "energyKJ": 1303.0,
+    "calories": 312.0,
+    "fat": 14.3,
+    "saturatedFat": 5.1,
+    "carbs": 16.5,
+    "sugar": 3.0,
+    "protein": 28.8,
+    "saltGrams": 2.1
+   },
+   "pageURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "dataURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "sha256": "de1d86d89cd5814d1048e704d22a6620f25b84cd6f3ec52d757c2abfa9a0804d"
+  },
+  {
+   "id": "salads-planted-caesar-chicken",
+   "name": "planted. Caesar Chicken Salad",
+   "category": "salad",
+   "siteCategories": [
+    "Salads"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 548.0,
+    "calories": 132.0,
+    "fat": 7.3,
+    "saturatedFat": 1.9,
+    "carbs": 5.4,
+    "sugar": 1.0,
+    "protein": 10.3,
+    "saltGrams": 0.8
+   },
+   "valuesPerServing": {
+    "energyKJ": 1611.0,
+    "calories": 387.0,
+    "fat": 21.4,
+    "saturatedFat": 5.6,
+    "carbs": 15.8,
+    "sugar": 3.0,
+    "protein": 30.4,
+    "saltGrams": 2.3
+   },
+   "pageURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "dataURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "sha256": "de1d86d89cd5814d1048e704d22a6620f25b84cd6f3ec52d757c2abfa9a0804d"
+  },
+  {
+   "id": "salads-chicken-vitality",
+   "name": "Chicken Vitality Salad",
+   "category": "salad",
+   "siteCategories": [
+    "Salads"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 483.0,
+    "calories": 116.0,
+    "fat": 7.5,
+    "saturatedFat": 3.2,
+    "carbs": 2.6,
+    "sugar": 1.3,
+    "protein": 9.5,
+    "saltGrams": 0.8
+   },
+   "valuesPerServing": {
+    "energyKJ": 1666.0,
+    "calories": 400.0,
+    "fat": 25.8,
+    "saturatedFat": 11.0,
+    "carbs": 8.9,
+    "sugar": 4.4,
+    "protein": 32.8,
+    "saltGrams": 2.9
+   },
+   "pageURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "dataURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "sha256": "de1d86d89cd5814d1048e704d22a6620f25b84cd6f3ec52d757c2abfa9a0804d"
+  },
+  {
+   "id": "salads-planted-chicken-vitality",
+   "name": "planted. Chicken Vitality Salad",
+   "category": "salad",
+   "siteCategories": [
+    "Salads"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 572.0,
+    "calories": 137.0,
+    "fat": 9.5,
+    "saturatedFat": 3.4,
+    "carbs": 2.4,
+    "sugar": 1.3,
+    "protein": 10.0,
+    "saltGrams": 0.9
+   },
+   "valuesPerServing": {
+    "energyKJ": 1973.0,
+    "calories": 474.0,
+    "fat": 32.8,
+    "saturatedFat": 11.6,
+    "carbs": 8.2,
+    "sugar": 4.4,
+    "protein": 34.4,
+    "saltGrams": 3.1
+   },
+   "pageURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "dataURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "sha256": "de1d86d89cd5814d1048e704d22a6620f25b84cd6f3ec52d757c2abfa9a0804d"
+  },
+  {
+   "id": "salads-salmon-spring",
+   "name": "Salmon Spring Salad",
+   "category": "salad",
+   "siteCategories": [
+    "Salads"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 541.0,
+    "calories": 130.0,
+    "fat": 7.5,
+    "saturatedFat": 3.1,
+    "carbs": 7.1,
+    "sugar": 1.2,
+    "protein": 8.0,
+    "saltGrams": 1.0
+   },
+   "valuesPerServing": {
+    "energyKJ": 1843.0,
+    "calories": 443.0,
+    "fat": 25.6,
+    "saturatedFat": 10.4,
+    "carbs": 24.3,
+    "sugar": 4.1,
+    "protein": 27.2,
+    "saltGrams": 3.3
+   },
+   "pageURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "dataURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "sha256": "de1d86d89cd5814d1048e704d22a6620f25b84cd6f3ec52d757c2abfa9a0804d"
+  },
+  {
+   "id": "dressings-caesar",
+   "name": "Caesar Dressing",
+   "category": "sauce",
+   "siteCategories": [
+    "Dressings"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 1226.0,
+    "calories": 293.0,
+    "fat": 29.0,
+    "saturatedFat": 2.4,
+    "carbs": 6.8,
+    "sugar": 5.0,
+    "protein": 1.5,
+    "saltGrams": 1.2
+   },
+   "valuesPerServing": {
+    "energyKJ": 981.0,
+    "calories": 234.0,
+    "fat": 23.2,
+    "saturatedFat": 1.9,
+    "carbs": 5.4,
+    "sugar": 4.0,
+    "protein": 1.2,
+    "saltGrams": 1.0
+   },
+   "pageURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "dataURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "sha256": "de1d86d89cd5814d1048e704d22a6620f25b84cd6f3ec52d757c2abfa9a0804d"
+  },
+  {
+   "id": "dressings-rucola",
+   "name": "Rucola Dressing",
+   "category": "sauce",
+   "siteCategories": [
+    "Dressings"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 1529.0,
+    "calories": 365.0,
+    "fat": 34.1,
+    "saturatedFat": 2.8,
+    "carbs": 13.3,
+    "sugar": 12.5,
+    "protein": 1.1,
+    "saltGrams": 1.6
+   },
+   "valuesPerServing": {
+    "energyKJ": 1223.0,
+    "calories": 292.0,
+    "fat": 27.3,
+    "saturatedFat": 2.2,
+    "carbs": 10.7,
+    "sugar": 10.0,
+    "protein": 0.9,
+    "saltGrams": 1.3
+   },
+   "pageURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "dataURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "sha256": "de1d86d89cd5814d1048e704d22a6620f25b84cd6f3ec52d757c2abfa9a0804d"
+  },
+  {
+   "id": "dressings-tahini-lemon",
+   "name": "Tahini Lemon Dressing",
+   "category": "sauce",
+   "siteCategories": [
+    "Dressings"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 950.0,
+    "calories": 227.0,
+    "fat": 19.4,
+    "saturatedFat": 1.9,
+    "carbs": 7.6,
+    "sugar": 6.1,
+    "protein": 4.3,
+    "saltGrams": 3.0
+   },
+   "valuesPerServing": {
+    "energyKJ": 760.0,
+    "calories": 182.0,
+    "fat": 15.5,
+    "saturatedFat": 1.5,
+    "carbs": 6.1,
+    "sugar": 4.9,
+    "protein": 3.4,
+    "saltGrams": 2.4
+   },
+   "pageURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "dataURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "sha256": "de1d86d89cd5814d1048e704d22a6620f25b84cd6f3ec52d757c2abfa9a0804d"
+  },
+  {
+   "id": "dressings-honey-mustard",
+   "name": "Honey Mustard Dressing",
+   "category": "sauce",
+   "siteCategories": [
+    "Dressings"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 1980.0,
+    "calories": 480.0,
+    "fat": 48.0,
+    "saturatedFat": 3.9,
+    "carbs": 11.0,
+    "sugar": 9.6,
+    "protein": 0.7,
+    "saltGrams": 2.0
+   },
+   "valuesPerServing": {
+    "energyKJ": 1584.0,
+    "calories": 384.0,
+    "fat": 38.4,
+    "saturatedFat": 3.1,
+    "carbs": 8.8,
+    "sugar": 7.7,
+    "protein": 0.6,
+    "saltGrams": 1.6
+   },
+   "pageURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "dataURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "sha256": "de1d86d89cd5814d1048e704d22a6620f25b84cd6f3ec52d757c2abfa9a0804d"
+  },
+  {
+   "id": "dressings-balsamico-ahorn",
+   "name": "Balsamico-Ahorn Dressing",
+   "category": "sauce",
+   "siteCategories": [
+    "Dressings"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 1197.0,
+    "calories": 286.0,
+    "fat": 26.0,
+    "saturatedFat": 2.1,
+    "carbs": 11.0,
+    "sugar": 5.0,
+    "protein": 0.5,
+    "saltGrams": 0.6
+   },
+   "valuesPerServing": {
+    "energyKJ": 958.0,
+    "calories": 229.0,
+    "fat": 20.8,
+    "saturatedFat": 1.7,
+    "carbs": 8.8,
+    "sugar": 4.0,
+    "protein": 0.4,
+    "saltGrams": 0.5
+   },
+   "pageURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "dataURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "sha256": "de1d86d89cd5814d1048e704d22a6620f25b84cd6f3ec52d757c2abfa9a0804d"
+  },
+  {
+   "id": "brot-brot",
+   "name": "Brot",
+   "category": "bread",
+   "siteCategories": [
+    "Brot"
+   ],
+   "servingLabel": "1 Scheibe",
+   "valuesPer100g": {
+    "energyKJ": 1164.0,
+    "calories": 276.0,
+    "fat": 5.4,
+    "saturatedFat": 0.7,
+    "carbs": 46.0,
+    "sugar": 0.8,
+    "protein": 8.4,
+    "saltGrams": 1.7
+   },
+   "valuesPerServing": {
+    "energyKJ": 291.0,
+    "calories": 69.0,
+    "fat": 1.4,
+    "saturatedFat": 0.2,
+    "carbs": 11.5,
+    "sugar": 0.2,
+    "protein": 2.1,
+    "saltGrams": 0.4
+   },
+   "pageURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "dataURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "sha256": "de1d86d89cd5814d1048e704d22a6620f25b84cd6f3ec52d757c2abfa9a0804d"
+  },
+  {
+   "id": "bowls-salmon-avocado-bowl",
+   "name": "Salmon Avocado Bowl",
+   "category": "bowl",
+   "siteCategories": [
+    "Bowls"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 688.0,
+    "calories": 165.0,
+    "fat": 9.3,
+    "saturatedFat": 1.5,
+    "carbs": 14.1,
+    "sugar": 3.2,
+    "protein": 5.5,
+    "saltGrams": 0.6
+   },
+   "valuesPerServing": {
+    "energyKJ": 3358.0,
+    "calories": 806.0,
+    "fat": 45.5,
+    "saturatedFat": 7.2,
+    "carbs": 69.0,
+    "sugar": 8.2,
+    "protein": 27.0,
+    "saltGrams": 3.1
+   },
+   "pageURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "dataURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "sha256": "de1d86d89cd5814d1048e704d22a6620f25b84cd6f3ec52d757c2abfa9a0804d"
+  },
+  {
+   "id": "bowls-california-poke-bowl",
+   "name": "California Poke Bowl",
+   "category": "bowl",
+   "siteCategories": [
+    "Bowls"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 832.0,
+    "calories": 198.0,
+    "fat": 11.7,
+    "saturatedFat": 1.5,
+    "carbs": 18.5,
+    "sugar": 2.9,
+    "protein": 4.4,
+    "saltGrams": 0.9
+   },
+   "valuesPerServing": {
+    "energyKJ": 4294.0,
+    "calories": 1023.0,
+    "fat": 60.4,
+    "saturatedFat": 7.5,
+    "carbs": 95.7,
+    "sugar": 15.1,
+    "protein": 22.9,
+    "saltGrams": 4.8
+   },
+   "pageURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "dataURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "sha256": "de1d86d89cd5814d1048e704d22a6620f25b84cd6f3ec52d757c2abfa9a0804d"
+  },
+  {
+   "id": "bowls-japanese-beef-bowl",
+   "name": "Japanese Beef Bowl",
+   "category": "bowl",
+   "siteCategories": [
+    "Bowls"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 818.0,
+    "calories": 195.0,
+    "fat": 11.7,
+    "saturatedFat": 1.2,
+    "carbs": 17.0,
+    "sugar": 2.8,
+    "protein": 5.0,
+    "saltGrams": 0.8
+   },
+   "valuesPerServing": {
+    "energyKJ": 4416.0,
+    "calories": 1053.0,
+    "fat": 63.2,
+    "saturatedFat": 6.7,
+    "carbs": 92.0,
+    "sugar": 15.2,
+    "protein": 27.1,
+    "saltGrams": 4.2
+   },
+   "pageURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "dataURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "sha256": "de1d86d89cd5814d1048e704d22a6620f25b84cd6f3ec52d757c2abfa9a0804d"
+  },
+  {
+   "id": "bowls-crunchy-chicken-bowl",
+   "name": "Crunchy Chicken Bowl",
+   "category": "bowl",
+   "siteCategories": [
+    "Bowls"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 615.0,
+    "calories": 147.0,
+    "fat": 7.5,
+    "saturatedFat": 1.1,
+    "carbs": 14.0,
+    "sugar": 3.8,
+    "protein": 5.4,
+    "saltGrams": 0.5
+   },
+   "valuesPerServing": {
+    "energyKJ": 3279.0,
+    "calories": 785.0,
+    "fat": 39.8,
+    "saturatedFat": 6.0,
+    "carbs": 74.6,
+    "sugar": 20.3,
+    "protein": 29.0,
+    "saltGrams": 2.8
+   },
+   "pageURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "dataURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "sha256": "de1d86d89cd5814d1048e704d22a6620f25b84cd6f3ec52d757c2abfa9a0804d"
+  },
+  {
+   "id": "bowls-crunchy-planted-chicken-bowl",
+   "name": "Crunchy planted.chicken Bowl",
+   "category": "bowl",
+   "siteCategories": [
+    "Bowls"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 673.0,
+    "calories": 161.0,
+    "fat": 8.8,
+    "saturatedFat": 1.2,
+    "carbs": 13.9,
+    "sugar": 3.8,
+    "protein": 5.7,
+    "saltGrams": 0.5
+   },
+   "valuesPerServing": {
+    "energyKJ": 3586.0,
+    "calories": 860.0,
+    "fat": 46.9,
+    "saturatedFat": 6.5,
+    "carbs": 74.0,
+    "sugar": 20.3,
+    "protein": 30.6,
+    "saltGrams": 2.9
+   },
+   "pageURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "dataURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "sha256": "de1d86d89cd5814d1048e704d22a6620f25b84cd6f3ec52d757c2abfa9a0804d"
+  },
+  {
+   "id": "bowls-chicken-teriyaki-bowl",
+   "name": "Chicken Teriyaki Bowl",
+   "category": "bowl",
+   "siteCategories": [
+    "Bowls"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 568.0,
+    "calories": 135.0,
+    "fat": 4.3,
+    "saturatedFat": 0.4,
+    "carbs": 18.7,
+    "sugar": 3.3,
+    "protein": 4.9,
+    "saltGrams": 1.0
+   },
+   "valuesPerServing": {
+    "energyKJ": 2867.0,
+    "calories": 680.0,
+    "fat": 21.7,
+    "saturatedFat": 1.9,
+    "carbs": 94.3,
+    "sugar": 16.6,
+    "protein": 24.8,
+    "saltGrams": 4.9
+   },
+   "pageURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "dataURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "sha256": "de1d86d89cd5814d1048e704d22a6620f25b84cd6f3ec52d757c2abfa9a0804d"
+  },
+  {
+   "id": "bowls-planted-chicken-teriyaki-bowl",
+   "name": "Planted.chicken Teriyaki Bowl",
+   "category": "bowl",
+   "siteCategories": [
+    "Bowls"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 629.0,
+    "calories": 149.0,
+    "fat": 5.7,
+    "saturatedFat": 0.5,
+    "carbs": 18.5,
+    "sugar": 3.3,
+    "protein": 5.2,
+    "saltGrams": 1.0
+   },
+   "valuesPerServing": {
+    "energyKJ": 3174.0,
+    "calories": 754.0,
+    "fat": 28.7,
+    "saturatedFat": 2.4,
+    "carbs": 93.7,
+    "sugar": 16.6,
+    "protein": 26.4,
+    "saltGrams": 5.0
+   },
+   "pageURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "dataURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "sha256": "de1d86d89cd5814d1048e704d22a6620f25b84cd6f3ec52d757c2abfa9a0804d"
+  },
+  {
+   "id": "bowls-avocado-chicken-bowl",
+   "name": "Avocado Chicken Bowl",
+   "category": "bowl",
+   "siteCategories": [
+    "Bowls"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 488.0,
+    "calories": 116.0,
+    "fat": 5.4,
+    "saturatedFat": 0.5,
+    "carbs": 12.0,
+    "sugar": 1.3,
+    "protein": 4.8,
+    "saltGrams": 0.6
+   },
+   "valuesPerServing": {
+    "energyKJ": 2395.0,
+    "calories": 571.0,
+    "fat": 26.4,
+    "saturatedFat": 2.6,
+    "carbs": 58.7,
+    "sugar": 6.4,
+    "protein": 23.3,
+    "saltGrams": 3.1
+   },
+   "pageURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "dataURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "sha256": "de1d86d89cd5814d1048e704d22a6620f25b84cd6f3ec52d757c2abfa9a0804d"
+  },
+  {
+   "id": "bowls-avocado-planted-chicken-bowl",
+   "name": "Avocado planted.chicken Bowl",
+   "category": "bowl",
+   "siteCategories": [
+    "Bowls"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 550.0,
+    "calories": 131.0,
+    "fat": 6.8,
+    "saturatedFat": 0.6,
+    "carbs": 11.8,
+    "sugar": 1.3,
+    "protein": 5.1,
+    "saltGrams": 0.7
+   },
+   "valuesPerServing": {
+    "energyKJ": 2702.0,
+    "calories": 645.0,
+    "fat": 33.4,
+    "saturatedFat": 3.2,
+    "carbs": 58.1,
+    "sugar": 6.4,
+    "protein": 24.9,
+    "saltGrams": 3.3
+   },
+   "pageURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "dataURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "sha256": "de1d86d89cd5814d1048e704d22a6620f25b84cd6f3ec52d757c2abfa9a0804d"
+  },
+  {
+   "id": "bowls-vegan-falafel-bowl",
+   "name": "Vegan Falafel Bowl",
+   "category": "bowl",
+   "siteCategories": [
+    "Bowls"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 545.0,
+    "calories": 130.0,
+    "fat": 6.7,
+    "saturatedFat": 0.6,
+    "carbs": 14.1,
+    "sugar": 2.5,
+    "protein": 2.9,
+    "saltGrams": 0.6
+   },
+   "valuesPerServing": {
+    "energyKJ": 2910.0,
+    "calories": 696.0,
+    "fat": 35.5,
+    "saturatedFat": 3.1,
+    "carbs": 75.4,
+    "sugar": 13.4,
+    "protein": 15.5,
+    "saltGrams": 3.1
+   },
+   "pageURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "dataURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "sha256": "de1d86d89cd5814d1048e704d22a6620f25b84cd6f3ec52d757c2abfa9a0804d"
+  },
+  {
+   "id": "bowls-veggie-buddha-bowl",
+   "name": "Veggie Buddha Bowl",
+   "category": "bowl",
+   "siteCategories": [
+    "Bowls"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 659.0,
+    "calories": 158.0,
+    "fat": 8.7,
+    "saturatedFat": 0.9,
+    "carbs": 16.2,
+    "sugar": 4.4,
+    "protein": 3.5,
+    "saltGrams": 0.3
+   },
+   "valuesPerServing": {
+    "energyKJ": 3676.0,
+    "calories": 883.0,
+    "fat": 48.3,
+    "saturatedFat": 4.8,
+    "carbs": 90.2,
+    "sugar": 24.7,
+    "protein": 19.6,
+    "saltGrams": 2.0
+   },
+   "pageURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "dataURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "sha256": "de1d86d89cd5814d1048e704d22a6620f25b84cd6f3ec52d757c2abfa9a0804d"
+  },
+  {
+   "id": "bowl-saucen-soja-sesam-sauce",
+   "name": "Soja Sesam Sauce",
+   "category": "sauce",
+   "siteCategories": [
+    "Bowl Saucen"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 1493.0,
+    "calories": 361.0,
+    "fat": 33.0,
+    "saturatedFat": 3.4,
+    "carbs": 13.0,
+    "sugar": 12.0,
+    "protein": 1.8,
+    "saltGrams": 1.3
+   },
+   "valuesPerServing": {
+    "energyKJ": 1194.0,
+    "calories": 289.0,
+    "fat": 26.4,
+    "saturatedFat": 2.7,
+    "carbs": 10.4,
+    "sugar": 9.6,
+    "protein": 1.4,
+    "saltGrams": 1.0
+   },
+   "pageURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "dataURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "sha256": "de1d86d89cd5814d1048e704d22a6620f25b84cd6f3ec52d757c2abfa9a0804d"
+  },
+  {
+   "id": "bowl-saucen-lemon-herbs-sauce",
+   "name": "Lemon Herbs Sauce",
+   "category": "sauce",
+   "siteCategories": [
+    "Bowl Saucen"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 867.0,
+    "calories": 207.0,
+    "fat": 20.3,
+    "saturatedFat": 1.5,
+    "carbs": 6.2,
+    "sugar": 3.5,
+    "protein": 0.3,
+    "saltGrams": 1.9
+   },
+   "valuesPerServing": {
+    "energyKJ": 694.0,
+    "calories": 166.0,
+    "fat": 16.2,
+    "saturatedFat": 1.2,
+    "carbs": 5.0,
+    "sugar": 2.8,
+    "protein": 0.2,
+    "saltGrams": 1.5
+   },
+   "pageURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "dataURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "sha256": "de1d86d89cd5814d1048e704d22a6620f25b84cd6f3ec52d757c2abfa9a0804d"
+  },
+  {
+   "id": "bowl-saucen-teriyaki-sauce",
+   "name": "Teriyaki Sauce",
+   "category": "sauce",
+   "siteCategories": [
+    "Bowl Saucen"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 1071.0,
+    "calories": 256.0,
+    "fat": 19.9,
+    "saturatedFat": 1.4,
+    "carbs": 16.6,
+    "sugar": 16.1,
+    "protein": 1.8,
+    "saltGrams": 4.4
+   },
+   "valuesPerServing": {
+    "energyKJ": 857.0,
+    "calories": 205.0,
+    "fat": 15.9,
+    "saturatedFat": 1.1,
+    "carbs": 13.3,
+    "sugar": 12.9,
+    "protein": 1.4,
+    "saltGrams": 3.5
+   },
+   "pageURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "dataURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "sha256": "de1d86d89cd5814d1048e704d22a6620f25b84cd6f3ec52d757c2abfa9a0804d"
+  },
+  {
+   "id": "bowl-saucen-spicy-ginger-sauce",
+   "name": "Spicy Ginger Sauce",
+   "category": "sauce",
+   "siteCategories": [
+    "Bowl Saucen"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 1748.0,
+    "calories": 418.0,
+    "fat": 43.0,
+    "saturatedFat": 3.4,
+    "carbs": 7.0,
+    "sugar": 5.8,
+    "protein": 1.6,
+    "saltGrams": 3.0
+   },
+   "valuesPerServing": {
+    "energyKJ": 1398.0,
+    "calories": 334.0,
+    "fat": 34.4,
+    "saturatedFat": 2.7,
+    "carbs": 5.6,
+    "sugar": 4.6,
+    "protein": 1.3,
+    "saltGrams": 2.4
+   },
+   "pageURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "dataURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "sha256": "de1d86d89cd5814d1048e704d22a6620f25b84cd6f3ec52d757c2abfa9a0804d"
+  },
+  {
+   "id": "cold-bowls-express-black-rice-crunchy-chicken-bowl",
+   "name": "Black Rice Crunchy Chicken Bowl",
+   "category": "bowl",
+   "siteCategories": [
+    "cold Bowls (Express)"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 662.0,
+    "calories": 158.0,
+    "fat": 7.9,
+    "saturatedFat": 1.3,
+    "carbs": 15.3,
+    "sugar": 4.3,
+    "protein": 5.9,
+    "saltGrams": 0.7
+   },
+   "valuesPerServing": {
+    "energyKJ": 3076.0,
+    "calories": 734.0,
+    "fat": 36.5,
+    "saturatedFat": 5.9,
+    "carbs": 71.2,
+    "sugar": 20.1,
+    "protein": 27.2,
+    "saltGrams": 3.4
+   },
+   "pageURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "dataURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "sha256": "de1d86d89cd5814d1048e704d22a6620f25b84cd6f3ec52d757c2abfa9a0804d"
+  },
+  {
+   "id": "cold-bowls-express-black-rice-salmon-avocado",
+   "name": "Black Rice Salmon Avocado",
+   "category": "bowl",
+   "siteCategories": [
+    "cold Bowls (Express)"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 772.0,
+    "calories": 185.0,
+    "fat": 10.7,
+    "saturatedFat": 1.7,
+    "carbs": 15.5,
+    "sugar": 3.6,
+    "protein": 6.0,
+    "saltGrams": 0.9
+   },
+   "valuesPerServing": {
+    "energyKJ": 3266.0,
+    "calories": 782.0,
+    "fat": 45.2,
+    "saturatedFat": 7.3,
+    "carbs": 65.6,
+    "sugar": 15.3,
+    "protein": 25.3,
+    "saltGrams": 3.7
+   },
+   "pageURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "dataURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "sha256": "de1d86d89cd5814d1048e704d22a6620f25b84cd6f3ec52d757c2abfa9a0804d"
+  },
+  {
+   "id": "cold-bowls-express-vegan-falafel-bulgur-bowl",
+   "name": "Vegan Falafel Bulgur Bowl",
+   "category": "bowl",
+   "siteCategories": [
+    "cold Bowls (Express)"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 588.0,
+    "calories": 141.0,
+    "fat": 7.0,
+    "saturatedFat": 0.6,
+    "carbs": 14.9,
+    "sugar": 3.0,
+    "protein": 3.7,
+    "saltGrams": 0.8
+   },
+   "valuesPerServing": {
+    "energyKJ": 2828.0,
+    "calories": 677.0,
+    "fat": 33.6,
+    "saturatedFat": 3.0,
+    "carbs": 71.7,
+    "sugar": 14.6,
+    "protein": 17.7,
+    "saltGrams": 3.9
+   },
+   "pageURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "dataURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "sha256": "de1d86d89cd5814d1048e704d22a6620f25b84cd6f3ec52d757c2abfa9a0804d"
+  },
+  {
+   "id": "cold-bowls-express-veggie-buddha-bulgur-bowl",
+   "name": "Veggie Buddha Bulgur Bowl",
+   "category": "bowl",
+   "siteCategories": [
+    "cold Bowls (Express)"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 706.0,
+    "calories": 170.0,
+    "fat": 9.1,
+    "saturatedFat": 0.9,
+    "carbs": 17.2,
+    "sugar": 5.2,
+    "protein": 4.2,
+    "saltGrams": 0.5
+   },
+   "valuesPerServing": {
+    "energyKJ": 3458.0,
+    "calories": 831.0,
+    "fat": 44.6,
+    "saturatedFat": 4.5,
+    "carbs": 84.2,
+    "sugar": 25.7,
+    "protein": 20.6,
+    "saltGrams": 2.6
+   },
+   "pageURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "dataURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "sha256": "de1d86d89cd5814d1048e704d22a6620f25b84cd6f3ec52d757c2abfa9a0804d"
+  },
+  {
+   "id": "curry-mit-reis-mango-chicken-curry",
+   "name": "Mango Chicken Curry",
+   "category": "curry",
+   "siteCategories": [
+    "Curry (mit Reis)"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 575.0,
+    "calories": 137.0,
+    "fat": 4.9,
+    "saturatedFat": 1.5,
+    "carbs": 17.0,
+    "sugar": 2.9,
+    "protein": 5.4,
+    "saltGrams": 0.5
+   },
+   "valuesPerServing": {
+    "energyKJ": 3399.0,
+    "calories": 808.0,
+    "fat": 29.1,
+    "saturatedFat": 9.0,
+    "carbs": 100.8,
+    "sugar": 17.0,
+    "protein": 32.2,
+    "saltGrams": 2.9
+   },
+   "pageURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "dataURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "sha256": "de1d86d89cd5814d1048e704d22a6620f25b84cd6f3ec52d757c2abfa9a0804d"
+  },
+  {
+   "id": "curry-mit-reis-mango-planted-chicken-curry",
+   "name": "Mango planted.chicken Curry",
+   "category": "curry",
+   "siteCategories": [
+    "Curry (mit Reis)"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 627.0,
+    "calories": 149.0,
+    "fat": 6.1,
+    "saturatedFat": 1.6,
+    "carbs": 16.9,
+    "sugar": 2.9,
+    "protein": 5.7,
+    "saltGrams": 0.5
+   },
+   "valuesPerServing": {
+    "energyKJ": 3706.0,
+    "calories": 883.0,
+    "fat": 36.1,
+    "saturatedFat": 9.5,
+    "carbs": 100.1,
+    "sugar": 17.0,
+    "protein": 33.8,
+    "saltGrams": 3.1
+   },
+   "pageURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "dataURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "sha256": "de1d86d89cd5814d1048e704d22a6620f25b84cd6f3ec52d757c2abfa9a0804d"
+  },
+  {
+   "id": "curry-mit-reis-yellow-avocado-curry",
+   "name": "Yellow Avocado Curry",
+   "category": "curry",
+   "siteCategories": [
+    "Curry (mit Reis)"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 576.0,
+    "calories": 137.0,
+    "fat": 5.2,
+    "saturatedFat": 1.9,
+    "carbs": 19.1,
+    "sugar": 3.1,
+    "protein": 2.6,
+    "saltGrams": 0.3
+   },
+   "valuesPerServing": {
+    "energyKJ": 3072.0,
+    "calories": 730.0,
+    "fat": 27.8,
+    "saturatedFat": 10.4,
+    "carbs": 102.0,
+    "sugar": 16.4,
+    "protein": 13.9,
+    "saltGrams": 1.6
+   },
+   "pageURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "dataURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "sha256": "de1d86d89cd5814d1048e704d22a6620f25b84cd6f3ec52d757c2abfa9a0804d"
+  },
+  {
+   "id": "curry-mit-reis-red-avocado-curry",
+   "name": "Red Avocado Curry",
+   "category": "curry",
+   "siteCategories": [
+    "Curry (mit Reis)"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 572.0,
+    "calories": 136.0,
+    "fat": 5.2,
+    "saturatedFat": 2.9,
+    "carbs": 18.5,
+    "sugar": 3.1,
+    "protein": 2.9,
+    "saltGrams": 0.6
+   },
+   "valuesPerServing": {
+    "energyKJ": 3050.0,
+    "calories": 726.0,
+    "fat": 27.9,
+    "saturatedFat": 15.6,
+    "carbs": 98.4,
+    "sugar": 16.5,
+    "protein": 15.6,
+    "saltGrams": 3.1
+   },
+   "pageURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "dataURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "sha256": "de1d86d89cd5814d1048e704d22a6620f25b84cd6f3ec52d757c2abfa9a0804d"
+  },
+  {
+   "id": "curry-mit-reis-red-thai-chicken-curry",
+   "name": "Red Thai Chicken Curry",
+   "category": "curry",
+   "siteCategories": [
+    "Curry (mit Reis)"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 519.0,
+    "calories": 123.0,
+    "fat": 3.7,
+    "saturatedFat": 2.3,
+    "carbs": 16.6,
+    "sugar": 2.8,
+    "protein": 5.2,
+    "saltGrams": 0.7
+   },
+   "valuesPerServing": {
+    "energyKJ": 2991.0,
+    "calories": 711.0,
+    "fat": 21.6,
+    "saturatedFat": 13.0,
+    "carbs": 95.7,
+    "sugar": 16.3,
+    "protein": 29.8,
+    "saltGrams": 4.2
+   },
+   "pageURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "dataURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "sha256": "de1d86d89cd5814d1048e704d22a6620f25b84cd6f3ec52d757c2abfa9a0804d"
+  },
+  {
+   "id": "curry-mit-reis-red-thai-planted-chicken-curry",
+   "name": "Red Thai planted.chicken Curry",
+   "category": "curry",
+   "siteCategories": [
+    "Curry (mit Reis)"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 573.0,
+    "calories": 136.0,
+    "fat": 5.0,
+    "saturatedFat": 2.3,
+    "carbs": 16.5,
+    "sugar": 2.8,
+    "protein": 5.5,
+    "saltGrams": 0.8
+   },
+   "valuesPerServing": {
+    "energyKJ": 3298.0,
+    "calories": 785.0,
+    "fat": 28.6,
+    "saturatedFat": 13.5,
+    "carbs": 95.1,
+    "sugar": 16.3,
+    "protein": 31.4,
+    "saltGrams": 4.4
+   },
+   "pageURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "dataURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "sha256": "de1d86d89cd5814d1048e704d22a6620f25b84cd6f3ec52d757c2abfa9a0804d"
+  },
+  {
+   "id": "curry-mit-reis-asian-beef-curry",
+   "name": "Asian Beef Curry",
+   "category": "curry",
+   "siteCategories": [
+    "Curry (mit Reis)"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 587.0,
+    "calories": 140.0,
+    "fat": 5.6,
+    "saturatedFat": 2.6,
+    "carbs": 16.4,
+    "sugar": 3.1,
+    "protein": 5.1,
+    "saltGrams": 0.7
+   },
+   "valuesPerServing": {
+    "energyKJ": 3410.0,
+    "calories": 813.0,
+    "fat": 32.6,
+    "saturatedFat": 15.3,
+    "carbs": 95.4,
+    "sugar": 18.1,
+    "protein": 29.5,
+    "saltGrams": 4.0
+   },
+   "pageURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "dataURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "sha256": "de1d86d89cd5814d1048e704d22a6620f25b84cd6f3ec52d757c2abfa9a0804d"
+  },
+  {
+   "id": "curry-mit-reis-asian-beef-curry-yellow-sauce",
+   "name": "Asian Beef Curry yellow Sauce",
+   "category": "curry",
+   "siteCategories": [
+    "Curry (mit Reis)"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 591.0,
+    "calories": 141.0,
+    "fat": 5.6,
+    "saturatedFat": 1.7,
+    "carbs": 17.0,
+    "sugar": 3.1,
+    "protein": 4.8,
+    "saltGrams": 4.8
+   },
+   "valuesPerServing": {
+    "energyKJ": 3432.0,
+    "calories": 817.0,
+    "fat": 32.5,
+    "saturatedFat": 10.0,
+    "carbs": 99.0,
+    "sugar": 17.9,
+    "protein": 27.9,
+    "saltGrams": 2.5
+   },
+   "pageURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "dataURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "sha256": "de1d86d89cd5814d1048e704d22a6620f25b84cd6f3ec52d757c2abfa9a0804d"
+  },
+  {
+   "id": "kindergerichte-mini-falafel-plate",
+   "name": "Mini Falafel Plate",
+   "category": "bowl",
+   "siteCategories": [
+    "Kindergerichte"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 770.0,
+    "calories": 185.0,
+    "fat": 10.0,
+    "saturatedFat": 1.0,
+    "carbs": 16.1,
+    "sugar": 2.5,
+    "protein": 5.8,
+    "saltGrams": 0.9
+   },
+   "valuesPerServing": {
+    "energyKJ": 1571.0,
+    "calories": 377.0,
+    "fat": 20.4,
+    "saturatedFat": 2.0,
+    "carbs": 32.8,
+    "sugar": 5.0,
+    "protein": 11.9,
+    "saltGrams": 1.9
+   },
+   "pageURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "dataURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "sha256": "de1d86d89cd5814d1048e704d22a6620f25b84cd6f3ec52d757c2abfa9a0804d"
+  },
+  {
+   "id": "kindergerichte-mini-chicken-bowl",
+   "name": "Mini Chicken Bowl",
+   "category": "bowl",
+   "siteCategories": [
+    "Kindergerichte"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 755.0,
+    "calories": 180.0,
+    "fat": 7.2,
+    "saturatedFat": 0.7,
+    "carbs": 22.5,
+    "sugar": 3.0,
+    "protein": 5.8,
+    "saltGrams": 0.5
+   },
+   "valuesPerServing": {
+    "energyKJ": 1789.0,
+    "calories": 426.0,
+    "fat": 17.1,
+    "saturatedFat": 1.8,
+    "carbs": 53.3,
+    "sugar": 7.2,
+    "protein": 13.8,
+    "saltGrams": 1.1
+   },
+   "pageURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "dataURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "sha256": "de1d86d89cd5814d1048e704d22a6620f25b84cd6f3ec52d757c2abfa9a0804d"
+  },
+  {
+   "id": "sandwiches-avocado-mozzarella",
+   "name": "Avocado Mozzarella Sandwich",
+   "category": "sandwich",
+   "siteCategories": [
+    "Sandwiches"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 814.0,
+    "calories": 193.0,
+    "fat": 7.7,
+    "saturatedFat": 3.4,
+    "carbs": 22.2,
+    "sugar": 1.8,
+    "protein": 7.3,
+    "saltGrams": 0.8
+   },
+   "valuesPerServing": {
+    "energyKJ": 1917.0,
+    "calories": 456.0,
+    "fat": 18.2,
+    "saturatedFat": 8.1,
+    "carbs": 52.3,
+    "sugar": 4.3,
+    "protein": 17.2,
+    "saltGrams": 1.9
+   },
+   "pageURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "dataURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "sha256": "de1d86d89cd5814d1048e704d22a6620f25b84cd6f3ec52d757c2abfa9a0804d"
+  },
+  {
+   "id": "sandwiches-chicken-avocado",
+   "name": "Chicken Avocado Sandwich",
+   "category": "sandwich",
+   "siteCategories": [
+    "Sandwiches"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 704.0,
+    "calories": 167.0,
+    "fat": 5.2,
+    "saturatedFat": 1.8,
+    "carbs": 21.1,
+    "sugar": 1.7,
+    "protein": 7.5,
+    "saltGrams": 0.9
+   },
+   "valuesPerServing": {
+    "energyKJ": 1782.0,
+    "calories": 422.0,
+    "fat": 13.2,
+    "saturatedFat": 4.6,
+    "carbs": 53.4,
+    "sugar": 4.3,
+    "protein": 18.9,
+    "saltGrams": 2.3
+   },
+   "pageURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "dataURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "sha256": "de1d86d89cd5814d1048e704d22a6620f25b84cd6f3ec52d757c2abfa9a0804d"
+  },
+  {
+   "id": "sandwiches-smashed-avocado-mozarella",
+   "name": "Smashed Avocado Mozarella Sandwich",
+   "category": "sandwich",
+   "siteCategories": [
+    "Sandwiches"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 833.0,
+    "calories": 198.0,
+    "fat": 8.1,
+    "saturatedFat": 3.5,
+    "carbs": 22.7,
+    "sugar": 1.8,
+    "protein": 7.3,
+    "saltGrams": 0.9
+   },
+   "valuesPerServing": {
+    "energyKJ": 1962.0,
+    "calories": 467.0,
+    "fat": 19.0,
+    "saturatedFat": 8.2,
+    "carbs": 53.5,
+    "sugar": 4.2,
+    "protein": 17.3,
+    "saltGrams": 2.2
+   },
+   "pageURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "dataURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "sha256": "de1d86d89cd5814d1048e704d22a6620f25b84cd6f3ec52d757c2abfa9a0804d"
+  },
+  {
+   "id": "sandwiches-smashed-avocado-chicken",
+   "name": "Smashed Avocado Chicken Sandwich",
+   "category": "sandwich",
+   "siteCategories": [
+    "Sandwiches"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 722.0,
+    "calories": 171.0,
+    "fat": 5.5,
+    "saturatedFat": 1.9,
+    "carbs": 21.6,
+    "sugar": 1.6,
+    "protein": 7.5,
+    "saltGrams": 1.0
+   },
+   "valuesPerServing": {
+    "energyKJ": 1826.0,
+    "calories": 434.0,
+    "fat": 14.0,
+    "saturatedFat": 4.8,
+    "carbs": 54.5,
+    "sugar": 4.2,
+    "protein": 19.0,
+    "saltGrams": 2.5
+   },
+   "pageURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "dataURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "sha256": "de1d86d89cd5814d1048e704d22a6620f25b84cd6f3ec52d757c2abfa9a0804d"
+  },
+  {
+   "id": "sandwiches-vegan-sweet-potato",
+   "name": "Vegan Sweet Potato Sandwich",
+   "category": "sandwich",
+   "siteCategories": [
+    "Sandwiches"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 1051.0,
+    "calories": 251.0,
+    "fat": 11.6,
+    "saturatedFat": 1.2,
+    "carbs": 29.6,
+    "sugar": 2.4,
+    "protein": 5.3,
+    "saltGrams": 1.0
+   },
+   "valuesPerServing": {
+    "energyKJ": 2133.0,
+    "calories": 509.0,
+    "fat": 23.6,
+    "saturatedFat": 2.4,
+    "carbs": 60.2,
+    "sugar": 4.8,
+    "protein": 10.7,
+    "saltGrams": 2.0
+   },
+   "pageURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "dataURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "sha256": "de1d86d89cd5814d1048e704d22a6620f25b84cd6f3ec52d757c2abfa9a0804d"
+  },
+  {
+   "id": "wraps-caesar-chicken",
+   "name": "Caesar Chicken Wrap",
+   "category": "wrap",
+   "siteCategories": [
+    "Wraps"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 756.0,
+    "calories": 163.0,
+    "fat": 6.6,
+    "saturatedFat": 2.5,
+    "carbs": 15.5,
+    "sugar": 2.1,
+    "protein": 9.3,
+    "saltGrams": 1.0
+   },
+   "valuesPerServing": {
+    "energyKJ": 2294.0,
+    "calories": 494.0,
+    "fat": 19.9,
+    "saturatedFat": 7.6,
+    "carbs": 47.0,
+    "sugar": 6.5,
+    "protein": 28.3,
+    "saltGrams": 3.1
+   },
+   "pageURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "dataURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "sha256": "de1d86d89cd5814d1048e704d22a6620f25b84cd6f3ec52d757c2abfa9a0804d"
+  },
+  {
+   "id": "wraps-falafel-mezze",
+   "name": "Falafel Mezze Wrap",
+   "category": "wrap",
+   "siteCategories": [
+    "Wraps"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 783.0,
+    "calories": 166.0,
+    "fat": 5.7,
+    "saturatedFat": 0.7,
+    "carbs": 21.2,
+    "sugar": 2.9,
+    "protein": 5.6,
+    "saltGrams": 1.1
+   },
+   "valuesPerServing": {
+    "energyKJ": 2064.0,
+    "calories": 438.0,
+    "fat": 15.1,
+    "saturatedFat": 1.8,
+    "carbs": 55.9,
+    "sugar": 7.7,
+    "protein": 14.8,
+    "saltGrams": 2.8
+   },
+   "pageURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "dataURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "sha256": "de1d86d89cd5814d1048e704d22a6620f25b84cd6f3ec52d757c2abfa9a0804d"
+  },
+  {
+   "id": "wraps-veggie-goat",
+   "name": "Veggie Goat Wrap",
+   "category": "wrap",
+   "siteCategories": [
+    "Wraps"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 980.0,
+    "calories": 215.0,
+    "fat": 10.9,
+    "saturatedFat": 3.7,
+    "carbs": 20.9,
+    "sugar": 6.7,
+    "protein": 7.3,
+    "saltGrams": 0.9
+   },
+   "valuesPerServing": {
+    "energyKJ": 2773.0,
+    "calories": 610.0,
+    "fat": 30.7,
+    "saturatedFat": 10.4,
+    "carbs": 59.2,
+    "sugar": 19.0,
+    "protein": 20.8,
+    "saltGrams": 2.6
+   },
+   "pageURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "dataURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "sha256": "de1d86d89cd5814d1048e704d22a6620f25b84cd6f3ec52d757c2abfa9a0804d"
+  },
+  {
+   "id": "flatbreads-olive-schafskaese",
+   "name": "Olive Schafskäse Flatbread",
+   "category": "sandwich",
+   "siteCategories": [
+    "Flatbreads"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 856.0,
+    "calories": 187.0,
+    "fat": 10.0,
+    "saturatedFat": 4.6,
+    "carbs": 15.7,
+    "sugar": 2.3,
+    "protein": 7.2,
+    "saltGrams": 1.2
+   },
+   "valuesPerServing": {
+    "energyKJ": 1267.0,
+    "calories": 277.0,
+    "fat": 14.8,
+    "saturatedFat": 6.9,
+    "carbs": 23.2,
+    "sugar": 3.4,
+    "protein": 10.7,
+    "saltGrams": 1.7
+   },
+   "pageURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "dataURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "sha256": "de1d86d89cd5814d1048e704d22a6620f25b84cd6f3ec52d757c2abfa9a0804d"
+  },
+  {
+   "id": "flatbreads-pesto-chicken",
+   "name": "Pesto Chicken Flatbread",
+   "category": "sandwich",
+   "siteCategories": [
+    "Flatbreads"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 952.0,
+    "calories": 213.0,
+    "fat": 12.3,
+    "saturatedFat": 4.2,
+    "carbs": 13.9,
+    "sugar": 2.4,
+    "protein": 10.7,
+    "saltGrams": 1.4
+   },
+   "valuesPerServing": {
+    "energyKJ": 1780.0,
+    "calories": 398.0,
+    "fat": 23.1,
+    "saturatedFat": 7.8,
+    "carbs": 26.0,
+    "sugar": 4.5,
+    "protein": 20.0,
+    "saltGrams": 2.6
+   },
+   "pageURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "dataURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "sha256": "de1d86d89cd5814d1048e704d22a6620f25b84cd6f3ec52d757c2abfa9a0804d"
+  },
+  {
+   "id": "flatbreads-creamy-koriander-avocado",
+   "name": "Creamy Koriander Avocado Flatbread",
+   "category": "sandwich",
+   "siteCategories": [
+    "Flatbreads"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 716.0,
+    "calories": 154.0,
+    "fat": 7.0,
+    "saturatedFat": 2.9,
+    "carbs": 15.9,
+    "sugar": 2.8,
+    "protein": 5.7,
+    "saltGrams": 1.3
+   },
+   "valuesPerServing": {
+    "energyKJ": 1167.0,
+    "calories": 252.0,
+    "fat": 11.3,
+    "saturatedFat": 4.8,
+    "carbs": 25.9,
+    "sugar": 4.6,
+    "protein": 9.3,
+    "saltGrams": 2.1
+   },
+   "pageURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "dataURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "sha256": "de1d86d89cd5814d1048e704d22a6620f25b84cd6f3ec52d757c2abfa9a0804d"
+  },
+  {
+   "id": "hot-wraps-hot-kebab-wrap",
+   "name": "Hot Kebab Wrap",
+   "category": "wrap",
+   "siteCategories": [
+    "Hot Wraps"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 890.0,
+    "calories": 195.0,
+    "fat": 8.0,
+    "saturatedFat": 0.8,
+    "carbs": 21.8,
+    "sugar": 2.3,
+    "protein": 7.3,
+    "saltGrams": 1.1
+   },
+   "valuesPerServing": {
+    "energyKJ": 2786.0,
+    "calories": 609.0,
+    "fat": 25.0,
+    "saturatedFat": 2.4,
+    "carbs": 68.3,
+    "sugar": 7.1,
+    "protein": 22.9,
+    "saltGrams": 3.6
+   },
+   "pageURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "dataURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "sha256": "de1d86d89cd5814d1048e704d22a6620f25b84cd6f3ec52d757c2abfa9a0804d"
+  },
+  {
+   "id": "hot-wraps-hot-chicken-teriyaki-wrap",
+   "name": "Hot Chicken Teriyaki Wrap",
+   "category": "wrap",
+   "siteCategories": [
+    "Hot Wraps"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 798.0,
+    "calories": 173.0,
+    "fat": 5.4,
+    "saturatedFat": 1.3,
+    "carbs": 22.2,
+    "sugar": 3.5,
+    "protein": 7.6,
+    "saltGrams": 1.4
+   },
+   "valuesPerServing": {
+    "energyKJ": 2514.0,
+    "calories": 544.0,
+    "fat": 17.0,
+    "saturatedFat": 4.2,
+    "carbs": 70.0,
+    "sugar": 11.0,
+    "protein": 23.9,
+    "saltGrams": 4.4
+   },
+   "pageURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "dataURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "sha256": "de1d86d89cd5814d1048e704d22a6620f25b84cd6f3ec52d757c2abfa9a0804d"
+  },
+  {
+   "id": "hot-wraps-dip-curcuma-aioli",
+   "name": "Curcuma Aioli Dip",
+   "category": "sauce",
+   "siteCategories": [
+    "Hot Wraps"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 2303.0,
+    "calories": 559.0,
+    "fat": 59.2,
+    "saturatedFat": 4.5,
+    "carbs": 4.8,
+    "sugar": 3.6,
+    "protein": 1.2,
+    "saltGrams": 1.2
+   },
+   "valuesPerServing": {
+    "energyKJ": 1842.0,
+    "calories": 447.0,
+    "fat": 47.4,
+    "saturatedFat": 3.6,
+    "carbs": 3.8,
+    "sugar": 2.9,
+    "protein": 1.0,
+    "saltGrams": 1.0
+   },
+   "pageURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "dataURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "sha256": "de1d86d89cd5814d1048e704d22a6620f25b84cd6f3ec52d757c2abfa9a0804d"
+  },
+  {
+   "id": "hot-wraps-dip-teriyaki-sauce",
+   "name": "Teriyaki Sauce Dip",
+   "category": "sauce",
+   "siteCategories": [
+    "Hot Wraps"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 1071.0,
+    "calories": 256.0,
+    "fat": 19.9,
+    "saturatedFat": 1.4,
+    "carbs": 16.6,
+    "sugar": 16.1,
+    "protein": 1.8,
+    "saltGrams": 4.4
+   },
+   "valuesPerServing": {
+    "energyKJ": 857.0,
+    "calories": 205.0,
+    "fat": 15.9,
+    "saturatedFat": 1.1,
+    "carbs": 13.3,
+    "sugar": 12.9,
+    "protein": 1.4,
+    "saltGrams": 3.5
+   },
+   "pageURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "dataURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "sha256": "de1d86d89cd5814d1048e704d22a6620f25b84cd6f3ec52d757c2abfa9a0804d"
+  },
+  {
+   "id": "sweets-cranberry-porridge-bread",
+   "name": "Cranberry Porridge Bread",
+   "category": "dessert",
+   "siteCategories": [
+    "Sweets"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 1809.0,
+    "calories": 433.0,
+    "fat": 22.0,
+    "saturatedFat": 2.5,
+    "carbs": 48.0,
+    "sugar": 27.0,
+    "protein": 8.2,
+    "saltGrams": 0.6
+   },
+   "valuesPerServing": {
+    "energyKJ": 1538.0,
+    "calories": 368.0,
+    "fat": 18.7,
+    "saturatedFat": 2.1,
+    "carbs": 40.8,
+    "sugar": 23.0,
+    "protein": 7.0,
+    "saltGrams": 0.5
+   },
+   "pageURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "dataURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "sha256": "de1d86d89cd5814d1048e704d22a6620f25b84cd6f3ec52d757c2abfa9a0804d"
+  },
+  {
+   "id": "sweets-carrot-cake",
+   "name": "Carrot Cake",
+   "category": "dessert",
+   "siteCategories": [
+    "Sweets"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 1528.0,
+    "calories": 367.0,
+    "fat": 24.9,
+    "saturatedFat": 8.5,
+    "carbs": 30.9,
+    "sugar": 21.0,
+    "protein": 4.4,
+    "saltGrams": 1.0
+   },
+   "valuesPerServing": {
+    "energyKJ": 1024.0,
+    "calories": 246.0,
+    "fat": 16.7,
+    "saturatedFat": 5.7,
+    "carbs": 20.7,
+    "sugar": 14.1,
+    "protein": 2.9,
+    "saltGrams": 0.7
+   },
+   "pageURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "dataURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "sha256": "de1d86d89cd5814d1048e704d22a6620f25b84cd6f3ec52d757c2abfa9a0804d"
+  },
+  {
+   "id": "sweets-croissant-vegan",
+   "name": "Croissant (vegan)",
+   "category": "dessert",
+   "siteCategories": [
+    "Sweets"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 1466.0,
+    "calories": 350.0,
+    "fat": 18.0,
+    "saturatedFat": 9.1,
+    "carbs": 39.0,
+    "sugar": 6.8,
+    "protein": 7.0,
+    "saltGrams": 0.7
+   },
+   "valuesPerServing": {
+    "energyKJ": 1026.0,
+    "calories": 245.0,
+    "fat": 12.6,
+    "saturatedFat": 6.4,
+    "carbs": 27.3,
+    "sugar": 4.8,
+    "protein": 4.9,
+    "saltGrams": 0.5
+   },
+   "pageURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "dataURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "sha256": "de1d86d89cd5814d1048e704d22a6620f25b84cd6f3ec52d757c2abfa9a0804d"
+  },
+  {
+   "id": "sweets-pain-au-chocolat-vegan",
+   "name": "Pain au Chocolat (vegan)",
+   "category": "dessert",
+   "siteCategories": [
+    "Sweets"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 1555.0,
+    "calories": 372.0,
+    "fat": 19.0,
+    "saturatedFat": 9.7,
+    "carbs": 42.0,
+    "sugar": 11.0,
+    "protein": 6.9,
+    "saltGrams": 0.7
+   },
+   "valuesPerServing": {
+    "energyKJ": 1244.0,
+    "calories": 298.0,
+    "fat": 15.2,
+    "saturatedFat": 7.8,
+    "carbs": 33.6,
+    "sugar": 8.8,
+    "protein": 5.5,
+    "saltGrams": 0.5
+   },
+   "pageURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "dataURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "sha256": "de1d86d89cd5814d1048e704d22a6620f25b84cd6f3ec52d757c2abfa9a0804d"
+  },
+  {
+   "id": "sweets-cinnamon-swirl",
+   "name": "Cinnamon Swirl",
+   "category": "dessert",
+   "siteCategories": [
+    "Sweets"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 1197.0,
+    "calories": 285.0,
+    "fat": 6.6,
+    "saturatedFat": 3.8,
+    "carbs": 49.2,
+    "sugar": 16.2,
+    "protein": 5.9,
+    "saltGrams": 1.2
+   },
+   "valuesPerServing": {
+    "energyKJ": 1436.0,
+    "calories": 341.0,
+    "fat": 7.9,
+    "saturatedFat": 4.6,
+    "carbs": 59.0,
+    "sugar": 19.4,
+    "protein": 7.1,
+    "saltGrams": 1.4
+   },
+   "pageURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "dataURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "sha256": "de1d86d89cd5814d1048e704d22a6620f25b84cd6f3ec52d757c2abfa9a0804d"
+  },
+  {
+   "id": "smoothies-a-ai-sunrise",
+   "name": "Açaí Sunrise Smoothie",
+   "category": "drink",
+   "siteCategories": [
+    "Smoothies"
+   ],
+   "servingGrams": 400.0,
+   "servingUnit": "ml",
+   "portionMilliliters": 400.0,
+   "volumeSource": "sheet",
+   "valuesPer100g": {
+    "energyKJ": 214.0,
+    "calories": 51.0,
+    "fat": 0.3,
+    "saturatedFat": 0.1,
+    "carbs": 10.6,
+    "sugar": 9.6,
+    "protein": 0.8,
+    "saltGrams": 0.0
+   },
+   "valuesPerServing": {
+    "energyKJ": 899.0,
+    "calories": 216.0,
+    "fat": 1.2,
+    "saturatedFat": 0.4,
+    "carbs": 44.6,
+    "sugar": 40.4,
+    "protein": 3.5,
+    "saltGrams": 0.0
+   },
+   "pageURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "dataURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "sha256": "de1d86d89cd5814d1048e704d22a6620f25b84cd6f3ec52d757c2abfa9a0804d"
+  },
+  {
+   "id": "smoothies-green-machine",
+   "name": "Green Machine Smoothie",
+   "category": "drink",
+   "siteCategories": [
+    "Smoothies"
+   ],
+   "servingGrams": 400.0,
+   "servingUnit": "ml",
+   "portionMilliliters": 400.0,
+   "volumeSource": "sheet",
+   "valuesPer100g": {
+    "energyKJ": 172.0,
+    "calories": 41.0,
+    "fat": 0.1,
+    "saturatedFat": 0.0,
+    "carbs": 8.6,
+    "sugar": 8.4,
+    "protein": 0.8,
+    "saltGrams": 0.0
+   },
+   "valuesPerServing": {
+    "energyKJ": 719.0,
+    "calories": 171.0,
+    "fat": 0.6,
+    "saturatedFat": 0.1,
+    "carbs": 36.1,
+    "sugar": 35.2,
+    "protein": 3.2,
+    "saltGrams": 0.0
+   },
+   "pageURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "dataURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "sha256": "de1d86d89cd5814d1048e704d22a6620f25b84cd6f3ec52d757c2abfa9a0804d"
+  },
+  {
+   "id": "lemonade-ingwer-lemongras",
+   "name": "Ingwer Lemongras Lemonade",
+   "category": "drink",
+   "siteCategories": [
+    "Lemonade"
+   ],
+   "servingGrams": 300.0,
+   "servingUnit": "ml",
+   "portionMilliliters": 300.0,
+   "volumeSource": "sheet",
+   "valuesPer100g": {
+    "calories": 30.0,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "carbs": 7.2,
+    "sugar": 7.1,
+    "protein": 0.1,
+    "saltGrams": 0.0
+   },
+   "valuesPerServing": {
+    "calories": 97.0,
+    "fat": 0.1,
+    "saturatedFat": 0.0,
+    "carbs": 22.8,
+    "sugar": 22.8,
+    "protein": 0.2,
+    "saltGrams": 0.0
+   },
+   "valueNotes": [
+    "energyKJ left out: 135.0 kJ does not match 30.0 kcal, which fits the macronutrients"
+   ],
+   "pageURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "dataURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "sha256": "de1d86d89cd5814d1048e704d22a6620f25b84cd6f3ec52d757c2abfa9a0804d"
+  },
+  {
+   "id": "kaffee-espresso",
+   "name": "Espresso",
+   "category": "coffee",
+   "siteCategories": [
+    "Kaffee"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 2.0,
+    "calories": 0.0,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "carbs": 0.0,
+    "sugar": 0.0,
+    "protein": 0.0,
+    "saltGrams": 0.0
+   },
+   "valuesPerServing": {
+    "energyKJ": 1.0,
+    "calories": 0.0,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "carbs": 0.0,
+    "sugar": 0.0,
+    "protein": 0.0,
+    "saltGrams": 0.0
+   },
+   "pageURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "dataURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "sha256": "de1d86d89cd5814d1048e704d22a6620f25b84cd6f3ec52d757c2abfa9a0804d"
+  },
+  {
+   "id": "kaffee-espresso-doppio",
+   "name": "Espresso doppio",
+   "category": "coffee",
+   "siteCategories": [
+    "Kaffee"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 1.0,
+    "calories": 0.0,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "carbs": 0.0,
+    "sugar": 0.0,
+    "protein": 0.0,
+    "saltGrams": 0.0
+   },
+   "valuesPerServing": {
+    "energyKJ": 1.0,
+    "calories": 0.0,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "carbs": 0.0,
+    "sugar": 0.0,
+    "protein": 0.0,
+    "saltGrams": 0.0
+   },
+   "pageURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "dataURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "sha256": "de1d86d89cd5814d1048e704d22a6620f25b84cd6f3ec52d757c2abfa9a0804d"
+  },
+  {
+   "id": "kaffee-espresso-macchiato",
+   "name": "Espresso Macchiato",
+   "category": "coffee",
+   "siteCategories": [
+    "Kaffee"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 91.0,
+    "calories": 22.0,
+    "fat": 1.2,
+    "saturatedFat": 0.8,
+    "carbs": 1.6,
+    "sugar": 1.6,
+    "protein": 1.1,
+    "saltGrams": 0.0
+   },
+   "valuesPerServing": {
+    "energyKJ": 69.0,
+    "calories": 17.0,
+    "fat": 0.9,
+    "saturatedFat": 0.6,
+    "carbs": 1.2,
+    "sugar": 1.2,
+    "protein": 0.9,
+    "saltGrams": 0.0
+   },
+   "pageURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "dataURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "sha256": "de1d86d89cd5814d1048e704d22a6620f25b84cd6f3ec52d757c2abfa9a0804d"
+  },
+  {
+   "id": "kaffee-espresso-macchiato-mit-haferdrink",
+   "name": "Espresso Macchiato mit Haferdrink",
+   "category": "coffee",
+   "siteCategories": [
+    "Kaffee"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 90.0,
+    "calories": 22.0,
+    "fat": 1.1,
+    "saturatedFat": 0.1,
+    "carbs": 2.4,
+    "sugar": 0.9,
+    "protein": 0.4,
+    "saltGrams": 0.0
+   },
+   "valuesPerServing": {
+    "energyKJ": 68.0,
+    "calories": 16.0,
+    "fat": 0.8,
+    "saturatedFat": 0.1,
+    "carbs": 1.8,
+    "sugar": 0.7,
+    "protein": 0.3,
+    "saltGrams": 0.0
+   },
+   "pageURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "dataURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "sha256": "de1d86d89cd5814d1048e704d22a6620f25b84cd6f3ec52d757c2abfa9a0804d"
+  },
+  {
+   "id": "kaffee-kaffee",
+   "name": "Kaffee",
+   "category": "coffee",
+   "siteCategories": [
+    "Kaffee"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 1.0,
+    "calories": 0.0,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "carbs": 0.0,
+    "sugar": 0.0,
+    "protein": 0.0,
+    "saltGrams": 0.0
+   },
+   "valuesPerServing": {
+    "energyKJ": 1.0,
+    "calories": 0.0,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "carbs": 0.0,
+    "sugar": 0.0,
+    "protein": 0.0,
+    "saltGrams": 0.0
+   },
+   "pageURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "dataURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "sha256": "de1d86d89cd5814d1048e704d22a6620f25b84cd6f3ec52d757c2abfa9a0804d"
+  },
+  {
+   "id": "kaffee-cappuccino-mit-milch",
+   "name": "Cappuccino mit Milch",
+   "category": "coffee",
+   "siteCategories": [
+    "Kaffee"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 206.0,
+    "calories": 50.0,
+    "fat": 2.7,
+    "saturatedFat": 1.8,
+    "carbs": 3.6,
+    "sugar": 3.6,
+    "protein": 2.6,
+    "saltGrams": 0.1
+   },
+   "valuesPerServing": {
+    "energyKJ": 453.0,
+    "calories": 109.0,
+    "fat": 6.0,
+    "saturatedFat": 3.9,
+    "carbs": 8.0,
+    "sugar": 8.0,
+    "protein": 5.6,
+    "saltGrams": 0.2
+   },
+   "pageURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "dataURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "sha256": "de1d86d89cd5814d1048e704d22a6620f25b84cd6f3ec52d757c2abfa9a0804d"
+  },
+  {
+   "id": "kaffee-cappuccino-mit-haferdrink",
+   "name": "Cappuccino mit Haferdrink",
+   "category": "coffee",
+   "siteCategories": [
+    "Kaffee"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 204.0,
+    "calories": 49.0,
+    "fat": 2.5,
+    "saturatedFat": 0.2,
+    "carbs": 5.4,
+    "sugar": 2.1,
+    "protein": 0.9,
+    "saltGrams": 0.1
+   },
+   "valuesPerServing": {
+    "energyKJ": 450.0,
+    "calories": 107.0,
+    "fat": 5.5,
+    "saturatedFat": 0.5,
+    "carbs": 11.9,
+    "sugar": 4.6,
+    "protein": 1.9,
+    "saltGrams": 0.2
+   },
+   "pageURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "dataURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "sha256": "de1d86d89cd5814d1048e704d22a6620f25b84cd6f3ec52d757c2abfa9a0804d"
+  },
+  {
+   "id": "kaffee-flat-white-mit-milch",
+   "name": "Flat White mit Milch",
+   "category": "coffee",
+   "siteCategories": [
+    "Kaffee"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 161.0,
+    "calories": 39.0,
+    "fat": 2.1,
+    "saturatedFat": 1.4,
+    "carbs": 2.8,
+    "sugar": 2.8,
+    "protein": 2.0,
+    "saltGrams": 0.1
+   },
+   "valuesPerServing": {
+    "energyKJ": 408.0,
+    "calories": 98.0,
+    "fat": 5.4,
+    "saturatedFat": 3.5,
+    "carbs": 7.2,
+    "sugar": 7.2,
+    "protein": 5.1,
+    "saltGrams": 0.2
+   },
+   "pageURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "dataURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "sha256": "de1d86d89cd5814d1048e704d22a6620f25b84cd6f3ec52d757c2abfa9a0804d"
+  },
+  {
+   "id": "kaffee-flat-white-mit-haferdrink",
+   "name": "Flat White mit Haferdrink",
+   "category": "coffee",
+   "siteCategories": [
+    "Kaffee"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 160.0,
+    "calories": 38.0,
+    "fat": 1.9,
+    "saturatedFat": 0.2,
+    "carbs": 4.2,
+    "sugar": 1.6,
+    "protein": 0.7,
+    "saltGrams": 0.1
+   },
+   "valuesPerServing": {
+    "energyKJ": 405.0,
+    "calories": 97.0,
+    "fat": 4.9,
+    "saturatedFat": 0.5,
+    "carbs": 10.7,
+    "sugar": 4.1,
+    "protein": 1.7,
+    "saltGrams": 0.2
+   },
+   "pageURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "dataURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "sha256": "de1d86d89cd5814d1048e704d22a6620f25b84cd6f3ec52d757c2abfa9a0804d"
+  },
+  {
+   "id": "kaffee-latte-macchiato-mit-milch",
+   "name": "Latte Macchiato mit Milch",
+   "category": "coffee",
+   "siteCategories": [
+    "Kaffee"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 210.0,
+    "calories": 51.0,
+    "fat": 2.8,
+    "saturatedFat": 1.8,
+    "carbs": 3.7,
+    "sugar": 3.7,
+    "protein": 2.6,
+    "saltGrams": 0.1
+   },
+   "valuesPerServing": {
+    "energyKJ": 498.0,
+    "calories": 120.0,
+    "fat": 6.6,
+    "saturatedFat": 4.3,
+    "carbs": 8.8,
+    "sugar": 8.8,
+    "protein": 6.2,
+    "saltGrams": 0.2
+   },
+   "pageURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "dataURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "sha256": "de1d86d89cd5814d1048e704d22a6620f25b84cd6f3ec52d757c2abfa9a0804d"
+  },
+  {
+   "id": "kaffee-latte-macchiato-mit-haferdrink",
+   "name": "Latte Macchiato mit Haferdrink",
+   "category": "coffee",
+   "siteCategories": [
+    "Kaffee"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 209.0,
+    "calories": 50.0,
+    "fat": 2.5,
+    "saturatedFat": 0.2,
+    "carbs": 5.5,
+    "sugar": 2.1,
+    "protein": 0.9,
+    "saltGrams": 0.1
+   },
+   "valuesPerServing": {
+    "energyKJ": 495.0,
+    "calories": 118.0,
+    "fat": 6.0,
+    "saturatedFat": 0.6,
+    "carbs": 13.1,
+    "sugar": 5.0,
+    "protein": 2.1,
+    "saltGrams": 0.2
+   },
+   "pageURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "dataURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "sha256": "de1d86d89cd5814d1048e704d22a6620f25b84cd6f3ec52d757c2abfa9a0804d"
+  },
+  {
+   "id": "kaffee-caff-latte-mit-milch",
+   "name": "Caffè Latte mit Milch",
+   "category": "coffee",
+   "siteCategories": [
+    "Kaffee"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 118.0,
+    "calories": 28.0,
+    "fat": 1.5,
+    "saturatedFat": 1.0,
+    "carbs": 2.1,
+    "sugar": 2.1,
+    "protein": 1.5,
+    "saltGrams": 0.1
+   },
+   "valuesPerServing": {
+    "energyKJ": 318.0,
+    "calories": 76.0,
+    "fat": 4.2,
+    "saturatedFat": 2.7,
+    "carbs": 5.6,
+    "sugar": 5.6,
+    "protein": 4.0,
+    "saltGrams": 0.2
+   },
+   "pageURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "dataURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "sha256": "de1d86d89cd5814d1048e704d22a6620f25b84cd6f3ec52d757c2abfa9a0804d"
+  },
+  {
+   "id": "kaffee-caff-latte-mit-haferdrink",
+   "name": "Caffè Latte mit Haferdrink",
+   "category": "coffee",
+   "siteCategories": [
+    "Kaffee"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 117.0,
+    "calories": 28.0,
+    "fat": 1.4,
+    "saturatedFat": 0.1,
+    "carbs": 3.1,
+    "sugar": 1.2,
+    "protein": 0.5,
+    "saltGrams": 0.0
+   },
+   "valuesPerServing": {
+    "energyKJ": 315.0,
+    "calories": 75.0,
+    "fat": 3.8,
+    "saturatedFat": 0.4,
+    "carbs": 8.4,
+    "sugar": 3.3,
+    "protein": 1.3,
+    "saltGrams": 0.1
+   },
+   "pageURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "dataURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "sha256": "de1d86d89cd5814d1048e704d22a6620f25b84cd6f3ec52d757c2abfa9a0804d"
+  },
+  {
+   "id": "kaffee-frischer-minztee",
+   "name": "frischer Minztee",
+   "category": "coffee",
+   "siteCategories": [
+    "Kaffee"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 4.0,
+    "calories": 1.0,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "carbs": 0.0,
+    "sugar": 0.0,
+    "protein": 0.1,
+    "saltGrams": 0.0
+   },
+   "valuesPerServing": {
+    "energyKJ": 15.0,
+    "calories": 4.0,
+    "fat": 0.1,
+    "saturatedFat": 0.0,
+    "carbs": 0.1,
+    "sugar": 0.1,
+    "protein": 0.3,
+    "saltGrams": 0.0
+   },
+   "pageURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "dataURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "sha256": "de1d86d89cd5814d1048e704d22a6620f25b84cd6f3ec52d757c2abfa9a0804d"
+  },
+  {
+   "id": "matcha-iced-strawberry-matcha-latte-mit-milch",
+   "name": "Iced Strawberry Matcha Latte mit Milch",
+   "category": "coffee",
+   "siteCategories": [
+    "Matcha"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 195.0,
+    "calories": 47.0,
+    "fat": 1.9,
+    "saturatedFat": 1.2,
+    "carbs": 5.1,
+    "sugar": 4.6,
+    "protein": 2.0,
+    "saltGrams": 0.1
+   },
+   "valuesPerServing": {
+    "energyKJ": 622.0,
+    "calories": 149.0,
+    "fat": 6.1,
+    "saturatedFat": 3.9,
+    "carbs": 16.4,
+    "sugar": 14.7,
+    "protein": 6.3,
+    "saltGrams": 0.2
+   },
+   "pageURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "dataURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "sha256": "de1d86d89cd5814d1048e704d22a6620f25b84cd6f3ec52d757c2abfa9a0804d"
+  },
+  {
+   "id": "matcha-iced-strawberry-matcha-latte-mit-haferdrink",
+   "name": "Iced Strawberry Matcha Latte mit Haferdrink",
+   "category": "coffee",
+   "siteCategories": [
+    "Matcha"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 194.0,
+    "calories": 46.0,
+    "fat": 1.7,
+    "saturatedFat": 0.2,
+    "carbs": 6.4,
+    "sugar": 3.6,
+    "protein": 0.8,
+    "saltGrams": 0.1
+   },
+   "valuesPerServing": {
+    "energyKJ": 618.0,
+    "calories": 147.0,
+    "fat": 5.5,
+    "saturatedFat": 0.5,
+    "carbs": 20.3,
+    "sugar": 11.4,
+    "protein": 2.6,
+    "saltGrams": 0.2
+   },
+   "pageURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "dataURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "sha256": "de1d86d89cd5814d1048e704d22a6620f25b84cd6f3ec52d757c2abfa9a0804d"
+  },
+  {
+   "id": "matcha-iced-matcha-mango-kokos-mit-milch",
+   "name": "Iced Matcha Mango Kokos mit Milch",
+   "category": "coffee",
+   "siteCategories": [
+    "Matcha"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 238.0,
+    "calories": 57.0,
+    "fat": 1.9,
+    "saturatedFat": 1.2,
+    "carbs": 7.7,
+    "sugar": 7.5,
+    "protein": 2.0,
+    "saltGrams": 0.1
+   },
+   "valuesPerServing": {
+    "energyKJ": 760.0,
+    "calories": 182.0,
+    "fat": 6.1,
+    "saturatedFat": 3.9,
+    "carbs": 24.6,
+    "sugar": 24.0,
+    "protein": 6.3,
+    "saltGrams": 0.2
+   },
+   "pageURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "dataURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "sha256": "de1d86d89cd5814d1048e704d22a6620f25b84cd6f3ec52d757c2abfa9a0804d"
+  },
+  {
+   "id": "matcha-iced-matcha-mango-kokos-mit-haferdrink",
+   "name": "Iced Matcha Mango Kokos mit Haferdrink",
+   "category": "coffee",
+   "siteCategories": [
+    "Matcha"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 237.0,
+    "calories": 57.0,
+    "fat": 1.8,
+    "saturatedFat": 0.2,
+    "carbs": 8.9,
+    "sugar": 6.5,
+    "protein": 0.8,
+    "saltGrams": 0.1
+   },
+   "valuesPerServing": {
+    "energyKJ": 757.0,
+    "calories": 181.0,
+    "fat": 5.6,
+    "saturatedFat": 0.5,
+    "carbs": 28.5,
+    "sugar": 20.7,
+    "protein": 2.6,
+    "saltGrams": 0.2
+   },
+   "pageURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "dataURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "sha256": "de1d86d89cd5814d1048e704d22a6620f25b84cd6f3ec52d757c2abfa9a0804d"
+  },
+  {
+   "id": "matcha-iced-matcha-latte-mit-milch",
+   "name": "Iced Matcha Latte mit Milch",
+   "category": "coffee",
+   "siteCategories": [
+    "Matcha"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 170.0,
+    "calories": 41.0,
+    "fat": 2.1,
+    "saturatedFat": 1.4,
+    "carbs": 3.0,
+    "sugar": 2.2,
+    "protein": 2.2,
+    "saltGrams": 0.1
+   },
+   "valuesPerServing": {
+    "energyKJ": 482.0,
+    "calories": 116.0,
+    "fat": 6.1,
+    "saturatedFat": 3.9,
+    "carbs": 8.5,
+    "sugar": 8.0,
+    "protein": 6.2,
+    "saltGrams": 0.2
+   },
+   "pageURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "dataURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "sha256": "de1d86d89cd5814d1048e704d22a6620f25b84cd6f3ec52d757c2abfa9a0804d"
+  },
+  {
+   "id": "matcha-iced-matcha-latte-mit-haferdrink",
+   "name": "Iced Matcha Latte mit Haferdrink",
+   "category": "coffee",
+   "siteCategories": [
+    "Matcha"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 169.0,
+    "calories": 40.0,
+    "fat": 2.0,
+    "saturatedFat": 0.2,
+    "carbs": 4.4,
+    "sugar": 1.6,
+    "protein": 0.9,
+    "saltGrams": 0.1
+   },
+   "valuesPerServing": {
+    "energyKJ": 479.0,
+    "calories": 114.0,
+    "fat": 5.5,
+    "saturatedFat": 0.5,
+    "carbs": 12.4,
+    "sugar": 4.6,
+    "protein": 2.5,
+    "saltGrams": 0.2
+   },
+   "pageURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "dataURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "sha256": "de1d86d89cd5814d1048e704d22a6620f25b84cd6f3ec52d757c2abfa9a0804d"
+  },
+  {
+   "id": "matcha-hot-matcha-latte-mit-milch",
+   "name": "Hot Matcha Latte mit Milch",
+   "category": "coffee",
+   "siteCategories": [
+    "Matcha"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 246.0,
+    "calories": 59.0,
+    "fat": 3.1,
+    "saturatedFat": 2.0,
+    "carbs": 4.3,
+    "sugar": 4.1,
+    "protein": 3.2,
+    "saltGrams": 0.1
+   },
+   "valuesPerServing": {
+    "energyKJ": 575.0,
+    "calories": 138.0,
+    "fat": 7.3,
+    "saturatedFat": 4.7,
+    "carbs": 10.2,
+    "sugar": 9.6,
+    "protein": 7.4,
+    "saltGrams": 0.3
+   },
+   "pageURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "dataURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "sha256": "de1d86d89cd5814d1048e704d22a6620f25b84cd6f3ec52d757c2abfa9a0804d"
+  },
+  {
+   "id": "matcha-hot-matcha-latte-mit-haferdrink",
+   "name": "Hot Matcha Latte mit Haferdrink",
+   "category": "coffee",
+   "siteCategories": [
+    "Matcha"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 244.0,
+    "calories": 58.0,
+    "fat": 2.8,
+    "saturatedFat": 0.3,
+    "carbs": 6.3,
+    "sugar": 2.4,
+    "protein": 1.2,
+    "saltGrams": 0.1
+   },
+   "valuesPerServing": {
+    "energyKJ": 571.0,
+    "calories": 136.0,
+    "fat": 6.7,
+    "saturatedFat": 0.6,
+    "carbs": 14.9,
+    "sugar": 5.5,
+    "protein": 2.9,
+    "saltGrams": 0.2
+   },
+   "pageURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "dataURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "sha256": "de1d86d89cd5814d1048e704d22a6620f25b84cd6f3ec52d757c2abfa9a0804d"
+  },
+  {
+   "id": "iced-coffee-iced-coffee",
+   "name": "Iced Coffee",
+   "category": "coffee",
+   "siteCategories": [
+    "Iced Coffee"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 0.0,
+    "calories": 0.0,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "carbs": 0.0,
+    "sugar": 0.0,
+    "protein": 0.0,
+    "saltGrams": 0.0
+   },
+   "valuesPerServing": {
+    "energyKJ": 1.0,
+    "calories": 0.0,
+    "fat": 0.0,
+    "saturatedFat": 0.0,
+    "carbs": 0.0,
+    "sugar": 0.0,
+    "protein": 0.0,
+    "saltGrams": 0.0
+   },
+   "pageURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "dataURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "sha256": "de1d86d89cd5814d1048e704d22a6620f25b84cd6f3ec52d757c2abfa9a0804d"
+  },
+  {
+   "id": "iced-coffee-iced-latte-macchiato-mit-milch",
+   "name": "Iced Latte Macchiato mit Milch",
+   "category": "coffee",
+   "siteCategories": [
+    "Iced Coffee"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 127.0,
+    "calories": 30.0,
+    "fat": 1.7,
+    "saturatedFat": 1.1,
+    "carbs": 2.2,
+    "sugar": 2.2,
+    "protein": 1.6,
+    "saltGrams": 0.1
+   },
+   "valuesPerServing": {
+    "energyKJ": 560.0,
+    "calories": 135.0,
+    "fat": 7.4,
+    "saturatedFat": 4.8,
+    "carbs": 9.9,
+    "sugar": 9.9,
+    "protein": 6.9,
+    "saltGrams": 0.3
+   },
+   "pageURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "dataURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "sha256": "de1d86d89cd5814d1048e704d22a6620f25b84cd6f3ec52d757c2abfa9a0804d"
+  },
+  {
+   "id": "iced-coffee-iced-latte-macchiato-mit-haferdrink",
+   "name": "Iced Latte Macchiato mit Haferdrink",
+   "category": "coffee",
+   "siteCategories": [
+    "Iced Coffee"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 126.0,
+    "calories": 30.0,
+    "fat": 1.5,
+    "saturatedFat": 0.1,
+    "carbs": 3.3,
+    "sugar": 1.3,
+    "protein": 0.5,
+    "saltGrams": 0.0
+   },
+   "valuesPerServing": {
+    "energyKJ": 556.0,
+    "calories": 133.0,
+    "fat": 6.7,
+    "saturatedFat": 0.6,
+    "carbs": 14.7,
+    "sugar": 5.7,
+    "protein": 2.3,
+    "saltGrams": 0.2
+   },
+   "pageURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "dataURL": "https://deananddavid.com/wp-content/uploads/2026/09/2026-09-dd-Naehrwertuebersicht.pdf",
+   "sha256": "de1d86d89cd5814d1048e704d22a6620f25b84cd6f3ec52d757c2abfa9a0804d"
+  }
+ ],
+ "excluded": [
+  {
+   "id": "mix-your-own-basis-blattsalatmix",
+   "name": "Basis - Blattsalatmix",
+   "section": "Mix Your Own",
+   "reason": "a component for mixing one's own salad or bowl, not a menu item"
+  },
+  {
+   "id": "mix-your-own-bowl-basis-quinoa-vollkornreis",
+   "name": "Bowl Basis - Quinoa Vollkornreis",
+   "section": "Mix Your Own",
+   "reason": "a component for mixing one's own salad or bowl, not a menu item"
+  },
+  {
+   "id": "mix-your-own-bowl-basis-jasmin-duftreis",
+   "name": "Bowl-Basis - Jasmin-Duftreis",
+   "section": "Mix Your Own",
+   "reason": "a component for mixing one's own salad or bowl, not a menu item"
+  },
+  {
+   "id": "mix-your-own-basic-birne",
+   "name": "Basic - Birne",
+   "section": "Mix Your Own",
+   "reason": "a component for mixing one's own salad or bowl, not a menu item"
+  },
+  {
+   "id": "mix-your-own-basic-cro-tons",
+   "name": "Basic - Croûtons",
+   "section": "Mix Your Own",
+   "reason": "a component for mixing one's own salad or bowl, not a menu item"
+  },
+  {
+   "id": "mix-your-own-basic-crunchy-onions",
+   "name": "Basic - Crunchy Onions",
+   "section": "Mix Your Own",
+   "reason": "a component for mixing one's own salad or bowl, not a menu item"
+  },
+  {
+   "id": "mix-your-own-basic-edamame",
+   "name": "Basic - Edamame",
+   "section": "Mix Your Own",
+   "reason": "a component for mixing one's own salad or bowl, not a menu item"
+  },
+  {
+   "id": "mix-your-own-basic-erdnuesse",
+   "name": "Basic - Erdnüsse",
+   "section": "Mix Your Own",
+   "reason": "a component for mixing one's own salad or bowl, not a menu item"
+  },
+  {
+   "id": "mix-your-own-basic-freilandei",
+   "name": "Basic - Freilandei",
+   "section": "Mix Your Own",
+   "reason": "a component for mixing one's own salad or bowl, not a menu item"
+  },
+  {
+   "id": "mix-your-own-basic-fruehlingszwiebeln",
+   "name": "Basic - Frühlingszwiebeln",
+   "section": "Mix Your Own",
+   "reason": "a component for mixing one's own salad or bowl, not a menu item"
+  },
+  {
+   "id": "mix-your-own-basic-granatapfelkerne",
+   "name": "Basic - Granatapfelkerne",
+   "section": "Mix Your Own",
+   "reason": "a component for mixing one's own salad or bowl, not a menu item"
+  },
+  {
+   "id": "mix-your-own-basic-gurken",
+   "name": "Basic - Gurken",
+   "section": "Mix Your Own",
+   "reason": "a component for mixing one's own salad or bowl, not a menu item"
+  },
+  {
+   "id": "mix-your-own-basic-karotten",
+   "name": "Basic - Karotten",
+   "section": "Mix Your Own",
+   "reason": "a component for mixing one's own salad or bowl, not a menu item"
+  },
+  {
+   "id": "mix-your-own-basic-kirschtomaten",
+   "name": "Basic - Kirschtomaten",
+   "section": "Mix Your Own",
+   "reason": "a component for mixing one's own salad or bowl, not a menu item"
+  },
+  {
+   "id": "mix-your-own-basic-kuerbis",
+   "name": "Basic - Kürbis",
+   "section": "Mix Your Own",
+   "reason": "a component for mixing one's own salad or bowl, not a menu item"
+  },
+  {
+   "id": "mix-your-own-basic-kuerbis-sonnenblumkern-mix",
+   "name": "Basic - Kürbis-Sonnenblumkern-Mix",
+   "section": "Mix Your Own",
+   "reason": "a component for mixing one's own salad or bowl, not a menu item"
+  },
+  {
+   "id": "mix-your-own-basic-mango",
+   "name": "Basic - Mango",
+   "section": "Mix Your Own",
+   "reason": "a component for mixing one's own salad or bowl, not a menu item"
+  },
+  {
+   "id": "mix-your-own-basic-miso-mayo",
+   "name": "Basic - Miso Mayo",
+   "section": "Mix Your Own",
+   "reason": "a component for mixing one's own salad or bowl, not a menu item"
+  },
+  {
+   "id": "mix-your-own-basic-oliventapenade",
+   "name": "Basic - Oliventapenade",
+   "section": "Mix Your Own",
+   "reason": "a component for mixing one's own salad or bowl, not a menu item"
+  },
+  {
+   "id": "mix-your-own-basic-paprika",
+   "name": "Basic - Paprika",
+   "section": "Mix Your Own",
+   "reason": "a component for mixing one's own salad or bowl, not a menu item"
+  },
+  {
+   "id": "mix-your-own-basic-cranberries",
+   "name": "Basic - Cranberries",
+   "section": "Mix Your Own",
+   "reason": "a component for mixing one's own salad or bowl, not a menu item"
+  },
+  {
+   "id": "mix-your-own-basic-rote-bete",
+   "name": "Basic - Rote Bete",
+   "section": "Mix Your Own",
+   "reason": "a component for mixing one's own salad or bowl, not a menu item"
+  },
+  {
+   "id": "mix-your-own-basic-rotkohl-mariniert",
+   "name": "Basic - Rotkohl mariniert",
+   "section": "Mix Your Own",
+   "reason": "a component for mixing one's own salad or bowl, not a menu item"
+  },
+  {
+   "id": "mix-your-own-basic-walnuesse",
+   "name": "Basic - Walnüsse",
+   "section": "Mix Your Own",
+   "reason": "a component for mixing one's own salad or bowl, not a menu item"
+  },
+  {
+   "id": "mix-your-own-basic-weintrauben",
+   "name": "Basic - Weintrauben",
+   "section": "Mix Your Own",
+   "reason": "a component for mixing one's own salad or bowl, not a menu item"
+  },
+  {
+   "id": "mix-your-own-extra-avocado",
+   "name": "Extra - Avocado",
+   "section": "Mix Your Own",
+   "reason": "a component for mixing one's own salad or bowl, not a menu item"
+  },
+  {
+   "id": "mix-your-own-extra-falafel",
+   "name": "Extra - Falafel",
+   "section": "Mix Your Own",
+   "reason": "a component for mixing one's own salad or bowl, not a menu item"
+  },
+  {
+   "id": "mix-your-own-extra-italian-hardcheese-flakes",
+   "name": "Extra - Italian Hardcheese Flakes",
+   "section": "Mix Your Own",
+   "reason": "a component for mixing one's own salad or bowl, not a menu item"
+  },
+  {
+   "id": "mix-your-own-extra-grillgemuese",
+   "name": "Extra - Grillgemüse",
+   "section": "Mix Your Own",
+   "reason": "a component for mixing one's own salad or bowl, not a menu item"
+  },
+  {
+   "id": "mix-your-own-extra-haehnchen-filetstreifen",
+   "name": "Extra - Hähnchen-Filetstreifen",
+   "section": "Mix Your Own",
+   "reason": "a component for mixing one's own salad or bowl, not a menu item"
+  },
+  {
+   "id": "mix-your-own-extra-hummus",
+   "name": "Extra - Hummus",
+   "section": "Mix Your Own",
+   "reason": "a component for mixing one's own salad or bowl, not a menu item"
+  },
+  {
+   "id": "mix-your-own-extra-halloumi",
+   "name": "Extra - Halloumi",
+   "section": "Mix Your Own",
+   "reason": "a component for mixing one's own salad or bowl, not a menu item"
+  },
+  {
+   "id": "mix-your-own-extra-raeucherlachs",
+   "name": "Extra - Räucherlachs",
+   "section": "Mix Your Own",
+   "reason": "a component for mixing one's own salad or bowl, not a menu item"
+  },
+  {
+   "id": "mix-your-own-extra-planted-chicken",
+   "name": "Extra - planted.chicken",
+   "section": "Mix Your Own",
+   "reason": "a component for mixing one's own salad or bowl, not a menu item"
+  },
+  {
+   "id": "mix-your-own-extra-roast-potatoes",
+   "name": "Extra - Roast Potatoes",
+   "section": "Mix Your Own",
+   "reason": "a component for mixing one's own salad or bowl, not a menu item"
+  },
+  {
+   "id": "mix-your-own-extra-rinderstreifen",
+   "name": "Extra - Rinderstreifen",
+   "section": "Mix Your Own",
+   "reason": "a component for mixing one's own salad or bowl, not a menu item"
+  },
+  {
+   "id": "mix-your-own-extra-schafskaese",
+   "name": "Extra - Schafskäse",
+   "section": "Mix Your Own",
+   "reason": "a component for mixing one's own salad or bowl, not a menu item"
+  },
+  {
+   "id": "mix-your-own-extra-suesskartoffel-chunks",
+   "name": "Extra - Süßkartoffel Chunks",
+   "section": "Mix Your Own",
+   "reason": "a component for mixing one's own salad or bowl, not a menu item"
+  },
+  {
+   "id": "mix-your-own-extra-ziegenkaese",
+   "name": "Extra - Ziegenkäse",
+   "section": "Mix Your Own",
+   "reason": "a component for mixing one's own salad or bowl, not a menu item"
+  },
+  {
+   "id": "bowl-basis-quinoa-vollkornreis-mix",
+   "name": "Quinoa Vollkornreis Mix",
+   "section": "Bowl Basis",
+   "reason": "a bowl's base, a component, not a menu item"
+  },
+  {
+   "id": "bowl-basis-jasmin-duftreis",
+   "name": "Jasmin-Duftreis",
+   "section": "Bowl Basis",
+   "reason": "a bowl's base, a component, not a menu item"
+  },
+  {
+   "id": "curries-catering-korma-curry-vegetarisch",
+   "name": "Korma Curry - vegetarisch",
+   "section": "Curries (Catering)",
+   "reason": "catering only, not sold in the stores"
+  },
+  {
+   "id": "curries-catering-korma-curry-chicken",
+   "name": "Korma Curry - Chicken",
+   "section": "Curries (Catering)",
+   "reason": "catering only, not sold in the stores"
+  },
+  {
+   "id": "curries-catering-korma-curry-planted-chicken",
+   "name": "Korma Curry - planted.chicken",
+   "section": "Curries (Catering)",
+   "reason": "catering only, not sold in the stores"
+  },
+  {
+   "id": "wraps-caesar-catering",
+   "name": "Caesar (Catering) Wrap",
+   "section": "Wraps",
+   "reason": "catering only, not sold in the stores"
+  },
+  {
+   "id": "wraps-paris-catering",
+   "name": "Paris (Catering) Wrap",
+   "section": "Wraps",
+   "reason": "catering only, not sold in the stores"
+  },
+  {
+   "id": "wraps-vegan-falafel-catering",
+   "name": "Vegan Falafel (Catering) Wrap",
+   "section": "Wraps",
+   "reason": "catering only, not sold in the stores"
+  },
+  {
+   "id": "wraps-teriyaki-salmon-catering",
+   "name": "Teriyaki Salmon (Catering) Wrap",
+   "section": "Wraps",
+   "reason": "catering only, not sold in the stores"
+  },
+  {
+   "id": "smoothies-mango-passion",
+   "name": "Mango Passion Smoothie",
+   "section": "Smoothies",
+   "reason": "the chain states contradicting energy per 100 g and per portion (55.0 vs 70.75 kcal per 100 g from the portion)"
+  },
+  {
+   "id": "supplements-add-ons-collagen",
+   "name": "Collagen",
+   "section": "Supplements/Add-Ons",
+   "reason": "an add-on stirred into a drink, not a menu item"
+  },
+  {
+   "id": "supplements-add-ons-whey-protein",
+   "name": "Whey Protein",
+   "section": "Supplements/Add-Ons",
+   "reason": "an add-on stirred into a drink, not a menu item"
+  },
+  {
+   "id": "bar-crodino-spritz",
+   "name": "Crodino Spritz",
+   "section": "Bar",
+   "reason": "a bar aperitif; the sheet does not say whether it is the alcohol-free one"
+  },
+  {
+   "id": "seasonals-pumpkin-spice-curry",
+   "name": "Pumpkin Spice Curry",
+   "section": "Seasonals",
+   "reason": "seasonal (the autumn pumpkin spice line)"
+  },
+  {
+   "id": "seasonals-pumpkin-spice-chicken-curry",
+   "name": "Pumpkin Spice Chicken Curry",
+   "section": "Seasonals",
+   "reason": "seasonal (the autumn pumpkin spice line)"
+  },
+  {
+   "id": "seasonals-pumpkin-spice-planted-chicken-curry",
+   "name": "Pumpkin Spice planted.chicken Curry",
+   "section": "Seasonals",
+   "reason": "seasonal (the autumn pumpkin spice line)"
+  },
+  {
+   "id": "seasonals-pumpkin-spice-beef-curry",
+   "name": "Pumpkin Spice Beef Curry",
+   "section": "Seasonals",
+   "reason": "seasonal (the autumn pumpkin spice line)"
+  },
+  {
+   "id": "seasonals-pumpkin-spice-beef-bowl",
+   "name": "Pumpkin Spice Beef Bowl",
+   "section": "Seasonals",
+   "reason": "seasonal (the autumn pumpkin spice line)"
+  },
+  {
+   "id": "seasonals-pumpkin-spice-chicken-bowl",
+   "name": "Pumpkin Spice Chicken Bowl",
+   "section": "Seasonals",
+   "reason": "seasonal (the autumn pumpkin spice line)"
+  },
+  {
+   "id": "seasonals-pumpkin-spice-planted-chicken-bowl",
+   "name": "Pumpkin Spice planted.chicken Bowl",
+   "section": "Seasonals",
+   "reason": "seasonal (the autumn pumpkin spice line)"
+  },
+  {
+   "id": "seasonals-prepacked-pumpkin-spice-bulgur-bowl",
+   "name": "Prepacked Pumpkin Spice Bulgur Bowl",
+   "section": "Seasonals",
+   "reason": "seasonal (the autumn pumpkin spice line)"
+  },
+  {
+   "id": "seasonals-pumpkin-spice-chai-latte",
+   "name": "Pumpkin Spice Chai Latte",
+   "section": "Seasonals",
+   "reason": "seasonal (the autumn pumpkin spice line)"
+  },
+  {
+   "id": "seasonals-pumpkin-spice-chai-latte-hafermilch",
+   "name": "Pumpkin Spice Chai Latte, Hafermilch",
+   "section": "Seasonals",
+   "reason": "seasonal (the autumn pumpkin spice line)"
+  },
+  {
+   "id": "seasonals-pumpkin-chai-matcha-latte",
+   "name": "Pumpkin Chai Matcha Latte",
+   "section": "Seasonals",
+   "reason": "seasonal (the autumn pumpkin spice line)"
+  },
+  {
+   "id": "seasonals-pumpkin-chai-matcha-latte-hafermilch",
+   "name": "Pumpkin Chai Matcha Latte, Hafermilch",
+   "section": "Seasonals",
+   "reason": "seasonal (the autumn pumpkin spice line)"
+  },
+  {
+   "id": "seasonals-pumpkin-spice-chai-latte-macchiato",
+   "name": "Pumpkin Spice Chai Latte Macchiato",
+   "section": "Seasonals",
+   "reason": "seasonal (the autumn pumpkin spice line)"
+  },
+  {
+   "id": "seasonals-pumpkin-spice-chai-latte-macchiato-hafermilch",
+   "name": "Pumpkin Spice Chai Latte Macchiato, Hafermilch",
+   "section": "Seasonals",
+   "reason": "seasonal (the autumn pumpkin spice line)"
+  },
+  {
+   "id": "additional-specials-xl-chicken-n-eggs-bowl",
+   "name": "XL Chicken 'n Eggs Bowl",
+   "section": "Additional Specials",
+   "reason": "an additional special sold only in participating stores"
+  },
+  {
+   "id": "additional-specials-xl-planted-chicken-n-eggs-bowl",
+   "name": "XL planted Chicken 'n Eggs Bowl",
+   "section": "Additional Specials",
+   "reason": "an additional special sold only in participating stores"
+  },
+  {
+   "id": "additional-specials-xl-protein-power-bowl",
+   "name": "XL Protein Power Bowl",
+   "section": "Additional Specials",
+   "reason": "an additional special sold only in participating stores"
+  },
+  {
+   "id": "additional-specials-xl-chicken-protein-power-bowl",
+   "name": "XL Chicken Protein Power Bowl",
+   "section": "Additional Specials",
+   "reason": "an additional special sold only in participating stores"
+  },
+  {
+   "id": "additional-specials-san-sebastian-cheesecake",
+   "name": "San Sebastian Cheesecake",
+   "section": "Additional Specials",
+   "reason": "an additional special sold only in participating stores"
+  },
+  {
+   "id": "additional-specials-apple-tartlets",
+   "name": "Apple Tartlets*",
+   "section": "Additional Specials",
+   "reason": "an additional special sold only in participating stores"
+  },
+  {
+   "id": "additional-specials-banana-walnut-bread",
+   "name": "Banana-Walnut Bread",
+   "section": "Additional Specials",
+   "reason": "an additional special sold only in participating stores"
+  },
+  {
+   "id": "additional-specials-basic-smashed-avo-egg-toast",
+   "name": "Basic Smashed Avo Egg Toast",
+   "section": "Additional Specials",
+   "reason": "an additional special sold only in participating stores"
+  },
+  {
+   "id": "additional-specials-basic-smashed-avo-toast",
+   "name": "Basic Smashed Avo Toast",
+   "section": "Additional Specials",
+   "reason": "an additional special sold only in participating stores"
+  },
+  {
+   "id": "additional-specials-eggs-sourdough-plate",
+   "name": "Eggs & Sourdough Plate",
+   "section": "Additional Specials",
+   "reason": "an additional special sold only in participating stores"
+  }
+ ]
+}

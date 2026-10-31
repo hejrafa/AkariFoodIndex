@@ -1,0 +1,77 @@
+{
+  "id": "akari:label:collagen-powder",
+  "name": "Collagen powder",
+  "identity": "Plain bovine collagen hydrolysate powder stirred into drinks, about 90 % protein; the dose is one 10 to 15 g scoop.",
+  "rule": "Per 100 g of the product, each value is the median of the labels below that declare it, and a value enters only when at least three declare it; a label states its nutrients per dose, so the file converts them with the dose's weight (the pack's net content divided by its count of tablets, capsules, sticks or drops, or the stated dose weight). Salt becomes sodium (salt in g × 400 = sodium in mg). Nothing a label leaves out becomes zero. Labels read on 2026-10-30 from dm.de, rossmann.de and shop-apotheke.com product pages.",
+  "nutrients": {
+    "calories": 368,
+    "fat": 0,
+    "saturatedFat": 0,
+    "carbs": 0,
+    "sugar": 0,
+    "protein": 91,
+    "sodium": 196
+  },
+  "portions": [
+    {
+      "grams": 10.0,
+      "label": "1 scoop, about 10 g"
+    }
+  ],
+  "labels": [
+    {
+      "brand": "Mivolis",
+      "product": "Kollagenpulver, 200 g",
+      "read": "https://www.dm.de/p/d/3115292/ (dm.de product page, Nährwerte and Zutaten panels; GTIN not stated)",
+      "date": "2026-10-30",
+      "ingredients": "100 % Kollagenhydrolysatpulver (Rind)",
+      "serving": "10 g, one heaped teaspoon: the dose is 10 g of a 200 g pack; the label declares per dose: nothing beyond the per-100 g table; per 100 g 1564 kJ / 368 kcal, fat 0 g, saturates 0 g, carbohydrate 0 g, sugars 0 g, protein 92 g, salt 0.5 g; the page states no dose count; the dose is taken as the 10 g scoop usual for collagen powder",
+      "per100g": {
+        "energyKcal": 368.0,
+        "fat": 0.0,
+        "saturates": 0.0,
+        "carbohydrate": 0.0,
+        "sugars": 0.0,
+        "protein": 92.0,
+        "salt": 0.5
+      }
+    },
+    {
+      "brand": "Glow25",
+      "product": "Kollagen Pulver mit Vitamin C, 450 g",
+      "read": "https://www.dm.de/p/d/3103609/ (dm.de product page, Nährwerte and Zutaten panels; GTIN not stated)",
+      "date": "2026-10-30",
+      "ingredients": "99,8 % Kollagen-Hydrolysat-Pulver (Rind), Vitamin C",
+      "serving": "15 g: the dose is 15 g of a 450 g pack; the label declares per dose: vitaminCMg 16; per 100 g 1558 kJ / 372 kcal, fat 0 g, saturates 0 g, carbohydrate 0 g, fibre 0 g, sugars 0 g, protein 91 g, salt 0.2 g; the daily dose is 15 g",
+      "per100g": {
+        "vitaminCMg": 106.667,
+        "energyKcal": 372.0,
+        "fat": 0.0,
+        "saturates": 0.0,
+        "carbohydrate": 0.0,
+        "sugars": 0.0,
+        "protein": 91.0,
+        "salt": 0.2
+      }
+    },
+    {
+      "brand": "Naduria",
+      "product": "Kollagenpulver Premium Hydrolysat, 300 g",
+      "read": "https://www.dm.de/p/d/2477696/ (dm.de product page, Nährwerte and Zutaten panels; GTIN not stated)",
+      "date": "2026-10-30",
+      "ingredients": "Hydrolisiertes Kollagenpulver (Rind), Vitamin- und Mineralstoffmischung (L-Ascorbinsäure, Zinkgluconat)",
+      "serving": "10 g: the dose is 10 g of a 300 g pack; the label declares per dose: zincMg 5, vitaminCMg 80; per 100 g 1543 kJ / 363 kcal, fat 0 g, saturates 0 g, carbohydrate 0 g, sugars 0 g, fibre 0 g, protein 90 g, salt 0.49 g; the daily dose is 10 g",
+      "per100g": {
+        "zincMg": 50.0,
+        "vitaminCMg": 800.0,
+        "energyKcal": 363.0,
+        "fat": 0.0,
+        "saturates": 0.0,
+        "carbohydrate": 0.0,
+        "sugars": 0.0,
+        "protein": 90.0,
+        "salt": 0.49
+      }
+    }
+  ]
+}

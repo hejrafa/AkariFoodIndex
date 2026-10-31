@@ -1,0 +1,98 @@
+{
+  "id": "akari:label:multivitamin-a-z-tablet",
+  "name": "Multivitamin A–Z tablet",
+  "identity": "One-a-day A to Z multivitamin and mineral tablet with about twenty vitamins and minerals near the reference intake; the dose is one tablet.",
+  "rule": "Per 100 g of the product, each value is the median of the labels below that declare it, and a value enters only when at least three declare it; a label states its nutrients per dose, so the file converts them with the dose's weight (the pack's net content divided by its count of tablets, capsules, sticks or drops, or the stated dose weight). Salt becomes sodium (salt in g × 400 = sodium in mg). Fewer than three labels declare energy, so the row stands at 0 kcal under the verification policy's clause for label generics with a micronutrient. Nothing a label leaves out becomes zero. Labels read on 2026-10-30 from dm.de, rossmann.de and shop-apotheke.com product pages.",
+  "nutrients": {
+    "calcium": 10434.8,
+    "iron": 416.667,
+    "folate": 17391.3,
+    "iodine": 6944.44,
+    "magnesium": 4869.57,
+    "selenium": 1736.11,
+    "zinc": 335.57,
+    "vitaminA": 26845.6,
+    "vitaminB12": 173.611,
+    "vitaminC": 10067.1,
+    "vitaminD": 347.222,
+    "calories": 0
+  },
+  "portions": [
+    {
+      "grams": 1.44,
+      "label": "1 tablet"
+    }
+  ],
+  "labels": [
+    {
+      "brand": "Doppelherz",
+      "product": "A-Z Depot Tabletten 120 St, 178,8 g",
+      "read": "https://www.dm.de/p/d/1711661/ (dm.de product page, Nährwerte and Zutaten panels; GTIN not stated)",
+      "date": "2026-10-30",
+      "ingredients": "Dicalciumphosphat, Füllstoff mikrokristalline Cellulose, Vitamin C, Füllstoff Hydroxypropylmethylcellulose, Füllstoff Isomalt, Magnesiumoxid, modifizierte Stärke, Trennmittel Speisefettsäuren, Niacin, Vitamin E, Pantothensäure, Zinksulfat, Trennmittel Magnesiumsalze der Speisefettsäuren, Stärke, Vitamin B6, Eisensulfat, Vitamin B1, Vitamin B2, Trennmittel Talkum, Trennmittel Siliciumdioxid, Kupfersulfat, Tricalciumphosphat, Farbstoff Eisenoxide und Eisenhydroxide, Feuchthaltemittel Glycerin, Lutein aus Studentenblumen, Vitamin A, Folsäure, Biotin, Kaliumiodid, Chrom-(III)-chlorid, Natriummolybdat, Natriumselenit, Vitamin K, Vitamin D, Vitamin B12",
+      "serving": "1 Tablette: 120 units weigh 178.8 g, so the dose is 1.49 g; the label declares per dose: calciumMg 140, ironMg 2.1, folateUg 450, iodineUg 100, magnesiumMg 56.3, seleniumUg 10, zincMg 5, vitaminAUg 400, vitaminB12Ug 2.5, vitaminCMg 150, vitaminDUg 5; lutein 1500 µg, chromium 25 µg, copper 0.9 mg, molybdenum 20 µg, niacin 18 mg, pantothenic acid 12 mg, phosphorus 105 mg, biotin 300 µg, B2 4 mg, B1 3.5 mg, B6 5 mg, vitamin E 10 mg, vitamin K 20 µg; no energy or macros declared",
+      "per100g": {
+        "calciumMg": 9395.97,
+        "ironMg": 140.94,
+        "folateUg": 30201.3,
+        "iodineUg": 6711.41,
+        "magnesiumMg": 3778.52,
+        "seleniumUg": 671.141,
+        "zincMg": 335.57,
+        "vitaminAUg": 26845.6,
+        "vitaminB12Ug": 167.785,
+        "vitaminCMg": 10067.1,
+        "vitaminDUg": 335.57
+      }
+    },
+    {
+      "brand": "Abtei",
+      "product": "A-Z Komplett Tabletten 40 St, 46 g",
+      "read": "https://www.dm.de/p/d/1669736/ (dm.de product page, Nährwerte and Zutaten panels; GTIN not stated)",
+      "date": "2026-10-30",
+      "ingredients": "Calciumcarbonat; Füllstoffe Hydroxypropylmethylcellulose, Cellulose; Vitamin C; Magnesiumoxid; Maltodextrin; Eisenfumarat; Trennmittel Speisefettsäuren, Siliciumdioxid, Magnesiumsalze der Speisefettsäuren; Vitamin E; Nicotinamid; Farbstoffe Calciumcarbonat, Eisenoxide und Eisenhydroxide; Zinkoxid; Überzugsmittel Isomalt; Calcium-D-pantothenat; Mangansulfat; Acerola-Fruchtsaftpulver (0,5 %); Kupfersulfat; Vitamin B6; Riboflavin; Thiamin; Vitamin A; luteinhaltiger Ringelblumenextrakt; Folsäure; Kaliumiodid; Natriumselenat; Natriummolybdat; Vitamin K1; Biotin; Chromchlorid; Vitamin D3; Vitamin B12",
+      "serving": "1 Stück: 40 units weigh 46 g, so the dose is 1.15 g; the label declares per dose: calciumMg 120, ironMg 14, folateUg 200, iodineUg 150, magnesiumMg 56, seleniumUg 55, zincMg 10, vitaminAUg 800, vitaminB12Ug 2.5, vitaminCMg 150, vitaminDUg 20; chromium 40 µg, copper 1000 µg, manganese 2 mg, molybdenum 50 µg, niacin 16 mg, pantothenic acid 6 mg, biotin 50 µg, B2 1.4 mg, B1 1.1 mg, B6 1.4 mg, vitamin E 12 mg, vitamin K 75 µg; no energy or macros declared",
+      "per100g": {
+        "calciumMg": 10434.8,
+        "ironMg": 1217.39,
+        "folateUg": 17391.3,
+        "iodineUg": 13043.5,
+        "magnesiumMg": 4869.57,
+        "seleniumUg": 4782.61,
+        "zincMg": 869.565,
+        "vitaminAUg": 69565.2,
+        "vitaminB12Ug": 217.391,
+        "vitaminCMg": 13043.5,
+        "vitaminDUg": 1739.13
+      }
+    },
+    {
+      "brand": "Mivolis",
+      "product": "A-Z Komplett Tabletten 100 St, 144 g",
+      "read": "https://www.dm.de/p/d/3104283/ (dm.de product page, Nährwerte and Zutaten panels; GTIN not stated)",
+      "date": "2026-10-30",
+      "ingredients": "Calciumphosphat, Magnesiumoxid, Füllstoff Hydroxypropylmethylcellulose, Calciumcarbonat, L-Ascorbinsäure (Vitamin C), Maltodextrin, Füllstoff mikrokristalline Cellulose, DL-α-Tocopherylacetat (Vitamin E), Eisenfumarat, Nicotinamid, Calcium-D-pantothenat, Zinkcitrat, Trennmittel Magnesiumsalze der Speisefettsäuren, Überzugsmittel Hydroxypropylcellulose, Kupfersulfat, Pyridoxinhydrochlorid (Vitamin B6), Farbstoff Eisenoxide und Eisenhydroxide, Mangansulfat, Riboflavin (Vitamin B2), Thiaminmononitrat (Vitamin B1), Trennmittel Siliciumdioxid, Pteroylmonoglutaminsäure (Folsäure), Chrom(III)-chlorid, Retinylacetat (Vitamin A), Kaliumiodat, Natriummolybdat, Phyllochinon (Vitamin K), D-Biotin, Natriumselenit, Cholecalciferol (Vitamin D3), Cyanocobalamin (Vitamin B12)",
+      "serving": "1 Tablette: 100 units weigh 144 g, so the dose is 1.44 g; the label declares per dose: calciumMg 200, ironMg 6, folateUg 200, iodineUg 100, magnesiumMg 100, seleniumUg 25, zincMg 2.25, vitaminAUg 200, vitaminB12Ug 2.5, vitaminCMg 80, vitaminDUg 5; chromium 40 µg, copper 1 mg, manganese 0.5 mg, molybdenum 50 µg, niacin 16 mg, pantothenic acid 6 mg, phosphorus 125 mg, biotin 50 µg, B2 1.4 mg, B1 1.1 mg, B6 1.4 mg, vitamin E 12 mg, vitamin K 75 µg; per 100 g 246 kJ / 60 kcal, fat < 0.5 g, saturates 0.4 g, carbohydrate 4 g, sugars < 0.5 g, protein < 0.5 g, salt 0.08 g; under-values counted at half the threshold",
+      "per100g": {
+        "calciumMg": 13888.9,
+        "ironMg": 416.667,
+        "folateUg": 13888.9,
+        "iodineUg": 6944.44,
+        "magnesiumMg": 6944.44,
+        "seleniumUg": 1736.11,
+        "zincMg": 156.25,
+        "vitaminAUg": 13888.9,
+        "vitaminB12Ug": 173.611,
+        "vitaminCMg": 5555.56,
+        "vitaminDUg": 347.222,
+        "energyKcal": 60.0,
+        "fat": 0.25,
+        "saturates": 0.4,
+        "carbohydrate": 4.0,
+        "sugars": 0.25,
+        "protein": 0.25,
+        "salt": 0.08
+      }
+    }
+  ]
+}

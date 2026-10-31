@@ -26,15 +26,107 @@ def record(code: str, name: str, calories: float, calcium: float,
         "completeness": 0.8,
         "nutriments": {
             "energy-kcal_100g": calories,
-            "proteins_100g": 24,
-            "fat_100g": 29,
-            "carbohydrates_100g": 0.5,
+            # Macros that carry the given energy at 4/9/4 kcal per gram, so the
+            # plausibility rule (b220) keeps every fixture row.
+            "proteins_100g": round(calories * 0.3 / 4, 3),
+            "fat_100g": round(calories * 0.6 / 9, 3),
+            "carbohydrates_100g": round(calories * 0.1 / 4, 3),
             "calcium_100g": calcium / 1_000,
         },
     }
 
 
+def build(values: list[dict], output: Path, *markets: str) -> dict:
+    """Run the builder on the records for the markets and return the manifest."""
+    source = output.parent / f"{output.name}-off.jsonl"
+    source.write_text("".join(json.dumps(value) + "\n" for value in values), encoding="utf-8")
+    command = ["python3", str(ROOT / "build_index.py"), "--off-jsonl", str(source),
+               "--output-dir", str(output), "--catalog-version", "2026-10-30T00:00:00Z"]
+    for market in markets or ("DE=en:germany",):
+        command += ["--market", market]
+    subprocess.run(command, check=True, capture_output=True)
+    return json.loads((output / "manifest.json").read_text(encoding="utf-8"))
+
+
+def sku_names(output: Path, market: str = "de") -> set[str]:
+    database = sqlite3.connect(output / f"akari-food-{market}.sqlite")
+    try:
+        return {row[0] for row in database.execute("SELECT product_name FROM sku")}
+    finally:
+        database.close()
+
+
 class FoodIndexBuilderTests(unittest.TestCase):
+    def test_menu_claims_file_is_current(self) -> None:
+        """The worker fetches chains/menu-claims.json from the mirror, so the
+        committed file must be what the builder derives from the chain files,
+        staples and recipes today; regenerate it with --menu-claims."""
+        import importlib.util
+        spec = importlib.util.spec_from_file_location("build_index", ROOT / "build_index.py")
+        module = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(module)
+        self.assertEqual(module.menu_claims(),
+                         json.loads((ROOT / "chains" / "menu-claims.json").read_text(encoding="utf-8")))
+        self.assertIn({"name": "big mac", "chainKey": "mcdonalds-de", "chain": "McDonald's Deutschland",
+                       "per100g": {"calories": 235.0, "fat": 12.0, "carbs": 18.0, "protein": 12.0}},
+                      module.menu_claims()["claims"])
+
+    def test_pack_rules_reject_implausible_unscanned_and_borrowed_menu_items(self) -> None:
+        """b220: a market pack keeps out nutrition that cannot be (energy far
+        from its macros, a nutrient above 100 g), unbranded unscanned stubs, and
+        another company's menu item under a brand that is not the chain, while
+        alcohol, polyols, scanned products and the chain's own items stay."""
+        beer = record("4000000000013", "Pils", 43, 5, brand="Rothaus")
+        beer["nutriments"].update({"proteins_100g": 0.5, "fat_100g": 0, "carbohydrates_100g": 3.5,
+                                   "alcohol_100g": 5.1})
+        gum = record("4000000000020", "Kaugummi zuckerfrei", 160, 5, brand="Wrigley")
+        gum["nutriments"].update({"proteins_100g": 0, "fat_100g": 0.5, "carbohydrates_100g": 65,
+                                  "polyols_100g": 64})
+        impossible_energy = record("4000000000037", "Nussriegel", 55, 5, brand="Riegelwerk")
+        impossible_energy["nutriments"].update({"fat_100g": 29, "proteins_100g": 24})
+        impossible_mass = record("4000000000044", "Fruchtgummi", 340, 5, brand="Gummiwerk")
+        impossible_mass["nutriments"]["carbohydrates_100g"] = 180
+        stub = record("4000000000051", "Riegel", 400, 5, brand="")
+        stub["completeness"] = 0.3
+        scanned_stub = record("4000000000068", "Müsliriegel", 400, 5, brand="")
+        scanned_stub.update({"completeness": 0.3, "unique_scans_n": 4})
+        # McDonald's publishes the Big Mac at 235 kcal, 12 g fat, 18 g carbs, 12 g protein per 100 g.
+        big_mac = {"energy-kcal_100g": 235, "fat_100g": 12, "carbohydrates_100g": 18, "proteins_100g": 12}
+        borrowed = record("4000000000075", "Big Mac", 235, 5, brand="Ikea")
+        borrowed["nutriments"].update(big_mac)
+        own = record("4000000000082", "Big Mac", 235, 5, brand="McDonald's")
+        own["nutriments"].update(big_mac)
+        namesake = record("4000000000112", "Big Mac", 250, 5, brand="Tiefkühlhaus")
+        scanned_borrowed = record("4000000000099", "Whopper", 250, 5, brand="Tiefkühlhaus")
+        scanned_borrowed["popularity_tags"] = ["top-5000-de-scans-2025"]
+        makers_own = record("4000000000105", "Coca-Cola 0,25 l", 42, 5, brand="Coca-Cola")
+        wine = record("4000000000129", "Grüner Veltliner", 73, 5, brand="Weingut")
+        wine["nutriments"].update({"proteins_100g": 0.1, "fat_100g": 0, "carbohydrates_100g": 1.5, "energy-kcal_100ml": 73})
+        wine["nutrition_data_per"] = "100ml"
+        values = [beer, gum, impossible_energy, impossible_mass, stub, scanned_stub,
+                  borrowed, own, namesake, scanned_borrowed, makers_own, wine]
+        with tempfile.TemporaryDirectory() as directory:
+            output = Path(directory) / "dist"
+            manifest = build(values, output)
+            kept = {row[0]: row[1] for row in sqlite3.connect(output / "akari-food-de.sqlite")
+                    .execute("SELECT barcode, product_name FROM sku")}
+            self.assertEqual(kept, {"4000000000013": "Pils", "4000000000020": "Kaugummi zuckerfrei",
+                                    "4000000000068": "Müsliriegel", "4000000000082": "Big Mac",
+                                    "4000000000112": "Big Mac", "4000000000099": "Whopper",
+                                    "4000000000105": "Coca-Cola 0,25 l", "4000000000129": "Grüner Veltliner"})
+            self.assertEqual(manifest["markets"]["DE"]["rejected"],
+                             {"implausible-nutrition": 2, "unscanned-unbranded": 1,
+                              "chain-item-under-another-brand": 1})
+            sidecar = output / manifest["markets"]["DE"]["rejectedFilename"]
+            rejected = {json.loads(line)["code"]: json.loads(line)["rule"]
+                        for line in sidecar.read_text(encoding="utf-8").splitlines()}
+            self.assertEqual(rejected, {"4000000000037": "implausible-nutrition",
+                                        "4000000000044": "implausible-nutrition",
+                                        "4000000000051": "unscanned-unbranded",
+                                        "4000000000075": "chain-item-under-another-brand"})
+            self.assertEqual(json.loads((output / "rejections.json").read_text())["markets"]["DE"],
+                             manifest["markets"]["DE"]["rejected"])
+
     def test_builder_drops_test_entries_but_keeps_real_test_brand_and_words(self) -> None:
         values = [
             record("3011360021502", "Test nutriscan", 55, 10, brand=""),

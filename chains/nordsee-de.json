@@ -1,0 +1,1159 @@
+{
+ "chain": "Nordsee Deutschland",
+ "kind": "restaurant",
+ "sourceURL": "https://www.nordsee.com/de/produkte",
+ "sourceNote": "Nordsee Deutschland's product pages (https://www.nordsee.com/de/produkte, categories Highlights, Snacks, Tellergerichte, Salate, Getränke, Desserts, Vegetarisch / Vegan and Supermarkt) each show \"Nährwerte\" per 100 g (energy in kcal and kJ, protein, carbohydrate, sugar, fat, saturated fat, salt, some fibre) and the allergens; no page states a portion weight, so every item is per 100 g and opens at 100 g. The category pages embed the products with these values (the page data dati_pagina); each product page was read as well, and its shown values equal the embedded ones. Each row records its product page and the SHA-256 of that page as retrieved. The Supermarkt category is retail products and is left out, as are the drinks and menus whose pages state no values. A kJ figure that disagrees with a kcal figure that fits the macronutrients is left out, and a row whose energy does not fit its macronutrients is left out; each such row says so.",
+ "listingURL": "https://www.nordsee.com/de/produkte/snacks",
+ "listingSha256": "c27dbbef7291235db5bae9f8feedb438ac3becd41432283386dcb5f88de63f6d",
+ "retrievedOn": "2026-10-30",
+ "checkedDate": "2026-10-30",
+ "rows": [
+  {
+   "id": "alaska-seelachsfilet",
+   "name": "Alaska-Seelachsfilet",
+   "category": "fish",
+   "siteCategories": [
+    "Tellergerichte"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 740.0,
+    "calories": 177.0,
+    "fat": 9.8,
+    "saturatedFat": 0.77,
+    "carbs": 14.0,
+    "sugar": 2.2,
+    "protein": 6.0,
+    "saltGrams": 1.1
+   },
+   "allergens": "Glutenhaltiges Getreide - Weizen, Fisch und Fischerzeugnisse",
+   "description": "Ein absoluter Klassiker unter den NORDSEE Gerichten und nach wie vor beliebt wie eh und je: Kross gebackenes Alaska-Seelachsfilet. Schmeckt besonders gut mit würzigem Kartoffelsalat und unserer leckeren Remouladensauce. Wann genießt Du das nächste Mal unser leckeres Alaska-Seelachsfilet?\r\n   \r\n Serviervorschlag.",
+   "pageURL": "https://www.nordsee.com/de/produkte/dettaglio/alaska-seelachsfilet",
+   "dataURL": "https://www.nordsee.com/de/produkte/dettaglio/alaska-seelachsfilet",
+   "sha256": "f0f6fe64dc2d095edfc23b0c256325a8fbf9840a1c2f4483032e0f94231acb99"
+  },
+  {
+   "id": "backfisch-baguette",
+   "name": "Backfisch-Baguette",
+   "category": "sandwich",
+   "siteCategories": [
+    "Snacks"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 1078.0,
+    "calories": 257.0,
+    "fat": 8.9,
+    "saturatedFat": 0.65,
+    "carbs": 31.0,
+    "sugar": 1.4,
+    "protein": 10.0,
+    "saltGrams": 1.3
+   },
+   "allergens": "Glutenhaltiges Getreide - Weizen, Fisch und Fischerzeugnisse, Senf und Senferzeugnisse",
+   "description": "Unser beliebtester Snack ist immer wieder ein Genuss. Bestes Alaska-Seelachsfilet in würziger Panade kombiniert mit leckerer Remoulade, knackigem Salat und dem knusprigen NORDSEE Baguette – einfach unschlagbar. \r\n Auf Wunsch ist unser Backfisch auch warm erhältlich. Auch als Upgrad - Big Backfisch-Baguette - verfügbar! \r\n Serviervorschlag.",
+   "pageURL": "https://www.nordsee.com/de/produkte/dettaglio/backfisch-baguette",
+   "dataURL": "https://www.nordsee.com/de/produkte/dettaglio/backfisch-baguette",
+   "sha256": "ddffa2943b7a71560131ac028c3c4c383ecbe171ba9b73b013a0f10e5921cef3"
+  },
+  {
+   "id": "bismarck-baguette",
+   "name": "Bismarck-Baguette",
+   "category": "sandwich",
+   "siteCategories": [
+    "Snacks"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 778.0,
+    "calories": 185.0,
+    "fat": 5.4,
+    "saturatedFat": 1.5,
+    "carbs": 24.0,
+    "sugar": 1.8,
+    "protein": 9.7,
+    "saltGrams": 2.0
+   },
+   "allergens": "Glutenhaltiges Getreide - Weizen, Fisch und Fischerzeugnisse",
+   "description": "Noch heute werden zahlreiche Geschichten und Anekdoten rund um seine Namensgebung erzählt. Klar ist, dass der Reichskanzler Otto von Bismarck den Klassiker einfach liebte! \r\n Unser „Sauerlappen\" – wie der Hering auch genannt wird – besticht durch sein mild-saures Aroma. In Kombination mit Gewürzgurke, Zwiebelringen und Petersilie in unserem knusprigen NORDSEE Baguette – einfach der perfekte Snack! \r\n Auch als Upgrad - Big Bismarck-Baguette - verfügbar! \r\n Serviervorschlag.",
+   "pageURL": "https://www.nordsee.com/de/produkte/dettaglio/bismarck-baguette",
+   "dataURL": "https://www.nordsee.com/de/produkte/dettaglio/bismarck-baguette",
+   "sha256": "3b46baf8cd5c740b3b135fa271126a2435a2f39bbaa7bc347958904397820f1b"
+  },
+  {
+   "id": "bremer",
+   "name": "Bremer",
+   "category": "sandwich",
+   "siteCategories": [
+    "Snacks"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 907.0,
+    "calories": 215.0,
+    "fat": 5.5,
+    "saturatedFat": 1.1,
+    "carbs": 31.0,
+    "sugar": 4.4,
+    "protein": 8.8,
+    "saltGrams": 1.2
+   },
+   "allergens": "Glutenhaltiges Getreide - Weizen, Fisch und Fischerzeugnisse, Milch und Milcherzeugnisse einschließlich Laktose, Senf und Senferzeugnisse, Sellerie und Sellerieerzeugnisse",
+   "description": "Seit über 50 Jahren ist unser Bremer eines der beliebtesten Produkte. Das Geheimnis liegt im Zusammenspiel der leckeren NORDSEE Fischfrikadelle, knackigem Salat, würzigem Tomatenketchup und gerösteten Zwiebeln in unserer knusprigen Kaisersemmel – mhhhhh!\r\n   \r\n Auch als Upgrade - Big Bremer - verfügbar! \r\n   \r\n Serviervorschlag.",
+   "pageURL": "https://www.nordsee.com/de/produkte/dettaglio/bremer",
+   "dataURL": "https://www.nordsee.com/de/produkte/dettaglio/bremer",
+   "sha256": "c57b44f5067fc35d2ca02845f5c140e28f11edc88db67f1ed179ef422992edee",
+   "aliases": [
+    "Fischbrötchen Bremer"
+   ]
+  },
+  {
+   "id": "classic_fish_burger",
+   "name": "Classic Fish Burger",
+   "category": "burger",
+   "siteCategories": [
+    "Highlights",
+    "Snacks"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 920.0,
+    "calories": 219.0,
+    "fat": 7.4,
+    "saturatedFat": 1.0,
+    "carbs": 26.0,
+    "sugar": 5.1,
+    "protein": 11.0,
+    "saltGrams": 0.83
+   },
+   "allergens": "Fisch, Senf, Weizen , Milch, Eier, Sellerie",
+   "description": "Nach un  serem bel  iebte  n   Lachs   Burger D  eluxe   präsen  tieren   wir euch   je  tzt   einen weit  ere  n   Genu  ss:   den   C  lassi  c   Fish   Burger \r\n    Saft  ig  , f  risch un  d volle  r Gesc  hmack   -   das He  rzst  ück bil  det ei  n   Ho  ki   Patty   in knu  spriger   Pan  ad  e  , eingebettet in ein weiches Bun  .   Dazu gesellen sich frische Tomatenscheiben, knackige Gewürzgurken und Lollo Bionda für das extra Crunch-Erlebnis.   Abgerundet wird das Ganze von unserer unwiderstehlichen Honig-Senf-Sauce und Tomatenketchup.       \r\n       \r\n   Serviervorschlag.",
+   "pageURL": "https://www.nordsee.com/de/produkte/dettaglio/classic_fish_burger",
+   "dataURL": "https://www.nordsee.com/de/produkte/dettaglio/classic_fish_burger",
+   "sha256": "b18f77375d3e8ec7a07a244bab1ebbb2657ac8999553130614d92f255a8f8720"
+  },
+  {
+   "id": "crunchy_chicken_burger",
+   "name": "Crunchy Chicken Burger",
+   "category": "burger",
+   "siteCategories": [
+    "Highlights",
+    "Snacks"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 1161.0,
+    "calories": 278.0,
+    "fat": 14.0,
+    "saturatedFat": 2.1,
+    "carbs": 27.0,
+    "sugar": 5.0,
+    "protein": 3.2,
+    "saltGrams": 1.0
+   },
+   "allergens": "Senf, Weizen , Milch, Eier, Sellerie",
+   "description": "W  er sagt  , bei   NORD  SEE   g  i  bt es nur   F  isch  ? W  i  r   bewei  se  n das   Geg  entei  l   –   und wie  !         \r\n \r\n \r\n   Unser   Chicken   Bur  ger mit noch mehr Crunch,   ein echt  er Genus  s   f  ür alle  ,   die es   saftig u  nd KNUSPRIG   lieb  en  . Ei  n goldbraun   geb  ratenes  ,   knus  priges   Ch  icke  n-  Pa  tty   tri  fft   a  uf frisch  e  n  , kn  ack  ige  n   Lollo   B  ionda  ,   saftig  e T  omatensch  eiben   und fein gesch  nittene   G  ewürzgurke  nscheibe  n  .   Ver  feiner  t wird da  s   Gan  ze mit   unserer   unwid  ersteh  lich  en H  oni  g-Senf  -Sa  uce   und     fru  chtigem   Tomate  nk  etchup    . Alles zusammen gebettet in ein weiches Bun - ein Burger, der bei jedem Biss begeistert!   \r\n   Serviervorschlag.",
+   "pageURL": "https://www.nordsee.com/de/produkte/dettaglio/crunchy_chicken_burger",
+   "dataURL": "https://www.nordsee.com/de/produkte/dettaglio/crunchy_chicken_burger",
+   "sha256": "079a6066cb1e220835ffd9f8aaa5fac4bbab68e094942b1e6601a8301a48bc99"
+  },
+  {
+   "id": "fischfilet_champignon",
+   "name": "Fischfilet \"Champignon\"",
+   "category": "fish",
+   "siteCategories": [
+    "Tellergerichte"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 713.0,
+    "calories": 171.0,
+    "fat": 11.0,
+    "saturatedFat": 1.6,
+    "carbs": 9.8,
+    "sugar": 1.2,
+    "protein": 6.7,
+    "saltGrams": 1.1
+   },
+   "allergens": "Glutenhaltiges Getreide - Weizen, Fisch und Fischerzeugnisse, Milch und Milcherzeugnisse einschließlich Laktose",
+   "description": "Du liebst den würzigen Geschmack von Käse in Kombination mir unserem zarten Seelachsfilet und feinen Pilzen? Dann ist unser Fischfilet \"Champignon\" genau das Richtige für Dich. Besonders lecker mit Petersilienkartoffeln und frischer Dill-Limetten-Sauce!\r\n   \r\n Serviervorschlag.",
+   "pageURL": "https://www.nordsee.com/de/produkte/dettaglio/fischfilet_champignon",
+   "dataURL": "https://www.nordsee.com/de/produkte/dettaglio/fischfilet_champignon",
+   "sha256": "6244f85c0f1df4618f91535f0ecec425cc94e12d90dcaa06220abb3de5c4355c"
+  },
+  {
+   "id": "fischsuppe_la_mer",
+   "name": "Fischsuppe \"La mer\"",
+   "category": "soup",
+   "siteCategories": [
+    "Tellergerichte"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 431.0,
+    "calories": 103.0,
+    "fat": 3.7,
+    "saturatedFat": 1.5,
+    "carbs": 11.0,
+    "sugar": 2.1
+   },
+   "allergens": "Glutenhaltiges Getreide - Weizen, Krebstiere und Krebstiererzeugnisse, Fisch und Fischerzeugnisse, Milch und Milcherzeugnisse einschließlich Laktose, Sellerie und Sellerieerzeugnisse",
+   "description": "Suppenfans aufgepasst, hier kommt unsere Fischsuppe \"La Mer\" mit hochwertigen Fischwürfeln aus Alaska-Seelachs und Kabeljau sowie leckeren Garnelen – einfach köstlich! Zu jeder Suppe reichen wir ein knuspriges Baguette sowie auf Wunsch einen Garnelenspieß! Du kannst unsere Suppe auch unterwegs genießen – einfach super lecker für den heißen Genuss unterwegs!\r\n   \r\n Serviervorschlag.",
+   "pageURL": "https://www.nordsee.com/de/produkte/dettaglio/fischsuppe_la_mer",
+   "dataURL": "https://www.nordsee.com/de/produkte/dettaglio/fischsuppe_la_mer",
+   "sha256": "b0a8a5d48948c9c18176223428858289890738eda42a689e6ebc29faa23bd0d3"
+  },
+  {
+   "id": "fish_&_chips",
+   "name": "Fish & Chips",
+   "category": "fish",
+   "siteCategories": [
+    "Snacks",
+    "Supermarkt"
+   ],
+   "valuesPer100g": {
+    "calories": 218.0,
+    "fat": 7.4,
+    "saturatedFat": 0.21,
+    "carbs": 30.0,
+    "sugar": 0.56,
+    "protein": 6.6,
+    "saltGrams": 0.71
+   },
+   "allergens": "Glutenhaltiges Getreide - Weizen, Fisch und Fischerzeugnisse, Soja und Sojaerzeugnisse, Sesamfrüchte und Sesamerzeugniss",
+   "description": "Snack-Box mit köstlichen Alaska-Seelachsfiletstücke, extra dicken Pommes und einer Sauce nach Wahl. Der Kultsnack aus England schmeckt immer und ist perfekt für den kleinen Hunger sowie puren Genuss. Köstliche Alaska-Seelachsfilets servieren wir Dir in knuspriger Panade und mit extra dicken Pommes Frites. Du hast die Wahl zwischen drei Saucen: feine Cocktailsauce mit grünen Pfefferkörnern, cremige Knoblauchsauce oder würzige Remoulade. Lass es Dir schmecken!\r\n   \r\n Serviervorschlag.",
+   "pageURL": "https://www.nordsee.com/de/produkte/dettaglio/fish_%26_chips",
+   "dataURL": "https://www.nordsee.com/de/produkte/dettaglio/fish_%26_chips",
+   "sha256": "d41a22c2c5332e3a2d7752848bc1fc0d2b9e7215e4a93b80aca82490d3e492ee",
+   "aliases": [
+    "Fish and Chips"
+   ],
+   "valueNotes": [
+    "energyKJ left out: 992.0 kJ does not match 218.0 kcal, which fits the macronutrients"
+   ]
+  },
+  {
+   "id": "fish_nuggets_box",
+   "name": "Fish Nuggets Box",
+   "category": "fish",
+   "siteCategories": [
+    "Snacks"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 1063.0,
+    "calories": 253.0,
+    "fat": 9.5,
+    "saturatedFat": 0.41,
+    "carbs": 26.0,
+    "sugar": 1.2,
+    "protein": 13.0,
+    "saltGrams": 1.1
+   },
+   "allergens": "Glutenhaltiges Getreide - Weizen, Fisch und Fischerzeugnisse, Soja und Sojaerzeugnisse, Milch und Milcherzeugnisse einschließlich Laktose, Weizen ",
+   "description": "Unsere köstlichen Fish Nuggets aus hochwertigem Alaska-Seelachsfilet sind knusprig, würzig paniert und einfach lecker! Zu jeder Snack-Box besteht die Wahl zwischen drei leckeren Saucen: Feine Cocktailsauce mit grünen Pfefferkörnern, cremige Knoblauchsauce oder feinwürzige Remouladensauce.  Die Nährwerte beziehen sich auf die Snackbox-Größe Fish Nuggets Box normal. Das Allergen „Soja und Sojaerzeugnisse\" ist nur im Waffelbecher enthalten.\r\n   \r\n Serviervorschlag.",
+   "pageURL": "https://www.nordsee.com/de/produkte/dettaglio/fish_nuggets_box",
+   "dataURL": "https://www.nordsee.com/de/produkte/dettaglio/fish_nuggets_box",
+   "sha256": "8cf8c5a7e7d21802e155164c9101d0bead7ea1268559cc7191d661f1bf1e564c"
+  },
+  {
+   "id": "garnelen-box",
+   "name": "Garnelen-Box",
+   "category": "fish",
+   "siteCategories": [
+    "Snacks"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 1147.0,
+    "calories": 281.0,
+    "fat": 8.0,
+    "saturatedFat": 0.68,
+    "carbs": 32.0,
+    "sugar": 2.9,
+    "protein": 10.0,
+    "saltGrams": 1.4
+   },
+   "allergens": "Glutenhaltiges Getreide - Weizen, Krebstiere und Krebstiererzeugnisse, Soja und Sojaerzeugnisse",
+   "description": "Knusprig gebackene Knoblauchgarnelen mit leckeren Saucen, perfekt zum Dippen! Zu jeder Snack-Box besteht die Wahl zwischen drei leckeren Saucen: Feine Cocktailsauce mit grünen Pfefferkörnern, cremige Knoblauchsauce oder feinwürzige Remouladensauce.  Die Nährwerte beziehen sich auf die Snackbox-Größe Garnelen-Box normal. Das Allergen „Soja und Sojaerzeugnisse\" ist nur im Waffelbecher enthalten.\r\n   \r\n Serviervorschlag.",
+   "pageURL": "https://www.nordsee.com/de/produkte/dettaglio/garnelen-box",
+   "dataURL": "https://www.nordsee.com/de/produkte/dettaglio/garnelen-box",
+   "sha256": "ca3f5bd57a45f766b287c4ff793f0fd8d76142e16d2e3e31b00d85f2440489a3"
+  },
+  {
+   "id": "garnelen-ei-baguette",
+   "name": "Garnelen-Ei-Baguette",
+   "category": "sandwich",
+   "siteCategories": [
+    "Snacks"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 795.0,
+    "calories": 189.0,
+    "fat": 6.3,
+    "saturatedFat": 1.5,
+    "carbs": 22.0,
+    "sugar": 1.4,
+    "protein": 11.0,
+    "saltGrams": 0.99
+   },
+   "allergens": "Glutenhaltiges Getreide - Weizen, Krebstiere und Krebstiererzeugnisse, Eier und Eiererzeugnisse, Milch und Milcherzeugnisse einschließlich Laktose, Senf und Senferzeugnisse",
+   "description": "Die sind wie füreinander gemacht. Unsere würzig marinierten Garnelen in einer Kombination mit einem gekochten Ei, knackigem Salat und unserer köstlichen Cocktailsauce ergeben ein unschlagbares Team.\r\n   \r\n Serviervorschlag.",
+   "pageURL": "https://www.nordsee.com/de/produkte/dettaglio/garnelen-ei-baguette",
+   "dataURL": "https://www.nordsee.com/de/produkte/dettaglio/garnelen-ei-baguette",
+   "sha256": "423032885973429d3b7b6a11a9b68848fbdeff7c15721d8035707a8c1850e900"
+  },
+  {
+   "id": "garnelen-kimchi_burger",
+   "name": "Garnelen-Kimchi Burger",
+   "category": "burger",
+   "siteCategories": [
+    "Highlights",
+    "Snacks"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 1108.0,
+    "calories": 270.0,
+    "fat": 10.0,
+    "saturatedFat": 2.0,
+    "carbs": 34.0,
+    "sugar": 4.4,
+    "protein": 6.9,
+    "saltGrams": 1.5
+   },
+   "allergens": "Glutenhaltiges Getreide - Weizen, Krebstiere und Krebstiererzeugnisse, Fisch und Fischerzeugnisse, Soja und Sojaerzeugnisse, Milch und Milcherzeugnisse einschließlich Laktose, Senf und Senferzeugnisse, Sesamfrüchte und Sesamerzeugniss",
+   "description": "Panierter Garnelenburger mit Kimchi, Kimchi-Mayonnaise, Teriyaki-Sauce, im Brioche Brötchen.",
+   "pageURL": "https://www.nordsee.com/de/produkte/dettaglio/garnelen-kimchi_burger",
+   "dataURL": "https://www.nordsee.com/de/produkte/dettaglio/garnelen-kimchi_burger",
+   "sha256": "c1649bce5f02125d27b8e4f5447f03d0b5d0a8a5b33ac51d2d3610e2034bfc65"
+  },
+  {
+   "id": "gebackene_limanda_aspera",
+   "name": "Gebackene Limanda Aspera",
+   "category": "fish",
+   "siteCategories": [
+    "Tellergerichte"
+   ],
+   "valuesPer100g": {
+    "calories": 326.0,
+    "fat": 18.0,
+    "saturatedFat": 1.0,
+    "carbs": 26.0,
+    "sugar": 0.51,
+    "protein": 15.0,
+    "saltGrams": 0.89
+   },
+   "allergens": "",
+   "description": "Knusprig gebacken und zart im Biss, die Pazifische Kliesche überzeugt mit ihrem feinen, milden Geschmack und goldgelber Panade. Perfekt kombiniert mit einer Beilage und Sauce deiner Wahl.",
+   "pageURL": "https://www.nordsee.com/de/produkte/dettaglio/gebackene_limanda_aspera",
+   "dataURL": "https://www.nordsee.com/de/produkte/dettaglio/gebackene_limanda_aspera",
+   "sha256": "4e572b3894349096aa4f8509d6648378eca70a69dc2a8ae8998fa07eca8ea912"
+  },
+  {
+   "id": "gemischter_salat",
+   "name": "Gemischter Salat",
+   "category": "salad",
+   "siteCategories": [
+    "Salate"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 69.0,
+    "calories": 16.0,
+    "fat": 0.2,
+    "saturatedFat": 0.03,
+    "carbs": 2.4,
+    "sugar": 2.3,
+    "protein": 1.0,
+    "saltGrams": 0.04
+   },
+   "allergens": "",
+   "description": "Ob als kleiner Snack für zwischendurch oder als Beilage zu einem unserer köstlichen Fisch-Gerichte – der NORDSEE Salat mit Tomaten, Gurken, Paprika und Schnittlauch, passt einfach zu allem gut. Dazu ein Baguette und Dressing deiner Wahl. \r\n   \r\n Serviervorschlag.",
+   "pageURL": "https://www.nordsee.com/de/produkte/dettaglio/gemischter_salat",
+   "dataURL": "https://www.nordsee.com/de/produkte/dettaglio/gemischter_salat",
+   "sha256": "6c9d34df86125e373f6b4dd21319a51b5aac8ac957f8ce7b01b8cd89b995e4f4"
+  },
+  {
+   "id": "heißer_backfisch_xxl",
+   "name": "Heißer Backfisch XXL",
+   "category": "fish",
+   "siteCategories": [
+    "Snacks"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 1219.0,
+    "calories": 293.0,
+    "fat": 15.0,
+    "saturatedFat": 1.1,
+    "carbs": 28.0,
+    "sugar": 1.6,
+    "protein": 10.0,
+    "saltGrams": 1.6
+   },
+   "allergens": "Glutenhaltiges Getreide - Weizen, Eier und Eiererzeugnisse, Fisch und Fischerzeugnisse, Milch und Milcherzeugnisse einschließlich Laktose, Senf und Senferzeugnisse, Sellerie und Sellerieerzeugnisse, Sesamfrüchte und Sesamerzeugniss",
+   "description": "Ein echtes XXL-Fischvergnügen für alle, die ordentlich Appetit auf Fisch haben. Leckerer Backfisch mit Alaska-Seelachsfilet und Snack-Dressing im Panini mit Sesam und Nigella.",
+   "pageURL": "https://www.nordsee.com/de/produkte/dettaglio/hei%C3%9Fer_backfisch_xxl",
+   "dataURL": "https://www.nordsee.com/de/produkte/dettaglio/hei%C3%9Fer_backfisch_xxl",
+   "sha256": "a913a0d31cee9630143b4f797b1bde8f8ccf8a35ac149195944906ff4ec0efb8",
+   "aliases": [
+    "Backfisch",
+    "Backfisch XXL"
+   ]
+  },
+  {
+   "id": "kartoffel-box_",
+   "name": "Kartoffel-Box",
+   "category": "potato",
+   "siteCategories": [
+    "Snacks"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 914.0,
+    "calories": 218.0,
+    "fat": 7.9,
+    "saturatedFat": 0.21,
+    "carbs": 33.0,
+    "sugar": 0.21,
+    "protein": 3.0,
+    "saltGrams": 0.87
+   },
+   "allergens": "Glutenhaltiges Getreide - Weizen, Soja und Sojaerzeugnisse",
+   "description": "Unterwegs als kleiner Snack, in Kombination mit einem Fischbrötchen oder die große Box für den großen Kartoffelhunger – ganz egal, die NORDSEE Kartoffelecken mit Schale sind einfach der perfekte Begleiter. \r\n Zu jeder Snack-Box besteht die Wahl zwischen drei leckeren Saucen: Feine Cocktailsauce mit grünen Pfefferkörnern, cremige Knoblauchsauce oder würzige Remouladensauce.  Die Nährwerte beziehen sich auf die Snackbox-Größe Kartoffel-Box normal. Das Allergen „Soja und Sojaerzeugnisse\" ist nur im Waffelbecher enthalten. \r\n Serviervorschlag.",
+   "pageURL": "https://www.nordsee.com/de/produkte/dettaglio/kartoffel-box_",
+   "dataURL": "https://www.nordsee.com/de/produkte/dettaglio/kartoffel-box_",
+   "sha256": "40a11aa9a0cef8ad261464ba3e52d301fb93bb270f423e93e84e1fb1ba6b2de2"
+  },
+  {
+   "id": "kinder_menü_chicken_nuggets",
+   "name": "Kinder Menü Chicken Nuggets",
+   "category": "chicken",
+   "siteCategories": [
+    "Tellergerichte"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 713.0,
+    "calories": 170.0,
+    "fat": 8.1,
+    "saturatedFat": 0.6,
+    "carbs": 18.0,
+    "sugar": 3.4,
+    "protein": 4.6,
+    "saltGrams": 1.2
+   },
+   "allergens": "",
+   "description": "Unser Kinder Menü ist ab sofort auch mit Pommes frites und Chicken Nuggets erhältlich! Dazu Gurkenscheiben und ein Saft 0,2l nach Wahl.",
+   "pageURL": "https://www.nordsee.com/de/produkte/dettaglio/kinder_men%C3%BC_chicken_nuggets",
+   "dataURL": "https://www.nordsee.com/de/produkte/dettaglio/kinder_men%C3%BC_chicken_nuggets",
+   "sha256": "a00cae4692968dfa3317e3f743f146a6ea86ba9fb2a4b8a8bf6650d0e921b84b"
+  },
+  {
+   "id": "lachs-pasta_mit_blattspinat",
+   "name": "Lachs-Pasta mit Blattspinat",
+   "category": "pasta",
+   "siteCategories": [
+    "Tellergerichte"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 717.0,
+    "calories": 172.0,
+    "fat": 11.0,
+    "saturatedFat": 4.9,
+    "carbs": 11.0,
+    "sugar": 1.5,
+    "protein": 7.8,
+    "saltGrams": 1.0
+   },
+   "allergens": "Glutenhaltiges Getreide - Weizen, Fisch und Fischerzeugnisse, Milch und Milcherzeugnisse einschließlich Laktose",
+   "description": "Unseren köstlichen Lachs gibt es jetzt auch in Kombination mit leckerer Pasta, Blattspinat und frischen Cherrytomaten. Dieses schmackhafte Gericht eignet sich nicht nur für den Verzehr bei NORDSEE sondern auch zum nach Hause liefern.\r\n   \r\n Serviervorschlag.",
+   "pageURL": "https://www.nordsee.com/de/produkte/dettaglio/lachs-pasta_mit_blattspinat",
+   "dataURL": "https://www.nordsee.com/de/produkte/dettaglio/lachs-pasta_mit_blattspinat",
+   "sha256": "e072f3597a164f77451ccc34630cdfb8dc83931d158eca32ccf8d2fd2e83c1c0"
+  },
+  {
+   "id": "lachsfilet_auf_blattspinat",
+   "name": "Lachsfilet auf Blattspinat",
+   "category": "fish",
+   "siteCategories": [
+    "Tellergerichte"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 695.0,
+    "calories": 167.0,
+    "fat": 11.6,
+    "saturatedFat": 2.7,
+    "carbs": 5.4,
+    "sugar": 0.7,
+    "protein": 9.6,
+    "saltGrams": 0.87
+   },
+   "allergens": "Eier und Eiererzeugnisse, Fisch und Fischerzeugnisse, Milch und Milcherzeugnisse einschließlich Laktose, Sellerie und Sellerieerzeugnisse",
+   "description": "Saftiges Lachsfilet ohne Haut, auf Blattspinat gebettet und mit Gouda und Hollandaise überbacken – mmh einfach unglaublich lecker! Wähle dazu eine Beilage und eine Sauce deiner Wahl!\r\n   \r\n Serviervorschlag.",
+   "pageURL": "https://www.nordsee.com/de/produkte/dettaglio/lachsfilet_auf_blattspinat",
+   "dataURL": "https://www.nordsee.com/de/produkte/dettaglio/lachsfilet_auf_blattspinat",
+   "sha256": "3ee72c30cc69fafad5323364c66ea69ac2d424d1318452a6f6048b10ea1a892c"
+  },
+  {
+   "id": "lachsfilet_auf_der_haut_gebraten",
+   "name": "Lachsfilet auf der Haut gebraten",
+   "category": "fish",
+   "siteCategories": [
+    "Tellergerichte"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 930.0,
+    "calories": 223.0,
+    "fat": 17.0,
+    "saturatedFat": 3.5,
+    "carbs": 6.8,
+    "sugar": 0.6,
+    "protein": 10.0,
+    "saltGrams": 0.87
+   },
+   "allergens": "Eier und Eiererzeugnisse, Fisch und Fischerzeugnisse, Milch und Milcherzeugnisse einschließlich Laktose, Sellerie und Sellerieerzeugnisse",
+   "description": "Unser Lachsfilet wird für Dich schonend auf der Haut gebraten. Nur so bleibt das Filet besonders zart und saftig. Dazu schmecken unsere Petersilienkartoffeln und Sauce Hollandaise besonders gut!\r\n   \r\n Serviervorschlag.",
+   "pageURL": "https://www.nordsee.com/de/produkte/dettaglio/lachsfilet_auf_der_haut_gebraten",
+   "dataURL": "https://www.nordsee.com/de/produkte/dettaglio/lachsfilet_auf_der_haut_gebraten",
+   "sha256": "bfae8a61578f25c6f9f9b416ea08bc759a3e54011986eacc7154d30d964d0e88"
+  },
+  {
+   "id": "matjes-baguette",
+   "name": "Matjes-Baguette",
+   "category": "sandwich",
+   "siteCategories": [
+    "Snacks"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 750.0,
+    "calories": 179.0,
+    "fat": 6.2,
+    "saturatedFat": 1.1,
+    "carbs": 22.0,
+    "sugar": 1.6,
+    "protein": 7.7,
+    "saltGrams": 1.5
+   },
+   "allergens": "Glutenhaltiges Getreide - Weizen, Fisch und Fischerzeugnisse",
+   "description": "Ein hanseatischer Klassiker, der in ganz Deutschland beliebt ist. Besonders in der Matjeszeit von Mitte Juni bis Ende August ist er einfach ein MUSS. In dieser Zeit ist der Matjes besonders schmackhaft und aromatisch! Unser Matjes-Baguette wird mit frischem Salat, saftiger Tomate, knackiger Gurke sowie würziger Zwiebeln und unserem knusprigen NORDSEE Baguette kombiniert.\r\n   \r\n Serviervorschlag.",
+   "pageURL": "https://www.nordsee.com/de/produkte/dettaglio/matjes-baguette",
+   "dataURL": "https://www.nordsee.com/de/produkte/dettaglio/matjes-baguette",
+   "sha256": "7c0acc589f3d05fa1a59103f29e9d66ed06f0e81f57eb4579961de3e4dc92ced"
+  },
+  {
+   "id": "mini-bremer-_der_scharfe",
+   "name": "Mini-Bremer - Der Scharfe",
+   "category": "sandwich",
+   "siteCategories": [
+    "Snacks"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 1262.0,
+    "calories": 301.0,
+    "fat": 14.0,
+    "saturatedFat": 1.6,
+    "carbs": 34.0,
+    "sugar": 2.7,
+    "protein": 9.4,
+    "saltGrams": 1.1
+   },
+   "allergens": "Glutenhaltiges Getreide - Weizen, Fisch und Fischerzeugnisse, Senf und Senferzeugnisse",
+   "description": "Für alle, die es gerne etwas feuriger mögen: panierte Fischfrikadelle, knusprige Röstzwiebeln und Chilicreme im Weizenbrötchen.",
+   "pageURL": "https://www.nordsee.com/de/produkte/dettaglio/mini-bremer-_der_scharfe",
+   "dataURL": "https://www.nordsee.com/de/produkte/dettaglio/mini-bremer-_der_scharfe",
+   "sha256": "91d377de39115f0bcc444039da56fc914d140b1dc6d81bf52cfdf3407f97145c"
+  },
+  {
+   "id": "mini-bremer_-_der_klassische",
+   "name": "Mini-Bremer - Der Klassische",
+   "category": "sandwich",
+   "siteCategories": [
+    "Snacks"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 1100.0,
+    "calories": 262.0,
+    "fat": 8.9,
+    "saturatedFat": 1.2,
+    "carbs": 35.0,
+    "sugar": 4.3,
+    "protein": 9.4,
+    "saltGrams": 1.1
+   },
+   "allergens": "Glutenhaltiges Getreide - Weizen, Fisch und Fischerzeugnisse, Senf und Senferzeugnisse",
+   "description": "Unser Klassiker im Kleinformat: panierte Fischfrikadelle,    Tomatenketchup und knusprige Röstzwiebeln im Weizenbrötchen.",
+   "pageURL": "https://www.nordsee.com/de/produkte/dettaglio/mini-bremer_-_der_klassische",
+   "dataURL": "https://www.nordsee.com/de/produkte/dettaglio/mini-bremer_-_der_klassische",
+   "sha256": "fba2876e31dc9339cb73e0c4117754ce977c9b94a348210c3d58ba4bc087f0e4"
+  },
+  {
+   "id": "mini-bremer_-_der_pikante",
+   "name": "Mini-Bremer - Der Pikante",
+   "category": "sandwich",
+   "siteCategories": [
+    "Snacks"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 1215.0,
+    "calories": 290.0,
+    "fat": 13.0,
+    "saturatedFat": 1.4,
+    "carbs": 32.0,
+    "sugar": 2.7,
+    "protein": 9.2,
+    "saltGrams": 1.5
+   },
+   "allergens": "Glutenhaltiges Getreide - Weizen, Fisch und Fischerzeugnisse, Senf und Senferzeugnisse",
+   "description": "Unser Mini-Bremer kann auch pikant: panierte Fischfrikadelle trifft auf cremige Remouladensauce und Röstzwiebeln. Nordischer Klassiker im herzhaften Laugenbrötchen, pikant interpretiert.",
+   "pageURL": "https://www.nordsee.com/de/produkte/dettaglio/mini-bremer_-_der_pikante",
+   "dataURL": "https://www.nordsee.com/de/produkte/dettaglio/mini-bremer_-_der_pikante",
+   "sha256": "58d39e9eadb55e115600a654b95794678cb06b8e0e841cf39c736fe9488a3f27"
+  },
+  {
+   "id": "mini-bremer_-_der_süß-scharfe",
+   "name": "Mini-Bremer - Der Süß-Scharfe",
+   "category": "sandwich",
+   "siteCategories": [
+    "Snacks"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 1284.0,
+    "calories": 307.0,
+    "fat": 15.0,
+    "saturatedFat": 1.5,
+    "carbs": 33.0,
+    "sugar": 3.4,
+    "protein": 9.3,
+    "saltGrams": 1.5
+   },
+   "allergens": "Glutenhaltiges Getreide - Weizen, Eier und Eiererzeugnisse, Fisch und Fischerzeugnisse, Senf und Senferzeugnisse",
+   "description": "Klein im Format, groß im Geschmack: Unsere panierte Fischfrikadelle trifft auf Honig-Senf-Sauce und knusprige Röstzwiebeln. Serviert im Laugenbrötchen. Einfach, nordisch, lecker.",
+   "pageURL": "https://www.nordsee.com/de/produkte/dettaglio/mini-bremer_-_der_s%C3%BC%C3%9F-scharfe",
+   "dataURL": "https://www.nordsee.com/de/produkte/dettaglio/mini-bremer_-_der_s%C3%BC%C3%9F-scharfe",
+   "sha256": "168d92852995792033b29fe11c73ae881f843e712eab5a28ac9920aefef7eef8"
+  },
+  {
+   "id": "mix-box_",
+   "name": "Mix-Box",
+   "category": "fish",
+   "siteCategories": [
+    "Snacks"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 991.0,
+    "calories": 237.0,
+    "fat": 8.9,
+    "saturatedFat": 0.57,
+    "carbs": 28.0,
+    "sugar": 0.8,
+    "protein": 7.3,
+    "saltGrams": 1.1
+   },
+   "allergens": "Glutenhaltiges Getreide - Weizen, Krebstiere und Krebstiererzeugnisse, Fisch und Fischerzeugnisse, Soja und Sojaerzeugnisse, Sesamfrüchte und Sesamerzeugniss",
+   "description": "Für all diejenigen, die sich nicht entscheiden können: ob herzhafte Kartoffelecken, knusprig panierte Knoblauchgarnelen oder leckere Premium Fischfilets. Zu jeder Snack-Box besteht die Wahl zwischen drei leckeren Saucen: Edle Cocktailsauce mit grünen Pfefferkörnern, cremige Knoblauchsauce oder feinwürzige Remouladensauce.  Die Nährwerte beziehen sich auf die Snackbox-Größe Mix-Box normal. Das Allergen „Soja und Sojaerzeugnisse\" ist nur im Waffelbecher enthalten.\r\n  Serviervorschlag.",
+   "pageURL": "https://www.nordsee.com/de/produkte/dettaglio/mix-box_",
+   "dataURL": "https://www.nordsee.com/de/produkte/dettaglio/mix-box_",
+   "sha256": "61d89ffe67f92c3b6c7c1760dbfaf218248c239d0f1a1b195f0d86fe87b6eef6"
+  },
+  {
+   "id": "pazifisches_schollenfilet_vom_grill",
+   "name": "Pazifisches Schollenfilet vom Grill",
+   "category": "fish",
+   "siteCategories": [
+    "Tellergerichte"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 713.0,
+    "calories": 171.0,
+    "fat": 10.0,
+    "saturatedFat": 1.1,
+    "carbs": 12.0,
+    "sugar": 1.2,
+    "protein": 6.7,
+    "saltGrams": 0.93
+   },
+   "allergens": "Glutenhaltiges Getreide - Weizen, Fisch und Fischerzeugnisse",
+   "description": "Einer der Klassiker bei NORDSEE! Zartes, weißes pazifisches Schollenfilet mit Salz und Pfeffer gewürzt, leicht mehliert und goldbraun gebraten – einfach super lecker! Besonders gut dazu schmecken unsere Petersilienkartoffeln und würzige Remouladensauce.\r\n   \r\n Serviervorschlag.",
+   "pageURL": "https://www.nordsee.com/de/produkte/dettaglio/pazifisches_schollenfilet_vom_grill",
+   "dataURL": "https://www.nordsee.com/de/produkte/dettaglio/pazifisches_schollenfilet_vom_grill",
+   "sha256": "d0cf04a43f518ea197508640e5251d74092e76a0029735c0b429804a755ba265"
+  },
+  {
+   "id": "plant-based_backvisch-brötchen___",
+   "name": "Plant-based Backvisch-Brötchen",
+   "category": "sandwich",
+   "siteCategories": [
+    "Snacks",
+    "Vegetarisch / Vegan"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 1224.0,
+    "calories": 292.0,
+    "fat": 15.0,
+    "saturatedFat": 1.0,
+    "carbs": 32.0,
+    "sugar": 0.9,
+    "protein": 6.0,
+    "saltGrams": 1.2
+   },
+   "allergens": "Glutenhaltiges Getreide - Weizen, Senf und Senferzeugnisse, Sellerie und Sellerieerzeugnisse",
+   "description": "Sieht aus wie Backfisch, schmeckt wie Backfisch, ist aber Backvisch: Mit diesem Snack heben wir den Fischgenuss auf eine völlig neue Basis – auf Pflanzenbasis! In Kombination mit unserer würzigen Remoulade und frischem Salat in knuspriger Kaisersemmel eine superköstliche Alternative. Jetzt mit neuer plant based Fischalternative von The Vegetarian Butcher!\r\n   \r\n Serviervorschlag.",
+   "pageURL": "https://www.nordsee.com/de/produkte/dettaglio/plant-based_backvisch-br%C3%B6tchen___",
+   "dataURL": "https://www.nordsee.com/de/produkte/dettaglio/plant-based_backvisch-br%C3%B6tchen___",
+   "sha256": "645c6413605c19e774164f9621e04b98bc223cfdd0846a9ad8f983efea4a97d3"
+  },
+  {
+   "id": "pommes_frites_",
+   "name": "Pommes Frites",
+   "category": "fries",
+   "siteCategories": [
+    "Snacks"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 851.0,
+    "calories": 201.0,
+    "fat": 6.2,
+    "saturatedFat": 0.11,
+    "carbs": 33.0,
+    "sugar": 0.21,
+    "protein": 3.0,
+    "saltGrams": 0.47
+   },
+   "allergens": "Soja und Sojaerzeugnisse",
+   "description": "Goldgelb, dick und unwiderstehlich – so müssen Pommes sein! Die genießt Du am besten mit einer unserer drei leckeren Saucen: Pikante Cocktailsauce, cremige Knoblauchsauce oder feinwürzige Remouladensauce.  Die Nährwerte beziehen sich auf die normale Snackbox-Größe. Das Allergen „Soja und Sojaerzeugnisse\" ist nur im Waffelbecher enthalten.\r\n   \r\n Serviervorschlag.",
+   "pageURL": "https://www.nordsee.com/de/produkte/dettaglio/pommes_frites_",
+   "dataURL": "https://www.nordsee.com/de/produkte/dettaglio/pommes_frites_",
+   "sha256": "e014b719fddaf023bdedb50f9c7ebc1cab5502cfef4b55cd3c5dfde7de531bf9",
+   "aliases": [
+    "Pommes"
+   ]
+  },
+  {
+   "id": "rote_grütze_mit_vanilla-sauce",
+   "name": "Rote Grütze mit Vanilla-Sauce",
+   "category": "dessert",
+   "siteCategories": [
+    "Desserts"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 547.0,
+    "calories": 130.0,
+    "fat": 4.9,
+    "saturatedFat": 3.3,
+    "carbs": 19.0,
+    "sugar": 15.1,
+    "protein": 1.8,
+    "saltGrams": 0.11
+   },
+   "allergens": "Milch und Milcherzeugnisse einschließlich Laktose",
+   "description": "Was wäre NORDSEE ohne die typische norddeutsche Spezialität \"Rode Grütt\" – besser bekannt als Rote Grütze. Als köstliches Dessert mit Sahnesauce mit Vanillegeschmack der absolute Klassiker bei uns.\r\n   \r\n Serviervorschlag.",
+   "pageURL": "https://www.nordsee.com/de/produkte/dettaglio/rote_gr%C3%BCtze_mit_vanilla-sauce",
+   "dataURL": "https://www.nordsee.com/de/produkte/dettaglio/rote_gr%C3%BCtze_mit_vanilla-sauce",
+   "sha256": "b54f1873b73dec402fe414403026f1386c419bba92913e11c9ffae666bbcc7f1"
+  },
+  {
+   "id": "räucherlachs-bagel",
+   "name": "Räucherlachs-Bagel",
+   "category": "sandwich",
+   "siteCategories": [
+    "Highlights",
+    "Snacks"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 1012.0,
+    "calories": 243.0,
+    "fat": 12.0,
+    "saturatedFat": 2.2,
+    "carbs": 22.0,
+    "sugar": 1.7,
+    "protein": 9.7,
+    "saltGrams": 1.46
+   },
+   "allergens": "Fisch, Senf, Weizen , Milch, Gerste, Sesam",
+   "description": "Ein herzhaftes   Geschmackserlebnis,   u  nser Laugen-Bagel ist belegt mit zartem Räucherlachs, Cole Slaw, cremigem Frischkäse  ,   knackigem Baby  -  Salatmix   und einer   süßlich-  würzigen Sauce.   Perfekt für alle, die Lust auf eine frische und besondere Bagel-Kreation haben.   \r\n     \r\n  Serviervorschlag.",
+   "pageURL": "https://www.nordsee.com/de/produkte/dettaglio/r%C3%A4ucherlachs-bagel",
+   "dataURL": "https://www.nordsee.com/de/produkte/dettaglio/r%C3%A4ucherlachs-bagel",
+   "sha256": "cbac5d44caf7f0d3f9d9ef5cfe78092340f8347137eb1ce32c85e30b09eca971"
+  },
+  {
+   "id": "räucherlachs-wrap",
+   "name": "Räucherlachs-Wrap",
+   "category": "wrap",
+   "siteCategories": [
+    "Snacks"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 755.0,
+    "calories": 181.0,
+    "fat": 9.8,
+    "saturatedFat": 1.5,
+    "carbs": 15.1,
+    "sugar": 2.2,
+    "protein": 7.2,
+    "saltGrams": 1.5
+   },
+   "allergens": "Glutenhaltiges Getreide - Weizen, Eier und Eiererzeugnisse, Fisch und Fischerzeugnisse, Senf und Senferzeugnisse, Sellerie und Sellerieerzeugnisse",
+   "description": "Für Räucherlachs-Liebhaber ein echtes Must-have. Bester norwegischer Räucherlachs vereint mit schmackhafter Remouladensauce, Weißkrautsalat und knackigem Salat. Unsere Wraps sind „handmade\" und werden frisch für Dich in den Filialen gerollt.\r\n   \r\n Serviervorschlag.",
+   "pageURL": "https://www.nordsee.com/de/produkte/dettaglio/r%C3%A4ucherlachs-wrap",
+   "dataURL": "https://www.nordsee.com/de/produkte/dettaglio/r%C3%A4ucherlachs-wrap",
+   "sha256": "f9db615b4f053cbff04099cfec5d8bb95ff1e1751b574016661d9bf7b93eed7a"
+  },
+  {
+   "id": "salat_mit_garnelen_in_tortilla-bowl",
+   "name": "Salat mit Garnelen in Tortilla-Bowl",
+   "category": "salad",
+   "siteCategories": [
+    "Salate"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 583.0,
+    "calories": 139.0,
+    "fat": 4.6,
+    "saturatedFat": 1.4,
+    "carbs": 16.0,
+    "sugar": 2.1,
+    "protein": 7.5,
+    "saltGrams": 0.53
+   },
+   "allergens": "Glutenhaltiges Getreide - Weizen, Eier und Eiererzeugnisse, Fisch und Fischerzeugnisse",
+   "description": "Nicht nur die Sonnenstrahlen kommen endlich wieder zurück, sondern auch unsere leckeren Tortilla Bowls! Gefüllt mit Salat und Thunfisch oder Garnelen lassen sie einfach keine kulinarischen Wünsche mehr offen. ​Knackig bis zum letzten Bissen lassen sich unsere beliebten Bowl restlos genießen. \r\n   \r\n Serviervorschlag.",
+   "pageURL": "https://www.nordsee.com/de/produkte/dettaglio/salat_mit_garnelen_in_tortilla-bowl",
+   "dataURL": "https://www.nordsee.com/de/produkte/dettaglio/salat_mit_garnelen_in_tortilla-bowl",
+   "sha256": "62001fe6e54d844594db6e9d2c815d699aa0ca9542b2847f4556363b7aa248f8"
+  },
+  {
+   "id": "salat_mit_pulled_lachs_in_tortilla-bowl",
+   "name": "Salat mit pulled Lachs in Tortilla-Bowl",
+   "category": "salad",
+   "siteCategories": [
+    "Salate"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 595.0,
+    "calories": 143.0,
+    "fat": 7.7,
+    "saturatedFat": 1.7,
+    "carbs": 11.0,
+    "sugar": 1.8,
+    "protein": 6.7
+   },
+   "allergens": "Glutenhaltiges Getreide - Weizen, Eier und Eiererzeugnisse, Fisch und Fischerzeugnisse",
+   "description": "Der aufregende Snack für Zwischendurch: \r\n Nicht nur die Sonnenstrahlen kommen endlich wieder zurück, sondern auch unsere leckeren Tortilla Bowls! Gefüllt mit Salat und Thunfisch, Garnelen oder pulled Lachs lassen sie einfach keine kulinarischen Wünsche mehr offen. ​Knackig bis zum letzten Bissen lassen sich unsere beliebten Bowl restlos genießen.  \r\n Serviervorschlag.",
+   "pageURL": "https://www.nordsee.com/de/produkte/dettaglio/salat_mit_pulled_lachs_in_tortilla-bowl",
+   "dataURL": "https://www.nordsee.com/de/produkte/dettaglio/salat_mit_pulled_lachs_in_tortilla-bowl",
+   "sha256": "5491289031c3ae0cf4f866da91e6427ac565db1fde921dc457ea9c838f8419d1"
+  },
+  {
+   "id": "salat_mit_thunfisch_in_tortilla-bowl",
+   "name": "Salat mit Thunfisch in Tortilla-Bowl",
+   "category": "salad",
+   "siteCategories": [
+    "Salate"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 583.0,
+    "calories": 139.0,
+    "fat": 4.6,
+    "saturatedFat": 1.4,
+    "carbs": 16.0,
+    "sugar": 2.1,
+    "protein": 7.5,
+    "saltGrams": 0.53
+   },
+   "allergens": "Glutenhaltiges Getreide - Weizen, Eier und Eiererzeugnisse, Fisch und Fischerzeugnisse",
+   "description": "Nicht nur die Sonnenstrahlen kommen endlich wieder zurück, sondern auch unsere leckeren Tortilla Bowls! Gefüllt mit Salat und Thunfisch oder Garnelen lassen sie einfach keine kulinarischen Wünsche mehr offen. ​Knackig bis zum letzten Bissen lassen sich unsere beliebten Bowl restlos genießen. \r\n   \r\n Serviervorschlag.",
+   "pageURL": "https://www.nordsee.com/de/produkte/dettaglio/salat_mit_thunfisch_in_tortilla-bowl",
+   "dataURL": "https://www.nordsee.com/de/produkte/dettaglio/salat_mit_thunfisch_in_tortilla-bowl",
+   "sha256": "601b2b26d1dacde91f87f07ff1ffe2b0488dd4fc5a5911ad624d5a0de8cc6111"
+  },
+  {
+   "id": "seelachs-ei-baguette",
+   "name": "Seelachs-Ei-Baguette",
+   "category": "sandwich",
+   "siteCategories": [
+    "Snacks"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 896.0,
+    "calories": 214.0,
+    "fat": 8.5,
+    "saturatedFat": 1.6,
+    "carbs": 23.0,
+    "sugar": 1.1,
+    "protein": 10.0,
+    "saltGrams": 1.8
+   },
+   "allergens": "Glutenhaltiges Getreide - Weizen, Eier und Eiererzeugnisse, Fisch und Fischerzeugnisse, Senf und Senferzeugnisse",
+   "description": "Eine pikante Angelegenheit und unglaublich köstlich! Die kräftig gewürzten Seelachsschnitzel liefern den typisch salzigen Geschmack. In Kombination mit einem gekochten Ei, knackigem Salat und unserer würzigen Remouladensauce einfach unschlagbar!\r\n   \r\n Serviervorschlag.",
+   "pageURL": "https://www.nordsee.com/de/produkte/dettaglio/seelachs-ei-baguette",
+   "dataURL": "https://www.nordsee.com/de/produkte/dettaglio/seelachs-ei-baguette",
+   "sha256": "760a67533c56427876eca7d2f1dabdd9eabaadd5b3e8ce3484f6b4e2e81ac120"
+  },
+  {
+   "id": "seelachsfilet_vom_grill_",
+   "name": "Seelachsfilet vom Grill",
+   "category": "fish",
+   "siteCategories": [
+    "Tellergerichte"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 705.0,
+    "calories": 169.0,
+    "fat": 10.0,
+    "saturatedFat": 1.0,
+    "carbs": 11.0,
+    "sugar": 1.2,
+    "protein": 6.9,
+    "saltGrams": 0.9
+   },
+   "allergens": "Glutenhaltiges Getreide - Weizen, Fisch und Fischerzeugnisse",
+   "description": "Seelachs zählt aufgrund seines festen und weißen Fleisches zu den beliebtesten Speisefischen. Unser Seelachsfilet vom Grill ist fein mehliert und ohne Haut. Wähle dazu eine Beilage Deiner Wahl sowie eine unserer Saucen. \r\n   \r\n Serviervorschlag.",
+   "pageURL": "https://www.nordsee.com/de/produkte/dettaglio/seelachsfilet_vom_grill_",
+   "dataURL": "https://www.nordsee.com/de/produkte/dettaglio/seelachsfilet_vom_grill_",
+   "sha256": "4f6f5169f9f1a0b6b29c71a4c9368bc33fdd407b1dc5b03fe1dd9207d15b901d"
+  },
+  {
+   "id": "shrimps_&_chips",
+   "name": "Shrimps & Chips",
+   "category": "fish",
+   "siteCategories": [
+    "Snacks"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 897.0,
+    "calories": 214.0,
+    "fat": 7.3,
+    "saturatedFat": 0.89,
+    "carbs": 30.0,
+    "sugar": 0.79,
+    "protein": 5.0,
+    "saltGrams": 1.4
+   },
+   "allergens": "Glutenhaltiges Getreide - Weizen, Krebstiere und Krebstiererzeugnisse",
+   "description": "Dieses Duo ergänzt sich perfekt: Unsere knusprig gebackenen Knoblauchgarnelen mit köstlichen Pommes Frites bereiten Dir schon den absoluten Hochgenuss. Die feine Cocktailsauce toppt das Ganze vollends. Lass es Dir schmecken! Die Nährwertangaben beziehen sich auf die Portionsgröße \"normal\". \r\n Serviervorschlag.",
+   "pageURL": "https://www.nordsee.com/de/produkte/dettaglio/shrimps_%26_chips",
+   "dataURL": "https://www.nordsee.com/de/produkte/dettaglio/shrimps_%26_chips",
+   "sha256": "20064899e920832379a60e6987252f9d92598f61445c73766c7324cacbf2669e",
+   "aliases": [
+    "Shrimps and Chips"
+   ]
+  },
+  {
+   "id": "thunfisch-wrap",
+   "name": "Thunfisch-Wrap",
+   "category": "wrap",
+   "siteCategories": [
+    "Highlights",
+    "Snacks"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 716.0,
+    "calories": 171.0,
+    "fat": 8.4,
+    "saturatedFat": 1.3,
+    "carbs": 15.0,
+    "sugar": 1.9,
+    "protein": 8.2,
+    "saltGrams": 1.1
+   },
+   "allergens": "Glutenhaltiges Getreide - Weizen, Fisch und Fischerzeugnisse, Senf und Senferzeugnisse",
+   "description": "Unser Thunfisch-Wrap: Weizentortilla mit leckerem Salat-Mix, Thunfisch, abgerundet mit Remouladensauce.",
+   "pageURL": "https://www.nordsee.com/de/produkte/dettaglio/thunfisch-wrap",
+   "dataURL": "https://www.nordsee.com/de/produkte/dettaglio/thunfisch-wrap",
+   "sha256": "3b9377b3de5837457c5926bd97ed2e32797cc273496508f68e8b1b0f05db2cce"
+  },
+  {
+   "id": "tiramisu-creme_mit_biscoff_topping_und_biscoff_biscuit_crumbs",
+   "name": "Tiramisu-Creme mit Biscoff® topping und Biscoff® biscuit crumbs",
+   "category": "dessert",
+   "siteCategories": [
+    "Highlights",
+    "Desserts"
+   ],
+   "valuesPer100g": {
+    "energyKJ": 1233.0,
+    "calories": 297.0,
+    "fat": 23.0,
+    "saturatedFat": 13.0,
+    "carbs": 19.0,
+    "sugar": 14.0,
+    "protein": 3.0,
+    "saltGrams": 0.23
+   },
+   "allergens": "Glutenhaltiges Getreide - Weizen, Soja und Sojaerzeugnisse, Milch und Milcherzeugnisse einschließlich Laktose",
+   "description": "Cremiges Tiramisu mit Biscoff®-Topping und Biscoff®-Keksbröseln.",
+   "pageURL": "https://www.nordsee.com/de/produkte/dettaglio/tiramisu-creme_mit_biscoff_topping_und_biscoff_biscuit_crumbs",
+   "dataURL": "https://www.nordsee.com/de/produkte/dettaglio/tiramisu-creme_mit_biscoff_topping_und_biscoff_biscuit_crumbs",
+   "sha256": "8ecde2a356b115de2d7c8118e7750402e7d45bc4b83e92ab1245415a801e2196"
+  }
+ ],
+ "excluded": [
+  {
+   "id": "backfisch_mit_remoulade",
+   "name": "Backfisch mit Remoulade",
+   "reason": "a supermarket retail product (category Supermarkt), not a restaurant item"
+  },
+  {
+   "id": "backfisch_mit_remoulade:_xxl-pack_",
+   "name": "Backfisch mit Remoulade: XXL-Pack",
+   "reason": "a supermarket retail product (category Supermarkt), not a restaurant item"
+  },
+  {
+   "id": "brezel-backfisch_mit_remoulade",
+   "name": "Brezel-Backfisch mit Remoulade",
+   "reason": "a supermarket retail product (category Supermarkt), not a restaurant item"
+  },
+  {
+   "id": "brezel-backfisch_mit_remoulade:_xxl-pack",
+   "name": "Brezel-Backfisch mit Remoulade: XXL-Pack",
+   "reason": "a supermarket retail product (category Supermarkt), not a restaurant item"
+  },
+  {
+   "id": "coca-cola_classic",
+   "name": "Coca-Cola Classic",
+   "reason": "its page states no nutrition values"
+  },
+  {
+   "id": "coca-cola_light_",
+   "name": "Coca-Cola Light",
+   "reason": "its page states no nutrition values"
+  },
+  {
+   "id": "coca-cola_zero_",
+   "name": "Coca-Cola Zero",
+   "reason": "its page states no nutrition values"
+  },
+  {
+   "id": "fanta_orange",
+   "name": "Fanta Orange",
+   "reason": "its page states no nutrition values"
+  },
+  {
+   "id": "fischfrikadellen_bremer_art_mit_tomatenketchup",
+   "name": "Fischfrikadellen Bremer Art mit Tomatenketchup",
+   "reason": "a supermarket retail product (category Supermarkt), not a restaurant item"
+  },
+  {
+   "id": "fischstäbchen",
+   "name": "Fischstäbchen",
+   "reason": "a supermarket retail product (category Supermarkt), not a restaurant item"
+  },
+  {
+   "id": "fischstäbchen_xxl",
+   "name": "Fischstäbchen XXL",
+   "reason": "a supermarket retail product (category Supermarkt), not a restaurant item"
+  },
+  {
+   "id": "fish_&_chips_xxl",
+   "name": "Fish & Chips XXL",
+   "reason": "a supermarket retail product (category Supermarkt), not a restaurant item"
+  },
+  {
+   "id": "fuze_tea_pfirsich",
+   "name": "Fuze Tea Pfirsich",
+   "reason": "its page states no nutrition values"
+  },
+  {
+   "id": "fuze_tea_zitrone",
+   "name": "Fuze Tea Zitrone",
+   "reason": "its page states no nutrition values"
+  },
+  {
+   "id": "heinz_nordsee_inspired_remoulade",
+   "name": "Heinz Nordsee inspired Remoulade",
+   "reason": "a supermarket retail product (category Supermarkt), not a restaurant item"
+  },
+  {
+   "id": "kaffeespezialitäten",
+   "name": "Kaffeespezialitäten",
+   "reason": "its page states no nutrition values"
+  },
+  {
+   "id": "kids_burger_menü",
+   "name": "Kids Burger Menü",
+   "reason": "its page states no nutrition values"
+  },
+  {
+   "id": "knuspergarnelen",
+   "name": "Knuspergarnelen",
+   "reason": "a supermarket retail product (category Supermarkt), not a restaurant item"
+  },
+  {
+   "id": "lift_apfelschorle",
+   "name": "Lift Apfelschorle",
+   "reason": "its page states no nutrition values"
+  },
+  {
+   "id": "matjesfilets_nach_nordischer_art_mit_milder_rauchnote",
+   "name": "Matjesfilets nach nordischer Art mit milder Rauchnote",
+   "reason": "a supermarket retail product (category Supermarkt), not a restaurant item"
+  },
+  {
+   "id": "matjesfilets_nach_nordischer_art_mit_milder_rauchnote:_xxl-pack",
+   "name": "Matjesfilets nach nordischer Art mit milder Rauchnote: XXL-Pack",
+   "reason": "a supermarket retail product (category Supermarkt), not a restaurant item"
+  },
+  {
+   "id": "matjesfilets_nach_nordischer_art_mit_rapsölfilm_mit_orangen_senf-sauce",
+   "name": "Matjesfilets nach nordischer Art mit Rapsölfilm mit Orangen Senf-Sauce",
+   "reason": "a supermarket retail product (category Supermarkt), not a restaurant item"
+  },
+  {
+   "id": "matjesfilets_nach_nordischer_art_mit_sauce_sylter_art",
+   "name": "Matjesfilets nach nordischer Art mit Sauce Sylter Art",
+   "reason": "a supermarket retail product (category Supermarkt), not a restaurant item"
+  },
+  {
+   "id": "matjesfilets_nach_nordischer_art_mit_sauce_sylter_art:_xxl-pack",
+   "name": "Matjesfilets nach nordischer Art mit Sauce Sylter Art: XXL-Pack",
+   "reason": "a supermarket retail product (category Supermarkt), not a restaurant item"
+  },
+  {
+   "id": "mezzo_mix",
+   "name": "Mezzo Mix",
+   "reason": "its page states no nutrition values"
+  },
+  {
+   "id": "red_bull_energy",
+   "name": "Red Bull Energy",
+   "reason": "its page states no nutrition values"
+  },
+  {
+   "id": "red_bull_white_edition_kokos-blaubeere",
+   "name": "Red Bull White Edition Kokos-Blaubeere",
+   "reason": "its page states no nutrition values"
+  },
+  {
+   "id": "red_bull_zero",
+   "name": "Red Bull Zero",
+   "reason": "its page states no nutrition values"
+  },
+  {
+   "id": "schlemmerfilet_bordelaise",
+   "name": "Schlemmerfilet Bordelaise",
+   "reason": "a supermarket retail product (category Supermarkt), not a restaurant item"
+  },
+  {
+   "id": "schlemmerfilet_extra_knusprig",
+   "name": "Schlemmerfilet Extra Knusprig",
+   "reason": "a supermarket retail product (category Supermarkt), not a restaurant item"
+  },
+  {
+   "id": "schlemmerfilet_italiano",
+   "name": "Schlemmerfilet Italiano",
+   "reason": "a supermarket retail product (category Supermarkt), not a restaurant item"
+  },
+  {
+   "id": "sprite",
+   "name": "Sprite",
+   "reason": "its page states no nutrition values"
+  },
+  {
+   "id": "tempura-garnelen_mit_sweet-chili-dip",
+   "name": "Tempura-Garnelen mit Sweet-Chili-Dip",
+   "reason": "a supermarket retail product (category Supermarkt), not a restaurant item"
+  },
+  {
+   "id": "vio_mineralwasser_medium",
+   "name": "ViO Mineralwasser medium",
+   "reason": "its page states no nutrition values"
+  },
+  {
+   "id": "vio_mineralwasser_still",
+   "name": "ViO Mineralwasser still",
+   "reason": "its page states no nutrition values"
+  },
+  {
+   "id": "zitronen-kräuter-backfisch_mit_remoulade",
+   "name": "Zitronen-Kräuter-Backfisch mit Remoulade",
+   "reason": "a supermarket retail product (category Supermarkt), not a restaurant item"
+  }
+ ]
+}

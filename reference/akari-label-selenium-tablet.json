@@ -1,0 +1,58 @@
+{
+  "id": "akari:label:selenium-tablet",
+  "name": "Selenium tablet or capsule",
+  "identity": "Small one-a-day selenium tablet of 55 to 200 µg selenium; the dose is one tablet.",
+  "rule": "Per 100 g of the product, each value is the median of the labels below that declare it, and a value enters only when at least three declare it; a label states its nutrients per dose, so the file converts them with the dose's weight (the pack's net content divided by its count of tablets, capsules, sticks or drops, or the stated dose weight). Salt becomes sodium (salt in g × 400 = sodium in mg). Fewer than three labels declare energy, so the row stands at 0 kcal under the verification policy's clause for label generics with a micronutrient. Nothing a label leaves out becomes zero. Labels read on 2026-10-30 from dm.de, rossmann.de and shop-apotheke.com product pages.",
+  "nutrients": {
+    "selenium": 19679.3,
+    "calories": 0
+  },
+  "portions": [
+    {
+      "grams": 0.533333,
+      "label": "1 tablet or capsule"
+    }
+  ],
+  "labels": [
+    {
+      "brand": "Mivolis",
+      "product": "Selen Tabletten 60 St, 15 g",
+      "read": "https://www.dm.de/p/d/3142667/ (dm.de product page, Nährwerte and Zutaten panels; GTIN not stated)",
+      "date": "2026-10-30",
+      "ingredients": "Füllstoff Mikrokristalline Cellulose, Natriumselenat, Überzugsmittel Hydroxypropylmethylcellulose, Trennmittel Magnesiumsalze der Speisefettsäuren",
+      "serving": "1 Tablette: 60 units weigh 15 g, so the dose is 0.25 g; the label declares per dose: seleniumUg 55; no energy or macros declared; the page's table states no dose count; taken as one unit, the one-a-day form the pack size implies",
+      "per100g": {
+        "seleniumUg": 22000.0
+      }
+    },
+    {
+      "brand": "Doppelherz",
+      "product": "Selen 150 Depot-Tabletten 45 St, 34,3 g",
+      "read": "https://www.dm.de/p/d/3104771/ (dm.de product page, Nährwerte and Zutaten panels; GTIN not stated)",
+      "date": "2026-10-30",
+      "ingredients": "Füllstoff Dicalciumphosphat, Füllstoff mikrokristalline Cellulose, Überzugsmittel Hydroxypropylmethylcellulose, modifizierte Stärke, Trennmittel Speisefettsäuren, Trennmittel Magnesiumsalze der Speisefettsäuren, Überzugsmittel Hydroxypropylcellulose, Farbstoff Riboflavin-5'-Phosphat, Farbstoff Eisenoxide und Eisenhydroxide, Trennmittel vernetzte Carboxymethylcellulose, Trennmittel Talkum, Trennmittel Siliciumdioxid, Kokosöl, Natriumselenit",
+      "serving": "1 Tablette: 45 units weigh 34.3 g, so the dose is 0.762 g; the label declares per dose: seleniumUg 150; no energy or macros declared",
+      "per100g": {
+        "seleniumUg": 19679.3
+      }
+    },
+    {
+      "brand": "altapharma",
+      "product": "Selen 100, 30 Kapseln, 16 g",
+      "read": "https://www.rossmann.de/de/gesundheit-altapharma-selen-100/p/4305615911809 (rossmann.de product page, Zutaten and Nährwerte sections; GTIN 4305615911809)",
+      "date": "2026-10-30",
+      "ingredients": "Füllstoff mikrokristalline Cellulose; Maltodextrin, Trennmittel Magnesiumsalze der Speisefettsäuren; Füllstoff vernetzte Carboxymethylcellulose; Natriumselenit",
+      "serving": "1 Kapsel: 30 units weigh 16 g, so the dose is 0.533 g; the label declares per dose: seleniumUg 100; per 100 g 979 kJ / 241 kcal, fat 1.8 g, saturates 1.8 g, carbohydrate 15 g, sugars 0.6 g, protein < 0.5 g, salt 0.26 g; under-values counted at half the threshold",
+      "per100g": {
+        "seleniumUg": 18750.0,
+        "energyKcal": 241.0,
+        "fat": 1.8,
+        "saturates": 1.8,
+        "carbohydrate": 15.0,
+        "sugars": 0.6,
+        "protein": 0.25,
+        "salt": 0.26
+      }
+    }
+  ]
+}
