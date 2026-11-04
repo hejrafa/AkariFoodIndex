@@ -1,0 +1,12 @@
+dist/
+downloads/
+__pycache__/
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+# Fetched from foods.joinakari.com before a build; never part of this repository.
+chains/
+akari-reference/
+pack/
+previous-release/
+r2-manifests/

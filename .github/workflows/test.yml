@@ -1,0 +1,23 @@
+name: Test product index
+on:
+  pull_request:
+  push:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      # Rule 4's finished claim list, published by the Akari app repository's
+      # data pack workflow; this repository carries no chain file.
+      - name: Fetch the menu claims
+        run: |
+          mkdir -p chains
+          curl --fail --location --retry 3 --output chains/menu-claims.json \
+            https://foods.joinakari.com/latest/menu-claims.json
+      - run: python3 -m unittest discover -p 'test_*.py'
